@@ -1,0 +1,106 @@
+{
+	CHAT = {},
+	TALK = {},
+	BUFF = {},
+	DOODAD = {
+		[216] = {
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "金晶岩·泛天河",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 120,
+					},
+				},
+				szNote = "泛天河",
+				dwID = 10559,
+			},
+		},
+	},
+	NPC = {
+		[642] = {
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "颂端云·泛天河",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+					},
+				},
+				nFrame = 47,
+				szNote = "泛天河",
+				dwID = 126973,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "齐云狸·泛天河",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+					},
+				},
+				nFrame = 52,
+				szNote = "泛天河",
+				dwID = 126976,
+			},
+		},
+	},
+	CASTING = {},
+	DEBUFF = {},
+	__meta = {
+		nTimeStamp = 1707499779,
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "",
+	},
+}

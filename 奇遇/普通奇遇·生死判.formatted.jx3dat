@@ -1,0 +1,321 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {},
+	NPC = {
+		[25] = {
+			{
+				nFrame = 47,
+				dwID = 43856,
+				aFocus = {
+					{
+						szDisplay = "卞凡通·生死判·驱遣",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "生死判·卞凡通",
+			},
+			{
+				nFrame = 47,
+				dwID = 43859,
+				aFocus = {
+					{
+						szDisplay = "江沅陵·生死判·入盟",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "生死判·江沅陵",
+			},
+			{
+				nFrame = 47,
+				dwID = 43858,
+				aFocus = {
+					{
+						szDisplay = "彭戚远·生死判·驱遣",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "生死判·彭戚远",
+			},
+			{
+				nFrame = 47,
+				dwID = 43855,
+				aFocus = {
+					{
+						szDisplay = "李经州·生死判·入盟",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "生死判·李经州",
+			},
+			{
+				nFrame = 47,
+				dwID = 43857,
+				aFocus = {
+					{
+						szDisplay = "韩猛·生死判·驱遣",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "生死判·韩猛",
+			},
+		},
+		[27] = {
+			{
+				dwID = 43854,
+				aFocus = {
+					{
+						szDisplay = "英布·生死判·入谷",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "生死判·英布",
+				nFrame = 47,
+			},
+			{
+				dwID = 43853,
+				aFocus = {
+					{
+						szDisplay = "董天重·生死判·入谷",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "生死判·董天重",
+				nFrame = 47,
+			},
+			{
+				dwID = 43852,
+				aFocus = {
+					{
+						szDisplay = "冯盅·生死判·驱遣",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "生死判·冯盅",
+				nFrame = 47,
+			},
+			{
+				dwID = 43821,
+				aFocus = {
+					{
+						szDisplay = "向拓·生死判·驱遣",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "生死判·向拓",
+				nFrame = 47,
+			},
+			{
+				dwID = 43820,
+				aFocus = {
+					{
+						szDisplay = "王麒·生死判·入谷",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "生死判·王麒",
+				nFrame = 47,
+			},
+		},
+	},
+	DEBUFF = {
+		[-1] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				szName = "看信",
+				nIcon = 22438,
+				szNote = "看信",
+				dwID = 7907,
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1749455048,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}

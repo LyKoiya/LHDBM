@@ -1,0 +1,408 @@
+return {
+	BUFF = {
+		[515] = {
+			{
+				nLevel = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 19111,
+				[1] = {
+					bPartyBuffList = true,
+					bScreenHead = true,
+					bBuffList = true,
+					tMark = {
+						true,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+					},
+				},
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#00FF00",
+						col = "#00FF00FF",
+						nPriority = 1,
+						nColAlpha = 255,
+						bScreenHead = true,
+					},
+				},
+			},
+		},
+	},
+	CHAT = {
+		[515] = {
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "我方·{$1}",
+						nTime = 600,
+						szName = "我方·{$1}·被{$2}",
+						nFrame = 7,
+						nIcon = 13,
+					},
+				},
+				szContent = "我方的(.-)被(.-)[，]\
+",
+				bReg = true,
+				szNote = "我方·{$1}·被{$2}",
+				[20] = {
+					bCenterAlarm = true,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "敌方·{$3}",
+						nTime = 600,
+						szName = "敌方·{$3}·已{$1}",
+						nFrame = 3,
+						nIcon = 13,
+					},
+				},
+				szContent = "我方(.-)了([敌对]-方)[的]*(.-)[，][！]",
+				bReg = true,
+				szNote = "敌方·{$3}·已{$1}",
+				[20] = {
+					bCenterAlarm = true,
+				},
+			},
+		},
+	},
+	CASTING = {},
+	TALK = {},
+	NPC = {
+		[515] = {
+			{
+				nFrame = 52,
+				[3] = {
+					tMark = {
+						false,
+						true,
+						true,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+					},
+				},
+				dwID = 103440,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "复活点旗帜",
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+					tMark = {
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						true,
+					},
+				},
+				dwID = 103428,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "阿甘",
+			},
+			{
+				nFrame = 64,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 103611,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "物资箱",
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+					tMark = {
+						false,
+						true,
+						true,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+					},
+				},
+				dwID = 103426,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 1,
+							bEnable = true,
+						},
+						nMaxDistance = 0,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "粮仓",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+					tMark = {
+						false,
+						true,
+						true,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+					},
+				},
+				dwID = 103427,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 1,
+							bEnable = true,
+						},
+						nMaxDistance = 0,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "工坊",
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					tMark = {
+						true,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+					},
+				},
+				dwID = 103392,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "大旗",
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+					tMark = {
+						false,
+						true,
+						true,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+					},
+				},
+				dwID = 103254,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 1,
+							bEnable = true,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "城门",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 103364,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "神机台",
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1722937254,
+		szCustomVoicePacketUUID = "",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}

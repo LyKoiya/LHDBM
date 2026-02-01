@@ -1,0 +1,1355 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {
+		[487] = {
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "少林",
+						nTime = 20,
+						szName = "侠影·少林·冷却",
+						nFrame = 4,
+						nIcon = 13693,
+					},
+				},
+				dwID = 24567,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "万花",
+						nTime = 10,
+						szName = "侠影·万花·冷却",
+						nFrame = 4,
+						nIcon = 13694,
+					},
+				},
+				dwID = 24568,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "天策",
+						nTime = 25,
+						szName = "侠影·天策·冷却",
+						nFrame = 4,
+						nIcon = 13695,
+					},
+				},
+				dwID = 24569,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "纯阳",
+						nTime = 20,
+						szName = "侠影·纯阳·冷却",
+						nFrame = 4,
+						nIcon = 13696,
+					},
+				},
+				dwID = 24570,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "七秀",
+						nTime = 30,
+						szName = "侠影·七秀·冷却",
+						nFrame = 4,
+						nIcon = 13697,
+					},
+				},
+				dwID = 24571,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "唐门",
+						nTime = 10,
+						szName = "侠影·唐门·冷却",
+						nFrame = 4,
+						nIcon = 13700,
+					},
+				},
+				dwID = 24572,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "五毒",
+						nTime = 25,
+						szName = "侠影·五毒·冷却",
+						nFrame = 4,
+						nIcon = 13699,
+					},
+				},
+				dwID = 24573,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "藏剑",
+						nTime = 20,
+						szName = "侠影·藏剑·冷却",
+						nFrame = 4,
+						nIcon = 13698,
+					},
+				},
+				dwID = 24574,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "丐帮",
+						nTime = 25,
+						szName = "侠影·丐帮·冷却",
+						nFrame = 4,
+						nIcon = 13702,
+					},
+				},
+				dwID = 24575,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "明教",
+						nTime = 25,
+						szName = "侠影·明教·冷却",
+						nFrame = 4,
+						nIcon = 13701,
+					},
+				},
+				dwID = 24576,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "苍云",
+						nTime = 25,
+						szName = "侠影·苍云·冷却",
+						nFrame = 4,
+						nIcon = 13703,
+					},
+				},
+				dwID = 24577,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "长歌",
+						nTime = 40,
+						szName = "侠影·长歌·冷却",
+						nFrame = 4,
+						nIcon = 13704,
+					},
+				},
+				dwID = 24578,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "霸刀",
+						nTime = 15,
+						szName = "侠影·霸刀·冷却",
+						nFrame = 4,
+						nIcon = 13705,
+					},
+				},
+				dwID = 24579,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "蓬莱",
+						nTime = 20,
+						szName = "侠影·蓬莱·冷却",
+						nFrame = 4,
+						nIcon = 13706,
+					},
+				},
+				dwID = 24580,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "凌雪",
+						nTime = 30,
+						szName = "侠影·凌雪·冷却",
+						nFrame = 4,
+						nIcon = 13707,
+					},
+				},
+				dwID = 24581,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "心影",
+						nTime = 6,
+						szName = "侠影·心影·冷却",
+						nFrame = 4,
+						nIcon = 9866,
+					},
+				},
+				dwID = 24582,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "少林",
+						nTime = 20,
+						szName = "侠影·少林·冷却",
+						nFrame = 4,
+						nIcon = 13693,
+					},
+				},
+				dwID = 24769,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "万花",
+						nTime = 10,
+						szName = "侠影·万花·冷却",
+						nFrame = 4,
+						nIcon = 13694,
+					},
+				},
+				dwID = 24770,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "天策",
+						nTime = 25,
+						szName = "侠影·天策·冷却",
+						nFrame = 4,
+						nIcon = 13695,
+					},
+				},
+				dwID = 24771,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "纯阳",
+						nTime = 20,
+						szName = "侠影·纯阳·冷却",
+						nFrame = 4,
+						nIcon = 13696,
+					},
+				},
+				dwID = 24772,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "七秀",
+						nTime = 30,
+						szName = "侠影·七秀·冷却",
+						nFrame = 4,
+						nIcon = 13697,
+					},
+				},
+				dwID = 24773,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "唐门",
+						nTime = 10,
+						szName = "侠影·唐门·冷却",
+						nFrame = 4,
+						nIcon = 13700,
+					},
+				},
+				dwID = 24774,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "五毒",
+						nTime = 25,
+						szName = "侠影·五毒·冷却",
+						nFrame = 4,
+						nIcon = 13699,
+					},
+				},
+				dwID = 24775,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "藏剑",
+						nTime = 20,
+						szName = "侠影·藏剑·冷却",
+						nFrame = 4,
+						nIcon = 13698,
+					},
+				},
+				dwID = 24776,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "丐帮",
+						nTime = 25,
+						szName = "侠影·丐帮·冷却",
+						nFrame = 4,
+						nIcon = 13702,
+					},
+				},
+				dwID = 24777,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "明教",
+						nTime = 25,
+						szName = "侠影·明教·冷却",
+						nFrame = 4,
+						nIcon = 13701,
+					},
+				},
+				dwID = 24778,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "苍云",
+						nTime = 25,
+						szName = "侠影·苍云·冷却",
+						nFrame = 4,
+						nIcon = 13703,
+					},
+				},
+				dwID = 24779,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "长歌",
+						nTime = 40,
+						szName = "侠影·长歌·冷却",
+						nFrame = 4,
+						nIcon = 13704,
+					},
+				},
+				dwID = 24780,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "霸刀",
+						nTime = 15,
+						szName = "侠影·霸刀·冷却",
+						nFrame = 4,
+						nIcon = 13705,
+					},
+				},
+				dwID = 24781,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "蓬莱",
+						nTime = 20,
+						szName = "侠影·蓬莱·冷却",
+						nFrame = 4,
+						nIcon = 13706,
+					},
+				},
+				dwID = 24782,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "凌雪",
+						nTime = 30,
+						szName = "侠影·凌雪·冷却",
+						nFrame = 4,
+						nIcon = 13707,
+					},
+				},
+				dwID = 24783,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "心影",
+						nTime = 6,
+						szName = "侠影·心影·冷却",
+						nFrame = 4,
+						nIcon = 9866,
+					},
+				},
+				dwID = 24784,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "定身",
+						nTime = 30,
+						szName = "定身剩余时间",
+						nFrame = 3,
+						nIcon = 11373,
+					},
+				},
+				dwID = 24758,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "衍天",
+						nTime = 30,
+						szName = "侠影·衍天·冷却",
+						nFrame = 4,
+						nIcon = 22686,
+					},
+				},
+				dwID = 28167,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "衍天",
+						nTime = 30,
+						szName = "侠影·衍天·冷却",
+						nFrame = 4,
+						nIcon = 22686,
+					},
+				},
+				dwID = 28168,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "药宗",
+						nTime = 30,
+						szName = "侠影·药宗·冷却",
+						nFrame = 4,
+						nIcon = 22683,
+					},
+				},
+				dwID = 38267,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "药宗",
+						nTime = 30,
+						szName = "侠影·药宗·冷却",
+						nFrame = 4,
+						nIcon = 22683,
+					},
+				},
+				dwID = 38268,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "刀宗",
+						nTime = 10,
+						szName = "侠影·刀宗·冷却",
+						nFrame = 4,
+						nIcon = 22684,
+					},
+				},
+				dwID = 38269,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "刀宗",
+						nTime = 10,
+						szName = "侠影·刀宗·冷却",
+						nFrame = 4,
+						nIcon = 22684,
+					},
+				},
+				dwID = 38270,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "万灵",
+						nTime = 10,
+						szName = "侠影·万灵·冷却",
+						nFrame = 4,
+						nIcon = 22685,
+					},
+				},
+				dwID = 38271,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "万灵",
+						nTime = 10,
+						szName = "侠影·万灵·冷却",
+						nFrame = 4,
+						nIcon = 22685,
+					},
+				},
+				dwID = 38272,
+			},
+		},
+	},
+	TALK = {
+		[487] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "{$1}·0",
+						nTime = -1,
+						szName = "{$1}·0",
+						nRefresh = 3600,
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "{$1}·{$2}",
+						nTime = 20,
+						szName = "镜花别院·本周上限·{$2}",
+						nRefresh = 2,
+						nFrame = 4,
+						nIcon = 11381,
+					},
+					{
+						nClass = 14,
+						key = "{$1}·{$2}",
+						nTime = -2,
+						szName = "{$1}·{$2}",
+						nFrame = 4,
+						nIcon = 11381,
+					},
+					{
+						nClass = 14,
+						key = "{$1}·0",
+						nTime = 20,
+						szName = "{$1}·本周已达上限",
+						nRefresh = 1,
+						nFrame = 2,
+						nIcon = 11381,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "万灵",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "刀宗",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "药宗",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "衍天",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "凌雪",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "蓬莱",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "霸刀",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "长歌",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "苍云",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "丐帮",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "明教",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "唐门",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "五毒",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "藏剑",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "七秀",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "少林",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "天策",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "纯阳",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "万花",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "心影",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "定身",
+						nTime = 0,
+					},
+				},
+				bReg = true,
+				szContent = "^本周还可以(.-)获得(%d-)个(.-)。",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "万灵",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "刀宗",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "药宗",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "衍天",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "凌雪",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "蓬莱",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "霸刀",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "长歌",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "苍云",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "丐帮",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "明教",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "唐门",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "五毒",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "藏剑",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "七秀",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "少林",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "天策",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "纯阳",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "万花",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "心影",
+						nTime = 0,
+					},
+					{
+						nClass = 14,
+						nIcon = 13,
+						key = "定身",
+						nTime = 0,
+					},
+				},
+				szContent = "的获取已达周上限。",
+				bSearch = true,
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "命魂剩余2，务必小心。",
+				szNote = "命魂剩余2",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "命魂剩余1，务必小心。",
+				szNote = "命魂剩余1",
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 7,
+						nTime = 30,
+						szName = "定身结束·剩余",
+						nClass = 14,
+						nIcon = 13,
+					},
+				},
+				szContent = "烈焰燃身，束灵缚魂。",
+				szTarget = "式神铃",
+			},
+		},
+	},
+	NPC = {
+		[487] = {
+			{
+				nFrame = 67,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 10,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "式神铃",
+				dwID = 99730,
+			},
+			{
+				nFrame = 47,
+				dwID = 99921,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = "<",
+							nValue = 25,
+							bEnable = true,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "多多",
+				tCountdown = {
+					{
+						nFrame = 5,
+						nTime = "0.24-,!",
+						szName = "",
+						nClass = 6,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bCenterAlarm = true,
+				},
+				dwID = 99432,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "沐秋月",
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bCenterAlarm = true,
+				},
+				dwID = 99433,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "陈徽",
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bCenterAlarm = true,
+				},
+				dwID = 99426,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "红衣教祭祀",
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bCenterAlarm = true,
+				},
+				dwID = 99421,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "狼牙弓箭手",
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						szDisplay = "地鼠门门徒",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+					},
+				},
+				szName = "地鼠门门徒",
+				dwID = 99429,
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						szDisplay = "碧空云雀",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+					},
+				},
+				szName = "碧空云雀",
+				dwID = 99427,
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						szDisplay = "狼牙蛮卫",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+					},
+				},
+				szName = "狼牙蛮卫",
+				dwID = 99420,
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						szDisplay = "狼牙盾卫",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+					},
+				},
+				szName = "狼牙盾卫",
+				dwID = 99430,
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						szDisplay = "狼牙统领",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+					},
+				},
+				szName = "狼牙统领",
+				dwID = 99423,
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						szDisplay = "暗影刺客",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+					},
+				},
+				szName = "暗影刺客",
+				dwID = 99428,
+			},
+			{
+				nFrame = 47,
+				szName = "梦境之力",
+				aFocus = {
+					{
+						szDisplay = "梦境之力",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+					},
+				},
+				szNote = "梦境之力",
+				dwID = 99925,
+			},
+			{
+				nFrame = 67,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 99541,
+				szNote = "式神铃",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+		},
+	},
+	DEBUFF = {
+		[487] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 6,
+				bCheckLevel = true,
+				szName = "移列",
+				dwID = 17807,
+				szNote = "移兵遁甲",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 5,
+				bCheckLevel = true,
+				szName = "减速",
+				dwID = 17807,
+				szNote = "迷沼",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 3,
+				bCheckLevel = true,
+				szName = "无敌",
+				dwID = 17807,
+				szNote = "山海同风",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 2,
+				bCheckLevel = true,
+				szName = "回血",
+				dwID = 17807,
+				szNote = "杏林·复苏",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				bCheckLevel = true,
+				szName = "{$N67275}",
+				dwID = 17807,
+				szNote = "神机弹",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 4,
+				bCheckLevel = true,
+				dwID = 17807,
+				szName = "地雷",
+				szNote = "天机雷",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 17762,
+				szName = "心念",
+				szNote = "灵力标记",
+				nIcon = 9866,
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1759428889,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}

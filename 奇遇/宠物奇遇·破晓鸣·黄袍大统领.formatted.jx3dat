@@ -1,0 +1,348 @@
+{
+	CHAT = {},
+	TALK = {
+		[10] = {
+			{
+				szContent = "多谢少侠！",
+				tCountdown = {
+					{
+						key = "奇遇提示0",
+						nFrame = 0,
+						nIcon = 17135,
+						nTime = "5,恭喜触发·破晓鸣·黄袍大统领;15,奇遇不封印·约10分钟完成;30,1.对话·猫猫;90,2.前往·车夫附近·韩惜辰;120,3.东边·椰子树下·诱捕的工具;150,4.交互·笼子·公鸡;210,5.前往·东侧·菊池岛;240,6.对话·一个晕倒的人;270,7.返回·韩惜辰·返回菊池岛;300,8.对话·顾释;310,完成奇遇·破晓鸣·黄袍大统领",
+						nClass = 14,
+						nRefresh = 0,
+						szName = "奇遇提示0",
+					},
+					{
+						key = "奇遇提示1",
+						nIcon = 17135,
+						nTime = 600,
+						nFrame = 7,
+						nClass = 14,
+						szName = "对话·猫猫·车夫附近·韩惜辰",
+					},
+					{
+						key = "奇遇提示2",
+						nIcon = 17135,
+						nTime = 600,
+						nFrame = 7,
+						nClass = 14,
+						szName = "东边·椰子树下·诱捕的工具",
+					},
+					{
+						key = "奇遇提示3",
+						nIcon = 17135,
+						nTime = 600,
+						nFrame = 7,
+						nClass = 14,
+						szName = "交互·笼子·前往·东侧菊池岛",
+					},
+				},
+				szTarget = "猫猫",
+			},
+			{
+				tCountdown = {
+					{
+						key = "奇遇提示0",
+						nClass = 14,
+						nIcon = 17135,
+						nTime = "30,6.对话·一个晕倒的人;60,7.返回·韩惜辰·返回菊池岛;120,8.对话·顾释;130,完成奇遇·破晓鸣·黄袍大统领",
+						nFrame = 0,
+						nRefresh = 0,
+						szName = "奇遇提示0",
+					},
+					{
+						key = "奇遇提示1",
+						nIcon = 17135,
+						nTime = 600,
+						nClass = 14,
+						nFrame = 7,
+						szName = "对话·一个晕倒的人",
+					},
+					{
+						key = "奇遇提示2",
+						nIcon = 17135,
+						nTime = 600,
+						nClass = 14,
+						nFrame = 7,
+						szName = "返回·韩惜辰·返回菊池岛",
+					},
+					{
+						key = "奇遇提示3",
+						nIcon = 17135,
+						nTime = 600,
+						nClass = 14,
+						nFrame = 7,
+						szName = "对话·顾释·结束",
+					},
+				},
+				szContent = "不远处好像有个人",
+			},
+		},
+	},
+	BUFF = {},
+	DOODAD = {
+		[10] = {
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "诱捕的笼子·破晓鸣",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+					},
+				},
+				szNote = "破晓鸣·诱捕的笼子",
+				dwID = 6093,
+			},
+		},
+	},
+	NPC = {
+		[10] = {
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "猫猫·破晓鸣",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+					},
+				},
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				szNote = "破晓鸣·猫猫",
+				dwID = 2350,
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "秦邑·破晓鸣",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+					},
+				},
+				nFrame = 47,
+				szNote = "破晓鸣·秦邑",
+				dwID = 1274,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "韩惜辰·破晓鸣",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+					},
+				},
+				nFrame = 47,
+				szNote = "破晓鸣·韩惜辰",
+				dwID = 51711,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "一只灰尘扑扑的公鸡·破晓鸣",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+					},
+				},
+				nFrame = 65,
+				szNote = "破晓鸣·一只灰尘扑扑",
+				dwID = 51719,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "一个晕倒的人·破晓鸣",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+					},
+				},
+				nFrame = 47,
+				szNote = "破晓鸣·一个晕倒的人",
+				dwID = 51717,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "顾释·破晓鸣",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+					},
+				},
+				nFrame = 47,
+				tCountdown = {
+					{
+						key = "奇遇提示0",
+						nIcon = 17135,
+						nTime = 0,
+						nClass = 4,
+						nFrame = 0,
+						szName = "奇遇提示0",
+					},
+					{
+						key = "奇遇提示1",
+						nIcon = 17135,
+						nTime = 60,
+						nClass = 3,
+						nFrame = 7,
+						szName = "对话·顾释",
+					},
+					{
+						key = "奇遇提示1",
+						nIcon = 17135,
+						nTime = 10,
+						nClass = 4,
+						nFrame = 7,
+						szName = "完成奇遇·破晓鸣·黄袍大统领",
+					},
+					{
+						key = "奇遇提示2",
+						nIcon = 17135,
+						nTime = 0,
+						nClass = 4,
+						nFrame = 7,
+						szName = "奇遇提示2",
+					},
+					{
+						key = "奇遇提示3",
+						nIcon = 17135,
+						nTime = 0,
+						nClass = 4,
+						nFrame = 7,
+						szName = "奇遇提示3",
+					},
+				},
+				dwID = 51736,
+				szNote = "破晓鸣·顾释",
+			},
+		},
+	},
+	CASTING = {},
+	DEBUFF = {},
+	__meta = {
+		nTimeStamp = 1714906011,
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "",
+	},
+}

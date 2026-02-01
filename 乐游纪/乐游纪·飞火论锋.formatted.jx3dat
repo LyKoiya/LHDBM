@@ -1,0 +1,1004 @@
+return {
+	BUFF = {
+		[415] = {
+			{
+				dwID = 14709,
+				[1] = {
+					bBuffList = true,
+				},
+				nLevel = 1,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nIcon = 3012,
+				dwID = 15055,
+				szNote = "神清",
+				nLevel = 1,
+			},
+			{
+				dwID = 15140,
+				[1] = {
+					bBuffList = true,
+				},
+				nLevel = 1,
+			},
+			{
+				dwID = 15268,
+				[1] = {
+					bBuffList = true,
+				},
+				nLevel = 1,
+			},
+			{
+				dwID = 15142,
+				[1] = {
+					bBuffList = true,
+				},
+				nLevel = 1,
+			},
+			{
+				dwID = 14714,
+				[1] = {
+					bBuffList = true,
+				},
+				nLevel = 1,
+			},
+			{
+				dwID = 14713,
+				[1] = {
+					bBuffList = true,
+				},
+				nLevel = 1,
+			},
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 2,
+				col = {
+					255,
+					204,
+					0,
+				},
+				dwID = 15141,
+				szNote = "强健",
+			},
+			{
+				nLevel = 2,
+				bCheckLevel = true,
+				dwID = 25105,
+				[1] = {
+					bBuffList = true,
+				},
+				szName = "{$B25105,2}",
+			},
+			{
+				nLevel = 1,
+				bCheckLevel = true,
+				dwID = 25105,
+				[1] = {
+					bBuffList = true,
+				},
+				szName = "{$B25105,1}",
+			},
+		},
+	},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[415] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = 30,
+						szName = "[{$1}]·{$2}/{$3}",
+						nFrame = 0,
+						nIcon = 13,
+					},
+				},
+				szContent = "(.-)已达到(%d-)分！任意玩家达到(%d-)分将赢得胜利！",
+				bReg = true,
+				szNote = "【{$1}】·{$2}/{$3}",
+				[14] = {
+					bCenterAlarm = true,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "额外积分",
+						nTime = 10,
+						szName = "额外获得{$2}分",
+						nFrame = 6,
+						nIcon = 13,
+					},
+				},
+				szContent = "^与第一名分差超过(%d-)，额外获得(%d-)分。",
+				szTarget = "%",
+				bReg = true,
+				szNote = "额外获得{$2}分",
+				[14] = {
+					bCenterAlarm = true,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "额外积分",
+						nTime = 10,
+						szName = "额外获得{$1}分",
+						nFrame = 6,
+						nIcon = 13,
+					},
+				},
+				szContent = "^击伤积分前三名选手，额外获得(%d-)分。",
+				bReg = true,
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szTarget = "%",
+				szNote = "额外获得{$1}分",
+			},
+			{
+				szContent = "锁定狩猎目标——{$me}",
+				col = {
+					255,
+					50,
+					255,
+				},
+				[14] = {
+					szVoice = "YiDong_T",
+					bScreenHead = true,
+				},
+				szTarget = "巡狩雷",
+				szNote = "巡狩雷·{$me}",
+			},
+			{
+				szContent = "即将引爆——",
+				col = {
+					255,
+					0,
+					85,
+				},
+				[14] = {
+					bScreenHead = true,
+				},
+				szTarget = "巡狩雷",
+				szNote = "即将引爆",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szTarget = "方缘音",
+				szNote = "补给送达",
+				szContent = "有一批补给送达了！",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szTarget = "方缘音",
+				szNote = "海岛野猴·捣乱",
+				szContent = "这泼猴又来捣乱，侠士们当心！",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szTarget = "方缘音",
+				szNote = "砰砰兔·暴走",
+				szContent = "不好，砰砰兔暴走了！",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "海岛野猴丢出了香蕉皮。",
+				szNote = "海岛野猴·香蕉皮",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "海岛野猴丢出了火药桶。",
+				szNote = "海岛野猴·火药桶",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szTarget = "砰砰兔",
+				szNote = "砰砰兔·流星火雨！",
+				szContent = "流星火雨！",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szTarget = "砰砰兔",
+				szNote = "砰砰兔·烈焰风车！",
+				szContent = "烈焰风车！",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szTarget = "砰砰兔",
+				szNote = "砰砰兔·窜天猴！",
+				szContent = "窜天猴！",
+			},
+		},
+	},
+	NPC = {
+		[-2] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 65041,
+				aFocus = {
+					{
+						szDisplay = "方缘音·飞火论锋",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "方缘音",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 113529,
+				aFocus = {
+					{
+						szDisplay = "乐小天·乐游纪",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "乐小天",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+		},
+		[411] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 65041,
+				aFocus = {
+					{
+						szDisplay = "方缘音·飞火论锋",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "方缘音",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+		},
+		[415] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 113562,
+				aFocus = {
+					{
+						szDisplay = "圆形·伏火雷",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "伏火雷",
+			},
+			{
+				dwID = 113563,
+				aFocus = {
+					{
+						szDisplay = "矩形·蛰龙雷",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "蛰龙雷",
+				nFrame = 47,
+			},
+			{
+				dwID = 113549,
+				aFocus = {
+					{
+						szDisplay = "旋转·喷火器",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "喷火器",
+				nFrame = 47,
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 65009,
+				aFocus = {
+					{
+						szDisplay = "燃烧·神火雷",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "神火雷",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				dwID = 113551,
+				aFocus = {
+					{
+						szDisplay = "陷阱·起爆弹",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 10,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "起爆弹",
+				nFrame = 47,
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 65007,
+				aFocus = {
+					{
+						szDisplay = "追踪·巡狩雷",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "巡狩雷",
+			},
+			{
+				nFrame = 47,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 65781,
+				aFocus = {
+					{
+						szDisplay = "粪球",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 3,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "粪球",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 69,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 65776,
+				aFocus = {
+					{
+						szDisplay = "香蕉皮",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 3,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "香蕉皮",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 64,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 66664,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "烈焰风车",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 52,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 113543,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "火药桶",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 66193,
+				aFocus = {
+					{
+						szDisplay = "烟幕弹",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 3,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "烟幕弹",
+				szName = "烟幕弹",
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 66601,
+				aFocus = {},
+				szNote = "砰砰兔",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					50,
+					255,
+					255,
+				},
+				dwID = 113550,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "焰幕弹",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					50,
+					255,
+					255,
+				},
+				dwID = 65568,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "震天雷",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 66600,
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "补给箱",
+				col = {
+					255,
+					255,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 66191,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "强健",
+				col = {
+					255,
+					204,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					0,
+					238,
+					0,
+				},
+				dwID = 65783,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "神清·恢复",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 65782,
+				szNote = "神行·移速加快",
+				col = {
+					50,
+					255,
+					50,
+				},
+			},
+			{
+				dwID = 66190,
+				szNote = "速攻·调息加快",
+				nFrame = 47,
+			},
+			{
+				nFrame = 47,
+				col = {
+					255,
+					255,
+					50,
+				},
+				dwID = 65516,
+				szNote = "分裂",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					255,
+					255,
+					50,
+				},
+				dwID = 65511,
+				szNote = "爆燃",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+		},
+	},
+	DEBUFF = {
+		[415] = {
+			{
+				dwID = 15064,
+				[1] = {
+					bBuffList = true,
+				},
+				szNote = "迷神",
+				nLevel = 1,
+			},
+			{
+				nLevel = 2,
+				bCheckLevel = true,
+				dwID = 14715,
+				[1] = {
+					bBuffList = true,
+				},
+				szNote = "偷懒",
+				szName = "{$B14715,2}",
+			},
+			{
+				dwID = 14748,
+				[1] = {
+					bBuffList = true,
+				},
+				szNote = "沉滞",
+				nLevel = 1,
+			},
+			{
+				dwID = 15276,
+				[1] = {
+					bBuffList = true,
+				},
+				szNote = "窜天猴",
+				nLevel = 1,
+			},
+			{
+				nLevel = 1,
+				[1] = {
+					bBuffList = true,
+				},
+				bCheckLevel = true,
+				dwID = 14809,
+				col = {
+					255,
+					255,
+					50,
+				},
+				szNote = "神火雷",
+				szName = "{$B14809,1}",
+			},
+			{
+				nLevel = 2,
+				[1] = {
+					bBuffList = true,
+				},
+				bCheckLevel = true,
+				dwID = 14809,
+				col = {
+					255,
+					255,
+					50,
+				},
+				szNote = "巡狩雷",
+				szName = "{$B14809,2}",
+			},
+			{
+				nLevel = 3,
+				[1] = {
+					bBuffList = true,
+				},
+				bCheckLevel = true,
+				dwID = 14809,
+				col = {
+					255,
+					255,
+					50,
+				},
+				szNote = "喷火器",
+				szName = "{$B14809,3}",
+			},
+			{
+				nLevel = 4,
+				[1] = {
+					bBuffList = true,
+				},
+				bCheckLevel = true,
+				dwID = 14809,
+				col = {
+					255,
+					255,
+					50,
+				},
+				szNote = "起爆弹",
+				szName = "{$B14809,4}",
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1765093321,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}

@@ -1,0 +1,59 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {
+		[-1] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				dwID = 14232,
+				szNote = "平沙落雁",
+				tCountdown = {
+					{
+						nClass = 8,
+						key = "平沙落雁·{$sender}",
+						nTime = 2.5,
+						szName = "平沙运功·{$sender}→{$receiver}",
+						nFrame = 1,
+						nIcon = 7055,
+					},
+					{
+						nClass = 9,
+						key = "平沙落雁·{$sender}",
+						nTime = 10,
+						szName = "平沙落雁·{$receiver}",
+						nFrame = 1,
+						nIcon = 7055,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				dwID = 14084,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "杯水留影·{$sender}",
+						nTime = 3,
+						szName = "杯水留影·{$sender}→{$receiver}",
+						nIcon = 7058,
+						nFrame = 6,
+					},
+				},
+			},
+		},
+	},
+	TALK = {},
+	NPC = {},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1723720349,
+		szCustomVoicePacketUUID = "",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}

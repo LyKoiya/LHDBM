@@ -1,0 +1,2322 @@
+return {
+	BUFF = {
+		[149] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				szName = "特效",
+				dwID = 4760,
+				szNote = "帮会约战_被打出特效",
+				nIcon = 6492,
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 4762,
+				[1] = {
+					bBuffList = true,
+				},
+				nIcon = 4838,
+				szNote = "帮会约战_红旗",
+				szName = "红旗",
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 4763,
+				[1] = {
+					bBuffList = true,
+				},
+				nIcon = 4837,
+				szNote = "帮会约战_蓝旗",
+				szName = "蓝旗",
+			},
+			{
+				nLevel = 1,
+				dwID = 4679,
+				[1] = {
+					bBuffList = true,
+				},
+				nIcon = 3745,
+				szNote = "帮会约战_军需官标记",
+				szName = "军需官",
+			},
+			{
+				nLevel = 1,
+				szName = "爆破箭",
+				dwID = 4629,
+				szNote = "战车_爆破箭_计数",
+				nIcon = 769,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 4842,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				dwID = 4610,
+				szName = "读条",
+				szNote = "帮会约战_读条判定",
+				nIcon = 13,
+			},
+			{
+				nLevel = 1,
+				szName = "10秒",
+				dwID = 4477,
+				szNote = "帮会约战_10秒一跳",
+				nIcon = 13,
+			},
+			{
+				nLevel = 1,
+				szName = "1秒",
+				dwID = 4476,
+				szNote = "帮会约战_1秒一跳",
+				nIcon = 13,
+			},
+		},
+	},
+	CHAT = {
+		[149] = {
+			{
+				szContent = "战场在2分钟后正式开启。\
+",
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "战斗开始",
+						nTime = 120,
+						szName = "战斗·开始倒计时",
+						nFrame = 4,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				szContent = "战场在1分钟后正式开启。\
+",
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "战斗开始",
+						nTime = 60,
+						szName = "战斗·开始倒计时",
+						nIcon = 13,
+						nFrame = 4,
+					},
+				},
+			},
+			{
+				szContent = "战场在30秒后正式开启。\
+",
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "战斗开始",
+						nTime = 30,
+						szName = "战斗·开始倒计时",
+						nIcon = 13,
+						nFrame = 4,
+					},
+				},
+			},
+			{
+				szContent = "战斗开始。\
+",
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "战斗开始",
+						nTime = 1,
+						szName = "战斗·已经开启",
+						nIcon = 13,
+						nFrame = 4,
+					},
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "成就进度",
+						nTime = 30,
+						szName = "{$1}·{$2}/{$3}",
+						bHold = true,
+						nFrame = 2,
+						nIcon = 15678,
+					},
+				},
+				bReg = true,
+				szContent = "^%[(.-)%]：(%d+)/(%d%d)\
+",
+				col = {
+					255,
+					255,
+					100,
+				},
+			},
+			{
+				[20] = {
+					bCenterAlarm = true,
+				},
+				szContent = "帮会【(.-)】技高一筹，胜！",
+				bReg = true,
+				szNote = "{$1}·胜利",
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "战斗开始",
+						nTime = -1,
+						szName = "战斗开始",
+						nIcon = 13,
+						nFrame = 4,
+					},
+				},
+			},
+			{
+				szNote = "【{$1}·{$2}】·获得一血·额外{$3}资源",
+				bReg = true,
+				szContent = "【(.-)】的(.-)一骑当先、首战告捷，率先拿到战场的第一滴血，【(.-)】额外获得(%d-)点资源！\
+",
+				[20] = {
+					bCenterAlarm = true,
+				},
+			},
+			{
+				szContent = "战场资源不足，无法修建！\
+",
+			},
+		},
+	},
+	CASTING = {},
+	TALK = {
+		[149] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = 120,
+						szName = "战斗·开始倒计时",
+						nIcon = 13,
+						nFrame = 4,
+					},
+				},
+				szContent = "战场在2分钟后正式开启。",
+			},
+			{
+				szContent = "战场在1分钟后正式开启。",
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = 60,
+						szName = "战斗·开始倒计时",
+						nFrame = 4,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				szContent = "战场在30秒后正式开启。",
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = "30,战斗·开始倒计时;31,战斗·已经开启",
+						szName = "战斗·开始倒计时",
+						nRefresh = 0,
+						nFrame = 4,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				szContent = "对方战场人数不足5人，五分钟后自动判胜！",
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = 300,
+						szName = "对方·人数不足·判胜剩余",
+						nFrame = 0,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				szContent = "对方战场人数不足5人，四分钟后自动判胜！",
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = 240,
+						szName = "对方·人数不足·判胜剩余",
+						nIcon = 13,
+						nFrame = 0,
+					},
+				},
+			},
+			{
+				szContent = "对方战场人数不足5人，三分钟后自动判胜！",
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = 180,
+						szName = "对方·人数不足·判胜剩余",
+						nIcon = 13,
+						nFrame = 0,
+					},
+				},
+			},
+			{
+				szContent = "对方战场人数不足5人，两分钟后自动判胜！",
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = 120,
+						szName = "对方·人数不足·判胜剩余",
+						nIcon = 13,
+						nFrame = 0,
+					},
+				},
+			},
+			{
+				szContent = "对方战场人数不足5人，一分钟后自动判胜！",
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = 60,
+						szName = "对方·人数不足·判胜剩余",
+						nIcon = 13,
+						nFrame = 0,
+					},
+				},
+			},
+			{
+				szContent = "对方战场人数不足5人，30秒后自动判胜！",
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = 30,
+						szName = "对方·人数不足·判胜剩余",
+						nIcon = 13,
+						nFrame = 0,
+					},
+				},
+			},
+			{
+				szContent = "对方战场人数不足5人，20秒后自动判胜！",
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = 20,
+						szName = "对方·人数不足·判胜剩余",
+						nIcon = 13,
+						nFrame = 0,
+					},
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = 10,
+						szName = "对方·人数不足·判胜剩余",
+						nIcon = 13,
+						nFrame = 0,
+					},
+				},
+				szContent = "对方战场人数不足5人，10秒后自动判胜！",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						nTime = 10,
+						szName = "{$1}·[{$2}]·占领矿区",
+						nFrame = 1,
+						nIcon = 6230,
+					},
+				},
+				szContent = "(.-)的【(.-)】占领了矿区！",
+				bReg = true,
+				szNote = "{$1}·【{$2}】·占领矿区",
+				[14] = {
+					bCenterAlarm = true,
+					bTeamChannel = true,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "敌方·{$1}",
+						nTime = 10,
+						szName = "敌方·{$1}·已摧毁",
+						nFrame = 1,
+						nIcon = 13,
+					},
+				},
+				szContent = "我们成功摧毁对方一座(.-)，获得(%d-)点资源！",
+				bReg = true,
+				szNote = "敌方·{$1}·已摧毁",
+			},
+			{
+				szContent = "击杀对方(.-)，战场资源增加(%d-)点。",
+				bReg = true,
+			},
+			{
+				szContent = "战场资源不足，无法修建！",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						nTime = 10,
+						szName = "我方·建设·凛霜箭塔",
+						nIcon = 7378,
+						nFrame = 6,
+					},
+				},
+				szContent = "我方成功建设一座凛霜箭塔！",
+			},
+			{
+				szContent = "我方成功建设一座腐毒哨岗！",
+				tCountdown = {
+					{
+						nClass = 14,
+						nTime = 10,
+						szName = "我方·建设·腐毒哨岗",
+						nIcon = 7300,
+						nFrame = 6,
+					},
+				},
+			},
+			{
+				szContent = "我方成功建设一座燃火炮楼！",
+				tCountdown = {
+					{
+						nClass = 14,
+						nTime = 10,
+						szName = "我方·建设·燃火炮楼",
+						nFrame = 6,
+						nIcon = 7391,
+					},
+				},
+			},
+			{
+				szContent = "我方成功升级一座箭塔！",
+				tCountdown = {
+					{
+						nClass = 14,
+						nTime = 10,
+						szName = "我方·升级·一座箭塔",
+						nFrame = 6,
+						nIcon = 6495,
+					},
+				},
+			},
+		},
+	},
+	NPC = {
+		[149] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+						tLife = {
+							szOperator = "<",
+							nValue = 99,
+							bEnable = true,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "右门",
+				dwID = 19652,
+			},
+			{
+				dwID = 19631,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+						tLife = {
+							szOperator = "<",
+							nValue = 99,
+							bEnable = true,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "城门",
+				nFrame = 52,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+						tLife = {
+							szOperator = "<",
+							nValue = 99,
+							bEnable = true,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "左门",
+				dwID = 19651,
+			},
+			{
+				dwID = 20027,
+				aFocus = {},
+				szNote = "城墙",
+				nFrame = 47,
+			},
+			{
+				dwID = 19690,
+				szNote = "低等弓箭手",
+				nFrame = 47,
+			},
+			{
+				nFrame = 65,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 19502,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = "<",
+							nValue = 100,
+							bEnable = true,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "小兔子",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 19525,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = "<",
+							nValue = 100,
+							bEnable = true,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "雪熊",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 19524,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = "<",
+							nValue = 100,
+							bEnable = true,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "雪狐",
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "大旗·敌方",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "大旗·友方",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = "<",
+							nValue = 99,
+							bEnable = true,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "大旗",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "约战旗帜-扬威江湖",
+				dwID = 19474,
+			},
+			{
+				dwID = 19985,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "军需参将",
+				nFrame = 47,
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 20209,
+				aFocus = {
+					{
+						szDisplay = "厚甲战车·敌方",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "厚甲战车·友方",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "厚甲战车",
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 20208,
+				aFocus = {
+					{
+						szDisplay = "重炮战车·敌方",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "重炮战车·友方",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "重炮战车",
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 20210,
+				aFocus = {
+					{
+						szDisplay = "巨弩战车·敌方",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "巨弩战车·友方",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "巨弩战车",
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 19343,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = "<",
+							nValue = 99,
+							bEnable = true,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "腐毒哨岗（三级）",
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 19342,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = "<",
+							nValue = 99,
+							bEnable = true,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "腐毒哨岗（二级）",
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 19341,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = "<",
+							nValue = 99,
+							bEnable = true,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "腐毒哨岗（一级）",
+			},
+			{
+				nFrame = 47,
+				dwID = 19344,
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 19340,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = "<",
+							nValue = 99,
+							bEnable = true,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "燃火炮楼（三级）",
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 19339,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = "<",
+							nValue = 99,
+							bEnable = true,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "燃火炮楼（二级）",
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 19338,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = "<",
+							nValue = 99,
+							bEnable = true,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "燃火炮楼（一级）",
+			},
+			{
+				nFrame = 47,
+				dwID = 19336,
+			},
+			{
+				nFrame = 52,
+				szNote = "火球",
+				dwID = 20026,
+			},
+			{
+				nFrame = 52,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 3,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "火圈",
+				dwID = 20016,
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 19335,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = "<",
+							nValue = 99,
+							bEnable = true,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "凛霜箭塔（三级）",
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 19334,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = "<",
+							nValue = 99,
+							bEnable = true,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "凛霜箭塔（二级）",
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 19333,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = "<",
+							nValue = 99,
+							bEnable = true,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "凛霜箭塔（一级）",
+			},
+			{
+				nFrame = 47,
+				szNote = "箭台",
+				dwID = 19431,
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 19694,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = "<",
+							nValue = 99,
+							bEnable = true,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "普通箭塔",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				szNote = "纯阳帮众",
+				dwID = 18740,
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 18742,
+				aFocus = {},
+				szNote = "七秀帮众",
+			},
+			{
+				nFrame = 47,
+				dwID = 18744,
+				szNote = "唐门帮众",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				dwID = 18745,
+				szNote = "五毒帮众",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				szNote = "炮台卫兵",
+				dwID = 19337,
+			},
+			{
+				nFrame = 47,
+				dwID = 18741,
+				szNote = "藏剑帮众",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				dwID = 18746,
+				szNote = "万花帮众",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				szNote = "天策帮众",
+				dwID = 18747,
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 19497,
+				aFocus = {
+					{
+						szDisplay = "帮会铁卫教头·敌方",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "帮会铁卫教头·友方",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = "<",
+							nValue = 99,
+							bEnable = true,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "帮会铁卫教头·红方",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "帮会铁卫教头·红方",
+				col = {
+					255,
+					255,
+					100,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 19496,
+				aFocus = {
+					{
+						szDisplay = "帮会铁卫教头·敌方",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "帮会铁卫教头·友方",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = "<",
+							nValue = 99,
+							bEnable = true,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "帮会铁卫教头·蓝方",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "帮会铁卫教头·蓝方",
+				col = {
+					100,
+					255,
+					255,
+				},
+			},
+			{
+				dwID = 19495,
+				szNote = "帮会铁卫",
+				nFrame = 47,
+			},
+			{
+				dwID = 19494,
+				szNote = "帮会铁卫",
+				nFrame = 47,
+			},
+			{
+				nFrame = 47,
+				szNote = "帮会铁卫",
+				dwID = 7724,
+			},
+			{
+				nFrame = 47,
+				szNote = "帮会铁卫",
+				dwID = 7723,
+			},
+			{
+				nFrame = 47,
+				szNote = "帮会铁卫",
+				dwID = 19492,
+			},
+			{
+				nFrame = 47,
+				szNote = "帮会铁卫",
+				dwID = 19493,
+			},
+		},
+	},
+	DEBUFF = {
+		[149] = {
+			{
+				nLevel = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 4661,
+				[1] = {
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				szNote = "定",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#FFFF00",
+						col = "#FFFF00FF",
+						nColAlpha = 255,
+						nPriority = 13,
+						szReminder = "定",
+						bScreenHead = true,
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "瞄准",
+				dwID = 4628,
+			},
+			{
+				dwID = 4402,
+				nScrutinyType = 1,
+				nLevel = 1,
+				[1] = {
+					bBuffList = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 2,
+				szNote = "锣声惊胆",
+				dwID = 4630,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 4662,
+				nLevel = 1,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 4663,
+				nLevel = 1,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 4749,
+				nLevel = 1,
+			},
+			{
+				dwID = 4660,
+				nLevel = 1,
+				szNote = "迟",
+				[1] = {
+					bBuffList = true,
+				},
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1746884727,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[149] = {
+			{
+				dwID = 3491,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "城门机关",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 3477,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "矿区旗帜·中立",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					255,
+					100,
+					100,
+				},
+				dwID = 3476,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "矿区旗帜·红方",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					100,
+					100,
+					255,
+				},
+				dwID = 3475,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "矿区旗帜·蓝方",
+			},
+		},
+	},
+}

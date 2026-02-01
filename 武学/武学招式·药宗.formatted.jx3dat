@@ -1,0 +1,165 @@
+return {
+	BUFF = {
+		[-1] = {
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 20398,
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "¼õÉË¼à¿Ø",
+						nTime = 7,
+						szName = "Áú¿û×Ô¿à¡¤[{$sender}]",
+						nRefresh = 1,
+						nIcon = 15413,
+						nFrame = 6,
+					},
+				},
+				szNote = "Áú¿ûÁú¿û",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#00FF00",
+						bOnlyMe = true,
+						col = "#00FF00FF",
+						szReminder = "¿û",
+						nColAlpha = 255,
+						nPriority = 11,
+						bScreenHead = true,
+					},
+				},
+			},
+		},
+	},
+	CHAT = {},
+	CASTING = {
+		[-17] = {
+			{
+				tKungFu = {
+					["SKILL#10627"] = true,
+					["SKILL#10626"] = true,
+				},
+				nScrutinyType = 1,
+				dwID = 27897,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "ÂÌÒ°ÂûÉú",
+						nTime = "5,ÂÌÒ°ÂûÉú¡¤Ãâ¿Ø;30,ÂÌÒ°ÂûÉú¡¤CD¡¤30s",
+						szName = "ÂÌÒ°ÂûÉú",
+						nRefresh = 1,
+						nIcon = 15423,
+						nFrame = 4,
+					},
+				},
+				szNote = "ÂÌÒ°ÂûÉú",
+				nLevel = 1,
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 8,
+						key = "ÇÒ´ýÊ±ÐÝ¡¤{$sender}",
+						nTime = 4,
+						szName = "ÇÒ´ýÊ±ÐÝ¡ú{$receiver}",
+						nIcon = 15410,
+						nFrame = 1,
+					},
+				},
+				nScrutinyType = 2,
+				dwID = 27582,
+				szNote = "ÇÒ´ýÊ±ÐÝ",
+				nLevel = 1,
+			},
+		},
+		[-1] = {
+			{
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "¿ÝÄ¾ËÕÏ¢¡¤{$sender}",
+						nTime = 3,
+						szName = "¿ÝÄ¾ËÕÏ¢¡¤{$sender}",
+						nIcon = 15422,
+						nFrame = 6,
+					},
+				},
+				nScrutinyType = 2,
+				dwID = 27675,
+				szNote = "¿ÝÄ¾ËÕÏ¢",
+				nLevel = 1,
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				nIcon = 101411,
+				szName = "¿ÝÄ¾ËÕÏ¢¡¤Îò",
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "¿ÝÄ¾ËÕÏ¢¡¤{$sender}",
+						nTime = 3,
+						szName = "¿ÝÄ¾ËÕÏ¢¡¤{$sender}",
+						nIcon = 101411,
+						nFrame = 6,
+					},
+				},
+				szNote = "¿ÝÄ¾ËÕÏ¢¡¤Îò",
+				dwID = 102200,
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "¼õÉË¼à¿Ø",
+						nTime = 7,
+						szName = "Áú¿û×Ô¿à¡ú{$receiver}",
+						nIcon = 15413,
+						nFrame = 6,
+					},
+				},
+				nScrutinyType = 2,
+				dwID = 27630,
+				szNote = "Áú¿û×Ô¿à",
+				nLevel = 1,
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "¼õÉË¼à¿Ø",
+						nTime = 7,
+						szName = "Áú¿û×Ô¿à¡ú{$receiver}",
+						nFrame = 6,
+						nIcon = 15413,
+					},
+				},
+				nScrutinyType = 2,
+				dwID = 39665,
+				szNote = "Áú¿û×Ô¿à",
+				nLevel = 1,
+			},
+		},
+	},
+	TALK = {},
+	NPC = {},
+	DEBUFF = {},
+	__meta = {
+		szServer = "Î¨ÎÒ¶À×ð",
+		szAuthor = "ºÉ»¨Àð",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1766170645,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}

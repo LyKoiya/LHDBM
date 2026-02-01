@@ -1,0 +1,462 @@
+return {
+	BUFF = {},
+	CHAT = {
+		[100] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 300,
+						szName = "收集·芹菜5个·悬崖下面",
+						nFrame = 7,
+						nClass = 20,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 300,
+						szName = "返回·高大胖·获得烤羊腿",
+						nFrame = 7,
+						nClass = 20,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 300,
+						szName = "交互·火堆·对话·高大胖",
+						nFrame = 7,
+						nClass = 20,
+					},
+				},
+				szContent = "你已接受了[烤羊腿之秘诀一]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 300,
+						szName = "前往·卧龙丘·三岔口·小诺",
+						nClass = 20,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 300,
+						szName = "先将烤羊腿给小诺·不给武大豪",
+						nClass = 20,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 300,
+						szName = "否则返回高大胖重新获取烤羊腿",
+						nClass = 20,
+						nFrame = 7,
+					},
+				},
+				szContent = "你已接受了[千里送羊腿]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 300,
+						szName = "第一处·龙隐村·左下角",
+						nClass = 20,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 300,
+						szName = "第二处·卧龙坡·右上角",
+						nClass = 20,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 300,
+						szName = "第三处·卧龙丘·左中间",
+						nClass = 20,
+						nFrame = 7,
+					},
+				},
+				szContent = "你已接受了[修理捕兽夹]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 60,
+						szName = "前往·听风崖·下面和山顶",
+						nFrame = 7,
+						nClass = 20,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 60,
+						szName = "采摘·稀有的草药·3份",
+						nFrame = 7,
+						nClass = 20,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 60,
+						szName = "返回·武大豪·交互小诺",
+						nFrame = 7,
+						nClass = 20,
+					},
+				},
+				szContent = "你已接受了[寻药救小诺]。\
+",
+			},
+		},
+	},
+	CASTING = {},
+	TALK = {
+		[100] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 300,
+						szName = "返回·高大胖·再取·烤羊腿",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 300,
+						szName = "前往·卧龙丘·对话·武大豪",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 300,
+						szName = "修理·三处·捕收夹·武大豪",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "嗷唔~~~嗷唔~~嗷唔~~~",
+				szTarget = "小诺",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 300,
+						szName = "等待·剧情结束·对话·小诺",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 300,
+						szName = "前往·卧龙丘·对话·武大豪",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 300,
+						szName = "任务·寻药救小诺·日常10天",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "小心，前方出现一群恶狼！",
+			},
+		},
+	},
+	NPC = {
+		[100] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "武大豪·小诺",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "小诺·武大豪",
+				dwID = 36818,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "小诺",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "小诺",
+				dwID = 36819,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "高大胖·小诺",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "小诺·高大胖",
+				dwID = 36817,
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1737626128,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[100] = {
+			{
+				dwID = 4767,
+				aFocus = {
+					{
+						szDisplay = "芹菜·小诺",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "小诺·芹菜",
+			},
+			{
+				dwID = 4764,
+				aFocus = {
+					{
+						szDisplay = "火堆·小诺",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "小诺·火堆",
+			},
+			{
+				dwID = 4765,
+				aFocus = {
+					{
+						szDisplay = "捕兽夹·小诺",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "小诺·捕兽夹",
+			},
+			{
+				dwID = 4766,
+				aFocus = {
+					{
+						szDisplay = "捕兽夹·小诺",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "小诺·捕兽夹",
+			},
+			{
+				dwID = 4769,
+				aFocus = {
+					{
+						szDisplay = "稀有的草药·小诺",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "小诺·稀有的草药",
+			},
+			{
+				[17] = {
+					bCenterAlarm = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4763,
+				aFocus = {
+					{
+						szDisplay = "破旧的纸卷·小诺",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szName = "破旧的纸卷·小诺",
+			},
+		},
+	},
+}

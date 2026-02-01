@@ -1,0 +1,413 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[583] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "乐游纪·0",
+						nTime = -1,
+						szName = "乐游纪·0",
+						nRefresh = 3600,
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "乐游纪·{$2}",
+						nTime = 30,
+						szName = "乐游币·{$1} / {$2}",
+						nRefresh = 2,
+						nIcon = 18651,
+						nFrame = 4,
+					},
+					{
+						nClass = 14,
+						key = "乐游纪·0",
+						nTime = -2,
+						szName = "乐游纪·0",
+						nIcon = 18651,
+					},
+					{
+						nClass = 14,
+						key = "乐游纪·{$2}",
+						nTime = 30,
+						szName = "乐游币·已达上限",
+						nRefresh = 1,
+						nIcon = 18651,
+						nFrame = 2,
+					},
+				},
+				bReg = true,
+				szContent = "获得乐游币(%d-)个，还可获得(%d-)个。",
+			},
+		},
+		[632] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "乐游纪·0",
+						nTime = -1,
+						szName = "乐游纪·0",
+						nRefresh = 3600,
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "乐游纪·{$2}",
+						nTime = 30,
+						szName = "乐游币·{$1} / {$2}",
+						nRefresh = 2,
+						nIcon = 18651,
+						nFrame = 4,
+					},
+					{
+						nClass = 14,
+						key = "乐游纪·0",
+						nTime = -2,
+						szName = "乐游纪·0",
+						nIcon = 18651,
+					},
+					{
+						nClass = 14,
+						key = "乐游纪·{$2}",
+						nTime = 30,
+						szName = "乐游币·已达上限",
+						nRefresh = 1,
+						nIcon = 18651,
+						nFrame = 2,
+					},
+				},
+				bReg = true,
+				szContent = "获得乐游币(%d-)个，还可获得(%d-)个。",
+			},
+		},
+	},
+	NPC = {
+		[632] = {
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 108182,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "乐游纪·乔源智",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "乐小天·接引人",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "乐游纪·乐小天",
+				dwID = 120620,
+			},
+		},
+		[583] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 108182,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "乐游纪·乔源智",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				dwID = 120620,
+				aFocus = {
+					{
+						szDisplay = "乐小天·接引人",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "乐游纪·乐小天",
+				nFrame = 47,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "王豆豆·男孩",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "乐游纪·王豆豆",
+				dwID = 108302,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "张小枣·女孩",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "乐游纪·张小枣",
+				dwID = 108300,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "李发糕·成男",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "乐游纪·李发糕",
+				dwID = 108303,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "田葡萄·成女",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "乐游纪·田葡萄",
+				dwID = 108301,
+			},
+		},
+		[-2] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 120620,
+				aFocus = {
+					{
+						szDisplay = "乐小天·接引人",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "乐游纪·乐小天",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1759429071,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[632] = {
+			{
+				dwID = 10119,
+				aFocus = {
+					{
+						szDisplay = "座椅·屏蔽",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "乐游纪·座椅",
+			},
+		},
+	},
+}

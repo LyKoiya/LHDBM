@@ -1,0 +1,76 @@
+{
+	CHAT = {},
+	TALK = {},
+	BUFF = {},
+	DOODAD = {},
+	NPC = {
+		[156] = {
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "³Â±¦Ïé¡¤ÇìÎèÁ¼Ïü",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+					},
+				},
+				nFrame = 47,
+				szNote = "ÇìÎèÁ¼Ïü¡¤³Â±¦Ïé",
+				dwID = 108287,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "Ð¡Çì¡¤ÇìÎèÁ¼Ïü",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+					},
+				},
+				nFrame = 47,
+				szNote = "ÇìÎèÁ¼Ïü¡¤Ð¡Çì",
+				dwID = 108286,
+			},
+		},
+	},
+	CASTING = {},
+	DEBUFF = {},
+	__meta = {
+		nTimeStamp = 1720339635,
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "Î¨ÎÒ¶À×ð",
+		szAuthor = "ºÉ»¨Àð",
+		szCustomVoicePacketUUID = "",
+	},
+}

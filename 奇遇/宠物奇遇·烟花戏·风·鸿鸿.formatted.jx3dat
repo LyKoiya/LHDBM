@@ -1,0 +1,212 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[122] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示0",
+						nTime = "5,恭喜触发·烟花戏·风·鸿鸿;15,奇遇不封印·约5分钟完成",
+						szName = "奇遇提示0",
+						nRefresh = 0,
+						nClass = 14,
+						nFrame = 0,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·唐御御·前往·紫树下",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "拾取·竹叶青·返回·唐御御",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "前往·嘉陵江水井·交互土堆",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "女侠，今夜月色正好，你我相逢也是有缘，何不把酒一叙？",
+				szTarget = "唐御御",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 120,
+						szName = "交互·小狗·返回·唐御御",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 120,
+						szName = "对话·唐御御·释放·烟花",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 120,
+						szName = "完成·烟花戏·获得·鸿鸿",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "一只小狗跑了过来，试图阻止你继续翻找。",
+			},
+		},
+	},
+	NPC = {
+		[122] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 59356,
+				aFocus = {
+					{
+						szDisplay = "唐御御·烟花戏·风",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "烟花戏·风·唐御御",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				nFrame = 47,
+				dwID = 59357,
+				aFocus = {
+					{
+						szDisplay = "一只小狗·烟花戏·风",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "烟花戏·风·一只小狗",
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "林草草",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1730298231,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[122] = {
+			{
+				dwID = 6916,
+				aFocus = {
+					{
+						szDisplay = "竹叶青·烟花戏·风",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "烟花戏·风·竹叶青",
+			},
+			{
+				dwID = 6917,
+				aFocus = {
+					{
+						szDisplay = "长出新草土堆·烟花戏",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "烟花戏·风·长出新草",
+			},
+		},
+	},
+}

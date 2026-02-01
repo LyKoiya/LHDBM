@@ -1,0 +1,399 @@
+return {
+	BUFF = {},
+	CHAT = {
+		[-2] = {
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "节日活动1",
+						nTime = 10,
+						szName = "扬州·扬州城·出魂",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[枫叶红如血]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "节日活动1",
+						nTime = 10,
+						szName = "扬州·扬州城·出魂",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[玉蝶不知处]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "节日活动1",
+						nTime = 10,
+						szName = "神行·天策战乱·天策大营·出魂",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[长枪今何在]。\
+",
+			},
+		},
+		[6] = {
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "节日活动1",
+						nTime = 10,
+						szName = "神行·洛阳城·白马寺",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[梦蝶却迷踪]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "节日活动1",
+						nTime = 10,
+						szName = "神行·苍云·古战场·出魂",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[故人醉笑去]。\
+",
+			},
+		},
+		[193] = {
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "节日活动1",
+						nTime = 10,
+						szName = "还魂·前往·苍云堡",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[烈酒共死生]。\
+",
+			},
+		},
+	},
+	CASTING = {},
+	TALK = {
+		[-1] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "方士事件1",
+						nTime = 5,
+						szName = "方士·入定·间隔4.5尺",
+						nFrame = 7,
+						nIcon = 13,
+					},
+				},
+				szContent = "周围已有其他方士正在入定，为避免互相干扰，离远一些方可出魂入定。",
+			},
+		},
+	},
+	NPC = {
+		[-2] = {
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 113586,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 3,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+		},
+		[-1] = {
+			{
+				nFrame = 67,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				dwID = 57719,
+				aFocus = {
+					{},
+				},
+				szNote = "善良的魂灵",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 67,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 50,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "捣乱的魂灵",
+				dwID = 57718,
+			},
+			{
+				nFrame = 67,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 50,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "偷食祭品的魂灵",
+				dwID = 57749,
+			},
+			{
+				nFrame = 47,
+				dwID = 51506,
+				[3] = {},
+				szName = "特效·方士",
+				aFocus = {
+					{
+						szDisplay = "方士·入定",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 4.5,
+					},
+				},
+				szNote = "特效·方士",
+				[4] = {},
+			},
+			{
+				nFrame = 47,
+				dwID = 51713,
+				[3] = {},
+				szName = "特效·方士",
+				aFocus = {
+					{
+						szDisplay = "方士·入定",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 4.5,
+					},
+				},
+				szNote = "特效·方士",
+				[4] = {},
+			},
+			{
+				nFrame = 47,
+				dwID = 51714,
+				[3] = {},
+				szName = "特效·方士",
+				aFocus = {
+					{
+						szDisplay = "方士·入定",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 4.5,
+					},
+				},
+				szNote = "特效·方士",
+				[4] = {},
+			},
+			{
+				nFrame = 47,
+				dwID = 51715,
+				[3] = {},
+				szName = "特效·方士",
+				aFocus = {
+					{
+						szDisplay = "方士·入定",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 4.5,
+					},
+				},
+				szNote = "特效·方士",
+				[4] = {},
+			},
+		},
+		[193] = {
+			{
+				nFrame = 67,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 57721,
+				aFocus = {
+					{
+						szDisplay = "薛直·中元节",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "薛直",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1757270400,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[-1] = {
+			{
+				dwID = 6653,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 90,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "中元节·祭坛",
+			},
+		},
+	},
+}

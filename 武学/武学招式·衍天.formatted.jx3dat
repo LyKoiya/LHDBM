@@ -1,0 +1,95 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {
+		[-1] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				dwID = 24385,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "鸿蒙天禁·{$sender}",
+						nTime = 6,
+						szName = "鸿蒙天禁·{$sender}→{$receiver}",
+						nFrame = 1,
+						nIcon = 13878,
+					},
+				},
+			},
+			{
+				tKungFu = {
+					["SKILL#10615"] = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 24833,
+				nIcon = 13866,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "起卦",
+						nTime = 2.5,
+						szName = "火离",
+						nFrame = 5,
+						nIcon = 13866,
+					},
+				},
+				szName = "火离",
+			},
+			{
+				tKungFu = {
+					["SKILL#10615"] = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 24831,
+				nIcon = 13870,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "起卦",
+						nTime = 2.5,
+						szName = "水坎",
+						nFrame = 5,
+						nIcon = 13870,
+					},
+				},
+				szName = "水坎",
+			},
+			{
+				tKungFu = {
+					["SKILL#10615"] = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 24832,
+				nIcon = 13868,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "起卦",
+						nTime = 2.5,
+						szName = "山艮",
+						nFrame = 5,
+						nIcon = 13868,
+					},
+				},
+				szName = "山艮",
+			},
+		},
+	},
+	TALK = {},
+	NPC = {},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1723721180,
+		szCustomVoicePacketUUID = "",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}

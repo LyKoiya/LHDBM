@@ -1,0 +1,71 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[133] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "剧情提示",
+						nTime = 10,
+						szName = "清除·周围蜘蛛",
+						nIcon = 13,
+						nFrame = 4,
+					},
+				},
+				szContent = "你们小心，这里的蜘蛛异常凶猛，我等被困于此，待救出好一起去救叶掌门!",
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szTarget = "李承恩",
+				szNote = "清除·周围蜘蛛",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "剧情提示",
+						nTime = 10,
+						szName = "清除·周围蜘蛛",
+						nFrame = 4,
+						nIcon = 13,
+					},
+				},
+				szContent = "将周围凶猛的蜘蛛清除，我们一起前往祭坛!",
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szTarget = "李承恩",
+				szNote = "清除周围蜘蛛",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "剧情提示",
+						nTime = 30,
+						szName = "剧情·索笛尔",
+						nIcon = 13,
+						nFrame = 5,
+					},
+				},
+				szNote = "清除·周围蜘蛛",
+				szContent = "大家跟在我身后，此地是天一教立身之地，毒物极多！",
+				szTarget = "李承恩",
+			},
+		},
+	},
+	NPC = {},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1761722852,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}

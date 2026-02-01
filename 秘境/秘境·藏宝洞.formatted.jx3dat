@@ -1,0 +1,532 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {
+		[190] = {
+			{
+				dwID = 9242,
+				szNote = "神怒·后跳躲避",
+				[9] = {
+					bCenterAlarm = true,
+				},
+				nLevel = 1,
+			},
+			{
+				nLevel = 1,
+				[8] = {
+					bCenterAlarm = true,
+				},
+				col = {
+					50,
+					255,
+					255,
+				},
+				dwID = 9239,
+				szNote = "使用·冰泉水",
+				[9] = {
+					bCenterAlarm = true,
+				},
+			},
+		},
+		[189] = {
+			{
+				nLevel = 1,
+				dwID = 9241,
+				[9] = {
+					bCenterAlarm = true,
+				},
+				szNote = "撼天动地",
+				tCountdown = {
+					{
+						nFrame = 2,
+						nTime = 1.5,
+						szName = "准备·后跳",
+						nIcon = 13,
+						nClass = 8,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				szNote = "乱舞",
+				dwID = 7382,
+			},
+			{
+				nLevel = 1,
+				szNote = "裂爪",
+				dwID = 7380,
+			},
+			{
+				dwID = 7381,
+				[9] = {
+					bCenterAlarm = true,
+				},
+				szNote = "泰山压顶",
+				nLevel = 1,
+			},
+		},
+	},
+	TALK = {
+		[190] = {
+			{
+				szContent = "你驱散了王史涯的无敌！",
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "冰泉水",
+						nTime = "30,冰泉水·冷却时间;32,冰泉水·可以使用",
+						szName = "冰泉水·冷却时间",
+						nRefresh = 0,
+						nFrame = 4,
+						nIcon = 3911,
+					},
+				},
+			},
+		},
+	},
+	NPC = {
+		[190] = {
+			{
+				nFrame = 47,
+				[3] = {
+					tMark = {
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						true,
+					},
+				},
+				dwID = 36683,
+				aFocus = {
+					{
+						szDisplay = "王史涯",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 80,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "王史涯",
+				tCountdown = {
+					{
+						nClass = 6,
+						nTime = "0.6,准备神怒·后跳,3;0.2,准备神怒·后跳,3",
+						szName = "",
+						nFrame = 5,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bCenterAlarm = true,
+				},
+				dwID = 36780,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "小火圈",
+			},
+			{
+				nFrame = 57,
+				dwID = 36719,
+				szNote = "伤害圈",
+				[3] = {
+					bCenterAlarm = true,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 36778,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "藏宝洞接引人",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+		},
+		[189] = {
+			{
+				nFrame = 47,
+				tCountdown = {
+					{
+						nFrame = 6,
+						nTime = 5,
+						szName = "宠物·呼呼·出现",
+						nClass = 3,
+						nIcon = 13,
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 47704,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "摸宠·呼呼",
+				[3] = {
+					bCenterAlarm = true,
+					bFullScreen = true,
+					bScreenHead = true,
+					tMark = {
+						false,
+						false,
+						false,
+						false,
+						true,
+						false,
+						false,
+						false,
+						false,
+						false,
+					},
+				},
+			},
+			{
+				dwID = 36774,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 3,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "地刺",
+				nFrame = 57,
+			},
+			{
+				nFrame = 50,
+				[3] = {
+					bCenterAlarm = true,
+					tMark = {
+						true,
+						true,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+					},
+				},
+				dwID = 36688,
+				aFocus = {
+					{
+						szDisplay = "老虎",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 80,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "老虎",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					tMark = {
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						true,
+					},
+				},
+				dwID = 36680,
+				aFocus = {
+					{
+						szDisplay = "野人首领",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 80,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "野人首领",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 36778,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "藏宝洞接引人",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+		},
+	},
+	DEBUFF = {
+		[190] = {
+			{
+				nLevel = 1,
+				col = {
+					255,
+					45,
+					45,
+				},
+				dwID = 7962,
+				[1] = {
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				szNote = "怒天刀",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#FF3232",
+						col = "#FF323200",
+						nColAlpha = 0,
+						szReminder = "",
+						nPriority = 12,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 7973,
+				[1] = {
+					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				szNote = "火引",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#FF3232",
+						col = "#FF3232FF",
+						szReminder = "火",
+						nPriority = 3,
+						nColAlpha = 255,
+						bScreenHead = true,
+					},
+				},
+			},
+		},
+		[189] = {
+			{
+				{
+					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				nLevel = 1,
+				col = {
+					255,
+					255,
+					50,
+				},
+				dwID = 7930,
+				szNote = "天崩地裂",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#FFFF32",
+						col = "#FFFF32FF",
+						nPriority = 7,
+						szReminder = "晕",
+						nColAlpha = 255,
+						bScreenHead = true,
+					},
+				},
+			},
+			{
+				{
+					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				nLevel = 1,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 7972,
+				szNote = "地刺",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#FF3232",
+						col = "#FF3232FF",
+						nPriority = 8,
+						szReminder = "刺",
+						nColAlpha = 255,
+						bScreenHead = true,
+					},
+				},
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1759474313,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[190] = {
+			{
+				dwID = 4761,
+				aFocus = {
+					{
+						szDisplay = "冰泉水缸·解除无敌",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 12,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "冰泉水缸",
+				szName = "冰泉水缸",
+			},
+		},
+	},
+}

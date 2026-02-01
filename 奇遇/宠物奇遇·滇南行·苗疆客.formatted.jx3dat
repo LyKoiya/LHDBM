@@ -1,0 +1,204 @@
+{
+	CHAT = {},
+	TALK = {
+		[102] = {
+			{
+				szContent = "一件虽然不贵重但有特殊意义的饰品。",
+				tCountdown = {
+					{
+						key = "奇遇提示0",
+						szName = "奇遇提示0",
+						nClass = 14,
+						nFrame = 0,
+						nIcon = 17135,
+						nTime = "5,恭喜触发·滇南行;15,奇遇不封印·全程5-10分钟;60,1.圣兽潭左上·小土堆;90,1.拾取·脏兮兮的纸条;120,1.返回·苗淼尔;180,2.溪山渡上方·小土堆;210,2.拾取·脏脏的衣角;240,2.返回·苗淼尔;270,3.幽魂草泽·乌苏;300,3.幽魂草泽·寻找·换颜草;360,3.返回·乌苏;390,4.被打晕后·对话·苗淼尔;400,结束·滇南行",
+					},
+					{
+						key = "奇遇提示1",
+						szName = "1.圣兽潭左上·小土堆·返回",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 17135,
+						nTime = 60,
+					},
+					{
+						key = "奇遇提示2",
+						szName = "2.溪山渡上方·小土堆·返回",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 17135,
+						nTime = 60,
+					},
+					{
+						key = "奇遇提示3",
+						szName = "3.幽魂草泽·乌苏·换颜草",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 17135,
+						nTime = 60,
+					},
+					{
+						key = "奇遇提示4",
+						szName = "4.返回·乌苏·对话·苗淼尔",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 17135,
+						nTime = 60,
+					},
+				},
+				szTarget = "苗淼尔",
+			},
+			{
+				szContent = "你已经挖掘过这个土堆了",
+			},
+		},
+	},
+	BUFF = {},
+	DOODAD = {
+		[102] = {
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+					},
+				},
+				szNote = "滇南行·小土堆",
+				szName = "小土堆·滇南行",
+				dwID = 6366,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "换颜草·滇南行",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+					},
+				},
+				szNote = "滇南行·换颜草",
+				szName = "换颜草·滇南行",
+				dwID = 6367,
+			},
+		},
+	},
+	NPC = {
+		[102] = {
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "乌苏·滇南行",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+					},
+				},
+				nFrame = 47,
+				szNote = "滇南行·乌苏",
+				dwID = 55290,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "苗淼尔·滇南行",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+					},
+				},
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				szNote = "苗淼尔·滇南行",
+				dwID = 55289,
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+		},
+	},
+	CASTING = {},
+	DEBUFF = {
+		[102] = {
+			{
+				szNote = "滇南行·护体圣药",
+				nScrutinyType = 1,
+				dwID = 11461,
+				nLevel = 1,
+			},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1710761003,
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "",
+	},
+}

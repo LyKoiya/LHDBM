@@ -1,0 +1,433 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[718] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示0",
+						nTime = "5,恭喜触发·换房记·喜乔迁;15,奇遇不封印·约10分钟完成",
+						szName = "奇遇提示0",
+						nRefresh = 0,
+						nClass = 14,
+						nFrame = 0,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·北方·寄居蟹·寻壳",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "返回·寄居蟹·等待·剧情",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "对话·小天·寻树枝做木剑",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "不远处有什么东西在动，快去看看。",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "沿着·小路·寻找·黄树树枝",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "返回·寄居蟹·对话·小天",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "对话·小帆·交互·摆放螺壳",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "在树旁寻找树枝制作木剑吧",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 60,
+						szName = "对话·小珊·对话·寄居蟹",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 0,
+						szName = "奇遇提示2",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 0,
+						szName = "奇遇提示2",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "寄居蟹成功换壳，获得换下的螺壳，去找小珊吧",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 60,
+						szName = "对话·寄居蟹·完成奇遇",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 0,
+						szName = "奇遇提示2",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 0,
+						szName = "奇遇提示2",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "寄居蟹似乎有话想对你说",
+			},
+		},
+	},
+	NPC = {
+		[718] = {
+			{
+				nFrame = 47,
+				dwID = 134886,
+				aFocus = {
+					{
+						szDisplay = "寄居蟹·换房记",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "换房记·寄居蟹",
+			},
+			{
+				nFrame = 47,
+				dwID = 135522,
+				aFocus = {},
+				szNote = "换房记·小剧场触发点",
+			},
+			{
+				nFrame = 47,
+				dwID = 134884,
+				aFocus = {
+					{
+						szDisplay = "小帆·换房记",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "换房记·小帆",
+			},
+			{
+				nFrame = 47,
+				dwID = 134883,
+				aFocus = {
+					{
+						szDisplay = "小天·换房记",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "换房记·小天",
+			},
+			{
+				nFrame = 47,
+				dwID = 134885,
+				aFocus = {
+					{
+						szDisplay = "小珊·换房记",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "换房记·小珊",
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1763355923,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[718] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 11465,
+				aFocus = {
+					{
+						szDisplay = "听潮·换房记",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "听潮·换房记",
+			},
+			{
+				dwID = 11456,
+				aFocus = {
+					{
+						szDisplay = "斑点纹螺壳·换房记",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "换房记·斑点纹螺壳",
+			},
+			{
+				dwID = 11457,
+				aFocus = {
+					{
+						szDisplay = "埋在沙里的螺壳·换房记",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "换房记埋在沙里的螺壳",
+			},
+			{
+				dwID = 11458,
+				aFocus = {
+					{
+						szDisplay = "淡橘色螺壳·换房记",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "换房记·淡橘色螺壳",
+			},
+			{
+				dwID = 11459,
+				aFocus = {
+					{
+						szDisplay = "树枝·换房记",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "换房记·树枝",
+			},
+			{
+				dwID = 11460,
+				aFocus = {
+					{
+						szDisplay = "摆放螺壳·换房记",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "换房记·摆放螺壳",
+			},
+		},
+	},
+}

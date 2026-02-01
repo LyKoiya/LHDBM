@@ -1,0 +1,477 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[673] = {
+			{
+				szContent = "阿什利戳了戳你。",
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示0",
+						nTime = "5,恭喜触发·匿沙影·阿泥;15,奇遇不封印·约5分钟完成",
+						szName = "奇遇提示0",
+						nRefresh = 0,
+						nFrame = 0,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·阿什利·等待·捉迷藏",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "对话·阿什利·对话·阿泥",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "跟随·阿泥·阿泥的痕迹",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "奇遇提示0",
+						nTime = 30,
+						szName = "等待剧情·捉迷藏",
+						nIcon = 13,
+					},
+				},
+				szContent = "我闭上眼睛啦！数三十下，你要赶紧找地方躲起来！一~",
+				szTarget = "阿什利",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "跟随·阿泥·阿泥的痕迹",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "对话·阿泥·沿着峡谷走",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "等待剧情·对话·阿什利",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "顺着阿泥洞口的轨迹，找到阿什利的藏身之处吧！",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 120,
+						szName = "等待·剧情·对话·阿什利",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 120,
+						szName = "前往·伊吾城·东门·车夫",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 120,
+						szName = "对话·宋怀预·对话·阿什利",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "前方发生争斗。",
+			},
+		},
+	},
+	NPC = {
+		[673] = {
+			{
+				dwID = 132128,
+				aFocus = {
+					{
+						szDisplay = "阿什利·匿沙影",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "匿沙影·阿什利",
+				nFrame = 47,
+			},
+			{
+				dwID = 132127,
+				aFocus = {
+					{
+						szDisplay = "阿泥·匿沙影",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "匿沙影·阿泥",
+				nFrame = 47,
+			},
+			{
+				nFrame = 47,
+				dwID = 132182,
+				aFocus = {
+					{
+						szDisplay = "阿什利·匿沙影",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "匿沙影·阿什利",
+			},
+			{
+				nFrame = 47,
+				dwID = 132181,
+				aFocus = {
+					{
+						szDisplay = "阿泥·匿沙影",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "匿沙影·阿泥",
+			},
+			{
+				nFrame = 47,
+				dwID = 132183,
+				aFocus = {
+					{
+						szDisplay = "阿泥·匿沙影",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "匿沙影·阿泥",
+			},
+			{
+				nFrame = 47,
+				dwID = 132123,
+				aFocus = {
+					{
+						szDisplay = "阿泥·匿沙影",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "匿沙影·阿泥",
+			},
+			{
+				nFrame = 47,
+				dwID = 132198,
+				aFocus = {
+					{
+						szDisplay = "阿什利·匿沙影",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "匿沙影·阿什利",
+			},
+			{
+				nFrame = 47,
+				dwID = 132187,
+				aFocus = {
+					{
+						szDisplay = "宋怀预·匿沙影",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 70,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "匿沙影",
+			},
+			{
+				nFrame = 47,
+				dwID = 132184,
+				aFocus = {
+					{
+						szDisplay = "阿什利·匿沙影",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "匿沙影·阿什利",
+			},
+			{
+				dwID = 132215,
+				aFocus = {
+					{
+						szDisplay = "奇怪的洞·匿沙影",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "匿沙影·奇怪的洞",
+				nFrame = 47,
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1754552717,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[673] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 11191,
+				aFocus = {
+					{
+						szDisplay = "洞口·匿沙影",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "匿沙影·洞口",
+			},
+			{
+				dwID = 11192,
+				aFocus = {
+					{
+						szDisplay = "阿泥的痕迹·匿沙影",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "匿沙影·阿泥的痕迹",
+			},
+		},
+	},
+}

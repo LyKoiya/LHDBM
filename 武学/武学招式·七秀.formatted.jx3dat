@@ -1,0 +1,105 @@
+return {
+	BUFF = {
+		[-1] = {
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "¼õÉË¼à¿Ø",
+						nTime = 5,
+						szName = "×óÐýÓÒ×ª¡¤[{$sender}]",
+						nRefresh = 1,
+						nIcon = 904,
+						nFrame = 6,
+					},
+				},
+				dwID = 29826,
+				col = {
+					0,
+					255,
+					0,
+				},
+				szName = "¼õÉËÐý",
+				[1] = {
+					bBuffList = true,
+				},
+				szNote = "×óÐýÓÒ×ª",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#00FF00",
+						col = "#00FF00FF",
+						nColAlpha = 255,
+						nPriority = 11,
+						szReminder = "Ðý",
+					},
+				},
+			},
+		},
+	},
+	CHAT = {},
+	CASTING = {
+		[-1] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				dwID = 551,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "ÐÄ¹ÄÏÒ¡¤{$sender}",
+						nTime = 3,
+						szName = "ÐÄ¹ÄÏÒ¡¤{$sender}¡ú{$receiver}",
+						nFrame = 6,
+						nIcon = 100445,
+					},
+				},
+			},
+			{
+				nIcon = 100445,
+				nScrutinyType = 2,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "ÐÄ¹ÄÏÒ¡¤{$sender}",
+						nTime = 3,
+						szName = "ÐÄ¹ÄÏÒ¡¤{$sender}¡ú{$receiver}",
+						nIcon = 100445,
+						nFrame = 6,
+					},
+				},
+				dwID = 100445,
+				szName = "ÐÄ¹ÄÏÒ¡¤Îò",
+				[9] = {},
+				nLevel = 1,
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				dwID = 558,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "À×öªÕðÅ­¡¤{$sender}",
+						nTime = 2,
+						szName = "À×öªÕðÅ­¡ú{$receiver}",
+						nFrame = 1,
+						nIcon = 1506,
+					},
+				},
+			},
+		},
+	},
+	TALK = {},
+	NPC = {},
+	DEBUFF = {},
+	__meta = {
+		szServer = "Î¨ÎÒ¶À×ð",
+		szAuthor = "ºÉ»¨Àð",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1766170487,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}

@@ -1,0 +1,546 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[325] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示0",
+						nTime = "5,恭喜触发·露园事·瓜皮;15,奇遇不封印·约15分钟完成",
+						szName = "奇遇提示0",
+						nRefresh = 0,
+						nClass = 14,
+						nFrame = 0,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·林云飞·前往东边木屋",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "对话·林文·等待·剧情结束",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "对话·林文·再对话·康宴别",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "你找到的这把骨杖似乎很合适。",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·林文·对话·康宴别",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "前往·饮露园·对话康成功",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "等待·康宴别·布置完陷阱",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "家主息怒，这是最后一根杖子了，折了……不太好……",
+				szTarget = "林英",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "返回·康成功·前往东边小路",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "对话·康宴别·观看动画剧情",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "对话·康宴别·服用·灵显丹",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "陷阱遭到破坏，连接机关的绳子被咬断。",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "交互·坑洞·若消失则左右绕",
+						nFrame = 7,
+						nClass = 1,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "观看·动画剧情·返回康宴别",
+						nFrame = 7,
+						nClass = 1,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "返回·瓜田处·使用·麻沸散",
+						nFrame = 7,
+						nClass = 1,
+					},
+				},
+				szContent = "药粉痕迹在这个坑洞处消失了，试试挖开看看吧。",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "返回·康成功·对话·康宴别",
+						nClass = 1,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "返回·云中谷·康宴别·剧情",
+						nClass = 1,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "对话·康宴别·交互·丝绒鼠",
+						nClass = 1,
+						nFrame = 7,
+					},
+				},
+				szContent = "陷阱布置完毕，去饮露园和小别他们会合吧。",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·康宴别·交互·丝绒鼠",
+						nFrame = 7,
+						nClass = 1,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "对话·康宴别·完成·露园事",
+						nFrame = 7,
+						nClass = 1,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "获得·偷瓜大盗·宠物·瓜皮",
+						nFrame = 7,
+						nClass = 1,
+					},
+				},
+				szContent = "吱——",
+				szTarget = "丝绒鼠",
+			},
+		},
+	},
+	NPC = {
+		[325] = {
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 70597,
+				aFocus = {
+					{
+						szDisplay = "林云飞·露园事",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 80,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "露园事·林云飞",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				dwID = 70675,
+				aFocus = {
+					{
+						szDisplay = "林文·露园事",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "露园事·林文",
+			},
+			{
+				nFrame = 47,
+				dwID = 70599,
+				aFocus = {
+					{
+						szDisplay = "康宴别·露园事",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "露园事·康宴别",
+			},
+			{
+				nFrame = 47,
+				dwID = 70604,
+				aFocus = {
+					{
+						szDisplay = "康成功·露园事",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "露园事·康成功",
+			},
+			{
+				nFrame = 47,
+				dwID = 70605,
+				aFocus = {
+					{
+						szDisplay = "丝绒鼠·露园事",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 12,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "露园事·丝绒鼠",
+			},
+		},
+	},
+	DEBUFF = {
+		[325] = {
+			{
+				nLevel = 1,
+				[2] = {
+					szVoice = "ZhuanJieDuan",
+					bCenterAlarm = true,
+				},
+				dwID = 17168,
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 300,
+						szName = "等待·康宴别·布置陷阱完成",
+						nFrame = 7,
+						nClass = 1,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 300,
+						szName = "对话·康成功·前往南边瓜田",
+						nFrame = 7,
+						nClass = 1,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 300,
+						szName = "交互·陷阱·返回·康成功处",
+						nFrame = 7,
+						nClass = 1,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·康成功·前往南边瓜田",
+						nFrame = 7,
+						nClass = 2,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "交互·陷进·返回·康成功处",
+						nFrame = 7,
+						nClass = 2,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "前往·东边小路·对话康宴别",
+						nFrame = 7,
+						nClass = 2,
+					},
+				},
+				szNote = "等待",
+				nScrutinyType = 1,
+			},
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "跟随·白色烟雾·到达大树下",
+						nClass = 1,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "交互·坑洞·若消失则左右绕",
+						nClass = 1,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "观看·动画剧情·返回康宴别",
+						nClass = 1,
+						nFrame = 7,
+					},
+				},
+				nScrutinyType = 1,
+				nIcon = 250,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 17179,
+				nLevel = 1,
+				szNote = "灵视",
+				szName = "灵视",
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1734285129,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[325] = {
+			{
+				dwID = 8255,
+				aFocus = {
+					{
+						szDisplay = "武器箱·露园事",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 6,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "露园事·武器箱",
+			},
+			{
+				dwID = 8258,
+				aFocus = {
+					{
+						szDisplay = "陷阱·露园事",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "露园事·陷阱",
+			},
+			{
+				dwID = 8265,
+				aFocus = {
+					{
+						szDisplay = "坑洞·露园事",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "露园事·坑洞",
+			},
+		},
+	},
+}

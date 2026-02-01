@@ -1,0 +1,3285 @@
+return {
+	BUFF = {},
+	CHAT = {
+		[153] = {
+			{
+				szContent = "你已接受了[锦毛小兔]。\
+",
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 60,
+						szName = "前往·望咸宫·左下角·锦毛兔",
+						nFrame = 4,
+						nIcon = 3559,
+					},
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = "10,日常上交·[甜象草]x6·10天;20,需获取·[皇家玉佩]x10",
+						szName = "上交·[甜象草]x6·10天",
+						nIcon = 307,
+					},
+				},
+				szContent = "你已接受了[喂兔之草]。\
+",
+			},
+		},
+		[139] = {
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 30,
+						szName = "获取蟹帅·需要成就·[屠狼大会]",
+						nIcon = 6140,
+					},
+				},
+				szContent = "你已完成了[终极对弈]。\
+",
+			},
+		},
+		[15] = {
+			{
+				szContent = "你已接受了[不许煮了吃]。\
+",
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 60,
+						szName = "前往·城门车夫附近·段小小",
+						nIcon = 83,
+						nFrame = 4,
+					},
+				},
+			},
+		},
+		[156] = {
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 30,
+						szName = "对话·林小明·[别怕有我在]",
+						nIcon = 4912,
+						nFrame = 4,
+					},
+				},
+				szContent = "你已接受了[害鹅之人]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 60,
+						szName = "前往·骆宾王墓·骆宾王诗碑",
+						nFrame = 4,
+						nIcon = 4912,
+					},
+				},
+				szContent = "你已接受了[咏鹅之篇]。\
+",
+			},
+		},
+		[105] = {
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 60,
+						szName = "前往·玉局峰·对话·渡忧",
+						nIcon = 6142,
+					},
+				},
+				szContent = "你已接受了[还书禅师在玉局]。\
+",
+			},
+		},
+		[158] = {
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 60,
+						szName = "前往·青骓牧场西北·狼牙的食盒",
+						nIcon = 171,
+					},
+				},
+				szContent = "你已接受了[骨瘦如柴]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 20,
+						szName = "交互·土堆·阅读日志",
+						nIcon = 171,
+					},
+				},
+				szContent = "你已接受了[藏宝之处]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 60,
+						szName = "前往·战阵前线·外城墙下",
+						nIcon = 61,
+					},
+					{
+						nClass = 20,
+						key = "任务提示2",
+						nTime = 60,
+						szName = "交互·破损的靴子·返回",
+						nIcon = 61,
+					},
+				},
+				szContent = "你已接受了[找回战靴]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 60,
+						szName = "前往外城东南·交互破损的护手",
+						nIcon = 1084,
+					},
+					{
+						nClass = 20,
+						key = "任务提示2",
+						nTime = -1,
+						szName = "任务提示2",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[找回护手]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 60,
+						szName = "前往战阵前线·交互破损的腿甲",
+						nIcon = 947,
+					},
+				},
+				szContent = "你已接受了[找回腿甲]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = "10,日常寻找·染血的沙土堆·10天;20,需获取·[战甲残片]x10",
+						szName = "日常寻找·染血的沙土堆·10天",
+						nRefresh = 0,
+						nIcon = 947,
+					},
+				},
+				szContent = "你已接受了[寻找遗物]。\
+",
+			},
+		},
+		[151] = {
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 60,
+						szName = "前往·城外西南河岸·[血烟草]",
+						nIcon = 232,
+					},
+				},
+				szContent = "你已接受了[血烟草]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 60,
+						szName = "前往·听泉私塾南河岸·[华落羽]",
+						nIcon = 146,
+					},
+				},
+				szContent = "你已接受了[华落羽]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 60,
+						szName = "前往·牢营·狼牙巫医的草药箱",
+						nIcon = 219,
+					},
+				},
+				szContent = "你已接受了[巫医秘药]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 60,
+						szName = "交互·内城西边·草料垛",
+						nIcon = 130,
+					},
+				},
+				szContent = "你已接受了[还以颜色]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = "10,日常寻找·军机宝箱·10天;20,需获取·[军机密件]x10",
+						szName = "日常·寻找·军机宝箱·10天",
+						nRefresh = 0,
+						nIcon = 294,
+					},
+				},
+				szContent = "你已接受了[捣乱狼牙]。\
+",
+			},
+		},
+		[22] = {
+			{
+				szContent = "你已接受了[一草一石可交易]。\
+",
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = "10,日常采集·一盏青头草·10天;20,需获取·[彩色石子]x10",
+						szName = "日常采集·一盏青头草·10天",
+						nRefresh = 0,
+						nIcon = 588,
+					},
+				},
+			},
+		},
+		[172] = {
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 30,
+						szName = "前往·长安地宫·狼牙探寻者",
+						nIcon = 6801,
+					},
+				},
+				szContent = "你已接受了[欲寻宝藏魂归天]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 30,
+						szName = "前往·胡玉楼·对话·周钰彤",
+						nIcon = 6801,
+					},
+				},
+				szContent = "你已完成了[欲寻宝藏魂归天]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = "10,前往长安地宫·攻击洞窟黑蛇;20,日常获取·[龙胆]x10·10天;30,需获取·[龙胆酒]x10",
+						szName = "日常获取·[龙胆]x10·10天",
+						nIcon = 1398,
+					},
+				},
+				szContent = "你已接受了[蛇心龙胆诱老怪]。\
+",
+			},
+		},
+		[108] = {
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 120,
+						szName = "使用·线索纸条·巨树村的左下",
+						nIcon = 4986,
+					},
+					{
+						nClass = 20,
+						key = "任务提示2",
+						nTime = 120,
+						szName = "前往·地图左下·交互·沙土堆",
+						nIcon = 4986,
+					},
+				},
+				szContent = "你已接受了[训犬秘术]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 10,
+						szName = "使用·背包·[找妈妈的哈皮]",
+						nIcon = 4986,
+					},
+				},
+				szContent = "你已完成了[寻母之路·四]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = "10,日常投喂·[骨头]x10·10天;20,需获取·[犬语术残页]x10",
+						szName = "日常·[骨头]x10·10天",
+						nRefresh = 0,
+						nIcon = 244,
+					},
+				},
+				szContent = "你已接受了[朋友之道]。\
+",
+			},
+		},
+	},
+	CASTING = {},
+	TALK = {
+		[15] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·大头鹅·已捕获;20,林小明·CD·2-3小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nIcon = 3558,
+						nFrame = 7,
+					},
+				},
+				szContent = "哈哈，记住我是鹅小子，我们后会有期！",
+				szNote = "蹲宠·大头鹅·已被捕获",
+				szTarget = "林小明",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·大头鹅·已捕获;20,林小明·CD·2-3小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nFrame = 7,
+						nIcon = 3558,
+					},
+				},
+				szNote = "蹲宠·大头鹅·已被捕获",
+				szTarget = "神秘人",
+				szContent = "大头鹅已被好心侠士带走照顾。",
+			},
+		},
+		[139] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "任务提示1",
+						nTime = 60,
+						szName = "前往·唐军大营·对话·横大虎",
+						nIcon = 539,
+					},
+				},
+				szContent = "再次多谢！",
+				szTarget = "密探",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "任务提示1",
+						nTime = 60,
+						szName = "前往·唐军大营·对话·横大虎",
+						nIcon = 294,
+					},
+				},
+				szTarget = "密探",
+				szContent = "多谢！",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·蟹帅·已捕获;20,密探·CD·1小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nFrame = 7,
+						nIcon = 6140,
+					},
+				},
+				szContent = "包裹已被好心侠士带走。",
+				szTarget = "神秘人",
+				szNote = "蹲宠·蟹帅·已被捕获",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·蟹将·已捕获;20,密探·CD·1小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nIcon = 6137,
+						nFrame = 7,
+					},
+				},
+				szTarget = "神秘人",
+				szContent = "密信已被好心侠士带走。",
+				szNote = "蹲宠·蟹将·已被捕获",
+			},
+		},
+		[8] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·稻稻·已捕获;20,果子狸·CD·1小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nFrame = 7,
+						nIcon = 4989,
+					},
+				},
+				szContent = "稻稻已被好心侠士带走。",
+				szTarget = "神秘人",
+				szNote = "蹲宠·稻稻·已被捕获",
+			},
+		},
+		[151] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 1898,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·阿里·已捕获;20,奇怪的包袱·CD·2-3小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szTarget = "神秘人",
+				szNote = "蹲宠·阿里·已被捕获",
+				szContent = "奇怪的包袱中的段氏腰牌已被好心侠士带走。",
+			},
+		},
+		[9] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·稻稻·已捕获;20,果子狸·CD·1小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nFrame = 7,
+						nIcon = 4989,
+					},
+				},
+				szNote = "蹲宠·稻稻·已被捕获",
+				szContent = "稻稻已被好心侠士带走。",
+				szTarget = "神秘人",
+			},
+		},
+		[35] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·蟹仕·已捕获;20,蟹仕·CD·3-4小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nFrame = 7,
+						nIcon = 6629,
+					},
+				},
+				szNote = "蹲宠·蟹仕·已被捕获",
+				szContent = "不知道是谁丢失的《象棋谱·国士无双局上部》，已被好心侠士带走。",
+				szTarget = "神秘人",
+			},
+		},
+		[103] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·蟹砲·已捕获;20,蟹砲·CD·3-4小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nFrame = 7,
+						nIcon = 6138,
+					},
+				},
+				szTarget = "神秘人",
+				szNote = "蹲宠· ·已被捕获",
+				szContent = "不知道是谁丢失的《象棋谱·谪仙局上部》，已被好心侠士带走。",
+			},
+		},
+		[10] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示1",
+						nTime = "10,蹲宠·蟹兵·已捕获;20,喜小乐·CD·1-2小时",
+						szName = "蹲宠提示1",
+						nRefresh = 0,
+						nIcon = 6110,
+						nFrame = 7,
+					},
+				},
+				szTarget = "喜小乐",
+				szContent = "我先回去了，我们有缘再见哦。",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示1",
+						nTime = "10,蹲宠·蟹兵·已捕获;20,喜小乐·CD·1-2小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nFrame = 7,
+						nIcon = 6110,
+					},
+				},
+				szNote = "蹲宠·蟹兵·已被捕获",
+				szContent = "蟹兵已被好心侠士带走照顾。",
+				szTarget = "神秘人",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 4988,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·蟹仔·已捕获;20,寄居蟹·CD·1-2小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "蟹仔已被好心侠士带走。",
+				szTarget = "神秘人",
+				szNote = "蹲宠·蟹仔·已被捕获",
+			},
+		},
+		[21] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·蟹车·蓝·已捕获;20,蟹车·蓝·CD·3-4小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nFrame = 7,
+						nIcon = 6804,
+					},
+				},
+				szContent = "不知道是谁丢失的《象棋谱·横行局下部》，已被好心侠士带走。",
+				szTarget = "神秘人",
+				szNote = "蹲宠·蟹车·蓝·已被捕获",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·白鹅·已捕获;20,皮皮·CD·1-2小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nFrame = 7,
+						nIcon = 3558,
+					},
+				},
+				szNote = "蹲宠·白鹅·已被捕获",
+				szTarget = "皮皮",
+				szContent = "别抓我，我这就去找个金盆来洗洗手，再见了，哈哈。",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·白鹅·已捕获;20,皮皮·CD·1-2小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nIcon = 3558,
+						nFrame = 7,
+					},
+				},
+				szContent = "白鹅已被好心侠士带走照顾。",
+				szTarget = "神秘人",
+				szNote = "蹲宠·白鹅·已被捕获",
+			},
+		},
+		[22] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 6642,
+						key = "蹲宠提示1",
+						nTime = "10,蹲宠·嘟嘟·已捕获;20,车山果·CD·6-7小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szTarget = "车山果",
+				szContent = "太好了！已经有人带回药草了！",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "冷泉之水",
+						nTime = -1,
+						szName = "冷泉之水",
+						nIcon = 13,
+					},
+				},
+				szTarget = "车山果",
+				szContent = "太好了！是一片新鲜草叶！",
+			},
+			{
+				szContent = "快去快回！莫要剧烈运动！",
+				szTarget = "车山果",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 4988,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·蟹仔·已捕获;20,寄居蟹·CD·1-2小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szTarget = "神秘人",
+				szNote = "蹲宠·蟹仔·已被捕获",
+				szContent = "蟹仔已被好心侠士带走。",
+			},
+		},
+		[6] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示2",
+						nTime = "10,蹲宠·蟹马·蓝·已捕获;20,蟹马·蓝·CD·3-4小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nIcon = 6989,
+						nFrame = 7,
+					},
+				},
+				szTarget = "神秘人",
+				szNote = "蹲宠·蟹马·蓝·已被捕获",
+				szContent = "不知道是谁丢失的《象棋谱·凡仙局下部》，已被好心侠士带走。",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示1",
+						nTime = "10,蹲宠·蟹卒·已捕获;20,蟹卒·CD·1.5-2小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nFrame = 7,
+						nIcon = 6111,
+					},
+				},
+				szTarget = "横小五",
+				szContent = "我要去找螃蟹了，回头再见吧。",
+				szNote = "蹲宠·蟹卒·已被捕获",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示1",
+						nTime = "10,蹲宠·蟹卒·已捕获;20,蟹卒·CD·1.5-2小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nIcon = 6111,
+						nFrame = 7,
+					},
+				},
+				szNote = "蹲宠·蟹卒·已被捕获",
+				szContent = "蟹卒已被好心侠士带走照顾。",
+				szTarget = "神秘人",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·大哈·已捕获;20,大哈·CD·1小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nFrame = 7,
+						nIcon = 6100,
+					},
+				},
+				szNote = "蹲宠·大哈·已被捕获",
+				szContent = "大哈已被好心侠士带走。",
+				szTarget = "神秘人",
+			},
+		},
+		[12] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·蟹相·已捕获;20,蟹相·CD·2-3小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nIcon = 6141,
+						nFrame = 7,
+					},
+				},
+				szNote = "蹲宠·蟹相·已被捕获",
+				szContent = "不知道是谁丢失的《象棋谱·半仙局上部》，已被好心侠士带走。",
+				szTarget = "神秘人",
+			},
+		},
+		[153] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·小锦·已捕获;20,小锦·CD·1-2小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nFrame = 7,
+						nIcon = 3559,
+					},
+				},
+				szNote = "蹲宠·小锦·已被捕获",
+				szContent = "小包裹里的华丽发簪已被好心侠士带走寻找主人。",
+				szTarget = "神秘人",
+			},
+		},
+		[13] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示1",
+						nTime = "10,蹲宠·蟹士·已捕获;20,蟹士·CD·3-4小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nIcon = 6630,
+						nFrame = 7,
+					},
+				},
+				szNote = "蹲宠·蟹士·已被捕获",
+				szContent = "不知道是谁丢失的《象棋谱·国士无双局下部》，已被好心侠士带走。",
+				szTarget = "神秘人",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·稻稻·已捕获;20,果子狸·CD·1小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nIcon = 4989,
+						nFrame = 7,
+					},
+				},
+				szTarget = "神秘人",
+				szNote = "蹲宠·稻稻·已被捕获",
+				szContent = "稻稻已被好心侠士带走。",
+			},
+		},
+		[100] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·蟹车·红·已捕获;20,蟹车·红·CD·3-4小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nIcon = 6805,
+						nFrame = 7,
+					},
+				},
+				szTarget = "神秘人",
+				szNote = "蹲宠·蟹车·红·已被捕获",
+				szContent = "不知道是谁丢失的《象棋谱·横行局上部》，已被好心侠士带走。",
+			},
+		},
+		[104] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·蟹马·红·已捕获;20,蟹马·红·CD·3-4小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nFrame = 7,
+						nIcon = 6988,
+					},
+				},
+				szContent = "不知道是谁丢失的《象棋谱·凡仙局下部》，已被好心侠士带走。",
+				szTarget = "神秘人",
+				szNote = "蹲宠·蟹马·红·已被捕获",
+			},
+		},
+		[172] = {
+			{
+				szContent = "哎呀，这不是静静吗？大侠是从哪里得到的？",
+				szTarget = "六指乞丐",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 6801,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·静静·已捕获;20,小静静·CD·8-9小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "静静已被好心侠士带走。",
+				szTarget = "神秘人",
+				szNote = "蹲宠·静静·已被捕获",
+			},
+		},
+		[108] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "任务提示1",
+						nTime = 10,
+						szName = "选中·哈皮·使用[犬语说明]",
+						nIcon = 4986,
+						nFrame = 5,
+					},
+				},
+				szContent = "选中小狗，用犬语说明中的指令哄哄它吧。",
+				szTarget = "申二郎",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示1",
+						nTime = "10,蹲宠·蟹炮·已捕获;20,蟹炮·CD·3-4小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nFrame = 7,
+						nIcon = 6139,
+					},
+				},
+				szContent = "不知道是谁丢失的《象棋谱·谪仙局下部》，已被好心侠士带走。",
+				szTarget = "神秘人",
+				szNote = "蹲宠·蟹炮·已被捕获",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·哈皮·已捕获;20,虚弱的小狗·CD·2-3小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nIcon = 4986,
+						nFrame = 7,
+					},
+				},
+				szNote = "蹲宠·哈皮·已被捕获",
+				szTarget = "神秘人",
+				szContent = "虚弱的小狗已被好心侠士带走。",
+			},
+		},
+		[156] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·小灰·已捕获;20,惊恐的灰鹅·CD·1.5-2小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nFrame = 7,
+						nIcon = 4912,
+					},
+				},
+				szNote = "蹲宠·小灰·已被捕获",
+				szTarget = "神秘人",
+				szContent = "惊恐的灰鹅已被好心侠士带走寻找主人。",
+			},
+		},
+		[158] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "任务提示1",
+						nTime = 30,
+						szName = "攻击·阿飞·接取任务",
+						nIcon = 947,
+					},
+				},
+				szContent = "阿飞似乎嗅到了什么，吠叫着向你冲来……",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·阿飞·已捕获;20,士兵的包裹·CD·2-3小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nFrame = 7,
+						nIcon = 4937,
+					},
+				},
+				szNote = "蹲宠·阿飞·已被捕获",
+				szTarget = "神秘人",
+				szContent = "士兵的包裹中的染血护甲残片已被好心侠士带走。",
+			},
+		},
+		[105] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "蹲宠提示0",
+						nTime = "10,蹲宠·蟹象·已捕获;20,蟹象·CD·2-3小时",
+						szName = "蹲宠提示0",
+						nRefresh = 0,
+						nFrame = 7,
+						nIcon = 6142,
+					},
+				},
+				szNote = "蹲宠·蟹象·已被捕获",
+				szContent = "不知道是谁丢失的《象棋谱·半仙局下部》，已被好心侠士带走。",
+				szTarget = "神秘人",
+			},
+		},
+	},
+	NPC = {
+		[15] = {
+			{
+				nFrame = 47,
+				tCountdown = {
+					{
+						nClass = 3,
+						key = "蹲宠答题1",
+						nTime = 20,
+						szName = "林小明·[2]白毛浮绿水",
+						nFrame = 7,
+						nIcon = 3558,
+					},
+					{
+						nClass = 4,
+						key = "蹲宠答题1",
+						nTime = -1,
+						szName = "蹲宠答题1",
+						nIcon = 13,
+					},
+				},
+				szName = "林小明·大头鹅",
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 19320,
+				aFocus = {
+					{},
+				},
+				szNote = "林小明·大头鹅",
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "段小小·大头鹅",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "段小小",
+				dwID = 18690,
+			},
+		},
+		[139] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				dwID = 25531,
+				aFocus = {
+					{
+						szDisplay = "密探·蟹将·蟹帅",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "密探·蟹将·蟹帅",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "横大虎·蟹将·蟹帅",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "横大虎·蟹将·蟹帅",
+				dwID = 25532,
+			},
+		},
+		[8] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				szName = "果子狸·稻稻",
+				aFocus = {
+					{
+						szDisplay = "果子狸·稻稻",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "果子狸·稻稻",
+				dwID = 27468,
+			},
+		},
+		[151] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "段方西·阿里",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "段方西·阿里",
+				dwID = 25530,
+			},
+		},
+		[9] = {
+			{
+				nFrame = 47,
+				dwID = 27468,
+				col = {
+					0,
+					255,
+					255,
+				},
+				szName = "果子狸·稻稻",
+				aFocus = {
+					{
+						szDisplay = "果子狸·稻稻",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "果子狸·稻稻",
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+			},
+		},
+		[35] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "肖爻仔·蟹仕",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "肖爻仔·蟹仕",
+				dwID = 41129,
+			},
+		},
+		[103] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "齐子介·蟹砲",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "齐子介·蟹砲",
+				dwID = 36940,
+			},
+		},
+		[10] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				szName = "寄居蟹·蟹仔",
+				aFocus = {
+					{
+						szDisplay = "寄居蟹·蟹仔",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "寄居蟹·蟹仔",
+				dwID = 27467,
+			},
+			{
+				nFrame = 47,
+				tCountdown = {
+					{
+						nClass = 3,
+						key = "蹲宠答题1",
+						nTime = 20,
+						szName = "喜小乐·[2]三十二、八、四",
+						nFrame = 7,
+						nIcon = 6110,
+					},
+					{
+						nClass = 4,
+						key = "蹲宠答题1",
+						nTime = -1,
+						szName = "蹲宠答题1",
+						nIcon = 13,
+					},
+				},
+				dwID = 19323,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				szName = "喜小乐·蟹兵",
+				aFocus = {
+					{
+						szDisplay = "喜小乐·蟹兵",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "喜小乐·蟹兵",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+		},
+		[21] = {
+			{
+				nFrame = 47,
+				dwID = 19321,
+				col = {
+					0,
+					255,
+					255,
+				},
+				szName = "皮皮·白鹅",
+				aFocus = {
+					{
+						szDisplay = "皮皮·白鹅",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "皮皮·白鹅",
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "于大吃·蟹车·蓝",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "于大吃·蟹车·蓝",
+				dwID = 42870,
+			},
+		},
+		[22] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 41126,
+				aFocus = {
+					{
+						szDisplay = "车山果·嘟嘟",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "车山果",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				nFrame = 47,
+				dwID = 27467,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				szName = "寄居蟹·蟹仔",
+				aFocus = {
+					{
+						szDisplay = "寄居蟹·蟹仔",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "寄居蟹·蟹仔",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+		},
+		[6] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "老张·蟹马·蓝",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "老张·蟹马·蓝",
+				dwID = 44060,
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				szName = "横小五·蟹卒",
+				aFocus = {
+					{
+						szDisplay = "横小五·蟹卒",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "横小五·蟹卒",
+				dwID = 19322,
+			},
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					255,
+				},
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				szName = "幼小的蛤蟆·大哈",
+				aFocus = {
+					{
+						szDisplay = "幼小的蛤蟆·大哈",
+					},
+				},
+				szNote = "幼小的蛤蟆·大哈",
+				dwID = 36268,
+			},
+		},
+		[12] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "楚大河·蟹相",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "楚大河·蟹相",
+				dwID = 36036,
+			},
+		},
+		[153] = {
+			{
+				nFrame = 50,
+				aFocus = {
+					{
+						szDisplay = "锦毛兔·锦毛小兔",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "锦毛兔·锦毛小兔",
+				dwID = 25518,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "宫女·小锦",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "宫女",
+				dwID = 25517,
+			},
+		},
+		[13] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				szName = "果子狸·稻稻",
+				aFocus = {
+					{
+						szDisplay = "果子狸·稻稻",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "果子狸·稻稻",
+				dwID = 27468,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "布幅叔·蟹士",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "布幅叔·蟹士",
+				dwID = 41128,
+			},
+		},
+		[100] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "小沙弥·蟹车·红",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "小沙弥·蟹车·红",
+				dwID = 42869,
+			},
+		},
+		[104] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "星宿派弟子·蟹马·红",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "星宿派弟子·蟹马·红",
+				dwID = 44059,
+			},
+		},
+		[156] = {
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "穷凶极恶的狼牙兵",
+				dwID = 25529,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "林小明·小灰",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "林小明·小灰",
+				dwID = 25528,
+			},
+			{
+				nFrame = 47,
+				dwID = 25524,
+				col = {
+					0,
+					255,
+					255,
+				},
+				szName = "惊恐的灰鹅·小灰",
+				aFocus = {
+					{
+						szDisplay = "惊恐的灰鹅·小灰",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "惊恐的灰鹅·小灰",
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+			},
+		},
+		[108] = {
+			{
+				nFrame = 50,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "哈皮·寻亲任务",
+				dwID = 27083,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 12,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "哈皮·日常",
+				dwID = 27466,
+			},
+			{
+				nFrame = 50,
+				dwID = 27081,
+				col = {
+					0,
+					255,
+					255,
+				},
+				szName = "虚弱的小狗·哈皮",
+				aFocus = {
+					{
+						szDisplay = "虚弱的小狗·哈皮",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "虚弱的小狗·哈皮",
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "谢仙局·蟹炮",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "谢仙局·蟹炮",
+				dwID = 36942,
+			},
+			{
+				dwID = 27082,
+				aFocus = {
+					{
+						szDisplay = "申二郎",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "申二郎",
+				nFrame = 47,
+			},
+		},
+		[105] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "夏小齐·蟹象",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "夏小齐·蟹象",
+				dwID = 36267,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "渡忧·蟹象",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "渡忧·蟹象",
+				dwID = 16571,
+			},
+		},
+		[158] = {
+			{
+				nFrame = 50,
+				aFocus = {
+					{
+						szDisplay = "阿飞·护甲残片",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				dwID = 25406,
+			},
+		},
+		[172] = {
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "狼牙探寻者",
+				dwID = 26672,
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				dwID = 42868,
+				aFocus = {
+					{
+						szDisplay = "小静静·蹲宠",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "蹲宠·小静静",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "六指乞丐",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "六指乞丐",
+				dwID = 25756,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "周钰彤·静静",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "周钰彤·静静",
+				dwID = 25947,
+			},
+		},
+	},
+	DEBUFF = {
+		[22] = {
+			{
+				{
+					bBuffList = true,
+					bCenterAlarm = true,
+				},
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "冷泉之水",
+						nTime = 100,
+						szName = "冷泉之水·剩余",
+						nFrame = 4,
+						nIcon = 968,
+					},
+					{
+						nClass = 2,
+						key = "冷泉之水",
+						nTime = -1,
+						szName = "冷泉之水",
+						nIcon = 13,
+					},
+				},
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 8632,
+				szNote = "冷泉之水",
+				nLevel = 1,
+			},
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				nCount = 10,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 8683,
+				szNote = "交谈",
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1744347751,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[103] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				szName = "一本书·蟹砲",
+				aFocus = {
+					{
+						szDisplay = "一本书·谪仙局上部·蟹砲",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "一本书·谪仙局上部",
+				dwID = 4773,
+			},
+		},
+		[13] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5052,
+				aFocus = {
+					{
+						szDisplay = "一本书·国士无双局下部·蟹士",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "一本书国士无双局下部",
+				szName = "一本书·蟹士",
+			},
+		},
+		[35] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5051,
+				aFocus = {
+					{
+						szDisplay = "一本书·国士无双局上部·蟹仕",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "一本书·国士无双局上",
+				szName = "一本书·蟹仕",
+			},
+		},
+		[100] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5153,
+				aFocus = {
+					{
+						szDisplay = "一本书·横行局上部·蟹车红",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "一本书·横行局上部",
+				szName = "一本书·蟹车·红",
+			},
+		},
+		[104] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				szName = "一本书·蟹马·红",
+				aFocus = {
+					{
+						szDisplay = "一本书·凡仙局下部·蟹马红",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "一本书·凡仙局下部",
+				dwID = 5320,
+			},
+		},
+		[108] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4772,
+				aFocus = {
+					{
+						szDisplay = "一本书·谪仙局下部·蟹炮",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "一本书·谪仙局下部",
+				szName = "一本书·蟹炮",
+			},
+			{
+				dwID = 4578,
+				aFocus = {
+					{
+						szDisplay = "沙土堆·哈皮",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "沙土堆·哈皮",
+			},
+		},
+		[156] = {
+			{
+				dwID = 4297,
+				aFocus = {
+					{
+						szDisplay = "骆宾王诗碑·小灰",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "骆宾王诗碑",
+			},
+		},
+		[105] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				szName = "一本书·蟹象",
+				aFocus = {
+					{
+						szDisplay = "一本书·半仙局下部·蟹象",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "一本书·半仙局下部",
+				dwID = 4714,
+			},
+		},
+		[6] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5321,
+				aFocus = {
+					{
+						szDisplay = "一本书·凡仙局下部·蟹马蓝",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "一本书·凡仙局下部",
+				szName = "一本书·蟹马·蓝",
+			},
+		},
+		[158] = {
+			{
+				dwID = 4279,
+				aFocus = {
+					{
+						szDisplay = "狼牙的食盒·阿飞",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "狼牙的食盒·阿飞",
+			},
+			{
+				dwID = 4280,
+				aFocus = {
+					{
+						szDisplay = "土堆·阿飞",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "土堆·阿飞",
+			},
+			{
+				dwID = 4283,
+				aFocus = {
+					{
+						szDisplay = "破损的护手·阿飞",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "破损的护手·阿飞",
+			},
+			{
+				dwID = 4281,
+				aFocus = {
+					{
+						szDisplay = "破损的腿甲·阿飞",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "破损的腿甲·阿飞",
+			},
+			{
+				dwID = 4282,
+				aFocus = {
+					{
+						szDisplay = "破损的靴子·阿飞",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "破损的靴子·阿飞",
+			},
+			{
+				dwID = 4303,
+				aFocus = {
+					{
+						szDisplay = "染血的沙土堆·阿飞",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "染血的沙土堆·阿飞",
+			},
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4278,
+				aFocus = {
+					{
+						szDisplay = "士兵的包裹·阿飞",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "士兵的包裹·阿飞",
+				szName = "士兵的包裹·阿飞",
+			},
+		},
+		[151] = {
+			{
+				dwID = 4300,
+				aFocus = {
+					{
+						szDisplay = "华落羽·阿里",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "华落羽·阿里",
+			},
+			{
+				dwID = 4301,
+				aFocus = {
+					{
+						szDisplay = "草药箱·阿里",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "狼牙巫医的草药箱阿里",
+			},
+			{
+				dwID = 4299,
+				aFocus = {
+					{
+						szDisplay = "血烟草·阿里",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "血烟草·阿里",
+			},
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4298,
+				aFocus = {
+					{
+						szDisplay = "奇怪的包袱·阿里",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "奇怪的包袱·阿里",
+				szName = "奇怪的包袱·阿里",
+			},
+			{
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4304,
+				aFocus = {
+					{
+						szDisplay = "军机宝箱·阿里",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "军机宝箱·阿里",
+				szName = "军机宝箱·阿里",
+			},
+			{
+				dwID = 4302,
+				aFocus = {
+					{
+						szDisplay = "草料垛·阿里",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "草料垛·阿里",
+			},
+		},
+		[21] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5154,
+				aFocus = {
+					{
+						szDisplay = "一本书·横行局下部·蟹车蓝",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "一本书·蟹车·蓝",
+				szName = "一本书·蟹车·蓝",
+			},
+		},
+		[22] = {
+			{
+				dwID = 5054,
+				aFocus = {
+					{
+						szDisplay = "一盏青头草·嘟嘟",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "一盏青头草·嘟嘟",
+			},
+		},
+		[12] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4713,
+				aFocus = {
+					{
+						szDisplay = "一本书·半仙局上部·蟹相",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "一本书·半仙局上部",
+				szName = "一本书·蟹相",
+			},
+		},
+		[153] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4296,
+				aFocus = {
+					{
+						szDisplay = "一个小包裹·小锦",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "一个小包裹·小锦",
+				szName = "一个小包裹·小锦",
+			},
+		},
+	},
+}

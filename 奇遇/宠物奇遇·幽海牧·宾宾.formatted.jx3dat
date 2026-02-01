@@ -1,0 +1,413 @@
+{
+	CHAT = {},
+	TALK = {
+		[217] = {
+			{
+				szContent = "唉......昨天突然有沙暴来袭，把毡房刮得东倒西歪，这可怎么收拾啊。",
+				tCountdown = {
+					{
+						key = "奇遇提示0",
+						nFrame = 0,
+						nIcon = 17135,
+						nTime = "5,恭喜触发·幽海牧·宾宾;15,奇遇不封印·约10分钟完成;60,1.对话沙木沙克·交互光圈;90,2.等待剧情·返回沙木沙克;150,3.对话玛伊莎·前往苦海西边;180,4.对话夏哈甫·交互山上光圈;200,5.返回夏哈甫·与夏哈甫找羊;300,6.半月湖·星星海·大蛇冢;360,7.前往苦海打水·返回夏哈甫;420,8.前往地图最下方中间·光圈;480,9.跟随夏哈甫·等待剧情;530,10.前往幽幽海·对话许库尔;580,11.返回夏哈甫;600,完成奇遇·幽海牧·宾宾",
+						nClass = 14,
+						nRefresh = 0,
+						szName = "奇遇提示0",
+					},
+					{
+						key = "奇遇提示1",
+						nIcon = 17135,
+						nTime = 600,
+						nFrame = 7,
+						nClass = 14,
+						szName = "对话·沙木沙克·交互·光圈",
+					},
+					{
+						key = "奇遇提示2",
+						nIcon = 17135,
+						nTime = 600,
+						nFrame = 7,
+						nClass = 14,
+						szName = "等待·剧情·返回·沙木沙克",
+					},
+					{
+						key = "奇遇提示3",
+						nIcon = 17135,
+						nTime = 600,
+						nFrame = 7,
+						nClass = 14,
+						szName = "对话·玛伊莎·前往·苦海西",
+					},
+				},
+				szTarget = "沙木沙克",
+			},
+			{
+				tCountdown = {
+					{
+						key = "奇遇提示0",
+						nClass = 14,
+						nIcon = 17135,
+						nTime = "30,2.返回沙木沙克;90,3.对话玛伊莎·前往苦海西边;120,4.对话夏哈甫·交互山上光圈;140,5.返回夏哈甫·与夏哈甫找羊;240,6.半月湖·星星海·大蛇冢;300,7.前往苦海打水·返回夏哈甫;360,8.前往地图最下方中间·光圈;420,9.跟随夏哈甫·等待剧情;470,10.前往幽幽海·对话许库尔;520,11.返回夏哈甫;540,完成奇遇·幽海牧·宾宾",
+						nFrame = 0,
+						nRefresh = 0,
+						szName = "奇遇提示0",
+					},
+					{
+						key = "奇遇提示1",
+						nIcon = 17135,
+						nTime = 600,
+						nClass = 14,
+						nFrame = 7,
+						szName = "返回·沙木沙克·对话·玛伊莎",
+					},
+					{
+						key = "奇遇提示2",
+						nIcon = 17135,
+						nTime = 600,
+						nClass = 14,
+						nFrame = 7,
+						szName = "前往·苦海西方·对话·夏哈甫",
+					},
+					{
+						key = "奇遇提示3",
+						nIcon = 17135,
+						nTime = 600,
+						nClass = 14,
+						nFrame = 7,
+						szName = "交互·山上光圈·返回·夏哈甫",
+					},
+				},
+				szContent = "这里处理好了，快去回复沙木沙克吧",
+			},
+			{
+				tCountdown = {
+					{
+						key = "奇遇提示0",
+						nFrame = 0,
+						nIcon = 17135,
+						nTime = "20,5.返回夏哈甫·与夏哈甫找羊;120,6.半月湖·星星海·大蛇冢;180,7.前往苦海打水·返回夏哈甫;240,8.前往地图最下方中间·光圈;300,9.跟随夏哈甫·等待剧情;350,10.前往幽幽海·对话许库尔;400,11.返回夏哈甫;420,完成奇遇·幽海牧·宾宾",
+						nClass = 14,
+						nRefresh = 0,
+						szName = "奇遇提示0",
+					},
+					{
+						key = "奇遇提示1",
+						nIcon = 17135,
+						nTime = 600,
+						nFrame = 7,
+						nClass = 14,
+						szName = "返回·夏哈甫·寻找·夏哈甫*3",
+					},
+					{
+						key = "奇遇提示2",
+						nIcon = 17135,
+						nTime = 600,
+						nFrame = 7,
+						nClass = 14,
+						szName = "前往·半月湖·星星海·大蛇冢",
+					},
+					{
+						key = "奇遇提示3",
+						nIcon = 17135,
+						nTime = 600,
+						nFrame = 7,
+						nClass = 14,
+						szName = "前往·苦海打水·返回·夏哈甫",
+					},
+				},
+				szContent = "附近好像没有羊群的踪迹......",
+			},
+			{
+				szContent = "热娜——你跑到哪里去了呀——",
+				tCountdown = {
+					{
+						key = "奇遇提示0",
+						nClass = 14,
+						nIcon = 17135,
+						nTime = "60,7.前往苦海打水·返回夏哈甫;120,8.前往地图最下方中间·光圈;180,9.跟随夏哈甫·等待剧情;230,10.前往幽幽海·对话许库尔;280,11.返回夏哈甫;300,完成奇遇·幽海牧·宾宾",
+						nFrame = 0,
+						nRefresh = 0,
+						szName = "奇遇提示0",
+					},
+					{
+						key = "奇遇提示1",
+						nIcon = 17135,
+						nTime = 600,
+						nClass = 14,
+						nFrame = 7,
+						szName = "前往·苦海打水·返回·夏哈甫",
+					},
+					{
+						key = "奇遇提示2",
+						nIcon = 17135,
+						nTime = 600,
+						nClass = 14,
+						nFrame = 7,
+						szName = "前往·地图最下方中间·光圈点",
+					},
+					{
+						key = "奇遇提示3",
+						nIcon = 17135,
+						nTime = 600,
+						nClass = 14,
+						nFrame = 7,
+						szName = "跟随·夏哈甫·幽幽海·许库尔",
+					},
+				},
+				szTarget = "夏哈甫",
+			},
+			{
+				tCountdown = {
+					{
+						key = "奇遇提示0",
+						nFrame = 0,
+						nIcon = 17135,
+						nTime = "50,10.前往幽幽海·对话许库尔;100,11.返回夏哈甫;120,完成奇遇·幽海牧·宾宾",
+						nClass = 14,
+						nRefresh = 0,
+						szName = "奇遇提示0",
+					},
+					{
+						key = "奇遇提示1",
+						nIcon = 17135,
+						nTime = 120,
+						nFrame = 7,
+						nClass = 14,
+						szName = "对话·夏哈甫·前往·幽幽海",
+					},
+					{
+						key = "奇遇提示2",
+						nIcon = 17135,
+						nTime = 120,
+						nFrame = 7,
+						nClass = 14,
+						szName = "对话·许库尔·返回·夏哈甫",
+					},
+					{
+						key = "奇遇提示3",
+						nIcon = 17135,
+						nTime = 120,
+						nFrame = 7,
+						nClass = 14,
+						szName = "完成·宠物奇遇幽海牧·宾宾",
+					},
+				},
+				szContent = "终于帮夏哈甫找到羊群了，快带他回去吧",
+			},
+		},
+	},
+	BUFF = {},
+	DOODAD = {
+		[217] = {
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "光圈点·幽海牧",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+					},
+				},
+				szNote = "幽海牧·光圈点",
+				szName = "光圈点·幽海牧",
+				dwID = 9639,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "光圈点·幽海牧",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+					},
+				},
+				szNote = "幽海牧·光圈点",
+				szName = "光圈点·幽海牧",
+				dwID = 9640,
+			},
+		},
+	},
+	NPC = {
+		[217] = {
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "沙木沙克·幽海牧",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+					},
+				},
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				szNote = "幽海牧·沙木沙克",
+				dwID = 109423,
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "玛伊莎·幽海牧",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+					},
+				},
+				nFrame = 47,
+				szNote = "幽海牧·玛伊莎",
+				dwID = 109421,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "夏哈甫·幽海牧",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+					},
+				},
+				nFrame = 47,
+				szNote = "幽海牧·夏哈甫",
+				dwID = 109422,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "许库尔·幽海牧",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+					},
+				},
+				nFrame = 47,
+				szNote = "幽海牧·许库尔",
+				dwID = 109424,
+			},
+		},
+	},
+	CASTING = {},
+	DEBUFF = {
+		[217] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nScrutinyType = 1,
+				szName = "剧情",
+				nLevel = 1,
+				nIcon = 19489,
+				szNote = "剧情",
+				dwID = 23131,
+				col = {
+					255,
+					255,
+					0,
+				},
+			},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1721573698,
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "",
+	},
+}
