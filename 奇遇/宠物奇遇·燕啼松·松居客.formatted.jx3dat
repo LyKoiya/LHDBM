@@ -1,0 +1,297 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[2] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 12373,
+						key = "奇遇提示0",
+						nTime = "5,恭喜触发·燕啼松·松居客;15,奇遇不封印·约10分钟完成",
+						szName = "奇遇提示0",
+						nRefresh = 0,
+						nFrame = 0,
+						nClass = 14,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·万松谦·前往·三星望月",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "对话·王代·返回·万松谦",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "背包·使用·谷物·交互·光圈",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "盆中现奇景，幼燕啼微林。",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 12373,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·万松谦·前往·北面瀑布",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "对话·若璃·返回·万松谦",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "前往·水月宫台阶·对话·逸尘",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "小燕子们吃的很香，快回报万松谦吧",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 12373,
+						key = "奇遇提示1",
+						nTime = 60,
+						szName = "返回·仙迹岩·对话·万松谦",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示2",
+						nTime = 60,
+						szName = "完成·宠物奇遇·燕啼松",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示3",
+						nTime = 60,
+						szName = "获得·宠物·松居客",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "把机关底座带回给万松谦吧",
+			},
+		},
+	},
+	NPC = {
+		[2] = {
+			{
+				nFrame = 47,
+				dwID = 55880,
+				aFocus = {
+					{
+						szDisplay = "逸尘·燕啼松",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "燕啼松·逸尘",
+			},
+			{
+				nFrame = 47,
+				dwID = 132190,
+				aFocus = {
+					{
+						szDisplay = "若璃·燕啼松",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "燕啼松·若璃",
+			},
+			{
+				nFrame = 47,
+				dwID = 132189,
+				aFocus = {
+					{
+						szDisplay = "王代·燕啼松",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "燕啼松·王代",
+			},
+			{
+				nFrame = 47,
+				dwID = 94,
+				aFocus = {
+					{
+						szDisplay = "万松谦·燕啼松",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "燕啼松·万松谦",
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1751786129,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[2] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 11143,
+				aFocus = {
+					{
+						szDisplay = "盆栽·燕啼松",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "燕啼松·盆栽",
+			},
+			{
+				dwID = 11190,
+				aFocus = {
+					{
+						szDisplay = "光圈·燕啼松",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "燕啼松·光圈",
+				szName = "光圈·燕啼松",
+			},
+		},
+	},
+}

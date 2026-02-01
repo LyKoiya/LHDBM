@@ -1,0 +1,354 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[156] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示0",
+						nTime = "5,恭喜触发·枉叹恨·错错;15,奇遇不封印·约10分钟完成",
+						szName = "奇遇提示0",
+						nRefresh = 0,
+						nClass = 14,
+						nFrame = 0,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "跟随·错错·交互·光圈",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "打开·背包·使用·盒子",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "前往·茶馆·对话·陈氏",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "小狗朝你吠叫了两声，奔跑起来，似乎想要你跟上去。",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "返回·天都镇·对话·行医学徒",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "对话·砍柴人·对话·老妪",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "前往·天都镇·南门·光圈",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "去挖出银子的地方看看吧。",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "跟随·错错·交互·尸体",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "返回·茶馆·对话·陈氏",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "完成·宠物奇遇·枉叹恨",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "跟上小狗。",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 60,
+						szName = "返回·茶馆·对话·陈氏",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 60,
+						szName = "完成·宠物奇遇·枉叹恨",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 60,
+						szName = "获得·奇遇·奖励·错错",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "带上和离书去找陈氏吧。",
+			},
+		},
+	},
+	NPC = {
+		[156] = {
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 109467,
+				aFocus = {
+					{
+						szDisplay = "错错·枉叹恨",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "枉叹恨·错错",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				dwID = 109511,
+				aFocus = {
+					{
+						szDisplay = "陈氏·枉叹恨",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "枉叹恨·陈氏",
+			},
+			{
+				nFrame = 47,
+				dwID = 23561,
+				aFocus = {
+					{
+						szDisplay = "行医学徒·枉叹恨",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "枉叹恨·行医学徒",
+			},
+			{
+				nFrame = 47,
+				dwID = 23567,
+				aFocus = {
+					{
+						szDisplay = "砍柴人·枉叹恨",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "枉叹恨·砍柴人",
+			},
+			{
+				nFrame = 47,
+				dwID = 25080,
+				aFocus = {
+					{
+						szDisplay = "老妪·枉叹恨",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "枉叹恨·老妪",
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1727869608,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[156] = {
+			{
+				dwID = 9654,
+				aFocus = {
+					{
+						szDisplay = "朴素的盒子·枉叹恨",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "枉叹恨·光圈",
+				szName = "光圈·朴素的盒子",
+			},
+			{
+				dwID = 9653,
+				aFocus = {
+					{
+						szDisplay = "陈厉的尸体·枉叹恨",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "枉叹恨·陈厉的尸体",
+			},
+		},
+	},
+}

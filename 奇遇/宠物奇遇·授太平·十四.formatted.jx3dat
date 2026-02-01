@@ -1,0 +1,458 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[581] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示0",
+						nTime = "5,恭喜触发·授太平·十四;15,奇遇不封印·约10分钟完成",
+						szName = "奇遇提示0",
+						nRefresh = 0,
+						nClass = 14,
+						nFrame = 0,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·姜堰·前往·山阳村内",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "交互·光圈·等待·剧情结束",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "对话·姜通·交互·严辽",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "今天姜堰似乎还有很多话想同你说，再和他聊聊吧。",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "前往·山阳村内·交互·光圈",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "等待·剧情结束·对话·姜通",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "交互·严辽·等待·剧情结束",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "远处忽然传来吵闹声，去看看。",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·姜通·交互·严辽",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "等待剧情·对话·韦应物",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "前往·江天夜宴·沧浪洲",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "山阳村竟敢杀害朝廷命官，弟兄们，快回去禀告刺史！撤！",
+				szTarget = "随行小吏",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·韦应物·前往·江天夜宴",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "神行·江天夜宴·车夫·沧浪洲",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "交互·光圈点·等待·剧情结束",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "那真是可惜。",
+				szTarget = "陌生男子",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·翼奴·前往·住宅东南",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "对话·镜归渊·等待剧情结束",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "返回·山阳村内·对话·姜堰",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "让贵人放心便是。",
+				szTarget = "翼奴",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "奇遇提示0",
+						nTime = 75,
+						szName = "剧情·结束剩余",
+						nIcon = 13,
+					},
+				},
+				szContent = "在下韦应物。",
+				szTarget = "韦应物",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 120,
+						szName = "返回·山阳村·对话·姜堰",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 120,
+						szName = "完成·奇遇·授太平·十四",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = -1,
+						szName = "奇遇提示3",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "先生所求，当会如愿。",
+				szTarget = "镜归渊",
+			},
+		},
+	},
+	NPC = {
+		[581] = {
+			{
+				nFrame = 47,
+				dwID = 132212,
+				aFocus = {
+					{
+						szDisplay = "镜归渊·授太平",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "授太平·镜归渊",
+			},
+			{
+				nFrame = 47,
+				dwID = 132211,
+				aFocus = {
+					{
+						szDisplay = "翼奴·授太平",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "授太平·翼奴",
+			},
+			{
+				nFrame = 47,
+				dwID = 132209,
+				aFocus = {
+					{
+						szDisplay = "韦应物·授太平",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "授太平·韦应物",
+			},
+			{
+				nFrame = 47,
+				dwID = 132207,
+				aFocus = {
+					{
+						szDisplay = "严辽·授太平",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "授太平·严辽",
+			},
+			{
+				nFrame = 47,
+				dwID = 132205,
+				aFocus = {
+					{
+						szDisplay = "姜通·授太平",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "授太平·姜通",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 132204,
+				aFocus = {
+					{
+						szDisplay = "姜堰·授太平",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "授太平·姜堰",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1746297749,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[581] = {
+			{
+				dwID = 11194,
+				aFocus = {
+					{
+						szDisplay = "光圈·授太平",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "授太平·光圈",
+				szName = "光圈·授太平",
+			},
+			{
+				dwID = 11195,
+				aFocus = {
+					{
+						szDisplay = "光圈·授太平",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "授太平·光圈",
+				szName = "光圈·授太平",
+			},
+		},
+	},
+}

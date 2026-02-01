@@ -1,0 +1,2343 @@
+return {
+	BUFF = {
+		[247] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 11044,
+				szNote = "健体",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 11046,
+				szNote = "强身",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 1160,
+				szNote = "空冥诀",
+			},
+		},
+	},
+	CHAT = {
+		[247] = {
+			{
+				szContent = "你已进入地图【梦回稻香】。",
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "青云直坠1",
+						nTime = 60,
+						szName = "[青云直坠]·沿主线任务",
+						nFrame = 5,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "张忠好感1",
+						nTime = 20,
+						szName = "张忠好感·后续顺便·打小野猪",
+						nFrame = 7,
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[林中野狐亦有灵]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "重写史篇1",
+						nTime = 60,
+						szName = "[重写史篇]·李复·紫晴·好感度",
+						nFrame = 5,
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[山间自有凝血草]。\
+",
+			},
+			{
+				szContent = "你已完成了[大雕由来自仙山]。\
+",
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 600,
+						szName = "结局·[海外仙山]·分支达成",
+						nFrame = 6,
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "任务提示2",
+						nTime = 600,
+						szName = "继续·进行主线任务",
+						nFrame = 6,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				szContent = "你已接受了[重伤初愈舒筋骨]。\
+",
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "兵不血刃1",
+						nTime = -1,
+						szName = "兵不血刃1",
+						nRefresh = 3600,
+						nFrame = 5,
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "兵不血刃2",
+						nTime = -1,
+						szName = "兵不血刃2",
+						nRefresh = 3600,
+						nFrame = 5,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				szContent = "你已接受了[巧造秘籍骗董龙]。\
+",
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 600,
+						szName = "[一世长宁]·[驭兽宗师]·[猪运亨通]",
+						nIcon = 13,
+						nFrame = 6,
+					},
+					{
+						nClass = 20,
+						key = "任务提示2",
+						nTime = 600,
+						szName = "继续·主线任务",
+						nIcon = 13,
+						nFrame = 6,
+					},
+					{
+						nClass = 20,
+						key = "兵不血刃1",
+						nTime = -1,
+						szName = "兵不血刃1",
+						nRefresh = 3600,
+						nIcon = 13,
+						nFrame = 5,
+					},
+					{
+						nClass = 20,
+						key = "兵不血刃2",
+						nTime = -1,
+						szName = "兵不血刃2",
+						nRefresh = 3600,
+						nIcon = 13,
+						nFrame = 5,
+					},
+				},
+			},
+			{
+				szContent = "你已完成了[试将酒坛交疯子]。\
+",
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 600,
+						szName = "[害人害己]·[1]给他酒·脱装备",
+						nFrame = 6,
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "任务提示2",
+						nTime = 600,
+						szName = "[紫晴好感]·[2]问紫晴",
+						nFrame = 7,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				szContent = "你已完成了[世上谁是独醉人]。\
+",
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 0,
+						szName = "任务提示1",
+						nFrame = 5,
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "任务提示2",
+						nTime = 0,
+						szName = "任务提示2",
+						nFrame = 5,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "招安悍匪1",
+						nTime = 60,
+						szName = "[招安悍匪]·击败董龙",
+						nIcon = 13,
+						nFrame = 6,
+					},
+				},
+				szContent = "你已接受了[出鬼谋穷兔噬虎]。\
+",
+			},
+			{
+				szContent = "你已接受了[隐士高人在此间]。\
+",
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 600,
+						szName = "[李复好感]·击伤咸鱼",
+						nFrame = 6,
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "任务提示2",
+						nTime = 600,
+						szName = "[隐世高人]·被咸鱼击伤·脱装备",
+						nFrame = 6,
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "咸鱼对诗1",
+						nTime = 0,
+						szName = "咸鱼对诗1",
+						nFrame = 5,
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "咸鱼对诗2",
+						nTime = 0,
+						szName = "咸鱼对诗2",
+						nFrame = 5,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				szContent = "你已接受了[灵药相助提功力]。\
+",
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "兵不血刃1",
+						nTime = -1,
+						szName = "兵不血刃1",
+						nRefresh = 3600,
+						nFrame = 5,
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "兵不血刃2",
+						nTime = -1,
+						szName = "兵不血刃2",
+						nRefresh = 3600,
+						nFrame = 5,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "招安悍匪1",
+						nTime = 60,
+						szName = "[招安悍匪]·依次完成支线",
+						nFrame = 5,
+						nIcon = 13,
+					},
+				},
+				szContent = "你已完成了[善谋者不滞于形]。\
+",
+			},
+			{
+				szContent = "你已完成了[织就新衣送小女]。\
+",
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 600,
+						szName = "[俪影侠踪]·继续进行主线任务",
+						nFrame = 6,
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "任务提示2",
+						nTime = 600,
+						szName = "[重振药宗]·[舍身济世]·张桂芝",
+						nFrame = 6,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				szContent = "你已完成了[山里猎蛇喂大雕]。\
+",
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 600,
+						szName = "[闯荡江湖]·[其他结局]·继续主线",
+						nFrame = 6,
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "任务提示2",
+						nTime = 600,
+						szName = "[海外仙山]·找【秋叶青】刷大雕好感",
+						nFrame = 6,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				szContent = "你已完成了[忧思百转慈父心]。\
+",
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 600,
+						szName = "[重振药宗]·给小月·无方制物经",
+						nFrame = 6,
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "任务提示2",
+						nTime = 600,
+						szName = "[舍身济世]·自己用·无方制物经",
+						nFrame = 6,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "梁师农好感1",
+						nTime = 60,
+						szName = "梁师农好感·对话【梁师农】选项2",
+						nFrame = 5,
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[疾步如飞报村长]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "梁师农好感1",
+						nTime = 60,
+						szName = "梁师农好感·先投喂[猪粮]再找村长",
+						nIcon = 13,
+						nFrame = 5,
+					},
+				},
+				szContent = "你已接受了[临终犹自有牵挂]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 600,
+						szName = "[青云直坠]·继续任务·不喂雕",
+						nIcon = 13,
+						nFrame = 6,
+					},
+					{
+						nClass = 20,
+						key = "任务提示2",
+						nTime = 600,
+						szName = "[其他结局]·找【秋叶青】喂雕",
+						nIcon = 13,
+						nFrame = 6,
+					},
+				},
+				szContent = "你已接受了[直捣营地会董龙]。\
+",
+				szNote = "记得喂雕·避免坠落",
+				[20] = {
+					bCenterAlarm = true,
+				},
+			},
+			{
+				szContent = "你已接受了[问计李复当如何]。\
+",
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "兵不血刃1",
+						nTime = 600,
+						szName = "[一世长宁]·[驭兽宗师]·[猪运亨通]",
+						nFrame = 6,
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "兵不血刃2",
+						nTime = 600,
+						szName = "对话·李复·[2]兵不血刃",
+						nFrame = 6,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "易道殊途1",
+						nTime = 60,
+						szName = "[易道殊途]·对话·受伤的路人",
+						nIcon = 13,
+						nFrame = 5,
+					},
+					{
+						nClass = 20,
+						key = "路止狂童1",
+						nTime = 60,
+						szName = "[路止狂童]·对话·受伤的路人",
+						nIcon = 13,
+						nFrame = 5,
+					},
+					{
+						nClass = 20,
+						key = "驭兽宗师1",
+						nTime = 60,
+						szName = "[驭兽宗师]·暂停主线·张忠刷好感",
+						nIcon = 13,
+						nFrame = 5,
+					},
+					{
+						nClass = 20,
+						key = "猪运亨通1",
+						nTime = 60,
+						szName = "[猪运亨通]·暂停主线·梁师农刷好感",
+						nIcon = 13,
+						nFrame = 5,
+					},
+				},
+				szContent = "你已接受了[大侠墓中藏何物]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "张忠好感1",
+						nTime = 60,
+						szName = "[张忠好感]·[2]愿意打野猪",
+						nFrame = 7,
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "害人害己1",
+						nTime = 60,
+						szName = "[害人害己]·暂停主线·对话疯子",
+						nIcon = 13,
+						nFrame = 5,
+					},
+					{
+						nClass = 20,
+						key = "悬壶济世1",
+						nTime = 60,
+						szName = "[悬壶济世]·暂停主线·对话疯子",
+						nIcon = 13,
+						nFrame = 5,
+					},
+					{
+						nClass = 20,
+						key = "杀手之路1",
+						nTime = 60,
+						szName = "[杀手之路]·暂停主线·王婆婆刷好感",
+						nIcon = 13,
+						nFrame = 5,
+					},
+				},
+				szContent = "你已接受了[礼请村长寻大哥]。\
+",
+			},
+		},
+	},
+	CASTING = {
+		[247] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 16431,
+				szNote = "喂鸡",
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "喂鸡",
+						nTime = 5,
+						szName = "王婆婆·面前投喂·投喂时别移动",
+						nIcon = 13,
+						nFrame = 2,
+					},
+				},
+			},
+		},
+	},
+	TALK = {
+		[247] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "铁血黎明1",
+						nTime = 3600,
+						szName = "结局·[铁血黎明]·达成分支",
+						nFrame = 6,
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "任务提示1",
+						nTime = 600,
+						szName = "前往·土地庙·对话·张大眼",
+						nFrame = 6,
+						nIcon = 13,
+					},
+				},
+				szContent = "张大眼似乎在找你",
+				szNote = "结局·[铁血黎明]·达成分支",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szNote = "不打疯子",
+				szContent = "不好，这疯子发疯开始攻击你，而且功夫不一般。",
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "任务提示1",
+						nTime = 600,
+						szName = "[害人害己]·被疯子打死",
+						nFrame = 6,
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "任务提示2",
+						nTime = 600,
+						szName = "[害人害己]·关武学助手",
+						nFrame = 6,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "易道殊途1",
+						nTime = 60,
+						szName = "[易道殊途]·对话·受伤的路人",
+						nIcon = 13,
+						nFrame = 5,
+					},
+					{
+						nClass = 14,
+						key = "易道殊途2",
+						nTime = 60,
+						szName = "[易道殊途]·莫雨·选项·1·2",
+						nIcon = 13,
+						nFrame = 5,
+					},
+					{
+						nClass = 14,
+						key = "路止狂童1",
+						nTime = 60,
+						szName = "[路止狂童]·同上·但被莫雨重伤",
+						nFrame = 5,
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "路止狂童2",
+						nTime = 60,
+						szName = "[路止狂童]·不打莫雨·得脱装备",
+						nFrame = 5,
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "刘洋好感1",
+						nTime = 60,
+						szName = "[刘洋好感]·选1·相信莫雨",
+						nIcon = 13,
+						nFrame = 7,
+					},
+				},
+				szContent = "似乎有人在呼救，去四周看看。",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "任务提示1",
+						nTime = 600,
+						szName = "结局·[易道殊途]·分支达成",
+						nFrame = 6,
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "任务提示2",
+						nTime = 600,
+						szName = "继续·进行主线任务",
+						nFrame = 6,
+						nIcon = 13,
+					},
+				},
+				szContent = "啊！不是我不是我不是我！！！",
+				szTarget = "莫雨",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "刘洋好感1",
+						nTime = 30,
+						szName = "刘洋好感·受伤的路人·选1信莫雨",
+						nFrame = 7,
+						nIcon = 13,
+					},
+				},
+				szContent = "谢谢大侠！",
+				szTarget = "莫雨",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "任务提示1",
+						nTime = 0,
+						szName = "任务提示1",
+						nFrame = 5,
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "任务提示2",
+						nTime = 0,
+						szName = "任务提示2",
+						nFrame = 5,
+						nIcon = 13,
+					},
+				},
+				szContent = "好功夫！",
+				szTarget = "咸鱼",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "任务提示1",
+						nTime = 600,
+						szName = "[杀手之路]·不打小怪·等神秘人",
+						nFrame = 6,
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "任务提示2",
+						nTime = 600,
+						szName = "若不小心打了·远离后重新刷新",
+						nFrame = 6,
+						nIcon = 13,
+					},
+				},
+				szContent = "站住！",
+				szTarget = "招财",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "任务提示1",
+						nTime = 600,
+						szName = "[杀手之路]·拾取令牌·催雪",
+						nFrame = 6,
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "任务提示2",
+						nTime = 600,
+						szName = "继续·进行主线任务",
+						nFrame = 6,
+						nIcon = 13,
+					},
+				},
+				szContent = "年轻人好奇心这么重做什么，走吧走吧，该干什么干什么去。",
+				szTarget = "神秘人",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "喂鸡",
+						nTime = 30,
+						szName = "接取·喂鸡任务",
+						nFrame = 7,
+						nIcon = 13,
+					},
+				},
+				szContent = "没想到你喂鸡还挺像样子的，孩子是不是以前干过农活儿啊？",
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szTarget = "王婆婆",
+				szNote = "接取·喂鸡任务",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "喂鸡",
+						nTime = 30,
+						szName = "可用·王婆婆的炉子",
+						nFrame = 7,
+						nIcon = 13,
+					},
+				},
+				szNote = "可用·王婆婆的炉子",
+				szContent = "可以使用【王婆婆的小火炉】了。",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "剧情提示",
+						nTime = 18,
+						szName = "董龙·剧情剩余",
+						nIcon = 13,
+						nFrame = 5,
+					},
+				},
+				szContent = "董龙就在前面，快去打败他！",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "咸鱼对诗1",
+						nTime = 600,
+						szName = "[1]杖头·[2]亭高·[2]鲤鱼",
+						nIcon = 13,
+						nFrame = 3,
+					},
+					{
+						nClass = 14,
+						key = "咸鱼对诗2",
+						nTime = 600,
+						szName = "[2]麦秋·[2]镜湖·[2]飞珠",
+						nIcon = 13,
+						nFrame = 3,
+					},
+				},
+				szContent = "咸鱼的位置已经标记在地图中，打开地图查看。",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "任务提示1",
+						nTime = 600,
+						szName = "[海外仙山]·继续【秋叶青】对话",
+						nIcon = 13,
+						nFrame = 6,
+					},
+					{
+						nClass = 14,
+						nTime = 3600,
+						szName = "【大雕】好感已满",
+						nIcon = 13,
+						nFrame = 4,
+					},
+				},
+				szNote = "【大雕】好感已满",
+				szContent = "大雕已经吃饱了，不远处的秋叶青好像有事找你。",
+				[14] = {
+					bCenterAlarm = true,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "任务提示1",
+						nTime = 600,
+						szName = "[杀手之路]·王婆婆·接任务",
+						nIcon = 13,
+						nFrame = 6,
+					},
+					{
+						nClass = 14,
+						key = "任务提示2",
+						nTime = 600,
+						szName = "[杀手之路]·捉鸡时不要打小怪",
+						nIcon = 13,
+						nFrame = 6,
+					},
+					{
+						nClass = 14,
+						nTime = 3600,
+						szName = "【王婆婆】好感已满",
+						nIcon = 13,
+						nFrame = 4,
+					},
+				},
+				szContent = "王婆婆现在对你亲密无间。",
+				bSearch = true,
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szNote = "【王婆婆】好感已满",
+			},
+			{
+				[20] = {
+					bCenterAlarm = true,
+				},
+				szContent = "李复现在对你亲密无间。",
+				bSearch = true,
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szNote = "【李复】好感已满",
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "任务提示1",
+						nTime = 600,
+						szName = "[重写史篇]·紫晴满好感喂汤",
+						nIcon = 13,
+						nFrame = 6,
+					},
+					{
+						nClass = 14,
+						key = "任务提示2",
+						nTime = 600,
+						szName = "[何必执着]·紫晴不满好感喂汤",
+						nIcon = 13,
+						nFrame = 6,
+					},
+					{
+						nClass = 14,
+						nTime = 3600,
+						szName = "【李复】好感已满",
+						nIcon = 13,
+						nFrame = 4,
+					},
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "任务提示1",
+						nTime = 600,
+						szName = "[重写史篇]·李复满好感·喂汤",
+						nIcon = 13,
+						nFrame = 6,
+					},
+					{
+						nClass = 14,
+						key = "任务提示2",
+						nTime = 600,
+						szName = "[悬壶济世]·继续进行主线",
+						nIcon = 13,
+						nFrame = 6,
+					},
+					{
+						nClass = 14,
+						nTime = 3600,
+						szName = "【紫晴】好感已满",
+						nIcon = 13,
+						nFrame = 4,
+					},
+				},
+				szContent = "紫晴现在对你亲密无间。",
+				bSearch = true,
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szNote = "【紫晴】好感已满",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "任务提示1",
+						nTime = 600,
+						szName = "[重振药宗]·[舍身济世]·[俪影侠踪]",
+						nIcon = 13,
+						nFrame = 6,
+					},
+					{
+						nClass = 14,
+						key = "任务提示2",
+						nTime = 600,
+						szName = "拾取·苎麻·对话·织女·接任务",
+						nIcon = 13,
+						nFrame = 6,
+					},
+					{
+						nClass = 14,
+						nTime = 3600,
+						szName = "【小月】好感已满",
+						nIcon = 13,
+						nFrame = 4,
+					},
+				},
+				szContent = "小月现在对你亲密无间。",
+				bSearch = true,
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szNote = "【小月】好感已满",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						nTime = 3600,
+						szName = "【刘洋】好感已满",
+						nIcon = 13,
+						nFrame = 4,
+					},
+				},
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "刘洋现在对你亲密无间。",
+				szNote = "【刘洋】好感已满",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "驭兽宗师1",
+						nTime = 60,
+						szName = "[驭兽宗师]·继续主线任务",
+						nIcon = 13,
+						nFrame = 5,
+					},
+					{
+						nClass = 14,
+						nTime = 3600,
+						szName = "【张忠】好感已满",
+						nIcon = 13,
+						nFrame = 4,
+					},
+					{
+						nClass = 14,
+						key = "兵不血刃1",
+						nTime = -2,
+						szName = "兵不血刃1",
+						nIcon = 13,
+						nFrame = 5,
+					},
+					{
+						nClass = 14,
+						key = "兵不血刃2",
+						nTime = -2,
+						szName = "兵不血刃2",
+						nIcon = 13,
+						nFrame = 5,
+					},
+				},
+				szContent = "张忠现在对你亲密无间。",
+				bSearch = true,
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szNote = "【张忠】好感已满",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "猪运亨通1",
+						nTime = 60,
+						szName = "[猪运亨通]·继续主线任务",
+						nRefresh = 3600,
+						nFrame = 5,
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						nTime = 3600,
+						szName = "【梁师农】好感已满",
+						nIcon = 13,
+						nFrame = 4,
+					},
+					{
+						nClass = 14,
+						key = "兵不血刃1",
+						nTime = -2,
+						szName = "兵不血刃1",
+						nFrame = 5,
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "兵不血刃2",
+						nTime = -2,
+						szName = "兵不血刃2",
+						nFrame = 5,
+						nIcon = 13,
+					},
+				},
+				szNote = "【梁师农】好感已满",
+				szContent = "梁师农现在对你亲密无间。",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "梁师农好感1",
+						nTime = 60,
+						szName = "梁师农好感·村长·寻5只猪",
+						nFrame = 5,
+						nIcon = 13,
+					},
+				},
+				szContent = "不好，梁师农的猪看到陌生人吓得四散而逃，还是告知一下村长吧。",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "剧情提示",
+						nTime = 162,
+						szName = "董龙·剧情剩余",
+						nFrame = 5,
+						nIcon = 13,
+					},
+				},
+				szContent = "刘老头,你这阵仗是赶集呢？空冥决拿来了吗？",
+				szTarget = "董龙",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "剧情提示",
+						nTime = 15,
+						szName = "秋叶青·剧情结束·再对话",
+						nFrame = 5,
+						nIcon = 13,
+					},
+				},
+				szContent = "好，谢谢你。这汤闻起来呀，可真像当年家里厨子的手艺。",
+				szTarget = "秋叶青",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "剧情提示",
+						nTime = 82,
+						szName = "结局·[何必执着]·剧情剩余",
+						nFrame = 5,
+						nIcon = 13,
+					},
+				},
+				szContent = "秋姑娘，你好好休息，李复先生很快便来看你了。",
+				szTarget = "紫晴",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "剧情提示",
+						nTime = 40,
+						szName = "结局·[长草萋萋]·剧情剩余",
+						nIcon = 13,
+						nFrame = 5,
+					},
+				},
+				szContent = "秋姑娘，李复先生……晚一些便会来了。",
+				szTarget = "紫晴",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "剧情提示",
+						nTime = 122,
+						szName = "结局·[重写史篇]·剧情剩余",
+						nIcon = 13,
+						nFrame = 5,
+					},
+				},
+				szContent = "秋姑娘。",
+				szTarget = "李复",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "剧情提示",
+						nTime = 87,
+						szName = "董龙·剧情剩余",
+						nFrame = 5,
+						nIcon = 13,
+					},
+				},
+				szContent = "董老大，就……就是这人，要……要把空冥决给您。",
+				szTarget = "张大眼",
+			},
+		},
+	},
+	NPC = {
+		[247] = {
+			{
+				nFrame = 47,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 51743,
+				aFocus = {
+					{
+						szDisplay = "张忠好感·黑狼",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "张忠好感",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 52253,
+				aFocus = {
+					{
+						szDisplay = "紫晴好感·熊霸",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "紫晴好感",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 52254,
+				aFocus = {
+					{
+						szDisplay = "紫晴好感·五步倒",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "紫晴好感",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "董龙",
+				dwID = 51842,
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 51762,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "易道殊途·路止狂童",
+				tCountdown = {
+					{
+						nClass = 7,
+						key = "任务提示1",
+						nTime = 600,
+						bFightHold = true,
+						szName = "[易道殊途]·击败莫雨",
+						nFrame = 6,
+						nIcon = 13,
+					},
+					{
+						nClass = 7,
+						key = "任务提示2",
+						nTime = 600,
+						bFightHold = true,
+						szName = "[路止狂童]·被莫雨打死",
+						nFrame = 6,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 51864,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "易道殊途·路止狂童·刘洋好感",
+			},
+			{
+				dwID = 52285,
+				aFocus = {
+					{
+						szDisplay = "小月好感·乌龟",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "小月好感·小乌龟",
+				nFrame = 47,
+			},
+			{
+				dwID = 52284,
+				aFocus = {
+					{
+						szDisplay = "小月好感·青蛙",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "小月好感",
+				nFrame = 47,
+			},
+			{
+				dwID = 52283,
+				aFocus = {
+					{
+						szDisplay = "小月好感·蝴蝶",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "小月好感",
+				nFrame = 47,
+			},
+			{
+				dwID = 51846,
+				aFocus = {
+					{
+						szDisplay = "小月好感·兔",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "小月好感·兔",
+				nFrame = 47,
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 51813,
+				aFocus = {
+					{
+						szDisplay = "小月好感·布娃娃",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "小月好感",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 51791,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "隐士高人·李复好感",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 51888,
+				aFocus = {
+					{
+						szDisplay = "疯子·害人害己",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "害人害己·紫晴好感",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 51852,
+				aFocus = {
+					{
+						szDisplay = "刘洋好感·鬼祟的村民",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "刘洋好感",
+			},
+			{
+				nFrame = 65,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 12,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "活鹅",
+				dwID = 52397,
+			},
+			{
+				nFrame = 65,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 52126,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "跑丢了的鸡",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 51801,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "重写史篇·悬壶济世",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 51807,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "重振药宗·舍身济世·俪影侠踪",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 51816,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "重振药宗·舍身济世",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 52269,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 90,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "梁师农好感",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 51766,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "一世长宁·驭兽宗师",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 51776,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "一世长宁·猪运亨通",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 51772,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "一世长宁",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 51890,
+				aFocus = {
+					{
+						szDisplay = "张大眼·铁血黎明",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 60,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "铁血黎明·张大眼",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 51792,
+				aFocus = {
+					{
+						szDisplay = "小月后续·织女",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "重振药宗·舍身济世·俪影侠踪",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 51959,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "招安悍匪",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 51764,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 51800,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "非青云直坠",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 51761,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "重写史篇·何必执着",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+		},
+		[-2] = {
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 52417,
+				szNote = "蒋玉漓",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+		},
+	},
+	DEBUFF = {
+		[247] = {
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				nIcon = 2028,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "毁于一旦",
+						nTime = 900,
+						szName = "[毁于一旦]·挂机15分钟·等死",
+						nFrame = 3,
+						nIcon = 13,
+					},
+					{
+						nClass = 2,
+						key = "毁于一旦",
+						nTime = 0,
+						szName = "毁于一旦",
+						nIcon = 13,
+					},
+				},
+				col = {
+					255,
+					255,
+					50,
+				},
+				dwID = 11082,
+				nLevel = 1,
+				szNote = "毁于一旦",
+				szName = "毁于一旦",
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 11048,
+				col = {
+					255,
+					50,
+					50,
+				},
+				szName = "讳疾忌医",
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "身体不适1",
+						nTime = 300,
+						szName = "[讳疾忌医]·挂机5分钟·等死",
+						nIcon = 13,
+						nFrame = 8,
+					},
+					{
+						nClass = 1,
+						key = "身体不适2",
+						nTime = 300,
+						szName = "[毁于一旦]·不挂机·紫晴求医",
+						nIcon = 13,
+						nFrame = 5,
+					},
+					{
+						nClass = 1,
+						key = "毁于一旦",
+						nTime = 0,
+						szName = "毁于一旦",
+						nIcon = 13,
+					},
+					{
+						nClass = 2,
+						key = "身体不适1",
+						nTime = 0,
+						szName = "身体不适1",
+						nIcon = 13,
+					},
+					{
+						nClass = 2,
+						key = "身体不适2",
+						nTime = 0,
+						szName = "身体不适2",
+						nIcon = 13,
+					},
+				},
+				szNote = "身体不适",
+				[1] = {
+					bBuffList = true,
+					bScreenHead = true,
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "熟鸡蛋",
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 11047,
+				nIcon = 83,
+				szNote = "熟鸡蛋",
+				[1] = {
+					bBuffList = true,
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "生鸡蛋",
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 11045,
+				nIcon = 83,
+				szNote = "生鸡蛋",
+				[1] = {
+					bBuffList = true,
+				},
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1759098346,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[247] = {
+			{
+				dwID = 7143,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 60,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "杀手之路",
+				[17] = {
+					bCenterAlarm = true,
+				},
+			},
+			{
+				dwID = 6130,
+				aFocus = {
+					{
+						szDisplay = "小月好感·雨花石",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "小月好感·雨花石",
+			},
+			{
+				dwID = 6129,
+				aFocus = {
+					{
+						szDisplay = "小月好感·莲花",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "小月好感·莲花",
+			},
+			{
+				dwID = 6125,
+				aFocus = {
+					{
+						szDisplay = "小月后续·苎麻",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "重振药宗·舍身济世·俪影侠踪",
+			},
+			{
+				dwID = 7229,
+				aFocus = {
+					{
+						szDisplay = "镜花水月·通用好感",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 60,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "镜花水月",
+			},
+			{
+				dwID = 6131,
+				aFocus = {
+					{
+						szDisplay = "刘洋·张忠·梁师农·好感",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "刘洋好感·张忠好感·梁师农好感",
+			},
+			{
+				dwID = 6111,
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "王婆婆的炉子",
+			},
+		},
+	},
+}

@@ -1,0 +1,510 @@
+return {
+	BUFF = {
+		[10] = {
+			{
+				dwID = 15974,
+				szNote = "屠寇者",
+				nLevel = 1,
+			},
+		},
+	},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[299] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示0",
+						nTime = "5,恭喜触发·绝世奇遇·济苍生;15,奇遇至少封印5日;30,前往战乱洛阳·风雨镇·孙妈妈",
+						szName = "奇遇提示0",
+						nRefresh = 0,
+						nClass = 14,
+						nFrame = 0,
+					},
+				},
+				szNote = "济苍生",
+				szContent = "似乎有个小男孩在和你说话。",
+			},
+		},
+		[-4] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示0",
+						nTime = "5,恭喜触发·绝世奇遇·济苍生;15,奇遇至少封印5日;30,前往战乱洛阳·风雨镇·孙妈妈",
+						szName = "奇遇提示0",
+						nRefresh = 0,
+						nFrame = 0,
+						nClass = 14,
+					},
+				},
+				szNote = "济苍生",
+				szContent = "似乎有个小男孩在和你说话。",
+			},
+		},
+		[301] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示0",
+						nTime = "5,恭喜触发·绝世奇遇·济苍生;15,奇遇至少封印5日;30,前往战乱洛阳·风雨镇·孙妈妈",
+						szName = "奇遇提示0",
+						nRefresh = 0,
+						nClass = 14,
+						nFrame = 0,
+					},
+				},
+				szNote = "济苍生",
+				szContent = "似乎有个小男孩在和你说话。",
+			},
+		},
+		[300] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示0",
+						nTime = "5,恭喜触发·绝世奇遇·济苍生;15,奇遇至少封印5日;30,前往战乱洛阳·风雨镇·孙妈妈",
+						szName = "奇遇提示0",
+						nRefresh = 0,
+						nClass = 14,
+						nFrame = 0,
+					},
+				},
+				szNote = "济苍生",
+				szContent = "似乎有个小男孩在和你说话。",
+			},
+		},
+	},
+	NPC = {
+		[49] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "叶睿·济苍生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "济苍生·叶睿",
+				dwID = 59927,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "叶炜·济苍生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "济苍生·叶炜",
+				dwID = 6629,
+			},
+		},
+		[10] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "寇泊·济苍生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "济苍生·寇泊",
+				dwID = 60695,
+			},
+		},
+		[151] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "孙妈妈·济苍生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "济苍生·孙妈妈",
+				dwID = 59913,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "竹间先生·济苍生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "济苍生·竹间先生",
+				dwID = 59917,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "竺承敏·济苍生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "济苍生·竺承敏",
+				dwID = 20955,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "肖白居·济苍生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "济苍生·肖白居",
+				dwID = 20954,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "草木灰·济苍生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "济苍生·风雨镇镇民",
+				dwID = 21352,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "草木灰·济苍生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "刘王氏·济苍生",
+				dwID = 23454,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "草木灰·济苍生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "济苍生·老太太",
+				dwID = 21353,
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						szDisplay = "库瓦力察·济苍生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "济苍生",
+				dwID = 59948,
+			},
+		},
+	},
+	DEBUFF = {
+		[49] = {
+			{
+				dwID = 26571,
+				szNote = "修复神兵",
+				nLevel = 1,
+			},
+		},
+		[151] = {
+			{
+				dwID = 13464,
+				szNote = "奇怪的声音",
+				nLevel = 1,
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1732802200,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[126] = {
+			{
+				dwID = 7131,
+				aFocus = {
+					{
+						szDisplay = "帝鸿·济苍生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 12,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "世界奇遇",
+			},
+			{
+				dwID = 7130,
+				aFocus = {
+					{
+						szDisplay = "素女·济苍生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 12,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "世界奇遇",
+			},
+		},
+		[151] = {
+			{
+				dwID = 7023,
+				aFocus = {
+					{
+						szDisplay = "柔蔓青萝·济苍生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "济苍生·柔蔓青萝",
+			},
+		},
+	},
+}

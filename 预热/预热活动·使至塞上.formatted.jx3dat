@@ -1,0 +1,109 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[673] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						nTime = 60,
+						szName = "预热·百花夫人·刷新",
+						nClass = 14,
+						nFrame = 6,
+					},
+				},
+				szTarget = "百花夫人",
+				szNote = "预热活动·使至塞上",
+				szContent = "竟追到这儿来了，倒有几分胆识。正好没了那云寨那帮废物碍事，教你尝尝老娘的真本事！",
+			},
+		},
+	},
+	NPC = {
+		[673] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 133696,
+				aFocus = {
+					{
+						szDisplay = "张弘·预热商店",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "预热活动·使至塞上",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 133519,
+				aFocus = {
+					{
+						szDisplay = "百花夫人·预热活动",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "使至塞上·百花夫人",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1759099112,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}

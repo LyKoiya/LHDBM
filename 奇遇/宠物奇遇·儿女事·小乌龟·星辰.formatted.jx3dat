@@ -1,0 +1,434 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[213] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示0",
+						nTime = "5,恭喜触发·儿女事·小乌龟·星辰;15,奇遇不封印·约10分钟完成;45,1.对话阿秋·对话邓斌;90,2.前往怀仁斋·对话杜甫王维;120,3.前往碑铭·琴声十六法卷三·张九龄;150,4.前往翠湄居·对话崖牙;180,5.返回邓斌·获得地图和隐匿机关;210,6.打开背包使用地图;300,前往标记点·小地图有绿点",
+						szName = "奇遇提示0",
+						nRefresh = 0,
+						nFrame = 0,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·阿秋·对话·邓斌",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "崖牙·张九龄·杜甫·王维",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "返回·邓斌·使用·地图",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "侠士留步，我看看你钓上来的小乌龟。",
+				szTarget = "阿秋",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示0",
+						nTime = 0,
+						szName = "奇遇提示0",
+						nClass = 14,
+						nFrame = 0,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "前往·标记·小地图·绿点",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "使用·隐匿机关·等待剧情",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "前往·思齐书院·对话高跖",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "隐匿位置已经标记。",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示0",
+						nTime = "30,前往思齐书院·对话高跖;40,可提前打开快捷商城准备;60,各购买1个·[浣花笺][朱砂墨];90,可额外获得·六炉金龙丹;120,注意提交材料时选对选项",
+						szName = "奇遇提示0",
+						nRefresh = 0,
+						nFrame = 0,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "前往·思齐书院·对话·高跖",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "等待·剧情结束·对话·高跖",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "准备·浣花笺·朱砂墨·高跖",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "那人似乎是往思齐书院的方向去了，快快去追",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示0",
+						nTime = 0,
+						szName = "奇遇提示0",
+						nClass = 14,
+						nFrame = 0,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "准备·浣花笺·朱砂墨",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "对话·高跖·前往·御射场",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "对话·石芊芊·返回·高跖",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "他们果然就是行窃的人，且先前去试探一下口风，看能不能知道些来龙去脉",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 60,
+						szName = "对话·高跖·对话·邓斌",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 60,
+						szName = "完成·宠物奇遇·儿女事",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 60,
+						szName = "获得·小乌龟星辰·驯养",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "看来他两人已重归于好，别忘了正事快去问一下吧",
+			},
+		},
+	},
+	NPC = {
+		[213] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 59052,
+				aFocus = {
+					{
+						szDisplay = "儿女事·阿秋",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "儿女事·阿秋",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "邓斌·儿女事",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 70,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "儿女事·邓斌",
+				dwID = 58961,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "王维·儿女事",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "儿女事·王维",
+				dwID = 46288,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "杜甫·儿女事",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				dwID = 46287,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "张九龄·儿女事",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "儿女事·张九龄",
+				dwID = 44442,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "崖牙·儿女事",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "儿女事·崖牙",
+				dwID = 47947,
+			},
+			{
+				nFrame = 47,
+				dwID = 59055,
+				aFocus = {
+					{
+						szDisplay = "高跖·儿女事",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "儿女事·高跖",
+			},
+			{
+				nFrame = 47,
+				dwID = 59054,
+				aFocus = {
+					{
+						szDisplay = "石芊芊·儿女事",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "儿女事·石芊芊",
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "药命嗷",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1730302092,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}

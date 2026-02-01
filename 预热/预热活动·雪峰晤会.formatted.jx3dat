@@ -1,0 +1,326 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[695] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "预热活动1",
+						nTime = 5,
+						szName = "雪峰晤会·终了之战·开启",
+						nIcon = 13,
+						nFrame = 3,
+					},
+				},
+				szContent = "吾教圣地岂容尔等侵犯！受死吧，异教徒！",
+				szTarget = "巴木克",
+			},
+		},
+	},
+	NPC = {
+		[695] = {
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "巴木克",
+				dwID = 129678,
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = "<",
+							nValue = 99,
+							bEnable = true,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "祆教教徒",
+				dwID = 129010,
+			},
+			{
+				nFrame = 50,
+				aFocus = {
+					{
+						szDisplay = "德弗囚所·登天步道",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "德弗囚所·登天步道",
+				dwID = 129072,
+			},
+			{
+				nFrame = 50,
+				aFocus = {
+					{
+						szDisplay = "鹰·山脚",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "鹰·山脚",
+				dwID = 129645,
+			},
+			{
+				nFrame = 50,
+				aFocus = {
+					{
+						szDisplay = "鹰·诺布众营地",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "鹰·诺布众营地",
+				dwID = 129647,
+			},
+			{
+				nFrame = 50,
+				aFocus = {
+					{
+						szDisplay = "鹰·审判庭",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 15,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "鹰·审判庭",
+				dwID = 129646,
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 129105,
+				aFocus = {
+					{
+						szDisplay = "柳寄秋·活动商人",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "柳寄秋·活动商人",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				dwID = 129054,
+				aFocus = {
+					{
+						szDisplay = "传送·山脚",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "穆启明·传送·山脚",
+				nFrame = 47,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "传送·德弗囚所",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "传送·德弗囚所",
+				dwID = 129830,
+			},
+		},
+		[23] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "传送·冷龙风·欲曙",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				dwID = 128939,
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1728837807,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}

@@ -1,0 +1,375 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[673] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示0",
+						nTime = "5,恭喜触发·故人愿·阿稳;15,奇遇不封印·约15分钟完成",
+						szName = "奇遇提示0",
+						nRefresh = 0,
+						nFrame = 0,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·宁清寒·交互·兰花",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "对话·宁清寒·出门右光圈",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "使用·兰花·返回·宁清寒",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示4",
+						nTime = 600,
+						szName = "出门·交互左光圈·宁清寒",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示5",
+						nTime = 600,
+						szName = "出门·直走右拐对话·康荣",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示6",
+						nTime = 600,
+						szName = "返回·宁清寒查看兰花光圈",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "去问问宁清寒该做些什么吧！",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "前往·城西南·水池·水豚",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "对话·水豚·返回·宁清寒",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "前往·万花·落星湖·宇晴",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示4",
+						nTime = -1,
+						szName = "奇遇提示4",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示5",
+						nTime = -1,
+						szName = "奇遇提示5",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示6",
+						nTime = -1,
+						szName = "奇遇提示6",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "原本放着兰花的地方只剩下水渍和残破的兰花根，好像被什么东西咬了……赶紧找找附近的线索吧！",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 180,
+						szName = "前往·万花·落星湖·宇晴",
+						bHold = true,
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 180,
+						szName = "返回·宁清寒·对话宁清寒",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 180,
+						szName = "完成·奇遇·故人愿·阿稳",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "万花谷最了解花儿的人，或许知道哪里有最适合的兰花。",
+			},
+		},
+	},
+	NPC = {
+		[673] = {
+			{
+				nFrame = 47,
+				dwID = 128880,
+				aFocus = {
+					{
+						szDisplay = "宁清寒·故人愿",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "故人愿·宁清寒",
+			},
+			{
+				nFrame = 47,
+				dwID = 130058,
+				aFocus = {
+					{
+						szDisplay = "康荣·故人愿",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "故人愿·康荣",
+			},
+			{
+				nFrame = 47,
+				dwID = 130560,
+				aFocus = {
+					{
+						szDisplay = "水豚·故人愿",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "故人愿·水豚",
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1730623565,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[673] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 10970,
+				aFocus = {
+					{
+						szDisplay = "观赏花草·故人愿",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "故人愿·花草",
+				szName = "花草·故人愿",
+			},
+			{
+				dwID = 10969,
+				aFocus = {
+					{
+						szDisplay = "兰花·故人愿",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "故人愿·兰花",
+				szName = "兰花·故人愿",
+			},
+			{
+				dwID = 10973,
+				aFocus = {
+					{
+						szDisplay = "兰花光圈·故人愿",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "故人愿·光圈放下兰花",
+				szName = "兰花光圈·故人愿",
+			},
+			{
+				dwID = 10972,
+				aFocus = {
+					{
+						szDisplay = "浇水光圈·故人愿",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "故人愿·浇水光圈",
+				szName = "浇水光圈·故人愿",
+			},
+		},
+	},
+}

@@ -1,0 +1,411 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[673] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示0",
+						nTime = "5,恭喜触发·语不休·絮絮;15,奇遇不封印·约10分钟完成",
+						szName = "奇遇提示0",
+						nRefresh = 0,
+						nFrame = 0,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "前往·敦煌城·左下角·阿巴斯",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "返回·瓜果盘处·对话·说书人",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "前往·敦煌城南门外·对话伊连",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "箭上绑了一封信，打开看看。",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "前往·敦煌城·右上角·曹成",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "神行·大地图中偏左·沸沙狱",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "交互·光圈·等待·剧情结束",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "去曹府看看",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·狱卒·神行·敦煌城",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "返回·敦煌城左下·阿巴斯",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "交互·光圈·等待剧情结束",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "去问问狱卒能否把它带走吧。",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 60,
+						szName = "对话·秋山雨·完成奇遇",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 60,
+						szName = "获得·宠物奇遇·语不休",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 60,
+						szName = "获得·宠物·絮絮·鹦鹉",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "我去把那狗鼠辈给砍了！",
+				szTarget = "阿瓦尔",
+			},
+		},
+	},
+	NPC = {
+		[673] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "阿巴斯·语不休",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "语不休·阿巴斯",
+				dwID = 128378,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "说书人·语不休",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "语不休·说书人",
+				dwID = 130401,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "伊连·语不休",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "语不休·伊连",
+				dwID = 130402,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "曹成·语不休",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "语不休·曹成",
+				dwID = 130403,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "狱卒·语不休",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "语不休·狱卒",
+				dwID = 130461,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "秋山雨·语不休",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "语不休·秋山雨",
+				dwID = 130464,
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1734521769,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[673] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 10928,
+				aFocus = {
+					{
+						szDisplay = "瓜果盘·语不休",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "语不休·瓜果盘",
+			},
+			{
+				dwID = 10952,
+				aFocus = {
+					{
+						szDisplay = "光圈·语不休",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "语不休·沸沙狱光圈",
+				szName = "光圈·沸沙狱",
+			},
+			{
+				dwID = 10953,
+				aFocus = {
+					{
+						szDisplay = "光圈·语不休",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "语不休·披风会光圈",
+				szName = "光圈·披风会",
+			},
+		},
+	},
+}

@@ -1,0 +1,80 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {
+		[-1] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				dwID = 2628,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "Ô¨¡¤{$sender}",
+						nTime = 5,
+						szName = "Ô¨¡¤{$sender}¡ú{$receiver}",
+						nFrame = 0,
+						nIcon = 2985,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "ÆÆÖØÎ§¡¤{$sender}",
+						nTime = 3,
+						szName = "ÆÆÖØÎ§¡¤{$sender}¡ú{$receiver}",
+						nIcon = 7506,
+						nFrame = 1,
+					},
+				},
+				dwID = 15158,
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				dwID = 21124,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "ÆÆÖØÎ§¡¤{$sender}",
+						nTime = 3,
+						szName = "ÆÆÖØÎ§¡¤{$sender}¡ú{$receiver}",
+						nFrame = 1,
+						nIcon = 7506,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "ÆÆÖØÎ§¡¤{$sender}",
+						nTime = 3,
+						szName = "ÆÆÖØÎ§¡¤{$sender}¡ú{$receiver}",
+						nIcon = 100036,
+						nFrame = 1,
+					},
+				},
+				dwID = 100036,
+			},
+		},
+	},
+	TALK = {},
+	NPC = {},
+	DEBUFF = {},
+	__meta = {
+		szServer = "Î¨ÎÒ¶À×ð",
+		szAuthor = "ºÉ»¨Àð",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1723721118,
+		szCustomVoicePacketUUID = "",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}

@@ -1,0 +1,278 @@
+{
+	CHAT = {},
+	TALK = {
+		[6] = {
+			{
+				tCountdown = {
+					{
+						bHold = true,
+						key = "奇遇提示0",
+						nFrame = 0,
+						nIcon = 17135,
+						nRefresh = 0,
+						nClass = 14,
+						szName = "奇遇提示0",
+						nTime = "30,4.前往·藏剑·虎跑山庄·卿重;60,5.返回·七秀·卢蓉;90,6.返回·藏剑·卿重;100,完成奇遇·烟花戏·秋·瑞瑞",
+					},
+					{
+						bHold = true,
+						key = "奇遇提示1",
+						nIcon = 17135,
+						nTime = 300,
+						nFrame = 7,
+						nClass = 14,
+						szName = "前往·藏剑·虎跑山庄·卿重",
+					},
+					{
+						bHold = true,
+						key = "奇遇提示2",
+						nIcon = 17135,
+						nTime = 300,
+						nFrame = 7,
+						nClass = 14,
+						szName = "返回·七秀·卢蓉",
+					},
+					{
+						bHold = true,
+						key = "奇遇提示3",
+						nIcon = 17135,
+						nTime = 300,
+						nFrame = 7,
+						nClass = 14,
+						szName = "返回·藏剑·卿重",
+					},
+				},
+				szContent = "你发现了卿重的玉佩。",
+			},
+		},
+		[49] = {
+			{
+				szContent = "宠物已成功添加。",
+				tCountdown = {
+					{
+						bHold = false,
+						key = "奇遇提示0",
+						nIcon = 17135,
+						nTime = 0,
+						nFrame = 0,
+						nClass = 14,
+						szName = "奇遇提示0",
+					},
+					{
+						bHold = false,
+						key = "奇遇提示1",
+						nIcon = 17135,
+						nTime = 0,
+						nFrame = 7,
+						nClass = 14,
+						szName = "奇遇提示1",
+					},
+					{
+						bHold = false,
+						key = "奇遇提示2",
+						nIcon = 17135,
+						nTime = 0,
+						nFrame = 7,
+						nClass = 14,
+						szName = "奇遇提示2",
+					},
+					{
+						bHold = false,
+						key = "奇遇提示3",
+						nIcon = 17135,
+						nTime = 0,
+						nFrame = 7,
+						nClass = 14,
+						szName = "奇遇提示3",
+					},
+				},
+				szNote = "宠物奇遇·烟花戏·秋·瑞瑞",
+			},
+		},
+		[16] = {
+			{
+				tCountdown = {
+					{
+						bHold = true,
+						key = "奇遇提示0",
+						nFrame = 0,
+						nIcon = 17135,
+						nRefresh = 0,
+						nClass = 14,
+						szName = "奇遇提示0",
+						nTime = "5,恭喜触发·烟花戏·秋·瑞瑞;15,奇遇不封印·约5分钟完成;30,1.对话·卢蓉;90,2.前往·扬州·城南树林;120,3.亭子附近寻找埋东西的痕迹;150,4.前往·藏剑·虎跑山庄·卿重;180,5.返回·七秀·卢蓉;210,6.返回·藏剑·卿重;220,完成奇遇·烟花戏·秋·瑞瑞",
+					},
+					{
+						bHold = true,
+						key = "奇遇提示1",
+						nIcon = 17135,
+						nTime = 600,
+						nFrame = 7,
+						nClass = 14,
+						szName = "对话·卢蓉·扬州·城南树林",
+					},
+					{
+						bHold = true,
+						key = "奇遇提示2",
+						nIcon = 17135,
+						nTime = 600,
+						nFrame = 7,
+						nClass = 14,
+						szName = "亭子·寻找·埋东西的痕迹 ",
+					},
+					{
+						bHold = true,
+						key = "奇遇提示3",
+						nIcon = 17135,
+						nTime = 600,
+						nFrame = 7,
+						nClass = 14,
+						szName = "前往·藏剑·虎跑山庄·卿重",
+					},
+				},
+				szContent = "七秀弟子卢蓉好像有话对你说。",
+			},
+		},
+	},
+	BUFF = {},
+	DOODAD = {
+		[16] = {
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "川芎·烟花戏·秋",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+					},
+				},
+				szNote = "烟花戏·秋·川芎",
+				dwID = 6915,
+			},
+		},
+		[6] = {
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "埋东西的痕迹·烟花戏",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+					},
+				},
+				szNote = "烟花戏·埋东西的痕迹",
+				dwID = 6914,
+			},
+		},
+	},
+	NPC = {
+		[16] = {
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "卢蓉·烟花戏·秋",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+					},
+				},
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				szNote = "烟花戏·秋·卢蓉",
+				dwID = 59355,
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+		},
+		[49] = {
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "卿重·烟花戏",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+					},
+				},
+				nFrame = 47,
+				szNote = "烟花戏·卿重",
+				dwID = 59354,
+			},
+		},
+	},
+	CASTING = {},
+	DEBUFF = {},
+	__meta = {
+		nTimeStamp = 1714908015,
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "",
+	},
+}

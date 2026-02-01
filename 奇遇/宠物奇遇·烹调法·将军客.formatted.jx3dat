@@ -1,0 +1,497 @@
+{
+	CHAT = {},
+	TALK = {
+		[5] = {
+			{
+				tCountdown = {
+					{
+						key = "奇遇提示1",
+						nIcon = 17135,
+						nTime = 600,
+						nClass = 14,
+						nFrame = 7,
+						szName = "对话·道知·后方田里·清礼",
+					},
+					{
+						key = "奇遇提示2",
+						nIcon = 17135,
+						nTime = 600,
+						nClass = 14,
+						nFrame = 7,
+						szName = "前往·齐华村·采集·青菜*3",
+					},
+					{
+						key = "奇遇提示3",
+						nIcon = 17135,
+						nTime = 600,
+						nClass = 14,
+						nFrame = 7,
+						szName = "返回·清礼·屋檐对话·蒋瀚",
+					},
+					{
+						key = "奇遇提示4",
+						nIcon = 17135,
+						nTime = 600,
+						nClass = 14,
+						nFrame = 7,
+						szName = "对话·慧毅·田里对话·清礼",
+					},
+					{
+						key = "奇遇提示5",
+						nIcon = 17135,
+						nTime = 600,
+						nClass = 14,
+						nFrame = 7,
+						szName = "前往·院外西北·对话·慧博",
+					},
+					{
+						key = "奇遇提示6",
+						nIcon = 17135,
+						nTime = 600,
+						nClass = 14,
+						nFrame = 7,
+						szName = "返回·清礼·伙房后用·薪柴",
+					},
+				},
+				szContent = "少林寺伙房弟子道知似是有话要对你说。",
+			},
+			{
+				tCountdown = {
+					{
+						key = "奇遇提示1",
+						nIcon = 17135,
+						nTime = 600,
+						nFrame = 7,
+						nClass = 14,
+						szName = "返回·慧博·返回·清礼",
+					},
+					{
+						key = "奇遇提示2",
+						nIcon = 17135,
+						nTime = 600,
+						nFrame = 7,
+						nClass = 14,
+						szName = "返回·慧博·返回·清礼",
+					},
+					{
+						key = "奇遇提示3",
+						nIcon = 17135,
+						nTime = 600,
+						nFrame = 7,
+						nClass = 14,
+						szName = "等待·剧情·获得·饭盒",
+					},
+					{
+						key = "奇遇提示4",
+						nIcon = 17135,
+						nTime = 0,
+						nFrame = 7,
+						nClass = 14,
+						szName = "奇遇提示4",
+					},
+					{
+						key = "奇遇提示5",
+						nIcon = 17135,
+						nTime = 0,
+						nFrame = 7,
+						nClass = 14,
+						szName = "奇遇提示5",
+					},
+					{
+						key = "奇遇提示6",
+						nIcon = 17135,
+						nTime = 0,
+						nFrame = 7,
+						nClass = 14,
+						szName = "奇遇提示6",
+					},
+				},
+				szContent = "你已点燃了木柴，快去请慧博师伯吧。",
+			},
+			{
+				szContent = "哼，我也接着回屋顶晒太阳。",
+				tCountdown = {
+					{
+						key = "奇遇提示1",
+						nIcon = 17135,
+						nTime = 600,
+						nClass = 14,
+						nFrame = 7,
+						szName = "交互·长老·品尝·斋饭",
+					},
+					{
+						key = "奇遇提示2",
+						nIcon = 17135,
+						nTime = 600,
+						nClass = 14,
+						nFrame = 7,
+						szName = "澄通·澄信·澄正·澄理",
+					},
+					{
+						key = "奇遇提示3",
+						nIcon = 17135,
+						nTime = 600,
+						nClass = 14,
+						nFrame = 7,
+						szName = "返回·清礼·等待·剧情",
+					},
+				},
+				szTarget = "蒋瀚",
+			},
+			{
+				szContent = "清礼这孩子聪明伶俐，只是年纪尚幼缺些磨砺。麻烦了施主这么久，小僧这里道谢了。阿弥陀佛！至于这只小蟹，留在我少林寺伙房也多有不便，它亦是施主相助所救，皆为缘法！不如便交由施主保管吧！阿弥陀佛！",
+				tCountdown = {
+					{
+						key = "奇遇提示1",
+						nIcon = 17135,
+						nTime = 20,
+						nFrame = 7,
+						nClass = 14,
+						szName = "完成奇遇·烹调法·将军客",
+					},
+					{
+						key = "奇遇提示2",
+						nIcon = 17135,
+						nTime = 0,
+						nFrame = 7,
+						nClass = 14,
+						szName = "奇遇提示2",
+					},
+					{
+						key = "奇遇提示3",
+						nIcon = 17135,
+						nTime = 0,
+						nFrame = 7,
+						nClass = 14,
+						szName = "奇遇提示3",
+					},
+				},
+				szTarget = "慧博",
+			},
+		},
+	},
+	BUFF = {},
+	DOODAD = {
+		[5] = {
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "青菜·烹调法",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+					},
+				},
+				szNote = "烹调法·青菜",
+				dwID = 6739,
+			},
+		},
+	},
+	NPC = {
+		[5] = {
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "道知·烹调法",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+					},
+				},
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				szNote = "烹调法·道知",
+				dwID = 58137,
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "清礼·烹调法",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 70,
+					},
+				},
+				nFrame = 47,
+				szNote = "烹调法·清礼",
+				dwID = 58161,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "蒋瀚·烹调法",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+					},
+				},
+				nFrame = 47,
+				szNote = "烹调法·蒋瀚",
+				dwID = 58167,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "慧毅·烹调法",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+					},
+				},
+				nFrame = 47,
+				szNote = "烹调法·慧毅",
+				dwID = 3829,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "慧博·烹调法",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+					},
+				},
+				nFrame = 47,
+				szNote = "烹调法·慧博",
+				dwID = 58173,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+					},
+				},
+				nFrame = 47,
+				szNote = "烹调法·澄正",
+				dwID = 574,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+					},
+				},
+				nFrame = 47,
+				szNote = "烹调法·澄通",
+				dwID = 576,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+					},
+				},
+				nFrame = 47,
+				szNote = "烹调法·澄信",
+				dwID = 575,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+					},
+				},
+				nFrame = 47,
+				szNote = "烹调法·澄理",
+				dwID = 552,
+			},
+		},
+	},
+	CASTING = {},
+	DEBUFF = {
+		[5] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nScrutinyType = 1,
+				nLevel = 1,
+				nIcon = 19489,
+				szName = "剧情",
+				dwID = 12430,
+				col = {
+					255,
+					255,
+					0,
+				},
+			},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1721560619,
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "",
+	},
+}

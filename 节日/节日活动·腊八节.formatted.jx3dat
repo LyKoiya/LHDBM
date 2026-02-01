@@ -1,0 +1,124 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {},
+	NPC = {
+		[49] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 59316,
+				aFocus = {
+					{
+						szDisplay = "Ò¶çù·Æ¡¤À°°Ë½Ú",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "À°°Ë½Ú¡¤Ò¶çù·Æ",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+		},
+		[-2] = {
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 113577,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 3,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "À°°Ë½Ú¡¤À°°Ë»õÆ·",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "Î¨ÎÒ¶À×ð",
+		szAuthor = "ºÉ»¨Àð",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1736241154,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[-2] = {
+			{
+				dwID = 6889,
+				aFocus = {
+					{
+						szDisplay = "À°°ËÖà¹Þ",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "À°°Ë½Ú¡¤À°°ËÖà¹Þ",
+			},
+		},
+	},
+}
