@@ -1,0 +1,546 @@
+return {
+	BUFF = {},
+	CHAT = {
+		[49] = {
+			{
+				szContent = "你已接受了[特供醒酒汤·一]。\
+",
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "准备·生活技艺·胡椒粉x2",
+						nFrame = 7,
+						nClass = 20,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "对话·王厨娘·对话·叶然",
+						nFrame = 7,
+						nClass = 20,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "再次·对话叶然·触发奇遇",
+						nFrame = 7,
+						nClass = 20,
+					},
+				},
+			},
+		},
+	},
+	CASTING = {},
+	TALK = {
+		[49] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示0",
+						nTime = "5,恭喜触发·莫贪杯·雀斑;15,奇遇不封印·但需做7天日常;30,给叶然送醒酒汤;40,期间不影响触发其他奇遇",
+						szName = "奇遇提示0",
+						nRefresh = 0,
+						nClass = 14,
+						nFrame = 0,
+					},
+				},
+				szContent = "行，那你帮我送送汤吧。",
+				szTarget = "王厨娘",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示0",
+						nTime = "5,恭喜触发·莫贪杯·雀斑;15,奇遇不封印·约10分钟完成",
+						szName = "奇遇提示0",
+						nRefresh = 0,
+						nClass = 14,
+						nFrame = 0,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·叶然·获得·特供醒酒汤",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "前往·虎跑山庄·西边·顾诗梵",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "等待·剧情结束·对话·顾诗梵",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "藏剑山庄的叶然好像有话对你说。",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·顾诗梵·选中叶麟",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "使用·道具·特供醒酒汤",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "对话·顾诗梵·等待剧情",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "禀夫人，还没有。",
+				szTarget = "侍女",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "等待·剧情·对话·叶蒙",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "交互·水缸·对话·叶蒙",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "选中·叶麟·使用一桶水",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "醒酒汤看起来对叶麟毫无用处，快去回禀顾夫人吧！",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·叶蒙·前往·南边房子",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "等待·剧情结束·对话·叶蒙",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "获得·干净的衣服·返回叶麟",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "看起来叶麟的酒醒了，快些回复叶蒙吧！",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "返回·叶蒙·返回·叶麟",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "前往·虎跑山庄·东北方",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "对话·叶麟·捕捉·薮猫",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "叶麟的五十遍风来吴山已经练习完毕，快回去告诉叶蒙吧！",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 60,
+						szName = "等待·剧情·对话·顾诗梵",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 60,
+						szName = "完成·奇遇·莫贪杯·雀斑",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = -1,
+						szName = "奇遇提示3",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "麟儿！",
+				szTarget = "顾诗梵",
+			},
+		},
+	},
+	NPC = {
+		[49] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 99195,
+				aFocus = {
+					{
+						szDisplay = "王厨娘·莫贪杯",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "莫贪杯·王厨娘",
+				col = {
+					0,
+					255,
+					252,
+				},
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "叶然·莫贪杯",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "莫贪杯·叶然",
+				dwID = 70707,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "顾诗梵·莫贪杯",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "莫贪杯·顾诗梵",
+				dwID = 70708,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "叶麟·莫贪杯",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 3,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "莫贪杯·叶麟",
+				dwID = 99176,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "叶蒙·莫贪杯",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "莫贪杯·叶蒙",
+				dwID = 70709,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "叶蒙·莫贪杯",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "莫贪杯·叶蒙",
+				dwID = 70713,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "叶麟·莫贪杯",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "莫贪杯·叶麟",
+				dwID = 70710,
+			},
+			{
+				nFrame = 50,
+				aFocus = {
+					{
+						szDisplay = "薮猫·莫贪杯",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "莫贪杯·薮猫",
+				dwID = 70711,
+			},
+			{
+				nFrame = 50,
+				aFocus = {
+					{
+						szDisplay = "薮猫·莫贪杯",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "莫贪杯·薮猫",
+				dwID = 99230,
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1741606814,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[49] = {
+			{
+				dwID = 8282,
+				aFocus = {
+					{
+						szDisplay = "水缸·莫贪杯",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "莫贪杯·水缸",
+			},
+		},
+	},
+}

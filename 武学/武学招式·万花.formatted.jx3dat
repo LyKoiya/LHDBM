@@ -1,0 +1,167 @@
+return {
+	BUFF = {
+		[-1] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 24349,
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "减伤监控",
+						nTime = 7,
+						szName = "落子无悔·[{$sender}]",
+						nRefresh = 1,
+						nFrame = 6,
+						nIcon = 17707,
+					},
+				},
+				szNote = "落墨",
+				aCataclysmBuff = {
+					{
+						szReminder = "落",
+						nColAlpha = 255,
+						nPriority = 11,
+						col = "#00FF00FF",
+					},
+				},
+			},
+		},
+	},
+	CHAT = {},
+	CASTING = {
+		[-17] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 100,
+				tCountdown = {
+					{
+						nIcon = 1520,
+						key = "星楼月影·{$sender}",
+						nTime = "4,星楼月影·免控;19,星楼月影·CD·19s;21,星楼月影·CD·21s",
+						szName = "星楼月影",
+						nRefresh = 0,
+						nClass = 9,
+						nFrame = 4,
+					},
+				},
+				szNote = "星楼月影",
+				tKungFu = {
+					["SKILL#10028"] = true,
+					["SKILL#10021"] = true,
+				},
+			},
+		},
+		[-1] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				dwID = 14965,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "南风吐月·{$sender}",
+						nTime = 8,
+						szName = "南风吐月→{$receiver}",
+						nFrame = 0,
+						nIcon = 7510,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				dwID = 24919,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "洛川神韵·{$sender}",
+						nTime = 10,
+						szName = "洛川神韵→{$receiver}",
+						nFrame = 1,
+						nIcon = 14146,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				dwID = 28720,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "天工甲士·{$sender}",
+						nTime = 30,
+						szName = "天工甲士·{$sender}",
+						nFrame = 0,
+						nIcon = 16224,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				dwID = 28480,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "天工甲士·{$sender}",
+						nTime = 0,
+						szName = "天工甲士·{$sender}",
+						nFrame = 0,
+						nIcon = 16225,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				dwID = 14963,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "折叶笼花·{$sender}",
+						nTime = 12,
+						szName = "折叶笼花→{$receiver}",
+						nFrame = 0,
+						nIcon = 16602,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				dwID = 24911,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "大针·{$sender}",
+						nTime = 6,
+						szName = "大针→{$receiver}",
+						nFrame = 0,
+						nIcon = 14148,
+					},
+				},
+			},
+		},
+	},
+	TALK = {},
+	NPC = {},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1766170525,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}

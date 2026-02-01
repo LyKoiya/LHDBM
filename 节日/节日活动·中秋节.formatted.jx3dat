@@ -1,0 +1,642 @@
+return {
+	BUFF = {},
+	CHAT = {
+		[-1] = {
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "通用事件",
+						nTime = 10,
+						szName = "扬州·大月饼·出现",
+						nIcon = 7182,
+						nFrame = 0,
+					},
+				},
+				szContent = "神厨饼痴带着做好的大月饼出现啦，侠士们可以去扬州门外品尝大月饼了！\
+",
+				szNote = "扬州·大月饼·出现",
+				[20] = {
+					bCenterAlarm = true,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "天狗事件",
+						nTime = 10,
+						szName = "五大主城·天狗事件",
+						nFrame = 7,
+						nIcon = 89,
+					},
+				},
+				szContent = "天狗的爪牙在中原五大主城外出现，侠士们可速前往除之，否则小饼收集的材料会被叼走。\
+",
+				szNote = "中秋节·天狗事件",
+			},
+		},
+	},
+	CASTING = {
+		[-1] = {
+			{
+				tCountdown = {
+					{
+						nClass = 8,
+						key = "赠送礼物·{$sender}",
+						nTime = 2.38,
+						szName = "赠送礼物·{$sender}→{$receiver}",
+						nIcon = 266,
+						nFrame = 6,
+					},
+				},
+				nScrutinyType = 2,
+				dwID = 7244,
+				szNote = "中秋节·赠送双黄月饼",
+				nLevel = 1,
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 8,
+						key = "赠送礼物·{$sender}",
+						nTime = 5,
+						szName = "赠送礼物·{$sender}→{$receiver}",
+						nFrame = 6,
+						nIcon = 2153,
+					},
+				},
+				nScrutinyType = 2,
+				dwID = 7236,
+				szNote = "中秋节·赠送净琉璃",
+				nLevel = 1,
+			},
+		},
+	},
+	TALK = {
+		[-2] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "天狗事件",
+						nTime = "240,五大主城·天狗激活剩余;245,天狗的爪牙·已经激活",
+						szName = "五大主城·天狗激活剩余",
+						nRefresh = 5,
+						nFrame = 7,
+						nIcon = 3449,
+					},
+				},
+				szContent = "汪汪汪...",
+				szTarget = "天狗的爪牙",
+			},
+		},
+		[-3] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 1526,
+						key = "救治重伤",
+						nTime = 11,
+						szName = "秦月樱·正在救你",
+						nFrame = 6,
+						nClass = 14,
+					},
+				},
+				szContent = "{$me}，不要着急，我来助你！",
+				szTarget = "秦月樱",
+			},
+		},
+		[-1] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "救治重伤",
+						nTime = 11,
+						szName = "秦月樱·正在救你",
+						nIcon = 1526,
+						nFrame = 6,
+					},
+				},
+				szContent = "不要着急，我来助你！",
+				szTarget = "秦月樱",
+			},
+		},
+	},
+	NPC = {
+		[6] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 15637,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "仙瑞云祥大月饼",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+		},
+		[-2] = {
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 113587,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 3,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "中秋节·中秋货品",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 50,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "中秋节·天狗的爪牙",
+				dwID = 15545,
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 6271,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "丘怀",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 15537,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "宫叶杉",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 15546,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "小饼",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+		},
+		[-15] = {
+			{
+				nFrame = 47,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 101014,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 195,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "中秋节·花灯终点",
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "可踩踏花灯",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "中秋节·可踩踏花灯3",
+				dwID = 100985,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "可踩踏花灯",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "中秋节·可踩踏花灯2",
+				dwID = 100984,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "可踩踏花灯",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "中秋节·可踩踏花灯1",
+				dwID = 100954,
+			},
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 102035,
+				aFocus = {
+					{
+						szDisplay = "丽丽·节日活动",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "中秋节·丽丽",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1767878440,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[-2] = {
+			{
+				dwID = 2992,
+				aFocus = {
+					{
+						szDisplay = "元宝灯·鱼龙一舞",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "中秋节·元宝灯",
+			},
+			{
+				dwID = 2990,
+				aFocus = {
+					{
+						szDisplay = "桃花灯·鱼龙一舞",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "中秋节·桃花灯",
+			},
+			{
+				dwID = 2991,
+				aFocus = {
+					{
+						szDisplay = "有鱼灯·鱼龙一舞",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "中秋节·有鱼灯",
+			},
+			{
+				dwID = 2970,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+			},
+			{
+				dwID = 2971,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+			},
+		},
+	},
+}

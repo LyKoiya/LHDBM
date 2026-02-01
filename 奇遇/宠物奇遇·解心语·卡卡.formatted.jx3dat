@@ -1,0 +1,530 @@
+return {
+	BUFF = {
+		[642] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "安慰",
+				dwID = 27426,
+				szNote = "安慰·解心语",
+				nIcon = 8474,
+			},
+		},
+	},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[642] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示0",
+						nTime = "5,恭喜触发·解心语·卡卡;15,奇遇不封印·约10分钟完成;30,1.对话·颂雪;60,2.前往·碑铭·万灵山庄史略·卷四;80,3.对话·楚楚·跟随·楚楚",
+						szName = "奇遇提示0",
+						nRefresh = 0,
+						nFrame = 0,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·颂雪·寻找·楚楚",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "碑铭·万灵山庄史略·卷四",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "对话·楚楚·跟随·楚楚",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "树叶堆里有一本册子，打开看看！",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "碑铭·万灵山庄史略·卷四",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "对话·楚楚·跟随·楚楚",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "交互·光圈·交互·楚楚",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "快去万灵殿入口的水池边找楚楚吧",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "跟随·楚楚·交互·光圈",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "交互·楚楚·返回·颂雪",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "交互·光圈·对话·颂雪",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "楚楚好像发现了什么，快跟上它去找羊驼吧！",
+			},
+			{
+				szContent = "乘黄发现你没跟上，迷茫地回水池边了",
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "跟随·楚楚·失败·重新",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "返回·水池·交互·楚楚",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "跟随·楚楚·交互·光圈",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "返回·颂雪·交互·光圈",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "对话·颂雪·使用·狼皮",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "使用·技能·吓唬·羊驼",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "带上羊驼回去找颂雪吧",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 120,
+						szName = "对话·颂雪·交互·羊驼",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 120,
+						szName = "等待·剧情·对话·颂雪",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 120,
+						szName = "完成·奇遇·获得·卡卡",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "成功了，快回报颂雪吧！",
+			},
+		},
+	},
+	NPC = {
+		[642] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "颂雪·解心语",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "解心语·颂雪",
+				dwID = 125423,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "楚楚·解心语",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "解心语·楚楚",
+				dwID = 125556,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "楚楚·解心语",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "解心语·楚楚",
+				dwID = 125754,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "羊驼·解心语",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "解心语·羊驼",
+				dwID = 125757,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "颂雪·解心语",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "解心语·颂雪·实验",
+				dwID = 125900,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "羊驼·解心语",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "解心语·羊驼",
+				dwID = 125756,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "颂雪·解心语",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "解心语·颂雪",
+				dwID = 125907,
+			},
+		},
+	},
+	DEBUFF = {
+		[642] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				nIcon = 14668,
+				dwID = 27323,
+				[1] = {
+					bBuffList = true,
+				},
+				szNote = "变狼·解心语",
+				szName = "变狼",
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1729235261,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[642] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 10356,
+				aFocus = {
+					{
+						szDisplay = "树叶堆·解心语",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "解心语·树叶堆",
+			},
+			{
+				dwID = 10381,
+				aFocus = {
+					{
+						szDisplay = "沙棘果·解心语",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "解心语·光圈",
+				szName = "光圈·解心语",
+			},
+			{
+				dwID = 10311,
+				aFocus = {},
+				szNote = "解心语·沙棘果",
+				szName = "沙棘果·解心语",
+			},
+			{
+				dwID = 10399,
+				aFocus = {
+					{
+						szDisplay = "沙棘果·解心语",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "解心语·沙棘果",
+				szName = "沙棘果·解心语",
+			},
+		},
+	},
+}

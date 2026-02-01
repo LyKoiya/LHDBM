@@ -1,0 +1,487 @@
+return {
+	BUFF = {
+		[718] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "商人",
+				dwID = 32686,
+				[1] = {
+					bBuffList = true,
+				},
+				szNote = "商人行头",
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "扮鬼",
+				dwID = 32687,
+				[1] = {
+					bBuffList = true,
+				},
+				szNote = "扮鬼行头",
+			},
+		},
+	},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[-1] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "奇遇提示0",
+						nTime = "5,恭喜触发·普通奇遇·金风倾楼;10,奇遇奖励·[怜影·花仙]",
+						szName = "恭喜触发·普通奇遇·金风倾楼",
+						nRefresh = 0,
+						nFrame = 0,
+						nIcon = 12371,
+					},
+				},
+				szNote = "恭喜触发·普通奇遇·金风倾楼",
+				szContent = "你收到了林若谷的传信。",
+			},
+		},
+	},
+	NPC = {
+		[718] = {
+			{
+				nFrame = 47,
+				dwID = 136123,
+				aFocus = {
+					{
+						szDisplay = "黄炎平·金风倾楼",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "金风倾楼·黄炎平",
+			},
+			{
+				nFrame = 47,
+				dwID = 135840,
+				aFocus = {
+					{
+						szDisplay = "林若谷·金风倾楼",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "金风倾楼·林若谷",
+			},
+			{
+				nFrame = 47,
+				dwID = 136124,
+				aFocus = {
+					{
+						szDisplay = "林文渊·金风倾楼",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "金风倾楼·林文渊",
+			},
+			{
+				nFrame = 47,
+				dwID = 136254,
+				aFocus = {
+					{
+						szDisplay = "光圈·金风倾楼",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "金风倾楼·光圈",
+				szName = "光圈·金风倾楼",
+			},
+			{
+				nFrame = 47,
+				dwID = 136125,
+				aFocus = {
+					{
+						szDisplay = "施昀·金风倾楼",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "金风倾楼·施昀",
+			},
+			{
+				nFrame = 47,
+				dwID = 136255,
+				aFocus = {
+					{
+						szDisplay = "光圈·金风倾楼",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "金风倾楼·光圈",
+				szName = "光圈·金风倾楼",
+			},
+			{
+				nFrame = 47,
+				dwID = 136126,
+				aFocus = {
+					{
+						szDisplay = "鬼·金风倾楼",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "金风倾楼·鬼",
+			},
+			{
+				nFrame = 47,
+				dwID = 136219,
+				aFocus = {
+					{
+						szDisplay = "卢任·金风倾楼",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "金风倾楼·卢任",
+			},
+			{
+				nFrame = 57,
+				dwID = 136127,
+				aFocus = {
+					{
+						szDisplay = "卢任·金风倾楼",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "金风倾楼·卢任",
+			},
+			{
+				nFrame = 47,
+				dwID = 136216,
+				aFocus = {
+					{
+						szDisplay = "卢任·金风倾楼",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "金风倾楼·卢任",
+			},
+			{
+				nFrame = 47,
+				dwID = 136128,
+				aFocus = {
+					{
+						szDisplay = "林若谷·金风倾楼",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "金风倾楼·林若谷",
+			},
+			{
+				nFrame = 47,
+				dwID = 136217,
+				aFocus = {
+					{
+						szDisplay = "乌尔骨·金风倾楼",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "金风倾楼·乌尔骨",
+			},
+			{
+				nFrame = 57,
+				dwID = 136129,
+				aFocus = {
+					{
+						szDisplay = "乌尔骨·金风倾楼",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "金风倾楼·乌尔骨",
+			},
+			{
+				nFrame = 47,
+				dwID = 136131,
+				aFocus = {
+					{
+						szDisplay = "林若谷·金风倾楼",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "金风倾楼·林若谷",
+			},
+			{
+				nFrame = 47,
+				dwID = 136256,
+				aFocus = {
+					{
+						szDisplay = "光圈·金风倾楼",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "金风倾楼·光圈",
+				szName = "光圈·金风倾楼",
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1769239142,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}

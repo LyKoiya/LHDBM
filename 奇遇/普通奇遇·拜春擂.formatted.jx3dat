@@ -1,0 +1,195 @@
+{
+	CHAT = {},
+	TALK = {
+		[6] = {
+			{
+				szContent = "不走是吧？！小五、小六，拿家伙什儿来，把它架走！",
+				tCountdown = {
+					{
+						key = "奇遇提示1",
+						nIcon = 17135,
+						nTime = 600,
+						nFrame = 7,
+						nClass = 14,
+						szName = "对话·罗岩成·对话·大怪鼠",
+					},
+					{
+						key = "奇遇提示2",
+						nIcon = 17135,
+						nTime = 600,
+						nFrame = 7,
+						nClass = 14,
+						szName = "击败·大怪鼠·对话·罗岩成",
+					},
+					{
+						key = "奇遇提示3",
+						nIcon = 17135,
+						nTime = 600,
+						nFrame = 7,
+						nClass = 14,
+						szName = "对话·大怪鼠·完成·拜春擂",
+					},
+				},
+				szTarget = "罗岩成",
+			},
+			{
+				szContent = "那个……鹿鼠兄？你输了，可以下场了。",
+				tCountdown = {
+					{
+						key = "奇遇提示1",
+						nIcon = 17135,
+						nTime = 30,
+						nClass = 14,
+						nFrame = 7,
+						szName = "对话·罗岩成·对话·大怪鼠",
+					},
+					{
+						key = "奇遇提示2",
+						nIcon = 17135,
+						nTime = 0,
+						nClass = 14,
+						nFrame = 7,
+						szName = "奇遇提示2",
+					},
+					{
+						key = "奇遇提示3",
+						nIcon = 17135,
+						nTime = 0,
+						nClass = 14,
+						nFrame = 7,
+						szName = "奇遇提示3",
+					},
+				},
+				szTarget = "罗岩成",
+			},
+		},
+	},
+	BUFF = {},
+	DOODAD = {},
+	NPC = {
+		[6] = {
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "热心侠客·拜春擂",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+					},
+				},
+				szNote = "拜春擂·热心侠客",
+				nFrame = 47,
+				dwID = 120636,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "罗岩成·拜春擂",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+					},
+				},
+				nFrame = 47,
+				szNote = "拜春擂·罗岩成",
+				dwID = 120632,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "大怪鼠·拜春擂",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+					},
+				},
+				nFrame = 65,
+				szNote = "拜春擂·大怪鼠",
+				dwID = 120732,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "大怪鼠·拜春擂",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+					},
+				},
+				nFrame = 65,
+				szNote = "拜春擂·大怪鼠",
+				dwID = 120737,
+			},
+		},
+	},
+	CASTING = {},
+	DEBUFF = {},
+	__meta = {
+		nTimeStamp = 1720339153,
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "",
+	},
+}

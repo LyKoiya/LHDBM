@@ -1,0 +1,536 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[216] = {
+			{
+				szContent = "需要补全的位置已经标记。",
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 120,
+						szName = "前往·十二连环坞马贼营地·标点处",
+						bHold = false,
+						nClass = 14,
+						nFrame = 6,
+					},
+				},
+			},
+		},
+		[217] = {
+			{
+				szContent = "需要补全的位置已经标记。",
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示4",
+						nTime = 120,
+						szName = "前往·灰岩坳·石壁·标点处",
+						bHold = false,
+						nClass = 14,
+						nFrame = 6,
+					},
+				},
+			},
+		},
+		[23] = {
+			{
+				szContent = "需要补全的位置已经标记。",
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 120,
+						szName = "前往·玉门关·山顶·标点处",
+						bHold = false,
+						nFrame = 6,
+						nClass = 14,
+					},
+				},
+			},
+		},
+		[193] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						nRefresh = 0,
+						key = "奇遇提示0",
+						nTime = "5,恭喜触发·戎马边·贵贵;15,奇遇封印3日;30,对话白芷沅·获得未完成的地图;180,前往以下地图·使用未完成的地图;600,前往太原·怀德门·栾志辉",
+						szName = "奇遇提示0",
+						bHold = true,
+						nClass = 14,
+						nFrame = 0,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 1200,
+						szName = "对话·白芷沅·20分钟内完成",
+						bHold = false,
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 1200,
+						szName = "神行·龙门荒漠·玉门关",
+						bHold = true,
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 1200,
+						szName = "神行·阴山大草原·沼泽驿站",
+						bHold = true,
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示4",
+						nTime = 1200,
+						szName = "神行·黑戈壁·黑水城",
+						bHold = true,
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "不错不错，你很有画地图的天赋。",
+				szTarget = "白芷沅",
+			},
+		},
+	},
+	NPC = {
+		[217] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "陈涛·戎马边",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "戎马边·陈涛",
+				dwID = 59330,
+			},
+		},
+		[193] = {
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 59328,
+				aFocus = {
+					{
+						szDisplay = "白芷沅·戎马边",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 60,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "戎马边·白芷沅",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+		},
+		[194] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "栾志辉·戎马边",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "戎马边·栾志辉",
+				dwID = 59329,
+			},
+		},
+		[216] = {
+			{
+				dwID = 59332,
+				aFocus = {
+					{
+						szDisplay = "陈奏·戎马边",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "戎马边·陈奏",
+				nFrame = 47,
+			},
+		},
+		[23] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "陈节·戎马边",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "戎马边·陈节",
+				dwID = 59331,
+			},
+		},
+	},
+	DEBUFF = {
+		[217] = {
+			{
+				{
+					bPartyBuffList = true,
+				},
+				{
+					bCenterAlarm = true,
+				},
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "奇遇提示4",
+						nTime = 30,
+						szName = "使用·背包·未完成的地图",
+						nIcon = 2030,
+						nFrame = 2,
+					},
+				},
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 12829,
+				nLevel = 1,
+				szNote = "时间紧迫！",
+				szName = "限时",
+			},
+		},
+		[193] = {
+			{
+				nLevel = 1,
+				[2] = {
+					bCenterAlarm = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 12829,
+				szName = "限时",
+				szNote = "时间紧迫！",
+				nScrutinyType = 1,
+			},
+		},
+		[194] = {
+			{
+				{
+					bPartyBuffList = true,
+				},
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示0",
+						nTime = 120,
+						szName = "前往·怀德门·对话·栾志辉",
+						bHold = false,
+						nClass = 1,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示0",
+						nTime = 120,
+						szName = "封印·三天后·怀德门栾志辉",
+						bHold = false,
+						nClass = 2,
+						nFrame = 7,
+					},
+				},
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 12829,
+				nLevel = 1,
+				szNote = "时间紧迫！",
+				szName = "限时",
+			},
+			{
+				nIcon = 10052,
+				[2] = {
+					bCenterAlarm = true,
+				},
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						nIcon = 10052,
+						key = "奇遇·封印",
+						nTime = 10,
+						szName = "奇遇·戎马边·解封",
+						nFrame = 7,
+						nClass = 2,
+					},
+					{
+						nIcon = 10052,
+						key = "奇遇·解封",
+						nTime = 10.1,
+						szName = "太原·怀德门·栾志辉",
+						nFrame = 7,
+						nClass = 2,
+					},
+					{
+						nIcon = 10052,
+						key = "奇遇·封印",
+						nTime = 10,
+						szName = "奇遇·戎马边·封印·72小时",
+						nRefresh = 7200,
+						nFrame = 7,
+						nClass = 1,
+					},
+					{
+						nIcon = 13,
+						key = "奇遇提示1",
+						nTime = -1,
+						szName = "奇遇提示1",
+						bHold = false,
+						nFrame = 7,
+						nClass = 1,
+					},
+					{
+						nIcon = 13,
+						key = "奇遇提示2",
+						nTime = -1,
+						szName = "奇遇提示2",
+						bHold = true,
+						nFrame = 7,
+						nClass = 1,
+					},
+					{
+						nIcon = 13,
+						key = "奇遇提示3",
+						nTime = -1,
+						szName = "奇遇提示3",
+						bHold = true,
+						nFrame = 7,
+						nClass = 1,
+					},
+					{
+						nIcon = 13,
+						key = "奇遇提示4",
+						nTime = -1,
+						szName = "奇遇提示4",
+						bHold = true,
+						nFrame = 7,
+						nClass = 1,
+					},
+				},
+				dwID = 12830,
+				szName = "戎马边",
+				szNote = "戎马边",
+				nLevel = 1,
+			},
+		},
+		[-5] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 12830,
+				nIcon = 10052,
+				szNote = "戎马边_定时_BUFF",
+				szName = "戎马边",
+			},
+		},
+		[216] = {
+			{
+				{
+					bPartyBuffList = true,
+				},
+				{
+					bCenterAlarm = true,
+				},
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "奇遇提示3",
+						nTime = 60,
+						szName = "使用·背包·未完成的地图",
+						nIcon = 2030,
+						nFrame = 2,
+					},
+				},
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 12829,
+				nLevel = 1,
+				szNote = "时间紧迫！",
+				szName = "限时",
+			},
+		},
+		[-1] = {
+			{
+				nIcon = 10052,
+				[2] = {
+					bCenterAlarm = true,
+				},
+				tCountdown = {
+					{
+						nFrame = 7,
+						key = "奇遇·封印",
+						nTime = 10,
+						szName = "奇遇·戎马边·解封",
+						nClass = 2,
+						nIcon = 10052,
+					},
+					{
+						nFrame = 7,
+						key = "奇遇·解封",
+						nTime = 10.1,
+						szName = "太原·怀德门·栾志辉",
+						nClass = 2,
+						nIcon = 10052,
+					},
+				},
+				dwID = 12830,
+				szName = "戎马边",
+				nScrutinyType = 1,
+				szNote = "戎马边_定时_BUFF",
+				nLevel = 1,
+			},
+		},
+		[23] = {
+			{
+				nLevel = 1,
+				[2] = {
+					bCenterAlarm = true,
+				},
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 12829,
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "奇遇提示2",
+						nTime = 60,
+						szName = "使用·背包·未完成的地图",
+						nIcon = 2030,
+						nFrame = 2,
+					},
+				},
+				szNote = "时间紧迫！",
+				szName = "限时",
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1734801447,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}

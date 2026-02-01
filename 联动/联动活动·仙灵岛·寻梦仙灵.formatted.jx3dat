@@ -1,0 +1,1153 @@
+return {
+	BUFF = {
+		[703] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "风速",
+				dwID = 30164,
+				szNote = "风灵之力",
+				[1] = {
+					bBuffList = true,
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "火伤",
+				dwID = 30163,
+				szNote = "火灵之力",
+				[1] = {
+					bBuffList = true,
+					bScreenHead = true,
+				},
+			},
+		},
+	},
+	CHAT = {},
+	CASTING = {
+		[703] = {
+			{
+				nLevel = 1,
+				dwID = 40226,
+				szNote = "甲士·立盾",
+				tCountdown = {
+					{
+						nClass = 8,
+						key = "甲士·立盾",
+						nTime = 3,
+						szName = "敌方·甲士立盾·3层免伤",
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 39916,
+				szNote = "土灵之力",
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "土灵之力",
+						nTime = 5,
+						szName = "土灵之力·击飞眩晕20s",
+						nFrame = 1,
+						nIcon = 23817,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 39915,
+				szNote = "雷灵之力",
+				tCountdown = {
+					{
+						nClass = 8,
+						key = "雷灵之力",
+						nTime = 10,
+						szName = "雷灵之力·移动多段伤害",
+						nFrame = 8,
+						nIcon = 23815,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "火灵之力",
+				dwID = 39914,
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "风灵之力",
+				dwID = 39917,
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 39913,
+				szNote = "水灵之力",
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "水灵之力",
+						nTime = 5,
+						szName = "水灵之力·重置技能CD",
+						nFrame = 7,
+						nIcon = 23816,
+					},
+					{
+						nClass = 9,
+						key = "风起云扬腿",
+						nTime = 0,
+						szName = "风起云扬腿",
+						nIcon = 13,
+					},
+					{
+						nClass = 9,
+						key = "地裂山崩掌",
+						nTime = 0,
+						szName = "地裂山崩掌",
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 39912,
+				szNote = "乾坤一掷",
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "乾坤一掷",
+						nTime = 5,
+						szName = "乾坤一掷·单体眩晕1s",
+						nFrame = 4,
+						nIcon = 99,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 39910,
+				szNote = "地裂山崩掌",
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "地裂山崩掌",
+						nTime = "8,地裂山崩掌·群体眩晕8s;10,地裂山崩掌·CD",
+						szName = "地裂山崩掌·群体眩晕8s",
+						nRefresh = 0,
+						nFrame = 4,
+						nIcon = 24299,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 39911,
+				szNote = "风起云扬腿",
+				tCountdown = {
+					{
+						nClass = 8,
+						key = "风起云扬腿",
+						nTime = "5,风起云扬腿·风车多段伤害;20,风起云扬腿·CD",
+						szName = "风起云扬腿·风车多段伤害",
+						nRefresh = 0,
+						nFrame = 3,
+						nIcon = 24289,
+					},
+				},
+			},
+		},
+	},
+	TALK = {
+		[703] = {
+			{
+				szContent = "圣灵珠血量过低！挑战失败！",
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "风灵之力",
+						nTime = 0,
+						szName = "风灵之力",
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "火灵之力",
+						nTime = 0,
+						szName = "火灵之力",
+						nIcon = 13,
+					},
+					{
+						nIcon = 13,
+						key = "风起云扬腿",
+						nTime = 0,
+						szName = "风起云扬腿",
+						nClass = 14,
+					},
+					{
+						nIcon = 13,
+						key = "地裂山崩掌",
+						nTime = 0,
+						szName = "地裂山崩掌",
+						nClass = 14,
+					},
+					{
+						nClass = 14,
+						key = "生命值",
+						nTime = 0,
+						szName = "生命值",
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				szContent = "挑战成功！",
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "风灵之力",
+						nTime = 0,
+						szName = "风灵之力",
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "火灵之力",
+						nTime = 0,
+						szName = "火灵之力",
+						nIcon = 13,
+					},
+					{
+						nIcon = 13,
+						key = "风起云扬腿",
+						nTime = 0,
+						szName = "风起云扬腿",
+						nClass = 14,
+					},
+					{
+						nIcon = 13,
+						key = "地裂山崩掌",
+						nTime = 0,
+						szName = "地裂山崩掌",
+						nClass = 14,
+					},
+					{
+						nClass = 14,
+						key = "生命值",
+						nTime = 0,
+						szName = "生命值",
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "水灵之力",
+						nTime = 5,
+						szName = "锦八爷·重置技能CD",
+						nIcon = 23816,
+						nFrame = 7,
+					},
+					{
+						nClass = 14,
+						key = "风起云扬腿",
+						nTime = 0,
+						szName = "风起云扬腿",
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "地裂山崩掌",
+						nTime = 0,
+						szName = "地裂山崩掌",
+						nIcon = 13,
+					},
+				},
+				szContent = "你打倒了锦八爷！它悄悄清空了你的所有技能调息时间。",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "生命值",
+						nTime = 60,
+						szName = "圣灵珠·生命值·{$3}",
+						nFrame = 2,
+						nIcon = 13,
+					},
+				},
+				szContent = "【(.-)】对圣灵珠造成了【(%d-)】点伤害，圣灵珠剩余生命值【(%d-)】点。",
+				bReg = true,
+				szNote = "圣灵珠·生命值·{$3}",
+				[14] = {
+					bCenterAlarm = true,
+				},
+			},
+		},
+		[702] = {
+			{
+				szContent = "恭喜完成灵珠挑战·水神试炼。",
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "任务提示1",
+						nTime = 30,
+						szName = "获得·90天限时称号·[水神]",
+						nIcon = 1241,
+						nFrame = 6,
+					},
+				},
+			},
+			{
+				szContent = "你感受到了来自其它灵珠的呼唤，快去寻找它们吧。",
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "任务提示1",
+						nTime = 60,
+						szName = "交互·五种灵珠·获得限时称号",
+						nIcon = 13,
+						nFrame = 6,
+					},
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "祝福CD",
+						nTime = 3,
+						szName = "小蝴蝶·祝福CD",
+						nIcon = 18640,
+					},
+				},
+				szContent = "小蝴蝶尝试给予你祝福。",
+			},
+		},
+		[6] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "任务提示1",
+						nTime = 10,
+						szName = "获得·宠物·[锦八爷]",
+						nFrame = 7,
+						nIcon = 23822,
+					},
+				},
+				szContent = "你从袖中掏出仙药，却掏了个空，只见几片桃花纷纷扬扬洒落在空中。",
+			},
+		},
+	},
+	NPC = {
+		[-2] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "游驹·寻梦仙灵·接引",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "寻梦仙灵",
+				dwID = 131632,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "船夫·仙灵岛·传送",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "船夫·仙灵岛·传送",
+				dwID = 131907,
+			},
+		},
+		[6] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{},
+				},
+				dwID = 131571,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{},
+				},
+				dwID = 131663,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{},
+				},
+				dwID = 132343,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "赵灵儿·任务",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				dwID = 131664,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "赵灵儿·任务",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				dwID = 131665,
+			},
+		},
+		[702] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "船夫·主城·传送",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "船夫·主城·传送",
+				dwID = 132160,
+			},
+			{
+				nFrame = 65,
+				dwID = 132545,
+				aFocus = {
+					{
+						szDisplay = "传送",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 41,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "传送",
+				szName = "传送",
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				dwID = 131566,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "叶灵·圣灵挑战·传送",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "叶灵",
+				dwID = 131567,
+			},
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 132460,
+				aFocus = {
+					{
+						szDisplay = "蝴蝶·红尘不渡",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "蝴蝶",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 50,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 132459,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "蜘蛛",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "狗仙人",
+				dwID = 132053,
+			},
+		},
+		[703] = {
+			{
+				nFrame = 47,
+				dwID = 132430,
+				aFocus = {},
+				szNote = "方向",
+				szName = "方向",
+			},
+			{
+				nFrame = 65,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				dwID = 131392,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "鼠精帝王",
+				col = {
+					255,
+					50,
+					255,
+				},
+			},
+			{
+				nFrame = 65,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				dwID = 131957,
+				aFocus = {
+					{},
+				},
+				szNote = "锦八爷",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				nFrame = 65,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				dwID = 131986,
+				aFocus = {
+					{},
+				},
+				szNote = "鼠精甲士·持盾",
+				col = {
+					255,
+					255,
+					50,
+				},
+			},
+			{
+				nFrame = 65,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 131391,
+				aFocus = {
+					{},
+				},
+				szNote = "鼠精甲士",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 65,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 131390,
+				aFocus = {},
+				szNote = "鼠精斥候",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 65,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 131389,
+				aFocus = {},
+				szNote = "鼠精新兵",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 132017,
+				col = {
+					255,
+					150,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 132016,
+				col = {
+					150,
+					100,
+					255,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 132014,
+				col = {
+					255,
+					100,
+					100,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 132015,
+				col = {
+					50,
+					255,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 132013,
+				col = {
+					0,
+					150,
+					255,
+				},
+			},
+		},
+	},
+	DEBUFF = {
+		[703] = {
+			{
+				tCountdown = {
+					{
+						nClass = 2,
+						key = "风灵之力",
+						nTime = 0,
+						szName = "风灵之力",
+						nIcon = 13,
+					},
+					{
+						nClass = 2,
+						key = "火灵之力",
+						nTime = 0,
+						szName = "火灵之力",
+						nIcon = 13,
+					},
+					{
+						nIcon = 13,
+						key = "风起云扬腿",
+						nTime = 0,
+						szName = "风起云扬腿",
+						nClass = 2,
+					},
+					{
+						nIcon = 13,
+						key = "地裂山崩掌",
+						nTime = 0,
+						szName = "地裂山崩掌",
+						nClass = 2,
+					},
+					{
+						nClass = 2,
+						key = "生命值",
+						nTime = 0,
+						szName = "生命值",
+						nIcon = 13,
+					},
+				},
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 30178,
+				nLevel = 1,
+				szNote = "圣灵挑战中",
+				[1] = {
+					bBuffList = true,
+				},
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1747157110,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[702] = {
+			{
+				dwID = 11216,
+				aFocus = {
+					{},
+				},
+			},
+			{
+				dwID = 11217,
+				aFocus = {
+					{},
+				},
+			},
+			{
+				dwID = 11213,
+				aFocus = {
+					{},
+				},
+			},
+			{
+				dwID = 11214,
+				aFocus = {
+					{},
+				},
+			},
+			{
+				dwID = 11215,
+				aFocus = {
+					{},
+				},
+			},
+			{
+				dwID = 11218,
+				aFocus = {
+					{
+						szDisplay = "木箱·灵心符",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+			},
+			{
+				dwID = 11115,
+				aFocus = {
+					{
+						szDisplay = "光圈·交互",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "光圈·交互",
+				szName = "光圈1",
+			},
+			{
+				dwID = 11106,
+				aFocus = {
+					{
+						szDisplay = "光圈·交互",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "交互·光圈",
+				szName = "光圈2",
+			},
+			{
+				dwID = 11120,
+				aFocus = {
+					{
+						szDisplay = "光圈·交互",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "光圈",
+				szName = "光圈3",
+			},
+			{
+				dwID = 11105,
+				aFocus = {
+					{
+						szDisplay = "祭拜",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szName = "祭拜",
+			},
+		},
+		[6] = {
+			{
+				dwID = 11196,
+				aFocus = {
+					{
+						szDisplay = "光圈·交互",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "光圈",
+				szName = "光圈",
+			},
+		},
+	},
+}

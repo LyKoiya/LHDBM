@@ -1,0 +1,455 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[578] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示0",
+						nTime = "5,恭喜触发·重洋客·索索;15,奇遇不封印·约15分钟完成;30,对话波塔·沿西北小路走;60,对话刀宗打扫弟子;120,前往云宽村·村字南·溪水岸边",
+						szName = "奇遇提示0",
+						nRefresh = 0,
+						nClass = 14,
+						nFrame = 0,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·波塔·前往·西北小路",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "对话·刀宗打扫弟子·云宽村",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "前往·村字南·溪水岸·阿莱",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "旁边好像有情况，快过去看看吧！",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·刀宗打扫弟子·云宽村",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "前往·村字南·溪水岸·阿莱",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "交互·渔具·对话阿莱·上山",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "发现散落的白色羽毛，在附近问问他人吧！",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "沿路·上山·对话·阿莱两次",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "前往·山下·西边小岛·钓者",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "伪装·送饭之人·暗号选项一",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "似有黑衣人闪过，不如前去山上看看！",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "前往·山下·西边小岛·钓者",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "伪装·送饭之人·暗号选项一",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "交互·小的箱子·返回·阿莱",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "看到没？就是那片海滩！那位爷爷也在那个方向上！你去看看吧！",
+				szTarget = "阿莱",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·钓者·伪装·送饭之人",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "暗号·选项一·交互·小箱子",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "返回·云宽村·云字北·阿莱",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "你被丢了出来",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "返回·云宽村·云字北桥",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "对话·阿莱·获得·药物",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "交互·索索·对话·阿莱",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "快去海食湾找阿莱汇合吧。",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 17135,
+						key = "奇遇提示1",
+						nTime = 60,
+						szName = "对话·阿莱·获得·药物",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示2",
+						nTime = 60,
+						szName = "交互·索索·对话·阿莱",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 17135,
+						key = "奇遇提示3",
+						nTime = 60,
+						szName = "完成·奇遇重洋客·索索",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "诺~那我先走啦，谢谢你！大侠！",
+				szTarget = "波塔",
+			},
+		},
+	},
+	NPC = {
+		[578] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 112804,
+				aFocus = {
+					{
+						szDisplay = "小肥花·重洋客",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "重洋客·小肥花",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				nFrame = 47,
+				dwID = 112805,
+				aFocus = {
+					{
+						szDisplay = "波塔·重洋客",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "重洋客·波塔",
+			},
+			{
+				nFrame = 47,
+				dwID = 112807,
+				aFocus = {
+					{
+						szDisplay = "阿莱·重洋客",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "重洋客·阿莱",
+			},
+			{
+				nFrame = 47,
+				dwID = 112726,
+				aFocus = {
+					{
+						szDisplay = "钓者·重洋客",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "重洋客·钓者",
+			},
+			{
+				nFrame = 47,
+				dwID = 112810,
+				aFocus = {
+					{
+						szDisplay = "索索·重洋客",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "重洋客·索索",
+			},
+		},
+	},
+	DEBUFF = {
+		[578] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 4827,
+				[1] = {
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				szNote = "眩晕",
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1730612099,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[578] = {
+			{
+				dwID = 10007,
+				aFocus = {
+					{
+						szDisplay = "重洋客·渔具",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "重洋客·渔具",
+			},
+			{
+				dwID = 10013,
+				aFocus = {
+					{
+						szDisplay = "宝箱·重洋客",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "重洋客·宝箱",
+			},
+		},
+	},
+}

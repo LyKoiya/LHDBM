@@ -1,0 +1,471 @@
+{
+	CHAT = {},
+	TALK = {
+		[581] = {
+			{
+				szContent = "我回忆了一下，似乎……确实有可怕的声音，会不会是闹鬼呀！我们一起去找晚霖姐姐吧。",
+				tCountdown = {
+					{
+						key = "奇遇提示0",
+						nIcon = 17135,
+						szName = "奇遇提示0",
+						nClass = 14,
+						nFrame = 0,
+						nRefresh = 0,
+						nTime = "5,恭喜触发夜哀鸣;15,奇遇不封印·约15分钟完成;30,1.西南方·寻找·晚霖;60,2.树下光圈蹲点·交互·猴子;120,3.对话·晚霖·找段方北;150,4.采摘·止血草并使用;180,5.武狱黑牢山顶·寻找·和光;240,6.武狱黑牢东北·采摘·甜果;300,7.返回山顶·领狐猴·使用甜果;360,8.对话·和光·交互·领狐猴;390,9.对话·和光;400,夜哀鸣·结束",
+					},
+					{
+						key = "奇遇提示1",
+						szName = "1.西南方·寻找·晚霖",
+						nClass = 14,
+						nIcon = 17135,
+						nFrame = 7,
+						nTime = 60,
+					},
+					{
+						key = "奇遇提示2",
+						szName = "2.树下光圈蹲点·交互·猴子",
+						nClass = 14,
+						nIcon = 17135,
+						nFrame = 7,
+						nTime = 60,
+					},
+				},
+				szTarget = "逗逗",
+			},
+			{
+				tCountdown = {
+					{
+						key = "奇遇提示1",
+						szName = "3.对话·晚霖·找段方北",
+						nClass = 14,
+						nIcon = 17135,
+						nFrame = 7,
+						nTime = 60,
+					},
+					{
+						key = "奇遇提示2",
+						szName = "4.找止血草并使用·再找和光",
+						nClass = 14,
+						nIcon = 17135,
+						nFrame = 7,
+						nTime = 60,
+					},
+				},
+				szContent = "你捉住了这只小家伙，带给晚霖看看吧",
+			},
+			{
+				tCountdown = {
+					{
+						key = "奇遇提示1",
+						szName = "5.武狱黑牢山顶·寻找·和光",
+						nClass = 14,
+						nIcon = 17135,
+						nFrame = 7,
+						nTime = 60,
+					},
+					{
+						key = "奇遇提示2",
+						szName = "6.武狱黑牢东北·采摘·甜果",
+						nClass = 14,
+						nIcon = 17135,
+						nFrame = 7,
+						nTime = 60,
+					},
+				},
+				szContent = "段方北建议你带着猴儿去找和光。",
+			},
+			{
+				szContent = "但修习如何医治动物，又何须血脉？",
+				tCountdown = {
+					{
+						key = "奇遇提示1",
+						szName = "6.武狱黑牢东北·采摘·甜果",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 17135,
+						nTime = 60,
+					},
+					{
+						key = "奇遇提示2",
+						szName = "7.返回山顶·领狐猴·使用甜果",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 17135,
+						nTime = 60,
+					},
+				},
+				szTarget = "和光",
+			},
+			{
+				tCountdown = {
+					{
+						key = "奇遇提示1",
+						szName = "8.对话·和光·交互·领狐猴",
+						nClass = 14,
+						nIcon = 17135,
+						nFrame = 7,
+						nTime = 60,
+					},
+					{
+						key = "奇遇提示2",
+						szName = "9.对话·和光·结束",
+						nClass = 14,
+						nIcon = 17135,
+						nFrame = 7,
+						nTime = 60,
+					},
+				},
+				szContent = "小猴果然被甜果吸引",
+			},
+			{
+				tCountdown = {
+					{
+						key = "奇遇提示0",
+						szName = "奇遇提示0",
+						nClass = 14,
+						nIcon = 17135,
+						nFrame = 0,
+						nTime = 0,
+					},
+					{
+						key = "奇遇提示1",
+						szName = "奇遇提示1",
+						nClass = 14,
+						nIcon = 17135,
+						nFrame = 7,
+						nTime = 0,
+					},
+					{
+						key = "奇遇提示2",
+						szName = "奇遇提示2",
+						nClass = 14,
+						nIcon = 17135,
+						nFrame = 7,
+						nTime = 0,
+					},
+				},
+				szContent = "宠物已成功添加。",
+			},
+		},
+	},
+	BUFF = {},
+	DOODAD = {
+		[581] = {
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+					},
+				},
+				szNote = "夜哀鸣·蹲守",
+				dwID = 10156,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "止血草·夜哀鸣",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 80,
+					},
+				},
+				szNote = "夜哀鸣·止血草",
+				dwID = 10164,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "试探·夜哀鸣",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+					},
+				},
+				szNote = "夜哀鸣·试探",
+				dwID = 10167,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "甜果·夜哀鸣",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+					},
+				},
+				szNote = "夜哀鸣·甜果",
+				dwID = 10169,
+			},
+		},
+	},
+	NPC = {
+		[581] = {
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "逗逗·夜哀鸣",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+					},
+				},
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				szNote = "夜哀鸣·逗逗",
+				dwID = 122790,
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "晚霖·夜哀鸣",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+					},
+				},
+				nFrame = 47,
+				szNote = "夜哀鸣·晚霖",
+				dwID = 122791,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "？？？·夜哀鸣",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+					},
+				},
+				nFrame = 47,
+				szNote = "夜哀鸣·？？？",
+				dwID = 122792,
+			},
+			{
+				aFocus = {
+					{
+						szDisplay = "段方北·夜哀鸣",
+					},
+				},
+				nFrame = 47,
+				szNote = "夜哀鸣·段方北",
+				dwID = 122793,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "受伤的小猴·夜哀鸣",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+					},
+				},
+				nFrame = 47,
+				szNote = "夜哀鸣·受伤的小猴",
+				dwID = 122899,
+			},
+			{
+				aFocus = {
+					{
+						szDisplay = "和光·夜哀鸣",
+					},
+				},
+				nFrame = 47,
+				szNote = "夜哀鸣·和光",
+				dwID = 122794,
+			},
+			{
+				aFocus = {
+					{
+						szDisplay = "和光·夜哀鸣",
+					},
+				},
+				nFrame = 47,
+				szNote = "夜哀鸣·和光",
+				dwID = 122944,
+			},
+			{
+				aFocus = {
+					{
+						tType = {
+							[3] = false,
+							bAll = true,
+							[5] = false,
+							[4] = false,
+						},
+						szDisplay = "领狐猴·夜哀鸣",
+						tRelation = {
+							bAll = true,
+							bEnemy = false,
+							bAlly = false,
+						},
+						tLife = {
+							nValue = 0,
+							szOperator = ">",
+							bEnable = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+					},
+				},
+				nFrame = 47,
+				szNote = "夜哀鸣·领狐猴",
+				dwID = 122905,
+			},
+		},
+	},
+	CASTING = {},
+	DEBUFF = {
+		[581] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nScrutinyType = 1,
+				nLevel = 1,
+				dwID = 21487,
+				szNote = "童蒙志_小剧场_BUFF",
+				nIcon = 19489,
+				szName = "剧情",
+			},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1710767461,
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "",
+	},
+}

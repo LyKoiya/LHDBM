@@ -1,0 +1,1264 @@
+return {
+	BUFF = {
+		[444] = {
+			{
+				{
+					bScreenHead = true,
+				},
+				nLevel = 4,
+				nScrutinyType = 1,
+				bCheckLevel = true,
+				dwID = 15944,
+				szName = "隐身",
+				szNote = "你看不到我",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+		},
+	},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[217] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "恶人·矿车",
+						nTime = 60,
+						szName = "浩气·劫车奖励",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szTarget = "莫白",
+				szContent = "恶人谷的矿车被浩气盟劫走了！",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "浩气·矿车",
+						nTime = 60,
+						szName = "恶人·劫车奖励",
+						nClass = 14,
+						nFrame = 3,
+					},
+				},
+				szTarget = "莫云",
+				szContent = "浩气盟的矿车被恶人谷劫走了！",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "恶人·矿车",
+						nTime = 60,
+						szName = "恶人·护送奖赏",
+						nClass = 14,
+						nFrame = 3,
+					},
+				},
+				szTarget = "莫白",
+				szContent = "恶人谷的矿车已经到达营地！大伙辛苦了！",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "浩气·矿车",
+						nTime = 60,
+						szName = "浩气·护送奖赏",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szTarget = "莫云",
+				szContent = "浩气盟的矿车已经到达营地！大家辛苦了！",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "恶人·矿车",
+						nTime = 406,
+						szName = "恶人·护送矿车",
+						nClass = 14,
+						nFrame = 3,
+					},
+				},
+				szTarget = "莫白",
+				szContent = "恶人谷的矿车已经出发！大伙加把劲，谷主重重有赏！",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "浩气·矿车",
+						nTime = 399,
+						szName = "浩气·护送矿车",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szTarget = "莫云",
+				szContent = "浩气盟的矿车已经出发！大家加把劲，盟主重重有赏！",
+			},
+		},
+		[239] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "恶人·矿车",
+						nTime = 300,
+						szName = "恶人·保护辎重车",
+						nIcon = 13,
+						nFrame = 3,
+					},
+				},
+				szContent = "我方辎重车开始装车！大家快前往守护，谷主重重有赏！",
+				szTarget = "古镇狱",
+				col = {
+					255,
+					100,
+					100,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "恶人·矿车",
+						nTime = 40,
+						szName = "恶人·护送奖赏",
+						nRefresh = 1,
+						nIcon = 13,
+						nFrame = 3,
+					},
+				},
+				szContent = "辎重车装车完毕，出发！接下来交给其他兄弟，大家辛苦了！",
+				col = {
+					255,
+					100,
+					100,
+				},
+				szTarget = "古镇狱",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "恶人·矿车",
+						nTime = 40,
+						szName = "浩气·劫车奖励",
+						nRefresh = 1,
+						nIcon = 13,
+						nFrame = 7,
+					},
+				},
+				szContent = "辎重车已被破坏，好容易收集来的物资丢失了！",
+				col = {
+					255,
+					100,
+					100,
+				},
+				szTarget = "古镇狱",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "浩气·矿车",
+						nTime = 300,
+						szName = "浩气·保护辎重车",
+						nIcon = 13,
+						nFrame = 7,
+					},
+				},
+				szContent = "我方辎重车开始装车！大家快前往守护，盟主重重有赏！",
+				szTarget = "方一云",
+				col = {
+					100,
+					100,
+					255,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "浩气·矿车",
+						nTime = 40,
+						szName = "浩气·护送奖赏",
+						nRefresh = 1,
+						nIcon = 13,
+						nFrame = 7,
+					},
+				},
+				szContent = "辎重车装车完毕，出发！接下来交给其他兄弟，大家辛苦了！",
+				col = {
+					100,
+					100,
+					255,
+				},
+				szTarget = "方一云",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "浩气·矿车",
+						nTime = 40,
+						szName = "恶人·劫车奖励",
+						nRefresh = 1,
+						nIcon = 13,
+						nFrame = 3,
+					},
+				},
+				szContent = "辎重车已被破坏，好容易收集来的物资丢失了！",
+				col = {
+					100,
+					100,
+					255,
+				},
+				szTarget = "方一云",
+				bSearch = true,
+			},
+		},
+		[334] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "恶人·矿车",
+						nTime = 60,
+						szName = "浩气·劫车奖励",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "矿车被毁，大家暂且撤退！",
+				szTarget = "恶人守卫",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "浩气·矿车",
+						nTime = 60,
+						szName = "恶人·劫车奖励",
+						nClass = 14,
+						nFrame = 3,
+					},
+				},
+				szContent = "矿车被毁，大家暂且撤退！",
+				szTarget = "浩气守卫",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "恶人·矿车",
+						nTime = 60,
+						szName = "恶人·护送奖赏",
+						nClass = 14,
+						nFrame = 3,
+					},
+				},
+				szTarget = "恶人守卫",
+				szContent = "防守成功，请诸位侠士来领取奖赏！",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "浩气·矿车",
+						nTime = 60,
+						szName = "浩气·护送奖赏",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "防守成功，请诸位侠士来领取奖赏！",
+				szTarget = "浩气守卫",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "恶人·矿车",
+						nTime = 300,
+						szName = "恶人·保护矿车",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "请诸位侠士协助保护 矿车！",
+				szTarget = "恶人守卫",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "浩气·矿车",
+						nTime = 300,
+						szName = "浩气·保护矿车",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "请诸位侠士协助保护 矿车！",
+				szTarget = "浩气守卫",
+				bSearch = true,
+			},
+		},
+		[488] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "通用·矿车",
+						nTime = 90,
+						szName = "矿车·护送奖赏",
+						nClass = 14,
+						nFrame = 6,
+					},
+					{
+						nIcon = 13,
+						key = "浩气·矿车",
+						nTime = 0,
+						szName = "浩气·矿车",
+						nClass = 14,
+					},
+					{
+						nIcon = 13,
+						key = "恶人·矿车",
+						nTime = 0,
+						szName = "恶人·矿车",
+						nClass = 14,
+					},
+				},
+				szTarget = "藏剑高级弟子",
+				szContent = "感谢各位大侠相助！这里是承诺的奖赏，请各位收下。",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "恶人·矿车",
+						nTime = 202,
+						szName = "恶人·护送物资",
+						nClass = 14,
+						nFrame = 3,
+					},
+				},
+				szTarget = "向铐",
+				szContent = "兄弟们，这一车物资已经装满了，有把式的都跟我来！",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "浩气·矿车",
+						nTime = 202,
+						szName = "浩气·护送物资",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szTarget = "秦匹",
+				szContent = "兄弟们，物资已齐，请大家随我来，一起运送回藏剑！",
+			},
+		},
+		[444] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "通用·矿车",
+						nTime = "5,鬼影夜叉丸·已被击退;120,鬼影夜叉丸·奖励剩余",
+						szName = "通用·矿车",
+						nRefresh = 120,
+						nIcon = 13,
+						nFrame = 6,
+					},
+				},
+				szTarget = "鬼影夜叉丸",
+				szContent = "不要高兴的太早，我还会回来的。",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "通用·矿车",
+						nTime = "374,鬼影夜叉丸·攻击剩余;434.7,鬼影夜叉丸·剧情剩余;554.6,鬼影夜叉丸·奖励剩余",
+						szName = "通用·矿车",
+						nRefresh = 0,
+						nFrame = 3,
+						nIcon = 13,
+					},
+				},
+				szContent = "前线来报，蔷薇列岛敌寇实力强劲，谷主特派我前来助大家一臂之力！",
+				szTarget = "肖药儿",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "通用·矿车",
+						nTime = "60.7,鬼影夜叉丸·剧情剩余;180.6,鬼影夜叉丸·奖励剩余",
+						szName = "通用·矿车",
+						nRefresh = 0,
+						nIcon = 13,
+						nFrame = 3,
+					},
+				},
+				szContent = "此獠实力强劲，不可小觑。",
+				szTarget = "肖药儿",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "通用·矿车",
+						nTime = "374,鬼影夜叉丸·攻击剩余;434.7,鬼影夜叉丸·剧情剩余;554.6,鬼影夜叉丸·奖励剩余",
+						szName = "通用·矿车",
+						nRefresh = 0,
+						nIcon = 13,
+						nFrame = 7,
+					},
+				},
+				szContent = "前线来报，蔷薇列岛敌寇实力强劲，盟主特派我前来助大家一臂之力！",
+				szTarget = "可人",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "通用·矿车",
+						nTime = -2,
+						szName = "通用·矿车",
+						nIcon = 13,
+						nFrame = 5,
+					},
+					{
+						nClass = 14,
+						key = "通用·矿车",
+						nTime = "15,鬼影夜叉丸·出现剩余;393,鬼影夜叉丸·攻击剩余;453.7,鬼影夜叉丸·剧情剩余;573.6,鬼影夜叉丸·奖励剩余",
+						szName = "通用·矿车",
+						nRefresh = 0,
+						nIcon = 13,
+						nFrame = 5,
+					},
+				},
+				szTarget = "姜鹤轩",
+				szContent = "什么！竟是日本鬼影家家主亲自领兵。",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "通用·矿车",
+						nTime = "378,鬼影夜叉丸·攻击剩余;438.7,鬼影夜叉丸·剧情剩余;558.6,鬼影夜叉丸·奖励剩余",
+						szName = "通用·矿车",
+						nRefresh = 0,
+						nIcon = 13,
+						nFrame = 5,
+					},
+				},
+				szContent = "鬼影夜叉丸素有血修罗之名，诸位可要当心些！若能助我们击退此獠，姜家必有重谢！",
+				szTarget = "姜鹤轩",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "通用·矿车",
+						nTime = "7.5,鬼影夜叉丸·剧情剩余;127.5,鬼影夜叉丸·奖励剩余",
+						szName = "通用·矿车",
+						nRefresh = 128,
+						nIcon = 13,
+						nFrame = 6,
+					},
+				},
+				szContent = "敌首已匿！弟兄们，冲啊！",
+				szTarget = "姜鹤轩",
+			},
+		},
+	},
+	NPC = {
+		[444] = {
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 67691,
+				aFocus = {
+					{
+						szDisplay = "神机台·敌方",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+					{
+						szDisplay = "神机台·有人",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "神机台·启动状态",
+				szName = "神机台·有人",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 67272,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "鬼影夜叉丸",
+			},
+		},
+		[239] = {
+			{
+				nFrame = 52,
+				[3] = {
+					bCenterAlarm = true,
+				},
+				dwID = 58031,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "洛阳神兵暗角逐",
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bCenterAlarm = true,
+				},
+				dwID = 58030,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "洛阳神兵暗角逐",
+			},
+			{
+				dwID = 57926,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 60,
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "洛阳神兵暗角逐",
+				nFrame = 47,
+			},
+		},
+		[217] = {
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 46238,
+				aFocus = {
+					{
+						szDisplay = "神机台·敌方",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 60,
+					},
+					{
+						szDisplay = "神机台·有人",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 60,
+					},
+				},
+				szNote = "神机台·启动状态",
+				szName = "神机台·有人",
+			},
+			{
+				dwID = 47401,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "珍奇晶矿",
+				nFrame = 52,
+			},
+			{
+				dwID = 47035,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "恶人谷矿车",
+				nFrame = 47,
+			},
+			{
+				dwID = 47034,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "浩气盟矿车",
+				nFrame = 47,
+			},
+		},
+		[488] = {
+			{
+				nFrame = 47,
+				dwID = 100154,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "恶人谷物资车",
+				tCountdown = {
+					{
+						nClass = 12,
+						key = "恶人·矿车",
+						nTime = 60,
+						szName = "浩气·劫车奖励",
+						nIcon = 13,
+						nFrame = 7,
+					},
+				},
+			},
+			{
+				nFrame = 47,
+				dwID = 100153,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "浩气盟物资车",
+				tCountdown = {
+					{
+						nClass = 12,
+						key = "浩气·矿车",
+						nTime = 60,
+						szName = "恶人·劫车奖励",
+						nFrame = 3,
+						nIcon = 13,
+					},
+				},
+			},
+		},
+		[334] = {
+			{
+				dwID = 61739,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "浩气盟矿车",
+				nFrame = 47,
+			},
+			{
+				dwID = 62034,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "恶人谷矿车",
+				nFrame = 47,
+			},
+			{
+				dwID = 62504,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "巨大的海龟",
+				nFrame = 47,
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1751036796,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[444] = {
+			{
+				tCountdown = {
+					{
+						nClass = 17,
+						key = "通用·矿车",
+						nTime = 0.001,
+						szName = " ",
+						nIcon = 1465,
+						nFrame = -1,
+					},
+				},
+				[17] = {
+					bCenterAlarm = true,
+				},
+				szName = "最终宝箱",
+				aFocus = {
+					{
+						szDisplay = "最终宝箱",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "最终宝箱·击退",
+				dwID = 7922,
+			},
+			{
+				[17] = {
+					bCenterAlarm = true,
+				},
+				szName = "最终宝箱",
+				aFocus = {
+					{
+						szDisplay = "最终宝箱",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "最终宝箱·未击退",
+				dwID = 7964,
+			},
+			{
+				[17] = {
+					bCenterAlarm = true,
+				},
+				szName = "第三宝箱",
+				aFocus = {
+					{
+						szDisplay = "第三宝箱",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "第三宝箱",
+				dwID = 7944,
+			},
+			{
+				[17] = {
+					bCenterAlarm = true,
+				},
+				szName = "第二宝箱",
+				aFocus = {
+					{
+						szDisplay = "第二宝箱",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "第二宝箱",
+				dwID = 7943,
+			},
+			{
+				[17] = {
+					bCenterAlarm = true,
+				},
+				szName = "第一宝箱",
+				aFocus = {
+					{
+						szDisplay = "第一宝箱",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "第一宝箱",
+				dwID = 7930,
+			},
+		},
+		[239] = {
+			{
+				dwID = 6829,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "洛阳神兵暗角逐",
+				[17] = {
+					bCenterAlarm = true,
+				},
+			},
+			{
+				dwID = 6830,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "洛阳神兵暗角逐",
+				[17] = {
+					bCenterAlarm = true,
+				},
+			},
+		},
+		[217] = {
+			{
+				dwID = 5731,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				[17] = {
+					bCenterAlarm = true,
+				},
+				szNote = "矿车残骸",
+			},
+			{
+				dwID = 5732,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				[17] = {
+					bCenterAlarm = true,
+				},
+				szNote = "押运奖赏",
+			},
+			{
+				dwID = 5714,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 6,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "浩气盟战旗",
+			},
+			{
+				dwID = 5715,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 6,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "恶人谷战旗",
+			},
+		},
+		[488] = {
+			{
+				dwID = 8450,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				[17] = {
+					bCenterAlarm = true,
+				},
+				szNote = "物资堆",
+			},
+		},
+		[334] = {
+			{
+				dwID = 7312,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				[17] = {
+					bCenterAlarm = true,
+				},
+				szNote = "矿车残骸",
+			},
+			{
+				dwID = 7486,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "海龟残骸",
+			},
+			{
+				dwID = 7311,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "投石车残骸",
+			},
+		},
+	},
+}
