@@ -4,14 +4,15 @@ return {
 			{
 				dwID = 7308,
 				nScrutinyType = 1,
+				nLevel = 1,
 				tCountdown = {
 					{
 						nFrame = 6,
 						key = "断线的风筝",
 						nTime = 10,
 						szName = "轻盈",
-						nIcon = 3313,
 						nClass = 1,
+						nIcon = 3313,
 					},
 					{
 						nClass = 2,
@@ -21,21 +22,21 @@ return {
 						nIcon = 1465,
 					},
 				},
-				nLevel = 1,
 			},
 		},
 		[108] = {
 			{
 				dwID = 7308,
 				nScrutinyType = 1,
+				nLevel = 1,
 				tCountdown = {
 					{
 						nFrame = 6,
 						key = "断线的风筝",
 						nTime = 10,
 						szName = "轻盈",
-						nIcon = 3313,
 						nClass = 1,
+						nIcon = 3313,
 					},
 					{
 						nClass = 2,
@@ -45,13 +46,109 @@ return {
 						nIcon = 1465,
 					},
 				},
-				nLevel = 1,
 			},
 		},
 	},
 	CHAT = {},
 	CASTING = {},
 	TALK = {
+		[-4] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						nFrame = 4,
+						key = "{$2}·{$4}",
+						nTime = 30,
+						szName = "{$2}·[{$1}/{$4}]",
+						bHold = true,
+						nIcon = 3140,
+						nRefresh = 2,
+					},
+					{
+						nClass = 14,
+						key = "{$2}·0",
+						nTime = -2,
+						szName = "{$2}·0",
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						nIcon = 3140,
+						key = "{$2}·{$4}",
+						nTime = 30,
+						szName = "{$2}·已达上限",
+						nRefresh = 1,
+						bHold = true,
+						nFrame = 2,
+					},
+				},
+				bReg = true,
+				szContent = "本次活动获得(%d-)份(.-)，(.-)还可通过活动获得(%d-)份(.-)。",
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "花灯流火",
+						nTime = 30,
+						szName = "花灯流火·已经清零",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "流火数量已清零。",
+				bSearch = true,
+			},
+		},
+		[108] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "{$2}·{$4}",
+						nTime = 30,
+						szName = "{$3}·{$2}·[{$1}/{$4}]",
+						nRefresh = 2,
+						nIcon = 3140,
+						nFrame = 4,
+					},
+					{
+						nClass = 14,
+						key = "{$2}·0",
+						nTime = -2,
+						szName = "{$2}·0",
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "{$2}·{$4}",
+						nTime = 30,
+						szName = "{$3}·{$2}·已达上限",
+						nRefresh = 1,
+						nIcon = 3140,
+						nFrame = 2,
+					},
+				},
+				bReg = true,
+				szContent = "本次活动获得(%d-)份(.-)，今年(.-)还可通过活动获得(%d-)份(.-)。",
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 7,
+						key = "断线的风筝",
+						nTime = 60,
+						szName = "本轮得分·{$1}",
+						nRefresh = 11,
+						nIcon = 3314,
+						nClass = 14,
+					},
+				},
+				bReg = true,
+				szContent = "本轮得分为(%d-)分",
+			},
+		},
 		[6] = {
 			{
 				tCountdown = {
@@ -61,8 +158,8 @@ return {
 						nTime = 30,
 						szName = "{$3}·{$2}·[{$1}/{$4}]",
 						nRefresh = 2,
-						nIcon = 3140,
 						nFrame = 4,
+						nIcon = 3140,
 					},
 					{
 						nClass = 14,
@@ -77,8 +174,8 @@ return {
 						nTime = 30,
 						szName = "{$3}·{$2}·已达上限",
 						nRefresh = 1,
-						nFrame = 2,
 						nIcon = 3140,
+						nFrame = 2,
 					},
 				},
 				bReg = true,
@@ -92,109 +189,12 @@ return {
 						nTime = 60,
 						szName = "本轮得分·{$1}",
 						nRefresh = 11,
-						nClass = 14,
 						nIcon = 3314,
+						nClass = 14,
 					},
 				},
 				bReg = true,
 				szContent = "本轮得分为(%d-)分",
-			},
-		},
-		[108] = {
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "{$2}·{$4}",
-						nTime = 30,
-						szName = "{$3}·{$2}·[{$1}/{$4}]",
-						nRefresh = 2,
-						nFrame = 4,
-						nIcon = 3140,
-					},
-					{
-						nClass = 14,
-						key = "{$2}·0",
-						nTime = -2,
-						szName = "{$2}·0",
-						nIcon = 13,
-					},
-					{
-						nClass = 14,
-						key = "{$2}·{$4}",
-						nTime = 30,
-						szName = "{$3}·{$2}·已达上限",
-						nRefresh = 1,
-						nFrame = 2,
-						nIcon = 3140,
-					},
-				},
-				bReg = true,
-				szContent = "本次活动获得(%d-)份(.-)，今年(.-)还可通过活动获得(%d-)份(.-)。",
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 7,
-						key = "断线的风筝",
-						nTime = 60,
-						szName = "本轮得分·{$1}",
-						nRefresh = 11,
-						nClass = 14,
-						nIcon = 3314,
-					},
-				},
-				bReg = true,
-				szContent = "本轮得分为(%d-)分",
-			},
-		},
-		[-4] = {
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						bHold = true,
-						key = "{$2}·{$4}",
-						nTime = 30,
-						szName = "{$3}·{$2}·[{$1}/{$4}]",
-						nRefresh = 2,
-						nIcon = 3140,
-						nFrame = 4,
-					},
-					{
-						nClass = 14,
-						key = "{$2}·0",
-						nTime = -2,
-						szName = "{$2}·0",
-						nIcon = 13,
-					},
-					{
-						nClass = 14,
-						nFrame = 2,
-						key = "{$2}·{$4}",
-						nTime = 30,
-						szName = "{$3}·{$2}·已达上限",
-						nRefresh = 1,
-						bHold = true,
-						nIcon = 3140,
-					},
-				},
-				bReg = true,
-				szContent = "本次活动获得(%d-)份(.-)，今年(.-)还可通过活动获得(%d-)份(.-)。",
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 4,
-						key = "花灯流火",
-						nTime = 30,
-						szName = "花灯流火·已经清零",
-						nClass = 14,
-						nIcon = 13,
-					},
-				},
-				szContent = "流火数量已清零。",
-				bSearch = true,
 			},
 		},
 	},
@@ -278,6 +278,7 @@ return {
 				nFrame = 47,
 				[3] = {
 					bCenterAlarm = true,
+					bScreenHead = true,
 					tMark = {
 						true,
 						true,
@@ -290,7 +291,6 @@ return {
 						false,
 						false,
 					},
-					bScreenHead = true,
 				},
 				dwID = 27556,
 				aFocus = {
@@ -462,6 +462,7 @@ return {
 			{
 				dwID = 7309,
 				nScrutinyType = 1,
+				nLevel = 1,
 				tCountdown = {
 					{
 						nClass = 2,
@@ -471,7 +472,6 @@ return {
 						nIcon = 3314,
 					},
 				},
-				nLevel = 1,
 			},
 			{
 				{
@@ -484,8 +484,8 @@ return {
 						key = "踩花灯·CD",
 						nTime = 2,
 						szName = "踩花灯·CD",
-						nIcon = 5372,
 						nClass = 1,
+						nIcon = 5372,
 					},
 					{
 						nClass = 2,
@@ -502,15 +502,16 @@ return {
 					255,
 				},
 				szName = "CD",
-				nLevel = 1,
-				nIcon = 3393,
 				dwID = 7312,
+				nIcon = 3393,
+				nLevel = 1,
 			},
 		},
 		[6] = {
 			{
 				dwID = 7309,
 				nScrutinyType = 1,
+				nLevel = 1,
 				tCountdown = {
 					{
 						nClass = 2,
@@ -520,7 +521,6 @@ return {
 						nIcon = 3314,
 					},
 				},
-				nLevel = 1,
 			},
 			{
 				{
@@ -533,8 +533,8 @@ return {
 						key = "踩花灯·CD",
 						nTime = 2,
 						szName = "踩花灯·CD",
-						nIcon = 5372,
 						nClass = 1,
+						nIcon = 5372,
 					},
 					{
 						nClass = 2,
@@ -551,9 +551,9 @@ return {
 					255,
 				},
 				szName = "CD",
-				nLevel = 1,
-				nIcon = 3393,
 				dwID = 7312,
+				nIcon = 3393,
+				nLevel = 1,
 			},
 		},
 	},
@@ -561,7 +561,7 @@ return {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1739802204,
+		nTimeStamp = 1772526088,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},

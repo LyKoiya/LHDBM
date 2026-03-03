@@ -1,0 +1,175 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[6] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "奇遇提示1",
+						nTime = 120,
+						szName = "对话·沈云鸢·前往·杂货区",
+						nFrame = 7,
+						nIcon = 12371,
+					},
+					{
+						nClass = 14,
+						key = "奇遇提示2",
+						nTime = 120,
+						szName = "对话·钱万和·前往·技艺区",
+						nFrame = 7,
+						nIcon = 12371,
+					},
+					{
+						nClass = 14,
+						key = "奇遇提示3",
+						nTime = 120,
+						szName = "对话·沈云鸢·交互·小鹿摇",
+						nFrame = 7,
+						nIcon = 12371,
+					},
+					{
+						nClass = 14,
+						key = "奇遇提示4",
+						nTime = 120,
+						szName = "码头·对话沈云鸢·食肆当家",
+						nFrame = 7,
+						nIcon = 12371,
+					},
+				},
+				szContent = "给钱！",
+				szTarget = "沈云鸢",
+			},
+		},
+	},
+	NPC = {
+		[6] = {
+			{
+				nFrame = 47,
+				dwID = 136492,
+				aFocus = {
+					{
+						szDisplay = "沈云鸢·岁岁春光",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "岁岁春光·沈云鸢",
+			},
+			{
+				nFrame = 47,
+				dwID = 136506,
+				aFocus = {
+					{
+						szDisplay = "钱万和·岁岁春光",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "岁岁春光·钱万和",
+			},
+			{
+				nFrame = 47,
+				dwID = 136494,
+				aFocus = {
+					{
+						szDisplay = "食肆当家·岁岁春光",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "岁岁春光·食肆当家",
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1772528835,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[6] = {
+			{
+				dwID = 11663,
+				aFocus = {
+					{
+						szDisplay = "小鹿摇摇·岁岁春光",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "岁岁春光·小鹿摇摇",
+			},
+		},
+	},
+}
