@@ -260,6 +260,109 @@ return {
 				dwID = 32858,
 			},
 		},
+		[-5] = {
+			{
+				{
+					bCenterAlarm = true,
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 3678,
+				szName = "坦重御",
+				szNote = "坦重御",
+				aCataclysmBuff = {
+					{
+						nColAlpha = 0,
+						col = "#00FF0000",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+					bCenterAlarm = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 3679,
+				szNote = "外升景",
+				szName = "外升景",
+			},
+			{
+				{
+					bBuffList = true,
+					bCenterAlarm = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 3680,
+				szNote = "内封门",
+				szName = "内封门",
+			},
+			{
+				{
+					bBuffList = true,
+					bCenterAlarm = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 3681,
+				szNote = "奶连华",
+				szName = "疗连华",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 3683,
+				szNote = "开眼·玄武",
+				szName = "玄武",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 3682,
+				szNote = "开眼·朱雀",
+				szName = "朱雀",
+			},
+		},
 	},
 	CHAT = {
 		[15] = {
@@ -337,12 +440,12 @@ return {
 						nFrame = 7,
 					},
 				},
-				szContent = "你已完成了[拜年]。\
-",
 				[20] = {
 					bCenterAlarm = true,
 				},
 				szNote = "下一站·洛阳·风雨镇",
+				szContent = "你已完成了[拜年]。\
+",
 			},
 		},
 		[2] = {
@@ -366,12 +469,12 @@ return {
 						nFrame = 6,
 					},
 				},
-				szNote = "下一站·纯阳·三清殿",
 				szContent = "你已完成了[拜年]。\
 ",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szNote = "下一站·纯阳·三清殿",
 			},
 		},
 		[332] = {
@@ -395,12 +498,12 @@ return {
 						nFrame = -1,
 					},
 				},
-				szNote = "下一站·长安·天都镇",
 				szContent = "你已完成了[拜年]。\
 ",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szNote = "下一站·长安·天都镇",
 			},
 		},
 		[8] = {
@@ -464,12 +567,12 @@ return {
 						nFrame = 6,
 					},
 				},
-				szNote = "下一站·藏剑山庄·码头",
 				szContent = "你已完成了[拜年]。\
 ",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szNote = "下一站·藏剑山庄·码头",
 			},
 		},
 		[151] = {
@@ -508,12 +611,12 @@ return {
 						nFrame = 3,
 					},
 				},
-				szNote = "下一站·恶人谷·出口",
 				szContent = "你已完成了[拜年]。\
 ",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szNote = "下一站·恶人谷·出口",
 			},
 		},
 		[9] = {
@@ -528,12 +631,12 @@ return {
 						nFrame = 6,
 					},
 				},
-				szNote = "下一站·南屏山·倌塘驿站",
 				szContent = "你已完成了[拜年]。\
 ",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szNote = "下一站·南屏山·倌塘驿站",
 			},
 		},
 		[35] = {
@@ -548,12 +651,12 @@ return {
 						nFrame = 6,
 					},
 				},
-				szNote = "下一站·巴陵县·巴陵镇",
 				szContent = "你已完成了[拜年]。\
 ",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szNote = "下一站·巴陵县·巴陵镇",
 			},
 		},
 		[5] = {
@@ -568,12 +671,12 @@ return {
 						nFrame = 6,
 					},
 				},
-				szNote = "下一站·天策·战乱·天策府",
 				szContent = "你已完成了[拜年]。\
 ",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szNote = "下一站·天策·战乱·天策府",
 			},
 		},
 		[10] = {
@@ -612,12 +715,12 @@ return {
 						nFrame = 6,
 					},
 				},
-				szNote = "下一站·长安·战乱",
 				szContent = "你已完成了[拜年]。\
 ",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szNote = "下一站·长安·战乱",
 			},
 		},
 		[139] = {
@@ -632,12 +735,12 @@ return {
 						nFrame = 6,
 					},
 				},
-				szNote = "下一站·少林·齐华村",
 				szContent = "你已完成了[拜年]。\
 ",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szNote = "下一站·少林·齐华村",
 			},
 		},
 		[156] = {
@@ -676,12 +779,12 @@ return {
 						nFrame = 6,
 					},
 				},
-				szNote = "下一站·洛阳·战乱",
 				szContent = "你已完成了[拜年]。\
 ",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szNote = "下一站·洛阳·战乱",
 			},
 		},
 		[22] = {
@@ -704,12 +807,12 @@ return {
 						nFrame = 3,
 					},
 				},
-				szNote = "下一站·浩气盟·出口",
 				szContent = "你已完成了[拜年]。\
 ",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szNote = "下一站·浩气盟·出口",
 			},
 		},
 		[-21] = {
@@ -724,12 +827,12 @@ return {
 						nIcon = 11375,
 					},
 				},
-				szContent = "扬州开始了打雪仗活动！快去保卫我们的雪人！\
-",
 				[20] = {
 					bCenterAlarm = true,
 				},
 				szNote = "扬州·打雪仗",
+				szContent = "扬州开始了打雪仗活动！快去保卫我们的雪人！\
+",
 			},
 			{
 				tCountdown = {
@@ -742,12 +845,12 @@ return {
 						nFrame = 3,
 					},
 				},
-				[20] = {
-					bCenterAlarm = true,
-				},
 				szNote = "成都·打雪仗",
 				szContent = "成都开始了打雪仗活动！快去保卫我们的雪人！\
 ",
+				[20] = {
+					bCenterAlarm = true,
+				},
 			},
 		},
 		[194] = {
@@ -771,12 +874,12 @@ return {
 						nFrame = -1,
 					},
 				},
-				szNote = "下一站·长安·天都镇",
 				szContent = "你已完成了[拜年]。\
 ",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szNote = "下一站·长安·天都镇",
 			},
 		},
 		[23] = {
@@ -791,12 +894,12 @@ return {
 						nFrame = 6,
 					},
 				},
-				szNote = "下一站·万花·凌云梯",
 				szContent = "你已完成了[拜年]。\
 ",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szNote = "下一站·万花·凌云梯",
 			},
 		},
 		[12] = {
@@ -811,12 +914,12 @@ return {
 						nFrame = 6,
 					},
 				},
-				szNote = "下一站·少林·齐华村",
 				szContent = "你已完成了[拜年]。\
 ",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szNote = "下一站·少林·齐华村",
 			},
 		},
 		[-7] = {
@@ -831,12 +934,12 @@ return {
 						nFrame = 3,
 					},
 				},
-				[20] = {
-					bCenterAlarm = true,
-				},
 				szNote = "扬州·打雪仗",
 				szContent = "扬州开始了打雪仗活动！快去保卫我们的雪人！\
 ",
+				[20] = {
+					bCenterAlarm = true,
+				},
 			},
 			{
 				tCountdown = {
@@ -849,12 +952,32 @@ return {
 						nIcon = 11375,
 					},
 				},
-				szNote = "成都·打雪仗",
 				szContent = "成都开始了打雪仗活动！快去保卫我们的雪人！\
 ",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szNote = "成都·打雪仗",
+			},
+		},
+		[49] = {
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "春节·拜年",
+						nTime = 30,
+						szName = "寇岛·寇岛码头·韵碧缘",
+						nIcon = 13,
+						nFrame = 6,
+					},
+				},
+				szContent = "你已完成了[拜年]。\
+",
+				[20] = {
+					bCenterAlarm = true,
+				},
+				szNote = "下一站·寇岛·码头",
 			},
 		},
 		[25] = {
@@ -892,32 +1015,12 @@ return {
 						nFrame = -1,
 					},
 				},
+				szContent = "你已完成了[拜年]。\
+",
+				[20] = {
+					bCenterAlarm = true,
+				},
 				szNote = "下一站·瞿塘峡·孤山集",
-				szContent = "你已完成了[拜年]。\
-",
-				[20] = {
-					bCenterAlarm = true,
-				},
-			},
-		},
-		[49] = {
-			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "春节·拜年",
-						nTime = 30,
-						szName = "寇岛·寇岛码头·韵碧缘",
-						nIcon = 13,
-						nFrame = 6,
-					},
-				},
-				szNote = "下一站·寇岛·码头",
-				szContent = "你已完成了[拜年]。\
-",
-				[20] = {
-					bCenterAlarm = true,
-				},
 			},
 		},
 		[13] = {
@@ -932,12 +1035,12 @@ return {
 						nFrame = 6,
 					},
 				},
-				szNote = "下一站·洛道·江津村",
 				szContent = "你已完成了[拜年]。\
 ",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szNote = "下一站·洛道·江津村",
 			},
 		},
 		[27] = {
@@ -975,12 +1078,12 @@ return {
 						nFrame = -1,
 					},
 				},
-				szNote = "下一站·昆仑·长乐坊",
 				szContent = "你已完成了[拜年]。\
 ",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szNote = "下一站·昆仑·长乐坊",
 			},
 		},
 		[6] = {
@@ -1129,12 +1232,12 @@ return {
 						nFrame = 6,
 					},
 				},
-				szNote = "下一站·枫华谷·战乱·午阳岗",
 				szContent = "你已完成了[拜年]。\
 ",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szNote = "下一站·枫华谷·战乱·午阳岗",
 			},
 		},
 		[21] = {
@@ -1149,12 +1252,12 @@ return {
 						nFrame = 6,
 					},
 				},
-				szNote = "下一站·七秀·秀坊码头",
 				szContent = "你已完成了[拜年]。\
 ",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szNote = "下一站·七秀·秀坊码头",
 			},
 		},
 		[108] = {
@@ -1192,12 +1295,12 @@ return {
 						nFrame = -1,
 					},
 				},
-				szNote = "下一站·长安·天都镇",
 				szContent = "你已完成了[拜年]。\
 ",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szNote = "下一站·长安·天都镇",
 			},
 			{
 				tCountdown = {
@@ -1226,12 +1329,12 @@ return {
 						nFrame = 6,
 					},
 				},
-				szNote = "下一站·龙门荒漠·龙门客栈",
 				szContent = "你已完成了[拜年]。\
 ",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szNote = "下一站·龙门荒漠·龙门客栈",
 			},
 		},
 		[158] = {
@@ -1255,12 +1358,12 @@ return {
 						nFrame = 6,
 					},
 				},
-				szNote = "下一站·金水镇·金水镇",
 				szContent = "你已完成了[拜年]。\
 ",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szNote = "下一站·金水镇·金水镇",
 			},
 		},
 		[-2] = {
@@ -1296,12 +1399,12 @@ return {
 						nFrame = 6,
 					},
 				},
-				szContent = "[茗伊插件]陶罐助手：已达设置上限！\
-",
 				szNote = "春节·陶罐助手·完成目标",
 				[20] = {
 					szVoice = "YiDong_P",
 				},
+				szContent = "[茗伊插件]陶罐助手：已达设置上限！\
+",
 			},
 			{
 				tCountdown = {
@@ -1344,12 +1447,12 @@ return {
 						nFrame = 3,
 					},
 				},
-				[20] = {
-					bCenterAlarm = true,
-				},
 				szNote = "扬州·打雪仗",
 				szContent = "扬州开始了打雪仗活动！快去保卫我们的雪人！\
 ",
+				[20] = {
+					bCenterAlarm = true,
+				},
 			},
 			{
 				tCountdown = {
@@ -1362,12 +1465,12 @@ return {
 						nIcon = 11375,
 					},
 				},
-				szNote = "成都·打雪仗",
 				szContent = "成都开始了打雪仗活动！快去保卫我们的雪人！\
 ",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szNote = "成都·打雪仗",
 			},
 			{
 				tCountdown = {
@@ -1530,6 +1633,44 @@ return {
 				szName = "舞狮·喜·1",
 			},
 		},
+		[-5] = {
+			{
+				nLevel = 1,
+				dwID = 3634,
+				szName = "青龙·直接攻击",
+				[9] = {
+					bCenterAlarm = true,
+				},
+				szNote = "开眼·青龙",
+			},
+			{
+				nLevel = 1,
+				szName = "白虎·召唤白虎",
+				dwID = 3635,
+				[9] = {
+					bCenterAlarm = true,
+				},
+				szNote = "开眼·白虎",
+			},
+			{
+				nLevel = 1,
+				szName = "朱雀·增伤增疗",
+				dwID = 3636,
+				szNote = "开眼·朱雀",
+				[9] = {
+					bCenterAlarm = true,
+				},
+			},
+			{
+				nLevel = 1,
+				dwID = 3637,
+				szName = "玄武·增加气血",
+				[9] = {
+					bCenterAlarm = true,
+				},
+				szNote = "开眼·玄武",
+			},
+		},
 	},
 	TALK = {
 		[-2] = {
@@ -1560,8 +1701,8 @@ return {
 						nFrame = 1,
 					},
 				},
-				szNote = "道具缺少·[小金锤]",
 				szContent = "小金锤用完啦，可以到春节商店购买哦~",
+				szNote = "道具缺少·[小金锤]",
 				[14] = {
 					bCenterAlarm = true,
 				},
@@ -1580,8 +1721,8 @@ return {
 				[14] = {
 					bCenterAlarm = true,
 				},
-				szNote = "道具缺少·[小银锤]",
 				szContent = "小银锤用完啦，可以到春节商店购买哦~",
+				szNote = "道具缺少·[小银锤]",
 			},
 			{
 				[14] = {
@@ -1597,8 +1738,8 @@ return {
 						nIcon = 21739,
 					},
 				},
-				szContent = "红纸包上写着：喜。快做出对应的动作来赢得奖励吧。",
 				szNote = "红纸包·喜·按1",
+				szContent = "红纸包上写着：喜。快做出对应的动作来赢得奖励吧。",
 			},
 			{
 				[14] = {
@@ -1614,8 +1755,8 @@ return {
 						nIcon = 21737,
 					},
 				},
-				szContent = "红纸包上写着：怒。快做出对应的动作来赢得奖励吧。",
 				szNote = "红纸包·怒·按2",
+				szContent = "红纸包上写着：怒。快做出对应的动作来赢得奖励吧。",
 			},
 			{
 				[14] = {
@@ -1631,8 +1772,8 @@ return {
 						nIcon = 21743,
 					},
 				},
-				szContent = "红纸包上写着：醉。快做出对应的动作来赢得奖励吧。",
 				szNote = "红纸包·醉·按3",
+				szContent = "红纸包上写着：醉。快做出对应的动作来赢得奖励吧。",
 			},
 			{
 				[14] = {
@@ -1648,8 +1789,8 @@ return {
 						nIcon = 21740,
 					},
 				},
-				szContent = "红纸包上写着：醒。快做出对应的动作来赢得奖励吧。",
 				szNote = "红纸包·醒·按4",
+				szContent = "红纸包上写着：醒。快做出对应的动作来赢得奖励吧。",
 			},
 			{
 				[14] = {
@@ -1665,8 +1806,8 @@ return {
 						nIcon = 21736,
 					},
 				},
-				szContent = "红纸包上写着：惊。快做出对应的动作来赢得奖励吧。",
 				szNote = "红纸包·惊·按5",
+				szContent = "红纸包上写着：惊。快做出对应的动作来赢得奖励吧。",
 			},
 			{
 				[14] = {
@@ -1682,8 +1823,8 @@ return {
 						nIcon = 21742,
 					},
 				},
-				szContent = "红纸包上写着：疑。快做出对应的动作来赢得奖励吧。",
 				szNote = "红纸包·疑·按6",
+				szContent = "红纸包上写着：疑。快做出对应的动作来赢得奖励吧。",
 			},
 			{
 				[14] = {
@@ -1699,8 +1840,8 @@ return {
 						nIcon = 21741,
 					},
 				},
-				szContent = "红纸包上写着：寻。快做出对应的动作来赢得奖励吧。",
 				szNote = "红纸包·寻·按7",
+				szContent = "红纸包上写着：寻。快做出对应的动作来赢得奖励吧。",
 			},
 			{
 				[14] = {
@@ -1716,8 +1857,8 @@ return {
 						nIcon = 21738,
 					},
 				},
-				szContent = "红纸包上写着：盼。快做出对应的动作来赢得奖励吧。",
 				szNote = "红纸包·盼·按8",
+				szContent = "红纸包上写着：盼。快做出对应的动作来赢得奖励吧。",
 			},
 			{
 				tCountdown = {
@@ -1934,12 +2075,12 @@ return {
 					50,
 					255,
 				},
-				szTarget = "帮会铁卫",
+				szNote = "帮会铁卫·赠送红包",
 				[14] = {
 					bCenterAlarm = true,
 					bScreenHead = true,
 				},
-				szNote = "帮会铁卫·赠送红包",
+				szTarget = "帮会铁卫",
 				bSearch = true,
 			},
 		},
@@ -2647,25 +2788,23 @@ return {
 					bScreenHead = true,
 				},
 			},
-		},
-		[8] = {
 			{
 				nFrame = 47,
 				aFocus = {
 					{
-						szDisplay = "楚小妹·新春有缘人",
+						szDisplay = "增加气血·玄武阵眼",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
 							bEnemy = false,
 						},
 						dwMapID = -1,
+						nMaxDistance = 1.5,
 						tLife = {
 							szOperator = ">",
 							nValue = 0,
 							bEnable = false,
 						},
-						nMaxDistance = 30,
 						tType = {
 							[3] = false,
 							bAll = true,
@@ -2674,8 +2813,204 @@ return {
 						},
 					},
 				},
-				szNote = "新春有缘人·楚小妹",
-				dwID = 1091,
+				szNote = "玄武阵眼·增加气血",
+				dwID = 16597,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "召唤白虎·白虎阵眼",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 1.5,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "白虎阵眼·召唤白虎",
+				dwID = 16595,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "直接攻击·青龙阵眼",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 1.5,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "青龙阵眼·直接攻击",
+				dwID = 16594,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "增伤增疗·朱雀阵眼",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 1.5,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "朱雀阵眼·增伤增疗",
+				dwID = 16596,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "治疗·连华",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "连华",
+				dwID = 16601,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "内功·封门",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "封门",
+				dwID = 16600,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "外功·升景",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "升景",
+				dwID = 16599,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "坦克·重御",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "重御",
+				dwID = 16598,
 			},
 		},
 		[21] = {
@@ -2708,12 +3043,12 @@ return {
 				dwID = 6865,
 			},
 		},
-		[30] = {
+		[8] = {
 			{
 				nFrame = 47,
 				aFocus = {
 					{
-						szDisplay = "瑞紫祥·新春有缘人",
+						szDisplay = "楚小妹·新春有缘人",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
@@ -2734,8 +3069,8 @@ return {
 						},
 					},
 				},
-				szNote = "新春有缘人·瑞紫祥",
-				dwID = 6853,
+				szNote = "新春有缘人·楚小妹",
+				dwID = 1091,
 			},
 		},
 		[22] = {
@@ -2768,7 +3103,7 @@ return {
 				dwID = 6862,
 			},
 		},
-		[332] = {
+		[194] = {
 			{
 				nFrame = 47,
 				aFocus = {
@@ -2785,7 +3120,7 @@ return {
 							nValue = 0,
 							bEnable = false,
 						},
-						nMaxDistance = 30,
+						nMaxDistance = 20,
 						tType = {
 							[3] = false,
 							bAll = true,
@@ -3377,52 +3712,12 @@ return {
 				dwID = 6857,
 			},
 		},
-		[156] = {
+		[332] = {
 			{
 				nFrame = 47,
-				dwID = 6821,
 				aFocus = {
 					{
-						szDisplay = "翔咬金·新春有缘人",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 40,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "新春有缘人·玉和金",
-				tCountdown = {
-					{
-						nClass = 3,
-						key = "春节·拜年·玉和金",
-						nTime = -1,
-						szName = "春节·拜年·玉和金",
-						nRefresh = 3600,
-						nFrame = -1,
-						nIcon = 13,
-					},
-				},
-			},
-			{
-				nFrame = 47,
-				dwID = 6839,
-				aFocus = {
-					{
-						szDisplay = "龙飞蛇·新春有缘人",
+						szDisplay = "旧变新·新春有缘人",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
@@ -3443,48 +3738,8 @@ return {
 						},
 					},
 				},
-				szNote = "新春有缘人·兔敬龙",
-				tCountdown = {
-					{
-						nClass = 3,
-						key = "春节·拜年·兔敬龙",
-						nTime = -1,
-						szName = "春节·拜年·兔敬龙",
-						nRefresh = 3600,
-						nFrame = -1,
-						nIcon = 13,
-					},
-				},
-			},
-		},
-		[139] = {
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "山腾路·新春有缘人",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 30,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "新春有缘人·山腾路",
-				dwID = 6857,
+				szNote = "新春有缘人·旧变新",
+				dwID = 6851,
 			},
 		},
 		[25] = {
@@ -3517,6 +3772,36 @@ return {
 				dwID = 6863,
 			},
 		},
+		[49] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "华冬情·新春有缘人",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "新春有缘人·华冬情",
+				dwID = 6867,
+			},
+		},
 		[13] = {
 			{
 				nFrame = 47,
@@ -3545,6 +3830,36 @@ return {
 				},
 				szNote = "新春有缘人·灵情江",
 				dwID = 6860,
+			},
+		},
+		[139] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "山腾路·新春有缘人",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "新春有缘人·山腾路",
+				dwID = 6857,
 			},
 		},
 		[27] = {
@@ -3587,36 +3902,6 @@ return {
 				},
 			},
 		},
-		[23] = {
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "香流意·新春有缘人",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 50,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "新春有缘人·香流意",
-				dwID = 6854,
-			},
-		},
 		[7] = {
 			{
 				nFrame = 47,
@@ -3647,12 +3932,12 @@ return {
 				dwID = 6856,
 			},
 		},
-		[49] = {
+		[23] = {
 			{
 				nFrame = 47,
 				aFocus = {
 					{
-						szDisplay = "华冬情·新春有缘人",
+						szDisplay = "香流意·新春有缘人",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
@@ -3664,7 +3949,7 @@ return {
 							nValue = 0,
 							bEnable = false,
 						},
-						nMaxDistance = 30,
+						nMaxDistance = 50,
 						tType = {
 							[3] = false,
 							bAll = true,
@@ -3673,8 +3958,8 @@ return {
 						},
 					},
 				},
-				szNote = "新春有缘人·华冬情",
-				dwID = 6867,
+				szNote = "新春有缘人·香流意",
+				dwID = 6854,
 			},
 		},
 		[108] = {
@@ -4109,12 +4394,13 @@ return {
 				szName = "坚冰",
 			},
 		},
-		[194] = {
+		[156] = {
 			{
 				nFrame = 47,
+				dwID = 6821,
 				aFocus = {
 					{
-						szDisplay = "旧变新·新春有缘人",
+						szDisplay = "翔咬金·新春有缘人",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
@@ -4126,7 +4412,7 @@ return {
 							nValue = 0,
 							bEnable = false,
 						},
-						nMaxDistance = 20,
+						nMaxDistance = 40,
 						tType = {
 							[3] = false,
 							bAll = true,
@@ -4135,8 +4421,57 @@ return {
 						},
 					},
 				},
-				szNote = "新春有缘人·旧变新",
-				dwID = 6851,
+				szNote = "新春有缘人·玉和金",
+				tCountdown = {
+					{
+						nClass = 3,
+						key = "春节·拜年·玉和金",
+						nTime = -1,
+						szName = "春节·拜年·玉和金",
+						nRefresh = 3600,
+						nFrame = -1,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				nFrame = 47,
+				dwID = 6839,
+				aFocus = {
+					{
+						szDisplay = "龙飞蛇·新春有缘人",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "新春有缘人·兔敬龙",
+				tCountdown = {
+					{
+						nClass = 3,
+						key = "春节·拜年·兔敬龙",
+						nTime = -1,
+						szName = "春节·拜年·兔敬龙",
+						nRefresh = 3600,
+						nFrame = -1,
+						nIcon = 13,
+					},
+				},
 			},
 		},
 		[158] = {
@@ -4167,6 +4502,36 @@ return {
 				},
 				szNote = "新春有缘人·岳吉方",
 				dwID = 6859,
+			},
+		},
+		[30] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "瑞紫祥·新春有缘人",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "新春有缘人·瑞紫祥",
+				dwID = 6853,
 			},
 		},
 	},
@@ -4245,7 +4610,7 @@ return {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1772552867,
+		nTimeStamp = 1772638049,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
