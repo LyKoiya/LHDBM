@@ -1,6 +1,45 @@
 return {
 	BUFF = {},
-	CHAT = {},
+	CHAT = {
+		[281] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "竞技活动",
+						nTime = 30,
+						szName = "排队·名剑大会·队列",
+						nClass = 20,
+						nFrame = 4,
+					},
+				},
+				[20] = {
+					bCenterAlarm = true,
+				},
+				szContent = "您已经加入海选赛的名剑大会等待队列中。\
+",
+				szNote = "排队·海选赛·队列",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "竞技活动",
+						nTime = 30,
+						szName = "排队·名剑大会·队列",
+						nFrame = 4,
+						nClass = 20,
+					},
+				},
+				[20] = {
+					bCenterAlarm = true,
+				},
+				szContent = "您已经加入名剑大会等待队列。\
+",
+				szNote = "排队·名剑大会·队列",
+			},
+		},
+	},
 	CASTING = {},
 	TALK = {
 		[-2] = {
@@ -10,8 +49,8 @@ return {
 						nClass = 14,
 						nTime = 10,
 						szName = "群英赛·周四至周日开放",
-						nIcon = 13,
 						nFrame = 1,
+						nIcon = 13,
 					},
 				},
 				szContent = "现在不是入场时间",
@@ -229,7 +268,7 @@ return {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1741615484,
+		nTimeStamp = 1773497457,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
