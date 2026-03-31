@@ -1,0 +1,144 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[283] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "剧情提示",
+						nTime = 37,
+						szName = "剧情·也漠河",
+						nIcon = 13,
+					},
+				},
+				szTarget = "也漠河",
+				szContent = "哈哈哈哈！",
+			},
+		},
+		[286] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "剧情提示",
+						nTime = 37,
+						szName = "剧情·也漠河",
+						nIcon = 13,
+					},
+				},
+				szTarget = "也漠河",
+				szContent = "哈哈哈哈！",
+			},
+		},
+	},
+	NPC = {},
+	DEBUFF = {
+		[286] = {
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				nLevel = 1,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 12216,
+				aCataclysmBuff = {
+					{
+						bAttention = false,
+						szReminder = "毒",
+						nColAlpha = 255,
+						nPriority = 4,
+						col = "#FF32FFFF",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 2,
+				col = {
+					0,
+					125,
+					255,
+				},
+				dwID = 12211,
+				tCountdown = {
+					{
+						nClass = 2,
+						key = "瘴气",
+						nTime = 0,
+						szName = "瘴气·{$receiver}",
+						nIcon = 2036,
+					},
+					{
+						nClass = 1,
+						key = "瘴气",
+						nTime = 5,
+						szName = "{$receiver}·驱散·瘴气",
+						nIcon = 2036,
+					},
+				},
+				szNote = "会损失35%气血",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#007DFF",
+						col = "#007DFFFF",
+						szReminder = "阴",
+						nColAlpha = 255,
+						bAttention = true,
+						bScreenHead = false,
+					},
+				},
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1774879735,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[286] = {
+			{
+				dwID = 6920,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 50,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "黯淡的神兵",
+			},
+		},
+	},
+}
