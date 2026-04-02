@@ -7,6 +7,7 @@ return {
 				},
 				dwID = 14717,
 				nScrutinyType = 1,
+				nLevel = 1,
 				tCountdown = {
 					{
 						nIcon = 10473,
@@ -14,8 +15,8 @@ return {
 						nTime = 10,
 						szName = "【{$receiver}】强者面具",
 						nRefresh = 120,
-						nClass = 1,
 						nFrame = 6,
+						nClass = 1,
 					},
 					{
 						nClass = 2,
@@ -25,7 +26,6 @@ return {
 						nIcon = 10473,
 					},
 				},
-				nLevel = 1,
 			},
 		},
 	},
@@ -38,8 +38,8 @@ return {
 						key = "通用事件",
 						nTime = 10,
 						szName = "醉猿·[{$2}]·{$1}",
-						nIcon = 237,
 						nFrame = 3,
+						nIcon = 237,
 					},
 				},
 				bReg = true,
@@ -54,8 +54,8 @@ return {
 						key = "通用事件",
 						nTime = 10,
 						szName = "醉猿·[{$2}]·{$1}",
-						nFrame = 3,
 						nIcon = 237,
+						nFrame = 3,
 					},
 				},
 				bReg = true,
@@ -73,8 +73,8 @@ return {
 						key = "通用事件",
 						nTime = 15,
 						szName = "醉猿·被[{$1}]攻击",
-						nIcon = 237,
 						nFrame = 1,
+						nIcon = 237,
 					},
 				},
 				szContent = "(.+)，居然趁俺老猿醉酒之际来偷袭，俺要把你撕碎......且来试试俺老猿的醉......拳。小子，别跑，偷酒的醉猿你伤不起的！伤不起的！",
@@ -90,13 +90,13 @@ return {
 						nTime = 30,
 						szName = "醉猿·当前地图刷新",
 						nRefresh = 2,
-						nClass = 14,
 						nFrame = 1,
+						nClass = 14,
 					},
 				},
+				szContent = "小子，别跑，吃俺老猿一拳头！",
 				szTarget = "醉猿",
 				szNote = "醉猿·当前地图刷新",
-				szContent = "小子，别跑，吃俺老猿一拳头！",
 			},
 		},
 		[-2] = {
@@ -106,8 +106,8 @@ return {
 						nClass = 14,
 						nTime = 10,
 						szName = "射柳得分·{$1}",
-						nFrame = 6,
 						nIcon = 10157,
+						nFrame = 6,
 					},
 				},
 				szContent = "本次射柳得分为(%d-)！",
@@ -418,6 +418,118 @@ return {
 				},
 			},
 		},
+		[108] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 136845,
+				aFocus = {
+					{
+						szDisplay = "铁柱·清明节",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "清明节·铁柱",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 137235,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "清明节·铁柱",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+		},
+		[799] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 136845,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "清明节·铁柱",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+		},
 		[-1] = {
 			{
 				nFrame = 67,
@@ -675,11 +787,65 @@ return {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1743849335,
+		nTimeStamp = 1775137524,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
 	DOODAD = {
+		[799] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 11729,
+				aFocus = {},
+				szNote = "布娃娃",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 11730,
+				aFocus = {},
+				szNote = "布娃娃",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 11731,
+				aFocus = {},
+				szNote = "布娃娃",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 11732,
+				aFocus = {},
+				szNote = "布娃娃",
+			},
+		},
 		[333] = {
 			{
 				dwID = 8194,
@@ -763,6 +929,113 @@ return {
 					},
 				},
 				szNote = "清明贡品",
+			},
+		},
+		[108] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 11703,
+				aFocus = {
+					{
+						szDisplay = "破旧的灯笼",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "清明节·破旧的灯笼",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 11705,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "清明节·枯井",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 11707,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "清明节·埋葬",
 			},
 		},
 	},
