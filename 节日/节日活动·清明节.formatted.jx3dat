@@ -7,7 +7,6 @@ return {
 				},
 				dwID = 14717,
 				nScrutinyType = 1,
-				nLevel = 1,
 				tCountdown = {
 					{
 						nIcon = 10473,
@@ -15,8 +14,8 @@ return {
 						nTime = 10,
 						szName = "【{$receiver}】强者面具",
 						nRefresh = 120,
-						nFrame = 6,
 						nClass = 1,
+						nFrame = 6,
 					},
 					{
 						nClass = 2,
@@ -26,6 +25,7 @@ return {
 						nIcon = 10473,
 					},
 				},
+				nLevel = 1,
 			},
 		},
 	},
@@ -37,13 +37,14 @@ return {
 						nClass = 20,
 						key = "通用事件",
 						nTime = 10,
-						szName = "醉猿·[{$2}]·{$1}",
-						nFrame = 3,
+						szName = "醉猿·[{$2}]·刷新",
 						nIcon = 237,
+						nFrame = 4,
 					},
 				},
 				bReg = true,
-				szContent = "(.-)在(.-)地图挖宝时发现五只携带杏花酒的醉猿。此醉猿携带各种宝物在(.-)地图闲逛，勇猛的侠士们赶紧前去挑战。此醉猿通人性，能口吐人言，会喝酒，懂喝酒，亦会醉拳，侠士们需三人组队前去方可与其对战，切记切记！侠士可通过“M”打开地图查看醉猿可能出现的位置。",
+				szContent = "(.-)在(.-)地图挖宝时发现五只携带杏花酒的醉猿。此醉猿携带各种宝物在(.-)地图闲逛，勇猛的侠士们赶紧前去挑战。此醉猿通人性，能口吐人言，会喝酒，懂喝酒，亦会醉拳，侠士们需三人组队前去方可与其对战，切记切记！",
+				szNote = "醉猿·[{$2}]·{$1}·刷新",
 			},
 		},
 		[-7] = {
@@ -53,17 +54,65 @@ return {
 						nClass = 20,
 						key = "通用事件",
 						nTime = 10,
-						szName = "醉猿·[{$2}]·{$1}",
+						szName = "醉猿·[{$2}]·刷新",
+						nFrame = 4,
 						nIcon = 237,
-						nFrame = 3,
 					},
 				},
 				bReg = true,
-				szContent = "(.-)在(.-)地图挖宝时发现五只携带杏花酒的醉猿。此醉猿携带各种宝物在(.-)地图闲逛，勇猛的侠士们赶紧前去挑战。此醉猿通人性，能口吐人言，会喝酒，懂喝酒，亦会醉拳，侠士们需三人组队前去方可与其对战，切记切记！侠士可通过“M”打开地图查看醉猿可能出现的位置。",
+				szContent = "(.-)在(.-)地图挖宝时发现五只携带杏花酒的醉猿。此醉猿携带各种宝物在(.-)地图闲逛，勇猛的侠士们赶紧前去挑战。此醉猿通人性，能口吐人言，会喝酒，懂喝酒，亦会醉拳，侠士们需三人组队前去方可与其对战，切记切记！",
+				szNote = "醉猿·[{$2}]·{$1}·刷新",
+			},
+		},
+		[-21] = {
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "通用事件",
+						nTime = 10,
+						szName = "醉猿·[{$2}]·刷新",
+						nFrame = 4,
+						nIcon = 237,
+					},
+				},
+				bReg = true,
+				szContent = "(.-)在(.-)地图挖宝时发现五只携带杏花酒的醉猿。此醉猿携带各种宝物在(.-)地图闲逛，勇猛的侠士们赶紧前去挑战。此醉猿通人性，能口吐人言，会喝酒，懂喝酒，亦会醉拳，侠士们需三人组队前去方可与其对战，切记切记！",
+				szNote = "醉猿·[{$2}]·{$1}·刷新",
 			},
 		},
 	},
-	CASTING = {},
+	CASTING = {
+		[-1] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 3,
+				[8] = {
+					bCenterAlarm = true,
+					szVoice = "HouTiao_P",
+					bScreenHead = true,
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 7381,
+				szNote = "清明节·醉猿",
+				tCountdown = {
+					{
+						nClass = 8,
+						key = "清明节·醉猿",
+						nTime = "4.2,泰山压顶·准备后跳;5,泰山压顶·快后跳;15,泰山压顶·安全时间;39,泰山压顶·随时触发",
+						szName = "",
+						nRefresh = 0,
+						nIcon = 13,
+						nFrame = 3,
+					},
+				},
+			},
+		},
+	},
 	TALK = {
 		[-1] = {
 			{
@@ -73,11 +122,11 @@ return {
 						key = "通用事件",
 						nTime = 15,
 						szName = "醉猿·被[{$1}]攻击",
-						nFrame = 1,
 						nIcon = 237,
+						nFrame = 1,
 					},
 				},
-				szContent = "(.+)，居然趁俺老猿醉酒之际来偷袭，俺要把你撕碎......且来试试俺老猿的醉......拳。小子，别跑，偷酒的醉猿你伤不起的！伤不起的！",
+				szContent = "(.+)，居然趁俺老猿醉酒之际来偷袭，俺要把你撕碎......且来试试俺老猿的醉......拳。",
 				bReg = true,
 				szNote = "{$1}·攻击醉猿",
 				szTarget = "醉猿",
@@ -90,8 +139,8 @@ return {
 						nTime = 30,
 						szName = "醉猿·当前地图刷新",
 						nRefresh = 2,
-						nFrame = 1,
 						nClass = 14,
+						nFrame = 1,
 					},
 				},
 				szContent = "小子，别跑，吃俺老猿一拳头！",
@@ -106,8 +155,8 @@ return {
 						nClass = 14,
 						nTime = 10,
 						szName = "射柳得分·{$1}",
-						nIcon = 10157,
 						nFrame = 6,
+						nIcon = 10157,
 					},
 				},
 				szContent = "本次射柳得分为(%d-)！",
@@ -120,24 +169,28 @@ return {
 		},
 	},
 	NPC = {
-		[332] = {
+		[108] = {
 			{
 				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 136845,
 				aFocus = {
 					{
-						szDisplay = "闵沧阳·杏花酒4",
+						szDisplay = "铁柱·清明节",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
 							bEnemy = false,
 						},
 						dwMapID = -1,
+						nMaxDistance = 6,
 						tLife = {
 							szOperator = ">",
 							nValue = 0,
 							bEnable = false,
 						},
-						nMaxDistance = 90,
 						tType = {
 							[3] = false,
 							bAll = true,
@@ -146,28 +199,72 @@ return {
 						},
 					},
 				},
-				szNote = "闵沧阳·杏花酒4",
-				dwID = 69860,
+				szNote = "清明节·铁柱",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 137235,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "清明节·铁柱",
+				col = {
+					0,
+					255,
+					0,
+				},
 			},
 		},
-		[333] = {
+		[156] = {
 			{
 				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 136882,
 				aFocus = {
 					{
-						szDisplay = "王吒·清明柳枝20",
+						szDisplay = "",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
 							bEnemy = false,
 						},
 						dwMapID = -1,
+						nMaxDistance = 30,
 						tLife = {
 							szOperator = ">",
 							nValue = 0,
 							bEnable = false,
 						},
-						nMaxDistance = 90,
 						tType = {
 							[3] = false,
 							bAll = true,
@@ -176,28 +273,34 @@ return {
 						},
 					},
 				},
-				szNote = "王吒·清明柳枝20",
-				dwID = 69832,
+				szNote = "磷火之焰",
+				col = {
+					0,
+					255,
+					0,
+				},
 			},
-		},
-		[334] = {
 			{
 				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 136947,
 				aFocus = {
 					{
-						szDisplay = "尹青羲·杏花酒4",
+						szDisplay = "",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
 							bEnemy = false,
 						},
 						dwMapID = -1,
+						nMaxDistance = 20,
 						tLife = {
 							szOperator = ">",
 							nValue = 0,
 							bEnable = false,
 						},
-						nMaxDistance = 90,
 						tType = {
 							[3] = false,
 							bAll = true,
@@ -206,8 +309,48 @@ return {
 						},
 					},
 				},
-				szNote = "尹青羲·杏花酒4",
-				dwID = 69863,
+				szNote = "魂灯",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 136814,
+				aFocus = {
+					{
+						szDisplay = "萧问之·清明节",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "萧问之",
+				col = {
+					0,
+					255,
+					0,
+				},
 			},
 		},
 		[-2] = {
@@ -418,23 +561,19 @@ return {
 				},
 			},
 		},
-		[108] = {
+		[419] = {
 			{
 				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 136845,
 				aFocus = {
 					{
-						szDisplay = "铁柱·清明节",
+						szDisplay = "闻人晏陵·清明柳枝20",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
 							bEnemy = false,
 						},
 						dwMapID = -1,
-						nMaxDistance = 6,
+						nMaxDistance = 90,
 						tLife = {
 							szOperator = ">",
 							nValue = 0,
@@ -448,19 +587,47 @@ return {
 						},
 					},
 				},
-				szNote = "清明节·铁柱",
-				col = {
-					0,
-					255,
-					0,
-				},
+				szNote = "闻人晏陵·清明柳枝2",
+				dwID = 69848,
 			},
+		},
+		[333] = {
 			{
 				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "王吒·清明柳枝20",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 90,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "王吒·清明柳枝20",
+				dwID = 69832,
+			},
+		},
+		[-1] = {
+			{
+				nFrame = 67,
 				[3] = {
 					bScreenHead = true,
 				},
-				dwID = 137235,
+				dwID = 56189,
 				aFocus = {
 					{
 						szDisplay = "",
@@ -470,7 +637,198 @@ return {
 							bEnemy = false,
 						},
 						dwMapID = -1,
-						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "清明节·野灵",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 67,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 56188,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "清明节·暴躁的魂灵",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 67,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 56187,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "清明节·精魅",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				szName = "灵魂隐藏处",
+				aFocus = {
+					{
+						szDisplay = "灵魂隐藏处",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 90,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "清明节·灵魂隐藏处",
+				dwID = 56209,
+			},
+			{
+				nFrame = 50,
+				tCountdown = {
+					{
+						nClass = 4,
+						key = "清明节·醉猿",
+						nTime = 0,
+						szName = "清明节·醉猿",
+						nIcon = 13,
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 11734,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 90,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "清明节·醉猿",
+				[3] = {
+					bCenterAlarm = true,
+					tMark = {
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						true,
+						false,
+					},
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 52,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
 						tLife = {
 							szOperator = ">",
 							nValue = 0,
@@ -484,12 +842,38 @@ return {
 						},
 					},
 				},
-				szNote = "清明节·铁柱",
-				col = {
-					0,
-					255,
-					0,
+				szNote = "清明节·醉猿的酒坛",
+				dwID = 12254,
+			},
+		},
+		[332] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "闵沧阳·杏花酒4",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 90,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
 				},
+				szNote = "闵沧阳·杏花酒4",
+				dwID = 69860,
 			},
 		},
 		[799] = {
@@ -530,121 +914,12 @@ return {
 				},
 			},
 		},
-		[-1] = {
-			{
-				nFrame = 67,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 56189,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 30,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "野灵",
-				col = {
-					255,
-					50,
-					50,
-				},
-			},
-			{
-				nFrame = 67,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 56188,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 30,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "暴躁的魂灵",
-				col = {
-					255,
-					50,
-					50,
-				},
-			},
-			{
-				nFrame = 67,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 56187,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 30,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "精魅",
-				col = {
-					255,
-					50,
-					50,
-				},
-			},
+		[334] = {
 			{
 				nFrame = 47,
-				szName = "灵魂隐藏处",
 				aFocus = {
 					{
-						szDisplay = "灵魂隐藏处",
+						szDisplay = "尹青羲·杏花酒4",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
@@ -665,73 +940,8 @@ return {
 						},
 					},
 				},
-				szNote = "灵魂隐藏处",
-				dwID = 56209,
-			},
-			{
-				nFrame = 50,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				dwID = 11734,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 90,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "醉猿",
-				col = {
-					255,
-					50,
-					50,
-				},
-			},
-			{
-				nFrame = 52,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 30,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "醉猿的酒坛",
-				dwID = 12254,
+				szNote = "尹青羲·杏花酒4",
+				dwID = 69863,
 			},
 		},
 		[325] = {
@@ -787,11 +997,77 @@ return {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1775137524,
+		nTimeStamp = 1775669281,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
 	DOODAD = {
+		[333] = {
+			{
+				dwID = 8194,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 60,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "暖玉腰坠",
+			},
+		},
+		[156] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 11693,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 2.5,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "一封信",
+			},
+		},
 		[799] = {
 			{
 				[17] = {
@@ -846,35 +1122,6 @@ return {
 				szNote = "布娃娃",
 			},
 		},
-		[333] = {
-			{
-				dwID = 8194,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 60,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "暖玉腰坠",
-			},
-		},
 		[-1] = {
 			{
 				dwID = 2590,
@@ -901,7 +1148,7 @@ return {
 						},
 					},
 				},
-				szNote = "清明贡品",
+				szNote = "清明节·清明贡品",
 			},
 			{
 				dwID = 2591,
@@ -928,7 +1175,7 @@ return {
 						},
 					},
 				},
-				szNote = "清明贡品",
+				szNote = "清明节·清明贡品",
 			},
 		},
 		[108] = {
