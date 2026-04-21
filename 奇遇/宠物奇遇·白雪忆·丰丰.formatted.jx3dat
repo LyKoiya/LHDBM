@@ -8,7 +8,7 @@
 						bHold = true,
 						key = "奇遇提示0",
 						nClass = 14,
-						nIcon = 17135,
+						nIcon = 12373,
 						nRefresh = 0,
 						nFrame = 0,
 						szName = "奇遇提示0",
@@ -16,7 +16,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -24,7 +24,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -32,7 +32,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -41,7 +41,7 @@
 					{
 						bHold = true,
 						key = "奇遇提示4",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -50,7 +50,7 @@
 					{
 						bHold = true,
 						key = "奇遇提示5",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -59,7 +59,7 @@
 					{
 						bHold = true,
 						key = "奇遇提示6",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -68,7 +68,7 @@
 					{
 						bHold = true,
 						key = "奇遇提示7",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -86,7 +86,7 @@
 					{
 						bHold = false,
 						key = "奇遇提示0",
-						nIcon = 17135,
+						nIcon = 12373,
 						nClass = 14,
 						nFrame = 0,
 						szName = "奇遇提示0",
@@ -94,7 +94,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 7,
 						nClass = 14,
@@ -102,7 +102,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 7,
 						nClass = 14,
@@ -110,7 +110,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 7,
 						nClass = 14,
@@ -119,7 +119,7 @@
 					{
 						bHold = false,
 						key = "奇遇提示4",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 7,
 						nClass = 14,
@@ -128,7 +128,7 @@
 					{
 						bHold = false,
 						key = "奇遇提示5",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 7,
 						nClass = 14,
@@ -137,7 +137,7 @@
 					{
 						bHold = false,
 						key = "奇遇提示6",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 7,
 						nClass = 14,
@@ -146,7 +146,7 @@
 					{
 						bHold = false,
 						key = "奇遇提示7",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 7,
 						nClass = 14,

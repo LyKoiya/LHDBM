@@ -6,7 +6,7 @@
 				tCountdown = {
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -14,7 +14,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -22,7 +22,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -30,7 +30,7 @@
 					},
 					{
 						key = "奇遇提示4",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -43,7 +43,7 @@
 				tCountdown = {
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 300,
 						nClass = 14,
 						nFrame = 7,
@@ -51,7 +51,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 300,
 						nClass = 14,
 						nFrame = 7,
@@ -59,7 +59,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 300,
 						nClass = 14,
 						nFrame = 7,
@@ -67,7 +67,7 @@
 					},
 					{
 						key = "奇遇提示4",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 300,
 						nClass = 14,
 						nFrame = 7,
@@ -80,7 +80,7 @@
 				tCountdown = {
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 30,
 						nFrame = 7,
 						nClass = 14,
@@ -88,7 +88,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 30,
 						nFrame = 7,
 						nClass = 14,
@@ -96,7 +96,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 7,
 						nClass = 14,
@@ -104,7 +104,7 @@
 					},
 					{
 						key = "奇遇提示4",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 7,
 						nClass = 14,

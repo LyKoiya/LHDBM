@@ -8,7 +8,7 @@
 					{
 						key = "奇遇提示0",
 						nFrame = 0,
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = "5,恭喜触发·捉妖记·酒客;15,奇遇不封印·约10分钟完成;30,1.对话·陶九翁;90,2.沿岸寻找·藏着木头鱼的鱼篓;150,3.对话·陶九翁·对话·陶蛋儿;210,4.寻找·风筝·返回·陶蛋儿;270,5.对话·陶小方·青萝山·陶虎子;330,6.西方·岸边·会动的酒坛子;360,7.对话·陶小方·对话·陶九翁;370,完成奇遇·捉妖记·酒客",
 						nClass = 14,
 						nRefresh = 0,
@@ -16,7 +16,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -24,7 +24,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -32,7 +32,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -40,7 +40,7 @@
 					},
 					{
 						key = "奇遇提示4",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -48,7 +48,7 @@
 					},
 					{
 						key = "奇遇提示5",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -56,7 +56,7 @@
 					},
 					{
 						key = "奇遇提示6",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -70,7 +70,7 @@
 					{
 						key = "奇遇提示0",
 						nClass = 14,
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = "30,交互·会动的酒坛子;60,7.对话·陶小方·对话·陶九翁;70,完成奇遇·捉妖记·酒客",
 						nFrame = 0,
 						nRefresh = 0,
@@ -78,7 +78,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 180,
 						nClass = 14,
 						nFrame = 7,
@@ -86,7 +86,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 180,
 						nClass = 14,
 						nFrame = 7,
@@ -94,7 +94,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 180,
 						nClass = 14,
 						nFrame = 7,
@@ -102,7 +102,7 @@
 					},
 					{
 						key = "奇遇提示4",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nClass = 14,
 						nFrame = 7,
@@ -110,7 +110,7 @@
 					},
 					{
 						key = "奇遇提示5",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nClass = 14,
 						nFrame = 7,
@@ -118,7 +118,7 @@
 					},
 					{
 						key = "奇遇提示6",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nClass = 14,
 						nFrame = 7,

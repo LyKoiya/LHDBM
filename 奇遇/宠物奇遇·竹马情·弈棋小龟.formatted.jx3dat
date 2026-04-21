@@ -8,7 +8,7 @@
 					{
 						key = "奇遇提示0",
 						nClass = 14,
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = "5,恭喜触发·竹马情·弈棋小龟;15,奇遇不封印·约10分钟完成;30,1.对话·沈笑颜;120,2.归林泽上括号一个闪闪发光的物件;180,3.返回归林泽·沈笑颜;240,4.万宝阁下括号·万福;300,5.南冥谷上括号左·向万景;360,6.万宝阁下括号右下·向万景;480,7.返回归林泽·沈笑颜·结束",
 						nFrame = 0,
 						nRefresh = 0,
@@ -16,7 +16,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -24,7 +24,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -32,7 +32,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -40,7 +40,7 @@
 					},
 					{
 						key = "奇遇提示4",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -48,7 +48,7 @@
 					},
 					{
 						key = "奇遇提示5",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -62,7 +62,7 @@
 				tCountdown = {
 					{
 						key = "奇遇提示0",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = "60,等待剧情·对话·向万景;300,返回归林泽·沈笑颜·结束",
 						nFrame = 0,
 						nClass = 14,
@@ -70,7 +70,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 60,
 						nFrame = 7,
 						nClass = 14,
@@ -78,7 +78,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 7,
 						nClass = 14,
@@ -86,7 +86,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 7,
 						nClass = 14,
@@ -94,7 +94,7 @@
 					},
 					{
 						key = "奇遇提示4",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 7,
 						nClass = 14,
@@ -102,7 +102,7 @@
 					},
 					{
 						key = "奇遇提示5",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 7,
 						nClass = 14,
@@ -116,7 +116,7 @@
 				tCountdown = {
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 240,
 						nFrame = 7,
 						nClass = 14,
@@ -129,7 +129,7 @@
 				tCountdown = {
 					{
 						key = "奇遇提示0",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nClass = 14,
 						nFrame = 0,
@@ -137,7 +137,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nClass = 14,
 						nFrame = 7,

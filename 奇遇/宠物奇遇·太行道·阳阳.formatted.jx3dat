@@ -7,7 +7,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示0",
 						nTime = "5,恭喜触发·太行道·阳阳;15,奇遇封印65分钟·约80分钟完成;30,需提前准备·商道全套书籍;60,帮会领地·帮会书童·可购买;90,额外交付商道第三章;120,奖励五级五行石x3",
 						szName = "奇遇提示0",
@@ -16,7 +16,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·边澈·前往·太极镇南",
@@ -24,7 +24,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·掌柜的·返回·边澈",
@@ -32,7 +32,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "准备·商道全套书·帮会书童",
@@ -41,7 +41,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示4",
 						nTime = 600,
 						szName = "返回·边澈·对话·掌柜的",
@@ -50,7 +50,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示5",
 						nTime = 600,
 						szName = "对话·边澈·前往太原东山矿场",
@@ -59,7 +59,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示6",
 						nTime = 600,
 						szName = "对话·边澈·前往牛廷阶营寨北",
@@ -68,7 +68,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示7",
 						nTime = 600,
 						szName = "寻找·被抢夺矿石箱·返回边澈",
@@ -84,7 +84,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "交互·被抢夺的矿石箱",
@@ -92,7 +92,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "前往·史思明营寨西北帐篷",
@@ -100,7 +100,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·边澈·返回·矿场",
@@ -114,7 +114,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "交互·被抢夺的矿石箱",
@@ -122,7 +122,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "前往·史思明营寨西北帐篷",
@@ -130,7 +130,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·边澈·返回·矿场",
@@ -144,7 +144,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "前往·汾河·汾字上方岸边",
@@ -152,7 +152,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "准备·甘草x2·对话·边澈",
@@ -160,7 +160,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "返回·霸刀山庄武器店掌柜",
@@ -174,7 +174,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 180,
 						szName = "返回·霸刀山庄武器店掌柜",
@@ -183,7 +183,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 180,
 						szName = "对话·边澈·对话·掌柜的",
@@ -192,7 +192,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 180,
 						szName = "对话·边澈·完成·太行道",
@@ -336,7 +336,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 60,
 						szName = "等待·1小时·可下线等待",
@@ -344,7 +344,7 @@ return {
 						nClass = 1,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 60,
 						szName = "上线·交互·边澈的辎重箱",
@@ -352,7 +352,7 @@ return {
 						nClass = 1,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 60,
 						szName = "上线·交互·被抢夺矿石箱",
@@ -361,7 +361,7 @@ return {
 						nClass = 1,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示4",
 						nTime = -1,
 						szName = "奇遇提示4",
@@ -370,7 +370,7 @@ return {
 						nClass = 1,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示5",
 						nTime = -1,
 						szName = "奇遇提示5",
@@ -379,7 +379,7 @@ return {
 						nClass = 1,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示6",
 						nTime = -1,
 						szName = "奇遇提示6",
@@ -388,7 +388,7 @@ return {
 						nClass = 1,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示7",
 						nTime = -1,
 						szName = "奇遇提示7",
@@ -397,7 +397,7 @@ return {
 						nClass = 1,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "交互·边澈的辎重箱",
@@ -405,7 +405,7 @@ return {
 						nClass = 2,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "交互·被抢夺矿石箱",
@@ -413,7 +413,7 @@ return {
 						nClass = 2,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "前往·史思明营寨左上方帐篷内",
@@ -435,7 +435,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 300,
 						szName = "等待·五分钟·对话·边澈",
@@ -443,7 +443,7 @@ return {
 						nClass = 1,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 300,
 						szName = "前往·汾河·汾字上方岸边",
@@ -451,7 +451,7 @@ return {
 						nClass = 1,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 300,
 						szName = "准备·甘草x2·对话·边澈",
@@ -460,7 +460,7 @@ return {
 						nClass = 1,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "前往·汾河·汾字上方岸边",
@@ -468,7 +468,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "准备·甘草x2·对话·边澈",
@@ -476,7 +476,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "返回·霸刀山庄武器店掌柜",

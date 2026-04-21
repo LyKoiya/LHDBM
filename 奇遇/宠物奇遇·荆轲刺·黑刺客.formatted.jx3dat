@@ -8,7 +8,7 @@
 					{
 						key = "奇遇提示0",
 						nClass = 14,
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = "5,恭喜触发·荆轲刺·黑刺客;15,奇遇不封印·约5分钟完成;30,1.对话九隆神丐·前往朱雀大街;60,2.出门左拐·鼓楼附近;80,3.对话林暮昭·返回长安西市;120,4.慈幼坊对面·布衫老人;160,5.返回朱雀大街·对话林暮昭;180,6.对话谈亮亮·返回长安西市;210,7.靠近胡玉楼对面杂货商严曲;240,8.待奇遇状态为富商暴毙在家中;250,9.对话林暮昭·前往朱雀大街;280,10.对话林暮昭·等待剧情;300,11.再次对话林暮昭·完成奇遇",
 						nFrame = 0,
 						nRefresh = 0,
@@ -16,7 +16,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -24,7 +24,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -32,7 +32,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -40,7 +40,7 @@
 					},
 					{
 						key = "奇遇提示4",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -48,7 +48,7 @@
 					},
 					{
 						key = "奇遇提示5",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -56,7 +56,7 @@
 					},
 					{
 						key = "奇遇提示6",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -70,7 +70,7 @@
 				tCountdown = {
 					{
 						key = "奇遇提示0",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 0,
 						nClass = 14,
@@ -78,7 +78,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 33,
 						nFrame = 7,
 						nClass = 14,
@@ -86,7 +86,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 33,
 						nFrame = 7,
 						nClass = 14,
@@ -94,7 +94,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 7,
 						nClass = 14,
@@ -102,7 +102,7 @@
 					},
 					{
 						key = "奇遇提示4",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 7,
 						nClass = 14,
@@ -110,7 +110,7 @@
 					},
 					{
 						key = "奇遇提示5",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 7,
 						nClass = 14,
@@ -118,7 +118,7 @@
 					},
 					{
 						key = "奇遇提示6",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 7,
 						nClass = 14,
