@@ -14,7 +14,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示0",
 						nTime = "5,恭喜触发·一枝栖·夭夭;15,奇遇不封印·约10分钟完成",
 						szName = "奇遇提示0",
@@ -23,7 +23,7 @@ return {
 						nFrame = 0,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·泥鳅·前往·白沙津渡",
@@ -31,7 +31,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·戴厄仁·攻击·再对话",
@@ -39,7 +39,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "前往·扬州内城·木桩区东边",
@@ -53,7 +53,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "前往·扬州内城·木桩区东边",
@@ -62,7 +62,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·欧阳禄·前往·杂货区",
@@ -71,7 +71,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·李玉芝·选项二·免费",
@@ -80,7 +80,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示4",
 						nTime = 600,
 						szName = "返回·欧阳禄·返回·枫叶泊",
@@ -95,7 +95,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 60,
 						szName = "前往·3号宅邸方向·大树下",
@@ -104,7 +104,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 60,
 						szName = "交互·小寿带鸟·完成奇遇",
@@ -113,7 +113,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 0,
 						szName = "奇遇提示3",
@@ -122,7 +122,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示4",
 						nTime = 0,
 						szName = "奇遇提示4",
@@ -138,7 +138,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示0",
 						nTime = "5,恭喜触发·一枝栖·夭夭;15,奇遇不封印·约10分钟完成",
 						szName = "奇遇提示0",
@@ -147,7 +147,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·泥鳅·前往·白沙津渡",
@@ -155,7 +155,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·戴厄仁·攻击·再对话",
@@ -163,7 +163,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "前往·扬州内城·木桩区东边",
@@ -177,7 +177,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "前往·扬州内城·木桩区东边",
@@ -186,7 +186,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·欧阳禄·前往·杂货区",
@@ -195,7 +195,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·李玉芝·选项二·免费",
@@ -204,7 +204,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示4",
 						nTime = 600,
 						szName = "返回·欧阳禄·返回·枫叶泊",
@@ -219,7 +219,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 60,
 						szName = "前往·3号宅邸方向·大树下",
@@ -228,7 +228,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 60,
 						szName = "交互·小寿带鸟·完成奇遇",
@@ -237,7 +237,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 0,
 						szName = "奇遇提示3",
@@ -246,7 +246,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示4",
 						nTime = 0,
 						szName = "奇遇提示4",
@@ -262,7 +262,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "返回·枫叶泊·1号宅邸·桥头",
@@ -271,7 +271,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "使用·鸟笼·跟随·小寿带鸟",
@@ -280,7 +280,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "前往·3号宅邸方向·大树下",
@@ -289,7 +289,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示4",
 						nTime = 600,
 						szName = "交互·小寿带鸟·完成奇遇",

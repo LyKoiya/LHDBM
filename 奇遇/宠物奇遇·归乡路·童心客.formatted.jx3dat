@@ -7,7 +7,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示0",
 						nTime = "5,恭喜触发·归乡路·小蟹·童心客;15,奇遇不封印·约15分钟完成;30,需喂养·童心客·鱼虾类饲料",
 						szName = "奇遇提示0",
@@ -16,7 +16,7 @@ return {
 						nFrame = 0,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·铸剑大师·前往·满陇东村",
@@ -24,7 +24,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·丁大力·被欺负的村民",
@@ -32,7 +32,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "前往·藏剑山庄·对话·叶薇儿",
@@ -46,7 +46,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "前往·藏剑山庄·对话·叶薇儿",
@@ -54,7 +54,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·名华嫂·返回·叶薇儿",
@@ -62,7 +62,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "前往·藏剑山庄桥上·丁大力",
@@ -70,7 +70,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示4",
 						nTime = 600,
 						szName = "返回·叶薇儿·神行·无量山",
@@ -78,7 +78,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示5",
 						nTime = 600,
 						szName = "前往·天下第一楼·梅陇镇镇民",
@@ -87,7 +87,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示6",
 						nTime = 600,
 						szName = "宇文述学·李虎子·糖葫芦贩子",
@@ -96,7 +96,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示7",
 						nTime = 600,
 						szName = "丁老爹·返回·叶薇儿·丁大力",
@@ -105,7 +105,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示8",
 						nTime = 600,
 						szName = "对话·叶薇儿·完成奇遇",

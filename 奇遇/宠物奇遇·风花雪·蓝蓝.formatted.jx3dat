@@ -7,7 +7,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示0",
 						nTime = "5,恭喜触发·风花雪·蓝蓝;15,奇遇不封印·约10分钟完成",
 						szName = "奇遇提示0",
@@ -16,7 +16,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·元五·出云寨与石林中间",
@@ -24,7 +24,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "交互·段明燕·背后山顶的光圈",
@@ -32,7 +32,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·段明燕·前往·大理山庄",
@@ -45,7 +45,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·段明燕·前往大理山庄",
@@ -53,7 +53,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "交互·段明燕·身边·光圈点",
@@ -61,7 +61,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·段明燕·前往·晚山镇",
@@ -74,7 +74,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·段明燕·前往·晚山镇",
@@ -82,7 +82,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "交互·段明燕·身边·光圈点",
@@ -90,7 +90,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·段明燕·前往溶洞入口",
@@ -103,7 +103,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·段明燕·前往溶洞入口",
@@ -111,7 +111,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "靠近·溶洞里面的石台·剧情",
@@ -119,7 +119,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·段明燕·返回·摸宠点",
@@ -132,7 +132,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 120,
 						szName = "对话·段明燕·返回·出云寨",
@@ -140,7 +140,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 120,
 						szName = "对话·元五·完成·宠物奇遇",
@@ -148,7 +148,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 120,
 						szName = "获得·风花雪·小猫咪·蓝蓝",

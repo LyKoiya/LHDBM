@@ -7,7 +7,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示0",
 						nTime = "5,恭喜触发·妖与狸·一团黑大人;15,奇遇不封印·约5分钟完成",
 						szName = "奇遇提示0",
@@ -16,7 +16,7 @@ return {
 						nFrame = 0,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·林清·对话·张大",
@@ -24,7 +24,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "交互·划痕·毛发·老鼠",
@@ -32,7 +32,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·张大·互动·杂物堆",
@@ -46,7 +46,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·张大·互动·杂物堆",
@@ -54,7 +54,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "获得·捕鼠笼·对话·张大",
@@ -62,7 +62,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "交互·光圈·使用·捕鼠笼",
@@ -75,7 +75,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "交互·捕鼠笼·对话·张大",
@@ -83,7 +83,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·林清·前往·马厩处",
@@ -91,7 +91,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·大猫·对话·林清",
@@ -105,7 +105,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "完成·宠物奇遇·妖与狸",
@@ -113,7 +113,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "获得·宠物·一团黑大人",
@@ -121,7 +121,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 0,
 						szName = "奇遇提示3",

@@ -12,7 +12,7 @@ return {
 						nTime = "5,恭喜触发·胜负局·螃胜螃负;10,宠物奖励·螃胜螃负·需要驯养;15,奇遇封印3日·每日约5分钟完成;30,1.对话·航小婷;90,2.前往·隐贤居·封博安;120,3.对话·封博安;150,4.交互·棋盘;180,5.对话·云定风;210,6.对话·封博安;220,第一日·结束",
 						szName = "奇遇提示0",
 						nRefresh = 0,
-						nIcon = 17135,
+						nIcon = 12373,
 						nClass = 14,
 					},
 					{
@@ -20,7 +20,7 @@ return {
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·航小婷·隐贤居·封博安",
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -28,7 +28,7 @@ return {
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·封博安·交互·棋盘",
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -36,7 +36,7 @@ return {
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·云定风·对话·封博安",
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 				},
@@ -52,7 +52,7 @@ return {
 						nTime = "30,4.交互·棋盘;60,5.对话·云定风;90,6.对话·封博安;100,第一日·结束",
 						szName = "奇遇提示0",
 						nRefresh = 0,
-						nIcon = 17135,
+						nIcon = 12373,
 						nClass = 14,
 					},
 					{
@@ -60,7 +60,7 @@ return {
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "交互·棋盘",
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -68,7 +68,7 @@ return {
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·云定风",
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -76,7 +76,7 @@ return {
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·封博安",
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 				},
@@ -92,7 +92,7 @@ return {
 						nTime = "30,5.对话·云定风;60,6.对话·封博安;70,第一日·结束",
 						szName = "奇遇提示0",
 						nRefresh = 0,
-						nIcon = 17135,
+						nIcon = 12373,
 						nClass = 14,
 					},
 					{
@@ -100,7 +100,7 @@ return {
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·云定风",
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -108,7 +108,7 @@ return {
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·封博安",
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -116,7 +116,7 @@ return {
 						key = "奇遇提示3",
 						nTime = 0,
 						szName = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 				},
@@ -131,7 +131,7 @@ return {
 						key = "奇遇提示0",
 						nTime = 0,
 						szName = "奇遇提示0",
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 0,
 					},
 					{
@@ -139,7 +139,7 @@ return {
 						key = "奇遇提示1",
 						nTime = 20,
 						szName = "对话·封博安·第一日·结束",
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -147,7 +147,7 @@ return {
 						key = "奇遇提示2",
 						nTime = 20,
 						szName = "第二日·前往·隐贤居",
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -155,7 +155,7 @@ return {
 						key = "奇遇提示3",
 						nTime = 20,
 						szName = "第二日·交互·棋局",
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 				},
@@ -170,7 +170,7 @@ return {
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·封博安·贺城·封博安",
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -178,7 +178,7 @@ return {
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·封博安·对话·邢簿征",
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -186,7 +186,7 @@ return {
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·云定风·对话·邢簿征",
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 				},
@@ -197,7 +197,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·邢簿征·前往·贺城东",
@@ -205,7 +205,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·云定风·获得·流云局",
@@ -213,7 +213,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "返回·邢簿征·结束·第二日",
@@ -232,7 +232,7 @@ return {
 						key = "奇遇提示1",
 						nTime = 20,
 						szName = "第二日·结束·明日七时·解封",
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -240,7 +240,7 @@ return {
 						key = "奇遇提示2",
 						nTime = 20,
 						szName = "第三日·前往·贺城东南·亭子",
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -248,7 +248,7 @@ return {
 						key = "奇遇提示3",
 						nTime = 20,
 						szName = "第三日·对话·封博安·封博安",
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 				},
@@ -263,7 +263,7 @@ return {
 						key = "奇遇提示1",
 						nTime = 300,
 						szName = "对话·封博安·等待·剧情",
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -271,7 +271,7 @@ return {
 						key = "奇遇提示2",
 						nTime = 300,
 						szName = "对话·封博安·等待·剧情",
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 				},
@@ -286,7 +286,7 @@ return {
 						key = "奇遇提示1",
 						nTime = 20,
 						szName = "对话·封博安·完成奇遇",
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -294,7 +294,7 @@ return {
 						key = "奇遇提示2",
 						nTime = 20,
 						szName = "获得·蟹胜蟹负·需驯养",
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 				},

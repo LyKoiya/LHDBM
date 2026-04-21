@@ -7,7 +7,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示0",
 						nTime = "5,恭喜触发·觅知音·聆聆;15,奇遇不封印·约10分钟完成;30,1.对话·舒归言;90,2.前往最高山·地图顶部中偏右",
 						szName = "奇遇提示0",
@@ -16,7 +16,7 @@ return {
 						nFrame = 0,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·舒归言·前往·地图顶部",
@@ -24,7 +24,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "前往·最高山·地图顶部中右方",
@@ -32,7 +32,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·乐笔芯·前往·碧霄海右",
@@ -45,7 +45,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "前往·碧霄海右·对话·轩辕灵霄",
@@ -53,7 +53,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·乐笔芯·前往·天关城",
@@ -61,7 +61,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·乐笔芯·对话·羊驼",
@@ -74,7 +74,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示0",
 						nTime = 10,
 						szName = "注意·对话·乐笔芯",
@@ -82,7 +82,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·乐笔芯·前往·天关城",
@@ -90,7 +90,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·乐笔芯·对话·羊驼",
@@ -98,7 +98,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·乐笔芯·对话·羊驼",
@@ -112,7 +112,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "前往·天关城·对话·乐笔芯",
@@ -120,7 +120,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·羊驼·对话·乐笔芯",
@@ -128,7 +128,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·羊驼·对话·乐笔芯",
@@ -141,7 +141,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·羊驼·对话·乐笔芯",
@@ -149,7 +149,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·羊驼·对话·乐笔芯",
@@ -157,7 +157,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·羊驼·对话·乐笔芯",
@@ -170,7 +170,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 60,
 						szName = "对话·乐笔芯·完成奇遇·觅知音",
@@ -178,7 +178,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 0,
 						szName = "奇遇提示2",
@@ -186,7 +186,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 0,
 						szName = "奇遇提示3",

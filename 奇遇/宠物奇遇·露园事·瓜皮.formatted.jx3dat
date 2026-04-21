@@ -7,7 +7,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示0",
 						nTime = "5,恭喜触发·露园事·瓜皮;15,奇遇不封印·约15分钟完成",
 						szName = "奇遇提示0",
@@ -16,7 +16,7 @@ return {
 						nFrame = 0,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·林云飞·前往东边木屋",
@@ -24,7 +24,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·林文·等待·剧情结束",
@@ -32,7 +32,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·林文·再对话·康宴别",
@@ -45,7 +45,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·林文·对话·康宴别",
@@ -53,7 +53,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "前往·饮露园·对话康成功",
@@ -61,7 +61,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "等待·康宴别·布置完陷阱",
@@ -75,7 +75,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "返回·康成功·前往东边小路",
@@ -83,7 +83,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·康宴别·观看动画剧情",
@@ -91,7 +91,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·康宴别·服用·灵显丹",
@@ -104,7 +104,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "交互·坑洞·若消失则左右绕",
@@ -112,7 +112,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "观看·动画剧情·返回康宴别",
@@ -120,7 +120,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "返回·瓜田处·使用·麻沸散",
@@ -133,7 +133,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "返回·康成功·对话·康宴别",
@@ -141,7 +141,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "返回·云中谷·康宴别·剧情",
@@ -149,7 +149,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·康宴别·交互·丝绒鼠",
@@ -162,7 +162,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·康宴别·交互·丝绒鼠",
@@ -170,7 +170,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·康宴别·完成·露园事",
@@ -178,7 +178,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "获得·偷瓜大盗·宠物·瓜皮",
@@ -354,7 +354,7 @@ return {
 				dwID = 17168,
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 300,
 						szName = "等待·康宴别·布置陷阱完成",
@@ -362,7 +362,7 @@ return {
 						nClass = 1,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 300,
 						szName = "对话·康成功·前往南边瓜田",
@@ -370,7 +370,7 @@ return {
 						nClass = 1,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 300,
 						szName = "交互·陷阱·返回·康成功处",
@@ -378,7 +378,7 @@ return {
 						nClass = 1,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·康成功·前往南边瓜田",
@@ -386,7 +386,7 @@ return {
 						nClass = 2,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "交互·陷进·返回·康成功处",
@@ -394,7 +394,7 @@ return {
 						nClass = 2,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "前往·东边小路·对话康宴别",
@@ -412,7 +412,7 @@ return {
 				},
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "跟随·白色烟雾·到达大树下",
@@ -420,7 +420,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "交互·坑洞·若消失则左右绕",
@@ -428,7 +428,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "观看·动画剧情·返回康宴别",

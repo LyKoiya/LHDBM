@@ -8,7 +8,7 @@
 					{
 						key = "奇遇提示0",
 						nFrame = 0,
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = "5,恭喜触发·尘网中·崽崽;15,奇遇不封印·约10分钟完成;30,1.对话·红师农;60,2.交互·两只猪仔;90,3.对话·红师农;120,4.再交互两只猪仔·对话红师农;180,5.枯木林·寻找·小猪崽·崽崽;210,6.使用小猪崽·寻找喂水点;270,7.对话红师农·返回崽崽;330,8.前往南屏山·天子峰桥下;390,9.拾取半本秘诀·返回洛道;450,10.对话红师农·使用崽崽;480,完成奇遇·尘网中·崽崽",
 						nClass = 14,
 						nRefresh = 0,
@@ -16,7 +16,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -24,7 +24,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -32,7 +32,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -47,7 +47,7 @@
 						bHold = true,
 						key = "奇遇提示0",
 						nFrame = 0,
-						nIcon = 17135,
+						nIcon = 12373,
 						nRefresh = 0,
 						nClass = 14,
 						szName = "奇遇提示0",
@@ -55,7 +55,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -64,7 +64,7 @@
 					{
 						bHold = true,
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -73,7 +73,7 @@
 					{
 						bHold = true,
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -82,7 +82,7 @@
 					{
 						bHold = true,
 						key = "奇遇提示4",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -95,7 +95,7 @@
 				tCountdown = {
 					{
 						key = "奇遇提示0",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nClass = 14,
 						nFrame = 0,
@@ -103,7 +103,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 20,
 						nClass = 14,
 						nFrame = 7,
@@ -112,7 +112,7 @@
 					{
 						bHold = false,
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nClass = 14,
 						nFrame = 7,
@@ -121,7 +121,7 @@
 					{
 						bHold = false,
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nClass = 14,
 						nFrame = 7,
@@ -130,7 +130,7 @@
 					{
 						bHold = true,
 						key = "奇遇提示4",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nClass = 14,
 						nFrame = 7,

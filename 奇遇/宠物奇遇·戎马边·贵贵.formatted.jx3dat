@@ -8,7 +8,7 @@ return {
 				szContent = "需要补全的位置已经标记。",
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 120,
 						szName = "前往·十二连环坞马贼营地·标点处",
@@ -24,7 +24,7 @@ return {
 				szContent = "需要补全的位置已经标记。",
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示4",
 						nTime = 120,
 						szName = "前往·灰岩坳·石壁·标点处",
@@ -40,7 +40,7 @@ return {
 				szContent = "需要补全的位置已经标记。",
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 120,
 						szName = "前往·玉门关·山顶·标点处",
@@ -55,7 +55,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						nRefresh = 0,
 						key = "奇遇提示0",
 						nTime = "5,恭喜触发·戎马边·贵贵;15,奇遇封印3日;30,对话白芷沅·获得未完成的地图;180,前往以下地图·使用未完成的地图;600,前往太原·怀德门·栾志辉",
@@ -65,7 +65,7 @@ return {
 						nFrame = 0,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 1200,
 						szName = "对话·白芷沅·20分钟内完成",
@@ -74,7 +74,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 1200,
 						szName = "神行·龙门荒漠·玉门关",
@@ -83,7 +83,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 1200,
 						szName = "神行·阴山大草原·沼泽驿站",
@@ -92,7 +92,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示4",
 						nTime = 1200,
 						szName = "神行·黑戈壁·黑水城",
@@ -321,7 +321,7 @@ return {
 				},
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示0",
 						nTime = 120,
 						szName = "前往·怀德门·对话·栾志辉",
@@ -330,7 +330,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示0",
 						nTime = 120,
 						szName = "封印·三天后·怀德门栾志辉",

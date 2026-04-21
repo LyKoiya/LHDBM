@@ -7,7 +7,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示0",
 						nTime = "5,恭喜触发·宠物奇遇·追光记;15,奇遇不封印·约5分钟完成;30,奖励·跟宠·光佑",
 						szName = "奇遇提示0",
@@ -16,7 +16,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·米迦尔·前往·西岭驿",
@@ -24,7 +24,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·米护·前往·西边棚子",
@@ -32,7 +32,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·博鲁·返回·神行点北",
@@ -40,7 +40,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示4",
 						nTime = 600,
 						szName = "采集·红景天·对话·博鲁",
@@ -48,7 +48,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示5",
 						nTime = 600,
 						szName = "返回·米护·对话·库尔克",
@@ -65,7 +65,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "向前·走到岩石·对话·米普",
@@ -73,7 +73,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·米护·等待·二人消失",
@@ -81,7 +81,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "返回·米迦尔·完成宠物奇遇",
@@ -89,7 +89,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示4",
 						nTime = 0,
 						szName = "奇遇提示4",
@@ -97,7 +97,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示5",
 						nTime = 0,
 						szName = "奇遇提示5",
@@ -110,7 +110,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 60,
 						szName = "对话·米护·等待·二人消失后",
@@ -118,7 +118,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 60,
 						szName = "返回·米迦尔·完成·宠物奇遇",
@@ -126,7 +126,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 60,
 						szName = "获得·宠物奇遇·追光记·光佑",

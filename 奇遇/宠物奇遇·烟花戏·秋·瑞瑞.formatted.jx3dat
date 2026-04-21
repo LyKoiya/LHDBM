@@ -8,7 +8,7 @@
 						bHold = true,
 						key = "奇遇提示0",
 						nFrame = 0,
-						nIcon = 17135,
+						nIcon = 12373,
 						nRefresh = 0,
 						nClass = 14,
 						szName = "奇遇提示0",
@@ -17,7 +17,7 @@
 					{
 						bHold = true,
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 300,
 						nFrame = 7,
 						nClass = 14,
@@ -26,7 +26,7 @@
 					{
 						bHold = true,
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 300,
 						nFrame = 7,
 						nClass = 14,
@@ -35,7 +35,7 @@
 					{
 						bHold = true,
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 300,
 						nFrame = 7,
 						nClass = 14,
@@ -52,7 +52,7 @@
 					{
 						bHold = false,
 						key = "奇遇提示0",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 0,
 						nClass = 14,
@@ -61,7 +61,7 @@
 					{
 						bHold = false,
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 7,
 						nClass = 14,
@@ -70,7 +70,7 @@
 					{
 						bHold = false,
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 7,
 						nClass = 14,
@@ -79,7 +79,7 @@
 					{
 						bHold = false,
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 7,
 						nClass = 14,
@@ -96,7 +96,7 @@
 						bHold = true,
 						key = "奇遇提示0",
 						nFrame = 0,
-						nIcon = 17135,
+						nIcon = 12373,
 						nRefresh = 0,
 						nClass = 14,
 						szName = "奇遇提示0",
@@ -105,7 +105,7 @@
 					{
 						bHold = true,
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -114,7 +114,7 @@
 					{
 						bHold = true,
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -123,7 +123,7 @@
 					{
 						bHold = true,
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,

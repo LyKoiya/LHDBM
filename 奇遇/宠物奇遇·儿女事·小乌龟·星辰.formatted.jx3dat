@@ -7,7 +7,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示0",
 						nTime = "5,恭喜触发·儿女事·小乌龟·星辰;15,奇遇不封印·约10分钟完成;45,1.对话阿秋·对话邓斌;90,2.前往怀仁斋·对话杜甫王维;120,3.前往碑铭·琴声十六法卷三·张九龄;150,4.前往翠湄居·对话崖牙;180,5.返回邓斌·获得地图和隐匿机关;210,6.打开背包使用地图;300,前往标记点·小地图有绿点",
 						szName = "奇遇提示0",
@@ -16,7 +16,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·阿秋·对话·邓斌",
@@ -24,7 +24,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "崖牙·张九龄·杜甫·王维",
@@ -32,7 +32,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "返回·邓斌·使用·地图",
@@ -46,7 +46,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示0",
 						nTime = 0,
 						szName = "奇遇提示0",
@@ -54,7 +54,7 @@ return {
 						nFrame = 0,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "前往·标记·小地图·绿点",
@@ -62,7 +62,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "使用·隐匿机关·等待剧情",
@@ -70,7 +70,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "前往·思齐书院·对话高跖",
@@ -83,7 +83,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示0",
 						nTime = "30,前往思齐书院·对话高跖;40,可提前打开快捷商城准备;60,各购买1个·[浣花笺][朱砂墨];90,可额外获得·六炉金龙丹;120,注意提交材料时选对选项",
 						szName = "奇遇提示0",
@@ -92,7 +92,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "前往·思齐书院·对话·高跖",
@@ -100,7 +100,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "等待·剧情结束·对话·高跖",
@@ -108,7 +108,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "准备·浣花笺·朱砂墨·高跖",
@@ -121,7 +121,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示0",
 						nTime = 0,
 						szName = "奇遇提示0",
@@ -129,7 +129,7 @@ return {
 						nFrame = 0,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "准备·浣花笺·朱砂墨",
@@ -137,7 +137,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·高跖·前往·御射场",
@@ -145,7 +145,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·石芊芊·返回·高跖",
@@ -158,7 +158,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 60,
 						szName = "对话·高跖·对话·邓斌",
@@ -166,7 +166,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 60,
 						szName = "完成·宠物奇遇·儿女事",
@@ -174,7 +174,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 60,
 						szName = "获得·小乌龟星辰·驯养",

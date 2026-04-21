@@ -7,7 +7,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						nRefresh = 0,
 						key = "奇遇监控0",
 						nTime = "5,恭喜触发·破巧言·蛋黄;15,奇遇不封印·约20分钟完成;30,1.对话·宋子尧·等待剧情;120,2.对话·宋子尧身后·赵诚;150,3.对话·客栈角落·大汉;180,4.返回·对话·宋子尧;300,5.前往·客栈外山崖·宋子尧;360,6.往孙易云方向走·等待剧情;420,7.前往对面山崖·对话·胡商;480,8.跟随·胡商·别跳崖;540,9.拾取·包裹·返回·客栈内;600,10.对话·宋子尧·对话·赵诚;660,11.前往·长生雪野·长生右边;720,12.两个帐篷前光圈·捕获小鸟边;780,13.使用·精致的盒子·跟随小鸟;840,13.前往·山洞·直行;900,14.对话·宋子尧·王必言;930,15.返回·客栈·闻千瞬;960,16.对话·闻千瞬·结束",
@@ -23,7 +23,7 @@ return {
 						szName = "对话·宋子尧·等待剧情",
 						bHold = true,
 						nFrame = 7,
-						nIcon = 17135,
+						nIcon = 12373,
 					},
 					{
 						nClass = 14,
@@ -32,7 +32,7 @@ return {
 						szName = "对话·宋子尧身后·赵诚",
 						bHold = true,
 						nFrame = 7,
-						nIcon = 17135,
+						nIcon = 12373,
 					},
 					{
 						nClass = 14,
@@ -41,7 +41,7 @@ return {
 						szName = "对话·客栈角落·大汉",
 						bHold = true,
 						nFrame = 7,
-						nIcon = 17135,
+						nIcon = 12373,
 					},
 				},
 				szTarget = "宋子尧",
@@ -56,7 +56,7 @@ return {
 						nTime = 600,
 						szName = "对话·宋子尧身后·赵诚",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -65,7 +65,7 @@ return {
 						nTime = 600,
 						szName = "对话·客栈角落·大汉",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -74,7 +74,7 @@ return {
 						nTime = 600,
 						szName = "返回·对话·宋子尧",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 				},
@@ -84,7 +84,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 0,
 						key = "奇遇监控0",
 						nTime = "30,4.返回·对话·宋子尧;150,5.前往·客栈外山崖·宋子尧;240,6.往孙易云方向走·等待剧情;300,7.前往对面山崖·对话·胡商;480,8.跟随·胡商·别跳崖;540,9.拾取·包裹·返回·客栈内;600,10.对话·宋子尧·对话·赵诚;660,11.前往·长生雪野·长生右边;720,12.两个帐篷前光圈·捕获小鸟边;780,13.使用·精致的盒子·跟随小鸟;840,13.前往·山洞·直行;900,14.对话·宋子尧·王必言;930,15.返回·客栈·闻千瞬;960,16.对话·闻千瞬·结束",
@@ -100,7 +100,7 @@ return {
 						szName = "返回·对话·宋子尧",
 						bHold = true,
 						nFrame = 7,
-						nIcon = 17135,
+						nIcon = 12373,
 					},
 					{
 						nClass = 14,
@@ -109,7 +109,7 @@ return {
 						szName = "前往·客栈外山崖·宋子尧",
 						bHold = true,
 						nFrame = 7,
-						nIcon = 17135,
+						nIcon = 12373,
 					},
 					{
 						nClass = 14,
@@ -118,7 +118,7 @@ return {
 						szName = "往孙易云方向走·等待剧情",
 						bHold = true,
 						nFrame = 7,
-						nIcon = 17135,
+						nIcon = 12373,
 					},
 				},
 				szContent = "这王二很可疑！回去找宋子尧再商讨商讨。",
@@ -133,7 +133,7 @@ return {
 						szName = "等待剧情·前往对面山崖",
 						bHold = true,
 						nFrame = 7,
-						nIcon = 17135,
+						nIcon = 12373,
 					},
 					{
 						nClass = 14,
@@ -142,7 +142,7 @@ return {
 						szName = "大石头后·等假药商人·胡商",
 						bHold = true,
 						nFrame = 7,
-						nIcon = 17135,
+						nIcon = 12373,
 					},
 					{
 						nClass = 14,
@@ -151,7 +151,7 @@ return {
 						szName = "对话·假药商人·胡商",
 						bHold = true,
 						nFrame = 7,
-						nIcon = 17135,
+						nIcon = 12373,
 					},
 				},
 				szTarget = "孙易云",
@@ -166,7 +166,7 @@ return {
 						nTime = 600,
 						szName = "前往对面山崖·大石头后",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -175,7 +175,7 @@ return {
 						nTime = 600,
 						szName = "等假药商人·胡商",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -184,7 +184,7 @@ return {
 						nTime = 600,
 						szName = "对话·假药商人·胡商",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 				},
@@ -199,7 +199,7 @@ return {
 						nTime = 600,
 						szName = "跟随·胡商·别跳崖",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -208,7 +208,7 @@ return {
 						nTime = 600,
 						szName = "拾取·包裹·返回·客栈内",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -217,7 +217,7 @@ return {
 						nTime = 600,
 						szName = "对话·宋子尧·对话·赵诚",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 				},
@@ -227,7 +227,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						nRefresh = 0,
 						key = "奇遇监控0",
 						nTime = "30,9.拾取·包裹·返回·客栈内;60,10.对话·宋子尧·对话·赵诚;120,11.前往·长生雪野·长生右边;240,12.两个帐篷前光圈·捕获小鸟边;360,13.使用·精致的盒子·跟随小鸟;420,13.前往·山洞·直行;480,14.对话·宋子尧·王必言;540,15.返回·客栈·闻千瞬;600,16.对话·闻千瞬·结束",
@@ -242,7 +242,7 @@ return {
 						nTime = 600,
 						szName = "拾取·包裹·返回·客栈内",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -251,7 +251,7 @@ return {
 						nTime = 600,
 						szName = "对话·宋子尧·对话·赵诚",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -260,7 +260,7 @@ return {
 						nTime = 600,
 						szName = "对话·宋子尧·前往长生雪野",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 				},
@@ -275,7 +275,7 @@ return {
 						nTime = 600,
 						szName = "前往·长生雪野·长生右边",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -284,7 +284,7 @@ return {
 						nTime = 600,
 						szName = "两个帐篷前·光圈·捕获小鸟",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -293,7 +293,7 @@ return {
 						nTime = 600,
 						szName = "使用·精致的盒子·跟随小鸟",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 				},
@@ -304,7 +304,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 0,
 						key = "奇遇提示0",
 						nTime = "120,13.使用·精致的盒子·跟随小鸟;180,13.前往·山洞·直行;210,14.对话·宋子尧·王必言;240,15.返回·客栈·闻千瞬;300,16.对话·闻千瞬·结束",
@@ -319,7 +319,7 @@ return {
 						nTime = 600,
 						szName = "与小鸟·保持4-15尺",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -328,7 +328,7 @@ return {
 						nTime = 600,
 						szName = "山洞在·生字左侧",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -337,7 +337,7 @@ return {
 						nTime = 600,
 						szName = "前往·山洞·直行",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 				},
@@ -352,7 +352,7 @@ return {
 						nTime = 600,
 						szName = "山洞在·生字左侧",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -361,7 +361,7 @@ return {
 						nTime = 600,
 						szName = "前往·山洞·直行",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -370,7 +370,7 @@ return {
 						nTime = 600,
 						szName = "对话·宋子尧·王必言",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 				},
@@ -648,7 +648,7 @@ return {
 						szName = "奇遇提示0",
 						bHold = true,
 						nFrame = 0,
-						nIcon = 17135,
+						nIcon = 12373,
 					},
 					{
 						nClass = 4,
@@ -657,7 +657,7 @@ return {
 						szName = "返回·客栈·闻千瞬",
 						bHold = true,
 						nFrame = 7,
-						nIcon = 17135,
+						nIcon = 12373,
 					},
 					{
 						nClass = 4,
@@ -666,7 +666,7 @@ return {
 						szName = "对话·闻千瞬·结束",
 						bHold = true,
 						nFrame = 7,
-						nIcon = 17135,
+						nIcon = 12373,
 					},
 					{
 						nClass = 4,
@@ -675,7 +675,7 @@ return {
 						szName = "奇遇提示3",
 						bHold = true,
 						nFrame = 7,
-						nIcon = 17135,
+						nIcon = 12373,
 					},
 				},
 			},
@@ -713,7 +713,7 @@ return {
 						nTime = 0,
 						szName = "奇遇提示0",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 0,
 					},
 					{
@@ -722,7 +722,7 @@ return {
 						nTime = 0,
 						szName = "奇遇提示1",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 					{
@@ -731,7 +731,7 @@ return {
 						nTime = 0,
 						szName = "奇遇提示2",
 						bHold = true,
-						nIcon = 17135,
+						nIcon = 12373,
 						nFrame = 7,
 					},
 				},
