@@ -8,7 +8,7 @@
 					{
 						key = "奇遇提示0",
 						nFrame = 0,
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = "5,恭喜触发·侠者成歌;15,奇遇不封印·约10分钟完成;30,1.对话封演·前往晟江茶馆;120,2.对话纪小橙·前往兴威寨;150,3.靠近司空淮·攻击喽啰;160,4.对话司空淮·前往白菰里;210,5.名望区域信使旁·寻找苏舒;240,6.进入光圈·对话苏舒;420,7.对话苏舒·等待剧情;450,8.返回黄槲镇·对话封演;470,完成奇遇·侠者成歌",
 						nClass = 14,
 						nRefresh = 0,
@@ -16,7 +16,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -24,7 +24,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -32,7 +32,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -47,7 +47,7 @@
 					{
 						key = "奇遇提示0",
 						nClass = 14,
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = "10,4.对话司空淮·前往白菰里;60,5.名望区域信使旁·寻找苏舒;90,6.进入光圈·对话苏舒;270,7.对话苏舒·等待剧情;300,8.返回黄槲镇·对话封演;320,完成奇遇·侠者成歌",
 						nFrame = 0,
 						nRefresh = 0,
@@ -55,7 +55,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -63,7 +63,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -71,7 +71,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -86,7 +86,7 @@
 					{
 						key = "奇遇提示0",
 						nClass = 14,
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = "30,6.进入光圈·对话苏舒;210,7.对话苏舒·等待剧情;240,8.返回黄槲镇·对话封演;260,完成奇遇·侠者成歌",
 						nFrame = 0,
 						nRefresh = 0,
@@ -94,7 +94,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -102,7 +102,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -110,7 +110,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -124,7 +124,7 @@
 					{
 						key = "奇遇提示0",
 						nClass = 14,
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = "30,8.返回黄槲镇·对话封演;50,完成奇遇·侠者成歌",
 						nFrame = 0,
 						nRefresh = 0,
@@ -132,7 +132,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = 60,
 						nClass = 14,
 						nFrame = 7,
@@ -140,7 +140,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = 60,
 						nClass = 14,
 						nFrame = 7,
@@ -148,7 +148,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = 0,
 						nClass = 14,
 						nFrame = 7,
@@ -164,7 +164,7 @@
 					{
 						bHold = true,
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = 60,
 						nClass = 14,
 						nFrame = 7,
@@ -173,7 +173,7 @@
 					{
 						bHold = true,
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = 60,
 						nClass = 14,
 						nFrame = 7,

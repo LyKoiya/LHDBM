@@ -7,7 +7,7 @@
 				tCountdown = {
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -15,7 +15,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -23,7 +23,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -37,7 +37,7 @@
 				tCountdown = {
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = 30,
 						nClass = 14,
 						nFrame = 7,
@@ -45,7 +45,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = 0,
 						nClass = 14,
 						nFrame = 7,
@@ -53,7 +53,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12371,
 						nTime = 0,
 						nClass = 14,
 						nFrame = 7,
