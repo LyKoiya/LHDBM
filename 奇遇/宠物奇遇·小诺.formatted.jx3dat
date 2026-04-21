@@ -5,7 +5,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 300,
 						szName = "收集·芹菜5个·悬崖下面",
@@ -13,7 +13,7 @@ return {
 						nClass = 20,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 300,
 						szName = "返回·高大胖·获得烤羊腿",
@@ -21,7 +21,7 @@ return {
 						nClass = 20,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 300,
 						szName = "交互·火堆·对话·高大胖",
@@ -35,7 +35,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 300,
 						szName = "前往·卧龙丘·三岔口·小诺",
@@ -43,7 +43,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 300,
 						szName = "先将烤羊腿给小诺·不给武大豪",
@@ -51,7 +51,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 300,
 						szName = "否则返回高大胖重新获取烤羊腿",
@@ -65,7 +65,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 300,
 						szName = "第一处·龙隐村·左下角",
@@ -73,7 +73,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 300,
 						szName = "第二处·卧龙坡·右上角",
@@ -81,7 +81,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 300,
 						szName = "第三处·卧龙丘·左中间",
@@ -95,7 +95,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 60,
 						szName = "前往·听风崖·下面和山顶",
@@ -103,7 +103,7 @@ return {
 						nClass = 20,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 60,
 						szName = "采摘·稀有的草药·3份",
@@ -111,7 +111,7 @@ return {
 						nClass = 20,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 60,
 						szName = "返回·武大豪·交互小诺",
@@ -130,7 +130,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 300,
 						szName = "返回·高大胖·再取·烤羊腿",
@@ -138,7 +138,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 300,
 						szName = "前往·卧龙丘·对话·武大豪",
@@ -146,7 +146,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 300,
 						szName = "修理·三处·捕收夹·武大豪",
@@ -160,7 +160,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 300,
 						szName = "等待·剧情结束·对话·小诺",
@@ -168,7 +168,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 300,
 						szName = "前往·卧龙丘·对话·武大豪",
@@ -176,7 +176,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 300,
 						szName = "任务·寻药救小诺·日常10天",

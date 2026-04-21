@@ -13,10 +13,10 @@ return {
 						szName = "奇遇提示0",
 						nRefresh = 0,
 						nFrame = 0,
-						nIcon = 17135,
+						nIcon = 12373,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·老不知·天罚林·莫清尘",
@@ -24,7 +24,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·莫清尘·寻找·水井",
@@ -32,7 +32,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "对话·莫清尘·寻找·净水",
@@ -52,10 +52,10 @@ return {
 						szName = "奇遇提示0",
 						nRefresh = 0,
 						nClass = 14,
-						nIcon = 17135,
+						nIcon = 12373,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "水井在东北方·泥娃娃树下",
@@ -63,7 +63,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "使用·一只小陶罐",
@@ -71,7 +71,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "返回·莫清尘·对话·墨漓",
@@ -91,10 +91,10 @@ return {
 						szName = "奇遇提示0",
 						nRefresh = 0,
 						nFrame = 0,
-						nIcon = 17135,
+						nIcon = 12373,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "前往·洛道上游瀑布·打水",
@@ -102,7 +102,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "返回·墨漓·对话·莫清尘",
@@ -110,7 +110,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "寻找·小泥娃娃·东北方向",
@@ -130,10 +130,10 @@ return {
 						szName = "奇遇提示0",
 						nRefresh = 0,
 						nClass = 14,
-						nIcon = 17135,
+						nIcon = 12373,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·莫清尘·寻找·小泥娃娃",
@@ -141,7 +141,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·莫清尘·对话·小貂儿",
@@ -149,7 +149,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "赎罪林桥下·墨漓·返回莫清尘",
@@ -157,7 +157,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示4",
 						nTime = 600,
 						szName = "返回·墨漓·返回·莫清尘",
@@ -165,7 +165,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示5",
 						nTime = 600,
 						szName = "返回·老不知·返回·莫清尘",
@@ -179,7 +179,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示0",
 						nTime = 10,
 						szName = "完成奇遇·红衣歌·红绸",
@@ -187,7 +187,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 0,
 						szName = "奇遇提示1",
@@ -195,7 +195,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 0,
 						szName = "奇遇提示2",
@@ -203,7 +203,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 0,
 						szName = "奇遇提示3",
@@ -211,7 +211,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示4",
 						nTime = 0,
 						szName = "奇遇提示4",
@@ -219,7 +219,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示5",
 						nTime = 0,
 						szName = "奇遇提示5",

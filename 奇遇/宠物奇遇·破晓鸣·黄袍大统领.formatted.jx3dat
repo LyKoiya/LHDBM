@@ -8,7 +8,7 @@
 					{
 						key = "奇遇提示0",
 						nFrame = 0,
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = "5,恭喜触发·破晓鸣·黄袍大统领;15,奇遇不封印·约10分钟完成;30,1.对话·猫猫;90,2.前往·车夫附近·韩惜辰;120,3.东边·椰子树下·诱捕的工具;150,4.交互·笼子·公鸡;210,5.前往·东侧·菊池岛;240,6.对话·一个晕倒的人;270,7.返回·韩惜辰·返回菊池岛;300,8.对话·顾释;310,完成奇遇·破晓鸣·黄袍大统领",
 						nClass = 14,
 						nRefresh = 0,
@@ -16,7 +16,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -24,7 +24,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -32,7 +32,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -46,7 +46,7 @@
 					{
 						key = "奇遇提示0",
 						nClass = 14,
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = "30,6.对话·一个晕倒的人;60,7.返回·韩惜辰·返回菊池岛;120,8.对话·顾释;130,完成奇遇·破晓鸣·黄袍大统领",
 						nFrame = 0,
 						nRefresh = 0,
@@ -54,7 +54,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -62,7 +62,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -70,7 +70,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -291,7 +291,7 @@
 				tCountdown = {
 					{
 						key = "奇遇提示0",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nClass = 4,
 						nFrame = 0,
@@ -299,7 +299,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 60,
 						nClass = 3,
 						nFrame = 7,
@@ -307,7 +307,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 10,
 						nClass = 4,
 						nFrame = 7,
@@ -315,7 +315,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nClass = 4,
 						nFrame = 7,
@@ -323,7 +323,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nClass = 4,
 						nFrame = 7,

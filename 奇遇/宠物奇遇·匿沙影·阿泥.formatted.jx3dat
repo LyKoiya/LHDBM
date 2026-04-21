@@ -8,7 +8,7 @@ return {
 				szContent = "阿什利戳了戳你。",
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示0",
 						nTime = "5,恭喜触发·匿沙影·阿泥;15,奇遇不封印·约5分钟完成",
 						szName = "奇遇提示0",
@@ -17,7 +17,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "对话·阿什利·等待·捉迷藏",
@@ -25,7 +25,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·阿什利·对话·阿泥",
@@ -33,7 +33,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "跟随·阿泥·阿泥的痕迹",
@@ -58,7 +58,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 600,
 						szName = "跟随·阿泥·阿泥的痕迹",
@@ -66,7 +66,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 600,
 						szName = "对话·阿泥·沿着峡谷走",
@@ -74,7 +74,7 @@ return {
 						nFrame = 7,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 600,
 						szName = "等待剧情·对话·阿什利",
@@ -87,7 +87,7 @@ return {
 			{
 				tCountdown = {
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示1",
 						nTime = 120,
 						szName = "等待·剧情·对话·阿什利",
@@ -95,7 +95,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示2",
 						nTime = 120,
 						szName = "前往·伊吾城·东门·车夫",
@@ -103,7 +103,7 @@ return {
 						nClass = 14,
 					},
 					{
-						nIcon = 17135,
+						nIcon = 12373,
 						key = "奇遇提示3",
 						nTime = 120,
 						szName = "对话·宋怀预·对话·阿什利",

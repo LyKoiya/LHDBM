@@ -8,7 +8,7 @@
 					{
 						key = "奇遇提示0",
 						nClass = 14,
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = "5,恭喜触发·寓天涯·莓莓;15,奇遇不封印·约10分钟完成;30,1.对话·附近·老书生;90,2.前往·流木村·阿玉;150,3.前往·白水村·对话·老书生;210,4.礼礼附近黄圈·寻找海螺壳;240,5.返回白水村·交互莓莓;300,6.进入老书生家里等待剧情;330,7.杂货商卢芦取药返回老书生;360,8.附近靠近阿玉等待剧情;420,9.返回老书生家里等待剧情;440,完成奇遇·寓天涯·莓莓",
 						nFrame = 0,
 						nRefresh = 0,
@@ -16,7 +16,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -24,7 +24,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -32,7 +32,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -40,7 +40,7 @@
 					},
 					{
 						key = "奇遇提示4",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -55,7 +55,7 @@
 					{
 						key = "奇遇提示0",
 						nFrame = 0,
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = "60,6.进入老书生家里等待剧情;90,7.杂货商卢芦取药返回老书生;120,8.附近靠近阿玉等待剧情;180,9.返回老书生家里等待剧情;200,完成奇遇·寓天涯·莓莓",
 						nClass = 14,
 						nRefresh = 0,
@@ -63,7 +63,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -71,7 +71,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -79,7 +79,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -87,7 +87,7 @@
 					},
 					{
 						key = "奇遇提示4",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nFrame = 7,
 						nClass = 14,
@@ -102,7 +102,7 @@
 					{
 						key = "奇遇提示0",
 						nClass = 14,
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = "30,7.杂货商卢芦取药返回老书生;90,8.附近靠近阿玉等待剧情;120,9.返回老书生家里等待剧情;140,完成奇遇·寓天涯·莓莓",
 						nFrame = 0,
 						nRefresh = 0,
@@ -110,7 +110,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -118,7 +118,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -126,7 +126,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 600,
 						nClass = 14,
 						nFrame = 7,
@@ -134,7 +134,7 @@
 					},
 					{
 						key = "奇遇提示4",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nClass = 14,
 						nFrame = 7,
@@ -149,7 +149,7 @@
 					{
 						key = "奇遇提示0",
 						nFrame = 0,
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = "90,9.返回老书生家里等待剧情;110,完成奇遇·寓天涯·莓莓",
 						nClass = 14,
 						nRefresh = 0,
@@ -157,7 +157,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 120,
 						nFrame = 7,
 						nClass = 14,
@@ -165,7 +165,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 7,
 						nClass = 14,
@@ -173,7 +173,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nFrame = 7,
 						nClass = 14,
@@ -187,7 +187,7 @@
 				tCountdown = {
 					{
 						key = "奇遇提示0",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nClass = 14,
 						nFrame = 0,
@@ -195,7 +195,7 @@
 					},
 					{
 						key = "奇遇提示1",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 20,
 						nClass = 14,
 						nFrame = 7,
@@ -203,7 +203,7 @@
 					},
 					{
 						key = "奇遇提示2",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nClass = 14,
 						nFrame = 7,
@@ -211,7 +211,7 @@
 					},
 					{
 						key = "奇遇提示3",
-						nIcon = 17135,
+						nIcon = 12373,
 						nTime = 0,
 						nClass = 14,
 						nFrame = 7,
