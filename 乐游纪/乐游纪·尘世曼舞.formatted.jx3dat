@@ -20,8 +20,8 @@ return {
 						nTime = 30,
 						szName = "乐游币·{$1} / {$2}",
 						nRefresh = 2,
-						nIcon = 18651,
 						nFrame = 4,
+						nIcon = 18651,
 					},
 					{
 						nClass = 14,
@@ -36,8 +36,8 @@ return {
 						nTime = 30,
 						szName = "乐游币·已达上限",
 						nRefresh = 1,
-						nIcon = 18651,
 						nFrame = 2,
+						nIcon = 18651,
 					},
 				},
 				bReg = true,
@@ -61,8 +61,8 @@ return {
 						nTime = 30,
 						szName = "乐游币·{$1} / {$2}",
 						nRefresh = 2,
-						nIcon = 18651,
 						nFrame = 4,
+						nIcon = 18651,
 					},
 					{
 						nClass = 14,
@@ -77,8 +77,8 @@ return {
 						nTime = 30,
 						szName = "乐游币·已达上限",
 						nRefresh = 1,
-						nIcon = 18651,
 						nFrame = 2,
+						nIcon = 18651,
 					},
 				},
 				bReg = true,
@@ -88,42 +88,6 @@ return {
 	},
 	NPC = {
 		[632] = {
-			{
-				nFrame = 47,
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 108182,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "乐游纪·乔源智",
-				[3] = {
-					bScreenHead = true,
-				},
-			},
 			{
 				nFrame = 47,
 				aFocus = {
@@ -152,17 +116,17 @@ return {
 				szNote = "乐游纪·乐小天",
 				dwID = 120620,
 			},
-		},
-		[583] = {
 			{
 				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
+				col = {
+					0,
+					255,
+					0,
 				},
 				dwID = 108182,
 				aFocus = {
 					{
-						szDisplay = "",
+						szDisplay = "乔源智·接引使",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
@@ -184,12 +148,12 @@ return {
 					},
 				},
 				szNote = "乐游纪·乔源智",
-				col = {
-					0,
-					255,
-					0,
+				[3] = {
+					bScreenHead = true,
 				},
 			},
+		},
+		[583] = {
 			{
 				dwID = 120620,
 				aFocus = {
@@ -330,6 +294,70 @@ return {
 				szNote = "乐游纪·田葡萄",
 				dwID = 108301,
 			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 108182,
+				aFocus = {
+					{
+						szDisplay = "乔源智·接引使",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "乐游纪·乔源智",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				dwID = 60220,
+				aFocus = {
+					{
+						szDisplay = "庄千山·接引人",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 15,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "乐游纪·庄千山",
+			},
 		},
 		[-2] = {
 			{
@@ -375,7 +403,7 @@ return {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1759429071,
+		nTimeStamp = 1776855914,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
