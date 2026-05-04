@@ -7,7 +7,6 @@ return {
 		[122] = {
 			{
 				nFrame = 47,
-				dwID = 137302,
 				aFocus = {
 					{
 						szDisplay = "",
@@ -32,10 +31,10 @@ return {
 					},
 				},
 				szNote = "Áú¿û",
+				dwID = 137302,
 			},
 			{
 				nFrame = 47,
-				dwID = 137294,
 				aFocus = {
 					{
 						szDisplay = "",
@@ -60,6 +59,36 @@ return {
 					},
 				},
 				szNote = "Áú¿û",
+				dwID = 137294,
+			},
+			{
+				nFrame = 47,
+				dwID = 137337,
+				aFocus = {
+					{
+						szDisplay = "¹âÈ¦¡¤Ë«½£Ïà·ê",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "Ë«½£Ïà·ê¡¤¹âÈ¦",
+				szName = "¹âÈ¦¡¤Ë«½£Ïà·ê",
 			},
 			{
 				nFrame = 47,
@@ -102,6 +131,78 @@ return {
 				[3] = {
 					bScreenHead = true,
 				},
+				dwID = 137348,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "Ë«½£Ïà·ê¡¤¾°Ìì",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 137299,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "¾°Ìì",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
 				dwID = 137292,
 				aFocus = {
 					{
@@ -133,6 +234,65 @@ return {
 					0,
 				},
 			},
+			{
+				nFrame = 47,
+				dwID = 137301,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "ÖØÂ¥",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 137345,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "ÖØÂ¥",
+			},
 		},
 	},
 	DEBUFF = {},
@@ -140,12 +300,77 @@ return {
 		szServer = "Î¨ÎÒ¶À×ð",
 		szAuthor = "ºÉ»¨Àð",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1777200193,
+		nTimeStamp = 1777557325,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
 	DOODAD = {
 		[122] = {
+			{
+				dwID = 11714,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[17] = {
+					bScreenHead = true,
+				},
+				szNote = "Ä§½£",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 11815,
+				aFocus = {
+					{
+						szDisplay = "ÆÆ¾ÉµÄºø¡¤ºì³¾²»¶É",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "ÆÆ¾ÉµÄºø",
+			},
 			{
 				[17] = {
 					bScreenHead = true,
@@ -180,36 +405,6 @@ return {
 					},
 				},
 				szNote = "¹Å¶­»õµ¥",
-			},
-			{
-				dwID = 11714,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				[17] = {
-					bScreenHead = true,
-				},
-				szNote = "Ä§½£",
 			},
 		},
 	},
