@@ -1,0 +1,501 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[-2] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 12372,
+						key = "奇遇提示0",
+						nTime = 30,
+						szName = "触发·绝世奇遇·三尺青锋",
+						nRefresh = 600,
+						nFrame = 0,
+						nClass = 14,
+					},
+					{
+						nIcon = 12372,
+						key = "奇遇提示1",
+						nTime = 30,
+						szName = "主城·任务区·对话叶泊秋",
+						nRefresh = 600,
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "旁边的老者似乎在叫你。",
+				szNote = "触发·绝世奇遇·三尺青峰",
+			},
+		},
+		[49] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 12372,
+						key = "奇遇提示",
+						nTime = "300,奇遇·三尺青锋·等待剧情;310,三尺青锋·对话·叶泊秋",
+						szName = "三尺青锋·等待剧情",
+						nRefresh = 600,
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "你等速速前去禀告二庄主，请他带人查阅我藏剑典籍，查找天外陨石熔炼之法！",
+				szTarget = "叶泊秋",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 12372,
+						key = "奇遇提示",
+						nTime = -2,
+						szName = "奇遇提示",
+						nClass = 14,
+					},
+					{
+						nIcon = 12372,
+						key = "奇遇提示",
+						nTime = "30,对话·叶芳忠·一直加火;900,原地挂机·等待叶晖;1200,原地挂机·等待叶晖;1210,对话叶晖·选择橙武 ",
+						szName = "三尺青锋·等待剧情",
+						nRefresh = 1210,
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "剑庐的叶芳忠乃我叶家控火第一人，少侠快协助他控制炉火吧",
+				szTarget = "叶泊秋",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "奇遇提示",
+						nTime = -1,
+						szName = "奇遇提示",
+						nRefresh = 99999,
+						nIcon = 12372,
+					},
+				},
+				szNote = "完成奇遇·三尺青锋",
+				szContent = "好剑！",
+				szTarget = "叶晖",
+			},
+		},
+		[-1] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 12372,
+						key = "奇遇提示",
+						nTime = -2,
+						szName = "奇遇提示",
+						nClass = 14,
+					},
+				},
+				szContent = "原来是天外陨石，去融天岭探听下消息。",
+				szTarget = "%",
+			},
+		},
+	},
+	NPC = {
+		[2] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "僧一行·三尺青锋",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "三尺青锋·僧一行",
+				dwID = 100,
+			},
+		},
+		[103] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "伊图·三尺青锋",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "三尺青锋·伊图",
+				dwID = 7857,
+			},
+		},
+		[-2] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 43747,
+				aFocus = {
+					{
+						szDisplay = "叶泊秋·三尺青锋",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 120,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "三尺青锋·叶泊秋",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+		},
+		[105] = {
+			{
+				nFrame = 50,
+				aFocus = {
+					{
+						szDisplay = "蝴蝶·三尺青锋",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "三尺青锋·蝴蝶",
+				dwID = 43712,
+			},
+		},
+		[49] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "叶泊秋·三尺青锋",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "三尺青锋·叶泊秋",
+				dwID = 6650,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "叶芳忠·三尺青锋",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "三尺青锋·叶芳忠",
+				dwID = 6671,
+			},
+			{
+				nFrame = 47,
+				dwID = 43804,
+				aFocus = {
+					{
+						szDisplay = "叶晖·三尺青锋",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "三尺青锋·叶晖",
+			},
+		},
+		[150] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "何方易·三尺青锋",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "三尺青锋·何方易",
+				dwID = 43328,
+			},
+		},
+		[10] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "孟韩·三尺青锋",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "三尺青锋·孟韩",
+				dwID = 1266,
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1778255609,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[150] = {
+			{
+				dwID = 5201,
+				aFocus = {
+					{
+						szDisplay = "许愿灯·三尺青锋",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 120,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "三尺青锋·许愿灯",
+			},
+		},
+		[10] = {
+			{
+				dwID = 5298,
+				aFocus = {
+					{
+						szDisplay = "孟母尸体·三尺青锋",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "三尺青锋·孟母尸体",
+			},
+			{
+				dwID = 5297,
+				aFocus = {
+					{
+						szDisplay = "孟父尸体·三尺青锋",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "三尺青锋·孟父尸体",
+			},
+			{
+				dwID = 5233,
+				aFocus = {
+					{
+						szDisplay = "藏起来的宝藏·三尺青锋",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "三尺青锋藏起来的宝藏",
+			},
+		},
+	},
+}
