@@ -390,7 +390,7 @@ return {
 							bEnemy = false,
 						},
 						dwMapID = -1,
-						nMaxDistance = 20,
+						nMaxDistance = 30,
 						tLife = {
 							szOperator = ">",
 							nValue = 0,
