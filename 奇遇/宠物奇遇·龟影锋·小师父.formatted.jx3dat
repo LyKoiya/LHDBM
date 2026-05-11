@@ -144,89 +144,6 @@ return {
 				szNote = "完成·宠物奇遇·龟影锋·小师父",
 			},
 		},
-		[419] = {
-			{
-				szContent = "前往饮露峡寻找唐幺曲。",
-			},
-			{
-				szContent = "唐幺曲还有话要说。",
-			},
-			{
-				szContent = "唐幺曲大谈以龟为师，陆龟已往上游河对岸去了，快跟上。",
-			},
-			{
-				szContent = "唐幺曲有新的发现。",
-			},
-			{
-				szContent = "可与周遭环境互动，向唐幺曲示范从而点出“龟道”。",
-			},
-			{
-				szContent = "旁边水流似乎有些异动",
-			},
-			{
-				szContent = "唐幺曲等着你的观察结果",
-			},
-			{
-				szContent = "狐狸突然出现了！唐幺曲有话要说。",
-			},
-			{
-				szContent = "打闹起来了，快去看看！",
-			},
-			{
-				szContent = "……对方攻势最猛时，陆龟小师父反而不动，对方一懈，它便走了！",
-				szTarget = "唐幺曲",
-			},
-			{
-				szContent = "这哪里是忍，这是……这是在看空子！",
-				szTarget = "唐幺曲",
-			},
-			{
-				szContent = "小师父悄悄离去，唐幺曲有话要说！",
-			},
-			{
-				szContent = "不妨留心周遭草木，或许另有发现。",
-			},
-			{
-				szContent = "旁边石头似乎有些异动",
-			},
-			{
-				szContent = "唐幺曲似乎有话要说",
-			},
-			{
-				szContent = "陆龟往山道方向踱去，快追上看看。",
-			},
-			{
-				szContent = "饮露峡机关遍布，凶险异常，闲杂人等速速离开，莫要在此逗留！",
-				szTarget = "唐管事",
-			},
-			{
-				szContent = "唐管事，有我在，不碍事的。",
-				szTarget = "唐门侍女",
-			},
-			{
-				szContent = "......那便罢，但饮露峡不宜久留，还请早些离去。",
-				szTarget = "唐管事",
-			},
-			{
-				szContent = "（视线落在陆龟身上，微微停驻）",
-				szTarget = "唐门侍女",
-			},
-			{
-				szContent = "唐幺曲似乎有话要说。",
-			},
-			{
-				szContent = "唐幺曲向侍女求证关于“小师父”的传闻。",
-			},
-			{
-				szContent = "侍女细说“小师父”的传闻。",
-			},
-			{
-				szContent = "侍女有话要说。",
-			},
-			{
-				szContent = "唐幺曲想起了什么。",
-			},
-		},
 	},
 	NPC = {
 		[122] = {
@@ -385,7 +302,7 @@ return {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1778511179,
+		nTimeStamp = 1778511379,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
