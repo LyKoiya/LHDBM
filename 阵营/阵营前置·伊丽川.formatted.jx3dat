@@ -27,13 +27,13 @@ return {
 						nTime = "10,恶人·击退郝德;300,郝德·刷新剩余;310,郝德·已经刷新",
 						szName = "郝德·刷新剩余",
 						nRefresh = 0,
-						nIcon = 13,
 						nFrame = 3,
+						nIcon = 13,
 					},
 				},
+				szNote = "恶人谷·击退·郝德",
 				szContent = "在恶人谷精英的协助下，首道成功击退了郝德。\
 ",
-				szNote = "郝德·被击退",
 				col = {
 					255,
 					100,
@@ -48,13 +48,13 @@ return {
 						nTime = "10,浩气·击退首道;300,首道·刷新剩余;310,首道·已经刷新",
 						szName = "首道·刷新剩余",
 						nRefresh = 0,
-						nFrame = 7,
 						nIcon = 13,
+						nFrame = 7,
 					},
 				},
+				szNote = "浩气盟·击退·首道",
 				szContent = "在浩气盟精英的协助下，郝德成功击退了首道。\
 ",
-				szNote = "首道·被击退",
 				col = {
 					100,
 					100,
@@ -64,7 +64,30 @@ return {
 		},
 	},
 	CASTING = {},
-	TALK = {},
+	TALK = {
+		[713] = {
+			{
+				szContent = "在恶人谷精英的协助下，首道成功击退了郝德。",
+				col = {
+					255,
+					100,
+					100,
+				},
+				szNote = "浩气盟·郝德·被击退",
+				szTarget = "%",
+			},
+			{
+				szContent = "在浩气盟精英的协助下，郝德成功击退了首道。",
+				col = {
+					100,
+					100,
+					255,
+				},
+				szNote = "恶人谷·首道·被击退",
+				szTarget = "%",
+			},
+		},
+	},
 	NPC = {
 		[713] = {
 			{
@@ -480,7 +503,7 @@ return {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1766927076,
+		nTimeStamp = 1778593274,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
