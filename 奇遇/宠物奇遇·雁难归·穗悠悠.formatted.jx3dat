@@ -1,0 +1,440 @@
+return {
+	BUFF = {
+		[194] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "QTE",
+						nTime = 4,
+						szName = "雁难归·QTE·唱歌",
+						nFrame = 6,
+						nIcon = 4494,
+					},
+				},
+				dwID = 33659,
+				szName = "唱歌",
+				[1] = {
+					bBuffList = true,
+				},
+				szNote = "雁难归_唱歌_标记",
+				nIcon = 4494,
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "QTE",
+						nTime = 4,
+						szName = "雁难归·QTE·跳舞",
+						nFrame = 6,
+						nIcon = 3400,
+					},
+				},
+				dwID = 33658,
+				szName = "跳舞",
+				[1] = {
+					bBuffList = true,
+				},
+				szNote = "雁难归_跳舞_标记",
+				nIcon = 3400,
+			},
+		},
+	},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[194] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 12373,
+						key = "奇遇提示0",
+						nTime = "5,恭喜触发·雁难归·穗悠悠;15,奇遇不封印·约10分钟完成",
+						szName = "奇遇提示0",
+						nRefresh = 0,
+						nClass = 14,
+						nFrame = 0,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·流民老奶奶·向北城门",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "对话·路平安·上城墙·东面",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "对话·老雁·旧木笛·兵牌",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "流民老奶奶似有话想对你说。",
+				szNote = "恭喜触发·宠物奇遇·雁难归·穗悠悠",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 12373,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·路平安·对话·奚知明",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "等待·剧情·对话·老雁两次",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "背对·城墙·大树下拾取木料",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "兵牌和木笛的组合还挺奇怪，不若跟路平安再讨论一番。",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 12373,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "背对·城墙·大树下拾取木料",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "对话·奚知明·对话·老雁",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "剧情·QTE·对话·老雁",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "老丈似有意动，再跟他聊聊。",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 12373,
+						key = "奇遇提示1",
+						nTime = 30,
+						szName = "对话·老雁·完成·奇遇",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示2",
+						nTime = 30,
+						szName = "宠物奇遇·雁难归·穗悠悠",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示3",
+						nTime = -1,
+						szName = "奇遇提示3",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "过奖过奖。",
+				szTarget = "路平安",
+			},
+		},
+	},
+	NPC = {
+		[194] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 137447,
+				aFocus = {
+					{
+						szDisplay = "流民老奶奶·燕难归",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+					},
+				},
+				szNote = "燕难归·流民老奶奶",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				nFrame = 47,
+				dwID = 137449,
+				aFocus = {
+					{
+						szDisplay = "路平安·燕难归",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "燕难归·路平安",
+			},
+			{
+				nFrame = 47,
+				dwID = 137448,
+				aFocus = {
+					{
+						szDisplay = "奚知明·燕难归",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "燕难归·奚知明",
+			},
+			{
+				nFrame = 47,
+				dwID = 137446,
+				aFocus = {
+					{
+						szDisplay = "老雁·燕难归",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "燕难归·老雁",
+			},
+			{
+				nFrame = 47,
+				dwID = 137450,
+				aFocus = {
+					{
+						szDisplay = "老雁·燕难归",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "燕难归·老雁",
+			},
+		},
+	},
+	DEBUFF = {
+		[194] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				nIcon = 26972,
+				col = {
+					255,
+					255,
+					0,
+				},
+				szName = "雁难归",
+				[1] = {
+					bBuffList = true,
+				},
+				szNote = "雁难归_踏歌_总控b",
+				dwID = 33657,
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1780028641,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[194] = {
+			{
+				dwID = 11811,
+				aFocus = {
+					{
+						szDisplay = "兵牌·燕难归",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "燕难归·兵牌",
+			},
+			{
+				dwID = 11812,
+				aFocus = {
+					{
+						szDisplay = "旧木笛·燕难归",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "燕难归·旧木笛",
+			},
+			{
+				dwID = 11813,
+				aFocus = {
+					{
+						szDisplay = "木料·燕难归",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "燕难归·木料",
+			},
+		},
+	},
+}
