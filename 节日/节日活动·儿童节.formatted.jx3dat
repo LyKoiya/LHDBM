@@ -2,35 +2,25 @@ return {
 	BUFF = {
 		[-2] = {
 			{
-				{
-					bBuffList = true,
-				},
 				nLevel = 1,
 				szName = "材料",
-				nIcon = 4953,
-				szNote = "儿童节·材料",
 				dwID = 8951,
+				szNote = "儿童节·材料",
+				nIcon = 4953,
 			},
 			{
-				{
-					bBuffList = true,
-				},
 				nLevel = 1,
 				szName = "制作",
-				nIcon = 134,
-				szNote = "儿童节·制作",
 				dwID = 8952,
+				szNote = "儿童节·制作",
+				nIcon = 134,
 			},
 			{
-				{
-					bCenterAlarm = true,
-					bBuffList = true,
-				},
 				nLevel = 1,
 				szName = "发糖",
-				nIcon = 6896,
-				szNote = "儿童节·发糖",
 				dwID = 8953,
+				szNote = "儿童节·发糖",
+				nIcon = 6896,
 			},
 		},
 	},
@@ -43,8 +33,8 @@ return {
 						key = "节日活动2",
 						nTime = 15,
 						szName = "贡献度上限剩余·{$1}",
-						nClass = 20,
 						nIcon = 10440,
+						nClass = 20,
 					},
 				},
 				bReg = true,
@@ -52,7 +42,94 @@ return {
 			},
 		},
 	},
-	CASTING = {},
+	CASTING = {
+		[-2] = {
+			{
+				nLevel = 1,
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				szName = "领取糖果",
+				szNote = "拾取保护-榴芒兔",
+				dwID = 13912,
+			},
+			{
+				nLevel = 1,
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				szName = "正在做糖",
+				szNote = "制作阶段-榴芒兔",
+				dwID = 13911,
+			},
+			{
+				nLevel = 1,
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					255,
+					0,
+					255,
+				},
+				dwID = 13910,
+				szNote = "准备阶段-榴芒兔",
+				szName = "投放材料",
+			},
+			{
+				nLevel = 1,
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				szName = "领取糖果",
+				szNote = "拾取保护-球球兔",
+				dwID = 13879,
+			},
+			{
+				nLevel = 1,
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				szName = "正在做糖",
+				szNote = "制作阶段-球球兔",
+				dwID = 13877,
+			},
+			{
+				nLevel = 1,
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					255,
+					0,
+					255,
+				},
+				dwID = 13876,
+				szNote = "准备阶段-球球兔",
+				szName = "投放材料",
+			},
+		},
+	},
 	TALK = {
 		[-2] = {
 			{
@@ -62,8 +139,8 @@ return {
 						key = "糖点类型",
 						nTime = 20,
 						szName = "桃丘首仙·撒香蕉皮",
-						nIcon = 2592,
 						nFrame = 1,
+						nIcon = 2592,
 					},
 				},
 				szContent = "我我我……我竟然输了！这叫本大仙以后还怎么靠智慧吃饭！生气！",
@@ -85,8 +162,8 @@ return {
 						key = "糖点类型",
 						nTime = 20,
 						szName = "桃丘首仙·撒糖果盒",
-						nIcon = 6650,
 						nFrame = 6,
+						nIcon = 6650,
 					},
 				},
 				szContent = "哈哈哈哈哈，本大仙赢了！",
@@ -109,12 +186,12 @@ return {
 						nTime = "65,桃花仙·猜糖点类型;90,桃丘首仙·抛洒道具",
 						szName = "桃花仙·猜糖点类型",
 						nRefresh = 0,
-						nFrame = 4,
 						nIcon = 6896,
+						nFrame = 4,
 					},
 				},
-				szTarget = "小奕奕",
 				szContent = "哎呀～你们别争了，等会儿看结果吧！",
+				szTarget = "小奕奕",
 				col = {
 					255,
 					255,
@@ -141,8 +218,8 @@ return {
 						key = "节日活动1",
 						nTime = 30,
 						szName = "七彩祥云·出现",
-						nIcon = 10440,
 						nFrame = 6,
+						nIcon = 10440,
 					},
 				},
 				szContent = "飞天榴芒兔被击败了！天空出现了七彩祥云，诸位赶快去领取奖励。",
@@ -165,8 +242,8 @@ return {
 						key = "节日活动1",
 						nTime = 30,
 						szName = "飞天榴芒兔·出现",
-						nIcon = 10445,
 						nFrame = 3,
+						nIcon = 10445,
 					},
 				},
 				szContent = "出现了飞天榴芒兔！感兴趣的侠士们速去寻找吧！",
@@ -187,8 +264,8 @@ return {
 						nTime = "60,{$sender}·正在做糖;121,{$sender}·领取糖果;182,{$sender}·投放材料",
 						szName = "",
 						nRefresh = 0,
-						nClass = 14,
 						nFrame = 3,
+						nClass = 14,
 					},
 					{
 						nClass = 14,
@@ -218,16 +295,16 @@ return {
 						nTime = "60,{$sender}·投放材料;121,{$sender}·正在做糖;182,{$sender}·领取糖果",
 						szName = "",
 						nRefresh = 0,
-						nFrame = 3,
 						nClass = 14,
+						nFrame = 3,
 					},
 					{
 						nClass = 14,
 						key = "球球兔",
 						nTime = -1,
 						szName = "球球兔",
-						nFrame = -1,
 						nIcon = 13,
+						nFrame = -1,
 					},
 				},
 				szContent = "啦啦啦，大家快点放材料，呼啦呼啦准备做糖啦！",
@@ -236,12 +313,12 @@ return {
 					0,
 					255,
 				},
-				szTarget = "%",
+				bSearch = true,
 				[14] = {
 					bScreenHead = true,
 				},
+				szTarget = "%",
 				szNote = "{$sender}·投放材料",
-				bSearch = true,
 			},
 			{
 				tCountdown = {
@@ -251,16 +328,16 @@ return {
 						nTime = "60,{$sender}·领取糖果;121,{$sender}·投放材料;182,{$sender}·正在做糖",
 						szName = "",
 						nRefresh = 0,
-						nClass = 14,
 						nFrame = 3,
+						nClass = 14,
 					},
 					{
 						nClass = 14,
 						key = "球球兔",
 						nTime = -1,
 						szName = "球球兔",
-						nIcon = 13,
 						nFrame = -1,
+						nIcon = 13,
 					},
 				},
 				szContent = "噗嗤噗嗤……噗嗤噗嗤噗嗤……",
@@ -269,81 +346,17 @@ return {
 					255,
 					255,
 				},
-				szTarget = "%",
+				bSearch = true,
 				[14] = {
 					bScreenHead = true,
 				},
+				szTarget = "%",
 				szNote = "{$sender}·领取糖果",
-				bSearch = true,
 			},
 		},
 	},
 	NPC = {
 		[-2] = {
-			{
-				nFrame = 52,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 113583,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 3,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "儿童节货品",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 52,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = true,
-							bAll = true,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 0,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "儿童节·飞天榴芒兔",
-				dwID = 59782,
-			},
 			{
 				nFrame = 47,
 				[3] = {
@@ -591,11 +604,11 @@ return {
 				dwID = 14372,
 			},
 			{
-				nFrame = 60,
+				nFrame = 52,
 				[3] = {
 					bScreenHead = true,
 				},
-				dwID = 132699,
+				dwID = 113583,
 				aFocus = {
 					{
 						szDisplay = "",
@@ -605,12 +618,12 @@ return {
 							bEnemy = false,
 						},
 						dwMapID = -1,
-						nMaxDistance = 12,
 						tLife = {
 							szOperator = ">",
 							nValue = 0,
 							bEnable = false,
 						},
+						nMaxDistance = 3,
 						tType = {
 							[3] = false,
 							bAll = true,
@@ -619,7 +632,7 @@ return {
 						},
 					},
 				},
-				szNote = "二两",
+				szNote = "儿童节货品",
 				col = {
 					0,
 					255,
@@ -627,26 +640,22 @@ return {
 				},
 			},
 			{
-				nFrame = 60,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 132691,
+				nFrame = 52,
 				aFocus = {
 					{
 						szDisplay = "",
 						tRelation = {
-							bAlly = false,
+							bAlly = true,
 							bAll = true,
-							bEnemy = false,
+							bEnemy = true,
 						},
 						dwMapID = -1,
-						nMaxDistance = 6,
 						tLife = {
 							szOperator = ">",
 							nValue = 0,
 							bEnable = false,
 						},
+						nMaxDistance = 0,
 						tType = {
 							[3] = false,
 							bAll = true,
@@ -655,53 +664,8 @@ return {
 						},
 					},
 				},
-				szNote = "四不像",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 60,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "金角·儿童节",
-				dwID = 132709,
-			},
-			{
-				nFrame = 60,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 132694,
-				szNote = "金角·儿童节",
-				col = {
-					0,
-					255,
-					0,
-				},
+				szNote = "儿童节·飞天榴芒兔",
+				dwID = 59782,
 			},
 			{
 				nFrame = 47,
@@ -732,7 +696,7 @@ return {
 						},
 					},
 				},
-				szNote = "桃花仙",
+				szNote = "儿童节·桃花仙",
 				col = {
 					50,
 					255,
@@ -746,7 +710,7 @@ return {
 				},
 				dwID = 43077,
 				aFocus = {},
-				szNote = "桃丘首仙",
+				szNote = "儿童节·桃丘首仙",
 				col = {
 					0,
 					255,
@@ -818,7 +782,7 @@ return {
 						},
 					},
 				},
-				szNote = "球球兔",
+				szNote = "儿童节·球球兔",
 				col = {
 					100,
 					255,
@@ -832,7 +796,7 @@ return {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1749636236,
+		nTimeStamp = 1779970281,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
