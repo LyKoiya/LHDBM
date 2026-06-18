@@ -1,5 +1,103 @@
 return {
 	BUFF = {
+		[302] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				szName = "无敌",
+				[1] = {
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				szNote = "端午节·无敌",
+				dwID = 13077,
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				[1] = {
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				szName = "抵挡",
+				szNote = "端午节·抵挡",
+				dwID = 13080,
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 13050,
+				col = {
+					0,
+					255,
+					0,
+				},
+				[1] = {
+					bBuffList = true,
+				},
+				nIcon = 4537,
+				szNote = "二倍速",
+				szName = "速1",
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				[1] = {
+					bBuffList = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				szName = "速2",
+				nIcon = 4539,
+				szNote = "二倍速",
+				dwID = 13090,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nIcon = 13,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 13079,
+				nLevel = 1,
+				szNote = "通用眩晕",
+				szName = "眩晕",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nIcon = 13,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 13081,
+				szName = "减速",
+				szNote = "通用减速",
+				nLevel = 1,
+			},
+		},
 		[-1] = {
 			{
 				{
@@ -50,8 +148,9 @@ return {
 				[1] = {
 					bBuffList = true,
 				},
-				szNote = "端午节·连续垂钓",
 				dwID = 28754,
+				szNote = "端午节·连续垂钓",
+				szName = "连续钓",
 			},
 			{
 				{
@@ -89,102 +188,15 @@ return {
 				dwID = 9002,
 			},
 		},
-		[302] = {
+		[582] = {
 			{
-				nLevel = 1,
+				nLevel = 27,
 				nScrutinyType = 1,
-				col = {
-					0,
-					255,
-					0,
-				},
-				szName = "无敌",
-				[1] = {
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				szNote = "端午节·无敌",
-				dwID = 13077,
-			},
-			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				col = {
-					0,
-					255,
-					0,
-				},
-				[1] = {
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				szName = "抵挡",
-				szNote = "端午节·抵挡",
-				dwID = 13080,
-			},
-			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "速1",
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 13050,
-				nIcon = 4537,
-				szNote = "二倍速",
+				dwID = 244,
+				szNote = "龙舟·追风",
 				[1] = {
 					bBuffList = true,
 				},
-			},
-			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				dwID = 13090,
-				col = {
-					0,
-					255,
-					0,
-				},
-				[1] = {
-					bBuffList = true,
-				},
-				nIcon = 4539,
-				szNote = "二倍速",
-				szName = "速2",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				nIcon = 13,
-				nScrutinyType = 1,
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 13079,
-				nLevel = 1,
-				szNote = "通用眩晕",
-				szName = "眩晕",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				nIcon = 13,
-				nScrutinyType = 1,
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 13081,
-				szName = "减速",
-				szNote = "通用减速",
-				nLevel = 1,
 			},
 		},
 	},
@@ -354,29 +366,29 @@ return {
 						nClass = 14,
 						key = "端午龙舟",
 						nTime = 30,
-						szName = "龙舟竞速·报名",
+						szName = "龙舟竞速·开始报名",
 						nFrame = 3,
 						nIcon = 9366,
 					},
 				},
-				szTarget = "庄小鱼",
 				szContent = "龙舟竞速比赛已经结束，想要参加的大侠可以来我这里报名了。",
 				szNote = "端午节·龙舟比赛·报名",
+				szTarget = "庄小鱼",
 			},
 			{
 				tCountdown = {
 					{
 						nClass = 14,
 						key = "端午龙舟",
-						nTime = 5,
-						szName = "龙舟竞速·开启",
+						nTime = 10,
+						szName = "龙舟竞速·即将比赛",
 						nFrame = 6,
 						nIcon = 9366,
 					},
 				},
-				szTarget = "庄小鱼",
 				szContent = "龙舟竞速比赛已经开始，祝大家取得好成绩。",
 				szNote = "端午节·龙舟比赛·开启",
+				szTarget = "庄小鱼",
 			},
 		},
 		[-1] = {
@@ -416,8 +428,8 @@ return {
 				[14] = {
 					bCenterAlarm = true,
 				},
-				szNote = "有鱼咬钩",
 				szContent = "好像有鱼儿上钩了",
+				szNote = "有鱼咬钩",
 				tCountdown = {
 					{
 						nClass = 14,
@@ -432,6 +444,152 @@ return {
 		},
 	},
 	NPC = {
+		[-2] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 51446,
+				aFocus = {
+					{
+						szDisplay = "巧巧·华灯寄心语",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "巧巧·华灯寄心语",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 113584,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 3,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "端午节·端午货品",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 43087,
+				aFocus = {
+					{
+						szDisplay = "小午·货币兑换",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 6,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "端午节·小午",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 7393,
+				aFocus = {
+					{
+						szDisplay = "沈正·材料商",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "端午节·沈正",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+		},
 		[159] = {
 			{
 				nFrame = 60,
@@ -674,16 +832,45 @@ return {
 				},
 			},
 		},
-		[-2] = {
+		[582] = {
+			{
+				nFrame = 47,
+				dwID = 137241,
+				aFocus = {
+					{
+						szDisplay = "光圈",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "节日活动·端午节",
+				szName = "光圈",
+			},
 			{
 				nFrame = 47,
 				[3] = {
 					bScreenHead = true,
 				},
-				dwID = 51446,
+				dwID = 137577,
 				aFocus = {
 					{
-						szDisplay = "巧巧·华灯寄心语",
+						szDisplay = "",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
@@ -704,79 +891,7 @@ return {
 						},
 					},
 				},
-				szNote = "巧巧·华灯寄心语",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 52,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 113584,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 3,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "端午节·端午货品",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 43087,
-				aFocus = {
-					{
-						szDisplay = "小午·货币兑换",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 6,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "端午节·小午",
+				szNote = "节日活动·端午节",
 				col = {
 					0,
 					255,
@@ -1137,6 +1252,7 @@ return {
 			},
 			{
 				nFrame = 47,
+				szName = "粽子",
 				aFocus = {
 					{
 						szDisplay = "粽子",
@@ -1154,11 +1270,12 @@ return {
 						nMaxDistance = 30,
 					},
 				},
-				szName = "粽子",
+				szNote = "端午节·粽子",
 				dwID = 59744,
 			},
 			{
 				nFrame = 47,
+				szName = "加速",
 				aFocus = {
 					{
 						szDisplay = "加速",
@@ -1176,7 +1293,7 @@ return {
 						nMaxDistance = 30,
 					},
 				},
-				szName = "加速",
+				szNote = "端午节·粽子",
 				dwID = 59709,
 			},
 			{
@@ -1208,6 +1325,43 @@ return {
 						},
 					},
 				},
+				szNote = "端午节·庄行舟",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 59891,
+				aFocus = {
+					{
+						szDisplay = "庄小鱼·龙舟竞速",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "端午节·庄小鱼",
 				col = {
 					0,
 					255,
@@ -1221,82 +1375,82 @@ return {
 			{
 				nLevel = 1,
 				[2] = {},
-				[1] = {
-					bBuffList = true,
-				},
-				bCheckLevel = true,
 				dwID = 13082,
-				szName = "1加速",
-				szNote = "端午节·加速",
 				col = {
 					0,
 					255,
 					255,
 				},
+				[1] = {
+					bBuffList = true,
+				},
+				szName = "1加速",
+				szNote = "端午节·加速",
+				bCheckLevel = true,
 			},
 			{
 				nLevel = 2,
 				[2] = {},
-				[1] = {
-					bBuffList = true,
-				},
-				bCheckLevel = true,
 				dwID = 13082,
-				szName = "2无敌",
-				szNote = "端午节·无敌",
 				col = {
 					0,
 					255,
 					255,
 				},
+				[1] = {
+					bBuffList = true,
+				},
+				szName = "2无敌",
+				szNote = "端午节·无敌",
+				bCheckLevel = true,
 			},
 			{
 				nLevel = 3,
 				[2] = {},
-				[1] = {
-					bBuffList = true,
-				},
-				bCheckLevel = true,
 				dwID = 13082,
-				szName = "3推开",
-				szNote = "端午节·推开",
 				col = {
 					0,
 					255,
 					255,
 				},
+				[1] = {
+					bBuffList = true,
+				},
+				szName = "3推开",
+				szNote = "端午节·推开",
+				bCheckLevel = true,
 			},
 			{
 				nLevel = 4,
 				[2] = {},
-				[1] = {
-					bBuffList = true,
-				},
-				bCheckLevel = true,
 				dwID = 13082,
-				szName = "4眩晕",
-				szNote = "端午节·眩晕",
 				col = {
 					0,
 					255,
 					255,
 				},
+				[1] = {
+					bBuffList = true,
+				},
+				szName = "4眩晕",
+				szNote = "端午节·眩晕",
+				bCheckLevel = true,
 			},
 			{
 				nLevel = 5,
 				[2] = {},
-				[1] = {
-					bBuffList = true,
-				},
-				bCheckLevel = true,
 				dwID = 13082,
-				szName = "5抵挡",
-				szNote = "端午节·抵挡",
 				col = {
 					0,
 					255,
 					255,
 				},
+				[1] = {
+					bBuffList = true,
+				},
+				szName = "5抵挡",
+				szNote = "端午节·抵挡",
+				bCheckLevel = true,
 			},
 			{
 				{
@@ -1312,6 +1466,16 @@ return {
 				szName = "落星",
 				szNote = "端午节·落星",
 				dwID = 13078,
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "减速",
+				dwID = 33345,
+				[1] = {
+					bBuffList = true,
+				},
+				szNote = "端午节·龙舟减速",
 			},
 			{
 				nLevel = 1,
@@ -1372,10 +1536,18 @@ return {
 					{
 						nClass = 1,
 						key = "端午龙舟",
-						nTime = 10,
-						szName = "龙舟竞速·完赛",
+						nTime = "10,龙舟竞速·完成比赛;20,龙舟竞速·庄行舟·领奖",
+						szName = "龙舟竞速·完成比赛",
+						nRefresh = 0,
 						nIcon = 4242,
 						nFrame = 7,
+					},
+					{
+						nClass = 2,
+						key = "端午龙舟",
+						nTime = -1,
+						szName = "端午龙舟",
+						nIcon = 4242,
 					},
 				},
 				nScrutinyType = 1,
@@ -1471,6 +1643,21 @@ return {
 				szName = "排队",
 				szNote = "端午节·排队·龙舟竞",
 				dwID = 13125,
+			},
+		},
+		[-3] = {
+			{
+				dwID = 2988,
+				nScrutinyType = 1,
+				szNote = "端午节·粽叶幼苗",
+				nLevel = 1,
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "照料",
+				szNote = "端午节·照料事件",
+				dwID = 2989,
 			},
 		},
 		[-1] = {
@@ -1571,21 +1758,6 @@ return {
 				szName = "照料",
 			},
 		},
-		[-3] = {
-			{
-				dwID = 2988,
-				nScrutinyType = 1,
-				szNote = "端午节·粽叶幼苗",
-				nLevel = 1,
-			},
-			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "照料",
-				szNote = "端午节·照料事件",
-				dwID = 2989,
-			},
-		},
 		[159] = {
 			{
 				nLevel = 1,
@@ -1644,12 +1816,12 @@ return {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1759840327,
+		nTimeStamp = 1781769297,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
 	DOODAD = {
-		[302] = {
+		[159] = {
 			{
 				dwID = 5182,
 				aFocus = {
@@ -1708,7 +1880,44 @@ return {
 				},
 			},
 		},
-		[159] = {
+		[582] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 11897,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "节日活动·端午节芍药",
+			},
+		},
+		[302] = {
 			{
 				dwID = 5182,
 				aFocus = {
