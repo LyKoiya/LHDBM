@@ -4,5 +4,9 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.associations": {
+        "*.jx3dat": "lua" // 将 *.jx3dat 文件关联为 Lua 类型
+    }
+	}
 }

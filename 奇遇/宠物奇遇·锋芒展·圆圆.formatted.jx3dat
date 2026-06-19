@@ -1,4 +1,4 @@
-{
+return {
 	CHAT = {},
 	TALK = {
 		[23] = {
