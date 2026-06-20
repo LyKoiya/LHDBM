@@ -1,5 +1,24 @@
 return {
-	BUFF = {},
+	BUFF = {
+		[-2] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 33909,
+				szName = "大财神",
+				szNote = "主城大财神拜一拜转向",
+				nIcon = 27610,
+			},
+		},
+	},
 	CHAT = {},
 	CASTING = {},
 	TALK = {
@@ -94,7 +113,7 @@ return {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1779973298,
+		nTimeStamp = 1781955072,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
