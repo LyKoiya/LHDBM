@@ -46,7 +46,7 @@ return {
 					{
 						nIcon = 1520,
 						key = "星楼月影·{$sender}",
-						nTime = "4,星楼月影·免控;19,星楼月影·CD·19s;21,星楼月影·CD·21s",
+						nTime = "5,星楼月影·免控;27,星楼月影·充能·27s;28,星楼月影·已充能",
 						szName = "星楼月影",
 						nRefresh = 0,
 						nClass = 9,
@@ -62,9 +62,6 @@ return {
 		},
 		[-1] = {
 			{
-				nLevel = 1,
-				nScrutinyType = 2,
-				dwID = 14965,
 				tCountdown = {
 					{
 						nClass = 9,
@@ -75,11 +72,12 @@ return {
 						nIcon = 7510,
 					},
 				},
+				nScrutinyType = 2,
+				dwID = 14965,
+				szNote = "南风吐月",
+				nLevel = 1,
 			},
 			{
-				nLevel = 1,
-				nScrutinyType = 2,
-				dwID = 24919,
 				tCountdown = {
 					{
 						nClass = 9,
@@ -90,25 +88,15 @@ return {
 						nIcon = 14146,
 					},
 				},
-			},
-			{
-				nLevel = 1,
 				nScrutinyType = 2,
-				dwID = 28720,
-				tCountdown = {
-					{
-						nClass = 9,
-						key = "天工甲士·{$sender}",
-						nTime = 30,
-						szName = "天工甲士·{$sender}",
-						nFrame = 0,
-						nIcon = 16224,
-					},
-				},
+				dwID = 24919,
+				szNote = "洛川神韵",
+				nLevel = 1,
 			},
 			{
 				nLevel = 1,
 				dwID = 28480,
+				szNote = "脱离机甲",
 				tCountdown = {
 					{
 						nClass = 9,
@@ -121,9 +109,71 @@ return {
 				},
 			},
 			{
-				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 8,
+						key = "天工甲士·{$sender}",
+						nTime = 2,
+						szName = "天工甲士·{$sender}·上机",
+						nIcon = 16224,
+						nFrame = 0,
+					},
+					{
+						nClass = 9,
+						key = "天工甲士·{$sender}",
+						nTime = 30,
+						szName = "天工甲士·{$sender}",
+						nIcon = 16224,
+						nFrame = 0,
+					},
+				},
 				nScrutinyType = 2,
-				dwID = 14963,
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 28720,
+				szNote = "天工",
+				nLevel = 1,
+			},
+			{
+				tKungFu = {
+					["SKILL#10028"] = true,
+					["SKILL#10021"] = true,
+				},
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 28724,
+				nLevel = 1,
+				szNote = "天工甲士",
+				tCountdown = {
+					{
+						nClass = 8,
+						key = "天工甲士·{$sender}",
+						nTime = 5,
+						szName = "天工甲士·正在组装",
+						nFrame = 4,
+						nIcon = 16223,
+					},
+					{
+						nClass = 9,
+						key = "天工甲士·{$sender}",
+						nTime = 1,
+						szName = "天工甲士·完成组装",
+						nFrame = 4,
+						nIcon = 16223,
+					},
+				},
+			},
+			{
 				tCountdown = {
 					{
 						nClass = 9,
@@ -134,11 +184,12 @@ return {
 						nIcon = 16602,
 					},
 				},
+				nScrutinyType = 2,
+				dwID = 14963,
+				szNote = "折叶笼花",
+				nLevel = 1,
 			},
 			{
-				nLevel = 1,
-				nScrutinyType = 2,
-				dwID = 24911,
 				tCountdown = {
 					{
 						nClass = 9,
@@ -147,6 +198,42 @@ return {
 						szName = "大针→{$receiver}",
 						nFrame = 0,
 						nIcon = 14148,
+					},
+				},
+				nScrutinyType = 2,
+				dwID = 24911,
+				szNote = "大针",
+				nLevel = 1,
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				dwID = 28464,
+				szNote = "守拙",
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "隔离·{$sender}",
+						nTime = 4,
+						szName = "守拙→{$receiver}",
+						nFrame = 0,
+						nIcon = 11826,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				dwID = 34102,
+				szNote = "归园",
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "隔离·{$sender}",
+						nTime = 4,
+						szName = "归园→{$receiver}",
+						nIcon = 11826,
+						nFrame = 0,
 					},
 				},
 			},
@@ -159,7 +246,7 @@ return {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1766170525,
+		nTimeStamp = 1781969592,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
