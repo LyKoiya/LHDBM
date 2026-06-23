@@ -493,25 +493,7 @@ return {
 		},
 	},
 	CASTING = {},
-	DEBUFF = {
-		[582] = {
-			{
-				{
-					bBuffList = true,
-				},
-				nScrutinyType = 1,
-				nLevel = 1,
-				szName = "¾çÇé",
-				nIcon = 19489,
-				dwID = 14253,
-				col = {
-					255,
-					255,
-					0,
-				},
-			},
-		},
-	},
+	DEBUFF = {},
 	__meta = {
 		nTimeStamp = 1716717486,
 		szEdition = "zhcn_hd",
