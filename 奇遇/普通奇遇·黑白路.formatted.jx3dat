@@ -1,0 +1,383 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[25] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "宣战战书",
+						nTime = 10,
+						szName = "{$1}战书·{$3}·{$2}",
+						nFrame = 3,
+						nIcon = 591,
+					},
+				},
+				szContent = "(.-)的“(.-)”在(.-)插下了宣战令旗，简直是对(.-)的侮辱！谁去摧毁它，必有重赏！",
+				col = {
+					100,
+					100,
+					255,
+				},
+				szTarget = "谢渊",
+				[14] = {},
+				szNote = "黑白路·{$1}战书·{$3}·{$2}",
+				bReg = true,
+			},
+		},
+		[-19] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "宣战战书",
+						nTime = 10,
+						szName = "完成·普通奇遇·黑白路",
+						nIcon = 12371,
+						nFrame = 0,
+					},
+				},
+				szContent = "恭喜少侠完成黑白路奇遇！",
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szTarget = "%",
+				szNote = "完成·普通奇遇·黑白路",
+			},
+		},
+		[27] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "宣战战书",
+						nTime = 10,
+						szName = "{$1}战书·{$3}·{$2}",
+						nFrame = 7,
+						nIcon = 591,
+					},
+				},
+				szContent = "(.-)的“(.-)”在(.-)插下了宣战令旗，简直是对(.-)的侮辱！谁去摧毁它，必有重赏！",
+				col = {
+					255,
+					100,
+					100,
+				},
+				szTarget = "王遗风",
+				[14] = {},
+				szNote = "黑白路·{$1}战书·{$3}·{$2}",
+				bReg = true,
+			},
+		},
+	},
+	NPC = {
+		[27] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "乾朗·长空令",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 4,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "乾朗·黑白路",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "乾朗·黑白路",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "黑白路·乾朗",
+				dwID = 43513,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "陶寒亭",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "黑白路·陶寒亭",
+				dwID = 4819,
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bCenterAlarm = true,
+					szVoice = "ZhuanHuo_T_ShZ",
+					tMark = {
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						true,
+					},
+					bScreenHead = true,
+				},
+				dwID = 43577,
+				[4] = {},
+				szNote = "黑白路·浩气战书",
+				aFocus = {
+					{
+						szDisplay = "浩气战书·黑白路",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+			},
+		},
+		[25] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "张桎辕",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "黑白路·张桎辕",
+				dwID = 5193,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "哭泣妇人·黑白路",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 120,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "黑白路·哭泣妇人",
+				dwID = 43466,
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bCenterAlarm = true,
+					szVoice = "ZhuanHuo_T_ShZ",
+					tMark = {
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						true,
+					},
+					bScreenHead = true,
+				},
+				dwID = 43578,
+				[4] = {},
+				szNote = "黑白路·恶人战书",
+				aFocus = {
+					{
+						szDisplay = "恶人战书·黑白路",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+			},
+		},
+		[30] = {
+			{
+				dwID = 43697,
+				aFocus = {
+					{
+						szDisplay = "张裕龙·黑白路",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "黑白路·张裕龙",
+				nFrame = 47,
+			},
+			{
+				dwID = 43417,
+				aFocus = {
+					{
+						szDisplay = "白空裕·黑白路",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "黑白路·白空裕",
+				nFrame = 47,
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1782399737,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}
