@@ -1,0 +1,836 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[239] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "奇遇提示0",
+						nTime = 10,
+						szName = "选择·六百五十五份",
+						nFrame = 0,
+						nIcon = 12372,
+					},
+				},
+				szContent = "仔细盘点一番，这里有55份货物。",
+				szNote = "选择·六百五十五份",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "奇遇提示0",
+						nTime = 10,
+						szName = "选择·六百五十五份",
+						nFrame = 0,
+						nIcon = 12372,
+					},
+				},
+				szContent = "仔细盘点一番，这里有193份货物。",
+				szNote = "选择·六百五十五份",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "奇遇提示0",
+						nTime = 10,
+						szName = "选择·六百五十五份",
+						nFrame = 0,
+						nIcon = 12372,
+					},
+				},
+				szContent = "仔细盘点一番，这里有96份货物。",
+				szNote = "选择·六百五十五份",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "奇遇提示0",
+						nTime = 10,
+						szName = "选择·六百五十五份",
+						nFrame = 0,
+						nIcon = 12372,
+					},
+				},
+				szContent = "仔细盘点一番，这里有127份货物。",
+				szNote = "选择·六百五十五份",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "奇遇提示0",
+						nTime = 10,
+						szName = "选择·六百五十五份",
+						nFrame = 0,
+						nIcon = 12372,
+					},
+				},
+				szContent = "仔细盘点一番，这里有144份货物。",
+				szNote = "选择·六百五十五份",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "奇遇提示0",
+						nTime = 10,
+						szName = "前往·洛阳城·荒村",
+						nFrame = 0,
+						nIcon = 12372,
+					},
+				},
+				szContent = "还未到达指定地点！",
+				szNote = "前往·洛阳城·荒村",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "奇遇提示0",
+						nTime = 20,
+						szName = "蜃海陨铁·放入背包·50块",
+						nIcon = 12372,
+						nFrame = 0,
+					},
+				},
+				szContent = "若有陨铁，事半功倍。便用这位的材料，锻成神兵也归这位，两位意下何如？",
+				szTarget = "叶寒台",
+				szNote = "蜃海陨铁·放入背包·50块",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "奇遇提示0",
+						nTime = 10,
+						szName = "完成·绝世奇遇·争铸吴钩",
+						nIcon = 12372,
+						nFrame = 0,
+					},
+				},
+				szContent = "恭喜大侠获得煞·",
+				bSearch = true,
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szTarget = "%",
+				szNote = "完成·绝世奇遇·争铸吴钩",
+			},
+		},
+	},
+	NPC = {
+		[49] = {
+			{
+				nFrame = 47,
+				dwID = 99326,
+				aFocus = {
+					{
+						szDisplay = "地鼠门弟子·争铸吴钩",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "争铸吴钩·地鼠门弟子",
+			},
+			{
+				nFrame = 47,
+				dwID = 58157,
+				aFocus = {
+					{
+						szDisplay = "叶铁·争铸吴钩",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "争铸吴钩·叶铁",
+			},
+			{
+				dwID = 99323,
+				aFocus = {
+					{
+						szDisplay = "叶寒台·争铸吴钩",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "争铸吴钩·叶寒台",
+				nFrame = 47,
+			},
+		},
+		[6] = {
+			{
+				nFrame = 47,
+				dwID = 99334,
+				aFocus = {
+					{
+						szDisplay = "光圈·争铸吴钩",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 120,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "争铸吴钩·光圈",
+				szName = "光圈",
+			},
+			{
+				nFrame = 47,
+				dwID = 99323,
+				aFocus = {
+					{
+						szDisplay = "叶寒台·争铸吴钩",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "争铸吴钩·叶寒台",
+			},
+			{
+				nFrame = 47,
+				dwID = 99325,
+				aFocus = {
+					{
+						szDisplay = "叶蒙·争铸吴钩",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "争铸吴钩·叶蒙",
+			},
+		},
+		[239] = {
+			{
+				nFrame = 47,
+				dwID = 53185,
+				aFocus = {
+					{
+						szDisplay = "叶炜·争铸吴钩",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "争铸吴钩·叶炜",
+			},
+			{
+				nFrame = 47,
+				dwID = 53200,
+				aFocus = {
+					{
+						szDisplay = "工头·争铸吴钩",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "争铸吴钩·工头",
+			},
+			{
+				dwID = 99323,
+				aFocus = {
+					{
+						szDisplay = "叶寒台·争铸吴钩",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "争铸吴钩·叶寒台",
+				nFrame = 47,
+			},
+			{
+				nFrame = 47,
+				dwID = 99404,
+				aFocus = {
+					{
+						szDisplay = "藏剑弟子·争铸吴钩",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "争铸吴钩·藏剑弟子",
+			},
+			{
+				nFrame = 47,
+				dwID = 99328,
+				aFocus = {
+					{
+						szDisplay = "柳嘉明·争铸吴钩",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "争铸吴钩·柳嘉明",
+			},
+			{
+				nFrame = 47,
+				dwID = 99534,
+				aFocus = {
+					{
+						szDisplay = "叶寒台·争铸吴钩",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "争铸吴钩·叶寒台",
+			},
+			{
+				nFrame = 47,
+				dwID = 99535,
+				aFocus = {
+					{
+						szDisplay = "柳嘉明·争铸吴钩",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "争铸吴钩·柳嘉明",
+			},
+			{
+				dwID = 99521,
+				aFocus = {
+					{
+						szDisplay = "神兵出世·争铸吴钩",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "争铸吴钩·神兵出世",
+				nFrame = 47,
+			},
+			{
+				nFrame = 47,
+				dwID = 99327,
+				aFocus = {
+					{
+						szDisplay = "隐士·争铸吴钩",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "争铸吴钩·隐士",
+			},
+			{
+				nFrame = 57,
+				dwID = 99415,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "争铸吴钩·煞影",
+			},
+			{
+				nFrame = 57,
+				dwID = 99416,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "争铸吴钩·血影",
+			},
+		},
+	},
+	DEBUFF = {
+		[49] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 17558,
+				szNote = "争铸吴钩·明日之约",
+			},
+		},
+		[239] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 17554,
+				szNote = "争铸吴钩·明日之约",
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 17555,
+				szNote = "争铸吴钩·明日之约",
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 17591,
+				[1] = {
+					bBuffList = true,
+				},
+				szNote = "举坛对饮",
+			},
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 17592,
+				nIcon = 237,
+				szNote = "可以喝了",
+				szName = "喝酒",
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1782406273,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[239] = {
+			{
+				dwID = 8311,
+				aFocus = {
+					{
+						szDisplay = "酒·争铸吴钩",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "争铸吴钩·酒",
+			},
+			{
+				dwID = 8309,
+				aFocus = {
+					{
+						szDisplay = "货物·争铸吴钩",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "争铸吴钩·货物",
+			},
+			{
+				dwID = 8304,
+				aFocus = {
+					{
+						szDisplay = "货物·争铸吴钩",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "争铸吴钩·货物",
+			},
+			{
+				dwID = 8312,
+				aFocus = {
+					{
+						szDisplay = "货物·争铸吴钩",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "争铸吴钩·货物",
+			},
+			{
+				dwID = 8310,
+				aFocus = {
+					{
+						szDisplay = "货物·争铸吴钩",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "争铸吴钩·货物",
+			},
+			{
+				dwID = 8308,
+				aFocus = {
+					{
+						szDisplay = "货物·争铸吴钩",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "争铸吴钩·货物",
+			},
+		},
+	},
+}
