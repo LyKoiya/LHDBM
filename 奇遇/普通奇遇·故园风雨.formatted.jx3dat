@@ -10,9 +10,9 @@ return {
 						nFrame = 0,
 						key = "奇遇提示0",
 						nTime = 20,
-						szName = "悦月·已吃饱·对话·秋叶青",
-						nIcon = 13,
+						szName = "需吃饱3次后·对话·秋叶青",
 						nClass = 14,
+						nIcon = 13,
 					},
 				},
 				szContent = "悦月吃饱了，万分开心。",
@@ -32,9 +32,9 @@ return {
 						nFrame = 0,
 						key = "奇遇提示0",
 						nTime = 20,
-						szName = "小吃商·购买·鲜肉包子",
-						nClass = 14,
+						szName = "小吃商·购买·鲜肉包子·15个",
 						nIcon = 13,
+						nClass = 14,
 					},
 				},
 				szContent = "悦月一口气要吃五个鲜肉包子，去买点包子来吧。",
@@ -93,11 +93,11 @@ return {
 						nClass = 14,
 					},
 				},
-				szNote = "返回·沈园地牢·对话·受伤的女子",
-				szContent = "你埋下了一个香囊。",
 				[14] = {
 					bCenterAlarm = true,
 				},
+				szContent = "你埋下了一个香囊。",
+				szNote = "返回·沈园地牢·对话·受伤的女子",
 			},
 		},
 		[-1] = {
@@ -111,36 +111,6 @@ return {
 		},
 	},
 	NPC = {
-		[6] = {
-			{
-				dwID = 390,
-				aFocus = {
-					{
-						szDisplay = "罗掌柜·小吃商",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "小吃商·罗掌柜",
-				nFrame = 47,
-			},
-		},
 		[172] = {
 			{
 				dwID = 26223,
@@ -172,7 +142,6 @@ return {
 			},
 			{
 				nFrame = 47,
-				dwID = 57416,
 				aFocus = {
 					{
 						szDisplay = "受伤的女子·故园风雨",
@@ -197,6 +166,7 @@ return {
 					},
 				},
 				szNote = "故园风雨·受伤的女子",
+				dwID = 57416,
 			},
 			{
 				nFrame = 47,
@@ -253,7 +223,6 @@ return {
 			},
 			{
 				nFrame = 57,
-				dwID = 26228,
 				aFocus = {
 					{
 						szDisplay = "地牢守卫精锐",
@@ -278,10 +247,10 @@ return {
 					},
 				},
 				szNote = "故园风雨地牢守卫精锐",
+				dwID = 26228,
 			},
 			{
 				nFrame = 47,
-				dwID = 57413,
 				aFocus = {
 					{
 						szDisplay = "老仆人·故园风雨",
@@ -306,10 +275,10 @@ return {
 					},
 				},
 				szNote = "故园风雨·老仆人",
+				dwID = 57413,
 			},
 			{
 				nFrame = 47,
-				dwID = 57410,
 				aFocus = {
 					{
 						szDisplay = "秋叶青·故园风雨",
@@ -334,10 +303,10 @@ return {
 					},
 				},
 				szNote = "故园风雨·秋叶青",
+				dwID = 57410,
 			},
 			{
 				nFrame = 47,
-				dwID = 57411,
 				aFocus = {
 					{
 						szDisplay = "侍女·故园风雨",
@@ -362,36 +331,7 @@ return {
 					},
 				},
 				szNote = "故园风雨·侍女",
-			},
-		},
-		[151] = {
-			{
-				nFrame = 47,
-				dwID = 51155,
-				aFocus = {
-					{
-						szDisplay = "李复·故园风雨",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 120,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "故园风雨·李复",
+				dwID = 57411,
 			},
 		},
 		[-2] = {
@@ -462,6 +402,36 @@ return {
 				nFrame = 47,
 			},
 		},
+		[151] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "李复·故园风雨",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 120,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "故园风雨·李复",
+				dwID = 51155,
+			},
+		},
 		[-1] = {
 			{
 				nFrame = 50,
@@ -506,40 +476,11 @@ return {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1782219778,
+		nTimeStamp = 1782308850,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
 	DOODAD = {
-		[156] = {
-			{
-				dwID = 4431,
-				aFocus = {
-					{
-						szDisplay = "传送·长安地牢",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "水井",
-			},
-		},
 		[172] = {
 			{
 				dwID = 6588,
