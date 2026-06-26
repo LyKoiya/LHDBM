@@ -1,0 +1,572 @@
+return {
+	BUFF = {
+		[215] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 10072,
+				szNote = "塞外宝驹乔装易容茶客",
+				szName = "茶客",
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				[1] = {
+					bBuffList = true,
+				},
+				dwID = 10073,
+				szName = "一刀流",
+				szNote = "塞外宝驹乔装易容一刀",
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "商人",
+				dwID = 10074,
+				[1] = {
+					bBuffList = true,
+				},
+				szNote = "塞外宝驹乔装易容商人",
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "丫鬟",
+				dwID = 10075,
+				[1] = {
+					bBuffList = true,
+				},
+				szNote = "塞外宝驹乔装易容丫鬟",
+			},
+		},
+	},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[216] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "奇遇提示0",
+						nTime = 10,
+						szName = "完成·绝世奇遇·塞外宝驹",
+						nFrame = 0,
+						nIcon = 12372,
+					},
+				},
+				szContent = "恭喜少侠完成塞外宝驹奇遇！",
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szTarget = "%",
+				szNote = "完成·绝世奇遇·塞外宝驹",
+			},
+		},
+	},
+	NPC = {
+		[216] = {
+			{
+				nFrame = 47,
+				dwID = 45086,
+				aFocus = {
+					{
+						szDisplay = "小七",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "塞外宝驹·小七",
+			},
+			{
+				nFrame = 47,
+				dwID = 47902,
+				aFocus = {
+					{
+						szDisplay = "疯老头·塞外宝驹",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "塞外宝驹·疯老头",
+			},
+			{
+				nFrame = 47,
+				dwID = 47931,
+				aFocus = {
+					{
+						szDisplay = "调皮的马儿·塞外宝驹",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "塞外宝驹·调皮的马儿",
+			},
+		},
+		[215] = {
+			{
+				dwID = 43450,
+				aFocus = {
+					{
+						szDisplay = "茶摊小二·塞外宝驹",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "塞外宝驹·茶摊小二",
+				nFrame = 47,
+			},
+			{
+				nFrame = 47,
+				dwID = 43330,
+				aFocus = {
+					{
+						szDisplay = "逞凶的衙役·塞外宝驹",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "塞外宝驹·逞凶的衙役",
+			},
+			{
+				nFrame = 47,
+				dwID = 47905,
+				aFocus = {
+					{
+						szDisplay = "一刀流高阶武士·塞外宝驹",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "塞外宝驹一刀流高阶武",
+			},
+			{
+				nFrame = 57,
+				dwID = 47914,
+				aFocus = {
+					{
+						szDisplay = "藤田大川·塞外宝驹",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "塞外宝驹·藤田大川",
+			},
+			{
+				nFrame = 47,
+				dwID = 47906,
+				aFocus = {
+					{
+						szDisplay = "李氏·塞外宝驹",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "塞外宝驹·李氏",
+			},
+			{
+				nFrame = 47,
+				dwID = 47907,
+				aFocus = {
+					{
+						szDisplay = "李达·塞外宝驹",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "塞外宝驹·李达",
+			},
+			{
+				nFrame = 57,
+				dwID = 44195,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "塞外宝驹·伏击者领队",
+			},
+			{
+				nFrame = 47,
+				dwID = 47908,
+				aFocus = {
+					{
+						szDisplay = "奄奄一息的马·塞外宝驹",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "塞外宝驹奄奄一息的马",
+			},
+			{
+				nFrame = 47,
+				dwID = 47909,
+				aFocus = {
+					{
+						szDisplay = "李司·塞外宝驹",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 70,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "塞外宝驹·李司",
+			},
+			{
+				nFrame = 47,
+				dwID = 47930,
+				aFocus = {
+					{
+						szDisplay = "茶摊小二·塞外宝驹",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "塞外宝驹·茶摊小二",
+			},
+			{
+				nFrame = 47,
+				dwID = 47912,
+				aFocus = {
+					{
+						szDisplay = "雷首飞电·塞外宝驹",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "塞外宝驹·雷首飞电",
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1782479225,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[204] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 5750,
+				aFocus = {
+					{
+						szDisplay = "包裹·塞外宝驹",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 120,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "塞外宝驹·包裹",
+			},
+		},
+		[215] = {
+			{
+				dwID = 5746,
+				aFocus = {
+					{
+						szDisplay = "丫鬟的衣服·塞外宝驹",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "塞外宝驹·丫鬟的衣服",
+			},
+			{
+				dwID = 5747,
+				aFocus = {
+					{
+						szDisplay = "草垛·塞外宝驹",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "塞外宝驹·草垛",
+			},
+		},
+	},
+}
