@@ -1,0 +1,332 @@
+return {
+	BUFF = {},
+	CHAT = {
+		[6] = {
+			{
+				szContent = "“{$me}”侠士行走江湖时，不经意间触发奇遇【寻猫记】！正所谓，光阴有限，尘事无涯，忙中取闲心，悠游东水寨。\
+",
+				bSearch = true,
+				szNote = "恭喜触发·普通奇遇·寻猫记",
+			},
+		},
+	},
+	CASTING = {},
+	TALK = {
+		[-1] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 12371,
+						key = "奇遇提示0",
+						nTime = "5,恭喜触发·普通奇遇·寻猫记;15,奇遇不封印·约5分钟完成;30,前往·扬州·活动区·夏夏",
+						szName = "奇遇提示0",
+						nRefresh = 0,
+						nClass = 14,
+						nFrame = 0,
+					},
+				},
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szNote = "恭喜触发·普通奇遇·寻猫记·夏夏",
+				szContent = "背包里不知何时多了一条小鱼干。",
+			},
+		},
+	},
+	NPC = {
+		[531] = {
+			{
+				nFrame = 47,
+				dwID = 105395,
+				aFocus = {
+					{
+						szDisplay = "哈哈怪·寻猫记",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "寻猫记·哈哈怪",
+			},
+			{
+				nFrame = 47,
+				dwID = 105379,
+				aFocus = {
+					{
+						szDisplay = "田甜·寻猫记",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "寻猫记·田甜",
+			},
+			{
+				nFrame = 47,
+				dwID = 105370,
+				aFocus = {
+					{
+						szDisplay = "猫猫·寻猫记",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "寻猫记·猫猫",
+			},
+			{
+				nFrame = 47,
+				dwID = 105371,
+				aFocus = {
+					{
+						szDisplay = "末哥·寻猫记",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 50,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "寻猫记·末哥",
+			},
+			{
+				nFrame = 47,
+				dwID = 105330,
+				aFocus = {
+					{
+						szDisplay = "左瓶·寻猫记",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "寻猫记·左瓶",
+			},
+			{
+				nFrame = 47,
+				dwID = 105322,
+				aFocus = {
+					{
+						szDisplay = "阿景·寻猫记",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "寻猫记·阿景",
+			},
+			{
+				nFrame = 47,
+				dwID = 105389,
+				aFocus = {
+					{
+						szDisplay = "小凤·寻猫记",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "寻猫记·小凤",
+			},
+			{
+				nFrame = 47,
+				dwID = 105327,
+				aFocus = {
+					{
+						szDisplay = "黑鹰·寻猫记",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "寻猫记·黑鹰",
+			},
+			{
+				nFrame = 47,
+				dwID = 105313,
+				aFocus = {
+					{
+						szDisplay = "咸鱼·寻猫记·传送",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "寻猫记·咸鱼",
+			},
+		},
+		[6] = {
+			{
+				nFrame = 47,
+				dwID = 105399,
+				aFocus = {
+					{
+						szDisplay = "夏夏·寻猫记",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "寻猫记·夏夏",
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1782834945,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}
