@@ -3,6 +3,15 @@ return {
 	CHAT = {},
 	CASTING = {},
 	TALK = {
+		[189] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szNote = "恭喜触发·绝世奇遇·三山四海",
+				szContent = "有缘人出现！",
+			},
+		},
 		[13] = {
 			{
 				szContent = "嘶---嘶---",
@@ -24,16 +33,16 @@ return {
 						key = "奇遇提示1",
 						nTime = 30,
 						szName = "丢弃·新鲜的肥鱼·继续钓鱼",
-						nIcon = 12372,
 						nFrame = 7,
+						nIcon = 12372,
 					},
 					{
 						nClass = 14,
 						key = "奇遇提示2",
 						nTime = 30,
 						szName = "概率·钓到青蟹·等蟹类宠物",
-						nIcon = 12372,
 						nFrame = 7,
+						nIcon = 12372,
 					},
 				},
 				szContent = "你钓上了一条肥鱼。",
@@ -45,16 +54,16 @@ return {
 						key = "奇遇提示1",
 						nTime = 30,
 						szName = "丢弃·新鲜的肥鱼·继续钓鱼",
-						nFrame = 7,
 						nIcon = 12372,
+						nFrame = 7,
 					},
 					{
 						nClass = 14,
 						key = "奇遇提示2",
 						nTime = 30,
 						szName = "概率·钓到青蟹·等蟹类宠物",
-						nFrame = 7,
 						nIcon = 12372,
+						nFrame = 7,
 					},
 				},
 				szContent = "做人不可太贪，你已经钓到鱼了。",
@@ -66,8 +75,8 @@ return {
 						key = "钓鱼提示",
 						nTime = 5,
 						szName = "快收杆",
-						nFrame = 2,
 						nClass = 14,
+						nFrame = 2,
 					},
 				},
 				szContent = "好像鱼儿上钩了，速速收杆。",
@@ -83,6 +92,15 @@ return {
 				szNote = "有鱼咬钩",
 			},
 		},
+		[190] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szNote = "恭喜触发·绝世奇遇·三山四海",
+				szContent = "有缘人出现！",
+			},
+		},
 		[100] = {
 			{
 				tCountdown = {
@@ -91,8 +109,8 @@ return {
 						key = "奇遇提示0",
 						nTime = 10,
 						szName = "靠近·附近·王志",
-						nIcon = 12372,
 						nFrame = 0,
+						nIcon = 12372,
 					},
 				},
 				szContent = "{$me}， 快到我这里来，小心被封影发现了。",
@@ -107,13 +125,13 @@ return {
 						key = "奇遇提示0",
 						nTime = 10,
 						szName = "三山四海·步骤·护心丹",
-						nFrame = 0,
 						nIcon = 12372,
+						nFrame = 0,
 					},
 				},
+				szNote = "三山四海·步骤·护心丹",
 				szContent = "把我给你的丹药吃了吧，可在危难之时保你一命，就在你的背包里。",
 				szTarget = "王志",
-				szNote = "三山四海·步骤·护心丹",
 			},
 			{
 				tCountdown = {
@@ -123,8 +141,8 @@ return {
 						nTime = "26,等待剧情·呆在原地勿动;35,使用引爆器·交互牢笼",
 						szName = "奇遇提示0",
 						nRefresh = 0,
-						nIcon = 12372,
 						nFrame = 0,
+						nIcon = 12372,
 					},
 				},
 				szContent = "看到没？我的妻子何嫣就在前面，被关在那个牢笼里。",
@@ -138,8 +156,8 @@ return {
 						nTime = "7,等待剧情·呆在原地勿动;15,使用引爆器·交互牢笼",
 						szName = "奇遇提示0",
 						nRefresh = 0,
-						nFrame = 0,
 						nIcon = 12372,
+						nFrame = 0,
 					},
 				},
 				szContent = "好了，我去会会封影，你在此点等候，听指令行动。",
@@ -152,12 +170,12 @@ return {
 						key = "奇遇提示0",
 						nTime = 10,
 						szName = "使用道具·[马哨·千里马]",
-						nIcon = 12372,
 						nFrame = 0,
+						nIcon = 12372,
 					},
 				},
-				szTarget = "何嫣",
 				szContent = "{$me}, 谢谢你与丈夫一同来救我。",
+				szTarget = "何嫣",
 				bSearch = true,
 			},
 			{
@@ -167,31 +185,22 @@ return {
 						key = "奇遇提示0",
 						nTime = 10,
 						szName = "交互·千里马·上马",
-						nFrame = 0,
 						nIcon = 12372,
+						nFrame = 0,
 					},
 				},
+				szTarget = "%",
 				szNote = "交互·千里马·上马",
 				szContent = "王志的千里马已出现，快上马！",
-				szTarget = "%",
 			},
 		},
 		[23] = {
 			{
+				[14] = {
+					bCenterAlarm = true,
+				},
 				szContent = "你获得了[漆夜·栽火莲]。",
-				[14] = {
-					bCenterAlarm = true,
-				},
 				szNote = "恭喜完成·绝世奇遇·三山四海",
-			},
-		},
-		[-1] = {
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szNote = "恭喜触发·绝世奇遇·三山四海",
-				szContent = "有缘人出现！",
 			},
 		},
 	},
@@ -227,7 +236,6 @@ return {
 			},
 			{
 				nFrame = 47,
-				dwID = 43502,
 				aFocus = {
 					{
 						szDisplay = "何四芳·三山四海",
@@ -252,10 +260,10 @@ return {
 					},
 				},
 				szNote = "三山四海·何四芳",
+				dwID = 43502,
 			},
 			{
 				nFrame = 47,
-				dwID = 43504,
 				aFocus = {
 					{
 						szDisplay = "唐斌·三山四海",
@@ -280,10 +288,10 @@ return {
 					},
 				},
 				szNote = "三山四海·唐斌",
+				dwID = 43504,
 			},
 			{
 				nFrame = 47,
-				dwID = 43507,
 				aFocus = {
 					{
 						szDisplay = "老何·三山四海",
@@ -308,10 +316,10 @@ return {
 					},
 				},
 				szNote = "三山四海·老何",
+				dwID = 43507,
 			},
 			{
 				nFrame = 47,
-				dwID = 43508,
 				aFocus = {
 					{
 						szDisplay = "马·三山四海",
@@ -336,10 +344,10 @@ return {
 					},
 				},
 				szNote = "三山四海·马",
+				dwID = 43508,
 			},
 			{
 				nFrame = 47,
-				dwID = 43482,
 				aFocus = {
 					{
 						szDisplay = "刘云氏·三山四海",
@@ -364,6 +372,7 @@ return {
 					},
 				},
 				szNote = "三山四海·刘云氏",
+				dwID = 43482,
 			},
 		},
 		[100] = {
@@ -642,66 +651,6 @@ return {
 				dwID = 43474,
 			},
 		},
-		[23] = {
-			{
-				nFrame = 47,
-				dwID = 43510,
-				aFocus = {
-					{
-						szDisplay = "何忠寿·三山四海",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "三山四海·何忠寿",
-			},
-		},
-		[-1] = {
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "何缘·三山四海",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "三山四海·何缘",
-				dwID = 43803,
-			},
-		},
 		[16] = {
 			{
 				dwID = 43476,
@@ -956,6 +905,66 @@ return {
 				dwID = 43479,
 			},
 		},
+		[23] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "何忠寿·三山四海",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "三山四海·何忠寿",
+				dwID = 43510,
+			},
+		},
+		[-1] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "何缘·三山四海",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "三山四海·何缘",
+				dwID = 43803,
+			},
+		},
 	},
 	DEBUFF = {
 		[100] = {
@@ -968,27 +977,27 @@ return {
 					0,
 				},
 				dwID = 9007,
+				[1] = {
+					bBuffList = true,
+				},
+				szNote = "三山四海·护心丹",
 				tCountdown = {
 					{
 						nClass = 1,
 						key = "奇遇提示1",
 						nTime = 40,
 						szName = "别重伤·重伤会丢气劲卡进度",
-						nFrame = 7,
 						nIcon = 344,
+						nFrame = 7,
 					},
 					{
 						nClass = 1,
 						key = "奇遇提示2",
 						nTime = 40,
 						szName = "若重伤·需找客服补发护心丹",
-						nFrame = 7,
 						nIcon = 344,
+						nFrame = 7,
 					},
-				},
-				szNote = "三山四海·护心丹",
-				[1] = {
-					bBuffList = true,
 				},
 			},
 		},
@@ -1029,11 +1038,67 @@ return {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1782756079,
+		nTimeStamp = 1782835315,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
 	DOODAD = {
+		[100] = {
+			{
+				dwID = 5245,
+				aFocus = {
+					{
+						szDisplay = "陈旧的宝盒·三山四海",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "三山四海·陈旧的宝盒",
+			},
+			{
+				dwID = 5294,
+				aFocus = {
+					{
+						szDisplay = "小土堆·三山四海",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "三山四海·小土堆",
+			},
+		},
 		[13] = {
 			{
 				dwID = 5285,
@@ -1196,62 +1261,6 @@ return {
 					},
 				},
 				szNote = "三山四海·陈旧的宝盒",
-			},
-		},
-		[100] = {
-			{
-				dwID = 5245,
-				aFocus = {
-					{
-						szDisplay = "陈旧的宝盒·三山四海",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "三山四海·陈旧的宝盒",
-			},
-			{
-				dwID = 5294,
-				aFocus = {
-					{
-						szDisplay = "小土堆·三山四海",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "三山四海·小土堆",
 			},
 		},
 		[72] = {
