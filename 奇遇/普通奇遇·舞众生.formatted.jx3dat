@@ -1,0 +1,395 @@
+return {
+	BUFF = {},
+	CHAT = {
+		[-6] = {
+			{
+				szContent = "浪客侠游，缘来皆为一瞬。“荷花鲤”侠士居然触发奇遇【舞众生】，真是可喜可贺！\
+",
+			},
+		},
+	},
+	CASTING = {},
+	TALK = {},
+	NPC = {
+		[433] = {
+			{
+				nFrame = 47,
+				dwID = 69560,
+				aFocus = {
+					{
+						szDisplay = "柳青青",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "柳青青",
+			},
+		},
+		[193] = {
+			{
+				nFrame = 47,
+				dwID = 69563,
+				aFocus = {
+					{
+						szDisplay = "华折春·舞众生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "舞众生·华折春",
+			},
+			{
+				nFrame = 47,
+				dwID = 69564,
+				aFocus = {
+					{
+						szDisplay = "云吉·舞众生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "舞众生·云吉",
+			},
+			{
+				nFrame = 47,
+				dwID = 69571,
+				aFocus = {
+					{
+						szDisplay = "苍云军士·舞众生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "舞众生·苍云军士",
+			},
+			{
+				nFrame = 47,
+				dwID = 66729,
+				aFocus = {
+					{
+						szDisplay = "燕忆眉·舞众生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "舞众生·燕忆眉",
+			},
+			{
+				nFrame = 47,
+				dwID = 69584,
+				aFocus = {
+					{
+						szDisplay = "小混混·舞众生",
+						tRelation = {
+							bAlly = true,
+							bAll = true,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "舞众生·小混混",
+			},
+			{
+				nFrame = 47,
+				dwID = 69565,
+				aFocus = {
+					{
+						szDisplay = "阿梨·舞众生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "舞众生·阿梨",
+			},
+			{
+				nFrame = 47,
+				dwID = 69566,
+				aFocus = {
+					{
+						szDisplay = "李二狗·舞众生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "舞众生·李二狗",
+			},
+			{
+				nFrame = 47,
+				dwID = 69567,
+				aFocus = {
+					{
+						szDisplay = "柳三娘·舞众生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "舞众生·柳三娘",
+			},
+			{
+				nFrame = 47,
+				dwID = 69569,
+				aFocus = {
+					{
+						szDisplay = "苍云军士·舞众生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "舞众生·苍云军士",
+			},
+			{
+				nFrame = 47,
+				dwID = 37755,
+				aFocus = {
+					{
+						szDisplay = "林画扇·舞众生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "舞众生·林画扇",
+			},
+			{
+				nFrame = 47,
+				dwID = 69568,
+				aFocus = {
+					{
+						szDisplay = "奚人战俘·舞众生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "舞众生·奚人战俘",
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1782977150,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[193] = {
+			{
+				dwID = 8180,
+				aFocus = {
+					{
+						szDisplay = "装有信的盒子·舞众生",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 12,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "舞众生·装有信的盒子",
+			},
+		},
+	},
+}
