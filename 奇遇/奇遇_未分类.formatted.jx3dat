@@ -1,0 +1,131 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[6] = {
+			{
+				szContent = "赶紧将听到的消息转述给成步堂吧。",
+				tCountdown = {
+					{
+						nFrame = 0,
+						key = "奇遇·攻略1",
+						nTime = 20,
+						szName = "金水镇·成步堂",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+			},
+		},
+		[13] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "女侠我确实需要一个帮手，还请女侠凑近些说话。",
+				szTarget = "刘理阳",
+				szNote = "宠物奇遇·归安志·志",
+			},
+		},
+		[411] = {
+			{
+				szContent = "你记得易珍集那里有个伙房，不如去试试。",
+				tCountdown = {
+					{
+						nFrame = 7,
+						key = "奇遇·滴水恩·提示1",
+						nTime = 20,
+						szName = "易珍集·蒋大厨·灶台",
+						nClass = 14,
+						nIcon = 13,
+					},
+					{
+						nFrame = 7,
+						key = "奇遇·滴水恩·提示2",
+						nTime = 20.1,
+						szName = "不要点太快·避免错选5k金",
+						nClass = 14,
+						nIcon = 13,
+					},
+					{
+						nFrame = 7,
+						key = "奇遇·滴水恩·提示3",
+						nTime = 20.1,
+						szName = "可直接交互·灶台",
+						nClass = 14,
+						nIcon = 13,
+					},
+					{
+						nFrame = 7,
+						key = "奇遇·滴水恩·提示4",
+						nTime = 20.1,
+						szName = "烹饪专精|95级以上·六炉金龙丹",
+						nClass = 14,
+						nIcon = 13,
+					},
+				},
+			},
+		},
+		[215] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 7,
+						key = "奇遇·石敢当·提示1",
+						nTime = 10,
+						szName = "交互·沉甸甸的箱子",
+						nRefresh = 7200,
+						nClass = 14,
+						nIcon = 13,
+					},
+				},
+				szTarget = "贾昊仁",
+				szContent = "少侠,箱子里就是你要的东西了。你俩下去吧。",
+			},
+		},
+		[74] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 0,
+						key = "炼狱水煮鱼·改良1",
+						nTime = 20,
+						szName = "奇遇·炼狱水煮鱼·改良",
+						nClass = 14,
+						nIcon = 13,
+					},
+					{
+						nFrame = 0,
+						key = "炼狱水煮鱼·改良2",
+						nTime = 20,
+						szName = "唱晚池旁·李霖",
+						nClass = 14,
+						nIcon = 13,
+					},
+					{
+						nFrame = 0,
+						key = "炼狱水煮鱼·改良3",
+						nTime = 20,
+						szName = "需要准备·今朝醉·1个",
+						nClass = 14,
+						nIcon = 13,
+					},
+				},
+				szContent = "唱晚池旁的李霖好像有事在找你。",
+				szNote = "奇遇·炼狱水煮鱼·改良",
+			},
+		},
+	},
+	NPC = {},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1782993976,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}
