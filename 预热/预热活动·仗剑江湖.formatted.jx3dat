@@ -15,6 +15,7 @@ return {
 					0,
 				},
 				dwID = 17816,
+				szNote = "话别琦菲，市井繁华",
 				tCountdown = {
 					{
 						nClass = 2,
@@ -24,15 +25,36 @@ return {
 						nIcon = 1375,
 					},
 				},
-				szNote = "话别琦菲，市井繁华",
+			},
+		},
+		[13] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 17816,
+				szNote = "晒盐伯",
+				tCountdown = {
+					{
+						nClass = 2,
+						key = "任务冷却",
+						nTime = 10,
+						szName = "金水镇·垂香林·封演",
+						nIcon = 1375,
+					},
+				},
 			},
 		},
 	},
 	__meta = {
 		szServer = "唯我独尊",
-		szAuthor = "荷花鲤",
+		szAuthor = "棠梨煮雪",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1783185507,
+		nTimeStamp = 1783226966,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},

@@ -1,0 +1,139 @@
+return {
+	BUFF = {
+		[788] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 32803,
+				szNote = "Ç±ÐÐ",
+				[1] = {
+					bBuffList = true,
+				},
+			},
+		},
+	},
+	CHAT = {},
+	CASTING = {},
+	TALK = {},
+	NPC = {
+		[788] = {
+			{
+				dwID = 136540,
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "ÌÆÃ¨¶ù",
+				nFrame = 47,
+			},
+			{
+				nFrame = 57,
+				dwID = 137513,
+				aFocus = {
+					{
+						szDisplay = "¼ýÓê",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "¼ýÓê",
+				szName = "¼ýÓê",
+			},
+			{
+				dwID = 136874,
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "ÌÆÃ¨¶ù",
+				nFrame = 47,
+			},
+			{
+				dwID = 136868,
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "ÓàÎµ",
+				nFrame = 57,
+			},
+			{
+				dwID = 136269,
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "ÌÆÓ°",
+				nFrame = 47,
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "Î¨ÎÒ¶À×ð",
+		szAuthor = "ºÉ»¨Àð",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1783227278,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}
