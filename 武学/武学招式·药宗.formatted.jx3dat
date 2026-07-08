@@ -21,8 +21,8 @@ return {
 						nTime = 7,
 						szName = "Áú¿û×Ô¿à¡¤[{$sender}]",
 						nRefresh = 1,
-						nIcon = 15413,
 						nFrame = 6,
+						nIcon = 15413,
 					},
 				},
 				szNote = "Áú¿ûÁú¿û",
@@ -45,11 +45,13 @@ return {
 		[-17] = {
 			{
 				tKungFu = {
-					["SKILL#10627"] = true,
 					["SKILL#10626"] = true,
+					["SKILL#10627"] = true,
 				},
 				nScrutinyType = 1,
 				dwID = 27897,
+				nLevel = 1,
+				szNote = "ÂÌÒ°ÂûÉú",
 				tCountdown = {
 					{
 						nClass = 9,
@@ -57,12 +59,10 @@ return {
 						nTime = "5,ÂÌÒ°ÂûÉú¡¤Ãâ¿Ø;30,ÂÌÒ°ÂûÉú¡¤CD¡¤30s",
 						szName = "ÂÌÒ°ÂûÉú",
 						nRefresh = 1,
-						nIcon = 15423,
 						nFrame = 4,
+						nIcon = 15423,
 					},
 				},
-				szNote = "ÂÌÒ°ÂûÉú",
-				nLevel = 1,
 			},
 			{
 				tCountdown = {
@@ -71,8 +71,8 @@ return {
 						key = "ÇÒ´ýÊ±ÐÝ¡¤{$sender}",
 						nTime = 4,
 						szName = "ÇÒ´ýÊ±ÐÝ¡ú{$receiver}",
-						nIcon = 15410,
 						nFrame = 1,
+						nIcon = 15410,
 					},
 				},
 				nScrutinyType = 2,
@@ -89,8 +89,8 @@ return {
 						key = "¿ÝÄ¾ËÕÏ¢¡¤{$sender}",
 						nTime = 3,
 						szName = "¿ÝÄ¾ËÕÏ¢¡¤{$sender}",
-						nIcon = 15422,
 						nFrame = 6,
+						nIcon = 15422,
 					},
 				},
 				nScrutinyType = 2,
@@ -101,7 +101,7 @@ return {
 			{
 				nLevel = 1,
 				nScrutinyType = 2,
-				nIcon = 101411,
+				dwID = 102200,
 				szName = "¿ÝÄ¾ËÕÏ¢¡¤Îò",
 				tCountdown = {
 					{
@@ -109,12 +109,12 @@ return {
 						key = "¿ÝÄ¾ËÕÏ¢¡¤{$sender}",
 						nTime = 3,
 						szName = "¿ÝÄ¾ËÕÏ¢¡¤{$sender}",
-						nIcon = 101411,
 						nFrame = 6,
+						nIcon = 101411,
 					},
 				},
 				szNote = "¿ÝÄ¾ËÕÏ¢¡¤Îò",
-				dwID = 102200,
+				nIcon = 101411,
 			},
 			{
 				tCountdown = {
@@ -123,8 +123,8 @@ return {
 						key = "¼õÉË¼à¿Ø",
 						nTime = 7,
 						szName = "Áú¿û×Ô¿à¡ú{$receiver}",
-						nIcon = 15413,
 						nFrame = 6,
+						nIcon = 15413,
 					},
 				},
 				nScrutinyType = 2,
@@ -139,8 +139,8 @@ return {
 						key = "¼õÉË¼à¿Ø",
 						nTime = 7,
 						szName = "Áú¿û×Ô¿à¡ú{$receiver}",
-						nFrame = 6,
 						nIcon = 15413,
+						nFrame = 6,
 					},
 				},
 				nScrutinyType = 2,
@@ -151,13 +151,226 @@ return {
 		},
 	},
 	TALK = {},
-	NPC = {},
+	NPC = {
+		[-1] = {
+			{
+				nFrame = 47,
+				tCountdown = {
+					{
+						nClass = 3,
+						key = "Áé¾£Ö®ÖÖ",
+						nTime = 15,
+						szName = "Áé¾£¡¤Ê£ÓàÊ±¼ä",
+						nFrame = 6,
+						nIcon = 15418,
+					},
+					{
+						nClass = 4,
+						key = "Áé¾£Ö®ÖÖ",
+						nTime = 0,
+						szName = "Áé¾£¡¤Ê£ÓàÊ±¼ä",
+						nFrame = 5,
+						nIcon = 15418,
+					},
+				},
+				dwID = 107557,
+				col = {
+					50,
+					255,
+					50,
+				},
+				szName = "Áé¾£",
+				aFocus = {
+					{
+						szDisplay = "Áé¾£",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "Ò©×Ú¡¤Áé¾£Ö®ÖÖ",
+				tKungFu = {
+					["SKILL#10627"] = true,
+					["SKILL#10626"] = true,
+				},
+			},
+		},
+		[-7] = {
+			{
+				nFrame = 47,
+				dwID = 106632,
+				aFocus = {
+					{
+						szDisplay = "×ÏÒ¶»¨",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "Ò©×Ú¡¤×ÏÒ¶³Áðâ",
+				szName = "×ÏÒ¶»¨",
+			},
+		},
+		[-8] = {
+			{
+				nFrame = 69,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 106107,
+				aFocus = {
+					{
+						szDisplay = "²Ô¼¬¸¿µØ¡¤µÐ¶Ô",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = true,
+						},
+					},
+				},
+				szNote = "²Ô¼¬¸¿µØ",
+			},
+			{
+				nFrame = 47,
+				dwID = 106785,
+				aFocus = {
+					{
+						szDisplay = "ÆÑ¹«Ó¢¡¤Ò©×Ú",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 15.1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "ÐýÉú·É²Ý",
+				szName = "{$S28740}",
+			},
+			{
+				nFrame = 64,
+				[3] = {
+					tMark = {
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						true,
+					},
+					bScreenHead = true,
+				},
+				dwID = 106110,
+				aFocus = {
+					{
+						szDisplay = "Çà´¨åªÁ«¡¤È¦ÄÚ",
+						tRelation = {
+							bAlly = true,
+							bAll = true,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+					{
+						szDisplay = "Çà´¨åªÁ«",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "Çà´¨åªÁ«",
+			},
+		},
+		[-3] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				col = {
+					100,
+					255,
+					100,
+				},
+				dwID = 106917,
+				aFocus = {
+					{
+						szDisplay = "¿ÝÄ¾ËÕÏ¢",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "Ò©×Ú¡¤¿ÝÄ¾ËÕÏ¢",
+				szName = "¿ÝÄ¾ËÕÏ¢¡¤Ò¶×Ó",
+			},
+		},
+	},
 	DEBUFF = {},
 	__meta = {
 		szServer = "Î¨ÎÒ¶À×ð",
-		szAuthor = "ºÉ»¨Àð",
+		szAuthor = "ÌÄÀæÖóÑ©",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1766170645,
+		nTimeStamp = 1783499409,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
