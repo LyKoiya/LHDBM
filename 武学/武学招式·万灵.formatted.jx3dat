@@ -1,0 +1,260 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {},
+	NPC = {
+		[-7] = {
+			{
+				nFrame = 64,
+				[3] = {},
+				dwID = 124356,
+				[4] = {},
+				szNote = "熊",
+				aFocus = {
+					{
+						szDisplay = "熊",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+			},
+			{
+				nFrame = 64,
+				[3] = {},
+				dwID = 124538,
+				[4] = {},
+				szNote = "狼",
+				aFocus = {
+					{
+						szDisplay = "狼",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+			},
+			{
+				nFrame = 64,
+				[3] = {},
+				dwID = 124539,
+				[4] = {},
+				szNote = "虎",
+				aFocus = {
+					{
+						szDisplay = "虎",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+			},
+			{
+				nFrame = 64,
+				[3] = {},
+				dwID = 124540,
+				[4] = {},
+				szNote = "鹰",
+				aFocus = {
+					{
+						szDisplay = "鹰",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+			},
+			{
+				nFrame = 64,
+				[3] = {},
+				dwID = 124541,
+				[4] = {},
+				szNote = "大象",
+				aFocus = {
+					{
+						szDisplay = "大象",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+			},
+			{
+				nFrame = 64,
+				[3] = {},
+				dwID = 124542,
+				[4] = {},
+				szNote = "野猪",
+				aFocus = {
+					{
+						szDisplay = "野猪",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+			},
+			{
+				nFrame = 64,
+				szName = "万灵·本体",
+				[3] = {},
+				dwID = 124302,
+				aFocus = {
+					{
+						szDisplay = "万灵·本体",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "万灵·本体",
+				[4] = {},
+			},
+			{
+				nFrame = 64,
+				szName = "汇灵合契·乘黄",
+				[3] = {},
+				dwID = 124067,
+				aFocus = {
+					{
+						szDisplay = "汇灵合契·乘黄",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "汇灵合契·乘黄",
+				[4] = {},
+			},
+		},
+		[-17] = {
+			{
+				nFrame = 64,
+				[3] = {
+					bScreenHead = true,
+					tMark = {
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						true,
+					},
+				},
+				dwID = 124302,
+				aFocus = {
+					{
+						szDisplay = "万灵·本体",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "万灵·本体",
+				szName = "万灵·本体",
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1783500877,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}

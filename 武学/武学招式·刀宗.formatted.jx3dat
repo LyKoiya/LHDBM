@@ -1,0 +1,115 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {},
+	NPC = {
+		[-1] = {
+			{
+				nFrame = 47,
+				szName = "Ó°×Ó",
+				dwID = 111366,
+				aFocus = {
+					{
+						szDisplay = "µ¶×Ú¡¤Ó°×Ó",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 120,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "µ¶×Ú¡¤Ó°×Ó",
+				tKungFu = {
+					["SKILL#10698"] = true,
+				},
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "Î¨ÎÒ¶À×ğ",
+		szAuthor = "ºÉ»¨Àğ",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1783500612,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[-1] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 9810,
+				aFocus = {
+					{
+						szDisplay = "±øÆ÷µôÂä",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 2,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "±øÆ÷µôÂä",
+			},
+		},
+		[-17] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 9810,
+				aFocus = {
+					{
+						szDisplay = "±øÆ÷µôÂä",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 16,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "±øÆ÷µôÂä",
+			},
+		},
+	},
+}
