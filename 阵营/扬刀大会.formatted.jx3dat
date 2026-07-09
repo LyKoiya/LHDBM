@@ -1,0 +1,260 @@
+return {
+	BUFF = {},
+	CHAT = {
+		[790] = {
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "战斗开始",
+						nTime = "30,战斗·开始倒计时;31,战斗·开始比赛",
+						szName = "战斗·开始倒计时",
+						nRefresh = 0,
+						nFrame = 4,
+						nIcon = 13,
+					},
+				},
+				szContent = "扬刀大会将在30秒后开始。\
+",
+				col = {
+					255,
+					255,
+					100,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "战斗开始",
+						nTime = -2,
+						szName = "战斗开始",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "战斗开始",
+						nTime = "10,战斗·开始倒计时;11,战斗·开始比赛",
+						szName = "战斗·开始倒计时",
+						nRefresh = 0,
+						nFrame = 4,
+						nIcon = 13,
+					},
+				},
+				szContent = "扬刀大会将在10秒后开始。\
+",
+				col = {
+					255,
+					255,
+					100,
+				},
+			},
+		},
+		[676] = {
+			{
+				szContent = "扬刀大会将在20秒后开始。\
+",
+			},
+			{
+				szContent = "扬刀大会倒计时:5\
+",
+			},
+			{
+				szContent = "扬刀大会倒计时:4\
+",
+			},
+			{
+				szContent = "扬刀大会倒计时:3\
+",
+			},
+			{
+				szContent = "扬刀大会倒计时:2\
+",
+			},
+			{
+				szContent = "扬刀大会倒计时:1\
+",
+			},
+			{
+				szContent = "扬刀大会倒计时:0\
+",
+			},
+			{
+				szContent = "扬刀大会开始!!!\
+",
+			},
+			{
+				szContent = "获得天机筹： 250\
+",
+			},
+			{
+				szContent = "连战不休，气势渐衰，攻守双方气血开始流失，请速战速决！\
+",
+			},
+		},
+	},
+	CASTING = {},
+	TALK = {
+		[790] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = "60,战斗·结束剩余;62,战斗·已经结束",
+						szName = "气血·大量流失",
+						nRefresh = 0,
+						nIcon = 13,
+						nFrame = 1,
+					},
+				},
+				szNote = "双方气血·大量流失·速战速决",
+				szContent = "连战不休，气势渐衰，攻守双方气血大量流失中，请速战速决！",
+				col = {
+					255,
+					153,
+					204,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = "30,战斗·开始倒计时;31,战斗·开始比赛",
+						szName = "战斗·开始倒计时",
+						nRefresh = 0,
+						nIcon = 13,
+						nFrame = 4,
+					},
+				},
+				szContent = "扬刀大会将在30秒后开始。",
+				szTarget = "%",
+				col = {
+					255,
+					255,
+					100,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = "20,战斗·开始倒计时;21,战斗·开始比赛",
+						szName = "战斗·开始倒计时",
+						nRefresh = 0,
+						nIcon = 13,
+						nFrame = 4,
+					},
+				},
+				szContent = "扬刀大会将在20秒后开始。",
+				szTarget = "%",
+				col = {
+					255,
+					255,
+					100,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = -2,
+						szName = "战斗开始",
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = "10,战斗·开始倒计时;11,战斗·开始比赛",
+						szName = "战斗·开始倒计时",
+						nRefresh = 0,
+						nIcon = 13,
+						nFrame = 4,
+					},
+				},
+				szContent = "扬刀大会将在10秒后开始。",
+				szTarget = "%",
+				col = {
+					255,
+					255,
+					100,
+				},
+			},
+			{
+				szContent = "扬刀大会开始!!!",
+				col = {
+					255,
+					255,
+					100,
+				},
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szTarget = "%",
+				szNote = "扬刀大会·战斗开始",
+			},
+		},
+	},
+	NPC = {
+		[790] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "轩辕灵霄",
+				dwID = 137377,
+			},
+		},
+	},
+	DEBUFF = {
+		[790] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					255,
+					153,
+					204,
+				},
+				dwID = 33571,
+				szNote = "势颓",
+				[1] = {
+					bBuffList = true,
+				},
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1783607921,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}
