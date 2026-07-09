@@ -52,7 +52,7 @@ return {
 	},
 	__meta = {
 		szServer = "Î¨ÎÒ¶À×ð",
-		szAuthor = "ÌÄÀæÖóÑ©",
+		szAuthor = "ºÉ»¨Àð",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
 		nTimeStamp = 1783226966,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
