@@ -1,5 +1,18 @@
 return {
 	BUFF = {
+		[-10] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "回气力",
+				dwID = 14232,
+				[1] = {
+					bBuffList = true,
+				},
+				szNote = "通用复活点回复气力值",
+				nIcon = 10910,
+			},
+		},
 		[50] = {
 			{
 				{
@@ -3699,7 +3712,7 @@ return {
 							bEnemy = false,
 						},
 						dwMapID = -1,
-						nMaxDistance = 60,
+						nMaxDistance = 30,
 						tLife = {
 							szOperator = ">",
 							nValue = 0,
@@ -3727,7 +3740,7 @@ return {
 							bEnemy = false,
 						},
 						dwMapID = -1,
-						nMaxDistance = 60,
+						nMaxDistance = 30,
 						tLife = {
 							szOperator = ">",
 							nValue = 0,
