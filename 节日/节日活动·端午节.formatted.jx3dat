@@ -245,17 +245,6 @@ return {
 				nLevel = 1,
 			},
 		},
-		[582] = {
-			{
-				nLevel = 27,
-				nScrutinyType = 1,
-				dwID = 244,
-				szNote = "ÁúÖÛ¡¤×··ç",
-				[1] = {
-					bBuffList = true,
-				},
-			},
-		},
 	},
 	CHAT = {
 		[159] = {
