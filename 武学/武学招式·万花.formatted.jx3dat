@@ -6,6 +6,176 @@ return {
 					bBuffList = true,
 				},
 				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 15378,
+				szNote = "春泥触发无花只有寒",
+				tKungFu = {
+					["SKILL#10021"] = true,
+					["SKILL#10028"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 18603,
+				tKungFu = {
+					["SKILL#10021"] = true,
+				},
+				szNote = "乱洒青荷在命中NPC等级≤105/115时：为自身添加等级为1持续时间为8秒的霜聚结露，提高1500点基础混元性内功攻击",
+				tCountdown = {
+					{
+						nFrame = 7,
+						key = "霜聚结露",
+						nTime = 8,
+						szName = "霜聚结露·1.5k攻击",
+						nClass = -1,
+						nIcon = 2038,
+					},
+					{
+						nFrame = 7,
+						key = "霜聚结露",
+						nTime = 0,
+						szName = "霜聚结露",
+						nClass = -1,
+						nIcon = 2038,
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18623,
+				tCountdown = {
+					{
+						nFrame = 7,
+						key = "霜聚结露·愈",
+						nTime = 8,
+						szName = "霜聚结露·愈·2k治疗量",
+						nIcon = 2038,
+						nClass = -1,
+					},
+					{
+						nFrame = 7,
+						key = "霜聚结露·愈",
+						nTime = 0,
+						szName = "霜聚结露·愈",
+						nIcon = 2038,
+						nClass = -1,
+					},
+				},
+				szNote = "霜聚结露·愈·提高2000点治疗量",
+				tKungFu = {
+					["SKILL#10028"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 16495,
+				szNote = "冰花爆炸7尺仅有一朵",
+				tKungFu = {
+					["SKILL#10021"] = true,
+					["SKILL#10028"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 16496,
+				szNote = "冰葬",
+				tKungFu = {
+					["SKILL#10021"] = true,
+					["SKILL#10028"] = true,
+				},
+			},
+			{
+				{
+					bOnlySelfSrc = true,
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 2,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 15385,
+				tKungFu = {
+					["SKILL#10028"] = true,
+				},
+				szNote = "真药苦中叹冬去春来",
+				aCataclysmBuff = {
+					{
+						col = "#00EE00FF",
+						nPriority = 1,
+						nColAlpha = 255,
+						bOnlyMine = true,
+						szReminder = "冬",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 15363,
+				tKungFu = {
+					["SKILL#10021"] = true,
+					["SKILL#10028"] = true,
+				},
+				szNote = "寒泉",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
 				col = {
 					0,
 					255,
@@ -19,8 +189,8 @@ return {
 						nTime = 7,
 						szName = "落子无悔·[{$sender}]",
 						nRefresh = 1,
-						nIcon = 17707,
 						nFrame = 6,
+						nIcon = 17707,
 					},
 				},
 				szNote = "落墨",
@@ -42,11 +212,6 @@ return {
 				nLevel = 1,
 				nScrutinyType = 1,
 				dwID = 100,
-				tKungFu = {
-					["SKILL#10021"] = true,
-					["SKILL#10028"] = true,
-				},
-				szNote = "星楼月影",
 				tCountdown = {
 					{
 						nIcon = 1520,
@@ -54,13 +219,286 @@ return {
 						nTime = "5,星楼月影·免控;27,星楼月影·充能·27s;28,星楼月影·已充能",
 						szName = "星楼月影",
 						nRefresh = 0,
-						nFrame = 4,
 						nClass = 9,
+						nFrame = 4,
 					},
+				},
+				szNote = "星楼月影",
+				tKungFu = {
+					["SKILL#10028"] = true,
+					["SKILL#10021"] = true,
 				},
 			},
 		},
 		[-1] = {
+			{
+				tKungFu = {
+					["SKILL#10021"] = true,
+					["SKILL#10028"] = true,
+				},
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 23402,
+				nIcon = 7445,
+				szNote = "商阳指触发",
+				nLevel = 1,
+			},
+			{
+				tKungFu = {
+					["SKILL#10021"] = true,
+					["SKILL#10028"] = true,
+				},
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 22075,
+				nIcon = 7453,
+				szNote = "乱洒青荷触发",
+				nLevel = 1,
+			},
+			{
+				nIcon = 11826,
+				szNote = "握针·真药苦中叹",
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 22077,
+				szName = "真药苦中叹",
+				tKungFu = {
+					["SKILL#10021"] = true,
+					["SKILL#10028"] = true,
+				},
+			},
+			{
+				nIcon = 1520,
+				szNote = "星楼月影·冷月照独帆",
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 22048,
+				szName = "冷月照独帆",
+				tKungFu = {
+					["SKILL#10021"] = true,
+					["SKILL#10028"] = true,
+				},
+			},
+			{
+				nIcon = 617,
+				szNote = "春泥护花·无花只有寒",
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 22076,
+				szName = "无花只有寒",
+				tKungFu = {
+					["SKILL#10021"] = true,
+					["SKILL#10028"] = true,
+				},
+			},
+			{
+				nLevel = 1,
+				szName = "碧水聚河川",
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 22074,
+				nIcon = 3553,
+				szNote = "碧水滔天·碧水聚河川",
+			},
+			{
+				tKungFu = {
+					["SKILL#10021"] = true,
+					["SKILL#10028"] = true,
+				},
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 23403,
+				nIcon = 7367,
+				szNote = "听风吹雪·历音吹雪",
+				nLevel = 1,
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				dwID = 28464,
+				szNote = "守拙",
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "隔离·{$sender}",
+						nTime = 4,
+						szName = "守拙→{$receiver}",
+						nFrame = 0,
+						nIcon = 11826,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				dwID = 34102,
+				szNote = "归园",
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "隔离·{$sender}",
+						nTime = 4,
+						szName = "归园→{$receiver}",
+						nIcon = 11826,
+						nFrame = 0,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 22043,
+				tKungFu = {
+					["SKILL#10021"] = true,
+					["SKILL#10028"] = true,
+				},
+				szNote = "雪凤冰王笛读条引导技",
+				nIcon = 19419,
+			},
+			{
+				nIcon = 13823,
+				szNote = "不知为何叹",
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 22078,
+				szName = "不知为何叹",
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "不知为何叹",
+						nTime = 1,
+						szName = "不知为何叹",
+						nIcon = 13823,
+					},
+				},
+				tKungFu = {
+					["SKILL#10021"] = true,
+					["SKILL#10028"] = true,
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 23404,
+				tKungFu = {
+					["SKILL#10021"] = true,
+					["SKILL#10028"] = true,
+				},
+				szNote = "判定后续技能触发及释",
+				nIcon = 610,
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 22047,
+				tKungFu = {
+					["SKILL#10021"] = true,
+					["SKILL#10028"] = true,
+				},
+				szNote = "冰荷花普通攻击技能",
+				nIcon = 7372,
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = -1,
+						key = "孤望飞霜满",
+						nTime = 2,
+						szName = "冰荷花·爆炸",
+						nIcon = 7487,
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 21309,
+				nIcon = 7487,
+				szNote = "冰荷花爆炸技能",
+				tKungFu = {
+					["SKILL#10028"] = true,
+					["SKILL#10021"] = true,
+				},
+			},
+			{
+				tKungFu = {
+					["SKILL#10021"] = true,
+					["SKILL#10028"] = true,
+				},
+				nScrutinyType = 1,
+				dwID = 23405,
+				nIcon = 7507,
+				szNote = "冰荷花爆炸技能",
+				nLevel = 1,
+			},
+			{
+				tKungFu = {
+					["SKILL#10021"] = true,
+					["SKILL#10028"] = true,
+				},
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 21308,
+				nIcon = 12492,
+				szNote = "雪凤冰王笛读条引导技",
+				nLevel = 1,
+			},
 			{
 				tCountdown = {
 					{
@@ -68,8 +506,8 @@ return {
 						key = "南风吐月·{$sender}",
 						nTime = 8,
 						szName = "南风吐月→{$receiver}",
-						nIcon = 7510,
 						nFrame = 0,
+						nIcon = 7510,
 					},
 				},
 				nScrutinyType = 2,
@@ -84,8 +522,8 @@ return {
 						key = "洛川神韵·{$sender}",
 						nTime = 10,
 						szName = "洛川神韵→{$receiver}",
-						nIcon = 14146,
 						nFrame = 1,
+						nIcon = 14146,
 					},
 				},
 				nScrutinyType = 2,
@@ -95,18 +533,18 @@ return {
 			},
 			{
 				nLevel = 1,
+				dwID = 28480,
+				szNote = "脱离机甲",
 				tCountdown = {
 					{
 						nClass = 9,
 						key = "天工甲士·{$sender}",
 						nTime = 0,
 						szName = "天工甲士·{$sender}",
-						nIcon = 16225,
 						nFrame = 0,
+						nIcon = 16225,
 					},
 				},
-				szNote = "脱离机甲",
-				dwID = 28480,
 			},
 			{
 				tCountdown = {
@@ -115,16 +553,16 @@ return {
 						key = "天工甲士·{$sender}",
 						nTime = 2,
 						szName = "天工甲士·{$sender}·上机",
-						nFrame = 0,
 						nIcon = 16224,
+						nFrame = 0,
 					},
 					{
 						nClass = 9,
 						key = "天工甲士·{$sender}",
 						nTime = 30,
 						szName = "天工甲士·{$sender}",
-						nFrame = 0,
 						nIcon = 16224,
+						nFrame = 0,
 					},
 				},
 				nScrutinyType = 2,
@@ -142,8 +580,8 @@ return {
 			},
 			{
 				tKungFu = {
-					["SKILL#10021"] = true,
 					["SKILL#10028"] = true,
+					["SKILL#10021"] = true,
 				},
 				nScrutinyType = 1,
 				col = {
@@ -152,26 +590,26 @@ return {
 					255,
 				},
 				dwID = 28724,
+				nLevel = 1,
+				szNote = "天工甲士",
 				tCountdown = {
 					{
 						nClass = 8,
 						key = "天工甲士·{$sender}",
 						nTime = 5,
 						szName = "天工甲士·正在组装",
-						nIcon = 16223,
 						nFrame = 4,
+						nIcon = 16223,
 					},
 					{
 						nClass = 9,
 						key = "天工甲士·{$sender}",
 						nTime = 1,
 						szName = "天工甲士·完成组装",
-						nIcon = 16223,
 						nFrame = 4,
+						nIcon = 16223,
 					},
 				},
-				szNote = "天工甲士",
-				nLevel = 1,
 			},
 			{
 				tCountdown = {
@@ -180,8 +618,8 @@ return {
 						key = "折叶笼花·{$sender}",
 						nTime = 12,
 						szName = "折叶笼花→{$receiver}",
-						nIcon = 16602,
 						nFrame = 0,
+						nIcon = 16602,
 					},
 				},
 				nScrutinyType = 2,
@@ -196,46 +634,14 @@ return {
 						key = "大针·{$sender}",
 						nTime = 6,
 						szName = "大针→{$receiver}",
-						nIcon = 14148,
 						nFrame = 0,
+						nIcon = 14148,
 					},
 				},
 				nScrutinyType = 2,
 				dwID = 24911,
 				szNote = "大针",
 				nLevel = 1,
-			},
-			{
-				nLevel = 1,
-				nScrutinyType = 2,
-				dwID = 28464,
-				szNote = "守拙",
-				tCountdown = {
-					{
-						nClass = 9,
-						key = "隔离·{$sender}",
-						nTime = 4,
-						szName = "守拙→{$receiver}",
-						nIcon = 11826,
-						nFrame = 0,
-					},
-				},
-			},
-			{
-				nLevel = 1,
-				nScrutinyType = 2,
-				dwID = 34102,
-				szNote = "归园",
-				tCountdown = {
-					{
-						nClass = 9,
-						key = "隔离·{$sender}",
-						nTime = 4,
-						szName = "归园→{$receiver}",
-						nFrame = 0,
-						nIcon = 11826,
-					},
-				},
 			},
 		},
 	},
@@ -244,8 +650,11 @@ return {
 		[-2] = {
 			{
 				nFrame = 47,
+				tKungFu = {
+					["SKILL#10028"] = true,
+					["SKILL#10021"] = true,
+				},
 				szName = "冰荷花",
-				dwID = 66734,
 				aFocus = {
 					{
 						szDisplay = "冰荷花",
@@ -264,17 +673,17 @@ return {
 					},
 				},
 				szNote = "冰荷花",
-				tKungFu = {
-					["SKILL#10021"] = true,
-					["SKILL#10028"] = true,
-				},
+				dwID = 66734,
 			},
 		},
 		[-7] = {
 			{
 				nFrame = 47,
+				tKungFu = {
+					["SKILL#10028"] = true,
+					["SKILL#10021"] = true,
+				},
 				szName = "冰荷花",
-				dwID = 66734,
 				aFocus = {
 					{
 						szDisplay = "冰荷花",
@@ -293,10 +702,7 @@ return {
 					},
 				},
 				szNote = "冰荷花",
-				tKungFu = {
-					["SKILL#10021"] = true,
-					["SKILL#10028"] = true,
-				},
+				dwID = 66734,
 			},
 			{
 				nFrame = 47,
@@ -354,10 +760,7 @@ return {
 		[-3] = {
 			{
 				nFrame = 47,
-				tKungFu = {
-					["SKILL#10028"] = true,
-					["SKILL#10021"] = true,
-				},
+				szName = "冰荷花",
 				dwID = 66734,
 				aFocus = {
 					{
@@ -377,16 +780,64 @@ return {
 					},
 				},
 				szNote = "秘境·限制",
-				szName = "冰荷花",
+				tKungFu = {
+					["SKILL#10021"] = true,
+					["SKILL#10028"] = true,
+				},
 			},
 		},
 	},
-	DEBUFF = {},
+	DEBUFF = {
+		[-1] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 16497,
+				szNote = "为爆炸范围内玩家目标NPC添加等级为1持续时间为8秒的静寂之美",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "凛冬之寒",
+				dwID = 15380,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "霜露",
+				dwID = 3097,
+			},
+			{
+				dwID = 15381,
+				nScrutinyType = 1,
+				szNote = "霜王威慑",
+				nLevel = 1,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "白凤凝雪",
+				dwID = 15377,
+			},
+		},
+	},
 	__meta = {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1783498585,
+		nTimeStamp = 1784199881,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
