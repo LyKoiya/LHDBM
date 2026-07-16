@@ -1,0 +1,341 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {
+		[120] = {
+			{
+				nLevel = 1,
+				[8] = {
+					bCenterAlarm = true,
+					bFullScreen = true,
+					bScreenHead = true,
+					tMark = {
+						false,
+						false,
+						false,
+						false,
+						false,
+						true,
+						false,
+						false,
+						false,
+						false,
+					},
+				},
+				col = {
+					31,
+					255,
+					31,
+				},
+				dwID = 2808,
+				tCountdown = {
+					{
+						nClass = 8,
+						key = "再生",
+						nTime = 38,
+						szName = "再生·打断·剪刀",
+						nFrame = 2,
+						nIcon = 13,
+					},
+				},
+				[9] = {
+					tMark = {
+						false,
+						false,
+						false,
+						false,
+						false,
+						true,
+						false,
+						false,
+						false,
+						false,
+					},
+				},
+				szName = "{$S2808}·打断",
+			},
+			{
+				dwID = 3049,
+				tCountdown = {
+					{
+						nClass = 9,
+						nTime = 6.9,
+						szName = "棒槌·下一条蛇·甩头",
+						nFrame = 5,
+						nIcon = 13,
+					},
+				},
+				[9] = {
+					bCenterAlarm = true,
+					tMark = {
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						true,
+						false,
+						false,
+						false,
+					},
+				},
+				nLevel = 1,
+			},
+			{
+				dwID = 2806,
+				nLevel = 1,
+			},
+			{
+				nLevel = 1,
+				[8] = {
+					bCenterAlarm = true,
+				},
+				dwID = 2807,
+				tCountdown = {
+					{
+						nClass = 8,
+						nTime = 30,
+						szName = "疯狂之怒·打断·如意",
+						nFrame = 7,
+						nIcon = 13,
+					},
+				},
+				[9] = {
+					tMark = {
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						true,
+						false,
+						false,
+					},
+				},
+				szName = "{$S2807}·打断",
+			},
+			{
+				dwID = 183,
+				tCountdown = {
+					{
+						nClass = 9,
+						nTime = "1,【{$sender}】{$S183}·{$receiver};3,【{$sender}】{$S183}·{$receiver}",
+						szName = "倒计时 ",
+						nFrame = 5,
+						nIcon = 1513,
+					},
+				},
+				tKungFu = {
+					["SKILL#10028"] = true,
+					["SKILL#10021"] = true,
+				},
+				nLevel = 1,
+			},
+		},
+	},
+	TALK = {},
+	NPC = {
+		[120] = {
+			{
+				nFrame = 57,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 8113,
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				[3] = {
+					bCenterAlarm = true,
+					tMark = {
+						false,
+						false,
+						false,
+						false,
+						true,
+						false,
+						false,
+						false,
+						false,
+						false,
+					},
+				},
+				dwID = 15662,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				tCountdown = {
+					{
+						nClass = 3,
+						nTime = 30.8,
+						szName = "阴阳咒符·红鼓",
+						nFrame = 6,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				dwID = 15711,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				[3] = {
+					tMark = {
+						true,
+						true,
+						true,
+						true,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+					},
+				},
+				nFrame = 47,
+			},
+			{
+				dwID = 15767,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				tCountdown = {
+					{
+						nClass = 7,
+						key = "再生",
+						nTime = 36.4,
+						szName = "再生·注意打断·剪刀",
+						nFrame = 5,
+						nIcon = 13,
+					},
+				},
+				nFrame = 60,
+			},
+		},
+	},
+	DEBUFF = {
+		[120] = {
+			{
+				nLevel = 1,
+				col = {
+					45,
+					255,
+					255,
+				},
+				dwID = 3416,
+				[1] = {
+					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#2DFFFF",
+						col = "#2DFFFFFF",
+						szReminder = "凝",
+						nPriority = 3,
+						nColAlpha = 255,
+						bScreenHead = true,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				col = {
+					255,
+					255,
+					45,
+				},
+				dwID = 3454,
+				[1] = {
+					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#FFFF2D",
+						col = "#FFFF2DFF",
+						szReminder = "石",
+						nColAlpha = 255,
+						bAttention = true,
+						bScreenHead = true,
+					},
+				},
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1784202435,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}
