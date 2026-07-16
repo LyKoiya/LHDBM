@@ -74,7 +74,7 @@ return {
 					bBuffList = true,
 					bTeamPanel = true,
 				},
-				nLevel = 2,
+				nLevel = 1,
 				col = {
 					255,
 					50,
