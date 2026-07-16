@@ -2,6 +2,25 @@ return {
 	BUFF = {
 		[-1] = {
 			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 16259,
+				tKungFu = {
+					["SKILL#10175"] = true,
+					["SKILL#10176"] = true,
+				},
+				szNote = "Ð«Áé",
+				szName = "Ð«Áé",
+			},
+			{
 				tCountdown = {
 					{
 						nClass = 1,
@@ -9,8 +28,8 @@ return {
 						nTime = 5,
 						szName = "ÏÉÍõ¹Æ¶¦¡¤[{$sender}]",
 						nRefresh = 1,
-						nIcon = 2747,
 						nFrame = 6,
+						nIcon = 2747,
 					},
 				},
 				[1] = {
@@ -41,6 +60,25 @@ return {
 	CASTING = {
 		[-1] = {
 			{
+				tKungFu = {
+					["SKILL#10175"] = true,
+					["SKILL#10176"] = true,
+				},
+				nScrutinyType = 1,
+				dwID = 34244,
+				nIcon = 13,
+				nLevel = 1,
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				tKungFu = {
+					["SKILL#10175"] = true,
+					["SKILL#10176"] = true,
+				},
+				dwID = 22851,
+			},
+			{
 				nLevel = 1,
 				nScrutinyType = 2,
 				dwID = 15121,
@@ -51,16 +89,16 @@ return {
 						key = "Ê´ÐÄ¹Æ¡¤{$sender}",
 						nTime = 1.31,
 						szName = "Ê´ÐÄ¹ÆÔË¹¦¡ú{$receiver}",
-						nFrame = 1,
 						nIcon = 7233,
+						nFrame = 1,
 					},
 					{
 						nClass = 9,
 						key = "Ê´ÐÄ¹Æ¡¤{$sender}",
 						nTime = 6,
 						szName = "Ê´ÐÄ¹ÆÃüÖÐ¡¤{$receiver}",
-						nFrame = 1,
 						nIcon = 7233,
+						nFrame = 1,
 					},
 				},
 			},
@@ -75,8 +113,8 @@ return {
 						key = "»³Ôó¹Æ¡¤{$sender}",
 						nTime = 6,
 						szName = "»³Ôó¹Æ¡ú{$receiver}",
-						nFrame = 1,
 						nIcon = 19189,
+						nFrame = 1,
 					},
 				},
 			},
@@ -91,8 +129,8 @@ return {
 						key = "¿×È¸Òý¡¤{$sender}",
 						nTime = 5,
 						szName = "¿×È¸Òý¡¤{$sender}",
-						nFrame = 6,
 						nIcon = 17708,
+						nFrame = 6,
 					},
 				},
 			},
@@ -107,8 +145,8 @@ return {
 						key = "Ê¥ÔªÕó¡¤{$sender}",
 						nTime = 6,
 						szName = "Ê¥ÔªÕó¡ú{$receiver}",
-						nFrame = 8,
 						nIcon = 13447,
+						nFrame = 8,
 					},
 				},
 			},
@@ -121,7 +159,7 @@ return {
 		szServer = "Î¨ÎÒ¶À×ð",
 		szAuthor = "ºÉ»¨Àð",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1766170581,
+		nTimeStamp = 1784200735,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
