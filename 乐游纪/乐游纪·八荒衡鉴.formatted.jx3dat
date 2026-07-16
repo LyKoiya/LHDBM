@@ -1618,7 +1618,7 @@ return {
 					bBuffList = true,
 				},
 				dwID = 50684,
-				nLevel = 4,
+				nLevel = 1,
 				col = {
 					0,
 					255,
