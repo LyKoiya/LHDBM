@@ -1,0 +1,456 @@
+return {
+	BUFF = {
+		[341] = {
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 14572,
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "武长生的镜片",
+						nTime = 300,
+						szName = "武长生的镜片",
+						nIcon = 7623,
+						nClass = 1,
+					},
+					{
+						nClass = 2,
+						key = "武长生的镜片",
+						nTime = 0,
+						szName = "武长生的镜片",
+						nIcon = 7623,
+					},
+				},
+				szNote = "武长生的镜片",
+				aCataclysmBuff = {
+					{
+						szReminder = "镜",
+						nPriority = 2,
+						nColAlpha = 255,
+						col = "#FFFF00FF",
+					},
+				},
+			},
+		},
+		[354] = {
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 14572,
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "武长生的镜片",
+						nTime = 300,
+						szName = "武长生的镜片",
+						nClass = 1,
+						nIcon = 7623,
+					},
+					{
+						nClass = 2,
+						key = "武长生的镜片",
+						nTime = 0,
+						szName = "武长生的镜片",
+						nIcon = 7623,
+					},
+				},
+				szNote = "武长生的镜片",
+				aCataclysmBuff = {
+					{
+						nPriority = 2,
+						szReminder = "镜",
+						nColAlpha = 255,
+						col = "#FFFF00FF",
+					},
+				},
+			},
+		},
+		[360] = {
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 14572,
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "武长生的镜片",
+						nTime = 300,
+						szName = "武长生的镜片",
+						nClass = 1,
+						nIcon = 7623,
+					},
+					{
+						nClass = 2,
+						key = "武长生的镜片",
+						nTime = 0,
+						szName = "武长生的镜片",
+						nIcon = 7623,
+					},
+				},
+				szNote = "武长生的镜片",
+				aCataclysmBuff = {
+					{
+						nPriority = 2,
+						szReminder = "镜",
+						nColAlpha = 255,
+						col = "#FFFF00FF",
+					},
+				},
+			},
+		},
+	},
+	CHAT = {},
+	CASTING = {},
+	TALK = {},
+	NPC = {
+		[341] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "周子如·两小无猜",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "两小无猜·周子如",
+				dwID = 63160,
+			},
+			{
+				nFrame = 67,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 64755,
+				aFocus = {
+					{
+						szDisplay = "发光的踪迹",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "发光的踪迹",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+		},
+		[354] = {
+			{
+				nFrame = 67,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 64755,
+				aFocus = {
+					{
+						szDisplay = "发光的踪迹",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "发光的踪迹",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+		},
+		[360] = {
+			{
+				nFrame = 67,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 64755,
+				aFocus = {
+					{
+						szDisplay = "发光的踪迹",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "发光的踪迹",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1784203008,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[341] = {
+			{
+				dwID = 7642,
+				aFocus = {
+					{
+						szDisplay = "被偷走的箱子",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 120,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "被偷走的箱子",
+			},
+			{
+				dwID = 7539,
+				aFocus = {
+					{
+						szDisplay = "残留零件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 120,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "残留零件",
+			},
+		},
+		[354] = {
+			{
+				dwID = 7642,
+				aFocus = {
+					{
+						szDisplay = "被偷走的箱子",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 120,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "被偷走的箱子",
+			},
+			{
+				dwID = 7539,
+				aFocus = {
+					{
+						szDisplay = "残留零件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 120,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "残留零件",
+			},
+		},
+		[360] = {
+			{
+				dwID = 7642,
+				aFocus = {
+					{
+						szDisplay = "被偷走的箱子",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 120,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "被偷走的箱子",
+			},
+			{
+				dwID = 7539,
+				aFocus = {
+					{
+						szDisplay = "残留零件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 120,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "残留零件",
+			},
+		},
+	},
+}
