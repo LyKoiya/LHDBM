@@ -1,0 +1,136 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {},
+	NPC = {},
+	DEBUFF = {},
+	__meta = {
+		szServer = "Œ®Œ“∂¿◊",
+		szAuthor = "∫…ª®¿",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1784201862,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[525] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 9265,
+				aFocus = {
+					{
+						szDisplay = "¡÷∫£’‰∆Ê±¶œ‰",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "¡÷∫£’‰∆Ê±¶œ‰",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 9260,
+				aFocus = {
+					{
+						szDisplay = "¡÷∫£’‰∆Ê±¶œ‰",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "¡÷∫£’‰∆Ê±¶œ‰",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 9259,
+				aFocus = {
+					{
+						szDisplay = "¡÷∫£’‰∆Ê±¶œ‰",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "¡÷∫£’‰∆Ê±¶œ‰",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 9173,
+				aFocus = {
+					{
+						szDisplay = "¡÷∫£’‰∆Ê±¶œ‰",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "¡÷∫£’‰∆Ê±¶œ‰",
+			},
+		},
+	},
+}
