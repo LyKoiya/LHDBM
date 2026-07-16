@@ -1,16 +1,30 @@
 return {
 	BUFF = {
-		[-10] = {
+		[48] = {
 			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "回气力",
-				dwID = 14232,
-				[1] = {
+				{
 					bBuffList = true,
 				},
-				szNote = "通用复活点回复气力值",
-				nIcon = 10910,
+				dwID = 1651,
+				nLevel = 1,
+				szNote = "飞天",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				dwID = 1652,
+				col = {
+					31,
+					238,
+					255,
+				},
 			},
 		},
 		[50] = {
@@ -32,10 +46,21 @@ return {
 				aCataclysmBuff = {
 					{
 						colScreenHead = "#FF2080",
+						bOnlyMe = true,
 						col = "#FF2080FF",
 						nColAlpha = 255,
-						nPriority = 4,
+						nPriority = 2,
 						szReminder = "镖",
+						bScreenHead = false,
+					},
+					{
+						colScreenHead = "#FF2080",
+						nStackNum = 1,
+						szReminder = "镖",
+						col = "#FF2080FF",
+						szStackOp = ">=",
+						nPriority = 3,
+						nColAlpha = 255,
 						bScreenHead = true,
 					},
 				},
@@ -58,13 +83,37 @@ return {
 				aCataclysmBuff = {
 					{
 						colScreenHead = "#1FE6FF",
+						bOnlyMe = true,
 						col = "#1FE6FFFF",
 						nColAlpha = 255,
-						nPriority = 4,
+						nPriority = 2,
 						szReminder = "镖",
+						bScreenHead = false,
+					},
+					{
+						colScreenHead = "#1FE6FF",
+						nStackNum = 1,
+						szReminder = "镖",
+						col = "#1FE6FFFF",
+						szStackOp = ">=",
+						nPriority = 3,
+						nColAlpha = 255,
 						bScreenHead = true,
 					},
 				},
+			},
+		},
+		[-10] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				nIcon = 10910,
+				dwID = 14232,
+				[1] = {
+					bBuffList = true,
+				},
+				szNote = "通用复活点回复气力值",
+				szName = "回气力",
 			},
 		},
 		[186] = {
@@ -88,10 +137,21 @@ return {
 				aCataclysmBuff = {
 					{
 						colScreenHead = "#FF2080",
+						bOnlyMe = true,
 						col = "#FF2080FF",
 						nColAlpha = 255,
-						nPriority = 4,
+						nPriority = 2,
 						szReminder = "箱",
+						bScreenHead = false,
+					},
+					{
+						colScreenHead = "#FF2080",
+						nStackNum = 1,
+						szReminder = "箱",
+						col = "#FF2080FF",
+						szStackOp = ">=",
+						nPriority = 3,
+						nColAlpha = 255,
 						bScreenHead = true,
 					},
 				},
@@ -116,10 +176,605 @@ return {
 				aCataclysmBuff = {
 					{
 						colScreenHead = "#1FE6FF",
+						bOnlyMe = true,
 						col = "#1FE6FFFF",
 						nColAlpha = 255,
-						nPriority = 4,
+						nPriority = 2,
 						szReminder = "箱",
+						bScreenHead = false,
+					},
+					{
+						colScreenHead = "#1FE6FF",
+						nStackNum = 1,
+						szReminder = "箱",
+						col = "#1FE6FFFF",
+						szStackOp = ">=",
+						nPriority = 3,
+						nColAlpha = 255,
+						bScreenHead = true,
+					},
+				},
+			},
+		},
+		[712] = {
+			{
+				nLevel = 1,
+				szName = "背旗",
+				col = {
+					50,
+					255,
+					255,
+				},
+				dwID = 30944,
+				[1] = {
+					bTeamPanel = true,
+					bScreenHead = true,
+					bPartyBuffList = true,
+					bBuffList = true,
+					tMark = {
+						true,
+						true,
+						true,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+					},
+				},
+				szNote = "背负旗帜·蓝",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#32FFFF",
+						bOnlyMe = true,
+						col = "#32FFFFFF",
+						nPriority = 2,
+						szReminder = "旗",
+						nColAlpha = 255,
+						bScreenHead = false,
+					},
+					{
+						colScreenHead = "#32FFFF",
+						bScreenHead = true,
+						nColAlpha = 255,
+						bOnlyMe = false,
+						col = "#32FFFFFF",
+						nPriority = 3,
+						szReminder = "旗",
+						szStackOp = ">=",
+						nStackNum = 1,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				dwID = 30977,
+				col = {
+					50,
+					255,
+					255,
+				},
+				szName = "背旗",
+				[1] = {
+					bTeamPanel = true,
+					tMark = {
+						true,
+						true,
+						true,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+					},
+					bPartyBuffList = true,
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				szNote = "背负旗帜·红",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#32FFFF",
+						bOnlyMe = true,
+						col = "#32FFFFFF",
+						nPriority = 2,
+						szReminder = "旗",
+						nColAlpha = 255,
+						bScreenHead = false,
+					},
+					{
+						colScreenHead = "#32FFFF",
+						bScreenHead = true,
+						nColAlpha = 255,
+						bOnlyMe = false,
+						col = "#32FFFFFF",
+						nPriority = 3,
+						szReminder = "旗",
+						szStackOp = ">=",
+						nStackNum = 1,
+					},
+				},
+			},
+		},
+		[38] = {
+			{
+				{
+					szVoice = "ZhiLiao_BY",
+					bPartyBuffList = true,
+					tMark = {
+						true,
+						true,
+						true,
+					},
+					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				nLevel = 1,
+				col = {
+					50,
+					255,
+					255,
+				},
+				dwID = 11594,
+				szName = "背箱",
+				szNote = "神农洇·背负物资",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#32FFFF",
+						bOnlyMe = true,
+						col = "#32FFFFFF",
+						nColAlpha = 255,
+						szReminder = "箱",
+						nPriority = 2,
+						bScreenHead = false,
+					},
+					{
+						colScreenHead = "#32FFFF",
+						nStackNum = 1,
+						nPriority = 3,
+						col = "#32FFFFFF",
+						szStackOp = ">=",
+						szReminder = "箱",
+						nColAlpha = 255,
+						bScreenHead = true,
+					},
+				},
+			},
+		},
+		[709] = {
+			{
+				{
+					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				nLevel = 1,
+				col = {
+					255,
+					204,
+					0,
+				},
+				dwID = 31318,
+				szNote = "雾隐尘表现",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#FFCC00",
+						col = "#FFCC00FF",
+						nPriority = 4,
+						szReminder = "隐",
+						nColAlpha = 255,
+						bScreenHead = true,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				[2] = {},
+				szName = "化解·固本",
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 31078,
+				[1] = {
+					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				szNote = "固本",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#00FF00",
+						col = "#00FF00FF",
+						nPriority = 11,
+						nColAlpha = 255,
+						szReminder = "盾",
+						bScreenHead = true,
+					},
+				},
+			},
+			{
+				{
+					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				nLevel = 1,
+				col = {
+					50,
+					255,
+					255,
+				},
+				dwID = 31098,
+				szName = "移速",
+				szNote = "爆发",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#32FFFF",
+						col = "#32FFFFFF",
+						nColAlpha = 255,
+						nPriority = 12,
+						szReminder = "移",
+						bScreenHead = true,
+					},
+				},
+			},
+			{
+				{
+					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				nLevel = 1,
+				col = {
+					50,
+					255,
+					255,
+				},
+				dwID = 31011,
+				szName = "移速",
+				szNote = "爆发",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#32FFFF",
+						col = "#32FFFFFF",
+						nColAlpha = 255,
+						nPriority = 12,
+						szReminder = "移",
+						bScreenHead = true,
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 2,
+				bCheckLevel = true,
+				dwID = 31049,
+				col = {
+					100,
+					255,
+					100,
+				},
+				szNote = "焚影圣诀·满日月",
+				szName = "满日月",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 3,
+				bCheckLevel = true,
+				dwID = 31049,
+				col = {
+					100,
+					255,
+					255,
+				},
+				szNote = "焚影圣诀·满月",
+				szName = "满月",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				bCheckLevel = true,
+				dwID = 31049,
+				col = {
+					255,
+					255,
+					100,
+				},
+				szNote = "焚影圣诀·满日",
+				szName = "满日",
+			},
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				dwID = 31206,
+				nLevel = 1,
+				szNote = "藏剑虎跑",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nLevel = 1,
+				[2] = {},
+				szName = "免控·净元",
+				col = {
+					179,
+					238,
+					58,
+				},
+				dwID = 31079,
+				[1] = {
+					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				szNote = "净元",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#B3EE3A",
+						col = "#B3EE3AFF",
+						szReminder = "免",
+						nPriority = 11,
+						nColAlpha = 255,
+						bScreenHead = true,
+					},
+				},
+			},
+			{
+				{
+					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				nLevel = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 31194,
+				szNote = "分山劲·盾立",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#00FF00",
+						col = "#00FF00FF",
+						nPriority = 12,
+						szReminder = "盾",
+						nColAlpha = 255,
+						bScreenHead = true,
+					},
+				},
+			},
+		},
+		[715] = {
+			{
+				nLevel = 1,
+				col = {
+					255,
+					204,
+					0,
+				},
+				dwID = 31318,
+				[1] = {
+					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				szNote = "雾隐尘表现",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#FFCC00",
+						col = "#FFCC00FF",
+						szReminder = "隐",
+						nPriority = 4,
+						nColAlpha = 255,
+						bScreenHead = true,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				[2] = {},
+				dwID = 31078,
+				col = {
+					0,
+					255,
+					0,
+				},
+				szName = "化解·固本",
+				[1] = {
+					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				szNote = "固本",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#00FF00",
+						col = "#00FF00FF",
+						nColAlpha = 255,
+						nPriority = 11,
+						szReminder = "盾",
+						bScreenHead = true,
+					},
+				},
+			},
+			{
+				{
+					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				nLevel = 1,
+				col = {
+					50,
+					255,
+					255,
+				},
+				dwID = 31098,
+				szName = "移速",
+				szNote = "爆发",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#32FFFF",
+						col = "#32FFFFFF",
+						nPriority = 12,
+						nColAlpha = 255,
+						szReminder = "移",
+						bScreenHead = true,
+					},
+				},
+			},
+			{
+				{
+					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				nLevel = 1,
+				col = {
+					50,
+					255,
+					255,
+				},
+				dwID = 31011,
+				szName = "移速",
+				szNote = "爆发",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#32FFFF",
+						col = "#32FFFFFF",
+						nPriority = 12,
+						nColAlpha = 255,
+						szReminder = "移",
+						bScreenHead = true,
+					},
+				},
+			},
+			{
+				nLevel = 2,
+				[1] = {
+					bBuffList = true,
+				},
+				bCheckLevel = true,
+				dwID = 31049,
+				col = {
+					100,
+					255,
+					100,
+				},
+				szNote = "焚影圣诀·满日月",
+				szName = "满日月",
+			},
+			{
+				nLevel = 3,
+				[1] = {
+					bBuffList = true,
+				},
+				bCheckLevel = true,
+				dwID = 31049,
+				col = {
+					100,
+					255,
+					255,
+				},
+				szNote = "焚影圣诀·满月",
+				szName = "满月",
+			},
+			{
+				nLevel = 1,
+				[1] = {
+					bBuffList = true,
+				},
+				bCheckLevel = true,
+				dwID = 31049,
+				col = {
+					255,
+					255,
+					100,
+				},
+				szNote = "焚影圣诀·满日",
+				szName = "满日",
+			},
+			{
+				nLevel = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 31206,
+				szNote = "藏剑虎跑",
+				[1] = {
+					bBuffList = true,
+					bScreenHead = true,
+				},
+			},
+			{
+				nLevel = 1,
+				[2] = {},
+				dwID = 31079,
+				col = {
+					179,
+					238,
+					58,
+				},
+				szName = "免控·净元",
+				[1] = {
+					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				szNote = "净元",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#B3EE3A",
+						col = "#B3EE3AFF",
+						nPriority = 11,
+						szReminder = "免",
+						nColAlpha = 255,
+						bScreenHead = true,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 31194,
+				[1] = {
+					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				szNote = "分山劲·盾立",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#00FF00",
+						col = "#00FF00FF",
+						szReminder = "盾",
+						nPriority = 12,
+						nColAlpha = 255,
 						bScreenHead = true,
 					},
 				},
@@ -196,582 +851,6 @@ return {
 				szName = "鬼御贰",
 			},
 		},
-		[709] = {
-			{
-				{
-					bScreenHead = true,
-					bBuffList = true,
-					bTeamPanel = true,
-				},
-				nLevel = 1,
-				col = {
-					255,
-					204,
-					0,
-				},
-				dwID = 31318,
-				szNote = "雾隐尘表现",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#FFCC00",
-						col = "#FFCC00FF",
-						nPriority = 4,
-						szReminder = "隐",
-						nColAlpha = 255,
-						bScreenHead = true,
-					},
-				},
-			},
-			{
-				nLevel = 1,
-				[2] = {},
-				dwID = 31078,
-				col = {
-					0,
-					255,
-					0,
-				},
-				szName = "化解·固本",
-				[1] = {
-					bScreenHead = true,
-					bBuffList = true,
-					bTeamPanel = true,
-				},
-				szNote = "固本",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#00FF00",
-						col = "#00FF00FF",
-						nPriority = 11,
-						nColAlpha = 255,
-						szReminder = "盾",
-						bScreenHead = true,
-					},
-				},
-			},
-			{
-				{
-					bScreenHead = true,
-					bBuffList = true,
-					bTeamPanel = true,
-				},
-				nLevel = 1,
-				col = {
-					50,
-					255,
-					255,
-				},
-				dwID = 31098,
-				szName = "移速",
-				szNote = "爆发",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#32FFFF",
-						col = "#32FFFFFF",
-						nColAlpha = 255,
-						nPriority = 12,
-						szReminder = "移",
-						bScreenHead = true,
-					},
-				},
-			},
-			{
-				{
-					bTeamPanel = true,
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				nLevel = 1,
-				col = {
-					50,
-					255,
-					255,
-				},
-				dwID = 31011,
-				szName = "移速",
-				szNote = "爆发",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#32FFFF",
-						col = "#32FFFFFF",
-						nColAlpha = 255,
-						nPriority = 12,
-						szReminder = "移",
-						bScreenHead = true,
-					},
-				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 2,
-				bCheckLevel = true,
-				dwID = 31049,
-				szName = "满日月",
-				szNote = "焚影圣诀·满日月",
-				col = {
-					100,
-					255,
-					100,
-				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 3,
-				bCheckLevel = true,
-				dwID = 31049,
-				szName = "满月",
-				szNote = "焚影圣诀·满月",
-				col = {
-					100,
-					255,
-					255,
-				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 1,
-				bCheckLevel = true,
-				dwID = 31049,
-				szName = "满日",
-				szNote = "焚影圣诀·满日",
-				col = {
-					255,
-					255,
-					100,
-				},
-			},
-			{
-				{
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				dwID = 31206,
-				nLevel = 1,
-				szNote = "藏剑虎跑",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nLevel = 1,
-				[2] = {},
-				dwID = 31079,
-				col = {
-					179,
-					238,
-					58,
-				},
-				szName = "免控·净元",
-				[1] = {
-					bScreenHead = true,
-					bBuffList = true,
-					bTeamPanel = true,
-				},
-				szNote = "净元",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#B3EE3A",
-						col = "#B3EE3AFF",
-						szReminder = "免",
-						nPriority = 11,
-						nColAlpha = 255,
-						bScreenHead = true,
-					},
-				},
-			},
-			{
-				{
-					bScreenHead = true,
-					bBuffList = true,
-					bTeamPanel = true,
-				},
-				nLevel = 1,
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 31194,
-				szNote = "分山劲·盾立",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#00FF00",
-						col = "#00FF00FF",
-						nPriority = 12,
-						szReminder = "盾",
-						nColAlpha = 255,
-						bScreenHead = true,
-					},
-				},
-			},
-		},
-		[38] = {
-			{
-				{
-					szVoice = "ZhiLiao_BY",
-					bPartyBuffList = true,
-					tMark = {
-						true,
-						true,
-						true,
-					},
-					bTeamPanel = true,
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				nLevel = 1,
-				col = {
-					50,
-					255,
-					255,
-				},
-				dwID = 11594,
-				szName = "背箱",
-				szNote = "神农洇·背负物资",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#32FFFF",
-						col = "#32FFFFFF",
-						nColAlpha = 255,
-						szReminder = "箱",
-						nPriority = 2,
-						bScreenHead = true,
-					},
-				},
-			},
-		},
-		[48] = {
-			{
-				{
-					bBuffList = true,
-				},
-				dwID = 1651,
-				nLevel = 1,
-				szNote = "飞天",
-				col = {
-					0,
-					255,
-					255,
-				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 1,
-				dwID = 1652,
-				col = {
-					31,
-					238,
-					255,
-				},
-			},
-		},
-		[715] = {
-			{
-				nLevel = 1,
-				col = {
-					255,
-					204,
-					0,
-				},
-				dwID = 31318,
-				[1] = {
-					bTeamPanel = true,
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				szNote = "雾隐尘表现",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#FFCC00",
-						col = "#FFCC00FF",
-						szReminder = "隐",
-						nPriority = 4,
-						nColAlpha = 255,
-						bScreenHead = true,
-					},
-				},
-			},
-			{
-				nLevel = 1,
-				[2] = {},
-				szName = "化解·固本",
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 31078,
-				[1] = {
-					bTeamPanel = true,
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				szNote = "固本",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#00FF00",
-						col = "#00FF00FF",
-						nColAlpha = 255,
-						nPriority = 11,
-						szReminder = "盾",
-						bScreenHead = true,
-					},
-				},
-			},
-			{
-				{
-					bTeamPanel = true,
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				nLevel = 1,
-				col = {
-					50,
-					255,
-					255,
-				},
-				dwID = 31098,
-				szName = "移速",
-				szNote = "爆发",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#32FFFF",
-						col = "#32FFFFFF",
-						nPriority = 12,
-						nColAlpha = 255,
-						szReminder = "移",
-						bScreenHead = true,
-					},
-				},
-			},
-			{
-				{
-					bScreenHead = true,
-					bBuffList = true,
-					bTeamPanel = true,
-				},
-				nLevel = 1,
-				col = {
-					50,
-					255,
-					255,
-				},
-				dwID = 31011,
-				szName = "移速",
-				szNote = "爆发",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#32FFFF",
-						col = "#32FFFFFF",
-						nPriority = 12,
-						nColAlpha = 255,
-						szReminder = "移",
-						bScreenHead = true,
-					},
-				},
-			},
-			{
-				nLevel = 2,
-				[1] = {
-					bBuffList = true,
-				},
-				bCheckLevel = true,
-				dwID = 31049,
-				col = {
-					100,
-					255,
-					100,
-				},
-				szNote = "焚影圣诀·满日月",
-				szName = "满日月",
-			},
-			{
-				nLevel = 3,
-				[1] = {
-					bBuffList = true,
-				},
-				bCheckLevel = true,
-				dwID = 31049,
-				col = {
-					100,
-					255,
-					255,
-				},
-				szNote = "焚影圣诀·满月",
-				szName = "满月",
-			},
-			{
-				nLevel = 1,
-				[1] = {
-					bBuffList = true,
-				},
-				bCheckLevel = true,
-				dwID = 31049,
-				col = {
-					255,
-					255,
-					100,
-				},
-				szNote = "焚影圣诀·满日",
-				szName = "满日",
-			},
-			{
-				nLevel = 1,
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 31206,
-				szNote = "藏剑虎跑",
-				[1] = {
-					bBuffList = true,
-					bScreenHead = true,
-				},
-			},
-			{
-				nLevel = 1,
-				[2] = {},
-				szName = "免控·净元",
-				col = {
-					179,
-					238,
-					58,
-				},
-				dwID = 31079,
-				[1] = {
-					bTeamPanel = true,
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				szNote = "净元",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#B3EE3A",
-						col = "#B3EE3AFF",
-						nPriority = 11,
-						szReminder = "免",
-						nColAlpha = 255,
-						bScreenHead = true,
-					},
-				},
-			},
-			{
-				nLevel = 1,
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 31194,
-				[1] = {
-					bTeamPanel = true,
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				szNote = "分山劲·盾立",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#00FF00",
-						col = "#00FF00FF",
-						szReminder = "盾",
-						nPriority = 12,
-						nColAlpha = 255,
-						bScreenHead = true,
-					},
-				},
-			},
-		},
-		[712] = {
-			{
-				nLevel = 1,
-				szName = "背旗",
-				col = {
-					50,
-					255,
-					255,
-				},
-				dwID = 30944,
-				[1] = {
-					bTeamPanel = true,
-					bScreenHead = true,
-					bPartyBuffList = true,
-					bBuffList = true,
-					tMark = {
-						true,
-						true,
-						true,
-						false,
-						false,
-						false,
-						false,
-						false,
-						false,
-						false,
-					},
-				},
-				szNote = "背负旗帜·蓝",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#32FFFF",
-						col = "#32FFFFFF",
-						szReminder = "旗",
-						nPriority = 1,
-						nColAlpha = 255,
-						bScreenHead = true,
-					},
-				},
-			},
-			{
-				nLevel = 1,
-				szName = "背旗",
-				col = {
-					50,
-					255,
-					255,
-				},
-				dwID = 30977,
-				[1] = {
-					bTeamPanel = true,
-					bScreenHead = true,
-					bPartyBuffList = true,
-					bBuffList = true,
-					tMark = {
-						true,
-						true,
-						true,
-						false,
-						false,
-						false,
-						false,
-						false,
-						false,
-						false,
-					},
-				},
-				szNote = "背负旗帜·红",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#32FFFF",
-						col = "#32FFFFFF",
-						szReminder = "旗",
-						nPriority = 1,
-						nColAlpha = 255,
-						bScreenHead = true,
-					},
-				},
-			},
-		},
 	},
 	CHAT = {
 		[135] = {
@@ -792,8 +871,8 @@ return {
 						nClass = 20,
 						nTime = 10,
 						szName = "红方·占领据点",
-						nFrame = 3,
 						nIcon = 4838,
+						nFrame = 3,
 					},
 				},
 			},
@@ -814,8 +893,8 @@ return {
 						nClass = 20,
 						nTime = 10,
 						szName = "蓝方·占领据点",
-						nFrame = 7,
 						nIcon = 4837,
+						nFrame = 7,
 					},
 				},
 			},
@@ -829,8 +908,8 @@ return {
 						nTime = "120,准备刷圈·1/8;420,准备刷圈·2/8;684,准备刷圈·3/8;912,准备刷圈·4/8;1104,准备刷圈·5/8;1260,准备刷圈·6/8;1380,准备刷圈·7/8;1464,准备刷圈·8/8;1644,全图伤害",
 						szName = "",
 						nRefresh = 0,
-						nIcon = 13,
 						nClass = 20,
+						nIcon = 13,
 					},
 				},
 				szContent = "沧溟绝境开启!祝各位洪福齐天。\
@@ -844,8 +923,8 @@ return {
 						nTime = "300,沧溟神兵匣·开启剩余;302,沧溟神兵匣·已经开启",
 						szName = "沧溟神兵匣·开启剩余",
 						nRefresh = 0,
-						nIcon = 3556,
 						nFrame = 3,
+						nIcon = 3556,
 					},
 				},
 				szContent = "沧溟神兵匣现世，持有者五分钟后将开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\
@@ -859,8 +938,8 @@ return {
 						nTime = "150,沧溟神兵匣·开启剩余;152,沧溟神兵匣·已经开启",
 						szName = "沧溟神兵匣·开启剩余",
 						nRefresh = 0,
-						nIcon = 3556,
 						nFrame = 3,
+						nIcon = 3556,
 					},
 				},
 				szContent = "沧溟神兵匣再度易手！新持有者将在两分半钟后开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\
@@ -884,8 +963,8 @@ return {
 						nTime = "30,战斗·开始倒计时;31,战斗·开始比赛",
 						szName = "战斗·开始倒计时",
 						nRefresh = 0,
-						nFrame = 4,
 						nIcon = 13,
+						nFrame = 4,
 					},
 				},
 				szContent = "名剑大会将在30秒后开始。\
@@ -911,8 +990,8 @@ return {
 						nTime = "10,战斗·开始倒计时;11,战斗·开始比赛",
 						szName = "战斗·开始倒计时",
 						nRefresh = 0,
-						nIcon = 13,
 						nFrame = 4,
+						nIcon = 13,
 					},
 				},
 				szContent = "名剑大会将在10秒后开始。\
@@ -933,8 +1012,8 @@ return {
 						nTime = "2,第一旗帜·已经刷新;180,第二旗帜·刷新剩余;182,第二旗帜·已经刷新",
 						szName = "战斗开始",
 						nRefresh = 1,
-						nFrame = 4,
 						nIcon = 13,
+						nFrame = 4,
 					},
 				},
 				[20] = {
@@ -951,8 +1030,8 @@ return {
 						key = "警告事件",
 						nTime = 2,
 						szName = "不能背己方旗帜",
-						nFrame = 2,
 						nIcon = 13,
+						nFrame = 2,
 					},
 				},
 				szContent = "你不能背起己方的旗帜！\
@@ -967,8 +1046,8 @@ return {
 						nTime = 5,
 						szName = "暂不能背起旗帜·5s",
 						nRefresh = 2,
-						nFrame = 2,
 						nIcon = 13,
+						nFrame = 2,
 					},
 				},
 				szContent = "旗帜暂时不能被背起。\
@@ -988,16 +1067,16 @@ return {
 						key = "蓝方·第一滴血",
 						nTime = 2,
 						szName = "红方·获得第一滴血",
-						nIcon = 4513,
 						nFrame = 3,
+						nIcon = 4513,
 					},
 					{
 						nClass = 20,
 						key = "红方·第一滴血",
 						nTime = 2,
 						szName = "蓝方·获得第一滴血",
-						nIcon = 4516,
 						nFrame = 7,
+						nIcon = 4516,
 					},
 					{
 						nClass = 20,
@@ -1015,24 +1094,24 @@ return {
 						key = "蓝方·{$2}",
 						nTime = 5,
 						szName = "红方·运旗成功·[{$2}]",
-						nIcon = 4544,
 						nClass = 20,
+						nIcon = 4544,
 					},
 					{
 						nFrame = 7,
 						key = "红方·{$2}",
 						nTime = 5,
 						szName = "蓝方·运旗成功·[{$2}]",
-						nIcon = 4543,
 						nClass = 20,
+						nIcon = 4543,
 					},
 					{
 						nFrame = 5,
 						key = "{$1}·{$2}",
 						nTime = -1,
 						szName = "{$1}·{$2}·运旗成功",
-						nIcon = 13,
 						nClass = 20,
+						nIcon = 13,
 					},
 				},
 				szContent = "(.-)的(.-)侠士成功运回对方旗帜获得一分！",
@@ -1056,8 +1135,8 @@ return {
 						nTime = 2,
 						szName = "红方·收回旗帜·防守成功",
 						nRefresh = 1,
-						nIcon = 3447,
 						nFrame = 3,
+						nIcon = 3447,
 					},
 					{
 						nClass = 20,
@@ -1065,16 +1144,16 @@ return {
 						nTime = 2,
 						szName = "蓝方·收回旗帜·防守成功",
 						nRefresh = 1,
-						nIcon = 3446,
 						nFrame = 7,
+						nIcon = 3446,
 					},
 					{
 						nClass = 20,
 						key = "{$1}·收回旗帜",
 						nTime = -1,
 						szName = "{$1}·收回旗帜",
-						nIcon = 13,
 						nFrame = 5,
+						nIcon = 13,
 					},
 				},
 			},
@@ -1092,24 +1171,24 @@ return {
 						key = "蓝方·{$2}",
 						nTime = 10,
 						szName = "红方[{$2}]背旗",
-						nFrame = 3,
 						nIcon = 3445,
+						nFrame = 3,
 					},
 					{
 						nClass = 20,
 						key = "红方·{$2}",
 						nTime = 10,
 						szName = "蓝方[{$2}]背旗",
-						nFrame = 7,
 						nIcon = 3444,
+						nFrame = 7,
 					},
 					{
 						nClass = 20,
 						key = "{$1}·{$2}",
 						nTime = -1,
 						szName = "{$1}·{$2}",
-						nFrame = 5,
 						nIcon = 13,
+						nFrame = 5,
 					},
 				},
 			},
@@ -1127,24 +1206,24 @@ return {
 						key = "蓝方·{$2}",
 						nTime = 5,
 						szName = "红方·遗失旗帜·[{$2}]",
-						nFrame = 3,
 						nIcon = 3435,
+						nFrame = 3,
 					},
 					{
 						nClass = 20,
 						key = "红方·{$2}",
 						nTime = 5,
 						szName = "蓝方·遗失旗帜·[{$2}]",
-						nFrame = 7,
 						nIcon = 3434,
+						nFrame = 7,
 					},
 					{
 						nClass = 20,
 						key = "{$1}·{$2}",
 						nTime = -1,
 						szName = "{$1}·{$2}·遗失旗帜",
-						nFrame = 5,
 						nIcon = 13,
+						nFrame = 5,
 					},
 				},
 			},
@@ -1157,8 +1236,8 @@ return {
 						key = "无间死斗",
 						nTime = 180,
 						szName = "无间死斗·入场剩余",
-						nIcon = 5356,
 						nFrame = 4,
+						nIcon = 5356,
 					},
 				},
 				szContent = "首场无间死斗将在3分钟后开始入场。\
@@ -1171,8 +1250,8 @@ return {
 						key = "无间死斗",
 						nTime = 82,
 						szName = "无间死斗·入场剩余",
-						nIcon = 5356,
 						nFrame = 4,
+						nIcon = 5356,
 					},
 				},
 				szContent = "下一场无间死斗将在82秒后开始入场！\
@@ -1185,8 +1264,8 @@ return {
 						key = "无间死斗",
 						nTime = 76,
 						szName = "无间死斗·入场剩余",
-						nIcon = 5356,
 						nFrame = 4,
+						nIcon = 5356,
 					},
 				},
 				szContent = "下一场无间死斗将在76秒后开始入场！\
@@ -1199,8 +1278,8 @@ return {
 						key = "无间死斗",
 						nTime = 116,
 						szName = "无间死斗·入场剩余",
-						nIcon = 5356,
 						nFrame = 4,
+						nIcon = 5356,
 					},
 				},
 				szContent = "下一场无间死斗将在116秒后开始入场！\
@@ -1213,8 +1292,8 @@ return {
 						key = "无间死斗",
 						nTime = 70,
 						szName = "无间死斗·入场剩余",
-						nIcon = 5356,
 						nFrame = 4,
+						nIcon = 5356,
 					},
 				},
 				szContent = "下一场无间死斗将在70秒后开始入场！\
@@ -1228,8 +1307,8 @@ return {
 						nTime = "120,准备刷圈·1/8;420,准备刷圈·2/8;684,准备刷圈·3/8;912,准备刷圈·4/8;1104,准备刷圈·5/8;1260,准备刷圈·6/8;1380,准备刷圈·7/8;1464,准备刷圈·8/8;1644,全图伤害",
 						szName = "",
 						nRefresh = 0,
-						nIcon = 13,
 						nClass = 20,
+						nIcon = 13,
 					},
 				},
 				szContent = "白龙绝境开启!祝各位洪福齐天。\
@@ -1243,8 +1322,8 @@ return {
 						nTime = "300,白龙神兵匣·开启剩余;302,白龙神兵匣·已经开启",
 						szName = "白龙神兵匣·开启剩余",
 						nRefresh = 0,
-						nIcon = 3556,
 						nFrame = 3,
+						nIcon = 3556,
 					},
 				},
 				szContent = "白龙神兵匣现世，持有者五分钟后将开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\
@@ -1258,8 +1337,8 @@ return {
 						nTime = "150,白龙神兵匣·开启剩余;152,白龙神兵匣·已经开启",
 						szName = "白龙神兵匣·开启剩余",
 						nRefresh = 0,
-						nIcon = 3556,
 						nFrame = 3,
+						nIcon = 3556,
 					},
 				},
 				szContent = "白龙神兵匣再度易手！新持有者将在两分半钟后开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\
@@ -1282,13 +1361,13 @@ return {
 						key = "战斗开始",
 						nTime = 30,
 						szName = "物资箱·刷新剩余",
-						nFrame = 6,
 						nIcon = 13,
+						nFrame = 6,
 					},
 				},
-				szNote = "战斗开始",
 				szContent = "战斗开始。\
 ",
+				szNote = "战斗开始",
 				col = {
 					255,
 					255,
@@ -1314,8 +1393,8 @@ return {
 						key = "战斗开始",
 						nTime = 5,
 						szName = "物资箱·已刷新",
-						nIcon = 8984,
 						nFrame = 6,
+						nIcon = 8984,
 					},
 				},
 			},
@@ -1326,11 +1405,6 @@ return {
 				},
 				szContent = "趁乱背起了物资箱！",
 				bSearch = false,
-				col = {
-					100,
-					255,
-					100,
-				},
 				tCountdown = {
 					{
 						nFrame = 4,
@@ -1338,9 +1412,14 @@ return {
 						nTime = 150,
 						szName = "物资箱·刷新剩余",
 						nRefresh = 150,
-						nIcon = 919,
 						nClass = 20,
+						nIcon = 919,
 					},
+				},
+				col = {
+					100,
+					255,
+					100,
 				},
 			},
 			{
@@ -1349,8 +1428,8 @@ return {
 						nIcon = 13,
 						nTime = 25,
 						szName = "新物资箱·刷新剩余",
-						nClass = 20,
 						nFrame = 6,
+						nClass = 20,
 					},
 				},
 				szContent = "溶溪寨成功背回一个物资箱，当前分数为一！任意方率先达三分将赢得胜利！\
@@ -1371,8 +1450,8 @@ return {
 						nIcon = 13,
 						nTime = 25,
 						szName = "新物资箱·刷新剩余",
-						nClass = 20,
 						nFrame = 6,
+						nClass = 20,
 					},
 				},
 				szContent = "溶溪寨成功背回一个物资箱，当前分数为二！任意方率先达三分将赢得胜利！\
@@ -1393,8 +1472,8 @@ return {
 						nIcon = 13,
 						nTime = 25,
 						szName = "新物资箱·刷新剩余",
-						nClass = 20,
 						nFrame = 6,
+						nClass = 20,
 					},
 				},
 				szContent = "火塘寨成功背回一个物资箱，当前分数为一！任意方率先达三分将赢得胜利！\
@@ -1415,8 +1494,8 @@ return {
 						nIcon = 13,
 						nTime = 25,
 						szName = "新物资箱·刷新剩余",
-						nClass = 20,
 						nFrame = 6,
+						nClass = 20,
 					},
 				},
 				szContent = "火塘寨成功背回一个物资箱，当前分数为二！任意方率先达三分将赢得胜利！\
@@ -1438,24 +1517,24 @@ return {
 						key = "蓝方·{$3}",
 						nTime = 10,
 						szName = "红方【{$3}】失箱",
-						nFrame = 3,
 						nIcon = 3435,
+						nFrame = 3,
 					},
 					{
 						nClass = 20,
 						key = "红方·{$3}",
 						nTime = 10,
 						szName = "蓝方【{$3}】失箱",
-						nFrame = 7,
 						nIcon = 3434,
+						nFrame = 7,
 					},
 					{
 						nClass = 20,
 						key = "{$1}·{$3}",
 						nTime = -1,
 						szName = "{$1}·{$3}",
-						nFrame = 3,
 						nIcon = 13,
+						nFrame = 3,
 					},
 				},
 				szContent = "([红蓝方]+)(.-)的(.-)侠士不慎遗失物资箱，战局瞬息万变！",
@@ -1478,24 +1557,24 @@ return {
 						key = "蓝方·{$3}",
 						nTime = 20,
 						szName = "红方【{$3}】背箱",
-						nIcon = 3445,
 						nFrame = 3,
+						nIcon = 3445,
 					},
 					{
 						nClass = 20,
 						key = "红方·{$3}",
 						nTime = 20,
 						szName = "蓝方【{$3}】背箱",
-						nIcon = 3444,
 						nFrame = 7,
+						nIcon = 3444,
 					},
 					{
 						nClass = 20,
 						key = "{$1}·{$3}",
 						nTime = -1,
 						szName = "{$1}·{$3}",
-						nIcon = 13,
 						nFrame = 3,
+						nIcon = 13,
 					},
 					{
 						nClass = 20,
@@ -1503,8 +1582,8 @@ return {
 						nTime = 150,
 						szName = "物资箱·刷新剩余",
 						nRefresh = 150,
-						nIcon = 919,
 						nFrame = 4,
+						nIcon = 919,
 					},
 				},
 				szContent = "([红蓝方]+)(.-)的(.-)侠士趁乱背起了物资箱！",
@@ -1530,8 +1609,8 @@ return {
 						nTime = "30,地板·破碎剩余;34,地板·正在破裂",
 						szName = "地板破碎·剩余时间",
 						nRefresh = 0,
-						nFrame = 1,
 						nIcon = 13,
+						nFrame = 1,
 					},
 				},
 				szContent = "地板即将在三十秒后破碎。\
@@ -1548,8 +1627,8 @@ return {
 						nTime = 30,
 						szName = "{$1}·{$2}/{$3}",
 						bHold = true,
-						nFrame = 2,
 						nIcon = 15678,
+						nFrame = 2,
 					},
 				},
 				bReg = true,
@@ -1568,8 +1647,8 @@ return {
 						key = "战斗开始",
 						nTime = 60,
 						szName = "战斗·开始倒计时",
-						nIcon = 13,
 						nFrame = 4,
+						nIcon = 13,
 					},
 				},
 				szContent = "战斗将在60秒后开始。\
@@ -1588,8 +1667,8 @@ return {
 						nTime = "30,战斗·开始倒计时;31,战斗·开始比赛",
 						szName = "战斗·开始倒计时",
 						nRefresh = 0,
-						nIcon = 13,
 						nFrame = 4,
+						nIcon = 13,
 					},
 				},
 				szContent = "战斗将在30秒后开始。\
@@ -1608,8 +1687,8 @@ return {
 						nTime = "10,战斗·开始倒计时;11,战斗·开始比赛",
 						szName = "战斗·开始倒计时",
 						nRefresh = 0,
-						nIcon = 13,
 						nFrame = 4,
+						nIcon = 13,
 					},
 				},
 				szContent = "战斗将在10秒后开始。\
@@ -1630,8 +1709,8 @@ return {
 						nTime = "120,准备刷圈·1/8;420,准备刷圈·2/8;684,准备刷圈·3/8;912,准备刷圈·4/8;1104,准备刷圈·5/8;1260,准备刷圈·6/8;1380,准备刷圈·7/8;1464,准备刷圈·8/8;1644,全图伤害",
 						szName = "战斗开始",
 						nRefresh = 0,
-						nFrame = 4,
 						nClass = 20,
+						nFrame = 4,
 					},
 				},
 				szContent = "龙门绝境开启!祝各位洪福齐天。\
@@ -1645,8 +1724,8 @@ return {
 						nTime = "300,楼兰神兵匣·开启剩余;302,楼兰神兵匣·已经开启",
 						szName = "楼兰神兵匣·开启剩余",
 						nRefresh = 0,
-						nIcon = 3556,
 						nFrame = 3,
+						nIcon = 3556,
 					},
 				},
 				szContent = "楼兰神兵匣现世，持有者五分钟后将开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\
@@ -1660,8 +1739,8 @@ return {
 						nTime = "150,楼兰神兵匣·开启剩余;152,楼兰神兵匣·已经开启",
 						szName = "楼兰神兵匣·开启剩余",
 						nRefresh = 0,
-						nIcon = 3556,
 						nFrame = 3,
+						nIcon = 3556,
 					},
 				},
 				szContent = "楼兰神兵匣再度易手！新持有者将在两分半钟后开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\
@@ -1684,8 +1763,8 @@ return {
 						key = "战斗开始",
 						nTime = "120,准备刷圈 1/8;420,准备刷圈 2/8;684,准备刷圈 3/8;912,准备刷圈 4/8;1104,准备刷圈 5/8;1260,准备刷圈 6/8;1380,准备刷圈 7/8;1464,准备刷圈 8/8;1644,全图伤害",
 						nRefresh = 0,
-						nIcon = 13,
 						nFrame = 4,
+						nIcon = 13,
 					},
 				},
 				szContent = "天原绝境开启!祝各位洪福齐天。\
@@ -1709,8 +1788,8 @@ return {
 						nTime = "30,武典残页·得分豆子;32,武典残页·已经刷新;80,武典残页·得分豆子;82,武典残页·已经刷新;130,武典残页·得分豆子;132,武典残页·已经刷新;180,武典残页·得分豆子;182,武典残页·已经刷新;230,武典残页·得分豆子;232,武典残页·已经刷新;280,武典残页·得分豆子;282,武典残页·已经刷新;330,武典残页·得分豆子;332,武典残页·已经刷新;380,武典残页·得分豆子;382,武典残页·已经刷新;430,武典残页·得分豆子;432,武典残页·已经刷新;480,武典残页·得分豆子;482,武典残页·已经刷新;530,武典残页·得分豆子;532,武典残页·已经刷新;580,武典残页·得分豆子;582,武典残页·已经刷新;630,武典残页·得分豆子;632,武典残页·已经刷新;680,武典残页·得分豆子;682,武典残页·已经刷新;730,武典残页·得分豆子;732,武典残页·已经刷新;780,武典残页·得分豆子;782,武典残页·已经刷新;830,武典残页·得分豆子;832,武典残页·已经刷新;880,武典残页·得分豆子;882,武典残页·已经刷新;930,武典残页·得分豆子;932,武典残页·已经刷新",
 						szName = "",
 						nRefresh = 0,
-						nFrame = 4,
 						nClass = 20,
+						nFrame = 4,
 					},
 					{
 						nIcon = 919,
@@ -1718,8 +1797,8 @@ return {
 						nTime = "30,第一宝箱·刷新剩余;31,第一宝箱·已经刷新;35,第二宝箱·刷新剩余;36,第二宝箱·已经刷新",
 						szName = "珍珑宝箱·刷新剩余",
 						nRefresh = 0,
-						nClass = 20,
 						nFrame = 6,
+						nClass = 20,
 					},
 				},
 				szContent = "战斗开始。\
@@ -1736,8 +1815,8 @@ return {
 						nIcon = 3557,
 						nTime = 120,
 						szName = "珍珑宝箱·刷新剩余",
-						nClass = 20,
 						nFrame = 6,
+						nClass = 20,
 					},
 				},
 				szContent = "(.-)%[(.-)%]第(%d-)次夺得了珍珑宝箱！",
@@ -1771,8 +1850,8 @@ return {
 						nIcon = 10214,
 						nTime = 120,
 						szName = "珍珑宝箱·刷新剩余",
-						nClass = 20,
 						nFrame = 3,
+						nClass = 20,
 					},
 				},
 				szContent = "红方[帅]第7次夺得了珍珑宝箱！\
@@ -1793,8 +1872,8 @@ return {
 						nIcon = 10214,
 						nTime = 120,
 						szName = "珍珑宝箱·刷新剩余",
-						nClass = 20,
 						nFrame = 3,
+						nClass = 20,
 					},
 				},
 				szContent = "红方[帅]第6次夺得了珍珑宝箱！\
@@ -1815,8 +1894,8 @@ return {
 						nIcon = 10214,
 						nTime = 120,
 						szName = "珍珑宝箱·刷新剩余",
-						nClass = 20,
 						nFrame = 3,
+						nClass = 20,
 					},
 				},
 				szContent = "红方[帅]第5次夺得了珍珑宝箱！\
@@ -1837,8 +1916,8 @@ return {
 						nIcon = 10214,
 						nTime = 120,
 						szName = "珍珑宝箱·刷新剩余",
-						nClass = 20,
 						nFrame = 3,
+						nClass = 20,
 					},
 				},
 				szContent = "红方[帅]第4次夺得了珍珑宝箱！\
@@ -1859,8 +1938,8 @@ return {
 						nIcon = 10214,
 						nTime = 120,
 						szName = "珍珑宝箱·刷新剩余",
-						nClass = 20,
 						nFrame = 3,
+						nClass = 20,
 					},
 				},
 				szContent = "红方[帅]第3次夺得了珍珑宝箱！\
@@ -1881,8 +1960,8 @@ return {
 						nIcon = 10214,
 						nTime = 120,
 						szName = "珍珑宝箱·刷新剩余",
-						nClass = 20,
 						nFrame = 3,
+						nClass = 20,
 					},
 				},
 				szContent = "红方[帅]第2次夺得了珍珑宝箱！\
@@ -1903,8 +1982,8 @@ return {
 						nIcon = 10214,
 						nTime = 120,
 						szName = "珍珑宝箱·刷新剩余",
-						nClass = 20,
 						nFrame = 3,
+						nClass = 20,
 					},
 				},
 				szContent = "红方[帅]第1次夺得了珍珑宝箱！\
@@ -1925,8 +2004,8 @@ return {
 						nIcon = 10215,
 						nTime = 120,
 						szName = "珍珑宝箱·刷新剩余",
-						nClass = 20,
 						nFrame = 7,
+						nClass = 20,
 					},
 				},
 				szContent = "蓝方[将]第7次夺得了珍珑宝箱！\
@@ -1947,8 +2026,8 @@ return {
 						nIcon = 10215,
 						nTime = 120,
 						szName = "珍珑宝箱·刷新剩余",
-						nClass = 20,
 						nFrame = 7,
+						nClass = 20,
 					},
 				},
 				szContent = "蓝方[将]第6次夺得了珍珑宝箱！\
@@ -1969,8 +2048,8 @@ return {
 						nIcon = 10215,
 						nTime = 120,
 						szName = "珍珑宝箱·刷新剩余",
-						nClass = 20,
 						nFrame = 7,
+						nClass = 20,
 					},
 				},
 				szContent = "蓝方[将]第5次夺得了珍珑宝箱！\
@@ -1991,8 +2070,8 @@ return {
 						nIcon = 10215,
 						nTime = 120,
 						szName = "珍珑宝箱·刷新剩余",
-						nClass = 20,
 						nFrame = 7,
+						nClass = 20,
 					},
 				},
 				szContent = "蓝方[将]第4次夺得了珍珑宝箱！\
@@ -2013,8 +2092,8 @@ return {
 						nIcon = 10215,
 						nTime = 120,
 						szName = "珍珑宝箱·刷新剩余",
-						nClass = 20,
 						nFrame = 7,
+						nClass = 20,
 					},
 				},
 				szContent = "蓝方[将]第3次夺得了珍珑宝箱！\
@@ -2035,8 +2114,8 @@ return {
 						nIcon = 10215,
 						nTime = 120,
 						szName = "珍珑宝箱·刷新剩余",
-						nClass = 20,
 						nFrame = 7,
+						nClass = 20,
 					},
 				},
 				szContent = "蓝方[将]第2次夺得了珍珑宝箱！\
@@ -2057,8 +2136,8 @@ return {
 						nIcon = 10215,
 						nTime = 120,
 						szName = "珍珑宝箱·刷新剩余",
-						nClass = 20,
 						nFrame = 7,
+						nClass = 20,
 					},
 				},
 				szContent = "蓝方[将]第1次夺得了珍珑宝箱！\
@@ -2081,20 +2160,20 @@ return {
 				szContent = "珍珑宝箱出现在东南方。\
 ",
 				bSearch = true,
-				col = {
-					100,
-					255,
-					100,
-				},
-				szNote = "【东南方】宝箱",
 				tCountdown = {
 					{
 						nIcon = 919,
 						nTime = 15,
 						szName = "【东南方】宝箱",
-						nClass = 20,
 						nFrame = 6,
+						nClass = 20,
 					},
+				},
+				szNote = "【东南方】宝箱",
+				col = {
+					100,
+					255,
+					100,
 				},
 			},
 			{
@@ -2105,20 +2184,20 @@ return {
 				szContent = "珍珑宝箱出现在西南方。\
 ",
 				bSearch = true,
-				col = {
-					100,
-					255,
-					100,
-				},
-				szNote = "【西南方】宝箱",
 				tCountdown = {
 					{
 						nIcon = 919,
 						nTime = 15,
 						szName = "【西南方】宝箱",
-						nClass = 20,
 						nFrame = 6,
+						nClass = 20,
 					},
+				},
+				szNote = "【西南方】宝箱",
+				col = {
+					100,
+					255,
+					100,
 				},
 			},
 			{
@@ -2129,20 +2208,20 @@ return {
 				szContent = "珍珑宝箱出现在西北方。\
 ",
 				bSearch = true,
-				col = {
-					100,
-					255,
-					100,
-				},
-				szNote = "【西北方】宝箱",
 				tCountdown = {
 					{
 						nIcon = 919,
 						nTime = 15,
 						szName = "【西北方】宝箱",
-						nClass = 20,
 						nFrame = 6,
+						nClass = 20,
 					},
+				},
+				szNote = "【西北方】宝箱",
+				col = {
+					100,
+					255,
+					100,
 				},
 			},
 			{
@@ -2153,20 +2232,20 @@ return {
 				szContent = "珍珑宝箱出现在中央。\
 ",
 				bSearch = true,
-				col = {
-					100,
-					255,
-					100,
-				},
-				szNote = "【中间】宝箱",
 				tCountdown = {
 					{
 						nIcon = 919,
 						nTime = 15,
 						szName = "【中间】宝箱",
-						nClass = 20,
 						nFrame = 6,
+						nClass = 20,
 					},
+				},
+				szNote = "【中间】宝箱",
+				col = {
+					100,
+					255,
+					100,
 				},
 			},
 			{
@@ -2177,20 +2256,20 @@ return {
 				szContent = "珍珑宝箱出现在东北方。\
 ",
 				bSearch = true,
-				col = {
-					100,
-					255,
-					100,
-				},
-				szNote = "【东北方】宝箱",
 				tCountdown = {
 					{
 						nIcon = 919,
 						nTime = 15,
 						szName = "【东北方】宝箱",
-						nClass = 20,
 						nFrame = 6,
+						nClass = 20,
 					},
+				},
+				szNote = "【东北方】宝箱",
+				col = {
+					100,
+					255,
+					100,
 				},
 			},
 			{
@@ -2228,16 +2307,16 @@ return {
 						key = "红方流火·镖银",
 						nTime = 10,
 						szName = "蓝方·送达镖银·[{$1}]",
-						nFrame = 7,
 						nIcon = 1262,
+						nFrame = 7,
 					},
 					{
 						nClass = 20,
 						key = "蓝方风雷·镖银",
 						nTime = 10,
 						szName = "红方·送达镖银·[{$1}]",
-						nFrame = 3,
 						nIcon = 1261,
+						nFrame = 3,
 					},
 					{
 						nClass = 20,
@@ -2279,8 +2358,8 @@ return {
 						key = "红方·镖车",
 						nTime = 10,
 						szName = "红方·400分",
-						nFrame = 3,
 						nIcon = 1265,
+						nFrame = 3,
 					},
 				},
 			},
@@ -2302,8 +2381,8 @@ return {
 						key = "蓝方·镖车",
 						nTime = 10,
 						szName = "蓝方·400分",
-						nFrame = 7,
 						nIcon = 1266,
+						nFrame = 7,
 					},
 				},
 			},
@@ -2314,8 +2393,8 @@ return {
 						key = "红方·镖车",
 						nTime = 150,
 						szName = "红方·镖车出发",
-						nClass = 20,
 						nFrame = 3,
+						nClass = 20,
 					},
 				},
 				szContent = "红方·流火镖车出发，护送镖车成功可得100分，拦截镖车成功可得50分\
@@ -2338,8 +2417,8 @@ return {
 						key = "蓝方·镖车",
 						nTime = 150,
 						szName = "蓝方·镖车出发",
-						nClass = 20,
 						nFrame = 7,
+						nClass = 20,
 					},
 				},
 				szContent = "蓝方·风雷镖车出发，护送镖车成功可得100分，拦截镖车成功可得50分\
@@ -2364,8 +2443,8 @@ return {
 						key = "战斗开始",
 						nTime = 30,
 						szName = "战斗·开始倒计时",
-						nFrame = 4,
 						nIcon = 13,
+						nFrame = 4,
 					},
 				},
 				szContent = "战场将在30秒后开始。\
@@ -2383,8 +2462,8 @@ return {
 						key = "战斗开始",
 						nTime = 20,
 						szName = "战斗·开始倒计时",
-						nFrame = 4,
 						nIcon = 13,
+						nFrame = 4,
 					},
 				},
 				szContent = "战场将在20秒后开始。\
@@ -2402,8 +2481,8 @@ return {
 						key = "战斗开始",
 						nTime = 10,
 						szName = "战斗·开始倒计时",
-						nFrame = 4,
 						nIcon = 13,
+						nFrame = 4,
 					},
 				},
 				szContent = "战场将在10秒后开始。\
@@ -2422,8 +2501,8 @@ return {
 						nTime = "15.3,内满·刷新剩余;16,内满·已经刷新;90,擂旗·刷新剩余;95,擂旗·已经刷新",
 						szName = "战斗开始",
 						nRefresh = 0,
-						nFrame = 6,
 						nClass = 20,
+						nFrame = 6,
 					},
 				},
 				szContent = "战斗开始!!!\
@@ -2453,8 +2532,8 @@ return {
 						key = "战斗开始",
 						nTime = 5,
 						szName = "擂旗·已经重置",
-						nIcon = 13,
 						nClass = 20,
+						nIcon = 13,
 					},
 				},
 			},
@@ -2466,13 +2545,13 @@ return {
 						nTime = "10,擂旗·重置剩余;15,擂旗·已经重置",
 						szName = "擂旗·重置剩余",
 						nRefresh = 0,
-						nClass = 20,
 						nIcon = 13,
+						nClass = 20,
 					},
 				},
-				szNote = "【擂旗】·刷新·10秒",
 				szContent = "擂旗将在10秒后刷新。\
 ",
+				szNote = "【擂旗】·刷新·10秒",
 				col = {
 					100,
 					255,
@@ -2484,16 +2563,16 @@ return {
 					{
 						nFrame = 6,
 						key = "战斗开始",
-						nTime = "10,道具·刷新剩余;30,擂旗·重置剩余;35,擂旗·已经重置",
+						nTime = "10,道具·刷新剩余;12,道具·已经刷新,VO:ShiYongDaoJu;30,擂旗·重置剩余;35,擂旗·已经重置",
 						szName = "擂旗·重置剩余",
 						nRefresh = 0,
-						nIcon = 13,
 						nClass = 20,
+						nIcon = 13,
 					},
 				},
-				szNote = "【擂旗】·刷新·30秒",
 				szContent = "擂旗将在30秒后刷新。\
 ",
+				szNote = "【擂旗】·刷新·30秒",
 				col = {
 					100,
 					255,
@@ -2508,13 +2587,13 @@ return {
 						nTime = "150,擂旗·重置剩余;155,擂旗·已经重置",
 						szName = "擂旗·重置剩余",
 						nRefresh = 0,
-						nClass = 20,
 						nIcon = 13,
+						nClass = 20,
 					},
 				},
+				szNote = "红方·刀宗·夺得擂旗",
 				szContent = "刀宗获得擂旗！擂旗将在两分半后重置！\
 ",
-				szNote = "红方·刀宗·夺得擂旗",
 				col = {
 					255,
 					100,
@@ -2529,13 +2608,13 @@ return {
 						nTime = "150,擂旗·重置剩余;155,擂旗·已经重置",
 						szName = "擂旗·重置剩余",
 						nRefresh = 0,
-						nClass = 20,
 						nIcon = 13,
+						nClass = 20,
 					},
 				},
+				szNote = "蓝方·昆仑·夺得擂旗",
 				szContent = "昆仑获得擂旗！擂旗将在两分半后重置！\
 ",
-				szNote = "蓝方·昆仑·夺得擂旗",
 				col = {
 					100,
 					100,
@@ -2561,24 +2640,24 @@ return {
 						key = "旗帜·昆仑",
 						nTime = 10,
 						szName = "红方·[{$1}]·开旗",
-						nFrame = 3,
 						nIcon = 4838,
+						nFrame = 3,
 					},
 					{
 						nClass = 20,
 						key = "旗帜·刀宗",
 						nTime = 10,
 						szName = "蓝方·[{$1}]·开旗",
-						nIcon = 4837,
 						nFrame = 7,
+						nIcon = 4837,
 					},
 					{
 						nClass = 20,
 						key = "旗帜·{$2}",
 						nTime = -1,
 						szName = "旗帜·{$2}",
-						nIcon = 13,
 						nFrame = -1,
+						nIcon = 13,
 					},
 					{
 						nFrame = 6,
@@ -2586,8 +2665,8 @@ return {
 						nTime = "150,擂旗·重置剩余;155,擂旗·已经重置",
 						szName = "擂旗·重置剩余",
 						nRefresh = 0,
-						nIcon = 13,
 						nClass = 20,
+						nIcon = 13,
 					},
 				},
 			},
@@ -2598,24 +2677,24 @@ return {
 						key = "内满·昆仑·{$2}",
 						nTime = 5,
 						szName = "红方【{$2}】已自爆",
-						nIcon = 3411,
 						nFrame = 3,
+						nIcon = 3411,
 					},
 					{
 						nClass = 20,
 						key = "内满·刀宗·{$2}",
 						nTime = 5,
 						szName = "蓝方【{$2}】已自爆",
-						nIcon = 3410,
 						nFrame = 7,
+						nIcon = 3410,
 					},
 					{
 						nClass = 20,
 						key = "内满·{$1}·{$2}",
 						nTime = -1,
 						szName = "内满·{$1}·{$2}",
-						nIcon = 13,
 						nFrame = 1,
+						nIcon = 13,
 					},
 				},
 				szContent = "^内满自溢效果从(.-)的(.-)侠士身上消失了！",
@@ -2637,16 +2716,16 @@ return {
 						key = "内满·昆仑·{$2}",
 						nTime = 30,
 						szName = "红方【{$2}】自爆",
-						nIcon = 3449,
 						nFrame = 3,
+						nIcon = 3449,
 					},
 					{
 						nClass = 20,
 						key = "内满·刀宗·{$2}",
 						nTime = 30,
 						szName = "蓝方【{$2}】自爆",
-						nIcon = 3448,
 						nFrame = 7,
+						nIcon = 3448,
 					},
 					{
 						nClass = 20,
@@ -2676,8 +2755,8 @@ return {
 						key = "内满·{$1}·刷新",
 						nTime = -2,
 						szName = "内满·{$1}·刷新",
-						nIcon = 13,
 						nFrame = -1,
+						nIcon = 13,
 					},
 					{
 						nFrame = 4,
@@ -2685,8 +2764,8 @@ return {
 						nTime = "120,蓝方内满·刷新剩余;125,蓝方内满·已经刷新",
 						szName = "蓝方内满·刷新剩余",
 						nRefresh = 900,
-						nIcon = 4975,
 						nClass = 20,
+						nIcon = 4975,
 					},
 					{
 						nFrame = 4,
@@ -2694,8 +2773,8 @@ return {
 						nTime = "120,红方内满·刷新剩余;125,红方内满·已经刷新",
 						szName = "红方内满·刷新剩余",
 						nRefresh = 900,
-						nIcon = 4973,
 						nClass = 20,
+						nIcon = 4973,
 					},
 				},
 				szContent = "(.-)的(.-)侠士获得了内满自溢效果！",
@@ -2708,8 +2787,8 @@ return {
 				szNote = "{$1}【{$2}】自爆",
 				[20] = {
 					bTeamChannel = true,
-					bCenterAlarm = true,
 					szVoice = "FenSan_P",
+					bCenterAlarm = true,
 				},
 			},
 		},
@@ -2722,8 +2801,8 @@ return {
 						nTime = "120,准备刷圈·1/8;420,准备刷圈·2/8;684,准备刷圈·3/8;912,准备刷圈·4/8;1104,准备刷圈·5/8;1260,准备刷圈·6/8;1380,准备刷圈·7/8;1464,准备刷圈·8/8;1644,全图伤害",
 						szName = "",
 						nRefresh = 0,
-						nIcon = 13,
 						nClass = 20,
+						nIcon = 13,
 					},
 				},
 				szContent = "洱海绝境开启!祝各位洪福齐天。\
@@ -2754,60 +2833,6 @@ return {
 						key = "战斗开始",
 						nTime = "120,准备刷圈 1/8;420,准备刷圈 2/8;684,准备刷圈 3/8;912,准备刷圈 4/8;1104,准备刷圈 5/8;1260,准备刷圈 6/8;1380,准备刷圈 7/8;1464,准备刷圈 8/8;1644,全图伤害",
 						nRefresh = 0,
-						nFrame = 4,
-						nIcon = 13,
-					},
-				},
-				szContent = "龙门绝境开启!祝各位洪福齐天。\
-",
-			},
-			{
-				szContent = "楼兰神兵匣现世，持有者五分钟后将开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\
-",
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "宝箱",
-						nTime = "300,楼兰神兵匣·开启剩余;302,楼兰神兵匣·已经开启",
-						szName = "楼兰神兵匣·开启剩余",
-						nRefresh = 0,
-						nIcon = 3556,
-						nFrame = 3,
-					},
-				},
-			},
-			{
-				szContent = "楼兰神兵匣再度易手！新持有者将在两分半钟后开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\
-",
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "宝箱",
-						nTime = "150,楼兰神兵匣·开启剩余;152,楼兰神兵匣·已经开启",
-						szName = "楼兰神兵匣·开启剩余",
-						nRefresh = 0,
-						nIcon = 3556,
-						nFrame = 3,
-					},
-				},
-			},
-			{
-				szNote = "【马贼】出现",
-				[20] = {
-					bCenterAlarm = true,
-				},
-				szContent = "大漠中出现了穷凶极恶的马贼，速往清缴可获得马贼王的宝藏。\
-",
-			},
-		},
-		[676] = {
-			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "战斗开始",
-						nTime = "120,准备刷圈 1/8;420,准备刷圈 2/8;684,准备刷圈 3/8;912,准备刷圈 4/8;1104,准备刷圈 5/8;1260,准备刷圈 6/8;1380,准备刷圈 7/8;1464,准备刷圈 8/8;1644,全图伤害",
-						nRefresh = 0,
 						nIcon = 13,
 						nFrame = 4,
 					},
@@ -2847,11 +2872,11 @@ return {
 			},
 			{
 				szNote = "【马贼】出现",
-				szContent = "大漠中出现了穷凶极恶的马贼，速往清缴可获得马贼王的宝藏。\
-",
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szContent = "大漠中出现了穷凶极恶的马贼，速往清缴可获得马贼王的宝藏。\
+",
 			},
 		},
 		[186] = {
@@ -2861,13 +2886,13 @@ return {
 						nClass = 20,
 						nTime = 10,
 						szName = "红方·占领据点",
-						nIcon = 4838,
 						nFrame = 3,
+						nIcon = 4838,
 					},
 				},
-				szNote = "红方·占领·一个据点",
 				szContent = "红方火塘寨成功占领一个据点，每5秒可获得1分\
 ",
+				szNote = "红方·占领·一个据点",
 				col = {
 					255,
 					100,
@@ -2880,17 +2905,71 @@ return {
 						nClass = 20,
 						nTime = 10,
 						szName = "蓝方·占领据点",
-						nIcon = 4837,
 						nFrame = 7,
+						nIcon = 4837,
 					},
 				},
-				szNote = "蓝方·占领·一个据点",
 				szContent = "蓝方溶溪寨成功占领一个据点，每5秒可获得1分\
 ",
+				szNote = "蓝方·占领·一个据点",
 				col = {
 					100,
 					100,
 					255,
+				},
+			},
+		},
+		[676] = {
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "战斗开始",
+						nTime = "120,准备刷圈 1/8;420,准备刷圈 2/8;684,准备刷圈 3/8;912,准备刷圈 4/8;1104,准备刷圈 5/8;1260,准备刷圈 6/8;1380,准备刷圈 7/8;1464,准备刷圈 8/8;1644,全图伤害",
+						nRefresh = 0,
+						nFrame = 4,
+						nIcon = 13,
+					},
+				},
+				szContent = "龙门绝境开启!祝各位洪福齐天。\
+",
+			},
+			{
+				szContent = "楼兰神兵匣现世，持有者五分钟后将开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\
+",
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "宝箱",
+						nTime = "300,楼兰神兵匣·开启剩余;302,楼兰神兵匣·已经开启",
+						szName = "楼兰神兵匣·开启剩余",
+						nRefresh = 0,
+						nIcon = 3556,
+						nFrame = 3,
+					},
+				},
+			},
+			{
+				szContent = "楼兰神兵匣再度易手！新持有者将在两分半钟后开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\
+",
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "宝箱",
+						nTime = "150,楼兰神兵匣·开启剩余;152,楼兰神兵匣·已经开启",
+						szName = "楼兰神兵匣·开启剩余",
+						nRefresh = 0,
+						nIcon = 3556,
+						nFrame = 3,
+					},
+				},
+			},
+			{
+				szNote = "【马贼】出现",
+				szContent = "大漠中出现了穷凶极恶的马贼，速往清缴可获得马贼王的宝藏。\
+",
+				[20] = {
+					bCenterAlarm = true,
 				},
 			},
 		},
@@ -2904,24 +2983,24 @@ return {
 						key = "内满·昆仑·{$sender}",
 						nTime = 0,
 						szName = "内满·昆仑",
-						nIcon = 13,
 						nFrame = 1,
+						nIcon = 13,
 					},
 					{
 						nClass = 9,
 						key = "内满·刀宗·{$sender}",
 						nTime = 0,
 						szName = "内满·刀宗",
-						nIcon = 13,
 						nFrame = 1,
+						nIcon = 13,
 					},
 				},
 				dwID = 17260,
-				nLevel = 1,
 				szNote = "内满自溢",
 				[9] = {
 					bCenterAlarm = true,
 				},
+				nLevel = 1,
 			},
 		},
 		[712] = {
@@ -3015,8 +3094,8 @@ return {
 				[14] = {
 					bCenterAlarm = true,
 				},
-				szContent = "对方镖车已经出发，请速去拦截！",
 				szNote = "敌方镖车·已经出发",
+				szContent = "对方镖车已经出发，请速去拦截！",
 				col = {
 					255,
 					100,
@@ -3027,8 +3106,8 @@ return {
 				[14] = {
 					bCenterAlarm = true,
 				},
-				szContent = "镖车已经出发，请多加保护！",
 				szNote = "我方镖车·已经出发",
+				szContent = "镖车已经出发，请多加保护！",
 				col = {
 					100,
 					255,
@@ -3042,8 +3121,8 @@ return {
 						key = "敌方·镖车",
 						nTime = 10,
 						szName = "敌方镖车·拦截成功",
-						nFrame = 6,
 						nIcon = 4576,
+						nFrame = 6,
 					},
 				},
 				szContent = "对方镖车已被摧毁，拦截有功！",
@@ -3064,8 +3143,8 @@ return {
 						key = "敌方·镖车",
 						nTime = 10,
 						szName = "敌方镖车·已经到达",
-						nIcon = 3316,
 						nFrame = 1,
+						nIcon = 3316,
 					},
 				},
 				szContent = "对方镖车已到达，拦截不利！",
@@ -3086,8 +3165,8 @@ return {
 						key = "我方·镖车",
 						nTime = 10,
 						szName = "我方镖车·已被摧毁",
-						nFrame = 1,
 						nIcon = 4573,
+						nFrame = 1,
 					},
 				},
 				szContent = "镖车已被摧毁，护送不利！",
@@ -3108,8 +3187,8 @@ return {
 						key = "我方·镖车",
 						nTime = 10,
 						szName = "我方镖车·护送到达",
-						nIcon = 3313,
 						nFrame = 6,
+						nIcon = 3313,
 					},
 				},
 				szContent = "镖车已到达，护送有功！",
@@ -3127,35 +3206,35 @@ return {
 				[14] = {
 					bCenterAlarm = true,
 				},
-				szContent = "中立区已被对方夺取！",
-				szNote = "中立军旗·敌方夺取",
 				tCountdown = {
 					{
 						nClass = 14,
 						key = "敌方·据点",
 						nTime = 10,
 						szName = "敌方·占领中立据点",
-						nIcon = 16719,
 						nFrame = 1,
+						nIcon = 16719,
 					},
 				},
+				szNote = "中立军旗·敌方夺取",
+				szContent = "中立区已被对方夺取！",
 			},
 			{
 				[14] = {
 					bCenterAlarm = true,
 				},
-				szNote = "中立军旗·我方夺取",
-				szContent = "中立区已被我方占领！",
 				tCountdown = {
 					{
 						nClass = 14,
 						key = "我方·据点",
 						nTime = 10,
 						szName = "我方·占领中立据点",
-						nIcon = 16720,
 						nFrame = 6,
+						nIcon = 16720,
 					},
 				},
+				szContent = "中立区已被我方占领！",
+				szNote = "中立军旗·我方夺取",
 			},
 			{
 				tCountdown = {
@@ -3164,8 +3243,8 @@ return {
 						key = "敌方·据点",
 						nTime = 10,
 						szName = "敌方·占领据点",
-						nFrame = 1,
 						nIcon = 16719,
+						nFrame = 1,
 					},
 				},
 				szContent = "我方占领区已被对方夺取！",
@@ -3177,8 +3256,8 @@ return {
 						key = "我方·据点",
 						nTime = 10,
 						szName = "我方·占领据点",
-						nFrame = 6,
 						nIcon = 16720,
+						nFrame = 6,
 					},
 				},
 				szContent = "对方占领区已被我方占领！",
@@ -3187,12 +3266,12 @@ return {
 		[-10] = {
 			{
 				szContent = "(.-)收取了第一滴血，(.+)",
-				bReg = true,
+				szTarget = "%",
 				[14] = {
 					bCenterAlarm = true,
 				},
-				szTarget = "%",
 				szNote = "[{$1}]·第一滴血·{$2}",
+				bReg = true,
 			},
 			{
 				szContent = "红方获胜",
@@ -3298,6 +3377,222 @@ return {
 				szNote = "蓝方战胜",
 			},
 		},
+		[-1] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "竞技活动",
+						nTime = 10,
+						szName = "名剑大会·报名失败·检查状态",
+						nIcon = 13,
+						nFrame = 2,
+					},
+				},
+				szContent = "侠士当前状态无法报名名剑大会，请稍后再试。",
+				szTarget = "%",
+			},
+		},
+		[-8] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 5,
+						key = "战斗开始",
+						nTime = "40,切换奇穴·剩余时间;60,战斗·开始倒计时",
+						szName = "切换奇穴·剩余时间",
+						nRefresh = 40,
+						nClass = 14,
+						nIcon = 13,
+					},
+				},
+				szContent = "海选赛中，竞技场准备时间内可切换奇穴",
+				col = {
+					255,
+					255,
+					100,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = "40,切换奇穴·剩余时间;60,战斗·开始倒计时",
+						szName = "切换奇穴·剩余时间",
+						nRefresh = 40,
+						nIcon = 13,
+						nFrame = 5,
+					},
+				},
+				szContent = "有玩家竞技分超过2300分，竞技场准备时间内可切换奇穴",
+				col = {
+					255,
+					255,
+					100,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = -2,
+						szName = "战斗开始",
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = "10,切换奇穴·剩余时间;11,切换奇穴·即将禁止;30,战斗·开始倒计时;31,战斗·开始比赛",
+						szName = "切换奇穴·剩余时间",
+						nRefresh = 10,
+						nFrame = 5,
+						nIcon = 13,
+					},
+				},
+				szContent = "可切换奇穴时间还剩十秒",
+				col = {
+					255,
+					255,
+					100,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = -2,
+						szName = "战斗开始",
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = "5,切换奇穴·剩余时间;6,切换奇穴·即将禁止;25,战斗·开始倒计时;26,战斗·开始比赛",
+						szName = "切换奇穴·剩余时间",
+						nRefresh = 5,
+						nIcon = 13,
+						nFrame = 5,
+					},
+				},
+				szContent = "可切换奇穴时间还剩五秒",
+				col = {
+					255,
+					255,
+					100,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = -2,
+						szName = "战斗开始",
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = "20,战斗·开始倒计时;21,战斗·开始比赛",
+						szName = "战斗·开始倒计时",
+						nRefresh = 0,
+						nFrame = 4,
+						nIcon = 13,
+					},
+				},
+				szContent = "距比赛开始还有20秒，不可再切换奇穴，可以查看敌方玩家信息。",
+				col = {
+					255,
+					255,
+					100,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "举报玩家",
+						nTime = 2,
+						szName = "已举报该玩家",
+						nFrame = 8,
+						nIcon = 13,
+					},
+				},
+				szContent = "你已成功举报该玩家，结算时将根据其本场战绩表现核实。如果确认有挂机或者消极比赛行为，将扣除其一定名剑大会信誉分。让我们一起维护比赛健康环境。",
+				szTarget = "%",
+				szNote = "已举报该玩家",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = "30,战斗·开始倒计时;31,战斗·开始比赛",
+						szName = "战斗·开始倒计时",
+						nRefresh = 0,
+						nFrame = 4,
+						nIcon = 13,
+					},
+				},
+				szContent = "名剑大会将在30秒后开始。",
+				szTarget = "%",
+				col = {
+					255,
+					255,
+					100,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = "20,战斗·开始倒计时;21,战斗·开始比赛",
+						szName = "战斗·开始倒计时",
+						nRefresh = 0,
+						nFrame = 4,
+						nIcon = 13,
+					},
+				},
+				szContent = "名剑大会将在20秒后开始。",
+				szTarget = "%",
+				col = {
+					255,
+					255,
+					100,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = -2,
+						szName = "战斗开始",
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = "10,战斗·开始倒计时;11,战斗·开始比赛",
+						szName = "战斗·开始倒计时",
+						nRefresh = 0,
+						nFrame = 4,
+						nIcon = 13,
+					},
+				},
+				szContent = "名剑大会将在10秒后开始。",
+				szTarget = "%",
+				col = {
+					255,
+					255,
+					100,
+				},
+			},
+		},
 		[52] = {
 			{
 				szContent = "刀宗获胜",
@@ -3324,222 +3619,6 @@ return {
 				},
 				szTarget = "%",
 				szNote = "昆仑获胜",
-			},
-		},
-		[-8] = {
-			{
-				tCountdown = {
-					{
-						nFrame = 5,
-						key = "战斗开始",
-						nTime = "40,切换奇穴·剩余时间;60,战斗·开始倒计时",
-						szName = "切换奇穴·剩余时间",
-						nRefresh = 40,
-						nIcon = 13,
-						nClass = 14,
-					},
-				},
-				szContent = "海选赛中，竞技场准备时间内可切换奇穴",
-				col = {
-					255,
-					255,
-					100,
-				},
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "战斗开始",
-						nTime = "40,切换奇穴·剩余时间;60,战斗·开始倒计时",
-						szName = "切换奇穴·剩余时间",
-						nRefresh = 40,
-						nFrame = 5,
-						nIcon = 13,
-					},
-				},
-				szContent = "有玩家竞技分超过2300分，竞技场准备时间内可切换奇穴",
-				col = {
-					255,
-					255,
-					100,
-				},
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "战斗开始",
-						nTime = -2,
-						szName = "战斗开始",
-						nIcon = 13,
-					},
-					{
-						nClass = 14,
-						key = "战斗开始",
-						nTime = "10,切换奇穴·剩余时间;11,切换奇穴·即将禁止;30,战斗·开始倒计时;31,战斗·开始比赛",
-						szName = "切换奇穴·剩余时间",
-						nRefresh = 10,
-						nIcon = 13,
-						nFrame = 5,
-					},
-				},
-				szContent = "可切换奇穴时间还剩十秒",
-				col = {
-					255,
-					255,
-					100,
-				},
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "战斗开始",
-						nTime = -2,
-						szName = "战斗开始",
-						nIcon = 13,
-					},
-					{
-						nClass = 14,
-						key = "战斗开始",
-						nTime = "5,切换奇穴·剩余时间;6,切换奇穴·即将禁止;25,战斗·开始倒计时;26,战斗·开始比赛",
-						szName = "切换奇穴·剩余时间",
-						nRefresh = 5,
-						nFrame = 5,
-						nIcon = 13,
-					},
-				},
-				szContent = "可切换奇穴时间还剩五秒",
-				col = {
-					255,
-					255,
-					100,
-				},
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "战斗开始",
-						nTime = -2,
-						szName = "战斗开始",
-						nIcon = 13,
-					},
-					{
-						nClass = 14,
-						key = "战斗开始",
-						nTime = "20,战斗·开始倒计时;21,战斗·开始比赛",
-						szName = "战斗·开始倒计时",
-						nRefresh = 0,
-						nIcon = 13,
-						nFrame = 4,
-					},
-				},
-				szContent = "距比赛开始还有20秒，不可再切换奇穴，可以查看敌方玩家信息。",
-				col = {
-					255,
-					255,
-					100,
-				},
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "举报玩家",
-						nTime = 2,
-						szName = "已举报该玩家",
-						nIcon = 13,
-						nFrame = 8,
-					},
-				},
-				szContent = "你已成功举报该玩家，结算时将根据其本场战绩表现核实。如果确认有挂机或者消极比赛行为，将扣除其一定名剑大会信誉分。让我们一起维护比赛健康环境。",
-				szTarget = "%",
-				szNote = "已举报该玩家",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "战斗开始",
-						nTime = "30,战斗·开始倒计时;31,战斗·开始比赛",
-						szName = "战斗·开始倒计时",
-						nRefresh = 0,
-						nIcon = 13,
-						nFrame = 4,
-					},
-				},
-				szTarget = "%",
-				szContent = "名剑大会将在30秒后开始。",
-				col = {
-					255,
-					255,
-					100,
-				},
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "战斗开始",
-						nTime = "20,战斗·开始倒计时;21,战斗·开始比赛",
-						szName = "战斗·开始倒计时",
-						nRefresh = 0,
-						nIcon = 13,
-						nFrame = 4,
-					},
-				},
-				szTarget = "%",
-				szContent = "名剑大会将在20秒后开始。",
-				col = {
-					255,
-					255,
-					100,
-				},
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "战斗开始",
-						nTime = -2,
-						szName = "战斗开始",
-						nIcon = 13,
-					},
-					{
-						nClass = 14,
-						key = "战斗开始",
-						nTime = "10,战斗·开始倒计时;11,战斗·开始比赛",
-						szName = "战斗·开始倒计时",
-						nRefresh = 0,
-						nIcon = 13,
-						nFrame = 4,
-					},
-				},
-				szTarget = "%",
-				szContent = "名剑大会将在10秒后开始。",
-				col = {
-					255,
-					255,
-					100,
-				},
-			},
-		},
-		[-1] = {
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "竞技活动",
-						nTime = 10,
-						szName = "名剑大会·报名失败·检查状态",
-						nFrame = 2,
-						nIcon = 13,
-					},
-				},
-				szContent = "侠士当前状态无法报名名剑大会，请稍后再试。",
-				szTarget = "%",
 			},
 		},
 	},
@@ -3604,6 +3683,28 @@ return {
 					255,
 					0,
 				},
+			},
+			{
+				dwID = 6772,
+				aFocus = {
+					{
+						szDisplay = "泉眼",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "喷泉",
+				nFrame = 47,
 			},
 		},
 		[50] = {
@@ -3873,6 +3974,7 @@ return {
 				nFrame = 47,
 				[3] = {
 					bCenterAlarm = true,
+					bScreenHead = true,
 					tMark = {
 						false,
 						false,
@@ -3885,7 +3987,6 @@ return {
 						false,
 						true,
 					},
-					bScreenHead = true,
 				},
 				dwID = 55831,
 				aFocus = {
@@ -3943,6 +4044,7 @@ return {
 				nFrame = 47,
 				[3] = {
 					bCenterAlarm = true,
+					bScreenHead = true,
 					tMark = {
 						false,
 						false,
@@ -3955,7 +4057,6 @@ return {
 						false,
 						true,
 					},
-					bScreenHead = true,
 				},
 				dwID = 55832,
 				aFocus = {
@@ -4041,6 +4142,282 @@ return {
 			},
 		},
 		[709] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 131992,
+				aFocus = {
+					{
+						szDisplay = "接应点·圈内",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 17,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "接应点",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 131994,
+				aFocus = {
+					{
+						szDisplay = "接应点·圈内",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 17,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "接应点",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 131996,
+				aFocus = {
+					{
+						szDisplay = "接应点·圈内",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 17,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "接应点",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 132473,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "神秘商人",
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 132793,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "镰虾",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 132725,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "手推车",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+		},
+		[715] = {
 			{
 				nFrame = 47,
 				[3] = {
@@ -4408,6 +4785,7 @@ return {
 				szNote = "红方旗帜·掉落",
 				[3] = {
 					bCenterAlarm = true,
+					bScreenHead = true,
 					tMark = {
 						false,
 						false,
@@ -4420,7 +4798,6 @@ return {
 						false,
 						true,
 					},
-					bScreenHead = true,
 				},
 			},
 			{
@@ -4478,6 +4855,7 @@ return {
 				szNote = "蓝方旗帜·掉落",
 				[3] = {
 					bCenterAlarm = true,
+					bScreenHead = true,
 					tMark = {
 						false,
 						false,
@@ -4490,7 +4868,6 @@ return {
 						false,
 						true,
 					},
-					bScreenHead = true,
 				},
 			},
 			{
@@ -4544,282 +4921,6 @@ return {
 				},
 			},
 		},
-		[715] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 131992,
-				aFocus = {
-					{
-						szDisplay = "接应点·圈内",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 17,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "接应点",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 131994,
-				aFocus = {
-					{
-						szDisplay = "接应点·圈内",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 17,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "接应点",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 131996,
-				aFocus = {
-					{
-						szDisplay = "接应点·圈内",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 17,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "接应点",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 132473,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "神秘商人",
-			},
-			{
-				nFrame = 52,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 132793,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "镰虾",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 52,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 132725,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "手推车",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-		},
 	},
 	DEBUFF = {
 		[712] = {
@@ -4849,40 +4950,6 @@ return {
 				szNote = "神行",
 				[1] = {
 					bBuffList = true,
-				},
-			},
-		},
-		[-10] = {
-			{
-				nLevel = 2,
-				col = {
-					255,
-					32,
-					128,
-				},
-				dwID = 32786,
-				bCheckLevel = true,
-				szName = "光柱",
-				[1] = {
-					bBuffList = true,
-				},
-				szNote = "背箱子高亮光柱·红",
-				nIcon = 6681,
-			},
-			{
-				nLevel = 1,
-				nIcon = 6682,
-				szName = "光柱",
-				bCheckLevel = true,
-				dwID = 32786,
-				[1] = {
-					bBuffList = true,
-				},
-				szNote = "背箱子高亮光柱·蓝",
-				col = {
-					0,
-					255,
-					255,
 				},
 			},
 		},
@@ -4934,13 +5001,13 @@ return {
 			},
 			{
 				nLevel = 1,
-				szName = "降速",
+				dwID = 31081,
 				col = {
 					31,
 					63,
 					255,
 				},
-				dwID = 31081,
+				szName = "降速",
 				[1] = {
 					bBuffList = true,
 				},
@@ -4958,9 +5025,9 @@ return {
 			},
 			{
 				{
-					bScreenHead = true,
-					bBuffList = true,
 					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
 				},
 				nLevel = 1,
 				col = {
@@ -4984,17 +5051,17 @@ return {
 			},
 			{
 				nLevel = 1,
-				szName = "锁足·吞日月",
+				dwID = 31192,
 				col = {
 					31,
 					63,
 					255,
 				},
-				dwID = 31192,
+				szName = "锁足·吞日月",
 				[1] = {
-					bTeamPanel = true,
-					bBuffList = true,
 					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
 				},
 				szNote = "奇境·吞日月",
 				aCataclysmBuff = {
@@ -5010,9 +5077,9 @@ return {
 			},
 			{
 				{
-					bTeamPanel = true,
-					bBuffList = true,
 					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
 				},
 				nLevel = 1,
 				col = {
@@ -5036,16 +5103,16 @@ return {
 			},
 			{
 				nLevel = 1,
-				dwID = 31069,
+				[1] = {
+					bBuffList = true,
+					bScreenHead = true,
+				},
 				col = {
 					31,
 					63,
 					255,
 				},
-				[1] = {
-					bBuffList = true,
-					bScreenHead = true,
-				},
+				dwID = 31069,
 				szName = "降速·剑徵",
 				szNote = "剑·徵",
 				aCataclysmBuff = {
@@ -5061,13 +5128,13 @@ return {
 			},
 			{
 				nLevel = 1,
-				szName = "降速·捉影式",
+				dwID = 31091,
 				col = {
 					31,
 					63,
 					255,
 				},
-				dwID = 31091,
+				szName = "降速·捉影式",
 				[1] = {
 					bBuffList = true,
 				},
@@ -5085,13 +5152,13 @@ return {
 			},
 			{
 				nLevel = 1,
-				szName = "降速·转落七星",
+				dwID = 31175,
 				col = {
 					31,
 					63,
 					255,
 				},
-				dwID = 31175,
+				szName = "降速·转落七星",
 				[1] = {
 					bBuffList = true,
 					bScreenHead = true,
@@ -5236,13 +5303,13 @@ return {
 			},
 			{
 				nLevel = 1,
-				dwID = 31060,
+				szName = "钟林",
 				col = {
 					255,
 					153,
 					204,
 				},
-				szName = "钟林",
+				dwID = 31060,
 				[1] = {
 					bBuffList = true,
 				},
@@ -5279,13 +5346,13 @@ return {
 			},
 			{
 				nLevel = 1,
-				dwID = 31055,
+				szName = "兰摧",
 				col = {
 					255,
 					153,
 					204,
 				},
-				szName = "兰摧",
+				dwID = 31055,
 				[1] = {
 					bBuffList = true,
 				},
@@ -5469,9 +5536,9 @@ return {
 			},
 			{
 				{
-					bTeamPanel = true,
-					bBuffList = true,
 					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
 				},
 				nLevel = 1,
 				col = {
@@ -5495,9 +5562,9 @@ return {
 			},
 			{
 				{
-					bScreenHead = true,
-					bBuffList = true,
 					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
 				},
 				nLevel = 1,
 				col = {
@@ -5521,9 +5588,9 @@ return {
 			},
 			{
 				{
-					bScreenHead = true,
-					bBuffList = true,
 					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
 				},
 				nLevel = 1,
 				col = {
@@ -5547,9 +5614,9 @@ return {
 			},
 			{
 				{
-					bTeamPanel = true,
-					bBuffList = true,
 					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
 				},
 				nLevel = 1,
 				col = {
@@ -5573,9 +5640,9 @@ return {
 			},
 			{
 				{
-					bScreenHead = true,
-					bBuffList = true,
 					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
 				},
 				nLevel = 1,
 				col = {
@@ -5599,9 +5666,9 @@ return {
 			},
 			{
 				{
-					bScreenHead = true,
-					bBuffList = true,
 					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
 				},
 				nLevel = 1,
 				col = {
@@ -5625,9 +5692,9 @@ return {
 			},
 			{
 				{
-					bTeamPanel = true,
-					bBuffList = true,
 					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
 				},
 				nLevel = 1,
 				col = {
@@ -5651,17 +5718,17 @@ return {
 			},
 			{
 				nLevel = 1,
-				szName = "沉默·蟾啸夺命",
+				dwID = 31076,
 				col = {
 					165,
 					96,
 					232,
 				},
-				dwID = 31076,
+				szName = "沉默·蟾啸夺命",
 				[1] = {
-					bTeamPanel = true,
-					bBuffList = true,
 					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
 				},
 				szNote = "蟾啸夺命",
 				aCataclysmBuff = {
@@ -5679,9 +5746,9 @@ return {
 			},
 			{
 				{
-					bScreenHead = true,
-					bBuffList = true,
 					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
 				},
 				nLevel = 1,
 				col = {
@@ -5695,20 +5762,20 @@ return {
 				aCataclysmBuff = {
 					{
 						colScreenHead = "#FF32FF",
-						nPriority = 5,
-						col = "#FF32FFFF",
 						szReminder = "警",
-						nColAlpha = 255,
+						col = "#FF32FFFF",
+						nPriority = 5,
 						bAttention = true,
+						nColAlpha = 255,
 						bScreenHead = true,
 					},
 				},
 			},
 			{
 				{
-					bScreenHead = true,
-					bBuffList = true,
 					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
 				},
 				nLevel = 1,
 				col = {
@@ -5721,11 +5788,11 @@ return {
 				aCataclysmBuff = {
 					{
 						colScreenHead = "#FF32FF",
-						nPriority = 4,
-						col = "#FF32FFFF",
 						szReminder = "爆",
-						nColAlpha = 255,
+						col = "#FF32FFFF",
+						nPriority = 4,
 						bAttention = true,
+						nColAlpha = 255,
 						bScreenHead = true,
 					},
 				},
@@ -5736,9 +5803,9 @@ return {
 					bTeamPanel = true,
 				},
 				nLevel = 1,
-				dwID = 31157,
-				bCheckLevel = true,
 				szName = "减速·蕈毒",
+				bCheckLevel = true,
+				dwID = 31157,
 				col = {
 					255,
 					50,
@@ -5750,21 +5817,21 @@ return {
 						colScreenHead = "#0032FF",
 						col = "#0032FFFF",
 						nColAlpha = 255,
-						nPriority = 17,
 						szReminder = "缓",
+						nPriority = 17,
 					},
 				},
 			},
 			{
 				{
-					bScreenHead = true,
-					bBuffList = true,
 					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
 				},
 				nLevel = 2,
-				dwID = 31157,
-				bCheckLevel = true,
 				szName = "锁足",
+				bCheckLevel = true,
+				dwID = 31157,
 				col = {
 					0,
 					50,
@@ -5784,14 +5851,14 @@ return {
 			},
 			{
 				{
-					bScreenHead = true,
-					bBuffList = true,
 					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
 				},
 				nLevel = 3,
-				dwID = 31157,
-				bCheckLevel = true,
 				szName = "眩晕",
+				bCheckLevel = true,
+				dwID = 31157,
 				col = {
 					255,
 					255,
@@ -5811,14 +5878,14 @@ return {
 			},
 			{
 				{
-					bScreenHead = true,
-					bBuffList = true,
 					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
 				},
 				nLevel = 4,
-				dwID = 31157,
-				bCheckLevel = true,
 				szName = "致幻",
+				bCheckLevel = true,
+				dwID = 31157,
 				col = {
 					255,
 					50,
@@ -5828,9 +5895,9 @@ return {
 				aCataclysmBuff = {
 					{
 						colScreenHead = "#FF32FF",
-						nPriority = 13,
-						col = "#FF32FFFF",
 						szReminder = "幻",
+						col = "#FF32FFFF",
+						nPriority = 13,
 						nColAlpha = 255,
 						bCaution = true,
 						bScreenHead = true,
@@ -5856,16 +5923,16 @@ return {
 						colScreenHead = "#00FFFF",
 						col = "#00FFFFFF",
 						nColAlpha = 255,
-						nPriority = 3,
 						szReminder = "星",
+						nPriority = 3,
 					},
 				},
 			},
 			{
 				{
-					bScreenHead = true,
-					bBuffList = true,
 					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
 				},
 				nIcon = 7233,
 				col = {
@@ -5874,24 +5941,24 @@ return {
 					255,
 				},
 				dwID = 31276,
-				szName = "乱打人",
-				szNote = "毒素侵蚀_乱打人",
 				nLevel = 1,
+				szNote = "毒素侵蚀_乱打人",
+				szName = "乱打人",
 			},
 			{
 				nLevel = 1,
 				nIcon = 638,
-				dwID = 31108,
+				szName = "锁足·突",
 				col = {
 					0,
 					50,
 					255,
 				},
-				szName = "锁足·突",
+				dwID = 31108,
 				[1] = {
-					bScreenHead = true,
-					bBuffList = true,
 					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
 				},
 				szNote = "天策突锁足一秒",
 				aCataclysmBuff = {
@@ -5906,12 +5973,63 @@ return {
 				},
 			},
 		},
+		[52] = {
+			{
+				{
+					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				nLevel = 1,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 11604,
+				szName = "内满贰",
+				szNote = "内满·贰",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#FF32FF",
+						col = "#FF32FFFF",
+						nPriority = 2,
+						szReminder = "爆",
+						bScreenHead = true,
+					},
+				},
+			},
+			{
+				{
+					bTeamChannel = true,
+					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				nLevel = 1,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 32826,
+				szName = "内满壹",
+				szNote = "内满·壹",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#FF32FF",
+						col = "#FF32FFFF",
+						nPriority = 2,
+						szReminder = "爆",
+						bScreenHead = true,
+					},
+				},
+			},
+		},
 		[-17] = {
 			{
 				nLevel = 1,
-				[1] = {
-					bBuffList = true,
-				},
+				nIcon = 884,
 				col = {
 					255,
 					50,
@@ -5920,10 +6038,25 @@ return {
 				szName = "重连",
 				dwID = 32798,
 				szNote = "重连",
-				nIcon = 884,
+				[1] = {
+					bBuffList = true,
+				},
 			},
 		},
 		[-8] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 11879,
+				nIcon = 324,
+				szNote = "个人散拍标记3",
+				szName = "散排",
+			},
 			{
 				{
 					bBuffList = true,
@@ -5936,8 +6069,6 @@ return {
 					0,
 				},
 				szName = "改奇穴",
-				dwID = 11839,
-				szNote = "准备时间",
 				tCountdown = {
 					{
 						nClass = 1,
@@ -5945,10 +6076,12 @@ return {
 						nTime = "40,切换奇穴·剩余时间;60,战斗·开始倒计时",
 						szName = "切换奇穴·剩余时间",
 						nRefresh = 40,
-						nIcon = 13,
 						nFrame = 5,
+						nIcon = 13,
 					},
 				},
+				szNote = "准备时间",
+				dwID = 11839,
 			},
 		},
 		[715] = {
@@ -6023,9 +6156,9 @@ return {
 			},
 			{
 				{
-					bTeamPanel = true,
-					bBuffList = true,
 					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
 				},
 				nLevel = 1,
 				col = {
@@ -6049,9 +6182,9 @@ return {
 			},
 			{
 				{
-					bScreenHead = true,
-					bBuffList = true,
 					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
 				},
 				nLevel = 1,
 				col = {
@@ -6075,9 +6208,9 @@ return {
 			},
 			{
 				{
-					bScreenHead = true,
-					bBuffList = true,
 					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
 				},
 				nLevel = 1,
 				col = {
@@ -6534,9 +6667,9 @@ return {
 			},
 			{
 				{
-					bScreenHead = true,
-					bBuffList = true,
 					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
 				},
 				nLevel = 1,
 				col = {
@@ -6560,9 +6693,9 @@ return {
 			},
 			{
 				{
-					bTeamPanel = true,
-					bBuffList = true,
 					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
 				},
 				nLevel = 1,
 				col = {
@@ -6586,9 +6719,9 @@ return {
 			},
 			{
 				{
-					bTeamPanel = true,
-					bBuffList = true,
 					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
 				},
 				nLevel = 1,
 				col = {
@@ -6612,9 +6745,9 @@ return {
 			},
 			{
 				{
-					bScreenHead = true,
-					bBuffList = true,
 					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
 				},
 				nLevel = 1,
 				col = {
@@ -6638,9 +6771,9 @@ return {
 			},
 			{
 				{
-					bTeamPanel = true,
-					bBuffList = true,
 					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
 				},
 				nLevel = 1,
 				col = {
@@ -6664,9 +6797,9 @@ return {
 			},
 			{
 				{
-					bTeamPanel = true,
-					bBuffList = true,
 					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
 				},
 				nLevel = 1,
 				col = {
@@ -6690,9 +6823,9 @@ return {
 			},
 			{
 				{
-					bScreenHead = true,
-					bBuffList = true,
 					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
 				},
 				nLevel = 1,
 				col = {
@@ -6716,9 +6849,9 @@ return {
 			},
 			{
 				{
-					bScreenHead = true,
-					bBuffList = true,
 					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
 				},
 				nLevel = 1,
 				col = {
@@ -6744,27 +6877,27 @@ return {
 			},
 			{
 				nLevel = 1,
-				szName = "预警雷",
+				dwID = 30910,
 				col = {
 					255,
 					50,
 					255,
 				},
-				dwID = 30910,
+				szName = "预警雷",
 				[1] = {
-					bTeamPanel = true,
-					bBuffList = true,
 					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
 				},
 				szNote = "个人雷_预警",
 				aCataclysmBuff = {
 					{
 						colScreenHead = "#FF32FF",
-						nPriority = 5,
-						col = "#FF32FFFF",
 						szReminder = "警",
-						bAttention = true,
+						col = "#FF32FFFF",
+						nPriority = 5,
 						nColAlpha = 255,
+						bAttention = true,
 						bScreenHead = true,
 					},
 				},
@@ -6778,19 +6911,19 @@ return {
 				},
 				dwID = 31013,
 				[1] = {
-					bTeamPanel = true,
-					bBuffList = true,
 					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
 				},
 				szNote = "自爆20尺内",
 				aCataclysmBuff = {
 					{
 						colScreenHead = "#FF32FF",
-						nPriority = 4,
-						col = "#FF32FFFF",
 						szReminder = "爆",
-						bAttention = true,
+						col = "#FF32FFFF",
+						nPriority = 4,
 						nColAlpha = 255,
+						bAttention = true,
 						bScreenHead = true,
 					},
 				},
@@ -6815,8 +6948,8 @@ return {
 						colScreenHead = "#0032FF",
 						col = "#0032FFFF",
 						szReminder = "缓",
-						nColAlpha = 255,
 						nPriority = 17,
+						nColAlpha = 255,
 					},
 				},
 			},
@@ -6824,9 +6957,9 @@ return {
 				nLevel = 2,
 				szName = "锁足",
 				[1] = {
-					bTeamPanel = true,
-					bBuffList = true,
 					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
 				},
 				bCheckLevel = true,
 				dwID = 31157,
@@ -6851,9 +6984,9 @@ return {
 				nLevel = 3,
 				szName = "眩晕",
 				[1] = {
-					bTeamPanel = true,
-					bBuffList = true,
 					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
 				},
 				bCheckLevel = true,
 				dwID = 31157,
@@ -6878,9 +7011,9 @@ return {
 				nLevel = 4,
 				szName = "致幻",
 				[1] = {
-					bTeamPanel = true,
-					bBuffList = true,
 					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
 				},
 				bCheckLevel = true,
 				dwID = 31157,
@@ -6893,9 +7026,9 @@ return {
 				aCataclysmBuff = {
 					{
 						colScreenHead = "#FF32FF",
-						nPriority = 13,
-						col = "#FF32FFFF",
 						szReminder = "幻",
+						col = "#FF32FFFF",
+						nPriority = 13,
 						nColAlpha = 255,
 						bCaution = true,
 						bScreenHead = true,
@@ -6904,13 +7037,13 @@ return {
 			},
 			{
 				nLevel = 1,
-				szName = "星盘",
+				dwID = 31158,
 				col = {
 					0,
 					255,
 					255,
 				},
-				dwID = 31158,
+				szName = "星盘",
 				[1] = {
 					bBuffList = true,
 					bTeamPanel = true,
@@ -6921,35 +7054,35 @@ return {
 						colScreenHead = "#00FFFF",
 						col = "#00FFFFFF",
 						szReminder = "星",
-						nColAlpha = 255,
 						nPriority = 3,
+						nColAlpha = 255,
 					},
 				},
 			},
 			{
 				nLevel = 1,
 				nIcon = 7233,
-				dwID = 31276,
+				szName = "乱打人",
 				col = {
 					255,
 					50,
 					255,
 				},
-				szName = "乱打人",
+				dwID = 31276,
 				[1] = {
-					bScreenHead = true,
-					bBuffList = true,
 					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
 				},
 				szNote = "毒素侵蚀_乱打人",
 				aCataclysmBuff = {
 					{
 						colScreenHead = "#FF32FF",
-						szReminder = "蚀",
-						col = "#FF32FFFF",
 						nPriority = 5,
-						nColAlpha = 255,
+						col = "#FF32FFFF",
+						szReminder = "蚀",
 						bAttention = true,
+						nColAlpha = 255,
 						bScreenHead = true,
 					},
 				},
@@ -6957,17 +7090,17 @@ return {
 			{
 				nLevel = 1,
 				nIcon = 638,
-				szName = "锁足·突",
+				dwID = 31108,
 				col = {
 					0,
 					50,
 					255,
 				},
-				dwID = 31108,
+				szName = "锁足·突",
 				[1] = {
-					bTeamPanel = true,
-					bBuffList = true,
 					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
 				},
 				szNote = "天策突锁足一秒",
 				aCataclysmBuff = {
@@ -6984,7 +7117,7 @@ return {
 		},
 		[38] = {
 			{
-				nLevel = 2,
+				nLevel = 1,
 				nScrutinyType = 1,
 				col = {
 					255,
@@ -6992,64 +7125,60 @@ return {
 					204,
 				},
 				szName = "毒沼",
+				dwID = 11593,
+				szNote = "毒沼瘴气",
 				[1] = {
 					bBuffList = true,
 				},
-				szNote = "毒沼瘴气",
-				dwID = 11593,
 			},
 		},
-		[52] = {
+		[-10] = {
 			{
-				{
-					bScreenHead = true,
+				nLevel = 2,
+				nIcon = 6681,
+				szName = "光柱",
+				bCheckLevel = true,
+				dwID = 32786,
+				[1] = {
 					bBuffList = true,
-					bTeamPanel = true,
 				},
-				nLevel = 1,
+				szNote = "背箱子高亮光柱·红",
 				col = {
 					255,
-					50,
-					255,
-				},
-				dwID = 11604,
-				szName = "内满贰",
-				szNote = "内满·贰",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#FF32FF",
-						col = "#FF32FFFF",
-						nPriority = 2,
-						szReminder = "爆",
-						bScreenHead = true,
-					},
+					32,
+					128,
 				},
 			},
 			{
-				{
-					bTeamChannel = true,
-					bTeamPanel = true,
+				nLevel = 1,
+				bCheckLevel = true,
+				dwID = 32786,
+				col = {
+					0,
+					255,
+					255,
+				},
+				szName = "光柱",
+				[1] = {
 					bBuffList = true,
-					bScreenHead = true,
+				},
+				szNote = "背箱子高亮光柱·蓝",
+				nIcon = 6682,
+			},
+			{
+				{
+					bBuffList = true,
 				},
 				nLevel = 1,
+				nScrutinyType = 1,
 				col = {
 					255,
-					50,
 					255,
+					0,
 				},
-				dwID = 32826,
-				szName = "内满壹",
-				szNote = "内满·壹",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#FF32FF",
-						col = "#FF32FFFF",
-						nPriority = 2,
-						szReminder = "爆",
-						bScreenHead = true,
-					},
-				},
+				dwID = 13395,
+				szNote = "战场开局监控",
+				szName = "准备",
 			},
 		},
 	},
@@ -7057,7 +7186,7 @@ return {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1775057317,
+		nTimeStamp = 1784198049,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
@@ -7660,10 +7789,10 @@ return {
 			},
 			{
 				dwID = 3208,
+				szNote = "红方军旗",
 				[17] = {
 					bScreenHead = true,
 				},
-				szNote = "红方军旗",
 				col = {
 					255,
 					32,
@@ -7672,10 +7801,10 @@ return {
 			},
 			{
 				dwID = 3207,
-				szNote = "蓝方军旗",
 				[17] = {
 					bScreenHead = true,
 				},
+				szNote = "蓝方军旗",
 				col = {
 					31,
 					230,
@@ -7892,10 +8021,10 @@ return {
 			},
 			{
 				dwID = 3207,
+				szNote = "蓝方军旗",
 				[17] = {
 					bScreenHead = true,
 				},
-				szNote = "蓝方军旗",
 				col = {
 					31,
 					230,
@@ -7904,10 +8033,10 @@ return {
 			},
 			{
 				dwID = 3208,
+				szNote = "红方军旗",
 				[17] = {
 					bScreenHead = true,
 				},
-				szNote = "红方军旗",
 				col = {
 					255,
 					120,
@@ -8045,73 +8174,6 @@ return {
 						dwMapID = -1,
 					},
 				},
-			},
-		},
-		[38] = {
-			{
-				[17] = {
-					bScreenHead = true,
-				},
-				col = {
-					255,
-					255,
-					100,
-				},
-				dwID = 6407,
-				aFocus = {
-					{
-						szDisplay = "神秘物资箱·交互",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-					{},
-				},
-				szNote = "神秘物资箱",
-			},
-		},
-		[532] = {
-			{
-				dwID = 9194,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 30,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "篝火堆",
 			},
 		},
 		[297] = {
@@ -8297,6 +8359,73 @@ return {
 						dwMapID = -1,
 					},
 				},
+			},
+		},
+		[532] = {
+			{
+				dwID = 9194,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "篝火堆",
+			},
+		},
+		[38] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					255,
+					255,
+					100,
+				},
+				dwID = 6407,
+				aFocus = {
+					{
+						szDisplay = "神秘物资箱·交互",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{},
+				},
+				szNote = "神秘物资箱",
 			},
 		},
 	},
