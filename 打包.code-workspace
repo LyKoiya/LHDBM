@@ -7,6 +7,23 @@
 	"settings": {
 		"files.associations": {
 			"*.jx3dat": "lua" // 将 *.jx3dat 文件关联为 Lua 类型
+		},
+		// 普通lua脚本：强制GB18030
+		"[lua]": {
+		"files.encoding": "gb18030",
+		"files.autoGuessEncoding": false
+		},
+		
+		// 匹配包含 zhtw 的语言文件，强制UTF-8
+		"encoding-guard.patternMap": {
+		// 支持glob匹配模式
+		"**/*zhtw*.jx3dat": "utf8",
+		"**/*zhcn*.jx3dat": "gb18030",
+		"**/*.formatted.jx3dat": "gb18030",
+		"**/*zhtw*.lua": "utf8",
+		"**/*zhtw*.txt": "utf8",
+		"**/*.ini.zh_TW": "utf8",
+		"**/*.ini": "gb18030",
 		}
 	}
 }
