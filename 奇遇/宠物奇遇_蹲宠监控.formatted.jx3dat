@@ -2233,6 +2233,7 @@ return {
 			{
 				nFrame = 47,
 				[3] = {
+					szVoice = "HuanChou_T",
 					bCenterAlarm = true,
 					bScreenHead = true,
 				},
