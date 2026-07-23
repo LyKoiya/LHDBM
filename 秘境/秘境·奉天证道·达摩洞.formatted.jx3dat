@@ -1,0 +1,162 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {},
+	NPC = {
+		[301] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						nMaxDistance = 60,
+					},
+				},
+				szNote = "狼牙铂金宝箱",
+				dwID = 60955,
+			},
+		},
+		[299] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "狼牙铂金宝箱",
+				dwID = 60953,
+			},
+		},
+	},
+	DEBUFF = {
+		[301] = {
+			{
+				{
+					bTeamPanel = true,
+					bScreenHead = true,
+					bBuffList = true,
+					bPartyBuffList = true,
+				},
+				nLevel = 1,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 13377,
+				tCountdown = {
+					{
+						nClass = 1,
+						nIcon = 4513,
+						szName = "腐血·DPS提前死亡",
+						nTime = 15,
+					},
+				},
+				szNote = "腐血",
+				aCataclysmBuff = {
+					{
+						szReminder = "暴",
+						colScreenHead = "#DF3F3F",
+						nPriority = 3,
+						bScreenHead = true,
+					},
+				},
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1784553197,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[482] = {
+			{
+				dwID = 8775,
+				aFocus = {
+					{
+						szDisplay = "传送光圈",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "传送光圈",
+				szName = "传送光圈",
+			},
+		},
+		[483] = {
+			{
+				dwID = 8775,
+				aFocus = {
+					{
+						szDisplay = "传送光圈",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "传送光圈",
+				szName = "传送光圈",
+			},
+		},
+		[484] = {
+			{
+				dwID = 8775,
+				aFocus = {
+					{
+						szDisplay = "传送光圈",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "传送光圈",
+				szName = "传送光圈",
+			},
+		},
+	},
+}
