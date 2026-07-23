@@ -9,29 +9,11 @@ return {
 				nFrame = 47,
 				aFocus = {
 					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
 						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
 					},
 				},
 				szNote = "ÀÇÑÀ²¬½ð±¦Ïä",
-				dwID = 60953,
+				dwID = 60955,
 			},
 		},
 		[299] = {
@@ -52,12 +34,6 @@ return {
 							nValue = 0,
 							bEnable = false,
 						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
 					},
 				},
 				szNote = "ÀÇÑÀ²¬½ð±¦Ïä",
@@ -69,10 +45,10 @@ return {
 		[301] = {
 			{
 				{
-					bPartyBuffList = true,
+					bTeamPanel = true,
 					bScreenHead = true,
 					bBuffList = true,
-					bTeamPanel = true,
+					bPartyBuffList = true,
 				},
 				nLevel = 1,
 				col = {
@@ -105,7 +81,7 @@ return {
 		szServer = "Î¨ÎÒ¶À×ð",
 		szAuthor = "ºÉ»¨Àð",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1774879350,
+		nTimeStamp = 1784553122,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
