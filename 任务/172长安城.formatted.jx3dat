@@ -8,6 +8,17 @@ return {
 				},
 				nLevel = 1,
 			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				[1] = {
+					bBuffList = true,
+				},
+				szName = "牢房",
+				nIcon = 733,
+				szNote = "通用警戒送牢房",
+				dwID = 6742,
+			},
 		},
 	},
 	CHAT = {
@@ -1661,6 +1672,22 @@ return {
 				szName = "寻宝",
 				szNote = "老鼠计时buff",
 				nIcon = 18942,
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				nIcon = 2019,
+				col = {
+					255,
+					255,
+					0,
+				},
+				szName = "警戒",
+				[1] = {
+					bBuffList = true,
+				},
+				szNote = "通用警戒设置坐标",
+				dwID = 6797,
 			},
 		},
 		[-1] = {

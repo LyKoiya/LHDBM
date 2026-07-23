@@ -5,50 +5,60 @@ return {
 				{
 					bBuffList = true,
 				},
-				dwID = 50694,
 				nLevel = 1,
+				nScrutinyType = 2,
 				col = {
 					0,
 					255,
 					255,
 				},
+				dwID = 50694,
+				szNote = "血刃",
 			},
 			{
 				{
 					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 2,
+				col = {
+					0,
+					255,
+					255,
 				},
 				dwID = 50815,
-				nLevel = 1,
-				col = {
-					0,
-					255,
-					255,
-				},
+				szNote = "蓄势",
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				nLevel = 1,
 				dwID = 50778,
+				nScrutinyType = 2,
+				szNote = "断脉陨天诀",
+				nLevel = 1,
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				nLevel = 1,
 				dwID = 50670,
+				nScrutinyType = 2,
+				szNote = "死战",
+				nLevel = 1,
 			},
 			{
 				{
 					bBuffList = true,
+					bTeamPanel = true,
 				},
-				dwID = 50644,
 				nLevel = 1,
+				nScrutinyType = 2,
+				dwID = 50644,
 				szNote = "神树吸血效果",
 				aCataclysmBuff = {
 					{
-						nPriority = 10,
+						nPriority = 38,
 						szReminder = "芽",
 						nColAlpha = 255,
 					},
@@ -56,31 +66,137 @@ return {
 			},
 			{
 				{
+					bScreenHead = true,
 					bBuffList = true,
+					bTeamPanel = true,
 				},
 				nLevel = 1,
+				nScrutinyType = 2,
 				col = {
-					0,
-					255,
-					0,
+					179,
+					238,
+					58,
 				},
 				dwID = 50680,
-				szNote = "持护免控",
+				szName = "免控·持护",
+				szNote = "免控·持护",
 				aCataclysmBuff = {
 					{
-						nPriority = 10,
-						szReminder = "盾",
+						col = "#B3EE3AFF",
 						nColAlpha = 255,
-						col = "#00FF00FF",
+						szReminder = "盾",
+						nPriority = 17,
+						bScreenHead = false,
 					},
 				},
 			},
 		},
 	},
 	CHAT = {},
-	CASTING = {},
+	CASTING = {
+		[995] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 64445,
+				szNote = "天陨真龙坠",
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 64450,
+				szNote = "神癫意狂诀",
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 64449,
+				szNote = "天陨真龙坠",
+			},
+		},
+	},
 	TALK = {
 		[995] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = "60,离开场景·剩余时间;62,离开场景·正在离开",
+						szName = "离开场景·剩余时间",
+						nRefresh = 0,
+						nIcon = 13,
+					},
+				},
+				szContent = "剩余离开场景时间：1分钟。",
+				szTarget = "%",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = "120,离开场景·剩余时间;122,离开场景·正在离开",
+						szName = "离开场景·剩余时间",
+						nRefresh = 0,
+						nIcon = 13,
+					},
+				},
+				szContent = "剩余离开场景时间：2分钟。",
+				szTarget = "%",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = "180,离开场景·剩余时间;182,离开场景·正在离开",
+						szName = "离开场景·剩余时间",
+						nRefresh = 0,
+						nIcon = 13,
+					},
+				},
+				szContent = "结束战斗：剩余离开场景时间：3分钟。",
+				szTarget = "%",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "战斗开始",
+						nTime = "15,重伤状态·脱离剩余;17,重伤状态·已经脱离",
+						szName = "重伤状态·脱离剩余",
+						nRefresh = 0,
+						nIcon = 13,
+					},
+				},
+				szContent = "15秒后将原地脱离重伤状态",
+				szNote = "已经重伤·原地复活",
+			},
 			{
 				tCountdown = {
 					{
@@ -96,8 +212,8 @@ return {
 					bCenterAlarm = true,
 					szVoice = "ZhuanJieDuan",
 				},
-				szNote = "绝学日晷·出现",
 				szContent = "出现了新的日无暇晷·绝。",
+				szNote = "绝学日晷·出现",
 			},
 			{
 				tCountdown = {
@@ -111,6 +227,7 @@ return {
 					},
 				},
 				szContent = "出现了新的日无暇晷·秘。",
+				szNote = "秘技日晷·出现",
 			},
 			{
 				tCountdown = {
@@ -124,73 +241,173 @@ return {
 					},
 				},
 				szContent = "提示：首领出现！",
+				szNote = "八荒首领·出现",
 			},
 		},
 	},
 	NPC = {
-		[995] = {
+		[-2] = {
 			{
 				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 201150,
 				aFocus = {
 					{
-						nMaxDistance = 25,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
+						szDisplay = "季斯年·八荒衡鉴",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
 							bEnemy = false,
 						},
 						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
 					},
 				},
+				szNote = "八荒衡鉴·季斯年",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 113529,
+				aFocus = {
+					{
+						szDisplay = "乐小天·乐游纪",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "乐游纪·乐小天",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+		},
+		[995] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "召唤物·跃",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 25,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "召唤物·跃",
 				dwID = 201666,
 			},
 			{
 				nFrame = 47,
 				aFocus = {
 					{
-						nMaxDistance = 1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
+						szDisplay = "烘干炸弹",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
 							bEnemy = false,
 						},
 						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 1,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
 					},
 				},
+				szNote = "烘干炸弹",
 				dwID = 201569,
 			},
 			{
 				nFrame = 47,
 				aFocus = {
 					{
-						nMaxDistance = 1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
+						szDisplay = "灵魂火种",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
 							bEnemy = false,
 						},
 						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 1,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
 					},
 				},
+				szNote = "灵魂火种",
 				dwID = 201151,
 			},
 			{
 				nFrame = 47,
+				dwID = 201267,
 				aFocus = {
 					{
 						szDisplay = "传送门",
@@ -208,14 +425,15 @@ return {
 						nMaxDistance = 60,
 					},
 				},
-				dwID = 201267,
+				szNote = "传送门",
 				szName = "传送门",
 			},
 			{
 				nFrame = 47,
+				dwID = 201120,
 				aFocus = {
 					{
-						szDisplay = "神树",
+						szDisplay = "神树·气血",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
@@ -228,69 +446,20 @@ return {
 							bEnable = false,
 						},
 						nMaxDistance = 10,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
 					},
 				},
-				dwID = 201120,
+				szNote = "神树",
 				szName = "神树",
 			},
 			{
 				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 201200,
-				aFocus = {
-					{
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-					},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 201226,
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-					},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
+				dwID = 201309,
 				aFocus = {
 					{
 						szDisplay = "风涡·移速",
@@ -308,7 +477,7 @@ return {
 						nMaxDistance = 8,
 					},
 				},
-				dwID = 201309,
+				szNote = "风涡·移速",
 				szName = "风涡·移速",
 			},
 			{
@@ -1337,37 +1506,29 @@ return {
 				},
 				dwID = 201249,
 			},
-		},
-		[-2] = {
 			{
 				nFrame = 47,
 				[3] = {
 					bScreenHead = true,
 				},
-				dwID = 201150,
+				dwID = 201200,
 				aFocus = {
 					{
-						szDisplay = "季斯年·八荒衡鉴",
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
 						tRelation = {
 							bAlly = false,
 							bAll = true,
 							bEnemy = false,
 						},
 						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
 					},
 				},
+				szNote = "枕戈",
 				col = {
 					0,
 					255,
@@ -1379,17 +1540,17 @@ return {
 				[3] = {
 					bScreenHead = true,
 				},
-				dwID = 113529,
+				dwID = 201210,
 				aFocus = {
 					{
-						szDisplay = "乐小天·乐游纪",
+						szDisplay = "",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
 							bEnemy = false,
 						},
 						dwMapID = -1,
-						nMaxDistance = 6,
+						nMaxDistance = 30,
 						tLife = {
 							szOperator = ">",
 							nValue = 0,
@@ -1403,7 +1564,36 @@ return {
 						},
 					},
 				},
-				szNote = "乐游纪·乐小天",
+				szNote = "洞彻",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 201226,
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "死战·氐土貉",
 				col = {
 					0,
 					255,
@@ -1415,28 +1605,34 @@ return {
 	DEBUFF = {
 		[995] = {
 			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				dwID = 50769,
 				tCountdown = {
 					{
 						nClass = 2,
 						key = "死战",
 						nTime = 0,
 						szName = "死战",
-						nFrame = 5,
 						nIcon = 18566,
 					},
 				},
+				nScrutinyType = 1,
+				dwID = 50769,
+				szNote = "天策府",
+				nLevel = 1,
 			},
 			{
 				tCountdown = {
 					{
+						nClass = 1,
+						key = "战斗开始",
+						nTime = 1,
+						szName = "八荒衡鉴·战斗开始",
+						nIcon = 13,
+					},
+					{
 						nClass = 2,
 						key = "死战",
 						nTime = 0,
 						szName = "死战",
-						nFrame = 5,
 						nIcon = 18566,
 					},
 				},
@@ -1447,6 +1643,7 @@ return {
 					255,
 				},
 				dwID = 50892,
+				szNote = "八荒御鉴",
 				nLevel = 1,
 			},
 			{
@@ -1455,8 +1652,8 @@ return {
 						nClass = 1,
 						key = "死战",
 						nTime = 60,
-						szName = "免死·已触发",
-						nFrame = 5,
+						szName = "免死·已触发·冷却剩余",
+						nFrame = 0,
 						nIcon = 18448,
 					},
 					{
@@ -1483,7 +1680,7 @@ return {
 				szNote = "免死CD",
 				aCataclysmBuff = {
 					{
-						nPriority = 1,
+						nPriority = 2,
 						szReminder = "怠",
 						nColAlpha = 255,
 						col = "#FF3232FF",
@@ -1491,28 +1688,68 @@ return {
 				},
 			},
 			{
-				{
-					bBuffList = true,
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "死战",
+						nTime = 5,
+						szName = "不死·已激活",
+						nFrame = 0,
+						nIcon = 18566,
+					},
+					{
+						nClass = 2,
+						key = "死战",
+						nTime = 2,
+						szName = "不死·未激活",
+						nFrame = 0,
+						nIcon = 18566,
+					},
 				},
-				dwID = 50717,
-				nLevel = 1,
+				bCheckLevel = true,
+				szNote = "死战免死",
+				aCataclysmBuff = {
+					{
+						nColAlpha = 255,
+						nPriority = 3,
+						szReminder = "战",
+						col = "#FF9800FF",
+					},
+				},
+				nLevel = 2,
+				nScrutinyType = 1,
 				col = {
-					0,
 					255,
-					0,
+					150,
+					50,
 				},
+				dwID = 50668,
+				[1] = {
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				szName = "不死",
 			},
 			{
-				{
-					bBuffList = true,
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "死战",
+						nTime = 20,
+						szName = "不死·暂未激活",
+						nFrame = 0,
+						nIcon = 18566,
+					},
 				},
-				dwID = 50749,
-				nLevel = 1,
+				nScrutinyType = 1,
+				bCheckLevel = true,
+				dwID = 50668,
 				col = {
+					255,
+					255,
 					0,
-					255,
-					255,
 				},
+				nLevel = 1,
 			},
 			{
 				{
@@ -1520,6 +1757,7 @@ return {
 				},
 				dwID = 50676,
 				nLevel = 1,
+				szNote = "独胆",
 				col = {
 					0,
 					255,
@@ -1532,6 +1770,7 @@ return {
 				},
 				dwID = 50735,
 				nLevel = 1,
+				szNote = "枕戈",
 				col = {
 					0,
 					255,
@@ -1567,6 +1806,7 @@ return {
 					bBuffList = true,
 				},
 				dwID = 50887,
+				szNote = "福星",
 				nLevel = 1,
 			},
 			{
@@ -1577,14 +1817,6 @@ return {
 						nTime = 20,
 						szName = "福星·激活剩余",
 						nFrame = 4,
-						nIcon = 18567,
-					},
-					{
-						nClass = 2,
-						key = "福星",
-						nTime = 0,
-						szName = "福星",
-						nFrame = 5,
 						nIcon = 18567,
 					},
 				},
@@ -1598,6 +1830,7 @@ return {
 					bBuffList = true,
 				},
 				dwID = 50886,
+				szNote = "福兆",
 				nLevel = 1,
 			},
 			{
@@ -1611,7 +1844,34 @@ return {
 				[1] = {
 					bBuffList = true,
 				},
+				szNote = "夷逸",
 				dwID = 50739,
+			},
+			{
+				{
+					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 2,
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 50919,
+				szName = "机甲·免控",
+				szNote = "大天工化身",
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						nPriority = 3,
+						col = "#FF9600FF",
+						szReminder = "甲",
+						nColAlpha = 255,
+					},
+				},
 			},
 			{
 				{
@@ -1631,8 +1891,8 @@ return {
 						nClass = 1,
 						key = "纠缠",
 						nTime = 60,
-						szName = "纠缠·随机瞬移",
-						nFrame = 5,
+						szName = "纠缠·随机瞬移·日无暇晷",
+						nFrame = 4,
 						nIcon = 18534,
 					},
 					{
@@ -1663,8 +1923,8 @@ return {
 						nClass = 1,
 						key = "纠缠",
 						nTime = 50,
-						szName = "纠缠·随机瞬移",
-						nFrame = 5,
+						szName = "纠缠·随机瞬移·日无暇晷",
+						nFrame = 4,
 						nIcon = 18534,
 					},
 					{
@@ -1695,8 +1955,8 @@ return {
 						nClass = 1,
 						key = "纠缠",
 						nTime = 45,
-						szName = "纠缠·随机瞬移",
-						nFrame = 5,
+						szName = "纠缠·随机瞬移·日无暇晷",
+						nFrame = 4,
 						nIcon = 18534,
 					},
 					{
@@ -1727,8 +1987,8 @@ return {
 						nClass = 1,
 						key = "纠缠",
 						nTime = 40,
-						szName = "纠缠·随机瞬移",
-						nFrame = 5,
+						szName = "纠缠·随机瞬移·日无暇晷",
+						nFrame = 4,
 						nIcon = 18534,
 					},
 					{
@@ -1759,8 +2019,8 @@ return {
 						nClass = 1,
 						key = "纠缠",
 						nTime = 35,
-						szName = "纠缠·随机瞬移",
-						nFrame = 5,
+						szName = "纠缠·随机瞬移·日无暇晷",
+						nFrame = 4,
 						nIcon = 18534,
 					},
 					{
@@ -1792,7 +2052,7 @@ return {
 						key = "紊乱",
 						nTime = 20,
 						szName = "紊乱·降低伤害",
-						nFrame = 5,
+						nFrame = 1,
 						nIcon = 18449,
 					},
 					{
@@ -1823,7 +2083,7 @@ return {
 						key = "谙达",
 						nTime = 9.2,
 						szName = "谙达·召唤剩余",
-						nFrame = 5,
+						nFrame = 6,
 						nIcon = 3432,
 					},
 					{
@@ -1836,12 +2096,12 @@ return {
 					},
 				},
 				nScrutinyType = 1,
-				bCheckLevel = true,
 				col = {
 					255,
 					255,
 					0,
 				},
+				bCheckLevel = true,
 				[1] = {
 					bBuffList = true,
 				},
@@ -1856,7 +2116,7 @@ return {
 						key = "非攻",
 						nTime = 9,
 						szName = "兼爱·蓄力剩余",
-						nFrame = 4,
+						nFrame = 5,
 						nIcon = 18565,
 					},
 					{
@@ -1909,67 +2169,30 @@ return {
 				nLevel = 1,
 			},
 			{
-				tCountdown = {
-					{
-						nClass = 1,
-						key = "死战",
-						nTime = 5,
-						szName = "不死·已激活",
-						nFrame = 5,
-						nIcon = 18566,
-					},
-					{
-						nClass = 2,
-						key = "死战",
-						nTime = 2,
-						szName = "不死·未激活",
-						nFrame = 5,
-						nIcon = 18566,
-					},
-				},
-				bCheckLevel = true,
-				szNote = "死战免死",
-				aCataclysmBuff = {
-					{
-						nColAlpha = 255,
-						szReminder = "战",
-						col = "#FF9800FF",
-					},
-				},
-				nLevel = 2,
-				nScrutinyType = 1,
-				col = {
-					255,
-					150,
-					50,
-				},
-				dwID = 50668,
-				[1] = {
+				{
 					bBuffList = true,
-					bTeamPanel = true,
 				},
-				szName = "不死",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 1,
-						key = "死战",
-						nTime = 20,
-						szName = "不死·暂未激活",
-						nFrame = 5,
-						nIcon = 18566,
-					},
-				},
-				nScrutinyType = 1,
-				bCheckLevel = true,
-				dwID = 50668,
+				dwID = 50717,
+				nLevel = 1,
+				szNote = "弹指",
 				col = {
-					255,
+					0,
 					255,
 					0,
 				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 50749,
 				nLevel = 1,
+				szNote = "鲸吞",
+				col = {
+					0,
+					255,
+					255,
+				},
 			},
 		},
 	},
@@ -1977,7 +2200,7 @@ return {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1741529949,
+		nTimeStamp = 1784826914,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
