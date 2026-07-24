@@ -1,0 +1,957 @@
+return {
+	BUFF = {
+		[789] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 33199,
+				szName = "独木桥",
+				szNote = "过独木桥",
+				nIcon = 7621,
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "吃药",
+				[1] = {
+					bBuffList = true,
+				},
+				dwID = 33598,
+				szNote = "玩家疗伤_吃药",
+				nIcon = 7632,
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				nIcon = 533,
+				szName = "运气",
+				dwID = 33599,
+				szNote = "玩家疗伤_运气",
+				[1] = {
+					bBuffList = true,
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "右翻",
+				dwID = 33809,
+				szNote = "右翻滚限制",
+				nIcon = 4234,
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "左翻",
+				nIcon = 4236,
+				szNote = "左翻滚限制",
+				dwID = 33271,
+			},
+		},
+	},
+	CHAT = {},
+	CASTING = {
+		[789] = {
+			{
+				nLevel = 1,
+				dwID = 44571,
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "唐戈瑶",
+						nTime = "6,百里追魂·下一个;8,百里追魂·快移动",
+						szName = "百里追魂·下一个",
+						nRefresh = 0,
+						nIcon = 9552,
+					},
+				},
+				szNote = "百里追魂",
+				nIcon = 9552,
+			},
+			{
+				nLevel = 1,
+				dwID = 45051,
+				tCountdown = {
+					{
+						nClass = 8,
+						key = "唐戈瑶",
+						nTime = "2,百里追魂·快移动;15.4,百里追魂·下一个",
+						szName = "百里追魂·下一个",
+						nRefresh = 0,
+						nIcon = 9552,
+					},
+				},
+				szNote = "百里追魂",
+				nIcon = 9552,
+			},
+			{
+				nLevel = 1,
+				[8] = {
+					szVoice = "DuoJuXing_P",
+				},
+				dwID = 45052,
+				nIcon = 3182,
+				szNote = "暴雨梨花针",
+				tCountdown = {
+					{
+						nClass = 8,
+						key = "唐戈瑶",
+						nTime = "2,暴雨梨花针·正在运功;11.4,百里追魂·下一个;13.4,百里追魂·快移动;15.4,暴雨梨花针·下一个",
+						szName = "百里追魂·下一个",
+						nRefresh = 15,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 8,
+						key = "唐戈瑶",
+						nTime = "0.5,百里追魂·快移动;1.1,百里追魂·下一个;1.6,百里追魂·快移动;2.2,百里追魂·下一个",
+						szName = "百里追魂·下一个",
+						nRefresh = 2,
+						nIcon = 9552,
+					},
+				},
+				dwID = 45158,
+				nIcon = 9552,
+				szNote = "百里追魂",
+			},
+		},
+	},
+	TALK = {
+		[789] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "唐戈瑶",
+						nTime = -2,
+						szName = "唐戈瑶",
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "唐戈瑶",
+						nTime = 7.5,
+						szName = "回中间·找唐简·躲毒剎",
+						nRefresh = 6,
+						nIcon = 13,
+					},
+				},
+				szContent = "前辈，快到这边来！",
+				[14] = {
+					szVoice = "BaoTuan_T_sp4",
+					bCenterAlarm = true,
+				},
+				szTarget = "唐简",
+				szNote = "回中间·找唐简·躲毒剎",
+			},
+		},
+	},
+	NPC = {
+		[789] = {
+			{
+				nFrame = 69,
+				aFocus = {
+					{
+						szDisplay = "传送·竹笋",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "竹笋",
+				dwID = 137521,
+			},
+			{
+				nFrame = 52,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "扔藤蔓",
+				dwID = 137422,
+			},
+			{
+				nFrame = 52,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "攀爬",
+				dwID = 137424,
+			},
+			{
+				nFrame = 52,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "攀爬",
+				dwID = 137423,
+			},
+			{
+				nFrame = 52,
+				aFocus = {
+					{
+						szDisplay = "连弩",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "连弩",
+				dwID = 136926,
+			},
+			{
+				nFrame = 52,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "重弩",
+				dwID = 136927,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "唐门刺客",
+				dwID = 136614,
+			},
+			{
+				nFrame = 52,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 4.8,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "毒剎",
+				dwID = 136928,
+			},
+			{
+				nFrame = 52,
+				szName = "烟雾",
+				szNote = "烟雾",
+				dwID = 136925,
+			},
+			{
+				nFrame = 47,
+				dwID = 136413,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = "<",
+							nValue = 98,
+							bEnable = true,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "唐戈瑶",
+				tCountdown = {
+					{
+						nClass = 7,
+						key = "唐戈瑶",
+						nTime = 0.001,
+						szName = "唐戈瑶",
+						nFrame = -1,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "唐时渊",
+				dwID = 136412,
+			},
+			{
+				nFrame = 52,
+				aFocus = {
+					{
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "寻找柴火",
+				dwID = 137417,
+			},
+			{
+				nFrame = 52,
+				aFocus = {
+					{
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "破木门",
+				dwID = 137394,
+			},
+			{
+				nFrame = 52,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "木柴",
+				dwID = 137411,
+			},
+			{
+				nFrame = 52,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "木柴",
+				dwID = 137412,
+			},
+			{
+				nFrame = 52,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "添柴",
+				dwID = 137419,
+			},
+			{
+				nFrame = 52,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "坐下",
+				dwID = 137418,
+			},
+			{
+				nFrame = 47,
+				dwID = 136823,
+				aFocus = {
+					{
+						szDisplay = "箭雨",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 3,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "箭雨",
+				szName = "箭雨",
+			},
+			{
+				nFrame = 52,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "火弹",
+				dwID = 136809,
+			},
+			{
+				nFrame = 52,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 3,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "刺客尸体",
+				dwID = 137420,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "探查",
+				dwID = 137399,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "石堆",
+				dwID = 136852,
+			},
+			{
+				nFrame = 52,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "落座",
+				dwID = 137421,
+			},
+			{
+				nFrame = 47,
+				dwID = 136604,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "梁翠玉",
+			},
+		},
+	},
+	DEBUFF = {
+		[789] = {
+			{
+				{
+					bBuffList = true,
+				},
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "QTE·按1",
+						nTime = 2,
+						szName = "QTE·按1",
+						nIcon = 27425,
+					},
+					{
+						nClass = 2,
+						key = "QTE·按1",
+						nTime = 0,
+						szName = "QTE·按1",
+						nIcon = 27425,
+					},
+				},
+				nScrutinyType = 1,
+				dwID = 33200,
+				nLevel = 1,
+				szNote = "踉跄",
+				szName = "按1",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nIcon = 309,
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 32916,
+				nLevel = 1,
+				szNote = "玩家拉绳子",
+				szName = "拉绳子",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 33698,
+				nIcon = 27430,
+				szNote = "玩家开始拉绳子",
+				szName = "使劲拉",
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "战斗",
+				dwID = 33797,
+				nIcon = 13,
+				szNote = "唐戈瑶战斗范围",
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "唐戈瑶",
+						nTime = -2,
+						szName = "唐戈瑶·剧情",
+						nIcon = 13,
+					},
+					{
+						nClass = 1,
+						key = "唐戈瑶",
+						nTime = 15,
+						szName = "唐戈瑶·剧情",
+						nIcon = 13,
+					},
+					{
+						nClass = 2,
+						key = "唐戈瑶",
+						nTime = -1,
+						szName = "唐戈瑶",
+						nRefresh = 30,
+						nIcon = 13,
+					},
+				},
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1784906718,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[789] = {
+			{
+				[17] = {
+					szVoice = "DuoQuan_T",
+				},
+				dwID = 6799,
+				aFocus = {
+					{
+						szDisplay = "百里追魂",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 2,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "百里追魂",
+				szName = "百里追魂",
+			},
+		},
+	},
+}
