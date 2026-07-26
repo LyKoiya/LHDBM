@@ -1,5 +1,19 @@
 return {
-	BUFF = {},
+	BUFF = {
+		[790] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 33353,
+				szName = "备战",
+				szNote = "扬刀大会战斗准备",
+				nIcon = 3448,
+			},
+		},
+	},
 	CHAT = {
 		[790] = {
 			{
@@ -59,15 +73,55 @@ return {
 					{
 						nClass = 14,
 						key = "战斗开始",
-						nTime = "60,战斗·结束剩余;62,战斗·已经结束",
+						nTime = "60,双方气血·大量流失;62,战斗·已经结束",
 						szName = "气血·大量流失",
-						nRefresh = 0,
+						nRefresh = 1,
 						nIcon = 13,
 						nFrame = 1,
 					},
 				},
 				szNote = "双方气血·大量流失·速战速决",
 				szContent = "连战不休，气势渐衰，攻守双方气血大量流失中，请速战速决！",
+				col = {
+					255,
+					153,
+					204,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 1,
+						key = "战斗开始",
+						nTime = "60,双方气血·中量流失;120,双方气血·大量流失;122,战斗·已经结束",
+						szName = "气血·大量流失",
+						nRefresh = 1,
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "连战不休，气势渐衰，攻守双方气血持续流失中，请速战速决！",
+				szNote = "双方气血·中量流失·速战速决",
+				col = {
+					255,
+					153,
+					204,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 1,
+						key = "战斗开始",
+						nTime = "60,双方气血·少量流失;120,双方气血·中量流失;180,双方气血·大量流失;182,战斗·已经结束",
+						szName = "气血·大量流失",
+						nRefresh = 1,
+						nClass = 14,
+						nIcon = 13,
+					},
+				},
+				szNote = "双方气血·少量流失·速战速决",
+				szContent = "连战不休，气势渐衰，攻守双方气血开始流失，请速战速决！",
 				col = {
 					255,
 					153,
@@ -202,6 +256,15 @@ return {
 				szNote = "势颓",
 				[1] = {
 					bBuffList = true,
+				},
+				tCountdown = {
+					{
+						key = "战斗开始",
+						nTime = 0.001,
+						szName = "战斗开始",
+						nIcon = 13,
+						nClass = 2,
+					},
 				},
 			},
 		},

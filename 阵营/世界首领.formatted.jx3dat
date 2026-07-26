@@ -1,0 +1,777 @@
+return {
+	BUFF = {},
+	CHAT = {
+		[697] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 8,
+						key = "{$2}",
+						nTime = 5,
+						szName = "{$1}·{$2}·已败退",
+						nRefresh = 1,
+						nIcon = 13,
+						nClass = 20,
+					},
+				},
+				bReg = true,
+				szContent = "^在众人齐心猛攻下，%[(.-)%]的世界首领“(.-)”已力竭败退！",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "拍卖分红",
+						nTime = -2,
+						szName = "拍卖分红",
+						nClass = 20,
+					},
+					{
+						nFrame = 1,
+						key = "拍卖分红",
+						nTime = 10,
+						szName = "世界首领·拾取战利品",
+						nRefresh = 7200,
+						nIcon = 13547,
+						nClass = 20,
+					},
+				},
+				szContent = "恭喜获得战利品。保家卫国，望侠士再接再厉！\
+",
+			},
+		},
+	},
+	CASTING = {},
+	TALK = {},
+	NPC = {
+		[697] = {
+			{
+				dwID = 46766,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "95世界首领·韩非池",
+				nFrame = 47,
+			},
+			{
+				dwID = 46402,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "95世界首领·剑圣",
+				nFrame = 47,
+			},
+			{
+				dwID = 46788,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "95世界首领·森九岚",
+				nFrame = 47,
+			},
+			{
+				dwID = 46792,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "95世界首领·李璘",
+				nFrame = 47,
+			},
+			{
+				dwID = 56922,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "95世界首领·月弄痕",
+				nFrame = 47,
+			},
+			{
+				dwID = 57110,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "95世界首领·独孤修",
+				nFrame = 47,
+			},
+			{
+				dwID = 57101,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "95世界首领·冰盔龙甲",
+				nFrame = 47,
+			},
+			{
+				dwID = 57100,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "95世界首领·柳哲",
+				nFrame = 47,
+			},
+			{
+				dwID = 62110,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "100世界首领·炎晖",
+				nFrame = 47,
+			},
+			{
+				dwID = 62770,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "100世界首领·月泉淮",
+				nFrame = 47,
+			},
+			{
+				dwID = 62714,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "100世界首领·铁黎",
+				nFrame = 47,
+			},
+			{
+				dwID = 62133,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "100世界首领·韩清芒",
+				nFrame = 47,
+			},
+			{
+				dwID = 67307,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "100世界首领·阿基修斯",
+				nFrame = 47,
+			},
+			{
+				dwID = 67310,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "100世界首领·阿基修斯",
+				nFrame = 47,
+			},
+			{
+				dwID = 66980,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "100世界首领·鬼影夜叉丸",
+				nFrame = 47,
+			},
+			{
+				dwID = 100506,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "110世界首领·宗朗",
+				nFrame = 47,
+			},
+			{
+				dwID = 100817,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "110世界首领·土行孙",
+				nFrame = 47,
+			},
+			{
+				dwID = 100818,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "110世界首领·土行孙",
+				nFrame = 47,
+			},
+			{
+				dwID = 100574,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "110世界首领·桑乔",
+				nFrame = 47,
+			},
+			{
+				dwID = 100509,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "110世界首领·唐阙",
+				nFrame = 47,
+			},
+			{
+				dwID = 105868,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "110世界首领·蚀毒巨尸",
+				nFrame = 47,
+			},
+			{
+				dwID = 105869,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "110世界首领·蚀毒巨尸",
+				nFrame = 47,
+			},
+			{
+				dwID = 110275,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "120世界首领·白非人",
+				nFrame = 47,
+			},
+			{
+				dwID = 110281,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "120世界首领·白非人",
+				nFrame = 47,
+			},
+			{
+				dwID = 110353,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "120世界首领·岑伤",
+				nFrame = 47,
+			},
+			{
+				dwID = 110403,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "120世界首领·岑伤",
+				nFrame = 47,
+			},
+			{
+				dwID = 110184,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "120世界首领·龙一荡",
+				nFrame = 47,
+			},
+			{
+				dwID = 110450,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "120世界首领·尤珈罗摩",
+				nFrame = 47,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 5,
+						key = "秽血勇虫",
+						nTime = 0,
+						szName = "",
+						nClass = 11,
+						nIcon = 13,
+					},
+				},
+				dwID = 110629,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "120世界首领·尤珈罗摩",
+				nFrame = 47,
+			},
+			{
+				dwID = 128464,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "100世界首领·阿基修斯",
+				nFrame = 47,
+			},
+		},
+	},
+	DEBUFF = {
+		[697] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 0,
+						key = "拍卖分红",
+						nTime = 20,
+						szName = "拍卖分红·已获得",
+						nRefresh = 7200,
+						nIcon = 13547,
+						nClass = 1,
+					},
+				},
+				nScrutinyType = 1,
+				dwID = 25893,
+				szNote = "拍卖分红·周一",
+				nLevel = 1,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 0,
+						key = "拍卖分红",
+						nTime = 20,
+						szName = "拍卖分红·已获得",
+						nRefresh = 7200,
+						nIcon = 13547,
+						nClass = 1,
+					},
+				},
+				nScrutinyType = 1,
+				dwID = 25894,
+				szNote = "拍卖分红·周三",
+				nLevel = 1,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 0,
+						key = "拍卖分红",
+						nTime = 20,
+						szName = "拍卖分红·已获得",
+						nRefresh = 7200,
+						nIcon = 13547,
+						nClass = 1,
+					},
+				},
+				nScrutinyType = 1,
+				dwID = 25895,
+				szNote = "拍卖分红·周五",
+				nLevel = 1,
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1785258822,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[697] = {
+			{
+				dwID = 4255,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "首领的战利品",
+			},
+		},
+	},
+}

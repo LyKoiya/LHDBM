@@ -1,0 +1,2305 @@
+return {
+	BUFF = {},
+	CHAT = {
+		[-7] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 16565,
+						key = "方士提示1",
+						nTime = 15,
+						szName = "方士·扬州|五毒|明教",
+						nFrame = 5,
+						nClass = 20,
+					},
+					{
+						nIcon = 16565,
+						key = "方士提示2",
+						nTime = 15,
+						szName = "方士·苍云|天策战乱",
+						nFrame = 5,
+						nClass = 20,
+					},
+				},
+				szContent = "南宫麒：随着暮色降临，扬州、五毒、明教、苍云、战乱天策魂虚场景中的魂灵变得活跃起来，各位方士不妨出魂一探究竟，说不定有意外收获！\
+",
+				szNote = "方士活动·已经开启",
+				col = {
+					100,
+					255,
+					255,
+				},
+			},
+		},
+		[-21] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 16565,
+						key = "方士提示1",
+						nTime = 15,
+						szName = "方士·扬州|五毒|明教",
+						nFrame = 5,
+						nClass = 20,
+					},
+					{
+						nIcon = 16565,
+						key = "方士提示2",
+						nTime = 15,
+						szName = "方士·苍云|天策战乱",
+						nFrame = 5,
+						nClass = 20,
+					},
+				},
+				szContent = "南宫麒：随着暮色降临，扬州、五毒、明教、苍云、战乱天策魂虚场景中的魂灵变得活跃起来，各位方士不妨出魂一探究竟，说不定有意外收获！\
+",
+				szNote = "方士活动·已经开启",
+				col = {
+					100,
+					255,
+					255,
+				},
+			},
+		},
+		[-2] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 16565,
+						key = "方士提示1",
+						nTime = 15,
+						szName = "方士·扬州|五毒|明教",
+						nFrame = 5,
+						nClass = 20,
+					},
+					{
+						nIcon = 16565,
+						key = "方士提示2",
+						nTime = 15,
+						szName = "方士·苍云|天策战乱",
+						nFrame = 5,
+						nClass = 20,
+					},
+				},
+				szContent = "南宫麒：随着暮色降临，扬州、五毒、明教、苍云、战乱天策魂虚场景中的魂灵变得活跃起来，各位方士不妨出魂一探究竟，说不定有意外收获！\
+",
+				szNote = "方士活动·已经开启",
+				col = {
+					100,
+					255,
+					255,
+				},
+			},
+		},
+	},
+	CASTING = {},
+	TALK = {
+		[-1] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "挖宝·方士",
+						nTime = 60,
+						szName = "方士寻宝·魂灵宝物",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "你在探寻魂墟宝物时不小心惊动了魂墟看守宝物的魂灵！",
+				szNote = "方士寻宝·魂灵宝物",
+				[14] = {
+					bCenterAlarm = true,
+				},
+			},
+		},
+		[150] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "任务提示1",
+						nTime = 60,
+						szName = "对话·赫连别月·前往地图左下角",
+						nClass = 14,
+						nIcon = 13,
+					},
+				},
+				szContent = "老伯似乎还有事相求。",
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "任务提示1",
+						nTime = 60,
+						szName = "返回·赫连别月·家里·继续对话",
+						nClass = 14,
+						nIcon = 13,
+					},
+				},
+				szContent = "老伯似乎心神不宁，回家里陪他一下吧。",
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "任务提示1",
+						nTime = 20,
+						szName = "等等看·赫连鹰扬·是否回家",
+						nClass = 14,
+						nIcon = 13,
+					},
+				},
+				szContent = "谢谢你吉言。",
+				szTarget = "赫连别月",
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "任务提示1",
+						nTime = 10,
+						szName = "赫连鹰扬·回家了",
+						nClass = 14,
+						nIcon = 13,
+					},
+				},
+				szContent = "我，回来了。",
+				szTarget = "赫连鹰扬",
+			},
+		},
+	},
+	NPC = {
+		[6] = {
+			{
+				nFrame = 67,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 52458,
+				aFocus = {
+					{
+						szDisplay = "隐藏任务·方士2级",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 60,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 53009,
+				aFocus = {
+					{
+						szDisplay = "隐藏任务·方士2级",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 60,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 52314,
+				aFocus = {
+					{
+						szDisplay = "隐藏任务·方士2级",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 60,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				nFrame = 67,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 52261,
+				col = {
+					255,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 67,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 52238,
+				col = {
+					255,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 52307,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 52310,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 52354,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 54638,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 52393,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 52350,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 52352,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 54642,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 54641,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 52316,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+		},
+		[158] = {
+			{
+				nFrame = 67,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 55303,
+				aFocus = {
+					{
+						szDisplay = "隐藏任务·方士5级",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "石疑",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					0,
+					255,
+					225,
+				},
+				dwID = 55308,
+				aFocus = {
+					{
+						szDisplay = "隐藏任务",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "墨老丁",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 53325,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "小孩",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 53227,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "哭泣的小孩",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 53328,
+				aFocus = {
+					{
+						szDisplay = "小姨",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "少妇",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 53411,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "阿信",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 53022,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "周敬中",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 55092,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "赫连宏深",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 55097,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "糜元纬",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 53445,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "黄锦寿",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 55088,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "暴涵忍",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 55091,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "元嘉言",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 53446,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "小茉莉",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+		},
+		[150] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 3,
+						tLife = {
+							szOperator = "<",
+							nValue = 100,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				dwID = 50870,
+				nFrame = 67,
+			},
+			{
+				nFrame = 67,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 52511,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 54963,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 54929,
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 52999,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 52988,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 52661,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 52647,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 52592,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 52766,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 52650,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+		},
+		[647] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{},
+				},
+				dwID = 125813,
+				nFrame = 67,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{},
+				},
+				dwID = 124026,
+				nFrame = 67,
+			},
+		},
+		[102] = {
+			{
+				dwID = 52726,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				nFrame = 67,
+			},
+			{
+				dwID = 53052,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				nFrame = 67,
+			},
+			{
+				dwID = 55304,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				nFrame = 67,
+			},
+			{
+				dwID = 55305,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				nFrame = 67,
+			},
+			{
+				dwID = 55306,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				nFrame = 67,
+			},
+			{
+				dwID = 55307,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				nFrame = 67,
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 55239,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 55243,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 55254,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 55255,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+		},
+		[-1] = {
+			{
+				nFrame = 47,
+				szName = "藏宝堆",
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 52295,
+				aFocus = {
+					{
+						szDisplay = "藏宝堆",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "方士寻宝·藏宝堆",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 52940,
+				aFocus = {
+					{
+						szDisplay = "浑浑噩噩的魂灵",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "浑浑噩噩的魂灵",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				dwID = 51501,
+				aFocus = {
+					{
+						szDisplay = "阴阳之力",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "阴阳之力",
+				nFrame = 67,
+			},
+		},
+		[193] = {
+			{
+				dwID = 53367,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				nFrame = 67,
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 55189,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 55183,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 55180,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 55181,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 55165,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 55163,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 67,
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 55162,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+		},
+	},
+	DEBUFF = {
+		[-1] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 7,
+						key = "福德齐天·封印",
+						nTime = 10,
+						szName = "成就·福德齐天·CD消除",
+						nClass = 2,
+						nIcon = 4606,
+					},
+				},
+				[2] = {
+					bCenterAlarm = true,
+				},
+				nIcon = 4606,
+				szName = "缘灭",
+				dwID = 11486,
+				nLevel = 1,
+				szNote = "福德齐天·CD",
+				nScrutinyType = 1,
+			},
+		},
+		[-5] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "缘灭",
+				nIcon = 4606,
+				szNote = "福德齐天·CD",
+				dwID = 11486,
+			},
+		},
+		[150] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nIcon = 10208,
+				nScrutinyType = 1,
+				dwID = 11438,
+				nLevel = 1,
+				szNote = "方士_念红尘",
+				szName = "念红尘",
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 7,
+						key = "福德齐天·封印",
+						nTime = 10,
+						szName = "成就·福德齐天·CD消除",
+						nClass = 2,
+						nIcon = 4606,
+					},
+					{
+						nFrame = 7,
+						key = "福德齐天·封印",
+						nTime = 10,
+						szName = "成就·福德齐天·CD·18小时",
+						nRefresh = 600,
+						nClass = 1,
+						nIcon = 4606,
+					},
+				},
+				[2] = {
+					bCenterAlarm = true,
+				},
+				nIcon = 4606,
+				szName = "缘灭",
+				dwID = 11486,
+				nLevel = 1,
+				szNote = "福德齐天·CD",
+				nScrutinyType = 1,
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1785243373,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[102] = {
+			{
+				dwID = 6376,
+				aFocus = {
+					{
+						szDisplay = "隐藏任务·方士3级",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "奇怪的土堆",
+			},
+		},
+	},
+}

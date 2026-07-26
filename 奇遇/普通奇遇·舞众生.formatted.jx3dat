@@ -352,7 +352,26 @@ return {
 			},
 		},
 	},
-	DEBUFF = {},
+	DEBUFF = {
+		[-6] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nIcon = 12849,
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					100,
+				},
+				szName = "舞众生",
+				dwID = 16791,
+				szNote = "舞众生",
+				nLevel = 1,
+			}
+		},
+	},
 	__meta = {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",

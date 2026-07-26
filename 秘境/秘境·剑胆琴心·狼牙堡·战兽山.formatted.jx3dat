@@ -1,0 +1,239 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[283] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "剧情提示",
+						nTime = 37,
+						szName = "剧情·也漠河",
+						nIcon = 13,
+					},
+				},
+				szTarget = "也漠河",
+				szContent = "哈哈哈哈！",
+			},
+		},
+		[286] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "剧情提示",
+						nTime = 37,
+						szName = "也漠河·剧情剩余",
+						nIcon = 13,
+					},
+				},
+				szTarget = "也漠河",
+				szContent = "哈哈哈哈！",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "剧情提示",
+						nTime = 81,
+						szName = "唐书雁·剧情剩余",
+						nIcon = 13,
+					},
+				},
+				szContent = "一切都太迟了。",
+				szTarget = "乌蒙贵",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "剧情提示",
+						nTime = 9,
+						szName = "唐书雁·剧情剩余",
+						nIcon = 13,
+					},
+				},
+				szContent = "大家来我这里取药，此药可压制唐姑娘体内尸毒！",
+				szTarget = "曲云",
+			},
+		},
+	},
+	NPC = {
+		[286] = {
+			{
+				nFrame = 65,
+				dwID = 58412,
+				aFocus = {
+					{
+						szDisplay = "蝴蝶·化羽",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 4,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "蝴蝶",
+				szName = "蝴蝶",
+			},
+			{
+				nFrame = 47,
+				dwID = 128791,
+				szNote = "功能通用NPC",
+				szName = "传送",
+			},
+			{
+				nFrame = 47,
+				dwID = 58525,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "狼牙密令使",
+			},
+		},
+	},
+	DEBUFF = {
+		[286] = {
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				nLevel = 1,
+				col = {
+					170,
+					170,
+					170,
+				},
+				dwID = 12216,
+				aCataclysmBuff = {
+					{
+						bAttention = false,
+						szReminder = "疗",
+						nColAlpha = 255,
+						nPriority = 29,
+						col = "#AAAAAAFF",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 2,
+				col = {
+					206,
+					85,
+					223,
+				},
+				dwID = 12211,
+				tCountdown = {
+					{
+						nClass = 2,
+						key = "瘴气",
+						nTime = 0,
+						szName = "瘴气·{$receiver}",
+						nIcon = 2036,
+					},
+					{
+						nClass = 1,
+						key = "瘴气",
+						nTime = 5,
+						szName = "驱散·{$receiver}··瘴气",
+						nIcon = 2036,
+					},
+				},
+				szNote = "会损失35%气血",
+				aCataclysmBuff = {
+					{
+						szReminder = "瘴",
+						col = "#CE55FDFF",
+						nColAlpha = 255,
+						bAttention = true,
+					},
+				},
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1785055586,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[286] = {
+			{
+				dwID = 6920,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "黯淡的神兵",
+			},
+			{
+				dwID = 6675,
+				aFocus = {},
+				szNote = "蔓藤位置标识",
+			},
+		},
+	},
+}

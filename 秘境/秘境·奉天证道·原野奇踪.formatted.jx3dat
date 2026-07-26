@@ -1,0 +1,896 @@
+return {
+	BUFF = {},
+	CHAT = {
+		[567] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 0,
+						key = "道具提示",
+						nTime = 10,
+						szName = "[{$1}]·获得·{$2}",
+						nClass = 20,
+						nIcon = 15627,
+					},
+				},
+				szContent = "%[(.-)%]获得了道具%[(.-)%]",
+				bReg = true,
+				szNote = "[{$1}]·获得·{$2}",
+				[20] = {
+					bCenterAlarm = true,
+				},
+			},
+		},
+	},
+	CASTING = {
+		[567] = {
+			{
+				nLevel = 1,
+				[8] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 28096,
+				szNote = "震击",
+				tCountdown = {
+					{
+						nFrame = 2,
+						key = "打断提示",
+						nTime = 1.5,
+						szName = "震击·快打断",
+						nClass = 8,
+						nIcon = 13,
+					},
+					{
+						nIcon = 13,
+						key = "打断提示",
+						nTime = 0,
+						szName = "打断提示",
+						nClass = 9,
+					},
+				},
+			},
+			{
+				dwID = 28097,
+				[9] = {
+					bCenterAlarm = true,
+				},
+				szNote = "屹立不倒",
+				nLevel = 1,
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				dwID = 28095,
+				szNote = "荧彩菌",
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "荧彩菌",
+						nTime = 10,
+						szName = "荧彩菌·[{$sender}]→{$receiver}",
+						nClass = 9,
+						nIcon = 14713,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				dwID = 28086,
+				szNote = "西瓜",
+				tCountdown = {
+					{
+						nIcon = 4950,
+						key = "P·{$sender}",
+						nTime = 5,
+						szName = "[{$sender}]·西瓜",
+						nClass = 9,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				dwID = 28087,
+				szNote = "南瓜",
+				tCountdown = {
+					{
+						nIcon = 6893,
+						key = "P·{$sender}",
+						nTime = 5,
+						szName = "[{$sender}]·南瓜",
+						nClass = 9,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				dwID = 28085,
+				szNote = "歌朵兰漠仙人掌",
+				tCountdown = {
+					{
+						nIcon = 4464,
+						key = "P·{$sender}",
+						nTime = 5,
+						szName = "[{$sender}]·仙人掌",
+						nClass = 9,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 2,
+				dwID = 28090,
+				szNote = "野蕈晴雨盖·染",
+				tCountdown = {
+					{
+						nIcon = 13083,
+						key = "P·{$sender}",
+						nTime = 5,
+						szName = "[{$sender}]·野蕈晴雨盖",
+						nClass = 9,
+					},
+				},
+			},
+		},
+	},
+	TALK = {
+		[567] = {
+			{
+				szContent = "队长放弃了游戏，可以在接引人处重新开始",
+				tCountdown = {
+					{
+						nFrame = 2,
+						key = "原野奇踪",
+						nTime = 10,
+						szName = "队长·放弃了游戏",
+						nClass = 14,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				szContent = "队长开始了游戏，已清空侠士背包，重新派发芒令。三十秒后游戏开始，请做好准备",
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "原野奇踪",
+						nTime = 30,
+						szName = "游戏重新开启·请准备",
+						nClass = 14,
+					},
+				},
+			},
+			{
+				szContent = "队长开始了游戏，三十秒后游戏开始，请做好准备",
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "原野奇踪",
+						nTime = 30,
+						szName = "游戏已开启·请准备",
+						nClass = 14,
+					},
+				},
+			},
+			{
+				szContent = "已完成本波守护，下一波将提前开始",
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "原野奇踪",
+						nTime = 5,
+						szName = "提前开始",
+						nClass = 14,
+					},
+				},
+			},
+			{
+				szContent = "满员守护宝物，获得最高档奖励！",
+				tCountdown = {
+					{
+						nFrame = 2,
+						key = "原野奇踪",
+						nTime = 10,
+						szName = "获得最高档奖励",
+						nClass = 14,
+						nIcon = 13,
+					},
+					{
+						nFrame = 2,
+						key = "原野奇踪2",
+						nTime = 10,
+						szName = "记得拾取奖励！！！",
+						nClass = 14,
+						nIcon = 13,
+					},
+					{
+						nFrame = 2,
+						key = "原野奇踪3",
+						nTime = 10,
+						szName = "记得拾取奖励！！！",
+						nClass = 14,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				szContent = "不满员守护宝物，获得普通奖励！",
+				tCountdown = {
+					{
+						nFrame = 2,
+						key = "原野奇踪",
+						nTime = 10,
+						szName = "获得普通档奖励",
+						nClass = 14,
+						nIcon = 13,
+					},
+					{
+						nFrame = 2,
+						key = "原野奇踪2",
+						nTime = 10,
+						szName = "记得拾取奖励！！！",
+						nClass = 14,
+						nIcon = 13,
+					},
+					{
+						nFrame = 2,
+						key = "原野奇踪3",
+						nTime = 10,
+						szName = "记得拾取奖励！！！",
+						nClass = 14,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				szContent = "领取的奖励已经放入少侠背包，请注意查看！",
+				tCountdown = {
+					{
+						nFrame = 2,
+						key = "原野奇踪2",
+						nTime = 10,
+						szName = "记得拾取奖励！！！",
+						nClass = 14,
+						nIcon = 13,
+					},
+					{
+						nFrame = 2,
+						key = "原野奇踪3",
+						nTime = 10,
+						szName = "记得拾取奖励！！！",
+						nClass = 14,
+						nIcon = 13,
+					},
+				},
+			},
+		},
+	},
+	NPC = {
+		[567] = {
+			{
+				nFrame = 57,
+				[3] = {
+					tMark = {
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						true,
+					},
+					bScreenHead = true,
+				},
+				dwID = 106038,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = true,
+						},
+						nMaxDistance = 0,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "狂暴的猿猴",
+				col = {
+					255,
+					50,
+					255,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					tMark = {
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						true,
+						true,
+						false,
+					},
+					bScreenHead = true,
+				},
+				dwID = 106036,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = true,
+						},
+						nMaxDistance = 60,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "蝴蝶群",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					tMark = {
+						false,
+						false,
+						false,
+						false,
+						false,
+						true,
+						true,
+						false,
+						false,
+						false,
+					},
+					bScreenHead = true,
+				},
+				dwID = 106037,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = true,
+						},
+						nMaxDistance = 60,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "鹰",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					tMark = {
+						false,
+						true,
+						true,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+					},
+					bScreenHead = true,
+				},
+				dwID = 106033,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = true,
+						},
+						nMaxDistance = 60,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "鳄龟",
+				col = {
+					255,
+					255,
+					100,
+				},
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = true,
+						},
+						nMaxDistance = 60,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "羚羊",
+				dwID = 106034,
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = true,
+						},
+						nMaxDistance = 60,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "兔子",
+				dwID = 106035,
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = true,
+						},
+						nMaxDistance = 60,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "小鹿",
+				dwID = 106032,
+			},
+			{
+				nFrame = 47,
+				dwID = 106824,
+				aFocus = {
+					{
+						szDisplay = "奖励·低级",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 60,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "盗宝贼掉落3",
+				tCountdown = {
+					{
+						nFrame = 2,
+						key = "原野奇踪2",
+						nTime = 10,
+						szName = "记得拾取奖励！！！",
+						nClass = 3,
+						nIcon = 13,
+					},
+					{
+						nFrame = 2,
+						key = "原野奇踪3",
+						nTime = 10,
+						szName = "记得拾取奖励！！！",
+						nClass = 3,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				nFrame = 47,
+				dwID = 106813,
+				aFocus = {
+					{
+						szDisplay = "奖励·中级",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 60,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "盗宝贼掉落2",
+				tCountdown = {
+					{
+						nFrame = 2,
+						key = "原野奇踪2",
+						nTime = 10,
+						szName = "记得拾取奖励！！！",
+						nClass = 3,
+						nIcon = 13,
+					},
+					{
+						nFrame = 2,
+						key = "原野奇踪3",
+						nTime = 10,
+						szName = "记得拾取奖励！！！",
+						nClass = 3,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				nFrame = 47,
+				dwID = 106812,
+				aFocus = {
+					{
+						szDisplay = "奖励·高级",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 60,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "盗宝贼掉落1",
+				tCountdown = {
+					{
+						nFrame = 2,
+						key = "原野奇踪2",
+						nTime = 10,
+						szName = "记得拾取奖励！！！",
+						nClass = 3,
+						nIcon = 13,
+					},
+					{
+						nFrame = 2,
+						key = "原野奇踪3",
+						nTime = 10,
+						szName = "记得拾取奖励！！！",
+						nClass = 3,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				nFrame = 47,
+				dwID = 106418,
+				aFocus = {
+					{
+						szDisplay = "池生萤灯草",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 6,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "池生萤灯草",
+				szName = "池生萤灯草",
+			},
+			{
+				nFrame = 47,
+				dwID = 106419,
+				aFocus = {
+					{
+						szDisplay = "野蕈晴雨盖·染",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 6,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "野蕈晴雨盖·染",
+				szName = "野蕈晴雨盖·染",
+			},
+			{
+				nFrame = 47,
+				dwID = 106422,
+				aFocus = {
+					{
+						szDisplay = "南瓜",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 10,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "南瓜",
+				szName = "南瓜",
+			},
+			{
+				nFrame = 47,
+				dwID = 106421,
+				aFocus = {
+					{
+						szDisplay = "西瓜",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 10,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "西瓜",
+				szName = "西瓜",
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 20,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "念",
+				dwID = 106420,
+			},
+			{
+				nFrame = 47,
+				dwID = 107361,
+				aFocus = {
+					{
+						szDisplay = "荧彩菌",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 10,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "荧彩菌",
+				szName = "荧彩菌",
+			},
+		},
+	},
+	DEBUFF = {
+		[567] = {
+			{
+				{
+					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 2,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 20333,
+				aCataclysmBuff = {},
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1785257468,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}

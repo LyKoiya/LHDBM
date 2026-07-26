@@ -1,0 +1,462 @@
+return {
+	BUFF = {
+		[-7] = {
+			{
+				{
+					bTeamPanel = true,
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 2,
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 10852,
+				szNote = "绿林·陷阱·无影无踪",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#FFCC00",
+						bAttention = true,
+						nPriority = 1,
+						szReminder = "隐",
+						nColAlpha = 255,
+						col = "#FFCC00FF",
+					},
+				},
+			},
+		},
+	},
+	CHAT = {},
+	CASTING = {},
+	TALK = {},
+	NPC = {
+		[-7] = {
+			{
+				nFrame = 52,
+				szName = "陷阱·硝烟弥漫",
+				aFocus = {
+					{
+						szDisplay = "硝烟弥漫·绿林陷阱",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 28,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "陷阱·硝烟弥漫",
+				dwID = 51533,
+			},
+			{
+				nFrame = 52,
+				szName = "陷阱·步履蹒跚",
+				aFocus = {
+					{
+						szDisplay = "步履蹒跚·绿林陷阱",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 28,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "陷阱·步履蹒跚",
+				dwID = 51534,
+			},
+			{
+				nFrame = 52,
+				szName = "飞鸿无迹·未完成",
+				aFocus = {
+					{
+						szDisplay = "飞鸿无迹·半成品",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 1,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "陷阱·飞鸿无迹·未完",
+				dwID = 51536,
+			},
+			{
+				nFrame = 52,
+				szName = "陷阱·飞鸿无迹",
+				aFocus = {
+					{
+						szDisplay = "飞鸿无迹·绿林陷阱",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 28,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "陷阱·飞鸿无迹·已完",
+				dwID = 51538,
+			},
+			{
+				nFrame = 52,
+				szName = "陷阱·动弹不得",
+				aFocus = {
+					{
+						szDisplay = "动弹不得·绿林陷阱",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 28,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "陷阱·动弹不得",
+				dwID = 51535,
+			},
+			{
+				nFrame = 52,
+				szName = "无影无踪·未完成",
+				aFocus = {
+					{
+						szDisplay = "无影无踪·半成品",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 1,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "无影无踪·未完成",
+				dwID = 51537,
+			},
+			{
+				nFrame = 52,
+				szName = "陷阱·无影无踪",
+				aFocus = {
+					{
+						szDisplay = "无影无踪·绿林陷阱",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 28,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "陷阱·无影无踪·已完",
+				dwID = 51558,
+			},
+			{
+				dwID = 51673,
+				aFocus = {
+					{
+						szDisplay = "陷阱·无隐无踪·显现",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 28,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "陷阱·无隐无踪·显现",
+				nFrame = 52,
+			},
+			{
+				dwID = 51672,
+				aFocus = {
+					{
+						szDisplay = "陷阱·飞鸿无迹·显现",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 28,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "陷阱·飞鸿无迹·显现",
+				nFrame = 52,
+			},
+			{
+				dwID = 51671,
+				aFocus = {
+					{
+						szDisplay = "陷阱·动弹不得·显现",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 28,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "陷阱·动弹不得·显现",
+				nFrame = 52,
+			},
+			{
+				dwID = 51670,
+				aFocus = {
+					{
+						szDisplay = "陷阱·步履蹒跚·显现",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 28,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "陷阱·步履蹒跚·显现",
+				nFrame = 52,
+			},
+			{
+				nFrame = 52,
+				aFocus = {
+					{
+						szDisplay = "陷阱·硝烟弥漫·显现",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 28,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "陷阱·硝烟弥漫·显现",
+				dwID = 51669,
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				dwID = 51942,
+				aFocus = {
+					{
+						szDisplay = "阿飞·江湖绿林",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 120,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "阿飞",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+		},
+	},
+	DEBUFF = {
+		[-7] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 10962,
+				szNote = "阿飞送货",
+				tCountdown = {
+					{
+						nIcon = 115,
+						nClass = 1,
+						key = "阿飞送货",
+						nTime = "2,阿飞送货·开始;300,阿飞送货·剩余;302,阿飞送货·完成",
+						szName = "阿飞送货·开始",
+						nRefresh = 299,
+						bHold = true,
+						nFrame = 4,
+					},
+					{
+						nIcon = 115,
+						key = "阿飞送货",
+						nTime = 2,
+						szName = "阿飞送货·完成",
+						nClass = 2,
+					},
+				},
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1785241911,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}

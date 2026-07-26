@@ -384,7 +384,7 @@ return {
 				dwID = 4847,
 				aFocus = {
 					{
-						szDisplay = "",
+						szDisplay = "神秘的宝箱·重阳节",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
@@ -409,6 +409,78 @@ return {
 			},
 		},
 		[158] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 4817,
+				aFocus = {
+					{
+						szDisplay = "小香炉·上香",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "重阳节·小香炉",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 4818,
+				aFocus = {
+					{
+						szDisplay = "念祭文",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "重阳节·祭文",
+			},
+		},
+		[217] = {
 			{
 				[17] = {
 					bScreenHead = true,

@@ -1,0 +1,1578 @@
+return {
+	BUFF = {
+		[35] = {
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 3838,
+				nScrutinyType = 1,
+				nLevel = 1,
+			},
+			{
+				dwID = 3336,
+				nScrutinyType = 1,
+				nLevel = 1,
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "美人图1",
+						nTime = 0,
+						szName = "一声号令，令人拜服",
+						nIcon = 13,
+					},
+					{
+						nClass = 1,
+						key = "美人图2",
+						nTime = 0,
+						szName = "威武雄壮",
+						nIcon = 13,
+					},
+					{
+						nClass = 1,
+						key = "美人图3",
+						nTime = 0,
+						szName = "我对大将军的景仰",
+						nIcon = 13,
+					},
+					{
+						nClass = 1,
+						key = "美人图1",
+						nTime = 60,
+						szName = "快对宫威使用大将军的帅印·伪",
+						nIcon = 13,
+					},
+					{
+						nClass = 2,
+						key = "美人图1",
+						nTime = 0,
+						szName = "快对宫威使用大将军的帅印·伪",
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 3337,
+				nScrutinyType = 1,
+				nLevel = 1,
+			},
+		},
+	},
+	CHAT = {
+		[35] = {
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "美人图1",
+						nTime = 60,
+						szName = "阁下莫非是为高人",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图2",
+						nTime = 60,
+						szName = "果然是位高人",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[鼠字腰牌]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "美人图1",
+						nTime = 0,
+						szName = "阁下莫非是为高人",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图2",
+						nTime = 0,
+						szName = "果然是位高人",
+						nIcon = 13,
+					},
+				},
+				szContent = "获得【鼠字腰牌】，可以打开腰牌袋子查看。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "美人图1",
+						nTime = 0,
+						szName = "阁下莫非是为高人",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图2",
+						nTime = 0,
+						szName = "果然是位高人",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已完成了[鼠字腰牌]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "美人图1",
+						nTime = 60,
+						szName = "这位高僧好饭量",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图2",
+						nTime = 60,
+						szName = "佛爷你是否需要些吃的东西",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图3",
+						nTime = 60,
+						szName = "烧鸡烧鹅都来点",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[探贾一陀]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "美人图1",
+						nTime = 0,
+						szName = "这位高僧好饭量",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图2",
+						nTime = 0,
+						szName = "佛爷你是否需要些吃的东西",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图3",
+						nTime = 0,
+						szName = "烧鸡烧鹅都来点",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已完成了[探贾一陀]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "美人图1",
+						nTime = 60,
+						szName = "找丁老三购买·冰糖葫芦·小木人",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图2",
+						nTime = 60,
+						szName = "成就·篝火边的大厨·购买调料",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[这是交易]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "美人图1",
+						nTime = 0,
+						szName = "找丁老三购买·冰糖葫芦·小木人",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图2",
+						nTime = 0,
+						szName = "成就·篝火边的大厨·购买调料",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已完成了[这是交易]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "美人图1",
+						nTime = 60,
+						szName = "在贾一陀身后烤肉",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[获得烤肉]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "美人图1",
+						nTime = 0,
+						szName = "在贾一陀身后烤肉",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已完成了[获得烤肉]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "美人图1",
+						nTime = 60,
+						szName = "的确十分可气",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图2",
+						nTime = 60,
+						szName = "维|护军威，自然愿意",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[大嘴之怒]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "美人图1",
+						nTime = 0,
+						szName = "的确十分可气",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图2",
+						nTime = 0,
+						szName = "维护军威，自然愿意",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已完成了[大嘴之怒]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "美人图1",
+						nTime = 60,
+						szName = "一声号令，令人拜服",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图2",
+						nTime = 60,
+						szName = "威武雄壮",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图3",
+						nTime = 60,
+						szName = "我对大将军的景仰",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[虎字腰牌]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "美人图1",
+						nTime = 0,
+						szName = "一声号令，令人拜服",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图2",
+						nTime = 0,
+						szName = "威武雄壮",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图3",
+						nTime = 0,
+						szName = "我对大将军的景仰",
+						nIcon = 13,
+					},
+				},
+				szContent = "获得【虎字腰牌】，可以打开腰牌袋子查看。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "美人图1",
+						nTime = 60,
+						szName = "倾国倾城",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图2",
+						nTime = 60,
+						szName = "我愿意给你画像",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[画中美人]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "美人图1",
+						nTime = 0,
+						szName = "倾国倾城",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图2",
+						nTime = 0,
+						szName = "我愿意给你画像",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图1",
+						nTime = 60,
+						szName = "鹅蛋脸·不画雀斑",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图2",
+						nTime = 60,
+						szName = "婀娜多姿·杨柳细腰",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图3",
+						nTime = 60,
+						szName = "小脚丫·雪白",
+						nIcon = 13,
+					},
+				},
+				szContent = "画纸就放在背包里，右键点击对仇赛赛使用即可为她作画。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "美人图1",
+						nTime = 0,
+						szName = "鹅蛋脸·不画雀斑",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图2",
+						nTime = 0,
+						szName = "婀娜多姿·杨柳细腰",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图3",
+						nTime = 0,
+						szName = "小脚丫·雪白",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已完成了[画中美人]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "美人图1",
+						nTime = 60,
+						szName = "靠右边·走沿石上",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图2",
+						nTime = 60,
+						szName = "下层·到1/4时走沿石上",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[闯木人阵]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "美人图1",
+						nTime = 0,
+						szName = "靠右边·走沿石上",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图2",
+						nTime = 0,
+						szName = "下层·到一半时走沿石上",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已完成了[闯木人阵]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "美人图1",
+						nTime = 60,
+						szName = "可组队共享次数",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[寻宫大肥]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "美人图1",
+						nTime = 0,
+						szName = "可组队共享次数",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已完成了[寻宫大肥]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "美人图1",
+						nTime = 0,
+						szName = "",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图2",
+						nTime = 0,
+						szName = "",
+						nIcon = 13,
+					},
+					{
+						nClass = 20,
+						key = "美人图3",
+						nTime = 0,
+						szName = "",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已完成了[美人图]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "寻龙勘脉窥天机·开启",
+						nTime = 0,
+						szName = "寻龙勘脉·任务结束",
+						nIcon = 4975,
+					},
+				},
+				szContent = "你已完成了[寻龙勘脉窥天机]。\
+",
+			},
+		},
+	},
+	CASTING = {},
+	TALK = {
+		[35] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "寻龙勘脉窥天机·开启",
+						nTime = 10,
+						szName = "寻龙勘脉·水灵珠·破裂",
+						nIcon = 4975,
+					},
+				},
+				szTarget = "源明雅",
+				szContent = "不好，水灵珠破裂了。我的幻身很快就会消失，快去下一个地点吧。",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "寻龙勘脉窥天机·开启",
+						nTime = 10,
+						szName = "寻龙勘脉·任务完成",
+						nIcon = 4975,
+					},
+				},
+				szTarget = "源明雅",
+				szContent = "今天就到此为止吧，有劳了。",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "寻龙勘脉窥天机·开启",
+						nTime = 5,
+						szName = "寻龙勘脉·成功+1",
+						nIcon = 4975,
+					},
+				},
+				szTarget = "源明雅",
+				szContent = "竟然能打败守护灵，你的身手不错。现在去下一个地点吧。",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "寻龙勘脉窥天机·开启",
+						nTime = "6.6,食业朱猿·激活剩余;54,寻龙勘脉·结束剩余",
+						szName = "寻龙勘脉·地脉守护灵",
+						nRefresh = 0,
+						nIcon = 4975,
+					},
+				},
+				szTarget = "源明雅",
+				szContent = "不好，附近龙脉的守护灵被惊动了。",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "寻龙勘脉窥天机·开启",
+						nTime = "10,寻龙勘脉·开启;63,食业朱猿·刷新剩余;69.6,食业朱猿·激活剩余;117,寻龙勘脉·结束剩余",
+						szName = "寻龙勘脉·开启",
+						nRefresh = 0,
+						nIcon = 4975,
+					},
+				},
+				szTarget = "源明雅",
+				szContent = "我现在要使用这个水灵珠激活附近的地脉。",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "宇文画·刷新",
+						nTime = 10,
+						szName = "宇文画·已刷新",
+						nIcon = 4891,
+					},
+				},
+				szTarget = "宇文画",
+				szContent = "那个东瀛的小子你给我出来，带着人在我十二连环坞的地头上装神弄鬼，搞什么呢，弟兄们，砸了他们的场子！",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "宇文画·刷新",
+						nTime = 5,
+						szName = "宇文画·已击退",
+						nIcon = 4891,
+					},
+				},
+				szTarget = "宇文画",
+				szContent = "哼，东瀛的小子，算你们狠，弟兄们，我们撤！",
+			},
+		},
+	},
+	NPC = {
+		[35] = {
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 6464,
+				aFocus = {
+					{
+						szDisplay = "苍深·金丝马球",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "叛军头目藏异宝",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 17207,
+				aFocus = {
+					{
+						szDisplay = "冷馨兰·采仙草",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "采仙草·冷馨兰",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				dwID = 27535,
+				aFocus = {
+					{
+						szDisplay = "花灯·采仙草",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "采仙草·花灯",
+				nFrame = 47,
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 43188,
+				aFocus = {
+					{
+						szDisplay = "水灵珠·寻龙勘脉",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "水灵珠",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 43061,
+				aFocus = {
+					{
+						szDisplay = "食业朱猿·寻龙勘脉",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "食业朱猿",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 15724,
+				aFocus = {
+					{
+						szDisplay = "丁老三·美人图",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "丁老三",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 15721,
+				aFocus = {
+					{
+						szDisplay = "孟庄元·美人图",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "孟庄元",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 15725,
+				aFocus = {
+					{
+						szDisplay = "小二哥·美人图",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "小二哥",
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 15719,
+				aFocus = {
+					{
+						szDisplay = "贾一陀·美人图",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "贾一陀",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 15718,
+				aFocus = {
+					{
+						szDisplay = "裘大嘴·美人图",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "裘大嘴",
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 15713,
+				aFocus = {
+					{
+						szDisplay = "宫威·美人图",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "宫威",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 16080,
+				aFocus = {
+					{
+						szDisplay = "小梦子·美人图",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "小梦子",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 16077,
+				aFocus = {
+					{
+						szDisplay = "孟家爷爷·美人图",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "孟家爷爷",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 15930,
+				aFocus = {
+					{
+						szDisplay = "宫大肥·美人图",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "宫大肥",
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 15996,
+				aFocus = {
+					{
+						szDisplay = "张山石·美人图",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "张山石",
+			},
+			{
+				dwID = 15729,
+				aFocus = {
+					{
+						szDisplay = "宫晴·美人图",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "宫晴",
+				nFrame = 47,
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 43063,
+				aFocus = {
+					{
+						szDisplay = "宇文画·毒手催画",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "宇文画",
+			},
+			{
+				nFrame = 50,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 2440,
+				aFocus = {
+					{},
+				},
+				szNote = "七色鹿",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 3089,
+				aFocus = {
+					{
+						szDisplay = "牛车·美人图",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "牛车",
+			},
+			{
+				dwID = 5486,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "雨卓承",
+				nFrame = 47,
+			},
+			{
+				dwID = 5492,
+				aFocus = {
+					{
+						szDisplay = "张璎珞·隐藏任务",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "隐藏任务·张璎珞",
+				nFrame = 47,
+			},
+		},
+	},
+	DEBUFF = {
+		[35] = {
+			{
+				{
+					bBuffList = true,
+				},
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "采仙草·蜜蜂",
+						nTime = 10,
+						szName = "采仙草·蜜蜂·游泳躲避",
+						nIcon = 370,
+					},
+					{
+						nClass = 2,
+						key = "采仙草·蜜蜂",
+						nTime = 0,
+						szName = "采仙草·蜜蜂",
+						nIcon = 370,
+					},
+				},
+				nScrutinyType = 1,
+				dwID = 3841,
+				szNote = "蜜蜂",
+				nLevel = 1,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "采仙草·蜜蜂",
+						nTime = 2,
+						szName = "采仙草·蜜蜂·已经叮咬",
+						nIcon = 370,
+					},
+					{
+						nClass = 2,
+						key = "采仙草·蜜蜂",
+						nTime = 0,
+						szName = "采仙草·蜜蜂",
+						nIcon = 370,
+					},
+				},
+				nScrutinyType = 1,
+				dwID = 3842,
+				szNote = "蜜蜂",
+				nLevel = 1,
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				dwID = 8912,
+				nLevel = 1,
+				szNote = "黑岩重水",
+				col = {
+					255,
+					153,
+					204,
+				},
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1785406413,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[35] = {
+			{
+				dwID = 1727,
+				aFocus = {
+					{},
+				},
+				szNote = "青瓷莲花杯",
+			},
+			{
+				dwID = 3225,
+				aFocus = {
+					{
+						szDisplay = "酒壶·采仙草",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "采仙草·酒壶",
+			},
+			{
+				dwID = 3226,
+				aFocus = {
+					{
+						szDisplay = "月影菇·采仙草",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "采仙草·月影菇",
+			},
+			{
+				dwID = 3224,
+				aFocus = {
+					{
+						szDisplay = "七窍返心枝·采仙草",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "采仙草·七窍返心枝",
+			},
+			{
+				dwID = 3005,
+				aFocus = {
+					{
+						szDisplay = "大木箱·美人图",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "大木箱",
+			},
+			{
+				dwID = 3064,
+				aFocus = {
+					{
+						szDisplay = "脏东西·美人图",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 35,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "一堆污秽的脏东西",
+			},
+			{
+				dwID = 5318,
+				aFocus = {
+					{
+						szDisplay = "赠礼·毒手催画",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "宇文画的赠礼",
+				[17] = {
+					bCenterAlarm = true,
+				},
+			},
+			{
+				dwID = 5221,
+				aFocus = {
+					{
+						szDisplay = "招魂幡",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 25,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "招魂幡002",
+			},
+			{
+				dwID = 1538,
+				aFocus = {
+					{
+						szDisplay = "篝火架·食不果腹",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "篝火架",
+			},
+		},
+	},
+}

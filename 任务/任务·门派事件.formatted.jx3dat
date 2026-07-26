@@ -1,0 +1,6575 @@
+return {
+	BUFF = {
+		[2] = {
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 10313,
+				szNote = "门派事件·背负药筐",
+				nLevel = 1,
+			},
+		},
+		[159] = {
+			{
+				{
+					bBuffList = true,
+				},
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "钓鱼提示",
+						nTime = 1.5,
+						szName = "按222",
+						nIcon = 4234,
+					},
+					{
+						nClass = 2,
+						key = "钓鱼提示",
+						nTime = 0,
+						szName = "钓鱼",
+						nIcon = 4234,
+					},
+				},
+				nScrutinyType = 1,
+				dwID = 10453,
+				szName = "按2",
+				nLevel = 1,
+				szNote = "门派事件·按2",
+				nIcon = 4234,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "钓鱼提示",
+						nTime = 1.5,
+						szName = "按333",
+						nIcon = 4235,
+					},
+					{
+						nClass = 2,
+						key = "钓鱼提示",
+						nTime = 0,
+						szName = "钓鱼",
+						nIcon = 4235,
+					},
+				},
+				nScrutinyType = 1,
+				dwID = 10454,
+				szName = "按3",
+				nLevel = 1,
+				szNote = "门派事件·按3",
+				nIcon = 4235,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "钓鱼提示",
+						nTime = 1.5,
+						szName = "按444",
+						nIcon = 4236,
+					},
+					{
+						nClass = 2,
+						key = "钓鱼提示",
+						nTime = 0,
+						szName = "钓鱼",
+						nIcon = 4236,
+					},
+				},
+				nScrutinyType = 1,
+				dwID = 10462,
+				szName = "按4",
+				nLevel = 1,
+				szNote = "门派事件·按4",
+				nIcon = 4236,
+			},
+		},
+		[243] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				szName = "惜灵之心",
+				dwID = 11508,
+				szNote = "门派事件·成就·惜灵之心",
+				nIcon = 3560,
+			},
+		},
+		[122] = {
+			{
+				{
+					bScreenHead = true,
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 2,
+				col = {
+					255,
+					204,
+					0,
+				},
+				dwID = 10476,
+				szNote = "门派事件·防御模式",
+				aCataclysmBuff = {
+					{
+						colScreenHead = "#FFCC00",
+						col = "#FFCC00FF",
+						nColAlpha = 255,
+						szReminder = "防",
+						nPriority = 30,
+						bScreenHead = true,
+					},
+				},
+			},
+		},
+		[150] = {
+			{
+				dwID = 10391,
+				szNote = "门派事件·救助",
+				nLevel = 1,
+			},
+		},
+		[16] = {
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				nLevel = 1,
+				szNote = "门派事件·秀坊弟子",
+				dwID = 10389,
+			},
+		},
+	},
+	CHAT = {
+		[243] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "霸刀·门派事件·霜林南方",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "霸刀山庄的霜林中有异动，侠士可前往霸刀山庄霜林，协助山庄弟子清理霜林中的机关及狼牙探子，更有神秘江湖人需要侠士协助击退。侠士可通过参与霜林中的公共事件来获得奖励。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "霸刀·门派事件·霜林",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "霸刀山庄南霁云在霜林遭到狼牙狼顾团伏击，侠士可速往霸刀山庄霜林相助。\
+",
+			},
+		},
+		[122] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "唐门·门派事件·唐家堡",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "唐门的机甲之战方告一段落，今日狼牙军官拔野古寒上唐门欲取订好的机关暗器，只是唐门已无备好的暗器，此事要如何了结？诸位侠士可去唐家堡获知此事结果。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "唐门·门派事件·唐家堡",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "安禄山在范阳举起反旗，天下人人侧目。唐门门主唐傲天却甘冒天下之大不韪，偷偷贩售门中机关暗器予狼牙军和唐军两者，获得大批钱财。唐傲侠发现了他私底下的交易，不耻唐傲天所为，派大儿子唐无寻破坏门主准备好的机关。此事亦被掌管暗器的唐无乐发觉，两兄弟在唐门唐家堡用机甲对决，诸位侠士可前去一观输赢。\
+",
+			},
+		},
+		[7] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 2,
+						szName = "门派事件·星野剑阵·布阵+10分",
+						nFrame = 3,
+						nClass = 20,
+					},
+				},
+				szContent = "你在【纯阳·星野剑阵·布阵】公共事件中的个人贡献度增加了10分。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "纯阳·门派事件·太极广场",
+						nIcon = 13,
+					},
+				},
+				szContent = "纯阳观在太极广场搭起多座祭坛、并设香炉数座，侠士可焚香供奉老祖，亦或观摩、助纯阳炼丹，亦或是为族人、挚友刻下祈福锁祈福，纯阳观均有好礼相赠。此外，诸位侠士还可通过太极广场中三个祭坛，体验纯阳轻身秘术，若有能者摘得空中纸符，便可得老祖护佑。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "纯阳·门派事件·太极广场",
+						nIcon = 13,
+					},
+				},
+				szNote = "纯阳·门派事件",
+				szContent = "诸侠士需协助纯阳修复、完成剑阵，并协力抵御星宿老仙的进攻。星宿老仙千秋子于小星宿海中获得武侯移星术以及上古毒经残卷的另外版本后，闭关潜心修炼秘术多年，如今实力更胜从先，侠士须得小心行事。\
+",
+			},
+		},
+		[2] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "万花·门派事件·星落湖",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "中原战乱数年未休，东方谷主感于天下不宁，百姓罹难，病症者缺医少药，朝不保夕。决定在今日开放万花谷，让百姓入谷就医。以一谷之清静，换万千百姓之安宁。万花药王孙思邈在此宣布：万花门派事件“开谷济苍生”正式开始，各位侠士可前来青岩万花施以援手！\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "万花·门派事件·星落湖",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "万花昨日开谷，毒人来犯，晴昼海意外被毁，狼牙贼心不死再度来袭，万花开谷能否顺利进行？花圣宇晴发起委托，各侠士可前往万花与万花弟子一起修复花海，抵御狼牙。\
+",
+			},
+		},
+		[193] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "苍云·门派事件·东陉关",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "奚人小儿妄图攻破东陉关，请众位侠士速速至东陉关集合，给那奚人小儿点颜色瞧瞧！\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "苍云·门派事件·苍云堡",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "奸臣所害矿药物资匮，黑云压城扬我苍云威！那奚人库莫率手下潜入苍云堡，众将士速到苍云堡门口集合，务必让这库莫有来无回！\
+",
+			},
+		},
+		[16] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "七秀·门派事件·水上舞台",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "七秀正举行剑舞考核，侠士可前往七秀听香坊东侧水上舞台参与，观赏七秀剑舞考核。侠士可通过参与楚秀弟子夏年、绮秀弟子佟雅辰、燕秀弟子慕容晚的考核来获得奖励。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "七秀·门派事件·水上舞台",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "七秀坊坊主叶芷青邀请诸位侠士见证其为三位弟子授剑出师，侠士可前往七秀听香坊东侧水上舞台参与。中途若是遇上寻衅滋事之人，侠士可与三位弟子联手制伏。\
+",
+			},
+		},
+		[150] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "明教·门派事件·圣墓山",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "明教正在举行明尊大典，侠士可前往明教圣墓山参与盛会。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "明教·门派事件·三生树",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "明教正召集人手清剿红衣教势力，侠士可前往明教三生树附近参与。\
+",
+			},
+		},
+		[158] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "天策·战乱·门派事件·药师观",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "安庆绪倒行逆施，欲派人出海寻找龙脉，天策密探阶苔获取关键情报，不料身份泄露被无名手下追杀。请诸位侠士速至战乱天策药师观接应阶苔归来。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "天策·战乱·门派事件·药师观",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "天策密探阶苔屡次逃脱，无名震怒之下，亲自前来。此番，阶苔能否逃脱无名追杀呢？\
+",
+			},
+		},
+		[102] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "五毒·门派事件·圣兽潭",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "天一教余孽未平，曲云教主派出清缴的教众尚未返回，而公治菱在圣兽潭附近携植尸将结阵施法召来血魂巨蚊，望侠士前往相助，若稍有半分差池，引来天一教神秘植兽便不好办了。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "五毒·门派事件·五毒总坛",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "原来是乌缇夜昨夜趁乱乔装混入五毒总坛，用天一教邪术催熟血魂巨蚊虫卵，引来嗜食血蚊的植兽“噬魂金虎”，愿侠士出手相助，将此邪恶之物铲除。\
+",
+			},
+		},
+		[159] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "丐帮·门派事件·龙首山",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "波光鳞影鱼欢跃，湖边垂钓闲趣多。君山洞庭，尤鱼类繁多。还请各路侠士移驾君山丐帮洞庭水畔垂钓，一来为老帮主之寿宴做些准备，二来亦可广交天下之英杰！\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "丐帮·门派事件·轩辕台",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "尹天赐寿宴已经开始，欢迎各路侠士前往丐帮轩辕台参加这场武林盛会！\
+",
+			},
+		},
+		[49] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "藏剑·门派事件·楼外楼",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "藏锋十年刃方雪，乱世仍需铸仁心。每一把名剑的出世都同藏剑山庄的兴衰息息相关。今日，藏剑山庄与天下众侠士共襄盛举。请众位侠士速至藏剑山庄楼外楼，为名剑的诞生贡献自己的力量，莫要错过了这百年难逢的机会。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "藏剑·门派事件·楼外楼",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "十年磨一剑，霜刃未曾试。今日把示君，谁有不平事。新名剑其名为何，其锋何利？若想知道新一代名剑的秘密，可来藏剑山庄楼外楼同叶庄主一起参详一二。\
+",
+			},
+		},
+		[5] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "少林·门派事件·少林寺前门",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "东瀛使团已上少林，两国高僧禅武相较。众侠士请速至少林寺观摩盛会，必能获益匪浅。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "少林·门派事件·少林寺",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "少林众僧慈悲为怀，正设法救治重伤的虚念大师，众侠士请速至少林与会，共结善缘。\
+",
+			},
+		},
+		[213] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "长歌·门派事件·徽山书院",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "长歌正举行学堂晒书，侠士可前往长歌徽山书院参与，感受长歌文化。活动持续一小时，诸位侠士遇到未阅读书籍皆可阅读，是增强见识的大好机会，千万不要错过。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "长歌·门派事件·玉林岛",
+						nFrame = 0,
+						nClass = 20,
+					},
+				},
+				szContent = "长歌正举行音律之试，侠士可前往长歌玉林岛参与，感受赵宫商的心路历程。音律之试分为三个阶段，按顺序开启，阶段完成则活动结束，侠士可速速前往。\
+",
+			},
+		},
+	},
+	CASTING = {
+		[150] = {
+			{
+				dwID = 15396,
+				szNote = "门派事件·灭火",
+				nLevel = 1,
+			},
+			{
+				dwID = 15349,
+				szNote = "门派事件·救助",
+				nLevel = 1,
+			},
+		},
+		[159] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 15423,
+				szNote = "门派事件·提竿",
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "钓鱼提示",
+						nTime = 0,
+						szName = "钓鱼",
+						nIcon = 8089,
+					},
+				},
+			},
+		},
+	},
+	TALK = {
+		[213] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件1·音律之试·琴·开启",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "开始罢。",
+				szTarget = "韩非池",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 5,
+						szName = "门派事件1·音律之试·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "壁垒的坚固程度往往与抚琴者的内力相合。众位侠士花了这许时间才破除壁垒，可见贤弟的弦歌比几月前又精进了。",
+				szTarget = "杨青月",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 10,
+						szName = "门派事件2·音律之试·幻影·开启",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "好，这就开始。随我来!",
+				szTarget = "赵宫商",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 5,
+						szName = "门派事件2·音律之试·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "幻像已破，火候有欠。",
+				szTarget = "韩非池",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件3",
+						nTime = 10,
+						szName = "门派事件3·音律之试·幻影·开启",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "宫商的《清弦引梦》现进入第二阶段，我们继续跟着。",
+				szTarget = "杨青月",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件3",
+						nTime = 5,
+						szName = "门派事件3·音律之试·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "嗯，待他从梦境中醒来细聊。",
+				szTarget = "杨青月",
+			},
+		},
+		[122] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件1·唐家堡·修复机甲",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "无乐，过几年我也懒得再管你的事了，你自己好自为之。",
+				szTarget = "唐无寻",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 5,
+						szName = "门派事件1·修复机甲·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "无乐，我方制造的机甲已成型，你可莫要逃了。",
+				szTarget = "唐无寻",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 10,
+						szName = "门派事件2·唐家堡·机甲对决",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "呵呵，大言不惭。胜负成败，就看此一战。上吧！",
+				szTarget = "唐无寻",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 5,
+						szName = "门派事件2·机甲对决·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "竟是输你一成……没想到大哥你的机甲制造术又精进不少。",
+				szTarget = "唐无乐",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件1·唐家堡·对抗狼牙",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "哼！诸位侠士请助我们护住机甲。",
+				szTarget = "唐无寻",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 5,
+						szName = "门派事件1·对抗狼牙·御敌·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "好！多亏诸位侠士相助，机甲已经休整完毕，狼牙的末日到了！",
+				szTarget = "唐无乐",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 10,
+						szName = "门派事件1·唐家堡·对抗狼牙·斩首",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "看看是谁在说大话！",
+				szTarget = "跋野古寒",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2·提示",
+						nTime = 10,
+						szName = "机甲自爆·远离",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "诸位侠士当心！机甲将会在十秒后自爆，唐门所属！准备撤！",
+				szTarget = "唐无寻",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 5,
+						szName = "门派事件2·对抗狼牙斩首·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "啊，我不甘心啊。",
+				szTarget = "跋野古寒",
+			},
+		},
+		[7] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件·西昇大典·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "多谢诸位侠士，我和二位师弟先行回大殿议事。",
+				szTarget = "李忘生",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件·地图标记·攻击BOSS",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "各位侠士请帮我们灭掉星宿据点！",
+				szTarget = "于睿",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 10,
+						szName = "门派事件2·千秋子·刷新",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "区区星野剑阵，不过浪得虚名，如何能与我星宿派武侯移星术相比？",
+				szTarget = "千秋子",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 10,
+						szName = "门派事件2·千秋子·已刷新",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "我修习上古毒经与武侯移星术，今已大成，你们尽管一起上吧！哈哈哈哈！",
+				szTarget = "千秋子",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 20,
+						szName = "门派事件·地图标记·攻击BOSS",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "此等恶人不除不快，诸位侠士，还请助我纯阳守护剑阵，灭了此人威风！",
+				szTarget = "卓凤鸣",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件·星野剑阵·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "多谢各位侠士仗义出手。",
+				szTarget = "李忘生",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件1·星野剑阵·天玑剑",
+						nRefresh = 300,
+						nIcon = 13,
+						nFrame = 3,
+					},
+				},
+				szContent = "各位侠士需以自身精气养之，才可触发天玑剑气。",
+				szTarget = "李忘生",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件1·星野剑阵·玉衡剑",
+						nRefresh = 300,
+						nIcon = 13,
+						nFrame = 3,
+					},
+				},
+				szContent = "有劳各位侠士将吾身后剑匣中剑置于玉衡剑阵眼旁，让玉衡剑吸收其中罡气。",
+				szTarget = "李忘生",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件1·星野剑阵·摇光剑",
+						nRefresh = 300,
+						nIcon = 13,
+						nFrame = 3,
+					},
+				},
+				szContent = "还请诸位侠士相助，取三清符，然后到至高处汲取天地元气，并贴于摇光剑身，以激活摇光剑气。",
+				szTarget = "李忘生",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 5,
+						szName = "门派事件·山门卫道·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "多谢各位侠士！下一批物资将会在稍后运送！",
+				szTarget = "祁进",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件·山门卫道·太极广场",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "我纯阳宫运送西昇祭的物资车在往太极广场的路上，麻烦各位侠士前往护送！",
+				szTarget = "祁进",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件·山门卫道·老君宫",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "我纯阳宫运送西昇祭的物资车应该在往老君宫的路上，麻烦各位侠士前往护送！",
+				szTarget = "祁进",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件·山门卫道·纯阳宫正门",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "我纯阳宫运送西昇祭的物资车应该在往纯阳宫正门的路上，麻烦各位侠士前往护送！",
+				szTarget = "祁进",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "门派事件1",
+						nTime = 2,
+						szName = "门派事件·山门卫道·拾取物资",
+						nRefresh = 120,
+						nIcon = 13,
+						nFrame = 3,
+					},
+				},
+				szContent = "不好！马车受了惊吓，劳烦各位侠士帮我们拾取掉落在地上的物资！",
+				szTarget = "纯阳弟子",
+			},
+		},
+		[2] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "包扎",
+						nTime = -1,
+						szName = " ",
+						nRefresh = 600,
+						nFrame = -1,
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "服用汤剂",
+						nTime = -1,
+						szName = " ",
+						nRefresh = 600,
+						nFrame = -1,
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "运气",
+						nTime = -1,
+						szName = " ",
+						nRefresh = 600,
+						nFrame = -1,
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "{$1}",
+						nTime = -2,
+						szName = " ",
+						nFrame = -1,
+						nIcon = 1465,
+					},
+					{
+						nClass = 14,
+						key = "包扎",
+						nTime = 5,
+						szName = "医者仁心·包扎绷带",
+						nRefresh = 600,
+						nFrame = 6,
+						nIcon = 106,
+					},
+					{
+						nClass = 14,
+						key = "服用汤剂",
+						nTime = 5,
+						szName = "医者仁心·服用汤剂",
+						nRefresh = 600,
+						nFrame = 6,
+						nIcon = 4476,
+					},
+					{
+						nClass = 14,
+						key = "运气",
+						nTime = 5,
+						szName = "医者仁心·运气通络",
+						nRefresh = 600,
+						nFrame = 6,
+						nIcon = 1512,
+					},
+				},
+				szContent = "{$me}.-需要([包扎服用汤剂运气]+).-[。]+",
+				[14] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				szTarget = "裴元",
+				szNote = "医者仁心·{$1}",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 20,
+						szName = "门派事件1·开谷济苍生·星落湖",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "万花众弟子听命：青岩开谷，放开禁制，接引百姓入谷！",
+				szTarget = "东方宇轩",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 20,
+						szName = "门派事件2·恶徒乱晴昼·晴昼海",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "万花弟子听令！立刻设防落星湖！不可使毒人侵扰就医百姓！",
+				szTarget = "东方宇轩",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件3",
+						nTime = 20,
+						szName = "门派事件3·奇草化毒雾·晴昼海",
+						nFrame = 3,
+						nClass = 14,
+					},
+					{
+						nIcon = 13,
+						key = "门派事件3·提示",
+						nTime = 20.1,
+						szName = "拾取曦芜花放置在毒圈上",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "速速通知孙先生和宇晴前往查看，万不可使毒雾外泄！",
+				szTarget = "东方宇轩",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 20,
+						szName = "门派事件1·献花复晴昼·星落湖",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "烦请各位侠士将大家带来的花草移植到花海深处。",
+				szTarget = "宇晴",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "门派事件1",
+						nTime = 30,
+						szName = "看小地图绿点·放置花苗",
+						nRefresh = 20,
+						nIcon = 13,
+						nFrame = 3,
+					},
+				},
+				szContent = "栽种花苗的位置已经标记，可打开中地图随时查看",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 20,
+						szName = "门派事件2·花海阻狼牙·晴昼海西南",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "万花众弟子小心戒备！不可使其入山！",
+				szTarget = "东方宇轩",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "门派事件2",
+						nTime = 20,
+						szName = "门派事件2·晴昼海西南·令狐潮",
+						nRefresh = 360,
+						nIcon = 13,
+						nFrame = 3,
+					},
+				},
+				szContent = "传某将令！死士进击！",
+				szTarget = "令狐潮",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "门派事件2",
+						nTime = 5,
+						szName = "门派事件2·花海阻狼牙·结束",
+						nRefresh = 360,
+						nIcon = 13,
+						nFrame = 3,
+					},
+				},
+				szContent = "谷主将在山门针对此次开谷进行训诫，谷内弟子速速前来。",
+				szTarget = "万花弟子",
+			},
+		},
+		[193] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 5,
+						szName = "门派事件·养兵千日·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "今日收获了如此之多的寒冰雪莲，众将士辛苦了！不过大敌当前，仍需加紧训练！",
+				szTarget = "燕安",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件·养兵千日·开启",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "探子来报，奚人近日恐是要进攻了，大家务必抓紧训练！通过苍云堡内的训练可获寒冰雪莲，上缴者有赏！",
+				szTarget = "燕安",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件1·地图标记·萨楚日",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "我萨楚日率兵前来攻城！苍云小儿若是快快打开城门就放你们一条生路！哈哈哈哈！",
+				szTarget = "萨楚日",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 5,
+						szName = "门派事件1·萨楚日·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "今日东陉关得守，不仅是众苍云将士之功，更要多谢各位武林豪杰相助！",
+				szTarget = "申屠远",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件2·地图标记·塔拉",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "想不到你们在如此情况下还能坚持这么久，看来是我们小瞧了你们！",
+				szTarget = "塔拉",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 5,
+						szName = "门派事件2·塔拉·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "多谢各路英豪前来相助，苍云的众将士也打起精神来，务必要守住这东陉关！",
+				szTarget = "申屠远",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 20,
+						szName = "门派事件3·地图标记·唐和斯",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "萨楚日和塔拉那两个废物真是给奚人丢脸，哼，受死吧！",
+				szTarget = "唐和斯",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 5,
+						szName = "门派事件1·锡喇·锡尔哈·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "真是废物，连这种小事都做不好！哼！",
+				szTarget = "库莫",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件2·地图标记·库莫",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "废话还真是多！众将士听令！",
+				szTarget = "长孙忘情",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 5,
+						szName = "门派事件2·库莫·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "哼！就凭你们便妄图灭我苍云军？真是自不量力！全军听令！今日便让这狂妄之徒有来无回！",
+				szTarget = "长孙忘情",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 5,
+						szName = "门派事件1·锡喇·锡尔哈·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "胆敢前来犯我苍云军者，诛！",
+				szTarget = "长孙忘情",
+			},
+		},
+		[16] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 5,
+						szName = "门派事件1·红袖飞花·结束",
+						nFrame = 5,
+						nClass = 14,
+					},
+				},
+				szContent = "【七秀·红袖飞花】事件已经结束，由于你没有贡献，没有获得奖励。",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 5,
+						szName = "门派事件1·红袖飞花·结束",
+						nFrame = 5,
+						nClass = 14,
+					},
+				},
+				szContent = "你获得了事件【七秀·红袖飞花】的奖励。",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 10,
+						szName = "门派事件2·剑舞凝光·佟雅辰·开启",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "第二场比试开始，绮秀弟子佟雅辰出场。",
+				szTarget = "照萤",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 5,
+						szName = "门派事件2·剑舞凝光·佟雅辰·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "你可算是醒过来了！江湖险恶，一定要诸般小心。七秀坊的姐妹们会好生照应你的。",
+				szTarget = "瑾儿",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件3",
+						nTime = 10,
+						szName = "门派事件3·剑舞凝光·慕容晚·开启",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "第三场比试开始，燕秀弟子慕容晚出场。",
+				szTarget = "照萤",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件3",
+						nTime = 5,
+						szName = "门派事件3·剑舞凝光·慕容晚·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "二位以为如何？",
+				szTarget = "叶芷青",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件1·剑舞凝光·夏年·开启",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "第一场比试开始，楚秀弟子夏年出场。",
+				szTarget = "照萤",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件1·东海来客·白璃予·开启",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "！！",
+				szTarget = "白璃予",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 5,
+						szName = "门派事件1·东海来客·白璃予·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "哼，想不到你们还有点儿能耐，那我也就不客气了！",
+				szTarget = "白璃予",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 10,
+						szName = "门派事件2·东海来客·结阵·开启",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "结阵！",
+				szTarget = "佟雅辰",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 5,
+						szName = "门派事件2·东海来客·结阵·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "呃……",
+				szTarget = "白璃予",
+			},
+		},
+		[150] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 20,
+						szName = "门派事件1·圣墓山·明尊大典·祈",
+						nFrame = 0,
+						nClass = 14,
+					},
+				},
+				szContent = "如此，我们就同心相祈，大会这便开始。",
+				szTarget = "陆烟儿",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 10,
+						szName = "门派事件2·圣墓山·宫觥",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "杀掉那些中原人！！",
+				szTarget = "宫觥",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 5,
+						szName = "门派事件2·宫觥·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "恐怕今日来的只是红衣教先遣教徒，明日还会有一场大战。",
+				szTarget = "丁君",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件1·三生树·血染红衣",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "果然不出所料，红衣教昨日只是派出刺客先行，捣乱祈愿大会。",
+				szTarget = "陆烟儿",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 5,
+						szName = "门派事件1·血染红衣·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "红衣教徒已尽数消灭，多谢各位侠士仗义援手！",
+				szTarget = "陆烟儿",
+			},
+		},
+		[158] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 20,
+						szName = "门派事件1·药师观·接应阶苔",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "走吧，曹将军还在等我们。",
+				szTarget = "阶苔",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 5,
+						szName = "门派事件1·接应阶苔·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "多谢诸位侠士鼎立相助，阶苔在此谢过。",
+				szTarget = "阶苔",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 20,
+						szName = "门派事件2·药师观·刺客袭击",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "请诸位侠士为我守护片刻。",
+				szTarget = "阶苔",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件3",
+						nTime = 20,
+						szName = "门派事件3·药师观·游龙先生",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "大好头颅在此，尽管来拿！",
+				szTarget = "阶苔",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件3",
+						nTime = 5,
+						szName = "门派事件3·游龙先生·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "人多势众，算什么好汉！我隐元会不会放弃的！",
+				szTarget = "游龙先生",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 20,
+						szName = "门派事件1·药师观·击退无名",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "有点本事，那我来亲自会会你。",
+				szTarget = "无名",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 5,
+						szName = "门派事件1·击退无名·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "今天我奈何不得你天策府，自然不会再纠缠此事。不过，我却做不了安将军的主，就此告辞。",
+				szTarget = "无名",
+			},
+		},
+		[102] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件1·圣兽潭·天一阴谋",
+						nRefresh = 120,
+						nIcon = 13,
+						nFrame = 3,
+					},
+				},
+				szContent = "我们不是这女人的对手,请侠士们出手相助!",
+				szTarget = "苗民卫兵",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "门派事件1",
+						nTime = 5,
+						szName = "门派事件1·天一阴谋·结束",
+						nRefresh = 120,
+						nIcon = 13,
+						nFrame = 3,
+					},
+				},
+				szContent = "这次多亏了侠士们及时赶到，才使我教免于一场劫难。",
+				szTarget = "曲云",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件2·圣兽潭·清除剩余血蚊",
+						nRefresh = 120,
+						nIcon = 13,
+						nFrame = 3,
+					},
+				},
+				szContent = "圣兽潭附近还有残余血蚊，望侠士们帮忙清理，此刻我还需带孙飞亮回总坛疗伤。",
+				szTarget = "曲云",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件1·五毒总坛·噬魂金虎",
+						nFrame = 0,
+						nClass = 14,
+					},
+				},
+				szContent = "玛索师姐已去炼制血蚊丹，炼成后可以引走金虎，望众侠士相助五毒教，抵挡这植兽！",
+				szTarget = "五毒大师兄",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 5,
+						szName = "门派事件1·噬魂金虎·结束",
+						nFrame = 0,
+						nClass = 14,
+					},
+				},
+				szContent = "多亏侠士们拼死抵挡这植兽，刚才我用昨日侠士击杀血蚊炼成血蚊丹，已命教内轻功拔尖的教众携带这丹药向天一教老巢赶去。",
+				szTarget = "玛索",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "门派事件2",
+						nTime = 10,
+						szName = "门派事件2·五毒总坛·清除剩余血蚊",
+						nRefresh = 120,
+						nIcon = 13,
+						nFrame = 0,
+					},
+				},
+				szContent = "我还要前去天一老巢打探一番，不要让我教众被这噬魂金虎误伤，告辞了！",
+				szTarget = "玛索",
+			},
+		},
+		[159] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件·美酒飘香·备材·开启",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "请大家稍事休息，老夫这就酿下一桶！",
+				szTarget = "蒋方文",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件·美酒飘香·酿酒·开启",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "感谢大家鼎力相助，老夫这就开始用内功催发酒力。不过此处经常会有棕熊前来偷酒，还请各位相助一二。",
+				szTarget = "蒋方文",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 5,
+						szName = "门派事件·美酒飘香·酿酒·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "哈哈哈！这酒算是成了！感谢各位的鼎力相助，蒋某不胜感激！",
+				szTarget = "蒋方文",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件·刺客来袭·开启",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "有刺客！！！保护师父！！",
+				szTarget = "郭岩",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件·沈眠风之乱·开启",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "师弟，此处就交于我，你且护着师父师母退后！",
+				szTarget = "郭岩",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 5,
+						szName = "门派事件·沈眠风之乱·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "我们追！",
+				szTarget = "尹放",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件·洞庭虹影·开启",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "各位可以来我这里领取钓竿，然后就在我身边的浅滩上垂钓，莫要走远了。钓到了鱼儿便放入我身边的鱼篓中即可！",
+				szTarget = "尹小荷",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件·洞庭虹影·斩龟",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "相传这水中有一只万年巨龟，莫不是惊动了它？真是天助我也，大家齐心斩了这巨龟，将其龟甲献给老帮主定是极好的！",
+				szTarget = "尹小荷",
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 2,
+						key = "钓鱼提示",
+						nTime = 5,
+						szName = "快收杆",
+						nClass = 14,
+						nIcon = 2678,
+					},
+				},
+				szContent = "好像有鱼儿上钩了，快收杆！",
+				szNote = "有鱼咬钩",
+				[14] = {
+					bCenterAlarm = true,
+				},
+			},
+		},
+		[49] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件2·抵御狼牙·慕容枯",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "众弟子，随我迎敌！",
+				szTarget = "叶凡",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件1·名剑新生·开启",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "大胆狂徒！今日天下英雄尽聚于此，尔等焉敢猖狂，众弟子迎敌！",
+				szTarget = "叶炜",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 10,
+						szName = "门派事件2·以贼试剑·慕容枯",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "都来了？也好，让我领教领教藏剑山庄的绝技。",
+				szTarget = "慕容古",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 5,
+						szName = "门派事件2·以贼试剑·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "这是……什么剑法……",
+				szTarget = "慕容古",
+			},
+		},
+		[5] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 20,
+						szName = "门派事件1·禅斗较量·仲虚念",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "正合我意！",
+				szTarget = "仲虚念",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 5,
+						szName = "门派事件1·禅斗较量·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "你烦不烦啊！",
+				szTarget = "仲虚念",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 20,
+						szName = "门派事件2·武斗较量·仲虚念",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "大言不惭！",
+				szTarget = "仲虚念",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 5,
+						szName = "门派事件2·武斗较量·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "大师，小心了！",
+				szTarget = "慧武",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 20,
+						szName = "门派事件2·荡除心魔·东瀛的自傲",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "好个金刚伏魔阵！可能及我万一！",
+				szTarget = "东瀛的自傲",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 5,
+						szName = "门派事件2·东瀛的自傲·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "不！",
+				szTarget = "东瀛的自傲",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件3",
+						nTime = 20,
+						szName = "门派事件3·荡除心魔·武士的尊严",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "笑话，心境澄明之人世间又有几个！",
+				szTarget = "武士的尊严",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件3",
+						nTime = 5,
+						szName = "门派事件3·武士的尊严·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "这怎么可能！",
+				szTarget = "武士的尊严",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件4",
+						nTime = 20,
+						szName = "门派事件4·荡除心魔·一刀流的荣耀",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "一刀流岂是尔等所能企及！",
+				szTarget = "一刀流的荣耀",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件4",
+						nTime = 5,
+						szName = "门派事件4·一刀流的荣耀·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "就这么......结束了么......",
+				szTarget = "一刀流的荣耀",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件5",
+						nTime = 20,
+						szName = "门派事件5·荡除心魔·禅武的执念",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "论禅论武，我都绝对不会输！",
+				szTarget = "禅武的执念",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件5",
+						nTime = 5,
+						szName = "门派事件5·禅武的执念·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "一念......放下......",
+				szTarget = "禅武的执念",
+			},
+		},
+		[243] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件·{$N55356}",
+						nTime = 20,
+						szName = "门派事件·{$N55356}·出现",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "霜林出现了厉害的吊睛白虎，正在狩猎的侠士们可以找到这猛兽一试身手！",
+				szTarget = "柳辰苇",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 5,
+						szName = "门派事件1·杀意四伏·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "你获得了事件【霸刀·杀意四伏】的奖励。",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 10,
+						szName = "门派事件2·机关重重·唐花",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "可惜尔等管了这不该管的闲事，我便留不得你们了！",
+				szTarget = "唐花",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 5,
+						szName = "门派事件2·机关重重·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "咳咳……",
+				szTarget = "唐花",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件3",
+						nTime = 10,
+						szName = "门派事件3·星暗长林·重楼子",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "说甚么胡话！唐家妹子，你且先去！速速将此处情形告知蛇仙！咱尚能抵得一时！",
+				szTarget = "重楼子",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件2",
+						nTime = 5,
+						szName = "门派事件3·星暗长林·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "咳咳……",
+				szTarget = "重楼子",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 10,
+						szName = "门派事件1·蛇魅狼影·蛇仙女",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "哎呀哎呀，将军不要那么凶嘛。",
+				szTarget = "蛇仙女",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 5,
+						szName = "门派事件1·蛇魅狼影·结束",
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				szContent = "哎呀哎呀，原来是夫人来了。",
+				szTarget = "蛇仙女",
+			},
+		},
+	},
+	NPC = {
+		[243] = {
+			{
+				nFrame = 50,
+				tCountdown = {
+					{
+						nClass = 12,
+						key = "门派事件·{$N55356}",
+						nTime = 0,
+						szName = "门派事件·{$N55356}",
+						nIcon = 13,
+					},
+					{
+						nClass = 11,
+						key = "门派事件·{$N55356}",
+						nTime = 0,
+						szName = "门派事件·{$N55356}",
+						nIcon = 13,
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 55356,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·吊睛白虎",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 55326,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·陷阱",
+				col = {
+					255,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 50,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 55344,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·奇怪的狼",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 55324,
+				aFocus = {
+					{
+						szDisplay = "柳辰苇·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·柳辰苇",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 50,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 55319,
+				szNote = "门派事件·山羊",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 60,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 55317,
+				szNote = "门派事件·狐狸",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 67,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 55315,
+				szNote = "门派事件·野猪",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 65,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 55318,
+				szNote = "门派事件·小狐狸",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 65,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 55316,
+				szNote = "门派事件·小野猪",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 65,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 55320,
+				szNote = "门派事件·小山羊",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 55336,
+				szNote = "门派事件·天绝地灭",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 55377,
+				szNote = "门派事件·鲲鹏铁爪",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 55379,
+				szNote = "门派事件·冥铁焰灵",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 55398,
+				aFocus = {
+					{
+						szDisplay = "柳辰芦·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·柳辰芦",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				dwID = 55339,
+				aFocus = {
+					{
+						szDisplay = "唐花·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·唐花",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				dwID = 55340,
+				aFocus = {
+					{
+						szDisplay = "重楼子·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·重楼子",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				dwID = 55347,
+				aFocus = {
+					{},
+				},
+				szNote = "门派事件·蛇仙女",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+		},
+		[122] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50735,
+				aFocus = {
+					{
+						szDisplay = "唐无寻·门派事件",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·唐无寻",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50844,
+				aFocus = {
+					{
+						szDisplay = "唐无寻·阵营",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·唐滟晨",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50737,
+				aFocus = {
+					{
+						szDisplay = "唐无乐·门派事件",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·唐无乐",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{szNote="门派事件·唐天天",dwID=50833,[3]={bScreenHead=true},nFrame=47,col={0,255,0},aFocus={{tRelation={bAlly=true,bEnemy=false,bAll=false},dwMapID=-1,szDisplay="唐无寻·阵营",tLife={bEnable=false,nValue=0,szOperator=">"},nMaxDistance=10,tType={[3]=false,[4]=false,[5]=false,bAll=true}}}},
+			{szNote="门派事件·唐泳畅",dwID=50832,[3]={bScreenHead=true},nFrame=47,col={0,255,0},aFocus={{tRelation={bAlly=true,bEnemy=false,bAll=false},dwMapID=-1,szDisplay="唐无乐·阵营",tLife={bEnable=false,nValue=0,szOperator=">"},nMaxDistance=10,tType={[3]=false,[4]=false,[5]=false,bAll=true}}}},
+			{szNote="门派事件·唐彬彬",dwID=50845,[3]={bScreenHead=true},nFrame=47,col={0,255,0},aFocus={{tRelation={bAlly=true,bEnemy=false,bAll=false},dwMapID=-1,szDisplay="唐无乐·阵营",tLife={bEnable=false,nValue=0,szOperator=">"},nMaxDistance=10,tType={[3]=false,[4]=false,[5]=false,bAll=true}}}},
+			{szNote="门派事件·唐无乐",dwID=50937,[3]={bScreenHead=true},nFrame=47,col={0,255,0},aFocus={{tRelation={bAlly=true,bEnemy=false,bAll=false},dwMapID=-1,szDisplay="",tLife={bEnable=false,nValue=0,szOperator=">"},nMaxDistance=10,tType={[3]=false,[4]=false,[5]=false,bAll=true}}}},
+			{szNote="门派事件·唐无寻",dwID=50936,[3]={bScreenHead=true},nFrame=47,col={0,255,0},aFocus={{tRelation={bAlly=true,bEnemy=false,bAll=false},dwMapID=-1,szDisplay="",tLife={bEnable=false,nValue=0,szOperator=">"},nMaxDistance=10,tType={[3]=false,[4]=false,[5]=false,bAll=true}}}},
+			{szNote="门派事件·强战机甲",dwID=50943,[3]={bScreenHead=true},nFrame=52,col={0,255,0},aFocus={{tRelation={bAlly=true,bEnemy=false,bAll=false},dwMapID=-1,szDisplay="",tLife={bEnable=false,nValue=0,szOperator=">"},nMaxDistance=3,tType={[3]=false,[4]=false,[5]=false,bAll=true}}}},
+			{szNote="门派事件·怒袭机甲",dwID=50227,[3]={bScreenHead=true},nFrame=47,col={0,255,0},aFocus={{tRelation={bAlly=true,bEnemy=false,bAll=false},dwMapID=-1,szDisplay="",tLife={bEnable=false,nValue=0,szOperator=">"},nMaxDistance=3,tType={[3]=false,[4]=false,[5]=false,bAll=true}}}},
+			{szNote="门派事件·珑卫",dwID=50225,[3]={bScreenHead=true},nFrame=47,aFocus={{tRelation={bAlly=false,bEnemy=true,bAll=false},dwMapID=-1,szDisplay="",tLife={bEnable=false,nValue=0,szOperator=">"},nMaxDistance=0,tType={[3]=false,[4]=false,[5]=false,bAll=true}}}},
+			{szNote="门派事件·瑕卫",dwID=50226,[3]={bScreenHead=true},nFrame=47,aFocus={{tRelation={bAlly=false,bEnemy=true,bAll=false},dwMapID=-1,szDisplay="",tLife={bEnable=false,nValue=0,szOperator=">"},nMaxDistance=0,tType={[3]=false,[4]=false,[5]=false,bAll=true}}}},
+			{szNote="门派事件·狼牙弓兵",dwID=50960,col={255,50,50},nFrame=57,aFocus={{tRelation={bAlly=false,bEnemy=true,bAll=false},dwMapID=-1,szDisplay="",tLife={bEnable=true,nValue=100,szOperator="<"},nMaxDistance=20,tType={[3]=false,[4]=false,[5]=false,bAll=true}}}},
+			{szNote="门派事件·狼牙士兵",dwID=50944,col={255,50,50},nFrame=57,aFocus={{tRelation={bAlly=false,bEnemy=true,bAll=false},dwMapID=-1,szDisplay="",tLife={bEnable=true,nValue=100,szOperator="<"},nMaxDistance=20,tType={[3]=false,[4]=false,[5]=false,bAll=true}}}},
+			{szNote="门派事件·跋野古寒",dwID=50896,[3]={bScreenHead=true},nFrame=47,col={255,50,50},aFocus={{tRelation={bAlly=false,bEnemy=true,bAll=false},dwMapID=-1,szDisplay="",tLife={bEnable=false,nValue=0,szOperator=">"},nMaxDistance=0,tType={[3]=false,[4]=false,[5]=false,bAll=true}}}},
+		},
+		[213] = {
+			{nFrame=47,dwID=50377,szNote="门派事件·越岐黄",aFocus={{}}},
+			{nFrame=47,dwID=50378,szNote="门派事件·岑春梁",aFocus={{}}},
+			{nFrame=47,dwID=50379,szNote="门派事件·燕鸿一",aFocus={{}}},
+			{nFrame=47,dwID=50380,szNote="门派事件·殷逐梦",aFocus={{}}},
+			{nFrame=47,dwID=50381,szNote="门派事件·风杉百",aFocus={{}}},
+			{nFrame=47,dwID=50382,szNote="门派事件·夏影无",aFocus={{}}},
+			{nFrame=47,dwID=50383,szNote="门派事件·吴弦一",aFocus={{}}},
+			{nFrame=47,dwID=50384,szNote="门派事件·顾心用",aFocus={{}}},
+			{nFrame=47,dwID=50385,szNote="门派事件·李如是",aFocus={{}}},
+			{nFrame=47,dwID=50386,szNote="门派事件·王崖深",aFocus={{}}},
+			{nFrame=47,dwID=50387,szNote="门派事件·萧夕情",aFocus={{}}},
+			{dwID=50310,[3]={bScreenHead=true},nFrame=47,szNote="门派事件·收书先生",col={0,255,0},aFocus={{nMaxDistance=6,tRelation={bAlly=true,bAll=false,bEnemy=false},dwMapID=-1,tType={[3]=false,[4]=false,bAll=true,[5]=false},szDisplay="",tLife={bEnable=false,nValue=0,szOperator=">"}}}},
+			{dwID=45786,[3]={bScreenHead=true},nFrame=47,szNote="门派事件·李白",col={0,255,0},aFocus={{nMaxDistance=6,tRelation={bAlly=true,bAll=false,bEnemy=false},dwMapID=-1,tType={[3]=false,[4]=false,bAll=true,[5]=false},szDisplay="",tLife={bEnable=false,nValue=0,szOperator=">"}}}},
+			{dwID=45790,[3]={bScreenHead=true},nFrame=50,szNote="门派事件·韩非池的幻影",col={255,50,50},aFocus={{nMaxDistance=30,tRelation={bAlly=false,bAll=false,bEnemy=true},dwMapID=-1,tType={[3]=false,[4]=false,bAll=true,[5]=false},szDisplay="",tLife={bEnable=false,nValue=0,szOperator=">"}}}},
+			{dwID=50268,[3]={bScreenHead=true},nFrame=57,szNote="门派事件·凤瑶的幻影",col={255,50,50},aFocus={{nMaxDistance=0,tRelation={bAlly=false,bAll=false,bEnemy=true},dwMapID=-1,tType={[3]=false,[4]=false,bAll=true,[5]=false},szDisplay="",tLife={bEnable=false,nValue=0,szOperator=">"}}}},
+			{dwID=50131,[3]={bScreenHead=true},nFrame=57,szNote="门派事件·琴",col={255,50,50},aFocus={{nMaxDistance=0,tRelation={bAlly=false,bAll=false,bEnemy=true},dwMapID=-1,tType={[3]=false,[4]=false,bAll=true,[5]=false},szDisplay="",tLife={bEnable=false,nValue=0,szOperator=">"}}}},
+			{dwID=50129,[3]={bScreenHead=true},nFrame=57,col={255,50,50},szNote="门派事件·赵宫商的影子"},
+			{nFrame=57,dwID=50203,szNote="门派事件·幼年赵宫商",aFocus={{nMaxDistance=60,tRelation={bAlly=false,bAll=false,bEnemy=true},dwMapID=-1,tType={[3]=false,[4]=false,bAll=true,[5]=false},szDisplay="",tLife={bEnable=false,nValue=0,szOperator=">"}}}},
+			{nFrame=57,dwID=50206,szNote="门派事件·宫商角徵羽",aFocus={{nMaxDistance=60,tRelation={bAlly=false,bAll=false,bEnemy=true},dwMapID=-1,tType={[3]=false,[4]=false,bAll=true,[5]=false},szDisplay="",tLife={bEnable=false,nValue=0,szOperator=">"}}}},
+		},
+		[7] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50443,
+				aFocus = {
+					{
+						szDisplay = "平安锁·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·纯阳弟子",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50457,
+				aFocus = {
+					{
+						szDisplay = "千秋子·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·千秋子",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50372,
+				aFocus = {
+					{
+						szDisplay = "玉衡剑·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·玉衡剑",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50370,
+				aFocus = {
+					{
+						szDisplay = "天玑剑·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·天玑剑",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50376,
+				aFocus = {
+					{
+						szDisplay = "摇光剑·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·摇光剑",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 50302,
+				aFocus = {
+					{
+						szDisplay = "卓宁心·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 3,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·卓宁心",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				nFrame = 57,
+				szNote = "门派事件·星宿弟子",
+				dwID = 50407,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				nFrame = 57,
+				szNote = "门派事件·星宿弟子",
+				dwID = 50214,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				nFrame = 57,
+				szNote = "门派事件·星宿弟子",
+				dwID = 50406,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				nFrame = 57,
+				szNote = "门派事件·星宿弟子",
+				dwID = 50210,
+			},
+			{
+				nFrame = 52,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 50211,
+				aFocus = {
+					{
+						szDisplay = "物资车·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·物资车",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+		},
+		[2] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50432,
+				aFocus = {
+					{
+						szDisplay = "花草·门派事件",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·花草",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 50,
+				dwID = 50434,
+				szNote = "门派事件·狂暴的狼",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 50,
+				dwID = 50433,
+				szNote = "门派事件·狂暴的猴子",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 50,
+				dwID = 50438,
+				szNote = "门派事件·狂暴的鹿",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50423,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·采药的万花",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50478,
+				aFocus = {
+					{
+						szDisplay = "常华聿·门派事件",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·常华聿",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50424,
+				aFocus = {
+					{
+						szDisplay = "元草芳·门派事件",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·元草芳",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50240,
+				aFocus = {
+					{
+						szDisplay = "剧毒王·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·剧毒王",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 50191,
+				aFocus = {
+					{
+						szDisplay = "毒人·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·毒人",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50484,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 4,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·就医的百姓",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50233,
+				aFocus = {
+					{
+						szDisplay = "令狐潮·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 120,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·令狐潮",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+		},
+		[193] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50819,
+				aFocus = {
+					{
+						szDisplay = "燕安·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·燕安",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50773,
+				aFocus = {
+					{
+						szDisplay = "燕甲·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·燕甲",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50774,
+				aFocus = {
+					{
+						szDisplay = "燕苍·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 5,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·燕苍",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50320,
+				aFocus = {
+					{
+						szDisplay = "燕玄·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·燕玄",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50775,
+				aFocus = {
+					{
+						szDisplay = "燕云·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·燕云",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50776,
+				aFocus = {
+					{
+						szDisplay = "燕军·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·燕军",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50777,
+				aFocus = {
+					{
+						szDisplay = "燕盛·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 19,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·燕盛",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50232,
+				aFocus = {
+					{
+						szDisplay = "燕宁·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·燕宁",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				dwID = 50280,
+				nFrame = 57,
+				szNote = "门派事件·奚人士兵",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 50286,
+				aFocus = {
+					{
+						szDisplay = "偷矿贼人·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·偷矿贼人",
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50287,
+				aFocus = {
+					{
+						szDisplay = "穿山甲·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·穿山甲",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50289,
+				aFocus = {
+					{
+						szDisplay = "食矿之虫·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·食矿之虫",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				dwID = 50236,
+				aFocus = {
+					{
+						szDisplay = "萨楚日·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·萨楚日",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				dwID = 50235,
+				aFocus = {
+					{
+						szDisplay = "塔拉·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·塔拉",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50437,
+				aFocus = {
+					{
+						szDisplay = "奚人炮车·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 25,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50234,
+				aFocus = {
+					{
+						szDisplay = "唐和斯·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·唐和斯",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50391,
+				aFocus = {
+					{},
+				},
+				szNote = "门派事件·申屠远",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				dwID = 50276,
+				aFocus = {
+					{
+						szDisplay = "锡喇·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·锡喇",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				dwID = 50277,
+				aFocus = {
+					{
+						szDisplay = "锡尔哈·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·锡尔哈",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				dwID = 50237,
+				aFocus = {
+					{
+						szDisplay = "库莫·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·库莫",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50555,
+				aFocus = {},
+				szNote = "门派事件·长孙忘情",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+		},
+		[16] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50648,
+				aFocus = {
+					{
+						szDisplay = "夏年·门派事件",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·夏年",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50649,
+				aFocus = {
+					{
+						szDisplay = "佟雅辰·门派事件",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·佟雅辰",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50650,
+				aFocus = {
+					{
+						szDisplay = "慕容晚·门派事件",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·慕容晚",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "剑舞弟子·萝莉",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·跳跃的剑舞",
+				dwID = 50140,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "剑舞弟子·成女",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·跳跃的剑舞",
+				dwID = 50646,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "剑舞弟子·成女",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·跳跃的剑舞",
+				dwID = 50141,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "剑舞弟子·成女",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·跳跃的剑舞",
+				dwID = 50655,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "剑舞弟子·萝莉",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·跳跃的剑舞",
+				dwID = 50511,
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50652,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·白依依",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50515,
+				aFocus = {
+					{
+						szDisplay = "照萤·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·照萤",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50146,
+				aFocus = {
+					{
+						szDisplay = "夏年·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·夏年",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50147,
+				aFocus = {
+					{
+						szDisplay = "佟雅辰·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·佟雅辰",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50148,
+				aFocus = {
+					{
+						szDisplay = "慕容晚·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·慕容晚",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50152,
+				aFocus = {
+					{
+						szDisplay = "白璃予·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·白璃予",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50730,
+				aFocus = {
+					{
+						szDisplay = "白璃予·分身",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = "<",
+							nValue = 100,
+							bEnable = true,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·白璃予",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50726,
+				aFocus = {},
+				szNote = "门派事件·七秀阵法",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50151,
+				szNote = "门派事件·慕容晚",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50149,
+				szNote = "门派事件·夏年",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50150,
+				szNote = "门派事件·佟雅辰",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+		},
+		[150] = {
+			{
+				nFrame = 57,
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "门派事件1",
+						nTime = 20,
+						szName = "需要选中红衣邪火浇灭才可结算",
+						nFrame = 0,
+						nClass = 12,
+					},
+				},
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				dwID = 50633,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·安雨",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{dwID=50701,[3]={bScreenHead=true},nFrame=47,col={0,255,0},szNote="门派事件·被困的朝圣者",aFocus={{szDisplay="",dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},tLife={szOperator=">",bEnable=false,nValue=0},tRelation={bAll=false,bEnemy=false,bAlly=true},nMaxDistance=5}}},
+			{dwID=50702,[3]={bScreenHead=true},nFrame=47,col={0,255,0},szNote="门派事件·被困的朝圣者",aFocus={{szDisplay="",dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},tLife={szOperator=">",bEnable=false,nValue=0},tRelation={bAll=false,bEnemy=false,bAlly=true},nMaxDistance=5}}},
+			{dwID=50703,[3]={bScreenHead=true},nFrame=47,col={0,255,0},szNote="门派事件·被困的朝圣者",aFocus={{szDisplay="",dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},tLife={szOperator=">",bEnable=false,nValue=0},tRelation={bAll=false,bEnemy=false,bAlly=true},nMaxDistance=5}}},
+			{nFrame=47,dwID=50635,szNote="门派事件·阿里曼狂热者"},
+			{nFrame=47,dwID=50638,szNote="门派事件·阿里曼戈尔"},
+			{nFrame=47,dwID=50636,szNote="门派事件·阿里曼天火祭司"},
+			{nFrame=47,dwID=50951,szNote="门派事件·阿里曼执法者",aFocus={{szDisplay="",dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},tLife={szOperator=">",bEnable=false,nValue=0},tRelation={bAll=false,bEnemy=true,bAlly=false},nMaxDistance=20}}},
+			{nFrame=57,dwID=50631,szNote="门派事件·阿里曼刺客",aFocus={{szDisplay="",dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},tLife={szOperator=">",bEnable=false,nValue=0},tRelation={bAll=false,bEnemy=true,bAlly=false},nMaxDistance=20}}},
+			{nFrame=57,dwID=50879,szNote="门派事件·红衣教宣使",aFocus={}},
+			{dwID=50878,[3]={bCenterAlarm=true,bScreenHead=true},nFrame=47,col={255,50,50},szNote="门派事件·宫觥",aFocus={{szDisplay="",dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},tLife={szOperator=">",bEnable=false,nValue=0},tRelation={bAll=false,bEnemy=true,bAlly=false},nMaxDistance=0}}},
+		},
+		[158] = {
+			{nFrame=47,[3]={bScreenHead=true},col={0,255,0},dwID=50305,aFocus={{tRelation={bAll=true,bEnemy=false,bAlly=false},nMaxDistance=10,tType={[3]=false,[4]=false,[5]=false,bAll=true},dwMapID=-1,tLife={nValue=0,szOperator=">",bEnable=false},szDisplay=""}},szNote="门派事件·天策后勤物资官"},
+			{nFrame=57,col={255,50,50},dwID=50298,aFocus={{tRelation={bAll=false,bEnemy=true,bAlly=false},nMaxDistance=20,tType={[3]=false,[4]=false,[5]=false,bAll=true},dwMapID=-1,tLife={nValue=0,szOperator=">",bEnable=false},szDisplay=""}},szNote="门派事件·狼牙细作"},
+			{nFrame=47,[3]={bScreenHead=true},col={0,255,0},dwID=50613,aFocus={{tRelation={bAll=false,bEnemy=false,bAlly=true},nMaxDistance=0,tType={[3]=false,[4]=false,[5]=false,bAll=true},dwMapID=-1,tLife={nValue=0,szOperator=">",bEnable=false},szDisplay=""}},szNote="门派事件·天策物资车"},
+			{nFrame=57,dwID=50615,col={255,50,50},szNote="门派事件·狼牙劫掠者"},
+			{nFrame=57,col={255,50,50},dwID=50356,aFocus={{tRelation={bAll=false,bEnemy=true,bAlly=false},nMaxDistance=20,tType={[3]=false,[4]=false,[5]=false,bAll=true},dwMapID=-1,tLife={nValue=1,szOperator=">",bEnable=true},szDisplay=""}},szNote="门派事件·狼牙袭击者"},
+			{nFrame=57,col={255,50,50},dwID=50510,aFocus={{tRelation={bAll=false,bEnemy=true,bAlly=false},nMaxDistance=20,tType={[3]=false,[4]=false,[5]=false,bAll=true},dwMapID=-1,tLife={nValue=100,szOperator="<",bEnable=true},szDisplay=""}},szNote="门派事件·隐元会追兵"},
+			{nFrame=57,col={255,50,50},dwID=50781,aFocus={{tRelation={bAll=false,bEnemy=true,bAlly=false},nMaxDistance=20,tType={[3]=false,[4]=false,[5]=false,bAll=true},dwMapID=-1,tLife={nValue=100,szOperator="<",bEnable=true},szDisplay=""}},szNote="门派事件·隐元刺卫"},
+			{nFrame=47,[3]={bScreenHead=true},col={0,255,0},dwID=50461,aFocus={{tRelation={bAll=false,bEnemy=false,bAlly=true},nMaxDistance=30,tType={[3]=false,[4]=false,[5]=false,bAll=true},dwMapID=-1,tLife={nValue=0,szOperator=">",bEnable=false},szDisplay=""}},szNote="门派事件·阶苔"},
+			{nFrame=57,[3]={bScreenHead=true},col={255,50,50},dwID=50607,aFocus={{tRelation={bAll=false,bEnemy=true,bAlly=false},nMaxDistance=0,tType={[3]=false,[4]=false,[5]=false,bAll=true},dwMapID=-1,tLife={nValue=0,szOperator=">",bEnable=false},szDisplay=""}},szNote="门派事件·游龙先生"},
+			{nFrame=57,[3]={bScreenHead=true},col={255,50,50},dwID=50563,aFocus={{tRelation={bAll=false,bEnemy=true,bAlly=false},nMaxDistance=0,tType={[3]=false,[4]=false,[5]=false,bAll=true},dwMapID=-1,tLife={nValue=0,szOperator=">",bEnable=false},szDisplay=""}},szNote="门派事件·无名"},
+			{nFrame=57,[3]={bScreenHead=true},dwID=50565,aFocus={{tRelation={bAll=false,bEnemy=true,bAlly=false},nMaxDistance=10,tType={[3]=false,[4]=false,[5]=false,bAll=true},dwMapID=-1,tLife={nValue=0,szOperator=">",bEnable=false},szDisplay=""}},szNote="门派事件·影傀儡"},
+			{nFrame=47,[3]={bScreenHead=true},col={0,255,0},dwID=129154,aFocus={{tRelation={bAll=true,bEnemy=false,bAlly=false},nMaxDistance=30,tType={[3]=false,[4]=false,[5]=false,bAll=true},dwMapID=-1,tLife={nValue=0,szOperator=">",bEnable=false},szDisplay=""}},szNote="冠军侯"},
+		},
+		[102] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50670,
+				aFocus = {
+					{
+						szDisplay = "玛索·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·玛索",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50666,
+				aFocus = {
+					{
+						szDisplay = "公治菱·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 120,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·公治菱",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50667,
+				aFocus = {
+					{
+						szDisplay = "植尸将·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 120,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·植尸将",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50866,
+				aFocus = {
+					{
+						szDisplay = "血魂巨蚊·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·血魂巨蚊",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50875,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·血魂巨蚊",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50669,
+				aFocus = {
+					{
+						szDisplay = "噬魂金虎·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 120,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·噬魂金虎",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+		},
+		[159] = {
+			{
+				nFrame = 50,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = "<",
+							nValue = 100,
+							bEnable = true,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·偷酒的棕熊",
+				dwID = 50898,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·酒桶",
+				dwID = 50899,
+			},
+			{
+				nFrame = 50,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 50897,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·蜂群",
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·刺客",
+				dwID = 50815,
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50816,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·沈眠风",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·君山烈岩龟",
+				dwID = 50864,
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50871,
+				aFocus = {
+					{
+						szDisplay = "尹小荷·门派事件",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·尹小荷",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+		},
+		[49] = {
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 50300,
+				aFocus = {
+					{
+						szDisplay = "叶泊秋·门派事件",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·叶泊秋",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 57,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 50283,
+				aFocus = {
+					{
+						szDisplay = "慕容枯·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 120,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·慕容枯",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 57,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 50284,
+				aFocus = {
+					{
+						szDisplay = "慕容古·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 120,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·慕容古",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+		},
+		[5] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50158,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·达摩堂高级弟子",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50157,
+				szNote = "门派事件·证道院高级弟子",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 3082,
+				aFocus = {
+					{
+						szDisplay = "道苦·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·道苦",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 57,
+				dwID = 50159,
+				szNote = "门派事件·一刀流武士",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50447,
+				aFocus = {
+					{},
+				},
+				szNote = "门派事件·仲虚念",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50168,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·禅境·虚念",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50173,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·禅境·虚念",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50167,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·禅境·虚念",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50605,
+				aFocus = {
+					{
+						szDisplay = "伙房弟子·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 90,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·少林伙房弟",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50581,
+				aFocus = {
+					{
+						szDisplay = "门派事件·六阳正气丹",
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·玄钟",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50595,
+				aFocus = {
+					{},
+				},
+				szNote = "门派事件·东瀛的自傲",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50596,
+				aFocus = {
+					{},
+				},
+				szNote = "门派事件·武士的尊严",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50597,
+				aFocus = {
+					{},
+				},
+				szNote = "门派事件·一刀流的荣耀",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 50598,
+				aFocus = {
+					{},
+				},
+				szNote = "门派事件·禅武的执念",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+		},
+	},
+	DEBUFF = {
+		[7] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 10326,
+				tCountdown = {
+					{
+						nIcon = 325,
+						key = "门派事件·虚弱·禁疗",
+						nTime = 180,
+						szName = "虚弱·禁疗·打坐消除",
+						nFrame = 3,
+						nClass = 1,
+					},
+					{
+						nClass = 2,
+						key = "门派事件·虚弱·禁疗",
+						nTime = 0,
+						szName = "门派事件·虚弱·禁疗",
+						nIcon = 325,
+					},
+					{
+						nIcon = 325,
+						key = "门派事件1",
+						nTime = 30,
+						szName = "读条消失不要动·最终会加分",
+						nFrame = 3,
+						nClass = 1,
+					},
+					{
+						nClass = 2,
+						key = "门派事件1",
+						nTime = 0,
+						szName = "门派事件1",
+						nIcon = 325,
+					},
+					{
+						nIcon = 325,
+						key = "门派事件2",
+						nTime = 60,
+						szName = "穿装备打坐回到35%再脱装备",
+						nFrame = 3,
+						nClass = 1,
+					},
+					{
+						nIcon = 325,
+						key = "门派事件2",
+						nTime = 0,
+						szName = "门派事件2",
+						nFrame = 3,
+						nClass = 2,
+					},
+				},
+				szNote = "门派事件·虚弱",
+				aCataclysmBuff = {},
+			},
+		},
+		[159] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 10447,
+				szNote = "门派事件·垂钓",
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "钓鱼提示",
+						nTime = 60,
+						szName = "钓鱼·QTE10次",
+						nIcon = 2678,
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 10461,
+				szNote = "门派事件·诱鱼",
+			},
+		},
+		[243] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nIcon = 770,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				bCheckLevel = true,
+				dwID = 11507,
+				szName = "穿风神矢",
+				szNote = "门派事件·成就·穿风神矢",
+				nLevel = 1,
+			},
+		},
+		[150] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "门派事件·流沙",
+				dwID = 10392,
+			},
+		},
+		[49] = {
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 10275,
+				nScrutinyType = 1,
+				szNote = "门派事件·寒意",
+				nLevel = 1,
+			},
+		},
+		[16] = {
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				nLevel = 1,
+				szNote = "门派事件·飞花",
+				dwID = 10261,
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1785240738,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[7] = {
+			{aFocus={{szDisplay="纯阳香案·取香",tRelation={bAll=true,bAlly=false,bEnemy=false},tLife={szOperator=">",nValue=0,bEnable=false},nMaxDistance=20,tType={[3]=false,[4]=false,[5]=false,bAll=true},dwMapID=-1}},dwID=5949,szNote="门派事件·纯阳香案"},
+			{aFocus={{szDisplay="纯阳烛台·点香",tRelation={bAll=true,bAlly=false,bEnemy=false},tLife={szOperator=">",nValue=0,bEnable=false},nMaxDistance=3,tType={[3]=false,[4]=false,[5]=false,bAll=true},dwMapID=-1}},dwID=5945,szNote="门派事件·纯阳烛台"},
+			{aFocus={{szDisplay="香炉·上香",tRelation={bAll=true,bAlly=false,bEnemy=false},tLife={szOperator=">",nValue=0,bEnable=false},nMaxDistance=30,tType={[3]=false,[4]=false,[5]=false,bAll=true},dwMapID=-1}},dwID=5946,szNote="门派事件·香炉"},
+			{aFocus={{szDisplay="",tRelation={bAll=true,bAlly=false,bEnemy=false},tLife={szOperator=">",nValue=0,bEnable=false},nMaxDistance=6,tType={[3]=false,[4]=false,[5]=false,bAll=true},dwMapID=-1}},dwID=5893,szNote="门派事件·物资堆"},
+			{aFocus={{szDisplay="",tRelation={bAll=true,bAlly=false,bEnemy=false},tLife={szOperator=">",nValue=0,bEnable=false},nMaxDistance=10,tType={[3]=false,[4]=false,[5]=false,bAll=true},dwMapID=-1}},dwID=5886,szNote="门派事件·道家典籍"},
+			{aFocus={{szDisplay="",tRelation={bAll=true,bAlly=false,bEnemy=false},tLife={szOperator=">",nValue=0,bEnable=false},nMaxDistance=10,tType={[3]=false,[4]=false,[5]=false,bAll=true},dwMapID=-1}},dwID=5887,szNote="门派事件·丹药瓶"},
+			{aFocus={{szDisplay="",tRelation={bAll=true,bAlly=false,bEnemy=false},tLife={szOperator=">",nValue=0,bEnable=false},nMaxDistance=10,tType={[3]=false,[4]=false,[5]=false,bAll=true},dwMapID=-1}},dwID=5888,szNote="门派事件·道袍"},
+		},
+		[49] = {
+			{dwID=5860,aFocus={{tRelation={bAlly=false,bEnemy=false,bAll=true},tLife={bEnable=false,szOperator=">",nValue=0},nMaxDistance=3,tType={[3]=false,[4]=false,bAll=true,[5]=false},szDisplay="",dwMapID=-1}},szNote="门派事件·天炉剑基"},
+			{dwID=5901,aFocus={{tRelation={bAlly=false,bEnemy=false,bAll=true},tLife={bEnable=false,szOperator=">",nValue=0},nMaxDistance=10,tType={[3]=false,[4]=false,bAll=true,[5]=false},szDisplay="",dwMapID=-1}},szNote="门派事件·寒玉铁矿石"},
+			{dwID=5900,aFocus={{tRelation={bAlly=false,bEnemy=false,bAll=true},tLife={bEnable=false,szOperator=">",nValue=0},nMaxDistance=10,tType={[3]=false,[4]=false,bAll=true,[5]=false},szDisplay="",dwMapID=-1}},szNote="门派事件·大堆寒玉铁"},
+			{dwID=5941,aFocus={{tRelation={bAlly=false,bEnemy=false,bAll=true},tLife={bEnable=false,szOperator=">",nValue=0},nMaxDistance=1.5,tType={[3]=false,[4]=false,bAll=true,[5]=false},szDisplay="",dwMapID=-1}},szNote="门派事件·待锻打的兵器"},
+			{dwID=5939,aFocus={{tRelation={bAlly=false,bEnemy=false,bAll=true},tLife={bEnable=false,szOperator=">",nValue=0},nMaxDistance=1.5,tType={[3]=false,[4]=false,bAll=true,[5]=false},szDisplay="",dwMapID=-1}},szNote="门派事件·待锻打的兵器"},
+			{dwID=5942,aFocus={{tRelation={bAlly=false,bEnemy=false,bAll=true},tLife={bEnable=false,szOperator=">",nValue=0},nMaxDistance=1.5,tType={[3]=false,[4]=false,bAll=true,[5]=false},szDisplay="",dwMapID=-1}},szNote="门派事件·待锻打的兵器"},
+			{dwID=5940,aFocus={{tRelation={bAlly=false,bEnemy=false,bAll=true},tLife={bEnable=false,szOperator=">",nValue=0},nMaxDistance=1.5,tType={[3]=false,[4]=false,bAll=true,[5]=false},szDisplay="",dwMapID=-1}},szNote="门派事件·待锻打的兵器"},
+			{dwID=5916,aFocus={{tRelation={bAlly=false,bEnemy=false,bAll=true},tLife={bEnable=false,szOperator=">",nValue=0},nMaxDistance=1.5,tType={[3]=false,[4]=false,bAll=true,[5]=false},szDisplay="",dwMapID=-1}},szNote="门派事件·神兵剑胎"},
+		},
+		[122] = {
+			{
+				dwID = 5996,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "门派事件·散落的零件",
+			},
+			{
+				dwID = 5997,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "门派事件·散落的零件",
+			},
+		},
+		[150] = {
+			{
+				dwID = 6000,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "门派事件·祭典圣火",
+			},
+		},
+		[158] = {
+			{aFocus={{tRelation={bAll=true,bEnemy=false,bAlly=false},nMaxDistance=6,tType={[3]=false,[4]=false,[5]=false,bAll=true},dwMapID=-1,tLife={nValue=0,szOperator=">",bEnable=false},szDisplay=""}},dwID=5858,szNote="门派事件·机关残骸"},
+			{aFocus={{tRelation={bAll=true,bEnemy=false,bAlly=false},nMaxDistance=6,tType={[3]=false,[4]=false,[5]=false,bAll=true},dwMapID=-1,tLife={nValue=0,szOperator=">",bEnable=false},szDisplay=""}},dwID=5898,szNote="门派事件·残破的机关"},
+		},
+		[193] = {
+			{
+				dwID = 4996,
+				aFocus = {
+					{
+						szDisplay = "衣物箱·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·衣物箱",
+			},
+			{
+				dwID = 4993,
+				aFocus = {
+					{
+						szDisplay = "弓箭架·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·弓箭架",
+			},
+			{
+				dwID = 5862,
+				aFocus = {
+					{
+						szDisplay = "玄铁矿·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·玄铁矿",
+			},
+		},
+		[213] = {
+			{
+				dwID = 5627,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "门派事件·斑铜矿",
+			},
+			{
+				dwID = 5628,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 3,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "门派事件·蚕茧",
+			},
+		},
+		[159] = {
+			{
+				dwID = 6006,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 5,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·万寿菊",
+			},
+			{
+				dwID = 5985,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·酒",
+			},
+			{
+				dwID = 5986,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·肉",
+			},
+			{
+				dwID = 6009,
+				aFocus = {
+					{
+						szDisplay = "鱼篓·上交",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·鱼篓",
+			},
+		},
+		[5] = {
+			{
+				dwID = 5966,
+				aFocus = {
+					{
+						szDisplay = "门派事件·紫韵莲芯",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·紫韵莲芯",
+			},
+			{
+				dwID = 5965,
+				aFocus = {
+					{
+						szDisplay = "门派事件·金蝉花",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·金蝉花",
+			},
+		},
+		[102] = {
+			{
+				dwID = 5976,
+				aFocus = {
+					{
+						szDisplay = "灵符阵法·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·灵符阵法",
+			},
+		},
+		[16] = {
+			{
+				dwID = 5851,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 3,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·落花花瓣",
+			},
+		},
+		[2] = {
+			{
+				dwID = 5937,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 3,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·草药分拣台",
+			},
+			{
+				dwID = 5953,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·草药分拣台",
+			},
+			{
+				dwID = 5938,
+				aFocus = {
+					{
+						szDisplay = "炼药炉·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·炼药炉",
+			},
+			{
+				dwID = 5876,
+				aFocus = {
+					{
+						szDisplay = "曦芜花·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·曦芜花",
+			},
+			{
+				dwID = 5950,
+				aFocus = {
+					{
+						szDisplay = "毒圈·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·毒圈",
+			},
+			{
+				dwID = 5878,
+				szNote = "门派事件·种下的曦芜花",
+			},
+			{
+				dwID = 5923,
+				aFocus = {
+					{
+						szDisplay = "绷带药箱·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 4,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·绷带药箱",
+			},
+			{
+				dwID = 5952,
+				aFocus = {
+					{
+						szDisplay = "汤药炉·门派事件",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 4,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·汤药炉",
+			},
+			{
+				szName = "花苗",
+				aFocus = {
+					{
+						szDisplay = "花苗",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·花苗",
+				dwID = 5954,
+			},
+			{
+				szName = "花苗",
+				aFocus = {
+					{
+						szDisplay = "花苗",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·花苗",
+				dwID = 5955,
+			},
+			{
+				szName = "花苗",
+				aFocus = {
+					{
+						szDisplay = "花苗",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·花苗",
+				dwID = 5956,
+			},
+			{
+				dwID = 5951,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0.8,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·花盆",
+			},
+			{
+				dwID = 5883,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0.5,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·花盆",
+			},
+			{
+				dwID = 5884,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0.5,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派事件·花盆",
+			},
+		},
+	},
+}

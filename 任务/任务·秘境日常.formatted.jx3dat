@@ -1,0 +1,150 @@
+return {
+	BUFF = {},
+	CHAT = {
+		[-2] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 360,
+						key = "打包外食1",
+						nTime = 20,
+						szName = "记得打包·帮会外食",
+						nFrame = 2,
+						nClass = 20,
+					},
+					{
+						nIcon = 360,
+						key = "打包外食2",
+						nTime = 20,
+						szName = "记得打包·帮会外食",
+						nFrame = 2,
+						nClass = 20,
+					},
+				},
+				szContent = "你已接受了[大战！",
+				bSearch = true,
+			},
+		},
+		[5] = {
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 2,
+						szName = "秘境·灵霄峡·五人普通",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[鸿鹄·灵霄险恶]。\
+",
+			},
+		},
+		[16] = {
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 2,
+						szName = "秘境·无盐岛·五人普通",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[鸿鹄·无盐恶枭]。\
+",
+			},
+		},
+		[74] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 360,
+						key = "打包外食1",
+						nTime = 20,
+						szName = "记得打包·帮会外食",
+						nFrame = 2,
+						nClass = 20,
+					},
+					{
+						nIcon = 360,
+						key = "打包外食2",
+						nTime = 20,
+						szName = "记得打包·帮会外食",
+						nFrame = 2,
+						nClass = 20,
+					},
+				},
+				szContent = "你已接受了[大战！",
+				bSearch = true,
+			},
+		},
+		[153] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 360,
+						key = "打包外食1",
+						nTime = 20,
+						szName = "记得打包·帮会外食",
+						nFrame = 2,
+						nClass = 20,
+					},
+					{
+						nIcon = 360,
+						key = "打包外食2",
+						nTime = 20,
+						szName = "记得打包·帮会外食",
+						nFrame = 2,
+						nClass = 20,
+					},
+				},
+				szContent = "你已接受了[大战！",
+				bSearch = true,
+			},
+		},
+		[102] = {
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 2,
+						szName = "秘境·仙踪林·五人简单",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[鸿鹄·毒海仙踪]。\
+",
+			},
+		},
+		[7] = {
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 2,
+						szName = "秘境·空雾峰·五人普通",
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[鸿鹄·空雾风云]。\
+",
+			},
+		},
+	},
+	CASTING = {},
+	TALK = {},
+	NPC = {},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1785482920,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}

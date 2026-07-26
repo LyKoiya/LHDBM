@@ -1,183 +1,26 @@
 return {
-	BUFF = {
-		[713] = {
-			{
-				{
-					bScreenHead = true,
-				},
-				nLevel = 1,
-				bCheckLevel = true,
-				dwID = 32100,
-				szNote = "我要吃肉",
-				col = {
-					0,
-					255,
-					255,
-				},
-			},
-		},
-	},
-	CHAT = {
-		[713] = {
-			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "郝德",
-						nTime = "10,恶人·击退郝德;300,郝德·刷新剩余;310,郝德·已经刷新",
-						szName = "郝德·刷新剩余",
-						nRefresh = 0,
-						nFrame = 3,
-						nIcon = 13,
-					},
-				},
-				szNote = "恶人谷·击退·郝德",
-				szContent = "在恶人谷精英的协助下，首道成功击退了郝德。\
-",
-				col = {
-					255,
-					100,
-					100,
-				},
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "首道",
-						nTime = "10,浩气·击退首道;300,首道·刷新剩余;310,首道·已经刷新",
-						szName = "首道·刷新剩余",
-						nRefresh = 0,
-						nIcon = 13,
-						nFrame = 7,
-					},
-				},
-				szNote = "浩气盟·击退·首道",
-				szContent = "在浩气盟精英的协助下，郝德成功击退了首道。\
-",
-				col = {
-					100,
-					100,
-					255,
-				},
-			},
-		},
-	},
+	BUFF = {},
+	CHAT = {},
 	CASTING = {},
-	TALK = {
-		[713] = {
-			{
-				szContent = "在恶人谷精英的协助下，首道成功击退了郝德。",
-				col = {
-					255,
-					100,
-					100,
-				},
-				szNote = "浩气盟·郝德·被击退",
-				szTarget = "%",
-			},
-			{
-				szContent = "在浩气盟精英的协助下，郝德成功击退了首道。",
-				col = {
-					100,
-					100,
-					255,
-				},
-				szNote = "恶人谷·首道·被击退",
-				szTarget = "%",
-			},
-		},
-	},
+	TALK = {},
 	NPC = {
-		[713] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 134375,
-				aFocus = {
-					{
-						szDisplay = "谢铃儿·阵营前置",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "阵营前置·谢铃儿",
-				col = {
-					31,
-					230,
-					255,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 134374,
-				aFocus = {
-					{
-						szDisplay = "万兽王·阵营前置",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "阵营前置·万兽王",
-				col = {
-					255,
-					120,
-					31,
-				},
-			},
+		{
 			{
 				nFrame = 52,
 				[3] = {
 					bScreenHead = true,
 				},
-				dwID = 135296,
+				dwID = 1248,
 				aFocus = {
 					{
-						szDisplay = "恶人谷旗帜·阵营前置",
+						szDisplay = "布娃娃·隐藏任务",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
 							bEnemy = false,
 						},
 						dwMapID = -1,
-						nMaxDistance = 30,
+						nMaxDistance = 10,
 						tLife = {
 							szOperator = ">",
 							nValue = 0,
@@ -191,7 +34,38 @@ return {
 						},
 					},
 				},
-				szNote = "阵营前置·恶人谷旗帜",
+				szNote = "隐藏任务·布娃娃",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 1173,
+				aFocus = {
+					{
+						szDisplay = "阮氏·隐藏任务",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "隐藏任务·稻草人",
 				col = {
 					0,
 					255,
@@ -199,21 +73,21 @@ return {
 				},
 			},
 			{
-				nFrame = 52,
+				nFrame = 47,
 				[3] = {
 					bScreenHead = true,
 				},
-				dwID = 135297,
+				dwID = 1178,
 				aFocus = {
 					{
-						szDisplay = "浩气盟旗帜·阵营前置",
+						szDisplay = "王大·隐藏任务",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
 							bEnemy = false,
 						},
 						dwMapID = -1,
-						nMaxDistance = 30,
+						nMaxDistance = 20,
 						tLife = {
 							szOperator = ">",
 							nValue = 0,
@@ -227,7 +101,7 @@ return {
 						},
 					},
 				},
-				szNote = "阵营前置·浩气盟旗帜",
+				szNote = "隐藏任务·同粥共济",
 				col = {
 					0,
 					255,
@@ -239,17 +113,17 @@ return {
 				[3] = {
 					bScreenHead = true,
 				},
-				dwID = 135294,
+				dwID = 7138,
 				aFocus = {
 					{
-						szDisplay = "粮草堆·阵营前置",
+						szDisplay = "叶季良·隐藏任务",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
 							bEnemy = false,
 						},
 						dwMapID = -1,
-						nMaxDistance = 30,
+						nMaxDistance = 20,
 						tLife = {
 							szOperator = ">",
 							nValue = 0,
@@ -263,11 +137,11 @@ return {
 						},
 					},
 				},
-				szNote = "阵营前置·粮草堆",
+				szNote = "隐藏任务·叶季良",
 				col = {
 					0,
 					255,
-					255,
+					0,
 				},
 			},
 			{
@@ -275,17 +149,17 @@ return {
 				[3] = {
 					bScreenHead = true,
 				},
-				dwID = 135295,
+				dwID = 63,
 				aFocus = {
 					{
-						szDisplay = "粮草包·阵营前置",
+						szDisplay = "织女·窈窕淑女君子逑",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
 							bEnemy = false,
 						},
 						dwMapID = -1,
-						nMaxDistance = 30,
+						nMaxDistance = 10,
 						tLife = {
 							szOperator = ">",
 							nValue = 0,
@@ -299,11 +173,47 @@ return {
 						},
 					},
 				},
-				szNote = "阵营前置·粮草包",
+				szNote = "窈窕淑女君子逑",
 				col = {
 					0,
 					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 64493,
+				aFocus = {
+					{
+						szDisplay = "沈剑心·身无分文",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "身无分文·沈剑心",
+				col = {
+					0,
 					255,
+					0,
 				},
 			},
 			{
@@ -311,69 +221,7 @@ return {
 				[3] = {
 					bScreenHead = true,
 				},
-				dwID = 134463,
-				aFocus = {
-					{
-						szDisplay = "首道·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 90,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "前置·首道·浩气任务",
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 134462,
-				aFocus = {
-					{
-						szDisplay = "郝德·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 90,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "前置·郝德·恶人任务",
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 134778,
+				dwID = 64575,
 				aFocus = {
 					{
 						szDisplay = "",
@@ -397,7 +245,7 @@ return {
 						},
 					},
 				},
-				szNote = "休养的恶人谷弟子",
+				szNote = "沈剑心",
 				col = {
 					0,
 					255,
@@ -409,17 +257,17 @@ return {
 				[3] = {
 					bScreenHead = true,
 				},
-				dwID = 134779,
+				dwID = 27,
 				aFocus = {
 					{
-						szDisplay = "",
+						szDisplay = "余半仙·算命",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
 							bEnemy = false,
 						},
 						dwMapID = -1,
-						nMaxDistance = 6,
+						nMaxDistance = 10,
 						tLife = {
 							szOperator = ">",
 							nValue = 0,
@@ -433,7 +281,7 @@ return {
 						},
 					},
 				},
-				szNote = "休养的浩气盟弟子",
+				szNote = "余半仙",
 				col = {
 					0,
 					255,
@@ -442,13 +290,17 @@ return {
 			},
 			{
 				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 7134,
 				aFocus = {
 					{
-						szDisplay = "",
+						szDisplay = "鬼祟的村民·隐藏任务",
 						tRelation = {
 							bAlly = false,
-							bAll = false,
-							bEnemy = true,
+							bAll = true,
+							bEnemy = false,
 						},
 						dwMapID = -1,
 						nMaxDistance = 20,
@@ -465,18 +317,21 @@ return {
 						},
 					},
 				},
-				szNote = "正智堂精锐·恶人任务",
-				dwID = 135090,
+				szNote = "隐藏任务·鬼祟的村民",
 			},
 			{
 				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 60217,
 				aFocus = {
 					{
-						szDisplay = "",
+						szDisplay = "宋明·隐藏任务",
 						tRelation = {
 							bAlly = false,
-							bAll = false,
-							bEnemy = true,
+							bAll = true,
+							bEnemy = false,
 						},
 						dwMapID = -1,
 						nMaxDistance = 20,
@@ -493,8 +348,115 @@ return {
 						},
 					},
 				},
-				szNote = "兽王院精锐·浩气任务",
-				dwID = 135089,
+				szNote = "隐藏任务·宋明",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 46,
+				aFocus = {
+					{
+						szDisplay = "阿文·鱼腥草",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 8,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "鱼腥草·阿文",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 50,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 69,
+				aFocus = {
+					{
+						szDisplay = "阿武·鱼腥草",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 8,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "鱼腥草·阿武",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 60141,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "董龙",
 			},
 		},
 	},
@@ -503,32 +465,24 @@ return {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1778593274,
+		nTimeStamp = 1785410832,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
 	DOODAD = {
-		[713] = {
+		{
 			{
-				[17] = {
-					bScreenHead = true,
-				},
-				col = {
-					100,
-					255,
-					100,
-				},
-				dwID = 11500,
+				dwID = 4783,
 				aFocus = {
 					{
-						szDisplay = "雪界玉髓·阵营前置",
+						szDisplay = "",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
 							bEnemy = false,
 						},
 						dwMapID = -1,
-						nMaxDistance = 6,
+						nMaxDistance = 20,
 						tLife = {
 							szOperator = ">",
 							nValue = 0,
@@ -542,21 +496,175 @@ return {
 						},
 					},
 				},
-				szNote = "阵营前置·雪界玉髓",
+				szNote = "玉佩",
 			},
 			{
-				[17] = {
-					bScreenHead = true,
-				},
-				col = {
-					100,
-					255,
-					100,
-				},
-				dwID = 11463,
+				dwID = 1809,
 				aFocus = {
 					{
-						szDisplay = "烤肉架·阵营前置",
+						szDisplay = "药罐子·隐藏任务",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "隐藏任务·一个小药罐",
+			},
+			{
+				dwID = 7081,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "蒲团",
+			},
+			{
+				dwID = 7077,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "奇怪的矿石",
+			},
+			{
+				dwID = 4626,
+				aFocus = {
+					{
+						szDisplay = "香囊·隐藏任务",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "隐藏任务·香囊",
+			},
+			{
+				dwID = 4788,
+				aFocus = {
+					{
+						szDisplay = "告示三·无食我黍",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "告示三",
+			},
+			{
+				dwID = 1808,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 3,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "野菊花",
+			},
+			{
+				dwID = 20,
+				aFocus = {
+					{
+						szDisplay = "",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
@@ -577,7 +685,7 @@ return {
 						},
 					},
 				},
-				szNote = "阵营前置·烤肉架",
+				szNote = "野菜",
 			},
 		},
 	},
