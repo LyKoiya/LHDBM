@@ -1,0 +1,35 @@
+return {
+	NPC = {
+		[-6] = {
+			{dwID=104994,szNote="记忆碎片",nFrame=47,[3]={bCenterAlarm=true},aFocus={{}}},
+			{dwID=103852,szNote="装备宝箱",nFrame=52,aFocus={{tLife={nValue=0,bEnable=false,szOperator=">"},tRelation={bAlly=false,bAll=true,bEnemy=false},szDisplay="",tType={[3]=false,bAll=true,[5]=false,[4]=false},nMaxDistance=30,dwMapID=-1}}},
+			{dwID=103856,szNote="队伍增益宝箱",nFrame=52,aFocus={{tLife={nValue=0,bEnable=false,szOperator=">"},tRelation={bAlly=false,bAll=true,bEnemy=false},szDisplay="",tType={[3]=false,bAll=true,[5]=false,[4]=false},nMaxDistance=30,dwMapID=-1}}},
+			{dwID=104997,szNote="神宫奈叶",nFrame=47,[3]={bScreenHead=true},aFocus={{tLife={nValue=0,bEnable=false,szOperator=">"},tRelation={bAlly=false,bAll=true,bEnemy=false},szDisplay="",tType={[3]=false,bAll=true,[5]=false,[4]=false},nMaxDistance=30,dwMapID=-1}},col={0,255,0}},
+			{dwID=104374,szNote="神宫奈叶",nFrame=47,aFocus={{}}},
+			{dwID=67086,szNote="言术",nFrame=47,[3]={bScreenHead=true},aFocus={{tLife={nValue=0,bEnable=false,szOperator=">"},tRelation={bAlly=false,bAll=true,bEnemy=false},szDisplay="",tType={[3]=false,bAll=true,[5]=false,[4]=false},nMaxDistance=120,dwMapID=-1}},col={0,255,0}},
+		},
+	},
+	TALK = {},
+	CHAT = {
+		[-6] = {
+			{szContent="在《浪客行》中闯过六个关卡",bSearch=true},
+			{szContent="你已进入地图",tCountdown={{nIcon=13,nClass=20,key="阵营模式",nTime=-1,szName="阵营模式"},{nIcon=13,nClass=20,key="绣球花",nTime=-1,szName="绣球花"},{nIcon=13,nClass=20,key="郁金香",nTime=-1,szName="郁金香"},{nIcon=13,nClass=20,key="牵牛花",nTime=-1,szName="牵牛花"},{nIcon=13,nClass=20,key="金水镇",nTime=-1,szName="金水镇"},{nIcon=13,nClass=20,key="巴陵县",nTime=-1,szName="巴陵县"},{nIcon=13,nClass=20,key="龙门荒漠",nTime=-1,szName="龙门荒漠"},{nIcon=13,nClass=20,key="南屏山",nTime=-1,szName="南屏山"},{nIcon=13,nClass=20,key="昆仑",nTime=-1,szName="昆仑"},{nIcon=13,nClass=20,key="白龙口",nTime=-1,szName="白龙口"},{nIcon=13,nClass=20,key="无量山",nTime=-1,szName="无量山"},{nIcon=13,nClass=20,key="黑龙沼",nTime=-1,szName="黑龙沼"},{nIcon=13,nClass=20,key="阴山大草原",nTime=-1,szName="阴山大草原"},{nIcon=13,nClass=20,key="黑戈壁",nTime=-1,szName="黑戈壁"},{nIcon=13,nClass=20,key="鲲鹏岛",nTime=-1,szName="鲲鹏岛"},{nIcon=13,nClass=20,key="阵营活动",nTime=-1,nRefresh=99999,szName="阵营活动"},{nIcon=13,nClass=20,key="通用事件",nTime=-1,nRefresh=99999,szName="通用事件"},{nIcon=13,nClass=20,key="打断监控",nTime=-1,nRefresh=99999,szName="打断监控"},{nIcon=13,nClass=20,key="无威胁监控",nTime=-1,nRefresh=99999,szName="无威胁监控"},{nIcon=13,nClass=20,key="驱散监控",nTime=-1,nRefresh=99999,szName="驱散监控"},{nIcon=13,nClass=20,key="玩家驱友技能",nTime=-1,nRefresh=99999,szName="玩家驱友技能"},{nIcon=13,nClass=20,key="玩家打断技能",nTime=-1,nRefresh=99999,szName="玩家打断技能"},{nIcon=13,nClass=20,key="玩家击退技能",nTime=-1,nRefresh=99999,szName="玩家击退技能"},{nIcon=13,nClass=20,key="玩家驱敌技能",nTime=-1,nRefresh=99999,szName="玩家驱敌技能"},{nIcon=13,nClass=20,key="玩家无仇技能",nTime=-1,nRefresh=99999,szName="玩家无仇技能"},{nIcon=13,nClass=20,key="减伤监控",nTime=-1,nRefresh=99999,szName="减伤监控"},{nIcon=13,nClass=20,key="化解监控",nTime=-1,bHold=true,nRefresh=99999,szName="化解监控"}},bSearch=true},
+		},
+	},
+	DOODAD = {
+		[-6] = {
+			{dwID=8916,szNote="补给宝箱",aFocus={{tLife={nValue=0,bEnable=false,szOperator=">"},tRelation={bAlly=false,bAll=true,bEnemy=false},szDisplay="",tType={[3]=false,bAll=true,[5]=false,[4]=false},nMaxDistance=30,dwMapID=-1}}},
+			{dwID=8175,szNote="奖励包裹",aFocus={{}},[17]={bCenterAlarm=true}},
+			{dwID=7898,szNote="浮生醉",aFocus={{tLife={nValue=0,bEnable=false,szOperator=">"},tRelation={bAlly=false,bAll=true,bEnemy=false},szDisplay="",tType={[3]=false,bAll=true,[5]=false,[4]=false},nMaxDistance=20,dwMapID=-1}},[17]={bCenterAlarm=true}},
+			{dwID=7846,szNote="珍稀宝箱",aFocus={{}},[17]={bCenterAlarm=true}},
+			{dwID=7862,szNote="宝箱",aFocus={{}},[17]={bCenterAlarm=true}},
+		},
+	},
+	CASTING = {},
+	BUFF = {},
+	DEBUFF = {
+		[-6] = {
+			{{bBuffList=true},nIcon=12849,szNote="舞众生",col={255,255,100},nScrutinyType=1,nLevel=1,dwID=16791,szName="舞众生"},
+		},
+	},
+}

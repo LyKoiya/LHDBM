@@ -1,0 +1,56 @@
+return {
+	DOODAD = {},
+	NPC = {
+		[44] = {
+			{dwID=6172,aFocus={{tLife={nValue=100,szOperator="<",bEnable=true},dwMapID=-1,nMaxDistance=30,tType={[3]=false,[4]=false,[5]=false,bAll=true},tRelation={bEnemy=true,bAll=false,bAlly=false},szDisplay=""}},nFrame=47,szNote="源氏阴阳师"},
+			{aFocus={{}},szNote="尸灵武者",dwID=6306,nFrame=47,tCountdown={{key="P1",nIcon=13,nClass=7,nTime=0},{key="P2",nIcon=13,nClass=7,nTime=0}}},
+			{tCountdown={{nFrame=7,nIcon=1484,nTime=48,szName="水之轮回·回血",key="P1",nClass=3,nRefresh=48}},szNote="水_轨迹",nFrame=47,dwID=6385},
+			{tCountdown={{nFrame=3,nIcon=537,nTime=48,szName="大地的颤抖·锁足",key="P1",nClass=3,nRefresh=48}},szNote="地_轨迹",nFrame=47,dwID=6383},
+			{dwID=6381,szNote="风_轨迹",nFrame=47,tCountdown={{nFrame=4,nIcon=2022,nTime=48,szName="风的咆哮·眩晕",key="P1",nClass=3,nRefresh=48}}},
+			{dwID=6379,szNote="火_轨迹",nFrame=47,tCountdown={{nFrame=0,nIcon=657,nTime=48,szName="火的蔓延·停手",key="P1",nClass=3,nRefresh=48}}},
+			{aFocus={{tLife={nValue=0,szOperator=">",bEnable=false},dwMapID=-1,nMaxDistance=60,tType={[3]=false,[4]=false,[5]=false,bAll=true},tRelation={bEnemy=false,bAll=true,bAlly=false},szDisplay=""}},szNote="谢云流",dwID=6305,nFrame=47,tCountdown={{key="P1",nIcon=13,nClass=7,nTime=-2}}},
+			{aFocus={{tLife={nValue=0,szOperator=">",bEnable=false},dwMapID=-1,nMaxDistance=30,tType={[3]=false,[4]=false,[5]=false,bAll=true},tRelation={bEnemy=false,bAll=true,bAlly=false},szDisplay=""}},[3]={tMark={false,true,true}},szNote="服部胧藏",nFrame=47,dwID=6278},
+			{aFocus={{tLife={nValue=0,szOperator=">",bEnable=false},dwMapID=-1,nMaxDistance=30,tType={[3]=false,[4]=false,[5]=false,bAll=true},tRelation={bEnemy=false,bAll=true,bAlly=false},szDisplay=""}},[3]={bCenterAlarm=true},szNote="包裹",nFrame=47,dwID=6598},
+			{aFocus={{tLife={nValue=0,szOperator=">",bEnable=false},dwMapID=-1,nMaxDistance=60,tType={[3]=false,[4]=false,[5]=false,bAll=true},tRelation={bEnemy=false,bAll=true,bAlly=false},szDisplay=""}},szNote="野村一郎",dwID=6279,nFrame=47,tCountdown={{key="P1",nIcon=13,nClass=7,nTime=-2}}},
+			{aFocus={{tLife={nValue=0,szOperator=">",bEnable=false},dwMapID=-1,nMaxDistance=60,tType={[3]=false,[4]=false,[5]=false,bAll=true},tRelation={bEnemy=true,bAll=false,bAlly=false},szDisplay=""}},[3]={tMark={true}},dwID=6181,szNote="服部胧藏",nFrame=47,tCountdown={{key="P1",nIcon=13,nClass=7,nTime=-2}}},
+		},
+	},
+	CASTING = {
+		[44] = {
+			{[9]={bCenterAlarm=true},nLevel=15,dwID=1454},
+			{[9]={bCenterAlarm=true},nLevel=15,dwID=1458},
+			{[9]={bCenterAlarm=true},nLevel=15,dwID=1460},
+			{[9]={bCenterAlarm=true},dwID=1456,nLevel=15,tCountdown={{nFrame=0,nTime=30,szName="火的蔓延·注意停手！",key="P2",nClass=9,nIcon=651}}},
+			{[9]={bCenterAlarm=true},dwID=1468,nLevel=15,tCountdown={{nFrame=7,nTime=12,szName="突刺",key="P1",nClass=9,nIcon=638}}},
+			{[8]={bCenterAlarm=true},dwID=1470,nLevel=15,tCountdown={{nFrame=6,nTime=22,szName="疗伤·CD",key="P1",nClass=8,nIcon=1483}}},
+			{[9]={bCenterAlarm=true},nLevel=15,dwID=1469},
+			{[9]={bCenterAlarm=true},nLevel=10,dwID=918},
+		},
+	},
+	DEBUFF = {
+		[44] = {
+			{{bTeamPanel=true,bBuffList=true},tKungFu={["SKILL#10447"]=true,["SKILL#10014"]=true,["SKILL#10626"]=true,["SKILL#10627"]=true,["SKILL#10003"]=true,["SKILL#10021"]=true,["SKILL#10176"]=true,["SKILL#10448"]=true,["SKILL#10002"]=true,["SKILL#10081"]=true,["SKILL#10821"]=true,["SKILL#10786"]=true,["SKILL#10080"]=true,["SKILL#10028"]=true,["SKILL#10615"]=true,["SKILL#10225"]=true,["SKILL#10243"]=true,["SKILL#10175"]=true,["SKILL#10242"]=true,["SKILL#10015"]=true},nLevel=1,szNote="封诅",szName="封内·封诅",col={165,96,232},aCataclysmBuff={{col="#A560E8FF",szReminder="封",bScreenHead=false,nPriority=4}},dwID=1042},
+			{{bTeamPanel=true,bBuffList=true,bPartyBuffList=true},nLevel=1,szNote="蔓延之火",aCataclysmBuff={{nPriority=5,nColAlpha=255,bAttention=false,col="#CE55FDFF",szReminder="火"}},col={206,85,223},dwID=1516},
+			{{bBuffList=true},nLevel=1,szNote="炎珠",col={206,85,223},dwID=1051},
+			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},nLevel=1,szNote="风的咆哮",aCataclysmBuff={{bScreenHead=true,nPriority=13,col="#FFFF00FF",szReminder="晕",nColAlpha=255}},col={255,255,0},dwID=1521},
+			{{bBuffList=true},nLevel=1,szNote="大地的颤抖",szName="锁足·颤抖",col={31,63,255},dwID=1519},
+			{{bFullScreen=true,bScreenHead=true,bPartyBuffList=true,bTeamPanel=true,bBuffList=true},nLevel=1,szNote="激怒",aCataclysmBuff={{bCaution=true,bScreenHead=true,nPriority=1,szReminder="怒",col="#FF32FFFF",bAttention=true,colScreenHead="#FF32FF"}},col={255,50,255},dwID=1524,tCountdown={{nIcon=2028,nTime=22.5,szName="激怒·点名出二十尺",key="P1",nClass=1,nFrame=3}}},
+			{{bTeamPanel=true,bScreenHead=true,bBuffList=true},nLevel=1,szNote="三才化生",szName="定身·三才化生",col={255,255,0},aCataclysmBuff={{bScreenHead=true,nColAlpha=255,col="#FFFF00FF",nPriority=14,szReminder="定"}},dwID=1630},
+			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},nLevel=1,szNote="眩晕",aCataclysmBuff={{bScreenHead=true,nPriority=13,col="#FFFF00FF",szReminder="晕",nColAlpha=255}},col={255,255,0},dwID=1531},
+			{{bScreenHead=true,bBuffList=true},szNote="水影",col={255,255,0},nLevel=1,dwID=1052},
+		},
+	},
+	CHAT = {},
+	BUFF = {},
+	TALK = {
+		[44] = {
+			{szContent="让我们开始吧！",szTarget="源明雅",tCountdown={{nTime=23,szName="尸灵武者·剧情剩余",key="剧情提示",nClass=14,nIcon=13}}},
+			{szContent="小心前面的陷阱！",szTarget="源明雅",tCountdown={{nIcon=13,nTime=-1,szName="P1",key="P1",nClass=14,nRefresh=2},{nTime=13,szName="陷阱·解除剩余",key="剧情提示",nClass=14,nIcon=13}}},
+			{szContent="山洞里的陷阱各式各样，一定要小心，我先走一步。",szTarget="源明雅",tCountdown={{nTime=2,szName="陷阱·已经解除",key="剧情提示",nClass=14,nIcon=13}}},
+			{szContent="看来我抢先了一步，哈哈哈……",szTarget="服部胧藏",tCountdown={{nTime=0,szName="P1",key="P1",nClass=14,nIcon=13}}},
+			{szContent="源明雅，你真的还没死！！",szTarget="阿麻吕",tCountdown={{nTime=38,szName="野村一郎·剧情剩余",key="剧情提示",nClass=14,nIcon=13}}},
+			{szContent="今天怎么这么热闹，我会好好款待你们的！",szTarget="野村一郎",tCountdown={{nTime=15,szName="野村一郎·剧情剩余",key="剧情提示",nClass=14,nIcon=13}}},
+			{[14]={bCenterAlarm=true},szNote="上去攻击·野村一郎·BOSS",szContent="这里我们先顶住！快走",szTarget="源明雅",tCountdown={{nTime=2,szName="上去攻击·野村一郎",key="剧情提示",nClass=14,nIcon=13}}},
+		},
+	},
+}

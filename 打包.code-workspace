@@ -8,9 +8,9 @@
 		"files.associations": {
 			"*.jx3dat": "lua" // 将 *.jx3dat 文件关联为 Lua 类型
 		},
-		// 普通lua脚本：强制GB18030
+		// 普通lua脚本：强制GBK
 		"[lua]": {
-		"files.encoding": "gb18030",
+		"files.encoding": "gbk",
 		"files.autoGuessEncoding": false
 		},
 		
@@ -18,12 +18,13 @@
 		"encoding-guard.patternMap": {
 		// 支持glob匹配模式
 		"**/*zhtw*.jx3dat": "utf8",
-		"**/*zhcn*.jx3dat": "gb18030",
-		"**/*.formatted.jx3dat": "gb18030",
+		"**/*zhcn*.jx3dat": "gbk",
+		"**/*.formatted.jx3dat": "gbk",
 		"**/*zhtw*.lua": "utf8",
 		"**/*zhtw*.txt": "utf8",
 		"**/*.ini.zh_TW": "utf8",
-		"**/*.ini": "gb18030",
+		"**/*.ini": "gbk",
+		"**/*.txt": "gbk",
 		}
 	}
 }

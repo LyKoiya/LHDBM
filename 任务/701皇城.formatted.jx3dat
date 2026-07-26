@@ -154,20 +154,6 @@ return {
 					bBuffList = true,
 				},
 			},
-			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 17630,
-				szNote = "ÄýÉñ",
-				[1] = {
-					bBuffList = true,
-				},
-			},
 		},
 	},
 	__meta = {

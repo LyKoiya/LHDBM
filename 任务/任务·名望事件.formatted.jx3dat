@@ -1,0 +1,5914 @@
+return {
+	BUFF = {
+		[-7] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 5,
+						key = "合心·我心悠悠",
+						nTime = 0,
+						szName = "合心·我心悠悠",
+						nClass = 1,
+						nIcon = 21604,
+					},
+					{
+						nFrame = 2,
+						key = "合心·我心悠悠",
+						nTime = 60,
+						szName = "云从社香膏·已消失",
+						nClass = 2,
+						nIcon = 21604,
+					},
+				},
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 27657,
+				nLevel = 1,
+			},
+		},
+	},
+	CHAT = {
+		[647] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "特殊事件1",
+						nTime = 60,
+						szName = "引猪出洞·开启",
+						nIcon = 13,
+						nClass = 20,
+					},
+				},
+				szContent = "侠士一不留心打碎了哗哗洞里的酒坛，浓烈的酒香引来野猪王的觊觎！\
+",
+				[20] = {
+					szVoice = "ZhuanJieDuan",
+				},
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "特殊事件1",
+						nTime = 60,
+						szName = "引猪出洞·开启",
+						nIcon = 13,
+						nClass = 20,
+					},
+				},
+				szContent = "侠士一不留心打碎了酒坛，浓烈的酒香引来野猪王的觊觎！\
+",
+				[20] = {
+					szVoice = "ZhuanJieDuan",
+				},
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "特殊事件1",
+						nTime = 60,
+						szName = "击退狼王·开启",
+						nIcon = 13,
+						nClass = 20,
+					},
+				},
+				szContent = "侠士驱除狼群时，狼群发出怒吼，狼王于洞内现身！\
+",
+				[20] = {
+					szVoice = "ZhuanJieDuan",
+				},
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "特殊事件1",
+						nTime = 60,
+						szName = "巨猿之谜·开启",
+						nIcon = 13,
+						nClass = 20,
+					},
+				},
+				szContent = "侠士驱逐的雪原豹中有一只在逃跑时误入巨猿王领地，雪山巨猿王于玉英谷深处现身！\
+",
+				[20] = {
+					szVoice = "ZhuanJieDuan",
+				},
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "特殊事件1",
+						nTime = 60,
+						szName = "护送药材·开启",
+						nIcon = 13,
+						nClass = 20,
+					},
+				},
+				szContent = "云从社线报：宋家将于隐者客栈下行山路运送一车药材下山，药田管事宋松预感此行不顺，请诸位侠士前往护送！\
+",
+				[20] = {
+					szVoice = "ZhuanJieDuan",
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "特殊事件1",
+						nTime = 60,
+						szName = "迷途羊羔·开启",
+						nIcon = 13,
+						nClass = 20,
+					},
+				},
+				szContent = "云从社线报：秦强的羊在风雪天走失，正在焦急寻找中！\
+",
+				[20] = {
+					szVoice = "ZhuanJieDuan",
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "特殊事件1",
+						nTime = 60,
+						szName = "退敌首·韩清芒刷新",
+						nIcon = 13,
+						nClass = 20,
+					},
+				},
+				szContent = "云从社线报：绳池剑宗韩清芒正于玉英谷掩护鬼筹进行堪舆，请诸位侠士前往查探！\
+",
+				[20] = {
+					szVoice = "ZhuanJieDuan",
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "特殊事件1",
+						nTime = 60,
+						szName = "恶斗争锋·雷阎刷新",
+						nIcon = 13,
+						nClass = 20,
+					},
+				},
+				szContent = "云从社线报：血月众雷阎出现在洞心坪！\
+",
+				[20] = {
+					szVoice = "ZhuanJieDuan",
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "特殊事件1",
+						nTime = 60,
+						szName = "夺田恶霸·开启",
+						nIcon = 13,
+						nClass = 20,
+					},
+				},
+				szContent = "云从社线报：鲍猴子正在前往青牛谷药田，他要向",
+				[20] = {
+					szVoice = "ZhuanJieDuan",
+				},
+				bSearch = true,
+			},
+		},
+	},
+	CASTING = {},
+	TALK = {
+		[579] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【04分】镇海阁东北·保护庄稼",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【14分】孙氏船场·村长请求",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【商家劫难】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【11分】黄崎帮·商家劫难",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【14分】孙氏船场·村长请求",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【祈送吉船】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【22分】流木村·阻止借贷",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【25分】斧斤帮西·拯救村民",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【村长寻人】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【25分】斧斤帮西·拯救村民",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【30分】楚州·山阳村",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【阻止借贷】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【08分】镇海阁东·祈送吉船",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【11分】黄崎帮·商家劫难",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【保护庄稼】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【30分】楚州·山阳村",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【35分】末口镇·保卫难民",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠3",
+						nTime = 1800,
+						szName = "【40分】盐场西·护送盐车",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【强敌来阻】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "名望事件1",
+						nTime = 61,
+						szName = "雷成·刷新",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【拯救村民】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "名望事件1",
+						nTime = 10,
+						szName = "保护庄稼·开启",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "有人能帮帮我吗？",
+				szTarget = "赵大姐",
+			},
+		},
+		[581] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【35分】末口镇·保卫难民",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【38分】南辕镇·为民除害",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【援护山阳】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【38分】南辕镇·为民除害",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【40分】盐场西·护送盐车",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠3",
+						nTime = 1800,
+						szName = "【45分】南辕镇·打曹阳辉",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【保卫难民】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【50分】永宁寺·打徐啸",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【54分】平陵丘西·闯入大营",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠3",
+						nTime = 0,
+						szName = "行侠3",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【护送盐车】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "名望事件1",
+						nTime = 59,
+						szName = "曹阳辉·刷新",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "秦四小儿！既然刘会首得不到，你们也别想要这烂摊子了！",
+				szTarget = "曹阳辉",
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "名望事件1",
+						nTime = 10,
+						szName = "盐车·结算剩余",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【50分】永宁寺·打徐啸",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【54分】平陵丘西·闯入大营",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠3",
+						nTime = 0,
+						szName = "行侠3",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【南辕恶霸】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "名望事件1",
+						nTime = 59,
+						szName = "徐啸·刷新",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "乖乖把宝物交出来！不然大爷我砸了你这破庙！",
+				szTarget = "徐啸",
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【54分】平陵丘西·闯入大营",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【00分】烂柯山·溪明镇",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠3",
+						nTime = 0,
+						szName = "行侠3",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【稀世珍宝】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "名望事件1",
+						nTime = 10,
+						szName = "留意盐车·结算",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【50分】永宁寺·打徐啸",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【54分】平陵丘西·闯入大营",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠3",
+						nTime = 0,
+						szName = "行侠3",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【为民除害】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【00分】烂柯山·溪明镇",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【09分】凌天寺·打裘合韧",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠3",
+						nTime = 0,
+						szName = "行侠3",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【闯入大营】",
+				bSearch = true,
+			},
+		},
+		[580] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【09分】凌天寺·打裘合韧",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【14分】蚩首山鬼市·打高百碗",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠3",
+						nTime = 1800,
+						szName = "【17分】凌天寺东·安济善坊",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【上元灯节·击退黄仁笑】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【14分】蚩首山鬼市·打高百碗",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【17分】凌天寺东·安济善坊",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠3",
+						nTime = 1800,
+						szName = "【23分】溪明镇·一家独大",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【凌天塔·再战凌天】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【17分】凌天寺东·安济善坊",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【23分】溪明镇·一家独大",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠3",
+						nTime = 1800,
+						szName = "【30分】晟江·黄槲镇",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【凤凰集·醉酒闹事】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【23分】溪明镇·一家独大",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【30分】晟江·黄槲镇",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠3",
+						nTime = 1800,
+						szName = "【34分】白菰里西·打林司豪",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【安济善坊·击败镜栖】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【30分】晟江·黄槲镇",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【34分】白菰里西·打林司豪",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠3",
+						nTime = 1800,
+						szName = "【38分】白菰里南·打黄七",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【一家独大·卜家工头】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "名望事件1",
+						nTime = 10,
+						szName = "保护花灯·开启",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【上元灯节·点燃烟花】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "名望事件1",
+						nTime = 63,
+						szName = "黄仁笑·刷新",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【上元灯节·保护花灯】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "名望事件1",
+						nTime = 62,
+						szName = "镜栖·刷新",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【安济善坊·帮助安济坊】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "名望事件1",
+						nTime = 10,
+						szName = "物归原主·开启",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【一家独大·安抚工人】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "名望事件1",
+						nTime = 63,
+						szName = "卜工头刷新",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【一家独大·物归原主】",
+				bSearch = true,
+			},
+		},
+		[582] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【34分】白菰里西·打林司豪",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【38分】白菰里南·打黄七",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【檐上君子】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "名望事件1",
+						nTime = 59,
+						szName = "林司豪刷新",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "宋德光，还我大哥命来！",
+				szTarget = "林司豪",
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【38分】白菰里南·打黄七",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【56分】白菰里南·打黄七",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【深仇大恨】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "名望事件1",
+						nTime = 59,
+						szName = "黄七·刷新",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "喝完酒，泡个澡！美哉，美哉！",
+				szTarget = "黄七",
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【42分】白菰里北·护送镖车",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【00分】百溪·黄崎帮",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【恶霸出浴】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【48分】正觉寺·鱼目混珠",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【52分】白菰里西·打林司豪",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【护送镖车】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【52分】白菰里西·打林司豪",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【56分】白菰里南·打黄七",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "【鱼目混珠】",
+				bSearch = true,
+			},
+		},
+		[647] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【06分】葫芦湖·寒山钓客",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【12分】葫芦湖·吞舟巨鳗",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szNote = "双数00分 青牛谷",
+				szContent = "【保全药田】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【12分】葫芦湖·吞舟巨鳗",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【16分】葫芦湖北·平宵小",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szNote = "双数06分 葫芦湖",
+				szContent = "【寒山钓客】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【16分】葫芦湖北·平宵小",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【20分】双峦洞·挟持威迫",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szNote = "双数12分 葫芦湖",
+				szContent = "【吞舟巨鳗】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "名望事件1",
+						nTime = 60,
+						szName = "平宵小·开启",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "那个风水术士心性不正，速速阻止他！",
+				szTarget = "尹拓",
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【20分】双峦洞·挟持威迫",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【26分】双峦洞·打李北辕",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szNote = "双数16分 葫芦湖北",
+				szContent = "【堪舆密谋·平宵小】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【26分】双峦洞·打李北辕",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【30分】小青峰·打理羊舍",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szNote = "双数20分 双峦洞",
+				szContent = "【挟持威迫】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【30分】小青峰·打理羊舍",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【35分】小青峰西·诛外寇",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szNote = "双数26分 双峦洞",
+				szContent = "【膺惩恶首】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【35分】小青峰西·诛外寇",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【41分】双峦洞北·破法阵",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szNote = "双数30分 小青峰",
+				szContent = "【打理羊舍】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【41分】双峦洞北·破法阵",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【55分】小青峰·恶狼为祸",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szNote = "双数35分 小青峰西",
+				szContent = "【堪舆密谋·诛外寇】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【55分】小青峰·恶狼为祸",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【01分】秦氏祖墓·摸金倒斗",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szNote = "双数41分 双峦洞北",
+				szContent = "【堪舆密谋·破法阵】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【01分】秦氏祖墓·摸金倒斗",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【06分】秦氏祖墓南·打刘细",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szNote = "双数55分 小青峰",
+				szContent = "【恶狼为祸】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【06分】秦氏祖墓南·打刘细",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【10分】祖墓东南·香火遭劫",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szNote = "单数01分 秦氏祖墓",
+				szContent = "【摸金倒斗】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【10分】祖墓东南·香火遭劫",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【18分】凉天观东北·新仇旧恨",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szNote = "单数06分 秦氏祖墓南",
+				szContent = "【扬武耀威】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【18分】凉天观东北·新仇旧恨",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【25分】瑶华峰北·因果循环",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szNote = "单数10分 秦氏祖墓东南",
+				szContent = "【香火遭劫】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【25分】瑶华峰北·因果循环",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【31分】七返泉东·松林凶影",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szNote = "单数18分 凉天观东北",
+				szContent = "【新仇旧恨】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【31分】七返泉东·松林凶影",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【37分】瑶华峰东·打张常心",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szNote = "单数25分 瑶华峰北",
+				szContent = "【因果循环】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【37分】瑶华峰东·打张常心",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【42分】玉英谷·豹据一方",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szNote = "单数31分 七返泉东",
+				szContent = "【松林凶影】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【42分】玉英谷·豹据一方",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【47分】玉英谷西北·患难与共",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szNote = "单数37分 瑶华峰东",
+				szContent = "【恶有恶报】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【47分】玉英谷西北·患难与共",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【00分】青牛谷·保全药田",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szNote = "单数42分 玉英谷",
+				szContent = "【豹据一方】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "行侠1",
+						nTime = 1800,
+						szName = "【00分】青牛谷·保全药田",
+						nIcon = 13,
+						nClass = 14,
+					},
+					{
+						nFrame = 4,
+						key = "行侠2",
+						nTime = 1800,
+						szName = "【06分】葫芦湖·寒山钓客",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szNote = "单数47分 玉英谷西北",
+				szContent = "【患难与共】",
+				bSearch = true,
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "名望事件1",
+						nTime = 60,
+						szName = "患难与共·开启",
+						nIcon = 13,
+						nClass = 14,
+					},
+				},
+				szContent = "输了便输了！以此为由围攻我堂兄，费某绝不允许！",
+				szTarget = "费大劲",
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "公共事件·结算",
+						nTime = 20,
+						szName = "行侠·云从社·已达日上限",
+						nIcon = 13553,
+						nClass = 14,
+					},
+				},
+				szContent = "本日的‘行侠·云从社’奖励已全部获取。",
+			},
+		},
+	},
+	NPC = {
+		[579] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 112746,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 40,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				dwID = 122942,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 123042,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 10,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 40,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+				dwID = 113770,
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+				dwID = 113838,
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 40,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+				dwID = 113841,
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+				dwID = 113773,
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 40,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+				dwID = 113839,
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+				dwID = 113771,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+				dwID = 113767,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+				dwID = 113834,
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+				dwID = 113842,
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 113843,
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+				dwID = 113764,
+			},
+			{
+				nFrame = 47,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 112960,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+			},
+			{
+				nFrame = 47,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 112398,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 112993,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 20,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 112682,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 20,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+			},
+			{
+				nFrame = 47,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 112765,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 20,
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+				dwID = 112744,
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 112756,
+				szNote = "行侠·楚天社",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 112757,
+				szNote = "行侠·楚天社",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 112758,
+				szNote = "行侠·楚天社",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 112759,
+				szNote = "行侠·楚天社",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 112763,
+				szNote = "行侠·楚天社",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 112760,
+				szNote = "行侠·楚天社",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 112761,
+				szNote = "行侠·楚天社",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 112762,
+				szNote = "行侠·楚天社",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 112764,
+				szNote = "行侠·楚天社",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+				dwID = 113759,
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 127988,
+				aFocus = {
+					{
+						szDisplay = "曹符天·换线人",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 40,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "诛恶事件",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 113769,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 20,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 113772,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 20,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 113837,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 20,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 113840,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 20,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 20,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+				dwID = 113845,
+			},
+		},
+		[581] = {
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 122942,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 123042,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 10,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+				dwID = 122237,
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+				dwID = 113054,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 50,
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+				dwID = 123026,
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 113058,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 113041,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+			},
+			{
+				nFrame = 47,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 113230,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 113561,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 20,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 113560,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 20,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 113637,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 113734,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+			},
+			{
+				nFrame = 47,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 113735,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 127988,
+				aFocus = {
+					{
+						szDisplay = "曹符天·换线人",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 40,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "诛恶事件",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+		},
+		[673] = {
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 131973,
+				aFocus = {
+					{
+						szDisplay = "黄沙远·游货商",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 6,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "诛恶事件·黄沙远·游货商人",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 52,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 132120,
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件·披风会·诛恶宝箱",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+		},
+		[580] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 112877,
+				aFocus = {
+					{
+						szDisplay = "受伤的工人",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 3,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 122942,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 123042,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 10,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 112980,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 111436,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+				dwID = 112833,
+			},
+			{
+				nFrame = 47,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 112768,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+			},
+			{
+				nFrame = 47,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 112940,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+			},
+			{
+				nFrame = 47,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 112896,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 112979,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 20,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 20,
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+				dwID = 112897,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+				dwID = 113869,
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 127988,
+				aFocus = {
+					{
+						szDisplay = "曹符天·换线人",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 40,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "诛恶事件",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 113806,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 113803,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 20,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 20,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+				dwID = 113819,
+			},
+		},
+		[582] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 113801,
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 113765,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 24,
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+				},
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 113043,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				dwID = 112822,
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = "<",
+							nValue = 100,
+							bEnable = true,
+						},
+						nMaxDistance = 20,
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 10,
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+				},
+				dwID = 122251,
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = "<",
+							nValue = 100,
+							bEnable = true,
+						},
+						nMaxDistance = 20,
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 10,
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+				},
+				dwID = 122077,
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 20,
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 10,
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+				},
+				dwID = 122288,
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				dwID = 122293,
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				dwID = 122942,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 123042,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 10,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 65,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 112796,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 112793,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 112791,
+				aFocus = {
+					{
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 20,
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "行侠·楚天社",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 127988,
+				aFocus = {
+					{
+						szDisplay = "曹符天·换线人",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 40,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "诛恶事件",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+		},
+		[647] = {
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 123625,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 125559,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				dwID = 123469,
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 123473,
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 124008,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 124449,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = "<",
+							nValue = 100,
+							bEnable = true,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+				},
+				dwID = 124452,
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 124454,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+				},
+				dwID = 125613,
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 124463,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 125539,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 50,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 124041,
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = "<",
+							nValue = 100,
+							bEnable = true,
+						},
+						tRelation = {
+							bAlly = true,
+							bAll = true,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						szDisplay = "李熹延·解锁周常",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 10,
+					},
+				},
+				nFrame = 47,
+				dwID = 123588,
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = "<",
+							nValue = 100,
+							bEnable = true,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+				},
+				dwID = 125494,
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 124459,
+				aFocus = {
+					{
+						szDisplay = "收乌龟·初九",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 65,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 126139,
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 65,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 124458,
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				nFrame = 47,
+				dwID = 125430,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = "<",
+							nValue = 100,
+							bEnable = true,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+				},
+				nFrame = 57,
+				dwID = 125433,
+			},
+			{
+				nFrame = 69,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 125903,
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				nFrame = 50,
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 124462,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "野猪王",
+				tCountdown = {
+					{
+						nFrame = 5,
+						key = "银霜口·野猪王",
+						nTime = 0,
+						szName = "银霜口·野猪王",
+						nClass = 12,
+						nIcon = 13,
+					},
+					{
+						nFrame = 5,
+						key = "特殊事件1",
+						nTime = 0,
+						szName = "特殊事件1",
+						nClass = 12,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 125427,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 125429,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 123471,
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 125419,
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = true,
+							bAll = false,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				dwID = 124006,
+			},
+			{
+				nFrame = 50,
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = "<",
+							nValue = 100,
+							bEnable = true,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+				},
+				dwID = 123957,
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				szName = "树",
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 123643,
+				aFocus = {
+					{
+						szDisplay = "云从券·陆",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 90,
+					},
+				},
+				szNote = "云从券·陆",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 52,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 125902,
+				aFocus = {
+					{
+						szDisplay = "罐子·宝箱",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+					},
+				},
+				szNote = "罐子",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = "<",
+							nValue = 100,
+							bEnable = true,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+				},
+				dwID = 125528,
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 57,
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = "<",
+							nValue = 100,
+							bEnable = true,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+				},
+				dwID = 125526,
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 125428,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "护送药材",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 125411,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "膺惩恶首",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 125614,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "堪舆密谋·破法阵",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 126625,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "寒山钓客",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 125764,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "患难与共",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 125532,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "患难与共",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 125531,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "患难与共",
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 123960,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "击退狼王",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 126767,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "吞舟巨鳗",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "引猪出洞",
+				dwID = 124461,
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 125432,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "巨猿之谜",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 125431,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "堪舆密谋·退敌首",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "保全药田",
+				dwID = 125426,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "挟持威迫",
+				dwID = 123604,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "堪舆密谋·破法阵",
+				dwID = 125616,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "雪松",
+				dwID = 126072,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "铃铛",
+				dwID = 126252,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				dwID = 125906,
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 127948,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 40,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "诛恶事件",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 127947,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "诛恶事件",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+				dwID = 127196,
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 127197,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 127198,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 127199,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+				dwID = 127696,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+				dwID = 127697,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+				dwID = 127699,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "钥匙·未",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 60,
+					},
+				},
+				dwID = 127767,
+			},
+		},
+		[713] = {
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 136875,
+				aFocus = {
+					{
+						szDisplay = "万淼·游货商",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "诛恶事件·万淼·游货商",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 136876,
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件·穹野卫·诛恶宝箱",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+		},
+	},
+	DEBUFF = {
+		[579] = {
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 26226,
+				nScrutinyType = 1,
+				nLevel = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+			},
+		},
+		[581] = {
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 26226,
+				nScrutinyType = 1,
+				nLevel = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+			},
+		},
+		[580] = {
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 26226,
+				nScrutinyType = 1,
+				nLevel = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+			},
+		},
+		[582] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 26226,
+				col = {
+					255,
+					255,
+					0,
+				},
+			},
+		},
+		[647] = {
+			{
+				{
+					bBuffList = true,
+				},
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "名望事件1",
+						nTime = 240,
+						szName = "寒山钓客·剩余时间",
+						nRefresh = 230,
+						nIcon = 21561,
+						nClass = 1,
+					},
+					{
+						nFrame = 1,
+						key = "名望事件1",
+						nTime = 10,
+						szName = "寒山钓客·事件结束",
+						nIcon = 21561,
+						nClass = 2,
+					},
+				},
+				nScrutinyType = 1,
+				dwID = 27837,
+				szNote = "丰渔·小霜鱼",
+				nLevel = 1,
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1785481668,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[647] = {
+			{
+				dwID = 10411,
+				aFocus = {
+					{
+						szDisplay = "落叶堆·宝箱",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+					},
+				},
+			},
+			{
+				dwID = 10432,
+				aFocus = {
+					{
+						szDisplay = "果子·宝箱",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+					},
+				},
+			},
+			{
+				dwID = 10412,
+				aFocus = {
+					{
+						szDisplay = "雪堆·宝箱",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+					},
+				},
+			},
+			{
+				dwID = 10434,
+				aFocus = {
+					{
+						szDisplay = "土堆·宝箱",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+					},
+				},
+			},
+			{
+				dwID = 10234,
+				aFocus = {
+					{
+						nMaxDistance = 15,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+			},
+			{
+				dwID = 10417,
+				aFocus = {
+					{
+						szDisplay = "炼气丸·35",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+					},
+				},
+			},
+			{
+				dwID = 10254,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+			},
+			{
+				dwID = 10394,
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+			},
+			{
+				dwID = 10272,
+				aFocus = {
+					{
+						nMaxDistance = 1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+			},
+			{
+				dwID = 10275,
+				aFocus = {
+					{
+						nMaxDistance = 3,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+			},
+			{
+				dwID = 10317,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "迷途羊羔",
+			},
+			{
+				dwID = 10463,
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+			},
+			{
+				szName = "烤鱼的残骸",
+				aFocus = {
+					{
+						szDisplay = "烤鱼的残骸",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+					},
+				},
+				dwID = 10424,
+			},
+			{
+				dwID = 10438,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+			},
+			{
+				dwID = 10418,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+			},
+			{
+				dwID = 10422,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+			},
+			{
+				dwID = 10423,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+			},
+			{
+				dwID = 10425,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+			},
+			{
+				dwID = 10431,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+			},
+			{
+				dwID = 10426,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+			},
+			{
+				szName = "树上冰晶",
+				aFocus = {
+					{
+						szDisplay = "树上冰晶",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+					},
+				},
+				dwID = 10428,
+			},
+			{
+				dwID = 10429,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+			},
+			{
+				dwID = 10430,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+			},
+			{
+				szName = "鱼眼化石",
+				aFocus = {
+					{
+						szDisplay = "鱼眼化石",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+					},
+				},
+				dwID = 10427,
+			},
+			{
+				szName = "野外宝箱",
+				aFocus = {
+					{
+						szDisplay = "野外宝箱",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 0,
+					},
+				},
+				dwID = 10433,
+			},
+			{
+				dwID = 10456,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+			},
+			{
+				dwID = 10469,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 100,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+			},
+			{
+				dwID = 10465,
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+			},
+			{
+				dwID = 10695,
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+				szNote = "诛恶事件",
+			},
+			{
+				dwID = 10673,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+			},
+			{
+				dwID = 10674,
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+			},
+			{
+				dwID = 10239,
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+					},
+				},
+			},
+		},
+		[580] = {
+			{
+				dwID = 10102,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 60,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "诛恶事件",
+			},
+			{
+				dwID = 10101,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 60,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "诛恶事件",
+			},
+		},
+		[713] = {
+			{
+				dwID = 11666,
+				aFocus = {
+					{
+						szDisplay = "货物·上交",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "名望·货物",
+			},
+		},
+	},
+}

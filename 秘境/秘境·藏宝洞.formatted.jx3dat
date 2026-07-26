@@ -85,6 +85,38 @@ return {
 		},
 	},
 	NPC = {
+		[-1] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 36921,
+				aFocus = {
+					{
+						szDisplay = "²Ø±¦¶´¿Ú",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "²Ø±¦¶´¿Ú",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+		},
 		[190] = {
 			{
 				nFrame = 47,

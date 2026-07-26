@@ -2,40 +2,44 @@ return {
 	BUFF = {},
 	CHAT = {},
 	CASTING = {},
-	TALK = {},
-	NPC = {
-		[151] = {
+	TALK = {
+		[653] = {
 			{
-				nFrame = 47,
-				aFocus = {
+				tCountdown = {
 					{
-						szDisplay = "狼牙头目·狼牙密报",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
+						nClass = 14,
+						key = "任务提示1",
+						nTime = 120,
+						szName = "灵珠放入对应灵台",
+						nIcon = 13,
 					},
 				},
-				szNote = "狼牙密报·狼牙头目",
-				dwID = 53035,
+				szContent = "我站好啦！你快去放五行灵珠！",
+				szTarget = "毛毛",
 			},
 			{
-				nFrame = 57,
-				dwID = 53034,
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "任务提示1",
+						nTime = 30,
+						szName = "{$1}灵珠·放入·{$1}灵台",
+						nIcon = 13,
+					},
+				},
+				szContent = "拾取了(.-)灵珠！",
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szNote = "{$1}灵珠·放入·{$1}灵台",
+				bReg = true,
+			},
+		},
+	},
+	NPC = {
+		[653] = {
+			{
+				dwID = 126599,
 				aFocus = {
 					{
 						szDisplay = "",
@@ -45,7 +49,7 @@ return {
 							bEnemy = false,
 						},
 						dwMapID = -1,
-						nMaxDistance = 30,
+						nMaxDistance = 40,
 						tLife = {
 							szOperator = ">",
 							nValue = 0,
@@ -59,7 +63,36 @@ return {
 						},
 					},
 				},
-				szNote = "戴百材",
+				szNote = "布娃娃",
+				nFrame = 52,
+			},
+			{
+				dwID = 126634,
+				aFocus = {
+					{
+						szDisplay = "布娃娃·任务道具",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "布娃娃",
+				nFrame = 47,
 			},
 		},
 	},
@@ -68,14 +101,14 @@ return {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1772633727,
+		nTimeStamp = 1785482962,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
 	DOODAD = {
-		[151] = {
+		[653] = {
 			{
-				dwID = 6215,
+				dwID = 10496,
 				aFocus = {
 					{
 						szDisplay = "",
@@ -99,10 +132,10 @@ return {
 						},
 					},
 				},
-				szNote = "狼牙密报",
+				szNote = "鸟窝",
 			},
 			{
-				dwID = 6216,
+				dwID = 10498,
 				aFocus = {
 					{
 						szDisplay = "",
@@ -126,7 +159,34 @@ return {
 						},
 					},
 				},
-				szNote = "狼牙高级密报",
+				szNote = "水果篮子",
+			},
+			{
+				dwID = 10357,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "枢阀",
 			},
 		},
 	},

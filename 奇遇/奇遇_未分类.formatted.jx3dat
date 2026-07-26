@@ -1,5 +1,36 @@
 return {
-	BUFF = {},
+	BUFF = {
+		[159] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "垂钓",
+				nIcon = 2678,
+				szNote = "醉烟波_垂钓_BUFF",
+				dwID = 26176,
+			},
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					0,
+				},
+				szName = "收竿",
+				nIcon = 19012,
+				szNote = "醉烟波_收竿_BUFF",
+				dwID = 26177,
+			},
+		},
+	},
 	CHAT = {},
 	CASTING = {},
 	TALK = {
@@ -117,8 +148,248 @@ return {
 			},
 		},
 	},
-	NPC = {},
-	DEBUFF = {},
+	NPC = {
+		[159] = {
+			{
+				dwID = 6343,
+				aFocus = {
+					{
+						szDisplay = "猴儿酒·稚子心",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 120,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "猴儿酒·稚子心",
+				szName = "猴儿酒·稚子心",
+			},
+		},
+		[215] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "沉甸甸的箱子·石敢当",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "石敢当·沉甸甸的箱子",
+				dwID = 51338,
+			},
+		},
+		[330] = {
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 63946,
+				aFocus = {
+					{},
+				},
+				szNote = "小松鼠",
+				col = {
+					0,
+					255,
+					255,
+				},
+			},
+		},
+	},
+	DEBUFF = {
+		[215] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 10760,
+				szName = "QTE",
+				szNote = "千岛湖QTE触发CDbuff",
+				nIcon = 331,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "按1",
+				col = {
+					235,
+					118,
+					38,
+				},
+				dwID = 10756,
+				nIcon = 4540,
+				szNote = "石敢当QTE_Buff1",
+				tCountdown = {
+					{
+						nFrame = 0,
+						key = "QTE·按1",
+						nTime = 3.1,
+						szName = "按111",
+						nClass = 1,
+						nIcon = 4540,
+					},
+					{
+						nClass = 2,
+						key = "QTE·按1",
+						nTime = 0,
+						szName = "QTE·按1",
+						nIcon = 4540,
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "按2",
+				col = {
+					0,
+					146,
+					234,
+				},
+				dwID = 10757,
+				nIcon = 7500,
+				szNote = "石敢当QTE_Buff2",
+				tCountdown = {
+					{
+						nFrame = 5,
+						key = "QTE·按2",
+						nTime = 3.1,
+						szName = "按222",
+						nClass = 1,
+						nIcon = 7500,
+					},
+					{
+						nClass = 2,
+						key = "QTE·按2",
+						nTime = 0,
+						szName = "QTE·按2",
+						nIcon = 7500,
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "按3",
+				col = {
+					219,
+					226,
+					68,
+				},
+				dwID = 10758,
+				nIcon = 4224,
+				szNote = "石敢当QTE_Buff3",
+				tCountdown = {
+					{
+						nFrame = 3,
+						key = "QTE·按3",
+						nTime = 3.1,
+						szName = "按333",
+						nClass = 1,
+						nIcon = 4224,
+					},
+					{
+						nClass = 2,
+						key = "QTE·按3",
+						nTime = 0,
+						szName = "QTE·按3",
+						nIcon = 4224,
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "按4",
+				col = {
+					147,
+					45,
+					228,
+				},
+				dwID = 10759,
+				nIcon = 3455,
+				szNote = "石敢当QTE_Buff4",
+				tCountdown = {
+					{
+						nFrame = 8,
+						key = "QTE·按4",
+						nTime = 3.1,
+						szName = "按444",
+						nClass = 1,
+						nIcon = 3455,
+					},
+					{
+						nClass = 2,
+						key = "QTE·按4",
+						nTime = 0,
+						szName = "QTE·按4",
+						nIcon = 3455,
+					},
+				},
+			},
+		},
+		[332] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				szNote = "变装·隐匿",
+				dwID = 13987,
+			},
+		},
+	},
 	__meta = {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",

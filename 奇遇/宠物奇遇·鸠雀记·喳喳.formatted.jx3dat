@@ -1,30 +1,22 @@
 return {
 	BUFF = {},
-	CHAT = {
-		[-6] = {
-			{
-				szContent = "浪客侠游，缘来皆为一瞬。“荷花鲤”侠士居然触发奇遇【舞众生】，真是可喜可贺！\
-",
-			},
-		},
-	},
+	CHAT = {},
 	CASTING = {},
 	TALK = {},
 	NPC = {
-		[433] = {
+		[6] = {
 			{
 				nFrame = 47,
-				dwID = 69560,
 				aFocus = {
 					{
-						szDisplay = "柳青青",
+						szDisplay = "张百炼·鸠雀记",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
 							bEnemy = false,
 						},
 						dwMapID = -1,
-						nMaxDistance = 20,
+						nMaxDistance = 10,
 						tLife = {
 							szOperator = ">",
 							nValue = 0,
@@ -38,23 +30,23 @@ return {
 						},
 					},
 				},
-				szNote = "柳青青",
+				szNote = "鸠雀记·张百炼",
+				dwID = 109293,
 			},
 		},
-		[193] = {
+		[13] = {
 			{
 				nFrame = 47,
-				dwID = 69563,
 				aFocus = {
 					{
-						szDisplay = "华折春·舞众生",
+						szDisplay = "七嫂·鸠雀记",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
 							bEnemy = false,
 						},
 						dwMapID = -1,
-						nMaxDistance = 60,
+						nMaxDistance = 10,
 						tLife = {
 							szOperator = ">",
 							nValue = 0,
@@ -68,21 +60,21 @@ return {
 						},
 					},
 				},
-				szNote = "舞众生·华折春",
+				szNote = "鸠雀记·七嫂",
+				dwID = 2033,
 			},
 			{
 				nFrame = 47,
-				dwID = 69564,
 				aFocus = {
 					{
-						szDisplay = "云吉·舞众生",
+						szDisplay = "龙文武·鸠雀记",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
 							bEnemy = false,
 						},
 						dwMapID = -1,
-						nMaxDistance = 60,
+						nMaxDistance = 10,
 						tLife = {
 							szOperator = ">",
 							nValue = 0,
@@ -96,210 +88,18 @@ return {
 						},
 					},
 				},
-				szNote = "舞众生·云吉",
+				szNote = "鸠雀记·龙文武",
+				dwID = 2034,
 			},
 			{
 				nFrame = 47,
-				dwID = 69571,
-				aFocus = {
-					{
-						szDisplay = "苍云军士·舞众生",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
+				[3] = {
+					bScreenHead = true,
 				},
-				szNote = "舞众生·苍云军士",
-			},
-			{
-				nFrame = 47,
-				dwID = 66729,
+				dwID = 109294,
 				aFocus = {
 					{
-						szDisplay = "燕忆眉·舞众生",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "舞众生·燕忆眉",
-			},
-			{
-				nFrame = 47,
-				dwID = 69584,
-				aFocus = {
-					{
-						szDisplay = "小混混·舞众生",
-						tRelation = {
-							bAlly = true,
-							bAll = true,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "舞众生·小混混",
-			},
-			{
-				nFrame = 47,
-				dwID = 69565,
-				aFocus = {
-					{
-						szDisplay = "阿梨·舞众生",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "舞众生·阿梨",
-			},
-			{
-				nFrame = 47,
-				dwID = 69566,
-				aFocus = {
-					{
-						szDisplay = "李二狗·舞众生",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "舞众生·李二狗",
-			},
-			{
-				nFrame = 47,
-				dwID = 69567,
-				aFocus = {
-					{
-						szDisplay = "柳三娘·舞众生",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "舞众生·柳三娘",
-			},
-			{
-				nFrame = 47,
-				dwID = 69569,
-				aFocus = {
-					{
-						szDisplay = "苍云军士·舞众生",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "舞众生·苍云军士",
-			},
-			{
-				nFrame = 47,
-				dwID = 37755,
-				aFocus = {
-					{
-						szDisplay = "林画扇·舞众生",
+						szDisplay = "邝桃宝·鸠雀记",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
@@ -320,21 +120,25 @@ return {
 						},
 					},
 				},
-				szNote = "舞众生·林画扇",
+				szNote = "鸠雀记·邝桃宝",
+				col = {
+					0,
+					255,
+					0,
+				},
 			},
 			{
 				nFrame = 47,
-				dwID = 69568,
 				aFocus = {
 					{
-						szDisplay = "奚人战俘·舞众生",
+						szDisplay = "老乞丐·鸠雀记",
 						tRelation = {
 							bAlly = false,
 							bAll = true,
 							bEnemy = false,
 						},
 						dwMapID = -1,
-						nMaxDistance = 30,
+						nMaxDistance = 10,
 						tLife = {
 							szOperator = ">",
 							nValue = 0,
@@ -348,67 +152,140 @@ return {
 						},
 					},
 				},
-				szNote = "舞众生·奚人战俘",
+				szNote = "鸠雀记·老乞丐",
+				dwID = 3267,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "古二婶·鸠雀记",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 8,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "鸠雀记·古二婶",
+				dwID = 3332,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "伯炅·鸠雀记",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 8,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "鸠雀记·伯炅",
+				dwID = 3326,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "元宝儿·鸠雀记",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 8,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "鸠雀记·元宝儿",
+				dwID = 3396,
+			},
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "鸠雀记",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "鸠雀记·泰康",
+				dwID = 2112,
 			},
 		},
 	},
 	DEBUFF = {
-		[-6] = {
+		[13] = {
 			{
-				{
-					bBuffList = true,
-				},
-				nIcon = 12849,
-				nScrutinyType = 1,
-				col = {
-					255,
-					255,
-					100,
-				},
-				szName = "舞众生",
-				dwID = 16791,
-				szNote = "舞众生",
 				nLevel = 1,
-			}
+				nScrutinyType = 1,
+				szNote = "鸠雀记·欠钱不还是小狗",
+				dwID = 23127,
+			},
 		},
 	},
 	__meta = {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1782977150,
+		nTimeStamp = 1785416420,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
-	DOODAD = {
-		[193] = {
-			{
-				dwID = 8180,
-				aFocus = {
-					{
-						szDisplay = "装有信的盒子·舞众生",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 12,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "舞众生·装有信的盒子",
-			},
-		},
-	},
+	DOODAD = {},
 }

@@ -1,0 +1,461 @@
+return {
+	BUFF = {},
+	CHAT = {
+		[101] = {
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示1",
+						nTime = 10,
+						szName = "花月马·骑乘赛马",
+						nFrame = 6,
+						nIcon = 13,
+					},
+				},
+				szContent = "请在骑乘花山节大会赛马的时候使用！\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示2",
+						nTime = "10,天一尸毒祸四方;20,花骨朵·乘船到·神木谷;30,交互·孔雀·乌蒙后山;60,注意使用正确的玄火丸",
+						szName = "任务提示3",
+						nRefresh = 0,
+						nIcon = 13,
+						nFrame = 6,
+					},
+				},
+				szContent = "你已接受了[天一尸毒祸四方]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "任务提示3",
+						nTime = "10,孔雀神恩赐万福;20,交互·竹儿·孔雀湖;30,飞行途中使用正确的玄火丸",
+						szName = "任务提示2",
+						nRefresh = 0,
+						nIcon = 13,
+						nFrame = 6,
+					},
+				},
+				szContent = "你已接受了[孔雀神恩赐万福]。\
+",
+			},
+		},
+		[105] = {
+			{
+				[20] = {
+					bCenterAlarm = true,
+				},
+				szNote = "无愧南灵·捐赠了30金",
+				szContent = "你向“无愧南灵”捐赠了30金。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 2,
+						key = "任务提示1",
+						nTime = 10,
+						szName = "注意·任务[抓襟见肘]需付费30金",
+						nClass = 20,
+						nIcon = 13,
+					},
+				},
+				[20] = {
+					bCenterAlarm = true,
+				},
+				szNote = "注意·此任务需上交30金",
+				szContent = "你已接受了[挽澜纪·抓襟见肘]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "任务提示2",
+						nTime = 20,
+						szName = "先去飞虎营·打飞虎战驹",
+						nClass = 20,
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[挽澜纪·只进不出]。\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "任务提示3",
+						nTime = 20,
+						szName = "任务·[越狱之囚]目标很能跑",
+						nClass = 20,
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[通缉：越狱之囚]。\
+",
+			},
+		},
+	},
+	CASTING = {},
+	TALK = {
+		[105] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "洮阳",
+						nTime = 10,
+						szName = "洮阳·75%秒杀失败会逃跑",
+						nRefresh = 2,
+						nIcon = 13,
+					},
+				},
+				szTarget = "洮阳",
+				szContent = "不好，被发现了！来吧，尝尝大爷手段！",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "照看侏儒",
+						nTime = -2,
+						szName = "照看侏儒",
+						nIcon = 13,
+					},
+					{
+						nClass = 14,
+						key = "照看侏儒",
+						nTime = 5,
+						szName = "任务·照看侏儒·失败",
+						nRefresh = 5,
+						nFrame = 2,
+						nIcon = 3408,
+					},
+				},
+				szContent = "保护不利，任务失败。请到沙马沙红处重新接受任务。",
+			},
+		},
+	},
+	NPC = {
+		[101] = {
+			{
+				nFrame = 47,
+				aFocus = {
+					{
+						szDisplay = "花月马·赛马比赛",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "花月马·赛马比赛",
+				dwID = 14015,
+			},
+		},
+		[105] = {
+			{
+				dwID = 17738,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 6,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "官印匣",
+				nFrame = 47,
+			},
+			{
+				nFrame = 47,
+				dwID = 110077,
+				tKungFu = {
+					["SKILL#10028"] = true,
+					["SKILL#10626"] = true,
+					["SKILL#10176"] = true,
+					["SKILL#10080"] = true,
+					["SKILL#10448"] = true,
+				},
+				szNote = "蒙吉",
+				tCountdown = {
+					{
+						nClass = 3,
+						key = "切换心法",
+						nTime = 10,
+						szName = "治疗心法记得切输出",
+						nRefresh = 600,
+						nFrame = 5,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				nFrame = 47,
+				dwID = 16422,
+				aFocus = {
+					{
+						szDisplay = "洮阳·越狱之囚",
+						tRelation = {
+							bAlly = true,
+							bAll = true,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 60,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "洮阳·越狱之囚",
+				tCountdown = {
+					{
+						nClass = 7,
+						key = "洮阳",
+						nTime = 10,
+						szName = "洮阳·50%秒杀失败会逃跑",
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				dwID = 16206,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 20,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "沙马沙红",
+				nFrame = 47,
+			},
+			{
+				dwID = 18007,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "白月亮",
+				nFrame = 50,
+			},
+			{
+				dwID = 16230,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "铁甲战象",
+				nFrame = 50,
+			},
+			{
+				dwID = 16232,
+				aFocus = {},
+				szNote = "被驯服的猛虎",
+				nFrame = 50,
+			},
+			{
+				dwID = 18026,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "苍脊忽律",
+				nFrame = 50,
+			},
+			{
+				nFrame = 47,
+				col = {
+					100,
+					255,
+					100,
+				},
+				dwID = 17800,
+				szNote = "几尔高",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+		},
+	},
+	DEBUFF = {
+		[105] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 3593,
+				szNote = "中毒",
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "任务提示2",
+						nTime = 20,
+						szName = "飞虎军·安度",
+						nClass = 1,
+						nIcon = 13,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 3935,
+				szNote = "照看侏儒",
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "照看侏儒",
+						nTime = -2,
+						szName = "照看侏儒",
+						nIcon = 13,
+					},
+					{
+						nClass = 1,
+						key = "照看侏儒",
+						nTime = "10,任务·照看侏儒·不能重伤;900,任务·照看侏儒·完成剩余;905,任务·照看侏儒·已经完成",
+						szName = "照看侏儒·完成剩余",
+						nRefresh = 0,
+						nFrame = 4,
+						nIcon = 3408,
+					},
+					{
+						nFrame = 6,
+						key = "照看侏儒",
+						nTime = 5,
+						szName = "任务·照看侏儒·已经完成",
+						nClass = 2,
+						nIcon = 3408,
+					},
+				},
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1785404833,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}

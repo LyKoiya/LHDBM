@@ -1,0 +1,114 @@
+return {
+	DOODAD = {},
+	TALK = {
+		[13] = {
+			{szContent="去往巴陵县的驿站寻找唐小珂的机关小猪。",tCountdown={{nFrame=6,nClass=14,key="任务提示1",szName="神行·巴陵县·巴陵镇",nTime=20,nIcon=13},{nFrame=6,nClass=14,key="任务提示2",szName="小花猪·[接头]",nTime=20,nIcon=13}},szNote="红尘侠影·唐小珂"},
+		},
+	},
+	CHAT = {
+		[215] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "任务提示1",
+						nTime = 15,
+						szName = "前往·刀宗",
+						nClass = 20,
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[拔刀无惧]。\
+",
+				szNote = "红尘侠影·月嘉禾",
+			},
+		},
+		[475] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "任务提示1",
+						nTime = 15,
+						szName = "前往·千岛湖",
+						nClass = 20,
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[剑照湖波]。\
+",
+				szNote = "红尘侠影·月嘉禾",
+			},
+		},
+		[582] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "任务提示1",
+						nTime = 15,
+						szName = "前往·少林·乱世",
+						nClass = 20,
+						nIcon = 13,
+					},
+				},
+				szContent = "你已接受了[何日成功]。\
+",
+				szNote = "红尘侠影·月嘉禾",
+			},
+		},
+	},
+	BUFF = {},
+	NPC = {
+		[21] = {
+			{nFrame=47,aFocus={{nMaxDistance=30,dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},szDisplay="",tLife={szOperator=">",nValue=0,bEnable=false},tRelation={bAlly=false,bEnemy=false,bAll=true}}},szNote="红尘侠影·骆不清",dwID=110169},
+			{nFrame=52,aFocus={{nMaxDistance=10,dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},szDisplay="机关小猪·小花猪",tLife={szOperator=">",nValue=0,bEnable=false},tRelation={bAlly=false,bEnemy=false,bAll=true}}},szNote="红尘侠影·小花猪",dwID=110158},
+		},
+		[15] = {
+			{nFrame=47,dwID=126992,aFocus={{nMaxDistance=10,dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},szDisplay="白鹊·使用钥匙",tLife={szOperator=">",nValue=0,bEnable=false},tRelation={bAlly=false,bEnemy=false,bAll=true}}},szName="白鹊·天杀密钥",szNote="红尘侠影·白鹊·天杀密钥"},
+		},
+		[122] = {
+			{nFrame=47,[3]={bScreenHead=true},szNote="红尘侠影·唐小珂",aFocus={{nMaxDistance=20,dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},szDisplay="",tLife={szOperator=">",nValue=0,bEnable=false},tRelation={bAlly=false,bEnemy=false,bAll=true}}},dwID=109988,col={0,255,0}},
+		},
+		[105] = {
+			{nFrame=47,[3]={bScreenHead=true},szNote="红尘侠影·沐晴柔",aFocus={{nMaxDistance=60,dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},szDisplay="",tLife={szOperator=">",nValue=0,bEnable=false},tRelation={bAlly=false,bEnemy=false,bAll=true}}},dwID=110315,col={0,255,0}},
+			{nFrame=47,[3]={bScreenHead=true},szNote="红尘侠影·沐晴柔",aFocus={{nMaxDistance=30,dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},szDisplay="",tLife={szOperator=">",nValue=0,bEnable=false},tRelation={bAlly=false,bEnemy=false,bAll=true}}},dwID=110071,col={0,255,0}},
+			{nFrame=47,[3]={bScreenHead=true},szNote="红尘侠影·沐晴柔",aFocus={{nMaxDistance=30,dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},szDisplay="",tLife={szOperator=">",nValue=0,bEnable=false},tRelation={bAlly=false,bEnemy=false,bAll=true}}},dwID=110132,col={0,255,0}},
+			{nFrame=47,[3]={bScreenHead=true},szNote="红尘侠影·沐晴柔",aFocus={{nMaxDistance=20,dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},szDisplay="",tLife={szOperator=">",nValue=0,bEnable=false},tRelation={bAlly=false,bEnemy=false,bAll=true}}},dwID=110084,col={0,255,0}},
+			{nFrame=47,aFocus={{nMaxDistance=10,dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},szDisplay="",tLife={szOperator=">",nValue=0,bEnable=false},tRelation={bAlly=false,bEnemy=false,bAll=true}}},szNote="红尘侠影·沐晴柔",dwID=110091},
+		},
+		[475] = {
+			{nFrame=47,[3]={bScreenHead=true},szNote="红尘侠影·康宴别",aFocus={},dwID=110046,col={0,255,0}},
+			{nFrame=47,[3]={bScreenHead=true},szNote="红尘侠影·康宴别",aFocus={},dwID=110047,col={0,255,0}},
+		},
+		[582] = {
+			{nFrame=47,[3]={bScreenHead=true},szNote="红尘侠影·月嘉禾",aFocus={},dwID=122881,col={0,255,0}},
+			{nFrame=47,[3]={bScreenHead=true},szNote="红尘侠影·月嘉禾",aFocus={{nMaxDistance=30,dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},szDisplay="",tLife={szOperator=">",nValue=0,bEnable=false},tRelation={bAlly=false,bEnemy=false,bAll=true}}},dwID=122883,col={0,255,0}},
+			{nFrame=47,[3]={bScreenHead=true},szNote="红尘侠影·康宴别",dwID=122882,col={0,255,0}},
+			{nFrame=47,[3]={bScreenHead=true},szNote="红尘侠影·月嘉禾·2心",dwID=122884,col={0,255,0}},
+		},
+	},
+	DEBUFF = {
+		[21] = {
+			{nLevel=1,nScrutinyType=1,szNote="红尘侠影·好感度任务_唐小珂0_6进行中标记",dwID=23663,szName="好感度",nIcon=6650},
+		},
+		[582] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				szName = "剧情",
+				nIcon = 19489,
+				szNote = "红尘侠影·小剧场·月嘉禾",
+				dwID = 26170,
+			},
+		},
+	},
+	CASTING = {},
+}

@@ -162,6 +162,18 @@ return {
 	TALK = {
 		[172] = {
 			{
+				[14] = {
+					bScreenHead = true,
+				},
+				szContent = "嘶！",
+				szTarget = "洞窟白蛇",
+				col = {
+					255,
+					50,
+					50,
+				},
+			},
+			{
 				tCountdown = {
 					{
 						nClass = 14,
@@ -460,34 +472,6 @@ return {
 				},
 				szContent = "隐元密报：狼牙军即将押送颜氏老妇到内城西市法场斩首示众！颜氏一门满门忠烈，还望各路侠士即刻前往搭救！",
 				szTarget = "%",
-			},
-		},
-		[-3] = {
-			{
-				szContent = "不对！此事必有蹊跷！",
-				col = {
-					255,
-					50,
-					255,
-				},
-				[14] = {
-					bScreenHead = true,
-				},
-				szTarget = "狼牙铁勒兵",
-				szNote = "猜忌",
-			},
-			{
-				szContent = "怎么不见乞丐？看来只好把你的人头带回去领功了！",
-				col = {
-					255,
-					50,
-					50,
-				},
-				[14] = {
-					bScreenHead = true,
-				},
-				szTarget = "狼牙铁勒兵",
-				szNote = "攻击",
 			},
 		},
 	},
@@ -1556,6 +1540,17 @@ return {
 	DEBUFF = {
 		[172] = {
 			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "如厕",
+				nIcon = 2179,
+				szNote = "如厕",
+				dwID = 6820,
+			},
+			{
 				dwID = 6732,
 				nScrutinyType = 1,
 				tCountdown = {
@@ -1733,6 +1728,33 @@ return {
 	},
 	DOODAD = {
 		[172] = {
+			{
+				dwID = 4515,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "蘑菇汤",
+			},
 			{
 				dwID = 4418,
 				aFocus = {

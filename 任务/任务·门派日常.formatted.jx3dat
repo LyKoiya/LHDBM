@@ -1,0 +1,87 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[213] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "门派日常",
+						nTime = 30,
+						szName = "拾取·{$1}",
+						nClass = 14,
+						nIcon = 13,
+					},
+				},
+				szContent = "我知道我知道，先生说的是(.-)！",
+				szTarget = "睿儿",
+				bReg = true,
+				szNote = "拾取·{$1}",
+				[14] = {
+					bCenterAlarm = true,
+				},
+			},
+		},
+	},
+	NPC = {
+		[213] = {
+			{
+				nFrame = 65,
+				dwID = 45447,
+				szName = "蛤蟆",
+				aFocus = {
+					{
+						szDisplay = "蛤蟆",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "门派日常·蛤蟆",
+				tKungFu = {
+					["SKILL#10448"] = true,
+					["SKILL#10447"] = true,
+				},
+			},
+		},
+	},
+	DEBUFF = {
+		[473] = {
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				dwID = 18552,
+				szNote = "门派日常·武学试炼",
+				nLevel = 1,
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1785416853,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}
