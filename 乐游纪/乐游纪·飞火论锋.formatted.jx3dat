@@ -74,7 +74,7 @@ return {
 				[1] = {
 					bBuffList = true,
 				},
-				szName = "{$B25105,2}",
+				szName = "ÑæÄ»µ¯",
 			},
 			{
 				nLevel = 1,
@@ -83,7 +83,7 @@ return {
 				[1] = {
 					bBuffList = true,
 				},
-				szName = "{$B25105,1}",
+				szName = "ÑæÄ»µ¯",
 			},
 		},
 	},
@@ -912,7 +912,7 @@ return {
 					bBuffList = true,
 				},
 				szNote = "ÍµÀÁ",
-				szName = "{$B14715,2}",
+				szName = "ÍµÀÁ",
 			},
 			{
 				dwID = 14748,
@@ -943,7 +943,7 @@ return {
 					50,
 				},
 				szNote = "Éñ»ðÀ×",
-				szName = "{$B14809,1}",
+				szName = "Éñ»ðÀ×",
 			},
 			{
 				nLevel = 2,
@@ -958,7 +958,7 @@ return {
 					50,
 				},
 				szNote = "Ñ²á÷À×",
-				szName = "{$B14809,2}",
+				szName = "Ñ²á÷À×",
 			},
 			{
 				nLevel = 3,
@@ -973,7 +973,7 @@ return {
 					50,
 				},
 				szNote = "Åç»ðÆ÷",
-				szName = "{$B14809,3}",
+				szName = "Åç»ðÆ÷",
 			},
 			{
 				nLevel = 4,
@@ -988,7 +988,7 @@ return {
 					50,
 				},
 				szNote = "Æð±¬µ¯",
-				szName = "{$B14809,4}",
+				szName = "Æð±¬µ¯",
 			},
 		},
 	},

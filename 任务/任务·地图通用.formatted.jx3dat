@@ -1322,7 +1322,7 @@ return {
 	DOODAD = {
 		[5] = {
 			{
-				szName = "{$D6550}·气血",
+				szName = "香炉·气血",
 				aFocus = {
 					{
 						szDisplay = "香炉·气血",
@@ -1350,7 +1350,7 @@ return {
 				dwID = 6550,
 			},
 			{
-				szName = "{$D6551}·消怨念",
+				szName = "香炉·消怨念",
 				aFocus = {
 					{
 						szDisplay = "香炉·消怨念",
@@ -1378,7 +1378,7 @@ return {
 				dwID = 6551,
 			},
 			{
-				szName = "{$D6548}·帮战",
+				szName = "香炉·帮战",
 				aFocus = {
 					{
 						szDisplay = "香炉·帮战",
