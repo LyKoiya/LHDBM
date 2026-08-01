@@ -136,6 +136,74 @@ return {
 	},
 	CASTING = {},
 	TALK = {
+		[8] = {
+			{
+				tCountdown = {
+					{
+						nFrame = -1,
+						key = "比武·{$1}",
+						nTime = -1,
+						szName = "比武·{$1}",
+						nRefresh = 300,
+						nClass = 14,
+						nIcon = 13,
+					},
+					{
+						nFrame = -1,
+						key = "比武·{$2}",
+						nTime = -1,
+						szName = "比武·{$2}",
+						nRefresh = 300,
+						nClass = 14,
+						nIcon = 13,
+					},
+					{
+						nFrame = -1,
+						key = "比武·{$me}",
+						nTime = 0,
+						szName = "比武·{$me}",
+						nClass = 14,
+						nIcon = 1465,
+					},
+					{
+						nFrame = 1,
+						key = "比武·{$1}",
+						nTime = 5.25,
+						szName = "【{$1}】·守擂开启",
+						nRefresh = 1,
+						nClass = 14,
+						nIcon = 1276,
+					},
+					{
+						nFrame = 1,
+						key = "比武·{$2}",
+						nTime = 5.25,
+						szName = "【{$2}】·挑战开启",
+						nRefresh = 1,
+						nClass = 14,
+						nIcon = 1276,
+					},
+				},
+				szContent = "(.-)和(.-)在擂台比武，有兴趣的侠士可前往观看。",
+				bSearch = false,
+				bReg = true,
+				szTarget = "擂台裁判",
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "比武·{$me}",
+						nTime = 42,
+						szName = "洛阳擂台·挑战间隔",
+						nClass = 14,
+						nIcon = 1952,
+					},
+				},
+				szTarget = "擂台裁判",
+				szContent = "{$me}在比武中技高一筹，各位向她祝贺。",
+			},
+		},
 		[23] = {
 			{
 				tCountdown = {

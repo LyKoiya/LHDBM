@@ -1,0 +1,1217 @@
+return {
+	BUFF = {
+		[-15] = {
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 17340,
+				szNote = "灵感爆发",
+			},
+		},
+	},
+	CHAT = {
+		[-15] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 14797,
+						key = "祈福树·{$1}",
+						nTime = 20,
+						szName = "祈福树·增益·{$1}",
+						nClass = 20,
+						nFrame = 6,
+					},
+				},
+				szContent = "^恭喜侠士获得“(.-)”增益！",
+				bReg = true,
+				szNote = "祈福树·增益·{$1}",
+				[20] = {
+					bCenterAlarm = true,
+				},
+			},
+			{
+				szContent = "物件已自动收集到[桑木书柜]中，交互书柜家具可再次查阅。\
+",
+				tCountdown = {
+					{
+						nIcon = 13556,
+						key = "系统事件",
+						nTime = 2,
+						szName = "物件已收集到[桑木书柜]中",
+						nClass = 20,
+					},
+				},
+			},
+			{
+				szContent = "建造成功\
+",
+				tCountdown = {
+					{
+						nIcon = 879,
+						key = "系统事件",
+						nTime = 5,
+						szName = "建造成功",
+						nRefresh = 1,
+						nClass = 20,
+						nFrame = 0,
+					},
+				},
+			},
+		},
+		[-2] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 0,
+						key = "私货",
+						nTime = 10,
+						szName = "私货·九寨沟·镜海·万年金券",
+						nClass = 20,
+						nIcon = 11432,
+					},
+				},
+				szContent = "交易行私货正在拍卖九寨沟·镜海7200平【万年金券】，侠士们切勿错过！\
+",
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 0,
+						key = "私货",
+						nTime = 10,
+						szName = "私货·广陵邑·天苑·园宅置业",
+						nClass = 20,
+						nIcon = 12461,
+					},
+				},
+				szContent = "交易行私货正在拍卖广陵邑7200平【园宅置业·天苑】，侠士们切勿错过！\
+",
+			}
+		},
+	},
+	CASTING = {
+		[486] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "神机雷",
+						nTime = "3,神机雷·CD;5,神机雷·就绪",
+						szName = "神机雷·CD",
+						nRefresh = 0,
+						nClass = 9,
+						nIcon = 11936,
+					},
+				},
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 41165,
+				szNote = "神机雷",
+				nLevel = 1,
+			},
+		},
+		[471] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 41165,
+				szNote = "神机雷",
+				tCountdown = {
+					{
+						nFrame = 4,
+						key = "神机雷",
+						nTime = "3,神机雷·CD;5,神机雷·就绪",
+						szName = "神机雷·CD",
+						nRefresh = 0,
+						nClass = 9,
+						nIcon = 11936,
+					},
+				},
+			},
+		},
+	},
+	TALK = {
+		[565] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "哲罗鲑",
+						nTime = -2,
+						szName = "哲罗鲑",
+						nRefresh = 3600,
+						nFrame = -1,
+						nClass = 14,
+					},
+					{
+						nIcon = 13,
+						key = "叉尾斗鱼",
+						nTime = -2,
+						szName = "叉尾斗鱼",
+						nRefresh = 3600,
+						nFrame = -1,
+						nClass = 14,
+					},
+					{
+						nIcon = 13,
+						key = "翻车鱼",
+						nTime = -2,
+						szName = "翻车鱼",
+						nRefresh = 3600,
+						nFrame = -1,
+						nClass = 14,
+					},
+					{
+						nClass = 14,
+						key = "{$2}",
+						nTime = 0,
+						szName = "{$2}",
+						nIcon = 13,
+					},
+					{
+						nIcon = 16531,
+						key = "哲罗鲑",
+						nTime = 120,
+						szName = "哲罗鲑·{$1}斤",
+						nRefresh = 120,
+						nFrame = 3,
+						nClass = 14,
+					},
+					{
+						nIcon = 16516,
+						key = "叉尾斗鱼",
+						nTime = 120,
+						szName = "叉尾斗鱼·{$1}斤",
+						nRefresh = 120,
+						nFrame = 3,
+						nClass = 14,
+					},
+					{
+						nIcon = 16517,
+						key = "翻车鱼",
+						nTime = 120,
+						szName = "翻车鱼·{$1}斤",
+						nRefresh = 120,
+						nFrame = 3,
+						nClass = 14,
+					},
+				},
+				bReg = true,
+				szContent = "^恭喜你.-到了(%-?%d+%.?%d-)斤重的%[(.+)%]",
+				szTarget = "%",
+			},
+		},
+		[-15] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 2288,
+						key = "传信邻里间",
+						nTime = "20,传信邻里间·{$1};60,传信邻里间·{$1}",
+						szName = "传信邻里间·{$1}",
+						nRefresh = 2,
+						nClass = 14,
+						nFrame = 6,
+					},
+				},
+				szContent = "^请将这单货物送往(.-)号宅邸的管家阿甘处。",
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szNote = "送信·{$1}",
+				bReg = true,
+			},
+			{
+				szContent = "协助订单已被完成！",
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "系统事件",
+						nTime = 15,
+						szName = "协助订单·完成",
+						nClass = 14,
+						nFrame = 6,
+					},
+				},
+			},
+			{
+				[14] = {
+					bTeamChannel = true,
+				},
+				tCountdown = {
+					{
+						nIcon = 949,
+						key = "系统事件",
+						nTime = 5,
+						szName = "重置自身秘境成功",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "成功重置原野奇踪进度",
+				szNote = "成功重置原野奇踪进度",
+			},
+			{
+				szContent = "阿甘开心的对你扭了扭！",
+				tCountdown = {
+					{
+						nIcon = 2286,
+						key = "送花·CD",
+						nTime = 120,
+						szName = "园宅送花·赞赏间隔",
+						nClass = 14,
+						nFrame = 6,
+					},
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13159,
+						key = "百合",
+						nTime = "10,百合·黄粉白;3312,百合·迅捷3;3456,百合·迅捷2;3528,百合·迅捷1;3600,百合·成熟",
+						szName = "",
+						nRefresh = 1,
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "侠士成功种下了百合种子·一级。",
+				[14] = {},
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13161,
+						key = "玫瑰",
+						nTime = "10,玫瑰·红黄蓝橙粉;2484,玫瑰·迅捷3;2592,玫瑰·迅捷2;2646,玫瑰·迅捷1;2700,玫瑰·成熟",
+						szName = "",
+						nRefresh = 1,
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "侠士成功种下了玫瑰种子·一级。",
+				[14] = {},
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13160,
+						nClass = 14,
+						key = "牵牛花",
+						nTime = "10,牵牛花·红粉紫;1656,牵牛花·迅捷3;1728,牵牛花·迅捷2;1764,牵牛花·迅捷1;1800,牵牛花·成熟",
+						szName = "",
+						nRefresh = 1,
+						nFrame = 7,
+						bHold = true,
+					},
+				},
+				szContent = "侠士成功种下了牵牛花种子·一级。",
+				[14] = {},
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13165,
+						nClass = 14,
+						key = "郁金香",
+						nTime = "10,郁金香·红金粉;1104,郁金香·迅捷3;1152,郁金香·迅捷2;1176,郁金香·迅捷1;1200,郁金香·成熟",
+						szName = "",
+						nRefresh = 1,
+						nFrame = 7,
+						bHold = true,
+					},
+				},
+				szContent = "侠士成功种下了郁金香种子·一级。",
+				[14] = {},
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13164,
+						nClass = 14,
+						key = "绣球花",
+						nTime = "10,绣球花·红白紫;552,绣球花·迅捷3;576,绣球花·迅捷2;588,绣球花·迅捷1;600,绣球花·成熟",
+						szName = "",
+						nRefresh = 1,
+						nFrame = 7,
+						bHold = true,
+					},
+				},
+				szContent = "侠士成功种下了绣球花种子·一级。",
+				[14] = {},
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 14797,
+						key = "祈福树·{$1}",
+						nTime = 20,
+						szName = "祈福树·增益·{$1}",
+						nClass = 14,
+						nFrame = 6,
+					},
+				},
+				szContent = "^恭喜侠士获得“(.-)”增益！",
+				bReg = true,
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szNote = "祈福树·增益·{$1}",
+				szTarget = "%",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 14795,
+						key = "祈福树·{$1}",
+						nTime = 20,
+						szName = "祈福树·[{$1}]转{$2}园宅币",
+						nClass = 14,
+						nFrame = 0,
+					},
+				},
+				szContent = "^大侠已经触发过%[(.-)%]奇遇，或者拥有该奇遇的概率提升状态，故奖励(%d-)点不占周上限的园宅币。",
+				bReg = true,
+				szNote = "祈福树·[{$1}]转{$2}园宅币",
+				szTarget = "%",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 21596,
+						key = "调香",
+						nTime = 20,
+						szName = "本周配置香膏剩余{$1}次",
+						nClass = 14,
+						nFrame = 6,
+					},
+					{
+						nIcon = 13,
+						key = "调香·0",
+						nTime = -1,
+						szName = "调香·0",
+						nRefresh = 30,
+						nClass = 14,
+						nFrame = 2,
+					},
+					{
+						nIcon = 13,
+						key = "调香·{$1}",
+						nTime = 0,
+						szName = "调香·{$1}",
+						nClass = 14,
+						nFrame = 2,
+					},
+					{
+						nIcon = 21596,
+						key = "调香·0",
+						nTime = 20,
+						szName = "配置香膏获得经验已达周上限",
+						nRefresh = 1,
+						nClass = 14,
+						nFrame = 2,
+					},
+				},
+				bReg = true,
+				szTarget = "%",
+				szContent = "^本周还可通过配置香膏获得调香经验(%d+)次",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 2286,
+						key = "送花·CD",
+						nTime = 120,
+						szName = "园宅送花·赞赏间隔[{$1}/{$2}]",
+						nRefresh = 1,
+						nClass = 14,
+						nFrame = 6,
+					},
+					{
+						nIcon = 13,
+						key = "送花·CD·{$1}/{$2}",
+						nTime = -1,
+						szName = "送花·CD·{$1}/{$2}",
+						nRefresh = 2,
+						nClass = 14,
+						nFrame = -1,
+					},
+					{
+						nIcon = 2286,
+						key = "送花·CD·{$2}/{$2}",
+						nTime = -2,
+						szName = "送花·CD",
+						nClass = 14,
+						nFrame = -1,
+					},
+					{
+						nIcon = 2286,
+						key = "送花·CD·{$1}/{$2}",
+						nTime = 20,
+						szName = "园宅送花·奖励上限",
+						nRefresh = 1,
+						nClass = 14,
+						nFrame = 2,
+					},
+				},
+				bReg = true,
+				szTarget = "%",
+				szContent = "^本周已获得送花奖励次数 (%d-)/(%d+)",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 10215,
+						key = "{$1}",
+						nTime = 20,
+						szName = "运势·{$1}·{$2}/{$3}",
+						nClass = 14,
+						nFrame = 6,
+					},
+				},
+				szContent = "^大侠的(.-)运势累计至(%d-)/(%d+)",
+				bReg = true,
+				szNote = "运势·{$1}·{$2}/{$3}",
+				szTarget = "%",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13556,
+						key = "道具·{$4}",
+						nTime = 5,
+						szName = "{$2}【{$4}】{$3}个",
+						nRefresh = 1,
+						nClass = 14,
+						nFrame = 6,
+					},
+				},
+				szContent = "(.-)([增加扣除]-)(%d+)个【(.-)】。",
+				bReg = true,
+				szNote = "{$2}【{$2}】{$1}个",
+				szTarget = "%",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 3530,
+						key = "道具上限",
+						nTime = 10,
+						szName = "园宅币·即将上限",
+						nClass = 14,
+					},
+				},
+				szNote = "园宅币·即将上限",
+				szTarget = "%",
+				szContent = "你当前园宅币即将到达上限，请消耗部分再使用本物品。",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szNote = "宝箱·转换失败·可能上限",
+				szContent = "转换失败，可能是道具即将超过拥有上限。",
+				szTarget = "%",
+			},
+			{
+				szContent = "大侠在好友家的今日的许愿次数已用尽，请明日再来。",
+				szTarget = "%",
+				szNote = "今日用尽·好友园宅·许愿次数",
+			},
+			{
+				szContent = "大侠的今日的许愿次数已用尽，请明日再来。",
+				szTarget = "%",
+				szNote = "今日用尽·自己园宅·许愿次数",
+			},
+		},
+	},
+	NPC = {
+		[486] = {
+			{
+				nFrame = 47,
+				szName = "光圈范围",
+				szNote = "光圈范围",
+				dwID = 132794,
+			},
+			{
+				nFrame = 47,
+				col = {
+					100,
+					255,
+					100,
+				},
+				dwID = 132795,
+				szName = "小鱼",
+				szNote = "小鱼",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				szName = "大鱼",
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 132796,
+				aFocus = {
+					{
+						szDisplay = "大鱼·25分",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "大鱼",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				szName = "鱼王",
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 132797,
+				aFocus = {
+					{
+						szDisplay = "鱼王·50分",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "鱼王·50分",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 132798,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "炸鱼达人",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 65,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 132733,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "袋袋",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 132809,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 20,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "招财小橘",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+		},
+		[471] = {
+			{
+				szName = "光圈范围",
+				dwID = 132794,
+				szNote = "光圈范围",
+				nFrame = 47,
+			},
+			{
+				nFrame = 47,
+				col = {
+					100,
+					255,
+					100,
+				},
+				szName = "小鱼",
+				dwID = 132795,
+				szNote = "小鱼",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				dwID = 132796,
+				col = {
+					0,
+					255,
+					0,
+				},
+				szName = "大鱼",
+				aFocus = {
+					{
+						szDisplay = "大鱼·25分",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "大鱼",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				dwID = 132797,
+				col = {
+					0,
+					255,
+					255,
+				},
+				szName = "鱼王",
+				aFocus = {
+					{
+						szDisplay = "鱼王·50分",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "鱼王·50分",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 132798,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 20,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "炸鱼达人",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 65,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 132733,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 20,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "袋袋",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 132809,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 20,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "招财小橘",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+		},
+		[565] = {
+			{
+				nFrame = 65,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 108196,
+				aFocus = {
+					{
+						szDisplay = "飞虫·15尺内",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 15,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 60,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "飞虫",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+		},
+	},
+	DEBUFF = {
+		[-15] = {
+			{
+				nIcon = 12077,
+				szName = "落花",
+				nLevel = 1,
+				szNote = "管家技能_当前交互管家ID",
+				dwID = 17136,
+			},
+			{
+				nLevel = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				szName = "偷花",
+				nIcon = 10221,
+				szNote = "偷菜次数限制",
+				dwID = 16908,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 19276,
+				nScrutinyType = 1,
+				szNote = "清点家具",
+				nLevel = 1,
+			},
+			{
+				dwID = 17145,
+				szNote = "鱼塘闲情",
+				nLevel = 1,
+			},
+			{
+				dwID = 19112,
+				nLevel = 1,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				szName = "召唤",
+				nIcon = 2573,
+				szNote = "召唤",
+				dwID = 17437,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 17178,
+				nLevel = 1,
+				szNote = "虚弱",
+				aCataclysmBuff = {
+					{
+						nPriority = 16,
+						szReminder = "虚 虚弱攻击-50%",
+						nColAlpha = 255,
+					},
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "炊事",
+						nTime = 60,
+						szName = "炊事剩余时间",
+						nClass = 1,
+						nFrame = 4,
+					},
+				},
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 17378,
+				szNote = "炊事次数",
+				nLevel = 1,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				tCountdown = {
+					{
+						nIcon = 115,
+						key = "传信邻里间",
+						nTime = 0,
+						szName = "传信邻里间",
+						nClass = 2,
+						nFrame = 5,
+					},
+				},
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				szName = "轻功吖",
+				nLevel = 1,
+				szNote = "货物压身",
+				dwID = 17327,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					100,
+				},
+				szName = "泡澡",
+				szNote = "舒舒服服",
+				dwID = 17320,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					100,
+				},
+				szName = "修养",
+				szNote = "休养生息",
+				dwID = 17319,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				nIcon = 2043,
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				szName = "传送",
+				nLevel = 1,
+				dwID = 17095,
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1785577446,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[565] = {
+			{
+				dwID = 9562,
+				aFocus = {
+					{
+						szDisplay = "",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						nMaxDistance = 30,
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "落叶",
+			},
+		},
+	},
+}

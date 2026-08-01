@@ -1,0 +1,246 @@
+return {
+	BUFF = {},
+	CHAT = {
+		[-2] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 0,
+						key = "援助提示",
+						nTime = 10,
+						szName = "援助·已绑定",
+						nClass = 20,
+						nIcon = 13,
+					},
+				},
+				szContent = "援助关系绑定成功，退队可主动解除，但会受到一定惩罚。若对方离线，主动退队解除关系将不受惩罚。\
+",
+				szNote = "援助·已绑定",
+				[20] = {
+					bCenterAlarm = true,
+				},
+			},
+		},
+		[-7] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 0,
+						key = "援助提示",
+						nTime = 10,
+						szName = "援助·已绑定",
+						nClass = 20,
+						nIcon = 13,
+					},
+				},
+				szContent = "援助关系绑定成功，退队可主动解除，但会受到一定惩罚。若对方离线，主动退队解除关系将不受惩罚。\
+",
+				szNote = "援助·已绑定",
+				[20] = {
+					bCenterAlarm = true,
+				},
+			},
+		},
+		[-21] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 0,
+						key = "援助提示",
+						nTime = 10,
+						szName = "援助·已绑定",
+						nClass = 20,
+						nIcon = 13,
+					},
+				},
+				szContent = "援助关系绑定成功，退队可主动解除，但会受到一定惩罚。若对方离线，主动退队解除关系将不受惩罚。\
+",
+				szNote = "援助·已绑定",
+				[20] = {
+					bCenterAlarm = true,
+				},
+			},
+		},
+		[6] = {
+			{
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "任务提示1",
+						nTime = 30,
+						szName = "徒弟7日·不可拜师敬酒师傅",
+						nClass = 20,
+						nIcon = 13,
+					},
+					{
+						nFrame = 6,
+						key = "任务提示2",
+						nTime = 30,
+						szName = "师傅5日·不可收徒敬酒徒弟",
+						nClass = 20,
+						nIcon = 13,
+					},
+					{
+						nFrame = 6,
+						key = "任务提示3",
+						nTime = 30,
+						szName = "非敬酒师傅出师后可直接拜师",
+						nClass = 20,
+						nIcon = 13,
+					},
+					{
+						nFrame = 6,
+						key = "任务提示4",
+						nTime = 30,
+						szName = "被敬酒师傅5日后可主动收徒",
+						nClass = 20,
+						nIcon = 13,
+					},
+				},
+				szNote = "剑三江湖·师徒·出师任务",
+				szContent = "你已接受了[一杯浊酒尽余欢]。\
+",
+			},
+		},
+	},
+	CASTING = {},
+	TALK = {
+		[-2] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "援助提示",
+						nTime = "10,援助·未找到;232,援助·CD",
+						szName = "",
+						nRefresh = 0,
+						nFrame = 4,
+						nClass = 14,
+					},
+				},
+				szContent = "未找到前来帮助的侠士，少侠可重新发布援助。",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "援助提示",
+						nTime = 60,
+						szName = "援助·保持可组队状态",
+						nFrame = 6,
+						nIcon = 13,
+					},
+				},
+				szContent = "正在为你寻找玩家，一分钟内对方将与你自动组队，请保持可组队状态。",
+			},
+		},
+		[-7] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "援助提示",
+						nTime = "10,援助·未找到;232,援助·CD",
+						szName = "",
+						nRefresh = 0,
+						nFrame = 4,
+						nClass = 14,
+					},
+				},
+				szContent = "未找到前来帮助的侠士，少侠可重新发布援助。",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "援助提示",
+						nTime = 60,
+						szName = "援助·保持可组队状态",
+						nFrame = 6,
+						nIcon = 13,
+					},
+				},
+				szContent = "正在为你寻找玩家，一分钟内对方将与你自动组队，请保持可组队状态。",
+			},
+		},
+		[-21] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 13,
+						key = "援助提示",
+						nTime = "10,援助·未找到;232,援助·CD",
+						szName = "",
+						nRefresh = 0,
+						nFrame = 4,
+						nClass = 14,
+					},
+				},
+				szContent = "未找到前来帮助的侠士，少侠可重新发布援助。",
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "援助提示",
+						nTime = 60,
+						szName = "援助·保持可组队状态",
+						nFrame = 6,
+						nIcon = 13,
+					},
+				},
+				szContent = "正在为你寻找玩家，一分钟内对方将与你自动组队，请保持可组队状态。",
+			},
+		},
+	},
+	NPC = {},
+	DEBUFF = {
+		[-1] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 15743,
+				szName = "拜师CD",
+				nIcon = 2118,
+				szNote = "剑三江湖·师徒·出师_徒弟用",
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "师徒提示",
+						nTime = 5,
+						szName = "出师·徒弟封印结束",
+						nIcon = 2118,
+						nClass = 2,
+					},
+				},
+			},
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				dwID = 15744,
+				szName = "收徒CD",
+				nIcon = 2117,
+				szNote = "剑三江湖·师徒·出师_师傅用",
+				tCountdown = {
+					{
+						nFrame = 6,
+						key = "师徒提示",
+						nTime = 5,
+						szName = "出师·师傅封印结束",
+						nIcon = 2117,
+						nClass = 2,
+					},
+				},
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1785578952,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}

@@ -1,0 +1,79 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[562] = {
+			{
+				tCountdown = {
+					{
+						nClass = 14,
+						key = "{$1}",
+						nTime = 20,
+						szName = "运势·{$1}·{$2}/{$3}",
+						nFrame = 6,
+						nIcon = 2287,
+					},
+				},
+				szContent = "^大侠的(.-)运势累计至(%d-)/(%d+)",
+				bReg = true,
+				szTarget = "%",
+				szNote = "运势·{$1}·{$2}/{$3}",
+			},
+		},
+	},
+	NPC = {},
+	DEBUFF = {
+		[562] = {
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				nLevel = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 20563,
+				szName = "耐力损",
+				szNote = "耐力受损",
+				aCataclysmBuff = {
+					{
+						nPriority = 5,
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				nLevel = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 21977,
+				szName = "精神损",
+				szNote = "精神受损",
+				aCataclysmBuff = {
+					{
+						nPriority = 4,
+					},
+				},
+			},
+		},
+	},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1785577924,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}
