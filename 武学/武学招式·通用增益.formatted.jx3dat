@@ -1,0 +1,513 @@
+return {
+	BUFF = {
+		[-5] = {
+			{
+				{
+					bBuffList = true,
+				},
+				tCountdown = {
+					{
+						nClass = 2,
+						key = "KEY¡¤×óÐýÓÒ×ª",
+						nTime = "1,¡¾{$receiver}¡¿¡¤²¹×óÐýÓÒ×ª;2,¡¾{$receiver}¡¿¡¤²¹×óÐýÓÒ×ª,VO:ShiYongTeShuJiNeng;5,¡¾{$receiver}¡¿¡¤²¹×óÐýÓÒ×ª",
+						szName = "µ¹¼ÆÊ± {$B20938}",
+						nRefresh = 1,
+						nIcon = 904,
+					},
+				},
+				dwID = 20938,
+				col = {
+					0,
+					255,
+					255,
+				},
+				szName = "ÎÞË«Ðý",
+				nLevel = 1,
+				szNote = "ÎÞË«Ðý",
+				tKungFu = {
+					["SKILL#10080"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "KEY¡¤Æ®»Æ",
+						nTime = 0,
+						szName = "KEY¡¤Æ®»Æ",
+						nRefresh = 1,
+						nIcon = 15692,
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 20854,
+				nLevel = 1,
+				szNote = "Æ®»Æ",
+				tKungFu = {
+					["SKILL#10626"] = true,
+				},
+			},
+		},
+		[-4] = {
+			{
+				{
+					bBuffList = true,
+				},
+				tCountdown = {
+					{
+						nClass = 2,
+						key = "KEY¡¤×óÐýÓÒ×ª",
+						nTime = "1,¡¾{$receiver}¡¿¡¤²¹×óÐýÓÒ×ª;2,¡¾{$receiver}¡¿¡¤²¹×óÐýÓÒ×ª,VO:ShiYongTeShuJiNeng;5,¡¾{$receiver}¡¿¡¤²¹×óÐýÓÒ×ª",
+						szName = "µ¹¼ÆÊ± {$B20938}",
+						nRefresh = 1,
+						nIcon = 904,
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				szName = "ÎÞË«Ðý",
+				dwID = 20938,
+				nLevel = 1,
+				tKungFu = {
+					["SKILL#10080"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "KEY¡¤Æ®»Æ",
+						nTime = 0,
+						szName = "KEY¡¤Æ®»Æ",
+						nRefresh = 1,
+						nIcon = 15692,
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 20854,
+				nLevel = 1,
+				tKungFu = {
+					["SKILL#10626"] = true,
+				},
+			},
+		},
+		[-1] = {
+			{
+				{
+					bBuffList = true,
+				},
+				tCountdown = {
+					{
+						nClass = 2,
+						key = "KEY¡¤×óÐýÓÒ×ª",
+						nTime = "1,¡¾{$receiver}¡¿¡¤²¹×óÐýÓÒ×ª;2,¡¾{$receiver}¡¿¡¤²¹×óÐýÓÒ×ª;5,¡¾{$receiver}¡¿¡¤²¹×óÐýÓÒ×ª",
+						szName = "µ¹¼ÆÊ± {$B20938}",
+						nRefresh = 1,
+						nIcon = 904,
+					},
+				},
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 20938,
+				nLevel = 1,
+				szNote = "×óÐýÓÒ×ª",
+				tKungFu = {
+					["SKILL#10080"] = true,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 2,
+						key = "KEY¡¤×óÐýÓÒ×ª",
+						nTime = -1,
+						szName = "KEY¡¤×óÐýÓÒ×ª",
+						nRefresh = 121,
+						nIcon = 904,
+					},
+				},
+				nScrutinyType = 1,
+				tKungFu = {
+					["SKILL#10081"] = true,
+					["SKILL#10080"] = true,
+				},
+				szName = "½£Îè±íÏÖ",
+				dwID = 12382,
+				nIcon = 13697,
+				szNote = "½£Îè±íÏÖ",
+				nLevel = 1,
+			},
+		},
+		[-3] = {
+			{
+				{
+					bBuffList = true,
+				},
+				tCountdown = {
+					{
+						nClass = 2,
+						key = "KEY¡¤×óÐýÓÒ×ª",
+						nTime = "1,¡¾{$receiver}¡¿¡¤²¹×óÐýÓÒ×ª;2,¡¾{$receiver}¡¿¡¤²¹×óÐýÓÒ×ª,VO:ShiYongTeShuJiNeng;5,¡¾{$receiver}¡¿¡¤²¹×óÐýÓÒ×ª",
+						szName = "KEY¡¤×óÐýÓÒ×ª",
+						nRefresh = 1,
+						nIcon = 904,
+					},
+				},
+				dwID = 20938,
+				col = {
+					0,
+					255,
+					255,
+				},
+				szName = "ÎÞË«Ðý",
+				nLevel = 1,
+				szNote = "×óÐýÓÒ×ª",
+				tKungFu = {
+					["SKILL#10080"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				tCountdown = {
+					{
+						nClass = 1,
+						key = "KEY¡¤Æ®»Æ",
+						nTime = 0,
+						szName = "KEY¡¤Æ®»Æ",
+						nIcon = 15692,
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 20854,
+				nLevel = 1,
+				szNote = "Æ®»Æ",
+				tKungFu = {
+					["SKILL#10626"] = true,
+				},
+			},
+		},
+	},
+	CHAT = {},
+	CASTING = {
+		[-4] = {
+			{
+				tCountdown = {
+					{
+						nClass = 8,
+						key = "KEY¡¤×óÐýÓÒ×ª",
+						nTime = -2,
+						szName = "KEY¡¤×óÐýÓÒ×ª",
+						nIcon = 904,
+					},
+					{
+						nClass = 8,
+						key = "KEY¡¤×óÐýÓÒ×ª",
+						nTime = "40,¡¾{$sender}¡¿¡¤ÆÆÕÐ;41,¡¾{$sender}¡¿¡¤²¹×óÐýÓÒ×ª,VO:ShiYongTeShuJiNeng;42,¡¾{$sender}¡¿¡¤²¹×óÐýÓÒ×ª;43,¡¾{$sender}¡¿¡¤²¹×óÐýÓÒ×ª",
+						szName = "KEY¡¤×óÐýÓÒ×ª",
+						nRefresh = 40,
+						nFrame = 0,
+						nIcon = 904,
+					},
+				},
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 567,
+				nLevel = 1,
+				tKungFu = {
+					["SKILL#10080"] = true,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "KEY¡¤Æ®»Æ",
+						nTime = 0,
+						szName = "KEY¡¤Æ®»Æ",
+						nIcon = 15421,
+					},
+				},
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 27674,
+				nLevel = 1,
+				tKungFu = {
+					["SKILL#10626"] = true,
+				},
+			},
+		},
+		[-5] = {
+			{
+				tCountdown = {
+					{
+						nClass = 8,
+						key = "KEY¡¤×óÐýÓÒ×ª",
+						nTime = -2,
+						szName = "KEY¡¤×óÐýÓÒ×ª",
+						nIcon = 904,
+					},
+					{
+						nClass = 8,
+						key = "KEY¡¤×óÐýÓÒ×ª",
+						nTime = "40,¡¾{$sender}¡¿¡¤ÆÆÕÐ;41,¡¾{$sender}¡¿¡¤²¹×óÐýÓÒ×ª,VO:ShiYongTeShuJiNeng;42,¡¾{$sender}¡¿¡¤²¹×óÐýÓÒ×ª;43,¡¾{$sender}¡¿¡¤²¹×óÐýÓÒ×ª",
+						szName = "KEY¡¤×óÐýÓÒ×ª",
+						nRefresh = 40,
+						nFrame = 0,
+						nIcon = 904,
+					},
+				},
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 567,
+				nLevel = 1,
+				tKungFu = {
+					["SKILL#10080"] = true,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "KEY¡¤Æ®»Æ",
+						nTime = 0,
+						szName = "KEY¡¤Æ®»Æ",
+						nIcon = 15421,
+					},
+				},
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 27674,
+				nLevel = 1,
+				tKungFu = {
+					["SKILL#10626"] = true,
+				},
+			},
+		},
+		[-3] = {
+			{
+				tCountdown = {
+					{
+						nClass = 9,
+						key = "KEY¡¤Æ®»Æ",
+						nTime = 0,
+						szName = "KEY¡¤Æ®»Æ",
+						nIcon = 15421,
+					},
+				},
+				nScrutinyType = 1,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 27674,
+				nLevel = 1,
+				tKungFu = {
+					["SKILL#10626"] = true,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 8,
+						key = "KEY¡¤×óÐýÓÒ×ª",
+						nTime = -2,
+						szName = "KEY¡¤×óÐýÓÒ×ª",
+						nIcon = 904,
+					},
+					{
+						nClass = 8,
+						key = "KEY¡¤×óÐýÓÒ×ª",
+						nTime = "40,¡¾{$sender}¡¿¡¤ÆÆÕÐ;41,¡¾{$sender}¡¿¡¤²¹×óÐýÓÒ×ª,VO:ShiYongTeShuJiNeng;42,¡¾{$sender}¡¿¡¤²¹×óÐýÓÒ×ª;43,¡¾{$sender}¡¿¡¤²¹×óÐýÓÒ×ª",
+						szName = "KEY¡¤×óÐýÓÒ×ª",
+						nRefresh = 40,
+						nFrame = 0,
+						nIcon = 904,
+					},
+				},
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 567,
+				nLevel = 1,
+				tKungFu = {
+					["SKILL#10080"] = true,
+				},
+			},
+		},
+		[-1] = {
+			{
+				tCountdown = {
+					{
+						nClass = 8,
+						key = "KEY¡¤×óÐýÓÒ×ª",
+						nTime = -2,
+						szName = "KEY¡¤×óÐýÓÒ×ª",
+						nIcon = 904,
+					},
+					{
+						nClass = 8,
+						key = "KEY¡¤×óÐýÓÒ×ª",
+						nTime = "40,¡¾{$sender}¡¿¡¤ÆÆÕÐ;41,¡¾{$sender}¡¿¡¤²¹×óÐýÓÒ×ª;42,¡¾{$sender}¡¿¡¤²¹×óÐýÓÒ×ª;43,¡¾{$sender}¡¿¡¤²¹×óÐýÓÒ×ª",
+						szName = "KEY¡¤×óÐýÓÒ×ª",
+						nRefresh = 40,
+						nFrame = 0,
+						nIcon = 904,
+					},
+				},
+				nScrutinyType = 1,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 567,
+				nLevel = 1,
+				szNote = "×óÐýÓÒ×ª",
+				tKungFu = {
+					["SKILL#10080"] = true,
+				},
+			},
+		},
+	},
+	TALK = {},
+	NPC = {},
+	DEBUFF = {
+		[-4] = {
+			{
+				tCountdown = {
+					{
+						nClass = 2,
+						key = "KEY¡¤Æ®»Æ",
+						nTime = "4,¡¾{$sender}¡¿¡¤Âä»Æ;5,¡¾{$sender}¡¿¡¤²¹Æ®»Æ;6,¡¾{$sender}¡¿¡¤²¹Æ®»Æ,VO:ShiYongTeShuJiNeng;8,¡¾{$sender}¡¿¡¤²¹Æ®»Æ",
+						szName = "KEY¡¤Æ®»Æ",
+						nRefresh = 10,
+						nFrame = 0,
+						nIcon = 15692,
+					},
+				},
+				nScrutinyType = 1,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 20855,
+				nLevel = 1,
+				szNote = "Âä»Æ",
+				tKungFu = {
+					["SKILL#10626"] = true,
+				},
+			},
+		},
+		[-3] = {
+			{
+				tCountdown = {
+					{
+						nClass = 2,
+						key = "KEY¡¤Æ®»Æ",
+						nTime = "4,¡¾{$sender}¡¿¡¤Âä»Æ;5,¡¾{$sender}¡¿¡¤²¹Æ®»Æ;6,¡¾{$sender}¡¿¡¤²¹Æ®»Æ,VO:ShiYongTeShuJiNeng;8,¡¾{$sender}¡¿¡¤²¹Æ®»Æ",
+						szName = "KEY¡¤Æ®»Æ",
+						nRefresh = 10,
+						nFrame = 0,
+						nIcon = 15692,
+					},
+				},
+				nScrutinyType = 1,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 20855,
+				nLevel = 1,
+				szNote = "Âä»Æ",
+				tKungFu = {
+					["SKILL#10626"] = true,
+				},
+			},
+		},
+		[-5] = {
+			{
+				tCountdown = {
+					{
+						nClass = 2,
+						key = "KEY¡¤Æ®»Æ",
+						nTime = "4,¡¾{$sender}¡¿¡¤Âä»Æ;5,¡¾{$sender}¡¿¡¤²¹Æ®»Æ;6,¡¾{$sender}¡¿¡¤²¹Æ®»Æ,VO:ShiYongTeShuJiNeng;8,¡¾{$sender}¡¿¡¤²¹Æ®»Æ",
+						szName = "KEY¡¤Æ®»Æ",
+						nRefresh = 10,
+						nFrame = 0,
+						nIcon = 15692,
+					},
+				},
+				nScrutinyType = 1,
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 20855,
+				nLevel = 1,
+				szNote = "Âä»Æ",
+				tKungFu = {
+					["SKILL#10626"] = true,
+				},
+			},
+		},
+	},
+	__meta = {
+		szServer = "Î¨ÎÒ¶À×ð",
+		szAuthor = "ºÉ»¨Àð",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1785579312,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {},
+}

@@ -1,5 +1,24 @@
 return {
 	BUFF = {
+		[-1] = {
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				nLevel = 1,
+				nScrutinyType = 2,
+				dwID = 24855,
+				szName = "跨服",
+				szNote = "跨服排队重置神行",
+				aCataclysmBuff = {
+					{
+						nPriority = 1,
+						szReminder = "跨",
+					},
+				},
+			},
+		},
 		[697] = {
 			{
 				{

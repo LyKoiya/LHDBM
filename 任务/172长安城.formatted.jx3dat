@@ -1727,6 +1727,9 @@ return {
 		szEdition = "zhcn_hd",
 	},
 	DOODAD = {
+		[156] = {
+			{dwID=4431,szNote="水井·传送·长安地宫",aFocus={{dwMapID=-1,szDisplay="传送·长安地宫",nMaxDistance=6,tRelation={bAll=true,bEnemy=false,bAlly=false,},tLife={bEnable=false,szOperator=">",nValue=0,},},},},
+		},
 		[172] = {
 			{
 				dwID = 4515,

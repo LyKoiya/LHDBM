@@ -34,44 +34,7 @@ return {
 						},
 					},
 				},
-				szNote = "沈剑心",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-		},
-		[-2] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 122858,
-				aFocus = {
-					{
-						tRelation = {
-							bAlly = true,
-							bAll = true,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "沈剑心·主城",
+				szNote = "公益活动·南音·沈剑心",
 				col = {
 					0,
 					255,
@@ -94,7 +57,7 @@ return {
 					0,
 				},
 				dwID = 31326,
-				szNote = "观看南音表演",
+				szNote = "公益活动·南音·观看南音表演",
 				szName = "观看",
 			},
 		},
@@ -103,7 +66,7 @@ return {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1752734659,
+		nTimeStamp = 1785582125,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
@@ -134,6 +97,7 @@ return {
 						},
 					},
 				},
+				szNote = "公益活动·南音·光圈·燃眉之急",
 				szName = "光圈·燃眉之急",
 			},
 			{
@@ -161,6 +125,7 @@ return {
 						},
 					},
 				},
+				szNote = "公益活动·南音·光圈·翻箱倒笼",
 				szName = "光圈·翻箱倒笼",
 			},
 			{
@@ -188,6 +153,7 @@ return {
 						},
 					},
 				},
+				szNote = "公益活动·南音·光圈·弦歌不辍",
 				szName = "光圈·弦歌不辍",
 			},
 		},
