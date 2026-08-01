@@ -52,7 +52,7 @@ return {
 						false,
 					},
 				},
-				szName = "{$S2808}·打断",
+				szName = "再生·打断",
 			},
 			{
 				dwID = 3049,
@@ -115,7 +115,7 @@ return {
 						false,
 					},
 				},
-				szName = "{$S2807}·打断",
+				szName = "疯狂之怒·打断",
 			},
 			{
 				dwID = 183,
