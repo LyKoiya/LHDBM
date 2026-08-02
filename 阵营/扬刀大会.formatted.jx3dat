@@ -21,6 +21,69 @@ return {
 					{
 						nClass = 20,
 						key = "战斗开始",
+						nTime = 60,
+						szName = "双方气血·大量流失·结算剩余",
+						nRefresh = 1,
+						nIcon = 13,
+						nFrame = 1,
+					},
+				},
+				szNote = "双方气血·大量流失",
+				szContent = "连战不休，气势渐衰，攻守双方气血大量流失中，请速战速决！\
+",
+				col = {
+					255,
+					153,
+					204,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 1,
+						key = "战斗开始",
+						nTime = 60,
+						szName = "双方气血·中量流失",
+						nRefresh = 1,
+						nIcon = 13,
+						nClass = 20,
+					},
+				},
+				szContent = "连战不休，气势渐衰，攻守双方气血持续流失中，请速战速决！\
+",
+				szNote = "双方气血·中量流失",
+				col = {
+					255,
+					153,
+					204,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nFrame = 1,
+						key = "战斗开始",
+						nTime = 60,
+						szName = "双方气血·少量流失",
+						nRefresh = 1,
+						nClass = 20,
+						nIcon = 13,
+					},
+				},
+				szNote = "双方气血·少量流失",
+				szContent = "连战不休，气势渐衰，攻守双方气血开始流失，请速战速决！\
+",
+				col = {
+					255,
+					153,
+					204,
+				},
+			},
+			{
+				tCountdown = {
+					{
+						nClass = 20,
+						key = "战斗开始",
 						nTime = "30,战斗·开始倒计时;31,战斗·开始比赛",
 						szName = "战斗·开始倒计时",
 						nRefresh = 0,
@@ -73,59 +136,53 @@ return {
 					{
 						nClass = 14,
 						key = "战斗开始",
-						nTime = "60,双方气血·大量流失;62,战斗·已经结束",
-						szName = "气血·大量流失",
-						nRefresh = 1,
+						nTime = 10,
+						szName = "模式进度·不一致·需重置",
+						nFrame = 2,
 						nIcon = 13,
-						nFrame = 1,
 					},
 				},
-				szNote = "双方气血·大量流失·速战速决",
+				szContent = "当前队伍闯关模式或进度不一致，无法参与",
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szTarget = "%",
+				szNote = "队伍成员·模式进度·不一致·需重置",
+			},
+			{
+				szNote = "双方气血·大量流失",
 				szContent = "连战不休，气势渐衰，攻守双方气血大量流失中，请速战速决！",
 				col = {
 					255,
 					153,
 					204,
 				},
+				[14] = {
+					bCenterAlarm = true,
+				},
 			},
 			{
-				tCountdown = {
-					{
-						nFrame = 1,
-						key = "战斗开始",
-						nTime = "60,双方气血·中量流失;120,双方气血·大量流失;122,战斗·已经结束",
-						szName = "气血·大量流失",
-						nRefresh = 1,
-						nIcon = 13,
-						nClass = 14,
-					},
-				},
 				szContent = "连战不休，气势渐衰，攻守双方气血持续流失中，请速战速决！",
-				szNote = "双方气血·中量流失·速战速决",
+				szNote = "双方气血·中量流失",
 				col = {
 					255,
 					153,
 					204,
 				},
+				[14] = {
+					bCenterAlarm = true,
+				},
 			},
 			{
-				tCountdown = {
-					{
-						nFrame = 1,
-						key = "战斗开始",
-						nTime = "60,双方气血·少量流失;120,双方气血·中量流失;180,双方气血·大量流失;182,战斗·已经结束",
-						szName = "气血·大量流失",
-						nRefresh = 1,
-						nClass = 14,
-						nIcon = 13,
-					},
-				},
-				szNote = "双方气血·少量流失·速战速决",
+				szNote = "双方气血·少量流失",
 				szContent = "连战不休，气势渐衰，攻守双方气血开始流失，请速战速决！",
 				col = {
 					255,
 					153,
 					204,
+				},
+				[14] = {
+					bCenterAlarm = true,
 				},
 			},
 			{
@@ -260,10 +317,11 @@ return {
 				tCountdown = {
 					{
 						key = "战斗开始",
-						nTime = 0.001,
+						nTime = 0,
 						szName = "战斗开始",
-						nIcon = 13,
+						nIcon = 1465,
 						nClass = 2,
+						nFrame = -1,
 					},
 				},
 			},
