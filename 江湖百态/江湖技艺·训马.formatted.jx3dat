@@ -5,7 +5,7 @@ return {
 				tCountdown = {
 					{
 						nClass = 1,
-						key = "训马·交互·神采飞扬",
+						key = "训马·心情",
 						nTime = 20,
 						szName = "神采飞扬·邮寄礼物·马草饲料",
 						nRefresh = 7200,
@@ -34,7 +34,7 @@ return {
 				tCountdown = {
 					{
 						nClass = 1,
-						key = "训马·交互·无忧无虑",
+						key = "训马·心情",
 						nTime = 20,
 						szName = "无忧无虑·加速成长·lv/20min",
 						nRefresh = 7200,
