@@ -1,0 +1,357 @@
+return {
+	BUFF = {},
+	CHAT = {},
+	CASTING = {},
+	TALK = {
+		[718] = {
+			{
+				tCountdown = {
+					{
+						nIcon = 12373,
+						key = "奇遇提示0",
+						nTime = "5,恭喜触发·宠物奇遇·碗中仙·碗儿白;15,奇遇不封印·约5分钟完成",
+						szName = "奇遇提示0",
+						nRefresh = 0,
+						nClass = 14,
+						nFrame = 0,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·刘一竿·对话·阿镯",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "前往·千舟镇·对话·余德厚",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "采集·骨碎补·对话·余德厚",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "刘一竿似乎有话要说。",
+				szNote = "恭喜触发·宠物奇遇·碗中仙·碗儿白",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 12373,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "对话·阿镯·前往·千舟镇",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "对话·余德厚·采集·骨碎补",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "对话·余德厚·返回·刘一竿",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "这碗是我的宝贝，不是你的窝。你倒一屁股占得严实，半点不客气。",
+				szTarget = "阿镯",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 12373,
+						key = "奇遇提示1",
+						nTime = 600,
+						szName = "返回·刘一竿·对话·余德厚",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示2",
+						nTime = 600,
+						szName = "前往·千舟镇·对话·李闻宝",
+						nClass = 14,
+						nFrame = 7,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示3",
+						nTime = 600,
+						szName = "对话·碗儿白·完成宠物奇遇",
+						nClass = 14,
+						nFrame = 7,
+					},
+				},
+				szContent = "老朽这就出诊，稍后去白鹭处寻老朽便是。",
+				szTarget = "余德厚",
+			},
+			{
+				tCountdown = {
+					{
+						nIcon = 12373,
+						key = "奇遇提示1",
+						nTime = 30,
+						szName = "对话·李闻宝·对话·碗儿白",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示2",
+						nTime = 30,
+						szName = "完成·宠物奇遇·碗中仙",
+						nFrame = 7,
+						nClass = 14,
+					},
+					{
+						nIcon = 12373,
+						key = "奇遇提示3",
+						nTime = 30,
+						szName = "宠物·奇遇奖励·碗儿白",
+						nFrame = 7,
+						nClass = 14,
+					},
+				},
+				szContent = "是时候了，上前质问李闻宝吧。",
+			},
+		},
+	},
+	NPC = {
+		[718] = {
+			{
+				nFrame = 47,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 137476,
+				aFocus = {
+					{
+						szDisplay = "刘一竿·碗中仙",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "碗中仙·刘一竿",
+				[3] = {
+					bScreenHead = true,
+				},
+			},
+			{
+				nFrame = 47,
+				dwID = 137477,
+				aFocus = {
+					{
+						szDisplay = "阿镯·碗中仙",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 12,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "碗中仙·阿镯",
+			},
+			{
+				nFrame = 47,
+				dwID = 137479,
+				aFocus = {
+					{
+						szDisplay = "余德厚·碗中仙",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "碗中仙·余德厚",
+			},
+			{
+				nFrame = 47,
+				dwID = 137491,
+				aFocus = {
+					{
+						szDisplay = "余德厚·碗中仙",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "碗中仙·余德厚",
+			},
+			{
+				nFrame = 47,
+				dwID = 137481,
+				aFocus = {
+					{
+						szDisplay = "李闻宝·碗中仙",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 60,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "碗中仙·李闻宝",
+			},
+			{
+				nFrame = 65,
+				dwID = 137482,
+				aFocus = {
+					{
+						szDisplay = "碗儿白·碗中仙",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 6,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "碗中仙·碗儿白",
+			},
+		},
+	},
+	DEBUFF = {},
+	__meta = {
+		szServer = "唯我独尊",
+		szAuthor = "荷花鲤",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		nTimeStamp = 1786001882,
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+	},
+	DOODAD = {
+		[718] = {
+			{
+				dwID = 11835,
+				aFocus = {
+					{
+						szDisplay = "骨碎补·碗中仙",
+						tRelation = {
+							bAlly = false,
+							bAll = true,
+							bEnemy = false,
+						},
+						dwMapID = -1,
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+						tType = {
+							[3] = false,
+							bAll = true,
+							[4] = false,
+							[5] = false,
+						},
+					},
+				},
+				szNote = "碗中仙·骨碎补",
+			},
+		},
+	},
+}
