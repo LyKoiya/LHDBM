@@ -609,7 +609,8 @@ return {
 					{
 						nIcon = 13,
 						key = "训马·心情",
-						nTime = 60,
+						nTime = "120,训马·心情·狂躁不安;130,训马·心情·狂躁不安·消失",
+						nRefresh = 119,
 						szName = "训马·心情·狂躁不安",
 						nFrame = 3,
 						nClass = 14,
@@ -785,6 +786,13 @@ return {
 						szName = "无忧无虑·交互·安抚",
 						nFrame = 7,
 						nClass = 14,
+					},
+					{
+						key = "训马·心情",
+						nTime = -2,
+						szName = "训马·心情",
+						nClass = 14,
+						nIcon = 13,
 					},
 					{
 						nIcon = 13,
@@ -934,7 +942,8 @@ return {
 					{
 						nFrame = 3,
 						key = "训马·心情",
-						nTime = 60,
+						nTime = "120,训马·心情·狂躁不安;130,训马·心情·狂躁不安·消失",
+						nRefresh = 119,
 						szName = "训马·心情·狂躁不安",
 						nIcon = 13,
 						nClass = 14,
@@ -1110,6 +1119,13 @@ return {
 						szName = "无忧无虑·交互·安抚",
 						nIcon = 4521,
 						nClass = 14,
+					},
+					{
+						key = "训马·心情",
+						nTime = -2,
+						szName = "训马·心情",
+						nClass = 14,
+						nIcon = 13,
 					},
 					{
 						nFrame = 3,
@@ -1259,7 +1275,8 @@ return {
 					{
 						nFrame = 3,
 						key = "训马·心情",
-						nTime = 60,
+						nTime = "120,训马·心情·狂躁不安;130,训马·心情·狂躁不安·消失",
+						nRefresh = 119,
 						szName = "训马·心情·狂躁不安",
 						nClass = 14,
 						nIcon = 13,
@@ -1435,6 +1452,13 @@ return {
 						szName = "无忧无虑·交互·安抚",
 						nClass = 14,
 						nIcon = 4521,
+					},
+					{
+						key = "训马·心情",
+						nTime = -2,
+						szName = "训马·心情",
+						nClass = 14,
+						nIcon = 13,
 					},
 					{
 						nFrame = 3,
