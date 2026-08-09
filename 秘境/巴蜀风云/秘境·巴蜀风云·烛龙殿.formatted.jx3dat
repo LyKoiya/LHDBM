@@ -58,7 +58,34 @@ return {
 		},
 	},
 	NPC = {},
-	DEBUFF = {},
+	DEBUFF = {
+		[133] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				[1] = {
+					bBuffList = true,
+				},
+				szName = "¿¹Ë¤",
+				nIcon = 77,
+				szNote = "ÖòÁúµî_ÎÚÃÉ¹ó_ÅÐ¶ÏBUFF",
+				dwID = 4013,
+			},
+		},
+		[134] = {
+			{
+				nLevel = 1,
+				nScrutinyType = 1,
+				[1] = {
+					bBuffList = true,
+				},
+				szName = "¿¹Ë¤",
+				nIcon = 77,
+				szNote = "ÖòÁúµî_ÎÚÃÉ¹ó_ÅÐ¶ÏBUFF",
+				dwID = 4013,
+			},
+		},
+	},
 	__meta = {
 		szServer = "Î¨ÎÒ¶À×ð",
 		szAuthor = "ºÉ»¨Àð",
