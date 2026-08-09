@@ -5,26 +5,24 @@
 		}
 	],
 	"settings": {
+		// 普通lua脚本：强制GBK
+		"[lua]": {
+			"files.encoding": "gbk",
+			"files.autoGuessEncoding": false
+		},
 		"files.associations": {
 			"*.jx3dat": "lua" // 将 *.jx3dat 文件关联为 Lua 类型
 		},
-		// 普通lua脚本：强制GBK
-		"[lua]": {
-		"files.encoding": "gbk",
-		"files.autoGuessEncoding": false
-		},
-		
-		// 匹配包含 zhtw 的语言文件，强制UTF-8
+		// 匹配包含 zhtw 的语言文件，强制UTF-8，支持glob匹配模式
 		"encoding-guard.patternMap": {
-		// 支持glob匹配模式
-		"**/*zhtw*.jx3dat": "utf8",
-		"**/*zhcn*.jx3dat": "gbk",
-		"**/*.formatted.jx3dat": "gbk",
-		"**/*zhtw*.lua": "utf8",
-		"**/*zhtw*.txt": "utf8",
-		"**/*.ini.zh_TW": "utf8",
-		"**/*.ini": "gbk",
-		"**/*.txt": "gbk",
-		}
+			"**/*zhtw*.jx3dat": "utf8",
+			"**/*zhcn*.jx3dat": "gbk",
+			"**/*.formatted.jx3dat": "gbk",
+			"**/*zhtw*.lua": "utf8",
+			"**/*zhtw*.txt": "utf8",
+			"**/*.ini.zh_TW": "utf8",
+			"**/*.ini": "gbk",
+			"**/*.txt": "gbk",
+		},
 	}
 }
