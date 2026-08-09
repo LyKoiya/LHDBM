@@ -230,7 +230,39 @@ local function file2var(szFilePath)
     return str2var(tVar)
 end
 
--- 处理文件
+local function processFile(szFileName)
+    -- print('Sorting: ' .. szFileName)
+    local tData = file2var(szFileName)
+    local szSorted = 'return ' .. var2str(tData, '\t', 0) .. '\n'
+    WriteFile(szFileName, szSorted)
+    return true
+end
+
+-- 批量处理所有传入的文件
+local success = true
+local errorFiles = {}
+
+for i = 1, #arg do
+    local szFileName = arg[i]
+    local ok, err = pcall(processFile, szFileName)
+    if not ok then
+        io.stderr:write('Error processing ' .. szFileName .. ': ' .. err .. '\n')
+        errorFiles[#errorFiles + 1] = szFileName
+        success = false
+    end
+end
+
+-- 输出处理结果统计
+if success then
+    print(string.format('success %d file.', #arg))
+else
+    io.stderr:write(string.format('failed %d file: %s\n', #errorFiles, table.concat(errorFiles, ', ')))
+end
+
+os.exit(success and 0 or 1)
+
+--处理文件
+--[[
 for i = 1, #arg do
     local szFileName = arg[i]
     print('Sorting: ' .. szFileName)
@@ -238,3 +270,4 @@ for i = 1, #arg do
     local szSorted = 'return ' .. var2str(tData, '\t', 0) .. '\n'
     WriteFile(szFileName, szSorted)
 end
+--]]
