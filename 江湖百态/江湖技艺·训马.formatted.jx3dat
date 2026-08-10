@@ -2,94 +2,94 @@ return {
 	BUFF = {
 		[-7] = {
 			{
-				tCountdown = {
-					{
-						nClass = 1,
-						key = "训马·心情",
-						nTime = 20,
-						szName = "神采飞扬·邮寄礼物·马草饲料",
-						nRefresh = 7200,
-						nFrame = 6,
-						nIcon = 4519,
-					},
-					{
-						nClass = 2,
-						key = "训马·心情",
-						nTime = 5,
-						szName = "神采飞扬·消失",
-						nFrame = 3,
-						nIcon = 4519,
-					},
-				},
 				[2] = {
 					bCenterAlarm = true,
 				},
 				bCheckLevel = true,
 				dwID = 16517,
+				nLevel = 4,
 				nScrutinyType = 1,
 				szNote = "神采飞扬",
-				nLevel = 4,
-			},
-			{
 				tCountdown = {
 					{
-						nClass = 1,
 						key = "训马·心情",
-						nTime = 20,
-						szName = "无忧无虑·加速成长·lv/20min",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 4519,
 						nRefresh = 7200,
-						nFrame = 5,
-						nIcon = 4521,
+						nTime = 20,
+						szName = "神采飞扬·邮寄礼物·马草饲料",
 					},
 					{
-						nClass = 2,
 						key = "训马·心情",
-						nTime = 5,
-						szName = "无忧无虑·消失",
+						nClass = 2,
 						nFrame = 3,
-						nIcon = 4521,
+						nIcon = 4519,
+						nTime = 5,
+						szName = "神采飞扬·消失",
 					},
 				},
+			},
+			{
 				[2] = {
 					bCenterAlarm = true,
 				},
 				bCheckLevel = true,
 				dwID = 16517,
+				nLevel = 3,
 				nScrutinyType = 1,
 				szNote = "无忧无虑",
-				nLevel = 3,
+				tCountdown = {
+					{
+						key = "训马·心情",
+						nClass = 1,
+						nFrame = 5,
+						nIcon = 4521,
+						nRefresh = 7200,
+						nTime = 20,
+						szName = "无忧无虑·加速成长·lv/20min",
+					},
+					{
+						key = "训马·心情",
+						nClass = 2,
+						nFrame = 3,
+						nIcon = 4521,
+						nTime = 5,
+						szName = "无忧无虑·消失",
+					},
+				},
 			},
 			{
 				{
 					bBuffList = true,
 				},
 				{
-					bWhisperChannel = true,
 					bCenterAlarm = true,
 					bVoiceSelfOnly = true,
+					bWhisperChannel = true,
 					szVoice = "ShiYongDaoJu",
 				},
-				tCountdown = {
-					{
-						nFrame = 2,
-						nClass = 2,
-						key = "套马杆",
-						nTime = "2,套马杆·消失啦;10,套马杆·消失啦",
-						szName = "套马杆",
-						bHold = false,
-						nIcon = 4005,
-						nRefresh = 0,
-					},
-				},
-				nScrutinyType = 1,
 				col = {
 					255,
 					255,
 					0,
 				},
 				dwID = 4805,
-				szNote = "套马杆",
 				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "套马杆",
+				tCountdown = {
+					{
+						bHold = false,
+						key = "套马杆",
+						nClass = 2,
+						nFrame = 2,
+						nIcon = 4005,
+						nRefresh = 0,
+						nTime = "2,套马杆·消失啦;10,套马杆·消失啦",
+						szName = "套马杆",
+					},
+				},
 			},
 		},
 		[-3] = {
@@ -100,2935 +100,879 @@ return {
 					0,
 				},
 				dwID = 4805,
+				nLevel = 1,
 				nScrutinyType = 1,
 				szNote = "套马杆",
-				nLevel = 1,
 			},
 		},
 		[216] = {
 			{
+				dwID = 16499,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "牧场",
 				tCountdown = {
 					{
-						nIcon = 3401,
 						key = "训马·交互·神采飞扬",
+						nClass = 1,
+						nIcon = 3401,
 						nTime = -2,
 						szName = "训马·交互·神采飞扬",
-						nClass = 1,
 					},
 					{
-						nIcon = 3401,
 						key = "训马·交互·无忧无虑",
+						nClass = 1,
+						nIcon = 3401,
 						nTime = -2,
 						szName = "训马·交互·无忧无虑",
-						nClass = 1,
 					},
 					{
-						nIcon = 3401,
 						key = "训马·心情",
+						nClass = 1,
+						nIcon = 3401,
 						nTime = -2,
 						szName = "训马·心情",
-						nClass = 1,
 					},
 					{
-						nIcon = 3401,
 						key = "训马·交互",
+						nClass = 1,
+						nIcon = 3401,
 						nTime = -2,
 						szName = "训马·交互",
-						nClass = 1,
 					},
 					{
-						nIcon = 3401,
 						key = "训马·交互·神采飞扬",
+						nClass = 2,
+						nIcon = 3401,
+						nRefresh = 180,
 						nTime = -1,
 						szName = "训马·交互·神采飞扬",
-						nRefresh = 180,
-						nClass = 2,
 					},
 					{
-						nIcon = 3401,
 						key = "训马·交互·无忧无虑",
+						nClass = 2,
+						nIcon = 3401,
+						nRefresh = 180,
 						nTime = -1,
 						szName = "训马·交互·无忧无虑",
-						nRefresh = 180,
-						nClass = 2,
 					},
 					{
-						nIcon = 3401,
 						key = "训马·心情",
+						nClass = 2,
+						nIcon = 3401,
+						nRefresh = 180,
 						nTime = -1,
 						szName = "训马·心情",
-						nRefresh = 180,
-						nClass = 2,
 					},
 					{
-						nIcon = 3401,
 						key = "训马·交互",
+						nClass = 2,
+						nIcon = 3401,
+						nRefresh = 180,
 						nTime = -1,
 						szName = "训马·交互",
-						nRefresh = 180,
-						nClass = 2,
 					},
 					{
-						nIcon = 3401,
 						key = "牧场",
-						nTime = "60.2,放牧·计时剩余·1/3;120.4,放牧·计时剩余·2/3;180.6,放牧·计时剩余·3/3;183,放牧·计时结束,VO:ZhuanJieDuan",
-						nRefresh = 0,
+						nClass = 1,
 						nFrame = 4,
-						nClass = 1,
+						nIcon = 3401,
+						nRefresh = 0,
+						nTime = "60.2,放牧·计时剩余·1/3;120.4,放牧·计时剩余·2/3;180.6,放牧·计时剩余·3/3;183,放牧·计时结束,VO:ZhuanJieDuan",
 					},
 					{
-						nIcon = 3401,
 						key = "牧场",
+						nClass = 2,
+						nIcon = 3401,
 						nTime = 0,
 						szName = "牧场",
-						nClass = 2,
 					},
 				},
-				nScrutinyType = 1,
-				dwID = 16499,
-				szNote = "牧场",
-				nLevel = 1,
-			},
-		},
-		[411] = {
-			{
-				tCountdown = {
-					{
-						nIcon = 3401,
-						key = "训马·交互·神采飞扬",
-						nTime = -2,
-						szName = "训马·交互·神采飞扬",
-						nClass = 1,
-					},
-					{
-						nIcon = 3401,
-						key = "训马·交互·无忧无虑",
-						nTime = -2,
-						szName = "训马·交互·无忧无虑",
-						nClass = 1,
-					},
-					{
-						nIcon = 3401,
-						key = "训马·心情",
-						nTime = -2,
-						szName = "训马·心情",
-						nClass = 1,
-					},
-					{
-						nIcon = 3401,
-						key = "训马·交互",
-						nTime = -2,
-						szName = "训马·交互",
-						nClass = 1,
-					},
-					{
-						nIcon = 3401,
-						key = "训马·交互·神采飞扬",
-						nTime = -1,
-						szName = "训马·交互·神采飞扬",
-						nRefresh = 180,
-						nClass = 2,
-					},
-					{
-						nIcon = 3401,
-						key = "训马·交互·无忧无虑",
-						nTime = -1,
-						szName = "训马·交互·无忧无虑",
-						nRefresh = 180,
-						nClass = 2,
-					},
-					{
-						nIcon = 3401,
-						key = "训马·心情",
-						nTime = -1,
-						szName = "训马·心情",
-						nRefresh = 180,
-						nClass = 2,
-					},
-					{
-						nIcon = 3401,
-						key = "训马·交互",
-						nTime = -1,
-						szName = "训马·交互",
-						nRefresh = 180,
-						nClass = 2,
-					},
-					{
-						nFrame = 4,
-						key = "牧场",
-						nTime = "60.2,放牧·计时剩余·1/3;120.4,放牧·计时剩余·2/3;180.6,放牧·计时剩余·3/3;183,放牧·计时结束,VO:ZhuanJieDuan",
-						nRefresh = 0,
-						nIcon = 3401,
-						nClass = 1,
-					},
-					{
-						nIcon = 3401,
-						key = "牧场",
-						nTime = 0,
-						szName = "牧场",
-						nClass = 2,
-					},
-				},
-				nScrutinyType = 1,
-				dwID = 16499,
-				szNote = "牧场",
-				nLevel = 1,
 			},
 		},
 		[217] = {
 			{
+				dwID = 16499,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "牧场",
 				tCountdown = {
 					{
-						nIcon = 3401,
 						key = "训马·交互·神采飞扬",
+						nClass = 1,
+						nIcon = 3401,
 						nTime = -2,
 						szName = "训马·交互·神采飞扬",
-						nClass = 1,
 					},
 					{
-						nIcon = 3401,
 						key = "训马·交互·无忧无虑",
+						nClass = 1,
+						nIcon = 3401,
 						nTime = -2,
 						szName = "训马·交互·无忧无虑",
-						nClass = 1,
 					},
 					{
-						nIcon = 3401,
 						key = "训马·心情",
+						nClass = 1,
+						nIcon = 3401,
 						nTime = -2,
 						szName = "训马·心情",
-						nClass = 1,
 					},
 					{
-						nIcon = 3401,
 						key = "训马·交互",
+						nClass = 1,
+						nIcon = 3401,
 						nTime = -2,
 						szName = "训马·交互",
-						nClass = 1,
 					},
 					{
-						nIcon = 3401,
 						key = "训马·交互·神采飞扬",
+						nClass = 2,
+						nIcon = 3401,
+						nRefresh = 180,
 						nTime = -1,
 						szName = "训马·交互·神采飞扬",
-						nRefresh = 180,
-						nClass = 2,
 					},
 					{
-						nIcon = 3401,
 						key = "训马·交互·无忧无虑",
+						nClass = 2,
+						nIcon = 3401,
+						nRefresh = 180,
 						nTime = -1,
 						szName = "训马·交互·无忧无虑",
-						nRefresh = 180,
-						nClass = 2,
 					},
 					{
-						nIcon = 3401,
 						key = "训马·心情",
+						nClass = 2,
+						nIcon = 3401,
+						nRefresh = 180,
 						nTime = -1,
 						szName = "训马·心情",
-						nRefresh = 180,
-						nClass = 2,
 					},
 					{
-						nIcon = 3401,
 						key = "训马·交互",
+						nClass = 2,
+						nIcon = 3401,
+						nRefresh = 180,
 						nTime = -1,
 						szName = "训马·交互",
-						nRefresh = 180,
-						nClass = 2,
 					},
 					{
+						key = "牧场",
+						nClass = 1,
 						nFrame = 4,
-						key = "牧场",
-						nTime = "60.2,放牧·计时剩余·1/3;120.4,放牧·计时剩余·2/3;180.6,放牧·计时剩余·3/3;183,放牧·计时结束,VO:ZhuanJieDuan",
-						nRefresh = 0,
-						nClass = 1,
 						nIcon = 3401,
+						nRefresh = 0,
+						nTime = "60.2,放牧·计时剩余·1/3;120.4,放牧·计时剩余·2/3;180.6,放牧·计时剩余·3/3;183,放牧·计时结束,VO:ZhuanJieDuan",
 					},
 					{
-						nIcon = 3401,
 						key = "牧场",
+						nClass = 2,
+						nIcon = 3401,
 						nTime = 0,
 						szName = "牧场",
-						nClass = 2,
 					},
 				},
-				nScrutinyType = 1,
+			},
+		},
+		[411] = {
+			{
 				dwID = 16499,
-				szNote = "牧场",
 				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "牧场",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 1,
+						nIcon = 3401,
+						nTime = -2,
+						szName = "训马·交互·神采飞扬",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 1,
+						nIcon = 3401,
+						nTime = -2,
+						szName = "训马·交互·无忧无虑",
+					},
+					{
+						key = "训马·心情",
+						nClass = 1,
+						nIcon = 3401,
+						nTime = -2,
+						szName = "训马·心情",
+					},
+					{
+						key = "训马·交互",
+						nClass = 1,
+						nIcon = 3401,
+						nTime = -2,
+						szName = "训马·交互",
+					},
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 2,
+						nIcon = 3401,
+						nRefresh = 180,
+						nTime = -1,
+						szName = "训马·交互·神采飞扬",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 2,
+						nIcon = 3401,
+						nRefresh = 180,
+						nTime = -1,
+						szName = "训马·交互·无忧无虑",
+					},
+					{
+						key = "训马·心情",
+						nClass = 2,
+						nIcon = 3401,
+						nRefresh = 180,
+						nTime = -1,
+						szName = "训马·心情",
+					},
+					{
+						key = "训马·交互",
+						nClass = 2,
+						nIcon = 3401,
+						nRefresh = 180,
+						nTime = -1,
+						szName = "训马·交互",
+					},
+					{
+						key = "牧场",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 3401,
+						nRefresh = 0,
+						nTime = "60.2,放牧·计时剩余·1/3;120.4,放牧·计时剩余·2/3;180.6,放牧·计时剩余·3/3;183,放牧·计时结束,VO:ZhuanJieDuan",
+					},
+					{
+						key = "牧场",
+						nClass = 2,
+						nIcon = 3401,
+						nTime = 0,
+						szName = "牧场",
+					},
+				},
 			},
 		},
 	},
-	CHAT = {},
 	CASTING = {
-		[217] = {
+		[-7] = {
+			{
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 7612,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "江湖技艺·训马·套马",
+				tCountdown = {
+					{
+						key = "套马",
+						nClass = 8,
+						nIcon = 3481,
+						nTime = 10,
+						szName = "套马【{$receiver}】",
+					},
+					{
+						key = "套马",
+						nClass = 9,
+						nIcon = 3481,
+						nTime = -1,
+						szName = "套马",
+					},
+				},
+			},
+		},
+		[74] = {
+			{
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 7612,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "江湖技艺·训马·套马",
+				tCountdown = {
+					{
+						key = "套马",
+						nClass = 8,
+						nIcon = 3481,
+						nTime = 10,
+						szName = "套马【{$receiver}】",
+					},
+					{
+						key = "套马",
+						nClass = 9,
+						nIcon = 3481,
+						nTime = -1,
+						szName = "套马",
+					},
+				},
+			},
+		},
+		[216] = {
 			{
 				dwID = 23419,
-				nScrutinyType = 1,
 				nLevel = 1,
+				nScrutinyType = 1,
 			},
 			{
 				dwID = 23420,
-				nScrutinyType = 1,
 				nLevel = 1,
+				nScrutinyType = 1,
 			},
 			{
 				dwID = 23421,
-				nScrutinyType = 1,
 				nLevel = 1,
+				nScrutinyType = 1,
 			},
 			{
 				dwID = 23422,
-				nScrutinyType = 1,
 				nLevel = 1,
+				nScrutinyType = 1,
 			},
 			{
 				dwID = 23423,
-				nScrutinyType = 1,
 				nLevel = 1,
+				nScrutinyType = 1,
 			},
 			{
 				dwID = 23424,
-				nScrutinyType = 1,
 				nLevel = 1,
+				nScrutinyType = 1,
+			},
+		},
+		[217] = {
+			{
+				dwID = 23419,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				dwID = 23420,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				dwID = 23421,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				dwID = 23422,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				dwID = 23423,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				dwID = 23424,
+				nLevel = 1,
+				nScrutinyType = 1,
 			},
 		},
 		[411] = {
 			{
 				dwID = 23419,
-				nScrutinyType = 1,
 				nLevel = 1,
+				nScrutinyType = 1,
 			},
 			{
 				dwID = 23420,
-				nScrutinyType = 1,
 				nLevel = 1,
+				nScrutinyType = 1,
 			},
 			{
 				dwID = 23421,
-				nScrutinyType = 1,
 				nLevel = 1,
+				nScrutinyType = 1,
 			},
 			{
 				dwID = 23422,
-				nScrutinyType = 1,
 				nLevel = 1,
+				nScrutinyType = 1,
 			},
 			{
 				dwID = 23423,
-				nScrutinyType = 1,
 				nLevel = 1,
+				nScrutinyType = 1,
 			},
 			{
 				dwID = 23424,
-				nScrutinyType = 1,
 				nLevel = 1,
+				nScrutinyType = 1,
+			},
+		},
+	},
+	CHAT = {
+		[-21] = {
+			{
+				bReg = true,
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "^你驯养的(.-)[触发]-事件“(.-)”([消除了]-)。",
+				tCountdown = {
+					{
+						key = "寒风入体！·",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 6227,
+						nRefresh = 2,
+						nTime = -1,
+						szName = "寒风入体！·",
+					},
+					{
+						key = "焦躁不安！·",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 6227,
+						nRefresh = 2,
+						nTime = -1,
+						szName = "焦躁不安！·",
+					},
+					{
+						key = "野兽！野兽！·",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 6227,
+						nRefresh = 2,
+						nTime = -1,
+						szName = "野兽！野兽！·",
+					},
+					{
+						key = "受伤躁动！·",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 6227,
+						nRefresh = 2,
+						nTime = -1,
+						szName = "受伤躁动！·",
+					},
+					{
+						key = "惊恐不安！·",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 6227,
+						nRefresh = 2,
+						nTime = -1,
+						szName = "惊恐不安！·",
+					},
+					{
+						key = "{$2}·消除了",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 6227,
+						nRefresh = 2,
+						nTime = -1,
+						szName = "{$2}·消除了",
+					},
+					{
+						key = "{$2}·{$3}",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 13,
+						nTime = 0,
+						szName = "{$2}·{$3}",
+					},
+					{
+						key = "寒风入体！·",
+						nClass = 20,
+						nFrame = 4,
+						nIcon = 2025,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "{$1}·寒风入体·成都",
+					},
+					{
+						key = "焦躁不安！·",
+						nClass = 20,
+						nFrame = 4,
+						nIcon = 329,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "{$1}·焦躁不安·扬州",
+					},
+					{
+						key = "野兽！野兽！·",
+						nClass = 20,
+						nFrame = 4,
+						nIcon = 89,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "{$1}·野兽野兽·扬州",
+					},
+					{
+						key = "受伤躁动！·",
+						nClass = 20,
+						nFrame = 4,
+						nIcon = 3426,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "{$1}·受伤躁动·成都",
+					},
+					{
+						key = "惊恐不安！·",
+						nClass = 20,
+						nFrame = 4,
+						nIcon = 643,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "{$1}·惊恐不安·成都",
+					},
+					{
+						key = "{$2}·消除了",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 6227,
+						nRefresh = 1,
+						nTime = 5,
+						szName = "{$1}·{$2}·消除了",
+					},
+				},
 			},
 		},
 		[-7] = {
 			{
-				tCountdown = {
-					{
-						nClass = 8,
-						key = "套马",
-						nTime = 10,
-						szName = "套马【{$receiver}】",
-						nIcon = 3481,
-					},
-					{
-						nClass = 9,
-						key = "套马",
-						nTime = -1,
-						szName = "套马",
-						nIcon = 3481,
-					},
-				},
-				nScrutinyType = 1,
-				[8] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 7612,
-				szNote = "江湖技艺·训马·套马",
-				nLevel = 1,
-			},
-		},
-		[74] = {
-			{
-				tCountdown = {
-					{
-						nClass = 8,
-						key = "套马",
-						nTime = 10,
-						szName = "套马【{$receiver}】",
-						nIcon = 3481,
-					},
-					{
-						nClass = 9,
-						key = "套马",
-						nTime = -1,
-						szName = "套马",
-						nIcon = 3481,
-					},
-				},
-				nScrutinyType = 1,
-				[8] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 7612,
-				szNote = "江湖技艺·训马·套马",
-				nLevel = 1,
-			},
-		},
-		[216] = {
-			{
-				dwID = 23419,
-				nScrutinyType = 1,
-				nLevel = 1,
-			},
-			{
-				dwID = 23420,
-				nScrutinyType = 1,
-				nLevel = 1,
-			},
-			{
-				dwID = 23421,
-				nScrutinyType = 1,
-				nLevel = 1,
-			},
-			{
-				dwID = 23422,
-				nScrutinyType = 1,
-				nLevel = 1,
-			},
-			{
-				dwID = 23423,
-				nScrutinyType = 1,
-				nLevel = 1,
-			},
-			{
-				dwID = 23424,
-				nScrutinyType = 1,
-				nLevel = 1,
-			},
-		},
-	},
-	TALK = {
-		[216] = {
-			{
-				tCountdown = {
-					{
-						nIcon = 4519,
-						key = "训马·交互·神采飞扬",
-						nTime = 0,
-						szName = "训马·交互·神采飞扬",
-						nFrame = 6,
-						nClass = 14,
-					},
-					{
-						nIcon = 4521,
-						key = "训马·交互·无忧无虑",
-						nTime = 0,
-						szName = "训马·交互·无忧无虑",
-						nFrame = 7,
-						nClass = 14,
-					},
-					{
-						nIcon = 13,
-						key = "训马·心情",
-						nTime = 20,
-						szName = "无忧无虑·加速成长·lv/20min",
-						nRefresh = 600,
-						nFrame = 5,
-						nClass = 14,
-					},
-				},
-				szContent = "无忧无虑",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 4519,
-						key = "训马·交互·神采飞扬",
-						nTime = 0,
-						szName = "训马·交互·神采飞扬",
-						nFrame = 6,
-						nClass = 14,
-					},
-					{
-						nIcon = 4521,
-						key = "训马·交互·无忧无虑",
-						nTime = 0,
-						szName = "训马·交互·无忧无虑",
-						nFrame = 7,
-						nClass = 14,
-					},
-					{
-						nIcon = 13,
-						key = "训马·心情",
-						nTime = 20,
-						szName = "神采飞扬·邮寄礼物·马草饲料",
-						nRefresh = 600,
-						nFrame = 6,
-						nClass = 14,
-					},
-				},
-				szContent = "神采飞扬",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 4519,
-						key = "训马·交互·神采飞扬",
-						nTime = 0,
-						szName = "训马·交互·神采飞扬",
-						nFrame = 6,
-						nClass = 14,
-					},
-					{
-						nIcon = 4521,
-						key = "训马·交互·无忧无虑",
-						nTime = 0,
-						szName = "训马·交互·无忧无虑",
-						nFrame = 7,
-						nClass = 14,
-					},
-					{
-						nIcon = 13,
-						key = "训马·心情",
-						nTime = "120,训马·心情·狂躁不安;130,训马·心情·狂躁不安·消失",
-						nRefresh = 119,
-						szName = "训马·心情·狂躁不安",
-						nFrame = 3,
-						nClass = 14,
-					},
-				},
-				szContent = "狂躁不安",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 4519,
-						key = "训马·交互·神采飞扬",
-						nTime = 0,
-						szName = "训马·交互·神采飞扬",
-						nFrame = 6,
-						nClass = 14,
-					},
-					{
-						nIcon = 4521,
-						key = "训马·交互·无忧无虑",
-						nTime = 0,
-						szName = "训马·交互·无忧无虑",
-						nFrame = 7,
-						nClass = 14,
-					},
-					{
-						nIcon = 13,
-						key = "训马·心情",
-						nTime = 60,
-						szName = "训马·心情·畏缩不前",
-						nFrame = 3,
-						nClass = 14,
-					},
-				},
-				szContent = "畏缩不前",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 4519,
-						key = "训马·交互·神采飞扬",
-						nTime = 20,
-						szName = "神采飞扬·交互·训练",
-						nFrame = 6,
-						nClass = 14,
-					},
-					{
-						nIcon = 4521,
-						key = "训马·交互·无忧无虑",
-						nTime = 20,
-						szName = "无忧无虑·交互·安抚",
-						nFrame = 7,
-						nClass = 14,
-					},
-					{
-						nIcon = 13,
-						key = "训马·心情",
-						nTime = 60,
-						szName = "训马·心情·兴奋",
-						nFrame = 3,
-						nClass = 14,
-					},
-				},
-				szContent = "兴奋",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 4519,
-						key = "训马·交互·神采飞扬",
-						nTime = 20,
-						szName = "神采飞扬·交互·训练",
-						nFrame = 6,
-						nClass = 14,
-					},
-					{
-						nIcon = 4521,
-						key = "训马·交互·无忧无虑",
-						nTime = 20,
-						szName = "无忧无虑·交互·安抚",
-						nFrame = 7,
-						nClass = 14,
-					},
-					{
-						nIcon = 13,
-						key = "训马·心情",
-						nTime = 60,
-						szName = "训马·心情·悠闲",
-						nFrame = 3,
-						nClass = 14,
-					},
-				},
-				szContent = "悠闲",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 4519,
-						key = "训马·交互·神采飞扬",
-						nTime = 20,
-						szName = "神采飞扬·交互·清洁",
-						nFrame = 6,
-						nClass = 14,
-					},
-					{
-						nIcon = 4521,
-						key = "训马·交互·无忧无虑",
-						nTime = 20,
-						szName = "无忧无虑·交互·放养",
-						nFrame = 7,
-						nClass = 14,
-					},
-					{
-						nIcon = 13,
-						key = "训马·心情",
-						nTime = 60,
-						szName = "训马·心情·急躁",
-						nFrame = 3,
-						nClass = 14,
-					},
-				},
-				szContent = "急躁",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 4519,
-						key = "训马·交互·神采飞扬",
-						nTime = 20,
-						szName = "神采飞扬·交互·安抚",
-						nFrame = 6,
-						nClass = 14,
-					},
-					{
-						nIcon = 4521,
-						key = "训马·交互·无忧无虑",
-						nTime = 20,
-						szName = "无忧无虑·交互·安抚",
-						nFrame = 7,
-						nClass = 14,
-					},
-					{
-						nIcon = 13,
-						key = "训马·心情",
-						nTime = 60,
-						szName = "训马·心情·胆小",
-						nFrame = 3,
-						nClass = 14,
-					},
-				},
-				szContent = "胆小",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 4519,
-						key = "训马·交互·神采飞扬",
-						nTime = 20,
-						szName = "神采飞扬·交互·训练",
-						nFrame = 6,
-						nClass = 14,
-					},
-					{
-						nIcon = 4521,
-						key = "训马·交互·无忧无虑",
-						nTime = 20,
-						szName = "无忧无虑·交互·安抚",
-						nFrame = 7,
-						nClass = 14,
-					},
-					{
-						key = "训马·心情",
-						nTime = -2,
-						szName = "训马·心情",
-						nClass = 14,
-						nIcon = 13,
-					},
-					{
-						nIcon = 13,
-						key = "训马·心情",
-						nTime = 60,
-						szName = "训马·心情·平静",
-						nFrame = 3,
-						nClass = 14,
-					},
-				},
-				szContent = "平静",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 5991,
-						key = "赤兔",
-						nTime = 240,
-						szName = "赤兔·{$1}",
-						nFrame = 4,
-						nClass = 14,
-					},
-				},
-				szContent = "^赤兔马已到达(.*)附近，有志于征服赤兔的侠士可速速赶去！",
 				bReg = true,
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szNote = "赤兔·{$1}",
-				szTarget = "小赤",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 5991,
-						key = "赤兔",
-						nTime = 180,
-						szName = "赤兔·正式出山",
-						nFrame = 4,
-						nClass = 14,
-					},
-				},
-				szContent = "马中武神赤兔已正式出山！有卦文龟甲的侠士可以前去试图抓捕！",
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szNote = "赤兔·正式出山",
-				szTarget = "小赤",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 1899,
-						key = "阴山大草原",
-						nTime = 30,
-						szName = "阴山大草原·良驹出山",
-						nFrame = 6,
-						nClass = 14,
-					},
-				},
-				szContent = "良驹已出山，各位有志之士请做好准备！",
-				szTarget = "小赤",
-			},
-		},
-		[411] = {
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "训马·交互·神采飞扬",
-						nTime = 0,
-						szName = "训马·交互·神采飞扬",
-						nIcon = 4519,
-						nClass = 14,
-					},
-					{
-						nFrame = 7,
-						key = "训马·交互·无忧无虑",
-						nTime = 0,
-						szName = "训马·交互·无忧无虑",
-						nIcon = 4521,
-						nClass = 14,
-					},
-					{
-						nFrame = 5,
-						key = "训马·心情",
-						nTime = 20,
-						szName = "无忧无虑·加速成长·lv/20min",
-						nRefresh = 600,
-						nIcon = 13,
-						nClass = 14,
-					},
-				},
-				szContent = "无忧无虑",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "训马·交互·神采飞扬",
-						nTime = 0,
-						szName = "训马·交互·神采飞扬",
-						nIcon = 4519,
-						nClass = 14,
-					},
-					{
-						nFrame = 7,
-						key = "训马·交互·无忧无虑",
-						nTime = 0,
-						szName = "训马·交互·无忧无虑",
-						nIcon = 4521,
-						nClass = 14,
-					},
-					{
-						nFrame = 6,
-						key = "训马·心情",
-						nTime = 20,
-						szName = "神采飞扬·邮寄礼物·马草饲料",
-						nRefresh = 600,
-						nIcon = 13,
-						nClass = 14,
-					},
-				},
-				szContent = "神采飞扬",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "训马·交互·神采飞扬",
-						nTime = 0,
-						szName = "训马·交互·神采飞扬",
-						nIcon = 4519,
-						nClass = 14,
-					},
-					{
-						nFrame = 7,
-						key = "训马·交互·无忧无虑",
-						nTime = 0,
-						szName = "训马·交互·无忧无虑",
-						nIcon = 4521,
-						nClass = 14,
-					},
-					{
-						nFrame = 3,
-						key = "训马·心情",
-						nTime = "120,训马·心情·狂躁不安;130,训马·心情·狂躁不安·消失",
-						nRefresh = 119,
-						szName = "训马·心情·狂躁不安",
-						nIcon = 13,
-						nClass = 14,
-					},
-				},
-				szContent = "狂躁不安",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "训马·交互·神采飞扬",
-						nTime = 0,
-						szName = "训马·交互·神采飞扬",
-						nIcon = 4519,
-						nClass = 14,
-					},
-					{
-						nFrame = 7,
-						key = "训马·交互·无忧无虑",
-						nTime = 0,
-						szName = "训马·交互·无忧无虑",
-						nIcon = 4521,
-						nClass = 14,
-					},
-					{
-						nFrame = 3,
-						key = "训马·心情",
-						nTime = 60,
-						szName = "训马·心情·畏缩不前",
-						nIcon = 13,
-						nClass = 14,
-					},
-				},
-				szContent = "畏缩不前",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "训马·交互·神采飞扬",
-						nTime = 20,
-						szName = "神采飞扬·交互·训练",
-						nIcon = 4519,
-						nClass = 14,
-					},
-					{
-						nFrame = 7,
-						key = "训马·交互·无忧无虑",
-						nTime = 20,
-						szName = "无忧无虑·交互·安抚",
-						nIcon = 4521,
-						nClass = 14,
-					},
-					{
-						nFrame = 3,
-						key = "训马·心情",
-						nTime = 60,
-						szName = "训马·心情·兴奋",
-						nIcon = 13,
-						nClass = 14,
-					},
-				},
-				szContent = "兴奋",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "训马·交互·神采飞扬",
-						nTime = 20,
-						szName = "神采飞扬·交互·训练",
-						nIcon = 4519,
-						nClass = 14,
-					},
-					{
-						nFrame = 7,
-						key = "训马·交互·无忧无虑",
-						nTime = 20,
-						szName = "无忧无虑·交互·安抚",
-						nIcon = 4521,
-						nClass = 14,
-					},
-					{
-						nFrame = 3,
-						key = "训马·心情",
-						nTime = 60,
-						szName = "训马·心情·悠闲",
-						nIcon = 13,
-						nClass = 14,
-					},
-				},
-				szContent = "悠闲",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "训马·交互·神采飞扬",
-						nTime = 20,
-						szName = "神采飞扬·交互·清洁",
-						nIcon = 4519,
-						nClass = 14,
-					},
-					{
-						nFrame = 7,
-						key = "训马·交互·无忧无虑",
-						nTime = 20,
-						szName = "无忧无虑·交互·放养",
-						nIcon = 4521,
-						nClass = 14,
-					},
-					{
-						nFrame = 3,
-						key = "训马·心情",
-						nTime = 60,
-						szName = "训马·心情·急躁",
-						nIcon = 13,
-						nClass = 14,
-					},
-				},
-				szContent = "急躁",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "训马·交互·神采飞扬",
-						nTime = 20,
-						szName = "神采飞扬·交互·安抚",
-						nIcon = 4519,
-						nClass = 14,
-					},
-					{
-						nFrame = 7,
-						key = "训马·交互·无忧无虑",
-						nTime = 20,
-						szName = "无忧无虑·交互·安抚",
-						nIcon = 4521,
-						nClass = 14,
-					},
-					{
-						nFrame = 3,
-						key = "训马·心情",
-						nTime = 60,
-						szName = "训马·心情·胆小",
-						nIcon = 13,
-						nClass = 14,
-					},
-				},
-				szContent = "胆小",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "训马·交互·神采飞扬",
-						nTime = 20,
-						szName = "神采飞扬·交互·训练",
-						nIcon = 4519,
-						nClass = 14,
-					},
-					{
-						nFrame = 7,
-						key = "训马·交互·无忧无虑",
-						nTime = 20,
-						szName = "无忧无虑·交互·安抚",
-						nIcon = 4521,
-						nClass = 14,
-					},
-					{
-						key = "训马·心情",
-						nTime = -2,
-						szName = "训马·心情",
-						nClass = 14,
-						nIcon = 13,
-					},
-					{
-						nFrame = 3,
-						key = "训马·心情",
-						nTime = 60,
-						szName = "训马·心情·平静",
-						nIcon = 13,
-						nClass = 14,
-					},
-				},
-				szContent = "平静",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 4,
-						key = "赤兔",
-						nTime = 240,
-						szName = "赤兔·{$1}",
-						nIcon = 5991,
-						nClass = 14,
-					},
-				},
-				szContent = "^赤兔马已到达(.*)附近，有志于征服赤兔的侠士可速速赶去！",
-				szTarget = "方问",
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szNote = "赤兔·{$1}",
-				bReg = true,
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 4,
-						key = "赤兔",
-						nTime = 180,
-						szName = "赤兔·正式出山",
-						nIcon = 5991,
-						nClass = 14,
-					},
-				},
-				szContent = "马中武神赤兔已正式出山！有卦文龟甲的侠士可以前去试图抓捕！",
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szNote = "赤兔·正式出山",
-				szTarget = "方问",
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "鲲鹏岛",
-						nTime = 30,
-						szName = "鲲鹏岛·良驹出山",
-						nIcon = 1899,
-						nClass = 14,
-					},
-				},
-				szContent = "良驹已出山，各位有志之士请做好准备！",
-				szTarget = "方问",
-			},
-		},
-		[217] = {
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "训马·交互·神采飞扬",
-						nTime = 0,
-						szName = "训马·交互·神采飞扬",
-						nClass = 14,
-						nIcon = 4519,
-					},
-					{
-						nFrame = 7,
-						key = "训马·交互·无忧无虑",
-						nTime = 0,
-						szName = "训马·交互·无忧无虑",
-						nClass = 14,
-						nIcon = 4521,
-					},
-					{
-						nFrame = 5,
-						key = "训马·心情",
-						nTime = 20,
-						szName = "无忧无虑·加速成长·lv/20min",
-						nRefresh = 600,
-						nClass = 14,
-						nIcon = 13,
-					},
-				},
-				szContent = "无忧无虑",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "训马·交互·神采飞扬",
-						nTime = 0,
-						szName = "训马·交互·神采飞扬",
-						nClass = 14,
-						nIcon = 4519,
-					},
-					{
-						nFrame = 7,
-						key = "训马·交互·无忧无虑",
-						nTime = 0,
-						szName = "训马·交互·无忧无虑",
-						nClass = 14,
-						nIcon = 4521,
-					},
-					{
-						nFrame = 6,
-						key = "训马·心情",
-						nTime = 20,
-						szName = "神采飞扬·邮寄礼物·马草饲料",
-						nRefresh = 600,
-						nClass = 14,
-						nIcon = 13,
-					},
-				},
-				szContent = "神采飞扬",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "训马·交互·神采飞扬",
-						nTime = 0,
-						szName = "训马·交互·神采飞扬",
-						nClass = 14,
-						nIcon = 4519,
-					},
-					{
-						nFrame = 7,
-						key = "训马·交互·无忧无虑",
-						nTime = 0,
-						szName = "训马·交互·无忧无虑",
-						nClass = 14,
-						nIcon = 4521,
-					},
-					{
-						nFrame = 3,
-						key = "训马·心情",
-						nTime = "120,训马·心情·狂躁不安;130,训马·心情·狂躁不安·消失",
-						nRefresh = 119,
-						szName = "训马·心情·狂躁不安",
-						nClass = 14,
-						nIcon = 13,
-					},
-				},
-				szContent = "狂躁不安",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "训马·交互·神采飞扬",
-						nTime = 0,
-						szName = "训马·交互·神采飞扬",
-						nClass = 14,
-						nIcon = 4519,
-					},
-					{
-						nFrame = 7,
-						key = "训马·交互·无忧无虑",
-						nTime = 0,
-						szName = "训马·交互·无忧无虑",
-						nClass = 14,
-						nIcon = 4521,
-					},
-					{
-						nFrame = 3,
-						key = "训马·心情",
-						nTime = 60,
-						szName = "训马·心情·畏缩不前",
-						nClass = 14,
-						nIcon = 13,
-					},
-				},
-				szContent = "畏缩不前",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "训马·交互·神采飞扬",
-						nTime = 20,
-						szName = "神采飞扬·交互·训练",
-						nClass = 14,
-						nIcon = 4519,
-					},
-					{
-						nFrame = 7,
-						key = "训马·交互·无忧无虑",
-						nTime = 20,
-						szName = "无忧无虑·交互·安抚",
-						nClass = 14,
-						nIcon = 4521,
-					},
-					{
-						nFrame = 3,
-						key = "训马·心情",
-						nTime = 60,
-						szName = "训马·心情·兴奋",
-						nClass = 14,
-						nIcon = 13,
-					},
-				},
-				szContent = "兴奋",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "训马·交互·神采飞扬",
-						nTime = 20,
-						szName = "神采飞扬·交互·训练",
-						nClass = 14,
-						nIcon = 4519,
-					},
-					{
-						nFrame = 7,
-						key = "训马·交互·无忧无虑",
-						nTime = 20,
-						szName = "无忧无虑·交互·安抚",
-						nClass = 14,
-						nIcon = 4521,
-					},
-					{
-						nFrame = 3,
-						key = "训马·心情",
-						nTime = 60,
-						szName = "训马·心情·悠闲",
-						nClass = 14,
-						nIcon = 13,
-					},
-				},
-				szContent = "悠闲",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "训马·交互·神采飞扬",
-						nTime = 20,
-						szName = "神采飞扬·交互·清洁",
-						nClass = 14,
-						nIcon = 4519,
-					},
-					{
-						nFrame = 7,
-						key = "训马·交互·无忧无虑",
-						nTime = 20,
-						szName = "无忧无虑·交互·放养",
-						nClass = 14,
-						nIcon = 4521,
-					},
-					{
-						nFrame = 3,
-						key = "训马·心情",
-						nTime = 60,
-						szName = "训马·心情·急躁",
-						nClass = 14,
-						nIcon = 13,
-					},
-				},
-				szContent = "急躁",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "训马·交互·神采飞扬",
-						nTime = 20,
-						szName = "神采飞扬·交互·安抚",
-						nClass = 14,
-						nIcon = 4519,
-					},
-					{
-						nFrame = 7,
-						key = "训马·交互·无忧无虑",
-						nTime = 20,
-						szName = "无忧无虑·交互·安抚",
-						nClass = 14,
-						nIcon = 4521,
-					},
-					{
-						nFrame = 3,
-						key = "训马·心情",
-						nTime = 60,
-						szName = "训马·心情·胆小",
-						nClass = 14,
-						nIcon = 13,
-					},
-				},
-				szContent = "胆小",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "训马·交互·神采飞扬",
-						nTime = 20,
-						szName = "神采飞扬·交互·训练",
-						nClass = 14,
-						nIcon = 4519,
-					},
-					{
-						nFrame = 7,
-						key = "训马·交互·无忧无虑",
-						nTime = 20,
-						szName = "无忧无虑·交互·安抚",
-						nClass = 14,
-						nIcon = 4521,
-					},
-					{
-						key = "训马·心情",
-						nTime = -2,
-						szName = "训马·心情",
-						nClass = 14,
-						nIcon = 13,
-					},
-					{
-						nFrame = 3,
-						key = "训马·心情",
-						nTime = 60,
-						szName = "训马·心情·平静",
-						nClass = 14,
-						nIcon = 13,
-					},
-				},
-				szContent = "平静",
-				bSearch = true,
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 4,
-						key = "赤兔",
-						nTime = 240,
-						szName = "赤兔·{$1}",
-						nClass = 14,
-						nIcon = 5991,
-					},
-				},
-				szContent = "^赤兔马已到达(.*)附近，有志于征服赤兔的侠士可速速赶去！",
-				szNote = "赤兔·{$1}",
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szTarget = "杨新",
-				bReg = true,
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 4,
-						key = "赤兔",
-						nTime = 180,
-						szName = "赤兔·正式出山",
-						nClass = 14,
-						nIcon = 5991,
-					},
-				},
-				szContent = "马中武神赤兔已正式出山！有卦文龟甲的侠士可以前去试图抓捕！",
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szNote = "赤兔·正式出山",
-				szTarget = "杨新",
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "黑戈壁",
-						nTime = 30,
-						szName = "黑戈壁·良驹出山",
-						nClass = 14,
-						nIcon = 1899,
-					},
-				},
-				szContent = "良驹已出山，各位有志之士请做好准备！",
-				szTarget = "杨新",
-			},
-		},
-	},
-	NPC = {
-		[13] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					2,
-					255,
-					0,
-				},
-				dwID = 18575,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·麟驹",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 18573,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·龙子",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-		},
-		[74] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				dwID = 129009,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "江湖技艺·训马·麟驹",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				dwID = 129008,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "江湖技艺·训马·龙子",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				dwID = 18570,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "江湖技艺·训马绿螭骢",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 16813,
-				aFocus = {
-					{
-						szDisplay = "明空星·召唤马驹",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "江湖技艺·训马·明空星·召唤马驹",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-		},
-		[30] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 18581,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·闪电",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 18582,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·闪电",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 18579,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·赤蛇",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 18585,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·赤蛇",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 18577,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·绝尘",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 18586,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·绝尘",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-		},
-		[101] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 18581,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·闪电",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 18582,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·闪电",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 18585,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·赤蛇",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 18579,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·赤蛇",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 18577,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·绝尘",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 18586,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·绝尘",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-		},
-		[217] = {
-			{
-				nFrame = 47,
-				aFocus = {
-					{},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 69228,
-				[4] = {
-					bCenterAlarm = true,
-				},
-				szNote = "江湖技艺·训马·赤兔",
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 69011,
-				[4] = {
-					bCenterAlarm = true,
-				},
-				szNote = "江湖技艺·训马·里飞沙",
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[4] = {
-					bCenterAlarm = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 68991,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·闪电·燕歌",
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[4] = {
-					bCenterAlarm = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 68992,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·闪电·燕歌",
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[4] = {
-					bCenterAlarm = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 68995,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·赤蛇·燕歌",
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[4] = {
-					bCenterAlarm = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 68999,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·绝尘·燕歌",
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[4] = {
-					bCenterAlarm = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 69007,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·麟驹·燕歌",
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[4] = {
-					bCenterAlarm = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 69004,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·龙子·燕歌",
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				dwID = 69003,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·龙子·燕歌",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				dwID = 69023,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·绿螭骢·燕歌",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				col = {
-					255,
-					255,
-					50,
-				},
-				dwID = 69048,
-				aFocus = {
-					{
-						szDisplay = "大唐军马场·捐马声望",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "江湖技艺·训马·大唐军马场·捐马",
-				[3] = {
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
 				col = {
 					255,
 					255,
 					100,
 				},
-				dwID = 69150,
-				szNote = "江湖技艺·训马·杨新·预测",
-				[3] = {
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 69153,
-				aFocus = {
+				szContent = "^你驯养的(.-)[触发]-事件“(.-)”([消除了]-)。",
+				tCountdown = {
 					{
-						szDisplay = "李戈·放牧",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 10,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
+						key = "寒风入体！·",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 6227,
+						nRefresh = 2,
+						nTime = -1,
+						szName = "寒风入体！·",
+					},
+					{
+						key = "焦躁不安！·",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 6227,
+						nRefresh = 2,
+						nTime = -1,
+						szName = "焦躁不安！·",
+					},
+					{
+						key = "野兽！野兽！·",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 6227,
+						nRefresh = 2,
+						nTime = -1,
+						szName = "野兽！野兽！·",
+					},
+					{
+						key = "受伤躁动！·",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 6227,
+						nRefresh = 2,
+						nTime = -1,
+						szName = "受伤躁动！·",
+					},
+					{
+						key = "惊恐不安！·",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 6227,
+						nRefresh = 2,
+						nTime = -1,
+						szName = "惊恐不安！·",
+					},
+					{
+						key = "{$2}·消除了",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 6227,
+						nRefresh = 2,
+						nTime = -1,
+						szName = "{$2}·消除了",
+					},
+					{
+						key = "{$2}·{$3}",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 13,
+						nTime = 0,
+						szName = "{$2}·{$3}",
+					},
+					{
+						key = "寒风入体！·",
+						nClass = 20,
+						nFrame = 4,
+						nIcon = 2025,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "{$1}·寒风入体·成都",
+					},
+					{
+						key = "焦躁不安！·",
+						nClass = 20,
+						nFrame = 4,
+						nIcon = 329,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "{$1}·焦躁不安·扬州",
+					},
+					{
+						key = "野兽！野兽！·",
+						nClass = 20,
+						nFrame = 4,
+						nIcon = 89,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "{$1}·野兽野兽·扬州",
+					},
+					{
+						key = "受伤躁动！·",
+						nClass = 20,
+						nFrame = 4,
+						nIcon = 3426,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "{$1}·受伤躁动·成都",
+					},
+					{
+						key = "惊恐不安！·",
+						nClass = 20,
+						nFrame = 4,
+						nIcon = 643,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "{$1}·惊恐不安·成都",
+					},
+					{
+						key = "{$2}·消除了",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 6227,
+						nRefresh = 1,
+						nTime = 5,
+						szName = "{$1}·{$2}·消除了",
 					},
 				},
-				szNote = "黑戈壁放牧·李戈",
-				col = {
-					0,
-					255,
-					0,
-				},
 			},
 		},
-		[105] = {
+		[-2] = {
 			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				dwID = 18570,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·绿螭骢",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-		},
-		[104] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 18583,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马里飞沙",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-		},
-		[216] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 69228,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·赤兔",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 69013,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马里飞沙",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 68993,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·闪电·踏莎",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[4] = {
-					bCenterAlarm = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 68998,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·赤蛇·踏莎",
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[4] = {
-					bCenterAlarm = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 69002,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·绝尘·踏莎",
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[4] = {
-					bCenterAlarm = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 69001,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·绝尘·踏莎",
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[4] = {
-					bCenterAlarm = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 69010,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·麟驹·踏莎",
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[4] = {
-					bCenterAlarm = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 69006,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·龙子·踏莎",
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				dwID = 69029,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·绿螭骢·踏莎",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 69163,
-				aFocus = {
-					{
-						szDisplay = "石林马场·捐马声望",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "江湖技艺·训马·石林马场·捐马",
-				col = {
-					255,
-					255,
-					50,
-				},
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				nFrame = 47,
-				szNote = "江湖技艺·训马·小赤·预测",
-				dwID = 69162,
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 69166,
-				aFocus = {
-					{
-						szDisplay = "小小·放牧",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 10,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "阴山大草原放牧·小小",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-		},
-		[21] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					2,
-					255,
-					0,
-				},
-				dwID = 18575,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·麟驹",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 18573,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·龙子",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-		},
-		[22] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 18581,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·闪电",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 18582,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·闪电",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 18579,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·赤蛇",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 18585,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·赤蛇",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 18577,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·绝尘",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 18586,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·绝尘",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-		},
-		[23] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					2,
-					255,
-					0,
-				},
-				dwID = 18575,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·麟驹",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 18573,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·龙子",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-		},
-		[411] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 69228,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·赤兔",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 69012,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马里飞沙",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 68994,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·闪电·潮生",
-				[4] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[4] = {
-					bCenterAlarm = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 68997,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·赤蛇·潮生",
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[4] = {
-					bCenterAlarm = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 68996,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·赤蛇·潮生",
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[4] = {
-					bCenterAlarm = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 69000,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·绝尘·潮生",
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[4] = {
-					bCenterAlarm = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 69008,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·麟驹·潮生",
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[4] = {
-					bCenterAlarm = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 69009,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·麟驹·潮生",
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[4] = {
-					bCenterAlarm = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 69005,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·龙子·潮生",
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				dwID = 69035,
-				aFocus = {
-					{},
-				},
-				szNote = "江湖技艺·训马·绿螭骢·潮生",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 69157,
-				aFocus = {
-					{
-						szDisplay = "霸王马场·捐马声望",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 10,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "江湖技艺·训马·霸王马场·捐马",
-				col = {
-					255,
-					255,
-					50,
-				},
-			},
-			{
-				nFrame = 47,
+				bReg = true,
 				col = {
 					255,
 					255,
 					100,
 				},
-				dwID = 69156,
-				szNote = "江湖技艺·训马·方问·预测",
-				[3] = {
-					bScreenHead = true,
+				szContent = "^你驯养的(.-)[触发]-事件“(.-)”([消除了]-)。",
+				tCountdown = {
+					{
+						key = "寒风入体！·",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 6227,
+						nRefresh = 2,
+						nTime = -1,
+						szName = "寒风入体！·",
+					},
+					{
+						key = "焦躁不安！·",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 6227,
+						nRefresh = 2,
+						nTime = -1,
+						szName = "焦躁不安！·",
+					},
+					{
+						key = "野兽！野兽！·",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 6227,
+						nRefresh = 2,
+						nTime = -1,
+						szName = "野兽！野兽！·",
+					},
+					{
+						key = "受伤躁动！·",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 6227,
+						nRefresh = 2,
+						nTime = -1,
+						szName = "受伤躁动！·",
+					},
+					{
+						key = "惊恐不安！·",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 6227,
+						nRefresh = 2,
+						nTime = -1,
+						szName = "惊恐不安！·",
+					},
+					{
+						key = "{$2}·消除了",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 6227,
+						nRefresh = 2,
+						nTime = -1,
+						szName = "{$2}·消除了",
+					},
+					{
+						key = "{$2}·{$3}",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 13,
+						nTime = 0,
+						szName = "{$2}·{$3}",
+					},
+					{
+						key = "寒风入体！·",
+						nClass = 20,
+						nFrame = 4,
+						nIcon = 2025,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "{$1}·寒风入体·成都",
+					},
+					{
+						key = "焦躁不安！·",
+						nClass = 20,
+						nFrame = 4,
+						nIcon = 329,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "{$1}·焦躁不安·扬州",
+					},
+					{
+						key = "野兽！野兽！·",
+						nClass = 20,
+						nFrame = 4,
+						nIcon = 89,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "{$1}·野兽野兽·扬州",
+					},
+					{
+						key = "受伤躁动！·",
+						nClass = 20,
+						nFrame = 4,
+						nIcon = 3426,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "{$1}·受伤躁动·成都",
+					},
+					{
+						key = "惊恐不安！·",
+						nClass = 20,
+						nFrame = 4,
+						nIcon = 643,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "{$1}·惊恐不安·成都",
+					},
+					{
+						key = "{$2}·消除了",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 6227,
+						nRefresh = 1,
+						nTime = 5,
+						szName = "{$1}·{$2}·消除了",
+					},
+				},
+			},
+		},
+		[-1] = {
+			{
+				bReg = true,
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "将有宝马良驹在(.-)出没！",
+				tCountdown = {
+					{
+						bHold = true,
+						key = "{$1}",
+						nClass = 20,
+						nFrame = 5,
+						nIcon = 1899,
+						nRefresh = 1,
+						nTime = "300,{$1}·刷马;600,{$1}·刷马剩余;602,{$1}·已刷马",
+						szName = "{$1}·刷马",
+					},
 				},
 			},
 			{
-				nFrame = 47,
+				bReg = true,
 				col = {
-					0,
 					255,
-					0,
+					255,
+					100,
 				},
-				dwID = 69160,
-				aFocus = {
+				szContent = "^江湖快马飞报！(.-)侠士“(.-)”在(.-)捕获(%d-)级稀有坐骑[马]-“(.-)”",
+				tCountdown = {
 					{
-						szDisplay = "方依·放牧",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 10,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
+						key = "{$3}",
+						nClass = 20,
+						nIcon = 12656,
+						nTime = 10,
+						szName = "{$3}[{$5}]·被{$1}捕获",
 					},
-				},
-				szNote = "鲲鹏岛放牧·方依",
-				[3] = {
-					bScreenHead = true,
+					{
+						key = "赤兔",
+						nClass = 20,
+						nIcon = 1465,
+						nRefresh = 2,
+						nTime = -2,
+						szName = "赤兔",
+					},
+					{
+						key = "{$5}",
+						nClass = 20,
+						nIcon = 13,
+						nTime = -2,
+						szName = "{$5}",
+					},
+					{
+						key = "赤兔",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 5991,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "{$3}[赤兔]·被[{$2}]捕获",
+					},
 				},
 			},
 		},
@@ -3039,339 +983,169 @@ return {
 				{
 					bBuffList = true,
 				},
+				bCheckLevel = true,
+				dwID = 16517,
+				nLevel = 2,
+				nScrutinyType = 1,
+				szNote = "狂躁不安",
 				tCountdown = {
 					{
-						nIcon = 13,
 						key = "训马·心情",
+						nClass = 1,
+						nFrame = 3,
+						nIcon = 13,
 						nTime = 60,
 						szName = "训马·心情·狂躁不安",
-						nFrame = 3,
-						nClass = 1,
 					},
 				},
-				nScrutinyType = 1,
-				bCheckLevel = true,
-				dwID = 16517,
-				szNote = "狂躁不安",
-				nLevel = 2,
 			},
 			{
 				{
 					bBuffList = true,
 				},
+				bCheckLevel = true,
+				dwID = 16517,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "畏缩不前",
 				tCountdown = {
 					{
-						nIcon = 13,
 						key = "训马·心情",
+						nClass = 1,
+						nFrame = 3,
+						nIcon = 13,
 						nTime = 60,
 						szName = "训马·心情·畏缩不前",
-						nFrame = 3,
-						nClass = 1,
 					},
 				},
-				nScrutinyType = 1,
-				bCheckLevel = true,
-				dwID = 16517,
-				szNote = "畏缩不前",
-				nLevel = 1,
 			},
 			{
 				{
 					bBuffList = true,
 				},
+				bCheckLevel = true,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 16533,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "清洁中",
 				tCountdown = {
 					{
-						nIcon = 364,
 						key = "训马·交互",
+						nClass = 2,
+						nIcon = 364,
 						nTime = 0,
 						szName = "训马·交互",
-						nClass = 2,
 					},
 					{
-						nIcon = 364,
 						key = "训马·交互",
+						nClass = 1,
+						nFrame = 5,
+						nIcon = 364,
 						nTime = 10,
 						szName = "训马·状态·清洁中",
-						nFrame = 5,
-						nClass = 1,
 					},
 				},
-				nScrutinyType = 1,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				bCheckLevel = true,
 				col = {
 					255,
 					255,
 					0,
 				},
 				dwID = 16533,
-				bCheckLevel = true,
-				szNote = "清洁中",
-				nLevel = 1,
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				tCountdown = {
-					{
-						nIcon = 219,
-						key = "训马·交互",
-						nTime = 0,
-						szName = "训马·交互",
-						nClass = 2,
-					},
-					{
-						nIcon = 219,
-						key = "训马·交互",
-						nTime = 10,
-						szName = "训马·状态·放养中",
-						nFrame = 5,
-						nClass = 1,
-					},
-				},
-				nScrutinyType = 1,
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 16533,
-				bCheckLevel = true,
-				szNote = "放养中",
-				nLevel = 3,
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				tCountdown = {
-					{
-						nIcon = 382,
-						key = "训马·交互",
-						nTime = 0,
-						szName = "训马·交互",
-						nClass = 2,
-					},
-					{
-						nIcon = 382,
-						key = "训马·交互",
-						nTime = 10,
-						szName = "训马·状态·安抚中",
-						nFrame = 5,
-						nClass = 1,
-					},
-				},
-				nScrutinyType = 1,
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 16533,
-				bCheckLevel = true,
-				szNote = "安抚中",
-				nLevel = 2,
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				tCountdown = {
-					{
-						nIcon = 296,
-						key = "训马·交互",
-						nTime = 0,
-						szName = "训马·交互",
-						nClass = 2,
-					},
-					{
-						nIcon = 296,
-						key = "训马·交互",
-						nTime = 10,
-						szName = "训马·状态·训练中",
-						nFrame = 5,
-						nClass = 1,
-					},
-				},
-				nScrutinyType = 1,
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 16533,
-				bCheckLevel = true,
-				szNote = "训练中",
-				nLevel = 4,
-			},
-		},
-		[411] = {
-			{
-				{
-					bBuffList = true,
-				},
-				tCountdown = {
-					{
-						nFrame = 3,
-						key = "训马·心情",
-						nTime = 60,
-						szName = "训马·心情·狂躁不安",
-						nIcon = 13,
-						nClass = 1,
-					},
-				},
-				nScrutinyType = 1,
-				bCheckLevel = true,
-				dwID = 16517,
-				szNote = "狂躁不安",
-				nLevel = 2,
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				tCountdown = {
-					{
-						nFrame = 3,
-						key = "训马·心情",
-						nTime = 60,
-						szName = "训马·心情·畏缩不前",
-						nIcon = 13,
-						nClass = 1,
-					},
-				},
-				nScrutinyType = 1,
-				bCheckLevel = true,
-				dwID = 16517,
-				szNote = "畏缩不前",
-				nLevel = 1,
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 1,
-				nScrutinyType = 1,
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 16533,
-				tCountdown = {
-					{
-						nIcon = 364,
-						key = "训马·交互",
-						nTime = 0,
-						szName = "训马·交互",
-						nClass = 2,
-					},
-					{
-						nFrame = 5,
-						key = "训马·交互",
-						nTime = 10,
-						szName = "训马·状态·清洁中",
-						nIcon = 364,
-						nClass = 1,
-					},
-				},
-				szNote = "清洁中",
-				bCheckLevel = true,
-			},
-			{
-				{
-					bBuffList = true,
-				},
 				nLevel = 3,
 				nScrutinyType = 1,
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 16533,
+				szNote = "放养中",
 				tCountdown = {
 					{
-						nIcon = 219,
 						key = "训马·交互",
+						nClass = 2,
+						nIcon = 219,
 						nTime = 0,
 						szName = "训马·交互",
-						nClass = 2,
 					},
 					{
-						nFrame = 5,
 						key = "训马·交互",
+						nClass = 1,
+						nFrame = 5,
+						nIcon = 219,
 						nTime = 10,
 						szName = "训马·状态·放养中",
-						nIcon = 219,
-						nClass = 1,
 					},
 				},
-				szNote = "放养中",
-				bCheckLevel = true,
 			},
 			{
 				{
 					bBuffList = true,
 				},
+				bCheckLevel = true,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 16533,
 				nLevel = 2,
 				nScrutinyType = 1,
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 16533,
+				szNote = "安抚中",
 				tCountdown = {
 					{
-						nIcon = 382,
 						key = "训马·交互",
+						nClass = 2,
+						nIcon = 382,
 						nTime = 0,
 						szName = "训马·交互",
-						nClass = 2,
 					},
 					{
-						nFrame = 5,
 						key = "训马·交互",
+						nClass = 1,
+						nFrame = 5,
+						nIcon = 382,
 						nTime = 10,
 						szName = "训马·状态·安抚中",
-						nIcon = 382,
-						nClass = 1,
 					},
 				},
-				szNote = "安抚中",
-				bCheckLevel = true,
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				nLevel = 4,
-				nScrutinyType = 1,
+				bCheckLevel = true,
 				col = {
 					255,
 					255,
 					0,
 				},
 				dwID = 16533,
+				nLevel = 4,
+				nScrutinyType = 1,
+				szNote = "训练中",
 				tCountdown = {
 					{
-						nIcon = 296,
 						key = "训马·交互",
+						nClass = 2,
+						nIcon = 296,
 						nTime = 0,
 						szName = "训马·交互",
-						nClass = 2,
 					},
 					{
-						nFrame = 5,
 						key = "训马·交互",
+						nClass = 1,
+						nFrame = 5,
+						nIcon = 296,
 						nTime = 10,
 						szName = "训马·状态·训练中",
-						nIcon = 296,
-						nClass = 1,
 					},
 				},
-				szNote = "训练中",
-				bCheckLevel = true,
 			},
 		},
 		[217] = {
@@ -3379,236 +1153,2915 @@ return {
 				{
 					bBuffList = true,
 				},
+				bCheckLevel = true,
+				dwID = 16517,
+				nLevel = 2,
+				nScrutinyType = 1,
+				szNote = "狂躁不安",
 				tCountdown = {
 					{
-						nFrame = 3,
 						key = "训马·心情",
+						nClass = 1,
+						nFrame = 3,
+						nIcon = 13,
 						nTime = 60,
 						szName = "训马·心情·狂躁不安",
-						nClass = 1,
-						nIcon = 13,
 					},
 				},
-				nScrutinyType = 1,
-				bCheckLevel = true,
-				dwID = 16517,
-				szNote = "狂躁不安",
-				nLevel = 2,
 			},
 			{
 				{
 					bBuffList = true,
 				},
+				bCheckLevel = true,
+				dwID = 16517,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "畏缩不前",
 				tCountdown = {
 					{
-						nFrame = 3,
 						key = "训马·心情",
+						nClass = 1,
+						nFrame = 3,
+						nIcon = 13,
 						nTime = 60,
 						szName = "训马·心情·畏缩不前",
-						nClass = 1,
-						nIcon = 13,
 					},
 				},
-				nScrutinyType = 1,
-				bCheckLevel = true,
-				dwID = 16517,
-				szNote = "畏缩不前",
-				nLevel = 1,
 			},
 			{
 				{
 					bBuffList = true,
 				},
+				bCheckLevel = true,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 16533,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "清洁中",
 				tCountdown = {
 					{
-						nIcon = 364,
 						key = "训马·交互",
+						nClass = 2,
+						nIcon = 364,
 						nTime = 0,
 						szName = "训马·交互",
-						nClass = 2,
 					},
 					{
-						nFrame = 5,
 						key = "训马·交互",
+						nClass = 1,
+						nFrame = 5,
+						nIcon = 364,
 						nTime = 10,
 						szName = "训马·状态·清洁中",
-						nClass = 1,
-						nIcon = 364,
 					},
-				},
-				nScrutinyType = 1,
-				bCheckLevel = true,
-				dwID = 16533,
-				nLevel = 1,
-				szNote = "清洁中",
-				col = {
-					255,
-					255,
-					0,
 				},
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				tCountdown = {
-					{
-						nIcon = 219,
-						key = "训马·交互",
-						nTime = 0,
-						szName = "训马·交互",
-						nClass = 2,
-					},
-					{
-						nFrame = 5,
-						key = "训马·交互",
-						nTime = 10,
-						szName = "训马·状态·放养中",
-						nClass = 1,
-						nIcon = 219,
-					},
-				},
-				nScrutinyType = 1,
 				bCheckLevel = true,
+				col = {
+					255,
+					255,
+					0,
+				},
 				dwID = 16533,
 				nLevel = 3,
+				nScrutinyType = 1,
 				szNote = "放养中",
-				col = {
-					255,
-					255,
-					0,
+				tCountdown = {
+					{
+						key = "训马·交互",
+						nClass = 2,
+						nIcon = 219,
+						nTime = 0,
+						szName = "训马·交互",
+					},
+					{
+						key = "训马·交互",
+						nClass = 1,
+						nFrame = 5,
+						nIcon = 219,
+						nTime = 10,
+						szName = "训马·状态·放养中",
+					},
 				},
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				tCountdown = {
-					{
-						nIcon = 382,
-						key = "训马·交互",
-						nTime = 0,
-						szName = "训马·交互",
-						nClass = 2,
-					},
-					{
-						nFrame = 5,
-						key = "训马·交互",
-						nTime = 10,
-						szName = "训马·状态·安抚中",
-						nClass = 1,
-						nIcon = 382,
-					},
-				},
-				nScrutinyType = 1,
 				bCheckLevel = true,
+				col = {
+					255,
+					255,
+					0,
+				},
 				dwID = 16533,
 				nLevel = 2,
+				nScrutinyType = 1,
 				szNote = "安抚中",
-				col = {
-					255,
-					255,
-					0,
+				tCountdown = {
+					{
+						key = "训马·交互",
+						nClass = 2,
+						nIcon = 382,
+						nTime = 0,
+						szName = "训马·交互",
+					},
+					{
+						key = "训马·交互",
+						nClass = 1,
+						nFrame = 5,
+						nIcon = 382,
+						nTime = 10,
+						szName = "训马·状态·安抚中",
+					},
 				},
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				tCountdown = {
-					{
-						nIcon = 296,
-						key = "训马·交互",
-						nTime = 0,
-						szName = "训马·交互",
-						nClass = 2,
-					},
-					{
-						nFrame = 5,
-						key = "训马·交互",
-						nTime = 10,
-						szName = "训马·状态·训练中",
-						nClass = 1,
-						nIcon = 296,
-					},
-				},
-				nScrutinyType = 1,
 				bCheckLevel = true,
-				dwID = 16533,
-				nLevel = 4,
-				szNote = "训练中",
 				col = {
 					255,
 					255,
 					0,
+				},
+				dwID = 16533,
+				nLevel = 4,
+				nScrutinyType = 1,
+				szNote = "训练中",
+				tCountdown = {
+					{
+						key = "训马·交互",
+						nClass = 2,
+						nIcon = 296,
+						nTime = 0,
+						szName = "训马·交互",
+					},
+					{
+						key = "训马·交互",
+						nClass = 1,
+						nFrame = 5,
+						nIcon = 296,
+						nTime = 10,
+						szName = "训马·状态·训练中",
+					},
+				},
+			},
+		},
+		[411] = {
+			{
+				{
+					bBuffList = true,
+				},
+				bCheckLevel = true,
+				dwID = 16517,
+				nLevel = 2,
+				nScrutinyType = 1,
+				szNote = "狂躁不安",
+				tCountdown = {
+					{
+						key = "训马·心情",
+						nClass = 1,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "训马·心情·狂躁不安",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				bCheckLevel = true,
+				dwID = 16517,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "畏缩不前",
+				tCountdown = {
+					{
+						key = "训马·心情",
+						nClass = 1,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "训马·心情·畏缩不前",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				bCheckLevel = true,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 16533,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "清洁中",
+				tCountdown = {
+					{
+						key = "训马·交互",
+						nClass = 2,
+						nIcon = 364,
+						nTime = 0,
+						szName = "训马·交互",
+					},
+					{
+						key = "训马·交互",
+						nClass = 1,
+						nFrame = 5,
+						nIcon = 364,
+						nTime = 10,
+						szName = "训马·状态·清洁中",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				bCheckLevel = true,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 16533,
+				nLevel = 3,
+				nScrutinyType = 1,
+				szNote = "放养中",
+				tCountdown = {
+					{
+						key = "训马·交互",
+						nClass = 2,
+						nIcon = 219,
+						nTime = 0,
+						szName = "训马·交互",
+					},
+					{
+						key = "训马·交互",
+						nClass = 1,
+						nFrame = 5,
+						nIcon = 219,
+						nTime = 10,
+						szName = "训马·状态·放养中",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				bCheckLevel = true,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 16533,
+				nLevel = 2,
+				nScrutinyType = 1,
+				szNote = "安抚中",
+				tCountdown = {
+					{
+						key = "训马·交互",
+						nClass = 2,
+						nIcon = 382,
+						nTime = 0,
+						szName = "训马·交互",
+					},
+					{
+						key = "训马·交互",
+						nClass = 1,
+						nFrame = 5,
+						nIcon = 382,
+						nTime = 10,
+						szName = "训马·状态·安抚中",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				bCheckLevel = true,
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 16533,
+				nLevel = 4,
+				nScrutinyType = 1,
+				szNote = "训练中",
+				tCountdown = {
+					{
+						key = "训马·交互",
+						nClass = 2,
+						nIcon = 296,
+						nTime = 0,
+						szName = "训马·交互",
+					},
+					{
+						key = "训马·交互",
+						nClass = 1,
+						nFrame = 5,
+						nIcon = 296,
+						nTime = 10,
+						szName = "训马·状态·训练中",
+					},
+				},
+			},
+		},
+	},
+	DOODAD = {
+		[108] = {
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 4428,
+				szNote = "江湖技艺·训马·竹笋",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 4427,
+				szNote = "江湖技艺·训马·段方北的书信",
+			},
+		},
+	},
+	NPC = {
+		[13] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					2,
+					255,
+					0,
+				},
+				dwID = 18575,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·麟驹",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18573,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·龙子",
+			},
+		},
+		[21] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					2,
+					255,
+					0,
+				},
+				dwID = 18575,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·麟驹",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18573,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·龙子",
+			},
+		},
+		[22] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18581,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·闪电",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18582,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·闪电",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18579,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·赤蛇",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18585,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·赤蛇",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18577,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·绝尘",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18586,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·绝尘",
+			},
+		},
+		[23] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					2,
+					255,
+					0,
+				},
+				dwID = 18575,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·麟驹",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18573,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·龙子",
+			},
+		},
+		[30] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18581,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·闪电",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18582,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·闪电",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18579,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·赤蛇",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18585,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·赤蛇",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18577,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·绝尘",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18586,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·绝尘",
+			},
+		},
+		[74] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 129009,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·麟驹",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 129008,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·龙子",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18570,
+				nFrame = 47,
+				szNote = "江湖技艺·训马绿螭骢",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "明空星·召唤马驹",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 16813,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·明空星·召唤马驹",
+			},
+		},
+		[101] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18581,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·闪电",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18582,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·闪电",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18585,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·赤蛇",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18579,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·赤蛇",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18577,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·绝尘",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18586,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·绝尘",
+			},
+		},
+		[104] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18583,
+				nFrame = 47,
+				szNote = "江湖技艺·训马里飞沙",
+			},
+		},
+		[105] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18570,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·绿螭骢",
+			},
+		},
+		[216] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 69228,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·赤兔",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 69013,
+				nFrame = 47,
+				szNote = "江湖技艺·训马里飞沙",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 68993,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·闪电·踏莎",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 68998,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·赤蛇·踏莎",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 69002,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·绝尘·踏莎",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 69001,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·绝尘·踏莎",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 69010,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·麟驹·踏莎",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 69006,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·龙子·踏莎",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 69029,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·绿螭骢·踏莎",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 20,
+						szDisplay = "石林马场·捐马声望",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					50,
+				},
+				dwID = 69163,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·石林马场·捐马",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 69162,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·小赤·预测",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 10,
+						szDisplay = "小小·放牧",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 69166,
+				nFrame = 47,
+				szNote = "阴山大草原放牧·小小",
+			},
+		},
+		[217] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 69228,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·赤兔",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 69011,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·里飞沙",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 68991,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·闪电·燕歌",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 68992,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·闪电·燕歌",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 68995,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·赤蛇·燕歌",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 68999,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·绝尘·燕歌",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 69007,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·麟驹·燕歌",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 69004,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·龙子·燕歌",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 69003,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·龙子·燕歌",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 69023,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·绿螭骢·燕歌",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 20,
+						szDisplay = "大唐军马场·捐马声望",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					50,
+				},
+				dwID = 69048,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·大唐军马场·捐马",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				col = {
+					255,
+					255,
+					100,
+				},
+				dwID = 69150,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·杨新·预测",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 10,
+						szDisplay = "李戈·放牧",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 69153,
+				nFrame = 47,
+				szNote = "黑戈壁放牧·李戈",
+			},
+		},
+		[411] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 69228,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·赤兔",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 69012,
+				nFrame = 47,
+				szNote = "江湖技艺·训马里飞沙",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 68994,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·闪电·潮生",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 68997,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·赤蛇·潮生",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 68996,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·赤蛇·潮生",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 69000,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·绝尘·潮生",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 69008,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·麟驹·潮生",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 69009,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·麟驹·潮生",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				[4] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 69005,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·龙子·潮生",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 69035,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·绿螭骢·潮生",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 10,
+						szDisplay = "霸王马场·捐马声望",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					50,
+				},
+				dwID = 69157,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·霸王马场·捐马",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				col = {
+					255,
+					255,
+					100,
+				},
+				dwID = 69156,
+				nFrame = 47,
+				szNote = "江湖技艺·训马·方问·预测",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 10,
+						szDisplay = "方依·放牧",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 69160,
+				nFrame = 47,
+				szNote = "鲲鹏岛放牧·方依",
+			},
+		},
+	},
+	TALK = {
+		[216] = {
+			{
+				bSearch = true,
+				szContent = "无忧无虑",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 0,
+						szName = "训马·交互·神采飞扬",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 0,
+						szName = "训马·交互·无忧无虑",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 5,
+						nIcon = 13,
+						nRefresh = 600,
+						nTime = 20,
+						szName = "无忧无虑·加速成长·lv/20min",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "神采飞扬",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 0,
+						szName = "训马·交互·神采飞扬",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 0,
+						szName = "训马·交互·无忧无虑",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 13,
+						nRefresh = 600,
+						nTime = 20,
+						szName = "神采飞扬·邮寄礼物·马草饲料",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "狂躁不安",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 0,
+						szName = "训马·交互·神采飞扬",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 0,
+						szName = "训马·交互·无忧无虑",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nRefresh = 119,
+						nTime = "120,训马·心情·狂躁不安;130,训马·心情·狂躁不安·消失",
+						szName = "训马·心情·狂躁不安",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "畏缩不前",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 0,
+						szName = "训马·交互·神采飞扬",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 0,
+						szName = "训马·交互·无忧无虑",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "训马·心情·畏缩不前",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "兴奋",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 20,
+						szName = "神采飞扬·交互·训练",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 20,
+						szName = "无忧无虑·交互·安抚",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "训马·心情·兴奋",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "悠闲",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 20,
+						szName = "神采飞扬·交互·训练",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 20,
+						szName = "无忧无虑·交互·安抚",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "训马·心情·悠闲",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "急躁",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 20,
+						szName = "神采飞扬·交互·清洁",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 20,
+						szName = "无忧无虑·交互·放养",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "训马·心情·急躁",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "胆小",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 20,
+						szName = "神采飞扬·交互·安抚",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 20,
+						szName = "无忧无虑·交互·安抚",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "训马·心情·胆小",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "平静",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 20,
+						szName = "神采飞扬·交互·训练",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 20,
+						szName = "无忧无虑·交互·安抚",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "训马·心情",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "训马·心情·平静",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				szContent = "^赤兔马已到达(.*)附近，有志于征服赤兔的侠士可速速赶去！",
+				szNote = "赤兔·{$1}",
+				szTarget = "小赤",
+				tCountdown = {
+					{
+						key = "赤兔",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 5991,
+						nTime = 240,
+						szName = "赤兔·{$1}",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "马中武神赤兔已正式出山！有卦文龟甲的侠士可以前去试图抓捕！",
+				szNote = "赤兔·正式出山",
+				szTarget = "小赤",
+				tCountdown = {
+					{
+						key = "赤兔",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 5991,
+						nTime = 180,
+						szName = "赤兔·正式出山",
+					},
+				},
+			},
+			{
+				szContent = "良驹已出山，各位有志之士请做好准备！",
+				szTarget = "小赤",
+				tCountdown = {
+					{
+						key = "阴山大草原",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 1899,
+						nTime = 30,
+						szName = "阴山大草原·良驹出山",
+					},
+				},
+			},
+		},
+		[217] = {
+			{
+				bSearch = true,
+				szContent = "无忧无虑",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 0,
+						szName = "训马·交互·神采飞扬",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 0,
+						szName = "训马·交互·无忧无虑",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 5,
+						nIcon = 13,
+						nRefresh = 600,
+						nTime = 20,
+						szName = "无忧无虑·加速成长·lv/20min",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "神采飞扬",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 0,
+						szName = "训马·交互·神采飞扬",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 0,
+						szName = "训马·交互·无忧无虑",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 13,
+						nRefresh = 600,
+						nTime = 20,
+						szName = "神采飞扬·邮寄礼物·马草饲料",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "狂躁不安",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 0,
+						szName = "训马·交互·神采飞扬",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 0,
+						szName = "训马·交互·无忧无虑",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nRefresh = 119,
+						nTime = "120,训马·心情·狂躁不安;130,训马·心情·狂躁不安·消失",
+						szName = "训马·心情·狂躁不安",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "畏缩不前",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 0,
+						szName = "训马·交互·神采飞扬",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 0,
+						szName = "训马·交互·无忧无虑",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "训马·心情·畏缩不前",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "兴奋",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 20,
+						szName = "神采飞扬·交互·训练",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 20,
+						szName = "无忧无虑·交互·安抚",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "训马·心情·兴奋",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "悠闲",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 20,
+						szName = "神采飞扬·交互·训练",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 20,
+						szName = "无忧无虑·交互·安抚",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "训马·心情·悠闲",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "急躁",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 20,
+						szName = "神采飞扬·交互·清洁",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 20,
+						szName = "无忧无虑·交互·放养",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "训马·心情·急躁",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "胆小",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 20,
+						szName = "神采飞扬·交互·安抚",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 20,
+						szName = "无忧无虑·交互·安抚",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "训马·心情·胆小",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "平静",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 20,
+						szName = "神采飞扬·交互·训练",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 20,
+						szName = "无忧无虑·交互·安抚",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "训马·心情",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "训马·心情·平静",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				szContent = "^赤兔马已到达(.*)附近，有志于征服赤兔的侠士可速速赶去！",
+				szNote = "赤兔·{$1}",
+				szTarget = "杨新",
+				tCountdown = {
+					{
+						key = "赤兔",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 5991,
+						nTime = 240,
+						szName = "赤兔·{$1}",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "马中武神赤兔已正式出山！有卦文龟甲的侠士可以前去试图抓捕！",
+				szNote = "赤兔·正式出山",
+				szTarget = "杨新",
+				tCountdown = {
+					{
+						key = "赤兔",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 5991,
+						nTime = 180,
+						szName = "赤兔·正式出山",
+					},
+				},
+			},
+			{
+				szContent = "良驹已出山，各位有志之士请做好准备！",
+				szTarget = "杨新",
+				tCountdown = {
+					{
+						key = "黑戈壁",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 1899,
+						nTime = 30,
+						szName = "黑戈壁·良驹出山",
+					},
+				},
+			},
+		},
+		[411] = {
+			{
+				bSearch = true,
+				szContent = "无忧无虑",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 0,
+						szName = "训马·交互·神采飞扬",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 0,
+						szName = "训马·交互·无忧无虑",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 5,
+						nIcon = 13,
+						nRefresh = 600,
+						nTime = 20,
+						szName = "无忧无虑·加速成长·lv/20min",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "神采飞扬",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 0,
+						szName = "训马·交互·神采飞扬",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 0,
+						szName = "训马·交互·无忧无虑",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 13,
+						nRefresh = 600,
+						nTime = 20,
+						szName = "神采飞扬·邮寄礼物·马草饲料",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "狂躁不安",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 0,
+						szName = "训马·交互·神采飞扬",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 0,
+						szName = "训马·交互·无忧无虑",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nRefresh = 119,
+						nTime = "120,训马·心情·狂躁不安;130,训马·心情·狂躁不安·消失",
+						szName = "训马·心情·狂躁不安",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "畏缩不前",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 0,
+						szName = "训马·交互·神采飞扬",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 0,
+						szName = "训马·交互·无忧无虑",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "训马·心情·畏缩不前",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "兴奋",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 20,
+						szName = "神采飞扬·交互·训练",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 20,
+						szName = "无忧无虑·交互·安抚",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "训马·心情·兴奋",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "悠闲",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 20,
+						szName = "神采飞扬·交互·训练",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 20,
+						szName = "无忧无虑·交互·安抚",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "训马·心情·悠闲",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "急躁",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 20,
+						szName = "神采飞扬·交互·清洁",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 20,
+						szName = "无忧无虑·交互·放养",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "训马·心情·急躁",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "胆小",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 20,
+						szName = "神采飞扬·交互·安抚",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 20,
+						szName = "无忧无虑·交互·安抚",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "训马·心情·胆小",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "平静",
+				tCountdown = {
+					{
+						key = "训马·交互·神采飞扬",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 4519,
+						nTime = 20,
+						szName = "神采飞扬·交互·训练",
+					},
+					{
+						key = "训马·交互·无忧无虑",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 4521,
+						nTime = 20,
+						szName = "无忧无虑·交互·安抚",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "训马·心情",
+					},
+					{
+						key = "训马·心情",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "训马·心情·平静",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				szContent = "^赤兔马已到达(.*)附近，有志于征服赤兔的侠士可速速赶去！",
+				szNote = "赤兔·{$1}",
+				szTarget = "方问",
+				tCountdown = {
+					{
+						key = "赤兔",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 5991,
+						nTime = 240,
+						szName = "赤兔·{$1}",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "马中武神赤兔已正式出山！有卦文龟甲的侠士可以前去试图抓捕！",
+				szNote = "赤兔·正式出山",
+				szTarget = "方问",
+				tCountdown = {
+					{
+						key = "赤兔",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 5991,
+						nTime = 180,
+						szName = "赤兔·正式出山",
+					},
+				},
+			},
+			{
+				szContent = "良驹已出山，各位有志之士请做好准备！",
+				szTarget = "方问",
+				tCountdown = {
+					{
+						key = "鲲鹏岛",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 1899,
+						nTime = 30,
+						szName = "鲲鹏岛·良驹出山",
+					},
 				},
 			},
 		},
 	},
 	__meta = {
-		szServer = "唯我独尊",
-		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
 		nTimeStamp = 1785418319,
+		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
-	},
-	DOODAD = {
-		[108] = {
-			{
-				dwID = 4428,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "江湖技艺·训马·竹笋",
-			},
-			{
-				dwID = 4427,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "江湖技艺·训马·段方北的书信",
-			},
-		},
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
 }

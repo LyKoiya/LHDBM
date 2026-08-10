@@ -68,6 +68,36 @@ return {
 		},
 	},
 	CHAT = {
+		[-21] = {
+			{
+				szContent = "交易行私货正在拍卖九寨沟·镜海7200平【万年金券】，侠士们切勿错过！\
+",
+				tCountdown = {
+					{
+						key = "交易行·拍卖私货",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 11432,
+						nTime = 10,
+						szName = "私货·九寨沟·镜海·万年金券",
+					},
+				},
+			},
+			{
+				szContent = "交易行私货正在拍卖广陵邑7200平【园宅置业·天苑】，侠士们切勿错过！\
+",
+				tCountdown = {
+					{
+						key = "交易行·拍卖私货",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 12461,
+						nTime = 10,
+						szName = "私货·广陵邑·天苑·园宅置业",
+					},
+				},
+			},
+		},
 		[-15] = {
 			{
 				[20] = {
@@ -122,7 +152,7 @@ return {
 ",
 				tCountdown = {
 					{
-						key = "私货",
+						key = "交易行·拍卖私货",
 						nClass = 20,
 						nFrame = 0,
 						nIcon = 11432,
@@ -136,7 +166,7 @@ return {
 ",
 				tCountdown = {
 					{
-						key = "私货",
+						key = "交易行·拍卖私货",
 						nClass = 20,
 						nFrame = 0,
 						nIcon = 12461,
