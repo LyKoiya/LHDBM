@@ -1,114 +1,1397 @@
 return {
-	DOODAD = {},
-	TALK = {
-		[13] = {
-			{szContent="去往巴陵县的驿站寻找唐小珂的机关小猪。",tCountdown={{nFrame=6,nClass=14,key="任务提示1",szName="神行·巴陵县·巴陵镇",nTime=20,nIcon=13},{nFrame=6,nClass=14,key="任务提示2",szName="小花猪·[接头]",nTime=20,nIcon=13}},szNote="红尘侠影·唐小珂"},
+	BUFF = {
+		[-3] = {
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						col = "#00FF00FF",
+						colScreenHead = "#00FF00",
+						nColAlpha = 255,
+						nPriority = 11,
+						szReminder = "葵",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 21959,
+				nLevel = 1,
+				szNote = "助战·龙葵",
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						col = "#00FF00FF",
+						colScreenHead = "#00FF00",
+						nColAlpha = 255,
+						nPriority = 22,
+						szReminder = "圣",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 21470,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "圣手",
+				szNote = "助战·圣手织天",
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						col = "#00FF00FF",
+						colScreenHead = "#00FF00",
+						nColAlpha = 255,
+						nPriority = 21,
+						szReminder = "春",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 21461,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "春泥",
+				szNote = "助战·春泥护花",
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						col = "#00FFFFFF",
+						nColAlpha = 255,
+						nPriority = 38,
+						szReminder = "朝",
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 21931,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szNote = "助战·朝圣",
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						col = "#00FF00FF",
+						colScreenHead = "#00FF00",
+						nColAlpha = 255,
+						nPriority = 21,
+						szReminder = "朝",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 21930,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szNote = "助战·圣体",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 23392,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "子规笛",
+				szNote = "助战·子规笛·战",
+				tCountdown = {
+					{
+						key = "子规笛·战",
+						nClass = 1,
+						nIcon = 13346,
+						nTime = 0,
+						szName = "子规笛·战",
+					},
+					{
+						key = "子规笛·战",
+						nClass = 2,
+						nFrame = 0,
+						nIcon = 13346,
+						nTime = 5,
+						szName = "子规笛·战·消失",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 24725,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "急速",
+				szNote = "助战·子规笛·疾",
+				tCountdown = {
+					{
+						key = "子规笛·疾",
+						nClass = 2,
+						nIcon = 4543,
+						nTime = 0,
+						szName = "子规笛·疾",
+					},
+					{
+						key = "子规笛·疾",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 4543,
+						nTime = 15,
+						szName = "子规笛·疾",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bScreenHead = true,
+						col = "#FF9600FF",
+						colScreenHead = "#FF9600",
+						nColAlpha = 255,
+						nPriority = 1,
+						szReminder = "爆",
+					},
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 26868,
+				nLevel = 1,
+				szNote = "助战·神拳之威",
+			},
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 26867,
+				nCount = 90,
+				nLevel = 1,
+				szNote = "助战·拳劲",
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						col = "#FF9600FF",
+						nColAlpha = 255,
+						nPriority = 30,
+						szReminder = "赴",
+					},
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 26869,
+				nLevel = 1,
+				szNote = "助战·赴宴费大劲增益12",
+			},
+			{
+				aCataclysmBuff = {},
+				dwID = 23743,
+				nIcon = 13,
+				nLevel = 1,
+				szName = "威胁值降低",
+				szNote = "助战·管家威胁值降低",
+			},
+			{
+				dwID = 23705,
+				nLevel = 1,
+				szNote = "助战·威压",
+			},
+			{
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 23622,
+				nIcon = 13,
+				nLevel = 1,
+				szName = "助战NPC",
+				szNote = "助战·助战NPC",
+			},
+			{
+				dwID = 23775,
+				nLevel = 1,
+				szNote = "助战·修养",
+				tCountdown = {
+					{
+						key = "侠客重伤",
+						nClass = 1,
+						nFrame = -1,
+						nIcon = 13,
+						nRefresh = 3600,
+						nTime = -1,
+						szName = "侠客重伤",
+					},
+				},
+			},
+		},
+	},
+	CASTING = {
+		[-3] = {
+			{
+				dwID = 31338,
+				nLevel = 1,
+				szNote = "助战·停留",
+				tCountdown = {
+					{
+						key = "侠客重伤",
+						nClass = 9,
+						nFrame = -1,
+						nIcon = 13,
+						nRefresh = 120,
+						nTime = -1,
+						szName = "侠客重伤",
+					},
+				},
+			},
+			{
+				dwID = 31337,
+				nLevel = 1,
+				szNote = "助战·跟随",
+			},
+			{
+				dwID = 31336,
+				nLevel = 1,
+				szNote = "助战·攻击",
+			},
 		},
 	},
 	CHAT = {
-		[215] = {
+		[-1] = {
 			{
+				bReg = true,
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "^侠客.*召请成功\
+",
+				szNote = "助战·召请侠客",
 				tCountdown = {
 					{
-						nFrame = 6,
-						key = "任务提示1",
-						nTime = 15,
-						szName = "前往·刀宗",
+						key = "侠客召请",
 						nClass = 20,
 						nIcon = 13,
+						nRefresh = 1,
+						nTime = 2,
+						szName = "侠客召请·CD",
+					},
+					{
+						key = "侠客重伤",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 13,
+						nRefresh = 3600,
+						nTime = -1,
+						szName = "侠客重伤",
 					},
 				},
+			},
+		},
+		[25] = {
+			{
+				[20] = {
+					bCenterAlarm = true,
+				},
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "王遗风已率恶人谷众首领抵达浩气盟，请各位恶人谷侠士速到浩气盟支援。浩气盟侠士也请速回浩气盟防御！\
+",
+				szNote = "主场攻防·正式开启",
+				tCountdown = {
+					{
+						key = "阵营活动",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 2401,
+						nRefresh = 10,
+						nTime = "2,主场攻防·正式开始;10,建议关闭·江湖身份;900,阶段·速战速决·15分钟;905,阶段·速战速决·已经结束;910,阶段·首领出战·正在召请;1800,阶段·物资车1·出发剩余;1810,阶段·物资车1·正在出发;2700,阶段·破阵点将1·结算剩余;2710,阶段·破阵点将1·正在结算;3540,阶段·物资车2·出发剩余;3550,阶段·物资车2·正在出发;3600,阶段·首领出战·助战剩余;3605,阶段·首领出战·助战结束;5400,阶段·破阵点将2·结算剩余;5405,阶段·破阵点将2·正在结算;5410,阶段·物资车3·正在出发;7200,阶段·本场攻防·结束剩余;7205,阶段·本场攻防·正在结算;7210,阶段·本场攻防·已经结束",
+						szName = "主场攻防·正式开始",
+					},
+					{
+						key = "首领拾取间隔",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 30,
+						nTime = -1,
+						szName = "首领拾取间隔",
+					},
+					{
+						key = "速战速决",
+						nClass = 20,
+						nIcon = 13,
+						nTime = -2,
+						szName = "速战速决",
+					},
+					{
+						key = "诛恶事件",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 7200,
+						nTime = -1,
+						szName = "诛恶事件",
+					},
+					{
+						key = "通用事件",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 7200,
+						nTime = -1,
+						szName = "通用事件",
+					},
+					{
+						key = "屹立不倒",
+						nClass = 20,
+						nIcon = 13,
+						nTime = -2,
+						szName = "屹立不倒",
+					},
+				},
+			},
+		},
+		[27] = {
+			{
+				[20] = {
+					bCenterAlarm = true,
+				},
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "谢渊已率浩气盟众首领抵达恶人谷，请各位浩气盟侠士速到恶人谷支援。恶人谷侠士也请速回恶人谷防御！\
+",
+				szNote = "主场攻防·正式开启",
+				tCountdown = {
+					{
+						key = "阵营活动",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 2401,
+						nRefresh = 10,
+						nTime = "2,主场攻防·正式开始;10,建议关闭·江湖身份;900,阶段·速战速决·15分钟;905,阶段·速战速决·已经结束;910,阶段·首领出战·正在召请;1800,阶段·物资车1·出发剩余;1810,阶段·物资车1·正在出发;2700,阶段·破阵点将1·结算剩余;2710,阶段·破阵点将1·正在结算;3540,阶段·物资车2·出发剩余;3550,阶段·物资车2·正在出发;3600,阶段·首领出战·助战剩余;3605,阶段·首领出战·助战结束;5400,阶段·破阵点将2·结算剩余;5405,阶段·破阵点将2·正在结算;5410,阶段·物资车3·正在出发;7200,阶段·本场攻防·结束剩余;7205,阶段·本场攻防·正在结算;7210,阶段·本场攻防·已经结束",
+						szName = "主场攻防·正式开始",
+					},
+					{
+						key = "首领拾取间隔",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 30,
+						nTime = -1,
+						szName = "首领拾取间隔",
+					},
+					{
+						key = "速战速决",
+						nClass = 20,
+						nIcon = 13,
+						nTime = -2,
+						szName = "速战速决",
+					},
+					{
+						key = "诛恶事件",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 7200,
+						nTime = -1,
+						szName = "诛恶事件",
+					},
+					{
+						key = "通用事件",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 7200,
+						nTime = -1,
+						szName = "通用事件",
+					},
+					{
+						key = "屹立不倒",
+						nClass = 20,
+						nIcon = 13,
+						nTime = -2,
+						szName = "屹立不倒",
+					},
+				},
+			},
+		},
+		[215] = {
+			{
 				szContent = "你已接受了[拔刀无惧]。\
 ",
 				szNote = "红尘侠影·月嘉禾",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 15,
+						szName = "前往·刀宗",
+					},
+				},
 			},
 		},
 		[475] = {
 			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "任务提示1",
-						nTime = 15,
-						szName = "前往·千岛湖",
-						nClass = 20,
-						nIcon = 13,
-					},
-				},
 				szContent = "你已接受了[剑照湖波]。\
 ",
 				szNote = "红尘侠影·月嘉禾",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 15,
+						szName = "前往·千岛湖",
+					},
+				},
 			},
 		},
 		[582] = {
 			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "任务提示1",
-						nTime = 15,
-						szName = "前往·少林·乱世",
-						nClass = 20,
-						nIcon = 13,
-					},
-				},
 				szContent = "你已接受了[何日成功]。\
 ",
 				szNote = "红尘侠影·月嘉禾",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 15,
+						szName = "前往·少林·乱世",
+					},
+				},
 			},
 		},
 	},
-	BUFF = {},
-	NPC = {
-		[21] = {
-			{nFrame=47,aFocus={{nMaxDistance=30,dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},szDisplay="",tLife={szOperator=">",nValue=0,bEnable=false},tRelation={bAlly=false,bEnemy=false,bAll=true}}},szNote="红尘侠影·骆不清",dwID=110169},
-			{nFrame=52,aFocus={{nMaxDistance=10,dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},szDisplay="机关小猪·小花猪",tLife={szOperator=">",nValue=0,bEnable=false},tRelation={bAlly=false,bEnemy=false,bAll=true}}},szNote="红尘侠影·小花猪",dwID=110158},
-		},
-		[15] = {
-			{nFrame=47,dwID=126992,aFocus={{nMaxDistance=10,dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},szDisplay="白鹊·使用钥匙",tLife={szOperator=">",nValue=0,bEnable=false},tRelation={bAlly=false,bEnemy=false,bAll=true}}},szName="白鹊·天杀密钥",szNote="红尘侠影·白鹊·天杀密钥"},
-		},
-		[122] = {
-			{nFrame=47,[3]={bScreenHead=true},szNote="红尘侠影·唐小珂",aFocus={{nMaxDistance=20,dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},szDisplay="",tLife={szOperator=">",nValue=0,bEnable=false},tRelation={bAlly=false,bEnemy=false,bAll=true}}},dwID=109988,col={0,255,0}},
-		},
-		[105] = {
-			{nFrame=47,[3]={bScreenHead=true},szNote="红尘侠影·沐晴柔",aFocus={{nMaxDistance=60,dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},szDisplay="",tLife={szOperator=">",nValue=0,bEnable=false},tRelation={bAlly=false,bEnemy=false,bAll=true}}},dwID=110315,col={0,255,0}},
-			{nFrame=47,[3]={bScreenHead=true},szNote="红尘侠影·沐晴柔",aFocus={{nMaxDistance=30,dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},szDisplay="",tLife={szOperator=">",nValue=0,bEnable=false},tRelation={bAlly=false,bEnemy=false,bAll=true}}},dwID=110071,col={0,255,0}},
-			{nFrame=47,[3]={bScreenHead=true},szNote="红尘侠影·沐晴柔",aFocus={{nMaxDistance=30,dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},szDisplay="",tLife={szOperator=">",nValue=0,bEnable=false},tRelation={bAlly=false,bEnemy=false,bAll=true}}},dwID=110132,col={0,255,0}},
-			{nFrame=47,[3]={bScreenHead=true},szNote="红尘侠影·沐晴柔",aFocus={{nMaxDistance=20,dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},szDisplay="",tLife={szOperator=">",nValue=0,bEnable=false},tRelation={bAlly=false,bEnemy=false,bAll=true}}},dwID=110084,col={0,255,0}},
-			{nFrame=47,aFocus={{nMaxDistance=10,dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},szDisplay="",tLife={szOperator=">",nValue=0,bEnable=false},tRelation={bAlly=false,bEnemy=false,bAll=true}}},szNote="红尘侠影·沐晴柔",dwID=110091},
-		},
-		[475] = {
-			{nFrame=47,[3]={bScreenHead=true},szNote="红尘侠影·康宴别",aFocus={},dwID=110046,col={0,255,0}},
-			{nFrame=47,[3]={bScreenHead=true},szNote="红尘侠影·康宴别",aFocus={},dwID=110047,col={0,255,0}},
-		},
-		[582] = {
-			{nFrame=47,[3]={bScreenHead=true},szNote="红尘侠影·月嘉禾",aFocus={},dwID=122881,col={0,255,0}},
-			{nFrame=47,[3]={bScreenHead=true},szNote="红尘侠影·月嘉禾",aFocus={{nMaxDistance=30,dwMapID=-1,tType={[3]=false,bAll=true,[5]=false,[4]=false},szDisplay="",tLife={szOperator=">",nValue=0,bEnable=false},tRelation={bAlly=false,bEnemy=false,bAll=true}}},dwID=122883,col={0,255,0}},
-			{nFrame=47,[3]={bScreenHead=true},szNote="红尘侠影·康宴别",dwID=122882,col={0,255,0}},
-			{nFrame=47,[3]={bScreenHead=true},szNote="红尘侠影·月嘉禾·2心",dwID=122884,col={0,255,0}},
-		},
-	},
 	DEBUFF = {
+		[-3] = {
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						col = "#CCCCCCFF",
+						nColAlpha = 255,
+						nPriority = 28,
+						szReminder = "疗",
+					},
+				},
+				col = {
+					204,
+					204,
+					204,
+				},
+				dwID = 21960,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szNote = "助战·自苦",
+			},
+			{
+				dwID = 23702,
+				nIcon = 17408,
+				nLevel = 1,
+				szName = "跟随",
+				szNote = "助战·助战指令_跟随",
+			},
+			{
+				aCataclysmBuff = {},
+				dwID = 23701,
+				nIcon = 17409,
+				nLevel = 1,
+				szName = "停留",
+				szNote = "助战·助战指令_停留",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 27888,
+				nIcon = 5958,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "助战",
+				szNote = "助战·系统召唤npc助战标",
+			},
+		},
+		[-1] = {
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 23703,
+				nIcon = 5958,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "召请",
+				szNote = "助战·召请",
+				tCountdown = {
+					{
+						key = "侠客召请",
+						nClass = 2,
+						nIcon = 5958,
+						nTime = 0,
+						szName = "侠客召请",
+					},
+					{
+						key = "侠客重伤",
+						nClass = 1,
+						nFrame = -1,
+						nIcon = 13,
+						nRefresh = 3600,
+						nTime = -1,
+						szName = "侠客重伤",
+					},
+				},
+			},
+		},
 		[21] = {
-			{nLevel=1,nScrutinyType=1,szNote="红尘侠影·好感度任务_唐小珂0_6进行中标记",dwID=23663,szName="好感度",nIcon=6650},
+			{
+				dwID = 23663,
+				nIcon = 6650,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "好感度",
+				szNote = "红尘侠影·好感度任务_唐小珂0_6进行中标记",
+			},
 		},
 		[582] = {
 			{
 				{
 					bBuffList = true,
 				},
-				nLevel = 1,
 				col = {
 					255,
 					255,
 					0,
 				},
-				szName = "剧情",
-				nIcon = 19489,
-				szNote = "红尘侠影·小剧场·月嘉禾",
 				dwID = 26170,
+				nIcon = 19489,
+				nLevel = 1,
+				szName = "剧情",
+				szNote = "红尘侠影·小剧场·月嘉禾",
 			},
 		},
 	},
-	CASTING = {},
+	DOODAD = {},
+	NPC = {
+		[15] = {
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 10,
+						szDisplay = "白鹊·使用钥匙",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 126992,
+				nFrame = 47,
+				szName = "白鹊·天杀密钥",
+				szNote = "红尘侠影·白鹊·天杀密钥",
+			},
+		},
+		[21] = {
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 30,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 110169,
+				nFrame = 47,
+				szNote = "红尘侠影·骆不清",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 10,
+						szDisplay = "机关小猪·小花猪",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 110158,
+				nFrame = 52,
+				szNote = "红尘侠影·小花猪",
+			},
+		},
+		[105] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 60,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 110315,
+				nFrame = 47,
+				szNote = "红尘侠影·沐晴柔",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 30,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 110071,
+				nFrame = 47,
+				szNote = "红尘侠影·沐晴柔",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 30,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 110132,
+				nFrame = 47,
+				szNote = "红尘侠影·沐晴柔",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 20,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 110084,
+				nFrame = 47,
+				szNote = "红尘侠影·沐晴柔",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 10,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 110091,
+				nFrame = 47,
+				szNote = "红尘侠影·沐晴柔",
+			},
+		},
+		[122] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 20,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 109988,
+				nFrame = 47,
+				szNote = "红尘侠影·唐小珂",
+			},
+		},
+		[475] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 110046,
+				nFrame = 47,
+				szNote = "红尘侠影·康宴别",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 110047,
+				nFrame = 47,
+				szNote = "红尘侠影·康宴别",
+			},
+		},
+		[582] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 122881,
+				nFrame = 47,
+				szNote = "红尘侠影·月嘉禾",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 30,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 122883,
+				nFrame = 47,
+				szNote = "红尘侠影·月嘉禾",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 122882,
+				nFrame = 47,
+				szNote = "红尘侠影·康宴别",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 122884,
+				nFrame = 47,
+				szNote = "红尘侠影·月嘉禾·2心",
+			},
+		},
+	},
+	TALK = {
+		[-19] = {
+			{
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "五分钟内只可拾取一次对立阵营首领仓皇撤退留下的物资。",
+				szNote = "主场·助战首领堆·拾取间隔",
+				tCountdown = {
+					{
+						key = "首领拾取间隔",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "首领拾取间隔",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "^本场攻防“(.-)”“(.-)·(.-)”已结束，(.-)存活首领及拥有据点数为(%d-)，获得(%d-)分；(.-)存活首领及拥有据点数为(%d-)，获得(%d-)分。请再接再厉！",
+				szNote = "{$2}·{$3}·[{$4}{$5}·{$6}]:[{$7}{$8}·{$9}]",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "阵营活动",
+						nClass = 14,
+						nFrame = -1,
+						nIcon = 2401,
+						nTime = 0,
+						szName = "阵营活动",
+					},
+					{
+						key = "破阵点将·一",
+						nClass = 14,
+						nFrame = -1,
+						nIcon = 2397,
+						nRefresh = 2,
+						nTime = -1,
+						szName = "破阵点将·一",
+					},
+					{
+						key = "破阵点将·二",
+						nClass = 14,
+						nFrame = -1,
+						nIcon = 2398,
+						nRefresh = 2,
+						nTime = -1,
+						szName = "破阵点将·二",
+					},
+					{
+						key = "{$2}·{$3}",
+						nClass = 14,
+						nFrame = -1,
+						nIcon = 2396,
+						nTime = -2,
+						szName = "{$2}·{$3}",
+					},
+					{
+						key = "破阵点将·一",
+						nClass = 14,
+						nFrame = -1,
+						nIcon = 2401,
+						nRefresh = 1,
+						nTime = "60,{$4}{$5}·{$6}分·{$7}{$8}·{$9}分;840,阶段·物资车2·出发剩余;850,阶段·物资车2·正在出发;900,阶段·首领出战·助战剩余;905,阶段·首领出战·助战结束;2695,阶段·破阵点将2·结算剩余;2705,阶段·破阵点将2·正在结算;2710,阶段·物资车3·正在出发;4500,阶段·本场攻防·结束剩余;4505,阶段·本场攻防·正在结算;4510,阶段·本场攻防·已经结束",
+						szName = "{$4}·{$6}分·{$7}·{$9}分",
+					},
+					{
+						key = "破阵点将·二",
+						nClass = 14,
+						nFrame = -1,
+						nIcon = 2401,
+						nRefresh = 1,
+						nTime = "60,{$4}{$5}·{$6}分·{$7}{$8}·{$9}分;1800,阶段·本场攻防·结束剩余;1805,阶段·本场攻防·正在结算;1810,阶段·本场攻防·已经结束",
+						szName = "{$4}·{$6}分·{$7}·{$9}分",
+					},
+				},
+			},
+			{
+				bReg = true,
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "(.-)力不能敌，暂时败退。(.-)进攻顺利，此战有功，请即刻回营，准备下一步战略。",
+				szNote = "{$1}·败退|{$2}·回营",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "浩气·{$2}·助战",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nTime = 0,
+						szName = "浩气·{$2}·助战",
+					},
+					{
+						key = "恶人·{$2}·助战",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 0,
+						szName = "恶人·{$2}·助战",
+					},
+					{
+						key = "{$2}·助战",
+						nClass = 14,
+						nFrame = 8,
+						nIcon = 16834,
+						nTime = 10,
+						szName = "{$2}·助战胜利·已回营",
+					},
+				},
+			},
+			{
+				bReg = true,
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "(.-)误入埋伏，防守不利，暂时败退。请(.-)暂且撤回驻守之地，务必小心防守。",
+				szNote = "{$1}·败退|{$2}·回防",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "浩气·{$2}·助战",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nTime = 0,
+						szName = "浩气·{$2}·助战",
+					},
+					{
+						key = "恶人·{$2}·助战",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 0,
+						szName = "恶人·{$2}·助战",
+					},
+					{
+						key = "{$2}·助战",
+						nClass = 14,
+						nFrame = 8,
+						nIcon = 16834,
+						nTime = 10,
+						szName = "{$2}·助战退场·易伤30%",
+					},
+				},
+			},
+			{
+				bReg = true,
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "(.-)出手协助众人酣战一场，其力有所不支，暂且从前线撤回。",
+				szNote = "{$1}·助战失利·回营",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "浩气·{$1}·助战",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nTime = 0,
+						szName = "浩气·{$1}·助战",
+					},
+					{
+						key = "恶人·{$1}·助战",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 0,
+						szName = "恶人·{$1}·助战",
+					},
+					{
+						key = "{$1}·助战",
+						nClass = 14,
+						nFrame = 8,
+						nIcon = 16834,
+						nTime = 10,
+						szName = "{$1}·助战失利·易伤30%",
+					},
+				},
+			},
+			{
+				bReg = true,
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "(.-)出手协助众人酣战一场，回到驻守之地。",
+				szNote = "{$1}·助战结束·回营",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "浩气·{$1}·助战",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nTime = 0,
+						szName = "浩气·{$1}·助战",
+					},
+					{
+						key = "恶人·{$1}·助战",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 0,
+						szName = "恶人·{$1}·助战",
+					},
+					{
+						key = "{$1}·助战",
+						nClass = 14,
+						nFrame = 8,
+						nIcon = 16834,
+						nTime = 10,
+						szName = "{$1}·助战结束·易伤30%",
+					},
+				},
+			},
+			{
+				szContent = "你获得了100点威名、100点战阶。",
+				szNote = "堆堆·助战首领",
+				tCountdown = {
+					{
+						key = "首领拾取间隔",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13564,
+						nRefresh = 1,
+						nTime = "300,助战堆·拾取物资·间隔剩余;310,助战堆·可以拾取物资了",
+						szName = "拾取间隔",
+					},
+				},
+			},
+		},
+		[-3] = {
+			{
+				szContent = "当前秘境侠客和侠士的总人数已经超过秘境上限，无法再召唤。",
+				szNote = "助战·侠客上限",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "侠客重伤",
+						nClass = 14,
+						nFrame = -1,
+						nIcon = 13,
+						nRefresh = 3600,
+						nTime = -1,
+						szName = "侠客重伤",
+					},
+				},
+			},
+		},
+		[-1] = {
+			{
+				bReg = true,
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "^你已累计翻阅了(%d-)次《(.-)传》。",
+				szNote = "助战·{$2}·尝试{$1}次",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "{$2}",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 15,
+						szName = "{$2}·尝试{$1}次",
+					},
+				},
+			},
+		},
+		[13] = {
+			{
+				szContent = "去往巴陵县的驿站寻找唐小珂的机关小猪。",
+				szNote = "红尘侠影·唐小珂",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 20,
+						szName = "神行·巴陵县·巴陵镇",
+					},
+					{
+						key = "任务提示2",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 20,
+						szName = "小花猪·[接头]",
+					},
+				},
+			},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1786363338,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+	},
 }
