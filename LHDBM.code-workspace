@@ -5,6 +5,15 @@
 		}
 	],
 	"settings": {
+		// 设置项目默认编码为 GBK
+		"files.encoding": "gbk",
+		// 开启自动编码猜测（作为备用，提高兼容性）
+		"files.autoGuessEncoding": true,
+		// 针对 Python 文件单独设置为 UTF-8
+		"[python]": {
+			"files.encoding": "utf8",
+			"files.autoGuessEncoding": false  // 关闭自动猜测，固定为 UTF-8
+		},
 		// 普通lua脚本：强制GBK
 		"[lua]": {
 			"files.encoding": "gbk",
