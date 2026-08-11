@@ -175,14 +175,7 @@ return {
 				szNote = "¿œ Ûº∆ ±buff",
 				tCountdown = {
 					{
-						key = "µÿ¿Œ—∞±¶CD",
-						nClass = 2,
-						nIcon = 18942,
-						nTime = 0,
-						szName = "µÿ¿Œ—∞±¶CD",
-					},
-					{
-						key = "µÿ¿Œ—∞±¶CD",
+						key = "µÿ¿Œ—∞±¶°§CD",
 						nClass = 2,
 						nFrame = 6,
 						nIcon = 18942,
@@ -297,23 +290,15 @@ return {
 				szNote = "¿œ Ûº∆ ±buff",
 				tCountdown = {
 					{
-						key = "µÿ¿Œ—∞±¶CD",
+						key = "µÿ¿Œ—∞±¶°§CD",
 						nClass = 1,
 						nFrame = 4,
 						nIcon = 18942,
-						nRefresh = 7200,
 						nTime = 10,
 						szName = "µÿ¿Œ—∞±¶°§CD°§22–° ±",
 					},
 					{
-						key = "µÿ¿Œ—∞±¶CD",
-						nClass = 2,
-						nIcon = 18942,
-						nTime = 0,
-						szName = "µÿ¿Œ—∞±¶CD",
-					},
-					{
-						key = "µÿ¿Œ—∞±¶CD",
+						key = "µÿ¿Œ—∞±¶°§CD",
 						nClass = 2,
 						nFrame = 6,
 						nIcon = 18942,
