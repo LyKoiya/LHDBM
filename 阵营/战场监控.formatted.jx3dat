@@ -1153,6 +1153,24 @@ return {
 				[20] = {
 					bCenterAlarm = true,
 				},
+				szContent = "您在跨服野外玩法队列中。\
+",
+				szNote = "处于跨服队列·限制竞技比赛",
+				tCountdown = {
+					{
+						key = "竞技活动",
+						nClass = 20,
+						nFrame = 2,
+						nIcon = 13,
+						nTime = 5,
+						szName = "处于跨服队列·限制竞技比赛",
+					},
+				},
+			},
+			{
+				[20] = {
+					bCenterAlarm = true,
+				},
 				szContent = "该时间段不能参加名剑大会！\
 ",
 				szNote = "名剑大会·非开启时段",
