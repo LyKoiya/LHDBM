@@ -1,0 +1,36 @@
+return {
+	BUFF = {},
+	CASTING = {
+		[-1] = {
+			{
+				dwID = 21137,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "靛羽风鸟·收取资源",
+				tCountdown = {
+					{
+						key = "靛羽风鸟",
+						nClass = 9,
+						nFrame = 4,
+						nIcon = 9972,
+						nTime = 5.1,
+						szName = "靛羽风鸟·收取资源",
+					},
+				},
+			},
+		},
+	},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {},
+	NPC = {},
+	TALK = {},
+	__meta = {
+		nTimeStamp = 1786638125,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+	},
+}

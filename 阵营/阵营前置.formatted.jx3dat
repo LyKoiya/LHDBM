@@ -5,2733 +5,229 @@ return {
 				{
 					bScreenHead = true,
 				},
-				nLevel = 1,
 				bCheckLevel = true,
-				dwID = 32100,
-				szNote = "阵营前置·我要吃肉",
 				col = {
 					0,
 					255,
 					255,
 				},
-			},
-		},
-	},
-	CHAT = {
-		[713] = {
-			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "郝德",
-						nTime = "10,恶人·击退郝德;300,郝德·刷新剩余;310,郝德·已经刷新",
-						szName = "郝德·刷新剩余",
-						nRefresh = 0,
-						nFrame = 3,
-						nIcon = 13,
-					},
-				},
-				szNote = "阵营前置·恶人谷·击退·郝德",
-				szContent = "在恶人谷精英的协助下，首道成功击退了郝德。\
-",
-				col = {
-					255,
-					100,
-					100,
-				},
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "首道",
-						nTime = "10,浩气·击退首道;300,首道·刷新剩余;310,首道·已经刷新",
-						szName = "首道·刷新剩余",
-						nRefresh = 0,
-						nIcon = 13,
-						nFrame = 7,
-					},
-				},
-				szNote = "阵营前置·浩气盟·击退·首道",
-				szContent = "在浩气盟精英的协助下，郝德成功击退了首道。\
-",
-				col = {
-					100,
-					100,
-					255,
-				},
-			},
-		},
-		[22] = {
-			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "粮草先行·浩气盟",
-						nTime = 5,
-						szName = "粮草先行·活动结束",
-						nIcon = 13,
-						nFrame = 0,
-					},
-					{
-						nClass = 20,
-						key = "粮草先行·恶人谷",
-						nTime = 0,
-						szName = "粮草先行·恶人谷",
-						nIcon = 13,
-					},
-					{
-						nClass = 20,
-						key = "赵新宇",
-						nTime = "60,赵新宇·刷新剩余;62,赵新宇·即将刷新",
-						szName = "赵新宇",
-						nRefresh = 0,
-						nIcon = 589,
-						nFrame = 7,
-					},
-				},
-				szContent = "本场浩气盟攻防即将结束，南屏山物资运送暂且休整，等待下一场攻防开启！\
-",
-				[20] = {},
-				col = {
-					255,
-					255,
-					100,
-				},
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "赵新宇",
-						nTime = 10,
-						szName = "赵新宇·已刷新",
-						nRefresh = 600,
-						nIcon = 589,
-						nFrame = 7,
-					},
-				},
-				szContent = "南屏山恶人谷伴江村援军已到，营地夺回，交通恢复！\
-",
-				[20] = {},
-				col = {
-					255,
-					100,
-					100,
-				},
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "方超",
-						nTime = 10,
-						szName = "方超·已刷新",
-						nRefresh = 600,
-						nIcon = 308,
-						nFrame = 3,
-					},
-				},
-				szContent = "南屏山浩气盟望北村援军已到，营地夺回，交通恢复！\
-",
-				[20] = {},
-				col = {
-					100,
-					100,
-					255,
-				},
-			},
-		},
-		[30] = {
-			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "粮草先行·恶人谷",
-						nTime = 5,
-						szName = "粮草先行·活动结束",
-						nIcon = 13,
-						nFrame = 0,
-					},
-					{
-						nClass = 20,
-						key = "粮草先行·浩气盟",
-						nTime = 0,
-						szName = "粮草先行·浩气盟",
-						nIcon = 13,
-					},
-					{
-						nClass = 20,
-						key = "霸图",
-						nTime = "60,霸图·刷新剩余;62,霸图·即将刷新",
-						szName = "霸图",
-						nRefresh = 0,
-						nIcon = 2864,
-						nFrame = 7,
-					},
-					{
-						nClass = 20,
-						key = "孙永恒",
-						nTime = "60,孙永恒·刷新剩余;62,孙永恒·即将刷新",
-						szName = "孙永恒",
-						nRefresh = 0,
-						nIcon = 845,
-						nFrame = 3,
-					},
-				},
-				szContent = "本场恶人谷攻防即将结束，昆仑物资运送暂且休整，等待下一场攻防开启！\
-",
-				[20] = {},
-				col = {
-					255,
-					255,
-					100,
-				},
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "霸图",
-						nTime = 10,
-						szName = "霸图·已刷新",
-						nRefresh = 600,
-						nIcon = 2864,
-						nFrame = 7,
-					},
-				},
-				szContent = "昆仑山恶人谷西昆仑高地援军已到，营地夺回，交通恢复！\
-",
-				[20] = {},
-				col = {
-					255,
-					100,
-					100,
-				},
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "孙永恒",
-						nTime = 10,
-						szName = "孙永恒·已刷新",
-						nRefresh = 600,
-						nIcon = 845,
-						nFrame = 3,
-					},
-				},
-				szContent = "昆仑山浩气盟东昆仑高地援军已到，营地夺回，交通恢复！\
-",
-				[20] = {},
-				col = {
-					100,
-					100,
-					255,
-				},
+				dwID = 32100,
+				nLevel = 1,
+				szNote = "阵营前置·我要吃肉",
 			},
 		},
 	},
 	CASTING = {},
-	TALK = {
-		[21] = {
+	CHAT = {
+		[22] = {
 			{
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "本场浩气盟攻防即将结束，南屏山物资运送暂且休整，等待下一场攻防开启！\
+",
 				tCountdown = {
 					{
-						nClass = 14,
-						key = "赵新宇",
-						nTime = 0,
-						szName = "赵新宇",
-						nFrame = 7,
-						nIcon = 589,
+						key = "粮草先行·浩气盟",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 5,
+						szName = "粮草先行·活动结束",
 					},
 					{
-						nClass = 14,
+						key = "粮草先行·恶人谷",
+						nClass = 20,
+						nIcon = 13,
+						nTime = 0,
+						szName = "粮草先行·恶人谷",
+					},
+					{
 						key = "赵新宇",
-						nTime = "60,赵新宇的信物;302,赵新宇·刷新剩余;304,赵新宇·即将刷新",
-						szName = "赵新宇",
-						nRefresh = 60,
+						nClass = 20,
 						nFrame = 7,
 						nIcon = 589,
+						nRefresh = 0,
+						nTime = "60,赵新宇·刷新剩余;62,赵新宇·即将刷新",
+						szName = "赵新宇",
 					},
 				},
-				szContent = "赵新宇死亡时，从他身上遗落一把短笛，貌似是他的随身信物。",
+			},
+			{
 				col = {
 					255,
 					100,
 					100,
 				},
-				[14] = {},
-				szTarget = "%",
-			},
-			{
+				szContent = "南屏山恶人谷伴江村援军已到，营地夺回，交通恢复！\
+",
 				tCountdown = {
 					{
-						nClass = 14,
-						key = "方超",
-						nTime = 0,
-						szName = "方超",
-						nFrame = 3,
-						nIcon = 308,
-					},
-					{
-						nClass = 14,
-						key = "方超",
-						nTime = "60,方超的信物;302,方超·刷新剩余;304,方超·即将刷新",
-						szName = "方超",
-						nRefresh = 60,
-						nFrame = 3,
-						nIcon = 308,
-					},
-				},
-				szContent = "随着方超的死亡，一把短笛掉了出来，貌似是他的随身信物。",
-				col = {
-					100,
-					100,
-					255,
-				},
-				[14] = {},
-				szTarget = "%",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = -1,
 						key = "赵新宇",
-						nTime = 2,
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 589,
+						nRefresh = 600,
+						nTime = 10,
 						szName = "赵新宇·已刷新",
-						nRefresh = 600,
-						nFrame = 7,
-						nIcon = 589,
 					},
 				},
-				szContent = "恶人谷老友们可在我这里传送到恶人谷！",
-				col = {
-					255,
-					100,
-					100,
-				},
-				[14] = {},
-				szTarget = "赵新宇",
 			},
 			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "南屏山浩气盟望北村援军已到，营地夺回，交通恢复！\
+",
 				tCountdown = {
 					{
-						nClass = -1,
 						key = "方超",
-						nTime = 2,
-						szName = "方超·已刷新",
-						nRefresh = 600,
+						nClass = 20,
 						nFrame = 3,
 						nIcon = 308,
+						nRefresh = 600,
+						nTime = 10,
+						szName = "方超·已刷新",
 					},
-				},
-				szContent = "浩气盟侠士们可在我这里传送到浩气盟！",
-				col = {
-					100,
-					100,
-					255,
-				},
-				[14] = {},
-				szTarget = "方超",
-			},
-		},
-		[713] = {
-			{
-				szNote = "阵营前置·浩气盟·郝德·被击退",
-				szContent = "在恶人谷精英的协助下，首道成功击退了郝德。",
-				szTarget = "%",
-				col = {
-					255,
-					100,
-					100,
-				},
-			},
-			{
-				szNote = "阵营前置·恶人谷·首道·被击退",
-				szContent = "在浩气盟精英的协助下，郝德成功击退了首道。",
-				szTarget = "%",
-				col = {
-					100,
-					100,
-					255,
 				},
 			},
 		},
 		[30] = {
 			{
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "本场恶人谷攻防即将结束，昆仑物资运送暂且休整，等待下一场攻防开启！\
+",
 				tCountdown = {
 					{
-						nClass = 14,
-						key = "霸图",
-						nTime = 0,
-						szName = "霸图",
-						nFrame = 7,
-						nIcon = 2864,
+						key = "粮草先行·恶人谷",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 5,
+						szName = "粮草先行·活动结束",
 					},
 					{
-						nClass = 14,
+						key = "粮草先行·浩气盟",
+						nClass = 20,
+						nIcon = 13,
+						nTime = 0,
+						szName = "粮草先行·浩气盟",
+					},
+					{
 						key = "霸图",
-						nTime = "60,霸图的信物;302,霸图·刷新剩余;304,霸图·即将刷新;310,霸图·延迟刷新",
-						szName = "霸图",
-						nRefresh = 60,
+						nClass = 20,
 						nFrame = 7,
 						nIcon = 2864,
+						nRefresh = 0,
+						nTime = "60,霸图·刷新剩余;62,霸图·即将刷新",
+						szName = "霸图",
+					},
+					{
+						key = "孙永恒",
+						nClass = 20,
+						nFrame = 3,
+						nIcon = 845,
+						nRefresh = 0,
+						nTime = "60,孙永恒·刷新剩余;62,孙永恒·即将刷新",
+						szName = "孙永恒",
 					},
 				},
-				szContent = "随着霸图的死亡，一柄钢刀从他身上滑落，似乎是他的随身信物。",
+			},
+			{
 				col = {
 					255,
 					100,
 					100,
 				},
-				[14] = {},
-				szTarget = "%",
-			},
-			{
+				szContent = "昆仑山恶人谷西昆仑高地援军已到，营地夺回，交通恢复！\
+",
 				tCountdown = {
 					{
-						nClass = 14,
-						key = "孙永恒",
-						nTime = 0,
-						szName = "孙永恒",
-						nFrame = 3,
-						nIcon = 845,
-					},
-					{
-						nClass = 14,
-						key = "孙永恒",
-						nTime = "60,孙永恒的信物;302,孙永恒·刷新剩余;304,孙永恒·即将刷新;310,孙永恒·延迟刷新",
-						szName = "孙永恒",
-						nRefresh = 60,
-						nFrame = 3,
-						nIcon = 845,
-					},
-				},
-				szContent = "随着孙永恒的死亡，一柄短剑从他身上滑落，似乎是他的随身信物。",
-				col = {
-					100,
-					100,
-					255,
-				},
-				[14] = {},
-				szTarget = "%",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = -1,
 						key = "霸图",
-						nTime = 2,
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 2864,
+						nRefresh = 600,
+						nTime = 10,
 						szName = "霸图·已刷新",
-						nRefresh = 600,
-						nFrame = 7,
-						nIcon = 2864,
 					},
 				},
-				szContent = "恶人谷老友们可在我这里传送到恶人谷！",
-				col = {
-					255,
-					100,
-					100,
-				},
-				[14] = {},
-				szTarget = "霸图",
 			},
 			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "昆仑山浩气盟东昆仑高地援军已到，营地夺回，交通恢复！\
+",
 				tCountdown = {
 					{
-						nClass = -1,
 						key = "孙永恒",
-						nTime = 2,
+						nClass = 20,
+						nFrame = 3,
+						nIcon = 845,
+						nRefresh = 600,
+						nTime = 10,
 						szName = "孙永恒·已刷新",
-						nRefresh = 600,
-						nFrame = 3,
-						nIcon = 845,
 					},
-				},
-				szContent = "浩气盟侠士们可在我这里传送到浩气盟！",
-				col = {
-					100,
-					100,
-					255,
-				},
-				[14] = {},
-				szTarget = "孙永恒",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "恶人·矿车",
-						nTime = 60,
-						szName = "浩气·劫车奖励",
-						nFrame = 7,
-						nIcon = 13,
-					},
-				},
-				szContent = "护送不利，恶人谷的运输小队被浩气盟截下了！",
-				col = {
-					255,
-					100,
-					100,
-				},
-				[14] = {},
-				szTarget = "管良沧",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "恶人·矿车",
-						nTime = 60,
-						szName = "恶人·领取护送奖赏",
-						nFrame = 3,
-						nIcon = 13,
-					},
-				},
-				szContent = "恶人谷的运输小队成功到达营地！接下来由他们将物资运往更前线，大伙继续加油，收集更多物资！",
-				col = {
-					255,
-					100,
-					100,
-				},
-				[14] = {},
-				szTarget = "管良沧",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "恶人·矿车",
-						nTime = "548,恶人·护送牛车;562,恶人·延迟护送牛车",
-						szName = "恶人·护送牛车",
-						nRefresh = 0,
-						nFrame = 3,
-						nIcon = 13,
-					},
-				},
-				szContent = "恶人谷的运输小队出现了，大伙快前去接送到我方营地，谷主重重有赏！",
-				col = {
-					255,
-					100,
-					100,
-				},
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szTarget = "管良沧",
-				szNote = "粮草先行·恶人牛车",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "浩气·矿车",
-						nTime = 60,
-						szName = "恶人·劫车奖励",
-						nFrame = 3,
-						nIcon = 13,
-					},
-				},
-				szContent = "护送不利，浩气盟的运输小队被恶人谷截下了！",
-				col = {
-					100,
-					100,
-					255,
-				},
-				[14] = {},
-				szTarget = "苏才寥",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "浩气·矿车",
-						nTime = 60,
-						szName = "浩气·领取护送奖赏",
-						nFrame = 7,
-						nIcon = 13,
-					},
-				},
-				szContent = "浩气盟的运输小队成功到达营地！接下来由他们将物资运往更前线，大伙继续加油，收集更多物资！",
-				col = {
-					100,
-					100,
-					255,
-				},
-				[14] = {},
-				szTarget = "苏才寥",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "浩气·矿车",
-						nTime = "548,浩气·护送牛车;562,浩气·延迟护送牛车",
-						szName = "浩气·护送牛车",
-						nRefresh = 0,
-						nFrame = 7,
-						nIcon = 13,
-					},
-				},
-				szContent = "浩气盟的运输小队出现了，大伙快前去接送到我方营地，盟主重重有赏！",
-				col = {
-					100,
-					100,
-					255,
-				},
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szTarget = "苏才寥",
-				szNote = "粮草先行·浩气牛车",
-			},
-		},
-		[23] = {
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "霸图",
-						nTime = 0,
-						szName = "霸图",
-						nFrame = 7,
-						nIcon = 2864,
-					},
-					{
-						nClass = 14,
-						key = "霸图",
-						nTime = "60,霸图的信物;302,霸图·刷新剩余;304,霸图·即将刷新",
-						szName = "霸图",
-						nRefresh = 60,
-						nFrame = 7,
-						nIcon = 2864,
-					},
-				},
-				szContent = "随着霸图的死亡，一柄钢刀从他身上滑落，似乎是他的随身信物。",
-				col = {
-					255,
-					100,
-					100,
-				},
-				[14] = {},
-				szTarget = "%",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "孙永恒",
-						nTime = 0,
-						szName = "孙永恒",
-						nFrame = 3,
-						nIcon = 845,
-					},
-					{
-						nClass = 14,
-						key = "孙永恒",
-						nTime = "60,孙永恒的信物;302,孙永恒·刷新剩余;304,孙永恒·即将刷新",
-						szName = "孙永恒",
-						nRefresh = 60,
-						nFrame = 3,
-						nIcon = 845,
-					},
-				},
-				szContent = "随着孙永恒的死亡，一柄短剑从他身上滑落，似乎是他的随身信物。",
-				col = {
-					100,
-					100,
-					255,
-				},
-				[14] = {},
-				szTarget = "%",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = -1,
-						key = "霸图",
-						nTime = 2,
-						szName = "霸图·已刷新",
-						nRefresh = 600,
-						nFrame = 7,
-						nIcon = 2864,
-					},
-				},
-				szContent = "恶人谷老友们可在我这里传送到恶人谷！",
-				col = {
-					255,
-					100,
-					100,
-				},
-				[14] = {},
-				szTarget = "霸图",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = -1,
-						key = "孙永恒",
-						nTime = 2,
-						szName = "孙永恒·已刷新",
-						nRefresh = 600,
-						nFrame = 3,
-						nIcon = 845,
-					},
-				},
-				szContent = "浩气盟侠士们可在我这里传送到浩气盟！",
-				col = {
-					100,
-					100,
-					255,
-				},
-				[14] = {},
-				szTarget = "孙永恒",
-			},
-		},
-		[22] = {
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "赵新宇",
-						nTime = 0,
-						szName = "赵新宇",
-						nFrame = 7,
-						nIcon = 589,
-					},
-					{
-						nClass = 14,
-						key = "赵新宇",
-						nTime = "60,赵新宇的信物;302,赵新宇·刷新剩余;304,赵新宇·即将刷新;310,赵新宇·延迟刷新",
-						szName = "赵新宇",
-						nRefresh = 60,
-						nFrame = 7,
-						nIcon = 589,
-					},
-				},
-				szContent = "赵新宇死亡时，从他身上遗落一把短笛，貌似是他的随身信物。",
-				col = {
-					255,
-					100,
-					100,
-				},
-				[14] = {},
-				szTarget = "%",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "方超",
-						nTime = 0,
-						szName = "方超",
-						nFrame = 3,
-						nIcon = 308,
-					},
-					{
-						nClass = 14,
-						key = "方超",
-						nTime = "60,方超的信物;302,方超·刷新剩余;304,方超·即将刷新;310,方超·延迟刷新",
-						szName = "方超",
-						nRefresh = 60,
-						nFrame = 3,
-						nIcon = 308,
-					},
-				},
-				szContent = "随着方超的死亡，一把短笛掉了出来，貌似是他的随身信物。",
-				col = {
-					100,
-					100,
-					255,
-				},
-				[14] = {},
-				szTarget = "%",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = -1,
-						key = "赵新宇",
-						nTime = 2,
-						szName = "赵新宇·已刷新",
-						nRefresh = 600,
-						nFrame = 7,
-						nIcon = 589,
-					},
-				},
-				szContent = "恶人谷老友们可在我这里传送到恶人谷！",
-				col = {
-					255,
-					100,
-					100,
-				},
-				[14] = {},
-				szTarget = "赵新宇",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = -1,
-						key = "方超",
-						nTime = 2,
-						szName = "方超·已刷新",
-						nRefresh = 600,
-						nFrame = 3,
-						nIcon = 308,
-					},
-				},
-				szContent = "浩气盟侠士们可在我这里传送到浩气盟！",
-				col = {
-					100,
-					100,
-					255,
-				},
-				[14] = {},
-				szTarget = "方超",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "恶人·矿车",
-						nTime = 60,
-						szName = "浩气·劫车奖励",
-						nFrame = 7,
-						nIcon = 13,
-					},
-				},
-				szContent = "护送不利，恶人谷的运输小队被浩气盟截下了！",
-				col = {
-					255,
-					100,
-					100,
-				},
-				[14] = {},
-				szTarget = "管良沧",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "恶人·矿车",
-						nTime = 60,
-						szName = "恶人·领取护送奖赏",
-						nFrame = 3,
-						nIcon = 13,
-					},
-				},
-				szContent = "恶人谷的运输小队成功到达营地！接下来由他们将物资运往更前线，大伙继续加油，收集更多物资！",
-				col = {
-					255,
-					100,
-					100,
-				},
-				[14] = {},
-				szTarget = "管良沧",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "恶人·矿车",
-						nTime = "337,恶人·护送牛车;340,恶人·延迟护送牛车",
-						szName = "恶人·护送牛车",
-						nRefresh = 0,
-						nFrame = 3,
-						nIcon = 13,
-					},
-				},
-				szContent = "恶人谷的运输小队出现了，大伙快前去接送到我方营地，谷主重重有赏！",
-				col = {
-					255,
-					100,
-					100,
-				},
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szTarget = "管良沧",
-				szNote = "粮草先行·恶人牛车",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "浩气·矿车",
-						nTime = 60,
-						szName = "恶人·劫车奖励",
-						nFrame = 3,
-						nIcon = 13,
-					},
-				},
-				szContent = "护送不利，浩气盟的运输小队被恶人谷截下了！",
-				col = {
-					100,
-					100,
-					255,
-				},
-				[14] = {},
-				szTarget = "苏才寥",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "浩气·矿车",
-						nTime = 60,
-						szName = "浩气·领取护送奖赏",
-						nFrame = 7,
-						nIcon = 13,
-					},
-				},
-				szContent = "浩气盟的运输小队成功到达营地！接下来由他们将物资运往更前线，大伙继续加油，收集更多物资！",
-				col = {
-					100,
-					100,
-					255,
-				},
-				[14] = {},
-				szTarget = "苏才寥",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "浩气·矿车",
-						nTime = "337,浩气·护送牛车;340,浩气·延迟护送牛车",
-						szName = "浩气·护送牛车",
-						nRefresh = 0,
-						nFrame = 7,
-						nIcon = 13,
-					},
-				},
-				szContent = "浩气盟的运输小队出现了，大伙快前去接送到我方营地，盟主重重有赏！",
-				col = {
-					100,
-					100,
-					255,
-				},
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szTarget = "苏才寥",
-				szNote = "粮草先行·浩气牛车",
-			},
-		},
-	},
-	NPC = {
-		[27] = {
-			{
-				nFrame = 47,
-				col = {
-					255,
-					120,
-					31,
-				},
-				dwID = 7605,
-				aFocus = {
-					{
-						szDisplay = "何非笑·阵营前置",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 10,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				szNote = "何非笑",
-				[3] = {
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				col = {
-					255,
-					120,
-					31,
-				},
-				dwID = 7604,
-				aFocus = {
-					{
-						szDisplay = "何非笑·阵营前置",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 10,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				szNote = "何非笑周日7604",
-				[3] = {
-					bScreenHead = true,
-				},
-			},
-		},
-		[21] = {
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "何非笑·阵营前置",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 7605,
-				[4] = {},
-				szNote = "阵营前置·何非笑",
-				col = {
-					255,
-					120,
-					31,
-				},
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "王洵·阵营前置",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 7606,
-				[4] = {},
-				szNote = "阵营前置·王洵",
-				col = {
-					31,
-					230,
-					255,
-				},
-			},
-			{
-				nFrame = 47,
-				tCountdown = {
-					{
-						nClass = 12,
-						nTime = 10.1,
-						szName = "左破天·刷新剩余",
-						nIcon = 13,
-						nFrame = 4,
-					},
-				},
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 1317,
-				[4] = {},
-				szNote = "阵营前置·左破天",
-				aFocus = {
-					{
-						szDisplay = "左破天·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-			},
-			{
-				nFrame = 47,
-				tCountdown = {
-					{
-						nClass = 12,
-						nTime = 10.1,
-						szName = "郭海宾·刷新剩余",
-						nIcon = 13,
-						nFrame = 4,
-					},
-				},
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 1308,
-				[4] = {},
-				szNote = "阵营前置·郭海宾",
-				aFocus = {
-					{
-						szDisplay = "郭海宾·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 6220,
-				[4] = {},
-				szNote = "阵营前置·赵新宇",
-				aFocus = {
-					{
-						szDisplay = "赵新宇·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 6219,
-				[4] = {},
-				szNote = "阵营前置·方超",
-				aFocus = {
-					{
-						szDisplay = "方超··阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "阵营前置·南屏山流寇头",
-				dwID = 1326,
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 1976,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "阵营前置·被抓住的村民",
-				col = {
-					50,
-					255,
-					255,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 1938,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "阵营前置·被迷惑的村民",
-				col = {
-					255,
-					255,
-					50,
-				},
-			},
-		},
-		[25] = {
-			{
-				nFrame = 47,
-				col = {
-					31,
-					230,
-					255,
-				},
-				dwID = 7607,
-				aFocus = {
-					{
-						szDisplay = "王洵·阵营前置",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 10,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				szNote = "王洵",
-				[3] = {
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				col = {
-					31,
-					230,
-					255,
-				},
-				dwID = 7606,
-				aFocus = {
-					{
-						szDisplay = "王洵·阵营前置",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 10,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				szNote = "王洵",
-				[3] = {
-					bScreenHead = true,
 				},
 			},
 		},
 		[713] = {
 			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 134375,
-				aFocus = {
-					{
-						szDisplay = "谢铃儿·阵营前置",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "阵营前置·谢铃儿",
-				col = {
-					31,
-					230,
-					255,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 134374,
-				aFocus = {
-					{
-						szDisplay = "万兽王·阵营前置",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "阵营前置·万兽王",
 				col = {
 					255,
-					120,
-					31,
+					100,
+					100,
 				},
-			},
-			{
-				nFrame = 52,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 135296,
-				aFocus = {
-					{
-						szDisplay = "恶人谷旗帜·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "阵营前置·恶人谷旗帜",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 52,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 135297,
-				aFocus = {
-					{
-						szDisplay = "浩气盟旗帜·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "阵营前置·浩气盟旗帜",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 135294,
-				aFocus = {
-					{
-						szDisplay = "粮草堆·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "阵营前置·粮草堆",
-				col = {
-					0,
-					255,
-					255,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 135295,
-				aFocus = {
-					{
-						szDisplay = "粮草包·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "阵营前置·粮草包",
-				col = {
-					0,
-					255,
-					255,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 134463,
-				aFocus = {
-					{
-						szDisplay = "首道·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 90,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "阵营前置··首道·浩气任务",
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 134462,
-				aFocus = {
-					{
-						szDisplay = "郝德·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 90,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "阵营前置·郝德·恶人任务",
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 134778,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "阵营前置·休养的恶人谷弟子",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 134779,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "阵营前置·休养的浩气盟弟子",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "阵营前置·正智堂精锐·恶人任务",
-				dwID = 135090,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "阵营前置·兽王院精锐·浩气任务",
-				dwID = 135089,
-			},
-		},
-		[30] = {
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "何非笑·阵营前置",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 7604,
-				[4] = {},
-				szNote = "阵营前置·何非笑",
-				col = {
-					255,
-					120,
-					31,
-				},
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "王洵·阵营前置",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 7607,
-				[4] = {},
-				szNote = "阵营前置·王洵",
-				col = {
-					31,
-					230,
-					255,
-				},
-			},
-			{
-				nFrame = 52,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 64733,
-				[4] = {},
-				szNote = "阵营前置·浩气牛车",
-				aFocus = {
-					{
-						szDisplay = "浩气牛车·粮草先行",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-			},
-			{
-				nFrame = 52,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 64732,
-				[4] = {},
-				szNote = "阵营前置·恶人牛车",
-				aFocus = {
-					{
-						szDisplay = "恶人牛车·粮草先行",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 64731,
-				[4] = {},
-				szNote = "阵营前置·管良沧·粮草先行",
-				aFocus = {
-					{
-						szDisplay = "管良沧·粮草先行",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 64730,
-				[4] = {},
-				szNote = "阵营前置·苏才寥·粮草先行",
-				aFocus = {
-					{
-						szDisplay = "苏才寥·粮草先行",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-			},
-			{
-				nFrame = 47,
+				szContent = "在恶人谷精英的协助下，首道成功击退了郝德。\
+",
+				szNote = "阵营前置·恶人谷·击退·郝德",
 				tCountdown = {
 					{
-						nClass = 12,
-						nTime = 10.1,
-						szName = "于成仇·刷新剩余",
+						key = "郝德",
+						nClass = 20,
+						nFrame = 3,
 						nIcon = 13,
-						nFrame = 4,
-					},
-				},
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 1215,
-				[4] = {},
-				szNote = "阵营前置·于成仇",
-				aFocus = {
-					{
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 0,
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
+						nRefresh = 0,
+						nTime = "10,恶人·击退郝德;300,郝德·刷新剩余;310,郝德·已经刷新",
+						szName = "郝德·刷新剩余",
 					},
 				},
 			},
 			{
-				nFrame = 47,
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "在浩气盟精英的协助下，郝德成功击退了首道。\
+",
+				szNote = "阵营前置·浩气盟·击退·首道",
 				tCountdown = {
 					{
-						nClass = 12,
-						nTime = 10.1,
-						szName = "阎世通·刷新剩余",
+						key = "首道",
+						nClass = 20,
+						nFrame = 7,
 						nIcon = 13,
-						nFrame = 4,
+						nRefresh = 0,
+						nTime = "10,浩气·击退首道;300,首道·刷新剩余;310,首道·已经刷新",
+						szName = "首道·刷新剩余",
 					},
-				},
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 1217,
-				[4] = {},
-				szNote = "阵营前置·阎世通",
-				aFocus = {
-					{
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 0,
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 6222,
-				[4] = {},
-				szNote = "阵营前置·霸图",
-				aFocus = {
-					{
-						szDisplay = "霸图·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 6221,
-				[4] = {},
-				szNote = "阵营前置·孙永恒",
-				aFocus = {
-					{
-						szDisplay = "孙永恒·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						tLife = {
-							szOperator = "==",
-							nValue = 100,
-							bEnable = true,
-						},
-						nMaxDistance = 35,
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-					},
-				},
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 5656,
-				[4] = {},
-				szNote = "阵营前置·长乐坊村民",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 3,
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-					},
-				},
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 1193,
-				[4] = {},
-				szNote = "阵营前置·被虏的江湖人士",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-		},
-		[23] = {
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "何非笑·阵营前置",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 7604,
-				[4] = {},
-				szNote = "阵营前置·何非笑",
-				col = {
-					255,
-					120,
-					31,
-				},
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "王洵·阵营前置",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 7607,
-				[4] = {},
-				szNote = "阵营前置·王洵",
-				col = {
-					31,
-					230,
-					255,
-				},
-			},
-			{
-				nFrame = 47,
-				tCountdown = {
-					{
-						nClass = 12,
-						nTime = 10.1,
-						szName = "于成仇·刷新剩余",
-						nIcon = 13,
-						nFrame = 4,
-					},
-				},
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 1215,
-				[4] = {},
-				szNote = "于成仇·阵营前置",
-				aFocus = {
-					{
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 0,
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-			},
-			{
-				nFrame = 47,
-				tCountdown = {
-					{
-						nClass = 12,
-						nTime = 10.1,
-						szName = "阎世通·刷新剩余",
-						nIcon = 13,
-						nFrame = 4,
-					},
-				},
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 1217,
-				[4] = {},
-				szNote = "阵营前置·阎世通",
-				aFocus = {
-					{
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 0,
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 6222,
-				[4] = {},
-				szNote = "阵营前置·霸图",
-				aFocus = {
-					{
-						szDisplay = "霸图·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 6221,
-				[4] = {},
-				szNote = "阵营前置·孙永恒",
-				aFocus = {
-					{
-						szDisplay = "孙永恒·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						tLife = {
-							szOperator = "==",
-							nValue = 100,
-							bEnable = true,
-						},
-						nMaxDistance = 10,
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-					},
-				},
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 56418,
-				[4] = {},
-				szNote = "阵营前置·休憩的商人",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 3,
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-					},
-				},
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 1193,
-				[4] = {},
-				szNote = "阵营前置·被虏的江湖人士",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-		},
-		[22] = {
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "何非笑·阵营前置",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 7605,
-				[4] = {},
-				szNote = "阵营前置·何非笑",
-				col = {
-					255,
-					120,
-					31,
-				},
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "王洵·阵营前置",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 7606,
-				[4] = {},
-				szNote = "阵营前置·王洵",
-				col = {
-					31,
-					230,
-					255,
-				},
-			},
-			{
-				nFrame = 52,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 64733,
-				[4] = {},
-				szNote = "阵营前置·浩气牛车",
-				aFocus = {
-					{
-						szDisplay = "浩气牛车·粮草先行",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-			},
-			{
-				nFrame = 52,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 64732,
-				[4] = {},
-				szNote = "阵营前置·恶人牛车",
-				aFocus = {
-					{
-						szDisplay = "恶人牛车·粮草先行",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 64731,
-				[4] = {},
-				szNote = "阵营前置·管良沧·粮草先行",
-				aFocus = {
-					{
-						szDisplay = "管良沧·粮草先行",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 64730,
-				[4] = {},
-				szNote = "阵营前置·苏才寥·粮草先行",
-				aFocus = {
-					{
-						szDisplay = "苏才寥·粮草先行",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-			},
-			{
-				nFrame = 47,
-				tCountdown = {
-					{
-						nClass = 12,
-						nTime = 10.1,
-						szName = "左破天·刷新剩余",
-						nIcon = 13,
-						nFrame = 4,
-					},
-				},
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 1317,
-				[4] = {},
-				szNote = "阵营前置·左破天",
-				aFocus = {
-					{
-						szDisplay = "左破天·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-			},
-			{
-				nFrame = 47,
-				tCountdown = {
-					{
-						nClass = 12,
-						nTime = 10.1,
-						szName = "郭海宾·刷新剩余",
-						nIcon = 13,
-						nFrame = 4,
-					},
-				},
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 1308,
-				[4] = {},
-				szNote = "阵营前置·郭海宾",
-				aFocus = {
-					{
-						szDisplay = "郭海宾·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 6220,
-				[4] = {},
-				szNote = "阵营前置·赵新宇",
-				aFocus = {
-					{
-						szDisplay = "赵新宇·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 6219,
-				[4] = {},
-				szNote = "阵营前置·方超",
-				aFocus = {
-					{
-						szDisplay = "方超·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "阵营前置·南屏山流寇头",
-				dwID = 1326,
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 1976,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "阵营前置·被抓住的村民",
-				col = {
-					50,
-					255,
-					255,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 1938,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "阵营前置·被迷惑的村民",
-				col = {
-					255,
-					255,
-					50,
 				},
 			},
 		},
 	},
 	DEBUFF = {},
-	__meta = {
-		szServer = "唯我独尊",
-		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1786120276,
-		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
-		szEdition = "zhcn_hd",
-	},
 	DOODAD = {
 		[21] = {
 			{
@@ -2739,36 +235,52 @@ return {
 					bCenterAlarm = true,
 					bScreenHead = true,
 				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "方超信物·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
 				col = {
 					255,
 					120,
 					31,
 				},
 				dwID = 3444,
-				aFocus = {
-					{
-						szDisplay = "方超信物·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
 				szNote = "阵营前置·方超的信物",
-				[18] = {},
 			},
 			{
 				[17] = {
 					bCenterAlarm = true,
 					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "赵新宇信物·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
 				},
 				col = {
 					31,
@@ -2776,29 +288,28 @@ return {
 					255,
 				},
 				dwID = 3443,
-				aFocus = {
-					{
-						szDisplay = "赵新宇信物·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
 				szNote = "阵营前置·赵新宇的信物",
-				[18] = {},
 			},
 			{
 				[17] = {
 					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 20,
+						szDisplay = "河底的沙石·前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
 				},
 				col = {
 					100,
@@ -2806,25 +317,7 @@ return {
 					100,
 				},
 				dwID = 843,
-				aFocus = {
-					{
-						szDisplay = "河底的沙石·前置",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
 				szNote = "阵营前置·河底的沙石",
-				[18] = {},
 			},
 		},
 		[22] = {
@@ -2832,36 +325,52 @@ return {
 				[17] = {
 					bScreenHead = true,
 				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 20,
+						szDisplay = "河底的沙石·前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
 				col = {
 					100,
 					255,
 					100,
 				},
 				dwID = 843,
-				aFocus = {
-					{
-						szDisplay = "河底的沙石·前置",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
 				szNote = "阵营前置·河底的沙石",
-				[18] = {},
 			},
 			{
 				[17] = {
 					bCenterAlarm = true,
 					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "护送奖赏·粮草先行",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
 				},
 				col = {
 					100,
@@ -2869,30 +378,29 @@ return {
 					100,
 				},
 				dwID = 7662,
-				aFocus = {
-					{
-						szDisplay = "护送奖赏·粮草先行",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
 				szNote = "阵营前置·护送奖赏",
-				[18] = {},
 			},
 			{
 				[17] = {
 					bCenterAlarm = true,
 					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "拦截奖赏·粮草先行",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
 				},
 				col = {
 					100,
@@ -2900,30 +408,29 @@ return {
 					100,
 				},
 				dwID = 7663,
-				aFocus = {
-					{
-						szDisplay = "拦截奖赏·粮草先行",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
 				szNote = "阵营前置·拦截奖赏",
-				[18] = {},
 			},
 			{
 				[17] = {
 					bCenterAlarm = true,
 					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "方超信物·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
 				},
 				col = {
 					255,
@@ -2931,30 +438,29 @@ return {
 					31,
 				},
 				dwID = 3444,
-				aFocus = {
-					{
-						szDisplay = "方超信物·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
 				szNote = "阵营前置·方超的信物",
-				[18] = {},
 			},
 			{
 				[17] = {
 					bCenterAlarm = true,
 					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "赵新宇信物·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
 				},
 				col = {
 					31,
@@ -2962,25 +468,7 @@ return {
 					255,
 				},
 				dwID = 3443,
-				aFocus = {
-					{
-						szDisplay = "赵新宇信物·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
 				szNote = "阵营前置·赵新宇的信物",
-				[18] = {},
 			},
 		},
 		[23] = {
@@ -2989,36 +477,52 @@ return {
 					bCenterAlarm = true,
 					bScreenHead = true,
 				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "孙永恒信物·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
 				col = {
 					255,
 					120,
 					31,
 				},
 				dwID = 3445,
-				aFocus = {
-					{
-						szDisplay = "孙永恒信物·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
 				szNote = "阵营前置·孙永恒的信物",
-				[18] = {},
 			},
 			{
 				[17] = {
 					bCenterAlarm = true,
 					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "霸图的信物·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
 				},
 				col = {
 					31,
@@ -3026,53 +530,33 @@ return {
 					255,
 				},
 				dwID = 3442,
+				szNote = "阵营前置·霸图的信物",
+			},
+			{
 				aFocus = {
 					{
-						szDisplay = "霸图的信物·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
 						dwMapID = -1,
-						nMaxDistance = 0,
+						nMaxDistance = 20,
+						szDisplay = "散落的冰魂货箱·前置",
 						tLife = {
-							szOperator = ">",
-							nValue = 0,
 							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
 						},
 					},
 				},
-				szNote = "阵营前置·霸图的信物",
-				[18] = {},
-			},
-			{
-				[17] = {},
 				col = {
 					100,
 					255,
 					100,
 				},
 				dwID = 6474,
-				aFocus = {
-					{
-						szDisplay = "散落的冰魂货箱·前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
 				szNote = "阵营前置·散落的冰魂货箱",
-				[18] = {},
 			},
 		},
 		[30] = {
@@ -3080,36 +564,42 @@ return {
 				[17] = {
 					bScreenHead = true,
 				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "冰魂·阵营前置",
+					},
+				},
 				col = {
 					100,
 					255,
 					100,
 				},
 				dwID = 1519,
-				aFocus = {
-					{
-						szDisplay = "冰魂·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
 				szNote = "阵营前置·冰魂",
-				[18] = {},
 			},
 			{
 				[17] = {
 					bCenterAlarm = true,
 					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "护送奖赏·粮草先行",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
 				},
 				col = {
 					100,
@@ -3117,30 +607,29 @@ return {
 					100,
 				},
 				dwID = 7662,
-				aFocus = {
-					{
-						szDisplay = "护送奖赏·粮草先行",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
 				szNote = "阵营前置·护送奖赏",
-				[18] = {},
 			},
 			{
 				[17] = {
 					bCenterAlarm = true,
 					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "拦截奖赏·粮草先行",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
 				},
 				col = {
 					100,
@@ -3148,30 +637,29 @@ return {
 					100,
 				},
 				dwID = 7663,
-				aFocus = {
-					{
-						szDisplay = "拦截奖赏·粮草先行",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
 				szNote = "阵营前置·拦截奖赏",
-				[18] = {},
 			},
 			{
 				[17] = {
 					bCenterAlarm = true,
 					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "孙永恒信物·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
 				},
 				col = {
 					255,
@@ -3179,30 +667,29 @@ return {
 					31,
 				},
 				dwID = 3445,
-				aFocus = {
-					{
-						szDisplay = "孙永恒信物·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
 				szNote = "阵营前置·孙永恒的信物",
-				[18] = {},
 			},
 			{
 				[17] = {
 					bCenterAlarm = true,
 					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "霸图的信物·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
 				},
 				col = {
 					31,
@@ -3210,25 +697,7 @@ return {
 					255,
 				},
 				dwID = 3442,
-				aFocus = {
-					{
-						szDisplay = "霸图的信物·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
 				szNote = "阵营前置·霸图的信物",
-				[18] = {},
 			},
 		},
 		[713] = {
@@ -3236,40 +705,63 @@ return {
 				[17] = {
 					bScreenHead = true,
 				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "雪界玉髓·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
 				col = {
 					100,
 					255,
 					100,
 				},
 				dwID = 11500,
-				aFocus = {
-					{
-						szDisplay = "雪界玉髓·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
 				szNote = "阵营前置·雪界玉髓",
 			},
 			{
 				[17] = {
 					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "烤肉架·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
 				},
 				col = {
 					100,
@@ -3277,31 +769,2446 @@ return {
 					100,
 				},
 				dwID = 11463,
-				aFocus = {
-					{
-						szDisplay = "烤肉架·阵营前置",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
 				szNote = "阵营前置·烤肉架",
 			},
 		},
+	},
+	NPC = {
+		[21] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "何非笑·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					120,
+					31,
+				},
+				dwID = 7605,
+				nFrame = 47,
+				szNote = "阵营前置·何非笑",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 20,
+						szDisplay = "王洵·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					31,
+					230,
+					255,
+				},
+				dwID = 7606,
+				nFrame = 47,
+				szNote = "阵营前置·王洵",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "左破天·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 1317,
+				nFrame = 47,
+				szNote = "阵营前置·左破天",
+				tCountdown = {
+					{
+						nClass = 12,
+						nFrame = 4,
+						nIcon = 13,
+						nTime = 10.1,
+						szName = "左破天·刷新剩余",
+					},
+				},
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "郭海宾·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 1308,
+				nFrame = 47,
+				szNote = "阵营前置·郭海宾",
+				tCountdown = {
+					{
+						nClass = 12,
+						nFrame = 4,
+						nIcon = 13,
+						nTime = 10.1,
+						szName = "郭海宾·刷新剩余",
+					},
+				},
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "赵新宇·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 6220,
+				nFrame = 47,
+				szNote = "阵营前置·赵新宇",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "方超··阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 6219,
+				nFrame = 47,
+				szNote = "阵营前置·方超",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 30,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 1326,
+				nFrame = 47,
+				szNote = "阵营前置·南屏山流寇头",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					50,
+					255,
+					255,
+				},
+				dwID = 1976,
+				nFrame = 47,
+				szNote = "阵营前置·被抓住的村民",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					50,
+				},
+				dwID = 1938,
+				nFrame = 47,
+				szNote = "阵营前置·被迷惑的村民",
+			},
+		},
+		[22] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "何非笑·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					120,
+					31,
+				},
+				dwID = 7605,
+				nFrame = 47,
+				szNote = "阵营前置·何非笑",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 20,
+						szDisplay = "王洵·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					31,
+					230,
+					255,
+				},
+				dwID = 7606,
+				nFrame = 47,
+				szNote = "阵营前置·王洵",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "浩气牛车·粮草先行",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 64733,
+				nFrame = 52,
+				szNote = "阵营前置·浩气牛车",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "恶人牛车·粮草先行",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 64732,
+				nFrame = 52,
+				szNote = "阵营前置·恶人牛车",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 60,
+						szDisplay = "管良沧·粮草先行",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 64731,
+				nFrame = 47,
+				szNote = "阵营前置·管良沧·粮草先行",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 60,
+						szDisplay = "苏才寥·粮草先行",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 64730,
+				nFrame = 47,
+				szNote = "阵营前置·苏才寥·粮草先行",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "左破天·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 1317,
+				nFrame = 47,
+				szNote = "阵营前置·左破天",
+				tCountdown = {
+					{
+						nClass = 12,
+						nFrame = 4,
+						nIcon = 13,
+						nTime = 10.1,
+						szName = "左破天·刷新剩余",
+					},
+				},
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "郭海宾·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 1308,
+				nFrame = 47,
+				szNote = "阵营前置·郭海宾",
+				tCountdown = {
+					{
+						nClass = 12,
+						nFrame = 4,
+						nIcon = 13,
+						nTime = 10.1,
+						szName = "郭海宾·刷新剩余",
+					},
+				},
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "赵新宇·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 6220,
+				nFrame = 47,
+				szNote = "阵营前置·赵新宇",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "方超·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 6219,
+				nFrame = 47,
+				szNote = "阵营前置·方超",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 30,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 1326,
+				nFrame = 47,
+				szNote = "阵营前置·南屏山流寇头",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					50,
+					255,
+					255,
+				},
+				dwID = 1976,
+				nFrame = 47,
+				szNote = "阵营前置·被抓住的村民",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					50,
+				},
+				dwID = 1938,
+				nFrame = 47,
+				szNote = "阵营前置·被迷惑的村民",
+			},
+		},
+		[23] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "何非笑·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					120,
+					31,
+				},
+				dwID = 7604,
+				nFrame = 47,
+				szNote = "阵营前置·何非笑",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 20,
+						szDisplay = "王洵·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					31,
+					230,
+					255,
+				},
+				dwID = 7607,
+				nFrame = 47,
+				szNote = "阵营前置·王洵",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 1215,
+				nFrame = 47,
+				szNote = "于成仇·阵营前置",
+				tCountdown = {
+					{
+						nClass = 12,
+						nFrame = 4,
+						nIcon = 13,
+						nTime = 10.1,
+						szName = "于成仇·刷新剩余",
+					},
+				},
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 1217,
+				nFrame = 47,
+				szNote = "阵营前置·阎世通",
+				tCountdown = {
+					{
+						nClass = 12,
+						nFrame = 4,
+						nIcon = 13,
+						nTime = 10.1,
+						szName = "阎世通·刷新剩余",
+					},
+				},
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "霸图·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 6222,
+				nFrame = 47,
+				szNote = "阵营前置·霸图",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "孙永恒·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 6221,
+				nFrame = 47,
+				szNote = "阵营前置·孙永恒",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 10,
+						tLife = {
+							bEnable = true,
+							nValue = 100,
+							szOperator = "==",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 56418,
+				nFrame = 47,
+				szNote = "阵营前置·休憩的商人",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 3,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 1193,
+				nFrame = 47,
+				szNote = "阵营前置·被虏的江湖人士",
+			},
+		},
+		[25] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 10,
+						szDisplay = "王洵·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					31,
+					230,
+					255,
+				},
+				dwID = 7607,
+				nFrame = 47,
+				szNote = "王洵",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 10,
+						szDisplay = "王洵·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					31,
+					230,
+					255,
+				},
+				dwID = 7606,
+				nFrame = 47,
+				szNote = "王洵",
+			},
+		},
+		[27] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 10,
+						szDisplay = "何非笑·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					120,
+					31,
+				},
+				dwID = 7605,
+				nFrame = 47,
+				szNote = "何非笑",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 10,
+						szDisplay = "何非笑·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					120,
+					31,
+				},
+				dwID = 7604,
+				nFrame = 47,
+				szNote = "何非笑周日7604",
+			},
+		},
+		[30] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 60,
+						szDisplay = "何非笑·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					120,
+					31,
+				},
+				dwID = 7604,
+				nFrame = 47,
+				szNote = "阵营前置·何非笑",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 60,
+						szDisplay = "王洵·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					31,
+					230,
+					255,
+				},
+				dwID = 7607,
+				nFrame = 47,
+				szNote = "阵营前置·王洵",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "浩气牛车·粮草先行",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 64733,
+				nFrame = 52,
+				szNote = "阵营前置·浩气牛车",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "恶人牛车·粮草先行",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 64732,
+				nFrame = 52,
+				szNote = "阵营前置·恶人牛车",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 60,
+						szDisplay = "管良沧·粮草先行",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 64731,
+				nFrame = 47,
+				szNote = "阵营前置·管良沧·粮草先行",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 60,
+						szDisplay = "苏才寥·粮草先行",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 64730,
+				nFrame = 47,
+				szNote = "阵营前置·苏才寥·粮草先行",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 1215,
+				nFrame = 47,
+				szNote = "阵营前置·于成仇",
+				tCountdown = {
+					{
+						nClass = 12,
+						nFrame = 4,
+						nIcon = 13,
+						nTime = 10.1,
+						szName = "于成仇·刷新剩余",
+					},
+				},
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 1217,
+				nFrame = 47,
+				szNote = "阵营前置·阎世通",
+				tCountdown = {
+					{
+						nClass = 12,
+						nFrame = 4,
+						nIcon = 13,
+						nTime = 10.1,
+						szName = "阎世通·刷新剩余",
+					},
+				},
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "霸图·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 6222,
+				nFrame = 47,
+				szNote = "阵营前置·霸图",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "孙永恒·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 6221,
+				nFrame = 47,
+				szNote = "阵营前置·孙永恒",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 35,
+						tLife = {
+							bEnable = true,
+							nValue = 100,
+							szOperator = "==",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 5656,
+				nFrame = 47,
+				szNote = "阵营前置·长乐坊村民",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 3,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 1193,
+				nFrame = 47,
+				szNote = "阵营前置·被虏的江湖人士",
+			},
+		},
+		[713] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 60,
+						szDisplay = "谢铃儿·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					31,
+					230,
+					255,
+				},
+				dwID = 134375,
+				nFrame = 47,
+				szNote = "阵营前置·谢铃儿",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 60,
+						szDisplay = "万兽王·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					255,
+					120,
+					31,
+				},
+				dwID = 134374,
+				nFrame = 47,
+				szNote = "阵营前置·万兽王",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 30,
+						szDisplay = "恶人谷旗帜·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 135296,
+				nFrame = 52,
+				szNote = "阵营前置·恶人谷旗帜",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 30,
+						szDisplay = "浩气盟旗帜·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 135297,
+				nFrame = 52,
+				szNote = "阵营前置·浩气盟旗帜",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 30,
+						szDisplay = "粮草堆·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 135294,
+				nFrame = 47,
+				szNote = "阵营前置·粮草堆",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 30,
+						szDisplay = "粮草包·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 135295,
+				nFrame = 47,
+				szNote = "阵营前置·粮草包",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 90,
+						szDisplay = "首道·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 134463,
+				nFrame = 47,
+				szNote = "阵营前置··首道·浩气任务",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 90,
+						szDisplay = "郝德·阵营前置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 134462,
+				nFrame = 47,
+				szNote = "阵营前置·郝德·恶人任务",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 134778,
+				nFrame = 47,
+				szNote = "阵营前置·休养的恶人谷弟子",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 134779,
+				nFrame = 47,
+				szNote = "阵营前置·休养的浩气盟弟子",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 20,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 135090,
+				nFrame = 47,
+				szNote = "阵营前置·正智堂精锐·恶人任务",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 20,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 135089,
+				nFrame = 47,
+				szNote = "阵营前置·兽王院精锐·浩气任务",
+			},
+		},
+	},
+	TALK = {
+		[21] = {
+			{
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "赵新宇死亡时，从他身上遗落一把短笛，貌似是他的随身信物。",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "赵新宇",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 589,
+						nTime = 0,
+						szName = "赵新宇",
+					},
+					{
+						key = "赵新宇",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 589,
+						nRefresh = 60,
+						nTime = "60,赵新宇的信物;302,赵新宇·刷新剩余;304,赵新宇·即将刷新",
+						szName = "赵新宇",
+					},
+				},
+			},
+			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "随着方超的死亡，一把短笛掉了出来，貌似是他的随身信物。",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "方超",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 308,
+						nTime = 0,
+						szName = "方超",
+					},
+					{
+						key = "方超",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 308,
+						nRefresh = 60,
+						nTime = "60,方超的信物;302,方超·刷新剩余;304,方超·即将刷新",
+						szName = "方超",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "恶人谷老友们可在我这里传送到恶人谷！",
+				szTarget = "赵新宇",
+				tCountdown = {
+					{
+						key = "赵新宇",
+						nClass = -1,
+						nFrame = 7,
+						nIcon = 589,
+						nRefresh = 600,
+						nTime = 2,
+						szName = "赵新宇·已刷新",
+					},
+				},
+			},
+			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "浩气盟侠士们可在我这里传送到浩气盟！",
+				szTarget = "方超",
+				tCountdown = {
+					{
+						key = "方超",
+						nClass = -1,
+						nFrame = 3,
+						nIcon = 308,
+						nRefresh = 600,
+						nTime = 2,
+						szName = "方超·已刷新",
+					},
+				},
+			},
+		},
+		[22] = {
+			{
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "赵新宇死亡时，从他身上遗落一把短笛，貌似是他的随身信物。",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "赵新宇",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 589,
+						nTime = 0,
+						szName = "赵新宇",
+					},
+					{
+						key = "赵新宇",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 589,
+						nRefresh = 60,
+						nTime = "60,赵新宇的信物;302,赵新宇·刷新剩余;304,赵新宇·即将刷新;310,赵新宇·延迟刷新",
+						szName = "赵新宇",
+					},
+				},
+			},
+			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "随着方超的死亡，一把短笛掉了出来，貌似是他的随身信物。",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "方超",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 308,
+						nTime = 0,
+						szName = "方超",
+					},
+					{
+						key = "方超",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 308,
+						nRefresh = 60,
+						nTime = "60,方超的信物;302,方超·刷新剩余;304,方超·即将刷新;310,方超·延迟刷新",
+						szName = "方超",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "恶人谷老友们可在我这里传送到恶人谷！",
+				szTarget = "赵新宇",
+				tCountdown = {
+					{
+						key = "赵新宇",
+						nClass = -1,
+						nFrame = 7,
+						nIcon = 589,
+						nRefresh = 600,
+						nTime = 2,
+						szName = "赵新宇·已刷新",
+					},
+				},
+			},
+			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "浩气盟侠士们可在我这里传送到浩气盟！",
+				szTarget = "方超",
+				tCountdown = {
+					{
+						key = "方超",
+						nClass = -1,
+						nFrame = 3,
+						nIcon = 308,
+						nRefresh = 600,
+						nTime = 2,
+						szName = "方超·已刷新",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "护送不利，恶人谷的运输小队被浩气盟截下了！",
+				szTarget = "管良沧",
+				tCountdown = {
+					{
+						key = "恶人·矿车",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nTime = 60,
+						szName = "浩气·劫车奖励",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "恶人谷的运输小队成功到达营地！接下来由他们将物资运往更前线，大伙继续加油，收集更多物资！",
+				szTarget = "管良沧",
+				tCountdown = {
+					{
+						key = "恶人·矿车",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "恶人·领取护送奖赏",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "恶人谷的运输小队出现了，大伙快前去接送到我方营地，谷主重重有赏！",
+				szNote = "粮草先行·恶人牛车",
+				szTarget = "管良沧",
+				tCountdown = {
+					{
+						key = "恶人·矿车",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nRefresh = 0,
+						nTime = "337,恶人·护送牛车;340,恶人·延迟护送牛车",
+						szName = "恶人·护送牛车",
+					},
+				},
+			},
+			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "护送不利，浩气盟的运输小队被恶人谷截下了！",
+				szTarget = "苏才寥",
+				tCountdown = {
+					{
+						key = "浩气·矿车",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "恶人·劫车奖励",
+					},
+				},
+			},
+			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "浩气盟的运输小队成功到达营地！接下来由他们将物资运往更前线，大伙继续加油，收集更多物资！",
+				szTarget = "苏才寥",
+				tCountdown = {
+					{
+						key = "浩气·矿车",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nTime = 60,
+						szName = "浩气·领取护送奖赏",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "浩气盟的运输小队出现了，大伙快前去接送到我方营地，盟主重重有赏！",
+				szNote = "粮草先行·浩气牛车",
+				szTarget = "苏才寥",
+				tCountdown = {
+					{
+						key = "浩气·矿车",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nRefresh = 0,
+						nTime = "337,浩气·护送牛车;340,浩气·延迟护送牛车",
+						szName = "浩气·护送牛车",
+					},
+				},
+			},
+		},
+		[23] = {
+			{
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "随着霸图的死亡，一柄钢刀从他身上滑落，似乎是他的随身信物。",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "霸图",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 2864,
+						nTime = 0,
+						szName = "霸图",
+					},
+					{
+						key = "霸图",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 2864,
+						nRefresh = 60,
+						nTime = "60,霸图的信物;302,霸图·刷新剩余;304,霸图·即将刷新",
+						szName = "霸图",
+					},
+				},
+			},
+			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "随着孙永恒的死亡，一柄短剑从他身上滑落，似乎是他的随身信物。",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "孙永恒",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 845,
+						nTime = 0,
+						szName = "孙永恒",
+					},
+					{
+						key = "孙永恒",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 845,
+						nRefresh = 60,
+						nTime = "60,孙永恒的信物;302,孙永恒·刷新剩余;304,孙永恒·即将刷新",
+						szName = "孙永恒",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "恶人谷老友们可在我这里传送到恶人谷！",
+				szTarget = "霸图",
+				tCountdown = {
+					{
+						key = "霸图",
+						nClass = -1,
+						nFrame = 7,
+						nIcon = 2864,
+						nRefresh = 600,
+						nTime = 2,
+						szName = "霸图·已刷新",
+					},
+				},
+			},
+			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "浩气盟侠士们可在我这里传送到浩气盟！",
+				szTarget = "孙永恒",
+				tCountdown = {
+					{
+						key = "孙永恒",
+						nClass = -1,
+						nFrame = 3,
+						nIcon = 845,
+						nRefresh = 600,
+						nTime = 2,
+						szName = "孙永恒·已刷新",
+					},
+				},
+			},
+		},
+		[30] = {
+			{
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "随着霸图的死亡，一柄钢刀从他身上滑落，似乎是他的随身信物。",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "霸图",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 2864,
+						nTime = 0,
+						szName = "霸图",
+					},
+					{
+						key = "霸图",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 2864,
+						nRefresh = 60,
+						nTime = "60,霸图的信物;302,霸图·刷新剩余;304,霸图·即将刷新;310,霸图·延迟刷新",
+						szName = "霸图",
+					},
+				},
+			},
+			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "随着孙永恒的死亡，一柄短剑从他身上滑落，似乎是他的随身信物。",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "孙永恒",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 845,
+						nTime = 0,
+						szName = "孙永恒",
+					},
+					{
+						key = "孙永恒",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 845,
+						nRefresh = 60,
+						nTime = "60,孙永恒的信物;302,孙永恒·刷新剩余;304,孙永恒·即将刷新;310,孙永恒·延迟刷新",
+						szName = "孙永恒",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "恶人谷老友们可在我这里传送到恶人谷！",
+				szTarget = "霸图",
+				tCountdown = {
+					{
+						key = "霸图",
+						nClass = -1,
+						nFrame = 7,
+						nIcon = 2864,
+						nRefresh = 600,
+						nTime = 2,
+						szName = "霸图·已刷新",
+					},
+				},
+			},
+			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "浩气盟侠士们可在我这里传送到浩气盟！",
+				szTarget = "孙永恒",
+				tCountdown = {
+					{
+						key = "孙永恒",
+						nClass = -1,
+						nFrame = 3,
+						nIcon = 845,
+						nRefresh = 600,
+						nTime = 2,
+						szName = "孙永恒·已刷新",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "护送不利，恶人谷的运输小队被浩气盟截下了！",
+				szTarget = "管良沧",
+				tCountdown = {
+					{
+						key = "恶人·矿车",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nTime = 60,
+						szName = "浩气·劫车奖励",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "恶人谷的运输小队成功到达营地！接下来由他们将物资运往更前线，大伙继续加油，收集更多物资！",
+				szTarget = "管良沧",
+				tCountdown = {
+					{
+						key = "恶人·矿车",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "恶人·领取护送奖赏",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "恶人谷的运输小队出现了，大伙快前去接送到我方营地，谷主重重有赏！",
+				szNote = "粮草先行·恶人牛车",
+				szTarget = "管良沧",
+				tCountdown = {
+					{
+						key = "恶人·矿车",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nRefresh = 0,
+						nTime = "548,恶人·护送牛车;562,恶人·延迟护送牛车",
+						szName = "恶人·护送牛车",
+					},
+				},
+			},
+			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "护送不利，浩气盟的运输小队被恶人谷截下了！",
+				szTarget = "苏才寥",
+				tCountdown = {
+					{
+						key = "浩气·矿车",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 60,
+						szName = "恶人·劫车奖励",
+					},
+				},
+			},
+			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "浩气盟的运输小队成功到达营地！接下来由他们将物资运往更前线，大伙继续加油，收集更多物资！",
+				szTarget = "苏才寥",
+				tCountdown = {
+					{
+						key = "浩气·矿车",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nTime = 60,
+						szName = "浩气·领取护送奖赏",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "浩气盟的运输小队出现了，大伙快前去接送到我方营地，盟主重重有赏！",
+				szNote = "粮草先行·浩气牛车",
+				szTarget = "苏才寥",
+				tCountdown = {
+					{
+						key = "浩气·矿车",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nRefresh = 0,
+						nTime = "548,浩气·护送牛车;562,浩气·延迟护送牛车",
+						szName = "浩气·护送牛车",
+					},
+				},
+			},
+		},
+		[713] = {
+			{
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "在恶人谷精英的协助下，首道成功击退了郝德。",
+				szNote = "阵营前置·浩气盟·郝德·被击退",
+				szTarget = "%",
+			},
+			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "在浩气盟精英的协助下，郝德成功击退了首道。",
+				szNote = "阵营前置·恶人谷·首道·被击退",
+				szTarget = "%",
+			},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1786120276,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
 }
