@@ -40834,6 +40834,21 @@ return {
 				},
 			},
 			{
+				szContent = "正在拍卖龙骧驰竞活动专属稀有物品，内含最高移速坐骑及珍稀马饰，诸位侠士们切勿错过！！！\
+",
+				szNote = "龙骧驰竞·拍卖掉落",
+				tCountdown = {
+					{
+						key = "拍卖分红",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 30,
+						szName = "龙骧驰竞·拍卖掉落",
+					},
+				},
+			},
+			{
 				col = {
 					255,
 					255,
@@ -40844,7 +40859,7 @@ return {
 				szNote = "世界首领·拍卖掉落",
 				tCountdown = {
 					{
-						key = "阵营活动",
+						key = "拍卖分红",
 						nClass = 20,
 						nFrame = 0,
 						nIcon = 13,
@@ -44882,6 +44897,21 @@ return {
 				},
 			},
 			{
+				szContent = "正在拍卖龙骧驰竞活动专属稀有物品，内含最高移速坐骑及珍稀马饰，诸位侠士们切勿错过！！！\
+",
+				szNote = "龙骧驰竞·拍卖掉落",
+				tCountdown = {
+					{
+						key = "拍卖分红",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 30,
+						szName = "龙骧驰竞·拍卖掉落",
+					},
+				},
+			},
+			{
 				col = {
 					255,
 					255,
@@ -44892,7 +44922,7 @@ return {
 				szNote = "世界首领·拍卖掉落",
 				tCountdown = {
 					{
-						key = "阵营活动",
+						key = "拍卖分红",
 						nClass = 20,
 						nFrame = 0,
 						nIcon = 13,
@@ -47703,6 +47733,21 @@ return {
 				},
 			},
 			{
+				szContent = "正在拍卖龙骧驰竞活动专属稀有物品，内含最高移速坐骑及珍稀马饰，诸位侠士们切勿错过！！！\
+",
+				szNote = "龙骧驰竞·拍卖掉落",
+				tCountdown = {
+					{
+						key = "拍卖分红",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 30,
+						szName = "龙骧驰竞·拍卖掉落",
+					},
+				},
+			},
+			{
 				col = {
 					255,
 					255,
@@ -47713,7 +47758,7 @@ return {
 				szNote = "世界首领·拍卖掉落",
 				tCountdown = {
 					{
-						key = "阵营活动",
+						key = "拍卖分红",
 						nClass = 20,
 						nFrame = 0,
 						nIcon = 13,
@@ -49814,6 +49859,14 @@ return {
 						szName = "赤兔",
 					},
 					{
+						key = "的卢",
+						nClass = 20,
+						nIcon = 1465,
+						nRefresh = 2,
+						nTime = -2,
+						szName = "的卢",
+					},
+					{
 						key = "{$5}",
 						nClass = 20,
 						nIcon = 13,
@@ -49827,7 +49880,16 @@ return {
 						nIcon = 5991,
 						nRefresh = 1,
 						nTime = 30,
-						szName = "{$3}[赤兔]·被[{$2}]捕获",
+						szName = "[{$2}]捕获·赤兔",
+					},
+					{
+						key = "的卢",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 21034,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "{$1}[{$2}]捕获·的卢",
 					},
 				},
 			},
@@ -49949,24 +50011,6 @@ return {
 				},
 			},
 			{
-				[20] = {
-					bCenterAlarm = true,
-				},
-				szContent = "您在跨服野外玩法队列中。\
-",
-				szNote = "处于跨服队列·限制竞技比赛",
-				tCountdown = {
-					{
-						key = "竞技活动",
-						nClass = 20,
-						nFrame = 2,
-						nIcon = 13,
-						nTime = 5,
-						szName = "处于跨服队列·限制竞技比赛",
-					},
-				},
-			},
-			{
 				col = {
 					255,
 					255,
@@ -49994,6 +50038,7 @@ return {
 				},
 				szContent = "龙骧驰竞排队正式开始，侠士们速速前往龙泉府地图参与排队。\
 ",
+				szNote = "龙骧驰竞·排队开始",
 				tCountdown = {
 					{
 						key = "阵营活动",
@@ -50003,6 +50048,24 @@ return {
 						nRefresh = 1,
 						nTime = "1,的卢·龙泉府·开始排队;10,的卢·龙泉府·开始排队;60,的卢·龙泉府·等待排队",
 						szName = "的卢·龙泉府·开始排队",
+					},
+				},
+			},
+			{
+				[20] = {
+					bCenterAlarm = true,
+				},
+				szContent = "您在跨服野外玩法队列中。\
+",
+				szNote = "处于跨服队列·限制竞技比赛",
+				tCountdown = {
+					{
+						key = "竞技活动",
+						nClass = 20,
+						nFrame = 2,
+						nIcon = 13,
+						nTime = 5,
+						szName = "处于跨服队列·限制竞技比赛",
 					},
 				},
 			},
@@ -67364,16 +67427,8 @@ return {
 					{
 						key = "拍卖分红",
 						nClass = 20,
-						nIcon = 13,
-						nTime = -2,
-						szName = "拍卖分红",
-					},
-					{
-						key = "拍卖分红",
-						nClass = 20,
 						nFrame = 1,
 						nIcon = 13547,
-						nRefresh = 7200,
 						nTime = 10,
 						szName = "世界首领·拾取战利品",
 					},
@@ -102745,7 +102800,6 @@ return {
 						nClass = 1,
 						nFrame = 0,
 						nIcon = 13547,
-						nRefresh = 7200,
 						nTime = 20,
 						szName = "拍卖分红·已获得",
 					},
@@ -102761,7 +102815,6 @@ return {
 						nClass = 1,
 						nFrame = 0,
 						nIcon = 13547,
-						nRefresh = 7200,
 						nTime = 20,
 						szName = "拍卖分红·已获得",
 					},
@@ -102777,7 +102830,6 @@ return {
 						nClass = 1,
 						nFrame = 0,
 						nIcon = 13547,
-						nRefresh = 7200,
 						nTime = 20,
 						szName = "拍卖分红·已获得",
 					},
