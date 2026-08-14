@@ -16,6 +16,17 @@ return {
 				szNote = "灵感爆发",
 			},
 		},
+		[-1] = {
+			{
+				[2] = {
+					bCenterAlarm = true,
+				},
+				dwID = 19003,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "许愿树·能工巧匠",
+			},
+		},
 	},
 	CASTING = {
 		[471] = {

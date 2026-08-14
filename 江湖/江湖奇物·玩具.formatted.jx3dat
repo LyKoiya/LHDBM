@@ -1,12 +1,170 @@
 return {
-	BUFF = {},
+	BUFF = {
+		[-1] = {
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 7179,
+				nIcon = 16428,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "木桩",
+				szNote = "挂件·木桩道具_5分钟倒计时",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 15764,
+				nIcon = 12053,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "走兔株",
+				szNote = "挂件·走兔株道具_5分钟倒",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 24122,
+				nIcon = 17623,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "木狸狸",
+				szNote = "挂件·木滚滚道具_5分钟倒计时",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 22072,
+				nIcon = 16428,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "鹿武童",
+				szNote = "挂件·鹿武童道具_5分钟倒计时",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 3162,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "奇物·白羽焰翼",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 3158,
+				nIcon = 3319,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "起飞",
+				szNote = "奇物·白羽焰翼",
+			},
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						col = "#1FFFFFFF",
+						nColAlpha = 255,
+						szReminder = "飞",
+					},
+				},
+				col = {
+					31,
+					255,
+					255,
+				},
+				dwID = 3159,
+				nIcon = 7682,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "滑翔",
+				szNote = "奇物·白羽焰翼",
+				tCountdown = {
+					{
+						key = "白羽焰翼·滑翔",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 7682,
+						nTime = 60,
+						szName = "滑翔效果·Ctrl+右键气劲可卸除",
+					},
+					{
+						key = "白羽焰翼·滑翔",
+						nClass = 2,
+						nIcon = 7682,
+						nTime = 0,
+						szName = "白羽焰翼·滑翔",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				aCataclysmBuff = {},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 3160,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "奇物·白羽焰翼",
+			},
+			{
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 3166,
+				nIcon = 2593,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "准备",
+				szNote = "奇物·白羽焰翼",
+			},
+			{
+				dwID = 2993,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "蛋叉叔叔的糖葫芦",
+				tCountdown = {
+					{
+						key = "蛋叉叔叔的糖葫芦",
+						nClass = 1,
+						nIcon = 2178,
+						nRefresh = 1800,
+						nTime = 10,
+						szName = "蛋叉叔叔的糖葫芦",
+					},
+				},
+			},
+		},
+	},
 	CASTING = {
 		[-1] = {
 			{
 				dwID = 21137,
 				nLevel = 1,
 				nScrutinyType = 1,
-				szNote = "靛羽风鸟·收取资源",
+				szNote = "奇物·靛羽风鸟·收取资源",
 				tCountdown = {
 					{
 						key = "靛羽风鸟",
@@ -18,15 +176,68 @@ return {
 					},
 				},
 			},
+			{
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 35028,
+				nIcon = 13,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szNote = "奇物·八部金刚功",
+			},
 		},
 	},
 	CHAT = {},
-	DEBUFF = {},
+	DEBUFF = {
+		[-1] = {
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				dwID = 9154,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szNote = "奇物·水枪·波涛浩荡",
+				tCountdown = {
+					{
+						key = "波涛浩荡",
+						nClass = 1,
+						nIcon = 3448,
+						nRefresh = 1,
+						nTime = 20,
+						szName = "【{$sender}】→【{$receiver}】",
+					},
+				},
+			},
+			{
+				dwID = 14410,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "奇物·靛羽风鸟·搜寻",
+				tCountdown = {
+					{
+						key = "靛羽风鸟",
+						nClass = 2,
+						nIcon = 77,
+						nTime = 5,
+						szName = "靛羽风鸟·寻宝结束",
+					},
+				},
+			},
+		},
+	},
 	DOODAD = {},
 	NPC = {},
 	TALK = {},
 	__meta = {
-		nTimeStamp = 1786638125,
+		nTimeStamp = 1786690422,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
