@@ -63,6 +63,7 @@ return {
 				dwID = 8607,
 				nLevel = 1,
 				nScrutinyType = 1,
+				szName = "气力",
 				tCountdown = {
 					{
 						key = "骑御·调息",
@@ -76,6 +77,80 @@ return {
 			},
 		},
 		[-20] = {
+			{
+				bCheckLevel = true,
+				dwID = 244,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "骑御·调息",
+						nClass = 2,
+						nFrame = 6,
+						nIcon = 6678,
+						nTime = -1,
+						szName = "骑御·调息",
+					},
+					{
+						key = "骑御·调息",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 6678,
+						nRefresh = 0,
+						nTime = "18.8,调息·7级·触发剩余;22.8,调息·5级·触发剩余",
+						szName = "调息7级·buff触发倒计时",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8477,
+				nIcon = 6491,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "劲足",
+				tCountdown = {
+					{
+						key = "骑御·调息",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 6491,
+						nRefresh = 300,
+						nTime = 0.5,
+						szName = "骑御·劲足",
+					},
+					{
+						key = "骑御·劲足",
+						nClass = 2,
+						nFrame = 1,
+						nIcon = 6491,
+						nRefresh = 5,
+						nTime = 3,
+						szName = "劲足·已消失",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8607,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "气力",
+				tCountdown = {
+					{
+						key = "骑御·调息",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 6678,
+						nTime = 0,
+						szName = "骑御·调息",
+					},
+				},
+			},
 			{
 				{
 					bBuffList = true,
@@ -231,79 +306,6 @@ return {
 		},
 		[-19] = {
 			{
-				dwID = 244,
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "骑御·调息",
-						nClass = 2,
-						nFrame = 6,
-						nIcon = 6678,
-						nTime = -1,
-						szName = "骑御·调息",
-					},
-					{
-						key = "骑御·调息",
-						nClass = 1,
-						nFrame = 6,
-						nIcon = 6678,
-						nRefresh = 0,
-						nTime = "18.8,调息·7级·触发剩余;22.8,调息·5级·触发剩余",
-						szName = "骑御·调息",
-					},
-				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				dwID = 8607,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "气力",
-				tCountdown = {
-					{
-						key = "骑御·调息",
-						nClass = 1,
-						nFrame = 6,
-						nIcon = 6678,
-						nTime = 0,
-						szName = "骑御·调息",
-					},
-				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				dwID = 8477,
-				nIcon = 6491,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "劲足",
-				tCountdown = {
-					{
-						key = "骑御·调息",
-						nClass = 1,
-						nFrame = 6,
-						nIcon = 6491,
-						nRefresh = 300,
-						nTime = 0.5,
-						szName = "骑御·劲足",
-					},
-					{
-						key = "骑御·劲足",
-						nClass = 2,
-						nFrame = 1,
-						nIcon = 6491,
-						nRefresh = 5,
-						nTime = 3,
-						szName = "劲足·已消失",
-					},
-				},
-			},
-			{
 				{
 					bBuffList = true,
 				},
@@ -363,7 +365,7 @@ return {
 						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
-						szReminder = "车",
+						szReminder = "弩",
 					},
 				},
 				col = {
@@ -388,6 +390,19 @@ return {
 			},
 		},
 		[-15] = {
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 17340,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
 			{
 				{
 					bBuffList = true,
@@ -427,19 +442,6 @@ return {
 						szName = "白日梦",
 					},
 				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 17340,
-				nLevel = 1,
-				nScrutinyType = 1,
 			},
 		},
 		[-11] = {
@@ -2028,6 +2030,102 @@ return {
 		},
 		[-7] = {
 			{
+				dwID = 1673,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						bHold = true,
+						key = "召唤宠物",
+						nClass = -1,
+						nIcon = 13,
+						nTime = 0,
+						szName = "召唤宠物",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						col = "#FFCC00FF",
+						colScreenHead = "#FFCC00",
+						nColAlpha = 255,
+						nPriority = 1,
+						szReminder = "隐",
+					},
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 10852,
+				nLevel = 1,
+				nScrutinyType = 2,
+			},
+			{
+				[2] = {
+					bCenterAlarm = true,
+				},
+				bCheckLevel = true,
+				dwID = 16517,
+				nLevel = 3,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "训马·心情",
+						nClass = 1,
+						nFrame = 5,
+						nIcon = 4521,
+						nRefresh = 7200,
+						nTime = 20,
+						szName = "无忧无虑·加速成长·lv/20min",
+					},
+					{
+						key = "训马·心情",
+						nClass = 2,
+						nFrame = 3,
+						nIcon = 4521,
+						nTime = 5,
+						szName = "无忧无虑·消失",
+					},
+				},
+			},
+			{
+				[2] = {
+					bCenterAlarm = true,
+				},
+				bCheckLevel = true,
+				dwID = 16517,
+				nLevel = 4,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "训马·心情",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 4519,
+						nRefresh = 7200,
+						nTime = 20,
+						szName = "神采飞扬·邮寄礼物·马草饲料",
+					},
+					{
+						key = "训马·心情",
+						nClass = 2,
+						nFrame = 3,
+						nIcon = 4519,
+						nTime = 5,
+						szName = "神采飞扬·消失",
+					},
+				},
+			},
+			{
 				bCheckLevel = true,
 				dwID = 244,
 				nLevel = 1,
@@ -2089,6 +2187,7 @@ return {
 				dwID = 8607,
 				nLevel = 1,
 				nScrutinyType = 1,
+				szName = "气力",
 				tCountdown = {
 					{
 						key = "骑御·调息",
@@ -2099,72 +2198,6 @@ return {
 						szName = "骑御·调息",
 					},
 				},
-			},
-			{
-				{
-					bBuffList = true,
-					bScreenHead = true,
-					bTeamPanel = true,
-				},
-				aCataclysmBuff = {
-					{
-						bAttention = true,
-						bScreenHead = true,
-						col = "#FF9600FF",
-						colScreenHead = "#FF9600",
-						nColAlpha = 255,
-						nPriority = 1,
-						szReminder = "隐 免疫",
-					},
-				},
-				col = {
-					250,
-					150,
-					50,
-				},
-				dwID = 7746,
-				nLevel = 1,
-				nScrutinyType = 2,
-			},
-			{
-				dwID = 1673,
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						bHold = true,
-						key = "召唤宠物",
-						nClass = 1,
-						nIcon = 13,
-						nTime = 0,
-						szName = "召唤宠物",
-					},
-				},
-			},
-			{
-				{
-					bBuffList = true,
-					bScreenHead = true,
-					bTeamPanel = true,
-				},
-				aCataclysmBuff = {
-					{
-						bAttention = true,
-						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
-						nColAlpha = 255,
-						nPriority = 1,
-						szReminder = "隐",
-					},
-				},
-				col = {
-					255,
-					150,
-					0,
-				},
-				dwID = 10852,
-				nLevel = 1,
-				nScrutinyType = 2,
 			},
 			{
 				{
@@ -2197,62 +2230,6 @@ return {
 				},
 			},
 			{
-				[2] = {
-					bCenterAlarm = true,
-				},
-				bCheckLevel = true,
-				dwID = 16517,
-				nLevel = 3,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "训马·心情",
-						nClass = 1,
-						nFrame = 5,
-						nIcon = 4521,
-						nRefresh = 7200,
-						nTime = 20,
-						szName = "无忧无虑·加速成长·lv/20min",
-					},
-					{
-						key = "训马·心情",
-						nClass = 2,
-						nFrame = 3,
-						nIcon = 4521,
-						nTime = 5,
-						szName = "无忧无虑·消失",
-					},
-				},
-			},
-			{
-				[2] = {
-					bCenterAlarm = true,
-				},
-				bCheckLevel = true,
-				dwID = 16517,
-				nLevel = 4,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "训马·心情",
-						nClass = 1,
-						nFrame = 6,
-						nIcon = 4519,
-						nRefresh = 7200,
-						nTime = 20,
-						szName = "神采飞扬·邮寄礼物·马草饲料",
-					},
-					{
-						key = "训马·心情",
-						nClass = 2,
-						nFrame = 3,
-						nIcon = 4519,
-						nTime = 5,
-						szName = "神采飞扬·消失",
-					},
-				},
-			},
-			{
 				col = {
 					0,
 					255,
@@ -2279,6 +2256,32 @@ return {
 						szName = "云从社香膏·已消失",
 					},
 				},
+			},
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						bScreenHead = true,
+						col = "#FF9600FF",
+						colScreenHead = "#FF9600",
+						nColAlpha = 255,
+						nPriority = 1,
+						szReminder = "隐",
+					},
+				},
+				col = {
+					250,
+					150,
+					50,
+				},
+				dwID = 7746,
+				nLevel = 1,
+				nScrutinyType = 2,
 			},
 			{
 				{
@@ -2510,65 +2513,6 @@ return {
 			},
 		},
 		[-3] = {
-			{
-				{
-					bBuffList = true,
-				},
-				dwID = 33490,
-				nIcon = 23362,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "观战",
-			},
-			{
-				dwID = 27656,
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "郁金香",
-						nClass = 1,
-						nFrame = 7,
-						nIcon = 21604,
-						nRefresh = 5,
-						nTime = 2,
-						szName = "已使用·香膏声望15%",
-					},
-					{
-						key = "郁金香",
-						nClass = 2,
-						nFrame = 7,
-						nIcon = 21604,
-						nTime = 5,
-						szName = "香膏声望·已消失",
-					},
-				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					150,
-					0,
-				},
-				dwID = 13926,
-				nIcon = 4533,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "免伤",
-				tCountdown = {
-					{
-						key = "子规笛·战",
-						nClass = 1,
-						nFrame = 0,
-						nIcon = 589,
-						nTime = 20.11,
-						szName = "记得使用·家园·子规笛",
-					},
-				},
-			},
 			{
 				dwID = 23775,
 				nLevel = 1,
@@ -2843,14 +2787,63 @@ return {
 				nLevel = 1,
 			},
 			{
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 4805,
+				dwID = 27656,
 				nLevel = 1,
 				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "郁金香",
+						nClass = 1,
+						nFrame = 7,
+						nIcon = 21604,
+						nRefresh = 5,
+						nTime = 2,
+						szName = "已使用·香膏声望15%",
+					},
+					{
+						key = "郁金香",
+						nClass = 2,
+						nFrame = 7,
+						nIcon = 21604,
+						nTime = 5,
+						szName = "香膏声望·已消失",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 13926,
+				nIcon = 4533,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "免伤",
+				tCountdown = {
+					{
+						key = "子规笛·战",
+						nClass = 1,
+						nFrame = 0,
+						nIcon = 589,
+						nTime = 20.11,
+						szName = "记得使用·家园·子规笛",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 33490,
+				nIcon = 23362,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "观战",
 			},
 			{
 				{
@@ -11326,80 +11319,6 @@ return {
 		},
 		[-1] = {
 			{
-				dwID = 244,
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "骑御·劲足",
-						nClass = 2,
-						nIcon = 6491,
-						nRefresh = 5,
-						nTime = -1,
-						szName = "骑御·劲足",
-					},
-					{
-						key = "骑御·调息",
-						nClass = 2,
-						nFrame = 6,
-						nIcon = 6678,
-						nTime = -1,
-						szName = "骑御·调息",
-					},
-				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 32705,
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "钓鱼提示",
-						nClass = 1,
-						nIcon = 2679,
-						nRefresh = 1,
-						nTime = 30,
-						szName = "正在钓鱼·鱼王饵",
-					},
-				},
-			},
-			{
-				dwID = 27707,
-				nLevel = 1,
-				nScrutinyType = 1,
-			},
-			{
-				dwID = 2993,
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "蛋叉叔叔的糖葫芦",
-						nClass = 1,
-						nIcon = 2178,
-						nRefresh = 1800,
-						nTime = 10,
-						szName = "蛋叉叔叔的糖葫芦",
-					},
-				},
-			},
-			{
-				[2] = {
-					bCenterAlarm = true,
-				},
-				dwID = 19003,
-				nLevel = 1,
-				nScrutinyType = 1,
-			},
-			{
 				{
 					bBuffList = true,
 				},
@@ -11435,46 +11354,6 @@ return {
 				{
 					bBuffList = true,
 				},
-				dwID = 24122,
-				nIcon = 17623,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "木狸狸",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				dwID = 22072,
-				nIcon = 16428,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "鹿武童",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				dwID = 15764,
-				nIcon = 12053,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "走兔株",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				dwID = 7179,
-				nIcon = 16428,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "木桩",
-			},
-			{
-				{
-					bBuffList = true,
-				},
 				dwID = 23790,
 				nIcon = 2399,
 				nLevel = 1,
@@ -11490,51 +11369,6 @@ return {
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "CD",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				dwID = 8611,
-				nIcon = 6507,
-				nLevel = 1,
-				nScrutinyType = 1,
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				dwID = 8656,
-				nLevel = 1,
-				nScrutinyType = 1,
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				dwID = 8477,
-				nIcon = 6491,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "劲足",
-				tCountdown = {
-					{
-						key = "骑御·调息",
-						nClass = 1,
-						nIcon = 6678,
-						nTime = -1,
-						szName = "骑御·调息",
-					},
-					{
-						key = "骑御·劲足",
-						nClass = 2,
-						nFrame = 4,
-						nIcon = 6491,
-						nRefresh = 5,
-						nTime = 3,
-						szName = "劲足·已消失",
-					},
-				},
 			},
 			{
 				{
@@ -11609,95 +11443,6 @@ return {
 				dwID = 961,
 				nLevel = 1,
 				nScrutinyType = 2,
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				dwID = 3162,
-				nLevel = 1,
-				nScrutinyType = 1,
-			},
-			{
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 3166,
-				nIcon = 2593,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "准备",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 3160,
-				nLevel = 1,
-				nScrutinyType = 1,
-			},
-			{
-				{
-					bBuffList = true,
-					bScreenHead = true,
-					bTeamPanel = true,
-				},
-				aCataclysmBuff = {
-					{
-						col = "#1FFFFFFF",
-						nColAlpha = 255,
-						szReminder = "飞",
-					},
-				},
-				col = {
-					31,
-					255,
-					255,
-				},
-				dwID = 3159,
-				nIcon = 7682,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "滑翔",
-				tCountdown = {
-					{
-						key = "白羽焰翼·滑翔",
-						nClass = 1,
-						nFrame = 4,
-						nIcon = 7682,
-						nTime = 60,
-						szName = "滑翔效果·Ctrl+右键气劲可卸除",
-					},
-					{
-						key = "白羽焰翼·滑翔",
-						nClass = 2,
-						nIcon = 7682,
-						nTime = 0,
-						szName = "白羽焰翼·滑翔",
-					},
-				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 3158,
-				nIcon = 3319,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "起飞",
 			},
 			{
 				{
@@ -11807,6 +11552,254 @@ return {
 						szName = "强者",
 					},
 				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 32705,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "钓鱼提示",
+						nClass = 1,
+						nIcon = 2679,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "正在钓鱼·鱼王饵",
+					},
+				},
+			},
+			{
+				dwID = 27707,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				[2] = {
+					bCenterAlarm = true,
+				},
+				dwID = 19003,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8656,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8611,
+				nIcon = 6507,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				dwID = 244,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "骑御·劲足",
+						nClass = 2,
+						nIcon = 6491,
+						nRefresh = 5,
+						nTime = -1,
+						szName = "骑御·劲足",
+					},
+					{
+						key = "骑御·调息",
+						nClass = 2,
+						nFrame = 6,
+						nIcon = 6678,
+						nTime = -1,
+						szName = "骑御·调息",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8477,
+				nIcon = 6491,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "劲足",
+				tCountdown = {
+					{
+						key = "骑御·调息",
+						nClass = 1,
+						nIcon = 6678,
+						nTime = -1,
+						szName = "骑御·调息",
+					},
+					{
+						key = "骑御·劲足",
+						nClass = 2,
+						nFrame = 4,
+						nIcon = 6491,
+						nRefresh = 5,
+						nTime = 3,
+						szName = "劲足·已消失",
+					},
+				},
+			},
+			{
+				dwID = 2993,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "蛋叉叔叔的糖葫芦",
+						nClass = 1,
+						nIcon = 2178,
+						nRefresh = 1800,
+						nTime = 10,
+						szName = "蛋叉叔叔的糖葫芦",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 3166,
+				nIcon = 2593,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "准备",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 3160,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						col = "#1FFFFFFF",
+						nColAlpha = 255,
+						szReminder = "飞",
+					},
+				},
+				col = {
+					31,
+					255,
+					255,
+				},
+				dwID = 3159,
+				nIcon = 7682,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "滑翔",
+				tCountdown = {
+					{
+						key = "白羽焰翼·滑翔",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 7682,
+						nTime = 60,
+						szName = "滑翔效果·Ctrl+右键气劲可卸除",
+					},
+					{
+						key = "白羽焰翼·滑翔",
+						nClass = 2,
+						nIcon = 7682,
+						nTime = 0,
+						szName = "白羽焰翼·滑翔",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 3158,
+				nIcon = 3319,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "起飞",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 3162,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 22072,
+				nIcon = 16428,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "鹿武童",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 24122,
+				nIcon = 17623,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "木狸狸",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 15764,
+				nIcon = 12053,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "走兔株",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 7179,
+				nIcon = 16428,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "木桩",
 			},
 			{
 				{
@@ -32173,6 +32166,80 @@ return {
 		},
 		[50] = {
 			{
+				bCheckLevel = true,
+				dwID = 244,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "骑御·调息",
+						nClass = 2,
+						nFrame = 6,
+						nIcon = 6678,
+						nTime = -1,
+						szName = "骑御·调息",
+					},
+					{
+						key = "骑御·调息",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 6678,
+						nRefresh = 0,
+						nTime = "18.8,调息·7级·触发剩余;22.8,调息·5级·触发剩余",
+						szName = "骑御·调息",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8477,
+				nIcon = 6491,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "劲足",
+				tCountdown = {
+					{
+						key = "骑御·调息",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 6491,
+						nRefresh = 300,
+						nTime = 0.5,
+						szName = "骑御·劲足",
+					},
+					{
+						key = "骑御·劲足",
+						nClass = 2,
+						nFrame = 1,
+						nIcon = 6491,
+						nRefresh = 5,
+						nTime = 3,
+						szName = "劲足·已消失",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8607,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "气力",
+				tCountdown = {
+					{
+						key = "骑御·调息",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 6678,
+						nTime = 0,
+						szName = "骑御·调息",
+					},
+				},
+			},
+			{
 				{
 					bBuffList = true,
 					bScreenHead = true,
@@ -32241,80 +32308,6 @@ return {
 				nIcon = 1261,
 				nLevel = 1,
 				szName = "镖银红",
-			},
-			{
-				bCheckLevel = true,
-				dwID = 244,
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "骑御·调息",
-						nClass = 2,
-						nFrame = 6,
-						nIcon = 6678,
-						nTime = -1,
-						szName = "骑御·调息",
-					},
-					{
-						key = "骑御·调息",
-						nClass = 1,
-						nFrame = 6,
-						nIcon = 6678,
-						nRefresh = 0,
-						nTime = "18.8,调息·7级·触发剩余;22.8,调息·5级·触发剩余",
-						szName = "骑御·调息",
-					},
-				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				dwID = 8607,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "气力",
-				tCountdown = {
-					{
-						key = "骑御·调息",
-						nClass = 1,
-						nFrame = 6,
-						nIcon = 6678,
-						nTime = 0,
-						szName = "骑御·调息",
-					},
-				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				dwID = 8477,
-				nIcon = 6491,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "劲足",
-				tCountdown = {
-					{
-						key = "骑御·调息",
-						nClass = 1,
-						nFrame = 6,
-						nIcon = 6491,
-						nRefresh = 300,
-						nTime = 0.5,
-						szName = "骑御·劲足",
-					},
-					{
-						key = "骑御·劲足",
-						nClass = 2,
-						nFrame = 1,
-						nIcon = 6491,
-						nRefresh = 5,
-						nTime = 3,
-						szName = "劲足·已消失",
-					},
-				},
 			},
 		},
 		[52] = {
@@ -32434,24 +32427,6 @@ return {
 				{
 					bBuffList = true,
 				},
-				dwID = 8607,
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "骑御·调息",
-						nClass = 1,
-						nFrame = 6,
-						nIcon = 6678,
-						nTime = 0,
-						szName = "骑御·调息",
-					},
-				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
 				dwID = 8477,
 				nIcon = 6491,
 				nLevel = 1,
@@ -32475,6 +32450,25 @@ return {
 						nRefresh = 5,
 						nTime = 3,
 						szName = "劲足·已消失",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8607,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "气力",
+				tCountdown = {
+					{
+						key = "骑御·调息",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 6678,
+						nTime = 0,
+						szName = "骑御·调息",
 					},
 				},
 			},
@@ -33157,6 +33151,34 @@ return {
 		},
 		[216] = {
 			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				col = {
+					179,
+					238,
+					58,
+				},
+				dwID = 7508,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 10067,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "补货点",
+			},
+			{
 				dwID = 16499,
 				nLevel = 1,
 				nScrutinyType = 1,
@@ -33241,30 +33263,11 @@ return {
 			{
 				{
 					bBuffList = true,
-					bScreenHead = true,
 				},
-				col = {
-					179,
-					238,
-					58,
-				},
-				dwID = 7508,
+				dwID = 8606,
 				nLevel = 1,
 				nScrutinyType = 1,
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					150,
-					0,
-				},
-				dwID = 10067,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "补货点",
+				szName = "抗摔",
 			},
 			{
 				{
@@ -33280,15 +33283,6 @@ return {
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "格挡",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				dwID = 8606,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "抗摔",
 			},
 			{
 				{
@@ -33428,6 +33422,20 @@ return {
 		},
 		[217] = {
 			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				col = {
+					179,
+					238,
+					58,
+				},
+				dwID = 7508,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
 				dwID = 16499,
 				nLevel = 1,
 				nScrutinyType = 1,
@@ -33508,20 +33516,6 @@ return {
 						szName = "牧场",
 					},
 				},
-			},
-			{
-				{
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				col = {
-					179,
-					238,
-					58,
-				},
-				dwID = 7508,
-				nLevel = 1,
-				nScrutinyType = 1,
 			},
 			{
 				{
@@ -36318,6 +36312,20 @@ return {
 				[8] = {
 					bScreenHead = true,
 				},
+				col = {
+					255,
+					255,
+					100,
+				},
+				dwID = 38096,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "进战移动上马",
+			},
+			{
+				[8] = {
+					bScreenHead = true,
+				},
 				dwID = 7242,
 				nLevel = 1,
 				tCountdown = {
@@ -36340,20 +36348,6 @@ return {
 						szName = "屹立不倒",
 					},
 				},
-			},
-			{
-				[8] = {
-					bScreenHead = true,
-				},
-				col = {
-					255,
-					255,
-					100,
-				},
-				dwID = 38096,
-				nLevel = 1,
-				nScrutinyType = 2,
-				szName = "进战移动上马",
 			},
 		},
 		[-17] = {
@@ -36695,6 +36689,29 @@ return {
 		},
 		[-3] = {
 			{
+				dwID = 31336,
+				nLevel = 1,
+			},
+			{
+				dwID = 31337,
+				nLevel = 1,
+			},
+			{
+				dwID = 31338,
+				nLevel = 1,
+				tCountdown = {
+					{
+						key = "侠客重伤",
+						nClass = 9,
+						nFrame = -1,
+						nIcon = 13,
+						nRefresh = 120,
+						nTime = -1,
+						szName = "侠客重伤",
+					},
+				},
+			},
+			{
 				dwID = 4097,
 				nLevel = 1,
 				nScrutinyType = 1,
@@ -36742,29 +36759,6 @@ return {
 						nFrame = -1,
 						nIcon = 13,
 						nRefresh = 3600,
-						nTime = -1,
-						szName = "侠客重伤",
-					},
-				},
-			},
-			{
-				dwID = 31336,
-				nLevel = 1,
-			},
-			{
-				dwID = 31337,
-				nLevel = 1,
-			},
-			{
-				dwID = 31338,
-				nLevel = 1,
-				tCountdown = {
-					{
-						key = "侠客重伤",
-						nClass = 9,
-						nFrame = -1,
-						nIcon = 13,
-						nRefresh = 120,
 						nTime = -1,
 						szName = "侠客重伤",
 					},
@@ -37026,159 +37020,6 @@ return {
 		},
 		[-1] = {
 			{
-				dwID = 54,
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "骑御·劲足",
-						nClass = 9,
-						nIcon = 6491,
-						nRefresh = 5,
-						nTime = -1,
-						szName = "骑御·劲足",
-					},
-					{
-						key = "骑御·调息",
-						nClass = 9,
-						nFrame = 6,
-						nIcon = 6678,
-						nTime = -1,
-						szName = "骑御·调息",
-					},
-				},
-			},
-			{
-				[8] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 13165,
-				nLevel = 1,
-				nScrutinyType = 2,
-				tCountdown = {
-					{
-						key = "切心法·{$sender}",
-						nClass = 8,
-						nFrame = 6,
-						nIcon = 13,
-						nTime = 4,
-						szName = "【{$sender}】正在切心法",
-					},
-				},
-			},
-			{
-				[8] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 31468,
-				nLevel = 1,
-				nScrutinyType = 2,
-				tCountdown = {
-					{
-						key = "切心法·{$sender}",
-						nClass = 8,
-						nFrame = 6,
-						nIcon = 13,
-						nTime = 3,
-						szName = "【{$sender}】正在切奇穴",
-					},
-				},
-			},
-			{
-				[8] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 31254,
-				nLevel = 1,
-				nScrutinyType = 2,
-				tCountdown = {
-					{
-						key = "切心法·{$sender}",
-						nClass = 8,
-						nFrame = 6,
-						nIcon = 13,
-						nTime = 4,
-						szName = "【{$sender}】正在切心法",
-					},
-				},
-			},
-			{
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 2654,
-				nLevel = 1,
-				nScrutinyType = 2,
-				tCountdown = {
-					{
-						key = "玩家驱友技能",
-						nClass = 8,
-						nIcon = 3004,
-						nRefresh = 1,
-						nTime = 1.2,
-						szName = "【{$sender}】·利针·【{$receiver}】",
-					},
-				},
-			},
-			{
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 35,
-				nLevel = 1,
-				nScrutinyType = 2,
-				tCountdown = {
-					{
-						key = "传功·{$sender}",
-						nClass = 8,
-						nIcon = 2111,
-						nTime = 121,
-						szName = "传功【{$sender}】→【{$receiver}】",
-					},
-					{
-						key = "传功·{$sender}",
-						nClass = 9,
-						nIcon = 2111,
-						nRefresh = 2,
-						nTime = 2,
-						szName = "传功完成【{$sender}】→【{$receiver}】",
-					},
-				},
-			},
-			{
-				dwID = 9007,
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "自绝经脉",
-						nClass = 9,
-						nIcon = 12249,
-						nTime = 2.5,
-						szName = "后撤·公CD",
-					},
-				},
-			},
-			{
 				dwID = 17,
 				nLevel = 1,
 				nScrutinyType = 1,
@@ -37214,6 +37055,20 @@ return {
 						nRefresh = 120,
 						nTime = -1,
 						szName = "侠客重伤",
+					},
+				},
+			},
+			{
+				dwID = 9007,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "自绝经脉",
+						nClass = 9,
+						nIcon = 12249,
+						nTime = 2.5,
+						szName = "后撤·公CD",
 					},
 				},
 			},
@@ -37503,6 +37358,44 @@ return {
 				},
 			},
 			{
+				dwID = 54,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "骑御·劲足",
+						nClass = 9,
+						nIcon = 6491,
+						nRefresh = 5,
+						nTime = -1,
+						szName = "骑御·劲足",
+					},
+					{
+						key = "骑御·调息",
+						nClass = 9,
+						nFrame = 6,
+						nIcon = 6678,
+						nTime = -1,
+						szName = "骑御·调息",
+					},
+				},
+			},
+			{
+				dwID = 21137,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "靛羽风鸟",
+						nClass = 9,
+						nFrame = 4,
+						nIcon = 9972,
+						nTime = 5.1,
+						szName = "靛羽风鸟·收取资源",
+					},
+				},
+			},
+			{
 				dwID = 14084,
 				nLevel = 1,
 				nScrutinyType = 2,
@@ -37569,6 +37462,122 @@ return {
 				},
 				tKungFu = {
 					["SKILL#10080"] = true,
+				},
+			},
+			{
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 35,
+				nLevel = 1,
+				nScrutinyType = 2,
+				tCountdown = {
+					{
+						key = "传功·{$sender}",
+						nClass = 8,
+						nIcon = 2111,
+						nTime = 121,
+						szName = "传功【{$sender}】→【{$receiver}】",
+					},
+					{
+						key = "传功·{$sender}",
+						nClass = 9,
+						nIcon = 2111,
+						nRefresh = 2,
+						nTime = 2,
+						szName = "传功完成【{$sender}】→【{$receiver}】",
+					},
+				},
+			},
+			{
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 31254,
+				nLevel = 1,
+				nScrutinyType = 2,
+				tCountdown = {
+					{
+						key = "切心法·{$sender}",
+						nClass = 8,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 4,
+						szName = "【{$sender}】正在切心法",
+					},
+				},
+			},
+			{
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 31468,
+				nLevel = 1,
+				nScrutinyType = 2,
+				tCountdown = {
+					{
+						key = "切心法·{$sender}",
+						nClass = 8,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 3,
+						szName = "【{$sender}】正在切奇穴",
+					},
+				},
+			},
+			{
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 13165,
+				nLevel = 1,
+				nScrutinyType = 2,
+				tCountdown = {
+					{
+						key = "切心法·{$sender}",
+						nClass = 8,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 4,
+						szName = "【{$sender}】正在切心法",
+					},
+				},
+			},
+			{
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 2654,
+				nLevel = 1,
+				nScrutinyType = 2,
+				tCountdown = {
+					{
+						key = "玩家驱友技能",
+						nClass = 8,
+						nIcon = 3004,
+						nRefresh = 1,
+						nTime = 1.2,
+						szName = "【{$sender}】·利针·【{$receiver}】",
+					},
 				},
 			},
 			{
@@ -38471,35 +38480,6 @@ return {
 		},
 		[74] = {
 			{
-				[8] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 7612,
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "套马",
-						nClass = 8,
-						nIcon = 3481,
-						nTime = 10,
-						szName = "套马【{$receiver}】",
-					},
-					{
-						key = "套马",
-						nClass = 9,
-						nIcon = 3481,
-						nTime = -1,
-						szName = "套马",
-					},
-				},
-			},
-			{
 				dwID = 7349,
 				nLevel = 1,
 				nScrutinyType = 1,
@@ -38525,6 +38505,35 @@ return {
 						nRefresh = 0,
 						nTime = "30,发霉的饭菜·毒性增伤;32,发霉的饭菜·增伤消失",
 						szName = "发霉的饭菜",
+					},
+				},
+			},
+			{
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 7612,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "套马",
+						nClass = 8,
+						nIcon = 3481,
+						nTime = 10,
+						szName = "套马【{$receiver}】",
+					},
+					{
+						key = "套马",
+						nClass = 9,
+						nIcon = 3481,
+						nTime = -1,
+						szName = "套马",
 					},
 				},
 			},
@@ -44083,26 +44092,6 @@ return {
 		},
 		[-17] = {
 			{
-				col = {
-					100,
-					255,
-					255,
-				},
-				szContent = "江湖快报！卫栖梧正在寻找绝世轻功之人，其友[唐文羽]已在少林举办梅花桩试炼大赛，望广大轻功能人速来少林参赛！\
-",
-				szNote = "扶摇九天·开启",
-				tCountdown = {
-					{
-						key = "扶摇九天",
-						nClass = 20,
-						nFrame = 7,
-						nIcon = 12371,
-						nTime = 10,
-						szName = "少林·扶摇九天·开启",
-					},
-				},
-			},
-			{
 				bSearch = true,
 				szContent = "你已进入地图",
 				tCountdown = {
@@ -44502,8 +44491,74 @@ return {
 					},
 				},
 			},
+			{
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "江湖快报！卫栖梧正在寻找绝世轻功之人，其友[唐文羽]已在少林举办梅花桩试炼大赛，望广大轻功能人速来少林参赛！\
+",
+				szNote = "扶摇九天·开启",
+				tCountdown = {
+					{
+						key = "扶摇九天",
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 10,
+						szName = "少林·扶摇九天·开启",
+					},
+				},
+			},
 		},
 		[-15] = {
+			{
+				szContent = "建造成功\
+",
+				tCountdown = {
+					{
+						key = "系统事件",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 879,
+						nRefresh = 1,
+						nTime = 5,
+						szName = "建造成功",
+					},
+				},
+			},
+			{
+				szContent = "物件已自动收集到[桑木书柜]中，交互书柜家具可再次查阅。\
+",
+				tCountdown = {
+					{
+						key = "系统事件",
+						nClass = 20,
+						nIcon = 13556,
+						nTime = 2,
+						szName = "物件已收集到[桑木书柜]中",
+					},
+				},
+			},
+			{
+				[20] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				szContent = "^恭喜侠士获得“(.-)”增益！",
+				szNote = "祈福树·增益·{$1}",
+				tCountdown = {
+					{
+						key = "祈福树·{$1}",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 14797,
+						nTime = 20,
+						szName = "祈福树·增益·{$1}",
+					},
+				},
+			},
 			{
 				bSearch = true,
 				szContent = "园宅啾鸣，主人幸得兔啾青睐。“{$me}”侠士触发奇遇【兔江湖】，真是奇哉！\
@@ -44642,52 +44697,6 @@ return {
 					},
 				},
 			},
-			{
-				szContent = "建造成功\
-",
-				tCountdown = {
-					{
-						key = "系统事件",
-						nClass = 20,
-						nFrame = 0,
-						nIcon = 879,
-						nRefresh = 1,
-						nTime = 5,
-						szName = "建造成功",
-					},
-				},
-			},
-			{
-				szContent = "物件已自动收集到[桑木书柜]中，交互书柜家具可再次查阅。\
-",
-				tCountdown = {
-					{
-						key = "系统事件",
-						nClass = 20,
-						nIcon = 13556,
-						nTime = 2,
-						szName = "物件已收集到[桑木书柜]中",
-					},
-				},
-			},
-			{
-				[20] = {
-					bCenterAlarm = true,
-				},
-				bReg = true,
-				szContent = "^恭喜侠士获得“(.-)”增益！",
-				szNote = "祈福树·增益·{$1}",
-				tCountdown = {
-					{
-						key = "祈福树·{$1}",
-						nClass = 20,
-						nFrame = 6,
-						nIcon = 14797,
-						nTime = 20,
-						szName = "祈福树·增益·{$1}",
-					},
-				},
-			},
 		},
 		[-10] = {
 			{
@@ -44821,26 +44830,6 @@ return {
 			},
 		},
 		[-7] = {
-			{
-				bReg = true,
-				col = {
-					255,
-					255,
-					100,
-				},
-				szContent = "^%[(.-)%]：(%d+)/(%d%d)\
-",
-				tCountdown = {
-					{
-						key = "成就进度",
-						nClass = 20,
-						nFrame = 2,
-						nIcon = 15678,
-						nTime = 5.5,
-						szName = "{$1}·{$2}/{$3}",
-					},
-				},
-			},
 			{
 				bReg = true,
 				szContent = "(.-)在(.-)地图挖宝时发现五只携带杏花酒的醉猿。此醉猿携带各种宝物在(.-)地图闲逛，勇猛的侠士们赶紧前去挑战。此醉猿通人性，能口吐人言，会喝酒，懂喝酒，亦会醉拳，侠士们需三人组队前去方可与其对战，切记切记！",
@@ -45975,6 +45964,16 @@ return {
 				},
 				szContent = "^%[(.-)%]：(%d+)/(1?%d%d)\
 ",
+				tCountdown = {
+					{
+						key = "成就进度",
+						nClass = 20,
+						nFrame = 2,
+						nIcon = 15678,
+						nTime = 5.5,
+						szName = "{$1}·{$2}/{$3}",
+					},
+				},
 			},
 			{
 				bReg = true,
@@ -46106,10 +46105,12 @@ return {
 			{
 				szContent = "你的武斗值增加了30点。\
 ",
+				szNote = "武斗值·增加·30点",
 			},
 			{
 				szContent = "你的武斗值增加了20点。\
 ",
+				szNote = "武斗值·增加·20点",
 			},
 			{
 				[20] = {
@@ -46763,26 +46764,6 @@ return {
 		},
 		[-5] = {
 			{
-				col = {
-					100,
-					255,
-					255,
-				},
-				szContent = "江湖快报！卫栖梧正在寻找绝世轻功之人，其友[唐文羽]已在少林举办梅花桩试炼大赛，望广大轻功能人速来少林参赛！\
-",
-				szNote = "扶摇九天·开启",
-				tCountdown = {
-					{
-						key = "扶摇九天",
-						nClass = 20,
-						nFrame = 7,
-						nIcon = 12371,
-						nTime = 10,
-						szName = "少林·扶摇九天·开启",
-					},
-				},
-			},
-			{
 				bSearch = true,
 				szContent = "你已进入地图",
 				tCountdown = {
@@ -47047,8 +47028,6 @@ return {
 					},
 				},
 			},
-		},
-		[-4] = {
 			{
 				col = {
 					100,
@@ -47064,11 +47043,13 @@ return {
 						nClass = 20,
 						nFrame = 7,
 						nIcon = 12371,
-						nTime = 30,
+						nTime = 10,
 						szName = "少林·扶摇九天·开启",
 					},
 				},
 			},
+		},
+		[-4] = {
 			{
 				bSearch = true,
 				szContent = "你已进入地图",
@@ -47277,6 +47258,26 @@ return {
 				},
 			},
 			{
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "江湖快报！卫栖梧正在寻找绝世轻功之人，其友[唐文羽]已在少林举办梅花桩试炼大赛，望广大轻功能人速来少林参赛！\
+",
+				szNote = "扶摇九天·开启",
+				tCountdown = {
+					{
+						key = "扶摇九天",
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 30,
+						szName = "少林·扶摇九天·开启",
+					},
+				},
+			},
+			{
 				bReg = true,
 				szContent = "^诛恶事件触发！(.*)众侠士可前往【(.*)】一探究竟。\
 ",
@@ -47293,66 +47294,6 @@ return {
 			},
 		},
 		[-3] = {
-			{
-				szContent = "[剑心插件]已重置团队技能监控CD。\
-",
-				tCountdown = {
-					{
-						key = "KEY·左旋右转",
-						nClass = 20,
-						nIcon = 904,
-						nRefresh = 121,
-						nTime = -1,
-						szName = "KEY·左旋右转",
-					},
-					{
-						key = "KEY·飘黄",
-						nClass = 20,
-						nIcon = 15692,
-						nRefresh = 80,
-						nTime = -1,
-						szName = "KEY·飘黄",
-					},
-					{
-						key = "侠客重伤",
-						nClass = 20,
-						nFrame = -1,
-						nIcon = 13,
-						nRefresh = 3600,
-						nTime = -1,
-						szName = "侠客重伤",
-					},
-				},
-			},
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				bSearch = true,
-				col = {
-					255,
-					50,
-					255,
-				},
-				szContent = "财神降临！慷慨之士 {$team} 正在",
-				szNote = "【{$receiver}】·正在发红包",
-				tCountdown = {
-					{
-						key = "{$receiver}·红包",
-						nClass = 20,
-						nFrame = 3,
-						nIcon = 6766,
-						nRefresh = 5,
-						nTime = 180,
-						szName = "【{$receiver}】红包·消失剩余",
-					},
-				},
-			},
-			{
-				bSearch = true,
-				szContent = "侠士",
-				szNote = "屏蔽·的卢·诛恶·攻防·刷马",
-			},
 			{
 				bSearch = true,
 				szContent = "[团队监控]数据加载",
@@ -47459,6 +47400,37 @@ return {
 				},
 			},
 			{
+				szContent = "[剑心插件]已重置团队技能监控CD。\
+",
+				tCountdown = {
+					{
+						key = "KEY·左旋右转",
+						nClass = 20,
+						nIcon = 904,
+						nRefresh = 121,
+						nTime = -1,
+						szName = "KEY·左旋右转",
+					},
+					{
+						key = "KEY·飘黄",
+						nClass = 20,
+						nIcon = 15692,
+						nRefresh = 80,
+						nTime = -1,
+						szName = "KEY·飘黄",
+					},
+					{
+						key = "侠客重伤",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 13,
+						nRefresh = 3600,
+						nTime = -1,
+						szName = "侠客重伤",
+					},
+				},
+			},
+			{
 				col = {
 					100,
 					100,
@@ -47495,6 +47467,35 @@ return {
 						nRefresh = 1,
 						nTime = "1,阵营攻防·开始排队·恶人谷;10,阵营攻防·开始排队·恶人谷",
 						szName = "主战场·恶人谷",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "侠士",
+				szNote = "屏蔽·的卢·诛恶·攻防·刷马",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				bSearch = true,
+				col = {
+					255,
+					50,
+					255,
+				},
+				szContent = "财神降临！慷慨之士 {$team} 正在",
+				szNote = "【{$receiver}】·正在发红包",
+				tCountdown = {
+					{
+						key = "{$receiver}·红包",
+						nClass = 20,
+						nFrame = 3,
+						nIcon = 6766,
+						nRefresh = 5,
+						nTime = 180,
+						szName = "【{$receiver}】红包·消失剩余",
 					},
 				},
 			},
@@ -49572,67 +49573,6 @@ return {
 				},
 			},
 			{
-				bReg = true,
-				col = {
-					100,
-					255,
-					255,
-				},
-				szContent = "^唐文羽：梅花桩试炼结束！侠士%[(.-)、(.-)%]通过梅花桩试炼，与我甚是有缘！请速来少林，我有要事相告！因琐事繁忙，在下只在少林等候半个时辰，过时不候。",
-				szNote = "扶摇九天·[{$1}]·[{$2}]·触发奇遇",
-				tCountdown = {
-					{
-						key = "扶摇九天",
-						nClass = 20,
-						nFrame = 7,
-						nIcon = 12371,
-						nTime = 10,
-						szName = "扶摇九天·[{$1}]·[{$2}]",
-					},
-					{
-						key = "扶摇九天·{$1}",
-						nClass = 20,
-						nIcon = 1465,
-						nRefresh = 2,
-						nTime = -2,
-						szName = "扶摇九天·{$1}",
-					},
-					{
-						key = "扶摇九天·{$2}",
-						nClass = 20,
-						nIcon = 1465,
-						nRefresh = 2,
-						nTime = -2,
-						szName = "扶摇九天·{$2}",
-					},
-					{
-						key = "扶摇九天·{$me}",
-						nClass = 20,
-						nIcon = 13,
-						nTime = -2,
-						szName = "扶摇九天·{$me}",
-					},
-					{
-						key = "扶摇九天·{$1}",
-						nClass = 20,
-						nFrame = 0,
-						nIcon = 12371,
-						nRefresh = 1,
-						nTime = 30,
-						szName = "你·触发奇遇·扶摇九天",
-					},
-					{
-						key = "扶摇九天·{$2}",
-						nClass = 20,
-						nFrame = 0,
-						nIcon = 12371,
-						nRefresh = 1,
-						nTime = 30,
-						szName = "你·触发奇遇·扶摇九天",
-					},
-				},
-			},
-			{
 				bSearch = true,
 				szContent = "[茗伊插件]欢迎{$me}使用茗伊插件集",
 				tCountdown = {
@@ -49909,6 +49849,67 @@ return {
 						nRefresh = 1,
 						nTime = "300,{$1}·刷马;600,{$1}·刷马剩余;602,{$1}·已刷马",
 						szName = "{$1}·刷马",
+					},
+				},
+			},
+			{
+				bReg = true,
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "^唐文羽：梅花桩试炼结束！侠士%[(.-)、(.-)%]通过梅花桩试炼，与我甚是有缘！请速来少林，我有要事相告！因琐事繁忙，在下只在少林等候半个时辰，过时不候。",
+				szNote = "扶摇九天·[{$1}]·[{$2}]·触发奇遇",
+				tCountdown = {
+					{
+						key = "扶摇九天",
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 10,
+						szName = "扶摇九天·[{$1}]·[{$2}]",
+					},
+					{
+						key = "扶摇九天·{$1}",
+						nClass = 20,
+						nIcon = 1465,
+						nRefresh = 2,
+						nTime = -2,
+						szName = "扶摇九天·{$1}",
+					},
+					{
+						key = "扶摇九天·{$2}",
+						nClass = 20,
+						nIcon = 1465,
+						nRefresh = 2,
+						nTime = -2,
+						szName = "扶摇九天·{$2}",
+					},
+					{
+						key = "扶摇九天·{$me}",
+						nClass = 20,
+						nIcon = 13,
+						nTime = -2,
+						szName = "扶摇九天·{$me}",
+					},
+					{
+						key = "扶摇九天·{$1}",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 12371,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "你·触发奇遇·扶摇九天",
+					},
+					{
+						key = "扶摇九天·{$2}",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 12371,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "你·触发奇遇·扶摇九天",
 					},
 				},
 			},
@@ -55548,28 +55549,6 @@ return {
 		},
 		[74] = {
 			{
-				bSearch = true,
-				szContent = "你已接受了[大战！",
-				tCountdown = {
-					{
-						key = "打包外食1",
-						nClass = 20,
-						nFrame = 2,
-						nIcon = 360,
-						nTime = 20,
-						szName = "记得打包·帮会外食",
-					},
-					{
-						key = "打包外食2",
-						nClass = 20,
-						nFrame = 2,
-						nIcon = 360,
-						nTime = 20,
-						szName = "记得打包·帮会外食",
-					},
-				},
-			},
-			{
 				szContent = "小马驹的饱食度好像不够了，请及时补充草料。\
 ",
 				tCountdown = {
@@ -55815,6 +55794,28 @@ return {
 						nIcon = 13,
 						nTime = 20,
 						szName = "消耗帮资·[{$1}]金",
+					},
+				},
+			},
+			{
+				bSearch = true,
+				szContent = "你已接受了[大战！",
+				tCountdown = {
+					{
+						key = "打包外食1",
+						nClass = 20,
+						nFrame = 2,
+						nIcon = 360,
+						nTime = 20,
+						szName = "记得打包·帮会外食",
+					},
+					{
+						key = "打包外食2",
+						nClass = 20,
+						nFrame = 2,
+						nIcon = 360,
+						nTime = 20,
+						szName = "记得打包·帮会外食",
 					},
 				},
 			},
@@ -62589,7 +62590,7 @@ return {
 					255,
 					100,
 				},
-				szContent = "^%[(.-)%]：(%d+)/(%d%d)\
+				szContent = "^%[(.-)%]：(%d+)/(1?%d%d)\
 ",
 				tCountdown = {
 					{
@@ -65081,51 +65082,6 @@ return {
 		},
 		[627] = {
 			{
-				szContent = "你已进入地图【跨服·烂柯山】。",
-				tCountdown = {
-					{
-						key = "阵营模式",
-						nClass = 20,
-						nFrame = -1,
-						nIcon = 13,
-						nRefresh = 20,
-						nTime = -1,
-						szName = "阵营模式",
-					},
-					{
-						key = "拍卖分红",
-						nClass = 20,
-						nIcon = 13,
-						nRefresh = 5,
-						nTime = -1,
-						szName = "拍卖分红",
-					},
-					{
-						key = "创意食品",
-						nClass = 20,
-						nFrame = -1,
-						nIcon = 13,
-						nRefresh = 5,
-						nTime = -1,
-						szName = "创意食品",
-					},
-					{
-						key = "诛恶事件",
-						nClass = 20,
-						nIcon = 13,
-						nTime = -2,
-						szName = "诛恶事件",
-					},
-					{
-						key = "阵营活动",
-						nClass = 20,
-						nIcon = 13,
-						nTime = -2,
-						szName = "阵营活动",
-					},
-				},
-			},
-			{
 				szContent = "你已接受了[战！烂柯山]。\
 ",
 				tCountdown = {
@@ -67288,51 +67244,6 @@ return {
 			},
 		},
 		[697] = {
-			{
-				szContent = "你已进入地图【跨服·河西瀚漠】。",
-				tCountdown = {
-					{
-						key = "阵营模式",
-						nClass = 20,
-						nFrame = -1,
-						nIcon = 13,
-						nRefresh = 20,
-						nTime = -1,
-						szName = "阵营模式",
-					},
-					{
-						key = "拍卖分红",
-						nClass = 20,
-						nIcon = 13,
-						nRefresh = 5,
-						nTime = -1,
-						szName = "拍卖分红",
-					},
-					{
-						key = "创意食品",
-						nClass = 20,
-						nFrame = -1,
-						nIcon = 13,
-						nRefresh = 5,
-						nTime = -1,
-						szName = "创意食品",
-					},
-					{
-						key = "诛恶事件",
-						nClass = 20,
-						nIcon = 13,
-						nTime = -2,
-						szName = "诛恶事件",
-					},
-					{
-						key = "阵营活动",
-						nClass = 20,
-						nIcon = 13,
-						nTime = -2,
-						szName = "阵营活动",
-					},
-				},
-			},
 			{
 				col = {
 					255,
@@ -73270,18 +73181,81 @@ return {
 		},
 		[-7] = {
 			{
+				dwID = 1659,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "陶罐助手·积分",
+						nClass = 2,
+						nFrame = 3,
+						nIcon = 2175,
+						nTime = 2,
+						szName = "年兽陶罐·积分清零",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						bCaution = true,
+						bScreenHead = true,
+						col = "#0055FFFF",
+						nColAlpha = 255,
+						nPriority = 12,
+						szReminder = "定",
+					},
+				},
+				col = {
+					0,
+					85,
+					255,
+				},
+				dwID = 10849,
+				nLevel = 1,
+			},
+			{
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 10962,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						bHold = true,
+						key = "阿飞送货",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 115,
+						nRefresh = 299,
+						nTime = "2,阿飞送货·开始;300,阿飞送货·剩余;302,阿飞送货·完成",
+						szName = "阿飞送货·开始",
+					},
+					{
+						key = "阿飞送货",
+						nClass = 2,
+						nIcon = 115,
+						nTime = 2,
+						szName = "阿飞送货·完成",
+					},
+				},
+			},
+			{
 				col = {
 					255,
 					255,
 					0,
 				},
 				dwID = 17378,
-				nLevel = 1,
-				nScrutinyType = 1,
-			},
-			{
-				dwID = 8609,
-				nIcon = 12450,
 				nLevel = 1,
 				nScrutinyType = 1,
 			},
@@ -73317,8 +73291,18 @@ return {
 				},
 			},
 			{
-				dwID = 11579,
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 18080,
+				nIcon = 3557,
 				nLevel = 1,
+				szName = "已拾取",
 			},
 			{
 				{
@@ -73387,87 +73371,8 @@ return {
 				nLevel = 1,
 			},
 			{
-				{
-					bBuffList = true,
-					bScreenHead = true,
-					bTeamPanel = true,
-				},
-				aCataclysmBuff = {
-					{
-						bAttention = true,
-						bCaution = true,
-						bScreenHead = true,
-						col = "#0055FFFF",
-						nColAlpha = 255,
-						nPriority = 12,
-						szReminder = "定",
-					},
-				},
-				col = {
-					0,
-					85,
-					255,
-				},
-				dwID = 10849,
+				dwID = 11579,
 				nLevel = 1,
-			},
-			{
-				dwID = 1659,
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "陶罐助手·积分",
-						nClass = 2,
-						nFrame = 3,
-						nIcon = 2175,
-						nTime = 2,
-						szName = "年兽陶罐·积分清零",
-					},
-				},
-			},
-			{
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 10962,
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						bHold = true,
-						key = "阿飞送货",
-						nClass = 1,
-						nFrame = 4,
-						nIcon = 115,
-						nRefresh = 299,
-						nTime = "2,阿飞送货·开始;300,阿飞送货·剩余;302,阿飞送货·完成",
-						szName = "阿飞送货·开始",
-					},
-					{
-						key = "阿飞送货",
-						nClass = 2,
-						nIcon = 115,
-						nTime = 2,
-						szName = "阿飞送货·完成",
-					},
-				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 18080,
-				nIcon = 3557,
-				nLevel = 1,
-				szName = "已拾取",
 			},
 			{
 				{
@@ -73555,6 +73460,66 @@ return {
 			},
 		},
 		[-3] = {
+			{
+				dwID = 2989,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "照料",
+			},
+			{
+				dwID = 2988,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 27888,
+				nIcon = 5958,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "助战",
+			},
+			{
+				dwID = 23701,
+				nIcon = 17409,
+				nLevel = 1,
+				szName = "停留",
+			},
+			{
+				dwID = 23702,
+				nIcon = 17408,
+				nLevel = 1,
+				szName = "跟随",
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						col = "#CCCCCCFF",
+						nColAlpha = 255,
+						nPriority = 28,
+						szReminder = "疗",
+					},
+				},
+				col = {
+					204,
+					204,
+					204,
+				},
+				dwID = 21960,
+				nLevel = 1,
+				nScrutinyType = 2,
+			},
 			{
 				dwID = 21101,
 				nLevel = 1,
@@ -73650,66 +73615,6 @@ return {
 						szName = "家园声望·已消失",
 					},
 				},
-			},
-			{
-				dwID = 2989,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "照料",
-			},
-			{
-				dwID = 2988,
-				nLevel = 1,
-				nScrutinyType = 1,
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 27888,
-				nIcon = 5958,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "助战",
-			},
-			{
-				dwID = 23701,
-				nIcon = 17409,
-				nLevel = 1,
-				szName = "停留",
-			},
-			{
-				dwID = 23702,
-				nIcon = 17408,
-				nLevel = 1,
-				szName = "跟随",
-			},
-			{
-				{
-					bBuffList = true,
-					bTeamPanel = true,
-				},
-				aCataclysmBuff = {
-					{
-						col = "#CCCCCCFF",
-						nColAlpha = 255,
-						nPriority = 28,
-						szReminder = "疗",
-					},
-				},
-				col = {
-					204,
-					204,
-					204,
-				},
-				dwID = 21960,
-				nLevel = 1,
-				nScrutinyType = 2,
 			},
 			{
 				col = {
@@ -74328,115 +74233,6 @@ return {
 					255,
 					0,
 				},
-				dwID = 1726,
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "科举考试",
-						nClass = 1,
-						nFrame = 6,
-						nIcon = 1244,
-						nRefresh = 0,
-						nTime = "60,科举考试·60秒;90,科举考试·90秒",
-					},
-					{
-						key = "科举考试",
-						nClass = 2,
-						nFrame = 5,
-						nIcon = 1244,
-						nTime = 0,
-						szName = "科举考试",
-					},
-				},
-			},
-			{
-				{
-					bTeamPanel = true,
-				},
-				aCataclysmBuff = {
-					{
-						szReminder = "逃",
-					},
-				},
-				dwID = 11880,
-				nLevel = 1,
-			},
-			{
-				{
-					bTeamPanel = true,
-				},
-				aCataclysmBuff = {
-					{
-						nPriority = 30,
-						szReminder = "逃",
-					},
-				},
-				dwID = 12821,
-				nLevel = 1,
-			},
-			{
-				{
-					bTeamPanel = true,
-				},
-				aCataclysmBuff = {
-					{
-						nPriority = 30,
-						szReminder = "逃",
-					},
-				},
-				bCheckLevel = true,
-				dwID = 12800,
-				nLevel = 2,
-			},
-			{
-				{
-					bTeamPanel = true,
-				},
-				aCataclysmBuff = {
-					{
-						nPriority = 30,
-						szReminder = "逃",
-					},
-				},
-				dwID = 12784,
-				nLevel = 1,
-			},
-			{
-				{
-					bTeamPanel = true,
-				},
-				aCataclysmBuff = {
-					{
-						nPriority = 30,
-						szReminder = "逃",
-					},
-				},
-				dwID = 15082,
-				nLevel = 1,
-			},
-			{
-				{
-					bTeamPanel = true,
-				},
-				aCataclysmBuff = {
-					{
-						nPriority = 30,
-						szReminder = "逃",
-					},
-				},
-				dwID = 15084,
-				nLevel = 1,
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
 				dwID = 12920,
 				nLevel = 1,
 				nScrutinyType = 1,
@@ -74556,6 +74352,115 @@ return {
 			{
 				{
 					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 1726,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "科举考试",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 1244,
+						nRefresh = 0,
+						nTime = "60,科举考试·60秒;90,科举考试·90秒",
+					},
+					{
+						key = "科举考试",
+						nClass = 2,
+						nFrame = 5,
+						nIcon = 1244,
+						nTime = 0,
+						szName = "科举考试",
+					},
+				},
+			},
+			{
+				{
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						szReminder = "逃",
+					},
+				},
+				dwID = 11880,
+				nLevel = 1,
+			},
+			{
+				{
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						nPriority = 30,
+						szReminder = "逃",
+					},
+				},
+				dwID = 12821,
+				nLevel = 1,
+			},
+			{
+				{
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						nPriority = 30,
+						szReminder = "逃",
+					},
+				},
+				bCheckLevel = true,
+				dwID = 12800,
+				nLevel = 2,
+			},
+			{
+				{
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						nPriority = 30,
+						szReminder = "逃",
+					},
+				},
+				dwID = 12784,
+				nLevel = 1,
+			},
+			{
+				{
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						nPriority = 30,
+						szReminder = "逃",
+					},
+				},
+				dwID = 15082,
+				nLevel = 1,
+			},
+			{
+				{
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						nPriority = 30,
+						szReminder = "逃",
+					},
+				},
+				dwID = 15084,
+				nLevel = 1,
+			},
+			{
+				{
+					bBuffList = true,
 					bTeamPanel = true,
 				},
 				dwID = 18913,
@@ -74564,136 +74469,6 @@ return {
 			},
 		},
 		[-1] = {
-			{
-				bCheckLevel = true,
-				dwID = 8475,
-				nIcon = 6700,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "乘骑中",
-				tCountdown = {
-					{
-						key = "骑御·劲足",
-						nClass = 2,
-						nIcon = 6491,
-						nRefresh = 5,
-						nTime = -1,
-						szName = "骑御·劲足",
-					},
-					{
-						key = "骑御·调息",
-						nClass = 2,
-						nFrame = 6,
-						nIcon = 6678,
-						nTime = -1,
-						szName = "骑御·调息",
-					},
-				},
-			},
-			{
-				{
-					bBuffList = true,
-					bTeamPanel = true,
-				},
-				aCataclysmBuff = {
-					{
-						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
-						nColAlpha = 255,
-						nPriority = 1,
-						szReminder = "切",
-					},
-				},
-				col = {
-					255,
-					255,
-					50,
-				},
-				dwID = 6004,
-				dwnIcon = 3448,
-				nIcon = 630,
-				nLevel = 1,
-				nScrutinyType = 2,
-				szName = "切奇穴",
-				tCountdown = {
-					{
-						key = "切心法·{$sender}",
-						nClass = 2,
-						nIcon = 630,
-						nTime = -1,
-						szName = "{$sender}·切心法",
-					},
-				},
-			},
-			{
-				dwID = 24277,
-				nIcon = 15667,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "万花脱战",
-				tKungFu = {
-					["SKILL#10021"] = true,
-					["SKILL#10028"] = true,
-				},
-			},
-			{
-				dwID = 24281,
-				nIcon = 15667,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "万花进战",
-				tKungFu = {
-					["SKILL#10021"] = true,
-					["SKILL#10028"] = true,
-				},
-			},
-			{
-				{
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 27613,
-				nIcon = 2678,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "快收杆",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 27477,
-				nIcon = 24362,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "钓鱼",
-				tCountdown = {
-					{
-						key = "钓鱼提示",
-						nClass = 1,
-						nIcon = 2678,
-						nTime = 60,
-						szName = "正在钓鱼",
-					},
-					{
-						key = "钓鱼提示",
-						nClass = 2,
-						nIcon = 13,
-						nTime = 0,
-						szName = "钓鱼提示",
-					},
-				},
-			},
 			{
 				{
 					bBuffList = true,
@@ -74738,20 +74513,6 @@ return {
 				nScrutinyType = 1,
 			},
 			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 27779,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "鱼群",
-			},
-			{
 				dwID = 23728,
 				nIcon = 4434,
 				nLevel = 1,
@@ -74784,20 +74545,6 @@ return {
 				szName = "抗摔",
 			},
 			{
-				dwID = 14410,
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "靛羽风鸟CD",
-						nClass = 2,
-						nIcon = 77,
-						nTime = 5,
-						szName = "靛羽风鸟·寻宝结束",
-					},
-				},
-			},
-			{
 				{
 					bBuffList = true,
 				},
@@ -74806,129 +74553,6 @@ return {
 				nLevel = 1,
 				nScrutinyType = 2,
 				szName = "发红包",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				bCheckLevel = true,
-				col = {
-					255,
-					150,
-					0,
-				},
-				dwID = 7923,
-				nIcon = 2400,
-				nLevel = 5,
-				nScrutinyType = 1,
-				szName = "5级",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				bCheckLevel = true,
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 7923,
-				nIcon = 2400,
-				nLevel = 4,
-				nScrutinyType = 1,
-				szName = "4级",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				bCheckLevel = true,
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 7923,
-				nIcon = 2398,
-				nLevel = 3,
-				nScrutinyType = 1,
-				szName = "3级",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				bCheckLevel = true,
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 7923,
-				nIcon = 2402,
-				nLevel = 2,
-				nScrutinyType = 1,
-				szName = "2级",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				bCheckLevel = true,
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 7923,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "1级",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 1895,
-				nIcon = 2409,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "挖宝",
-				tCountdown = {
-					{
-						key = "挖宝·CD",
-						nClass = 1,
-						nFrame = 5,
-						nIcon = 2409,
-						nRefresh = 59,
-						nTime = "60,挖宝·CD;62,挖宝·冷却结束",
-						szName = "挖宝·CD",
-					},
-				},
-			},
-			{
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 7922,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "挖掘",
-			},
-			{
-				dwID = 1821,
-				nIcon = 6226,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "罗盘冷却",
 			},
 			{
 				{
@@ -74944,86 +74568,6 @@ return {
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "成就",
-			},
-			{
-				{
-					bScreenHead = true,
-					bTeamPanel = true,
-				},
-				aCataclysmBuff = {
-					{
-						bScreenHead = true,
-						col = "#00FF00FF",
-						nPriority = 3,
-						szReminder = "传",
-					},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 1263,
-				nIcon = 2111,
-				nLevel = 1,
-				szName = "传功",
-				tCountdown = {
-					{
-						key = "传功·{$sender}",
-						nClass = 2,
-						nIcon = 2111,
-						nTime = 0.001,
-						szName = "传功·{$sender}",
-					},
-				},
-			},
-			{
-				dwID = 15759,
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "机缘",
-						nClass = 1,
-						nFrame = 5,
-						nIcon = 12373,
-						nRefresh = 9999,
-						nTime = 10,
-						szName = "机缘·良伴·宠物奇遇",
-					},
-				},
-			},
-			{
-				dwID = 28197,
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "机缘",
-						nClass = 1,
-						nFrame = 1,
-						nIcon = 12371,
-						nRefresh = 9999,
-						nTime = 10,
-						szName = "机缘·会逢·普通奇遇",
-					},
-				},
-			},
-			{
-				dwID = 28198,
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "机缘",
-						nClass = 1,
-						nFrame = 3,
-						nIcon = 12372,
-						nRefresh = 9999,
-						nTime = 10,
-						szName = "机缘·无双·绝世奇遇",
-					},
-				},
 			},
 			{
 				dwID = 16735,
@@ -75051,35 +74595,6 @@ return {
 				nLevel = 1,
 				nScrutinyType = 2,
 				szName = "眩晕",
-			},
-			{
-				{
-					bBuffList = true,
-					bTeamPanel = true,
-				},
-				dwID = 9154,
-				nLevel = 1,
-				nScrutinyType = 2,
-				tCountdown = {
-					{
-						key = "波涛浩荡",
-						nClass = 1,
-						nIcon = 3448,
-						nRefresh = 1,
-						nTime = 20,
-						szName = "【{$sender}】→【{$receiver}】",
-					},
-				},
-			},
-			{
-				{
-					bBuffList = true,
-					bTeamPanel = true,
-				},
-				dwID = 12691,
-				nIcon = 256,
-				nLevel = 1,
-				szName = "剧毒",
 			},
 			{
 				{
@@ -75585,6 +75100,265 @@ return {
 				},
 			},
 			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 27613,
+				nIcon = 2678,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "快收杆",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 27477,
+				nIcon = 24362,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "钓鱼",
+				tCountdown = {
+					{
+						key = "钓鱼提示",
+						nClass = 1,
+						nIcon = 2678,
+						nTime = 60,
+						szName = "正在钓鱼",
+					},
+					{
+						key = "钓鱼提示",
+						nClass = 2,
+						nIcon = 13,
+						nTime = 0,
+						szName = "钓鱼提示",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 27779,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "鱼群",
+			},
+			{
+				dwID = 8609,
+				nIcon = 12450,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				bCheckLevel = true,
+				dwID = 8475,
+				nIcon = 6700,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "乘骑中",
+				tCountdown = {
+					{
+						key = "骑御·劲足",
+						nClass = 2,
+						nIcon = 6491,
+						nRefresh = 5,
+						nTime = -1,
+						szName = "骑御·劲足",
+					},
+					{
+						key = "骑御·调息",
+						nClass = 2,
+						nFrame = 6,
+						nIcon = 6678,
+						nTime = -1,
+						szName = "骑御·调息",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 1895,
+				nIcon = 2409,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "挖宝",
+				tCountdown = {
+					{
+						key = "挖宝·CD",
+						nClass = 1,
+						nFrame = 5,
+						nIcon = 2409,
+						nRefresh = 59,
+						nTime = "60,挖宝·CD;62,挖宝·冷却结束",
+						szName = "挖宝·CD",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 7922,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "挖掘",
+			},
+			{
+				dwID = 1821,
+				nIcon = 6226,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "罗盘冷却",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				bCheckLevel = true,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 7923,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "1级",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				bCheckLevel = true,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 7923,
+				nIcon = 2398,
+				nLevel = 3,
+				nScrutinyType = 1,
+				szName = "3级",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				bCheckLevel = true,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 7923,
+				nIcon = 2402,
+				nLevel = 2,
+				nScrutinyType = 1,
+				szName = "2级",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				bCheckLevel = true,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 7923,
+				nIcon = 2400,
+				nLevel = 4,
+				nScrutinyType = 1,
+				szName = "4级",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				bCheckLevel = true,
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 7923,
+				nIcon = 2400,
+				nLevel = 5,
+				nScrutinyType = 1,
+				szName = "5级",
+			},
+			{
+				dwID = 14410,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "靛羽风鸟",
+						nClass = 2,
+						nIcon = 77,
+						nTime = 5,
+						szName = "靛羽风鸟·寻宝结束",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				dwID = 9154,
+				nLevel = 1,
+				nScrutinyType = 2,
+				tCountdown = {
+					{
+						key = "波涛浩荡",
+						nClass = 1,
+						nIcon = 3448,
+						nRefresh = 1,
+						nTime = 20,
+						szName = "【{$sender}】→【{$receiver}】",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				dwID = 12691,
+				nIcon = 256,
+				nLevel = 1,
+				szName = "剧毒",
+			},
+			{
 				col = {
 					255,
 					255,
@@ -75711,6 +75485,54 @@ return {
 				szName = "看信",
 			},
 			{
+				dwID = 28198,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "机缘",
+						nClass = 1,
+						nFrame = 3,
+						nIcon = 12372,
+						nRefresh = 9999,
+						nTime = 10,
+						szName = "机缘·无双·绝世奇遇",
+					},
+				},
+			},
+			{
+				dwID = 28197,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "机缘",
+						nClass = 1,
+						nFrame = 1,
+						nIcon = 12371,
+						nRefresh = 9999,
+						nTime = 10,
+						szName = "机缘·会逢·普通奇遇",
+					},
+				},
+			},
+			{
+				dwID = 15759,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "机缘",
+						nClass = 1,
+						nFrame = 5,
+						nIcon = 12373,
+						nRefresh = 9999,
+						nTime = 10,
+						szName = "机缘·良伴·宠物奇遇",
+					},
+				},
+			},
+			{
 				dwID = 13406,
 				nIcon = 2546,
 				nLevel = 1,
@@ -75790,6 +75612,95 @@ return {
 				},
 				dwID = 10794,
 				nLevel = 1,
+			},
+			{
+				dwID = 24281,
+				nIcon = 15667,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "万花进战",
+				tKungFu = {
+					["SKILL#10021"] = true,
+					["SKILL#10028"] = true,
+				},
+			},
+			{
+				dwID = 24277,
+				nIcon = 15667,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "万花脱战",
+				tKungFu = {
+					["SKILL#10021"] = true,
+					["SKILL#10028"] = true,
+				},
+			},
+			{
+				{
+					bScreenHead = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bScreenHead = true,
+						col = "#00FF00FF",
+						nPriority = 3,
+						szReminder = "传",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 1263,
+				nIcon = 2111,
+				nLevel = 1,
+				szName = "传功",
+				tCountdown = {
+					{
+						key = "传功·{$sender}",
+						nClass = 2,
+						nIcon = 2111,
+						nTime = 0.001,
+						szName = "传功·{$sender}",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						col = "#00FF00FF",
+						colScreenHead = "#00FF00",
+						nColAlpha = 255,
+						nPriority = 1,
+						szReminder = "切",
+					},
+				},
+				col = {
+					255,
+					255,
+					50,
+				},
+				dwID = 6004,
+				dwnIcon = 3448,
+				nIcon = 630,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "切奇穴",
+				tCountdown = {
+					{
+						key = "切心法·{$sender}",
+						nClass = 2,
+						nIcon = 630,
+						nTime = -1,
+						szName = "{$sender}·切心法",
+					},
+				},
 			},
 			{
 				{
@@ -96270,6 +96181,68 @@ return {
 				{
 					bBuffList = true,
 				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 10068,
+				nIcon = 216,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "押镖",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					31,
+					63,
+					255,
+				},
+				dwID = 7851,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				aCataclysmBuff = {
+					{
+						col = "#FFFFFFFF",
+						colScreenHead = "#FFFFFFFF",
+						nColAlpha = 255,
+						nPriority = 2,
+						szReminder = "镖",
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 9982,
+				nLevel = 1,
+				nScrutinyType = 2,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 9992,
+				nIcon = 8004,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "大跑商",
+			},
+			{
+				{
+					bBuffList = true,
+				},
 				bCheckLevel = true,
 				col = {
 					255,
@@ -96550,68 +96523,6 @@ return {
 						szName = "湖心岛·触发命途",
 					},
 				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 10068,
-				nIcon = 216,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "押镖",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					31,
-					63,
-					255,
-				},
-				dwID = 7851,
-				nLevel = 1,
-				nScrutinyType = 1,
-			},
-			{
-				aCataclysmBuff = {
-					{
-						col = "#FFFFFFFF",
-						colScreenHead = "#FFFFFFFF",
-						nColAlpha = 255,
-						nPriority = 2,
-						szReminder = "镖",
-					},
-				},
-				col = {
-					255,
-					255,
-					255,
-				},
-				dwID = 9982,
-				nLevel = 1,
-				nScrutinyType = 2,
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 9992,
-				nIcon = 8004,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "大跑商",
 			},
 			{
 				dwID = 10205,
@@ -97368,6 +97279,68 @@ return {
 				{
 					bBuffList = true,
 				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 10068,
+				nIcon = 216,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "押镖",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					31,
+					63,
+					255,
+				},
+				dwID = 7851,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				aCataclysmBuff = {
+					{
+						col = "#FFFFFFFF",
+						colScreenHead = "#FFFFFFFF",
+						nColAlpha = 255,
+						nPriority = 2,
+						szReminder = "镖",
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 9982,
+				nLevel = 1,
+				nScrutinyType = 2,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 9992,
+				nIcon = 8004,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "大跑商",
+			},
+			{
+				{
+					bBuffList = true,
+				},
 				bCheckLevel = true,
 				col = {
 					255,
@@ -97567,68 +97540,6 @@ return {
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "剧情",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 10068,
-				nIcon = 216,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "押镖",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					31,
-					63,
-					255,
-				},
-				dwID = 7851,
-				nLevel = 1,
-				nScrutinyType = 1,
-			},
-			{
-				aCataclysmBuff = {
-					{
-						col = "#FFFFFFFF",
-						colScreenHead = "#FFFFFFFF",
-						nColAlpha = 255,
-						nPriority = 2,
-						szReminder = "镖",
-					},
-				},
-				col = {
-					255,
-					255,
-					255,
-				},
-				dwID = 9982,
-				nLevel = 1,
-				nScrutinyType = 2,
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 9992,
-				nIcon = 8004,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "大跑商",
 			},
 		},
 		[239] = {
@@ -106420,20 +106331,20 @@ return {
 			{
 				aFocus = {
 					{
-						nMaxDistance = 120,
-						szDisplay = "龟蛋",
-					},
-				},
-				dwID = 3454,
-			},
-			{
-				aFocus = {
-					{
 						nMaxDistance = 30,
 						szDisplay = "鲜花束·艺人",
 					},
 				},
 				dwID = 6088,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						szDisplay = "龟蛋",
+					},
+				},
+				dwID = 3454,
 			},
 		},
 		[-6] = {
@@ -106499,6 +106410,15 @@ return {
 			{
 				aFocus = {
 					{
+						nMaxDistance = 10,
+						szDisplay = "传送点",
+					},
+				},
+				dwID = 818,
+			},
+			{
+				aFocus = {
+					{
 						nMaxDistance = 30,
 						szDisplay = "寻路·传送",
 					},
@@ -106506,35 +106426,8 @@ return {
 				dwID = 10558,
 				szName = "寻路传送",
 			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 10,
-						szDisplay = "传送点",
-					},
-				},
-				dwID = 818,
-			},
 		},
 		[-2] = {
-			{
-				aFocus = {
-					{
-						nMaxDistance = 120,
-						szDisplay = "龟蛋",
-					},
-				},
-				dwID = 3454,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 30,
-						szDisplay = "鲜花束·艺人",
-					},
-				},
-				dwID = 6088,
-			},
 			{
 				[17] = {
 					bCenterAlarm = true,
@@ -106717,6 +106610,24 @@ return {
 				},
 				dwID = 11417,
 				szName = "宝堆·周年庆",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "鲜花束·艺人",
+					},
+				},
+				dwID = 6088,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						szDisplay = "龟蛋",
+					},
+				},
+				dwID = 3454,
 			},
 			{
 				[17] = {
@@ -107569,6 +107480,7 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 120,
+						szDisplay = "皇竹草",
 					},
 				},
 				dwID = 3359,
@@ -117248,11 +117160,10 @@ return {
 				col = {
 					0,
 					255,
-					0,
+					255,
 				},
-				dwID = 126181,
+				dwID = 69462,
 				nFrame = 47,
-				szName = "碎石记号",
 			},
 			{
 				[3] = {
@@ -117261,10 +117172,11 @@ return {
 				col = {
 					0,
 					255,
-					255,
+					0,
 				},
-				dwID = 69462,
+				dwID = 126181,
 				nFrame = 47,
+				szName = "碎石记号",
 			},
 			{
 				[3] = {
@@ -118509,24 +118421,6 @@ return {
 				},
 				aFocus = {
 					{
-						nMaxDistance = 30,
-						szDisplay = "刘纩",
-						tRelation = {
-							bAll = false,
-							bAlly = false,
-							bEnemy = true,
-						},
-					},
-				},
-				dwID = 36663,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
 						szDisplay = "红包",
 					},
 				},
@@ -118536,18 +118430,6 @@ return {
 					255,
 				},
 				dwID = 41744,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 36659,
 				nFrame = 47,
 			},
 			{
@@ -118864,6 +118746,36 @@ return {
 				dwID = 52295,
 				nFrame = 47,
 				szName = "藏宝堆",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "刘纩",
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 36663,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 36659,
+				nFrame = 47,
 			},
 			{
 				[3] = {
@@ -120213,26 +120125,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 30,
-						szDisplay = "罗掌柜·小吃商",
-					},
-				},
-				dwID = 390,
-				nFrame = 47,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "吏部御史·科举奖励",
-					},
-				},
-				dwID = 6960,
-				nFrame = 47,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 30,
 						szDisplay = "坚冰",
 					},
 				},
@@ -120793,6 +120685,16 @@ return {
 				nFrame = 67,
 			},
 			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "吏部御史·科举奖励",
+					},
+				},
+				dwID = 6960,
+				nFrame = 47,
+			},
+			{
 				[3] = {
 					bScreenHead = true,
 				},
@@ -121292,6 +121194,16 @@ return {
 				dwID = 19322,
 				nFrame = 47,
 				szName = "横小五·蟹卒",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "罗掌柜·小吃商",
+					},
+				},
+				dwID = 390,
+				nFrame = 47,
 			},
 		},
 		[7] = {
@@ -123731,16 +123643,6 @@ return {
 			{
 				aFocus = {
 					{
-						nMaxDistance = 60,
-						szDisplay = "钱德利·游商",
-					},
-				},
-				dwID = 5429,
-				nFrame = 47,
-			},
-			{
-				aFocus = {
-					{
 						nMaxDistance = 30,
 						szDisplay = "气朝客·新春有缘人",
 					},
@@ -123916,6 +123818,16 @@ return {
 				dwID = 27467,
 				nFrame = 47,
 				szName = "寄居蟹·蟹仔",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "钱德利·游商",
+					},
+				},
+				dwID = 5429,
+				nFrame = 47,
 			},
 			{
 				[3] = {
@@ -132752,72 +132664,6 @@ return {
 				},
 				aFocus = {
 					{
-						nMaxDistance = 6,
-						szDisplay = "明空星·召唤马驹",
-					},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 16813,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				aFocus = {
-					{},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 18570,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				aFocus = {
-					{},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 129008,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				aFocus = {
-					{},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 129009,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
 						nMaxDistance = 10,
 					},
 				},
@@ -132992,6 +132838,72 @@ return {
 					255,
 				},
 				dwID = 15177,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "明空星·召唤马驹",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 16813,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18570,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 129008,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 129009,
 				nFrame = 47,
 			},
 			{
@@ -133532,26 +133444,6 @@ return {
 		},
 		[101] = {
 			{
-				aFocus = {
-					{
-						nMaxDistance = 50,
-						szDisplay = "孔雀·乌蒙后山·传送",
-					},
-				},
-				dwID = 12137,
-				nFrame = 60,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "竹儿·孔雀湖·飞行",
-					},
-				},
-				dwID = 14252,
-				nFrame = 47,
-			},
-			{
 				[3] = {
 					bCenterAlarm = true,
 					bScreenHead = true,
@@ -133841,6 +133733,26 @@ return {
 				},
 				dwID = 14077,
 				nFrame = 57,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 50,
+						szDisplay = "孔雀·乌蒙后山·传送",
+					},
+				},
+				dwID = 12137,
+				nFrame = 60,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "竹儿·孔雀湖·飞行",
+					},
+				},
+				dwID = 14252,
+				nFrame = 47,
 			},
 			{
 				aFocus = {
@@ -138288,24 +138200,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 30,
-						szDisplay = "庄正·传送",
-					},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 19209,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 30,
 					},
 				},
 				col = {
@@ -138711,6 +138605,24 @@ return {
 					0,
 				},
 				dwID = 60182,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "庄正·传送",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 19209,
 				nFrame = 47,
 			},
 			{
@@ -140833,6 +140745,16 @@ return {
 				nFrame = 47,
 			},
 			{
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						szDisplay = "猴儿酒·稚子心",
+					},
+				},
+				dwID = 6343,
+				szName = "猴儿酒·稚子心",
+			},
+			{
 				[3] = {
 					bScreenHead = true,
 				},
@@ -140885,16 +140807,6 @@ return {
 				},
 				dwID = 54677,
 				nFrame = 47,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 120,
-						szDisplay = "猴儿酒·稚子心",
-					},
-				},
-				dwID = 6343,
-				szName = "猴儿酒·稚子心",
 			},
 		},
 		[165] = {
@@ -142841,6 +142753,24 @@ return {
 				nFrame = 47,
 			},
 			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "褚禾·阴山商路",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 47754,
+				nFrame = 47,
+			},
+			{
 				aFocus = {
 					{
 						nMaxDistance = 60,
@@ -143054,24 +142984,6 @@ return {
 					255,
 				},
 				dwID = 46403,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 30,
-						szDisplay = "褚禾·阴山商路",
-					},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 47754,
 				nFrame = 47,
 			},
 			{
@@ -143685,43 +143597,6 @@ return {
 		},
 		[214] = {
 			{
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 90,
-						szDisplay = "李尘缘·碎片八·清茗经",
-					},
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 47878,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						szDisplay = "王老道·碎片五·清茗经",
-					},
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 44430,
-				nFrame = 47,
-			},
-			{
 				aFocus = {
 					{
 						nMaxDistance = 10,
@@ -143781,6 +143656,43 @@ return {
 					100,
 				},
 				dwID = 47749,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 90,
+						szDisplay = "李尘缘·碎片八·清茗经",
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 47878,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "王老道·碎片五·清茗经",
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 44430,
 				nFrame = 47,
 			},
 			{
@@ -144127,6 +144039,16 @@ return {
 				nFrame = 47,
 			},
 			{
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						szDisplay = "沉甸甸的箱子·石敢当",
+					},
+				},
+				dwID = 51338,
+				nFrame = 47,
+			},
+			{
 				[3] = {
 					bScreenHead = true,
 				},
@@ -144178,16 +144100,6 @@ return {
 					255,
 				},
 				dwID = 48057,
-				nFrame = 47,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 20,
-						szDisplay = "沉甸甸的箱子·石敢当",
-					},
-				},
-				dwID = 51338,
 				nFrame = 47,
 			},
 			{
@@ -144254,6 +144166,68 @@ return {
 			},
 		},
 		[216] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 47859,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 47032,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 47408,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						szDisplay = "夏洛特·阴山商路·补货",
+					},
+				},
+				col = {
+					100,
+					255,
+					100,
+				},
+				dwID = 47888,
+				nFrame = 47,
+			},
 			{
 				[3] = {
 					bScreenHead = true,
@@ -144649,68 +144623,6 @@ return {
 					255,
 				},
 				dwID = 46403,
-				nFrame = 47,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 10,
-						tRelation = {
-							bAll = false,
-							bAlly = false,
-							bEnemy = true,
-						},
-					},
-				},
-				dwID = 47859,
-				nFrame = 47,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 10,
-						tRelation = {
-							bAll = false,
-							bAlly = false,
-							bEnemy = true,
-						},
-					},
-				},
-				dwID = 47032,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				aFocus = {
-					{},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 47408,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 20,
-						szDisplay = "夏洛特·阴山商路·补货",
-					},
-				},
-				col = {
-					100,
-					255,
-					100,
-				},
-				dwID = 47888,
 				nFrame = 47,
 			},
 			{
@@ -146396,6 +146308,68 @@ return {
 		[217] = {
 			{
 				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 47408,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						szDisplay = "宋涛·阴山商路·主簿",
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					31,
+					230,
+					255,
+				},
+				dwID = 47858,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						szDisplay = "谷艾·阴山商路·主簿",
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					120,
+					31,
+				},
+				dwID = 47744,
+				nFrame = 47,
+			},
+			{
+				[3] = {
 					bScreenHead = true,
 				},
 				aFocus = {
@@ -146682,68 +146656,6 @@ return {
 					255,
 				},
 				dwID = 109423,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				aFocus = {
-					{},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 47408,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 20,
-						szDisplay = "宋涛·阴山商路·主簿",
-						tRelation = {
-							bAll = false,
-							bAlly = true,
-							bEnemy = false,
-						},
-					},
-				},
-				col = {
-					31,
-					230,
-					255,
-				},
-				dwID = 47858,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 20,
-						szDisplay = "谷艾·阴山商路·主簿",
-						tRelation = {
-							bAll = false,
-							bAlly = true,
-							bEnemy = false,
-						},
-					},
-				},
-				col = {
-					255,
-					120,
-					31,
-				},
-				dwID = 47744,
 				nFrame = 47,
 			},
 			{
@@ -148911,6 +148823,21 @@ return {
 					bScreenHead = true,
 				},
 				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 63946,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
 					{
 						nMaxDistance = 60,
 						szDisplay = "火头僧·客江干",
@@ -148922,21 +148849,6 @@ return {
 					255,
 				},
 				dwID = 62806,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{},
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 63946,
 				nFrame = 47,
 			},
 			{
@@ -149298,16 +149210,6 @@ return {
 			{
 				aFocus = {
 					{
-						nMaxDistance = 20,
-						szDisplay = "传送·洞天福地岛",
-					},
-				},
-				dwID = 62187,
-				nFrame = 47,
-			},
-			{
-				aFocus = {
-					{
 						nMaxDistance = 90,
 						szDisplay = "尹青羲·杏花酒4",
 					},
@@ -149471,6 +149373,16 @@ return {
 					0,
 				},
 				dwID = 64556,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						szDisplay = "传送·洞天福地岛",
+					},
+				},
+				dwID = 62187,
 				nFrame = 47,
 			},
 			{
@@ -152081,44 +151993,6 @@ return {
 		},
 		[471] = {
 			{
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						szDisplay = "戴厄仁·一枝栖",
-					},
-				},
-				dwID = 104307,
-				nFrame = 47,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 90,
-						szDisplay = "小寿带鸟·一枝栖",
-					},
-				},
-				dwID = 104305,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						szDisplay = "泥鳅·一枝栖",
-					},
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 99555,
-				nFrame = 47,
-			},
-			{
 				[3] = {
 					bScreenHead = true,
 				},
@@ -152224,6 +152098,44 @@ return {
 				dwID = 132794,
 				nFrame = 47,
 				szName = "光圈范围",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "戴厄仁·一枝栖",
+					},
+				},
+				dwID = 104307,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 90,
+						szDisplay = "小寿带鸟·一枝栖",
+					},
+				},
+				dwID = 104305,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "泥鳅·一枝栖",
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 99555,
+				nFrame = 47,
 			},
 		},
 		[475] = {
@@ -152350,44 +152262,6 @@ return {
 		},
 		[486] = {
 			{
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						szDisplay = "戴厄仁·一枝栖",
-					},
-				},
-				dwID = 104307,
-				nFrame = 47,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 90,
-						szDisplay = "小寿带鸟·一枝栖",
-					},
-				},
-				dwID = 104305,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						szDisplay = "泥鳅·一枝栖",
-					},
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 99555,
-				nFrame = 47,
-			},
-			{
 				[3] = {
 					bScreenHead = true,
 				},
@@ -152493,6 +152367,44 @@ return {
 				dwID = 132794,
 				nFrame = 47,
 				szName = "光圈范围",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "戴厄仁·一枝栖",
+					},
+				},
+				dwID = 104307,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 90,
+						szDisplay = "小寿带鸟·一枝栖",
+					},
+				},
+				dwID = 104305,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "泥鳅·一枝栖",
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 99555,
+				nFrame = 47,
 			},
 		},
 		[487] = {
@@ -166401,6 +166313,20 @@ return {
 		},
 		[-15] = {
 			{
+				szContent = "你当前园宅币即将到达上限，请消耗部分再使用本物品。",
+				szNote = "园宅币·即将上限",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "道具上限",
+						nClass = 14,
+						nIcon = 3530,
+						nTime = 10,
+						szName = "园宅币·即将上限",
+					},
+				},
+			},
+			{
 				szContent = "获得家具【游梦仙枕】与【二进宫】，并可在马宝玉处继续购买。",
 				szNote = "白日梦",
 				tCountdown = {
@@ -166435,20 +166361,6 @@ return {
 						nIcon = 12371,
 						nTime = 10,
 						szName = "恭喜完成奇遇·白日梦",
-					},
-				},
-			},
-			{
-				szContent = "你当前园宅币即将到达上限，请消耗部分再使用本物品。",
-				szNote = "园宅币·即将上限",
-				szTarget = "%",
-				tCountdown = {
-					{
-						key = "道具上限",
-						nClass = 14,
-						nIcon = 3530,
-						nTime = 10,
-						szName = "园宅币·即将上限",
 					},
 				},
 			},
@@ -170622,6 +170534,19 @@ return {
 				},
 			},
 			{
+				szContent = "赶紧将听到的消息转述给成步堂吧。",
+				tCountdown = {
+					{
+						key = "奇遇·攻略1",
+						nClass = 14,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 20,
+						szName = "金水镇·成步堂",
+					},
+				},
+			},
+			{
 				szContent = "大哈已被好心侠士带走。",
 				szNote = "蹲宠·大哈·已被捕获",
 				szTarget = "神秘人",
@@ -170682,19 +170607,6 @@ return {
 						nRefresh = 0,
 						nTime = "10,蹲宠·蟹马·蓝·已捕获;20,蟹马·蓝·CD·3-4小时",
 						szName = "蹲宠提示0",
-					},
-				},
-			},
-			{
-				szContent = "赶紧将听到的消息转述给成步堂吧。",
-				tCountdown = {
-					{
-						key = "奇遇·攻略1",
-						nClass = 14,
-						nFrame = 0,
-						nIcon = 13,
-						nTime = 20,
-						szName = "金水镇·成步堂",
 					},
 				},
 			},
@@ -172365,6 +172277,14 @@ return {
 				},
 			},
 			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "女侠我确实需要一个帮手，还请女侠凑近些说话。",
+				szNote = "宠物奇遇·归安志·志",
+				szTarget = "刘理阳",
+			},
+			{
 				szContent = "稻稻已被好心侠士带走。",
 				szNote = "蹲宠·稻稻·已被捕获",
 				szTarget = "神秘人",
@@ -172395,14 +172315,6 @@ return {
 						szName = "蹲宠提示0",
 					},
 				},
-			},
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szContent = "女侠我确实需要一个帮手，还请女侠凑近些说话。",
-				szNote = "宠物奇遇·归安志·志",
-				szTarget = "刘理阳",
 			},
 			{
 				szContent = "一起去哪玩？",
@@ -177209,36 +177121,6 @@ return {
 				szTarget = "帮会铁卫",
 			},
 			{
-				szContent = "唱晚池旁的李霖好像有事在找你。",
-				szNote = "奇遇·炼狱水煮鱼·改良",
-				tCountdown = {
-					{
-						key = "炼狱水煮鱼·改良1",
-						nClass = 14,
-						nFrame = 0,
-						nIcon = 13,
-						nTime = 20,
-						szName = "奇遇·炼狱水煮鱼·改良",
-					},
-					{
-						key = "炼狱水煮鱼·改良2",
-						nClass = 14,
-						nFrame = 0,
-						nIcon = 13,
-						nTime = 20,
-						szName = "唱晚池旁·李霖",
-					},
-					{
-						key = "炼狱水煮鱼·改良3",
-						nClass = 14,
-						nFrame = 0,
-						nIcon = 13,
-						nTime = 20,
-						szName = "需要准备·今朝醉·1个",
-					},
-				},
-			},
-			{
 				[14] = {
 					bCenterAlarm = true,
 				},
@@ -177760,6 +177642,36 @@ return {
 						nIcon = 2579,
 						nTime = 10,
 						szName = "订单·[{$1}]获得[{$2}]",
+					},
+				},
+			},
+			{
+				szContent = "唱晚池旁的李霖好像有事在找你。",
+				szNote = "奇遇·炼狱水煮鱼·改良",
+				tCountdown = {
+					{
+						key = "炼狱水煮鱼·改良1",
+						nClass = 14,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 20,
+						szName = "奇遇·炼狱水煮鱼·改良",
+					},
+					{
+						key = "炼狱水煮鱼·改良2",
+						nClass = 14,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 20,
+						szName = "唱晚池旁·李霖",
+					},
+					{
+						key = "炼狱水煮鱼·改良3",
+						nClass = 14,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 20,
+						szName = "需要准备·今朝醉·1个",
 					},
 				},
 			},
@@ -184469,6 +184381,31 @@ return {
 		},
 		[217] = {
 			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "{$me}已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",
+				szNote = "你登记为送货首领",
+				szTarget = "%",
+				tCountdown = {
+					{
+						bHold = true,
+						key = "阴山商路·时限",
+						nClass = 14,
+						nFrame = -1,
+						nIcon = 8004,
+						nRefresh = 0,
+						nTime = "10,你登记为送货首领;14400,阴山商路·运送剩余;14410,阴山商路·运送超时",
+						szName = "阴山商路",
+					},
+				},
+			},
+			{
 				szContent = "良驹已出山，各位有志之士请做好准备！",
 				szTarget = "杨新",
 				tCountdown = {
@@ -185001,31 +184938,6 @@ return {
 						nIcon = 12373,
 						nTime = 600,
 						szName = "对话·玛伊莎·前往·苦海西",
-					},
-				},
-			},
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				col = {
-					100,
-					255,
-					255,
-				},
-				szContent = "{$me}已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",
-				szNote = "你登记为送货首领",
-				szTarget = "%",
-				tCountdown = {
-					{
-						bHold = true,
-						key = "阴山商路·时限",
-						nClass = 14,
-						nFrame = -1,
-						nIcon = 8004,
-						nRefresh = 0,
-						nTime = "10,你登记为送货首领;14400,阴山商路·运送剩余;14410,阴山商路·运送超时",
-						szName = "阴山商路",
 					},
 				},
 			},
@@ -195999,6 +195911,29 @@ return {
 						nRefresh = 1,
 						nTime = -1,
 						szName = "关隘·拾取·浩气盟",
+					},
+				},
+			},
+			{
+				szContent = "提醒：您已进入可敌对区域，在帮会领地或秘境中方能免除被敌对的危险。",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "阵营模式",
+						nClass = 14,
+						nFrame = -1,
+						nIcon = 13,
+						nRefresh = 20,
+						nTime = -1,
+						szName = "阵营模式",
+					},
+					{
+						key = "拍卖分红",
+						nClass = 14,
+						nIcon = 13,
+						nRefresh = 5,
+						nTime = -1,
+						szName = "拍卖分红",
 					},
 				},
 			},

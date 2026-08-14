@@ -1,0 +1,99 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {
+		[-7] = {
+			{
+				[20] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				col = {
+					255,
+					50,
+					50,
+				},
+				szContent = "(.-)已经添加(.-)为(.-)，将在(%d-)秒后对(.-)开启(.-)战斗。",
+				szNote = "{$1}·添加·{$2}·{$3}",
+				tCountdown = {
+					{
+						key = "仇敌事件",
+						nClass = 20,
+						nFrame = 8,
+						nIcon = 20116,
+						nTime = 10,
+						szName = "{$1}·添加·{$2}·{$3}",
+					},
+				},
+			},
+			{
+				szContent = "你的武斗值增加了30点。\
+",
+				szNote = "武斗值·增加·30点",
+			},
+			{
+				szContent = "你的武斗值增加了20点。\
+",
+				szNote = "武斗值·增加·20点",
+			},
+		},
+	},
+	DEBUFF = {},
+	DOODAD = {},
+	NPC = {},
+	TALK = {
+		[-1] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+					bFullScreen = true,
+				},
+				col = {
+					255,
+					50,
+					255,
+				},
+				szContent = "注意，你已被发布决斗挑战，决斗挑战正式生效！",
+				szNote = "决斗挑战·正式生效",
+				tCountdown = {
+					{
+						key = "决斗挑战",
+						nClass = 14,
+						nFrame = 8,
+						nIcon = 13,
+						nTime = 2,
+						szName = "决斗挑战·正式生效",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					50,
+					255,
+				},
+				szContent = "注意，你已被发布决斗挑战，10秒后决斗挑战正式生效！",
+				szNote = "你被发布·决斗挑战",
+				tCountdown = {
+					{
+						key = "决斗挑战",
+						nClass = 14,
+						nFrame = 8,
+						nIcon = 13,
+						nRefresh = 0,
+						nTime = "10,决斗挑战·生效剩余;12,决斗挑战·正式生效",
+						szName = "决斗挑战",
+					},
+				},
+			},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1786709576,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+	},
+}

@@ -894,7 +894,33 @@ return {
 			},
 		},
 	},
-	TALK = {},
+	TALK = {
+		[697] = {
+			{
+				szContent = "提醒：您已进入可敌对区域，在帮会领地或秘境中方能免除被敌对的危险。",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "阵营模式",
+						nClass = 14,
+						nFrame = -1,
+						nIcon = 13,
+						nRefresh = 20,
+						nTime = -1,
+						szName = "阵营模式",
+					},
+					{
+						key = "拍卖分红",
+						nClass = 14,
+						nIcon = 13,
+						nRefresh = 5,
+						nTime = -1,
+						szName = "拍卖分红",
+					},
+				},
+			},
+		},
+	},
 	__meta = {
 		nTimeStamp = 1785258822,
 		szAuthor = "荷花鲤",

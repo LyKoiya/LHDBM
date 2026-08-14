@@ -1,0 +1,54 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {
+		[11] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						szDisplay = "»ÊÖñ²Ý",
+					},
+				},
+				dwID = 3359,
+				szNote = "»ÊÖñ²Ý",
+			},
+		},
+	},
+	NPC = {
+		[-1] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						szDisplay = "°×Éß",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 64662,
+				nFrame = 47,
+				szNote = "½­ºþ¼¼ÒÕ¡¤ÉñÅ©¡¤°×Éß",
+			},
+		},
+	},
+	TALK = {},
+	__meta = {
+		nTimeStamp = 1786706856,
+		szAuthor = "ºÉ»¨Àð",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "Î¨ÎÒ¶À×ð",
+	},
+}

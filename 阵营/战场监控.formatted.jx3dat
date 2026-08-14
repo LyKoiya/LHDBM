@@ -881,23 +881,6 @@ return {
 				},
 			},
 		},
-		[712] = {
-			{
-				[8] = {
-					bScreenHead = true,
-				},
-				col = {
-					255,
-					255,
-					100,
-				},
-				dwID = 38096,
-				nLevel = 1,
-				nScrutinyType = 2,
-				szName = "进战移动上马",
-				szNote = "战斗移动骑乘",
-			},
-		},
 	},
 	CHAT = {
 		[-21] = {
@@ -3175,6 +3158,122 @@ return {
 		},
 	},
 	DEBUFF = {
+		[-21] = {
+			{
+				{
+					bScreenHead = false,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = false,
+						bCaution = false,
+						bOnlyMe = false,
+						bOnlyMine = false,
+						bScreenHead = false,
+						nPriority = 30,
+						szReminder = "逃",
+					},
+				},
+				dwID = 15084,
+				nLevel = 1,
+				szNote = "逃兵野狸岛无法排队",
+			},
+			{
+				{
+					bScreenHead = false,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = false,
+						bCaution = false,
+						bOnlyMe = false,
+						bOnlyMine = false,
+						bScreenHead = false,
+						nPriority = 30,
+						szReminder = "逃",
+					},
+				},
+				dwID = 15082,
+				nLevel = 1,
+				szNote = "逃兵野狸岛无法排队",
+			},
+			{
+				{
+					bScreenHead = false,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = false,
+						bCaution = false,
+						bOnlyMe = false,
+						bOnlyMine = false,
+						bScreenHead = false,
+						nPriority = 30,
+						szReminder = "逃",
+					},
+				},
+				dwID = 12784,
+				nLevel = 1,
+				szNote = "逃兵无法参加部分P",
+			},
+			{
+				{
+					bScreenHead = false,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = false,
+						bCaution = false,
+						bOnlyMe = false,
+						bOnlyMine = false,
+						bScreenHead = false,
+						nPriority = 30,
+						szReminder = "逃",
+					},
+				},
+				bCheckLevel = true,
+				dwID = 12800,
+				nLevel = 2,
+				szNote = "逃兵战场无法排队",
+			},
+			{
+				{
+					bScreenHead = false,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = false,
+						bCaution = false,
+						bOnlyMe = false,
+						bOnlyMine = false,
+						bScreenHead = false,
+						nPriority = 30,
+						szReminder = "逃",
+					},
+				},
+				dwID = 12821,
+				nLevel = 1,
+				szNote = "逃兵战场无法排队",
+			},
+			{
+				{
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						szReminder = "逃",
+					},
+				},
+				dwID = 11880,
+				nLevel = 1,
+				szNote = "消极参战竞技场无法",
+			},
+		},
 		[-17] = {
 			{
 				{
@@ -3288,6 +3387,240 @@ return {
 						szName = "切换奇穴·剩余时间",
 					},
 				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 10709,
+				nIcon = 19489,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "工作人员·主播·观赛者",
+			},
+		},
+		[-7] = {
+			{
+				{
+					bScreenHead = false,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = false,
+						bCaution = false,
+						bOnlyMe = false,
+						bOnlyMine = false,
+						bScreenHead = false,
+						nPriority = 30,
+						szReminder = "逃",
+					},
+				},
+				dwID = 12784,
+				nLevel = 1,
+				szNote = "逃兵无法参加部分P",
+			},
+			{
+				{
+					bScreenHead = false,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = false,
+						bCaution = false,
+						bOnlyMe = false,
+						bOnlyMine = false,
+						bScreenHead = false,
+						nPriority = 30,
+						szReminder = "逃",
+					},
+				},
+				bCheckLevel = true,
+				dwID = 12800,
+				nLevel = 2,
+				szNote = "逃兵战场无法排队",
+			},
+			{
+				{
+					bScreenHead = false,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = false,
+						bCaution = false,
+						bOnlyMe = false,
+						bOnlyMine = false,
+						bScreenHead = false,
+						nPriority = 30,
+						szReminder = "逃",
+					},
+				},
+				dwID = 12821,
+				nLevel = 1,
+				szNote = "逃兵战场无法排队",
+			},
+			{
+				{
+					bScreenHead = false,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = false,
+						bCaution = false,
+						bOnlyMe = false,
+						bOnlyMine = false,
+						bScreenHead = false,
+						nPriority = 30,
+						szReminder = "逃",
+					},
+				},
+				dwID = 15082,
+				nLevel = 1,
+				szNote = "逃兵野狸岛无法排队",
+			},
+			{
+				{
+					bScreenHead = false,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = false,
+						bCaution = false,
+						bOnlyMe = false,
+						bOnlyMine = false,
+						bScreenHead = false,
+						nPriority = 30,
+						szReminder = "逃",
+					},
+				},
+				dwID = 15084,
+				nLevel = 1,
+				szNote = "逃兵野狸岛无法排队",
+			},
+		},
+		[-2] = {
+			{
+				{
+					bScreenHead = false,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = false,
+						bCaution = false,
+						bOnlyMe = false,
+						bOnlyMine = false,
+						bScreenHead = false,
+						nPriority = 30,
+						szReminder = "逃",
+					},
+				},
+				dwID = 15084,
+				nLevel = 1,
+				szNote = "逃兵野狸岛无法排队",
+			},
+			{
+				{
+					bScreenHead = false,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = false,
+						bCaution = false,
+						bOnlyMe = false,
+						bOnlyMine = false,
+						bScreenHead = false,
+						nPriority = 30,
+						szReminder = "逃",
+					},
+				},
+				dwID = 15082,
+				nLevel = 1,
+				szNote = "逃兵野狸岛无法排队",
+			},
+			{
+				{
+					bScreenHead = false,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = false,
+						bCaution = false,
+						bOnlyMe = false,
+						bOnlyMine = false,
+						bScreenHead = false,
+						nPriority = 30,
+						szReminder = "逃",
+					},
+				},
+				dwID = 12784,
+				nLevel = 1,
+				szNote = "逃兵无法参加部分P",
+			},
+			{
+				{
+					bScreenHead = false,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = false,
+						bCaution = false,
+						bOnlyMe = false,
+						bOnlyMine = false,
+						bScreenHead = false,
+						nPriority = 30,
+						szReminder = "逃",
+					},
+				},
+				bCheckLevel = true,
+				dwID = 12800,
+				nLevel = 2,
+				szNote = "逃兵战场无法排队",
+			},
+			{
+				{
+					bScreenHead = false,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = false,
+						bCaution = false,
+						bOnlyMe = false,
+						bOnlyMine = false,
+						bScreenHead = false,
+						nPriority = 30,
+						szReminder = "逃",
+					},
+				},
+				dwID = 12821,
+				nLevel = 1,
+				szNote = "逃兵战场无法排队",
+			},
+			{
+				{
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						szReminder = "逃",
+					},
+				},
+				dwID = 11880,
+				nLevel = 1,
+				szNote = "消极参战竞技场无法",
 			},
 		},
 		[38] = {
@@ -8583,7 +8916,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1786121314,
+		nTimeStamp = 1786708766,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

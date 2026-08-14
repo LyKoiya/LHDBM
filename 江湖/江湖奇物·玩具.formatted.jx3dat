@@ -1,5 +1,39 @@
 return {
 	BUFF = {
+		[-7] = {
+			{
+				{
+					bBuffList = true,
+				},
+				{
+					bCenterAlarm = true,
+					bVoiceSelfOnly = true,
+					bWhisperChannel = true,
+					szVoice = "ShiYongDaoJu",
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 4805,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "套马杆",
+				tCountdown = {
+					{
+						bHold = false,
+						key = "套马杆",
+						nClass = 2,
+						nFrame = 2,
+						nIcon = 4005,
+						nRefresh = 0,
+						nTime = "2,套马杆·消失啦;10,套马杆·消失啦",
+						szName = "套马杆",
+					},
+				},
+			},
+		},
 		[-1] = {
 			{
 				{
@@ -193,9 +227,78 @@ return {
 			},
 		},
 	},
-	CHAT = {},
+	CHAT = {
+		[-7] = {
+			{
+				bReg = true,
+				col = {
+					255,
+					50,
+					50,
+				},
+				szContent = "(.-)对你使用了截元丹，你的原地复活时间被延长了。",
+				szNote = "截元丹·【{$1}】",
+				tCountdown = {
+					{
+						key = "截元丹",
+						nClass = 20,
+						nFrame = 1,
+						nIcon = 256,
+						nRefresh = 1,
+						nTime = 300,
+						szName = "截元丹·[{$1}]",
+					},
+				},
+			},
+		},
+	},
 	DEBUFF = {
+		[-7] = {
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 1742,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "截元丹·截脉",
+				tCountdown = {
+					{
+						key = "截元丹",
+						nClass = 1,
+						nFrame = 1,
+						nIcon = 346,
+						nTime = 300,
+						szName = "截元丹·【{$sender}】",
+					},
+					{
+						key = "截元丹",
+						nClass = 2,
+						nFrame = 1,
+						nIcon = 13,
+						nTime = -1,
+						szName = "截元丹",
+					},
+				},
+			},
+		},
 		[-1] = {
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				dwID = 12691,
+				nIcon = 256,
+				nLevel = 1,
+				szName = "剧毒",
+				szNote = "亡体秘录十二篇",
+			},
 			{
 				{
 					bBuffList = true,
@@ -237,7 +340,7 @@ return {
 	NPC = {},
 	TALK = {},
 	__meta = {
-		nTimeStamp = 1786690422,
+		nTimeStamp = 1786703500,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

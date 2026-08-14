@@ -1,0 +1,54 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {
+		[-21] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "鲜花束·艺人",
+					},
+				},
+				dwID = 6088,
+				szNote = "鲜花束",
+			},
+		},
+		[-7] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "鲜花束·艺人",
+					},
+				},
+				dwID = 6088,
+				szNote = "鲜花束",
+			},
+		},
+		[-2] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "鲜花束·艺人",
+					},
+				},
+				dwID = 6088,
+				szNote = "鲜花束",
+			},
+		},
+	},
+	NPC = {},
+	TALK = {},
+	__meta = {
+		nTimeStamp = 1786705852,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+	},
+}

@@ -1,0 +1,80 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {
+		[-2] = {
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 1726,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "科举·科举考试",
+				tCountdown = {
+					{
+						key = "科举考试",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 1244,
+						nRefresh = 0,
+						nTime = "60,科举考试·60秒;90,科举考试·90秒",
+						szName = "",
+					},
+					{
+						key = "科举考试",
+						nClass = 2,
+						nFrame = 5,
+						nIcon = 1244,
+						nTime = 0,
+						szName = "科举考试",
+					},
+				},
+			},
+		},
+	},
+	DOODAD = {
+		[6] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						szDisplay = "皇榜·科举",
+					},
+				},
+				dwID = 1767,
+				szNote = "科举·皇榜",
+			},
+		},
+	},
+	NPC = {
+		[6] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "吏部御史·科举奖励",
+					},
+				},
+				dwID = 6960,
+				nFrame = 47,
+				szNote = "科举·吏部御史",
+			},
+		},
+	},
+	TALK = {},
+	__meta = {
+		nTimeStamp = 1786704540,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+	},
+}
