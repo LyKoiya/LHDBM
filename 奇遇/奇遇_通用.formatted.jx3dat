@@ -5,46 +5,342 @@ return {
 				{
 					bBuffList = true,
 				},
+				dwID = 26176,
+				nIcon = 2678,
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "垂钓",
-				nIcon = 2678,
 				szNote = "醉烟波_垂钓_BUFF",
-				dwID = 26176,
 			},
 			{
 				{
 					bBuffList = true,
 					bScreenHead = true,
 				},
-				nLevel = 1,
-				nScrutinyType = 1,
 				col = {
 					0,
 					255,
 					0,
 				},
-				szName = "收竿",
-				nIcon = 19012,
-				szNote = "醉烟波_收竿_BUFF",
 				dwID = 26177,
+				nIcon = 19012,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "收竿",
+				szNote = "醉烟波_收竿_BUFF",
 			},
 		},
 	},
-	CHAT = {},
 	CASTING = {},
+	CHAT = {},
+	DEBUFF = {
+		[-1] = {
+			{
+				dwID = 15759,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "机缘·良伴",
+				tCountdown = {
+					{
+						key = "机缘",
+						nClass = 1,
+						nFrame = 5,
+						nIcon = 12373,
+						nRefresh = 9999,
+						nTime = 10,
+						szName = "机缘·良伴·宠物奇遇",
+					},
+				},
+			},
+			{
+				dwID = 28197,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "机缘·会逢",
+				tCountdown = {
+					{
+						key = "机缘",
+						nClass = 1,
+						nFrame = 1,
+						nIcon = 12371,
+						nRefresh = 9999,
+						nTime = 10,
+						szName = "机缘·会逢·普通奇遇",
+					},
+				},
+			},
+			{
+				dwID = 28198,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "机缘·无双",
+				tCountdown = {
+					{
+						key = "机缘",
+						nClass = 1,
+						nFrame = 3,
+						nIcon = 12372,
+						nRefresh = 9999,
+						nTime = 10,
+						szName = "机缘·无双·绝世奇遇",
+					},
+				},
+			},
+		},
+		[215] = {
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 10760,
+				nIcon = 331,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "QTE",
+				szNote = "千岛湖QTE触发CDbuff",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					235,
+					118,
+					38,
+				},
+				dwID = 10756,
+				nIcon = 4540,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "按1",
+				szNote = "石敢当QTE_Buff1",
+				tCountdown = {
+					{
+						key = "QTE·按1",
+						nClass = 1,
+						nFrame = 0,
+						nIcon = 4540,
+						nTime = 3.1,
+						szName = "按111",
+					},
+					{
+						key = "QTE·按1",
+						nClass = 2,
+						nIcon = 4540,
+						nTime = 0,
+						szName = "QTE·按1",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					0,
+					146,
+					234,
+				},
+				dwID = 10757,
+				nIcon = 7500,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "按2",
+				szNote = "石敢当QTE_Buff2",
+				tCountdown = {
+					{
+						key = "QTE·按2",
+						nClass = 1,
+						nFrame = 5,
+						nIcon = 7500,
+						nTime = 3.1,
+						szName = "按222",
+					},
+					{
+						key = "QTE·按2",
+						nClass = 2,
+						nIcon = 7500,
+						nTime = 0,
+						szName = "QTE·按2",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					219,
+					226,
+					68,
+				},
+				dwID = 10758,
+				nIcon = 4224,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "按3",
+				szNote = "石敢当QTE_Buff3",
+				tCountdown = {
+					{
+						key = "QTE·按3",
+						nClass = 1,
+						nFrame = 3,
+						nIcon = 4224,
+						nTime = 3.1,
+						szName = "按333",
+					},
+					{
+						key = "QTE·按3",
+						nClass = 2,
+						nIcon = 4224,
+						nTime = 0,
+						szName = "QTE·按3",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					147,
+					45,
+					228,
+				},
+				dwID = 10759,
+				nIcon = 3455,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "按4",
+				szNote = "石敢当QTE_Buff4",
+				tCountdown = {
+					{
+						key = "QTE·按4",
+						nClass = 1,
+						nFrame = 8,
+						nIcon = 3455,
+						nTime = 3.1,
+						szName = "按444",
+					},
+					{
+						key = "QTE·按4",
+						nClass = 2,
+						nIcon = 3455,
+						nTime = 0,
+						szName = "QTE·按4",
+					},
+				},
+			},
+		},
+		[332] = {
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 13987,
+				nLevel = 1,
+				szNote = "变装·隐匿",
+			},
+		},
+	},
+	DOODAD = {},
+	NPC = {
+		[159] = {
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 120,
+						szDisplay = "猴儿酒·稚子心",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 6343,
+				szName = "猴儿酒·稚子心",
+				szNote = "猴儿酒·稚子心",
+			},
+		},
+		[215] = {
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 20,
+						szDisplay = "沉甸甸的箱子·石敢当",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 51338,
+				nFrame = 47,
+				szNote = "石敢当·沉甸甸的箱子",
+			},
+		},
+		[330] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 63946,
+				nFrame = 47,
+				szNote = "小松鼠",
+			},
+		},
+	},
 	TALK = {
 		[6] = {
 			{
 				szContent = "赶紧将听到的消息转述给成步堂吧。",
 				tCountdown = {
 					{
-						nFrame = 0,
 						key = "奇遇·攻略1",
+						nClass = 14,
+						nFrame = 0,
+						nIcon = 13,
 						nTime = 20,
 						szName = "金水镇·成步堂",
-						nIcon = 13,
-						nClass = 14,
 					},
 				},
 			},
@@ -55,8 +351,57 @@ return {
 					bCenterAlarm = true,
 				},
 				szContent = "女侠我确实需要一个帮手，还请女侠凑近些说话。",
-				szTarget = "刘理阳",
 				szNote = "宠物奇遇·归安志·志",
+				szTarget = "刘理阳",
+			},
+		},
+		[74] = {
+			{
+				szContent = "唱晚池旁的李霖好像有事在找你。",
+				szNote = "奇遇·炼狱水煮鱼·改良",
+				tCountdown = {
+					{
+						key = "炼狱水煮鱼·改良1",
+						nClass = 14,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 20,
+						szName = "奇遇·炼狱水煮鱼·改良",
+					},
+					{
+						key = "炼狱水煮鱼·改良2",
+						nClass = 14,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 20,
+						szName = "唱晚池旁·李霖",
+					},
+					{
+						key = "炼狱水煮鱼·改良3",
+						nClass = 14,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 20,
+						szName = "需要准备·今朝醉·1个",
+					},
+				},
+			},
+		},
+		[215] = {
+			{
+				szContent = "少侠,箱子里就是你要的东西了。你俩下去吧。",
+				szTarget = "贾昊仁",
+				tCountdown = {
+					{
+						key = "奇遇·石敢当·提示1",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nRefresh = 7200,
+						nTime = 10,
+						szName = "交互·沉甸甸的箱子",
+					},
+				},
 			},
 		},
 		[411] = {
@@ -64,339 +409,47 @@ return {
 				szContent = "你记得易珍集那里有个伙房，不如去试试。",
 				tCountdown = {
 					{
-						nFrame = 7,
 						key = "奇遇·滴水恩·提示1",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
 						nTime = 20,
 						szName = "易珍集·蒋大厨·灶台",
-						nClass = 14,
-						nIcon = 13,
 					},
 					{
-						nFrame = 7,
 						key = "奇遇·滴水恩·提示2",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
 						nTime = 20.1,
 						szName = "不要点太快·避免错选5k金",
-						nClass = 14,
-						nIcon = 13,
 					},
 					{
-						nFrame = 7,
 						key = "奇遇·滴水恩·提示3",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
 						nTime = 20.1,
 						szName = "可直接交互·灶台",
-						nClass = 14,
-						nIcon = 13,
 					},
 					{
-						nFrame = 7,
 						key = "奇遇·滴水恩·提示4",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
 						nTime = 20.1,
 						szName = "烹饪专精|95级以上·六炉金龙丹",
-						nClass = 14,
-						nIcon = 13,
 					},
 				},
-			},
-		},
-		[215] = {
-			{
-				tCountdown = {
-					{
-						nFrame = 7,
-						key = "奇遇·石敢当·提示1",
-						nTime = 10,
-						szName = "交互·沉甸甸的箱子",
-						nRefresh = 7200,
-						nClass = 14,
-						nIcon = 13,
-					},
-				},
-				szTarget = "贾昊仁",
-				szContent = "少侠,箱子里就是你要的东西了。你俩下去吧。",
-			},
-		},
-		[74] = {
-			{
-				tCountdown = {
-					{
-						nFrame = 0,
-						key = "炼狱水煮鱼·改良1",
-						nTime = 20,
-						szName = "奇遇·炼狱水煮鱼·改良",
-						nClass = 14,
-						nIcon = 13,
-					},
-					{
-						nFrame = 0,
-						key = "炼狱水煮鱼·改良2",
-						nTime = 20,
-						szName = "唱晚池旁·李霖",
-						nClass = 14,
-						nIcon = 13,
-					},
-					{
-						nFrame = 0,
-						key = "炼狱水煮鱼·改良3",
-						nTime = 20,
-						szName = "需要准备·今朝醉·1个",
-						nClass = 14,
-						nIcon = 13,
-					},
-				},
-				szContent = "唱晚池旁的李霖好像有事在找你。",
-				szNote = "奇遇·炼狱水煮鱼·改良",
-			},
-		},
-	},
-	NPC = {
-		[159] = {
-			{
-				dwID = 6343,
-				aFocus = {
-					{
-						szDisplay = "猴儿酒·稚子心",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 120,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "猴儿酒·稚子心",
-				szName = "猴儿酒·稚子心",
-			},
-		},
-		[215] = {
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "沉甸甸的箱子·石敢当",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "石敢当·沉甸甸的箱子",
-				dwID = 51338,
-			},
-		},
-		[330] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 63946,
-				aFocus = {
-					{},
-				},
-				szNote = "小松鼠",
-				col = {
-					0,
-					255,
-					255,
-				},
-			},
-		},
-	},
-	DEBUFF = {
-		[215] = {
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 1,
-				nScrutinyType = 1,
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 10760,
-				szName = "QTE",
-				szNote = "千岛湖QTE触发CDbuff",
-				nIcon = 331,
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "按1",
-				col = {
-					235,
-					118,
-					38,
-				},
-				dwID = 10756,
-				nIcon = 4540,
-				szNote = "石敢当QTE_Buff1",
-				tCountdown = {
-					{
-						nFrame = 0,
-						key = "QTE·按1",
-						nTime = 3.1,
-						szName = "按111",
-						nClass = 1,
-						nIcon = 4540,
-					},
-					{
-						nClass = 2,
-						key = "QTE·按1",
-						nTime = 0,
-						szName = "QTE·按1",
-						nIcon = 4540,
-					},
-				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "按2",
-				col = {
-					0,
-					146,
-					234,
-				},
-				dwID = 10757,
-				nIcon = 7500,
-				szNote = "石敢当QTE_Buff2",
-				tCountdown = {
-					{
-						nFrame = 5,
-						key = "QTE·按2",
-						nTime = 3.1,
-						szName = "按222",
-						nClass = 1,
-						nIcon = 7500,
-					},
-					{
-						nClass = 2,
-						key = "QTE·按2",
-						nTime = 0,
-						szName = "QTE·按2",
-						nIcon = 7500,
-					},
-				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "按3",
-				col = {
-					219,
-					226,
-					68,
-				},
-				dwID = 10758,
-				nIcon = 4224,
-				szNote = "石敢当QTE_Buff3",
-				tCountdown = {
-					{
-						nFrame = 3,
-						key = "QTE·按3",
-						nTime = 3.1,
-						szName = "按333",
-						nClass = 1,
-						nIcon = 4224,
-					},
-					{
-						nClass = 2,
-						key = "QTE·按3",
-						nTime = 0,
-						szName = "QTE·按3",
-						nIcon = 4224,
-					},
-				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "按4",
-				col = {
-					147,
-					45,
-					228,
-				},
-				dwID = 10759,
-				nIcon = 3455,
-				szNote = "石敢当QTE_Buff4",
-				tCountdown = {
-					{
-						nFrame = 8,
-						key = "QTE·按4",
-						nTime = 3.1,
-						szName = "按444",
-						nClass = 1,
-						nIcon = 3455,
-					},
-					{
-						nClass = 2,
-						key = "QTE·按4",
-						nTime = 0,
-						szName = "QTE·按4",
-						nIcon = 3455,
-					},
-				},
-			},
-		},
-		[332] = {
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 1,
-				szNote = "变装·隐匿",
-				dwID = 13987,
 			},
 		},
 	},
 	__meta = {
-		szServer = "唯我独尊",
-		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
 		nTimeStamp = 1782993976,
+		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
-	DOODAD = {},
 }

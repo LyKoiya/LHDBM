@@ -843,6 +843,36 @@ return {
 		},
 	},
 	NPC = {
+		[6] = {
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 30,
+						szDisplay = "罗掌柜·小吃商",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 390,
+				nFrame = 47,
+				szNote = "小吃商·罗掌柜",
+			},
+		},
 		[8] = {
 			{
 				aFocus = {
@@ -997,6 +1027,36 @@ return {
 				szNote = "隐藏任务·颜如烟",
 			},
 		},
+		[22] = {
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 60,
+						szDisplay = "钱德利·游商",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 5429,
+				nFrame = 47,
+				szNote = "货商人·钱德利·书",
+			},
+		},
 		[23] = {
 			{
 				aFocus = {
@@ -1149,6 +1209,64 @@ return {
 				szNote = "不显眼的冰石·特效武",
 			},
 		},
+		[101] = {
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "竹儿·孔雀湖·飞行",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 14252,
+				nFrame = 47,
+				szNote = "传送·竹儿",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 50,
+						szDisplay = "孔雀·乌蒙后山·传送",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 12137,
+				nFrame = 60,
+				szNote = "传送·孔雀",
+			},
+		},
 		[105] = {
 			{
 				[3] = {
@@ -1198,6 +1316,42 @@ return {
 				dwID = 19433,
 				nFrame = 52,
 				szNote = "罐子",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 30,
+						szDisplay = "庄正·传送",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 19209,
+				nFrame = 47,
+				szNote = "传送·庄正",
 			},
 		},
 		[151] = {
@@ -1611,6 +1765,36 @@ return {
 				szNote = "高分球+8",
 			},
 		},
+		[334] = {
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 20,
+						szDisplay = "传送·洞天福地岛",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 62187,
+				nFrame = 47,
+				szNote = "传送·洞天福地岛",
+			},
+		},
 		[475] = {
 			{
 				aFocus = {
@@ -1829,7 +2013,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1785413324,
+		nTimeStamp = 1786710464,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

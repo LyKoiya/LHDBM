@@ -1,0 +1,222 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {
+		[-21] = {
+			{
+				[20] = {
+					bCenterAlarm = true,
+				},
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "江湖快报！卫栖梧正在寻找绝世轻功之人，其友[唐文羽]已在少林举办梅花桩试炼大赛，望广大轻功能人速来少林参赛！\
+",
+				szNote = "扶摇九天·开启",
+				tCountdown = {
+					{
+						key = "扶摇九天",
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 30,
+						szName = "少林·扶摇九天·开启",
+					},
+				},
+			},
+		},
+		[-17] = {
+			{
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "江湖快报！卫栖梧正在寻找绝世轻功之人，其友[唐文羽]已在少林举办梅花桩试炼大赛，望广大轻功能人速来少林参赛！\
+",
+				szNote = "扶摇九天·开启",
+				tCountdown = {
+					{
+						key = "扶摇九天",
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 10,
+						szName = "少林·扶摇九天·开启",
+					},
+				},
+			},
+		},
+		[-7] = {
+			{
+				[20] = {
+					bCenterAlarm = true,
+				},
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "江湖快报！卫栖梧正在寻找绝世轻功之人，其友[唐文羽]已在少林举办梅花桩试炼大赛，望广大轻功能人速来少林参赛！\
+",
+				szNote = "扶摇九天·开启",
+				tCountdown = {
+					{
+						key = "扶摇九天",
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 30,
+						szName = "少林·扶摇九天·开启",
+					},
+				},
+			},
+		},
+		[-5] = {
+			{
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "江湖快报！卫栖梧正在寻找绝世轻功之人，其友[唐文羽]已在少林举办梅花桩试炼大赛，望广大轻功能人速来少林参赛！\
+",
+				szNote = "扶摇九天·开启",
+				tCountdown = {
+					{
+						key = "扶摇九天",
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 10,
+						szName = "少林·扶摇九天·开启",
+					},
+				},
+			},
+		},
+		[-4] = {
+			{
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "江湖快报！卫栖梧正在寻找绝世轻功之人，其友[唐文羽]已在少林举办梅花桩试炼大赛，望广大轻功能人速来少林参赛！\
+",
+				szNote = "扶摇九天·开启",
+				tCountdown = {
+					{
+						key = "扶摇九天",
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 30,
+						szName = "少林·扶摇九天·开启",
+					},
+				},
+			},
+		},
+		[-2] = {
+			{
+				[20] = {
+					bCenterAlarm = true,
+				},
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "江湖快报！卫栖梧正在寻找绝世轻功之人，其友[唐文羽]已在少林举办梅花桩试炼大赛，望广大轻功能人速来少林参赛！\
+",
+				szNote = "扶摇九天·开启",
+				tCountdown = {
+					{
+						key = "扶摇九天",
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 30,
+						szName = "少林·扶摇九天·开启",
+					},
+				},
+			},
+		},
+		[-1] = {
+			{
+				bReg = true,
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "^唐文羽：梅花桩试炼结束！侠士%[(.-)、(.-)%]通过梅花桩试炼，与我甚是有缘！请速来少林，我有要事相告！因琐事繁忙，在下只在少林等候半个时辰，过时不候。",
+				szNote = "扶摇九天·[{$1}]·[{$2}]·触发奇遇",
+				tCountdown = {
+					{
+						key = "扶摇九天",
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 10,
+						szName = "扶摇九天·[{$1}]·[{$2}]",
+					},
+					{
+						key = "扶摇九天·{$1}",
+						nClass = 20,
+						nIcon = 1465,
+						nRefresh = 2,
+						nTime = -2,
+						szName = "扶摇九天·{$1}",
+					},
+					{
+						key = "扶摇九天·{$2}",
+						nClass = 20,
+						nIcon = 1465,
+						nRefresh = 2,
+						nTime = -2,
+						szName = "扶摇九天·{$2}",
+					},
+					{
+						key = "扶摇九天·{$me}",
+						nClass = 20,
+						nIcon = 13,
+						nTime = -2,
+						szName = "扶摇九天·{$me}",
+					},
+					{
+						key = "扶摇九天·{$1}",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 12371,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "你·触发奇遇·扶摇九天",
+					},
+					{
+						key = "扶摇九天·{$2}",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 12371,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "你·触发奇遇·扶摇九天",
+					},
+				},
+			},
+		},
+	},
+	DEBUFF = {},
+	DOODAD = {},
+	NPC = {},
+	TALK = {},
+	__meta = {
+		nTimeStamp = 1786708230,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+	},
+}

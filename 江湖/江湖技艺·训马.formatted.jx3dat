@@ -1,6 +1,266 @@
 return {
 	BUFF = {
+		[-21] = {
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8607,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "气力",
+				szNote = "气力·调息",
+				tCountdown = {
+					{
+						key = "骑御·调息",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 6678,
+						nTime = 0,
+						szName = "骑御·调息",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				aCataclysmBuff = {},
+				dwID = 8477,
+				nIcon = 6491,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "劲足",
+				szNote = "劲足",
+				tCountdown = {
+					{
+						key = "骑御·调息",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 6491,
+						nRefresh = 300,
+						nTime = 0.5,
+						szName = "骑御·劲足",
+					},
+					{
+						key = "骑御·劲足",
+						nClass = 2,
+						nFrame = 1,
+						nIcon = 6491,
+						nRefresh = 5,
+						nTime = 3,
+						szName = "劲足·已消失",
+					},
+				},
+			},
+			{
+				bCheckLevel = true,
+				dwID = 244,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "骑御",
+				tCountdown = {
+					{
+						key = "骑御·调息",
+						nClass = 2,
+						nFrame = 6,
+						nIcon = 6678,
+						nTime = -1,
+						szName = "骑御·调息",
+					},
+					{
+						key = "骑御·调息",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 6678,
+						nRefresh = 0,
+						nTime = "18.8,调息·7级·触发剩余;22.8,调息·5级·触发剩余",
+						szName = "调息7级·buff触发倒计时",
+					},
+				},
+			},
+		},
+		[-20] = {
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8606,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "抗摔",
+				szNote = "抗摔·强健",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8607,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "气力",
+				szNote = "气力·调息",
+				tCountdown = {
+					{
+						key = "骑御·调息",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 6678,
+						nTime = 0,
+						szName = "骑御·调息",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				aCataclysmBuff = {},
+				dwID = 8477,
+				nIcon = 6491,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "劲足",
+				szNote = "劲足",
+				tCountdown = {
+					{
+						key = "骑御·调息",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 6491,
+						nRefresh = 300,
+						nTime = 0.5,
+						szName = "骑御·劲足",
+					},
+					{
+						key = "骑御·劲足",
+						nClass = 2,
+						nFrame = 1,
+						nIcon = 6491,
+						nRefresh = 5,
+						nTime = 3,
+						szName = "劲足·已消失",
+					},
+				},
+			},
+			{
+				bCheckLevel = true,
+				dwID = 244,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "骑御",
+				tCountdown = {
+					{
+						key = "骑御·调息",
+						nClass = 2,
+						nFrame = 6,
+						nIcon = 6678,
+						nTime = -1,
+						szName = "骑御·调息",
+					},
+					{
+						key = "骑御·调息",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 6678,
+						nRefresh = 0,
+						nTime = "18.8,调息·7级·触发剩余;22.8,调息·5级·触发剩余",
+						szName = "调息7级·buff触发倒计时",
+					},
+				},
+			},
+		},
+		[-19] = {
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8606,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "抗摔",
+				szNote = "抗摔·强健",
+			},
+		},
 		[-7] = {
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8607,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "气力",
+				szNote = "气力·调息",
+				tCountdown = {
+					{
+						key = "骑御·调息",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 6678,
+						nTime = 0,
+						szName = "骑御·调息",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				aCataclysmBuff = {},
+				dwID = 8477,
+				nIcon = 6491,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "劲足",
+				szNote = "劲足",
+				tCountdown = {
+					{
+						key = "骑御·调息",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 6491,
+						nRefresh = 300,
+						nTime = 0.5,
+						szName = "骑御·劲足",
+					},
+					{
+						key = "骑御·劲足",
+						nClass = 2,
+						nFrame = 1,
+						nIcon = 6491,
+						nRefresh = 5,
+						nTime = 3,
+						szName = "劲足·已消失",
+					},
+				},
+			},
+			{
+				bCheckLevel = true,
+				dwID = 244,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "骑御",
+				tCountdown = {
+					{
+						key = "骑御·调息",
+						nClass = 2,
+						nFrame = 6,
+						nIcon = 6678,
+						nTime = -1,
+						szName = "骑御·调息",
+					},
+					{
+						key = "骑御·调息",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 6678,
+						nRefresh = 0,
+						nTime = "18.8,调息·7级·触发剩余;22.8,调息·5级·触发剩余",
+						szName = "调息7级·buff触发倒计时",
+					},
+				},
+			},
 			{
 				[2] = {
 					bCenterAlarm = true,
@@ -59,53 +319,250 @@ return {
 					},
 				},
 			},
+		},
+		[-1] = {
 			{
 				{
 					bBuffList = true,
 				},
-				{
-					bCenterAlarm = true,
-					bVoiceSelfOnly = true,
-					bWhisperChannel = true,
-					szVoice = "ShiYongDaoJu",
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 4805,
+				dwID = 8477,
+				nIcon = 6491,
 				nLevel = 1,
 				nScrutinyType = 1,
-				szNote = "套马杆",
+				szName = "劲足",
+				szNote = "劲足",
 				tCountdown = {
 					{
-						bHold = false,
-						key = "套马杆",
+						key = "骑御·调息",
+						nClass = 1,
+						nIcon = 6678,
+						nTime = -1,
+						szName = "骑御·调息",
+					},
+					{
+						key = "骑御·劲足",
 						nClass = 2,
-						nFrame = 2,
-						nIcon = 4005,
+						nFrame = 4,
+						nIcon = 6491,
+						nRefresh = 5,
+						nTime = 3,
+						szName = "劲足·已消失",
+					},
+				},
+			},
+			{
+				dwID = 244,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "骑御",
+				tCountdown = {
+					{
+						key = "骑御·劲足",
+						nClass = 2,
+						nIcon = 6491,
+						nRefresh = 5,
+						nTime = -1,
+						szName = "骑御·劲足",
+					},
+					{
+						key = "骑御·调息",
+						nClass = 2,
+						nFrame = 6,
+						nIcon = 6678,
+						nTime = -1,
+						szName = "骑御·调息",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8611,
+				nIcon = 6507,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "速10",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8656,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "骑术",
+			},
+		},
+		[50] = {
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8607,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "气力",
+				szNote = "气力·调息",
+				tCountdown = {
+					{
+						key = "骑御·调息",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 6678,
+						nTime = 0,
+						szName = "骑御·调息",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8477,
+				nIcon = 6491,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "劲足",
+				szNote = "速度·劲足",
+				tCountdown = {
+					{
+						key = "骑御·调息",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 6491,
+						nRefresh = 300,
+						nTime = 0.5,
+						szName = "骑御·劲足",
+					},
+					{
+						key = "骑御·劲足",
+						nClass = 2,
+						nFrame = 1,
+						nIcon = 6491,
+						nRefresh = 5,
+						nTime = 3,
+						szName = "劲足·已消失",
+					},
+				},
+			},
+			{
+				bCheckLevel = true,
+				dwID = 244,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "骑御",
+				tCountdown = {
+					{
+						key = "骑御·调息",
+						nClass = 2,
+						nFrame = 6,
+						nIcon = 6678,
+						nTime = -1,
+						szName = "骑御·调息",
+					},
+					{
+						key = "骑御·调息",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 6678,
 						nRefresh = 0,
-						nTime = "2,套马杆·消失啦;10,套马杆·消失啦",
-						szName = "套马杆",
+						nTime = "18.8,调息·7级·触发剩余;22.8,调息·5级·触发剩余",
+						szName = "骑御·调息",
 					},
 				},
 			},
 		},
-		[-3] = {
+		[74] = {
 			{
-				col = {
-					255,
-					255,
-					0,
+				{
+					bBuffList = true,
 				},
-				dwID = 4805,
+				dwID = 8607,
 				nLevel = 1,
 				nScrutinyType = 1,
-				szNote = "套马杆",
+				szName = "气力",
+				szNote = "气力·调息",
+				tCountdown = {
+					{
+						key = "骑御·调息",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 6678,
+						nTime = 0,
+						szName = "骑御·调息",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8477,
+				nIcon = 6491,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "劲足",
+				szNote = "速度·劲足",
+				tCountdown = {
+					{
+						key = "骑御·调息",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 6491,
+						nRefresh = 300,
+						nTime = 0.5,
+						szName = "骑御·劲足",
+					},
+					{
+						key = "骑御·劲足",
+						nClass = 2,
+						nFrame = 1,
+						nIcon = 6491,
+						nRefresh = 5,
+						nTime = 3,
+						szName = "劲足·已消失",
+					},
+				},
+			},
+			{
+				bCheckLevel = true,
+				dwID = 244,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "骑御",
+				tCountdown = {
+					{
+						key = "骑御·调息",
+						nClass = 2,
+						nFrame = 6,
+						nIcon = 6678,
+						nTime = -1,
+						szName = "骑御·调息",
+					},
+					{
+						key = "骑御·调息",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 6678,
+						nRefresh = 0,
+						nTime = "18.8,调息·7级·触发剩余;22.8,调息·5级·触发剩余",
+						szName = "骑御·调息",
+					},
+				},
 			},
 		},
 		[216] = {
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8606,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "抗摔",
+				szNote = "抗摔·强健",
+			},
 			{
 				dwID = 16499,
 				nLevel = 1,
@@ -360,8 +817,37 @@ return {
 				},
 			},
 		},
+		[656] = {
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8606,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "抗摔",
+				szNote = "抗摔·强健",
+			},
+		},
 	},
 	CASTING = {
+		[-19] = {
+			{
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					255,
+					255,
+					100,
+				},
+				dwID = 38096,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "进战移动上马",
+				szNote = "战斗移动骑乘",
+			},
+		},
 		[-7] = {
 			{
 				[8] = {
@@ -390,6 +876,32 @@ return {
 						nIcon = 3481,
 						nTime = -1,
 						szName = "套马",
+					},
+				},
+			},
+		},
+		[-1] = {
+			{
+				dwID = 54,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "下马",
+				tCountdown = {
+					{
+						key = "骑御·劲足",
+						nClass = 9,
+						nIcon = 6491,
+						nRefresh = 5,
+						nTime = -1,
+						szName = "骑御·劲足",
+					},
+					{
+						key = "骑御·调息",
+						nClass = 9,
+						nFrame = 6,
+						nIcon = 6678,
+						nTime = -1,
+						szName = "骑御·调息",
 					},
 				},
 			},
@@ -520,6 +1032,40 @@ return {
 				dwID = 23424,
 				nLevel = 1,
 				nScrutinyType = 1,
+			},
+		},
+		[689] = {
+			{
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					255,
+					255,
+					100,
+				},
+				dwID = 38096,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "进战移动上马",
+				szNote = "战斗移动骑乘",
+			},
+		},
+		[712] = {
+			{
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					255,
+					255,
+					100,
+				},
+				dwID = 38096,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "进战移动上马",
+				szNote = "战斗移动骑乘",
 			},
 		},
 	},
@@ -978,6 +1524,42 @@ return {
 		},
 	},
 	DEBUFF = {
+		[-1] = {
+			{
+				bCheckLevel = true,
+				dwID = 8475,
+				nIcon = 6700,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "乘骑中",
+				szNote = "乘骑监控",
+				tCountdown = {
+					{
+						key = "骑御·劲足",
+						nClass = 2,
+						nIcon = 6491,
+						nRefresh = 5,
+						nTime = -1,
+						szName = "骑御·劲足",
+					},
+					{
+						key = "骑御·调息",
+						nClass = 2,
+						nFrame = 6,
+						nIcon = 6678,
+						nTime = -1,
+						szName = "骑御·调息",
+					},
+				},
+			},
+			{
+				dwID = 8609,
+				nIcon = 12450,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "损10",
+			},
+		},
 		[216] = {
 			{
 				{
@@ -4057,7 +4639,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1785418319,
+		nTimeStamp = 1786703399,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

@@ -1,0 +1,41 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {},
+	NPC = {
+		[-1] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						szDisplay = "穿山甲",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 64661,
+				nFrame = 47,
+				szNote = "江湖技艺·采金·穿山甲",
+			},
+		},
+	},
+	TALK = {},
+	__meta = {
+		nTimeStamp = 1786707032,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+	},
+}
