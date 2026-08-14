@@ -116,6 +116,43 @@ return {
 					0,
 				},
 			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 36659,
+				szNote = "ÍÚ±¦¡¤ºé´óÎé",
+				col = {
+					0,
+					255,
+					0,
+				},
+			},
+			{
+				nFrame = 47,
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 36663,
+				aFocus = {
+					{
+						szDisplay = "Áõæþ",
+						tRelation = {
+							bAlly = false,
+							bAll = false,
+							bEnemy = true,
+						},
+						nMaxDistance = 30,
+						tLife = {
+							szOperator = ">",
+							nValue = 0,
+							bEnable = false,
+						},
+					},
+				},
+				szNote = "ÍÚ±¦¡¤Áõæþ",
+			},
 		},
 		[190] = {
 			{
