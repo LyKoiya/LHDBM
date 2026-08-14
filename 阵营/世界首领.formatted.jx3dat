@@ -14,7 +14,7 @@ return {
 				szNote = "世界首领·拍卖掉落",
 				tCountdown = {
 					{
-						key = "阵营活动",
+						key = "拍卖分红",
 						nClass = 20,
 						nFrame = 0,
 						nIcon = 13,
@@ -57,7 +57,7 @@ return {
 				szNote = "世界首领·拍卖掉落",
 				tCountdown = {
 					{
-						key = "阵营活动",
+						key = "拍卖分红",
 						nClass = 20,
 						nFrame = 0,
 						nIcon = 13,
@@ -100,7 +100,7 @@ return {
 				szNote = "世界首领·拍卖掉落",
 				tCountdown = {
 					{
-						key = "阵营活动",
+						key = "拍卖分红",
 						nClass = 20,
 						nFrame = 0,
 						nIcon = 13,
@@ -154,16 +154,8 @@ return {
 					{
 						key = "拍卖分红",
 						nClass = 20,
-						nIcon = 13,
-						nTime = -2,
-						szName = "拍卖分红",
-					},
-					{
-						key = "拍卖分红",
-						nClass = 20,
 						nFrame = 1,
 						nIcon = 13547,
-						nRefresh = 7200,
 						nTime = 10,
 						szName = "世界首领·拾取战利品",
 					},
@@ -184,7 +176,6 @@ return {
 						nClass = 1,
 						nFrame = 0,
 						nIcon = 13547,
-						nRefresh = 7200,
 						nTime = 20,
 						szName = "拍卖分红·已获得",
 					},
@@ -201,7 +192,6 @@ return {
 						nClass = 1,
 						nFrame = 0,
 						nIcon = 13547,
-						nRefresh = 7200,
 						nTime = 20,
 						szName = "拍卖分红·已获得",
 					},
@@ -218,7 +208,6 @@ return {
 						nClass = 1,
 						nFrame = 0,
 						nIcon = 13547,
-						nRefresh = 7200,
 						nTime = 20,
 						szName = "拍卖分红·已获得",
 					},

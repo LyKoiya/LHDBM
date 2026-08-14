@@ -1,0 +1,448 @@
+return {
+	BUFF = {
+		[330] = {
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bScreenHead = true,
+						col = "#B3EE3AFF",
+						colScreenHead = "#B3EE3A",
+						nColAlpha = 255,
+						nPriority = 2,
+						szReminder = "踪",
+					},
+				},
+				col = {
+					179,
+					238,
+					58,
+				},
+				dwID = 27490,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "驰踪令",
+				szNote = "抓捕的卢时不可选中",
+				tCountdown = {
+					{
+						key = "驰踪令·专注",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 4408,
+						nTime = 20,
+						szName = "驰踪令·无法选中",
+					},
+					{
+						key = "驰踪令·专注",
+						nClass = 2,
+						nFrame = 5,
+						nIcon = 4408,
+						nTime = 0,
+						szName = "驰踪令·专注",
+					},
+				},
+			},
+		},
+	},
+	CASTING = {
+		[330] = {
+			{
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 7612,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "套马",
+						nClass = 8,
+						nFrame = 4,
+						nIcon = 3481,
+						nTime = 10,
+						szName = "套马【{$receiver}】",
+					},
+					{
+						key = "套马",
+						nClass = 9,
+						nFrame = 4,
+						nIcon = 3481,
+						nRefresh = 0,
+						nTime = "30,套马·CD;32,套马·就绪",
+						szName = "套马·CD",
+					},
+				},
+			},
+		},
+	},
+	CHAT = {
+		[-21] = {
+			{
+				szContent = "正在拍卖龙骧驰竞活动专属稀有物品，内含最高移速坐骑及珍稀马饰，诸位侠士们切勿错过！！！\
+",
+				szNote = "龙骧驰竞·拍卖掉落",
+				tCountdown = {
+					{
+						key = "拍卖分红",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 30,
+						szName = "龙骧驰竞·拍卖掉落",
+					},
+				},
+			},
+		},
+		[-7] = {
+			{
+				szContent = "正在拍卖龙骧驰竞活动专属稀有物品，内含最高移速坐骑及珍稀马饰，诸位侠士们切勿错过！！！\
+",
+				szNote = "龙骧驰竞·拍卖掉落",
+				tCountdown = {
+					{
+						key = "拍卖分红",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 30,
+						szName = "龙骧驰竞·拍卖掉落",
+					},
+				},
+			},
+		},
+		[-2] = {
+			{
+				szContent = "正在拍卖龙骧驰竞活动专属稀有物品，内含最高移速坐骑及珍稀马饰，诸位侠士们切勿错过！！！\
+",
+				szNote = "龙骧驰竞·拍卖掉落",
+				tCountdown = {
+					{
+						key = "拍卖分红",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 30,
+						szName = "龙骧驰竞·拍卖掉落",
+					},
+				},
+			},
+		},
+		[-1] = {
+			{
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "龙骧驰竞排队正式开始，侠士们速速前往龙泉府地图参与排队。\
+",
+				szNote = "龙骧驰竞·排队开始",
+				tCountdown = {
+					{
+						key = "阵营活动",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 5815,
+						nRefresh = 1,
+						nTime = "1,的卢·龙泉府·开始排队;10,的卢·龙泉府·开始排队;60,的卢·龙泉府·等待排队",
+						szName = "的卢·龙泉府·开始排队",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "龙骧驰竞即将开始，为防弄虚作假者，即将对“龙泉府”地图进行清场操作，并在“21：10”开始排队，请勿在21：10前排队，将被视为无效，请侠士们提前做好准备。\
+",
+				tCountdown = {
+					{
+						bHold = true,
+						key = "阵营活动",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 1465,
+						nTime = 599.795,
+						szName = "龙骧驰竞·消失模式",
+					},
+				},
+			},
+		},
+		[330] = {
+			{
+				[20] = {
+					bCenterAlarm = true,
+					bFullScreen = true,
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				szContent = "的卢已经出现在龙泉府中，浩气盟和恶人谷的侠士可前去尝试抓捕！\
+",
+				szNote = "龙泉府·的卢·出山",
+				tCountdown = {
+					{
+						key = "阵营活动",
+						nClass = 20,
+						nFrame = 8,
+						nIcon = 21034,
+						nRefresh = 1,
+						nTime = "600,的卢·保护剩余;610,的卢·保护结束",
+						szName = "的卢·保护剩余",
+					},
+				},
+			},
+			{
+				[20] = {
+					bCenterAlarm = true,
+					bFullScreen = true,
+					bTeamChannel = true,
+				},
+				bReg = true,
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "^江湖快马飞报！恶人谷侠士“(.-)”在龙泉府捕获(%d-)级稀有坐骑[马]-“(.-)”",
+				szNote = "恶人谷·[{$1}]·捕获·{$3}",
+				tCountdown = {
+					{
+						key = "阵营活动",
+						nClass = 20,
+						nFrame = 3,
+						nIcon = 21034,
+						nTime = 60,
+						szName = "恶人谷[{$1}]捕获·{$3}",
+					},
+					{
+						key = "套马",
+						nClass = 20,
+						nIcon = 13,
+						nTime = -1,
+						szName = "套马",
+					},
+				},
+			},
+			{
+				[20] = {
+					bCenterAlarm = true,
+					bFullScreen = true,
+					bTeamChannel = true,
+				},
+				bReg = true,
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "^江湖快马飞报！浩气盟侠士“(.-)”在龙泉府捕获(%d-)级稀有坐骑[马]-“(.-)”",
+				szNote = "浩气盟·[{$1}]·捕获·{$3}",
+				tCountdown = {
+					{
+						key = "阵营活动",
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 21034,
+						nTime = 60,
+						szName = "浩气盟[{$1}]捕获·{$3}",
+					},
+					{
+						key = "套马",
+						nClass = 20,
+						nIcon = 13,
+						nTime = -1,
+						szName = "套马",
+					},
+				},
+			},
+			{
+				[20] = {
+					bCenterAlarm = true,
+					bFullScreen = true,
+					bTeamChannel = true,
+				},
+				bReg = true,
+				col = {
+					255,
+					255,
+					255,
+				},
+				szContent = "^江湖快马飞报！(.-)侠士“(.-)”在龙泉府捕获(%d-)级稀有坐骑[马]-“(.-)”",
+				szNote = "{$1}[{$2}]·捕获·{$4}",
+				tCountdown = {
+					{
+						key = "阵营活动",
+						nClass = 20,
+						nFrame = 8,
+						nIcon = 21034,
+						nTime = 60,
+						szName = "{$1}[{$2}]捕获·{$4}",
+					},
+				},
+			},
+		},
+	},
+	DEBUFF = {
+		[330] = {
+			{
+				dwID = 26817,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "勇武",
+			},
+		},
+	},
+	DOODAD = {
+		[330] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 120,
+						szDisplay = "的卢·宝堆",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 10371,
+				szName = "的卢·宝堆",
+				szNote = "的卢·宝堆",
+			},
+		},
+	},
+	NPC = {
+		[330] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+					tMark = {
+						true,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+					},
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 30,
+						szDisplay = "的卢·30尺",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						dwMapID = -1,
+						nMaxDistance = 40,
+						szDisplay = "的卢·40尺",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						dwMapID = -1,
+						nMaxDistance = 0,
+						szDisplay = "的卢",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 123946,
+				nFrame = 47,
+				szNote = "的卢",
+			},
+		},
+	},
+	TALK = {
+		[330] = {
+			{
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "龙骧驰竞活动在即，为公平起见，侠士将在30秒后被传出本图，活动排队将在21：10分正式开始，请做好准备。",
+				szNote = "龙骧驰竞·清图离开",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "挂机检测",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = "30,龙骧驰竞·的卢·传送剩余;32,龙骧驰竞·的卢·清图传送",
+						szName = "龙骧驰竞·清图传送",
+					},
+				},
+			},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1786717050,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+	},
+}
