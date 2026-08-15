@@ -41087,7 +41087,7 @@ return {
 				szNote = "据点攻防·拍卖掉落",
 				tCountdown = {
 					{
-						key = "阵营活动",
+						key = "拍卖分红",
 						nClass = 20,
 						nFrame = 0,
 						nIcon = 13,
@@ -41107,7 +41107,7 @@ return {
 				szNote = "阵营攻防·拍卖掉落",
 				tCountdown = {
 					{
-						key = "阵营活动",
+						key = "拍卖分红",
 						nClass = 20,
 						nFrame = 0,
 						nIcon = 13,
@@ -41929,30 +41929,10 @@ return {
 			{
 				szContent = "交易行私货正在拍卖九寨沟·镜海7200平【万年金券】，侠士们切勿错过！\
 ",
-				tCountdown = {
-					{
-						key = "交易行·拍卖私货",
-						nClass = 20,
-						nFrame = 0,
-						nIcon = 11432,
-						nTime = 10,
-						szName = "私货·九寨沟·镜海·万年金券",
-					},
-				},
 			},
 			{
 				szContent = "交易行私货正在拍卖广陵邑7200平【园宅置业·天苑】，侠士们切勿错过！\
 ",
-				tCountdown = {
-					{
-						key = "交易行·拍卖私货",
-						nClass = 20,
-						nFrame = 0,
-						nIcon = 12461,
-						nTime = 10,
-						szName = "私货·广陵邑·天苑·园宅置业",
-					},
-				},
 			},
 			{
 				[20] = {
@@ -43706,7 +43686,7 @@ return {
 				szNote = "阵营攻防·拍卖掉落",
 				tCountdown = {
 					{
-						key = "阵营活动",
+						key = "拍卖分红",
 						nClass = 20,
 						nFrame = 0,
 						nIcon = 13,
@@ -45116,7 +45096,7 @@ return {
 				szNote = "据点攻防·拍卖掉落",
 				tCountdown = {
 					{
-						key = "阵营活动",
+						key = "拍卖分红",
 						nClass = 20,
 						nFrame = 0,
 						nIcon = 13,
@@ -45227,7 +45207,7 @@ return {
 				szNote = "阵营攻防·拍卖掉落",
 				tCountdown = {
 					{
-						key = "阵营活动",
+						key = "拍卖分红",
 						nClass = 20,
 						nFrame = 0,
 						nIcon = 13,
@@ -48136,7 +48116,7 @@ return {
 				szNote = "据点攻防·拍卖掉落",
 				tCountdown = {
 					{
-						key = "阵营活动",
+						key = "拍卖分红",
 						nClass = 20,
 						nFrame = 0,
 						nIcon = 13,
@@ -48156,7 +48136,7 @@ return {
 				szNote = "阵营攻防·拍卖掉落",
 				tCountdown = {
 					{
-						key = "阵营活动",
+						key = "拍卖分红",
 						nClass = 20,
 						nFrame = 0,
 						nIcon = 13,
@@ -48860,30 +48840,10 @@ return {
 			{
 				szContent = "交易行私货正在拍卖广陵邑7200平【园宅置业·天苑】，侠士们切勿错过！\
 ",
-				tCountdown = {
-					{
-						key = "交易行·拍卖私货",
-						nClass = 20,
-						nFrame = 0,
-						nIcon = 12461,
-						nTime = 10,
-						szName = "私货·广陵邑·天苑·园宅置业",
-					},
-				},
 			},
 			{
 				szContent = "交易行私货正在拍卖九寨沟·镜海7200平【万年金券】，侠士们切勿错过！\
 ",
-				tCountdown = {
-					{
-						key = "交易行·拍卖私货",
-						nClass = 20,
-						nFrame = 0,
-						nIcon = 11432,
-						nTime = 10,
-						szName = "私货·九寨沟·镜海·万年金券",
-					},
-				},
 			},
 			{
 				[20] = {
@@ -56960,7 +56920,7 @@ return {
 				szNote = "据点攻防·拍卖掉落",
 				tCountdown = {
 					{
-						key = "阵营活动",
+						key = "拍卖分红",
 						nClass = 20,
 						nFrame = 0,
 						nIcon = 13,
@@ -56980,7 +56940,7 @@ return {
 				szNote = "阵营攻防·拍卖掉落",
 				tCountdown = {
 					{
-						key = "阵营活动",
+						key = "拍卖分红",
 						nClass = 20,
 						nFrame = 0,
 						nIcon = 13,
