@@ -36,6 +36,33 @@ return {
 		},
 		[-1] = {
 			{
+				dwID = 2993,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "蛋叉叔叔的糖葫芦",
+				tCountdown = {
+					{
+						key = "蛋叉叔叔的糖葫芦",
+						nClass = 1,
+						nIcon = 2178,
+						nRefresh = 1800,
+						nTime = 10,
+						szName = "蛋叉叔叔的糖葫芦",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 29765,
+				nIcon = 3818,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "测距",
+				szNote = "玩具·通用NPC检测标记buff",
+			},
+			{
 				{
 					bBuffList = true,
 				},
@@ -175,20 +202,25 @@ return {
 				szNote = "奇物·白羽焰翼",
 			},
 			{
-				dwID = 2993,
+				{
+					bBuffList = true,
+				},
+				dwID = 23875,
+				nIcon = 17493,
+				nLevel = 1,
+				szName = "特效",
+				szNote = "玩具·彩隙沉影灯·弄棠·基佬紫灯玩家特效",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 1422,
+				nIcon = 2154,
 				nLevel = 1,
 				nScrutinyType = 1,
-				szNote = "蛋叉叔叔的糖葫芦",
-				tCountdown = {
-					{
-						key = "蛋叉叔叔的糖葫芦",
-						nClass = 1,
-						nIcon = 2178,
-						nRefresh = 1800,
-						nTime = 10,
-						szName = "蛋叉叔叔的糖葫芦",
-					},
-				},
+				szName = "灯笼",
+				szNote = "玩具·提灯笼",
 			},
 		},
 	},
@@ -293,17 +325,6 @@ return {
 					bBuffList = true,
 					bTeamPanel = true,
 				},
-				dwID = 12691,
-				nIcon = 256,
-				nLevel = 1,
-				szName = "剧毒",
-				szNote = "亡体秘录十二篇",
-			},
-			{
-				{
-					bBuffList = true,
-					bTeamPanel = true,
-				},
 				dwID = 9154,
 				nLevel = 1,
 				nScrutinyType = 2,
@@ -320,6 +341,68 @@ return {
 				},
 			},
 			{
+				{
+					bBuffList = true,
+				},
+				dwID = 26450,
+				nIcon = 19419,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "九天浪",
+				szNote = "玩具·九天浪·浪客行水球玩具触摸cd",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				{},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 27967,
+				nIcon = 21707,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "舞狮",
+				szNote = "玩具·灵猊舞·舞狮技能跳数",
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 33003,
+				nIcon = 26047,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "消消乐",
+				szNote = "玩具·宵宵乐乐",
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 33889,
+				nIcon = 27577,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "游玩",
+				szNote = "玩具·粽小甜",
+			},
+			{
 				dwID = 14410,
 				nLevel = 1,
 				nScrutinyType = 1,
@@ -334,13 +417,48 @@ return {
 					},
 				},
 			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				dwID = 12691,
+				nIcon = 256,
+				nLevel = 1,
+				szName = "剧毒",
+				szNote = "亡体秘录十二篇",
+			},
 		},
 	},
 	DOODAD = {},
 	NPC = {},
-	TALK = {},
+	TALK = {
+		[-1] = {
+			{
+				bReg = true,
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "^你不能在%[(.-)%]附近(%d-)尺内执行此操作。",
+				szNote = "注意·[{$1}]·限制{$2}尺",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "限制事件",
+						nClass = 14,
+						nFrame = 2,
+						nIcon = 13,
+						nTime = 3,
+						szName = "注意·[{$1}]·限制{$2}尺",
+					},
+				},
+			},
+		},
+	},
 	__meta = {
-		nTimeStamp = 1786703500,
+		nTimeStamp = 1786887125,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
