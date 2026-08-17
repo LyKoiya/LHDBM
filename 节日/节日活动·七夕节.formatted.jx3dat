@@ -4,25 +4,13 @@ return {
 			{
 				{
 					bBuffList = true,
+					bTeamPanel = true,
 				},
-				tCountdown = {
+				aCataclysmBuff = {
 					{
-						nClass = 1,
-						key = "节日活动1",
-						nTime = 120,
-						szName = "挑战·计时剩余",
-						nFrame = 6,
-						nIcon = 2128,
-					},
-					{
-						nIcon = 2128,
-						key = "节日活动1",
-						nTime = 0,
-						szName = "节日活动1",
-						nClass = 2,
+						nPriority = 1,
 					},
 				},
-				nScrutinyType = 1,
 				col = {
 					0,
 					255,
@@ -30,8 +18,57 @@ return {
 				},
 				dwID = 1653,
 				nLevel = 1,
-				aCataclysmBuff = {
-					{},
+				nScrutinyType = 1,
+				szNote = "七夕节·漂浮",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 2128,
+						nTime = 120,
+						szName = "挑战·计时剩余",
+					},
+					{
+						key = "任务提示1",
+						nClass = 2,
+						nIcon = 2128,
+						nTime = 0,
+						szName = "任务提示1",
+					},
+				},
+			},
+		},
+		[9] = {
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 29110,
+				nIcon = 24653,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "紫火",
+				szNote = "七夕节·梅劳魄_火刑架紫火表现",
+			},
+		},
+	},
+	CASTING = {
+		[-1] = {
+			{
+				dwID = 7154,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szNote = "七夕节·赠送礼物",
+				tCountdown = {
+					{
+						key = "赠送礼物·{$sender}",
+						nClass = 8,
+						nFrame = 6,
+						nIcon = 1393,
+						nTime = 2.38,
+						szName = "赠送礼物·{$sender}→{$receiver}",
+					},
 				},
 			},
 		},
@@ -39,264 +76,920 @@ return {
 	CHAT = {
 		[2] = {
 			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "节日活动1",
-						nTime = 0,
-						szName = "节日活动1",
-						nIcon = 13,
-					},
-				},
 				szContent = "你已完成了[在天愿为比翼鸟]。\
 ",
+				szNote = "七夕节·完成·在天愿为比翼鸟",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nIcon = 13,
+						nTime = 0,
+						szName = "任务提示1",
+					},
+				},
 			},
 		},
 	},
-	CASTING = {
-		[-1] = {
+	DEBUFF = {
+		[9] = {
 			{
-				tCountdown = {
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
 					{
-						nClass = 8,
-						key = "赠送礼物·{$sender}",
-						nTime = 2.38,
-						szName = "赠送礼物·{$sender}→{$receiver}",
-						nIcon = 1393,
-						nFrame = 6,
+						col = "#FFFF0000",
+						nColAlpha = 0,
+						nPriority = 14,
+						szReminder = "火",
 					},
 				},
-				nScrutinyType = 2,
-				dwID = 7154,
-				szNote = "七夕节·赠送礼物",
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 29103,
 				nLevel = 1,
+				nScrutinyType = 2,
+				szNote = "七夕节·梅劳魄的怒火",
+			},
+		},
+	},
+	DOODAD = {
+		[-2] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 2931,
+				szNote = "七夕节·鸳鸯宝箱",
+			},
+		},
+		[7] = {
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "被冻住的小鸟·七夕节",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 2932,
+				szNote = "七夕节·被冻住的小鸟",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "岁月花·七夕节",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 2930,
+				szNote = "七夕节·岁月花",
+			},
+		},
+		[246] = {
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 20,
+						szDisplay = "传送点",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 1453,
+				szNote = "地图切换点",
+			},
+		},
+	},
+	NPC = {
+		[-4] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 30,
+					},
+				},
+				dwID = 7576,
+				nFrame = 47,
+				szNote = "七夕节·掉落的包裹",
+				tCountdown = {
+					{
+						key = "节日活动1",
+						nClass = 3,
+						nFrame = 2,
+						nIcon = 3557,
+						nTime = 20,
+						szName = "七夕节·包裹·打一下",
+					},
+					{
+						key = "节日活动1",
+						nClass = 11,
+						nFrame = 2,
+						nIcon = 3557,
+						nTime = 5,
+						szName = "七夕节·包裹·领奖励",
+					},
+				},
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+					},
+				},
+				dwID = 7573,
+				nFrame = 47,
+				szNote = "七夕节·箱子",
+				tCountdown = {
+					{
+						key = "节日活动1",
+						nClass = 3,
+						nFrame = 2,
+						nIcon = 3557,
+						nTime = 600,
+						szName = "七夕节·箱子·出现",
+					},
+				},
+			},
+		},
+		[-2] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 3,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 113585,
+				nFrame = 52,
+				szNote = "七夕节·七夕货品",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 3,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 138403,
+				nFrame = 65,
+				szNote = "七夕节·细足小蜘蛛",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 138392,
+				nFrame = 47,
+				szNote = "七夕节·茸茸",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "若初·七夕节",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 15311,
+				nFrame = 47,
+				szNote = "七夕节·若初",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 137998,
+				nFrame = 47,
+				szNote = "七夕节·年小鹿",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 30,
+						szDisplay = "光圈",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 138104,
+				nFrame = 47,
+				szName = "光圈",
+				szNote = "七夕节·光圈",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 137993,
+				nFrame = 47,
+				szNote = "七夕节·荀鸢",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 15309,
+				nFrame = 47,
+				szNote = "七夕节·江小漓",
+			},
+		},
+		[2] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 60,
+						szDisplay = "若初·七夕节",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 15311,
+				nFrame = 47,
+				szNote = "七夕节·若初·交任务",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 3,
+						szDisplay = "若初·七夕节",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 15402,
+				nFrame = 47,
+				szNote = "七夕节·若初·接任务",
+			},
+		},
+		[9] = {
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 60,
+						szDisplay = "梅劳魄·七夕节",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 15313,
+				nFrame = 47,
+				szNote = "七夕节·梅劳魄",
+			},
+		},
+		[16] = {
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 137993,
+				nFrame = 47,
+				szNote = "七夕节·荀鸢",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 137998,
+				nFrame = 47,
+				szNote = "七夕节·年小鹿",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 137995,
+				nFrame = 47,
+				szNote = "七夕节·叶芷青",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 137996,
+				nFrame = 47,
+				szNote = "七夕节·水婳",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 138000,
+				nFrame = 47,
+				szNote = "七夕节·燕燕",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 137999,
+				nFrame = 47,
+				szNote = "七夕节·林亭儿",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 138001,
+				nFrame = 47,
+				szNote = "七夕节·小秋",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 138003,
+				nFrame = 47,
+				szNote = "七夕节·“客人”",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 138160,
+				nFrame = 47,
+				szNote = "七夕节·“梁翠玉”",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 138162,
+				nFrame = 47,
+				szNote = "七夕节·“唐仲枢”",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 138417,
+				nFrame = 47,
+				szNote = "七夕节·“酒馆老板”",
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 138418,
+				nFrame = 47,
+				szNote = "七夕节·“书童”",
 			},
 		},
 	},
 	TALK = {
 		[-4] = {
 			{
+				bSearch = true,
+				szContent = "已打开箱子的第",
+				szNote = "七夕节·记得开箱子",
+				szTarget = "%",
 				tCountdown = {
 					{
-						nClass = 14,
 						key = "节日活动1",
+						nClass = 14,
+						nFrame = 2,
+						nIcon = 3557,
 						nTime = 10,
 						szName = "七夕节·记得开箱子",
-						nIcon = 3557,
-						nFrame = 2,
 					},
-				},
-				szTarget = "%",
-				szContent = "已打开箱子的第",
-				bSearch = true,
-			},
-		},
-	},
-	NPC = {
-		[-2] = {
-			{
-				nFrame = 52,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 113585,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 3,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "七夕货品",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-		},
-		[-4] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 7576,
-				aFocus = {
-					{
-						nMaxDistance = 30,
-					},
-				},
-				szNote = "七夕节·掉落的包裹",
-				tCountdown = {
-					{
-						nClass = 3,
-						key = "节日活动1",
-						nTime = 20,
-						szName = "七夕节·包裹·打一下",
-						nIcon = 3557,
-						nFrame = 2,
-					},
-					{
-						nClass = 11,
-						key = "节日活动1",
-						nTime = 5,
-						szName = "七夕节·包裹·领奖励",
-						nFrame = 2,
-						nIcon = 3557,
-					},
-				},
-			},
-			{
-				nFrame = 47,
-				dwID = 7573,
-				aFocus = {
-					{
-						nMaxDistance = 60,
-					},
-				},
-				szNote = "七夕节·箱子",
-				tCountdown = {
-					{
-						nClass = 3,
-						key = "节日活动1",
-						nTime = 600,
-						szName = "七夕节·箱子·出现",
-						nIcon = 3557,
-						nFrame = 2,
-					},
-				},
-			},
-		},
-		[9] = {
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "梅劳魄·七夕活动",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 60,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "七夕节·梅劳魄",
-				dwID = 15313,
-			},
-		},
-		[2] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 15311,
-				aFocus = {
-					{
-						szDisplay = "若初·七夕活动",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 50,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "七夕节·若初·交任务",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 15402,
-				aFocus = {
-					{
-						szDisplay = "若初·七夕活动",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 3,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "七夕节·若初·接任务",
-				col = {
-					0,
-					255,
-					0,
 				},
 			},
 		},
 	},
-	DEBUFF = {},
 	__meta = {
-		szServer = "唯我独尊",
+		nTimeStamp = 1786982825,
 		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1756387337,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
-	DOODAD = {},
 }
