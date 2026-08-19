@@ -2678,6 +2678,29 @@ return {
 				},
 				aCataclysmBuff = {
 					{
+						col = "#00FF0000",
+						colScreenHead = "#00FF00",
+						nColAlpha = 0,
+						nPriority = 23,
+						szReminder = "弹",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 30628,
+				nLevel = 1,
+				nScrutinyType = 2,
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
 						col = "#00FF00FF",
 						colScreenHead = "#00FF00",
 						nColAlpha = 255,
@@ -11556,6 +11579,26 @@ return {
 			{
 				{
 					bBuffList = true,
+					bTeamPanel = true,
+				},
+				dwID = 3129,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "结连理",
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				dwID = 2074,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "结金兰",
+			},
+			{
+				{
+					bBuffList = true,
 				},
 				col = {
 					255,
@@ -11658,19 +11701,23 @@ return {
 				},
 			},
 			{
-				dwID = 2993,
+				{
+					bBuffList = true,
+				},
+				dwID = 1422,
+				nIcon = 2154,
 				nLevel = 1,
 				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "蛋叉叔叔的糖葫芦",
-						nClass = 1,
-						nIcon = 2178,
-						nRefresh = 1800,
-						nTime = 10,
-						szName = "蛋叉叔叔的糖葫芦",
-					},
+				szName = "灯笼",
+			},
+			{
+				{
+					bBuffList = true,
 				},
+				dwID = 23875,
+				nIcon = 17493,
+				nLevel = 1,
+				szName = "特效",
 			},
 			{
 				col = {
@@ -11800,6 +11847,40 @@ return {
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "木桩",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 29765,
+				nIcon = 3818,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "测距",
+			},
+			{
+				dwID = 2993,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "蛋叉叔叔的糖葫芦",
+						nClass = 1,
+						nIcon = 2178,
+						nRefresh = 1800,
+						nTime = 10,
+						szName = "蛋叉叔叔的糖葫芦",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				bCheckLevel = true,
+				dwID = 12017,
+				nLevel = 2,
+				nScrutinyType = 1,
 			},
 			{
 				{
@@ -31924,8 +32005,13 @@ return {
 			{
 				{
 					bBuffList = true,
+					bTeamPanel = true,
 				},
-				aCataclysmBuff = {},
+				aCataclysmBuff = {
+					{
+						nPriority = 1,
+					},
+				},
 				col = {
 					0,
 					255,
@@ -31936,7 +32022,7 @@ return {
 				nScrutinyType = 1,
 				tCountdown = {
 					{
-						key = "节日活动1",
+						key = "任务提示1",
 						nClass = 1,
 						nFrame = 6,
 						nIcon = 2128,
@@ -31944,11 +32030,11 @@ return {
 						szName = "挑战·计时剩余",
 					},
 					{
-						key = "节日活动1",
+						key = "任务提示1",
 						nClass = 2,
 						nIcon = 2128,
 						nTime = 0,
-						szName = "节日活动1",
+						szName = "任务提示1",
 					},
 				},
 			},
@@ -32008,6 +32094,18 @@ return {
 				dwID = 28346,
 				nLevel = 1,
 				nScrutinyType = 1,
+			},
+		},
+		[9] = {
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 29110,
+				nIcon = 24653,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "紫火",
 			},
 		},
 		[10] = {
@@ -35225,45 +35323,6 @@ return {
 		[689] = {
 			{
 				{
-					bScreenHead = true,
-					bTeamPanel = true,
-				},
-				aCataclysmBuff = {
-					{
-						bScreenHead = true,
-						col = "#FFFF00DD",
-						colScreenHead = "#FFFF00",
-						nColAlpha = 221,
-						nPriority = 40,
-					},
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 244,
-				nLevel = 1,
-				szName = "骑御中",
-			},
-			{
-				{
-					bBuffList = true,
-					bFullScreen = true,
-				},
-				col = {
-					255,
-					127,
-					255,
-				},
-				dwID = 29048,
-				nIcon = 3293,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "塔内",
-			},
-			{
-				{
 					bBuffList = true,
 					bScreenHead = true,
 					bTeamPanel = true,
@@ -35286,6 +35345,55 @@ return {
 				},
 				dwID = 29097,
 				nLevel = 1,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 29019,
+				nIcon = 77,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "抗摔",
+			},
+			{
+				{
+					bBuffList = true,
+					bFullScreen = true,
+				},
+				col = {
+					255,
+					127,
+					255,
+				},
+				dwID = 29048,
+				nIcon = 3293,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "塔内",
+			},
+			{
+				{
+					bScreenHead = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bScreenHead = true,
+						col = "#FFFF00DD",
+						colScreenHead = "#FFFF00",
+						nColAlpha = 221,
+						nPriority = 40,
+					},
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 244,
+				nLevel = 1,
+				szName = "骑御中",
 			},
 		},
 		[697] = {
@@ -38363,6 +38471,77 @@ return {
 				nScrutinyType = 2,
 			},
 		},
+		[1] = {
+			{
+				dwID = 24060,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				dwID = 24056,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "奇遇提示1",
+						nClass = 9,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 0,
+						szName = "奇遇提示1",
+					},
+					{
+						key = "奇遇提示2",
+						nClass = 9,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 0,
+						szName = "奇遇提示2",
+					},
+					{
+						key = "奇遇提示3",
+						nClass = 9,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 300,
+						szName = "依次交互·阿大·阿二·阿三",
+					},
+				},
+			},
+		},
+		[6] = {
+			{
+				dwID = 24086,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "奇遇提示1",
+						nClass = 9,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 0,
+						szName = "奇遇提示1",
+					},
+					{
+						key = "奇遇提示2",
+						nClass = 9,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 0,
+						szName = "奇遇提示2",
+					},
+					{
+						key = "奇遇提示3",
+						nClass = 9,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 300,
+						szName = "依次交互·绿螭骢·不羁·赤兔",
+					},
+				},
+			},
+		},
 		[44] = {
 			{
 				[9] = {
@@ -38534,6 +38713,39 @@ return {
 						nIcon = 3481,
 						nTime = -1,
 						szName = "套马",
+					},
+				},
+			},
+		},
+		[108] = {
+			{
+				dwID = 24087,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "奇遇提示1",
+						nClass = 9,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 0,
+						szName = "奇遇提示1",
+					},
+					{
+						key = "奇遇提示2",
+						nClass = 9,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 0,
+						szName = "奇遇提示2",
+					},
+					{
+						key = "奇遇提示3",
+						nClass = 9,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 300,
+						szName = "交互·木桩",
 					},
 				},
 			},
@@ -44607,13 +44819,12 @@ return {
 				szNote = "触发奇遇·白日梦",
 				tCountdown = {
 					{
-						bHold = true,
 						key = "奇遇提示0",
 						nClass = 20,
 						nFrame = 0,
 						nIcon = 12371,
 						nRefresh = 0,
-						nTime = "10,恭喜触发奇遇·白日梦;20,该奇遇不封印;30,预计10分钟完成;60,1.家园市集找·裴草;90,2.前往·稻香村(敬师堂)·稻山野林;120,3.稻山野林\"野\"左边使用·游梦仙枕;150,4.按1变凝血草·对话阿大阿二阿三;180,5.回到·家园市集·裴草",
+						nTime = "10,恭喜触发·普通奇遇·白日梦;20,该奇遇不封印;30,预计10分钟完成",
 						szName = "恭喜触发奇遇·白日梦",
 					},
 					{
@@ -44623,7 +44834,7 @@ return {
 						nFrame = 6,
 						nIcon = 12371,
 						nTime = 600,
-						szName = "前往·家园集市·裴草",
+						szName = "家园集市·裴草·扬州·敬师堂",
 					},
 					{
 						bHold = true,
@@ -44632,7 +44843,7 @@ return {
 						nFrame = 7,
 						nIcon = 12371,
 						nTime = 600,
-						szName = "稻香村(敬师堂)·稻山野林",
+						szName = "沈从恩·稻香村·土地庙·余半仙",
 					},
 					{
 						bHold = true,
@@ -44641,7 +44852,7 @@ return {
 						nFrame = 7,
 						nIcon = 12371,
 						nTime = 600,
-						szName = "\"野\"左边·使用·游梦仙枕",
+						szName = "稻香村前尘·稻山野林·游梦仙枕",
 					},
 				},
 			},
@@ -44654,13 +44865,12 @@ return {
 				szNote = "触发奇遇·白日梦",
 				tCountdown = {
 					{
-						bHold = true,
 						key = "奇遇提示0",
 						nClass = 20,
 						nFrame = 0,
 						nIcon = 12371,
 						nRefresh = 0,
-						nTime = "10,恭喜触发奇遇·白日梦;20,该奇遇不封印;30,预计10分钟完成;60,1.家园市集找·裴草;90,2.前往·稻香村(敬师堂)·稻山野林;120,3.稻山野林\"野\"左边使用·游梦仙枕;150,4.按1变凝血草·对话阿大阿二阿三;180,5.回到·家园市集·裴草",
+						nTime = "10,恭喜触发·普通奇遇·白日梦;20,该奇遇不封印;30,预计10分钟完成",
 						szName = "恭喜触发奇遇·白日梦",
 					},
 					{
@@ -44670,7 +44880,7 @@ return {
 						nFrame = 6,
 						nIcon = 12371,
 						nTime = 600,
-						szName = "前往·家园集市·裴草",
+						szName = "家园集市·裴草·扬州·敬师堂",
 					},
 					{
 						bHold = true,
@@ -44679,7 +44889,7 @@ return {
 						nFrame = 7,
 						nIcon = 12371,
 						nTime = 600,
-						szName = "稻香村(敬师堂)·稻山野林",
+						szName = "沈从恩·稻香村·土地庙·余半仙",
 					},
 					{
 						bHold = true,
@@ -44688,7 +44898,7 @@ return {
 						nFrame = 7,
 						nIcon = 12371,
 						nTime = 600,
-						szName = "\"野\"左边·使用·游梦仙枕",
+						szName = "稻香村前尘·稻山野林·游梦仙枕",
 					},
 				},
 			},
@@ -50732,13 +50942,14 @@ return {
 			{
 				szContent = "你已完成了[在天愿为比翼鸟]。\
 ",
+				szNote = "七夕节·完成·在天愿为比翼鸟",
 				tCountdown = {
 					{
-						key = "节日活动1",
+						key = "任务提示1",
 						nClass = 20,
 						nIcon = 13,
 						nTime = 0,
-						szName = "节日活动1",
+						szName = "任务提示1",
 					},
 				},
 			},
@@ -75331,6 +75542,16 @@ return {
 				szName = "5级",
 			},
 			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				dwID = 12691,
+				nIcon = 256,
+				nLevel = 1,
+				szName = "剧毒",
+			},
+			{
 				dwID = 14410,
 				nLevel = 1,
 				nScrutinyType = 1,
@@ -75343,6 +75564,63 @@ return {
 						szName = "靛羽风鸟·寻宝结束",
 					},
 				},
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 33889,
+				nIcon = 27577,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "游玩",
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 33003,
+				nIcon = 26047,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "消消乐",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 27967,
+				nIcon = 21707,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "舞狮",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 26450,
+				nIcon = 19419,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "九天浪",
 			},
 			{
 				{
@@ -75362,16 +75640,6 @@ return {
 						szName = "【{$sender}】→【{$receiver}】",
 					},
 				},
-			},
-			{
-				{
-					bBuffList = true,
-					bTeamPanel = true,
-				},
-				dwID = 12691,
-				nIcon = 256,
-				nLevel = 1,
-				szName = "剧毒",
 			},
 			{
 				col = {
@@ -92001,6 +92269,89 @@ return {
 		},
 		[1] = {
 			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 17083,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "凝血草",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 17144,
+				nIcon = 6119,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "入梦",
+				tCountdown = {
+					{
+						key = "奇遇提示1",
+						nClass = 1,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 600,
+						szName = "按1·变成凝血草",
+					},
+					{
+						key = "奇遇提示2",
+						nClass = 1,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 600.1,
+						szName = "依次交互·阿大·阿二·阿三",
+					},
+					{
+						bHold = true,
+						key = "白日梦",
+						nClass = 2,
+						nFrame = 6,
+						nIcon = 12371,
+						nTime = 600,
+						szName = "回到·家园集市·裴草",
+					},
+					{
+						bHold = true,
+						key = "奇遇提示1",
+						nClass = 2,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 600.1,
+						szName = "扬州·城南树林·茶馆",
+					},
+					{
+						bHold = true,
+						key = "奇遇提示2",
+						nClass = 2,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 600.2,
+						szName = "马商附近·使用·游梦仙枕",
+					},
+					{
+						bHold = true,
+						key = "奇遇提示3",
+						nClass = 2,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 0,
+						szName = "奇遇提示3",
+					},
+				},
+			},
+			{
 				dwID = 13323,
 				nLevel = 1,
 				nScrutinyType = 1,
@@ -92363,6 +92714,89 @@ return {
 					},
 				},
 			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 17165,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "浮云",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 17144,
+				nIcon = 6119,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "入梦",
+				tCountdown = {
+					{
+						key = "奇遇提示1",
+						nClass = 1,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 600,
+						szName = "按1·变成浮云马",
+					},
+					{
+						key = "奇遇提示2",
+						nClass = 1,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 600.1,
+						szName = "依次交互·绿螭骢·不羁·赤兔",
+					},
+					{
+						bHold = true,
+						key = "白日梦",
+						nClass = 2,
+						nFrame = 6,
+						nIcon = 12371,
+						nTime = 600,
+						szName = "回到·家园集市·裴草",
+					},
+					{
+						bHold = true,
+						key = "奇遇提示1",
+						nClass = 2,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 600.1,
+						szName = "成都·广都镇·木桩区",
+					},
+					{
+						bHold = true,
+						key = "奇遇提示2",
+						nClass = 2,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 600.2,
+						szName = "极境木桩·使用·游梦仙枕",
+					},
+					{
+						bHold = true,
+						key = "奇遇提示3",
+						nClass = 2,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 0,
+						szName = "奇遇提示3",
+					},
+				},
+			},
 		},
 		[7] = {
 			{
@@ -92558,6 +92992,30 @@ return {
 						szName = "纯阳·太极广场东南·小亭子",
 					},
 				},
+			},
+		},
+		[9] = {
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						col = "#FFFF0000",
+						nColAlpha = 0,
+						nPriority = 14,
+						szReminder = "火",
+					},
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 29103,
+				nLevel = 1,
+				nScrutinyType = 2,
 			},
 		},
 		[11] = {
@@ -94116,6 +94574,88 @@ return {
 					},
 				},
 			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 17166,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "木桩",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 17144,
+				nIcon = 6119,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "入梦",
+				tCountdown = {
+					{
+						key = "奇遇提示1",
+						nClass = 1,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 600,
+						szName = "按1·变成木桩",
+					},
+					{
+						key = "奇遇提示2",
+						nClass = 1,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 600.1,
+						szName = "交互·木桩",
+					},
+					{
+						bHold = true,
+						key = "白日梦",
+						nClass = 2,
+						nFrame = 6,
+						nIcon = 12371,
+						nTime = 300,
+						szName = "回到·家园集市·裴草",
+					},
+					{
+						bHold = true,
+						key = "奇遇提示1",
+						nClass = 2,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 300.1,
+						szName = "对话·斐草·完成奇遇",
+					},
+					{
+						key = "奇遇提示2",
+						nClass = 2,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 0,
+						szName = "奇遇提示2",
+					},
+					{
+						bHold = true,
+						key = "奇遇提示3",
+						nClass = 2,
+						nFrame = 7,
+						nIcon = 12371,
+						nTime = 0,
+						szName = "奇遇提示3",
+					},
+				},
+			},
 		},
 		[120] = {
 			{
@@ -94223,6 +94763,11 @@ return {
 				{
 					bBuffList = true,
 				},
+				col = {
+					255,
+					255,
+					0,
+				},
 				dwID = 4013,
 				nIcon = 77,
 				nLevel = 1,
@@ -94234,6 +94779,11 @@ return {
 			{
 				{
 					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
 				},
 				dwID = 4013,
 				nIcon = 77,
@@ -106609,6 +107159,17 @@ return {
 				[17] = {
 					bScreenHead = true,
 				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 2931,
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
 				aFocus = {
 					{
 						nMaxDistance = 20,
@@ -106648,7 +107209,7 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 20,
-						szDisplay = "联赛·八强·宝堆",
+						szDisplay = "联赛·冠军·宝堆",
 					},
 				},
 				col = {
@@ -106656,41 +107217,7 @@ return {
 					255,
 					255,
 				},
-				dwID = 8848,
-			},
-			{
-				[17] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 20,
-						szDisplay = "联赛·四强·宝堆",
-					},
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 8849,
-			},
-			{
-				[17] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 20,
-						szDisplay = "联赛·季军·宝堆",
-					},
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 8850,
+				dwID = 8852,
 			},
 			{
 				[17] = {
@@ -106716,7 +107243,7 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 20,
-						szDisplay = "联赛·冠军·宝堆",
+						szDisplay = "联赛·季军·宝堆",
 					},
 				},
 				col = {
@@ -106724,7 +107251,41 @@ return {
 					255,
 					255,
 				},
-				dwID = 8852,
+				dwID = 8850,
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						szDisplay = "联赛·四强·宝堆",
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 8849,
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						szDisplay = "联赛·八强·宝堆",
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 8848,
 			},
 		},
 		[-1] = {
@@ -107253,6 +107814,24 @@ return {
 			},
 		},
 		[7] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "岁月花·七夕节",
+					},
+				},
+				dwID = 2930,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "被冻住的小鸟·七夕节",
+					},
+				},
+				dwID = 2932,
+			},
 			{
 				aFocus = {
 					{
@@ -110739,6 +111318,17 @@ return {
 				dwID = 7274,
 			},
 		},
+		[246] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						szDisplay = "传送点",
+					},
+				},
+				dwID = 1453,
+			},
+		},
 		[247] = {
 			{
 				aFocus = {
@@ -112922,6 +113512,16 @@ return {
 			},
 		},
 		[653] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "操作台",
+					},
+				},
+				dwID = 10569,
+				szName = "操作台",
+			},
 			{
 				aFocus = {
 					{
@@ -116240,12 +116840,12 @@ return {
 				nFrame = 47,
 				tCountdown = {
 					{
-						key = "奇遇提示1",
+						key = "白日梦",
 						nClass = 3,
 						nFrame = 6,
 						nIcon = 12371,
 						nTime = -1,
-						szName = "交互·裴草",
+						szName = "裴草",
 					},
 				},
 			},
@@ -117117,7 +117717,7 @@ return {
 			{
 				aFocus = {
 					{
-						nMaxDistance = 60,
+						nMaxDistance = 90,
 					},
 				},
 				dwID = 7573,
@@ -118156,6 +118756,104 @@ return {
 				},
 				aFocus = {
 					{
+						nMaxDistance = 6,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 15309,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 137993,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "光圈",
+					},
+				},
+				dwID = 138104,
+				nFrame = 47,
+				szName = "光圈",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 137998,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "若初·七夕节",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 15311,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 138392,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 3,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 138403,
+				nFrame = 65,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
 						nMaxDistance = 3,
 					},
 				},
@@ -118935,69 +119633,33 @@ return {
 		[1] = {
 			{
 				aFocus = {
-					{},
+					{
+						nMaxDistance = 6,
+						szDisplay = "凝血草阿三·白日梦",
+					},
 				},
 				dwID = 70528,
 				nFrame = 47,
 			},
 			{
 				aFocus = {
-					{},
+					{
+						nMaxDistance = 6,
+						szDisplay = "凝血草阿二·白日梦",
+					},
 				},
 				dwID = 70527,
 				nFrame = 47,
 			},
 			{
 				aFocus = {
-					{},
+					{
+						nMaxDistance = 6,
+						szDisplay = "凝血草阿大·白日梦",
+					},
 				},
 				dwID = 70387,
 				nFrame = 47,
-				tCountdown = {
-					{
-						bHold = true,
-						key = "奇遇提示2",
-						nClass = 3,
-						nFrame = 7,
-						nIcon = 12371,
-						nTime = 600,
-						szName = "按1·变成凝血草",
-					},
-					{
-						bHold = true,
-						key = "奇遇提示3",
-						nClass = 3,
-						nFrame = 7,
-						nIcon = 12371,
-						nTime = 600,
-						szName = "依次交互·阿大·阿二·阿三",
-					},
-					{
-						bHold = true,
-						key = "奇遇提示1",
-						nClass = 4,
-						nFrame = 6,
-						nIcon = 12371,
-						nTime = 600,
-						szName = "回到·家园集市·裴草",
-					},
-					{
-						key = "奇遇提示2",
-						nClass = 4,
-						nFrame = 7,
-						nIcon = 12371,
-						nTime = 600,
-						szName = "扬州·城南树林·茶馆",
-					},
-					{
-						key = "奇遇提示3",
-						nClass = 4,
-						nFrame = 7,
-						nIcon = 12371,
-						nTime = 600,
-						szName = "马商附近·使用·游梦仙枕",
-					},
-				},
 			},
 			{
 				[3] = {
@@ -119286,7 +119948,7 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 3,
-						szDisplay = "若初·七夕活动",
+						szDisplay = "若初·七夕节",
 					},
 				},
 				col = {
@@ -119303,8 +119965,8 @@ return {
 				},
 				aFocus = {
 					{
-						nMaxDistance = 50,
-						szDisplay = "若初·七夕活动",
+						nMaxDistance = 60,
+						szDisplay = "若初·七夕节",
 					},
 				},
 				col = {
@@ -120757,68 +121419,30 @@ return {
 			},
 			{
 				aFocus = {
-					{},
+					{
+						nMaxDistance = 6,
+						szDisplay = "绿螭骢·白日梦",
+					},
 				},
 				dwID = 70537,
 				nFrame = 47,
-				tCountdown = {
-					{
-						bHold = true,
-						key = "奇遇提示2",
-						nClass = 3,
-						nFrame = 7,
-						nIcon = 12371,
-						nTime = 600,
-						szName = "按1·变成浮云马",
-					},
-					{
-						bHold = true,
-						key = "奇遇提示3",
-						nClass = 3,
-						nFrame = 7,
-						nIcon = 12371,
-						nTime = 600,
-						szName = "依次交互·绿螭骢·不羁·赤兔",
-					},
-					{
-						bHold = true,
-						key = "奇遇提示1",
-						nClass = 4,
-						nFrame = 6,
-						nIcon = 12371,
-						nTime = 600,
-						szName = "回到·家园集市·裴草",
-					},
-					{
-						bHold = true,
-						key = "奇遇提示2",
-						nClass = 4,
-						nFrame = 7,
-						nIcon = 12371,
-						nTime = 600,
-						szName = "成都·广都镇·木桩区",
-					},
-					{
-						bHold = true,
-						key = "奇遇提示3",
-						nClass = 4,
-						nFrame = 7,
-						nIcon = 12371,
-						nTime = 600,
-						szName = "极境木桩·使用·游梦仙枕",
-					},
-				},
 			},
 			{
 				aFocus = {
-					{},
+					{
+						nMaxDistance = 6,
+						szDisplay = "不羁·白日梦",
+					},
 				},
 				dwID = 70539,
 				nFrame = 47,
 			},
 			{
 				aFocus = {
-					{},
+					{
+						nMaxDistance = 6,
+						szDisplay = "赤兔·白日梦",
+					},
 				},
 				dwID = 70538,
 				nFrame = 47,
@@ -121569,7 +122193,7 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 60,
-						szDisplay = "梅劳魄·七夕活动",
+						szDisplay = "梅劳魄·七夕节",
 					},
 				},
 				dwID = 15313,
@@ -122721,6 +123345,112 @@ return {
 					},
 				},
 				dwID = 6866,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 138418,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 138417,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 138162,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 138160,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 138003,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 138001,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 137999,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 138000,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 137996,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 137995,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 137998,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 137993,
 				nFrame = 47,
 			},
 			{
@@ -136229,57 +136959,13 @@ return {
 			},
 			{
 				aFocus = {
-					{},
+					{
+						nMaxDistance = 6,
+						szDisplay = "木桩·白日梦",
+					},
 				},
 				dwID = 70540,
 				nFrame = 47,
-				tCountdown = {
-					{
-						bHold = true,
-						key = "奇遇提示2",
-						nClass = 3,
-						nFrame = 7,
-						nIcon = 12371,
-						nTime = 600,
-						szName = "按1·变成木桩",
-					},
-					{
-						bHold = true,
-						key = "奇遇提示3",
-						nClass = 3,
-						nFrame = 7,
-						nIcon = 12371,
-						nTime = 600,
-						szName = "交互·木桩",
-					},
-					{
-						bHold = true,
-						key = "奇遇提示1",
-						nClass = 4,
-						nFrame = 6,
-						nIcon = 12371,
-						nTime = 600,
-						szName = "回到·家园集市·裴草",
-					},
-					{
-						bHold = true,
-						key = "奇遇提示2",
-						nClass = 4,
-						nFrame = 7,
-						nIcon = 12371,
-						nTime = 600,
-						szName = "对话·斐草·完成奇遇",
-					},
-					{
-						bHold = true,
-						key = "奇遇提示3",
-						nClass = 4,
-						nFrame = 7,
-						nIcon = 12371,
-						nTime = -1,
-						szName = "奇遇提示3",
-					},
-				},
 			},
 			{
 				aFocus = {
@@ -136415,13 +137101,23 @@ return {
 		},
 		[120] = {
 			{
+				[3] = {
+					tMark = {
+						true,
+						true,
+						true,
+						true,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+					},
+				},
 				aFocus = {
 					{
-						tRelation = {
-							bAll = false,
-							bAlly = false,
-							bEnemy = false,
-						},
+						nMaxDistance = 60,
 					},
 				},
 				dwID = 15767,
@@ -136438,25 +137134,18 @@ return {
 				},
 			},
 			{
-				[3] = {
-					tMark = {
-						true,
-						true,
-						true,
-						true,
-						false,
-						false,
-						false,
-						false,
-						false,
-						false,
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = false,
+						},
 					},
 				},
-				aFocus = {
-					{},
-				},
 				dwID = 15711,
-				nFrame = 47,
+				nFrame = 60,
 			},
 			{
 				[3] = {
@@ -137000,6 +137689,44 @@ return {
 				},
 				dwID = 16053,
 				nFrame = 47,
+			},
+		},
+		[130] = {
+			{
+				[3] = {
+					tMark = {
+						true,
+						true,
+						true,
+						true,
+						false,
+						false,
+						false,
+						false,
+						false,
+						false,
+					},
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+					},
+				},
+				dwID = 16168,
+				nFrame = 60,
+			},
+			{
+				aFocus = {
+					{
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 16165,
+				nFrame = 60,
 			},
 		},
 		[133] = {
@@ -157198,6 +157925,26 @@ return {
 			{
 				aFocus = {
 					{
+						nMaxDistance = 30,
+						szDisplay = "董龙",
+					},
+				},
+				dwID = 300124,
+				nFrame = 57,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "董虎",
+					},
+				},
+				dwID = 300322,
+				nFrame = 57,
+			},
+			{
+				aFocus = {
+					{
 						nMaxDistance = 6,
 						szDisplay = "碧寒江·隐藏任务",
 					},
@@ -166340,7 +167087,7 @@ return {
 			},
 			{
 				szContent = "获得家具【游梦仙枕】与【二进宫】，并可在马宝玉处继续购买。",
-				szNote = "白日梦",
+				szNote = "恭喜完成·普通奇遇·白日梦",
 				tCountdown = {
 					{
 						key = "奇遇提示1",
@@ -166372,7 +167119,7 @@ return {
 						nFrame = 7,
 						nIcon = 12371,
 						nTime = 10,
-						szName = "恭喜完成奇遇·白日梦",
+						szName = "恭喜完成·普通奇遇·白日梦",
 					},
 				},
 			},
@@ -166685,6 +167432,21 @@ return {
 				szContent = "(.-)收取了第一滴血，(.+)",
 				szNote = "[{$1}]·第一滴血·{$2}",
 				szTarget = "%",
+			},
+			{
+				szContent = "你已成功举报该玩家，结算时将根据其本场战绩表现核实。如果确认有挂机或者消极比赛行为，将扣除其一定信誉分。感谢您对净化战场环境的支持！",
+				szNote = "已举报该玩家",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "举报玩家",
+						nClass = 14,
+						nFrame = 8,
+						nIcon = 13,
+						nTime = 2,
+						szName = "已举报该玩家",
+					},
+				},
 			},
 			{
 				[14] = {
@@ -167185,6 +167947,7 @@ return {
 			{
 				bSearch = true,
 				szContent = "已打开箱子的第",
+				szNote = "七夕节·记得开箱子",
 				szTarget = "%",
 				tCountdown = {
 					{
@@ -169106,13 +169869,12 @@ return {
 				szNote = "白日梦",
 				tCountdown = {
 					{
-						bHold = true,
-						key = "奇遇提示3",
+						key = "奇遇提示1",
 						nClass = 14,
 						nFrame = 7,
 						nIcon = 12371,
 						nTime = 300,
-						szName = "\"野\"字左边·使用·游梦仙枕",
+						szName = "野字左边·使用·游梦仙枕",
 					},
 				},
 			},
@@ -169122,8 +169884,7 @@ return {
 				szTarget = "凝血草阿大",
 				tCountdown = {
 					{
-						bHold = true,
-						key = "奇遇提示2",
+						key = "奇遇提示1",
 						nClass = 14,
 						nFrame = 6,
 						nIcon = 12371,
@@ -169131,13 +169892,12 @@ return {
 						szName = "再次对话·凝血草阿大",
 					},
 					{
-						bHold = true,
-						key = "奇遇提示3",
+						key = "奇遇提示2",
 						nClass = 14,
 						nFrame = 6,
 						nIcon = 12371,
 						nTime = 300,
-						szName = "对话完成·对话·凝血草阿二",
+						szName = "继续对话·凝血草阿二",
 					},
 				},
 			},
@@ -169147,8 +169907,7 @@ return {
 				szTarget = "凝血草阿二",
 				tCountdown = {
 					{
-						bHold = true,
-						key = "奇遇提示2",
+						key = "奇遇提示1",
 						nClass = 14,
 						nFrame = 6,
 						nIcon = 12371,
@@ -169156,13 +169915,12 @@ return {
 						szName = "再次对话·凝血草阿二",
 					},
 					{
-						bHold = true,
-						key = "奇遇提示3",
+						key = "奇遇提示2",
 						nClass = 14,
 						nFrame = 6,
 						nIcon = 12371,
 						nTime = 300,
-						szName = "对话完成·对话·凝血草阿三",
+						szName = "继续对话·凝血草阿三",
 					},
 				},
 			},
@@ -170129,13 +170887,12 @@ return {
 				szNote = "白日梦",
 				tCountdown = {
 					{
-						bHold = true,
-						key = "奇遇提示3",
+						key = "奇遇提示1",
 						nClass = 14,
 						nFrame = 7,
 						nIcon = 12371,
 						nTime = 300,
-						szName = "马商附近·使用·游梦仙枕",
+						szName = "马商何敬·使用·游梦仙枕",
 					},
 				},
 			},
@@ -170145,8 +170902,7 @@ return {
 				szTarget = "赤兔",
 				tCountdown = {
 					{
-						bHold = true,
-						key = "奇遇提示2",
+						key = "奇遇提示1",
 						nClass = 14,
 						nFrame = 6,
 						nIcon = 12371,
@@ -170154,13 +170910,12 @@ return {
 						szName = "再次对话·赤兔",
 					},
 					{
-						bHold = true,
-						key = "奇遇提示3",
+						key = "奇遇提示2",
 						nClass = 14,
 						nFrame = 6,
 						nIcon = 12371,
 						nTime = 300,
-						szName = "对话完成·回到家园·裴草",
+						szName = "回到家园·裴草",
 					},
 				},
 			},
@@ -179133,8 +179888,7 @@ return {
 				szNote = "白日梦",
 				tCountdown = {
 					{
-						bHold = true,
-						key = "奇遇提示3",
+						key = "奇遇提示1",
 						nClass = 14,
 						nFrame = 7,
 						nIcon = 12371,
@@ -179149,8 +179903,7 @@ return {
 				szTarget = "木桩",
 				tCountdown = {
 					{
-						bHold = true,
-						key = "奇遇提示2",
+						key = "奇遇提示1",
 						nClass = 14,
 						nFrame = 6,
 						nIcon = 12371,
@@ -179158,13 +179911,12 @@ return {
 						szName = "再次对话·木桩",
 					},
 					{
-						bHold = true,
-						key = "奇遇提示3",
+						key = "奇遇提示2",
 						nClass = 14,
 						nFrame = 6,
 						nIcon = 12371,
 						nTime = 300,
-						szName = "对话完成·回到家园·裴草",
+						szName = "返回家园·裴草",
 					},
 				},
 			},

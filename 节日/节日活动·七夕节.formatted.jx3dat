@@ -1,5 +1,29 @@
 return {
 	BUFF = {
+		[-1] = {
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				dwID = 2074,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "结金兰",
+				szNote = "七夕节·结金兰",
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				dwID = 3129,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "结连理",
+				szNote = "七夕节·结连理",
+			},
+		},
 		[2] = {
 			{
 				{
@@ -256,7 +280,7 @@ return {
 			{
 				aFocus = {
 					{
-						nMaxDistance = 60,
+						nMaxDistance = 90,
 					},
 				},
 				dwID = 7573,
