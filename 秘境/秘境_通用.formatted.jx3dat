@@ -126,11 +126,6 @@ return {
 	CHAT = {
 		[-3] = {
 			{
-				bSearch = true,
-				szContent = "侠士",
-				szNote = "屏蔽·的卢·诛恶·攻防·刷马",
-			},
-			{
 				[14] = {
 					bCenterAlarm = true,
 				},
@@ -153,6 +148,11 @@ return {
 						szName = "【{$receiver}】红包·消失剩余",
 					},
 				},
+			},
+			{
+				bSearch = true,
+				szContent = "侠士",
+				szNote = "屏蔽·的卢·诛恶·攻防·刷马",
 			},
 			{
 				szContent = "[剑心插件]已重置团队技能监控CD。\
