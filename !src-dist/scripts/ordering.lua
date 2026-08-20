@@ -1,4 +1,3 @@
-
 local _ENV = _ENV or getfenv()
 
 local function empty(var)
@@ -17,6 +16,32 @@ local function empty(var)
         return next(var) == nil
     else
         return false
+    end
+end
+
+-- 是否为空表
+local function emptyTable(var)
+    local szType = type(var)
+    if szType == 'nil' then
+        return true
+    elseif szType == 'table' then
+        return next(var) == nil
+    else
+        return false
+    end
+end
+
+-- 倒序迭代器
+local ipairs_r
+do
+    local function fnBpairs(tab, nIndex)
+        nIndex = nIndex - 1
+        if nIndex > 0 then
+            return nIndex, tab[nIndex]
+        end
+    end
+    function ipairs_r(tab)
+        return fnBpairs, tab, #tab + 1
     end
 end
 
@@ -42,15 +67,12 @@ local function WriteFile(szPath, var)
     return true
 end
 
--- 字符串转表
+-- 反序列化字符串转表
 local function str2var(str, env)
     if type(str) ~= 'string' then
-        return nil, string.format(
-            'bad argument #1 to str2var, string expected, got %s',
-            type(str)
-        )
+        return nil, string.format('bad argument #1 to str2var, string expected, got %s', type(str))
     end
-    
+
     local fn, err
     if loadstring then
         -- Lua 5.1
@@ -68,27 +90,21 @@ local function str2var(str, env)
             fn, err = load(str, 'str2var', 't', env or {})
         end
     end
-    
+
     if not fn then
-        return nil, string.format(
-            'failed to parse "%s": %s',
-            str, err or 'unknown error'
-        )
+        return nil, string.format('failed to parse "%s": %s', str, err or 'unknown error')
     end
-    
+
     local ok, result = pcall(fn)
     if not ok then
-        return nil, string.format(
-            'execution error in "%s": %s',
-            str, result
-        )
+        return nil, string.format('execution error in "%s": %s', str, result)
     end
-    
+
     return result
 end
 
--- 将table格式化为字符串，有序的
-local function var2str(var, indent, nLevel, nMaxLevel)
+-- 有序序列化，防止嵌合引用无限递归
+local function serialize(var, indent, nLevel, nMaxLevel, tVisited)
     if nMaxLevel and nLevel >= nMaxLevel then
         indent = nil
     end
@@ -110,6 +126,15 @@ local function var2str(var, indent, nLevel, nMaxLevel)
     elseif szType == 'boolean' then
         table.insert(t, tostring(var))
     elseif szType == 'table' then
+        if tVisited == nil then
+            tVisited = setmetatable({}, { __mode = 'k' })
+        end
+        if tVisited[var] then
+            table.insert(t, '"<circular reference>"')
+            return table.concat(t)
+        end
+        tVisited[var] = true
+
         table.insert(t, '{')
         local s_tab_equ = '='
         if indent then
@@ -176,7 +201,7 @@ local function var2str(var, indent, nLevel, nMaxLevel)
                 if indent then
                     table.insert(t, string.rep(indent, nLevel + 1))
                 end
-                table.insert(t, var2str(val, indent, nLevel + 1, nMaxLevel))
+                table.insert(t, serialize(val, indent, nLevel + 1, nMaxLevel, tVisited))
                 table.insert(t, ',')
                 if indent then
                     table.insert(t, '\n')
@@ -187,7 +212,7 @@ local function var2str(var, indent, nLevel, nMaxLevel)
                 end
                 table.insert(t, key)
                 table.insert(t, s_tab_equ)
-                table.insert(t, var2str(val, indent, nLevel + 1, nMaxLevel))
+                table.insert(t, serialize(val, indent, nLevel + 1, nMaxLevel, tVisited))
                 table.insert(t, ',')
                 if indent then
                     table.insert(t, '\n')
@@ -197,10 +222,10 @@ local function var2str(var, indent, nLevel, nMaxLevel)
                     table.insert(t, string.rep(indent, nLevel + 1))
                 end
                 table.insert(t, '[')
-                table.insert(t, var2str(key, indent, nLevel + 1, nMaxLevel))
+                table.insert(t, serialize(key, indent, nLevel + 1, nMaxLevel, tVisited))
                 table.insert(t, ']')
                 table.insert(t, s_tab_equ)
-                table.insert(t, var2str(val, indent, nLevel + 1, nMaxLevel))
+                table.insert(t, serialize(val, indent, nLevel + 1, nMaxLevel, tVisited))
                 table.insert(t, ',')
                 if indent then
                     table.insert(t, '\n')
@@ -224,15 +249,69 @@ local function var2str(var, indent, nLevel, nMaxLevel)
     return table.concat(t)
 end
 
--- 文件转表
-local function file2var(szFilePath)
-    local tVar = ReadFile(szFilePath)
-    return str2var(tVar)
+-- 将table格式化为字符串，有序的
+local function var2str(var, indent, nLevel, nMaxLevel)
+    local tVisited = setmetatable({}, { __mode = 'k' })
+    return serialize(var, indent, nLevel or 0, nMaxLevel, tVisited)
 end
 
+-- 文件转表
+local function file2var(szFilePath)
+    local szVar = ReadFile(szFilePath)
+    return str2var(szVar)
+end
+
+-- 清除为空的数据
+local function clearNil(tData)
+    for k, v in pairs(tData) do -- 遍历数据判断是否有空表
+        if emptyTable(v) then
+            tData[k] = nil
+        elseif type(v) == 'table' and k ~= 'aCataclysmBuff' and k ~= 'tMark' and k ~= 'aFocus' then
+            tData[k] = clearNil(v)
+        end
+    end
+    return emptyTable(tData) and nil or tData
+end
+
+-- 清除无效数据
+local function clearInvalidtable(tData, bDelFocusType)
+    local aType = { 'BUFF', 'DEBUFF', 'CASTING', 'NPC', 'DOODAD', 'TALK', 'CHAT' }
+    for _, szType in ipairs(aType) do
+        if tData[szType] then
+            for k, _ in pairs(tData[szType]) do -- 遍历类型获取地图ID
+                for kk, vv in ipairs_r(tData[szType][k]) do -- 遍历地图获取数据下标
+                    if bDelFocusType and vv['aFocus'] then
+                        local aFocus = vv['aFocus']
+                        for kkk, tFocus in ipairs(aFocus) do
+                            tFocus['tType'] = nil
+                            if tFocus['dwMapID'] == -1 then
+                                tFocus['dwMapID'] = nil
+                            end
+                            if tFocus['szDisplay'] == '' then
+                                tFocus['dwMapID'] = nil
+                            end
+                        end
+                        if emptyTable(aFocus) then
+                            vv['aFocus'] = nil
+                        end
+                    end
+                    local tRet = clearNil(vv)
+                    if tRet then
+                        tData[szType][k][kk] = tRet
+                    else
+                        table.remove(tData[szType][k], kk)
+                    end
+                end
+            end
+        end
+    end
+end
+
+-- 处理文件（有序化Table转String）
 local function processFile(szFileName)
     -- print('Sorting: ' .. szFileName)
     local tData = file2var(szFileName)
+    clearInvalidtable(tData, true)
     local szSorted = 'return ' .. var2str(tData, '\t', 0) .. '\n'
     WriteFile(szFileName, szSorted)
     return true
