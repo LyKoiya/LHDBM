@@ -1,0 +1,33 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {},
+	NPC = {
+		[482] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 50,
+						szDisplay = "慧意·特效武器",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 103147,
+				nFrame = 47,
+				szNote = "慧意",
+			},
+		},
+	},
+	TALK = {},
+}

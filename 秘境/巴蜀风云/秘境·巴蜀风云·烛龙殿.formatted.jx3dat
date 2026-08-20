@@ -41,7 +41,115 @@ return {
 		},
 	},
 	DOODAD = {},
-	NPC = {},
+	NPC = {
+		[133] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 50,
+						szDisplay = "地字玖陆伍·快速",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 105943,
+				nFrame = 47,
+				szNote = "地字玖陆伍",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 50,
+						szDisplay = "杨宁·剧情",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 16526,
+				nFrame = 47,
+				szNote = "杨宁",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 90,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 17382,
+				nFrame = 52,
+				szNote = "瓷罐",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "天蛛暗杀者·吸蓝",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 17369,
+				nFrame = 47,
+				szNote = "天蛛暗杀者",
+			},
+		},
+	},
 	TALK = {
 		[133] = {
 			{
@@ -67,7 +175,7 @@ return {
 					bCenterAlarm = true,
 				},
 				szContent = "将周围凶猛的蜘蛛清除，我们一起前往祭坛!",
-				szNote = "清除周围蜘蛛",
+				szNote = "清除·周围蜘蛛",
 				szTarget = "李承恩",
 				tCountdown = {
 					{
@@ -98,7 +206,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1761722852,
+		nTimeStamp = 1787242365,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

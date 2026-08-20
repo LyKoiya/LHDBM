@@ -1,0 +1,102 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {},
+	NPC = {
+		[123] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 15650,
+				nFrame = 52,
+				szNote = "落雷机关",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 16053,
+				nFrame = 47,
+				szNote = "奇怪的机甲人",
+			},
+		},
+		[125] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 16053,
+				nFrame = 47,
+				szNote = "奇怪的机甲人",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 16013,
+				nFrame = 52,
+				szNote = "落雷机关",
+			},
+		},
+	},
+	TALK = {},
+	__meta = {
+		nTimeStamp = 1787238657,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+	},
+}

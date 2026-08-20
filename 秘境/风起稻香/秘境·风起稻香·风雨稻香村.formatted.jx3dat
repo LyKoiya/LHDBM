@@ -1,0 +1,71 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {},
+	NPC = {
+		[47] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						szDisplay = "剧情",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 6335,
+				nFrame = 47,
+				szNote = "李复",
+				tCountdown = {
+					{
+						key = "剧情提示1",
+						nClass = 3,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 30,
+						szName = "对话·李复·选项3·开启快速",
+					},
+					{
+						key = "剧情提示1",
+						nClass = 4,
+						nFrame = 5,
+						nIcon = 13,
+						nTime = 0,
+						szName = "剧情提示1",
+					},
+				},
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 7670,
+				nFrame = 57,
+				szNote = "百骑长王志弋",
+			},
+		},
+	},
+	TALK = {},
+}

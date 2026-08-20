@@ -1,0 +1,54 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {},
+	NPC = {
+		[426] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						szDisplay = "Ê¯±ÚµÄÁÑ·ì¡¤ÌØÐ§ÎäÆ÷",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 69209,
+				nFrame = 47,
+				szNote = "Ê¯±ÚµÄÁÑ·ì",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "Òþ±ÎµÄº¡¹Ç¡¤ÌØÐ§ÎäÆ÷",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 69225,
+				nFrame = 47,
+				szNote = "Òþ±ÎµÄº¡¹Ç",
+			},
+		},
+	},
+	TALK = {},
+}
