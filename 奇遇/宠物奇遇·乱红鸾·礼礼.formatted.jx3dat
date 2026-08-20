@@ -93,7 +93,7 @@ return {
 					{
 						dwMapID = -1,
 						nMaxDistance = 6,
-						szDisplay = "ÂÒºìð½¡¤QTE",
+						szDisplay = "¹âÈ¦¡¤QTE¡¤ÂÒºìð½",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -121,7 +121,7 @@ return {
 					{
 						dwMapID = -1,
 						nMaxDistance = 6,
-						szDisplay = "ÂÒºìð½¡¤QTE",
+						szDisplay = "¹âÈ¦¡¤QTE¡¤ÂÒºìð½",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -149,7 +149,7 @@ return {
 					{
 						dwMapID = -1,
 						nMaxDistance = 0,
-						szDisplay = "ÂÒºìð½¡¤³öÌÓ",
+						szDisplay = "¹âÈ¦¡¤³öÌÓ¡¤ÂÒºìð½",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -171,6 +171,26 @@ return {
 				dwID = 10175,
 				szName = "ÂÒºìð½¡¤³öÌÓ",
 				szNote = "ÂÒºìð½",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "¹âÈ¦¡¤ÂÒºìð½",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 10176,
+				szNote = "¹âÈ¦¡¤ÂÒºìð½",
 			},
 		},
 	},

@@ -1,36 +1,5 @@
 return {
-	BUFF = {
-		[159] = {
-			{
-				{
-					bBuffList = true,
-				},
-				dwID = 26176,
-				nIcon = 2678,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "´¹µö",
-				szNote = "×íÑÌ²¨_´¹µö_BUFF",
-			},
-			{
-				{
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 26177,
-				nIcon = 19012,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "ÊÕ¸Í",
-				szNote = "×íÑÌ²¨_ÊÕ¸Í_BUFF",
-			},
-		},
-	},
+	BUFF = {},
 	CASTING = {},
 	CHAT = {},
 	DEBUFF = {

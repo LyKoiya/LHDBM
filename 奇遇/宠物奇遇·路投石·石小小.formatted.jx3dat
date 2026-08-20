@@ -1,330 +1,330 @@
 return {
-	CHAT = {},
-	TALK = {
-		[411] = {
-			{
-				szContent = "前程皆坦途，何须石问路。",
-				tCountdown = {
-					{
-						key = "奇遇提示1",
-						nIcon = 12373,
-						nTime = 600,
-						nFrame = 7,
-						nClass = 14,
-						szName = "对话·宋旅·前往·乾坤港西",
-					},
-					{
-						key = "奇遇提示2",
-						nIcon = 12373,
-						nTime = 600,
-						nFrame = 7,
-						nClass = 14,
-						szName = "对话·顽童·QTE·对话顽童",
-					},
-					{
-						key = "奇遇提示3",
-						nIcon = 12373,
-						nTime = 600,
-						nFrame = 7,
-						nClass = 14,
-						szName = "返回·宋旅·交互·小龟",
-					},
-				},
-				szTarget = "宋旅",
-			},
-			{
-				tCountdown = {
-					{
-						key = "奇遇提示1",
-						nIcon = 12373,
-						nTime = 600,
-						nClass = 14,
-						nFrame = 7,
-						szName = "返回·宋旅·交互·小龟",
-					},
-					{
-						key = "奇遇提示2",
-						nIcon = 12373,
-						nTime = 600,
-						nClass = 14,
-						nFrame = 7,
-						szName = "对话·宋旅·前往·海边",
-					},
-					{
-						key = "奇遇提示3",
-						nIcon = 12373,
-						nTime = 600,
-						nClass = 14,
-						nFrame = 7,
-						szName = "交互·小龟·对话·宋旅",
-					},
-				},
-				szContent = "你在顽童面前露了一手功夫，看得他叫好连连！",
-			},
-			{
-				szContent = "%#&*！",
-				tCountdown = {
-					{
-						key = "奇遇提示1",
-						nIcon = 12373,
-						nTime = 30,
-						nFrame = 7,
-						nClass = 14,
-						szName = "对话·宋旅·获得·石小小",
-					},
-					{
-						key = "奇遇提示2",
-						nIcon = 12373,
-						nTime = 30,
-						nFrame = 7,
-						nClass = 14,
-						szName = "完成·宠物·奇遇·路投石",
-					},
-					{
-						key = "奇遇提示3",
-						nIcon = 12373,
-						nTime = 0,
-						nFrame = 7,
-						nClass = 14,
-						szName = "奇遇提示3",
-					},
-				},
-				szTarget = "小龟",
-			},
-		},
-	},
 	BUFF = {},
-	DOODAD = {
-		[411] = {
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "QTE·路投石",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-					},
-				},
-				szNote = "路投石·QTE",
-				szName = "QTE·路投石",
-				dwID = 10696,
-			},
-		},
-	},
-	NPC = {
-		[411] = {
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "宋旅·路投石",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-					},
-				},
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				szNote = "路投石·宋旅",
-				dwID = 127964,
-				col = {
-					0,
-					255,
-					255,
-				},
-			},
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "顽童·路投石",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 90,
-					},
-				},
-				nFrame = 47,
-				szNote = "路投石·顽童",
-				dwID = 127965,
-			},
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "小龟·路投石",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-					},
-				},
-				nFrame = 47,
-				szNote = "路投石·小龟",
-				dwID = 127968,
-			},
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "宋旅·路投石",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-					},
-				},
-				nFrame = 47,
-				szNote = "路投石·宋旅",
-				dwID = 127967,
-			},
-		},
-	},
 	CASTING = {},
+	CHAT = {},
 	DEBUFF = {
 		[411] = {
 			{
 				{
 					bBuffList = true,
 				},
-				szName = "按1",
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "QTE·按1",
-						szName = "按111",
-						nClass = 1,
-						nIcon = 3316,
-						nTime = 1.5,
-					},
-					{
-						key = "QTE·按1",
-						szName = "QTE·按1",
-						nClass = 2,
-						nIcon = 3316,
-						nTime = 0,
-					},
-				},
-				nLevel = 1,
-				nIcon = 3316,
-				szNote = "路投石·QTE·按1",
-				dwID = 28444,
 				col = {
 					255,
 					255,
 					0,
+				},
+				dwID = 28444,
+				nIcon = 3316,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "按1",
+				szNote = "路投石·QTE·按1",
+				tCountdown = {
+					{
+						key = "QTE·按1",
+						nClass = 1,
+						nIcon = 3316,
+						nTime = 1.5,
+						szName = "按111",
+					},
+					{
+						key = "QTE·按1",
+						nClass = 2,
+						nIcon = 3316,
+						nTime = 0,
+						szName = "QTE·按1",
+					},
 				},
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				szName = "按2",
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "QTE·按2",
-						szName = "按222",
-						nClass = 1,
-						nIcon = 3317,
-						nTime = 1.5,
-					},
-					{
-						key = "QTE·按2",
-						szName = "QTE·按2",
-						nClass = 2,
-						nIcon = 3317,
-						nTime = 0,
-					},
-				},
-				nLevel = 1,
-				nIcon = 3317,
-				szNote = "路投石·QTE·按2",
-				dwID = 28445,
 				col = {
 					255,
 					255,
 					0,
+				},
+				dwID = 28445,
+				nIcon = 3317,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "按2",
+				szNote = "路投石·QTE·按2",
+				tCountdown = {
+					{
+						key = "QTE·按2",
+						nClass = 1,
+						nIcon = 3317,
+						nTime = 1.5,
+						szName = "按222",
+					},
+					{
+						key = "QTE·按2",
+						nClass = 2,
+						nIcon = 3317,
+						nTime = 0,
+						szName = "QTE·按2",
+					},
+				},
+			},
+		},
+	},
+	DOODAD = {
+		[411] = {
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 20,
+						szDisplay = "QTE·功夫·路投石",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 10696,
+				szName = "QTE·路投石",
+				szNote = "路投石·QTE",
+			},
+		},
+	},
+	NPC = {
+		[411] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 60,
+						szDisplay = "宋旅·路投石",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 127964,
+				nFrame = 47,
+				szNote = "路投石·宋旅",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 90,
+						szDisplay = "顽童·路投石",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 127965,
+				nFrame = 47,
+				szNote = "路投石·顽童",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 30,
+						szDisplay = "小龟·路投石",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 127968,
+				nFrame = 47,
+				szNote = "路投石·小龟",
+			},
+			{
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 60,
+						szDisplay = "宋旅·路投石",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				dwID = 127967,
+				nFrame = 47,
+				szNote = "路投石·宋旅",
+			},
+		},
+	},
+	TALK = {
+		[411] = {
+			{
+				szContent = "前程皆坦途，何须石问路。",
+				szTarget = "宋旅",
+				tCountdown = {
+					{
+						key = "奇遇提示1",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 12373,
+						nTime = 600,
+						szName = "对话·宋旅·前往·乾坤港西",
+					},
+					{
+						key = "奇遇提示2",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 12373,
+						nTime = 600,
+						szName = "对话·顽童·QTE·对话顽童",
+					},
+					{
+						key = "奇遇提示3",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 12373,
+						nTime = 600,
+						szName = "返回·宋旅·交互·小龟",
+					},
+				},
+			},
+			{
+				szContent = "你在顽童面前露了一手功夫，看得他叫好连连！",
+				tCountdown = {
+					{
+						key = "奇遇提示1",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 12373,
+						nTime = 600,
+						szName = "返回·宋旅·交互·小龟",
+					},
+					{
+						key = "奇遇提示2",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 12373,
+						nTime = 600,
+						szName = "对话·宋旅·前往·海边",
+					},
+					{
+						key = "奇遇提示3",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 12373,
+						nTime = 600,
+						szName = "交互·小龟·对话·宋旅",
+					},
+				},
+			},
+			{
+				szContent = "%#&*！",
+				szTarget = "小龟",
+				tCountdown = {
+					{
+						key = "奇遇提示1",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 12373,
+						nTime = 30,
+						szName = "对话·宋旅·获得·石小小",
+					},
+					{
+						key = "奇遇提示2",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 12373,
+						nTime = 30,
+						szName = "完成·宠物·奇遇·路投石",
+					},
+					{
+						key = "奇遇提示3",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 12373,
+						nTime = 0,
+						szName = "奇遇提示3",
+					},
 				},
 			},
 		},
 	},
 	__meta = {
 		nTimeStamp = 1722421117,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "",
 		szEdition = "zhcn_hd",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
 		szServer = "唯我独尊",
-		szAuthor = "荷花鲤",
-		szCustomVoicePacketUUID = "",
 	},
 }
