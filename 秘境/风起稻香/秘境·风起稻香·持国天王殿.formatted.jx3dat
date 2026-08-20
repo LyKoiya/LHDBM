@@ -1,0 +1,41 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {},
+	NPC = {
+		[60] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						szDisplay = "道海·剧情",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 7312,
+				nFrame = 47,
+				szNote = "道海",
+			},
+		},
+	},
+	TALK = {},
+}

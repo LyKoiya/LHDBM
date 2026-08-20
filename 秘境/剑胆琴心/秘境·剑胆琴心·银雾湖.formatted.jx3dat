@@ -1,0 +1,32 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {},
+	NPC = {
+		[285] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 59270,
+				nFrame = 57,
+				szNote = "¸ñò¿Â³",
+			},
+		},
+	},
+	TALK = {},
+}

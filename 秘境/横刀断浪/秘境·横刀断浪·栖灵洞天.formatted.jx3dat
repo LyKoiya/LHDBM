@@ -5,12 +5,15 @@ return {
 	DEBUFF = {},
 	DOODAD = {},
 	NPC = {
-		[136] = {
+		[658] = {
 			{
+				[3] = {
+					bScreenHead = true,
+				},
 				aFocus = {
 					{
-						nMaxDistance = 60,
-						szDisplay = "",
+						nMaxDistance = 40,
+						szDisplay = "雪影·剧情",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -23,72 +26,14 @@ return {
 						},
 					},
 				},
-				dwID = 16674,
-				nFrame = 47,
-				szNote = "四大长老·唐怀礼",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						szDisplay = "",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
+				col = {
+					0,
+					255,
+					0,
 				},
-				dwID = 16675,
+				dwID = 124353,
 				nFrame = 47,
-				szNote = "四大长老·唐怀信",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						szDisplay = "",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 16676,
-				nFrame = 47,
-				szNote = "四大长老·唐怀义",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						szDisplay = "",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 16673,
-				nFrame = 47,
-				szNote = "四大长老·唐夏",
+				szNote = "雪影",
 			},
 			{
 				[3] = {
@@ -96,71 +41,8 @@ return {
 				},
 				aFocus = {
 					{
-						nMaxDistance = 20,
-						szDisplay = "",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = false,
-							bAlly = false,
-							bEnemy = true,
-						},
-					},
-					{
-						nMaxDistance = 6,
-						szDisplay = "狼牙暗卫·环首锁",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = false,
-							bAlly = false,
-							bEnemy = true,
-						},
-					},
-				},
-				dwID = 16669,
-				nFrame = 57,
-				szNote = "狼牙暗卫",
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 120,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 16665,
-				nFrame = 57,
-				szNote = "霹雳堂火器师",
-			},
-		},
-		[138] = {
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 20,
-						szDisplay = "剧情",
+						nMaxDistance = 60,
+						szDisplay = "颂少风·剧情",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -178,27 +60,9 @@ return {
 					255,
 					0,
 				},
-				dwID = 18050,
+				dwID = 126054,
 				nFrame = 47,
-				szNote = "月弄痕",
-				tCountdown = {
-					{
-						key = "剧情提示1",
-						nClass = 3,
-						nFrame = 6,
-						nIcon = 13,
-						nTime = 30,
-						szName = "对话·月弄痕·选项3·开启快速",
-					},
-					{
-						key = "剧情提示1",
-						nClass = 4,
-						nFrame = 5,
-						nIcon = 13,
-						nTime = 0,
-						szName = "任务提示1",
-					},
-				},
+				szNote = "颂少风",
 			},
 			{
 				[3] = {
@@ -206,31 +70,7 @@ return {
 				},
 				aFocus = {
 					{
-						nMaxDistance = 120,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 18078,
-				nFrame = 57,
-				szNote = "霹雳堂火器师",
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 20,
-						szDisplay = "剧情",
+						nMaxDistance = 70,
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -248,9 +88,9 @@ return {
 					255,
 					0,
 				},
-				dwID = 18079,
-				nFrame = 47,
-				szNote = "唐某",
+				dwID = 125557,
+				nFrame = 69,
+				szNote = "建木之实",
 			},
 			{
 				[3] = {
@@ -258,28 +98,68 @@ return {
 				},
 				aFocus = {
 					{
-						nMaxDistance = 20,
-						szDisplay = "剧情",
+						nMaxDistance = 70,
+						szDisplay = "颂少风·剧情",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
 							szOperator = ">",
 						},
 						tRelation = {
-							bAll = true,
-							bAlly = false,
+							bAll = false,
+							bAlly = true,
 							bEnemy = false,
 						},
 					},
 				},
-				dwID = 18046,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 125417,
 				nFrame = 47,
-				szNote = "月弄痕",
+				szNote = "颂少风",
 			},
 			{
+				[3] = {
+					bScreenHead = true,
+				},
 				aFocus = {
 					{
-						nMaxDistance = 0,
+						nMaxDistance = 60,
+						szDisplay = "颂少风·剧情",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 124338,
+				nFrame = 47,
+				szNote = "颂少风",
+			},
+		},
+		[659] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						szDisplay = "雪影·剧情",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -292,35 +172,135 @@ return {
 						},
 					},
 				},
-				dwID = 18095,
-				nFrame = 47,
-				szNote = "宝箱",
-			},
-		},
-	},
-	TALK = {
-		[138] = {
-			{
-				[14] = {
-					bCenterAlarm = true,
+				col = {
+					0,
+					255,
+					0,
 				},
-				szContent = "是浩气盟的特使，门主已待各位多时，请随我前来。",
-				szNote = "唐某·开剧情",
-				szTarget = "唐某",
-				tCountdown = {
+				dwID = 124353,
+				nFrame = 47,
+				szNote = "雪影",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
 					{
-						key = "剧情提示1",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 10,
-						szName = "交互·唐某·开剧情",
+						nMaxDistance = 60,
+						szDisplay = "颂少风·剧情",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
 					},
 				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 126054,
+				nFrame = 47,
+				szNote = "颂少风",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 70,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 125557,
+				nFrame = 69,
+				szNote = "建木之实",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 70,
+						szDisplay = "颂少风·剧情",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 125417,
+				nFrame = 47,
+				szNote = "颂少风",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "颂少风·剧情",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 124338,
+				nFrame = 47,
+				szNote = "颂少风",
 			},
 		},
 	},
+	TALK = {},
 	__meta = {
-		nTimeStamp = 1787240048,
+		nTimeStamp = 1787240199,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

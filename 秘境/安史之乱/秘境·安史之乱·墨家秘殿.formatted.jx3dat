@@ -1,0 +1,56 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {
+		[184] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "机关",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 4691,
+				szName = "机关",
+			},
+		},
+	},
+	NPC = {
+		[184] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "传送·入口",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 30367,
+				nFrame = 47,
+				szNote = "流沙回廊",
+			},
+		},
+	},
+	TALK = {},
+}

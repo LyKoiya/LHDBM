@@ -1,0 +1,33 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {},
+	NPC = {
+		[106] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "传送人",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 12027,
+				nFrame = 47,
+				szNote = "军需输送使",
+			},
+		},
+	},
+	TALK = {},
+}

@@ -1,0 +1,135 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {
+		[364] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 7838,
+				szNote = "鲨鱼尸体",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 7731,
+				szNote = "奇特的枪",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 7837,
+				szNote = "孙楚珊的包裹",
+			},
+		},
+	},
+	NPC = {
+		[364] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 65284,
+				nFrame = 50,
+				szNote = "鲨鱼",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 66673,
+				nFrame = 65,
+				szNote = "思思",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 65679,
+				nFrame = 57,
+				szNote = "水鬼",
+			},
+		},
+	},
+	TALK = {},
+}

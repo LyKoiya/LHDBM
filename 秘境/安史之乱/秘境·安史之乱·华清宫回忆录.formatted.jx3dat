@@ -1,0 +1,64 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {},
+	NPC = {},
+	TALK = {
+		[163] = {
+			{
+				szContent = "各位大侠，请跟紧我！",
+				szTarget = "王三金",
+				tCountdown = {
+					{
+						key = "秘境剧情",
+						nClass = 14,
+						nIcon = 1240,
+						nTime = 0,
+						szName = "秘境剧情",
+					},
+					{
+						nClass = 14,
+						nIcon = 244,
+						nTime = 15,
+						szName = "小钟",
+					},
+					{
+						nClass = 14,
+						nIcon = 244,
+						nTime = 15,
+						szName = "竹子",
+					},
+					{
+						nClass = 14,
+						nIcon = 244,
+						nTime = 15,
+						szName = "十三根",
+					},
+				},
+			},
+			{
+				szContent = "几位大侠！赶紧到我这里来！不要被守卫军发现！",
+				szTarget = "王三金",
+				tCountdown = {
+					{
+						key = "秘境剧情",
+						nClass = 14,
+						nIcon = 1240,
+						nTime = 15,
+						szName = "对话王三金·梨园服饰",
+					},
+				},
+			},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1787238453,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+	},
+}
