@@ -25,7 +25,6 @@ return {
 				{
 					bBuffList = true,
 				},
-				aCataclysmBuff = {},
 				dwID = 8477,
 				nIcon = 6491,
 				nLevel = 1,
@@ -111,64 +110,6 @@ return {
 					},
 				},
 			},
-			{
-				{
-					bBuffList = true,
-				},
-				aCataclysmBuff = {},
-				dwID = 8477,
-				nIcon = 6491,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "劲足",
-				szNote = "劲足",
-				tCountdown = {
-					{
-						key = "骑御·调息",
-						nClass = 1,
-						nFrame = 6,
-						nIcon = 6491,
-						nRefresh = 300,
-						nTime = 0.5,
-						szName = "骑御·劲足",
-					},
-					{
-						key = "骑御·劲足",
-						nClass = 2,
-						nFrame = 1,
-						nIcon = 6491,
-						nRefresh = 5,
-						nTime = 3,
-						szName = "劲足·已消失",
-					},
-				},
-			},
-			{
-				bCheckLevel = true,
-				dwID = 244,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szNote = "骑御",
-				tCountdown = {
-					{
-						key = "骑御·调息",
-						nClass = 2,
-						nFrame = 6,
-						nIcon = 6678,
-						nTime = -1,
-						szName = "骑御·调息",
-					},
-					{
-						key = "骑御·调息",
-						nClass = 1,
-						nFrame = 6,
-						nIcon = 6678,
-						nRefresh = 0,
-						nTime = "18.8,调息·7级·触发剩余;22.8,调息·5级·触发剩余",
-						szName = "调息7级·buff触发倒计时",
-					},
-				},
-			},
 		},
 		[-19] = {
 			{
@@ -207,7 +148,6 @@ return {
 				{
 					bBuffList = true,
 				},
-				aCataclysmBuff = {},
 				dwID = 8477,
 				nIcon = 6491,
 				nLevel = 1,
@@ -1570,11 +1510,13 @@ return {
 				},
 			},
 			{
+				{
+					bBuffList = true,
+				},
 				dwID = 8609,
 				nIcon = 12450,
 				nLevel = 1,
 				nScrutinyType = 1,
-				szNote = "损10",
 			},
 		},
 		[216] = {
@@ -2093,7 +2035,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 6,
 						szDisplay = "",
 						tLife = {
@@ -2105,12 +2046,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -2120,7 +2055,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 6,
 						szDisplay = "",
 						tLife = {
@@ -2132,12 +2066,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -2525,7 +2453,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						szDisplay = "",
 						tLife = {
@@ -2537,12 +2464,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -2562,7 +2483,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						szDisplay = "",
 						tLife = {
@@ -2574,12 +2494,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -2599,7 +2513,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						szDisplay = "",
 						tLife = {
@@ -2611,12 +2524,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -2635,7 +2542,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 6,
 						szDisplay = "明空星·召唤马驹",
 						tLife = {
@@ -2647,12 +2553,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -3013,7 +2913,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 20,
 						szDisplay = "石林马场·捐马声望",
 						tLife = {
@@ -3025,12 +2924,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -3057,7 +2950,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 10,
 						szDisplay = "小小·放牧",
 						tLife = {
@@ -3069,12 +2961,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -3289,7 +3175,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 20,
 						szDisplay = "大唐军马场·捐马声望",
 						tLife = {
@@ -3301,12 +3186,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -3338,7 +3217,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 10,
 						szDisplay = "李戈·放牧",
 						tLife = {
@@ -3350,12 +3228,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -3573,7 +3445,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 10,
 						szDisplay = "霸王马场·捐马声望",
 						tLife = {
@@ -3585,12 +3456,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -3622,7 +3487,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 10,
 						szDisplay = "方依·放牧",
 						tLife = {
@@ -3634,12 +3498,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
