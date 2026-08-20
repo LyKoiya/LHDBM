@@ -265,15 +265,15 @@ return {
 						nFrame = 2,
 						nIcon = 3557,
 						nTime = 20,
-						szName = "七夕节·包裹·打一下",
+						szName = "七夕节·箱子包裹·打一下",
 					},
 					{
 						key = "节日活动1",
-						nClass = 11,
+						nClass = 13,
 						nFrame = 2,
 						nIcon = 3557,
 						nTime = 5,
-						szName = "七夕节·包裹·领奖励",
+						szName = "七夕节·箱子包裹·领奖励",
 					},
 				},
 			},
@@ -341,25 +341,12 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 3,
-						szDisplay = "",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
+						szDisplay = "细足小蜘蛛·交互",
+					},
+					{
+						nMaxDistance = 60,
+						szDisplay = "细足小蜘蛛·七夕节",
 					},
 				},
 				col = {
