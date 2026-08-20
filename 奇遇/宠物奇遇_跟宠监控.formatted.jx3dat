@@ -1,0 +1,452 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {
+		[5] = {
+			{
+				dwID = 15451,
+				nCount = 3,
+				nIcon = 4987,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "小果·CD",
+				szNote = "跟宠·小果·CD",
+				tCountdown = {
+					{
+						key = "跟宠提示",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 4987,
+						nTime = 5,
+						szName = "酒葫芦·小果·CD",
+					},
+					{
+						key = "跟宠提示",
+						nClass = 2,
+						nFrame = 4,
+						nIcon = 4987,
+						nTime = 5,
+						szName = "酒葫芦·小果·可尝试",
+					},
+				},
+			},
+		},
+		[8] = {
+			{
+				dwID = 15450,
+				nCount = 3,
+				nIcon = 4987,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "小花·CD",
+				szNote = "跟宠·小花·CD",
+				tCountdown = {
+					{
+						key = "跟宠提示",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 4987,
+						nTime = 5,
+						szName = "小土堆·小花·CD",
+					},
+					{
+						key = "跟宠提示",
+						nClass = 2,
+						nFrame = 4,
+						nIcon = 4987,
+						nTime = 5,
+						szName = "小土堆·小花·可尝试",
+					},
+				},
+			},
+		},
+		[30] = {
+			{
+				dwID = 15448,
+				nCount = 3,
+				nIcon = 6626,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "冰蓝花客·CD",
+				szNote = "跟宠·冰蓝花客·CD",
+				tCountdown = {
+					{
+						key = "跟宠提示",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 6626,
+						nTime = 5,
+						szName = "冰凌雪莲·冰蓝花客·CD",
+					},
+					{
+						key = "跟宠提示",
+						nClass = 2,
+						nFrame = 4,
+						nIcon = 6626,
+						nTime = 5,
+						szName = "冰凌雪莲·冰蓝花客·可尝试",
+					},
+				},
+			},
+		},
+		[100] = {
+			{
+				dwID = 15443,
+				nCount = 3,
+				nIcon = 6097,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "小诺·CD",
+				szNote = "跟宠·小诺·CD",
+				tCountdown = {
+					{
+						key = "跟宠提示",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 6097,
+						nTime = 5,
+						szName = "破旧的纸卷·小诺·CD",
+					},
+					{
+						key = "跟宠提示",
+						nClass = 2,
+						nFrame = 4,
+						nIcon = 6097,
+						nTime = 5,
+						szName = "破旧的纸卷·小诺·可尝试",
+					},
+				},
+			},
+		},
+		[101] = {
+			{
+				dwID = 15445,
+				nCount = 3,
+				nIcon = 6802,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "红羽大将军·CD",
+				szNote = "跟宠·红羽大将军·CD",
+				tCountdown = {
+					{
+						key = "跟宠提示",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 6802,
+						nTime = 5,
+						szName = "泥沙堆·红羽大将军·CD",
+					},
+					{
+						key = "跟宠提示",
+						nClass = 2,
+						nFrame = 4,
+						nIcon = 6802,
+						nTime = 5,
+						szName = "泥沙堆·红羽大将军·可尝试",
+					},
+				},
+			},
+		},
+		[103] = {
+			{
+				dwID = 15447,
+				nCount = 3,
+				nIcon = 6994,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "商周客·CD",
+				szNote = "跟宠·商周客·CD",
+				tCountdown = {
+					{
+						key = "跟宠提示",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 6994,
+						nTime = 5,
+						szName = "小土堆·商周客·CD",
+					},
+					{
+						key = "跟宠提示",
+						nClass = 2,
+						nFrame = 4,
+						nIcon = 6994,
+						nTime = 5,
+						szName = "小土堆·商周客·可尝试",
+					},
+				},
+			},
+		},
+		[194] = {
+			{
+				dwID = 15446,
+				nCount = 3,
+				nIcon = 6631,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "果果·CD",
+				szNote = "跟宠·果果·CD",
+				tCountdown = {
+					{
+						key = "跟宠提示",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 6631,
+						nTime = 5,
+						szName = "坚果·果果·CD",
+					},
+					{
+						key = "跟宠提示",
+						nClass = 2,
+						nFrame = 4,
+						nIcon = 6631,
+						nTime = 5,
+						szName = "坚果·果果·可尝试",
+					},
+				},
+			},
+		},
+	},
+	DOODAD = {
+		[5] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 120,
+						szDisplay = "酒葫芦·小果",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4582,
+				szNote = "酒葫芦·小果",
+			},
+		},
+		[8] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 120,
+						szDisplay = "小土堆·小花",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4706,
+				szNote = "小土堆·小花",
+			},
+		},
+		[30] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 120,
+						szDisplay = "冰凌雪莲·冰蓝花客",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5053,
+				szNote = "冰凌雪莲·冰蓝花客",
+			},
+		},
+		[100] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 120,
+						szDisplay = "破旧的纸卷·小诺",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4763,
+				szNote = "破旧的纸卷·小诺",
+			},
+		},
+		[101] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 120,
+						szDisplay = "泥沙堆·红羽大将军",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5155,
+				szNote = "泥沙堆·红羽大将军",
+			},
+		},
+		[103] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 120,
+						szDisplay = "小土堆·商周客",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5316,
+				szNote = "小土堆·商周客",
+			},
+		},
+		[194] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						dwMapID = -1,
+						nMaxDistance = 120,
+						szDisplay = "坚果·果果",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+						tType = {
+							[3] = false,
+							[4] = false,
+							[5] = false,
+							bAll = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5055,
+				szNote = "坚果·果果",
+			},
+		},
+	},
+	NPC = {},
+	TALK = {},
+	__meta = {
+		nTimeStamp = 1787211551,
+		szAuthor = "林草草",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+	},
+}
