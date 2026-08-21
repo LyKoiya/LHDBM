@@ -384,7 +384,7 @@ return {
 					{
 						key = "公共事件·结算",
 						nClass = 20,
-						nFrame = 7,
+						nFrame = 4,
 						nIcon = 13,
 						nTime = 15,
 						szName = "贡献度上限剩余·{$1}",
@@ -609,7 +609,7 @@ return {
 					{
 						key = "公共事件·结算",
 						nClass = 20,
-						nFrame = 7,
+						nFrame = 4,
 						nIcon = 13,
 						nTime = 15,
 						szName = "贡献度上限剩余·{$1}",

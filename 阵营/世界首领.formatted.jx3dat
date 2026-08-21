@@ -30,15 +30,15 @@ return {
 					255,
 					100,
 				},
-				szContent = "^密探来报：%\"(.-)%\"(.-)出现在(.-)[前尘影事]-[“]-([峥嵘振武]-)[”]-([主分线]-)，",
+				szContent = "^密探来报：\"(.-)\"(.-)出现在(.-)[前尘影事]-[“]-([峥嵘振武]-)[”]-([主分线]-)，",
 				szNote = "世界首领·出现",
 				tCountdown = {
 					{
 						key = "世界首领",
 						nClass = 20,
-						nFrame = 3,
+						nFrame = 0,
 						nIcon = 13,
-						nRefresh = 60,
+						nRefresh = 5,
 						nTime = 20,
 						szName = "{$1}·{$2}·{$3}·{$5}{$4}",
 					},
@@ -73,15 +73,15 @@ return {
 					255,
 					100,
 				},
-				szContent = "^密探来报：%\"(.-)%\"(.-)出现在(.-)[前尘影事]-[“]-([峥嵘振武]-)[”]-([主分线]-)，",
+				szContent = "^密探来报：\"(.-)\"(.-)出现在(.-)[前尘影事]-[“]-([峥嵘振武]-)[”]-([主分线]-)，",
 				szNote = "世界首领·出现",
 				tCountdown = {
 					{
 						key = "世界首领",
 						nClass = 20,
-						nFrame = 3,
+						nFrame = 0,
 						nIcon = 13,
-						nRefresh = 60,
+						nRefresh = 5,
 						nTime = 20,
 						szName = "{$1}·{$2}·{$3}·{$5}{$4}",
 					},
@@ -116,15 +116,15 @@ return {
 					255,
 					100,
 				},
-				szContent = "^密探来报：%\"(.-)%\"(.-)出现在(.-)[前尘影事]-[“]-([峥嵘振武]-)[”]-([主分线]-)，",
+				szContent = "^密探来报：\"(.-)\"(.-)出现在(.-)[前尘影事]-[“]-([峥嵘振武]-)[”]-([主分线]-)，",
 				szNote = "世界首领·出现",
 				tCountdown = {
 					{
 						key = "世界首领",
 						nClass = 20,
-						nFrame = 3,
+						nFrame = 0,
 						nIcon = 13,
-						nRefresh = 60,
+						nRefresh = 5,
 						nTime = 20,
 						szName = "{$1}·{$2}·{$3}·{$5}{$4}",
 					},
@@ -155,9 +155,9 @@ return {
 						key = "拍卖分红",
 						nClass = 20,
 						nFrame = 1,
-						nIcon = 13547,
+						nIcon = 3556,
 						nTime = 10,
-						szName = "世界首领·拾取战利品",
+						szName = "世界首领·战利品·已拾取",
 					},
 				},
 			},
@@ -213,6 +213,25 @@ return {
 					},
 				},
 			},
+			{
+				dwID = 6704,
+				nIcon = 3556,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "战利品",
+				szNote = "野外世界首领掉落",
+				tCountdown = {
+					{
+						key = "拍卖分红",
+						nClass = 1,
+						nFrame = 1,
+						nIcon = 3556,
+						nRefresh = 2,
+						nTime = 10,
+						szName = "世界首领·战利品·已拾取",
+					},
+				},
+			},
 		},
 	},
 	DOODAD = {
@@ -220,7 +239,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -244,7 +262,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -265,7 +282,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -286,7 +302,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -307,7 +322,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -328,7 +342,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -349,7 +362,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -370,7 +382,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -391,7 +402,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -412,7 +422,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -433,7 +442,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -454,7 +462,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -475,7 +482,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -496,7 +502,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -517,7 +522,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -538,7 +542,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -559,7 +562,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -580,7 +582,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -601,7 +602,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -622,7 +622,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -643,7 +642,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -664,7 +662,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -685,7 +682,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -706,7 +702,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -727,7 +722,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -748,7 +742,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -769,7 +762,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -790,7 +782,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -811,7 +802,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -832,7 +822,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -863,7 +852,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -897,14 +885,6 @@ return {
 						nRefresh = 20,
 						nTime = -1,
 						szName = "阵营模式",
-					},
-					{
-						key = "拍卖分红",
-						nClass = 14,
-						nIcon = 13,
-						nRefresh = 5,
-						nTime = -1,
-						szName = "拍卖分红",
 					},
 				},
 			},

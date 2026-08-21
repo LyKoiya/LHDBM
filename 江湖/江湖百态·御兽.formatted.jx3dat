@@ -1,315 +1,324 @@
 return {
 	BUFF = {},
+	CASTING = {},
 	CHAT = {
-		[-2] = {
-			{
-				szContent = "您的宠物已消除忧虑，变得活泼欢快。\
-",
-				szNote = "宠物已消除忧虑",
-				[20] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 7,
-						key = "御兽挑战",
-						nTime = 30,
-						szName = "巴陵·御兽挑战·开启",
-						nClass = 20,
-						nIcon = 8302,
-					},
-				},
-				szNote = "巴陵御兽·开启",
-				szContent = "江湖急报：巴陵县出现罕见异兽，请深通驭兽秘术之侠客前往收服，以解百姓之忧。\
-",
-				col = {
-					100,
-					255,
-					255,
-				},
-			},
-		},
-		[-7] = {
-			{
-				szContent = "您的宠物已消除忧虑，变得活泼欢快。\
-",
-				szNote = "宠物已消除忧虑",
-				[20] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 7,
-						key = "御兽挑战",
-						nTime = 30,
-						szName = "巴陵·御兽挑战·开启",
-						nClass = 20,
-						nIcon = 8302,
-					},
-				},
-				szNote = "巴陵御兽·开启",
-				szContent = "江湖急报：巴陵县出现罕见异兽，请深通驭兽秘术之侠客前往收服，以解百姓之忧。\
-",
-				col = {
-					100,
-					255,
-					255,
-				},
-			},
-		},
 		[-21] = {
 			{
 				[20] = {
 					bCenterAlarm = true,
 				},
-				szNote = "宠物已消除忧虑",
 				szContent = "您的宠物已消除忧虑，变得活泼欢快。\
 ",
+				szNote = "宠物已消除忧虑",
 			},
 			{
-				tCountdown = {
-					{
-						nFrame = 7,
-						key = "御兽挑战",
-						nTime = 30,
-						szName = "巴陵·御兽挑战·开启",
-						nClass = 20,
-						nIcon = 8302,
-					},
-				},
-				szNote = "巴陵御兽·开启",
-				szContent = "江湖急报：巴陵县出现罕见异兽，请深通驭兽秘术之侠客前往收服，以解百姓之忧。\
-",
 				col = {
 					100,
 					255,
 					255,
 				},
-			},
-		},
-	},
-	CASTING = {},
-	TALK = {
-		[21] = {
-			{
+				szContent = "江湖急报：巴陵县出现罕见异兽，请深通驭兽秘术之侠客前往收服，以解百姓之忧。\
+",
+				szNote = "巴陵御兽·开启",
 				tCountdown = {
 					{
-						nFrame = 1,
 						key = "御兽挑战",
-						nTime = 63,
-						szName = "巴陵·御兽挑战·剧情剩余",
-						nClass = 14,
-						nIcon = 13,
-					},
-				},
-				szTarget = "秦玉川",
-				szContent = "诸位侠士，请住手，此间或许有些误会。",
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 1,
-						key = "御兽挑战",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 8302,
 						nTime = 30,
-						szName = "巴陵·御兽挑战·奖励",
-						nClass = 14,
-						nIcon = 13,
+						szName = "巴陵·御兽挑战·开启",
 					},
 				},
-				szTarget = "秦玉川",
-				szContent = "还请各位侠士宽限一二，待我查明真相，必会给各位侠士一个交代。些许礼物赠予众侠士，聊表歉意，还望众位笑纳。",
-				szNote = "御兽挑战·奖励出现",
 			},
 		},
-	},
-	NPC = {
-		[21] = {
-			{nFrame=50,[3]={bCenterAlarm=true,bScreenHead=true},szNote="御兽·冰域邪王虎",aFocus={{}},dwID=53526,col={255,50,50}},
+		[-7] = {
+			{
+				[20] = {
+					bCenterAlarm = true,
+				},
+				szContent = "您的宠物已消除忧虑，变得活泼欢快。\
+",
+				szNote = "宠物已消除忧虑",
+			},
+			{
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "江湖急报：巴陵县出现罕见异兽，请深通驭兽秘术之侠客前往收服，以解百姓之忧。\
+",
+				szNote = "巴陵御兽·开启",
+				tCountdown = {
+					{
+						key = "御兽挑战",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 8302,
+						nTime = 30,
+						szName = "巴陵·御兽挑战·开启",
+					},
+				},
+			},
+		},
+		[-2] = {
+			{
+				[20] = {
+					bCenterAlarm = true,
+				},
+				szContent = "您的宠物已消除忧虑，变得活泼欢快。\
+",
+				szNote = "宠物已消除忧虑",
+			},
+			{
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "江湖急报：巴陵县出现罕见异兽，请深通驭兽秘术之侠客前往收服，以解百姓之忧。\
+",
+				szNote = "巴陵御兽·开启",
+				tCountdown = {
+					{
+						key = "御兽挑战",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 8302,
+						nTime = 30,
+						szName = "巴陵·御兽挑战·开启",
+					},
+				},
+			},
 		},
 	},
 	DEBUFF = {
+		[-1] = {
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 11523,
+				nIcon = 13172,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "禁操作",
+				szNote = "禁操作",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 17626,
+				nIcon = 14120,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "无敌",
+				szNote = "无敌",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 7616,
+				nIcon = 13172,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "僵直",
+				szNote = "锁操作_御兽",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 4408,
+				nIcon = 6124,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "召宠",
+				szNote = "张岩召唤宠物CD",
+			},
+		},
 		[21] = {
 			{
 				{
 					bBuffList = true,
 				},
-				dwID = 11326,
-				nLevel = 1,
-				szNote = "御兽·安宁",
 				col = {
 					0,
 					255,
 					255,
 				},
+				dwID = 11326,
+				nLevel = 1,
+				szNote = "御兽·安宁",
 			},
 			{
 				{
 					bBuffList = true,
 				},
 				dwID = 11286,
-				szNote = "御兽·呆若木鸡",
 				nLevel = 1,
+				szNote = "御兽·呆若木鸡",
 			},
 			{
 				{
 					bBuffList = true,
 				},
 				dwID = 11284,
-				szNote = "御兽·颤抖",
 				nLevel = 1,
+				szNote = "御兽·颤抖",
 			},
 			{
 				{
 					bBuffList = true,
 				},
 				dwID = 11287,
-				szNote = "御兽·畏惧",
 				nLevel = 1,
+				szNote = "御兽·畏惧",
 			},
 			{
 				{
 					bBuffList = true,
 				},
 				dwID = 11285,
-				szNote = "御兽·恐惧",
 				nLevel = 1,
+				szNote = "御兽·恐惧",
 			},
 			{
 				{
 					bBuffList = true,
 				},
 				dwID = 11487,
-				szNote = "御兽·威势",
 				nLevel = 1,
+				szNote = "御兽·威势",
 			},
 			{
 				{
 					bBuffList = true,
 				},
 				dwID = 11491,
-				szNote = "御兽·邪王领域",
 				nLevel = 1,
+				szNote = "御兽·邪王领域",
 			},
 			{
 				{
 					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
 				},
 				dwID = 11488,
 				nLevel = 1,
 				szNote = "御兽·邪王领域",
-				col = {
-					255,
-					255,
-					0,
-				},
 			},
 		},
-		[-1] = {
-			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				dwID = 11523,
-				col = {
-					255,
-					255,
-					0,
-				},
-				szName = "禁操作",
-				[1] = {
-					bBuffList = true,
-				},
-				szNote = "禁操作",
-				nIcon = 13172,
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 1,
-				nScrutinyType = 1,
-				col = {
-					255,
-					255,
-					0,
-				},
-				szName = "无敌",
-				dwID = 17626,
-				szNote = "无敌",
-				nIcon = 14120,
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				nIcon = 13172,
-				nScrutinyType = 1,
-				szName = "僵直",
-				dwID = 7616,
-				szNote = "锁操作_御兽",
-				nLevel = 1,
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 1,
-				nScrutinyType = 1,
-				col = {
-					255,
-					255,
-					0,
-				},
-				szName = "召宠",
-				dwID = 4408,
-				szNote = "张岩召唤宠物CD",
-				nIcon = 6124,
-			},
-		},
-	},
-	__meta = {
-		szServer = "唯我独尊",
-		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1785308415,
-		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
-		szEdition = "zhcn_hd",
 	},
 	DOODAD = {
 		[21] = {
 			{
-				dwID = 6277,
-				aFocus = {
-					{
-						szDisplay = "财宝箱·御兽挑战",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 0,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
 				[17] = {
 					bCenterAlarm = true,
 				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "财宝箱·御兽挑战",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 6277,
 				szNote = "御兽·冰域邪王虎掉落·财宝箱",
 			},
 		},
+	},
+	NPC = {
+		[21] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 53526,
+				nFrame = 50,
+				szNote = "御兽·冰域邪王虎",
+			},
+		},
+	},
+	TALK = {
+		[21] = {
+			{
+				szContent = "诸位侠士，请住手，此间或许有些误会。",
+				szTarget = "秦玉川",
+				tCountdown = {
+					{
+						key = "御兽挑战",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nTime = 63,
+						szName = "巴陵·御兽挑战·剧情剩余",
+					},
+				},
+			},
+			{
+				szContent = "还请各位侠士宽限一二，待我查明真相，必会给各位侠士一个交代。些许礼物赠予众侠士，聊表歉意，还望众位笑纳。",
+				szNote = "御兽挑战·奖励出现",
+				szTarget = "秦玉川",
+				tCountdown = {
+					{
+						key = "御兽挑战",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nTime = 30,
+						szName = "巴陵·御兽挑战·奖励",
+					},
+				},
+			},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1785308415,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
 }
