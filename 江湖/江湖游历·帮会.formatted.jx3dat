@@ -1,274 +1,351 @@
 return {
 	BUFF = {
-		[216] = {
-			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				col = {
-					255,
-					150,
-					0,
-				},
-				dwID = 10067,
-				[1] = {
-					bBuffList = true,
-				},
-				szNote = "阴山商路贸易区",
-				szName = "补货点",
-			},
-			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				col = {
-					179,
-					238,
-					58,
-				},
-				dwID = 7508,
-				szNote = "哑运",
-				[1] = {
-					bBuffList = true,
-					bScreenHead = true,
-				},
-			},
-		},
 		[74] = {
 			{
+				dwID = 19004,
 				nLevel = 1,
 				nScrutinyType = 1,
-				dwID = 19004,
 				szNote = "许愿树·太公在此",
 				tCountdown = {
 					{
-						nIcon = 14797,
 						key = "许愿树·太公在此",
+						nClass = 1,
+						nIcon = 14797,
 						nTime = 10,
 						szName = "获得·许愿树·太公在此",
-						nClass = 1,
 					},
 					{
-						nIcon = 14797,
 						key = "许愿树·太公在此",
+						nClass = 2,
+						nIcon = 14797,
 						nTime = 2,
 						szName = "失去·许愿树·太公在此",
-						nClass = 2,
 					},
 				},
 			},
 		},
 		[214] = {
 			{
-				nLevel = 1,
-				nScrutinyType = 1,
+				{
+					bBuffList = true,
+				},
 				col = {
 					255,
 					150,
 					0,
 				},
 				dwID = 10067,
-				szName = "补货点",
-				szNote = "阴山商路贸易区",
-				[1] = {
-					bBuffList = true,
-				},
-			},
-			{
 				nLevel = 1,
 				nScrutinyType = 1,
+				szName = "补货点",
+				szNote = "阴山商路贸易区",
+			},
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+				},
 				col = {
 					179,
 					238,
 					58,
 				},
 				dwID = 7508,
+				nLevel = 1,
+				nScrutinyType = 1,
 				szNote = "哑运",
-				[1] = {
+			},
+		},
+		[216] = {
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 10067,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "补货点",
+				szNote = "阴山商路贸易区",
+			},
+			{
+				{
 					bBuffList = true,
 					bScreenHead = true,
 				},
+				col = {
+					179,
+					238,
+					58,
+				},
+				dwID = 7508,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "哑运",
 			},
 		},
 		[217] = {
 			{
-				nLevel = 1,
-				nScrutinyType = 1,
+				{
+					bBuffList = true,
+					bScreenHead = true,
+				},
 				col = {
 					179,
 					238,
 					58,
 				},
 				dwID = 7508,
+				nLevel = 1,
+				nScrutinyType = 1,
 				szNote = "哑运",
-				[1] = {
-					bBuffList = true,
-					bScreenHead = true,
+			},
+		},
+	},
+	CASTING = {
+		[74] = {
+			{
+				dwID = 7350,
+				nLevel = 1,
+				szNote = "发霉的饭菜",
+				tCountdown = {
+					{
+						key = "发霉的饭菜",
+						nClass = 9,
+						nFrame = 6,
+						nIcon = 590,
+						nRefresh = 0,
+						nTime = "30,发霉的饭菜·毒性增伤;32,发霉的饭菜·增伤消失",
+						szName = "发霉的饭菜",
+					},
+				},
+			},
+			{
+				dwID = 7349,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "腐烂的生菜",
+				tCountdown = {
+					{
+						key = "腐烂的生菜",
+						nClass = 9,
+						nIcon = 126,
+						nTime = 60,
+						szName = "腐烂的生菜·毒性流血",
+					},
 				},
 			},
 		},
 	},
 	CHAT = {
-		[-7] = {
+		[-21] = {
 			{
-				tCountdown = {
-					{
-						nIcon = 8004,
-						key = "阴山商路",
-						nTime = 20,
-						szName = "阴山商路·帮会大跑商·开启",
-						nFrame = 3,
-						nClass = 20,
-					},
-				},
-				szNote = "阴山商路·开启",
-				szContent = "阴山商路运输物资成功开启！请帮会有权限的侠士到黑戈壁帮会物资主簿处申请成为运货首领开始运送！\
-",
 				col = {
 					100,
 					255,
 					255,
+				},
+				szContent = "阴山商路运输物资成功开启！请帮会有权限的侠士到黑戈壁帮会物资主簿处申请成为运货首领开始运送！\
+",
+				szNote = "阴山商路·开启",
+				tCountdown = {
+					{
+						key = "阴山商路",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 8004,
+						nTime = 20,
+						szName = "阴山商路·帮会大跑商·开启",
+					},
 				},
 			},
 			{
-				tCountdown = {
-					{
-						nIcon = 3781,
-						key = "帮会钓鱼",
-						nTime = 15,
-						szName = "帮会钓鱼·活动开启",
-						nRefresh = 1,
-						nFrame = 6,
-						nClass = 20,
-					},
-				},
-				szContent = "帮会领地唱晚池突现异常，各类鱼儿异常活跃，鱼儿上钩时间大大缩短！各路已满80级的侠士可前往一试，定能收获不菲。\
-",
 				col = {
 					100,
 					255,
 					255,
+				},
+				szContent = "帮会领地唱晚池突现异常，各类鱼儿异常活跃，鱼儿上钩时间大大缩短！各路已满80级的侠士可前往一试，定能收获不菲。\
+",
+				tCountdown = {
+					{
+						key = "帮会钓鱼",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 3781,
+						nRefresh = 1,
+						nTime = 15,
+						szName = "帮会钓鱼·活动开启",
+					},
 				},
 			},
 		},
-		[-21] = {
+		[-7] = {
 			{
-				tCountdown = {
-					{
-						nIcon = 8004,
-						key = "阴山商路",
-						nTime = 20,
-						szName = "阴山商路·帮会大跑商·开启",
-						nFrame = 3,
-						nClass = 20,
-					},
-				},
-				szNote = "阴山商路·开启",
-				szContent = "阴山商路运输物资成功开启！请帮会有权限的侠士到黑戈壁帮会物资主簿处申请成为运货首领开始运送！\
-",
 				col = {
 					100,
 					255,
 					255,
+				},
+				szContent = "阴山商路运输物资成功开启！请帮会有权限的侠士到黑戈壁帮会物资主簿处申请成为运货首领开始运送！\
+",
+				szNote = "阴山商路·开启",
+				tCountdown = {
+					{
+						key = "阴山商路",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 8004,
+						nTime = 20,
+						szName = "阴山商路·帮会大跑商·开启",
+					},
 				},
 			},
 			{
-				tCountdown = {
-					{
-						nIcon = 3781,
-						key = "帮会钓鱼",
-						nTime = 15,
-						szName = "帮会钓鱼·活动开启",
-						nRefresh = 1,
-						nFrame = 6,
-						nClass = 20,
-					},
-				},
-				szContent = "帮会领地唱晚池突现异常，各类鱼儿异常活跃，鱼儿上钩时间大大缩短！各路已满80级的侠士可前往一试，定能收获不菲。\
-",
 				col = {
 					100,
 					255,
 					255,
+				},
+				szContent = "帮会领地唱晚池突现异常，各类鱼儿异常活跃，鱼儿上钩时间大大缩短！各路已满80级的侠士可前往一试，定能收获不菲。\
+",
+				tCountdown = {
+					{
+						key = "帮会钓鱼",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 3781,
+						nRefresh = 1,
+						nTime = 15,
+						szName = "帮会钓鱼·活动开启",
+					},
+				},
+			},
+		},
+		[-2] = {
+			{
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "阴山商路运输物资成功开启！请帮会有权限的侠士到黑戈壁帮会物资主簿处申请成为运货首领开始运送！\
+",
+				szNote = "阴山商路·开启",
+				tCountdown = {
+					{
+						key = "阴山商路",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 8004,
+						nTime = 20,
+						szName = "阴山商路·帮会大跑商·开启",
+					},
+				},
+			},
+			{
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "帮会领地唱晚池突现异常，各类鱼儿异常活跃，鱼儿上钩时间大大缩短！各路已满80级的侠士可前往一试，定能收获不菲。\
+",
+				tCountdown = {
+					{
+						key = "帮会钓鱼",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 3781,
+						nRefresh = 1,
+						nTime = 15,
+						szName = "帮会钓鱼·活动开启",
+					},
 				},
 			},
 		},
 		[74] = {
 			{
+				[20] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				szContent = "消耗帮会资金：(%d-)金",
+				szNote = "消耗帮资·[{$1}]金",
 				tCountdown = {
 					{
-						nIcon = 13,
 						key = "帮会资金",
+						nClass = 20,
+						nFrame = 1,
+						nIcon = 13,
 						nTime = 20,
 						szName = "消耗帮资·[{$1}]金",
-						nFrame = 1,
-						nClass = 20,
 					},
-				},
-				szContent = "消耗帮会资金：(%d-)金",
-				bReg = true,
-				szNote = "消耗帮资·[{$1}]金",
-				[20] = {
-					bCenterAlarm = true,
 				},
 			},
 			{
+				[20] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				szContent = "^开启(.-)第(%d-)重成功！消耗帮会资金：(%d-)金",
+				szNote = "天工树·{$1}[{$2}]·消耗帮资{$3}",
 				tCountdown = {
 					{
-						nIcon = 13,
 						key = "天工树",
+						nClass = 20,
+						nFrame = 1,
+						nIcon = 13,
 						nTime = 20,
 						szName = "{$1}[{$2}]·消耗帮资{$3}",
-						nFrame = 1,
-						nClass = 20,
 					},
-				},
-				szContent = "^开启(.-)第(%d-)重成功！消耗帮会资金：(%d-)金",
-				bReg = true,
-				szNote = "天工树·{$1}[{$2}]·消耗帮资{$3}",
-				[20] = {
-					bCenterAlarm = true,
 				},
 			},
 			{
-				tCountdown = {
-					{
-						nIcon = 13,
-						key = "{$2}",
-						nTime = 5,
-						szName = "{$1}·{$2}→{$3}",
-						nFrame = 6,
-						nClass = 20,
-					},
-				},
 				bReg = true,
 				szContent = "^%[帮会%](%b[])由%[(.-)%]转为%[(.-)%]。",
-			},
-			{
 				tCountdown = {
 					{
-						nIcon = 13,
-						key = "小猪快跑",
-						nTime = 5,
-						szName = "个人积分{$1}分·帮会积分{$2}分",
-						nFrame = 6,
+						key = "{$2}",
 						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 5,
+						szName = "{$1}·{$2}→{$3}",
 					},
 				},
+			},
+			{
 				bReg = true,
-				szNote = "当前积分·[{$1}]分",
 				szContent = "^你当前积分为(%d-)分，帮会总积分为(%d-)分。",
+				szNote = "当前积分·[{$1}]分",
+				tCountdown = {
+					{
+						key = "小猪快跑",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 5,
+						szName = "个人积分{$1}分·帮会积分{$2}分",
+					},
+				},
 			},
 			{
 				szContent = "帮会资金不足。\
 ",
 				tCountdown = {
 					{
-						nIcon = 3358,
 						key = "帮会资金",
+						nClass = 20,
+						nFrame = 2,
+						nIcon = 3358,
+						nRefresh = 2,
 						nTime = 5,
 						szName = "帮会资金·不足",
-						nRefresh = 2,
-						nFrame = 2,
-						nClass = 20,
 					},
 				},
 			},
@@ -277,20 +354,20 @@ return {
 ",
 				tCountdown = {
 					{
-						nIcon = 13,
 						key = "炼狱水煮鱼·改良3",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 13,
 						nTime = 20,
 						szName = "需要准备·今朝醉·1个",
-						nFrame = 0,
-						nClass = 20,
 					},
 					{
-						nIcon = 13,
 						key = "炼狱水煮鱼·改良4",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 13,
 						nTime = 20,
 						szName = "再去找帮会大厨·辛三金",
-						nFrame = 0,
-						nClass = 20,
 					},
 				},
 			},
@@ -299,12 +376,12 @@ return {
 ",
 				tCountdown = {
 					{
-						nIcon = 2825,
 						key = "帮会·送鱼",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 2825,
 						nTime = 60,
 						szName = "送鱼·[6]鲈鱼[-1]·20条",
-						nFrame = 6,
-						nClass = 20,
 					},
 				},
 			},
@@ -313,12 +390,12 @@ return {
 ",
 				tCountdown = {
 					{
-						nIcon = 2677,
 						key = "帮会·送鱼",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 2677,
 						nTime = 60,
 						szName = "送鱼·[5]鲢鱼[-2]·20条",
-						nFrame = 6,
-						nClass = 20,
 					},
 				},
 			},
@@ -327,12 +404,12 @@ return {
 ",
 				tCountdown = {
 					{
-						nIcon = 2676,
 						key = "帮会·送鱼",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 2676,
 						nTime = 60,
 						szName = "送鱼·[4]青鱼[-3]·20条",
-						nFrame = 6,
-						nClass = 20,
 					},
 				},
 			},
@@ -341,12 +418,12 @@ return {
 ",
 				tCountdown = {
 					{
-						nIcon = 2817,
 						key = "帮会·送鱼",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 2817,
 						nTime = 60,
 						szName = "送鱼·[3]鲫鱼[-4]·20条",
-						nFrame = 6,
-						nClass = 20,
 					},
 				},
 			},
@@ -355,12 +432,12 @@ return {
 ",
 				tCountdown = {
 					{
-						nIcon = 2818,
 						key = "帮会·送鱼",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 2818,
 						nTime = 60,
 						szName = "送鱼·[2]草鱼[-5]·20条",
-						nFrame = 6,
-						nClass = 20,
 					},
 				},
 			},
@@ -369,12 +446,12 @@ return {
 ",
 				tCountdown = {
 					{
-						nIcon = 2819,
 						key = "帮会·送鱼",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 2819,
 						nTime = 60,
 						szName = "送鱼·[1]鲤鱼[-6]·20条",
-						nFrame = 6,
-						nClass = 20,
 					},
 				},
 			},
@@ -383,13 +460,13 @@ return {
 ",
 				tCountdown = {
 					{
-						nIcon = 3781,
 						key = "帮会钓鱼",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 3781,
+						nRefresh = 1,
 						nTime = 15,
 						szName = "帮会钓鱼·活动开启",
-						nRefresh = 1,
-						nFrame = 6,
-						nClass = 20,
 					},
 				},
 			},
@@ -398,1858 +475,166 @@ return {
 ",
 				tCountdown = {
 					{
-						nIcon = 3781,
 						key = "帮会钓鱼",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 3781,
+						nRefresh = 1,
 						nTime = 10,
 						szName = "帮会钓鱼·鱼群减少",
-						nRefresh = 1,
-						nFrame = 6,
-						nClass = 20,
 					},
 				},
 			},
 			{
-				tCountdown = {
-					{
-						nIcon = 3781,
-						key = "帮会钓鱼",
-						nTime = 15,
-						szName = "帮会钓鱼·活动结束",
-						nRefresh = 1,
-						nFrame = 6,
-						nClass = 20,
-					},
-				},
 				[20] = {
 					szVoice = "ZhuanJieDuan",
 				},
 				szContent = "帮会领地唱晚池水面平静，回归正常，未能尽兴的侠士下次请早。\
 ",
+				tCountdown = {
+					{
+						key = "帮会钓鱼",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 3781,
+						nRefresh = 1,
+						nTime = 15,
+						szName = "帮会钓鱼·活动结束",
+					},
+				},
 			},
 			{
 				szContent = "小马驹的饱食度好像不够了，请及时补充草料。\
 ",
 				tCountdown = {
 					{
-						nIcon = 219,
 						key = "马驹·饱食",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 219,
+						nRefresh = 600,
 						nTime = 15,
 						szName = "小马驹·补充草料",
-						nRefresh = 600,
-						nFrame = 6,
-						nClass = 20,
 					},
 				},
-			},
-		},
-		[-2] = {
-			{
-				tCountdown = {
-					{
-						nIcon = 8004,
-						key = "阴山商路",
-						nTime = 20,
-						szName = "阴山商路·帮会大跑商·开启",
-						nFrame = 3,
-						nClass = 20,
-					},
-				},
-				szNote = "阴山商路·开启",
-				szContent = "阴山商路运输物资成功开启！请帮会有权限的侠士到黑戈壁帮会物资主簿处申请成为运货首领开始运送！\
-",
-				col = {
-					100,
-					255,
-					255,
-				},
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 3781,
-						key = "帮会钓鱼",
-						nTime = 15,
-						szName = "帮会钓鱼·活动开启",
-						nRefresh = 1,
-						nFrame = 6,
-						nClass = 20,
-					},
-				},
-				szContent = "帮会领地唱晚池突现异常，各类鱼儿异常活跃，鱼儿上钩时间大大缩短！各路已满80级的侠士可前往一试，定能收获不菲。\
-",
-				col = {
-					100,
-					255,
-					255,
-				},
-			},
-		},
-	},
-	CASTING = {
-		[74] = {
-			{
-				tCountdown = {
-					{
-						nIcon = 590,
-						key = "发霉的饭菜",
-						nTime = "30,发霉的饭菜·毒性增伤;32,发霉的饭菜·增伤消失",
-						szName = "发霉的饭菜",
-						nRefresh = 0,
-						nFrame = 6,
-						nClass = 9,
-					},
-				},
-				dwID = 7350,
-				szNote = "发霉的饭菜",
-				nLevel = 1,
-			},
-			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				dwID = 7349,
-				szNote = "腐烂的生菜",
-				tCountdown = {
-					{
-						nIcon = 126,
-						key = "腐烂的生菜",
-						nTime = 60,
-						szName = "腐烂的生菜·毒性流血",
-						nClass = 9,
-					},
-				},
-			},
-		},
-	},
-	TALK = {
-		[217] = {
-			{
-				tCountdown = {
-					{
-						nFrame = -1,
-						nRefresh = 0,
-						key = "阴山商路·时限",
-						nTime = "10,你登记为送货首领;14400,阴山商路·运送剩余;14410,阴山商路·运送超时",
-						szName = "阴山商路",
-						bHold = true,
-						nIcon = 8004,
-						nClass = 14,
-					},
-				},
-				szContent = "{$me}已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",
-				col = {
-					100,
-					255,
-					255,
-				},
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szNote = "你登记为送货首领",
-				szTarget = "%",
-			},
-		},
-		[-7] = {
-			{
-				tCountdown = {
-					{
-						nIcon = 8004,
-						key = "阴山商路",
-						nTime = 20,
-						szName = "阴山商路·镖头·{$1}",
-						nFrame = 3,
-						nClass = 14,
-					},
-				},
-				szContent = "(.-)已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",
-				col = {
-					100,
-					255,
-					255,
-				},
-				bReg = true,
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szNote = "阴山商路·【{$1}】·送货首领",
-				szTarget = "%",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 8004,
-						key = "阴山商路·时限",
-						nTime = -2,
-						szName = "阴山商路·时限",
-						nFrame = 1,
-						nClass = 14,
-					},
-					{
-						nIcon = 8004,
-						key = "阴山商路·时限",
-						nTime = 10,
-						szName = "阴山商路·首领重置·损失30镖银",
-						nRefresh = 14400,
-						nFrame = 1,
-						nClass = 14,
-					},
-				},
-				szContent = "运货首领身份已重置，请各位尽快认领物资队将其运抵目的地！",
-				col = {
-					100,
-					255,
-					255,
-				},
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szTarget = "%",
-				szNote = "阴山商路·首领重置·损失30镖银",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 8004,
-						key = "阴山商路",
-						nTime = 10,
-						szName = "阴山商路·补货·50份",
-						nFrame = 3,
-						nClass = 14,
-					},
-				},
-				szContent = "运货首领花费5000两帮会资金成功补货50份！",
-				col = {
-					100,
-					255,
-					255,
-				},
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szTarget = "%",
-				szNote = "阴山商路·补货·50份",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 8004,
-						key = "阴山商路",
-						nTime = 10,
-						szName = "阴山商路·首领离线·损失20镖银",
-						nFrame = 1,
-						nClass = 14,
-					},
-				},
-				szContent = "运货首领离线了，损失了20份镖银……",
-				col = {
-					100,
-					255,
-					255,
-				},
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szTarget = "%",
-				szNote = "阴山商路·首领离线·损失20镖银",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 8004,
-						key = "阴山商路",
-						nTime = 10,
-						szName = "阴山商路·首领重伤·损失10镖银",
-						nFrame = 1,
-						nClass = 14,
-					},
-				},
-				szContent = "运货首领被击杀，损失了10份镖银……",
-				col = {
-					100,
-					255,
-					255,
-				},
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szTarget = "%",
-				szNote = "阴山商路·首领重伤·损失10镖银",
-			},
-		},
-		[-21] = {
-			{
-				tCountdown = {
-					{
-						nIcon = 8004,
-						key = "阴山商路",
-						nTime = 20,
-						szName = "阴山商路·镖头·{$1}",
-						nFrame = 3,
-						nClass = 14,
-					},
-				},
-				szContent = "(.-)已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",
-				col = {
-					100,
-					255,
-					255,
-				},
-				bReg = true,
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szNote = "阴山商路·【{$1}】·送货首领",
-				szTarget = "%",
-			},
-		},
-		[74] = {
-			{
-				tCountdown = {
-					{
-						nIcon = 2579,
-						key = "帮会订单",
-						nTime = 10,
-						szName = "订单·[{$1}]获得[{$2}]",
-						nFrame = 6,
-						nClass = 14,
-					},
-				},
-				szContent = "^机缘已至，本帮会侠士(.-)拾取帮会订单宝堆时获得稀有奖励%[(.-)%]！",
-				[14] = {
-					bCenterAlarm = true,
-				},
-				bReg = true,
-				szTarget = "%",
-				szNote = "帮会订单·[{$1}]获得[{$2}]",
-			},
-			{
-				szContent = "(.-)已被(.-)更改为(.-)！",
-				szNote = "{$2}·更改{$1}·{$3}",
-				bReg = true,
-				szTarget = "%",
-				[14] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 12656,
-						nTime = 10,
-						szName = "{$1}·召唤·{$3}",
-						nFrame = 5,
-						nClass = 14,
-					},
-				},
-				szContent = "^本帮(.-)在(.-)召唤出宝驹(.-)。",
-				[14] = {
-					bCenterAlarm = true,
-				},
-				bReg = true,
-				szTarget = "%",
-				szNote = "【{$1}】·{$2}·[{$3}]",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 3556,
-						key = "帮会资金",
-						nTime = 10,
-						szName = "瑰石·[{$1}]·{$2}",
-						nFrame = 1,
-						nClass = 14,
-					},
-				},
-				szContent = "^本帮(.-)通过观星台成功预见出(.-)。",
-				[14] = {
-					bCenterAlarm = true,
-				},
-				bReg = true,
-				szTarget = "%",
-				szNote = "瑰石·[{$1}]·{$2}",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 2218,
-						key = "{$1}·红凤凰队",
-						nTime = 10,
-						szName = "[{$1}]·重置分数·蓝队",
-						nFrame = 7,
-						nClass = 14,
-					},
-					{
-						nIcon = 2219,
-						key = "{$1}·蓝蛟龙队",
-						nTime = 10,
-						szName = "[{$1}]·重置分数·红队",
-						nFrame = 3,
-						nClass = 14,
-					},
-					{
-						nIcon = 13,
-						key = "{$1}·{$2}",
-						nTime = -1,
-						szName = "{$1}·{$2}",
-						nFrame = 7,
-						nClass = 14,
-					},
-				},
-				szContent = "(.-)已将(.-)进球分数重置为(%d+)，比赛可重新开始。",
-				[14] = {
-					bCenterAlarm = true,
-				},
-				bReg = true,
-				szTarget = "%",
-				szNote = "[{$1}]·重置分数·{$2}",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 2218,
-						key = "韩荞生",
-						nTime = 10,
-						szName = "[{$1}]·退出蓝队·剩余{$5}人",
-						nFrame = 7,
-						nClass = 14,
-					},
-					{
-						nIcon = 2219,
-						key = "黄剑翔",
-						nTime = 10,
-						szName = "[{$1}]·退出红队·剩余{$5}人",
-						nFrame = 3,
-						nClass = 14,
-					},
-					{
-						nIcon = 13,
-						key = "{$sender}",
-						nTime = -1,
-						szName = "{$sender}",
-						nFrame = 7,
-						nClass = 14,
-					},
-				},
-				szContent = "(.-)已(.-)！有志之士可加入(.-)！(.-)当前队员数为：(%d+)",
-				[14] = {
-					bCenterAlarm = true,
-				},
-				bReg = true,
-				szTarget = "%",
-				szNote = "[{$1}]·{$2}",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 2218,
-						key = "{$1}·红凤凰队",
-						nTime = 10,
-						szName = "[{$1}]·加入蓝队·{$4}人",
-						nFrame = 7,
-						nClass = 14,
-					},
-					{
-						nIcon = 2219,
-						key = "{$1}·蓝蛟龙队",
-						nTime = 10,
-						szName = "[{$1}]·加入红队·{$4}人",
-						nFrame = 3,
-						nClass = 14,
-					},
-					{
-						nIcon = 13,
-						key = "{$1}·{$2}",
-						nTime = -1,
-						szName = "{$1}·{$2}",
-						nFrame = 7,
-						nClass = 14,
-					},
-				},
-				szContent = "(.-)已报名加入(.-)！目前(.-)人数为(%d+)人。燃烧吧！把蹴鞠射进(.-)的球门！胜利属于(.-)！",
-				[14] = {
-					bCenterAlarm = true,
-				},
-				bReg = true,
-				szTarget = "%",
-				szNote = "[{$1}]·加入·{$2}",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 2216,
-						key = "蹴鞠重置",
-						nTime = 10,
-						szName = "[{$1}]·重置蹴鞠·球场中间",
-						nFrame = 1,
-						nClass = 14,
-					},
-				},
-				szContent = "(.-)已将蹴鞠重置到球场中央，大家激情地燃烧起来吧！",
-				[14] = {
-					bCenterAlarm = true,
-				},
-				bReg = true,
-				szTarget = "%",
-				szNote = "[{$1}]·重置蹴鞠·球场中间",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 2216,
-						key = "蹴鞠重置",
-						nTime = "30,蹴鞠重置·30秒剩余;32,蹴鞠·已经重置",
-						szName = "蹴鞠出界·20秒重置",
-						nRefresh = 0,
-						nFrame = 1,
-						nClass = 14,
-					},
-					{
-						nIcon = 2218,
-						key = "红凤凰队",
-						nTime = 30,
-						szName = "蓝队·得1分·总分{$2}",
-						nFrame = 7,
-						nClass = 14,
-					},
-					{
-						nIcon = 2219,
-						key = "蓝蛟龙队",
-						nTime = 30,
-						szName = "红队·得1分·总分{$2}",
-						nFrame = 3,
-						nClass = 14,
-					},
-					{
-						nIcon = 13,
-						key = "{$1}",
-						nTime = -1,
-						szName = "{$1}",
-						nFrame = 7,
-						nClass = 14,
-					},
-					{
-						nIcon = 3773,
-						key = "红凤凰队·蓝蛟龙队",
-						nTime = 60,
-						szName = "比分·红队{$6}:蓝队{$5}",
-						nFrame = 4,
-						nClass = 14,
-					},
-					{
-						nIcon = 3773,
-						key = "蓝蛟龙队·红凤凰队",
-						nTime = 60,
-						szName = "比分·红队{$5}:蓝队{$6}",
-						nFrame = 4,
-						nClass = 14,
-					},
-					{
-						nIcon = 13,
-						key = "{$3}·{$4}",
-						nTime = -1,
-						szName = "{$3}·{$4}",
-						nClass = 14,
-					},
-				},
-				szContent = "(.-)，得一分！目前总分为(%d+)。(.-)跟(.-)比分为(%d+)比(%d+)。蹴鞠将在(%d+)秒后重置！",
-				[14] = {
-					bCenterAlarm = true,
-				},
-				bReg = true,
-				szTarget = "%",
-				szNote = "{$1}·得1分",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 2216,
-						key = "蹴鞠重置",
-						nTime = "20,蹴鞠出界·20秒重置;22,蹴鞠·已经重置",
-						szName = "蹴鞠出界·20秒重置",
-						nRefresh = 0,
-						nFrame = 1,
-						nClass = 14,
-					},
-				},
-				szContent = "蹴鞠已出界，将在20秒后重置！",
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szNote = "蹴鞠出界·20秒重置",
-				szTarget = "%",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 3358,
-						key = "帮会资金",
-						nTime = 12.5,
-						szName = "瑰石·帮会资金或发展点不足",
-						nFrame = 2,
-						nClass = 14,
-					},
-				},
-				szNote = "瑰石·帮会资金·不足",
-				szContent = "贵帮会的帮会资金或发展点不足。",
-				szTarget = "韩非子",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 3556,
-						key = "帮会资金",
-						nTime = "12.5,瑰石·预测剩余;15,瑰石·可以领取",
-						szName = "瑰石·领取剩余",
-						nRefresh = 0,
-						nFrame = 1,
-						nClass = 14,
-					},
-				},
-				szNote = "帮会领地·瑰石·正在预测",
-				szContent = "哎，冥冥之中早已注定。你来取这晶石吧。",
-				szTarget = "韩非子",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 3781,
-						key = "钓鱼活动",
-						nTime = "22,钓鱼活动·正式开启;2422,钓鱼活动·结束剩余;2432,钓鱼活动·已经结束",
-						szName = "钓鱼活动·结束剩余",
-						nRefresh = 2,
-						nFrame = -1,
-						nClass = 14,
-					},
-				},
-				szNote = "钓鱼活动·正式开启·40分钟",
-				szContent = "钓鱼活动正式开启，接下来40分钟内于唱晚池钓到稀有物品的概率将大幅增长，尽情享受钓鱼的乐趣吧！",
-				szTarget = "李霖",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 3781,
-						key = "钓鱼活动",
-						nTime = "1200,钓鱼活动·结束剩余;1210,钓鱼活动·已经结束",
-						szName = "钓鱼活动·结束剩余",
-						nRefresh = 2,
-						nFrame = -1,
-						nClass = 14,
-					},
-				},
-				szNote = "钓鱼活动·剩余20分钟",
-				szContent = "据韩非子最新消息，唱晚池将于20分钟后回归平静。",
-				szTarget = "李霖",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 3781,
-						key = "钓鱼活动",
-						nTime = 10,
-						szName = "帮会钓鱼·活动结束",
-						nFrame = 2,
-						nClass = 14,
-					},
-				},
-				szContent = "钓鱼活动结束，钓到稀有物品的概率回归正常水平。",
-				[14] = {
-					szVoice = "ZhuanJieDuan",
-					bCenterAlarm = true,
-				},
-				szNote = "帮会领地·钓鱼活动·活动结束",
-				szTarget = "李霖",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 3730,
-						key = "小猪快跑",
-						nTime = 10,
-						szName = "小猪快跑·活动结束",
-						nFrame = -1,
-						nClass = 14,
-					},
-				},
-				szContent = "本期小猪快跑活动已经结束",
-				bSearch = true,
-				[14] = {
-					szVoice = "ZhuanJieDuan",
-					bCenterAlarm = true,
-				},
-				szNote = "帮会领地·小猪快跑·活动结束",
-				szTarget = "三石叔",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 13,
-						key = "悬挂地点",
-						nTime = 10,
-						szName = "小地图·绿点位置·顶部旗杆",
-						nRefresh = 1,
-						nFrame = 4,
-						nClass = 14,
-					},
-				},
-				szNote = "小地图·绿点位置·顶部旗杆",
-				szContent = "在绿点标示的地点方可悬挂",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 13,
-						key = "悬挂地点",
-						nTime = 10,
-						szName = "小地图·绿点位置·座椅背后",
-						nFrame = 4,
-						nClass = 14,
-					},
-				},
-				szNote = "小地图·绿点位置·座椅背后",
-				szContent = "在绿点标示的地点方可悬挂。",
-				szTarget = "%",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 13,
-						key = "悬挂地点",
-						nTime = 10,
-						szName = "悬挂旗帜·每天19:00重置",
-						nFrame = 6,
-						nClass = 14,
-					},
-				},
-				szContent = "悬挂旗帜成功，旗帜将于每天19:00重置。",
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szNote = "悬挂旗帜·成功",
-				szTarget = "%",
-			},
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szTarget = "%",
-				szNote = "悬挂匾额·成功",
-				szContent = "悬挂匾额成功！",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 3730,
-						key = "小猪快跑",
-						nTime = "10,小猪快跑·活动开启;2400,小猪快跑·结束剩余;2410,小猪快跑·已经结束",
-						szName = "小猪快跑·活动开启",
-						nRefresh = 2,
-						nFrame = -1,
-						nClass = 14,
-					},
-				},
-				szContent = "小猪快跑活动已经成功开启，快召集帮会成员速回帮会吧。",
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szNote = "帮会领地·小猪快跑·活动开启",
-				szTarget = "%",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 3766,
-						key = "菜园保卫战",
-						nTime = "60,菜园保卫战·猪九戒·出现剩余;70,菜园保卫战·祝融山·猪九戒出现",
-						szName = "帮会领地·菜园保卫战·猪九戒",
-						nRefresh = 62,
-						nFrame = 6,
-						nClass = 14,
-					},
-				},
-				szContent = "距猪九戒出现还有1分钟，请大家做好准备。此期间请不要离开帮会领地，以防猪九戒作怪。",
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szNote = "帮会领地·菜园保卫战·活动开启",
-				szTarget = "%",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 3556,
-						key = "帮会资金",
-						nTime = 5,
-						szName = "瑰石·预见剩余",
-						nFrame = 1,
-						nClass = 14,
-					},
-				},
-				szNote = "帮会领地·瑰石·开始预见",
-				szContent = "韩先生已经开始预见，完成之前请勿打扰。预见成功后请尽快领取！",
-				szTarget = "%",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 643,
-						key = "遛马名师",
-						nTime = 10,
-						szName = "小马驹·召唤溜达",
-						nRefresh = 120,
-						nClass = 14,
-					},
-				},
-				szNote = "遛马名师·小马驹·非当前驯养",
-				szContent = "你召唤的小马驹非当前驯养对象。\
-",
-				szTarget = "%",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 643,
-						key = "遛马名师",
-						nTime = 10,
-						szName = "小马驹·召唤溜达",
-						nRefresh = 1800,
-						nClass = 14,
-					},
-				},
-				szNote = "遛马名师·小马驹·未召唤",
-				szContent = "需要将小马驹召唤出来溜达。",
-				szTarget = "%",
-			},
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szTarget = "%",
-				szNote = "无法从此地离开帮会领地",
-				szContent = "无法从此地离开帮会领地。",
-			},
-		},
-		[-1] = {
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "小猪快跑",
-						nTime = 10,
-						szName = "帮会领地·小猪快跑·活动开启",
-						nIcon = 3730,
-					},
-				},
-				szTarget = "%",
-				szNote = "帮会领地·小猪快跑·活动开启",
-				szContent = "【小猪快跑】活动正式开启，请众位侠士速回帮会协助三石叔赶回窜逃的小猪。若帮会总积分达到500分，则帮会和个人均会获得大量奖励！",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 3781,
-						key = "钓鱼活动",
-						nTime = 10,
-						szName = "帮会领地·钓鱼活动·40分钟",
-						nFrame = 6,
-						nClass = 14,
-					},
-				},
-				szTarget = "%",
-				szNote = "帮会领地·钓鱼活动·正式开启",
-				szContent = "天上掉馅饼，鱼池落珍宝！刚得到可靠消息，韩非子夜观天象算准了在接下来的40分钟内，于唱晚池钓到稀有物品的概率将大幅增长，机不可失失不再来啊，速回帮会寻珍觅宝钓大鱼吧！",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 3781,
-						key = "钓鱼活动",
-						nTime = 10,
-						szName = "帮会领地·钓鱼活动·20分钟",
-						nFrame = 6,
-						nClass = 14,
-					},
-				},
-				szTarget = "%",
-				szNote = "帮会领地·钓鱼活动·已经开启",
-				szContent = "据韩非子最新消息，唱晚池将于20分钟后归于平静。在此之前于唱晚池钓到稀有物品的概率将大幅增长，机不可失失不再来啊。",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 3766,
-						key = "菜园保卫战",
-						nTime = 10,
-						szName = "帮会领地·祝融山·猪九戒出现",
-						nFrame = 6,
-						nClass = 14,
-					},
-				},
-				szTarget = "%",
-				szNote = "菜园保卫战·祝融山·猪九戒·出现",
-				szContent = "猪九戒出现祝融山，请大家速去阻止它破坏农田。",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 3766,
-						key = "菜园保卫战",
-						nTime = 20,
-						szName = "帮会领地·菜园保卫战·完满达成",
-						nFrame = 6,
-						nClass = 14,
-					},
-				},
-				szTarget = "%",
-				szNote = "帮会领地·菜园保卫战·完满达成",
-				szContent = "本周帮会菜园保卫战完满达成，增加了70000点不占周上限的帮会资金。",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 8004,
-						key = "阴山商路",
-						nTime = 10,
-						szName = "阴山商路·帮会大跑商·开启",
-						nFrame = 3,
-						nClass = 14,
-					},
-				},
-				szContent = "阴山商路运输物资已成功开启，请有权限的侠士速到黑戈壁帮会物资主簿处申请成为运货首领开始运送！",
-				col = {
-					100,
-					255,
-					255,
-				},
-				szTarget = "%",
-				szNote = "阴山商路·开启",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 8004,
-						key = "阴山商路",
-						nTime = 20,
-						szName = "阴山商路·成功运抵",
-						nFrame = 3,
-						nClass = 14,
-					},
-					{
-						nClass = 14,
-						key = "阴山商路·时限",
-						nTime = -1,
-						szName = "阴山商路·时限",
-						nIcon = 13,
-					},
-				},
-				szContent = "此次帮会通过阴山商路成功运抵",
-				bSearch = true,
-				szNote = "阴山商路·成功运抵",
-				bReg = false,
-				szTarget = "%",
-				col = {
-					100,
-					255,
-					255,
-				},
-			},
-		},
-		[-2] = {
-			{
-				tCountdown = {
-					{
-						nIcon = 8004,
-						key = "阴山商路",
-						nTime = 20,
-						szName = "阴山商路·镖头·{$1}",
-						nFrame = 3,
-						nClass = 14,
-					},
-				},
-				szContent = "(.-)已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",
-				col = {
-					100,
-					255,
-					255,
-				},
-				bReg = true,
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szNote = "阴山商路·【{$1}】·送货首领",
-				szTarget = "%",
-			},
-		},
-	},
-	NPC = {
-		[217] = {
-			{
-				nFrame = 47,
-				col = {
-					255,
-					120,
-					31,
-				},
-				dwID = 47744,
-				aFocus = {
-					{
-						szDisplay = "谷艾·阴山商路·主簿",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				szNote = "阴山商路·恶人·谷艾",
-				[3] = {
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				col = {
-					31,
-					230,
-					255,
-				},
-				dwID = 47858,
-				aFocus = {
-					{
-						szDisplay = "宋涛·阴山商路·主簿",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				szNote = "阴山商路·浩气·宋涛",
-				[3] = {
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 47408,
-				aFocus = {
-					{
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 0,
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "阴山商路·散落的货物",
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-			},
-		},
-		[214] = {
-			{
-				nFrame = 47,
-				col = {
-					100,
-					255,
-					100,
-				},
-				dwID = 47749,
-				aFocus = {
-					{
-						szDisplay = "木博·阴山商路·补货",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				szNote = "阴山商路·木博·补货",
-				[3] = {
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 47408,
-				aFocus = {
-					{
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "阴山商路·散落的货物",
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 10,
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "阴山商路·恶人谷镖车",
-				dwID = 47032,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 10,
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "阴山商路·浩气盟镖车",
-				dwID = 47859,
-			},
-		},
-		[194] = {
-			{
-				nFrame = 47,
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 47754,
-				aFocus = {
-					{
-						szDisplay = "褚禾·阴山商路",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				szNote = "阴山商路·褚禾",
-				[3] = {
-					bScreenHead = true,
-				},
-			},
-		},
-		[74] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 15177,
-				aFocus = {
-					{
-						szDisplay = "大野猪·驱赶",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 4,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-					{
-						szDisplay = "大野猪·认领",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 60,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-					{
-						szDisplay = "大野猪",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 90,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "大野猪",
-				col = {
-					0,
-					255,
-					255,
-				},
-			},
-			{
-				dwID = 15176,
-				aFocus = {
-					{
-						szDisplay = "小黑猪·驱赶",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 4,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-					{
-						szDisplay = "小黑猪·认领",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 60,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "小黑猪",
-				nFrame = 47,
-			},
-			{
-				dwID = 14460,
-				aFocus = {
-					{
-						szDisplay = "小白猪·驱赶",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 4,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-					{
-						szDisplay = "小白猪·认领",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 60,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "小白猪",
-				nFrame = 47,
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 13,
-						key = "发霉的饭菜",
-						nTime = -1,
-						szName = "发霉的饭菜",
-						nClass = 12,
-					},
-					{
-						nIcon = 13,
-						key = "腐烂的生菜",
-						nTime = -1,
-						szName = "腐烂的生菜",
-						nClass = 12,
-					},
-				},
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				dwID = 10909,
-				aFocus = {
-					{
-						szDisplay = "猪九戒·菜园保卫战",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 0,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "猪九戒",
-				nFrame = 47,
-			},
-			{
-				dwID = 10856,
-				aFocus = {
-					{
-						szDisplay = "韩非子·瑰石",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 60,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "韩非子",
-				nFrame = 47,
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 15178,
-				aFocus = {
-					{
-						szDisplay = "三石叔·小猪快跑",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 10,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "小猪快跑·三石叔",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 7365,
-				szNote = "蹴鞠报名人·韩荞生",
-				col = {
-					255,
-					255,
-					100,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 7366,
-				szNote = "蹴鞠报名人·黄剑翔",
-				col = {
-					100,
-					255,
-					255,
-				},
-			},
-			{
-				nFrame = 52,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 7364,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 10,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "蹴鞠",
-				col = {
-					255,
-					50,
-					50,
-				},
-			},
-		},
-		[216] = {
-			{
-				nFrame = 47,
-				col = {
-					100,
-					255,
-					100,
-				},
-				dwID = 47888,
-				aFocus = {
-					{
-						szDisplay = "夏洛特·阴山商路·补货",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				szNote = "阴山商路·夏洛特·补货",
-				[3] = {
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 47408,
-				aFocus = {
-					{
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "阴山商路·散落的货物",
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						nMaxDistance = 10,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "阴山商路·恶人谷镖车",
-				dwID = 47032,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						nMaxDistance = 10,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "阴山商路·浩气盟镖车",
-				dwID = 47859,
 			},
 		},
 	},
 	DEBUFF = {
-		[216] = {
-			{
-				{
-					bBuffList = true,
-				},
-				nIcon = 8004,
-				nScrutinyType = 1,
-				col = {
-					255,
-					255,
-					0,
-				},
-				szName = "大跑商",
-				nLevel = 1,
-				szNote = "场景标记",
-				dwID = 9992,
-			},
-			{
-				{},
-				nLevel = 1,
-				nScrutinyType = 2,
-				col = {
-					255,
-					255,
-					255,
-				},
-				dwID = 9982,
-				szNote = "运货首领",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#FFFFFFFF",
-						col = "#FFFFFFFF",
-						nPriority = 2,
-						nColAlpha = 255,
-						szReminder = "镖",
-					},
-				},
-			},
-			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				col = {
-					31,
-					63,
-					255,
-				},
-				dwID = 7851,
-				szNote = "追踪·减速50%",
-				[1] = {
-					bBuffList = true,
-				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				nIcon = 216,
-				nScrutinyType = 1,
-				col = {
-					255,
-					255,
-					0,
-				},
-				szName = "押镖",
-				nLevel = 1,
-				szNote = "押镖表现",
-				dwID = 10068,
-			},
-		},
 		[74] = {
 			{
-				nLevel = 1,
-				nScrutinyType = 1,
 				col = {
 					100,
 					255,
 					255,
 				},
 				dwID = 2021,
+				nLevel = 1,
+				nScrutinyType = 1,
 				szNote = "报名·蓝队",
 				tCountdown = {
 					{
-						nIcon = 2217,
 						key = "事件规则1",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 2217,
 						nTime = 60,
 						szName = "将背包道具拖入快捷栏",
-						nFrame = 4,
-						nClass = 1,
 					},
 					{
-						nIcon = 2217,
 						key = "事件规则2",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 2217,
 						nTime = 60,
 						szName = "选中蹴鞠使用踢球道具",
-						nFrame = 4,
-						nClass = 1,
 					},
 					{
-						nIcon = 2217,
 						key = "事件规则3",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 2217,
 						nTime = 60,
 						szName = "报名后需重新进入赛场",
-						nFrame = 4,
-						nClass = 1,
 					},
 					{
-						nIcon = 13,
 						key = "事件规则1",
+						nClass = 2,
+						nIcon = 13,
 						nTime = -1,
 						szName = "事件规则1",
-						nClass = 2,
 					},
 					{
-						nIcon = 13,
 						key = "事件规则2",
+						nClass = 2,
+						nIcon = 13,
 						nTime = -1,
 						szName = "事件规则2",
-						nClass = 2,
 					},
 					{
-						nIcon = 13,
 						key = "事件规则3",
+						nClass = 2,
+						nIcon = 13,
 						nTime = -1,
 						szName = "事件规则2",
-						nClass = 2,
 					},
 				},
 			},
 			{
-				nLevel = 1,
-				nScrutinyType = 1,
 				col = {
 					255,
 					255,
 					100,
 				},
 				dwID = 1964,
+				nLevel = 1,
+				nScrutinyType = 1,
 				szNote = "报名·红队",
 				tCountdown = {
 					{
-						nIcon = 2217,
 						key = "事件规则1",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 2217,
 						nTime = 60,
 						szName = "将背包道具拖入快捷栏",
-						nFrame = 4,
-						nClass = 1,
 					},
 					{
-						nIcon = 2217,
 						key = "事件规则2",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 2217,
 						nTime = 60,
 						szName = "选中蹴鞠使用踢球道具",
-						nFrame = 4,
-						nClass = 1,
 					},
 					{
-						nIcon = 2217,
 						key = "事件规则3",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 2217,
 						nTime = 60,
 						szName = "报名后需重新进入赛场",
-						nFrame = 4,
-						nClass = 1,
 					},
 					{
-						nIcon = 13,
 						key = "事件规则1",
+						nClass = 2,
+						nIcon = 13,
 						nTime = -1,
 						szName = "事件规则1",
-						nClass = 2,
 					},
 					{
-						nIcon = 13,
 						key = "事件规则2",
+						nClass = 2,
+						nIcon = 13,
 						nTime = -1,
 						szName = "事件规则2",
-						nClass = 2,
 					},
 					{
-						nIcon = 13,
 						key = "事件规则3",
+						nClass = 2,
+						nIcon = 13,
 						nTime = -1,
 						szName = "事件规则2",
-						nClass = 2,
 					},
 				},
 			},
@@ -2258,79 +643,79 @@ return {
 					bBuffList = true,
 					bScreenHead = true,
 				},
-				nLevel = 1,
-				nScrutinyType = 2,
+				aCataclysmBuff = {
+					{
+						bScreenHead = true,
+						col = "#64FFFFFF",
+						colScreenHead = "#64FFFF",
+						nColAlpha = 255,
+						nPriority = 1,
+					},
+				},
 				col = {
 					100,
 					255,
 					255,
 				},
 				dwID = 2020,
+				nLevel = 1,
+				nScrutinyType = 2,
 				szName = "蓝队",
 				szNote = "蓝·蹴鞠参赛者",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#64FFFF",
-						col = "#64FFFFFF",
-						nPriority = 1,
-						nColAlpha = 255,
-						bScreenHead = true,
-					},
-				},
 			},
 			{
 				{
 					bBuffList = true,
 					bScreenHead = true,
 				},
-				nLevel = 1,
-				nScrutinyType = 2,
+				aCataclysmBuff = {
+					{
+						bScreenHead = true,
+						col = "#FFFF64FF",
+						colScreenHead = "#FFFF64",
+						nColAlpha = 255,
+					},
+				},
 				col = {
 					255,
 					255,
 					100,
 				},
 				dwID = 1957,
+				nLevel = 1,
+				nScrutinyType = 2,
 				szName = "红队",
 				szNote = "红·蹴鞠参赛者",
-				aCataclysmBuff = {
-					{
-						nColAlpha = 255,
-						colScreenHead = "#FFFF64",
-						bScreenHead = true,
-						col = "#FFFF64FF",
-					},
-				},
 			},
 			{
 				{
 					bBuffList = true,
 					bScreenHead = true,
 				},
-				nLevel = 1,
-				nScrutinyType = 1,
 				col = {
 					255,
 					50,
 					255,
 				},
 				dwID = 1958,
+				nLevel = 1,
+				nScrutinyType = 1,
 				szNote = "出场倒计时",
 				tCountdown = {
 					{
-						nIcon = 2216,
 						key = "出场倒计时",
+						nClass = 1,
+						nFrame = 2,
+						nIcon = 2216,
 						nTime = 5,
 						szName = "出场·退赛剩余",
-						nFrame = 2,
-						nClass = 1,
 					},
 					{
-						nIcon = 13,
 						key = "出场倒计时",
+						nClass = 2,
+						nIcon = 13,
 						nTime = -1,
 						szName = "出场倒计时",
-						nClass = 2,
 					},
 				},
 			},
@@ -2338,108 +723,174 @@ return {
 				{
 					bBuffList = true,
 				},
-				nLevel = 1,
-				nScrutinyType = 2,
 				col = {
 					255,
 					153,
 					204,
 				},
 				dwID = 2426,
+				nLevel = 1,
+				nScrutinyType = 2,
 				szNote = "呕吐物",
-				aCataclysmBuff = {},
 			},
 			{
 				{
 					bScreenHead = true,
 				},
-				nLevel = 1,
-				nScrutinyType = 2,
+				aCataclysmBuff = {
+					{
+						bScreenHead = true,
+						col = "#FFFF00FF",
+						colScreenHead = "#FFFF00",
+						nColAlpha = 255,
+						nPriority = 12,
+						szReminder = "晕",
+					},
+				},
 				col = {
 					255,
 					255,
 					0,
 				},
 				dwID = 2549,
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#FFFF00",
-						col = "#FFFF00FF",
-						nPriority = 12,
-						nColAlpha = 255,
-						szReminder = "晕",
-						bScreenHead = true,
-					},
-				},
+				nLevel = 1,
+				nScrutinyType = 2,
 			},
 		},
 		[214] = {
 			{
-				nIcon = 8004,
-				nScrutinyType = 1,
-				szName = "大跑商",
+				{
+					bBuffList = true,
+				},
 				col = {
 					255,
 					255,
 					0,
 				},
-				[1] = {
-					bBuffList = true,
-				},
 				dwID = 9992,
-				szNote = "场景标记",
+				nIcon = 8004,
 				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "大跑商",
+				szNote = "场景标记",
 			},
 			{
-				nLevel = 1,
-				nScrutinyType = 2,
+				aCataclysmBuff = {
+					{
+						col = "#FFFFFFFF",
+						colScreenHead = "#FFFFFFFF",
+						nColAlpha = 255,
+						nPriority = 2,
+						szReminder = "镖",
+					},
+				},
 				col = {
 					255,
 					255,
 					255,
 				},
-				[1] = {},
 				dwID = 9982,
+				nLevel = 1,
+				nScrutinyType = 2,
 				szNote = "运货首领",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#FFFFFFFF",
-						col = "#FFFFFFFF",
-						szReminder = "镖",
-						nPriority = 2,
-						nColAlpha = 255,
-					},
-				},
 			},
 			{
-				nLevel = 1,
-				nScrutinyType = 1,
+				{
+					bBuffList = true,
+				},
 				col = {
 					31,
 					63,
 					255,
 				},
 				dwID = 7851,
+				nLevel = 1,
+				nScrutinyType = 1,
 				szNote = "追踪·减速50%",
-				[1] = {
-					bBuffList = true,
-				},
 			},
 			{
-				nIcon = 216,
-				nScrutinyType = 1,
-				szName = "押镖",
+				{
+					bBuffList = true,
+				},
 				col = {
 					255,
 					255,
 					0,
 				},
-				[1] = {
+				dwID = 10068,
+				nIcon = 216,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "押镖",
+				szNote = "押镖表现",
+			},
+		},
+		[216] = {
+			{
+				{
 					bBuffList = true,
 				},
-				dwID = 10068,
-				szNote = "押镖表现",
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 9992,
+				nIcon = 8004,
 				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "大跑商",
+				szNote = "场景标记",
+			},
+			{
+				aCataclysmBuff = {
+					{
+						col = "#FFFFFFFF",
+						colScreenHead = "#FFFFFFFF",
+						nColAlpha = 255,
+						nPriority = 2,
+						szReminder = "镖",
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 9982,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szNote = "运货首领",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					31,
+					63,
+					255,
+				},
+				dwID = 7851,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "追踪·减速50%",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 10068,
+				nIcon = 216,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "押镖",
+				szNote = "押镖表现",
 			},
 		},
 		[217] = {
@@ -2447,197 +898,1625 @@ return {
 				{
 					bBuffList = true,
 				},
-				nIcon = 8004,
-				nScrutinyType = 1,
 				col = {
 					255,
 					255,
 					0,
 				},
-				szName = "大跑商",
-				nLevel = 1,
-				szNote = "场景标记",
 				dwID = 9992,
+				nIcon = 8004,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "大跑商",
+				szNote = "场景标记",
 			},
 			{
-				{},
-				nLevel = 1,
-				nScrutinyType = 2,
+				aCataclysmBuff = {
+					{
+						col = "#FFFFFFFF",
+						colScreenHead = "#FFFFFFFF",
+						nColAlpha = 255,
+						nPriority = 2,
+						szReminder = "镖",
+					},
+				},
 				col = {
 					255,
 					255,
 					255,
 				},
 				dwID = 9982,
+				nLevel = 1,
+				nScrutinyType = 2,
 				szNote = "运货首领",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#FFFFFFFF",
-						col = "#FFFFFFFF",
-						nPriority = 2,
-						nColAlpha = 255,
-						szReminder = "镖",
-					},
-				},
 			},
 			{
-				nLevel = 1,
-				nScrutinyType = 1,
+				{
+					bBuffList = true,
+				},
 				col = {
 					31,
 					63,
 					255,
 				},
 				dwID = 7851,
+				nLevel = 1,
+				nScrutinyType = 1,
 				szNote = "追踪·减速50%",
-				[1] = {
-					bBuffList = true,
-				},
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				nIcon = 216,
-				nScrutinyType = 1,
 				col = {
 					255,
 					255,
 					0,
 				},
-				szName = "押镖",
-				nLevel = 1,
-				szNote = "押镖表现",
 				dwID = 10068,
+				nIcon = 216,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "押镖",
+				szNote = "押镖表现",
 			},
 		},
-	},
-	__meta = {
-		szServer = "唯我独尊",
-		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1785517345,
-		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
-		szEdition = "zhcn_hd",
 	},
 	DOODAD = {
 		[74] = {
 			{
-				szName = "帮会订单宝堆",
 				aFocus = {
 					{
+						nMaxDistance = 6,
 						szDisplay = "帮会订单宝堆1",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
 						tLife = {
-							szOperator = ">",
-							nValue = 0,
 							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
 						},
-						nMaxDistance = 6,
-						tType = {
-							[3] = false,
+						tRelation = {
 							bAll = true,
-							[4] = false,
-							[5] = false,
+							bAlly = false,
+							bEnemy = false,
 						},
 					},
 				},
-				szNote = "帮会订单宝堆1",
 				dwID = 10470,
+				szName = "帮会订单宝堆",
+				szNote = "帮会订单宝堆1",
 			},
 			{
-				szName = "帮会订单宝堆",
 				aFocus = {
 					{
+						nMaxDistance = 6,
 						szDisplay = "帮会订单宝堆2",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
 						tLife = {
-							szOperator = ">",
-							nValue = 0,
 							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
 						},
-						nMaxDistance = 6,
-						tType = {
-							[3] = false,
+						tRelation = {
 							bAll = true,
-							[4] = false,
-							[5] = false,
+							bAlly = false,
+							bEnemy = false,
 						},
 					},
 				},
-				szNote = "帮会订单宝堆2",
 				dwID = 10471,
+				szName = "帮会订单宝堆",
+				szNote = "帮会订单宝堆2",
 			},
 			{
-				szName = "帮会订单宝堆",
 				aFocus = {
 					{
-						szDisplay = "帮会订单宝堆3",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
 						nMaxDistance = 6,
-						tType = {
-							[3] = false,
+						szDisplay = "帮会订单宝堆3",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
 							bAll = true,
-							[4] = false,
-							[5] = false,
+							bAlly = false,
+							bEnemy = false,
 						},
 					},
 				},
-				szNote = "帮会订单宝堆3",
 				dwID = 10472,
+				szName = "帮会订单宝堆",
+				szNote = "帮会订单宝堆3",
 			},
 			{
-				nIcon = 281,
 				[17] = {
 					bBigFontAlarm = true,
 					bCenterAlarm = true,
 				},
-				dwID = 2348,
 				aFocus = {
 					{
-						szDisplay = "紫陨·菜园保卫战",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
 						nMaxDistance = 120,
-						tType = {
-							[3] = false,
+						szDisplay = "紫陨·菜园保卫战",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
 							bAll = true,
-							[4] = false,
-							[5] = false,
+							bAlly = false,
+							bEnemy = false,
 						},
 					},
 				},
+				dwID = 2348,
+				nIcon = 281,
 				szNote = "菜园保卫战·紫陨",
 			},
 		},
+	},
+	NPC = {
+		[74] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 4,
+						szDisplay = "大野猪·驱赶",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 60,
+						szDisplay = "大野猪·认领",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 90,
+						szDisplay = "大野猪",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 15177,
+				nFrame = 47,
+				szNote = "大野猪",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 4,
+						szDisplay = "小黑猪·驱赶",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 60,
+						szDisplay = "小黑猪·认领",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 15176,
+				nFrame = 47,
+				szNote = "小黑猪",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 4,
+						szDisplay = "小白猪·驱赶",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 60,
+						szDisplay = "小白猪·认领",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 14460,
+				nFrame = 47,
+				szNote = "小白猪",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "猪九戒·菜园保卫战",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 10909,
+				nFrame = 47,
+				szNote = "猪九戒",
+				tCountdown = {
+					{
+						key = "发霉的饭菜",
+						nClass = 12,
+						nIcon = 13,
+						nTime = -1,
+						szName = "发霉的饭菜",
+					},
+					{
+						key = "腐烂的生菜",
+						nClass = 12,
+						nIcon = 13,
+						nTime = -1,
+						szName = "腐烂的生菜",
+					},
+				},
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "韩非子·瑰石",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 10856,
+				nFrame = 47,
+				szNote = "韩非子",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						szDisplay = "三石叔·小猪快跑",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 15178,
+				nFrame = 47,
+				szNote = "小猪快跑·三石叔",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				col = {
+					255,
+					255,
+					100,
+				},
+				dwID = 7365,
+				nFrame = 47,
+				szNote = "蹴鞠报名人·韩荞生",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				col = {
+					100,
+					255,
+					255,
+				},
+				dwID = 7366,
+				nFrame = 47,
+				szNote = "蹴鞠报名人·黄剑翔",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 7364,
+				nFrame = 52,
+				szNote = "蹴鞠",
+			},
+		},
+		[194] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "褚禾·阴山商路",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 47754,
+				nFrame = 47,
+				szNote = "阴山商路·褚禾",
+			},
+		},
+		[214] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						szDisplay = "木博·阴山商路·补货",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					100,
+					255,
+					100,
+				},
+				dwID = 47749,
+				nFrame = 47,
+				szNote = "阴山商路·木博·补货",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 47408,
+				nFrame = 47,
+				szNote = "阴山商路·散落的货物",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 47032,
+				nFrame = 47,
+				szNote = "阴山商路·恶人谷镖车",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 47859,
+				nFrame = 47,
+				szNote = "阴山商路·浩气盟镖车",
+			},
+		},
+		[216] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						szDisplay = "夏洛特·阴山商路·补货",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					100,
+					255,
+					100,
+				},
+				dwID = 47888,
+				nFrame = 47,
+				szNote = "阴山商路·夏洛特·补货",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 47408,
+				nFrame = 47,
+				szNote = "阴山商路·散落的货物",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 47032,
+				nFrame = 47,
+				szNote = "阴山商路·恶人谷镖车",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 47859,
+				nFrame = 47,
+				szNote = "阴山商路·浩气盟镖车",
+			},
+		},
+		[217] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						szDisplay = "谷艾·阴山商路·主簿",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					120,
+					31,
+				},
+				dwID = 47744,
+				nFrame = 47,
+				szNote = "阴山商路·恶人·谷艾",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						szDisplay = "宋涛·阴山商路·主簿",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					31,
+					230,
+					255,
+				},
+				dwID = 47858,
+				nFrame = 47,
+				szNote = "阴山商路·浩气·宋涛",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 47408,
+				nFrame = 47,
+				szNote = "阴山商路·散落的货物",
+			},
+		},
+	},
+	TALK = {
+		[-21] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "(.-)已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",
+				szNote = "阴山商路·【{$1}】·送货首领",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "阴山商路",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 8004,
+						nTime = 20,
+						szName = "阴山商路·镖头·{$1}",
+					},
+				},
+			},
+		},
+		[-7] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "(.-)已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",
+				szNote = "阴山商路·【{$1}】·送货首领",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "阴山商路",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 8004,
+						nTime = 20,
+						szName = "阴山商路·镖头·{$1}",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "运货首领身份已重置，请各位尽快认领物资队将其运抵目的地！",
+				szNote = "阴山商路·首领重置·损失30镖银",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "阴山商路·时限",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 8004,
+						nTime = -2,
+						szName = "阴山商路·时限",
+					},
+					{
+						key = "阴山商路·时限",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 8004,
+						nRefresh = 14400,
+						nTime = 10,
+						szName = "阴山商路·首领重置·损失30镖银",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "运货首领花费5000两帮会资金成功补货50份！",
+				szNote = "阴山商路·补货·50份",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "阴山商路",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 8004,
+						nTime = 10,
+						szName = "阴山商路·补货·50份",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "运货首领离线了，损失了20份镖银……",
+				szNote = "阴山商路·首领离线·损失20镖银",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "阴山商路",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 8004,
+						nTime = 10,
+						szName = "阴山商路·首领离线·损失20镖银",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "运货首领被击杀，损失了10份镖银……",
+				szNote = "阴山商路·首领重伤·损失10镖银",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "阴山商路",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 8004,
+						nTime = 10,
+						szName = "阴山商路·首领重伤·损失10镖银",
+					},
+				},
+			},
+		},
+		[-2] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "(.-)已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",
+				szNote = "阴山商路·【{$1}】·送货首领",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "阴山商路",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 8004,
+						nTime = 20,
+						szName = "阴山商路·镖头·{$1}",
+					},
+				},
+			},
+		},
+		[-1] = {
+			{
+				szContent = "【小猪快跑】活动正式开启，请众位侠士速回帮会协助三石叔赶回窜逃的小猪。若帮会总积分达到500分，则帮会和个人均会获得大量奖励！",
+				szNote = "帮会领地·小猪快跑·活动开启",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "小猪快跑",
+						nClass = 14,
+						nIcon = 3730,
+						nTime = 10,
+						szName = "帮会领地·小猪快跑·活动开启",
+					},
+				},
+			},
+			{
+				szContent = "天上掉馅饼，鱼池落珍宝！刚得到可靠消息，韩非子夜观天象算准了在接下来的40分钟内，于唱晚池钓到稀有物品的概率将大幅增长，机不可失失不再来啊，速回帮会寻珍觅宝钓大鱼吧！",
+				szNote = "帮会领地·钓鱼活动·正式开启",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "钓鱼活动",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 3781,
+						nTime = 10,
+						szName = "帮会领地·钓鱼活动·40分钟",
+					},
+				},
+			},
+			{
+				szContent = "据韩非子最新消息，唱晚池将于20分钟后归于平静。在此之前于唱晚池钓到稀有物品的概率将大幅增长，机不可失失不再来啊。",
+				szNote = "帮会领地·钓鱼活动·已经开启",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "钓鱼活动",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 3781,
+						nTime = 10,
+						szName = "帮会领地·钓鱼活动·20分钟",
+					},
+				},
+			},
+			{
+				szContent = "猪九戒出现祝融山，请大家速去阻止它破坏农田。",
+				szNote = "菜园保卫战·祝融山·猪九戒·出现",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "菜园保卫战",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 3766,
+						nTime = 10,
+						szName = "帮会领地·祝融山·猪九戒出现",
+					},
+				},
+			},
+			{
+				szContent = "本周帮会菜园保卫战完满达成，增加了70000点不占周上限的帮会资金。",
+				szNote = "帮会领地·菜园保卫战·完满达成",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "菜园保卫战",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 3766,
+						nTime = 20,
+						szName = "帮会领地·菜园保卫战·完满达成",
+					},
+				},
+			},
+			{
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "阴山商路运输物资已成功开启，请有权限的侠士速到黑戈壁帮会物资主簿处申请成为运货首领开始运送！",
+				szNote = "阴山商路·开启",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "阴山商路",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 8004,
+						nTime = 10,
+						szName = "阴山商路·帮会大跑商·开启",
+					},
+				},
+			},
+			{
+				bReg = false,
+				bSearch = true,
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "此次帮会通过阴山商路成功运抵",
+				szNote = "阴山商路·成功运抵",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "阴山商路",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 8004,
+						nTime = 20,
+						szName = "阴山商路·成功运抵",
+					},
+					{
+						key = "阴山商路·时限",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -1,
+						szName = "阴山商路·时限",
+					},
+				},
+			},
+		},
+		[74] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				szContent = "^机缘已至，本帮会侠士(.-)拾取帮会订单宝堆时获得稀有奖励%[(.-)%]！",
+				szNote = "帮会订单·[{$1}]获得[{$2}]",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "帮会订单",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 2579,
+						nTime = 10,
+						szName = "订单·[{$1}]获得[{$2}]",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				szContent = "(.-)已被(.-)更改为(.-)！",
+				szNote = "{$2}·更改{$1}·{$3}",
+				szTarget = "%",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				szContent = "^本帮(.-)在(.-)召唤出宝驹(.-)。",
+				szNote = "【{$1}】·{$2}·[{$3}]",
+				szTarget = "%",
+				tCountdown = {
+					{
+						nClass = 14,
+						nFrame = 5,
+						nIcon = 12656,
+						nTime = 10,
+						szName = "{$1}·召唤·{$3}",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				szContent = "^本帮(.-)通过观星台成功预见出(.-)。",
+				szNote = "瑰石·[{$1}]·{$2}",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "帮会资金",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 3556,
+						nTime = 10,
+						szName = "瑰石·[{$1}]·{$2}",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				szContent = "(.-)已将(.-)进球分数重置为(%d+)，比赛可重新开始。",
+				szNote = "[{$1}]·重置分数·{$2}",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "{$1}·红凤凰队",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 2218,
+						nTime = 10,
+						szName = "[{$1}]·重置分数·蓝队",
+					},
+					{
+						key = "{$1}·蓝蛟龙队",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 2219,
+						nTime = 10,
+						szName = "[{$1}]·重置分数·红队",
+					},
+					{
+						key = "{$1}·{$2}",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nTime = -1,
+						szName = "{$1}·{$2}",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				szContent = "(.-)已(.-)！有志之士可加入(.-)！(.-)当前队员数为：(%d+)",
+				szNote = "[{$1}]·{$2}",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "韩荞生",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 2218,
+						nTime = 10,
+						szName = "[{$1}]·退出蓝队·剩余{$5}人",
+					},
+					{
+						key = "黄剑翔",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 2219,
+						nTime = 10,
+						szName = "[{$1}]·退出红队·剩余{$5}人",
+					},
+					{
+						key = "{$sender}",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nTime = -1,
+						szName = "{$sender}",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				szContent = "(.-)已报名加入(.-)！目前(.-)人数为(%d+)人。燃烧吧！把蹴鞠射进(.-)的球门！胜利属于(.-)！",
+				szNote = "[{$1}]·加入·{$2}",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "{$1}·红凤凰队",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 2218,
+						nTime = 10,
+						szName = "[{$1}]·加入蓝队·{$4}人",
+					},
+					{
+						key = "{$1}·蓝蛟龙队",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 2219,
+						nTime = 10,
+						szName = "[{$1}]·加入红队·{$4}人",
+					},
+					{
+						key = "{$1}·{$2}",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nTime = -1,
+						szName = "{$1}·{$2}",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				szContent = "(.-)已将蹴鞠重置到球场中央，大家激情地燃烧起来吧！",
+				szNote = "[{$1}]·重置蹴鞠·球场中间",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "蹴鞠重置",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 2216,
+						nTime = 10,
+						szName = "[{$1}]·重置蹴鞠·球场中间",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				szContent = "(.-)，得一分！目前总分为(%d+)。(.-)跟(.-)比分为(%d+)比(%d+)。蹴鞠将在(%d+)秒后重置！",
+				szNote = "{$1}·得1分",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "蹴鞠重置",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 2216,
+						nRefresh = 0,
+						nTime = "30,蹴鞠重置·30秒剩余;32,蹴鞠·已经重置",
+						szName = "蹴鞠出界·20秒重置",
+					},
+					{
+						key = "红凤凰队",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 2218,
+						nTime = 30,
+						szName = "蓝队·得1分·总分{$2}",
+					},
+					{
+						key = "蓝蛟龙队",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 2219,
+						nTime = 30,
+						szName = "红队·得1分·总分{$2}",
+					},
+					{
+						key = "{$1}",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nTime = -1,
+						szName = "{$1}",
+					},
+					{
+						key = "红凤凰队·蓝蛟龙队",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 3773,
+						nTime = 60,
+						szName = "比分·红队{$6}:蓝队{$5}",
+					},
+					{
+						key = "蓝蛟龙队·红凤凰队",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 3773,
+						nTime = 60,
+						szName = "比分·红队{$5}:蓝队{$6}",
+					},
+					{
+						key = "{$3}·{$4}",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -1,
+						szName = "{$3}·{$4}",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "蹴鞠已出界，将在20秒后重置！",
+				szNote = "蹴鞠出界·20秒重置",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "蹴鞠重置",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 2216,
+						nRefresh = 0,
+						nTime = "20,蹴鞠出界·20秒重置;22,蹴鞠·已经重置",
+						szName = "蹴鞠出界·20秒重置",
+					},
+				},
+			},
+			{
+				szContent = "贵帮会的帮会资金或发展点不足。",
+				szNote = "瑰石·帮会资金·不足",
+				szTarget = "韩非子",
+				tCountdown = {
+					{
+						key = "帮会资金",
+						nClass = 14,
+						nFrame = 2,
+						nIcon = 3358,
+						nTime = 12.5,
+						szName = "瑰石·帮会资金或发展点不足",
+					},
+				},
+			},
+			{
+				szContent = "哎，冥冥之中早已注定。你来取这晶石吧。",
+				szNote = "帮会领地·瑰石·正在预测",
+				szTarget = "韩非子",
+				tCountdown = {
+					{
+						key = "帮会资金",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 3556,
+						nRefresh = 0,
+						nTime = "12.5,瑰石·预测剩余;15,瑰石·可以领取",
+						szName = "瑰石·领取剩余",
+					},
+				},
+			},
+			{
+				szContent = "钓鱼活动正式开启，接下来40分钟内于唱晚池钓到稀有物品的概率将大幅增长，尽情享受钓鱼的乐趣吧！",
+				szNote = "钓鱼活动·正式开启·40分钟",
+				szTarget = "李霖",
+				tCountdown = {
+					{
+						key = "钓鱼活动",
+						nClass = 14,
+						nFrame = -1,
+						nIcon = 3781,
+						nRefresh = 2,
+						nTime = "22,钓鱼活动·正式开启;2422,钓鱼活动·结束剩余;2432,钓鱼活动·已经结束",
+						szName = "钓鱼活动·结束剩余",
+					},
+				},
+			},
+			{
+				szContent = "据韩非子最新消息，唱晚池将于20分钟后回归平静。",
+				szNote = "钓鱼活动·剩余20分钟",
+				szTarget = "李霖",
+				tCountdown = {
+					{
+						key = "钓鱼活动",
+						nClass = 14,
+						nFrame = -1,
+						nIcon = 3781,
+						nRefresh = 2,
+						nTime = "1200,钓鱼活动·结束剩余;1210,钓鱼活动·已经结束",
+						szName = "钓鱼活动·结束剩余",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+					szVoice = "ZhuanJieDuan",
+				},
+				szContent = "钓鱼活动结束，钓到稀有物品的概率回归正常水平。",
+				szNote = "帮会领地·钓鱼活动·活动结束",
+				szTarget = "李霖",
+				tCountdown = {
+					{
+						key = "钓鱼活动",
+						nClass = 14,
+						nFrame = 2,
+						nIcon = 3781,
+						nTime = 10,
+						szName = "帮会钓鱼·活动结束",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+					szVoice = "ZhuanJieDuan",
+				},
+				bSearch = true,
+				szContent = "本期小猪快跑活动已经结束",
+				szNote = "帮会领地·小猪快跑·活动结束",
+				szTarget = "三石叔",
+				tCountdown = {
+					{
+						key = "小猪快跑",
+						nClass = 14,
+						nFrame = -1,
+						nIcon = 3730,
+						nTime = 10,
+						szName = "小猪快跑·活动结束",
+					},
+				},
+			},
+			{
+				szContent = "在绿点标示的地点方可悬挂",
+				szNote = "小地图·绿点位置·顶部旗杆",
+				tCountdown = {
+					{
+						key = "悬挂地点",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "小地图·绿点位置·顶部旗杆",
+					},
+				},
+			},
+			{
+				szContent = "在绿点标示的地点方可悬挂。",
+				szNote = "小地图·绿点位置·座椅背后",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "悬挂地点",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 13,
+						nTime = 10,
+						szName = "小地图·绿点位置·座椅背后",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "悬挂旗帜成功，旗帜将于每天19:00重置。",
+				szNote = "悬挂旗帜·成功",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "悬挂地点",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "悬挂旗帜·每天19:00重置",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "悬挂匾额成功！",
+				szNote = "悬挂匾额·成功",
+				szTarget = "%",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "小猪快跑活动已经成功开启，快召集帮会成员速回帮会吧。",
+				szNote = "帮会领地·小猪快跑·活动开启",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "小猪快跑",
+						nClass = 14,
+						nFrame = -1,
+						nIcon = 3730,
+						nRefresh = 2,
+						nTime = "10,小猪快跑·活动开启;2400,小猪快跑·结束剩余;2410,小猪快跑·已经结束",
+						szName = "小猪快跑·活动开启",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "距猪九戒出现还有1分钟，请大家做好准备。此期间请不要离开帮会领地，以防猪九戒作怪。",
+				szNote = "帮会领地·菜园保卫战·活动开启",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "菜园保卫战",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 3766,
+						nRefresh = 62,
+						nTime = "60,菜园保卫战·猪九戒·出现剩余;70,菜园保卫战·祝融山·猪九戒出现",
+						szName = "帮会领地·菜园保卫战·猪九戒",
+					},
+				},
+			},
+			{
+				szContent = "韩先生已经开始预见，完成之前请勿打扰。预见成功后请尽快领取！",
+				szNote = "帮会领地·瑰石·开始预见",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "帮会资金",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 3556,
+						nTime = 5,
+						szName = "瑰石·预见剩余",
+					},
+				},
+			},
+			{
+				szContent = "你召唤的小马驹非当前驯养对象。\
+",
+				szNote = "遛马名师·小马驹·非当前驯养",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "遛马名师",
+						nClass = 14,
+						nIcon = 643,
+						nRefresh = 120,
+						nTime = 10,
+						szName = "小马驹·召唤溜达",
+					},
+				},
+			},
+			{
+				szContent = "需要将小马驹召唤出来溜达。",
+				szNote = "遛马名师·小马驹·未召唤",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "遛马名师",
+						nClass = 14,
+						nIcon = 643,
+						nRefresh = 1800,
+						nTime = 10,
+						szName = "小马驹·召唤溜达",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "无法从此地离开帮会领地。",
+				szNote = "无法从此地离开帮会领地",
+				szTarget = "%",
+			},
+		},
+		[217] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				col = {
+					100,
+					255,
+					255,
+				},
+				szContent = "{$me}已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",
+				szNote = "你登记为送货首领",
+				szTarget = "%",
+				tCountdown = {
+					{
+						bHold = true,
+						key = "阴山商路·时限",
+						nClass = 14,
+						nFrame = -1,
+						nIcon = 8004,
+						nRefresh = 0,
+						nTime = "10,你登记为送货首领;14400,阴山商路·运送剩余;14410,阴山商路·运送超时",
+						szName = "阴山商路",
+					},
+				},
+			},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1785517345,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
 }
