@@ -140,6 +140,20 @@ return {
 				nScrutinyType = 2,
 				szNote = "七夕节·梅劳魄的怒火",
 			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					31,
+					63,
+					255,
+				},
+				dwID = 29108,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "七夕节·梅劳魄_毒池减速·有点黏",
+			},
 		},
 	},
 	DOODAD = {
@@ -236,6 +250,37 @@ return {
 				dwID = 7576,
 				nFrame = 47,
 				szNote = "七夕节·掉落的包裹",
+				tCountdown = {
+					{
+						key = "节日活动1",
+						nClass = 3,
+						nFrame = 2,
+						nIcon = 3557,
+						nTime = 20,
+						szName = "七夕节·箱子包裹·打一下",
+					},
+					{
+						key = "节日活动1",
+						nClass = 13,
+						nFrame = 2,
+						nIcon = 3557,
+						nTime = 5,
+						szName = "七夕节·箱子包裹·领奖励",
+					},
+				},
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 30,
+					},
+				},
+				dwID = 134047,
+				nFrame = 47,
+				szNote = "七夕节·掉落的包裹·单人",
 				tCountdown = {
 					{
 						key = "节日活动1",
@@ -816,7 +861,7 @@ return {
 						nClass = 14,
 						nFrame = 2,
 						nIcon = 3557,
-						nTime = 10,
+						nTime = 30,
 						szName = "七夕节·记得开箱子",
 					},
 				},

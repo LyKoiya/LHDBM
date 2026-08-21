@@ -1517,6 +1517,7 @@ return {
 				nIcon = 12450,
 				nLevel = 1,
 				nScrutinyType = 1,
+				szNote = "Ëð10",
 			},
 		},
 		[216] = {
