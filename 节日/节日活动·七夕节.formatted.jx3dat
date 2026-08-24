@@ -170,6 +170,27 @@ return {
 				dwID = 2931,
 				szNote = "ÆßÏ¦½Ú¡¤Ô§Ñì±¦Ïä",
 			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "ÒöÔµ²Ý¡¤ÆßÏ¦½Ú",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 15354,
+				nFrame = 47,
+				szNote = "ÆßÏ¦½Ú¡¤ÊéÄ«Òâ",
+			},
 		},
 		[7] = {
 			{

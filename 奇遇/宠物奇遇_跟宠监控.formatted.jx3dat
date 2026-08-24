@@ -19,7 +19,7 @@ return {
 						nFrame = 4,
 						nIcon = 4987,
 						nTime = 5,
-						szName = "酒葫芦·小果·CD",
+						szName = "酒葫芦·小果·已尝试",
 					},
 					{
 						key = "跟宠提示",
@@ -48,7 +48,7 @@ return {
 						nFrame = 4,
 						nIcon = 4987,
 						nTime = 5,
-						szName = "小土堆·小花·CD",
+						szName = "小土堆·小花·已尝试",
 					},
 					{
 						key = "跟宠提示",
@@ -77,7 +77,7 @@ return {
 						nFrame = 4,
 						nIcon = 6626,
 						nTime = 5,
-						szName = "冰凌雪莲·冰蓝花客·CD",
+						szName = "冰凌雪莲·冰蓝花客·已尝试",
 					},
 					{
 						key = "跟宠提示",
@@ -106,7 +106,7 @@ return {
 						nFrame = 4,
 						nIcon = 6097,
 						nTime = 5,
-						szName = "破旧的纸卷·小诺·CD",
+						szName = "破旧的纸卷·小诺·已尝试",
 					},
 					{
 						key = "跟宠提示",
@@ -135,7 +135,7 @@ return {
 						nFrame = 4,
 						nIcon = 6802,
 						nTime = 5,
-						szName = "泥沙堆·红羽大将军·CD",
+						szName = "泥沙堆·红羽大将军·已尝试",
 					},
 					{
 						key = "跟宠提示",
@@ -164,7 +164,7 @@ return {
 						nFrame = 4,
 						nIcon = 6994,
 						nTime = 5,
-						szName = "小土堆·商周客·CD",
+						szName = "小土堆·商周客·已尝试",
 					},
 					{
 						key = "跟宠提示",
@@ -193,7 +193,7 @@ return {
 						nFrame = 4,
 						nIcon = 6631,
 						nTime = 5,
-						szName = "坚果·果果·CD",
+						szName = "坚果·果果·已尝试",
 					},
 					{
 						key = "跟宠提示",
@@ -216,7 +216,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 120,
 						szDisplay = "酒葫芦·小果",
 						tLife = {
@@ -248,7 +247,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 120,
 						szDisplay = "小土堆·小花",
 						tLife = {
@@ -280,7 +278,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 120,
 						szDisplay = "冰凌雪莲·冰蓝花客",
 						tLife = {
@@ -312,7 +309,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 120,
 						szDisplay = "破旧的纸卷·小诺",
 						tLife = {
@@ -344,7 +340,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 120,
 						szDisplay = "泥沙堆·红羽大将军",
 						tLife = {
@@ -376,7 +371,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 120,
 						szDisplay = "小土堆·商周客",
 						tLife = {
@@ -408,7 +402,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 120,
 						szDisplay = "坚果·果果",
 						tLife = {
@@ -420,12 +413,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
