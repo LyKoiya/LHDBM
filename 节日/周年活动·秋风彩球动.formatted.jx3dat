@@ -1,40 +1,513 @@
 return {
-	BUFF = {},
-	CHAT = {},
-	CASTING = {},
-	TALK = {
-		[-2] = {
+	BUFF = {
+		[-7] = {
 			{
-				tCountdown = {
+				{
+					bBuffList = true,
+				},
+				dwID = 12276,
+				nIcon = 4845,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "事件",
+				szNote = "高尔夫随机事件内置cd",
+			},
+		},
+	},
+	CASTING = {
+		[-7] = {
+			{
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18156,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "秋风彩球动·山重水复",
+			},
+			{
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18150,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "秋风彩球动·长风万里",
+			},
+			{
+				[8] = {
+					bScreenHead = true,
+				},
+				dwID = 18213,
+				nLevel = 1,
+				szNote = "秋风彩球动·倒挂金钩",
+			},
+			{
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18144,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "秋风彩球动·白虹横贯",
+			},
+			{
+				dwID = 18209,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "秋风彩球动·如影相随",
+			},
+		},
+	},
+	CHAT = {},
+	DEBUFF = {
+		[-7] = {
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 4790,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "门派活动_对诗",
+			},
+		},
+	},
+	DOODAD = {},
+	NPC = {
+		[-7] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
 					{
-						nClass = 14,
-						key = "节日活动1",
-						nTime = 10,
-						szName = "彩球·【{$1}】",
-						nIcon = 4845,
-						nFrame = 6,
+						nMaxDistance = 30,
+						szDisplay = "笑笑·起点",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
 					},
 				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 57521,
+				nFrame = 47,
+				szNote = "秋风彩球动·笑笑",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 50,
+						szDisplay = "检查点",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 51919,
+				nFrame = 47,
+				szName = "检查点1",
+				szNote = "秋风彩球动·检查点1",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 50,
+						szDisplay = "检查点",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 51922,
+				nFrame = 47,
+				szName = "检查点2",
+				szNote = "秋风彩球动·检查点2",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 51742,
+				nFrame = 47,
+				szNote = "秋风彩球动·笑笑跳舞",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "闹闹·领奖",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 57522,
+				nFrame = 47,
+				szNote = "秋风彩球动·闹闹",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "彩球·交互",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						szDisplay = "彩球",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 51891,
+				nFrame = 52,
+				szNote = "秋风彩球动·彩球",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						szDisplay = "彩球·终点",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 51921,
+				nFrame = 47,
+				szName = "彩球终点",
+				szNote = "秋风彩球动·彩球终点",
+			},
+		},
+		[-2] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 57701,
+				nFrame = 47,
+				szNote = "周年活动·笑笑",
+			},
+		},
+		[239] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "笑笑·起点",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 57521,
+				nFrame = 47,
+				szNote = "秋风彩球动·笑笑",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 50,
+						szDisplay = "检查点",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 51919,
+				nFrame = 47,
+				szName = "检查点1",
+				szNote = "秋风彩球动·检查点1",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 50,
+						szDisplay = "检查点",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 51922,
+				nFrame = 47,
+				szName = "检查点2",
+				szNote = "秋风彩球动·检查点2",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 51742,
+				nFrame = 47,
+				szNote = "秋风彩球动·笑笑跳舞",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "闹闹·领奖",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 57522,
+				nFrame = 47,
+				szNote = "秋风彩球动·闹闹",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 51891,
+				nFrame = 52,
+				szNote = "秋风彩球动·彩球",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						szDisplay = "彩球·终点",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 51921,
+				nFrame = 47,
+				szName = "彩球终点",
+				szNote = "秋风彩球动·彩球终点",
+			},
+		},
+	},
+	TALK = {
+		[-7] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "看来大侠并不需要我的帮助诶，那我就先走啦！",
+				szNote = "笑笑·离开",
+				szTarget = "笑笑",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "笑笑突然出现了，好像找大侠有事情。",
+				szNote = "笑笑·出现",
+			},
+		},
+		[-2] = {
+			{
 				bReg = true,
 				szContent = "请大侠前往(.-)完成陌上秋风彩球动活动。",
 				szNote = "彩球·【{$1}】",
-			},
-		},
-		[-7] = {
-			{
-				[14] = {
-					bCenterAlarm = true,
+				tCountdown = {
+					{
+						key = "节日活动1",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 5351,
+						nTime = 10,
+						szName = "彩球·【{$1}】",
+					},
 				},
-				szTarget = "笑笑",
-				szContent = "看来大侠并不需要我的帮助诶，那我就先走啦！",
-				szNote = "笑笑·离开",
-			},
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szContent = "笑笑突然出现了，好像找大侠有事情。",
-				szNote = "笑笑·出现",
 			},
 		},
 		[239] = {
@@ -42,9 +515,9 @@ return {
 				[14] = {
 					bCenterAlarm = true,
 				},
-				szTarget = "笑笑",
-				szNote = "笑笑·离开",
 				szContent = "看来大侠并不需要我的帮助诶，那我就先走啦！",
+				szNote = "笑笑·离开",
+				szTarget = "笑笑",
 			},
 			{
 				[14] = {
@@ -55,448 +528,12 @@ return {
 			},
 		},
 	},
-	NPC = {
-		[-2] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 57701,
-				szNote = "笑笑",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-		},
-		[-7] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 57521,
-				aFocus = {
-					{
-						szDisplay = "笑笑·起点",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 30,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "秋风彩球动·笑笑",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				dwID = 51919,
-				aFocus = {
-					{
-						szDisplay = "检查点",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 50,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "秋风彩球动·检查点1",
-				szName = "检查点1",
-			},
-			{
-				nFrame = 47,
-				dwID = 51922,
-				aFocus = {
-					{
-						szDisplay = "检查点",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 50,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "秋风彩球动·检查点2",
-				szName = "检查点2",
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 51742,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 6,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "秋风彩球动·笑笑跳舞",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 57522,
-				aFocus = {
-					{
-						szDisplay = "闹闹·领奖",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 6,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "秋风彩球动·闹闹",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 52,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 20,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "秋风彩球动·彩球",
-				dwID = 51891,
-			},
-			{
-				nFrame = 47,
-				dwID = 51921,
-				aFocus = {
-					{
-						szDisplay = "彩球·终点",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 10,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "秋风彩球动·彩球终点",
-				szName = "彩球终点",
-			},
-		},
-		[239] = {
-			{
-				nFrame = 47,
-				col = {
-					0,
-					255,
-					0,
-				},
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 57521,
-				aFocus = {
-					{
-						szDisplay = "笑笑·起点",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 30,
-					},
-				},
-				szNote = "秋风彩球动·笑笑",
-				[4] = {},
-			},
-			{
-				nFrame = 47,
-				dwID = 51919,
-				[3] = {},
-				szName = "检查点1",
-				aFocus = {
-					{
-						szDisplay = "检查点",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 50,
-					},
-				},
-				szNote = "秋风彩球动·检查点1",
-				[4] = {},
-			},
-			{
-				nFrame = 47,
-				dwID = 51922,
-				[3] = {},
-				szName = "检查点2",
-				aFocus = {
-					{
-						szDisplay = "检查点",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 50,
-					},
-				},
-				szNote = "秋风彩球动·检查点2",
-				[4] = {},
-			},
-			{
-				nFrame = 47,
-				col = {
-					0,
-					255,
-					0,
-				},
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 51742,
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "秋风彩球动·笑笑跳舞",
-				[4] = {},
-			},
-			{
-				nFrame = 47,
-				col = {
-					0,
-					255,
-					0,
-				},
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 57522,
-				aFocus = {
-					{
-						szDisplay = "闹闹·领奖",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 6,
-					},
-				},
-				szNote = "秋风彩球动·闹闹",
-				[4] = {},
-			},
-			{
-				nFrame = 52,
-				[3] = {},
-				dwID = 51891,
-				aFocus = {
-					{
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "秋风彩球动·彩球",
-				[4] = {},
-			},
-			{
-				nFrame = 47,
-				dwID = 51921,
-				[3] = {},
-				szName = "彩球终点",
-				aFocus = {
-					{
-						szDisplay = "彩球·终点",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 10,
-					},
-				},
-				szNote = "秋风彩球动·彩球终点",
-				[4] = {},
-			},
-		},
-	},
-	DEBUFF = {},
 	__meta = {
-		szServer = "唯我独尊",
+		nTimeStamp = 1787566592,
 		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1756206780,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
-	DOODAD = {},
 }
