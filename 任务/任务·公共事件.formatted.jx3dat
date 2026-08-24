@@ -200,7 +200,7 @@ return {
 				dwID = 11313,
 				nLevel = 1,
 				nScrutinyType = 2,
-				szNote = "公共事件",
+				szNote = "公共事件·盾牌护持",
 			},
 		},
 		[330] = {
@@ -2667,122 +2667,6 @@ return {
 				},
 				aFocus = {
 					{
-						nMaxDistance = 60,
-						szDisplay = "精金阁·神都玉佩",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 53379,
-				nFrame = 47,
-				szNote = "公共事件·精金阁·神都玉佩",
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						szDisplay = "郭子仪部·靖武·神都玉佩",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 53593,
-				nFrame = 47,
-				szNote = "公共事件·郭子仪部·靖武",
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 20,
-						szDisplay = "",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = false,
-							bAlly = false,
-							bEnemy = true,
-						},
-					},
-				},
-				col = {
-					255,
-					50,
-					50,
-				},
-				dwID = 53269,
-				nFrame = 57,
-				szNote = "公共事件",
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 20,
-						szDisplay = "",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = false,
-							bAlly = false,
-							bEnemy = true,
-						},
-					},
-				},
-				col = {
-					255,
-					50,
-					50,
-				},
-				dwID = 53267,
-				nFrame = 57,
-				szNote = "公共事件",
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
 						nMaxDistance = 30,
 						szDisplay = "瑶瑶·狼牙军服·20件",
 						tLife = {
@@ -2833,7 +2717,7 @@ return {
 				},
 				dwID = 55038,
 				nFrame = 47,
-				szNote = "公共事件",
+				szNote = "公共事件·游击营指挥",
 			},
 			{
 				[3] = {
@@ -2870,7 +2754,7 @@ return {
 				},
 				dwID = 54149,
 				nFrame = 47,
-				szNote = "公共事件",
+				szNote = "公共事件·唐军枪兵",
 			},
 			{
 				[3] = {
@@ -2878,7 +2762,7 @@ return {
 				},
 				dwID = 54119,
 				nFrame = 47,
-				szNote = "公共事件",
+				szNote = "公共事件·唐军刀牌手",
 			},
 			{
 				[3] = {
@@ -2886,7 +2770,7 @@ return {
 				},
 				dwID = 54151,
 				nFrame = 47,
-				szNote = "公共事件",
+				szNote = "公共事件·唐军弩手",
 			},
 			{
 				[3] = {
@@ -2894,7 +2778,7 @@ return {
 				},
 				dwID = 54147,
 				nFrame = 47,
-				szNote = "公共事件",
+				szNote = "公共事件·唐军弓箭手",
 			},
 		},
 		[325] = {
@@ -4105,7 +3989,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1785323828,
+		nTimeStamp = 1787590118,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
