@@ -333,6 +333,18 @@ return {
 				nScrutinyType = 1,
 				szNote = "骑术",
 			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				dwID = 8604,
+				nIcon = 3554,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "同骑",
+				szNote = "同骑·携游",
+			},
 		},
 		[50] = {
 			{
