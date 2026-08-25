@@ -280,19 +280,19 @@ local function clearInvalidtable(tData, bDelFocusType)
         if tData[szType] then
             for k, _ in pairs(tData[szType]) do -- 遍历类型获取地图ID
                 for kk, vv in ipairs_r(tData[szType][k]) do -- 遍历地图获取数据下标
-                    if bDelFocusType and vv['aFocus'] then
-                        local aFocus = vv['aFocus']
+                    if bDelFocusType and vv.aFocus then
+                        local aFocus = vv.aFocus
                         for kkk, tFocus in ipairs(aFocus) do
-                            tFocus['tType'] = nil
-                            if tFocus['dwMapID'] == -1 then
-                                tFocus['dwMapID'] = nil
+                            tFocus.tType = nil
+                            if tFocus.dwMapID == -1 then
+                                tFocus.dwMapID = nil
                             end
-                            if tFocus['szDisplay'] == '' then
-                                tFocus['dwMapID'] = nil
+                            if tFocus.szDisplay == '' then
+                                tFocus.szDisplay = nil
                             end
                         end
                         if emptyTable(aFocus) then
-                            vv['aFocus'] = nil
+                            vv.aFocus = nil
                         end
                     end
                     local tRet = clearNil(vv)
@@ -307,11 +307,25 @@ local function clearInvalidtable(tData, bDelFocusType)
     end
 end
 
+-- 刷新数据修改时间戳
+local function refreshTimeStamp(tData, nTimeStamp)
+    if not tData then
+        return nil
+    end
+    tData.__meta = tData.__meta or {}
+    tData.__meta.nTimeStamp = nTimeStamp or os.time()
+    return tData.__meta.nTimeStamp
+end
+
 -- 处理文件（有序化Table转String）
 local function processFile(szFileName)
     -- print('Sorting: ' .. szFileName)
     local tData = file2var(szFileName)
+    if not tData then
+        return false
+    end
     clearInvalidtable(tData, true)
+    refreshTimeStamp(tData)
     local szSorted = 'return ' .. var2str(tData, '\t', 0) .. '\n'
     WriteFile(szFileName, szSorted)
     return true
@@ -339,14 +353,3 @@ else
 end
 
 os.exit(success and 0 or 1)
-
---处理文件
---[[
-for i = 1, #arg do
-    local szFileName = arg[i]
-    print('Sorting: ' .. szFileName)
-    local tData = file2var(szFileName)
-    local szSorted = 'return ' .. var2str(tData, '\t', 0) .. '\n'
-    WriteFile(szFileName, szSorted)
-end
---]]
