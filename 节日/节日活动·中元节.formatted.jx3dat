@@ -97,7 +97,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 120,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -127,7 +126,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 120,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -147,6 +145,25 @@ return {
 				},
 				dwID = 6653,
 				szNote = "中元节·祭坛",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 6676,
+				szNote = "中元节·将士的祭坛",
 			},
 		},
 	},
@@ -176,7 +193,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 50,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -202,7 +218,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 50,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -316,7 +331,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 3,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -364,7 +378,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 50,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -390,7 +403,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 50,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -561,7 +573,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 30,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -627,7 +638,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1787559967,
+		nTimeStamp = 1787667890,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

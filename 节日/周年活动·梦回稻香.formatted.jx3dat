@@ -688,7 +688,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 60,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -827,7 +826,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 6,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -847,7 +845,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 6,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -874,6 +871,7 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 6,
+						szDisplay = "ΩØ”Ò¿Ï°§√Œªÿµæœ„",
 					},
 				},
 				col = {
@@ -883,7 +881,7 @@ return {
 				},
 				dwID = 52417,
 				nFrame = 47,
-				szNote = "ΩØ”Ò¿Ï",
+				szNote = "÷‹ƒÍªÓ∂Ø°§ΩØ”Ò¿Ï",
 			},
 		},
 		[247] = {
@@ -978,7 +976,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 60,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -1244,7 +1241,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 12,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -1268,7 +1264,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 60,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -1353,7 +1348,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 30,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -1382,7 +1376,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 30,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -2282,7 +2275,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1787567966,
+		nTimeStamp = 1787667890,
 		szAuthor = "∫…ª®¿",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
