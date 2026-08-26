@@ -1,0 +1,268 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {
+		[148] = {
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				dwID = 4156,
+				nLevel = 1,
+				szNote = "炙热",
+			},
+		},
+	},
+	DOODAD = {
+		[148] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "石中物",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 1392,
+				szNote = "世界或副本BOSS遗体",
+			},
+		},
+	},
+	NPC = {
+		[-9] = {
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 18397,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 18397,
+				nFrame = 47,
+			},
+		},
+		[148] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 18297,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18299,
+				nFrame = 47,
+				szNote = "慧痴",
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 18281,
+				nFrame = 52,
+				szNote = "提多罗吒",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{},
+				},
+				dwID = 18309,
+				nFrame = 57,
+				szNote = "萧沙",
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 18313,
+				nFrame = 57,
+				szNote = "青龙长老",
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 18312,
+				nFrame = 57,
+				szNote = "白龙长老",
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 18314,
+				nFrame = 57,
+				szNote = "蓝鹰",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = true,
+							nValue = 0.4,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 18311,
+				nFrame = 57,
+				szNote = "武逸青",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = true,
+							nValue = 0.4,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 18310,
+				nFrame = 57,
+				szNote = "胡鞑",
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 18402,
+				nFrame = 52,
+				szNote = "地鼠土甲遁",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "离开·传送",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 16332,
+				nFrame = 47,
+				szNote = "洪笑尘",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "离开·传送",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 16475,
+				nFrame = 47,
+				szNote = "澄正",
+			},
+		},
+	},
+	TALK = {
+		[148] = {
+			{
+				[14] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				szContent = "各位施主留步，前面乃是少林禁地。",
+				szNote = "剧情·121",
+				szTarget = "达摩护卫僧",
+				tCountdown = {
+					{
+						key = "剧情提示",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 10,
+						szName = "剧情·121",
+					},
+				},
+			},
+			{
+				szContent = "后面的木甲巨像好像开始动起来了。",
+				szTarget = "%",
+			},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1787743482,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+	},
+}
