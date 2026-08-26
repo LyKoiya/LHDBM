@@ -165,7 +165,35 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 6,
-						szDisplay = "",
+						szDisplay = "鸡腿·交互",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 30,
+						szDisplay = "鸡腿·报告",
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 11836,
+				szNote = "鹅鸭杀·鸡腿尸体·报告",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -185,7 +213,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 6,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -205,7 +232,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 6,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -225,7 +251,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 6,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -245,7 +270,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 6,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -265,7 +289,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 6,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -355,7 +378,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 6,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -376,7 +398,196 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 6,
-						szDisplay = "",
+						szDisplay = "鸡腿·发起会议·交互",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 120,
+						szDisplay = "鸡腿·报告会议",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 137612,
+				nFrame = 47,
+				szNote = "鹅鸭杀·报告会议",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸡腿·发起会议·交互",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 120,
+						szDisplay = "鸡腿·报告会议",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 137613,
+				nFrame = 47,
+				szNote = "鹅鸭杀·报告会议",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸡腿·发起会议·交互",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 120,
+						szDisplay = "鸡腿·报告会议",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 137614,
+				nFrame = 47,
+				szNote = "鹅鸭杀·报告会议",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸡腿·发起会议·交互",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 120,
+						szDisplay = "鸡腿·报告会议",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 137615,
+				nFrame = 47,
+				szNote = "鹅鸭杀·报告会议",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸡腿·发起会议·交互",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 120,
+						szDisplay = "鸡腿·报告会议",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 137616,
+				nFrame = 47,
+				szNote = "鹅鸭杀·报告会议",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸡腿·发起会议·交互",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 120,
+						szDisplay = "鸡腿·报告会议",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -397,7 +608,91 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 6,
-						szDisplay = "",
+						szDisplay = "鸡腿·发起会议·交互",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 120,
+						szDisplay = "鸡腿·报告会议",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 137618,
+				nFrame = 47,
+				szNote = "鹅鸭杀·报告会议",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸡腿·发起会议·交互",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 120,
+						szDisplay = "鸡腿·报告会议",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 137619,
+				nFrame = 47,
+				szNote = "鹅鸭杀·报告会议",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸡腿·发起会议·交互",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 120,
+						szDisplay = "鸡腿·报告会议",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -418,7 +713,56 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 6,
-						szDisplay = "",
+						szDisplay = "鸡腿·发起会议·交互",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 120,
+						szDisplay = "鸡腿·报告会议",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 137621,
+				nFrame = 47,
+				szNote = "鹅鸭杀·报告会议",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "纸鸢·交互",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 120,
+						szDisplay = "纸鸢",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -434,6 +778,29 @@ return {
 				dwID = 137770,
 				nFrame = 47,
 				szNote = "鹅鸭杀·纸鸢",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 137771,
+				nFrame = 47,
+				szNote = "鹅鸭杀·福佑牌",
 			},
 		},
 	},
@@ -534,7 +901,7 @@ return {
 				szTarget = "%",
 				tCountdown = {
 					{
-						key = "战斗开始",
+						key = "战场提示",
 						nClass = 14,
 						nFrame = 2,
 						nIcon = 13,
@@ -553,12 +920,35 @@ return {
 				szTarget = "%",
 				tCountdown = {
 					{
-						key = "战斗开始",
+						key = "战场提示",
 						nClass = 14,
 						nFrame = 2,
 						nIcon = 13,
 						nTime = 2,
 						szName = "发言·[{$1}号·{$2}]",
+					},
+					{
+						key = "战场提示·{$me}",
+						nClass = 14,
+						nIcon = 1465,
+						nRefresh = 2,
+						nTime = -2,
+						szName = "战场提示·{$me}",
+					},
+					{
+						key = "战场提示·{$2}",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "战场提示·{$2}",
+					},
+					{
+						key = "战场提示·{$me}",
+						nClass = 14,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = "2,轮到你发言了,VO:ZhuanJieDuan",
+						szName = "轮到你发言了",
 					},
 				},
 			},
@@ -589,7 +979,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1787575418,
+		nTimeStamp = 1787743215,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
