@@ -234,94 +234,6 @@ return {
 				nFrame = 67,
 				szNote = "偷食祭品的魂灵",
 			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 4.5,
-						szDisplay = "方士·入定",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 51506,
-				nFrame = 47,
-				szName = "特效·方士",
-				szNote = "特效·方士",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 4.5,
-						szDisplay = "方士·入定",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 51713,
-				nFrame = 47,
-				szName = "特效·方士",
-				szNote = "特效·方士",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 4.5,
-						szDisplay = "方士·入定",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 51714,
-				nFrame = 47,
-				szName = "特效·方士",
-				szNote = "特效·方士",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 4.5,
-						szDisplay = "方士·入定",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 51715,
-				nFrame = 47,
-				szName = "特效·方士",
-				szNote = "特效·方士",
-			},
 		},
 		[-2] = {
 			{
@@ -418,94 +330,6 @@ return {
 				dwID = 57749,
 				nFrame = 67,
 				szNote = "偷食祭品的魂灵",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 4.5,
-						szDisplay = "方士·入定",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 51506,
-				nFrame = 47,
-				szName = "特效·方士",
-				szNote = "特效·方士",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 4.5,
-						szDisplay = "方士·入定",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 51713,
-				nFrame = 47,
-				szName = "特效·方士",
-				szNote = "特效·方士",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 4.5,
-						szDisplay = "方士·入定",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 51714,
-				nFrame = 47,
-				szName = "特效·方士",
-				szNote = "特效·方士",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 4.5,
-						szDisplay = "方士·入定",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 51715,
-				nFrame = 47,
-				szName = "特效·方士",
-				szNote = "特效·方士",
 			},
 			{
 				[3] = {
@@ -638,7 +462,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1787667890,
+		nTimeStamp = 1787845941,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
