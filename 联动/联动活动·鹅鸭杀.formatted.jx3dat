@@ -926,6 +926,25 @@ return {
 				nFrame = 47,
 				szNote = "鹅鸭杀·报告会议",
 			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "被炸尸体",
+					},
+				},
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 137622,
+				nFrame = 47,
+				szName = "被炸尸体",
+			},
 		},
 	},
 	TALK = {
@@ -1080,6 +1099,15 @@ return {
 				[14] = {
 					bCenterAlarm = true,
 				},
+				bReg = true,
+				szContent = "^主持鹅：(.-)因为身上的气球爆炸被击倒了",
+				szNote = "气球击倒·{$1}",
+				szTarget = "%",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
 				szContent = "主持鹅：平票无人出局",
 				szNote = "平票·无人出局",
 				szTarget = "%",
@@ -1100,10 +1128,25 @@ return {
 				szNote = "开始投票",
 				szTarget = "%",
 			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "被发现。上报会议！",
+				szNote = "开启会议",
+				szTarget = "报告会议",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "祈福已经完成，劫难已化解！",
+				szNote = "完成祈福·劫难化解",
+			},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1787746647,
+		nTimeStamp = 1787847235,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
