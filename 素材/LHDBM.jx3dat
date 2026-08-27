@@ -78,61 +78,6 @@ return {
 		},
 		[-20] = {
 			{
-				bCheckLevel = true,
-				dwID = 244,
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "骑御·调息",
-						nClass = 2,
-						nFrame = 6,
-						nIcon = 6678,
-						nTime = -1,
-						szName = "骑御·调息",
-					},
-					{
-						key = "骑御·调息",
-						nClass = 1,
-						nFrame = 6,
-						nIcon = 6678,
-						nRefresh = 0,
-						nTime = "18.8,调息·7级·触发剩余;22.8,调息·5级·触发剩余",
-						szName = "调息7级·buff触发倒计时",
-					},
-				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				dwID = 8477,
-				nIcon = 6491,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "劲足",
-				tCountdown = {
-					{
-						key = "骑御·调息",
-						nClass = 1,
-						nFrame = 6,
-						nIcon = 6491,
-						nRefresh = 300,
-						nTime = 0.5,
-						szName = "骑御·劲足",
-					},
-					{
-						key = "骑御·劲足",
-						nClass = 2,
-						nFrame = 1,
-						nIcon = 6491,
-						nRefresh = 5,
-						nTime = 3,
-						szName = "劲足·已消失",
-					},
-				},
-			},
-			{
 				{
 					bBuffList = true,
 				},
@@ -559,7 +504,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -764,7 +709,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -1122,7 +1067,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -1160,7 +1105,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -1237,7 +1182,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -1262,7 +1207,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -1403,7 +1348,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -1580,7 +1525,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -2043,6 +1988,16 @@ return {
 						szName = "召唤宠物",
 					},
 				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 12276,
+				nIcon = 4845,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "事件",
 			},
 			{
 				{
@@ -3426,7 +3381,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -3547,7 +3502,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -3642,7 +3597,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -3739,7 +3694,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "韧",
 					},
 				},
@@ -3787,7 +3742,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -3927,7 +3882,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -3951,7 +3906,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -4115,7 +4070,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -4236,7 +4191,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -4433,7 +4388,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -4684,7 +4639,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -4732,7 +4687,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -4755,7 +4710,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -4778,7 +4733,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -4801,7 +4756,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -4918,7 +4873,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -4941,7 +4896,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -4988,7 +4943,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "鬼",
 					},
 				},
@@ -5084,7 +5039,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -5107,7 +5062,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -5154,7 +5109,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -5202,7 +5157,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -5225,7 +5180,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -5248,7 +5203,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -5392,7 +5347,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -5415,7 +5370,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -5438,7 +5393,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -5485,7 +5440,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -5508,7 +5463,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -5531,7 +5486,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -5554,7 +5509,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -5577,7 +5532,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -5600,7 +5555,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -5953,7 +5908,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -6069,7 +6024,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "石",
 					},
 				},
@@ -6092,7 +6047,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -6261,7 +6216,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -6466,7 +6421,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -6490,7 +6445,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -6893,7 +6848,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 18,
+						nPriority = 17,
 						szReminder = "解",
 					},
 				},
@@ -6916,7 +6871,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -6939,7 +6894,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -6962,7 +6917,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -6985,7 +6940,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -7104,7 +7059,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "闪",
 					},
 				},
@@ -7176,7 +7131,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -7199,7 +7154,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -7222,7 +7177,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -7245,7 +7200,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -7268,7 +7223,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -7314,7 +7269,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -7362,7 +7317,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -7526,7 +7481,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -7549,7 +7504,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -7717,7 +7672,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -7826,7 +7781,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -7849,7 +7804,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -7872,7 +7827,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "飞",
 					},
 				},
@@ -8013,7 +7968,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -8037,7 +7992,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -8085,7 +8040,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 18,
+						nPriority = 17,
 						szReminder = "解",
 					},
 				},
@@ -8108,7 +8063,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -8131,7 +8086,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -8156,7 +8111,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -8181,7 +8136,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -8204,7 +8159,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -8227,7 +8182,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -8447,7 +8402,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "皇",
 					},
 				},
@@ -8484,7 +8439,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "蜈",
 					},
 				},
@@ -8507,7 +8462,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -8554,7 +8509,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "灵",
 					},
 				},
@@ -8626,7 +8581,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "祭",
 					},
 				},
@@ -8649,7 +8604,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -8673,7 +8628,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "佑",
 					},
 				},
@@ -8842,7 +8797,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -9264,7 +9219,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -9287,7 +9242,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -9310,7 +9265,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -9381,7 +9336,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -9428,7 +9383,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "突",
 					},
 				},
@@ -9502,7 +9457,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -9525,7 +9480,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "突",
 					},
 				},
@@ -9571,7 +9526,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -9594,7 +9549,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -9641,7 +9596,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -9809,7 +9764,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "月",
 					},
 				},
@@ -10050,7 +10005,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -10171,7 +10126,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "月",
 					},
 				},
@@ -10346,7 +10301,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "锻",
 					},
 				},
@@ -10396,7 +10351,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -10654,7 +10609,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -10677,7 +10632,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -10700,7 +10655,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -10723,7 +10678,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -10746,7 +10701,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "蓄",
 					},
 				},
@@ -10959,7 +10914,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -11631,6 +11586,78 @@ return {
 				dwID = 19003,
 				nLevel = 1,
 				nScrutinyType = 1,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8702,
+				nIcon = 6729,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "龟速",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8701,
+				nIcon = 6729,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "龟速",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8700,
+				nIcon = 6685,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "加速",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8699,
+				nIcon = 6685,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "加速",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8145,
+				nIcon = 4940,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "锁后退",
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				dwID = 8602,
+				nIcon = 3554,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "同骑",
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				dwID = 8604,
+				nIcon = 3554,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "同骑",
 			},
 			{
 				{
@@ -13353,7 +13380,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -13597,7 +13624,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -13763,7 +13790,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -13890,7 +13917,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "韧",
 					},
 				},
@@ -14061,7 +14088,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -14257,7 +14284,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -14283,7 +14310,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -14545,7 +14572,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -14722,7 +14749,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -15119,7 +15146,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -15531,7 +15558,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -15598,7 +15625,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -15636,7 +15663,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -15715,7 +15742,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -15740,7 +15767,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -15981,7 +16008,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -16058,7 +16085,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -16132,7 +16159,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "鬼",
 					},
 				},
@@ -16307,7 +16334,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -16519,7 +16546,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -16673,7 +16700,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -16750,7 +16777,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -16775,7 +16802,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -16814,7 +16841,7 @@ return {
 					{
 						col = "#B3EE3AFF",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -16861,7 +16888,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -17116,7 +17143,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -17141,7 +17168,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -17166,7 +17193,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -17421,7 +17448,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -17446,7 +17473,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -17471,7 +17498,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -17496,7 +17523,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -17521,7 +17548,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -17546,7 +17573,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -18204,7 +18231,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -18419,7 +18446,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "石",
 					},
 				},
@@ -18444,7 +18471,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -18778,7 +18805,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -19393,7 +19420,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -19419,7 +19446,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -20662,7 +20689,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 18,
+						nPriority = 17,
 						szReminder = "解",
 					},
 				},
@@ -20709,7 +20736,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -20734,7 +20761,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -20759,7 +20786,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -20784,7 +20811,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -21116,7 +21143,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "闪",
 					},
 				},
@@ -21601,7 +21628,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -21626,7 +21653,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -21651,7 +21678,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -21676,7 +21703,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -21701,7 +21728,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -21751,7 +21778,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -21817,7 +21844,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -22373,7 +22400,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -22398,7 +22425,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -22727,7 +22754,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -23224,7 +23251,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -23249,7 +23276,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -23274,7 +23301,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "飞",
 					},
 				},
@@ -23582,7 +23609,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -23631,7 +23658,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -23683,7 +23710,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 18,
+						nPriority = 17,
 						szReminder = "解",
 					},
 				},
@@ -23708,7 +23735,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -23733,7 +23760,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -23760,7 +23787,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -23787,7 +23814,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -23812,7 +23839,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -23837,7 +23864,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -24223,7 +24250,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "皇",
 					},
 				},
@@ -24401,7 +24428,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "蜈",
 					},
 				},
@@ -24448,7 +24475,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -24587,7 +24614,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "灵",
 					},
 				},
@@ -24841,7 +24868,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "祭",
 					},
 				},
@@ -24888,7 +24915,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -24914,7 +24941,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "佑",
 					},
 				},
@@ -25191,7 +25218,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -26209,7 +26236,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -26234,7 +26261,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -26348,7 +26375,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -27199,7 +27226,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -27394,7 +27421,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "突",
 					},
 				},
@@ -27496,7 +27523,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -27837,7 +27864,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "突",
 					},
 				},
@@ -27967,7 +27994,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -27992,7 +28019,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -28056,7 +28083,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -28285,7 +28312,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "月",
 					},
 				},
@@ -28983,7 +29010,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -29232,7 +29259,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "月",
 					},
 				},
@@ -29606,7 +29633,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "锻",
 					},
 				},
@@ -29683,7 +29710,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -30230,7 +30257,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -30255,7 +30282,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -30280,7 +30307,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -30305,7 +30332,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -30330,7 +30357,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "蓄",
 					},
 				},
@@ -30873,7 +30900,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -33656,6 +33683,16 @@ return {
 				{
 					bBuffList = true,
 				},
+				dwID = 1899,
+				nIcon = 2020,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "定身",
+			},
+			{
+				{
+					bBuffList = true,
+				},
 				col = {
 					0,
 					255,
@@ -35362,9 +35399,9 @@ return {
 					bFullScreen = true,
 				},
 				col = {
-					255,
-					127,
-					255,
+					153,
+					26,
+					26,
 				},
 				dwID = 29048,
 				nIcon = 3293,
@@ -36623,6 +36660,57 @@ return {
 			},
 		},
 		[-7] = {
+			{
+				dwID = 18209,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18144,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				[8] = {
+					bScreenHead = true,
+				},
+				dwID = 18213,
+				nLevel = 1,
+			},
+			{
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18150,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18156,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
 			{
 				[8] = {
 					bScreenHead = true,
@@ -40019,6 +40107,34 @@ return {
 		},
 		[487] = {
 			{
+				dwID = 24784,
+				nLevel = 1,
+				tCountdown = {
+					{
+						key = "心影",
+						nClass = 9,
+						nFrame = 4,
+						nIcon = 9866,
+						nTime = 6,
+						szName = "侠影·心影·冷却",
+					},
+				},
+			},
+			{
+				dwID = 24582,
+				nLevel = 1,
+				tCountdown = {
+					{
+						key = "心影",
+						nClass = 9,
+						nFrame = 4,
+						nIcon = 9866,
+						nTime = 6,
+						szName = "侠影·心影·冷却",
+					},
+				},
+			},
+			{
 				dwID = 38272,
 				nLevel = 1,
 				tCountdown = {
@@ -40043,34 +40159,6 @@ return {
 						nIcon = 22685,
 						nTime = 10,
 						szName = "侠影·万灵·冷却",
-					},
-				},
-			},
-			{
-				dwID = 38270,
-				nLevel = 1,
-				tCountdown = {
-					{
-						key = "刀宗",
-						nClass = 9,
-						nFrame = 4,
-						nIcon = 22684,
-						nTime = 10,
-						szName = "侠影·刀宗·冷却",
-					},
-				},
-			},
-			{
-				dwID = 38269,
-				nLevel = 1,
-				tCountdown = {
-					{
-						key = "刀宗",
-						nClass = 9,
-						nFrame = 4,
-						nIcon = 22684,
-						nTime = 10,
-						szName = "侠影·刀宗·冷却",
 					},
 				},
 			},
@@ -40131,44 +40219,30 @@ return {
 				},
 			},
 			{
-				dwID = 24758,
+				dwID = 38270,
 				nLevel = 1,
 				tCountdown = {
 					{
-						key = "定身",
+						key = "刀宗",
 						nClass = 9,
-						nFrame = 3,
-						nIcon = 11373,
-						nTime = 30,
-						szName = "定身剩余时间",
+						nFrame = 4,
+						nIcon = 22684,
+						nTime = 10,
+						szName = "侠影·刀宗·冷却",
 					},
 				},
 			},
 			{
-				dwID = 24784,
+				dwID = 38269,
 				nLevel = 1,
 				tCountdown = {
 					{
-						key = "心影",
+						key = "刀宗",
 						nClass = 9,
 						nFrame = 4,
-						nIcon = 9866,
-						nTime = 6,
-						szName = "侠影·心影·冷却",
-					},
-				},
-			},
-			{
-				dwID = 24783,
-				nLevel = 1,
-				tCountdown = {
-					{
-						key = "凌雪",
-						nClass = 9,
-						nFrame = 4,
-						nIcon = 13707,
-						nTime = 30,
-						szName = "侠影·凌雪·冷却",
+						nIcon = 22684,
+						nTime = 10,
+						szName = "侠影·刀宗·冷却",
 					},
 				},
 			},
@@ -40187,16 +40261,16 @@ return {
 				},
 			},
 			{
-				dwID = 24781,
+				dwID = 24580,
 				nLevel = 1,
 				tCountdown = {
 					{
-						key = "霸刀",
+						key = "蓬莱",
 						nClass = 9,
 						nFrame = 4,
-						nIcon = 13705,
-						nTime = 15,
-						szName = "侠影·霸刀·冷却",
+						nIcon = 13706,
+						nTime = 20,
+						szName = "侠影·蓬莱·冷却",
 					},
 				},
 			},
@@ -40215,16 +40289,16 @@ return {
 				},
 			},
 			{
-				dwID = 24779,
+				dwID = 24578,
 				nLevel = 1,
 				tCountdown = {
 					{
-						key = "苍云",
+						key = "长歌",
 						nClass = 9,
 						nFrame = 4,
-						nIcon = 13703,
-						nTime = 25,
-						szName = "侠影·苍云·冷却",
+						nIcon = 13704,
+						nTime = 40,
+						szName = "侠影·长歌·冷却",
 					},
 				},
 			},
@@ -40243,16 +40317,16 @@ return {
 				},
 			},
 			{
-				dwID = 24777,
+				dwID = 24576,
 				nLevel = 1,
 				tCountdown = {
 					{
-						key = "丐帮",
+						key = "明教",
 						nClass = 9,
 						nFrame = 4,
-						nIcon = 13702,
+						nIcon = 13701,
 						nTime = 25,
-						szName = "侠影·丐帮·冷却",
+						szName = "侠影·明教·冷却",
 					},
 				},
 			},
@@ -40271,16 +40345,16 @@ return {
 				},
 			},
 			{
-				dwID = 24775,
+				dwID = 24574,
 				nLevel = 1,
 				tCountdown = {
 					{
-						key = "五毒",
+						key = "藏剑",
 						nClass = 9,
 						nFrame = 4,
-						nIcon = 13699,
-						nTime = 25,
-						szName = "侠影·五毒·冷却",
+						nIcon = 13698,
+						nTime = 20,
+						szName = "侠影·藏剑·冷却",
 					},
 				},
 			},
@@ -40299,16 +40373,16 @@ return {
 				},
 			},
 			{
-				dwID = 24773,
+				dwID = 24572,
 				nLevel = 1,
 				tCountdown = {
 					{
-						key = "七秀",
+						key = "唐门",
 						nClass = 9,
 						nFrame = 4,
-						nIcon = 13697,
-						nTime = 30,
-						szName = "侠影·七秀·冷却",
+						nIcon = 13700,
+						nTime = 10,
+						szName = "侠影·唐门·冷却",
 					},
 				},
 			},
@@ -40327,16 +40401,16 @@ return {
 				},
 			},
 			{
-				dwID = 24771,
+				dwID = 24570,
 				nLevel = 1,
 				tCountdown = {
 					{
-						key = "天策",
+						key = "纯阳",
 						nClass = 9,
 						nFrame = 4,
-						nIcon = 13695,
-						nTime = 25,
-						szName = "侠影·天策·冷却",
+						nIcon = 13696,
+						nTime = 20,
+						szName = "侠影·纯阳·冷却",
 					},
 				},
 			},
@@ -40355,30 +40429,30 @@ return {
 				},
 			},
 			{
-				dwID = 24769,
+				dwID = 24568,
 				nLevel = 1,
 				tCountdown = {
 					{
-						key = "少林",
+						key = "万花",
 						nClass = 9,
 						nFrame = 4,
-						nIcon = 13693,
-						nTime = 20,
-						szName = "侠影·少林·冷却",
+						nIcon = 13694,
+						nTime = 10,
+						szName = "侠影·万花·冷却",
 					},
 				},
 			},
 			{
-				dwID = 24582,
+				dwID = 24783,
 				nLevel = 1,
 				tCountdown = {
 					{
-						key = "心影",
+						key = "凌雪",
 						nClass = 9,
 						nFrame = 4,
-						nIcon = 9866,
-						nTime = 6,
-						szName = "侠影·心影·冷却",
+						nIcon = 13707,
+						nTime = 30,
+						szName = "侠影·凌雪·冷却",
 					},
 				},
 			},
@@ -40397,16 +40471,16 @@ return {
 				},
 			},
 			{
-				dwID = 24580,
+				dwID = 24781,
 				nLevel = 1,
 				tCountdown = {
 					{
-						key = "蓬莱",
+						key = "霸刀",
 						nClass = 9,
 						nFrame = 4,
-						nIcon = 13706,
-						nTime = 20,
-						szName = "侠影·蓬莱·冷却",
+						nIcon = 13705,
+						nTime = 15,
+						szName = "侠影·霸刀·冷却",
 					},
 				},
 			},
@@ -40425,16 +40499,16 @@ return {
 				},
 			},
 			{
-				dwID = 24578,
+				dwID = 24779,
 				nLevel = 1,
 				tCountdown = {
 					{
-						key = "长歌",
+						key = "苍云",
 						nClass = 9,
 						nFrame = 4,
-						nIcon = 13704,
-						nTime = 40,
-						szName = "侠影·长歌·冷却",
+						nIcon = 13703,
+						nTime = 25,
+						szName = "侠影·苍云·冷却",
 					},
 				},
 			},
@@ -40453,16 +40527,16 @@ return {
 				},
 			},
 			{
-				dwID = 24576,
+				dwID = 24777,
 				nLevel = 1,
 				tCountdown = {
 					{
-						key = "明教",
+						key = "丐帮",
 						nClass = 9,
 						nFrame = 4,
-						nIcon = 13701,
+						nIcon = 13702,
 						nTime = 25,
-						szName = "侠影·明教·冷却",
+						szName = "侠影·丐帮·冷却",
 					},
 				},
 			},
@@ -40481,16 +40555,16 @@ return {
 				},
 			},
 			{
-				dwID = 24574,
+				dwID = 24775,
 				nLevel = 1,
 				tCountdown = {
 					{
-						key = "藏剑",
+						key = "五毒",
 						nClass = 9,
 						nFrame = 4,
-						nIcon = 13698,
-						nTime = 20,
-						szName = "侠影·藏剑·冷却",
+						nIcon = 13699,
+						nTime = 25,
+						szName = "侠影·五毒·冷却",
 					},
 				},
 			},
@@ -40509,16 +40583,16 @@ return {
 				},
 			},
 			{
-				dwID = 24572,
+				dwID = 24773,
 				nLevel = 1,
 				tCountdown = {
 					{
-						key = "唐门",
+						key = "七秀",
 						nClass = 9,
 						nFrame = 4,
-						nIcon = 13700,
-						nTime = 10,
-						szName = "侠影·唐门·冷却",
+						nIcon = 13697,
+						nTime = 30,
+						szName = "侠影·七秀·冷却",
 					},
 				},
 			},
@@ -40537,16 +40611,16 @@ return {
 				},
 			},
 			{
-				dwID = 24570,
+				dwID = 24771,
 				nLevel = 1,
 				tCountdown = {
 					{
-						key = "纯阳",
+						key = "天策",
 						nClass = 9,
 						nFrame = 4,
-						nIcon = 13696,
-						nTime = 20,
-						szName = "侠影·纯阳·冷却",
+						nIcon = 13695,
+						nTime = 25,
+						szName = "侠影·天策·冷却",
 					},
 				},
 			},
@@ -40565,16 +40639,16 @@ return {
 				},
 			},
 			{
-				dwID = 24568,
+				dwID = 24769,
 				nLevel = 1,
 				tCountdown = {
 					{
-						key = "万花",
+						key = "少林",
 						nClass = 9,
 						nFrame = 4,
-						nIcon = 13694,
-						nTime = 10,
-						szName = "侠影·万花·冷却",
+						nIcon = 13693,
+						nTime = 20,
+						szName = "侠影·少林·冷却",
 					},
 				},
 			},
@@ -40589,6 +40663,20 @@ return {
 						nIcon = 13693,
 						nTime = 20,
 						szName = "侠影·少林·冷却",
+					},
+				},
+			},
+			{
+				dwID = 24758,
+				nLevel = 1,
+				tCountdown = {
+					{
+						key = "梦境洪流",
+						nClass = 9,
+						nFrame = 3,
+						nIcon = 11373,
+						nTime = 30,
+						szName = "定身·结束剩余",
 					},
 				},
 			},
@@ -41020,7 +41108,7 @@ return {
 					{
 						key = "节日活动1",
 						nClass = 20,
-						nFrame = 3,
+						nFrame = 6,
 						nIcon = 11375,
 						nTime = 10,
 						szName = "成都·打雪仗",
@@ -41038,7 +41126,7 @@ return {
 					{
 						key = "节日活动1",
 						nClass = 20,
-						nFrame = 3,
+						nFrame = 6,
 						nIcon = 11375,
 						nTime = 10,
 						szName = "扬州·打雪仗",
@@ -41987,15 +42075,15 @@ return {
 					255,
 					100,
 				},
-				szContent = "^密探来报：%\"(.-)%\"(.-)出现在(.-)[前尘影事]-[“]-([峥嵘振武]-)[”]-([主分线]-)，",
+				szContent = "^密探来报：\"(.-)\"(.-)出现在(.-)[前尘影事]-[“]-([峥嵘振武]-)[”]-([主分线]-)，",
 				szNote = "世界首领·出现",
 				tCountdown = {
 					{
 						key = "世界首领",
 						nClass = 20,
-						nFrame = 3,
+						nFrame = 0,
 						nIcon = 13,
-						nRefresh = 60,
+						nRefresh = 5,
 						nTime = 20,
 						szName = "{$1}·{$2}·{$3}·{$5}{$4}",
 					},
@@ -42129,21 +42217,12 @@ return {
 				},
 			},
 			{
-				bReg = true,
 				col = {
 					255,
 					255,
 					100,
 				},
 				szContent = "^%[(.-)%]：(%d+)/(1?%d%d)\
-",
-			},
-			{
-				szContent = "交易行私货正在拍卖九寨沟·镜海7200平【万年金券】，侠士们切勿错过！\
-",
-			},
-			{
-				szContent = "交易行私货正在拍卖广陵邑7200平【园宅置业·天苑】，侠士们切勿错过！\
 ",
 			},
 			{
@@ -42182,7 +42261,7 @@ return {
 					{
 						key = "御兽挑战",
 						nClass = 20,
-						nFrame = 7,
+						nFrame = 0,
 						nIcon = 8302,
 						nTime = 30,
 						szName = "巴陵·御兽挑战·开启",
@@ -42202,7 +42281,7 @@ return {
 					{
 						key = "阴山商路",
 						nClass = 20,
-						nFrame = 3,
+						nFrame = 0,
 						nIcon = 8004,
 						nTime = 20,
 						szName = "阴山商路·帮会大跑商·开启",
@@ -42414,162 +42493,6 @@ return {
 						nIcon = 13,
 						nTime = 30,
 						szName = "检查·心法·奇穴",
-					},
-				},
-			},
-			{
-				bSearch = true,
-				szContent = "你已进入地图",
-				tCountdown = {
-					{
-						key = "金水镇",
-						nClass = 20,
-						nIcon = 13,
-						nTime = -2,
-						szName = "金水镇",
-					},
-					{
-						key = "巴陵县",
-						nClass = 20,
-						nIcon = 13,
-						nTime = -2,
-						szName = "巴陵县",
-					},
-					{
-						key = "龙门荒漠",
-						nClass = 20,
-						nIcon = 13,
-						nTime = -2,
-						szName = "龙门荒漠",
-					},
-					{
-						key = "南屏山",
-						nClass = 20,
-						nIcon = 13,
-						nTime = -2,
-						szName = "南屏山",
-					},
-					{
-						key = "昆仑",
-						nClass = 20,
-						nIcon = 13,
-						nTime = -2,
-						szName = "昆仑",
-					},
-					{
-						key = "白龙口",
-						nClass = 20,
-						nIcon = 13,
-						nTime = -2,
-						szName = "白龙口",
-					},
-					{
-						key = "无量山",
-						nClass = 20,
-						nIcon = 13,
-						nTime = -2,
-						szName = "无量山",
-					},
-					{
-						key = "黑龙沼",
-						nClass = 20,
-						nIcon = 13,
-						nTime = -2,
-						szName = "黑龙沼",
-					},
-					{
-						key = "阴山大草原",
-						nClass = 20,
-						nIcon = 13,
-						nTime = -2,
-						szName = "阴山大草原",
-					},
-					{
-						key = "黑戈壁",
-						nClass = 20,
-						nIcon = 13,
-						nTime = -2,
-						szName = "黑戈壁",
-					},
-					{
-						key = "鲲鹏岛",
-						nClass = 20,
-						nIcon = 13,
-						nTime = -2,
-						szName = "鲲鹏岛",
-					},
-					{
-						key = "骑御·劲足",
-						nClass = 20,
-						nFrame = -1,
-						nIcon = 13,
-						nRefresh = 5,
-						nTime = -1,
-						szName = "骑御·劲足",
-					},
-					{
-						key = "骑御·调息",
-						nClass = 20,
-						nFrame = -1,
-						nIcon = 13,
-						nRefresh = 5,
-						nTime = -1,
-						szName = "骑御·调息",
-					},
-					{
-						key = "炊事",
-						nClass = 20,
-						nIcon = 13,
-						nRefresh = 5,
-						nTime = -1,
-						szName = "炊事",
-					},
-					{
-						key = "创意食品",
-						nClass = 20,
-						nFrame = -1,
-						nIcon = 13,
-						nRefresh = 5,
-						nTime = -1,
-						szName = "创意食品",
-					},
-					{
-						bHold = true,
-						key = "每日茶饼",
-						nClass = 20,
-						nFrame = 6,
-						nIcon = 4434,
-						nRefresh = 99999,
-						nTime = 20,
-						szName = "记得领茶饼",
-					},
-					{
-						key = "诛恶事件",
-						nClass = 20,
-						nIcon = 13,
-						nTime = -2,
-						szName = "诛恶事件",
-					},
-					{
-						key = "阵营活动",
-						nClass = 20,
-						nIcon = 13,
-						nTime = -2,
-						szName = "阵营活动",
-					},
-					{
-						key = "通用事件",
-						nClass = 20,
-						nIcon = 13,
-						nTime = -2,
-						szName = "通用事件",
-					},
-					{
-						key = "减伤监控",
-						nClass = 20,
-						nIcon = 13,
-						nTime = -2,
-						szName = "减伤监控",
 					},
 				},
 			},
@@ -44391,15 +44314,6 @@ return {
 						szName = "鲲鹏岛",
 					},
 					{
-						key = "骑御·劲足",
-						nClass = 20,
-						nFrame = -1,
-						nIcon = 13,
-						nRefresh = 5,
-						nTime = -1,
-						szName = "骑御·劲足",
-					},
-					{
 						key = "骑御·调息",
 						nClass = 20,
 						nFrame = -1,
@@ -44589,15 +44503,6 @@ return {
 						nRefresh = 7200,
 						nTime = -1,
 						szName = "鲲鹏岛",
-					},
-					{
-						key = "骑御·劲足",
-						nClass = 20,
-						nFrame = -1,
-						nIcon = 13,
-						nRefresh = 5,
-						nTime = -1,
-						szName = "骑御·劲足",
 					},
 					{
 						key = "骑御·调息",
@@ -45061,7 +44966,7 @@ return {
 					{
 						key = "节日活动1",
 						nClass = 20,
-						nFrame = 3,
+						nFrame = 6,
 						nIcon = 11375,
 						nTime = 10,
 						szName = "成都·打雪仗",
@@ -45079,7 +44984,7 @@ return {
 					{
 						key = "节日活动1",
 						nClass = 20,
-						nFrame = 3,
+						nFrame = 6,
 						nIcon = 11375,
 						nTime = 10,
 						szName = "扬州·打雪仗",
@@ -45277,6 +45182,9 @@ return {
 				},
 			},
 			{
+				[20] = {
+					bCenterAlarm = true,
+				},
 				col = {
 					255,
 					255,
@@ -45284,16 +45192,7 @@ return {
 				},
 				szContent = "本场贡献值进入前1200名，额外获得3000威名，可通过邮件领取\
 ",
-				tCountdown = {
-					{
-						key = "阵营活动",
-						nClass = 20,
-						nFrame = 6,
-						nIcon = 3536,
-						nTime = 10,
-						szName = "攻防进入前1200名",
-					},
-				},
+				szNote = "据点攻防·进入前1200名",
 			},
 			{
 				col = {
@@ -46142,15 +46041,15 @@ return {
 					255,
 					100,
 				},
-				szContent = "^密探来报：%\"(.-)%\"(.-)出现在(.-)[前尘影事]-[“]-([峥嵘振武]-)[”]-([主分线]-)，",
+				szContent = "^密探来报：\"(.-)\"(.-)出现在(.-)[前尘影事]-[“]-([峥嵘振武]-)[”]-([主分线]-)，",
 				szNote = "世界首领·出现",
 				tCountdown = {
 					{
 						key = "世界首领",
 						nClass = 20,
-						nFrame = 3,
+						nFrame = 0,
 						nIcon = 13,
-						nRefresh = 60,
+						nRefresh = 5,
 						nTime = 20,
 						szName = "{$1}·{$2}·{$3}·{$5}{$4}",
 					},
@@ -46168,7 +46067,7 @@ return {
 					{
 						key = "公共事件·结算",
 						nClass = 20,
-						nFrame = 7,
+						nFrame = 4,
 						nIcon = 13,
 						nTime = 15,
 						szName = "贡献度上限剩余·{$1}",
@@ -46426,7 +46325,7 @@ return {
 					{
 						key = "御兽挑战",
 						nClass = 20,
-						nFrame = 7,
+						nFrame = 0,
 						nIcon = 8302,
 						nTime = 30,
 						szName = "巴陵·御兽挑战·开启",
@@ -46446,7 +46345,7 @@ return {
 					{
 						key = "阴山商路",
 						nClass = 20,
-						nFrame = 3,
+						nFrame = 0,
 						nIcon = 8004,
 						nTime = 20,
 						szName = "阴山商路·帮会大跑商·开启",
@@ -46687,15 +46586,6 @@ return {
 						nIcon = 13,
 						nTime = -2,
 						szName = "鲲鹏岛",
-					},
-					{
-						key = "骑御·劲足",
-						nClass = 20,
-						nFrame = -1,
-						nIcon = 13,
-						nRefresh = 5,
-						nTime = -1,
-						szName = "骑御·劲足",
 					},
 					{
 						key = "骑御·调息",
@@ -47775,7 +47665,7 @@ return {
 					{
 						key = "节日活动1",
 						nClass = 20,
-						nFrame = 3,
+						nFrame = 6,
 						nIcon = 11375,
 						nTime = 10,
 						szName = "成都·打雪仗",
@@ -47793,7 +47683,7 @@ return {
 					{
 						key = "节日活动1",
 						nClass = 20,
-						nFrame = 3,
+						nFrame = 6,
 						nIcon = 11375,
 						nTime = 10,
 						szName = "扬州·打雪仗",
@@ -47876,7 +47766,7 @@ return {
 					{
 						key = "节日活动2",
 						nClass = 20,
-						nFrame = 7,
+						nFrame = 4,
 						nIcon = 10440,
 						nTime = 15,
 						szName = "贡献度上限剩余·{$1}",
@@ -49048,14 +48938,6 @@ return {
 				},
 			},
 			{
-				szContent = "交易行私货正在拍卖广陵邑7200平【园宅置业·天苑】，侠士们切勿错过！\
-",
-			},
-			{
-				szContent = "交易行私货正在拍卖九寨沟·镜海7200平【万年金券】，侠士们切勿错过！\
-",
-			},
-			{
 				[20] = {
 					bCenterAlarm = true,
 				},
@@ -49117,7 +48999,7 @@ return {
 					{
 						key = "御兽挑战",
 						nClass = 20,
-						nFrame = 7,
+						nFrame = 0,
 						nIcon = 8302,
 						nTime = 30,
 						szName = "巴陵·御兽挑战·开启",
@@ -49137,7 +49019,7 @@ return {
 					{
 						key = "阴山商路",
 						nClass = 20,
-						nFrame = 3,
+						nFrame = 0,
 						nIcon = 8004,
 						nTime = 20,
 						szName = "阴山商路·帮会大跑商·开启",
@@ -49507,15 +49389,15 @@ return {
 					255,
 					100,
 				},
-				szContent = "^密探来报：%\"(.-)%\"(.-)出现在(.-)[前尘影事]-[“]-([峥嵘振武]-)[”]-([主分线]-)，",
+				szContent = "^密探来报：\"(.-)\"(.-)出现在(.-)[前尘影事]-[“]-([峥嵘振武]-)[”]-([主分线]-)，",
 				szNote = "世界首领·出现",
 				tCountdown = {
 					{
 						key = "世界首领",
 						nClass = 20,
-						nFrame = 3,
+						nFrame = 0,
 						nIcon = 13,
-						nRefresh = 60,
+						nRefresh = 5,
 						nTime = 20,
 						szName = "{$1}·{$2}·{$3}·{$5}{$4}",
 					},
@@ -49663,15 +49545,6 @@ return {
 						nIcon = 13,
 						nTime = -2,
 						szName = "鲲鹏岛",
-					},
-					{
-						key = "骑御·劲足",
-						nClass = 20,
-						nFrame = -1,
-						nIcon = 13,
-						nRefresh = 5,
-						nTime = -1,
-						szName = "骑御·劲足",
 					},
 					{
 						key = "骑御·调息",
@@ -50775,15 +50648,6 @@ return {
 						nIcon = 13,
 						nTime = -2,
 						szName = "鲲鹏岛",
-					},
-					{
-						key = "骑御·劲足",
-						nClass = 20,
-						nFrame = -1,
-						nIcon = 13,
-						nRefresh = 5,
-						nTime = -1,
-						szName = "骑御·劲足",
 					},
 					{
 						key = "骑御·调息",
@@ -52023,7 +51887,7 @@ return {
 					{
 						key = "节日活动2",
 						nClass = 20,
-						nFrame = 7,
+						nFrame = 4,
 						nIcon = 226,
 						nTime = 15,
 						szName = "贡献度上限剩余·{$1}",
@@ -60239,7 +60103,7 @@ return {
 					{
 						key = "节日活动2",
 						nClass = 20,
-						nFrame = 7,
+						nFrame = 4,
 						nIcon = 226,
 						nTime = 15,
 						szName = "贡献度上限剩余·{$1}",
@@ -61558,7 +61422,7 @@ return {
 					{
 						key = "节日活动2",
 						nClass = 20,
-						nFrame = 7,
+						nFrame = 4,
 						nIcon = 226,
 						nTime = 15,
 						szName = "贡献度上限剩余·{$1}",
@@ -62844,7 +62708,7 @@ return {
 					{
 						key = "公共事件·结算",
 						nClass = 20,
-						nFrame = 7,
+						nFrame = 4,
 						nIcon = 13,
 						nTime = 15,
 						szName = "贡献度上限剩余·{$1}",
@@ -63330,6 +63194,14 @@ return {
 						nTime = -1,
 						szName = "兵不血刃2",
 					},
+					{
+						key = "青云直坠1",
+						nClass = 20,
+						nFrame = 5,
+						nIcon = 13,
+						nTime = 60,
+						szName = "[青云直坠]·沿主线任务",
+					},
 				},
 			},
 			{
@@ -63379,19 +63251,6 @@ return {
 						nIcon = 13,
 						nTime = 20,
 						szName = "张忠好感·后续顺便·打小野猪",
-					},
-				},
-			},
-			{
-				szContent = "你已进入地图【梦回稻香】。",
-				tCountdown = {
-					{
-						key = "青云直坠1",
-						nClass = 20,
-						nFrame = 5,
-						nIcon = 13,
-						nTime = 60,
-						szName = "[青云直坠]·沿主线任务",
 					},
 				},
 			},
@@ -63497,7 +63356,7 @@ return {
 					{
 						key = "节日活动2",
 						nClass = 20,
-						nFrame = 7,
+						nFrame = 4,
 						nIcon = 226,
 						nTime = 15,
 						szName = "贡献度上限剩余·{$1}",
@@ -65007,6 +64866,24 @@ return {
 						szName = "选项1帮会+选项4门派合并为正确答案",
 					},
 				},
+			},
+		},
+		[487] = {
+			{
+				[20] = {
+					bCenterAlarm = true,
+				},
+				szContent = "本关已成功达成，请前往青桃堂。\
+",
+				szNote = "通过本关考验·前往青桃堂",
+			},
+			{
+				[20] = {
+					bCenterAlarm = true,
+				},
+				szContent = "恭喜通过本轮考验，下一关仍在此处开始，请做好准备。\
+",
+				szNote = "通过本轮考验·下一关仍在此处",
 			},
 		},
 		[512] = {
@@ -67599,9 +67476,9 @@ return {
 						key = "拍卖分红",
 						nClass = 20,
 						nFrame = 1,
-						nIcon = 13547,
+						nIcon = 3556,
 						nTime = 10,
-						szName = "世界首领·拾取战利品",
+						szName = "世界首领·战利品·已拾取",
 					},
 				},
 			},
@@ -68030,6 +67907,20 @@ return {
 						szName = "双方气血·大量流失·结算剩余",
 					},
 				},
+			},
+		},
+		[807] = {
+			{
+				[20] = {
+					bCenterAlarm = true,
+				},
+				szContent = "主持鹅：你已被鹈鹕吞了，等待被救（若鹈鹕被击倒，你将复活）。被吞状态进入会议时，你将被消化并淘汰出局。\
+",
+				szNote = "你被鹈鹕吞了",
+			},
+			{
+				szContent = "主持鹅：鹅鸭杀大游园里的身份技能的释放最大距离都为2尺，在距离目标2尺范围内使用技能时会自动选择目标，可以不用提前选中目标。\
+",
 			},
 		},
 	},
@@ -70284,7 +70175,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "轻",
@@ -70292,13 +70183,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 72,
 				nScrutinyType = 1,
+				szName = "封轻功·玄通",
 			},
 			{
 				{
@@ -70311,7 +70203,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "封",
@@ -70319,13 +70211,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 71,
 				nScrutinyType = 1,
+				szName = "封轻功·揽尘",
 			},
 			{
 				{
@@ -70337,7 +70230,7 @@ return {
 					{
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "轻",
@@ -70345,13 +70238,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 69,
 				nScrutinyType = 2,
+				szName = "封轻功·霜云",
 			},
 			{
 				{
@@ -70364,7 +70258,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "封",
@@ -70372,13 +70266,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 67,
 				nScrutinyType = 1,
+				szName = "封轻功·度鬼门",
 			},
 			{
 				{
@@ -70391,7 +70286,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "封",
@@ -70399,13 +70294,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 66,
 				nScrutinyType = 1,
+				szName = "封轻功·絮转",
 			},
 			{
 				{
@@ -70418,7 +70314,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "封",
@@ -70426,13 +70322,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 64,
 				nScrutinyType = 1,
+				szName = "封轻功·四边静",
 			},
 			{
 				{
@@ -70445,7 +70342,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "封",
@@ -70453,13 +70350,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 59,
 				nScrutinyType = 1,
+				szName = "封轻功·尘封",
 			},
 			{
 				{
@@ -70472,7 +70370,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "轻",
@@ -70480,13 +70378,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 58,
 				nScrutinyType = 1,
+				szName = "封轻功·悲秋",
 			},
 			{
 				{
@@ -70499,7 +70398,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "封",
@@ -70507,13 +70406,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 54,
 				nScrutinyType = 1,
+				szName = "封轻功·止蔌",
 			},
 			{
 				{
@@ -70526,7 +70426,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "封",
@@ -70534,13 +70434,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 51,
 				nScrutinyType = 1,
+				szName = "封轻功·链魂",
 			},
 			{
 				{
@@ -70553,7 +70454,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "轻",
@@ -70561,13 +70462,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 48,
 				nScrutinyType = 1,
+				szName = "封轻功·弋矰",
 			},
 			{
 				{
@@ -70580,7 +70482,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "封",
@@ -70588,13 +70490,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 47,
 				nScrutinyType = 1,
+				szName = "封轻功·征夷",
 			},
 			{
 				{
@@ -70607,7 +70510,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "摔",
@@ -70615,13 +70518,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 45,
 				nScrutinyType = 1,
+				szName = "封轻功·触石雨",
 			},
 			{
 				{
@@ -70634,7 +70538,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "横",
@@ -70642,13 +70546,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 41,
 				nScrutinyType = 1,
+				szName = "封轻功·横断山河",
 			},
 			{
 				{
@@ -70661,7 +70566,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "山",
@@ -70669,13 +70574,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 39,
 				nScrutinyType = 1,
+				szName = "封轻功·山艮",
 			},
 			{
 				{
@@ -70688,7 +70594,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "轻",
@@ -70696,13 +70602,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 38,
 				nScrutinyType = 1,
+				szName = "封轻功·水榭花楹",
 			},
 			{
 				{
@@ -70715,7 +70622,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "轻",
@@ -70723,13 +70630,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 36,
 				nScrutinyType = 1,
+				szName = "封轻功·无量波罗",
 			},
 			{
 				{
@@ -70742,7 +70650,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "封",
@@ -70750,13 +70658,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 32,
 				nScrutinyType = 1,
+				szName = "封轻功·斩波",
 			},
 			{
 				{
@@ -70769,7 +70678,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "轻",
@@ -70777,13 +70686,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 31,
 				nScrutinyType = 1,
+				szName = "封轻功·恶狗拦路",
 			},
 			{
 				{
@@ -70796,7 +70706,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "轻",
@@ -70804,13 +70714,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 30,
 				nScrutinyType = 1,
+				szName = "封轻功·飞萍",
 			},
 			{
 				{
@@ -70823,7 +70734,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "轻",
@@ -70831,13 +70742,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 24,
 				nScrutinyType = 1,
+				szName = "封轻功·恶秽满路",
 			},
 			{
 				{
@@ -70850,7 +70762,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "封",
@@ -70858,13 +70770,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 21,
 				nScrutinyType = 1,
+				szName = "封轻功·行泽",
 			},
 			{
 				{
@@ -70876,7 +70789,7 @@ return {
 					{
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "破",
@@ -70884,13 +70797,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 20,
 				nScrutinyType = 2,
+				szName = "封轻功·重围",
 			},
 			{
 				{
@@ -70903,7 +70817,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "封",
@@ -70911,13 +70825,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 18,
 				nScrutinyType = 1,
+				szName = "封轻功·徵",
 			},
 			{
 				{
@@ -70930,7 +70845,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "轻",
@@ -70938,13 +70853,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 15,
 				nScrutinyType = 1,
+				szName = "封轻功·步残",
 			},
 			{
 				{
@@ -70957,7 +70873,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "轻",
@@ -70965,13 +70881,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 8,
 				nScrutinyType = 1,
+				szName = "封轻功·滞影",
 			},
 			{
 				{
@@ -70984,7 +70901,7 @@ return {
 						bOnlyMe = true,
 						bScreenHead = true,
 						col = "#1F3FFFFF",
-						colScreenHead = "#FF99CC",
+						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "轻",
@@ -70992,13 +70909,14 @@ return {
 				},
 				bCheckLevel = true,
 				col = {
+					31,
+					63,
 					255,
-					153,
-					204,
 				},
 				dwID = 562,
 				nLevel = 7,
 				nScrutinyType = 1,
+				szName = "封轻功·身乏",
 			},
 		},
 		[-15] = {
@@ -73424,6 +73342,19 @@ return {
 			{
 				{
 					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 4790,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				{
+					bBuffList = true,
 					bScreenHead = true,
 					bTeamPanel = true,
 				},
@@ -73909,7 +73840,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -73933,7 +73864,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -74030,7 +73961,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -74054,7 +73985,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -74124,7 +74055,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -74148,7 +74079,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -74317,7 +74248,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -74381,7 +74312,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -74405,7 +74336,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "蓄",
 					},
 				},
@@ -75387,6 +75318,9 @@ return {
 				szName = "鱼群",
 			},
 			{
+				{
+					bBuffList = true,
+				},
 				dwID = 8609,
 				nIcon = 12450,
 				nLevel = 1,
@@ -76567,7 +76501,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -76606,7 +76540,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -77097,7 +77031,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "冲",
 					},
 				},
@@ -77204,7 +77138,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -78453,7 +78387,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -78653,7 +78587,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -79276,7 +79210,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -80571,7 +80505,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -80597,7 +80531,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -81683,7 +81617,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -81708,7 +81642,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -85962,7 +85896,7 @@ return {
 					{
 						col = "#B3EE3AFF",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "盘",
 					},
 				},
@@ -85984,7 +85918,7 @@ return {
 					{
 						col = "#B3EE3AFF",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "盘",
 					},
 				},
@@ -86403,7 +86337,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -86963,7 +86897,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -87855,7 +87789,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "韶",
 					},
 				},
@@ -89535,7 +89469,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -90670,7 +90604,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "免",
 					},
 				},
@@ -91022,7 +90956,7 @@ return {
 						col = "#B3EE3AFF",
 						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
-						nPriority = 17,
+						nPriority = 18,
 						szReminder = "蓄",
 					},
 				},
@@ -91966,6 +91900,22 @@ return {
 				{
 					bBuffList = true,
 					bScreenHead = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 12619,
+				nIcon = 14120,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "定身",
+			},
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
 					bTeamPanel = true,
 				},
 				aCataclysmBuff = {
@@ -92646,6 +92596,32 @@ return {
 				nScrutinyType = 1,
 				szName = "剧情",
 			},
+			{
+				dwID = 15451,
+				nCount = 3,
+				nIcon = 4987,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "小果·CD",
+				tCountdown = {
+					{
+						key = "跟宠提示",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 4987,
+						nTime = 5,
+						szName = "酒葫芦·小果·已尝试",
+					},
+					{
+						key = "跟宠提示",
+						nClass = 2,
+						nFrame = 4,
+						nIcon = 4987,
+						nTime = 5,
+						szName = "酒葫芦·小果·可尝试",
+					},
+				},
+			},
 		},
 		[6] = {
 			{
@@ -92994,7 +92970,48 @@ return {
 				},
 			},
 		},
+		[8] = {
+			{
+				dwID = 15450,
+				nCount = 3,
+				nIcon = 4987,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "小花·CD",
+				tCountdown = {
+					{
+						key = "跟宠提示",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 4987,
+						nTime = 5,
+						szName = "小土堆·小花·已尝试",
+					},
+					{
+						key = "跟宠提示",
+						nClass = 2,
+						nFrame = 4,
+						nIcon = 4987,
+						nTime = 5,
+						szName = "小土堆·小花·可尝试",
+					},
+				},
+			},
+		},
 		[9] = {
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					31,
+					63,
+					255,
+				},
+				dwID = 29108,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
 			{
 				{
 					bBuffList = true,
@@ -93596,6 +93613,32 @@ return {
 			},
 		},
 		[30] = {
+			{
+				dwID = 15448,
+				nCount = 3,
+				nIcon = 6626,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "冰蓝花客·CD",
+				tCountdown = {
+					{
+						key = "跟宠提示",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 6626,
+						nTime = 5,
+						szName = "冰凌雪莲·冰蓝花客·已尝试",
+					},
+					{
+						key = "跟宠提示",
+						nClass = 2,
+						nFrame = 4,
+						nIcon = 6626,
+						nTime = 5,
+						szName = "冰凌雪莲·冰蓝花客·可尝试",
+					},
+				},
+			},
 			{
 				dwID = 13323,
 				nLevel = 1,
@@ -94412,6 +94455,60 @@ return {
 					},
 				},
 			},
+			{
+				dwID = 15443,
+				nCount = 3,
+				nIcon = 6097,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "小诺·CD",
+				tCountdown = {
+					{
+						key = "跟宠提示",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 6097,
+						nTime = 5,
+						szName = "破旧的纸卷·小诺·已尝试",
+					},
+					{
+						key = "跟宠提示",
+						nClass = 2,
+						nFrame = 4,
+						nIcon = 6097,
+						nTime = 5,
+						szName = "破旧的纸卷·小诺·可尝试",
+					},
+				},
+			},
+		},
+		[101] = {
+			{
+				dwID = 15445,
+				nCount = 3,
+				nIcon = 6802,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "红羽大将军·CD",
+				tCountdown = {
+					{
+						key = "跟宠提示",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 6802,
+						nTime = 5,
+						szName = "泥沙堆·红羽大将军·已尝试",
+					},
+					{
+						key = "跟宠提示",
+						nClass = 2,
+						nFrame = 4,
+						nIcon = 6802,
+						nTime = 5,
+						szName = "泥沙堆·红羽大将军·可尝试",
+					},
+				},
+			},
 		},
 		[102] = {
 			{
@@ -94476,6 +94573,34 @@ return {
 				nIcon = 2119,
 				nLevel = 3,
 				szName = "锁定",
+			},
+		},
+		[103] = {
+			{
+				dwID = 15447,
+				nCount = 3,
+				nIcon = 6994,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "商周客·CD",
+				tCountdown = {
+					{
+						key = "跟宠提示",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 6994,
+						nTime = 5,
+						szName = "小土堆·商周客·已尝试",
+					},
+					{
+						key = "跟宠提示",
+						nClass = 2,
+						nFrame = 4,
+						nIcon = 6994,
+						nTime = 5,
+						szName = "小土堆·商周客·可尝试",
+					},
+				},
 			},
 		},
 		[105] = {
@@ -94790,6 +94915,16 @@ return {
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "抗摔",
+			},
+		},
+		[148] = {
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				dwID = 4156,
+				nLevel = 1,
 			},
 		},
 		[149] = {
@@ -96286,6 +96421,32 @@ return {
 						nIcon = 12373,
 						nTime = 600,
 						szName = "前往·史思明营寨左上方帐篷内",
+					},
+				},
+			},
+			{
+				dwID = 15446,
+				nCount = 3,
+				nIcon = 6631,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "果果·CD",
+				tCountdown = {
+					{
+						key = "跟宠提示",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 6631,
+						nTime = 5,
+						szName = "坚果·果果·已尝试",
+					},
+					{
+						key = "跟宠提示",
+						nClass = 2,
+						nFrame = 4,
+						nIcon = 6631,
+						nTime = 5,
+						szName = "坚果·果果·可尝试",
 					},
 				},
 			},
@@ -101112,6 +101273,162 @@ return {
 				nLevel = 6,
 				szName = "移列",
 			},
+			{
+				dwID = 17867,
+				nIcon = 347,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "缴械",
+				tCountdown = {
+					{
+						key = "万灵",
+						nClass = 2,
+						nIcon = 13,
+						nTime = 0,
+						szName = "万灵",
+					},
+					{
+						key = "刀宗",
+						nClass = 2,
+						nIcon = 13,
+						nTime = 0,
+						szName = "刀宗",
+					},
+					{
+						key = "药宗",
+						nClass = 2,
+						nIcon = 13,
+						nTime = 0,
+						szName = "药宗",
+					},
+					{
+						key = "衍天",
+						nClass = 2,
+						nIcon = 13,
+						nTime = 0,
+						szName = "衍天",
+					},
+					{
+						key = "凌雪",
+						nClass = 2,
+						nIcon = 13,
+						nTime = 0,
+						szName = "凌雪",
+					},
+					{
+						key = "蓬莱",
+						nClass = 2,
+						nIcon = 13,
+						nTime = 0,
+						szName = "蓬莱",
+					},
+					{
+						key = "霸刀",
+						nClass = 2,
+						nIcon = 13,
+						nTime = 0,
+						szName = "霸刀",
+					},
+					{
+						key = "长歌",
+						nClass = 2,
+						nIcon = 13,
+						nTime = 0,
+						szName = "长歌",
+					},
+					{
+						key = "苍云",
+						nClass = 2,
+						nIcon = 13,
+						nTime = 0,
+						szName = "苍云",
+					},
+					{
+						key = "丐帮",
+						nClass = 2,
+						nIcon = 13,
+						nTime = 0,
+						szName = "丐帮",
+					},
+					{
+						key = "明教",
+						nClass = 2,
+						nIcon = 13,
+						nTime = 0,
+						szName = "明教",
+					},
+					{
+						key = "唐门",
+						nClass = 2,
+						nIcon = 13,
+						nTime = 0,
+						szName = "唐门",
+					},
+					{
+						key = "五毒",
+						nClass = 2,
+						nIcon = 13,
+						nTime = 0,
+						szName = "五毒",
+					},
+					{
+						key = "藏剑",
+						nClass = 2,
+						nIcon = 13,
+						nTime = 0,
+						szName = "藏剑",
+					},
+					{
+						key = "七秀",
+						nClass = 2,
+						nIcon = 13,
+						nTime = 0,
+						szName = "七秀",
+					},
+					{
+						key = "少林",
+						nClass = 2,
+						nIcon = 13,
+						nTime = 0,
+						szName = "少林",
+					},
+					{
+						key = "天策",
+						nClass = 2,
+						nIcon = 13,
+						nTime = 0,
+						szName = "天策",
+					},
+					{
+						key = "纯阳",
+						nClass = 2,
+						nIcon = 13,
+						nTime = 0,
+						szName = "纯阳",
+					},
+					{
+						key = "万花",
+						nClass = 2,
+						nIcon = 13,
+						nTime = 0,
+						szName = "万花",
+					},
+					{
+						key = "心影",
+						nClass = 2,
+						nIcon = 13,
+						nTime = 0,
+						szName = "心影",
+					},
+					{
+						key = "梦境洪流",
+						nClass = 2,
+						nIcon = 13,
+						nTime = 0,
+						szName = "梦境洪流",
+					},
+				},
+			},
 		},
 		[488] = {
 			{
@@ -103301,6 +103618,24 @@ return {
 				nScrutinyType = 1,
 			},
 			{
+				dwID = 6704,
+				nIcon = 3556,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "战利品",
+				tCountdown = {
+					{
+						key = "拍卖分红",
+						nClass = 1,
+						nFrame = 1,
+						nIcon = 3556,
+						nRefresh = 2,
+						nTime = 10,
+						szName = "世界首领·战利品·已拾取",
+					},
+				},
+			},
+			{
 				dwID = 25895,
 				nLevel = 1,
 				nScrutinyType = 1,
@@ -103311,7 +103646,7 @@ return {
 						nFrame = 0,
 						nIcon = 13547,
 						nTime = 20,
-						szName = "拍卖分红·已获得",
+						szName = "拍卖分红·已获得·未拾取",
 					},
 				},
 			},
@@ -103326,7 +103661,7 @@ return {
 						nFrame = 0,
 						nIcon = 13547,
 						nTime = 20,
-						szName = "拍卖分红·已获得",
+						szName = "拍卖分红·已获得·未拾取",
 					},
 				},
 			},
@@ -103341,7 +103676,7 @@ return {
 						nFrame = 0,
 						nIcon = 13547,
 						nTime = 20,
-						szName = "拍卖分红·已获得",
+						szName = "拍卖分红·已获得·未拾取",
 					},
 				},
 			},
@@ -106081,6 +106416,165 @@ return {
 				nScrutinyType = 2,
 			},
 		},
+		[807] = {
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bScreenHead = true,
+						col = "#FFFF00FF",
+						colScreenHead = "#FFFF00",
+						nColAlpha = 255,
+						nPriority = 14,
+						szReminder = "定",
+					},
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 34308,
+				nIcon = 2020,
+				nLevel = 1,
+				szName = "定身",
+			},
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				dwID = 33940,
+				nIcon = 593,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "关灯",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 34042,
+				nLevel = 1,
+				szName = "2气球",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 34005,
+				nLevel = 1,
+				szName = "1气球",
+			},
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 33913,
+				nLevel = 1,
+				szName = "雷",
+				tCountdown = {
+					{
+						key = "爆炸提示",
+						nClass = 2,
+						nIcon = 2711,
+						nTime = -1,
+						szName = "爆炸提示",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 33778,
+				nIcon = 10484,
+				nLevel = 1,
+				szName = "魂灵",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 33829,
+				nIcon = 10484,
+				nLevel = 1,
+				szName = "藏身",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 33825,
+				nIcon = 10484,
+				nLevel = 1,
+				szName = "隐身",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 33954,
+				nIcon = 311,
+				nLevel = 1,
+				szName = "禁操作",
+			},
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				dwID = 33906,
+				nIcon = 27629,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "被吞",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 33905,
+				nIcon = 23362,
+				nLevel = 1,
+				szName = "观战",
+			},
+		},
 		[995] = {
 			{
 				{
@@ -106662,6 +107156,22 @@ return {
 	DOODAD = {
 		[-21] = {
 			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 6653,
+			},
+			{
 				aFocus = {
 					{
 						nMaxDistance = 30,
@@ -107156,6 +107666,16 @@ return {
 				dwID = 2992,
 			},
 			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "姻缘草·七夕节",
+					},
+				},
+				dwID = 15354,
+				nFrame = 47,
+			},
+			{
 				[17] = {
 					bScreenHead = true,
 				},
@@ -107304,14 +107824,6 @@ return {
 					},
 				},
 				dwID = 2590,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 90,
-					},
-				},
-				dwID = 6653,
 			},
 			{
 				[17] = {
@@ -107667,6 +108179,30 @@ return {
 			},
 		},
 		[6] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 6676,
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 6653,
+			},
 			{
 				aFocus = {
 					{
@@ -108254,15 +108790,6 @@ return {
 			{
 				aFocus = {
 					{
-						nMaxDistance = 30,
-						szDisplay = "川芎·烟花戏·秋",
-					},
-				},
-				dwID = 6915,
-			},
-			{
-				aFocus = {
-					{
 						nMaxDistance = 60,
 						szDisplay = "风筝·捉妖记",
 					},
@@ -108277,6 +108804,15 @@ return {
 					},
 				},
 				dwID = 4774,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "川芎·烟花戏·秋",
+					},
+				},
+				dwID = 6915,
 			},
 			{
 				[17] = {
@@ -108531,15 +109067,6 @@ return {
 			{
 				aFocus = {
 					{
-						nMaxDistance = 60,
-						szDisplay = "散落的兵刃·锋芒展",
-					},
-				},
-				dwID = 6707,
-			},
-			{
-				aFocus = {
-					{
 						nMaxDistance = 90,
 						szDisplay = "商队货物·锋芒展",
 					},
@@ -108572,6 +109099,15 @@ return {
 					},
 				},
 				dwID = 6709,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "散落的兵刃·锋芒展",
+					},
+				},
+				dwID = 6707,
 			},
 			{
 				aFocus = {
@@ -109181,15 +109717,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 60,
-						szDisplay = "小土堆·三山四海",
-					},
-				},
-				dwID = 5294,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 60,
 						szDisplay = "稀有的草药·小诺",
 					},
 				},
@@ -109232,6 +109759,23 @@ return {
 				dwID = 4767,
 			},
 			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "小土堆·三山四海",
+					},
+				},
+				dwID = 5294,
+			},
+			{
+				aFocus = {
+					{
+						szDisplay = "陈旧的宝盒·三山四海",
+					},
+				},
+				dwID = 5245,
+			},
+			{
 				[17] = {
 					bCenterAlarm = true,
 				},
@@ -109269,14 +109813,6 @@ return {
 			{
 				aFocus = {
 					{
-						szDisplay = "陈旧的宝盒·三山四海",
-					},
-				},
-				dwID = 5245,
-			},
-			{
-				aFocus = {
-					{
 						nMaxDistance = 30,
 					},
 				},
@@ -109308,6 +109844,7 @@ return {
 				},
 				aFocus = {
 					{
+						nMaxDistance = 120,
 						szDisplay = "泥沙堆·红羽大将军",
 					},
 				},
@@ -109344,6 +109881,25 @@ return {
 					},
 				},
 				dwID = 5976,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "换颜草·滇南行",
+					},
+				},
+				dwID = 6367,
+				szName = "换颜草·滇南行",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+					},
+				},
+				dwID = 6366,
+				szName = "小土堆·滇南行",
 			},
 			{
 				aFocus = {
@@ -109390,25 +109946,6 @@ return {
 				},
 				dwID = 6514,
 			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						szDisplay = "换颜草·滇南行",
-					},
-				},
-				dwID = 6367,
-				szName = "换颜草·滇南行",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 60,
-					},
-				},
-				dwID = 6366,
-				szName = "小土堆·滇南行",
-			},
 		},
 		[103] = {
 			{
@@ -109418,6 +109955,7 @@ return {
 				},
 				aFocus = {
 					{
+						nMaxDistance = 120,
 						szDisplay = "小土堆·商周客",
 					},
 				},
@@ -109845,6 +110383,17 @@ return {
 					255,
 				},
 				dwID = 5157,
+			},
+		},
+		[148] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "石中物",
+					},
+				},
+				dwID = 1392,
 			},
 		},
 		[149] = {
@@ -110571,20 +111120,20 @@ return {
 			{
 				aFocus = {
 					{
-						nMaxDistance = 55,
-						szDisplay = "紫金匣·乱世舞姬",
-					},
-				},
-				dwID = 6116,
-			},
-			{
-				aFocus = {
-					{
 						nMaxDistance = 40,
 						szDisplay = "元和的弩弓·乱世舞姬",
 					},
 				},
 				dwID = 6115,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 55,
+						szDisplay = "紫金匣·乱世舞姬",
+					},
+				},
+				dwID = 6116,
 			},
 			{
 				aFocus = {
@@ -110839,19 +111388,11 @@ return {
 				dwID = 11811,
 			},
 			{
-				[17] = {
-					bScreenHead = true,
-				},
 				aFocus = {
 					{
 						nMaxDistance = 60,
 						szDisplay = "边澈的辎重箱·太行道",
 					},
-				},
-				col = {
-					0,
-					255,
-					255,
 				},
 				dwID = 7423,
 			},
@@ -110871,6 +111412,7 @@ return {
 				},
 				aFocus = {
 					{
+						nMaxDistance = 120,
 						szDisplay = "坚果·果果",
 					},
 				},
@@ -111333,6 +111875,22 @@ return {
 			{
 				aFocus = {
 					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 149,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 144,
+			},
+			{
+				aFocus = {
+					{
 						nMaxDistance = 10,
 					},
 				},
@@ -111474,6 +112032,16 @@ return {
 					{},
 				},
 				dwID = 6821,
+			},
+		},
+		[299] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+					},
+				},
+				dwID = 7128,
 			},
 		},
 		[302] = {
@@ -112037,7 +112605,7 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 20,
-						szDisplay = "QTE·路投石",
+						szDisplay = "QTE·功夫·路投石",
 					},
 				},
 				dwID = 10696,
@@ -112303,57 +112871,6 @@ return {
 					255,
 				},
 				dwID = 10678,
-			},
-			{
-				[17] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						szDisplay = "神机轮·侠行",
-					},
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 8867,
-			},
-			{
-				[17] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						szDisplay = "千丝绸·侠行",
-					},
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 8866,
-			},
-			{
-				[17] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						szDisplay = "妙妙椅·侠行",
-					},
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 8865,
 			},
 		},
 		[468] = {
@@ -112831,15 +113348,6 @@ return {
 			{
 				aFocus = {
 					{
-						nMaxDistance = 10,
-						szDisplay = "莓莓·寓天涯",
-					},
-				},
-				dwID = 10421,
-			},
-			{
-				aFocus = {
-					{
 						nMaxDistance = 60,
 						szDisplay = "海螺壳·寓天涯",
 					},
@@ -112850,31 +113358,11 @@ return {
 			{
 				aFocus = {
 					{
-						szDisplay = "乱红鸾·出逃",
+						nMaxDistance = 10,
+						szDisplay = "莓莓·寓天涯",
 					},
 				},
-				dwID = 10175,
-				szName = "乱红鸾·出逃",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "乱红鸾·QTE",
-					},
-				},
-				dwID = 10174,
-				szName = "乱红鸾·QTE",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "乱红鸾·QTE",
-					},
-				},
-				dwID = 10173,
-				szName = "乱红鸾·QTE",
+				dwID = 10421,
 			},
 			{
 				aFocus = {
@@ -112884,6 +113372,35 @@ return {
 					},
 				},
 				dwID = 10176,
+			},
+			{
+				aFocus = {
+					{
+						szDisplay = "光圈·出逃·乱红鸾",
+					},
+				},
+				dwID = 10175,
+				szName = "乱红鸾·出逃",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "光圈·QTE·乱红鸾",
+					},
+				},
+				dwID = 10174,
+				szName = "乱红鸾·QTE",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "光圈·QTE·乱红鸾",
+					},
+				},
+				dwID = 10173,
+				szName = "乱红鸾·QTE",
 			},
 		},
 		[580] = {
@@ -112983,7 +113500,7 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 60,
-						szDisplay = "试探·夜哀鸣",
+						szDisplay = "光圈·试探·夜哀鸣",
 					},
 				},
 				dwID = 10167,
@@ -113001,6 +113518,7 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 30,
+						szDisplay = "蹲守·光圈·夜哀鸣",
 					},
 				},
 				dwID = 10156,
@@ -113045,6 +113563,15 @@ return {
 			{
 				aFocus = {
 					{
+						nMaxDistance = 30,
+						szDisplay = "槲果·故岁辞",
+					},
+				},
+				dwID = 10060,
+			},
+			{
+				aFocus = {
+					{
 						nMaxDistance = 40,
 						szDisplay = "鸟笼·故岁辞",
 					},
@@ -113079,23 +113606,6 @@ return {
 					},
 				},
 				dwID = 10054,
-			},
-			{
-				[17] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 30,
-						szDisplay = "槲果·故岁辞",
-					},
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 10060,
 			},
 		},
 		[627] = {
@@ -113182,24 +113692,24 @@ return {
 		},
 		[642] = {
 			{
-				dwID = 10311,
-				szName = "沙棘果·解心语",
-			},
-			{
 				aFocus = {
 					{
 						nMaxDistance = 6,
-						szDisplay = "沙棘果·解心语",
+						szDisplay = "光圈·沙棘果·解心语",
 					},
 				},
 				dwID = 10399,
 				szName = "沙棘果·解心语",
 			},
 			{
+				dwID = 10311,
+				szName = "沙棘果·解心语",
+			},
+			{
 				aFocus = {
 					{
 						nMaxDistance = 30,
-						szDisplay = "沙棘果·解心语",
+						szDisplay = "光圈·沙棘果·解心语",
 					},
 				},
 				dwID = 10381,
@@ -114383,6 +114893,83 @@ return {
 				dwID = 11729,
 			},
 		},
+		[807] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "拉铃·紧急会议·交互",
+					},
+					{
+						nMaxDistance = 30,
+						szDisplay = "拉铃·紧急会议",
+					},
+				},
+				dwID = 11875,
+				szName = "拉铃",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 11947,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 11903,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 11876,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 11878,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 11877,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 11879,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸡腿·交互",
+					},
+					{
+						nMaxDistance = 30,
+						szDisplay = "鸡腿·报告",
+					},
+				},
+				dwID = 11836,
+			},
+		},
 	},
 	NPC = {
 		[-21] = {
@@ -114429,6 +115016,102 @@ return {
 				},
 				dwID = 16701,
 				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 50,
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 57749,
+				nFrame = 67,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 50,
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 57718,
+				nFrame = 67,
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 57719,
+				nFrame = 67,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 4.5,
+						szDisplay = "少侠·方士",
+					},
+				},
+				dwID = 51715,
+				nFrame = 47,
+				szName = "特效·方士",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 4.5,
+						szDisplay = "少女·方士",
+					},
+				},
+				dwID = 51714,
+				nFrame = 47,
+				szName = "特效·方士",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 4.5,
+						szDisplay = "成女·方士",
+					},
+				},
+				dwID = 51713,
+				nFrame = 47,
+				szName = "特效·方士",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 4.5,
+						szDisplay = "成男·方士",
+					},
+				},
+				dwID = 51506,
+				nFrame = 47,
+				szName = "特效·方士",
 			},
 			{
 				[3] = {
@@ -117019,7 +117702,12 @@ return {
 			{
 				aFocus = {
 					{
+						nMaxDistance = 6,
+						szDisplay = "彩球·交互",
+					},
+					{
 						nMaxDistance = 20,
+						szDisplay = "彩球",
 					},
 				},
 				dwID = 51891,
@@ -117742,6 +118430,36 @@ return {
 						nMaxDistance = 30,
 					},
 				},
+				dwID = 134047,
+				nFrame = 47,
+				tCountdown = {
+					{
+						key = "节日活动1",
+						nClass = 3,
+						nFrame = 2,
+						nIcon = 3557,
+						nTime = 20,
+						szName = "七夕节·箱子包裹·打一下",
+					},
+					{
+						key = "节日活动1",
+						nClass = 13,
+						nFrame = 2,
+						nIcon = 3557,
+						nTime = 20,
+						szName = "七夕节·箱子包裹·领奖励",
+					},
+				},
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 30,
+					},
+				},
 				dwID = 7576,
 				nFrame = 47,
 				tCountdown = {
@@ -117751,15 +118469,15 @@ return {
 						nFrame = 2,
 						nIcon = 3557,
 						nTime = 20,
-						szName = "七夕节·包裹·打一下",
+						szName = "七夕节·箱子包裹·打一下",
 					},
 					{
 						key = "节日活动1",
-						nClass = 11,
+						nClass = 13,
 						nFrame = 2,
 						nIcon = 3557,
-						nTime = 5,
-						szName = "七夕节·包裹·领奖励",
+						nTime = 20,
+						szName = "七夕节·箱子包裹·领奖励",
 					},
 				},
 			},
@@ -117826,6 +118544,24 @@ return {
 			},
 		},
 		[-2] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "主持鹅·鹅鸭杀",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 138654,
+				nFrame = 47,
+			},
 			{
 				[3] = {
 					bScreenHead = true,
@@ -118757,6 +119493,7 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 6,
+						szDisplay = "江小漓·七夕节",
 					},
 				},
 				col = {
@@ -118821,6 +119558,7 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 6,
+						szDisplay = "茸茸·七夕节",
 					},
 				},
 				col = {
@@ -118838,6 +119576,11 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 3,
+						szDisplay = "细足小蜘蛛·交互",
+					},
+					{
+						nMaxDistance = 60,
+						szDisplay = "细足小蜘蛛·七夕节",
 					},
 				},
 				col = {
@@ -118866,6 +119609,34 @@ return {
 				nFrame = 52,
 			},
 			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "式神铃·镜花别院",
+					},
+				},
+				dwID = 99583,
+				nFrame = 67,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "江湖故人·纸鸢载愿",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 138701,
+				nFrame = 47,
+			},
+			{
 				[3] = {
 					bScreenHead = true,
 				},
@@ -118880,6 +119651,12 @@ return {
 			{
 				[3] = {
 					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "蒋玉漓·梦回稻香",
+					},
 				},
 				col = {
 					0,
@@ -119321,94 +120098,6 @@ return {
 					50,
 				},
 				dwID = 56189,
-				nFrame = 67,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 4.5,
-						szDisplay = "方士·入定",
-					},
-				},
-				dwID = 51715,
-				nFrame = 47,
-				szName = "特效·方士",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 4.5,
-						szDisplay = "方士·入定",
-					},
-				},
-				dwID = 51714,
-				nFrame = 47,
-				szName = "特效·方士",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 4.5,
-						szDisplay = "方士·入定",
-					},
-				},
-				dwID = 51713,
-				nFrame = 47,
-				szName = "特效·方士",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 4.5,
-						szDisplay = "方士·入定",
-					},
-				},
-				dwID = 51506,
-				nFrame = 47,
-				szName = "特效·方士",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 50,
-						tRelation = {
-							bAll = false,
-							bAlly = false,
-							bEnemy = true,
-						},
-					},
-				},
-				dwID = 57749,
-				nFrame = 67,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 50,
-						tRelation = {
-							bAll = false,
-							bAlly = false,
-							bEnemy = true,
-						},
-					},
-				},
-				dwID = 57718,
-				nFrame = 67,
-			},
-			{
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				aFocus = {
-					{},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 57719,
 				nFrame = 67,
 			},
 			{
@@ -121116,6 +121805,76 @@ return {
 				},
 				aFocus = {
 					{
+						nMaxDistance = 6,
+						szDisplay = "蒋玉宸·中元节",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 57717,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 50,
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 57749,
+				nFrame = 67,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 50,
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 57718,
+				nFrame = 67,
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 57719,
+				nFrame = 67,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
 						nMaxDistance = 30,
 					},
 				},
@@ -121357,6 +122116,50 @@ return {
 				},
 				dwID = 52458,
 				nFrame = 67,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 4.5,
+						szDisplay = "少侠·方士",
+					},
+				},
+				dwID = 51715,
+				nFrame = 47,
+				szName = "特效·方士",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 4.5,
+						szDisplay = "少女·方士",
+					},
+				},
+				dwID = 51714,
+				nFrame = 47,
+				szName = "特效·方士",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 4.5,
+						szDisplay = "成女·方士",
+					},
+				},
+				dwID = 51713,
+				nFrame = 47,
+				szName = "特效·方士",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 4.5,
+						szDisplay = "成男·方士",
+					},
+				},
+				dwID = 51506,
+				nFrame = 47,
+				szName = "特效·方士",
 			},
 			{
 				aFocus = {
@@ -123348,9 +124151,6 @@ return {
 				nFrame = 47,
 			},
 			{
-				aFocus = {
-					{},
-				},
 				dwID = 138418,
 				nFrame = 47,
 			},
@@ -133980,6 +134780,36 @@ return {
 			{
 				aFocus = {
 					{
+						nMaxDistance = 60,
+						szDisplay = "高大胖·小诺",
+					},
+				},
+				dwID = 36817,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "小诺",
+					},
+				},
+				dwID = 36819,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "武大豪·小诺",
+					},
+				},
+				dwID = 36818,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
 						nMaxDistance = 30,
 						szDisplay = "白蜘蛛",
 						tRelation = {
@@ -134075,36 +134905,6 @@ return {
 					},
 				},
 				dwID = 43230,
-				nFrame = 47,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						szDisplay = "高大胖·小诺",
-					},
-				},
-				dwID = 36817,
-				nFrame = 47,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						szDisplay = "小诺",
-					},
-				},
-				dwID = 36819,
-				nFrame = 47,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						szDisplay = "武大豪·小诺",
-					},
-				},
-				dwID = 36818,
 				nFrame = 47,
 			},
 			{
@@ -137798,6 +138598,18 @@ return {
 				},
 				aFocus = {
 					{
+						nMaxDistance = 120,
+					},
+				},
+				dwID = 16665,
+				nFrame = 57,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
 						nMaxDistance = 20,
 						tRelation = {
 							bAll = false,
@@ -137853,18 +138665,6 @@ return {
 				},
 				dwID = 16674,
 				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 120,
-					},
-				},
-				dwID = 16665,
-				nFrame = 57,
 			},
 		},
 		[138] = {
@@ -138112,6 +138912,133 @@ return {
 						szName = "枫湖寨·恶人大旗被夺",
 					},
 				},
+			},
+		},
+		[148] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "离开·传送",
+					},
+				},
+				dwID = 16475,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "离开·传送",
+					},
+				},
+				dwID = 16332,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 18402,
+				nFrame = 52,
+			},
+			{
+				aFocus = {
+					{
+						tLife = {
+							bEnable = true,
+							nValue = 0.4,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 18310,
+				nFrame = 57,
+			},
+			{
+				aFocus = {
+					{
+						tLife = {
+							bEnable = true,
+							nValue = 0.4,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 18311,
+				nFrame = 57,
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 18314,
+				nFrame = 57,
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 18312,
+				nFrame = 57,
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 18313,
+				nFrame = 57,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{},
+				},
+				dwID = 18309,
+				nFrame = 57,
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 18281,
+				nFrame = 52,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 18299,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 10,
+					},
+				},
+				dwID = 18297,
+				nFrame = 47,
 			},
 		},
 		[149] = {
@@ -147612,6 +148539,20 @@ return {
 			{
 				aFocus = {
 					{
+						nMaxDistance = 30,
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 53420,
+				nFrame = 65,
+			},
+			{
+				aFocus = {
+					{
 						nMaxDistance = 10,
 						szDisplay = "彩球·终点",
 					},
@@ -147844,6 +148785,124 @@ return {
 				[3] = {
 					bScreenHead = true,
 				},
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 53267,
+				nFrame = 57,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 53269,
+				nFrame = 57,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 10,
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 53148,
+				nFrame = 57,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 53192,
+				nFrame = 57,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "郭子仪部·靖武·神都玉佩",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 53593,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "精金阁·神都玉佩",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 53379,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
 				dwID = 54147,
 				nFrame = 47,
 			},
@@ -147923,86 +148982,6 @@ return {
 					0,
 				},
 				dwID = 53036,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 20,
-						tRelation = {
-							bAll = false,
-							bAlly = false,
-							bEnemy = true,
-						},
-					},
-				},
-				col = {
-					255,
-					50,
-					50,
-				},
-				dwID = 53267,
-				nFrame = 57,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 20,
-						tRelation = {
-							bAll = false,
-							bAlly = false,
-							bEnemy = true,
-						},
-					},
-				},
-				col = {
-					255,
-					50,
-					50,
-				},
-				dwID = 53269,
-				nFrame = 57,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						szDisplay = "郭子仪部·靖武·神都玉佩",
-					},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 53593,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						szDisplay = "精金阁·神都玉佩",
-					},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 53379,
 				nFrame = 47,
 			},
 			{
@@ -148498,7 +149477,7 @@ return {
 				},
 				aFocus = {
 					{
-						nMaxDistance = 90,
+						nMaxDistance = 30,
 					},
 				},
 				col = {
@@ -148961,6 +149940,70 @@ return {
 			},
 		},
 		[299] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 90,
+					},
+				},
+				dwID = 60707,
+				nFrame = 57,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+					},
+				},
+				dwID = 60718,
+				nFrame = 57,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 90,
+					},
+				},
+				dwID = 60704,
+				nFrame = 50,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "无支祁·剧情",
+					},
+				},
+				dwID = 60790,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+					},
+				},
+				dwID = 60759,
+				nFrame = 57,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "岩鬼·传送",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 128492,
+				nFrame = 47,
+			},
 			{
 				aFocus = {
 					{
@@ -153148,15 +154191,12 @@ return {
 		},
 		[487] = {
 			{
-				[3] = {
-					bScreenHead = true,
+				aFocus = {
+					{
+						nMaxDistance = 10,
+					},
 				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 99541,
+				dwID = 99730,
 				nFrame = 67,
 			},
 			{
@@ -153306,12 +154346,15 @@ return {
 				},
 			},
 			{
-				aFocus = {
-					{
-						nMaxDistance = 10,
-					},
+				[3] = {
+					bScreenHead = true,
 				},
-				dwID = 99730,
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 99541,
 				nFrame = 67,
 			},
 		},
@@ -163121,6 +164164,296 @@ return {
 				nFrame = 47,
 			},
 		},
+		[807] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "被炸尸体",
+					},
+				},
+				col = {
+					255,
+					50,
+					255,
+				},
+				dwID = 137622,
+				nFrame = 47,
+				szName = "被炸尸体",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸡腿·发起会议·交互",
+					},
+					{
+						nMaxDistance = 30,
+						szDisplay = "鸡腿·报告会议",
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 137621,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸡腿·发起会议·交互",
+					},
+					{
+						nMaxDistance = 30,
+						szDisplay = "鸡腿·报告会议",
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 137620,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸡腿·发起会议·交互",
+					},
+					{
+						nMaxDistance = 30,
+						szDisplay = "鸡腿·报告会议",
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 137619,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸡腿·发起会议·交互",
+					},
+					{
+						nMaxDistance = 30,
+						szDisplay = "鸡腿·报告会议",
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 137618,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸡腿·发起会议·交互",
+					},
+					{
+						nMaxDistance = 30,
+						szDisplay = "鸡腿·报告会议",
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 137617,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸡腿·发起会议·交互",
+					},
+					{
+						nMaxDistance = 30,
+						szDisplay = "鸡腿·报告会议",
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 137616,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸡腿·发起会议·交互",
+					},
+					{
+						nMaxDistance = 30,
+						szDisplay = "鸡腿·报告会议",
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 137615,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸡腿·发起会议·交互",
+					},
+					{
+						nMaxDistance = 30,
+						szDisplay = "鸡腿·报告会议",
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 137614,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸡腿·发起会议·交互",
+					},
+					{
+						nMaxDistance = 30,
+						szDisplay = "鸡腿·报告会议",
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 137613,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸡腿·发起会议·交互",
+					},
+					{
+						nMaxDistance = 30,
+						szDisplay = "鸡腿·报告会议",
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 137612,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "福佑牌·交互",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 137771,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "纸鸢·交互",
+					},
+					{
+						nMaxDistance = 30,
+						szDisplay = "纸鸢",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 137770,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 138196,
+				nFrame = 47,
+			},
+		},
 		[995] = {
 			{
 				[3] = {
@@ -163988,6 +165321,26 @@ return {
 						szName = "金翅雨蝶群·出现",
 					},
 				},
+			},
+			{
+				szContent = "周围已有其他方士正在入定，为避免互相干扰，离远一些方可出魂入定。",
+				tCountdown = {
+					{
+						key = "方士事件1",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nTime = 5,
+						szName = "方士·入定·间隔4.5尺",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "祭扫魂墟祭坛，无意间得到一件物品，望侠士善加利用。",
+				szNote = "祭扫祭坛·获得物品",
 			},
 			{
 				szContent = "本次宣战进攻将在30秒后正式开始。",
@@ -167955,7 +169308,7 @@ return {
 						nClass = 14,
 						nFrame = 2,
 						nIcon = 3557,
-						nTime = 10,
+						nTime = 30,
 						szName = "七夕节·记得开箱子",
 					},
 				},
@@ -168860,7 +170213,7 @@ return {
 						key = "节日活动1",
 						nClass = 14,
 						nFrame = 6,
-						nIcon = 4845,
+						nIcon = 5351,
 						nTime = 10,
 						szName = "彩球·【{$1}】",
 					},
@@ -169292,19 +170645,6 @@ return {
 						nIcon = 1526,
 						nTime = 11,
 						szName = "秦月樱·正在救你",
-					},
-				},
-			},
-			{
-				szContent = "周围已有其他方士正在入定，为避免互相干扰，离远一些方可出魂入定。",
-				tCountdown = {
-					{
-						key = "方士事件1",
-						nClass = 14,
-						nFrame = 7,
-						nIcon = 13,
-						nTime = 5,
-						szName = "方士·入定·间隔4.5尺",
 					},
 				},
 			},
@@ -170881,6 +172221,26 @@ return {
 						szName = "{$3}·{$2}·已达上限",
 					},
 				},
+			},
+			{
+				szContent = "周围已有其他方士正在入定，为避免互相干扰，离远一些方可出魂入定。",
+				tCountdown = {
+					{
+						key = "方士事件1",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nTime = 5,
+						szName = "方士·入定·间隔4.5尺",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "祭扫魂墟祭坛，无意间得到一件物品，望侠士善加利用。",
+				szNote = "祭扫祭坛·获得物品",
 			},
 			{
 				szContent = "还未到达指定地点！",
@@ -179167,6 +180527,65 @@ return {
 				},
 			},
 			{
+				szContent = "小心，前方出现一群恶狼！",
+				tCountdown = {
+					{
+						key = "奇遇提示1",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 12373,
+						nTime = 300,
+						szName = "等待·剧情结束·对话·小诺",
+					},
+					{
+						key = "奇遇提示2",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 12373,
+						nTime = 300,
+						szName = "前往·卧龙丘·对话·武大豪",
+					},
+					{
+						key = "奇遇提示3",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 12373,
+						nTime = 300,
+						szName = "任务·寻药救小诺·日常10天",
+					},
+				},
+			},
+			{
+				szContent = "嗷唔~~~嗷唔~~嗷唔~~~",
+				szTarget = "小诺",
+				tCountdown = {
+					{
+						key = "奇遇提示1",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 12373,
+						nTime = 300,
+						szName = "返回·高大胖·再取·烤羊腿",
+					},
+					{
+						key = "奇遇提示2",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 12373,
+						nTime = 300,
+						szName = "前往·卧龙丘·对话·武大豪",
+					},
+					{
+						key = "奇遇提示3",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 12373,
+						nTime = 300,
+						szName = "修理·三处·捕收夹·武大豪",
+					},
+				},
+			},
+			{
 				szContent = "王志的千里马已出现，快上马！",
 				szNote = "交互·千里马·上马",
 				szTarget = "%",
@@ -179254,65 +180673,6 @@ return {
 						nIcon = 12372,
 						nTime = 10,
 						szName = "靠近·附近·王志",
-					},
-				},
-			},
-			{
-				szContent = "小心，前方出现一群恶狼！",
-				tCountdown = {
-					{
-						key = "奇遇提示1",
-						nClass = 14,
-						nFrame = 7,
-						nIcon = 12373,
-						nTime = 300,
-						szName = "等待·剧情结束·对话·小诺",
-					},
-					{
-						key = "奇遇提示2",
-						nClass = 14,
-						nFrame = 7,
-						nIcon = 12373,
-						nTime = 300,
-						szName = "前往·卧龙丘·对话·武大豪",
-					},
-					{
-						key = "奇遇提示3",
-						nClass = 14,
-						nFrame = 7,
-						nIcon = 12373,
-						nTime = 300,
-						szName = "任务·寻药救小诺·日常10天",
-					},
-				},
-			},
-			{
-				szContent = "嗷唔~~~嗷唔~~嗷唔~~~",
-				szTarget = "小诺",
-				tCountdown = {
-					{
-						key = "奇遇提示1",
-						nClass = 14,
-						nFrame = 7,
-						nIcon = 12373,
-						nTime = 300,
-						szName = "返回·高大胖·再取·烤羊腿",
-					},
-					{
-						key = "奇遇提示2",
-						nClass = 14,
-						nFrame = 7,
-						nIcon = 12373,
-						nTime = 300,
-						szName = "前往·卧龙丘·对话·武大豪",
-					},
-					{
-						key = "奇遇提示3",
-						nClass = 14,
-						nFrame = 7,
-						nIcon = 12373,
-						nTime = 300,
-						szName = "修理·三处·捕收夹·武大豪",
 					},
 				},
 			},
@@ -180311,7 +181671,7 @@ return {
 					bCenterAlarm = true,
 				},
 				szContent = "将周围凶猛的蜘蛛清除，我们一起前往祭坛!",
-				szNote = "清除周围蜘蛛",
+				szNote = "清除·周围蜘蛛",
 				szTarget = "李承恩",
 				tCountdown = {
 					{
@@ -180418,6 +181778,34 @@ return {
 						nIcon = 539,
 						nTime = 60,
 						szName = "前往·唐军大营·对话·横大虎",
+					},
+				},
+			},
+		},
+		[148] = {
+			{
+				szContent = "后面的木甲巨像好像开始动起来了。",
+				szTarget = "%",
+			},
+			{
+				[14] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				szContent = "各位施主留步，前面乃是少林禁地。",
+				szNote = "剧情·121",
+				szTarget = "达摩护卫僧",
+				tCountdown = {
+					{
+						key = "剧情提示",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 10,
+						szName = "剧情·121",
 					},
 				},
 			},
@@ -185933,7 +187321,7 @@ return {
 						nFrame = 1,
 						nIcon = 13,
 						nRefresh = 0,
-						nTime = "10,潜袭宫城·筹备·开启;300,潜袭宫城·筹备·事件剩余",
+						nTime = "10,潜袭宫城·筹备·开启;300,潜袭宫城·筹备·事件剩余;305,潜袭宫城·筹备·正在结算",
 						szName = "潜袭宫城·筹备·开启",
 					},
 				},
@@ -185947,7 +187335,7 @@ return {
 						nFrame = 1,
 						nIcon = 13,
 						nRefresh = 0,
-						nTime = "10,潜袭宫城·筹备·开启;300,潜袭宫城·筹备·事件剩余",
+						nTime = "10,潜袭宫城·筹备·开启;300,潜袭宫城·筹备·事件剩余;305,潜袭宫城·筹备·正在结算",
 						szName = "潜袭宫城·筹备·开启",
 					},
 				},
@@ -185961,7 +187349,7 @@ return {
 						nFrame = 4,
 						nIcon = 13,
 						nRefresh = 0,
-						nTime = "5,潜袭宫城·开启;602,潜袭宫城·筹备·刷新剩余;610,潜袭宫城·筹备·已经刷新;900,潜袭宫城·筹备·事件剩余",
+						nTime = "5,潜袭宫城·开启;602,潜袭宫城·筹备·刷新剩余;610,潜袭宫城·筹备·已经刷新;900,潜袭宫城·筹备·事件剩余;905,潜袭宫城·筹备·正在结算",
 						szName = "公共事件2",
 					},
 				},
@@ -187063,6 +188451,35 @@ return {
 			},
 		},
 		[299] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "门已经开了……",
+				szNote = "老二·乌索·已打开北门",
+				szTarget = "无支祁",
+			},
+			{
+				[14] = {
+					bScreenHead = true,
+				},
+				szContent = "你没事吧？！恩公！",
+				szNote = "打开北门",
+				szTarget = "无支祁",
+			},
+			{
+				szContent = "哼，不只如此……",
+				szTarget = "靳空明",
+				tCountdown = {
+					{
+						key = "剧情提示",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 40,
+						szName = "靳空明·剧情剩余",
+					},
+				},
+			},
 			{
 				szContent = "似乎有个小男孩在和你说话。",
 				szNote = "济苍生",
@@ -190598,15 +192015,38 @@ return {
 		},
 		[487] = {
 			{
+				[14] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				szContent = "破！魂！绝！剑！",
+				szNote = "破！魂！绝！剑！",
+				szTarget = "式神铃",
+			},
+			{
+				[14] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
 				szContent = "烈焰燃身，束灵缚魂。",
+				szNote = "梦！境！洪！流！",
 				szTarget = "式神铃",
 				tCountdown = {
 					{
+						key = "梦境洪流",
 						nClass = 14,
 						nFrame = 7,
 						nIcon = 13,
 						nTime = 30,
-						szName = "定身结束·剩余",
+						szName = "定身·结束剩余",
 					},
 				},
 			},
@@ -190627,138 +192067,161 @@ return {
 			{
 				bSearch = true,
 				szContent = "的获取已达周上限。",
+				szNote = "镜花别院·已达本周上限",
 				tCountdown = {
 					{
 						key = "万灵",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "万灵",
 					},
 					{
 						key = "刀宗",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "刀宗",
 					},
 					{
 						key = "药宗",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "药宗",
 					},
 					{
 						key = "衍天",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "衍天",
 					},
 					{
 						key = "凌雪",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "凌雪",
 					},
 					{
 						key = "蓬莱",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "蓬莱",
 					},
 					{
 						key = "霸刀",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "霸刀",
 					},
 					{
 						key = "长歌",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "长歌",
 					},
 					{
 						key = "苍云",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "苍云",
 					},
 					{
 						key = "丐帮",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "丐帮",
 					},
 					{
 						key = "明教",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "明教",
 					},
 					{
 						key = "唐门",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "唐门",
 					},
 					{
 						key = "五毒",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "五毒",
 					},
 					{
 						key = "藏剑",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "藏剑",
 					},
 					{
 						key = "七秀",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "七秀",
 					},
 					{
 						key = "少林",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "少林",
 					},
 					{
 						key = "天策",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "天策",
 					},
 					{
 						key = "纯阳",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "纯阳",
 					},
 					{
 						key = "万花",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "万花",
 					},
 					{
 						key = "心影",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "心影",
 					},
 					{
-						key = "定身",
+						key = "梦境洪流",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "梦境洪流",
 					},
 				},
 			},
 			{
 				bReg = true,
 				szContent = "^本周还可以(.-)获得(%d-)个(.-)。",
+				szNote = "镜花别院·本周上限剩余·{$2}",
 				tCountdown = {
 					{
 						key = "{$1}·0",
@@ -190772,7 +192235,7 @@ return {
 						key = "{$1}·{$2}",
 						nClass = 14,
 						nFrame = 4,
-						nIcon = 11381,
+						nIcon = 27841,
 						nRefresh = 2,
 						nTime = 20,
 						szName = "镜花别院·本周上限·{$2}",
@@ -190781,7 +192244,7 @@ return {
 						key = "{$1}·{$2}",
 						nClass = 14,
 						nFrame = 4,
-						nIcon = 11381,
+						nIcon = 13,
 						nTime = -2,
 						szName = "{$1}·{$2}",
 					},
@@ -190789,7 +192252,7 @@ return {
 						key = "{$1}·0",
 						nClass = 14,
 						nFrame = 2,
-						nIcon = 11381,
+						nIcon = 27841,
 						nRefresh = 1,
 						nTime = 20,
 						szName = "{$1}·本周已达上限",
@@ -190799,126 +192262,147 @@ return {
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "万灵",
 					},
 					{
 						key = "刀宗",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "刀宗",
 					},
 					{
 						key = "药宗",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "药宗",
 					},
 					{
 						key = "衍天",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "衍天",
 					},
 					{
 						key = "凌雪",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "凌雪",
 					},
 					{
 						key = "蓬莱",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "蓬莱",
 					},
 					{
 						key = "霸刀",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "霸刀",
 					},
 					{
 						key = "长歌",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "长歌",
 					},
 					{
 						key = "苍云",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "苍云",
 					},
 					{
 						key = "丐帮",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "丐帮",
 					},
 					{
 						key = "明教",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "明教",
 					},
 					{
 						key = "唐门",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "唐门",
 					},
 					{
 						key = "五毒",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "五毒",
 					},
 					{
 						key = "藏剑",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "藏剑",
 					},
 					{
 						key = "七秀",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "七秀",
 					},
 					{
 						key = "少林",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "少林",
 					},
 					{
 						key = "天策",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "天策",
 					},
 					{
 						key = "纯阳",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "纯阳",
 					},
 					{
 						key = "万花",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "万花",
 					},
 					{
 						key = "心影",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "心影",
 					},
 					{
-						key = "定身",
+						key = "梦境洪流",
 						nClass = 14,
 						nIcon = 13,
 						nTime = 0,
+						szName = "梦境洪流",
 					},
 				},
 			},
@@ -196691,14 +198175,6 @@ return {
 						nTime = -1,
 						szName = "阵营模式",
 					},
-					{
-						key = "拍卖分红",
-						nClass = 14,
-						nIcon = 13,
-						nRefresh = 5,
-						nTime = -1,
-						szName = "拍卖分红",
-					},
 				},
 			},
 		},
@@ -197429,6 +198905,202 @@ return {
 				},
 			},
 		},
+		[807] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "祈福已经完成，劫难已化解！",
+				szNote = "完成祈福·劫难化解",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "被发现。上报会议！",
+				szNote = "开启会议",
+				szTarget = "报告会议",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "主持鹅：开始投票",
+				szNote = "开始投票",
+				szTarget = "%",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "主持鹅：弃票过多无人出局",
+				szNote = "弃票过多·无人出局",
+				szTarget = "%",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "主持鹅：平票无人出局",
+				szNote = "平票·无人出局",
+				szTarget = "%",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				szContent = "^主持鹅：(.-)因为身上的气球爆炸被击倒了",
+				szNote = "气球击倒·{$1}",
+				szTarget = "%",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				szContent = "^主持鹅：轮到(%d-)号侠士(.-)发言",
+				szNote = "发言·【{$1}号·{$2}】",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "战场提示",
+						nClass = 14,
+						nFrame = 2,
+						nIcon = 13,
+						nTime = 2,
+						szName = "发言·[{$1}号·{$2}]",
+					},
+					{
+						key = "战场提示·{$me}",
+						nClass = 14,
+						nIcon = 1465,
+						nRefresh = 2,
+						nTime = -2,
+						szName = "战场提示·{$me}",
+					},
+					{
+						key = "战场提示·{$2}",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "战场提示·{$2}",
+					},
+					{
+						key = "战场提示·{$me}",
+						nClass = 14,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = "2,轮到你发言了,VO:ZhuanJieDuan",
+						szName = "轮到你发言了",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				szContent = "^主持鹅：(.-)被投出",
+				szNote = "投票·【{$1}】·出局",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "战场提示",
+						nClass = 14,
+						nFrame = 2,
+						nIcon = 13,
+						nTime = 10,
+						szName = "投票·【{$1}】·出局",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "石灯修复成功（2/2）",
+				szNote = "石灯修复成功",
+			},
+			{
+				szContent = "炸弹传给你了！5秒后会爆炸，把它交给其他人。",
+				tCountdown = {
+					{
+						key = "爆炸提示",
+						nClass = 14,
+						nFrame = 8,
+						nIcon = 2711,
+						nTime = 5,
+						szName = "雷·爆炸剩余",
+					},
+				},
+			},
+			{
+				szContent = "炸弹传给你了！10秒后会爆炸，把它交给其他人。",
+				tCountdown = {
+					{
+						key = "爆炸提示",
+						nClass = 14,
+						nFrame = 8,
+						nIcon = 2711,
+						nTime = 10,
+						szName = "雷·爆炸剩余",
+					},
+				},
+			},
+			{
+				szContent = "纸鸢已尽数寻回，献祭之咒已解除！",
+			},
+			{
+				szContent = "本局随机分配身份将在20秒后开始。",
+				tCountdown = {
+					{
+						key = "战斗开始",
+						nClass = 14,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = "20,身份·随机分配剩余;22,身份·已经分配",
+						szName = "身份·随机分配剩余",
+					},
+				},
+			},
+			{
+				szContent = "本局随机分配身份将在30秒后开始。",
+				tCountdown = {
+					{
+						key = "战斗开始",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 30,
+						szName = "身份·随机分配剩余",
+					},
+				},
+			},
+			{
+				szContent = "本局随机分配身份将在40秒后开始。",
+				tCountdown = {
+					{
+						key = "战斗开始",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 40,
+						szName = "身份·随机分配剩余",
+					},
+				},
+			},
+			{
+				szContent = "本局随机分配身份将在50秒后开始。",
+				tCountdown = {
+					{
+						key = "战斗开始",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 50,
+						szName = "身份·随机分配剩余",
+					},
+				},
+			},
+		},
 		[995] = {
 			{
 				szContent = "提示：首领出现！",
@@ -197533,5 +199205,8 @@ return {
 				},
 			},
 		},
+	},
+	__meta = {
+		nTimeStamp = 1787847233,
 	},
 }
