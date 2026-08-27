@@ -343,7 +343,74 @@ return {
 				nLevel = 1,
 				nScrutinyType = 2,
 				szName = "同骑",
-				szNote = "同骑·携游",
+				szNote = "同骑·携游·普通坐骑",
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				dwID = 8602,
+				nIcon = 3554,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "同骑",
+				szNote = "同骑·携游·奇趣坐骑",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8145,
+				nIcon = 4940,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "锁后退",
+				szNote = "驴车_锁定后退",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8699,
+				nIcon = 6685,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "加速",
+				szNote = "龟速·加速个位",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8700,
+				nIcon = 6685,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "加速",
+				szNote = "龟速·加速十位",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8701,
+				nIcon = 6729,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "龟速",
+				szNote = "龟速·减速个位",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 8702,
+				nIcon = 6729,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "龟速",
+				szNote = "龟速·减速十位",
 			},
 		},
 		[50] = {
@@ -2049,7 +2116,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 6,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -2069,7 +2135,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 6,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -2467,7 +2532,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 0,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -2497,7 +2561,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 0,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -2527,7 +2590,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 0,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -4527,7 +4589,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1786703399,
+		nTimeStamp = 1787845982,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
