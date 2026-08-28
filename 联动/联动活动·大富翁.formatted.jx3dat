@@ -5,22 +5,144 @@ return {
 				{
 					bBuffList = true,
 				},
-				nLevel = 1,
-				nScrutinyType = 1,
 				col = {
 					0,
 					255,
 					255,
 				},
 				dwID = 33909,
+				nIcon = 27610,
+				nLevel = 1,
+				nScrutinyType = 1,
 				szName = "大财神",
 				szNote = "主城大财神拜一拜转向",
-				nIcon = 27610,
 			},
 		},
 	},
-	CHAT = {},
 	CASTING = {},
+	CHAT = {},
+	DEBUFF = {
+		[-2] = {
+			{
+				dwID = 34176,
+				nIcon = 18640,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "红尘不渡·触发上限",
+				szNote = "大富翁·红尘不渡·触发上限",
+				tCountdown = {
+					{
+						key = "红尘不渡",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 18640,
+						nRefresh = 7200,
+						nTime = 10,
+						szName = "大富翁·红尘不渡·本周上限",
+					},
+					{
+						key = "红尘不渡",
+						nClass = 2,
+						nIcon = 18640,
+						nTime = 0,
+						szName = "红尘不渡",
+					},
+				},
+			},
+		},
+	},
+	DOODAD = {
+		[-2] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 11839,
+				szNote = "大富翁游戏棋盘",
+			},
+		},
+	},
+	NPC = {
+		[-2] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 137606,
+				nFrame = 52,
+				szNote = "大富翁货品",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						szDisplay = "大财神·红尘不渡",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 137629,
+				nFrame = 52,
+				szNote = "大财神·红尘不渡",
+			},
+		},
+	},
 	TALK = {
 		[801] = {
 			{
@@ -32,128 +154,12 @@ return {
 			},
 		},
 	},
-	NPC = {
-		[-2] = {
-			{
-				nFrame = 52,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 137606,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "大富翁货品",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 52,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 137629,
-				aFocus = {
-					{
-						szDisplay = "大财神·红尘不渡",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "大财神·红尘不渡",
-				col = {
-					0,
-					255,
-					255,
-				},
-			},
-		},
-	},
-	DEBUFF = {},
 	__meta = {
-		szServer = "唯我独尊",
+		nTimeStamp = 1787917262,
 		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1781955072,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
-	},
-	DOODAD = {
-		[-2] = {
-			{
-				[17] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 11839,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "大富翁游戏棋盘",
-			},
-		},
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
 }
