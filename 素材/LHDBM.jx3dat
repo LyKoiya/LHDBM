@@ -35388,10 +35388,10 @@ return {
 					bBuffList = true,
 				},
 				dwID = 29019,
-				nIcon = 77,
+				nIcon = 4573,
 				nLevel = 1,
 				nScrutinyType = 1,
-				szName = "抗摔",
+				szName = "弹射",
 			},
 			{
 				{
@@ -67203,7 +67203,7 @@ return {
 						key = "红方·全局视野",
 						nClass = 20,
 						nFrame = 3,
-						nIcon = 15838,
+						nIcon = 25109,
 						nRefresh = 0,
 						nTime = "30,红方·全局视野·剩余时间;180,红方·全局视野·CD;185,红方·全局视野·就绪",
 						szName = "红方·全局视野",
@@ -67282,7 +67282,7 @@ return {
 						key = "蓝方·全局视野",
 						nClass = 20,
 						nFrame = 7,
-						nIcon = 15839,
+						nIcon = 25111,
 						nRefresh = 0,
 						nTime = "30,蓝方·全局视野·剩余时间;180,蓝方·全局视野·CD;185,蓝方·全局视野·就绪",
 						szName = "蓝方·全局视野",
@@ -74696,7 +74696,7 @@ return {
 					0,
 				},
 				dwID = 3473,
-				nIcon = 77,
+				nIcon = 4573,
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "抗摔",
@@ -94894,7 +94894,7 @@ return {
 					0,
 				},
 				dwID = 4013,
-				nIcon = 77,
+				nIcon = 4573,
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "抗摔",
@@ -94911,7 +94911,7 @@ return {
 					0,
 				},
 				dwID = 4013,
-				nIcon = 77,
+				nIcon = 4573,
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "抗摔",
@@ -107172,6 +107172,24 @@ return {
 				dwID = 6653,
 			},
 			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						szDisplay = "天降宝堆·周年活动",
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 11417,
+				szName = "宝堆·周年庆",
+			},
+			{
 				aFocus = {
 					{
 						nMaxDistance = 30,
@@ -107666,16 +107684,6 @@ return {
 				dwID = 2992,
 			},
 			{
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "姻缘草·七夕节",
-					},
-				},
-				dwID = 15354,
-				nFrame = 47,
-			},
-			{
 				[17] = {
 					bScreenHead = true,
 				},
@@ -107693,7 +107701,7 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 20,
-						szDisplay = "宝堆·周年庆",
+						szDisplay = "天降宝堆·周年活动",
 					},
 				},
 				col = {
@@ -119590,6 +119598,16 @@ return {
 				},
 				dwID = 138403,
 				nFrame = 65,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "姻缘草·七夕节",
+					},
+				},
+				dwID = 15354,
+				nFrame = 47,
 			},
 			{
 				[3] = {
@@ -199207,6 +199225,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1787847233,
+		nTimeStamp = 1787899399,
 	},
 }
