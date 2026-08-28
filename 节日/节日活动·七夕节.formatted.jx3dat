@@ -170,27 +170,6 @@ return {
 				dwID = 2931,
 				szNote = "ÆßÏ¦½Ú¡¤Ô§Ñì±¦Ïä",
 			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "ÒöÔµ²Ý¡¤ÆßÏ¦½Ú",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 15354,
-				nFrame = 47,
-				szNote = "ÆßÏ¦½Ú¡¤ÊéÄ«Òâ",
-			},
 		},
 		[7] = {
 			{
@@ -370,6 +349,27 @@ return {
 				dwID = 113585,
 				nFrame = 52,
 				szNote = "ÆßÏ¦½Ú¡¤ÆßÏ¦»õÆ·",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "ÒöÔµ²Ý¡¤ÆßÏ¦½Ú",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 15354,
+				nFrame = 47,
+				szNote = "ÆßÏ¦½Ú¡¤ÊéÄ«Òâ",
 			},
 			{
 				[3] = {
@@ -876,7 +876,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1787667890,
+		nTimeStamp = 1787899400,
 		szAuthor = "ºÉ»¨Àð",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
