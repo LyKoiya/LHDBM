@@ -18,6 +18,50 @@ return {
 		},
 	},
 	DEBUFF = {
+		[-2] = {
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 34191,
+				nIcon = 25016,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "Æí¸£",
+				szNote = "¶ìÑ¼É±¡¤ºì³¾²»¶É",
+			},
+			{
+				dwID = 34176,
+				nIcon = 18640,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "ºì³¾²»¶É¡¤´¥·¢ÉÏÏÞ",
+				szNote = "¶ìÑ¼É±¡¤ºì³¾²»¶É¡¤´¥·¢ÉÏÏÞ",
+				tCountdown = {
+					{
+						key = "ºì³¾²»¶É",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 18640,
+						nRefresh = 7200,
+						nTime = 10,
+						szName = "¶ìÑ¼É±¡¤ºì³¾²»¶É¡¤±¾ÖÜÉÏÏÞ",
+					},
+					{
+						key = "ºì³¾²»¶É",
+						nClass = 2,
+						nIcon = 18640,
+						nTime = 0,
+						szName = "ºì³¾²»¶É",
+					},
+				},
+			},
+		},
 		[807] = {
 			{
 				{
@@ -401,6 +445,35 @@ return {
 				dwID = 138654,
 				nFrame = 47,
 				szNote = "¶ìÑ¼É±¡¤Ö÷³Ö¶ì",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "ÉúÈÕµ°¸â¡¤ºì³¾²»¶É",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 138763,
+				nFrame = 47,
+				szNote = "ÉúÈÕµ°¸â",
 			},
 		},
 		[807] = {
@@ -1146,7 +1219,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1787847235,
+		nTimeStamp = 1787917262,
 		szAuthor = "ºÉ»¨Àð",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
