@@ -581,26 +581,7 @@ return {
 			},
 		},
 	},
-	CHAT = {
-		[487] = {
-			{
-				[20] = {
-					bCenterAlarm = true,
-				},
-				szContent = "恭喜通过本轮考验，下一关仍在此处开始，请做好准备。\
-",
-				szNote = "通过本轮考验·下一关仍在此处",
-			},
-			{
-				[20] = {
-					bCenterAlarm = true,
-				},
-				szContent = "本关已成功达成，请前往青桃堂。\
-",
-				szNote = "通过本关考验·前往青桃堂",
-			},
-		},
-	},
+	CHAT = {},
 	DEBUFF = {
 		[487] = {
 			{
@@ -855,6 +836,21 @@ return {
 					bBuffList = true,
 				},
 				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 17821,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "洪流",
+				szNote = "梦境洪流",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
 					0,
 					255,
 					0,
@@ -864,6 +860,22 @@ return {
 				nLevel = 1,
 				szName = "心念",
 				szNote = "灵力标记",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 13344,
+				nIcon = 2119,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "锁定",
+				szNote = "交互锁定操作",
 			},
 		},
 	},
@@ -1185,7 +1197,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 10,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -1202,11 +1213,481 @@ return {
 				nFrame = 67,
 				szNote = "镜花别院·式神铃",
 			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "传送·地牢",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 99370,
+				nFrame = 47,
+				szName = "光圈·传送",
+				szNote = "光圈·水井·传送·地牢",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "传送·水井",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 99814,
+				nFrame = 47,
+				szName = "光圈·传送",
+				szNote = "光圈·地牢·传送·水井",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "传送·后山",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 99815,
+				nFrame = 47,
+				szName = "光圈·传送",
+				szNote = "光圈·死牢·传送·后山",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 15,
+						szDisplay = "传送·死牢",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 99816,
+				nFrame = 47,
+				szName = "光圈·传送",
+				szNote = "光圈·后山·传送·死牢",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 2,
+						szDisplay = "光圈·镜花碎影·险阻",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 99982,
+				nFrame = 47,
+				szName = "光圈·险阻",
+				szNote = "光圈·镜花碎影·险阻",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 2,
+						szDisplay = "光圈·镜花碎影·杏林",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 99979,
+				nFrame = 47,
+				szName = "光圈·险阻",
+				szNote = "光圈·镜花碎影·杏林",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 2,
+						szDisplay = "光圈·镜花碎影·童言",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 99980,
+				nFrame = 47,
+				szName = "光圈·童言",
+				szNote = "光圈·镜花碎影·童言",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 2,
+						szDisplay = "光圈·镜花碎影·比翼",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 99976,
+				nFrame = 47,
+				szName = "光圈·比翼",
+				szNote = "光圈·镜花碎影·比翼",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 2,
+						szDisplay = "光圈·镜花碎影·樱华",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 99983,
+				nFrame = 47,
+				szName = "光圈·樱华",
+				szNote = "光圈·镜花碎影·樱华",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 2,
+						szDisplay = "光圈·镜花碎影·禅意",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 99975,
+				nFrame = 47,
+				szName = "光圈·禅意",
+				szNote = "光圈·镜花碎影·禅意",
+			},
 		},
 	},
 	TALK = {
 		[487] = {
 			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "恭喜通过本轮考验，下一关仍在此处开始，请做好准备。",
+				szNote = "下一关·仍在此",
+				szTarget = "%",
+			},
+			{
+				[14] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				szContent = "烈焰燃身，束灵缚魂。",
+				szNote = "梦！境！洪！流！",
+				szTarget = "式神铃",
+				tCountdown = {
+					{
+						key = "梦境洪流",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nTime = 30,
+						szName = "定身·结束剩余",
+					},
+				},
+			},
+			{
+				[14] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				szContent = "破！魂！绝！剑！",
+				szNote = "破！魂！绝！剑！",
+				szTarget = "式神铃",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+					szVoice = "ZhuanJieDuan",
+				},
+				szContent = "这里的梦魇已经扫除完毕啦！",
+				szNote = "本关卡·已通过",
+				szTarget = "式神铃",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "命魂剩余1，务必小心。",
+				szNote = "命魂剩余1",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "命魂剩余2，务必小心。",
+				szNote = "命魂剩余2",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "前往下一个舞台青桃堂",
+				szNote = "下一个·关卡·青桃堂",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "前往下一个舞台与归院",
+				szNote = "下一个·关卡·与归院",
+			},
+			{
+				szContent = "从水井处前往下一个舞台地牢",
+				szNote = "下一个·关卡·地牢",
+			},
+			{
+				szContent = "从前方的道路前往死牢",
+				szNote = "下一个·关卡·死牢",
+			},
+			{
+				szContent = "跟随铃前往后山入口",
+				szNote = "下一个·关卡·后山入口",
+			},
+			{
+				bSearch = true,
+				szContent = "的获取已达周上限。",
+				szNote = "镜花别院·已达本周上限",
+				tCountdown = {
+					{
+						key = "万灵",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "万灵",
+					},
+					{
+						key = "刀宗",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "刀宗",
+					},
+					{
+						key = "药宗",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "药宗",
+					},
+					{
+						key = "衍天",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "衍天",
+					},
+					{
+						key = "凌雪",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "凌雪",
+					},
+					{
+						key = "蓬莱",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "蓬莱",
+					},
+					{
+						key = "霸刀",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "霸刀",
+					},
+					{
+						key = "长歌",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "长歌",
+					},
+					{
+						key = "苍云",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "苍云",
+					},
+					{
+						key = "丐帮",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "丐帮",
+					},
+					{
+						key = "明教",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "明教",
+					},
+					{
+						key = "唐门",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "唐门",
+					},
+					{
+						key = "五毒",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "五毒",
+					},
+					{
+						key = "藏剑",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "藏剑",
+					},
+					{
+						key = "七秀",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "七秀",
+					},
+					{
+						key = "少林",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "少林",
+					},
+					{
+						key = "天策",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "天策",
+					},
+					{
+						key = "纯阳",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "纯阳",
+					},
+					{
+						key = "万花",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "万花",
+					},
+					{
+						key = "心影",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "心影",
+					},
+					{
+						key = "梦境洪流",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "梦境洪流",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
 				bReg = true,
 				szContent = "^本周还可以(.-)获得(%d-)个(.-)。",
 				szNote = "镜花别院·本周上限剩余·{$2}",
@@ -1394,214 +1875,10 @@ return {
 					},
 				},
 			},
-			{
-				bSearch = true,
-				szContent = "的获取已达周上限。",
-				szNote = "镜花别院·已达本周上限",
-				tCountdown = {
-					{
-						key = "万灵",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 0,
-						szName = "万灵",
-					},
-					{
-						key = "刀宗",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 0,
-						szName = "刀宗",
-					},
-					{
-						key = "药宗",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 0,
-						szName = "药宗",
-					},
-					{
-						key = "衍天",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 0,
-						szName = "衍天",
-					},
-					{
-						key = "凌雪",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 0,
-						szName = "凌雪",
-					},
-					{
-						key = "蓬莱",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 0,
-						szName = "蓬莱",
-					},
-					{
-						key = "霸刀",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 0,
-						szName = "霸刀",
-					},
-					{
-						key = "长歌",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 0,
-						szName = "长歌",
-					},
-					{
-						key = "苍云",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 0,
-						szName = "苍云",
-					},
-					{
-						key = "丐帮",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 0,
-						szName = "丐帮",
-					},
-					{
-						key = "明教",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 0,
-						szName = "明教",
-					},
-					{
-						key = "唐门",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 0,
-						szName = "唐门",
-					},
-					{
-						key = "五毒",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 0,
-						szName = "五毒",
-					},
-					{
-						key = "藏剑",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 0,
-						szName = "藏剑",
-					},
-					{
-						key = "七秀",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 0,
-						szName = "七秀",
-					},
-					{
-						key = "少林",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 0,
-						szName = "少林",
-					},
-					{
-						key = "天策",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 0,
-						szName = "天策",
-					},
-					{
-						key = "纯阳",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 0,
-						szName = "纯阳",
-					},
-					{
-						key = "万花",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 0,
-						szName = "万花",
-					},
-					{
-						key = "心影",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 0,
-						szName = "心影",
-					},
-					{
-						key = "梦境洪流",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 0,
-						szName = "梦境洪流",
-					},
-				},
-			},
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szContent = "命魂剩余2，务必小心。",
-				szNote = "命魂剩余2",
-			},
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szContent = "命魂剩余1，务必小心。",
-				szNote = "命魂剩余1",
-			},
-			{
-				[14] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				szContent = "烈焰燃身，束灵缚魂。",
-				szNote = "梦！境！洪！流！",
-				szTarget = "式神铃",
-				tCountdown = {
-					{
-						key = "梦境洪流",
-						nClass = 14,
-						nFrame = 7,
-						nIcon = 13,
-						nTime = 30,
-						szName = "定身·结束剩余",
-					},
-				},
-			},
-			{
-				[14] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				szContent = "破！魂！绝！剑！",
-				szNote = "破！魂！绝！剑！",
-				szTarget = "式神铃",
-			},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1787564880,
+		nTimeStamp = 1788183613,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
