@@ -36202,19 +36202,23 @@ return {
 			{
 				{
 					bBuffList = true,
+					bScreenHead = true,
 					bTeamPanel = true,
 				},
 				aCataclysmBuff = {
 					{
-						col = "#00FF00FF",
+						bAttention = true,
+						bScreenHead = true,
+						col = "#FFCC00FF",
+						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
-						nPriority = 16,
+						nPriority = 3,
 						szReminder = "档",
 					},
 				},
 				col = {
-					0,
 					255,
+					204,
 					0,
 				},
 				dwID = 33434,
@@ -44816,7 +44820,7 @@ return {
 					255,
 					100,
 				},
-				szContent = "^%[(.-)%]：(%d+)/(%d%d)\
+				szContent = "^%[(.-)%]：(%d+)/(1?%d%d)\
 ",
 				tCountdown = {
 					{
@@ -58905,7 +58909,7 @@ return {
 					255,
 					100,
 				},
-				szContent = "^%[(.-)%]：(%d+)/(%d%d)\
+				szContent = "^%[(.-)%]：(%d+)/(1?%d%d)\
 ",
 				tCountdown = {
 					{
@@ -65201,7 +65205,7 @@ return {
 						nClass = 20,
 						nFrame = -1,
 						nIcon = 13,
-						nRefresh = 20,
+						nRefresh = 60,
 						nTime = -1,
 						szName = "阵营模式",
 					},
@@ -67910,14 +67914,6 @@ return {
 			},
 		},
 		[807] = {
-			{
-				[20] = {
-					bCenterAlarm = true,
-				},
-				szContent = "主持鹅：你已被鹈鹕吞了，等待被救（若鹈鹕被击倒，你将复活）。被吞状态进入会议时，你将被消化并淘汰出局。\
-",
-				szNote = "你被鹈鹕吞了",
-			},
 			{
 				szContent = "主持鹅：鹅鸭杀大游园里的身份技能的释放最大距离都为2尺，在距离目标2尺范围内使用技能时会自动选择目标，可以不用提前选中目标。\
 ",
@@ -74382,6 +74378,46 @@ return {
 		},
 		[-2] = {
 			{
+				dwID = 34176,
+				nIcon = 18640,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "红尘不渡·触发上限",
+				tCountdown = {
+					{
+						key = "红尘不渡",
+						nClass = 1,
+						nFrame = 4,
+						nIcon = 18640,
+						nRefresh = 7200,
+						nTime = 10,
+						szName = "鹅鸭杀·红尘不渡·本周上限",
+					},
+					{
+						key = "红尘不渡",
+						nClass = 2,
+						nIcon = 18640,
+						nTime = 0,
+						szName = "红尘不渡",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 34191,
+				nIcon = 25016,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "祈福",
+			},
+			{
 				{
 					bBuffList = true,
 				},
@@ -76170,7 +76206,7 @@ return {
 					0,
 				},
 				dwID = 32836,
-				nIcon = 77,
+				nIcon = 4573,
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "抗摔",
@@ -106458,45 +106494,6 @@ return {
 				{
 					bBuffList = true,
 				},
-				dwID = 34042,
-				nLevel = 1,
-				szName = "2气球",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				dwID = 34005,
-				nLevel = 1,
-				szName = "1气球",
-			},
-			{
-				{
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				col = {
-					255,
-					50,
-					255,
-				},
-				dwID = 33913,
-				nLevel = 1,
-				szName = "雷",
-				tCountdown = {
-					{
-						key = "爆炸提示",
-						nClass = 2,
-						nIcon = 2711,
-						nTime = -1,
-						szName = "爆炸提示",
-					},
-				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
 				col = {
 					255,
 					255,
@@ -118552,6 +118549,24 @@ return {
 			},
 		},
 		[-2] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "生日蛋糕·红尘不渡",
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 138763,
+				nFrame = 47,
+			},
 			{
 				[3] = {
 					bScreenHead = true,
@@ -198925,6 +198940,21 @@ return {
 		},
 		[807] = {
 			{
+				[20] = {
+					bCenterAlarm = true,
+				},
+				szContent = "主持鹅：你已被鹈鹕吞了，等待被救（若鹈鹕被击倒，你将复活）。被吞状态进入会议时，你将被消化并淘汰出局。",
+				szNote = "你被鹈鹕吞了",
+				szTarget = "%",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "纸鸢已尽数寻回，献祭之咒已解除！",
+				szNote = "寻回纸鸢·献祭解除",
+			},
+			{
 				[14] = {
 					bCenterAlarm = true,
 				},
@@ -198961,15 +198991,6 @@ return {
 				},
 				szContent = "主持鹅：平票无人出局",
 				szNote = "平票·无人出局",
-				szTarget = "%",
-			},
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				bReg = true,
-				szContent = "^主持鹅：(.-)因为身上的气球爆炸被击倒了",
-				szNote = "气球击倒·{$1}",
 				szTarget = "%",
 			},
 			{
@@ -199065,9 +199086,6 @@ return {
 						szName = "雷·爆炸剩余",
 					},
 				},
-			},
-			{
-				szContent = "纸鸢已尽数寻回，献祭之咒已解除！",
 			},
 			{
 				szContent = "本局随机分配身份将在20秒后开始。",
@@ -199225,6 +199243,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1787899399,
+		nTimeStamp = 1788151684,
 	},
 }
