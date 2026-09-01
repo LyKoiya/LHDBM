@@ -585,6 +585,22 @@ return {
 	DEBUFF = {
 		[487] = {
 			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 17762,
+				nIcon = 9866,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "心念",
+				szNote = "灵力标记",
+			},
+			{
 				dwID = 17867,
 				nIcon = 347,
 				nLevel = 1,
@@ -739,6 +755,13 @@ return {
 						nTime = 0,
 						szName = "梦境洪流",
 					},
+					{
+						key = "战斗开始",
+						nClass = 1,
+						nIcon = 13,
+						nTime = 3.1,
+						szName = "镜花别院·开启剩余",
+					},
 				},
 			},
 			{
@@ -851,21 +874,6 @@ return {
 					bBuffList = true,
 				},
 				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 17762,
-				nIcon = 9866,
-				nLevel = 1,
-				szName = "心念",
-				szNote = "灵力标记",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
 					255,
 					255,
 					0,
@@ -921,39 +929,7 @@ return {
 			{
 				aFocus = {
 					{
-						nMaxDistance = 0,
-						tLife = {
-							bEnable = true,
-							nValue = 25,
-							szOperator = "<",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 99921,
-				nFrame = 47,
-				szNote = "镜花别院·多多",
-				tCountdown = {
-					{
-						nClass = 6,
-						nFrame = 5,
-						nIcon = 13,
-						nTime = "0.24-,!",
-						szName = "",
-					},
-				},
-			},
-			{
-				[3] = {
-					bCenterAlarm = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 0,
+						nMaxDistance = 10,
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -966,32 +942,75 @@ return {
 						},
 					},
 				},
-				dwID = 99432,
-				nFrame = 47,
-				szNote = "镜花别院·沐秋月",
+				dwID = 99730,
+				nFrame = 67,
+				szNote = "镜花别院·式神铃",
 			},
 			{
-				[3] = {
-					bCenterAlarm = true,
-				},
 				aFocus = {
 					{
 						nMaxDistance = 0,
+						szDisplay = "狼牙盾卫",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
 							szOperator = ">",
 						},
 						tRelation = {
-							bAll = true,
+							bAll = false,
 							bAlly = false,
 							bEnemy = false,
 						},
 					},
 				},
-				dwID = 99433,
+				dwID = 99430,
 				nFrame = 57,
-				szNote = "镜花别院·陈徽",
+				szName = "狼牙盾卫",
+				szNote = "镜花别院·狼牙盾卫",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "暗影刺客",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 99428,
+				nFrame = 57,
+				szName = "暗影刺客",
+				szNote = "镜花别院·暗影刺客",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "狼牙蛮卫",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 99420,
+				nFrame = 57,
+				szName = "狼牙蛮卫",
+				szNote = "镜花别院·狼牙蛮卫",
 			},
 			{
 				[3] = {
@@ -1015,29 +1034,6 @@ return {
 				dwID = 99426,
 				nFrame = 57,
 				szNote = "镜花别院·红衣教祭祀",
-			},
-			{
-				[3] = {
-					bCenterAlarm = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 0,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 99421,
-				nFrame = 57,
-				szNote = "镜花别院·狼牙弓箭手",
 			},
 			{
 				aFocus = {
@@ -1087,50 +1083,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 0,
-						szDisplay = "狼牙蛮卫",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = false,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 99420,
-				nFrame = 57,
-				szName = "狼牙蛮卫",
-				szNote = "镜花别院·狼牙蛮卫",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 0,
-						szDisplay = "狼牙盾卫",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = false,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 99430,
-				nFrame = 57,
-				szName = "狼牙盾卫",
-				szNote = "镜花别院·狼牙盾卫",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 0,
 						szDisplay = "狼牙统领",
 						tLife = {
 							bEnable = false,
@@ -1150,10 +1102,12 @@ return {
 				szNote = "镜花别院·狼牙统领",
 			},
 			{
+				[3] = {
+					bCenterAlarm = true,
+				},
 				aFocus = {
 					{
 						nMaxDistance = 0,
-						szDisplay = "暗影刺客",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -1166,10 +1120,84 @@ return {
 						},
 					},
 				},
-				dwID = 99428,
+				dwID = 99421,
 				nFrame = 57,
-				szName = "暗影刺客",
-				szNote = "镜花别院·暗影刺客",
+				szNote = "镜花别院·狼牙弓箭手",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 99432,
+				nFrame = 47,
+				szNote = "镜花别院·沐秋月",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 99433,
+				nFrame = 57,
+				szNote = "镜花别院·陈徽",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = true,
+							nValue = 25,
+							szOperator = "<",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 99921,
+				nFrame = 47,
+				szNote = "镜花别院·多多",
+				tCountdown = {
+					{
+						nClass = 6,
+						nFrame = 5,
+						nIcon = 13,
+						nTime = "0.24-,!",
+						szName = "",
+					},
+				},
 			},
 			{
 				aFocus = {
@@ -1197,26 +1225,6 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 10,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 99730,
-				nFrame = 67,
-				szNote = "镜花别院·式神铃",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 30,
 						szDisplay = "传送·地牢",
 						tLife = {
 							bEnable = false,
@@ -1238,7 +1246,7 @@ return {
 			{
 				aFocus = {
 					{
-						nMaxDistance = 30,
+						nMaxDistance = 10,
 						szDisplay = "传送·水井",
 						tLife = {
 							bEnable = false,
@@ -1260,7 +1268,7 @@ return {
 			{
 				aFocus = {
 					{
-						nMaxDistance = 30,
+						nMaxDistance = 10,
 						szDisplay = "传送·后山",
 						tLife = {
 							bEnable = false,
@@ -1282,7 +1290,7 @@ return {
 			{
 				aFocus = {
 					{
-						nMaxDistance = 15,
+						nMaxDistance = 10,
 						szDisplay = "传送·死牢",
 						tLife = {
 							bEnable = false,
@@ -1433,6 +1441,94 @@ return {
 				szName = "光圈·禅意",
 				szNote = "光圈·镜花碎影·禅意",
 			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 2,
+						szDisplay = "光圈·镜花碎影·执手",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 99977,
+				nFrame = 47,
+				szName = "光圈·执手",
+				szNote = "光圈·镜花碎影·执手",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 2,
+						szDisplay = "光圈·镜花碎影·天机",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 99984,
+				nFrame = 47,
+				szName = "光圈·天机",
+				szNote = "光圈·镜花碎影·天机",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 2,
+						szDisplay = "光圈·镜花碎影·融融",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 99981,
+				nFrame = 47,
+				szName = "光圈·融融",
+				szNote = "光圈·镜花碎影·融融",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 2,
+						szDisplay = "光圈·镜花碎影·笑柄",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 99978,
+				nFrame = 47,
+				szName = "光圈·笑柄",
+				szNote = "光圈·镜花碎影·笑柄",
+			},
 		},
 	},
 	TALK = {
@@ -1447,6 +1543,7 @@ return {
 			},
 			{
 				[14] = {
+					bCenterAlarm = true,
 					bScreenHead = true,
 				},
 				col = {
@@ -1455,13 +1552,13 @@ return {
 					0,
 				},
 				szContent = "烈焰燃身，束灵缚魂。",
-				szNote = "梦！境！洪！流！",
+				szNote = "梦境洪流·全场定身",
 				szTarget = "式神铃",
 				tCountdown = {
 					{
 						key = "梦境洪流",
 						nClass = 14,
-						nFrame = 7,
+						nFrame = 3,
 						nIcon = 13,
 						nTime = 30,
 						szName = "定身·结束剩余",
@@ -1494,6 +1591,24 @@ return {
 				[14] = {
 					bCenterAlarm = true,
 				},
+				szContent = "多多大人！",
+				szNote = "主线完结·可选支线关卡",
+				szTarget = "式神铃",
+				tCountdown = {
+					{
+						key = "战斗开始",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "主线完结·可选支线关卡",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
 				szContent = "命魂剩余1，务必小心。",
 				szNote = "命魂剩余1",
 			},
@@ -1519,21 +1634,44 @@ return {
 				szNote = "下一个·关卡·与归院",
 			},
 			{
+				[14] = {
+					bCenterAlarm = true,
+				},
 				szContent = "从水井处前往下一个舞台地牢",
 				szNote = "下一个·关卡·地牢",
 			},
 			{
+				[14] = {
+					bCenterAlarm = true,
+				},
 				szContent = "从前方的道路前往死牢",
 				szNote = "下一个·关卡·死牢",
 			},
 			{
+				[14] = {
+					bCenterAlarm = true,
+				},
 				szContent = "跟随铃前往后山入口",
 				szNote = "下一个·关卡·后山入口",
 			},
 			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "跟随铃前往半山",
+				szNote = "下一个·关卡·半山",
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "跟随铃前往瞻明云巅",
+				szNote = "下一个·关卡·瞻明云巅",
+			},
+			{
 				bSearch = true,
 				szContent = "的获取已达周上限。",
-				szNote = "镜花别院·已达本周上限",
+				szNote = "镜花别院·本周已达上限",
 				tCountdown = {
 					{
 						key = "万灵",
@@ -1682,6 +1820,14 @@ return {
 						nTime = 0,
 						szName = "梦境洪流",
 					},
+					{
+						key = "本周上限",
+						nClass = 14,
+						nFrame = 2,
+						nIcon = 13,
+						nTime = 10,
+						szName = "镜花别院·本周已达上限",
+					},
 				},
 			},
 			{
@@ -1689,42 +1835,41 @@ return {
 					bCenterAlarm = true,
 				},
 				bReg = true,
-				szContent = "^本周还可以(.-)获得(%d-)个(.-)。",
+				szContent = "^本周还可以从活动中获得(%d-)个(.-)。",
 				szNote = "镜花别院·本周上限剩余·{$2}",
 				tCountdown = {
 					{
-						key = "{$1}·0",
+						key = "{$2}·0",
 						nClass = 14,
-						nIcon = 13,
+						nIcon = 1465,
 						nRefresh = 3600,
 						nTime = -1,
-						szName = "{$1}·0",
+						szName = "{$2}·0",
 					},
 					{
-						key = "{$1}·{$2}",
+						key = "{$2}·{$1}",
 						nClass = 14,
 						nFrame = 4,
 						nIcon = 27841,
 						nRefresh = 2,
 						nTime = 20,
-						szName = "镜花别院·本周上限·{$2}",
+						szName = "镜花别院·本周上限·{$1}",
 					},
 					{
-						key = "{$1}·{$2}",
+						key = "{$2}·{$1}",
 						nClass = 14,
-						nFrame = 4,
 						nIcon = 13,
 						nTime = -2,
-						szName = "{$1}·{$2}",
+						szName = "{$2}·{$1}",
 					},
 					{
-						key = "{$1}·0",
+						key = "{$2}·0",
 						nClass = 14,
 						nFrame = 2,
 						nIcon = 27841,
 						nRefresh = 1,
 						nTime = 20,
-						szName = "{$1}·本周已达上限",
+						szName = "{$2}·本周已达上限",
 					},
 					{
 						key = "万灵",
@@ -1878,7 +2023,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1788183613,
+		nTimeStamp = 1788258550,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
