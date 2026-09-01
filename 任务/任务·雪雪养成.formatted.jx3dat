@@ -185,7 +185,6 @@ return {
 		},
 		[1] = {
 			{
-				aCataclysmBuff = {},
 				bCheckLevel = true,
 				dwID = 13303,
 				nLevel = 4,
@@ -368,7 +367,6 @@ return {
 		},
 		[7] = {
 			{
-				aCataclysmBuff = {},
 				bCheckLevel = true,
 				dwID = 13303,
 				nLevel = 7,
@@ -648,7 +646,8 @@ return {
 				},
 				dwID = 13344,
 				nIcon = 2119,
-				nLevel = 3,
+				nLevel = 1,
+				nScrutinyType = 1,
 				szName = "Ëø¶¨",
 				szNote = "Ñ©Ñ©Ñø³É",
 			},
@@ -746,7 +745,6 @@ return {
 		},
 		[216] = {
 			{
-				aCataclysmBuff = {},
 				bCheckLevel = true,
 				dwID = 13303,
 				nLevel = 8,
@@ -846,7 +844,6 @@ return {
 		},
 		[302] = {
 			{
-				aCataclysmBuff = {},
 				bCheckLevel = true,
 				dwID = 13303,
 				nLevel = 1,
@@ -999,7 +996,6 @@ return {
 				},
 			},
 			{
-				aCataclysmBuff = {},
 				bCheckLevel = true,
 				dwID = 13303,
 				nLevel = 7,
@@ -1023,7 +1019,6 @@ return {
 				},
 			},
 			{
-				aCataclysmBuff = {},
 				bCheckLevel = true,
 				dwID = 13303,
 				nLevel = 8,
@@ -1047,7 +1042,6 @@ return {
 				},
 			},
 			{
-				aCataclysmBuff = {},
 				bCheckLevel = true,
 				dwID = 13303,
 				nLevel = 9,
@@ -1472,9 +1466,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 20,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -1484,12 +1476,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -1504,12 +1490,9 @@ return {
 				[3] = {
 					bScreenHead = true,
 				},
-				[4] = {},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 120,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -1519,12 +1502,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -1543,12 +1520,9 @@ return {
 				[3] = {
 					bScreenHead = true,
 				},
-				[4] = {},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 120,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -1558,12 +1532,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -1582,10 +1550,8 @@ return {
 				[3] = {
 					bScreenHead = true,
 				},
-				[4] = {},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 120,
 						szDisplay = "Ñ©Ñ©¡¤¾çÇé",
 						tLife = {
@@ -1597,12 +1563,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -1619,12 +1579,9 @@ return {
 				[3] = {
 					bScreenHead = true,
 				},
-				[4] = {},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 120,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -1634,12 +1591,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -1658,12 +1609,9 @@ return {
 				[3] = {
 					bScreenHead = true,
 				},
-				[4] = {},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 120,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -1673,12 +1621,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -1697,12 +1639,9 @@ return {
 				[3] = {
 					bScreenHead = true,
 				},
-				[4] = {},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 120,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -1712,12 +1651,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -1736,10 +1669,8 @@ return {
 				[3] = {
 					bScreenHead = true,
 				},
-				[4] = {},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 120,
 						szDisplay = "Ñ©Ñ©¡¤¾çÇé",
 						tLife = {
@@ -1751,12 +1682,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -1773,10 +1698,8 @@ return {
 				[3] = {
 					bScreenHead = true,
 				},
-				[4] = {},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 120,
 						szDisplay = "Ñ©Ñ©¡¤¾çÇé",
 						tLife = {
@@ -1788,12 +1711,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -1812,12 +1729,9 @@ return {
 				[3] = {
 					bScreenHead = true,
 				},
-				[4] = {},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 120,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -1827,12 +1741,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -1851,12 +1759,9 @@ return {
 				[3] = {
 					bScreenHead = true,
 				},
-				[4] = {},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 120,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -1866,12 +1771,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -1894,7 +1793,6 @@ return {
 					{
 						dwMapID = 302,
 						nMaxDistance = -1,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 100,
@@ -1904,12 +1802,6 @@ return {
 							bAll = false,
 							bAlly = true,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -1999,9 +1891,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 10,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -2011,12 +1901,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -2029,7 +1913,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 120,
 						szDisplay = "Ñ©Ñ©¡¤¾çÇé",
 						tLife = {
@@ -2041,12 +1924,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -2065,7 +1942,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 120,
 						szDisplay = "Ñ©Ñ©¡¤¾çÇé",
 						tLife = {
@@ -2077,12 +1953,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -2101,7 +1971,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 120,
 						szDisplay = "Ñ©Ñ©¡¤¾çÇé",
 						tLife = {
@@ -2113,12 +1982,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -2135,7 +1998,6 @@ return {
 				[3] = {
 					bScreenHead = true,
 				},
-				aFocus = {},
 				col = {
 					0,
 					255,
@@ -2148,9 +2010,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 60,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -2160,12 +2020,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -2179,12 +2033,9 @@ return {
 				[3] = {
 					bScreenHead = true,
 				},
-				[4] = {},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 120,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -2194,12 +2045,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -2942,7 +2787,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1785237484,
+		nTimeStamp = 1788258549,
 		szAuthor = "ºÉ»¨Àð",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
