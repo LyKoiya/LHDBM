@@ -328,22 +328,6 @@ return {
 					255,
 					0,
 				},
-				dwID = 12430,
-				nIcon = 19489,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "剧情",
-				szNote = "定身·剧情",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
 				dwID = 27439,
 				nIcon = 2399,
 				nLevel = 1,
@@ -415,9 +399,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -427,12 +409,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -442,9 +418,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 10,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -454,12 +428,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -469,9 +437,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 6,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -481,12 +447,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -496,9 +456,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 15,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -508,12 +466,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -523,9 +475,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 15,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -536,12 +486,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 10496,
@@ -550,7 +494,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 20,
 						szDisplay = "灵风草·气力值",
 						tLife = {
@@ -563,12 +506,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 30034,
@@ -577,7 +514,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 10,
 						szDisplay = "凝血草·气血值",
 						tLife = {
@@ -590,12 +526,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 30023,
@@ -604,7 +534,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						szDisplay = "山河社稷九重天",
 						tLife = {
@@ -625,7 +554,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						szDisplay = "承天应缘终有数",
 						tLife = {
@@ -646,7 +574,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -666,7 +593,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						tLife = {
 							bEnable = false,
@@ -686,7 +612,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 50,
 						tLife = {
 							bEnable = false,
@@ -706,7 +631,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						tLife = {
 							bEnable = false,
@@ -726,7 +650,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						tLife = {
 							bEnable = false,
@@ -746,7 +669,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						tLife = {
 							bEnable = false,
@@ -766,7 +688,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						tLife = {
 							bEnable = false,
@@ -786,7 +707,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						tLife = {
 							bEnable = false,
@@ -806,7 +726,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 15,
 						szDisplay = "进入密室·墓室",
 						tLife = {
@@ -819,12 +738,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 10504,
@@ -834,7 +747,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 15,
 						szDisplay = "进入密道·大侠",
 						tLife = {
@@ -847,12 +759,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 10503,
@@ -862,7 +768,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 10,
 						szDisplay = "离开密室",
 						tLife = {
@@ -875,12 +780,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 10519,
@@ -890,7 +789,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -910,7 +808,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -930,9 +827,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 40,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -943,12 +838,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 10497,
@@ -957,7 +846,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 6,
 						szDisplay = "操作台",
 						tLife = {
@@ -969,12 +857,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -992,7 +874,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						szDisplay = "布娃娃·任务道具",
 						tLife = {
@@ -1005,12 +886,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 126634,
@@ -1020,9 +895,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 40,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -1032,12 +905,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -1048,9 +915,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 10,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -1060,12 +925,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -1075,9 +934,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 6,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -1088,12 +945,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 125508,
@@ -1102,7 +953,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 60,
 						szDisplay = "刘大海·采风作画",
 						tLife = {
@@ -1115,12 +965,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 126543,
@@ -1130,7 +974,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						szDisplay = "王婆婆·采风作画",
 						tLife = {
@@ -1143,12 +986,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 124585,
@@ -1158,7 +995,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						szDisplay = "莫雨·采风作画",
 						tLife = {
@@ -1171,12 +1007,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 126544,
@@ -1186,7 +1016,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 6,
 						szDisplay = "毛毛·采风作画",
 						tLife = {
@@ -1199,12 +1028,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 126545,
@@ -1214,7 +1037,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 40,
 						szDisplay = "李复·采风作画",
 						tLife = {
@@ -1227,12 +1049,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 126571,
@@ -1242,7 +1058,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 60,
 						szDisplay = "陈定善·董家三兄弟",
 						tLife = {
@@ -1255,12 +1070,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 126487,
@@ -1270,7 +1079,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 20,
 						szDisplay = "郑知书·解救",
 						tLife = {
@@ -1283,12 +1091,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 126525,
@@ -1298,7 +1100,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 20,
 						szDisplay = "翠花·解救",
 						tLife = {
@@ -1311,12 +1112,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 126526,
@@ -1326,7 +1121,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 20,
 						szDisplay = "钱姑·解救",
 						tLife = {
@@ -1339,12 +1133,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 126527,
@@ -1354,7 +1142,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 50,
 						szDisplay = "变天玄境试炼",
 						tLife = {
@@ -1376,9 +1163,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 60,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -1388,12 +1173,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -1404,9 +1183,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 60,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -1416,12 +1193,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -1435,7 +1206,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						szDisplay = "飞星傍月",
 						tLife = {
@@ -1461,7 +1231,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						szDisplay = "银心堕魂",
 						tLife = {
@@ -1484,7 +1253,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 20,
 						szDisplay = "商周客·持续回血",
 						tLife = {
@@ -1497,12 +1265,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 126493,
@@ -1512,7 +1274,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						tLife = {
 							bEnable = false,
@@ -1533,7 +1294,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						tLife = {
 							bEnable = false,
@@ -1554,7 +1314,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						tLife = {
 							bEnable = false,
@@ -1575,7 +1334,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						szDisplay = "宝箱",
 						tLife = {
@@ -1587,12 +1345,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -1603,7 +1355,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						szDisplay = "宝箱",
 						tLife = {
@@ -1615,12 +1366,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -1631,7 +1376,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						szDisplay = "宝箱",
 						tLife = {
@@ -1644,12 +1388,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 126664,
@@ -1659,7 +1397,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 40,
 						szDisplay = "章民安·村长账本",
 						tLife = {
@@ -1672,12 +1409,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 126661,
@@ -1687,7 +1418,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						tLife = {
 							bEnable = false,
@@ -1708,7 +1438,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 60,
 						szDisplay = "世交故友",
 						tLife = {
@@ -1721,12 +1450,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 127027,
@@ -1736,7 +1459,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -1757,7 +1479,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -1778,7 +1499,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -1799,9 +1519,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -1812,12 +1530,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 126856,
@@ -1827,7 +1539,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 60,
 						szDisplay = "毛毛·成就",
 						tLife = {
@@ -1840,12 +1551,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 126464,
@@ -1855,7 +1560,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						szDisplay = "何子衿·成就",
 						tLife = {
@@ -1868,12 +1572,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 126541,
@@ -1883,7 +1581,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						tLife = {
 							bEnable = false,
@@ -1904,7 +1601,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						tLife = {
 							bEnable = false,
@@ -1925,7 +1621,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						tLife = {
 							bEnable = false,
@@ -1946,7 +1641,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -1967,7 +1661,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -1988,9 +1681,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 60,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -2000,12 +1691,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -2016,9 +1701,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 60,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -2028,12 +1711,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -2044,9 +1721,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 60,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -2057,12 +1732,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 126334,
@@ -2072,7 +1741,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 20,
 						szDisplay = "阴沉木匣",
 						tLife = {
@@ -2085,12 +1753,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 127101,
@@ -2100,9 +1762,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 60,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -2112,12 +1772,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -2128,9 +1782,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 60,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -2140,12 +1792,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -2156,9 +1802,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 60,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -2169,12 +1813,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 126587,
@@ -2184,7 +1822,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 20,
 						szDisplay = "传送·门派",
 						tLife = {
@@ -2197,12 +1834,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 300320,
@@ -2212,9 +1843,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 40,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -2225,12 +1854,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 27,
@@ -2240,7 +1863,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 15,
 						szDisplay = "陈月·天龙断尾",
 						tLife = {
@@ -2253,12 +1875,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 126474,
@@ -2268,7 +1884,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 40,
 						szDisplay = "秋叶青·金羽雕",
 						tLife = {
@@ -2281,12 +1896,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 126471,
@@ -2296,7 +1905,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 6,
 						szDisplay = "碧寒江·隐藏任务",
 						tLife = {
@@ -2309,12 +1917,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 126658,
@@ -2324,7 +1926,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						szDisplay = "董虎",
 						tLife = {
@@ -2337,12 +1938,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 300322,
@@ -2352,7 +1947,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						szDisplay = "董龙",
 						tLife = {
@@ -2364,12 +1958,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -2442,7 +2030,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1786984424,
+		nTimeStamp = 1788272857,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
