@@ -1069,7 +1069,7 @@ return {
 						nClass = 20,
 						nFrame = 1,
 						nIcon = 13,
-						nTime = 5,
+						nTime = 10,
 						szName = "名剑大会·离开排队",
 					},
 				},
@@ -8029,6 +8029,21 @@ return {
 				},
 			},
 			{
+				szContent = "需自身贡献值高于目标方可举报！",
+				szNote = "贡献值低于目标·举报失败",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "举报玩家",
+						nClass = 14,
+						nFrame = 8,
+						nIcon = 13,
+						nTime = 2,
+						szName = "贡献值低于目标·举报失败",
+					},
+				},
+			},
+			{
 				col = {
 					255,
 					255,
@@ -8509,7 +8524,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1787923990,
+		nTimeStamp = 1788540887,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
