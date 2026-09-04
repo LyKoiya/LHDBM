@@ -15975,6 +15975,24 @@ return {
 			{
 				{
 					bBuffList = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 29409,
+				nIcon = 23465,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "幽都判",
+				tKungFu = {
+					["SKILL#10585"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
 					bScreenHead = true,
 					bTeamPanel = true,
 				},
@@ -33520,6 +33538,26 @@ return {
 					},
 				},
 			},
+			{
+				col = {
+					80,
+					231,
+					236,
+				},
+				dwID = 27699,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "据点内",
+				tCountdown = {
+					{
+						key = "据点大旗·旗手提示",
+						nClass = 1,
+						nIcon = 27699,
+						nTime = -1,
+						szName = "据点大旗·旗手提示",
+					},
+				},
+			},
 		},
 		[217] = {
 			{
@@ -35248,6 +35286,26 @@ return {
 					},
 				},
 			},
+			{
+				col = {
+					80,
+					231,
+					236,
+				},
+				dwID = 27699,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "据点内",
+				tCountdown = {
+					{
+						key = "据点大旗·旗手提示",
+						nClass = 1,
+						nIcon = 27699,
+						nTime = -1,
+						szName = "据点大旗·旗手提示",
+					},
+				},
+			},
 		},
 		[673] = {
 			{
@@ -35393,9 +35451,8 @@ return {
 				aCataclysmBuff = {
 					{
 						bScreenHead = true,
-						col = "#FFFF00DD",
+						col = "#FFFF0000",
 						colScreenHead = "#FFFF00",
-						nColAlpha = 221,
 						nPriority = 40,
 					},
 				},
@@ -42351,7 +42408,7 @@ return {
 						nClass = 20,
 						nFrame = 1,
 						nIcon = 13,
-						nTime = 5,
+						nTime = 10,
 						szName = "战场·排队离开",
 					},
 					{
@@ -49085,7 +49142,7 @@ return {
 						nClass = 20,
 						nFrame = 1,
 						nIcon = 13,
-						nTime = 5,
+						nTime = 10,
 						szName = "战场·排队离开",
 					},
 					{
@@ -50507,7 +50564,7 @@ return {
 						nClass = 20,
 						nFrame = 1,
 						nIcon = 13,
-						nTime = 5,
+						nTime = 10,
 						szName = "名剑大会·离开排队",
 					},
 				},
@@ -67871,12 +67928,6 @@ return {
 				},
 			},
 		},
-		[807] = {
-			{
-				szContent = "主持鹅：鹅鸭杀大游园里的身份技能的释放最大距离都为2尺，在距离目标2尺范围内使用技能时会自动选择目标，可以不用提前选中目标。\
-",
-			},
-		},
 	},
 	DEBUFF = {
 		[-21] = {
@@ -67990,8 +68041,7 @@ return {
 				},
 				aCataclysmBuff = {
 					{
-						col = "#FFFFFFDD",
-						nColAlpha = 221,
+						col = "#FFFFFF00",
 						nPriority = 1,
 					},
 				},
@@ -68018,7 +68068,6 @@ return {
 					{
 						key = "据点大旗·旗手提示",
 						nClass = 1,
-						nFrame = 2,
 						nIcon = 1272,
 						nTime = -1,
 						szName = "据点大旗·旗手提示",
@@ -68879,8 +68928,7 @@ return {
 				},
 				aCataclysmBuff = {
 					{
-						col = "#FFFFFFDD",
-						nColAlpha = 221,
+						col = "#FFFFFF00",
 						nPriority = 1,
 					},
 				},
@@ -74644,6 +74692,21 @@ return {
 					255,
 					0,
 				},
+				dwID = 12430,
+				nIcon = 19489,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "剧情",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
 				dwID = 19902,
 				nIcon = 19489,
 				nLevel = 1,
@@ -80364,6 +80427,33 @@ return {
 				dwID = 29396,
 				nLevel = 1,
 				nScrutinyType = 2,
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						col = "#00FFFFFF",
+						nColAlpha = 255,
+						nPriority = 40,
+						szReminder = "青",
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 15937,
+				nIcon = 12415,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "青山",
+				tKungFu = {
+					["SKILL#10585"] = true,
+				},
 			},
 			{
 				{
@@ -92576,21 +92666,6 @@ return {
 				},
 			},
 			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 12430,
-				nIcon = 19489,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "剧情",
-			},
-			{
 				dwID = 15451,
 				nCount = 3,
 				nIcon = 4987,
@@ -93551,21 +93626,6 @@ return {
 			},
 		},
 		[23] = {
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 12430,
-				nIcon = 19489,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "剧情",
-			},
 			{
 				{
 					bBuffList = true,
@@ -96673,21 +96733,6 @@ return {
 					255,
 					0,
 				},
-				dwID = 12430,
-				nIcon = 19489,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "剧情",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
 				dwID = 21769,
 				nIcon = 19489,
 				nLevel = 1,
@@ -97292,8 +97337,7 @@ return {
 				},
 				aCataclysmBuff = {
 					{
-						col = "#FFFFFFDD",
-						nColAlpha = 221,
+						col = "#FFFFFF00",
 						nPriority = 1,
 					},
 				},
@@ -97305,27 +97349,6 @@ return {
 				dwID = 7723,
 				nLevel = 1,
 				nScrutinyType = 2,
-			},
-			{
-				col = {
-					80,
-					231,
-					236,
-				},
-				dwID = 11561,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "据点内",
-				tCountdown = {
-					{
-						key = "据点大旗·旗手提示",
-						nClass = 1,
-						nFrame = 2,
-						nIcon = 1272,
-						nTime = -1,
-						szName = "据点大旗·旗手提示",
-					},
-				},
 			},
 			{
 				col = {
@@ -99680,21 +99703,6 @@ return {
 			},
 		},
 		[330] = {
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 12430,
-				nIcon = 19489,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "剧情",
-			},
 			{
 				{
 					bBuffList = true,
@@ -102400,16 +102408,6 @@ return {
 				{
 					bBuffList = true,
 				},
-				dwID = 12430,
-				nIcon = 19489,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "剧情",
-			},
-			{
-				{
-					bBuffList = true,
-				},
 				dwID = 27837,
 				nLevel = 1,
 				nScrutinyType = 1,
@@ -102530,21 +102528,6 @@ return {
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "CD",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 12430,
-				nIcon = 19489,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "剧情",
 			},
 			{
 				{
@@ -102720,8 +102703,7 @@ return {
 				},
 				aCataclysmBuff = {
 					{
-						col = "#FFFFFFDD",
-						nColAlpha = 221,
+						col = "#FFFFFF00",
 						nPriority = 1,
 					},
 				},
@@ -102733,27 +102715,6 @@ return {
 				dwID = 7723,
 				nLevel = 1,
 				nScrutinyType = 2,
-			},
-			{
-				col = {
-					80,
-					231,
-					236,
-				},
-				dwID = 11561,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "据点内",
-				tCountdown = {
-					{
-						key = "据点大旗·旗手提示",
-						nClass = 1,
-						nFrame = 2,
-						nIcon = 1272,
-						nTime = -1,
-						szName = "据点大旗·旗手提示",
-					},
-				},
 			},
 			{
 				col = {
@@ -106446,126 +106407,6 @@ return {
 				dwID = 33341,
 				nLevel = 1,
 				nScrutinyType = 2,
-			},
-		},
-		[807] = {
-			{
-				{
-					bBuffList = true,
-					bScreenHead = true,
-					bTeamPanel = true,
-				},
-				aCataclysmBuff = {
-					{
-						bScreenHead = true,
-						col = "#FFFF00FF",
-						colScreenHead = "#FFFF00",
-						nColAlpha = 255,
-						nPriority = 14,
-						szReminder = "定",
-					},
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 34308,
-				nIcon = 2020,
-				nLevel = 1,
-				szName = "定身",
-			},
-			{
-				{
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				dwID = 33940,
-				nIcon = 593,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "关灯",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 33778,
-				nIcon = 10484,
-				nLevel = 1,
-				szName = "魂灵",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 33829,
-				nIcon = 10484,
-				nLevel = 1,
-				szName = "藏身",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 33825,
-				nIcon = 10484,
-				nLevel = 1,
-				szName = "隐身",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 33954,
-				nIcon = 311,
-				nLevel = 1,
-				szName = "禁操作",
-			},
-			{
-				{
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				dwID = 33906,
-				nIcon = 27629,
-				nLevel = 1,
-				nScrutinyType = 2,
-				szName = "被吞",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 33905,
-				nIcon = 23362,
-				nLevel = 1,
-				szName = "观战",
 			},
 		},
 		[995] = {
@@ -114453,8 +114294,8 @@ return {
 					},
 				},
 				col = {
-					255,
 					50,
+					255,
 					255,
 				},
 				dwID = 10781,
@@ -114894,83 +114735,6 @@ return {
 				dwID = 11729,
 			},
 		},
-		[807] = {
-			{
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "拉铃·紧急会议·交互",
-					},
-					{
-						nMaxDistance = 30,
-						szDisplay = "拉铃·紧急会议",
-					},
-				},
-				dwID = 11875,
-				szName = "拉铃",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 6,
-					},
-				},
-				dwID = 11947,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 6,
-					},
-				},
-				dwID = 11903,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 6,
-					},
-				},
-				dwID = 11876,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 6,
-					},
-				},
-				dwID = 11878,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 6,
-					},
-				},
-				dwID = 11877,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 6,
-					},
-				},
-				dwID = 11879,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "鸡腿·交互",
-					},
-					{
-						nMaxDistance = 30,
-						szDisplay = "鸡腿·报告",
-					},
-				},
-				dwID = 11836,
-			},
-		},
 	},
 	NPC = {
 		[-21] = {
@@ -115120,7 +114884,8 @@ return {
 				},
 				aFocus = {
 					{
-						nMaxDistance = 30,
+						nMaxDistance = 6,
+						szDisplay = "闻千瞬·争霸赛",
 					},
 				},
 				col = {
@@ -119873,7 +119638,8 @@ return {
 				},
 				aFocus = {
 					{
-						nMaxDistance = 30,
+						nMaxDistance = 6,
+						szDisplay = "闻千瞬·争霸赛",
 					},
 				},
 				col = {
@@ -162010,6 +161776,27 @@ return {
 				},
 				aFocus = {
 					{
+						nMaxDistance = 6,
+						szDisplay = "麒麟珠·交互",
+					},
+					{
+						nMaxDistance = 90,
+					},
+				},
+				col = {
+					50,
+					255,
+					255,
+				},
+				dwID = 129144,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
 						nMaxDistance = 15,
 						szDisplay = "九渊麒麟·15尺",
 					},
@@ -164344,296 +164131,6 @@ return {
 					0,
 				},
 				dwID = 136845,
-				nFrame = 47,
-			},
-		},
-		[807] = {
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 30,
-						szDisplay = "被炸尸体",
-					},
-				},
-				col = {
-					255,
-					50,
-					255,
-				},
-				dwID = 137622,
-				nFrame = 47,
-				szName = "被炸尸体",
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "鸡腿·发起会议·交互",
-					},
-					{
-						nMaxDistance = 30,
-						szDisplay = "鸡腿·报告会议",
-					},
-				},
-				col = {
-					255,
-					50,
-					50,
-				},
-				dwID = 137621,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "鸡腿·发起会议·交互",
-					},
-					{
-						nMaxDistance = 30,
-						szDisplay = "鸡腿·报告会议",
-					},
-				},
-				col = {
-					255,
-					50,
-					50,
-				},
-				dwID = 137620,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "鸡腿·发起会议·交互",
-					},
-					{
-						nMaxDistance = 30,
-						szDisplay = "鸡腿·报告会议",
-					},
-				},
-				col = {
-					255,
-					50,
-					50,
-				},
-				dwID = 137619,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "鸡腿·发起会议·交互",
-					},
-					{
-						nMaxDistance = 30,
-						szDisplay = "鸡腿·报告会议",
-					},
-				},
-				col = {
-					255,
-					50,
-					50,
-				},
-				dwID = 137618,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "鸡腿·发起会议·交互",
-					},
-					{
-						nMaxDistance = 30,
-						szDisplay = "鸡腿·报告会议",
-					},
-				},
-				col = {
-					255,
-					50,
-					50,
-				},
-				dwID = 137617,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "鸡腿·发起会议·交互",
-					},
-					{
-						nMaxDistance = 30,
-						szDisplay = "鸡腿·报告会议",
-					},
-				},
-				col = {
-					255,
-					50,
-					50,
-				},
-				dwID = 137616,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "鸡腿·发起会议·交互",
-					},
-					{
-						nMaxDistance = 30,
-						szDisplay = "鸡腿·报告会议",
-					},
-				},
-				col = {
-					255,
-					50,
-					50,
-				},
-				dwID = 137615,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "鸡腿·发起会议·交互",
-					},
-					{
-						nMaxDistance = 30,
-						szDisplay = "鸡腿·报告会议",
-					},
-				},
-				col = {
-					255,
-					50,
-					50,
-				},
-				dwID = 137614,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "鸡腿·发起会议·交互",
-					},
-					{
-						nMaxDistance = 30,
-						szDisplay = "鸡腿·报告会议",
-					},
-				},
-				col = {
-					255,
-					50,
-					50,
-				},
-				dwID = 137613,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "鸡腿·发起会议·交互",
-					},
-					{
-						nMaxDistance = 30,
-						szDisplay = "鸡腿·报告会议",
-					},
-				},
-				col = {
-					255,
-					50,
-					50,
-				},
-				dwID = 137612,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "福佑牌·交互",
-					},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 137771,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "纸鸢·交互",
-					},
-					{
-						nMaxDistance = 30,
-						szDisplay = "纸鸢",
-					},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 137770,
-				nFrame = 47,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 6,
-					},
-				},
-				dwID = 138196,
 				nFrame = 47,
 			},
 		},
@@ -168615,9 +168112,38 @@ return {
 					{
 						key = "道具上限",
 						nClass = 14,
+						nFrame = 4,
 						nIcon = 3530,
 						nTime = 10,
 						szName = "园宅币·即将上限",
+					},
+				},
+			},
+			{
+				szContent = "你的园宅币已到携带上限",
+				szNote = "园宅币·携带上限",
+				tCountdown = {
+					{
+						key = "道具上限",
+						nClass = 14,
+						nFrame = 2,
+						nIcon = 3530,
+						nTime = 10,
+						szName = "园宅币·携带上限",
+					},
+				},
+			},
+			{
+				szContent = "阁下可获得的园宅币上限不足或持有的物品不足，暂时无法出售！",
+				szNote = "园宅币上限或物品不足",
+				tCountdown = {
+					{
+						key = "道具上限",
+						nClass = 14,
+						nFrame = 2,
+						nIcon = 3530,
+						nTime = 10,
+						szName = "园宅币上限或物品不足",
 					},
 				},
 			},
@@ -169125,6 +168651,21 @@ return {
 						nRefresh = 0,
 						nTime = "20,战斗·开始倒计时;21,战斗·开始比赛",
 						szName = "战斗·开始倒计时",
+					},
+				},
+			},
+			{
+				szContent = "需自身贡献值高于目标方可举报！",
+				szNote = "贡献值低于目标·举报失败",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "举报玩家",
+						nClass = 14,
+						nFrame = 8,
+						nIcon = 13,
+						nTime = 2,
+						szName = "贡献值低于目标·举报失败",
 					},
 				},
 			},
@@ -186343,7 +185884,7 @@ return {
 				szContent = "你已经离开据点，10秒内未进入据点，则据点旗帜重置。",
 				tCountdown = {
 					{
-						key = "离开据点·大旗重置",
+						key = "据点大旗·旗手提示",
 						nClass = 14,
 						nFrame = 2,
 						nIcon = 592,
@@ -197060,7 +196601,7 @@ return {
 				szContent = "你已经离开据点，10秒内未进入据点，则据点旗帜重置。",
 				tCountdown = {
 					{
-						key = "离开据点·大旗重置",
+						key = "据点大旗·旗手提示",
 						nClass = 14,
 						nFrame = 2,
 						nIcon = 592,
@@ -199183,205 +198724,6 @@ return {
 				},
 			},
 		},
-		[807] = {
-			{
-				[20] = {
-					bCenterAlarm = true,
-				},
-				szContent = "主持鹅：你已被鹈鹕吞了，等待被救（若鹈鹕被击倒，你将复活）。被吞状态进入会议时，你将被消化并淘汰出局。",
-				szNote = "你被鹈鹕吞了",
-				szTarget = "%",
-			},
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szContent = "纸鸢已尽数寻回，献祭之咒已解除！",
-				szNote = "寻回纸鸢·献祭解除",
-			},
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szContent = "祈福已经完成，劫难已化解！",
-				szNote = "完成祈福·劫难化解",
-			},
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szContent = "被发现。上报会议！",
-				szNote = "开启会议",
-				szTarget = "报告会议",
-			},
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szContent = "主持鹅：开始投票",
-				szNote = "开始投票",
-				szTarget = "%",
-			},
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szContent = "主持鹅：弃票过多无人出局",
-				szNote = "弃票过多·无人出局",
-				szTarget = "%",
-			},
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szContent = "主持鹅：平票无人出局",
-				szNote = "平票·无人出局",
-				szTarget = "%",
-			},
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				bReg = true,
-				szContent = "^主持鹅：轮到(%d-)号侠士(.-)发言",
-				szNote = "发言·【{$1}号·{$2}】",
-				szTarget = "%",
-				tCountdown = {
-					{
-						key = "战场提示",
-						nClass = 14,
-						nFrame = 2,
-						nIcon = 13,
-						nTime = 2,
-						szName = "发言·[{$1}号·{$2}]",
-					},
-					{
-						key = "战场提示·{$me}",
-						nClass = 14,
-						nIcon = 1465,
-						nRefresh = 2,
-						nTime = -2,
-						szName = "战场提示·{$me}",
-					},
-					{
-						key = "战场提示·{$2}",
-						nClass = 14,
-						nIcon = 13,
-						nTime = -2,
-						szName = "战场提示·{$2}",
-					},
-					{
-						key = "战场提示·{$me}",
-						nClass = 14,
-						nIcon = 13,
-						nRefresh = 1,
-						nTime = "2,轮到你发言了,VO:ZhuanJieDuan",
-						szName = "轮到你发言了",
-					},
-				},
-			},
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				bReg = true,
-				szContent = "^主持鹅：(.-)被投出",
-				szNote = "投票·【{$1}】·出局",
-				szTarget = "%",
-				tCountdown = {
-					{
-						key = "战场提示",
-						nClass = 14,
-						nFrame = 2,
-						nIcon = 13,
-						nTime = 10,
-						szName = "投票·【{$1}】·出局",
-					},
-				},
-			},
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szContent = "石灯修复成功（2/2）",
-				szNote = "石灯修复成功",
-			},
-			{
-				szContent = "炸弹传给你了！5秒后会爆炸，把它交给其他人。",
-				tCountdown = {
-					{
-						key = "爆炸提示",
-						nClass = 14,
-						nFrame = 8,
-						nIcon = 2711,
-						nTime = 5,
-						szName = "雷·爆炸剩余",
-					},
-				},
-			},
-			{
-				szContent = "炸弹传给你了！10秒后会爆炸，把它交给其他人。",
-				tCountdown = {
-					{
-						key = "爆炸提示",
-						nClass = 14,
-						nFrame = 8,
-						nIcon = 2711,
-						nTime = 10,
-						szName = "雷·爆炸剩余",
-					},
-				},
-			},
-			{
-				szContent = "本局随机分配身份将在20秒后开始。",
-				tCountdown = {
-					{
-						key = "战斗开始",
-						nClass = 14,
-						nIcon = 13,
-						nRefresh = 1,
-						nTime = "20,身份·随机分配剩余;22,身份·已经分配",
-						szName = "身份·随机分配剩余",
-					},
-				},
-			},
-			{
-				szContent = "本局随机分配身份将在30秒后开始。",
-				tCountdown = {
-					{
-						key = "战斗开始",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 30,
-						szName = "身份·随机分配剩余",
-					},
-				},
-			},
-			{
-				szContent = "本局随机分配身份将在40秒后开始。",
-				tCountdown = {
-					{
-						key = "战斗开始",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 40,
-						szName = "身份·随机分配剩余",
-					},
-				},
-			},
-			{
-				szContent = "本局随机分配身份将在50秒后开始。",
-				tCountdown = {
-					{
-						key = "战斗开始",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 50,
-						szName = "身份·随机分配剩余",
-					},
-				},
-			},
-		},
 		[995] = {
 			{
 				szContent = "提示：首领出现！",
@@ -199488,6 +198830,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1788258549,
+		nTimeStamp = 1788540886,
 	},
 }

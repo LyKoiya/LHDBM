@@ -404,9 +404,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -432,7 +430,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -458,7 +455,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						tLife = {
 							bEnable = false,
@@ -539,7 +535,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						szDisplay = "大鱼·25分",
 						tLife = {
@@ -570,7 +565,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						szDisplay = "鱼王·50分",
 						tLife = {
@@ -601,9 +595,7 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 20,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -631,9 +623,7 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 20,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -661,9 +651,7 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 20,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -713,7 +701,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						szDisplay = "大鱼·25分",
 						tLife = {
@@ -744,7 +731,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						szDisplay = "鱼王·50分",
 						tLife = {
@@ -775,9 +761,7 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 20,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -805,9 +789,7 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 20,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -835,9 +817,7 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 20,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -867,7 +847,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 15,
 						szDisplay = "飞虫·15尺内",
 						tLife = {
@@ -882,9 +861,7 @@ return {
 						},
 					},
 					{
-						dwMapID = -1,
 						nMaxDistance = 60,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -973,7 +950,6 @@ return {
 				},
 			},
 			{
-				[14] = {},
 				szContent = "侠士成功种下了百合种子·一级。",
 				tCountdown = {
 					{
@@ -988,7 +964,6 @@ return {
 				},
 			},
 			{
-				[14] = {},
 				szContent = "侠士成功种下了玫瑰种子·一级。",
 				tCountdown = {
 					{
@@ -1003,7 +978,6 @@ return {
 				},
 			},
 			{
-				[14] = {},
 				szContent = "侠士成功种下了牵牛花种子·一级。",
 				tCountdown = {
 					{
@@ -1019,7 +993,6 @@ return {
 				},
 			},
 			{
-				[14] = {},
 				szContent = "侠士成功种下了郁金香种子·一级。",
 				tCountdown = {
 					{
@@ -1035,7 +1008,6 @@ return {
 				},
 			},
 			{
-				[14] = {},
 				szContent = "侠士成功种下了绣球花种子·一级。",
 				tCountdown = {
 					{
@@ -1047,6 +1019,34 @@ return {
 						nRefresh = 1,
 						nTime = "10,绣球花·红白紫;552,绣球花·迅捷3;576,绣球花·迅捷2;588,绣球花·迅捷1;600,绣球花·成熟",
 						szName = "",
+					},
+				},
+			},
+			{
+				szContent = "阁下可获得的园宅币上限不足或持有的物品不足，暂时无法出售！",
+				szNote = "园宅币上限或物品不足",
+				tCountdown = {
+					{
+						key = "道具上限",
+						nClass = 14,
+						nFrame = 2,
+						nIcon = 3530,
+						nTime = 10,
+						szName = "园宅币上限或物品不足",
+					},
+				},
+			},
+			{
+				szContent = "你的园宅币已到携带上限",
+				szNote = "园宅币·携带上限",
+				tCountdown = {
+					{
+						key = "道具上限",
+						nClass = 14,
+						nFrame = 2,
+						nIcon = 3530,
+						nTime = 10,
+						szName = "园宅币·携带上限",
 					},
 				},
 			},
@@ -1209,6 +1209,7 @@ return {
 					{
 						key = "道具上限",
 						nClass = 14,
+						nFrame = 4,
 						nIcon = 3530,
 						nTime = 10,
 						szName = "园宅币·即将上限",
@@ -1326,7 +1327,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1786705052,
+		nTimeStamp = 1788540886,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

@@ -149,7 +149,7 @@ return {
 						nClass = 20,
 						nFrame = 1,
 						nIcon = 13,
-						nTime = 5,
+						nTime = 10,
 						szName = "战场·排队离开",
 					},
 					{
@@ -1352,7 +1352,7 @@ return {
 						nClass = 20,
 						nFrame = 1,
 						nIcon = 13,
-						nTime = 5,
+						nTime = 10,
 						szName = "战场·排队离开",
 					},
 					{
@@ -2290,7 +2290,7 @@ return {
 	NPC = {},
 	TALK = {},
 	__meta = {
-		nTimeStamp = 1786200243,
+		nTimeStamp = 1788540886,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
