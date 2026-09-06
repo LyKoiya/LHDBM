@@ -46,6 +46,21 @@ return {
 					},
 				},
 			},
+			{
+				{
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						nPriority = 43,
+						szReminder = "ÌÓ",
+					},
+				},
+				dwID = 33928,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szNote = "ÌÓ±ø¡¤½ûÁî¡¤¶ìÑ¼É±",
+			},
 		},
 	},
 	DOODAD = {},
@@ -113,7 +128,7 @@ return {
 	},
 	TALK = {},
 	__meta = {
-		nTimeStamp = 1788367410,
+		nTimeStamp = 1788704452,
 		szAuthor = "ºÉ»¨Àð",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
