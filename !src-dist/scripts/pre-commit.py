@@ -61,7 +61,11 @@ try:
         ['lua', str(script)] + files,
         check=True,
         encoding='utf-8',
-        errors='surrogateescape'
+        errors='surrogateescape',
+        cwd=git_root,
+        env={
+            'LUA_PATH': f"{git_root}/?.lua;"
+        }  # 设置模块路径
     )
     
     run_git('add', *files)

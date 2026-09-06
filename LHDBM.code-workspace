@@ -1,6 +1,7 @@
 {
 	"folders": [
 		{
+			"name": "LHDBM",
 			"path": "."
 		}
 	],
@@ -12,7 +13,7 @@
 		// 针对 Python 文件单独设置为 UTF-8
 		"[python]": {
 			"files.encoding": "utf8",
-			"files.autoGuessEncoding": false  // 关闭自动猜测，固定为 UTF-8
+			"files.autoGuessEncoding": false // 关闭自动猜测，固定为 UTF-8
 		},
 		// 普通lua脚本：强制GBK
 		"[lua]": {
@@ -33,5 +34,21 @@
 			"**/*.ini": "gbk",
 			"**/*.txt": "gbk",
 		},
-	}
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"type": "lua",
+				"request": "launch",
+				"name": "Run LUA5.1.5",
+				"cwd": "${workspaceFolder:LHDBM}",
+				"luaexe": "${workspaceFolder:LHDBM}/!src-dist/bin/lua.exe",  // 直接指定可执行文件
+				"program": "${file}",  // 使用当前打开的文件
+				"arg": [],	
+				"console": "integratedTerminal",  // 或 "externalTerminal"	
+				"stopOnEntry": false,
+			}
+		]
+	},
 }
