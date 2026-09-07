@@ -42,7 +42,7 @@ return {
 				},
 				aFocus = {
 					{
-						nMaxDistance = 20,
+						nMaxDistance = 6,
 						szDisplay = "天降宝堆·周年活动",
 						tLife = {
 							bEnable = false,
@@ -70,7 +70,7 @@ return {
 	NPC = {},
 	TALK = {},
 	__meta = {
-		nTimeStamp = 1787897929,
+		nTimeStamp = 1788764270,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
