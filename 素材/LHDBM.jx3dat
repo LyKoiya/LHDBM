@@ -42595,7 +42595,7 @@ return {
 		[-19] = {
 			{
 				bSearch = true,
-				szContent = "[团队监控]数据加载",
+				szContent = "[团队监控]数据加载成功",
 				szNote = "关闭刷马等计时条",
 				tCountdown = {
 					{
@@ -42704,30 +42704,30 @@ return {
 					},
 					{
 						key = "订阅提示1",
-						nClass = 20,
+						nClass = -1,
 						nFrame = 5,
 						nIcon = 13,
 						nRefresh = 2,
 						nTime = 15,
-						szName = "赛季末很无聊？来打情缘杯赢奖励！",
+						szName = "订阅提示1",
 					},
 					{
 						key = "订阅提示2",
-						nClass = 20,
+						nClass = -1,
 						nFrame = 6,
 						nIcon = 13,
 						nRefresh = 2,
 						nTime = 15,
-						szName = "没队伍也能报名，打完比赛交朋友！",
+						szName = "订阅提示2",
 					},
 					{
 						key = "订阅提示3",
-						nClass = 20,
+						nClass = -1,
 						nFrame = 7,
 						nIcon = 13,
 						nRefresh = 2,
 						nTime = 15,
-						szName = "魔盒情缘杯正在报名中~",
+						szName = "订阅提示3",
 					},
 				},
 			},
@@ -42834,6 +42834,20 @@ return {
 						nIcon = 13,
 						nTime = 0,
 						szName = "破阵点将·二",
+					},
+					{
+						key = "破阵点将·一·常驻",
+						nClass = 20,
+						nIcon = 7674,
+						nTime = -1,
+						szName = "破阵点将·一·常驻",
+					},
+					{
+						key = "破阵点将·二·常驻",
+						nClass = 20,
+						nIcon = 7676,
+						nTime = -1,
+						szName = "破阵点将·二·常驻",
 					},
 					{
 						key = "牛车拾取间隔",
@@ -43174,6 +43188,20 @@ return {
 						nIcon = 13,
 						nTime = 0,
 						szName = "破阵点将·二",
+					},
+					{
+						key = "破阵点将·一·常驻",
+						nClass = 20,
+						nIcon = 7674,
+						nTime = -1,
+						szName = "破阵点将·一·常驻",
+					},
+					{
+						key = "破阵点将·二·常驻",
+						nClass = 20,
+						nIcon = 7676,
+						nTime = -1,
+						szName = "破阵点将·二·常驻",
 					},
 					{
 						key = "牛车拾取间隔",
@@ -43550,6 +43578,20 @@ return {
 						nIcon = 13,
 						nTime = 0,
 						szName = "破阵点将·二",
+					},
+					{
+						key = "破阵点将·一·常驻",
+						nClass = 20,
+						nIcon = 7674,
+						nTime = -1,
+						szName = "破阵点将·一·常驻",
+					},
+					{
+						key = "破阵点将·二·常驻",
+						nClass = 20,
+						nIcon = 7676,
+						nTime = -1,
+						szName = "破阵点将·二·常驻",
 					},
 					{
 						key = "牛车拾取间隔",
@@ -47443,7 +47485,7 @@ return {
 		[-3] = {
 			{
 				bSearch = true,
-				szContent = "[团队监控]数据加载",
+				szContent = "[团队监控]数据加载成功",
 				tCountdown = {
 					{
 						key = "打断监控",
@@ -47519,30 +47561,30 @@ return {
 					},
 					{
 						key = "订阅提示1",
-						nClass = 20,
+						nClass = -1,
 						nFrame = 5,
 						nIcon = 13,
 						nRefresh = 2,
 						nTime = 15,
-						szName = "赛季末很无聊？来打情缘杯赢奖励！",
+						szName = "订阅提示1",
 					},
 					{
 						key = "订阅提示2",
-						nClass = 20,
+						nClass = -1,
 						nFrame = 6,
 						nIcon = 13,
 						nRefresh = 2,
 						nTime = 15,
-						szName = "没队伍也能报名，打完比赛交朋友！",
+						szName = "订阅提示2",
 					},
 					{
 						key = "订阅提示3",
-						nClass = 20,
+						nClass = -1,
 						nFrame = 7,
 						nIcon = 13,
 						nRefresh = 2,
 						nTime = 15,
-						szName = "魔盒情缘杯正在报名中~",
+						szName = "订阅提示3",
 					},
 				},
 			},
@@ -49737,35 +49779,34 @@ return {
 				},
 			},
 			{
-				bSearch = true,
-				szContent = "[团队监控]数据加载",
+				szContent = "[团队监控]数据加载成功",
 				tCountdown = {
 					{
 						key = "订阅提示1",
-						nClass = 20,
+						nClass = -1,
 						nFrame = 5,
 						nIcon = 13,
 						nRefresh = 2,
 						nTime = 15,
-						szName = "赛季末很无聊？来打情缘杯赢奖励！",
+						szName = "订阅提示1",
 					},
 					{
 						key = "订阅提示2",
-						nClass = 20,
+						nClass = -1,
 						nFrame = 6,
 						nIcon = 13,
 						nRefresh = 2,
 						nTime = 15,
-						szName = "没队伍也能报名，打完比赛交朋友！",
+						szName = "订阅提示2",
 					},
 					{
 						key = "订阅提示3",
-						nClass = 20,
+						nClass = -1,
 						nFrame = 7,
 						nIcon = 13,
 						nRefresh = 2,
 						nTime = 15,
-						szName = "魔盒情缘杯正在报名中~",
+						szName = "订阅提示3",
 					},
 				},
 			},
@@ -52940,6 +52981,22 @@ return {
 				szNote = "关闭刷马等计时条",
 				tCountdown = {
 					{
+						key = "破阵点将·一·常驻",
+						nClass = 20,
+						nIcon = 7674,
+						nRefresh = 99999,
+						nTime = -2,
+						szName = "破阵点将·一·常驻",
+					},
+					{
+						key = "破阵点将·二·常驻",
+						nClass = 20,
+						nIcon = 7676,
+						nRefresh = 99999,
+						nTime = -2,
+						szName = "破阵点将·二·常驻",
+					},
+					{
 						key = "天气事件1",
 						nClass = 20,
 						nIcon = 13,
@@ -53232,6 +53289,22 @@ return {
 				szContent = "你已进入地图【恶人谷】。",
 				szNote = "关闭刷马等计时条",
 				tCountdown = {
+					{
+						key = "破阵点将·一·常驻",
+						nClass = 20,
+						nIcon = 7674,
+						nRefresh = 99999,
+						nTime = -2,
+						szName = "破阵点将·一·常驻",
+					},
+					{
+						key = "破阵点将·二·常驻",
+						nClass = 20,
+						nIcon = 7676,
+						nRefresh = 99999,
+						nTime = -2,
+						szName = "破阵点将·二·常驻",
+					},
 					{
 						key = "天气事件1",
 						nClass = 20,
@@ -67951,11 +68024,13 @@ return {
 				},
 				aCataclysmBuff = {
 					{
+						nPriority = 43,
 						szReminder = "逃",
 					},
 				},
 				dwID = 11880,
 				nLevel = 1,
+				nScrutinyType = 2,
 			},
 			{
 				{
@@ -67963,12 +68038,13 @@ return {
 				},
 				aCataclysmBuff = {
 					{
-						nPriority = 30,
+						nPriority = 43,
 						szReminder = "逃",
 					},
 				},
 				dwID = 12821,
 				nLevel = 1,
+				nScrutinyType = 2,
 			},
 			{
 				{
@@ -67976,13 +68052,14 @@ return {
 				},
 				aCataclysmBuff = {
 					{
-						nPriority = 30,
+						nPriority = 43,
 						szReminder = "逃",
 					},
 				},
 				bCheckLevel = true,
 				dwID = 12800,
 				nLevel = 2,
+				nScrutinyType = 2,
 			},
 			{
 				{
@@ -67990,12 +68067,13 @@ return {
 				},
 				aCataclysmBuff = {
 					{
-						nPriority = 30,
+						nPriority = 43,
 						szReminder = "逃",
 					},
 				},
 				dwID = 12784,
 				nLevel = 1,
+				nScrutinyType = 2,
 			},
 			{
 				{
@@ -68003,12 +68081,13 @@ return {
 				},
 				aCataclysmBuff = {
 					{
-						nPriority = 30,
+						nPriority = 43,
 						szReminder = "逃",
 					},
 				},
 				dwID = 15082,
 				nLevel = 1,
+				nScrutinyType = 2,
 			},
 			{
 				{
@@ -68016,17 +68095,24 @@ return {
 				},
 				aCataclysmBuff = {
 					{
-						nPriority = 30,
+						nPriority = 43,
 						szReminder = "逃",
 					},
 				},
 				dwID = 15084,
 				nLevel = 1,
+				nScrutinyType = 2,
 			},
 			{
 				{
 					bBuffList = true,
 					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						nPriority = 43,
+						szReminder = "逃",
+					},
 				},
 				dwID = 18913,
 				nLevel = 1,
@@ -69225,6 +69311,20 @@ return {
 						nTime = -2,
 						szName = "屹立不倒",
 					},
+					{
+						key = "破阵点将·一·常驻",
+						nClass = -1,
+						nIcon = 7674,
+						nTime = -2,
+						szName = "破阵点将·一·常驻",
+					},
+					{
+						key = "破阵点将·二·常驻",
+						nClass = -1,
+						nIcon = 7676,
+						nTime = -2,
+						szName = "破阵点将·二·常驻",
+					},
 				},
 			},
 			{
@@ -69624,6 +69724,28 @@ return {
 						nIcon = 13,
 						nTime = -2,
 						szName = "通用事件",
+					},
+					{
+						key = "大攻防·奇袭场",
+						nClass = 1,
+						nIcon = 2402,
+						nRefresh = 999999,
+						nTime = -1,
+						szName = "大攻防·奇袭场",
+					},
+					{
+						key = "破阵点将·一·常驻",
+						nClass = 1,
+						nIcon = 7674,
+						nTime = -2,
+						szName = "破阵点将·一·常驻",
+					},
+					{
+						key = "破阵点将·二·常驻",
+						nClass = 1,
+						nIcon = 7676,
+						nTime = -2,
+						szName = "破阵点将·二·常驻",
 					},
 				},
 			},
@@ -73469,12 +73591,13 @@ return {
 				},
 				aCataclysmBuff = {
 					{
-						nPriority = 30,
+						nPriority = 43,
 						szReminder = "逃",
 					},
 				},
 				dwID = 15084,
 				nLevel = 1,
+				nScrutinyType = 2,
 			},
 			{
 				{
@@ -73482,12 +73605,13 @@ return {
 				},
 				aCataclysmBuff = {
 					{
-						nPriority = 30,
+						nPriority = 43,
 						szReminder = "逃",
 					},
 				},
 				dwID = 15082,
 				nLevel = 1,
+				nScrutinyType = 2,
 			},
 			{
 				{
@@ -73495,12 +73619,13 @@ return {
 				},
 				aCataclysmBuff = {
 					{
-						nPriority = 30,
+						nPriority = 43,
 						szReminder = "逃",
 					},
 				},
 				dwID = 12821,
 				nLevel = 1,
+				nScrutinyType = 2,
 			},
 			{
 				{
@@ -73508,13 +73633,14 @@ return {
 				},
 				aCataclysmBuff = {
 					{
-						nPriority = 30,
+						nPriority = 43,
 						szReminder = "逃",
 					},
 				},
 				bCheckLevel = true,
 				dwID = 12800,
 				nLevel = 2,
+				nScrutinyType = 2,
 			},
 			{
 				{
@@ -73522,12 +73648,13 @@ return {
 				},
 				aCataclysmBuff = {
 					{
-						nPriority = 30,
+						nPriority = 43,
 						szReminder = "逃",
 					},
 				},
 				dwID = 12784,
 				nLevel = 1,
+				nScrutinyType = 2,
 			},
 			{
 				dwID = 11579,
@@ -74384,6 +74511,20 @@ return {
 		},
 		[-2] = {
 			{
+				{
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						nPriority = 43,
+						szReminder = "逃",
+					},
+				},
+				dwID = 33928,
+				nLevel = 1,
+				nScrutinyType = 2,
+			},
+			{
 				dwID = 34176,
 				nIcon = 18640,
 				nLevel = 1,
@@ -74585,11 +74726,13 @@ return {
 				},
 				aCataclysmBuff = {
 					{
+						nPriority = 43,
 						szReminder = "逃",
 					},
 				},
 				dwID = 11880,
 				nLevel = 1,
+				nScrutinyType = 2,
 			},
 			{
 				{
@@ -74597,12 +74740,13 @@ return {
 				},
 				aCataclysmBuff = {
 					{
-						nPriority = 30,
+						nPriority = 43,
 						szReminder = "逃",
 					},
 				},
 				dwID = 12821,
 				nLevel = 1,
+				nScrutinyType = 2,
 			},
 			{
 				{
@@ -74610,13 +74754,14 @@ return {
 				},
 				aCataclysmBuff = {
 					{
-						nPriority = 30,
+						nPriority = 43,
 						szReminder = "逃",
 					},
 				},
 				bCheckLevel = true,
 				dwID = 12800,
 				nLevel = 2,
+				nScrutinyType = 2,
 			},
 			{
 				{
@@ -74624,12 +74769,13 @@ return {
 				},
 				aCataclysmBuff = {
 					{
-						nPriority = 30,
+						nPriority = 43,
 						szReminder = "逃",
 					},
 				},
 				dwID = 12784,
 				nLevel = 1,
+				nScrutinyType = 2,
 			},
 			{
 				{
@@ -74637,12 +74783,13 @@ return {
 				},
 				aCataclysmBuff = {
 					{
-						nPriority = 30,
+						nPriority = 43,
 						szReminder = "逃",
 					},
 				},
 				dwID = 15082,
 				nLevel = 1,
+				nScrutinyType = 2,
 			},
 			{
 				{
@@ -74650,17 +74797,24 @@ return {
 				},
 				aCataclysmBuff = {
 					{
-						nPriority = 30,
+						nPriority = 43,
 						szReminder = "逃",
 					},
 				},
 				dwID = 15084,
 				nLevel = 1,
+				nScrutinyType = 2,
 			},
 			{
 				{
 					bBuffList = true,
 					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						nPriority = 43,
+						szReminder = "逃",
+					},
 				},
 				dwID = 18913,
 				nLevel = 1,
@@ -74789,7 +74943,7 @@ return {
 				nScrutinyType = 1,
 				tCountdown = {
 					{
-						key = "阵营转换",
+						key = "阵营业务",
 						nClass = 1,
 						nFrame = 8,
 						nIcon = 3359,
@@ -107534,7 +107688,7 @@ return {
 				},
 				aFocus = {
 					{
-						nMaxDistance = 20,
+						nMaxDistance = 6,
 						szDisplay = "天降宝堆·周年活动",
 					},
 				},
@@ -166188,6 +166342,90 @@ return {
 				},
 			},
 			{
+				szContent = "阵营业务繁忙，中立侠士只能停留30分钟，您将传出场景",
+				szNote = "中立侠士·传出场景",
+				tCountdown = {
+					{
+						key = "阵营业务",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 13,
+						nTime = 5,
+						szName = "中立侠士·传出场景",
+					},
+				},
+			},
+			{
+				szContent = "阵营业务繁忙，中立侠士只能停留30分钟，您将在1分钟后传出场景",
+				szNote = "中立侠士·请离场景",
+				tCountdown = {
+					{
+						key = "阵营业务",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 13,
+						nTime = 60,
+						szName = "中立侠士·传出剩余",
+					},
+				},
+			},
+			{
+				szContent = "阵营业务繁忙，中立侠士只能停留30分钟，您将在2分钟后传出场景",
+				szNote = "中立侠士·请离场景",
+				tCountdown = {
+					{
+						key = "阵营业务",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 13,
+						nTime = 120,
+						szName = "中立侠士·传出剩余",
+					},
+				},
+			},
+			{
+				szContent = "阵营业务繁忙，中立侠士只能停留30分钟，您将在3分钟后传出场景",
+				szNote = "中立侠士·请离场景",
+				tCountdown = {
+					{
+						key = "阵营业务",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 13,
+						nTime = 180,
+						szName = "中立侠士·传出剩余",
+					},
+				},
+			},
+			{
+				szContent = "阵营业务繁忙，中立侠士只能停留30分钟，您将在4分钟后传出场景",
+				szNote = "中立侠士·请离场景",
+				tCountdown = {
+					{
+						key = "阵营业务",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 13,
+						nTime = 240,
+						szName = "中立侠士·传出剩余",
+					},
+				},
+			},
+			{
+				szContent = "阵营业务繁忙，中立侠士只能停留30分钟，您将在5分钟后传出场景",
+				szNote = "中立侠士·请离场景",
+				tCountdown = {
+					{
+						key = "阵营业务",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 13,
+						nTime = 300,
+						szName = "中立侠士·传出剩余",
+					},
+				},
+			},
+			{
 				col = {
 					255,
 					255,
@@ -166289,7 +166527,7 @@ return {
 						nIcon = 2401,
 						nRefresh = 1,
 						nTime = "60,{$4}{$5}·{$6}分·{$7}{$8}·{$9}分;840,阶段·物资车2·出发剩余;850,阶段·物资车2·正在出发;900,阶段·首领出战·助战剩余;905,阶段·首领出战·助战结束;2695,阶段·破阵点将2·结算剩余;2705,阶段·破阵点将2·正在结算;2710,阶段·物资车3·正在出发;4500,阶段·本场攻防·结束剩余;4505,阶段·本场攻防·正在结算;4510,阶段·本场攻防·已经结束",
-						szName = "{$4}·{$6}分·{$7}·{$9}分",
+						szName = "{$4}{$5}·{$6}分·{$7}{$8}·{$9}分",
 					},
 					{
 						key = "破阵点将·二",
@@ -166298,7 +166536,32 @@ return {
 						nIcon = 2401,
 						nRefresh = 1,
 						nTime = "60,{$4}{$5}·{$6}分·{$7}{$8}·{$9}分;1800,阶段·本场攻防·结束剩余;1805,阶段·本场攻防·正在结算;1810,阶段·本场攻防·已经结束",
-						szName = "{$4}·{$6}分·{$7}·{$9}分",
+						szName = "{$4}{$5}·{$6}分·{$7}{$8}·{$9}分",
+					},
+					{
+						key = "破阵点将·二·常驻",
+						nClass = 14,
+						nFrame = -1,
+						nIcon = 7674,
+						nRefresh = 1,
+						nTime = "2700,{$4}{$5}·{$6}分·{$7}{$8}·{$9}分;4500,{$4}{$5}·{$6}分·{$7}{$8}·{$9}分",
+						szName = "{$4}{$5}·{$6}分·{$7}{$8}·{$9}分",
+					},
+					{
+						key = "破阵点将·一·常驻",
+						nClass = 14,
+						nFrame = -1,
+						nIcon = 7676,
+						nRefresh = 1,
+						nTime = "1800,{$4}{$5}·{$6}分·{$7}{$8}·{$9}分",
+						szName = "{$4}{$5}·{$6}分·{$7}{$8}·{$9}分",
+					},
+					{
+						key = "破阵点将·{$3}·常驻",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -1,
+						szName = "破阵点将·{$3}",
 					},
 				},
 			},
@@ -198830,6 +199093,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1788540886,
+		nTimeStamp = 1788764269,
 	},
 }
