@@ -9316,6 +9316,7 @@ return {
 						szReminder = "免",
 					},
 				},
+				bCheckLevel = true,
 				col = {
 					179,
 					238,
@@ -27224,6 +27225,7 @@ return {
 						szReminder = "免",
 					},
 				},
+				bCheckLevel = true,
 				col = {
 					179,
 					238,
@@ -30881,6 +30883,16 @@ return {
 						szName = "疾步·逍遥散·移速加成",
 					},
 				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 71019,
+				nIcon = 4573,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "抗摔",
 			},
 			{
 				{
@@ -41186,26 +41198,6 @@ return {
 				},
 			},
 			{
-				col = {
-					255,
-					255,
-					100,
-				},
-				szContent = "正在拍卖世界首领掉落的稀有物品，其中有当前最高品质附魔，诸位侠士们切勿错过！\
-",
-				szNote = "世界首领·拍卖掉落",
-				tCountdown = {
-					{
-						key = "拍卖分红",
-						nClass = 20,
-						nFrame = 0,
-						nIcon = 13,
-						nTime = 30,
-						szName = "世界首领·拍卖掉落",
-					},
-				},
-			},
-			{
 				szContent = "未到报名时间，或请重新打开界面!\
 ",
 				szNote = "武林争霸赛·未到报名时间",
@@ -41253,6 +41245,26 @@ return {
 						nIcon = 13,
 						nTime = 10,
 						szName = "武林争霸赛·练习赛·已经报名",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "正在拍卖世界首领掉落的稀有物品，其中有当前最高品质附魔，诸位侠士们切勿错过！\
+",
+				szNote = "世界首领·拍卖掉落",
+				tCountdown = {
+					{
+						key = "拍卖分红",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 30,
+						szName = "世界首领·拍卖掉落",
 					},
 				},
 			},
@@ -47907,26 +47919,6 @@ return {
 				},
 			},
 			{
-				col = {
-					255,
-					255,
-					100,
-				},
-				szContent = "正在拍卖世界首领掉落的稀有物品，其中有当前最高品质附魔，诸位侠士们切勿错过！\
-",
-				szNote = "世界首领·拍卖掉落",
-				tCountdown = {
-					{
-						key = "拍卖分红",
-						nClass = 20,
-						nFrame = 0,
-						nIcon = 13,
-						nTime = 30,
-						szName = "世界首领·拍卖掉落",
-					},
-				},
-			},
-			{
 				szContent = "未到报名时间，或请重新打开界面!\
 ",
 				szNote = "武林争霸赛·未到报名时间",
@@ -47974,6 +47966,26 @@ return {
 						nIcon = 13,
 						nTime = 10,
 						szName = "武林争霸赛·练习赛·已经报名",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "正在拍卖世界首领掉落的稀有物品，其中有当前最高品质附魔，诸位侠士们切勿错过！\
+",
+				szNote = "世界首领·拍卖掉落",
+				tCountdown = {
+					{
+						key = "拍卖分红",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 30,
+						szName = "世界首领·拍卖掉落",
 					},
 				},
 			},
@@ -87583,6 +87595,7 @@ return {
 				{
 					bBuffList = true,
 				},
+				bCheckLevel = true,
 				col = {
 					0,
 					255,
@@ -89195,7 +89208,7 @@ return {
 				nIcon = 13383,
 				nLevel = 1,
 				nScrutinyType = 2,
-				szName = "大道无术·至柔",
+				szName = "眩晕·大道无术",
 			},
 			{
 				{
@@ -89222,7 +89235,7 @@ return {
 				nIcon = 13383,
 				nLevel = 1,
 				nScrutinyType = 2,
-				szName = "大道无术·至柔",
+				szName = "眩晕·大道无术",
 			},
 			{
 				{
@@ -92332,7 +92345,6 @@ return {
 						szReminder = "轻",
 					},
 				},
-				bCheckLevel = true,
 				col = {
 					31,
 					63,
@@ -199110,6 +199122,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1788861324,
+		nTimeStamp = 1789028930,
 	},
 }

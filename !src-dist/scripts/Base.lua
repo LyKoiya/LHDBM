@@ -2,6 +2,14 @@ local M = {}
 
 M.MY_TM_TYPE_LIST = { 'BUFF', 'DEBUFF', 'CASTING', 'NPC', 'DOODAD', 'TALK', 'CHAT' }
 
+-- 打印表
+function M.printTable(var)
+    local str = M.var2str(var)
+    print(str)
+    return str
+end
+
+-- 变量是否问空
 local function empty(var)
     local szType = type(var)
     if szType == 'nil' then
@@ -19,6 +27,155 @@ local function empty(var)
     else
         return false
     end
+end
+
+-- 深拷贝表
+function M.clone(var)
+    local szType = type(var)
+    if szType == 'nil' or szType == 'boolean' or szType == 'number' or szType == 'string' then
+        return var
+    elseif szType == 'table' then
+        local t = {}
+        for key, val in pairs(var) do
+            key = M.clone(key)
+            val = M.clone(val)
+            t[key] = val
+        end
+        return t
+    elseif szType == 'function' or szType == 'userdata' then
+        return nil
+    else
+        return nil
+    end
+end
+
+-- 简单JSON解析
+function M.parseJson(str)
+    str = str:gsub("^%s+", ""):gsub("%s+$", "")
+    if str:match("^{.*}$") then
+        local result = {}
+        for key, value in str:gmatch('"([^"]+)"%s*:%s*([^,}]+)') do
+            value = value:gsub('^%s*"', ""):gsub('"$', "")
+            if value == "true" then value = true end
+            if value == "false" then value = false end
+            result[key] = value
+        end
+        return result
+    end
+    return nil
+end
+
+-- 判断数据是否为字符串
+---@param var any @需要判断的数据
+---@return boolean @是否为字符串
+function M.IsString(var)
+    return type(var) == 'string'
+end
+
+-- 取字符串左边
+function M.strLeft(szText, delimiter)
+    if M.IsString(szText) then
+        local pos = szText:find(delimiter, 1, true)
+        if pos then
+            return szText:sub(1, pos - 1)
+        else
+            return szText
+        end
+    end
+end
+
+-- 取字符串右边
+function M.strRight(szText, delimiter)
+    if M.IsString(szText) then
+        local pos = szText:find(delimiter, 1, true)
+        if pos then
+            return szText:sub(pos + 1)
+        else
+            return szText
+        end
+    end
+end
+
+-- 取字符串中间
+function M.strMid(szText, delimiter1, delimiter2)
+    if M.IsString(szText) then
+        local left = szText:find(delimiter1, 1, true)
+        local right = szText:find(delimiter2, 1, true)
+        if left and right then
+            return szText:sub(left + #delimiter1, right - 1)
+        end
+    end
+    return szText
+end
+
+-- 删除字符串末尾的指定字符
+function M.strDelEnd(szText, delimiter)
+    if M.IsString(szText) then
+        local pos = szText:sub(-#delimiter)
+        if pos == delimiter then
+            return M.strDelEnd(szText:sub(1, -#delimiter - 1), delimiter)
+        else
+            return szText
+        end
+    end
+end
+
+-- 删除字符串开头的指定字符
+function M.strDelStart(szText, delimiter)
+    if M.IsString(szText) then
+        local pos = szText:sub(1, #delimiter)
+        if pos == delimiter then
+            return M.strDelStart(szText:sub(#delimiter + 1), delimiter)
+        else
+            return szText
+        end
+    end
+end
+
+-- 删除字符串两端的指定字符
+function M.strDelBothEnd(szText, delimiter)
+    return M.strDelEnd(M.strDelStart(szText, delimiter), delimiter)
+end
+
+-- 分隔字符串
+function M.split(str, delimiter)
+    local result = {}
+
+    -- 如果字符串为空，返回空表
+    if str == nil or str == "" then
+        return result
+    end
+
+    -- 如果分隔符为空，返回包含整个字符串的表
+    if delimiter == nil or delimiter == "" then
+        return { str }
+    end
+
+    local start_pos = 1
+    while true do
+        -- 使用 string.find 并启用 plain 模式（不解析正则）
+        local end_pos = string.find(str, delimiter, start_pos, true)
+
+        if not end_pos then
+            -- 没有更多分隔符，取最后一段
+            table.insert(result, string.sub(str, start_pos))
+            break
+        end
+
+        -- 提取从 start_pos 到 end_pos-1 的子串
+        local segment = string.sub(str, start_pos, end_pos - 1)
+        table.insert(result, segment)
+
+        -- 跳过分隔符
+        start_pos = end_pos + #delimiter
+
+        -- 如果已经到达字符串末尾，退出循环
+        if start_pos > #str then
+            break
+        end
+    end
+
+    return result
 end
 
 -- 是否为空表
@@ -91,14 +248,13 @@ local function serialize(var, indent, nLevel, nMaxLevel, tVisited)
     elseif szType == 'boolean' then
         table.insert(t, tostring(var))
     elseif szType == 'table' then
-        if tVisited == nil then
-            tVisited = setmetatable({}, { __mode = 'k' })
+        if tVisited then
+            if tVisited[var] then
+                table.insert(t, '"<circular reference>"')
+                return table.concat(t)
+            end
+            tVisited[var] = true
         end
-        if tVisited[var] then
-            table.insert(t, '"<circular reference>"')
-            return table.concat(t)
-        end
-        tVisited[var] = true
 
         table.insert(t, '{')
         local s_tab_equ = '='
@@ -215,6 +371,9 @@ local function serialize(var, indent, nLevel, nMaxLevel, tVisited)
 end
 
 -- 反序列化,字符串转表
+---@param str  string
+---@param env? table
+---@return table | nil, string | nil
 function M.str2var(str, env)
     if type(str) ~= 'string' then
         return nil, string.format('bad argument #1 to str2var, string expected, got %s', type(str))
@@ -222,9 +381,9 @@ function M.str2var(str, env)
 
     local fn, err
     -- Lua 5.1
-    fn, err = loadstring('return ' .. str)
+    fn, err = loadstring(str)
     if not fn then
-        fn, err = loadstring(str)
+        fn, err = loadstring('return ' .. str)
     end
     if fn and env then
         setfenv(fn, env)
@@ -256,8 +415,8 @@ end
 
 -- 将table格式化为字符串，有序的
 function M.var2str(var, indent, nLevel, nMaxLevel)
-    local tVisited = setmetatable({}, { __mode = 'k' })
-    return serialize(var, indent, nLevel or 0, nMaxLevel, tVisited)
+    -- local tVisited = setmetatable({}, { __mode = 'k' })
+    return serialize(var, indent, nLevel or 0, nMaxLevel, nil)
 end
 
 -- 反转数组顺序
@@ -268,6 +427,16 @@ function M.arrayReverse(arr)
         arr[i], arr[j] = arr[j], arr[i]
     end
     return arr
+end
+
+-- 判断文件是否存在
+function M.fileExists(path)
+	local f = io.open(path, "r")
+	if f then
+		f:close()
+		return true
+	end
+	return false
 end
 
 M.empty = empty
