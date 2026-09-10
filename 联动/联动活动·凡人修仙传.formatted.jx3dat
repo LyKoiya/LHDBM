@@ -1,0 +1,147 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {
+		[642] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 11995,
+				szNote = "渡厄问心·百灵芝",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 11994,
+				szNote = "渡厄问心·青蕴灵草",
+			},
+		},
+	},
+	NPC = {
+		[6] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 138360,
+				nFrame = 47,
+				szNote = "藏愚",
+			},
+		},
+		[642] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 138357,
+				nFrame = 47,
+				szNote = "渡厄问心·银月",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 138355,
+				nFrame = 47,
+				szNote = "渡厄问心·韩立",
+			},
+		},
+	},
+	TALK = {},
+	__meta = {
+		nTimeStamp = 1789040216,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+	},
+}
