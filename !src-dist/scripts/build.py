@@ -258,9 +258,12 @@ def runPack(filesPath):
         L.pcall(2, 0, 0)
         L.close()
 
+def main() -> None:
+    """主入口：执行打包任务。"""
+    # 只处理 .xlsx 和 .jx3dat 文件
+    files = get_filtered_files(packList, ALLOWED_EXTENSIONS)
+    print(f"find {len(files)} files to process.")
+    runPack(files)
 
-# 只处理 .xlsx 和 .jx3dat 文件
-files = get_filtered_files(packList, ALLOWED_EXTENSIONS)
-print(f"find {len(files)} files to process.")
-runPack(files)
-
+if __name__ == "__main__":
+    main()
