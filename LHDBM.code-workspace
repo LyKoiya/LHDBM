@@ -33,6 +33,7 @@
 			"**/*.ini.zh_TW": "utf8",
 			"**/*.ini": "gbk",
 			"**/*.txt": "gbk",
+			"**/global.lua": "utf8",
 		},
 	},
 	"launch": {
