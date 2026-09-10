@@ -108,12 +108,7 @@ packList = [
         "Checked": True
     },
     {
-        "Path": "\\联动\\联动活动·冠军侯.formatted.jx3dat",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\联动\\联动活动·鹅鸭杀.formatted.jx3dat",
+        "Path": "\\联动\\联动活动·常驻·冠军侯.formatted.jx3dat",
         "Method": "fileMerge",
         "Checked": True
     },
@@ -124,6 +119,16 @@ packList = [
     },
     {
         "Path": "\\预热\\预热活动·暗影千机.formatted.jx3dat",
+        "Method": "fileMerge",
+        "Checked": True
+    },
+    {
+        "Path": "\\联动\\联动活动·鹅鸭杀.formatted.jx3dat",
+        "Method": "fileMerge",
+        "Checked": True
+    },
+    {
+        "Path": "\\联动\\联动活动·凡人修仙传.formatted.jx3dat",
         "Method": "fileMerge",
         "Checked": True
     },
