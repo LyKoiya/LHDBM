@@ -1,0 +1,771 @@
+return {
+	BUFF = {
+		[662] = {
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 27529,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "免伤",
+				szNote = "{$B27529灵动",
+				tCountdown = {
+					{
+						key = "罗小黑·无敌",
+						nClass = 2,
+						nFrame = 0,
+						nIcon = 2130,
+						nTime = 0,
+						szName = "罗小黑·无敌",
+					},
+					{
+						key = "罗小黑·无敌",
+						nClass = 1,
+						nIcon = 2130,
+						nTime = 3,
+						szName = "免伤",
+					},
+				},
+			},
+		},
+	},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {
+		[662] = {
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 27539,
+				nLevel = 1,
+				szName = "挑战",
+				szNote = "特殊挑战完成度计数",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 27546,
+				nLevel = 1,
+				szName = "时间",
+				szNote = "抓紧时间",
+				tCountdown = {
+					{
+						key = "时间限制",
+						nClass = 2,
+						nIcon = 21130,
+						nTime = 0,
+						szName = "时间限制",
+					},
+					{
+						key = "时间限制",
+						nClass = 1,
+						nIcon = 21130,
+						nTime = 0,
+						szName = "时间限制",
+					},
+					{
+						key = "时间限制",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 21130,
+						nTime = 300,
+						szName = "时间限制",
+					},
+					{
+						key = "罗小黑·无敌",
+						nClass = 2,
+						nIcon = 21130,
+						nTime = 0,
+						szName = "罗小黑·无敌",
+					},
+				},
+			},
+			{
+				dwID = 27418,
+				nLevel = 1,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 27491,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "弥灵果",
+				szNote = "罗小黑资源",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 27492,
+				nLevel = 1,
+				szName = "生命",
+				szNote = "森林之灵",
+				tCountdown = {
+					{
+						key = "罗小黑·无敌",
+						nClass = 2,
+						nIcon = 2117,
+						nTime = 0,
+						szName = "罗小黑·无敌",
+					},
+				},
+			},
+			{
+				dwID = 27557,
+				nLevel = 1,
+			},
+			{
+				{
+					bBuffList = true,
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				dwID = 27569,
+				nCount = 7,
+				nLevel = 1,
+				tCountdown = {
+					{
+						key = "罗小黑·提示·监视",
+						nClass = 1,
+						nFrame = 5,
+						nIcon = 2020,
+						nTime = 4.2,
+						szName = "停止·不动·消除监视",
+					},
+					{
+						key = "罗小黑·提示·监视",
+						nClass = 2,
+						nIcon = 2020,
+						nTime = 0,
+						szName = "罗小黑·提示·监视",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 27574,
+				nLevel = 1,
+				szName = "警觉",
+			},
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				col = {
+					165,
+					96,
+					232,
+				},
+				dwID = 27576,
+				nLevel = 1,
+			},
+		},
+	},
+	DOODAD = {},
+	NPC = {
+		[662] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "陷阱·地雷",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 125775,
+				nFrame = 57,
+				szName = "陷阱·地雷",
+				szNote = "陷阱·地雷",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 125765,
+				nFrame = 52,
+				szName = "弥灵果",
+				szNote = "弥灵果",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 3,
+						szDisplay = "存档",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 125815,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 126250,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						szDisplay = "起点",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 126039,
+				nFrame = 57,
+				szName = "起点",
+				szNote = "起点·光圈",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						szDisplay = "终点",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 126037,
+				nFrame = 57,
+				szName = "终点",
+				szNote = "终点",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 5,
+						szDisplay = "陷阱·植物",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 125814,
+				nFrame = 57,
+				szName = "陷阱·植物",
+				szNote = "陷阱·植物",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 12,
+						szDisplay = "重置",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 126077,
+				nFrame = 57,
+				szName = "重置",
+				szNote = "触碰重置NPC",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						szDisplay = "陷阱·鸟",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 125833,
+				nFrame = 57,
+				szName = "陷阱·鸟",
+				szNote = "陷阱·鸟",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						szDisplay = "弥灵果·大",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 126251,
+				nFrame = 52,
+				szName = "弥灵果·大",
+				szNote = "弥灵果·大",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 8,
+						szDisplay = "陷阱·猴子",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 126059,
+				nFrame = 57,
+				szName = "陷阱·猴子",
+				szNote = "陷阱·猴子",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				dwID = 126015,
+				nFrame = 57,
+				szName = "限位",
+			},
+			{
+				dwID = 126060,
+				nFrame = 57,
+				szName = "起点·关卡",
+				szNote = "起点·关卡",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 1,
+						szDisplay = "巨猿",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 126057,
+				nFrame = 57,
+				szName = "巨猿",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						szDisplay = "陷阱·猴",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 126058,
+				nFrame = 57,
+				szName = "陷阱·猴",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						szDisplay = "盗猎者",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 126129,
+				nFrame = 57,
+				szName = "盗猎者",
+				szNote = "盗猎者",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						szDisplay = "重置冲刺",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 126135,
+				nFrame = 52,
+				szName = "重置冲刺",
+				szNote = "重置冲刺",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "陷阱·飞镖",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 126137,
+				nFrame = 57,
+				szName = "陷阱·飞镖",
+				szNote = "陷阱·飞镖",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "恶狼",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 126179,
+				nFrame = 57,
+				szName = "恶狼",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "障碍·花瓣",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 126207,
+				nFrame = 52,
+				szName = "障碍·花瓣",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "障碍·球",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 126235,
+				nFrame = 57,
+				szName = "障碍·球",
+				szNote = "障碍·球",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 3,
+						szDisplay = "乘黄",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 126238,
+				nFrame = 57,
+				szName = "乘黄",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 81,
+						szDisplay = "大乘黄",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 126239,
+				nFrame = 57,
+				szName = "大乘黄",
+				szNote = "大乘黄",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "小乘黄·1.5尺警觉",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 126237,
+				nFrame = 57,
+				szName = "小乘黄",
+				szNote = "小乘黄",
+			},
+		},
+	},
+	TALK = {},
+	__meta = {
+		nTimeStamp = 1789039655,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+	},
+}

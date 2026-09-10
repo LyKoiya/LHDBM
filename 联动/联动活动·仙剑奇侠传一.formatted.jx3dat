@@ -5,22 +5,22 @@ return {
 				nLevel = 1,
 				nScrutinyType = 2,
 				szName = "风速",
-				dwID = 30164,
-				szNote = "风灵之力",
 				[1] = {
 					bBuffList = true,
 				},
+				szNote = "寻梦仙灵·风灵之力",
+				dwID = 30164,
 			},
 			{
 				nLevel = 1,
 				nScrutinyType = 2,
 				szName = "火伤",
-				dwID = 30163,
-				szNote = "火灵之力",
 				[1] = {
 					bBuffList = true,
 					bScreenHead = true,
 				},
+				szNote = "寻梦仙灵·火灵之力",
+				dwID = 30163,
 			},
 		},
 	},
@@ -29,8 +29,6 @@ return {
 		[703] = {
 			{
 				nLevel = 1,
-				dwID = 40226,
-				szNote = "甲士·立盾",
 				tCountdown = {
 					{
 						nClass = 8,
@@ -40,20 +38,22 @@ return {
 						nIcon = 13,
 					},
 				},
+				szNote = "寻梦仙灵·甲士·立盾",
+				dwID = 40226,
 			},
 			{
 				nLevel = 1,
 				nScrutinyType = 1,
 				dwID = 39916,
-				szNote = "土灵之力",
+				szNote = "寻梦仙灵·土灵之力",
 				tCountdown = {
 					{
 						nClass = 9,
 						key = "土灵之力",
 						nTime = 5,
 						szName = "土灵之力·击飞眩晕20s",
-						nFrame = 1,
 						nIcon = 23817,
+						nFrame = 1,
 					},
 				},
 			},
@@ -61,43 +61,43 @@ return {
 				nLevel = 1,
 				nScrutinyType = 1,
 				dwID = 39915,
-				szNote = "雷灵之力",
+				szNote = "寻梦仙灵·雷灵之力",
 				tCountdown = {
 					{
 						nClass = 8,
 						key = "雷灵之力",
 						nTime = 10,
 						szName = "雷灵之力·移动多段伤害",
-						nFrame = 8,
 						nIcon = 23815,
+						nFrame = 8,
 					},
 				},
 			},
 			{
 				nLevel = 1,
 				nScrutinyType = 1,
-				szNote = "火灵之力",
+				szNote = "寻梦仙灵·火灵之力",
 				dwID = 39914,
 			},
 			{
 				nLevel = 1,
 				nScrutinyType = 1,
-				szNote = "风灵之力",
+				szNote = "寻梦仙灵·风灵之力",
 				dwID = 39917,
 			},
 			{
 				nLevel = 1,
 				nScrutinyType = 1,
 				dwID = 39913,
-				szNote = "水灵之力",
+				szNote = "寻梦仙灵·水灵之力",
 				tCountdown = {
 					{
 						nClass = 9,
 						key = "水灵之力",
 						nTime = 5,
 						szName = "水灵之力·重置技能CD",
-						nFrame = 7,
 						nIcon = 23816,
+						nFrame = 7,
 					},
 					{
 						nClass = 9,
@@ -119,15 +119,15 @@ return {
 				nLevel = 1,
 				nScrutinyType = 1,
 				dwID = 39912,
-				szNote = "乾坤一掷",
+				szNote = "寻梦仙灵·乾坤一掷",
 				tCountdown = {
 					{
 						nClass = 9,
 						key = "乾坤一掷",
 						nTime = 5,
 						szName = "乾坤一掷·单体眩晕1s",
-						nFrame = 4,
 						nIcon = 99,
+						nFrame = 4,
 					},
 				},
 			},
@@ -135,7 +135,7 @@ return {
 				nLevel = 1,
 				nScrutinyType = 1,
 				dwID = 39910,
-				szNote = "地裂山崩掌",
+				szNote = "寻梦仙灵·地裂山崩掌",
 				tCountdown = {
 					{
 						nClass = 9,
@@ -143,8 +143,8 @@ return {
 						nTime = "8,地裂山崩掌·群体眩晕8s;10,地裂山崩掌·CD",
 						szName = "地裂山崩掌·群体眩晕8s",
 						nRefresh = 0,
-						nFrame = 4,
 						nIcon = 24299,
+						nFrame = 4,
 					},
 				},
 			},
@@ -152,7 +152,7 @@ return {
 				nLevel = 1,
 				nScrutinyType = 1,
 				dwID = 39911,
-				szNote = "风起云扬腿",
+				szNote = "寻梦仙灵·风起云扬腿",
 				tCountdown = {
 					{
 						nClass = 8,
@@ -160,8 +160,8 @@ return {
 						nTime = "5,风起云扬腿·风车多段伤害;20,风起云扬腿·CD",
 						szName = "风起云扬腿·风车多段伤害",
 						nRefresh = 0,
-						nFrame = 3,
 						nIcon = 24289,
+						nFrame = 3,
 					},
 				},
 			},
@@ -256,8 +256,8 @@ return {
 						key = "水灵之力",
 						nTime = 5,
 						szName = "锦八爷·重置技能CD",
-						nIcon = 23816,
 						nFrame = 7,
+						nIcon = 23816,
 					},
 					{
 						nClass = 14,
@@ -283,8 +283,8 @@ return {
 						key = "生命值",
 						nTime = 60,
 						szName = "圣灵珠·生命值·{$3}",
-						nFrame = 2,
 						nIcon = 13,
+						nFrame = 2,
 					},
 				},
 				szContent = "【(.-)】对圣灵珠造成了【(%d-)】点伤害，圣灵珠剩余生命值【(%d-)】点。",
@@ -304,8 +304,8 @@ return {
 						key = "任务提示1",
 						nTime = 30,
 						szName = "获得·90天限时称号·[水神]",
-						nIcon = 1241,
 						nFrame = 6,
+						nIcon = 1241,
 					},
 				},
 			},
@@ -317,8 +317,8 @@ return {
 						key = "任务提示1",
 						nTime = 60,
 						szName = "交互·五种灵珠·获得限时称号",
-						nIcon = 13,
 						nFrame = 6,
+						nIcon = 13,
 					},
 				},
 			},
@@ -343,8 +343,8 @@ return {
 						key = "任务提示1",
 						nTime = 10,
 						szName = "获得·宠物·[锦八爷]",
-						nFrame = 7,
 						nIcon = 23822,
+						nFrame = 7,
 					},
 				},
 				szContent = "你从袖中掏出仙药，却掏了个空，只见几片桃花纷纷扬扬洒落在空中。",
@@ -378,7 +378,7 @@ return {
 						},
 					},
 				},
-				szNote = "寻梦仙灵",
+				szNote = "寻梦仙灵·游驹",
 				dwID = 131632,
 			},
 			{
@@ -406,7 +406,7 @@ return {
 						},
 					},
 				},
-				szNote = "船夫·仙灵岛·传送",
+				szNote = "寻梦仙灵·船夫·仙灵岛·传送",
 				dwID = 131907,
 			},
 		},
@@ -416,6 +416,7 @@ return {
 				aFocus = {
 					{},
 				},
+				szNote = "寻梦仙灵·赵灵儿",
 				dwID = 131571,
 			},
 			{
@@ -423,6 +424,7 @@ return {
 				aFocus = {
 					{},
 				},
+				szNote = "寻梦仙灵·赵灵儿",
 				dwID = 131663,
 			},
 			{
@@ -430,6 +432,7 @@ return {
 				aFocus = {
 					{},
 				},
+				szNote = "寻梦仙灵·赵灵儿",
 				dwID = 132343,
 			},
 			{
@@ -457,6 +460,7 @@ return {
 						},
 					},
 				},
+				szNote = "寻梦仙灵·赵灵儿",
 				dwID = 131664,
 			},
 			{
@@ -484,6 +488,7 @@ return {
 						},
 					},
 				},
+				szNote = "寻梦仙灵·赵灵儿",
 				dwID = 131665,
 			},
 		},
@@ -513,7 +518,7 @@ return {
 						},
 					},
 				},
-				szNote = "船夫·主城·传送",
+				szNote = "寻梦仙灵·船夫·主城·传送",
 				dwID = 132160,
 			},
 			{
@@ -542,7 +547,7 @@ return {
 						},
 					},
 				},
-				szNote = "传送",
+				szNote = "寻梦仙灵·传送",
 				szName = "传送",
 			},
 			{
@@ -570,6 +575,7 @@ return {
 						},
 					},
 				},
+				szNote = "寻梦仙灵·一贫",
 				dwID = 131566,
 			},
 			{
@@ -597,7 +603,7 @@ return {
 						},
 					},
 				},
-				szNote = "叶灵",
+				szNote = "寻梦仙灵·叶灵",
 				dwID = 131567,
 			},
 			{
@@ -631,7 +637,7 @@ return {
 						},
 					},
 				},
-				szNote = "蝴蝶",
+				szNote = "寻梦仙灵·蝴蝶",
 				[3] = {
 					bScreenHead = true,
 				},
@@ -665,7 +671,7 @@ return {
 						},
 					},
 				},
-				szNote = "蜘蛛",
+				szNote = "寻梦仙灵·蜘蛛",
 				col = {
 					255,
 					50,
@@ -697,7 +703,7 @@ return {
 						},
 					},
 				},
-				szNote = "狗仙人",
+				szNote = "寻梦仙灵·狗仙人",
 				dwID = 132053,
 			},
 		},
@@ -706,7 +712,7 @@ return {
 				nFrame = 47,
 				dwID = 132430,
 				aFocus = {},
-				szNote = "方向",
+				szNote = "寻梦仙灵·方向",
 				szName = "方向",
 			},
 			{
@@ -739,7 +745,7 @@ return {
 						},
 					},
 				},
-				szNote = "鼠精帝王",
+				szNote = "寻梦仙灵·鼠精帝王",
 				col = {
 					255,
 					50,
@@ -756,7 +762,7 @@ return {
 				aFocus = {
 					{},
 				},
-				szNote = "锦八爷",
+				szNote = "寻梦仙灵·锦八爷",
 				col = {
 					0,
 					255,
@@ -773,7 +779,7 @@ return {
 				aFocus = {
 					{},
 				},
-				szNote = "鼠精甲士·持盾",
+				szNote = "寻梦仙灵·鼠精甲士·持盾",
 				col = {
 					255,
 					255,
@@ -789,7 +795,7 @@ return {
 				aFocus = {
 					{},
 				},
-				szNote = "鼠精甲士",
+				szNote = "寻梦仙灵·鼠精甲士",
 				col = {
 					255,
 					50,
@@ -803,7 +809,7 @@ return {
 				},
 				dwID = 131390,
 				aFocus = {},
-				szNote = "鼠精斥候",
+				szNote = "寻梦仙灵·鼠精斥候",
 				col = {
 					255,
 					50,
@@ -817,7 +823,7 @@ return {
 				},
 				dwID = 131389,
 				aFocus = {},
-				szNote = "鼠精新兵",
+				szNote = "寻梦仙灵·鼠精新兵",
 				col = {
 					255,
 					50,
@@ -826,62 +832,67 @@ return {
 			},
 			{
 				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
+				col = {
+					255,
+					150,
+					0,
 				},
 				dwID = 132017,
-				col = {
-					255,
-					150,
-					0,
+				szNote = "寻梦仙灵·土灵珠",
+				[3] = {
+					bScreenHead = true,
 				},
 			},
 			{
 				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
+				col = {
+					150,
+					100,
+					255,
 				},
 				dwID = 132016,
-				col = {
-					150,
-					100,
-					255,
+				szNote = "寻梦仙灵·雷灵珠",
+				[3] = {
+					bScreenHead = true,
 				},
 			},
 			{
 				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
+				col = {
+					255,
+					100,
+					100,
 				},
 				dwID = 132014,
-				col = {
-					255,
-					100,
-					100,
+				szNote = "寻梦仙灵·火灵珠",
+				[3] = {
+					bScreenHead = true,
 				},
 			},
 			{
 				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
+				col = {
+					50,
+					255,
+					50,
 				},
 				dwID = 132015,
-				col = {
-					50,
-					255,
-					50,
+				szNote = "寻梦仙灵·风灵珠",
+				[3] = {
+					bScreenHead = true,
 				},
 			},
 			{
 				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 132013,
 				col = {
 					0,
 					150,
 					255,
+				},
+				dwID = 132013,
+				szNote = "寻梦仙灵·水灵珠",
+				[3] = {
+					bScreenHead = true,
 				},
 			},
 		},
@@ -933,11 +944,11 @@ return {
 					0,
 				},
 				dwID = 30178,
-				nLevel = 1,
-				szNote = "圣灵挑战中",
 				[1] = {
 					bBuffList = true,
 				},
+				szNote = "寻梦仙灵·圣灵挑战中",
+				nLevel = 1,
 			},
 		},
 	},
@@ -945,7 +956,7 @@ return {
 		szServer = "唯我独尊",
 		szAuthor = "荷花鲤",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1747157110,
+		nTimeStamp = 1789039309,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 	},
@@ -956,30 +967,35 @@ return {
 				aFocus = {
 					{},
 				},
+				szNote = "寻梦仙灵·风灵珠",
 			},
 			{
 				dwID = 11217,
 				aFocus = {
 					{},
 				},
+				szNote = "寻梦仙灵·雷灵珠",
 			},
 			{
 				dwID = 11213,
 				aFocus = {
 					{},
 				},
+				szNote = "寻梦仙灵·水灵珠",
 			},
 			{
 				dwID = 11214,
 				aFocus = {
 					{},
 				},
+				szNote = "寻梦仙灵·火灵珠",
 			},
 			{
 				dwID = 11215,
 				aFocus = {
 					{},
 				},
+				szNote = "寻梦仙灵·土灵珠",
 			},
 			{
 				dwID = 11218,
@@ -1006,6 +1022,7 @@ return {
 						},
 					},
 				},
+				szNote = "寻梦仙灵·木箱",
 			},
 			{
 				dwID = 11115,
@@ -1032,7 +1049,7 @@ return {
 						},
 					},
 				},
-				szNote = "光圈·交互",
+				szNote = "寻梦仙灵·光圈·交互",
 				szName = "光圈1",
 			},
 			{
@@ -1060,7 +1077,7 @@ return {
 						},
 					},
 				},
-				szNote = "交互·光圈",
+				szNote = "寻梦仙灵·交互·光圈",
 				szName = "光圈2",
 			},
 			{
@@ -1088,7 +1105,7 @@ return {
 						},
 					},
 				},
-				szNote = "光圈",
+				szNote = "寻梦仙灵·光圈",
 				szName = "光圈3",
 			},
 			{
@@ -1116,6 +1133,7 @@ return {
 						},
 					},
 				},
+				szNote = "寻梦仙灵·祭拜",
 				szName = "祭拜",
 			},
 		},
@@ -1145,7 +1163,7 @@ return {
 						},
 					},
 				},
-				szNote = "光圈",
+				szNote = "寻梦仙灵·光圈",
 				szName = "光圈",
 			},
 		},
