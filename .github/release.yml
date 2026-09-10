@@ -1,0 +1,48 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: pip install -r '!src-dist/data/srequirements.txt'
+
+      - name: Run build script
+        run: python '!src-dist/scripts/build.py'
+
+      - name: Rename artifact
+        run: |
+          copy 匼第\mergerDBM.jx3dat 匼第\mergerDBM_${{ github.ref_name }}.jx3dat
+        shell: cmd
+        
+      - name: List output
+        run: |
+          dir
+          dir 匼第
+        shell: cmd
+
+      - name: Upload GitHub Releases
+        uses: softprops/action-gh-release@v2
+        with:
+          files: 匼第/mergerDBM_${{ github.ref_name }}.jx3dat
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
