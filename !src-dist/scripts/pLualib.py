@@ -429,10 +429,22 @@ class LuaState:
         """推送字符串到栈"""
         lua.lua_pushstring(self.state, s.encode("gbk") + b"\0")
 
-    def pushlstring(self, s: str):
-        """显式推送字符串到栈"""
-        lua.lua_pushlstring(self.state, s.encode("gbk"), len(s.encode("gbk")))
-    
+    def pushlstringA(self, s: str):
+        """显式推送gbk字符串到栈"""
+        if isinstance(s, bytes):
+            b = s
+        else:
+            b = s.encode('gbk')
+        lua.lua_pushlstring(self.state, b, len(b))
+
+    def pushlstringW(self, s: str):
+        """显式推送utf8字符串到栈"""
+        if isinstance(s, bytes):
+            b = s
+        else:
+            b = s.encode('utf-8')
+        lua.lua_pushlstring(self.state, b, len(b))
+
     def pushnumber(self, n: float):
         """推送数字到栈"""
         lua.lua_pushnumber(self.state, ctypes.c_double(n))
@@ -464,7 +476,11 @@ class LuaState:
     def settop(self, idx: int):
         """设置栈顶"""
         lua.lua_settop(self.state, idx)
-    
+
+    def pop(self, n: int) -> None:
+        """从栈顶弹出 n 个元素"""
+        lua.lua_settop(self.state, -n - 1)
+
     def tostring(self, idx: int) -> str:
         """将栈上的值转换为字符串"""
         result = lua.lua_tolstring(self.state, idx, None)

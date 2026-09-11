@@ -1,5 +1,3 @@
-os.execute("chcp")
-os.execute("chcp 936")
 
 package.path = package.path .. ';.\\!src-dist\\scripts\\?.lua'
 local X = require('Base')
@@ -85,9 +83,11 @@ end
 
 -- 合并表文件
 function fileMerge(szFile)
-	local tData = X.file2var(szFile)
+	local tData, err = X.file2var(szFile)
 	if tData then
 		tableMerge(tData)
+	else
+		print('fileMerge fail:' .. szFile .. err)
 	end
 end
 
