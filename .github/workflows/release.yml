@@ -23,26 +23,29 @@ jobs:
           python-version: '3.12'
 
       - name: Install deps
-        run: pip install -r '\!src-dist/data/srequirements.txt'
+        run: pip install -r '!src-dist/data/requirements.txt'
 
       - name: Run build script
-        run: python '\!src-dist/scripts/build.py'
-
-      - name: Rename artifact
-        run: |
-          copy 匼第\mergerDBM.jx3dat 匼第\mergerDBM_${{ github.ref_name }}.jx3dat
-        shell: cmd
+        run: python '!src-dist/scripts/build.py'
+        env:
+          PYTHONUTF8: "1"
+          PYTHONIOENCODING: utf-8
         
       - name: List output
         run: |
           dir
-          dir 匼第
+          dir output
+        shell: cmd
+
+      - name: Rename artifact
+        run: |
+          copy output\mergeDBM.jx3dat output\mergeDBM${{ github.ref_name }}.jx3dat
         shell: cmd
 
       - name: Upload GitHub Releases
         uses: softprops/action-gh-release@v2
         with:
-          files: 匼第/mergerDBM_${{ github.ref_name }}.jx3dat
+          files: output/mergeDBM${{ github.ref_name }}.jx3dat
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         

@@ -34,7 +34,7 @@
 			"**/*.ini": "gbk",
 			"**/*.txt": "gbk",
 			"**/global.lua": "utf8",
-			"**/*.yml": "gbk",
+			"**/*.yml":"utf8",
 		},
 	},
 	"launch": {

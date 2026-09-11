@@ -180,7 +180,7 @@ def teamBuff(L, Ranges, Method):
             i += 1
             result = "\t".join(str(item).replace("\t", "") for item in row)
             L.getglobal("decodeBuff")
-            L.pushlstring(result)
+            L.pushlstringA(result)
             if L.pcall(1, 0, 0) != 0:
                 print(f"Error calling decodeBuff({i}): {L.tostring(-1)}")
 
@@ -217,16 +217,18 @@ def runPack(filesPath):
         # 创建 Lua 状态机
         L = pLualib.LuaState()
         if L:
-            print("lua newstate success")
+            print("lua newstate success.")
         else:
-            print("lua newstate fail")
+            print("lua newstate fail.")
 
+        if L.dofile(lua_script):
+            print(f"dofile success {lua_script}.")
+        else:
+            print(f"dofile fail {L.tostring(-1)}.")
         i = 0
-        L.dofile (lua_script)
-
         for file_path, file_info in filesPath.items():
             i += 1
-            print(f"[{i}/{len(filesPath)}] Checked={file_info['Checked']} {file_info['Method']}: {os.path.basename(file_path)}")
+            print(f"[{i}/{len(filesPath)}] Checked={file_info['Checked']} {file_info['Method']}: {file_path}")
             # 只处理选中的且方法为fileMerge的文件
             if file_info['Checked']:
                 if file_path.lower().endswith(('.xls', '.xlsx')):
@@ -242,15 +244,21 @@ def runPack(filesPath):
                         for str in listStr:
                             if file_info['Method'] == "fileMerge":
                                 L.getglobal("strMerge")
-                                L.pushlstring(str)
+                                L.pushlstringA(str)
                                 if L.pcall(1, 0, 0) != 0:
                                     print(f"Error calling strMerge: {L.tostring(-1)}")
                     Workbook.close()
                 else:
-                    L.getglobal(file_info['Method'])
-                    L.pushlstring(file_path)
-                    if L.pcall(1, 0, 0) != 0:
-                        print(f"Error calling {file_info['Method']}: {L.tostring(-1)}")
+                    if file_info['Method'] == "fileMerge":
+                        with open(file_path, 'rb') as f:
+                            data = f.read()
+                        if data:
+                            L.getglobal("strMerge")
+                            L.pushlstringA(data)
+                            if L.pcall(1, 0, 0) != 0:
+                                print(f"Error calling {file_info['Method']}: {L.tostring(-1)}")
+                                L.pop(1)
+                                
             else:
                 continue
             
@@ -258,9 +266,12 @@ def runPack(filesPath):
         print(f"error: {e}")
     finally:
         L.getglobal("fileSave")
-        L.pushlstring(os.path.abspath("素材\\MergeDBM.jx3dat"))
+        L.pushlstringA(os.path.abspath("output\\mergeDBM.jx3dat"))
         L.pushinteger(3)
-        L.pcall(2, 0, 0)
+        if L.pcall(2, 0, 0) == 0:
+            print("fileSave success.")
+        else:
+            print("fileSave fail.")
         L.close()
 
 def main() -> None:
