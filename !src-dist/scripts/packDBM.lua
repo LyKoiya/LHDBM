@@ -458,8 +458,7 @@ local function clearInvalidData(tData, bDelNote, bDelFocus, bDelCataclysmBuff)
 						local aCataclysmBuff = vv.aCataclysmBuff
 						for kkk, tCataclysmBuff in ipairs(aCataclysmBuff) do
 							if not tCataclysmBuff.bScreenHead then-- 头顶染色未开启，头顶染色颜色无意义可清除
-
-							-- tCataclysmBuff.colScreenHead = nil
+								tCataclysmBuff.colScreenHead = nil
 							end
 							clearNil(tCataclysmBuff)
 						end
