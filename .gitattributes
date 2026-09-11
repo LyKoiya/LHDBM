@@ -4,3 +4,4 @@
 /*.py                export-ignore
 /*.lua               export-ignore
 /*.md                export-ignore
+/*.code-workspace    export-ignore
