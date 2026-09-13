@@ -145,7 +145,6 @@ return {
 					{
 						bOnlyMe = true,
 						col = "#00FFFFFF",
-						colScreenHead = "#00FFFF",
 						nColAlpha = 255,
 						nPriority = 2,
 						szReminder = "Æì",
@@ -198,7 +197,6 @@ return {
 					{
 						bOnlyMe = true,
 						col = "#00FFFFFF",
-						colScreenHead = "#00FFFF",
 						nColAlpha = 255,
 						nPriority = 2,
 						szReminder = "Æì",
@@ -2009,7 +2007,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 1,
 						szReminder = "Òþ",
@@ -2634,7 +2631,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF0000",
-						colScreenHead = "#00FF00",
 						nColAlpha = 0,
 						nPriority = 23,
 						szReminder = "µ¯",
@@ -2657,7 +2653,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "³¯",
@@ -2702,7 +2697,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "´º",
@@ -2726,7 +2720,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "Ê¥",
@@ -2750,7 +2743,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "¿û",
@@ -3355,7 +3347,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 23,
 						szReminder = "¼õ",
@@ -3379,7 +3370,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -3404,7 +3394,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Ìæ",
@@ -3427,7 +3416,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -3452,7 +3440,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Ìæ",
@@ -3476,7 +3463,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 17,
 						szReminder = "Ãâ",
@@ -3500,7 +3486,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -3524,7 +3509,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "ÉÁ",
@@ -3547,7 +3531,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -3571,7 +3554,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "¼õ",
@@ -3595,7 +3577,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -3619,7 +3600,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -3644,7 +3624,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "ÔÂ",
@@ -3667,7 +3646,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -3692,7 +3670,6 @@ return {
 					{
 						bOnlyMe = true,
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "ÈÍ",
@@ -3717,7 +3694,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "ÓÓ",
@@ -3740,7 +3716,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -3763,7 +3738,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 16,
 						szReminder = "³Ë",
@@ -3786,7 +3760,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 16,
 						szReminder = "³Ë",
@@ -3809,7 +3782,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -3832,7 +3804,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -3855,7 +3826,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -3880,7 +3850,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -3904,7 +3873,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -3928,7 +3896,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -3952,7 +3919,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -3976,7 +3942,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -3999,7 +3964,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -4022,7 +3986,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 17,
 						szReminder = "Ãâ",
@@ -4045,7 +4008,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 17,
 						szReminder = "Ãâ",
@@ -4068,7 +4030,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -4091,7 +4052,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -4115,7 +4075,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "¼õ",
@@ -4139,7 +4098,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -4163,7 +4121,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -4189,7 +4146,6 @@ return {
 					{
 						bOnlyMe = true,
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -4214,7 +4170,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 19,
 						szReminder = "Ãâ",
@@ -4240,7 +4195,6 @@ return {
 					{
 						bOnlyMe = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Òþ",
@@ -4265,7 +4219,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -4290,7 +4243,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Ä¾",
@@ -4314,7 +4266,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 16,
 						szReminder = "Ãâ",
@@ -4338,7 +4289,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 16,
 						szReminder = "Ãâ",
@@ -4362,7 +4312,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 20,
 						szReminder = "Ãâ",
@@ -4386,7 +4335,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -4410,7 +4358,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 17,
 						szReminder = "Ãâ",
@@ -4434,7 +4381,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "¿û",
@@ -4467,7 +4413,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Öð",
@@ -4490,7 +4435,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 17,
 						szReminder = "Öð",
@@ -4514,7 +4458,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#FFFF00FF",
-						colScreenHead = "#FFFF00",
 						nColAlpha = 255,
 						nPriority = 14,
 						szReminder = "¶¨",
@@ -4540,7 +4483,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Ë®",
@@ -4564,7 +4506,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 2,
 						szReminder = "Ë®",
@@ -4589,7 +4530,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 19,
 						szReminder = "Ãâ",
@@ -4613,7 +4553,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 19,
 						szReminder = "Ãâ",
@@ -4637,7 +4576,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -4662,7 +4600,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "½ð",
@@ -4685,7 +4622,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -4708,7 +4644,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -4731,7 +4666,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -4754,7 +4688,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -4777,7 +4710,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -4801,7 +4733,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "½ð",
@@ -4824,7 +4755,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¾Þ",
@@ -4847,7 +4777,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -4871,7 +4800,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -4894,7 +4822,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -4917,7 +4844,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¹í",
@@ -4941,7 +4867,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "¹í",
@@ -4965,7 +4890,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "ÉÁ",
@@ -4988,7 +4912,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 20,
 						szReminder = "¼õ",
@@ -5013,7 +4936,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "ÎÞ",
@@ -5037,7 +4959,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -5060,7 +4981,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -5083,7 +5003,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 20,
 						szReminder = "¸¡",
@@ -5107,7 +5026,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -5131,7 +5049,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Ãâ",
@@ -5155,7 +5072,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -5178,7 +5094,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -5201,7 +5116,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -5225,7 +5139,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -5249,7 +5162,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -5274,7 +5186,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 2,
 						szReminder = "ÒÝ",
@@ -5297,7 +5208,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -5321,7 +5231,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 16,
 						szReminder = "Ãâ",
@@ -5345,7 +5254,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -5368,7 +5276,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -5391,7 +5298,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -5414,7 +5320,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -5438,7 +5343,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -5461,7 +5365,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -5484,7 +5387,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -5507,7 +5409,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -5530,7 +5431,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -5553,7 +5453,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -5576,7 +5475,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -5599,7 +5497,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 25,
 						szReminder = "×ª",
@@ -5622,7 +5519,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "¼õ",
@@ -5645,7 +5541,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -5668,7 +5563,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 23,
 						szReminder = "¼õ",
@@ -5691,7 +5585,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 23,
 						szReminder = "¼õ",
@@ -5714,7 +5607,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -5737,7 +5629,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -5761,7 +5652,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -5785,7 +5675,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -5809,7 +5698,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -5833,7 +5721,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "ÉÁ",
@@ -5857,7 +5744,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -5883,7 +5769,6 @@ return {
 					{
 						bOnlyMine = true,
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -5906,7 +5791,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -5929,7 +5813,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 20,
 						szReminder = "¿Õ",
@@ -5952,7 +5835,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "±¾",
@@ -5975,7 +5857,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "¼õ",
@@ -5999,7 +5880,6 @@ return {
 					{
 						bAttention = true,
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 25,
 						szReminder = "Ì¯",
@@ -6022,7 +5902,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ê¯",
@@ -6045,7 +5924,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -6068,7 +5946,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¹Â",
@@ -6091,7 +5968,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -6115,7 +5991,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 17,
 						szReminder = "Ãâ",
@@ -6139,7 +6014,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "Ç½",
@@ -6164,7 +6038,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "±Ú",
@@ -6189,7 +6062,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "±Ú",
@@ -6214,7 +6086,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -6238,7 +6109,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Á¢",
@@ -6261,7 +6131,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "±Ú",
@@ -6284,7 +6153,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "¼õ",
@@ -6308,7 +6176,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -6332,7 +6199,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "¼õ",
@@ -6356,7 +6222,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "¼õ",
@@ -6380,7 +6245,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -6419,7 +6283,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -6443,7 +6306,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -6468,7 +6330,6 @@ return {
 					{
 						bOnlyMe = true,
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "±Ú",
@@ -6491,7 +6352,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "±Ú",
@@ -6514,7 +6374,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "±Ú",
@@ -6537,7 +6396,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "±Ú",
@@ -6560,7 +6418,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "Ç½",
@@ -6583,7 +6440,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "Ç½",
@@ -6607,7 +6463,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "¼¤",
@@ -6631,7 +6486,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Á¢",
@@ -6655,7 +6509,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Òþ",
@@ -6678,7 +6531,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "ÉÁ",
@@ -6701,7 +6553,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "³¯",
@@ -6725,7 +6576,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "ÉÁ",
@@ -6749,7 +6599,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "ÉÁ",
@@ -6775,7 +6624,6 @@ return {
 					{
 						bAttention = true,
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 16,
 						szReminder = "Ì°",
@@ -6799,7 +6647,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "½Ù",
@@ -6823,7 +6670,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -6846,7 +6692,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 17,
 						szReminder = "½â",
@@ -6869,7 +6714,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -6892,7 +6736,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -6915,7 +6758,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -6938,7 +6780,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -6962,7 +6803,6 @@ return {
 					{
 						bAttention = true,
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 16,
 						szReminder = "Ì°",
@@ -6986,7 +6826,6 @@ return {
 					{
 						bAttention = true,
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 16,
 						szReminder = "Ì°",
@@ -7010,7 +6849,6 @@ return {
 					{
 						bAttention = true,
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 16,
 						szReminder = "Ì°",
@@ -7034,7 +6872,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Òþ",
@@ -7057,7 +6894,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "ÉÁ",
@@ -7081,7 +6917,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "¾»",
@@ -7105,7 +6940,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -7129,7 +6963,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -7152,7 +6985,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -7175,7 +7007,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -7198,7 +7029,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -7221,7 +7051,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -7244,7 +7073,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 19,
 						szReminder = "Ãâ",
@@ -7267,7 +7095,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -7291,7 +7118,6 @@ return {
 					{
 						bAttention = true,
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "¼õ",
@@ -7315,7 +7141,6 @@ return {
 					{
 						bAttention = true,
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -7338,7 +7163,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "ÉÁ",
@@ -7362,7 +7186,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "³Ë",
@@ -7385,7 +7208,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "³Ë",
@@ -7408,7 +7230,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "Ð¥",
@@ -7432,7 +7253,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "ÈÊ",
@@ -7456,7 +7276,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 2,
 						szReminder = "¶Í",
@@ -7479,7 +7298,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -7502,7 +7320,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -7526,7 +7343,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "ÔÀ",
@@ -7550,7 +7366,6 @@ return {
 					{
 						bAttention = true,
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "ÔÆ",
@@ -7574,7 +7389,6 @@ return {
 					{
 						bAttention = true,
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "ÔÆ",
@@ -7597,7 +7411,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "Èª",
@@ -7621,7 +7434,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "Èª",
@@ -7646,7 +7458,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Òþ",
@@ -7670,7 +7481,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -7696,7 +7506,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Òþ",
@@ -7720,7 +7529,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 40,
 						szReminder = "Ãâ",
@@ -7756,7 +7564,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 20,
 						szReminder = "Äñ",
@@ -7779,7 +7586,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -7802,7 +7608,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -7825,7 +7630,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "·É",
@@ -7848,7 +7652,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -7871,7 +7674,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¾ª",
@@ -7894,7 +7696,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -7918,7 +7719,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "¹í",
@@ -7942,7 +7742,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -7966,7 +7765,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -7989,7 +7787,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#FF99CCFF",
-						colScreenHead = "#FF99CC",
 						nColAlpha = 255,
 						nPriority = 14,
 						szReminder = "À­",
@@ -8014,7 +7811,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 17,
 						szReminder = "½â",
@@ -8037,7 +7833,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -8060,7 +7855,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -8085,7 +7879,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -8110,7 +7903,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -8133,7 +7925,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -8156,7 +7947,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -8179,7 +7969,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#FF99CCFF",
-						colScreenHead = "#FF99CC",
 						nColAlpha = 255,
 						nPriority = 23,
 						szReminder = "´«",
@@ -8205,7 +7994,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "µû",
@@ -8231,7 +8019,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "µû",
@@ -8256,7 +8043,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "¼õ",
@@ -8279,7 +8065,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -8302,7 +8087,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Ô¡",
@@ -8325,7 +8109,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 23,
 						szReminder = "¼õ",
@@ -8351,7 +8134,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "½ð",
@@ -8376,7 +8158,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "»Ê",
@@ -8413,7 +8194,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "òÚ",
@@ -8436,7 +8216,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -8459,7 +8238,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -8483,7 +8261,6 @@ return {
 					{
 						bAttention = true,
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Áé",
@@ -8508,7 +8285,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "Ê¥",
@@ -8531,7 +8307,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 16,
 						szReminder = "Ãâ",
@@ -8555,7 +8330,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "¼À",
@@ -8578,7 +8352,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -8602,7 +8375,6 @@ return {
 					{
 						bAttention = true,
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "ÓÓ",
@@ -8625,7 +8397,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 23,
 						szReminder = "ÉÁ",
@@ -8649,7 +8420,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 23,
 						szReminder = "ÉÁ",
@@ -8673,7 +8443,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 23,
 						szReminder = "ÉÁ",
@@ -8697,7 +8466,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 23,
 						szReminder = "·±",
@@ -8721,7 +8489,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -8746,7 +8513,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 23,
 						szReminder = "¼õ",
@@ -8771,7 +8537,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -8796,7 +8561,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "³¯",
@@ -8820,7 +8584,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -8844,7 +8607,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -8867,7 +8629,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "ÉÁ",
@@ -8890,7 +8651,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 23,
 						szReminder = "¼õ",
@@ -8914,7 +8674,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "ÉÁ",
@@ -8937,7 +8696,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "·±",
@@ -8961,7 +8719,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "ÉÁ",
@@ -8984,7 +8741,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "¼õ",
@@ -9007,7 +8763,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "¼õ",
@@ -9030,7 +8785,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "¼õ",
@@ -9053,7 +8807,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "¼õ",
@@ -9076,7 +8829,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "¼õ",
@@ -9100,7 +8852,6 @@ return {
 					{
 						bAttention = true,
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 25,
 						szReminder = "Ì¯",
@@ -9124,7 +8875,6 @@ return {
 					{
 						bAttention = true,
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 25,
 						szReminder = "Ì¯",
@@ -9147,7 +8897,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "ÉÁ",
@@ -9170,7 +8919,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "ÉÁ",
@@ -9193,7 +8941,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -9216,7 +8963,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -9239,7 +8985,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -9262,7 +9007,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "ÉÁ",
@@ -9286,7 +9030,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "ÉÁ",
@@ -9310,7 +9053,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -9334,7 +9076,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -9358,7 +9099,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Í»",
@@ -9383,7 +9123,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "É½",
@@ -9409,7 +9148,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Óù",
@@ -9432,7 +9170,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -9455,7 +9192,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Í»",
@@ -9478,7 +9214,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "É½",
@@ -9501,7 +9236,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -9524,7 +9258,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -9548,7 +9281,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "É½",
@@ -9571,7 +9303,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -9595,7 +9326,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "É½",
@@ -9619,7 +9349,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "°Ô",
@@ -9643,7 +9372,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "É½",
@@ -9667,7 +9395,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Óù",
@@ -9691,7 +9418,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "»¢",
@@ -9714,7 +9440,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "´º",
@@ -9739,7 +9464,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "ÔÂ",
@@ -9764,7 +9488,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "´ó",
@@ -9788,7 +9511,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -9811,7 +9533,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -9834,7 +9555,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Ìý",
@@ -9857,7 +9577,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "Í¬",
@@ -9883,7 +9602,6 @@ return {
 						bOnlyMe = true,
 						bOnlyMine = true,
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "Í¬",
@@ -9909,7 +9627,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -9933,7 +9650,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 19,
 						szReminder = "¾Ö",
@@ -9956,7 +9672,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -9980,7 +9695,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -10004,7 +9718,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 19,
 						szReminder = "Ãâ",
@@ -10028,7 +9741,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 23,
 						szReminder = "´º",
@@ -10052,7 +9764,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "´º",
@@ -10077,7 +9788,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "´º",
@@ -10101,7 +9811,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "ÔÂ",
@@ -10125,7 +9834,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 19,
 						szReminder = "ÔÂ",
@@ -10149,7 +9857,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "¶Ü",
@@ -10172,7 +9879,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 17,
 						szReminder = "Ãâ",
@@ -10195,7 +9901,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 17,
 						szReminder = "Ãâ",
@@ -10218,7 +9923,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "´ó",
@@ -10252,7 +9956,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Óù",
@@ -10276,7 +9979,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "¶Í",
@@ -10301,7 +10003,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "¶Í",
@@ -10326,7 +10027,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -10350,7 +10050,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 2,
 						szReminder = "»î",
@@ -10373,7 +10072,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "Ïà",
@@ -10396,7 +10094,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "Ïà",
@@ -10419,7 +10116,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "Ïà",
@@ -10443,7 +10139,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "Ïà",
@@ -10467,7 +10162,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "¼õ",
@@ -10490,7 +10184,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 21,
 						szReminder = "Ïà",
@@ -10514,7 +10207,6 @@ return {
 					{
 						bAttention = true,
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -10537,7 +10229,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 23,
 						szReminder = "¼õ",
@@ -10560,7 +10251,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "Ïà",
@@ -10584,7 +10274,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -10607,7 +10296,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -10630,7 +10318,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -10653,7 +10340,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -10676,7 +10362,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ðî",
@@ -10699,7 +10384,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "Ïà",
@@ -10723,7 +10407,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Ê¨",
@@ -10747,7 +10430,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Éá",
@@ -10770,7 +10452,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "ºë",
@@ -10794,7 +10475,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "¶À",
@@ -10818,7 +10498,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Ê¨",
@@ -10842,7 +10521,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "²»",
@@ -10866,7 +10544,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "¶Í",
@@ -10889,7 +10566,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -10913,7 +10589,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "½ð",
@@ -10938,7 +10613,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "½ð",
@@ -10963,7 +10637,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "ÉÁ",
@@ -10989,7 +10662,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 16,
 						szReminder = "°Ô",
@@ -25721,7 +25393,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "Ðý",
@@ -32243,7 +31914,6 @@ return {
 					{
 						bOnlyMe = true,
 						col = "#32FFFFFF",
-						colScreenHead = "#32FFFF",
 						nColAlpha = 255,
 						nPriority = 2,
 						szReminder = "Ïä",
@@ -32379,7 +32049,6 @@ return {
 					{
 						bOnlyMe = true,
 						col = "#1FE6FFFF",
-						colScreenHead = "#1FE6FF",
 						nColAlpha = 255,
 						nPriority = 2,
 						szReminder = "ïÚ",
@@ -32414,7 +32083,6 @@ return {
 					{
 						bOnlyMe = true,
 						col = "#FF2080FF",
-						colScreenHead = "#FF2080",
 						nColAlpha = 255,
 						nPriority = 2,
 						szReminder = "ïÚ",
@@ -32881,7 +32549,6 @@ return {
 					{
 						bOnlyMe = true,
 						col = "#1FE6FFFF",
-						colScreenHead = "#1FE6FF",
 						nColAlpha = 255,
 						nPriority = 2,
 						szReminder = "Ïä",
@@ -32918,7 +32585,6 @@ return {
 					{
 						bOnlyMe = true,
 						col = "#FF2080FF",
-						colScreenHead = "#FF2080",
 						nColAlpha = 255,
 						nPriority = 2,
 						szReminder = "Ïä",
@@ -33455,7 +33121,6 @@ return {
 					{
 						bOnlyMe = true,
 						col = "#00FFFFFF",
-						colScreenHead = "#00FFFF",
 						nColAlpha = 255,
 						nPriority = 2,
 						szReminder = "Æì",
@@ -33508,7 +33173,6 @@ return {
 					{
 						bOnlyMe = true,
 						col = "#00FFFFFF",
-						colScreenHead = "#00FFFF",
 						nColAlpha = 255,
 						nPriority = 2,
 						szReminder = "Æì",
@@ -34578,7 +34242,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 4,
 						szReminder = "»Ø",
@@ -35203,7 +34866,6 @@ return {
 					{
 						bOnlyMe = true,
 						col = "#00FFFFFF",
-						colScreenHead = "#00FFFF",
 						nColAlpha = 255,
 						nPriority = 2,
 						szReminder = "Æì",
@@ -35256,7 +34918,6 @@ return {
 					{
 						bOnlyMe = true,
 						col = "#00FFFFFF",
-						colScreenHead = "#00FFFF",
 						nColAlpha = 255,
 						nPriority = 2,
 						szReminder = "Æì",
@@ -35749,7 +35410,6 @@ return {
 					{
 						bOnlyMe = true,
 						col = "#32FFFFFF",
-						colScreenHead = "#32FFFF",
 						nColAlpha = 255,
 						nPriority = 2,
 						szReminder = "Æì",
@@ -35797,7 +35457,6 @@ return {
 					{
 						bOnlyMe = true,
 						col = "#32FFFFFF",
-						colScreenHead = "#32FFFF",
 						nColAlpha = 255,
 						nPriority = 2,
 						szReminder = "Æì",
@@ -60490,6 +60149,21 @@ return {
 				},
 			},
 			{
+				szContent = "ÄãÒÑ½ÓÊÜÁË[º®½¼±æºÛ]¡£\
+",
+				szNote = "ÐèÒªÇÐ»»¡¤Êä³öÐÄ·¨",
+				tCountdown = {
+					{
+						key = "ÈÎÎñÌáÊ¾1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "ÐèÒªÇÐ»»¡¤Êä³öÐÄ·¨",
+					},
+				},
+			},
+			{
 				szContent = "¼é³¼Ëùº¦¿óÒ©Îï×ÊØÑ£¬ºÚÔÆÑ¹³ÇÑïÎÒ²ÔÔÆÍþ£¡ÄÇÞÉÈË¿âÄªÂÊÊÖÏÂÇ±Èë²ÔÔÆ±¤£¬ÖÚ½«Ê¿ËÙµ½²ÔÔÆ±¤ÃÅ¿Ú¼¯ºÏ£¬Îñ±ØÈÃÕâ¿âÄªÓÐÀ´ÎÞ»Ø£¡\
 ",
 				tCountdown = {
@@ -61662,6 +61336,20 @@ return {
 			},
 		},
 		[216] = {
+			{
+				szContent = "ÄãÒÑ½ÓÊÜÁË[Ì½²é±ßÒì]¡£\
+",
+				tCountdown = {
+					{
+						key = "ÈÎÎñÌáÊ¾1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 15,
+						szName = "Ç°Íù¡¤²ÔÔÆ¡¤ÞÉÈËÓªµØ",
+					},
+				},
+			},
 			{
 				szContent = "ÄãÒÑÍê³ÉÁË[¿ìÂí½­ºþ±­ÖÐ²è]¡£\
 ",
@@ -67364,6 +67052,36 @@ return {
 				},
 			},
 			{
+				szContent = "ºì·½³É¹¦»÷°ÜÁË¹ÅÔ³¡¤¶´\
+",
+				tCountdown = {
+					{
+						key = "ºì·½¡¤¹ÅÔ³¡¤¶´",
+						nClass = 20,
+						nFrame = 3,
+						nIcon = 2671,
+						nRefresh = 2,
+						nTime = "5,ºì·½¡¤»ñµÃ¹ÅÔ³¶´¡¤×ÊÔ´+200;90,ºì·½¡¤¹ÅÔ³¡¤Ë¢ÐÂÊ£Óà;95,ºì·½¡¤¹ÅÔ³¶´¡¤ÒÑ¾­Ë¢ÐÂ",
+						szName = "ºì·½¡¤¹ÅÔ³¡¤Ë¢ÐÂÊ£Óà",
+					},
+				},
+			},
+			{
+				szContent = "ºì·½³É¹¦»÷°ÜÁË¹ÅÔ³¡¤ð©\
+",
+				tCountdown = {
+					{
+						key = "À¶·½¡¤¹ÅÔ³¡¤ð©",
+						nClass = 20,
+						nFrame = 3,
+						nIcon = 2671,
+						nRefresh = 2,
+						nTime = "5,ºì·½¡¤»ñµÃ¹ÅÔ³ð©¡¤×ÊÔ´+200;90,À¶·½¡¤¹ÅÔ³¡¤Ë¢ÐÂÊ£Óà;95,À¶·½¡¤¹ÅÔ³ð©¡¤ÒÑ¾­Ë¢ÐÂ",
+						szName = "À¶·½¡¤¹ÅÔ³¡¤Ë¢ÐÂÊ£Óà",
+					},
+				},
+			},
+			{
 				szContent = "ºì·½³É¹¦»÷°ÜÁË¹ÅÔ³\
 ",
 				tCountdown = {
@@ -67439,6 +67157,36 @@ return {
 						nRefresh = 2,
 						nTime = "5,À¶·½¡¤»ñµÃÔª¾§ð©¡¤×ÊÔ´+100;60,À¶·½¡¤Ôª¾§¡¤Ë¢ÐÂÊ£Óà;65,À¶·½¡¤Ôª¾§¡¤ÒÑ¾­Ë¢ÐÂ",
 						szName = "À¶·½¡¤Ôª¾§¡¤Ë¢ÐÂÊ£Óà",
+					},
+				},
+			},
+			{
+				szContent = "À¶·½³É¹¦»÷°ÜÁË¹ÅÔ³¡¤¶´\
+",
+				tCountdown = {
+					{
+						key = "ºì·½¡¤¹ÅÔ³¡¤¶´",
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 2671,
+						nRefresh = 2,
+						nTime = "5,À¶·½¡¤»ñµÃ¹ÅÔ³¶´¡¤×ÊÔ´+200;90,ºì·½¡¤¹ÅÔ³¡¤Ë¢ÐÂÊ£Óà;95,ºì·½¡¤¹ÅÔ³¶´¡¤ÒÑ¾­Ë¢ÐÂ",
+						szName = "À¶·½¡¤¹ÅÔ³¡¤Ë¢ÐÂÊ£Óà",
+					},
+				},
+			},
+			{
+				szContent = "À¶·½³É¹¦»÷°ÜÁË¹ÅÔ³¡¤ð©\
+",
+				tCountdown = {
+					{
+						key = "À¶·½¡¤¹ÅÔ³¡¤ð©",
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 2671,
+						nRefresh = 2,
+						nTime = "5,À¶·½¡¤»ñµÃ¹ÅÔ³ð©¡¤×ÊÔ´+200;90,À¶·½¡¤¹ÅÔ³¡¤Ë¢ÐÂÊ£Óà;95,À¶·½¡¤¹ÅÔ³ð©¡¤ÒÑ¾­Ë¢ÐÂ",
+						szName = "À¶·½¡¤¹ÅÔ³¡¤Ë¢ÐÂÊ£Óà",
 					},
 				},
 			},
@@ -68432,7 +68180,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#1F3FFFAA",
-						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 37,
 					},
@@ -68568,7 +68315,6 @@ return {
 						bAttention = true,
 						bOnlyMe = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Ó¿",
@@ -68640,7 +68386,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#AAAAAAFF",
-						colScreenHead = "#AAAAAA",
 						nColAlpha = 255,
 						nPriority = 29,
 						szReminder = "ÁÆ",
@@ -68732,7 +68477,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#FF99CCFF",
-						colScreenHead = "#FF99CC",
 						nColAlpha = 255,
 						nPriority = 37,
 						szReminder = "Ëð",
@@ -69749,6 +69493,7 @@ return {
 						key = "ÆÆÕóµã½«¡¤Ò»¡¤³£×¤",
 						nClass = 1,
 						nIcon = 7674,
+						nRefresh = 5,
 						nTime = -2,
 						szName = "ÆÆÕóµã½«¡¤Ò»¡¤³£×¤",
 					},
@@ -69756,6 +69501,7 @@ return {
 						key = "ÆÆÕóµã½«¡¤¶þ¡¤³£×¤",
 						nClass = 1,
 						nIcon = 7676,
+						nRefresh = 5,
 						nTime = -2,
 						szName = "ÆÆÕóµã½«¡¤¶þ¡¤³£×¤",
 					},
@@ -69850,6 +69596,38 @@ return {
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "ÑéÕ½½×",
+				tCountdown = {
+					{
+						key = "ÆÆÕóµã½«¡¤Ò»¡¤³£×¤",
+						nClass = -1,
+						nIcon = 1465,
+						nRefresh = 99999,
+						nTime = 0.001,
+						szName = " ",
+					},
+					{
+						key = "ÆÆÕóµã½«¡¤¶þ¡¤³£×¤",
+						nClass = -1,
+						nIcon = 1465,
+						nRefresh = 99999,
+						nTime = 0.001,
+						szName = " ",
+					},
+					{
+						key = "ÆÆÕóµã½«¡¤Ò»¡¤³£×¤",
+						nClass = -1,
+						nIcon = 7674,
+						nTime = -1,
+						szName = "ÆÆÕóµã½«¡¤Ò»¡¤³£×¤",
+					},
+					{
+						key = "ÆÆÕóµã½«¡¤¶þ¡¤³£×¤",
+						nClass = -1,
+						nIcon = 7676,
+						nTime = -1,
+						szName = "ÆÆÕóµã½«¡¤¶þ¡¤³£×¤",
+					},
+				},
 			},
 			{
 				col = {
@@ -73993,7 +73771,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -74017,7 +73794,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -74042,7 +73818,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 11,
 						szReminder = "¿þ",
@@ -74066,7 +73841,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "¼õ",
@@ -74091,7 +73865,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "ºÏ",
@@ -74114,7 +73887,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -74138,7 +73910,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -74162,7 +73933,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "Ì¤",
@@ -74185,7 +73955,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#FF99CCFF",
-						colScreenHead = "#FF99CC",
 						nColAlpha = 255,
 						nPriority = 30,
 						szReminder = "»»",
@@ -74208,7 +73977,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -74232,7 +74000,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -74256,7 +74023,6 @@ return {
 					{
 						bAttention = true,
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 25,
 						szReminder = "Ì¯",
@@ -74281,7 +74047,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 24,
 						szReminder = "ÉÁ",
@@ -74305,7 +74070,6 @@ return {
 					{
 						bAttention = true,
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 25,
 						szReminder = "Ì¯",
@@ -74328,7 +74092,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 22,
 						szReminder = "Ç½",
@@ -74352,7 +74115,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#FF99CCFF",
-						colScreenHead = "#FF99CC",
 						nColAlpha = 255,
 						nPriority = 37,
 						szReminder = "³Ç",
@@ -74377,7 +74139,6 @@ return {
 					{
 						bAttention = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "º®",
@@ -74401,7 +74162,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -74426,7 +74186,6 @@ return {
 					{
 						bAttention = true,
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 25,
 						szReminder = "Ì¯",
@@ -74465,7 +74224,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ãâ",
@@ -74489,7 +74247,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#B3EE3AFF",
-						colScreenHead = "#B3EE3A",
 						nColAlpha = 255,
 						nPriority = 18,
 						szReminder = "Ðî",
@@ -76115,7 +75872,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FF00FF",
-						colScreenHead = "#00FF00",
 						nColAlpha = 255,
 						nPriority = 1,
 						szReminder = "ÇÐ",
@@ -96274,7 +96030,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#FF323200",
-						colScreenHead = "#FF3232",
 						nColAlpha = 0,
 						nPriority = 12,
 					},
@@ -96858,7 +96613,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#FFFFFFFF",
-						colScreenHead = "#FFFFFFFF",
 						nColAlpha = 255,
 						nPriority = 2,
 						szReminder = "ïÚ",
@@ -97141,7 +96895,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#FFFFFFFF",
-						colScreenHead = "#FFFFFFFF",
 						nColAlpha = 255,
 						nPriority = 2,
 						szReminder = "ïÚ",
@@ -97776,7 +97529,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#1F3FFFAA",
-						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 37,
 					},
@@ -97912,7 +97664,6 @@ return {
 						bAttention = true,
 						bOnlyMe = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Ó¿",
@@ -97984,7 +97735,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#AAAAAAFF",
-						colScreenHead = "#AAAAAA",
 						nColAlpha = 255,
 						nPriority = 29,
 						szReminder = "ÁÆ",
@@ -98076,7 +97826,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#FF99CCFF",
-						colScreenHead = "#FF99CC",
 						nColAlpha = 255,
 						nPriority = 37,
 						szReminder = "Ëð",
@@ -98217,7 +97966,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#FFFFFFFF",
-						colScreenHead = "#FFFFFFFF",
 						nColAlpha = 255,
 						nPriority = 2,
 						szReminder = "ïÚ",
@@ -100437,7 +100185,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#FFFF00FF",
-						colScreenHead = "#FFFF00",
 						nColAlpha = 255,
 						szReminder = "»ð",
 					},
@@ -100458,7 +100205,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#FF0055FF",
-						colScreenHead = "#FF0055",
 						nColAlpha = 255,
 						nPriority = 7,
 						szReminder = "Á÷",
@@ -103142,7 +102888,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#1F3FFFAA",
-						colScreenHead = "#1F3FFF",
 						nColAlpha = 255,
 						nPriority = 37,
 					},
@@ -103278,7 +103023,6 @@ return {
 						bAttention = true,
 						bOnlyMe = true,
 						col = "#FFCC00FF",
-						colScreenHead = "#FFCC00",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "Ó¿",
@@ -103350,7 +103094,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#AAAAAAFF",
-						colScreenHead = "#AAAAAA",
 						nColAlpha = 255,
 						nPriority = 29,
 						szReminder = "ÁÆ",
@@ -103442,7 +103185,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#FF99CCFF",
-						colScreenHead = "#FF99CC",
 						nColAlpha = 255,
 						nPriority = 37,
 						szReminder = "Ëð",
@@ -103625,7 +103367,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#FF80FFFF",
-						colScreenHead = "#FF80FF",
 						nColAlpha = 255,
 						nPriority = 37,
 					},
@@ -103946,7 +103687,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FFFFFF",
-						colScreenHead = "#00FFFF",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "ÐÇ",
@@ -104048,7 +103788,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#0032FFFF",
-						colScreenHead = "#0032FF",
 						nColAlpha = 255,
 						nPriority = 17,
 						szReminder = "»º",
@@ -105231,7 +104970,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#00FFFFFF",
-						colScreenHead = "#00FFFF",
 						nColAlpha = 255,
 						nPriority = 3,
 						szReminder = "ÐÇ",
@@ -105333,7 +105071,6 @@ return {
 				aCataclysmBuff = {
 					{
 						col = "#0032FFFF",
-						colScreenHead = "#0032FF",
 						nColAlpha = 255,
 						nPriority = 17,
 						szReminder = "»º",
@@ -111311,6 +111048,22 @@ return {
 			},
 		},
 		[193] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 2,
+					},
+				},
+				dwID = 11893,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 2,
+					},
+				},
+				dwID = 11892,
+			},
 			{
 				aFocus = {
 					{
@@ -143631,6 +143384,35 @@ return {
 				nFrame = 67,
 			},
 			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 137693,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+					},
+				},
+				dwID = 137690,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 2,
+						szDisplay = "¹âÈ¦¡¤Ì½²é",
+					},
+				},
+				dwID = 137752,
+				nFrame = 47,
+				szName = "¹âÈ¦¡¤Ì½²é",
+			},
+			{
 				[3] = {
 					bScreenHead = true,
 				},
@@ -166623,7 +166405,7 @@ return {
 						nFrame = -1,
 						nIcon = 7674,
 						nRefresh = 0,
-						nTime = "2700,{$5}{$4}{$6}¡¤{$8}{$7}{$9};4500,{$5}{$4}{$6}¡¤{$8}{$7}{$9}",
+						nTime = "2700.01,{$5}{$4}{$6}¡¤{$8}{$7}{$9};4500.01,{$5}{$4}{$6}¡¤{$8}{$7}{$9}",
 						szName = "{$4}{$5}¡¤{$6}·Ö¡¤{$7}{$8}¡¤{$9}·Ö",
 					},
 					{
@@ -166632,7 +166414,7 @@ return {
 						nFrame = -1,
 						nIcon = 7676,
 						nRefresh = 0,
-						nTime = "1800,{$5}{$4}{$6}¡¤{$8}{$7}{$9}",
+						nTime = "1800.02,{$5}{$4}{$6}¡¤{$8}{$7}{$9}",
 						szName = "{$4}{$5}¡¤{$6}·Ö¡¤{$7}{$8}¡¤{$9}·Ö",
 					},
 					{
@@ -199189,6 +198971,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1789148646,
+		nTimeStamp = 1789273268,
 	},
 }
