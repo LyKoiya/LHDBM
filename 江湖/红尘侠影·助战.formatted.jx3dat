@@ -240,7 +240,6 @@ return {
 					bScreenHead = true,
 					bTeamPanel = true,
 				},
-				aCataclysmBuff = {},
 				col = {
 					255,
 					150,
@@ -274,7 +273,6 @@ return {
 				szNote = "助战·赴宴费大劲增益12",
 			},
 			{
-				aCataclysmBuff = {},
 				dwID = 23743,
 				nIcon = 13,
 				nLevel = 1,
@@ -379,6 +377,23 @@ return {
 				},
 			},
 		},
+		[193] = {
+			{
+				szContent = "你已接受了[寒郊辨痕]。\
+",
+				szNote = "需要切换·输出心法",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "需要切换·输出心法",
+					},
+				},
+			},
+		},
 		[215] = {
 			{
 				szContent = "你已接受了[拔刀无惧]。\
@@ -392,6 +407,22 @@ return {
 						nIcon = 13,
 						nTime = 15,
 						szName = "前往·刀宗",
+					},
+				},
+			},
+		},
+		[216] = {
+			{
+				szContent = "你已接受了[探查边异]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 15,
+						szName = "前往·苍云·奚人营地",
 					},
 				},
 			},
@@ -464,7 +495,6 @@ return {
 				szNote = "助战·助战指令_跟随",
 			},
 			{
-				aCataclysmBuff = {},
 				dwID = 23701,
 				nIcon = 17409,
 				nLevel = 1,
@@ -552,13 +582,51 @@ return {
 			},
 		},
 	},
-	DOODAD = {},
+	DOODAD = {
+		[193] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 2,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 11892,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 2,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 11893,
+			},
+		},
+	},
 	NPC = {
 		[15] = {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 10,
 						szDisplay = "白鹊·使用钥匙",
 						tLife = {
@@ -570,12 +638,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -589,9 +651,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -602,12 +662,6 @@ return {
 							bAlly = false,
 							bEnemy = false,
 						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
 					},
 				},
 				dwID = 110169,
@@ -617,7 +671,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 10,
 						szDisplay = "机关小猪·小花猪",
 						tLife = {
@@ -629,12 +682,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -650,9 +697,7 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 60,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -662,12 +707,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -686,9 +725,7 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -698,12 +735,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -722,9 +753,7 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -734,12 +763,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -758,9 +781,7 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 20,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -770,12 +791,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -791,9 +806,7 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 10,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -803,12 +816,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -824,9 +831,7 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 20,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -836,12 +841,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -855,12 +854,75 @@ return {
 				szNote = "红尘侠影·唐小珂",
 			},
 		},
+		[193] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 2,
+						szDisplay = "光圈·探查",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 137752,
+				nFrame = 47,
+				szName = "光圈·探查",
+				szNote = "岳仲山·光圈·探查",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 137690,
+				nFrame = 47,
+				szNote = "岳仲山·红名",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 137693,
+				nFrame = 47,
+				szNote = "岳仲山",
+			},
+		},
 		[475] = {
 			{
 				[3] = {
 					bScreenHead = true,
 				},
-				aFocus = {},
 				col = {
 					0,
 					255,
@@ -874,7 +936,6 @@ return {
 				[3] = {
 					bScreenHead = true,
 				},
-				aFocus = {},
 				col = {
 					0,
 					255,
@@ -890,7 +951,6 @@ return {
 				[3] = {
 					bScreenHead = true,
 				},
-				aFocus = {},
 				col = {
 					0,
 					255,
@@ -906,9 +966,7 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
-						szDisplay = "",
 						tLife = {
 							bEnable = false,
 							nValue = 0,
@@ -918,12 +976,6 @@ return {
 							bAll = true,
 							bAlly = false,
 							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
 						},
 					},
 				},
@@ -1032,7 +1084,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1786992207,
+		nTimeStamp = 1789273230,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
