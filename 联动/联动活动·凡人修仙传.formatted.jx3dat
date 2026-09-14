@@ -133,11 +133,31 @@ return {
 				nFrame = 47,
 				szNote = "渡厄问心·韩立",
 			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 138368,
+				nFrame = 47,
+				szNote = "渡厄问心·玄骨",
+			},
 		},
 	},
 	TALK = {},
 	__meta = {
-		nTimeStamp = 1789040216,
+		nTimeStamp = 1789389214,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
