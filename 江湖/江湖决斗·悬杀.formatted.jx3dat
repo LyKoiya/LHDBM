@@ -38,7 +38,32 @@ return {
 			},
 		},
 	},
-	DEBUFF = {},
+	DEBUFF = {
+		[-1] = {
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						nPriority = 1,
+						szReminder = "ÉÍ",
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 31297,
+				nIcon = 9572,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "¾ö¶·",
+			},
+		},
+	},
 	DOODAD = {},
 	NPC = {},
 	TALK = {
@@ -89,7 +114,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1786709576,
+		nTimeStamp = 1789389187,
 		szAuthor = "ºÉ»¨Àð",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
