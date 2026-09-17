@@ -9,6 +9,20 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 6,
+						szDisplay = "机关·交互",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
 						szDisplay = "机关",
 						tLife = {
 							bEnable = false,
@@ -24,6 +38,28 @@ return {
 				},
 				dwID = 4691,
 				szName = "机关",
+				szNote = "机关",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						szDisplay = "安置·戟俑",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 4681,
+				szName = "安置点",
+				szNote = "安置点",
 			},
 		},
 	},
@@ -48,9 +84,216 @@ return {
 				},
 				dwID = 30367,
 				nFrame = 47,
-				szNote = "流沙回廊",
+				szNote = "流沙回廊·传送·入口",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "传送·老三",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 36451,
+				nFrame = 47,
+				szNote = "流沙回廊·传送·老三",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{},
+				},
+				dwID = 27668,
+				nFrame = 52,
+				szNote = "老一·踏霆车",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "戟俑·安置·机关",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 30582,
+				nFrame = 52,
+				szNote = "戟俑·老二入口机关",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "安置·成功",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 30588,
+				nFrame = 47,
+				szName = "安置成功",
+				szNote = "老二·安置成功",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 30393,
+				nFrame = 52,
+				szNote = "老二·剑盾俑",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 30395,
+				nFrame = 52,
+				szNote = "老二·弩俑",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 30394,
+				nFrame = 52,
+				szNote = "老二·戟俑",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 30396,
+				nFrame = 52,
+				szNote = "老二·锤俑",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 90,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 36386,
+				nFrame = 52,
+				szNote = "老二·陈旧的箱子",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 30398,
+				nFrame = 52,
+				szNote = "老三·白起",
 			},
 		},
 	},
 	TALK = {},
+	__meta = {
+		nTimeStamp = 1789654224,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+	},
 }
