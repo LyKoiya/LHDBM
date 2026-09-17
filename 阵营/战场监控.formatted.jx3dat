@@ -8178,6 +8178,25 @@ return {
 					},
 				},
 			},
+			{
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "竞技场准备时间内可切换奇穴",
+				tCountdown = {
+					{
+						key = "战斗开始",
+						nClass = 14,
+						nFrame = 5,
+						nIcon = 13,
+						nRefresh = 40,
+						nTime = "40,切换奇穴·剩余时间;60,战斗·开始倒计时",
+						szName = "切换奇穴·剩余时间",
+					},
+				},
+			},
 		},
 		[-1] = {
 			{
@@ -8543,7 +8562,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1788704452,
+		nTimeStamp = 1789635397,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

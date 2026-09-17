@@ -2,636 +2,490 @@ return {
 	BUFF = {
 		[322] = {
 			{
-				nLevel = 1,
+				{
+					bBuffList = true,
+				},
 				col = {
 					45,
 					255,
 					45,
 				},
 				dwID = 13224,
+				nLevel = 1,
 				szName = "附近有人",
 				szNote = "附近有人",
-				[1] = {
-					bBuffList = true,
-				},
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				nLevel = 1,
+				col = {
+					45,
+					255,
+					45,
+				},
 				dwID = 9172,
+				nLevel = 1,
 				szNote = "存祭",
-				col = {
-					45,
-					255,
-					45,
-				},
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				nLevel = 1,
+				col = {
+					45,
+					255,
+					45,
+				},
 				dwID = 13304,
+				nLevel = 1,
 				szNote = "焚血",
-				col = {
-					45,
-					255,
-					45,
-				},
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				nLevel = 1,
+				col = {
+					45,
+					255,
+					45,
+				},
 				dwID = 13232,
+				nLevel = 1,
 				szNote = "匿影",
-				col = {
-					45,
-					255,
-					45,
-				},
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				nLevel = 1,
+				col = {
+					45,
+					255,
+					45,
+				},
 				dwID = 13231,
+				nLevel = 1,
 				szNote = "匿影",
-				col = {
-					45,
-					255,
-					45,
-				},
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				nLevel = 1,
+				col = {
+					45,
+					255,
+					45,
+				},
 				dwID = 13296,
+				nLevel = 1,
 				szNote = "觉醒",
-				col = {
-					45,
-					255,
-					45,
-				},
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				nLevel = 1,
+				col = {
+					45,
+					255,
+					45,
+				},
 				dwID = 13238,
+				nLevel = 1,
 				szNote = "闪逃",
-				col = {
-					45,
-					255,
-					45,
-				},
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				nLevel = 1,
+				col = {
+					45,
+					255,
+					45,
+				},
 				dwID = 13239,
+				nLevel = 1,
 				szNote = "鬼步",
-				col = {
-					45,
-					255,
-					45,
-				},
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				nLevel = 1,
+				col = {
+					45,
+					255,
+					45,
+				},
 				dwID = 13605,
+				nLevel = 1,
 				szNote = "共鸣",
-				col = {
-					45,
-					255,
-					45,
-				},
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				nLevel = 1,
+				col = {
+					45,
+					255,
+					45,
+				},
 				dwID = 13281,
+				nLevel = 1,
 				szNote = "积毒",
-				col = {
-					45,
-					255,
-					45,
-				},
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				nLevel = 1,
+				col = {
+					45,
+					255,
+					45,
+				},
 				dwID = 13282,
+				nLevel = 1,
 				szNote = "武斗",
-				col = {
-					45,
-					255,
-					45,
-				},
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				nLevel = 1,
+				col = {
+					45,
+					255,
+					45,
+				},
 				dwID = 13280,
+				nLevel = 1,
 				szNote = "激励",
-				col = {
-					45,
-					255,
-					45,
-				},
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				nLevel = 1,
+				col = {
+					45,
+					255,
+					45,
+				},
 				dwID = 13334,
+				nLevel = 1,
 				szNote = "厉血·护",
-				col = {
-					45,
-					255,
-					45,
-				},
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				nLevel = 1,
+				col = {
+					45,
+					255,
+					45,
+				},
 				dwID = 13335,
+				nLevel = 1,
 				szNote = "溃烂·回",
-				col = {
-					45,
-					255,
-					45,
-				},
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				nLevel = 1,
+				col = {
+					45,
+					255,
+					45,
+				},
 				dwID = 13336,
+				nLevel = 1,
 				szNote = "噬风·击",
-				col = {
-					45,
-					255,
-					45,
-				},
 			},
 			{
-				nLevel = 1,
-				[1] = {
+				{
 					bBuffList = true,
 				},
-				szNote = "开山",
 				dwID = 13331,
+				nLevel = 1,
+				szNote = "开山",
 			},
 			{
-				nLevel = 1,
-				[1] = {
+				{
 					bBuffList = true,
 				},
-				szNote = "步罡踏斗",
 				dwID = 13340,
+				nLevel = 1,
+				szNote = "步罡踏斗",
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				nLevel = 1,
+				col = {
+					45,
+					255,
+					45,
+				},
 				dwID = 14563,
-				szNote = "急速",
-				col = {
-					45,
-					255,
-					45,
-				},
-			},
-			{
 				nLevel = 1,
-				[1] = {
-					bBuffList = true,
-				},
-				szNote = "月影沙",
-				dwID = 14631,
+				szNote = "急速",
 			},
 			{
 				{
 					bBuffList = true,
 				},
+				dwID = 14631,
 				nLevel = 1,
-				dwID = 13327,
-				szNote = "魂铃",
+				szNote = "月影沙",
+			},
+			{
+				{
+					bBuffList = true,
+				},
 				col = {
 					45,
 					255,
 					45,
 				},
+				dwID = 13327,
+				nLevel = 1,
+				szNote = "魂铃",
 			},
 			{
 				{
 					bBuffList = true,
 					bScreenHead = true,
 				},
-				nLevel = 1,
-				nScrutinyType = 2,
+				aCataclysmBuff = {
+					{
+						bScreenHead = true,
+						col = "#FFFF00FF",
+						nColAlpha = 255,
+						nPriority = 2,
+						szReminder = "藏",
+					},
+				},
 				col = {
 					255,
 					255,
 					0,
 				},
 				dwID = 13262,
+				nLevel = 1,
+				nScrutinyType = 2,
 				szNote = "藏匿",
-				aCataclysmBuff = {
-					{
-						col = "#FFFF00FF",
-						nColAlpha = 255,
-						szReminder = "藏",
-						nPriority = 2,
-						bScreenHead = true,
-					},
-				},
 			},
 		},
 	},
+	CASTING = {},
 	CHAT = {
 		[322] = {
 			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "战斗开始",
-						nTime = 30,
-						szName = "战斗·开始倒计时",
-						nIcon = 13,
-						nFrame = 4,
-					},
-				},
 				szContent = "还有30秒开始游戏。\
 ",
-			},
-			{
 				tCountdown = {
 					{
-						nClass = 20,
 						key = "战斗开始",
-						nTime = 20,
-						szName = "战斗·开始倒计时",
+						nClass = 20,
 						nFrame = 4,
 						nIcon = 13,
+						nTime = 30,
+						szName = "战斗·开始倒计时",
 					},
 				},
+			},
+			{
 				szContent = "还有20秒开始游戏。\
 ",
-			},
-			{
 				tCountdown = {
 					{
-						nClass = 20,
 						key = "战斗开始",
-						nTime = "10,战斗·开始倒计时;130,尸罐·刷新剩余;140,尸罐·延迟刷新",
-						szName = "战斗·开始倒计时",
-						nRefresh = 0,
+						nClass = 20,
 						nFrame = 4,
 						nIcon = 13,
+						nTime = 20,
+						szName = "战斗·开始倒计时",
 					},
 				},
+			},
+			{
 				szContent = "还有10秒开始游戏。\
 ",
+				tCountdown = {
+					{
+						key = "战斗开始",
+						nClass = 20,
+						nFrame = 4,
+						nIcon = 13,
+						nRefresh = 0,
+						nTime = "10,战斗·开始倒计时;130,尸罐·刷新剩余;140,尸罐·延迟刷新",
+						szName = "战斗·开始倒计时",
+					},
+				},
 			},
 			{
+				[20] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				szContent = "你成为李渡鬼域中第(%d-)名感染者",
+				szNote = "被感染·第{$1}个",
 				tCountdown = {
 					{
 						nClass = 20,
+						nFrame = 1,
+						nIcon = 13,
 						nTime = 5,
 						szName = "被感染·第{$1}个",
-						nIcon = 13,
-						nFrame = 1,
 					},
-				},
-				szContent = "你成为李渡鬼域中第(%d-)名感染者",
-				bReg = true,
-				szNote = "被感染·第{$1}个",
-				[20] = {
-					bCenterAlarm = true,
 				},
 			},
 			{
+				[20] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				szContent = "收集到了(%d-)份魂铃。",
+				szNote = "魂铃·{$1}份",
 				tCountdown = {
 					{
 						nClass = 20,
+						nFrame = 6,
+						nIcon = 382,
 						nTime = 5,
 						szName = "魂铃·{$1}份",
-						nIcon = 382,
-						nFrame = 6,
 					},
-				},
-				szContent = "收集到了(%d-)份魂铃。",
-				bReg = true,
-				szNote = "魂铃·{$1}份",
-				[20] = {
-					bCenterAlarm = true,
 				},
 			},
 			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "战斗开始",
-						nTime = 30,
-						szName = "探秘者·胜利",
-						nFrame = 6,
-						nIcon = 13,
-					},
-					{
-						nClass = 20,
-						key = "毒圈",
-						nTime = -1,
-						szName = "毒圈",
-						nFrame = 8,
-						nIcon = 13,
-					},
-				},
 				szContent = "经过艰辛的斗争，探秘者获得了最终的胜利！\
 ",
 				szNote = "探秘者·胜利",
-			},
-			{
 				tCountdown = {
 					{
-						nClass = 20,
 						key = "战斗开始",
-						nTime = 30,
-						szName = "感染者·胜利",
+						nClass = 20,
 						nFrame = 6,
 						nIcon = 13,
+						nTime = 30,
+						szName = "探秘者·胜利",
 					},
 					{
-						nClass = 20,
 						key = "毒圈",
+						nClass = 20,
+						nFrame = 8,
+						nIcon = 13,
 						nTime = -1,
 						szName = "毒圈",
-						nIcon = 13,
-						nFrame = 8,
 					},
 				},
+			},
+			{
 				szContent = "经过艰辛的斗争，感染者获得了最终的胜利！\
 ",
 				szNote = "感染者·胜利",
-			},
-			{
 				tCountdown = {
 					{
+						key = "战斗开始",
 						nClass = 20,
-						nTime = 10,
-						szName = "尸毒样本·收集过半",
-						nFrame = 3,
+						nFrame = 6,
 						nIcon = 13,
+						nTime = 30,
+						szName = "感染者·胜利",
 					},
+					{
+						key = "毒圈",
+						nClass = 20,
+						nFrame = 8,
+						nIcon = 13,
+						nTime = -1,
+						szName = "毒圈",
+					},
+				},
+			},
+			{
+				[20] = {
+					bCenterAlarm = true,
 				},
 				szContent = "尸毒样本收集数量过半，探秘者胜利在望！\
 ",
 				szNote = "尸毒样本·收集过半",
-				[20] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
 				tCountdown = {
 					{
 						nClass = 20,
+						nFrame = 3,
+						nIcon = 13,
 						nTime = 10,
 						szName = "尸毒样本·收集过半",
-						nIcon = 13,
-						nFrame = 3,
 					},
 				},
-				szNote = "尸毒样本·收集过半",
+			},
+			{
 				[20] = {
 					bCenterAlarm = true,
 				},
 				szContent = "病毒样本收集数量过半，探秘者胜利在望！\
 ",
-			},
-			{
+				szNote = "尸毒样本·收集过半",
 				tCountdown = {
 					{
 						nClass = 20,
-						nTime = 10,
-						szName = "探秘者·仅剩10名",
-						nIcon = 13,
 						nFrame = 3,
+						nIcon = 13,
+						nTime = 10,
+						szName = "尸毒样本·收集过半",
 					},
 				},
+			},
+			{
 				[20] = {
 					bCenterAlarm = true,
 				},
 				szContent = "仅剩10名探秘者存活，感染者胜利在望！\
 ",
 				szNote = "探秘者·仅剩10名",
-			},
-			{
 				tCountdown = {
 					{
 						nClass = 20,
-						key = "毒圈",
-						nTime = "120,毒圈·刷新剩余;240,毒圈·刷新剩余;360,毒圈·刷新剩余",
-						szName = "毒圈·刷新剩余",
-						nRefresh = 0,
-						nIcon = 10478,
-						nFrame = 8,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 10,
+						szName = "探秘者·仅剩10名",
 					},
 				},
-				szNote = "毒圈·即将出现",
+			},
+			{
 				[20] = {
 					bCenterAlarm = true,
 				},
 				szContent = "毒圈即将出现\
 ",
-			},
-			{
+				szNote = "毒圈·即将出现",
 				tCountdown = {
 					{
+						key = "毒圈",
 						nClass = 20,
-						key = "战斗开始",
-						nTime = "120,尸罐·刷新剩余;240,尸罐·刷新剩余;360,尸罐·刷新剩余",
-						szName = "尸罐·刷新剩余",
+						nFrame = 8,
+						nIcon = 10478,
 						nRefresh = 0,
-						nIcon = 3477,
-						nFrame = 4,
+						nTime = "120,毒圈·刷新剩余;240,毒圈·刷新剩余;360,毒圈·刷新剩余",
+						szName = "毒圈·刷新剩余",
 					},
 				},
+			},
+			{
 				[20] = {
 					bCenterAlarm = true,
 				},
 				szContent = "感染者的几个尸罐被探秘者发现了，阻止他们摧毁尸罐！\
 ",
 				szNote = "尸罐·已刷新",
-			},
-		},
-	},
-	CASTING = {},
-	TALK = {
-		[322] = {
-			{
 				tCountdown = {
 					{
-						nClass = 14,
-						key = "毒圈",
-						nTime = "120,毒圈·刷新剩余;240,毒圈·刷新剩余;360,毒圈·刷新剩余",
-						szName = "毒圈·刷新剩余",
-						nRefresh = 0,
-						nFrame = 8,
-						nIcon = 10478,
-					},
-				},
-				szNote = "毒圈·即将出现",
-				szContent = "毒圈即将出现",
-				[14] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
 						key = "战斗开始",
-						nTime = "120,尸罐·刷新剩余;240,尸罐·刷新剩余;360,尸罐·刷新剩余",
-						szName = "尸罐·刷新剩余",
-						nRefresh = 0,
+						nClass = 20,
 						nFrame = 4,
 						nIcon = 3477,
+						nRefresh = 0,
+						nTime = "120,尸罐·刷新剩余;240,尸罐·刷新剩余;360,尸罐·刷新剩余",
+						szName = "尸罐·刷新剩余",
 					},
-				},
-				szNote = "尸罐·已刷新",
-				szContent = "感染尸罐出现，摧毁可获得大量尸毒样本！",
-				[14] = {
-					bCenterAlarm = true,
-				},
-			},
-		},
-	},
-	NPC = {
-		[322] = {
-			{
-				nFrame = 54,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "尸罐",
-				dwID = 60228,
-			},
-		},
-		[-2] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 60212,
-				aFocus = {
-					{
-						szDisplay = "曲小宝·李渡鬼域",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "李渡鬼域·曲小宝",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 113529,
-				aFocus = {
-					{
-						szDisplay = "乐游纪·兑换商店",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "乐游纪·乐小天",
-				col = {
-					0,
-					255,
-					0,
 				},
 			},
 		},
@@ -639,624 +493,621 @@ return {
 	DEBUFF = {
 		[322] = {
 			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					45,
+					45,
+				},
 				dwID = 14565,
-				[1] = {
+				nLevel = 1,
+			},
+			{
+				{
 					bBuffList = true,
 				},
-				nLevel = 1,
 				col = {
 					255,
 					45,
 					45,
 				},
-			},
-			{
 				dwID = 13299,
-				[1] = {
+				nLevel = 1,
+			},
+			{
+				{
 					bBuffList = true,
 				},
-				nLevel = 1,
 				col = {
 					255,
 					45,
 					45,
 				},
-			},
-			{
 				dwID = 13225,
-				[1] = {
+				nLevel = 1,
+			},
+			{
+				{
 					bBuffList = true,
 				},
-				nLevel = 1,
 				col = {
 					255,
 					45,
 					45,
 				},
-			},
-			{
 				dwID = 13243,
-				[1] = {
+				nLevel = 1,
+			},
+			{
+				{
 					bBuffList = true,
 				},
-				nLevel = 1,
 				col = {
 					255,
 					45,
 					45,
 				},
-			},
-			{
 				dwID = 13263,
-				[1] = {
+				nLevel = 1,
+			},
+			{
+				{
 					bBuffList = true,
 				},
-				nLevel = 1,
 				col = {
 					255,
 					45,
 					45,
 				},
-			},
-			{
 				dwID = 13297,
-				[1] = {
+				nLevel = 1,
+			},
+			{
+				{
 					bBuffList = true,
 				},
-				nLevel = 1,
 				col = {
 					255,
 					45,
 					45,
 				},
-			},
-			{
 				dwID = 13379,
-				[1] = {
+				nLevel = 1,
+			},
+			{
+				{
 					bBuffList = true,
 				},
-				nLevel = 1,
 				col = {
 					255,
 					45,
 					45,
 				},
-			},
-			{
 				dwID = 14566,
-				[1] = {
+				nLevel = 1,
+			},
+			{
+				{
 					bBuffList = true,
 				},
-				nLevel = 1,
 				col = {
 					255,
 					45,
 					45,
 				},
-			},
-			{
 				dwID = 14573,
-				[1] = {
+				nLevel = 1,
+			},
+			{
+				{
 					bBuffList = true,
 				},
-				nLevel = 1,
 				col = {
 					255,
 					45,
 					45,
 				},
-			},
-			{
 				dwID = 13251,
-				[1] = {
+				nLevel = 1,
+			},
+			{
+				{
 					bBuffList = true,
 				},
-				nLevel = 1,
 				col = {
 					255,
 					45,
 					45,
 				},
-			},
-			{
 				dwID = 13276,
-				[1] = {
+				nLevel = 1,
+			},
+			{
+				{
 					bBuffList = true,
 				},
-				nLevel = 1,
 				col = {
 					255,
 					45,
 					45,
 				},
-			},
-			{
 				dwID = 6223,
-				[1] = {
-					bBuffList = true,
-				},
 				nLevel = 1,
-				col = {
-					255,
-					45,
-					45,
-				},
 			},
 			{
-				nLevel = 1,
-				[1] = {
+				{
 					bBuffList = true,
 				},
 				dwID = 13306,
+				nLevel = 1,
 			},
 			{
-				nLevel = 1,
 				dwID = 13280,
+				nLevel = 1,
 			},
 		},
-	},
-	__meta = {
-		szServer = "唯我独尊",
-		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1742736881,
-		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
-		szEdition = "zhcn_hd",
 	},
 	DOODAD = {
 		[322] = {
 			{
-				dwID = 7056,
 				aFocus = {
 					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
 						nMaxDistance = 20,
 						tLife = {
-							szOperator = ">",
-							nValue = 0,
 							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
 						},
-						tType = {
-							[3] = false,
+						tRelation = {
 							bAll = true,
-							[4] = false,
-							[5] = false,
+							bAlly = false,
+							bEnemy = false,
 						},
 					},
 				},
+				dwID = 7056,
 				szNote = "尸罐·奇珍宝匣",
 			},
 			{
-				dwID = 7084,
 				aFocus = {
 					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
 						nMaxDistance = 20,
 						tLife = {
-							szOperator = ">",
-							nValue = 0,
 							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
 						},
-						tType = {
-							[3] = false,
+						tRelation = {
 							bAll = true,
-							[4] = false,
-							[5] = false,
+							bAlly = false,
+							bEnemy = false,
 						},
 					},
 				},
+				dwID = 7084,
 				szNote = "援助灵灯",
 			},
 			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
 				dwID = 7088,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
 				szNote = "尸毒样本",
 			},
 			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
 				dwID = 7089,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
 				szNote = "尸毒样本",
 			},
 			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
 				dwID = 7095,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
 				szNote = "尸毒样本",
 			},
 			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
 				dwID = 7091,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
 				szNote = "尸毒样本",
 			},
 			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
 				dwID = 7096,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
 				szNote = "尸毒样本",
 			},
 			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
 				dwID = 7090,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
 				szNote = "尸毒样本",
 			},
 			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
 				dwID = 7087,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
 				szNote = "尸毒样本",
 			},
 			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
 				dwID = 7093,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
 				szNote = "尸毒样本",
 			},
 			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
 				dwID = 7094,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
 				szNote = "尸毒样本",
 			},
 			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
 				dwID = 7083,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
 				szNote = "尸毒样本",
 			},
 			{
-				dwID = 7062,
 				aFocus = {
 					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
 						nMaxDistance = 10,
 						tLife = {
-							szOperator = ">",
-							nValue = 0,
 							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
 						},
-						tType = {
-							[3] = false,
+						tRelation = {
 							bAll = true,
-							[4] = false,
-							[5] = false,
+							bAlly = false,
+							bEnemy = false,
 						},
 					},
 				},
+				dwID = 7062,
 				szNote = "可钻草堆",
 			},
 			{
-				dwID = 7063,
 				aFocus = {
 					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
 						nMaxDistance = 10,
 						tLife = {
-							szOperator = ">",
-							nValue = 0,
 							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
 						},
-						tType = {
-							[3] = false,
+						tRelation = {
 							bAll = true,
-							[4] = false,
-							[5] = false,
+							bAlly = false,
+							bEnemy = false,
 						},
 					},
 				},
+				dwID = 7063,
 				szNote = "可钻棺材",
 			},
 			{
-				dwID = 7067,
 				aFocus = {
 					{
-						szDisplay = "可钻棺材",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
 						nMaxDistance = 10,
+						szDisplay = "可钻棺材",
 						tLife = {
-							szOperator = ">",
-							nValue = 0,
 							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
 						},
-						tType = {
-							[3] = false,
+						tRelation = {
 							bAll = true,
-							[4] = false,
-							[5] = false,
+							bAlly = false,
+							bEnemy = false,
 						},
 					},
 				},
+				dwID = 7067,
 				szNote = "可钻棺材2",
 			},
 			{
-				dwID = 7064,
 				aFocus = {
 					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
 						nMaxDistance = 10,
 						tLife = {
-							szOperator = ">",
-							nValue = 0,
 							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
 						},
-						tType = {
-							[3] = false,
+						tRelation = {
 							bAll = true,
-							[4] = false,
-							[5] = false,
+							bAlly = false,
+							bEnemy = false,
 						},
 					},
 				},
+				dwID = 7064,
 				szNote = "可钻水缸",
 			},
 			{
-				dwID = 7103,
-				aFocus = {
-					{},
-				},
 				[17] = {
 					bCenterAlarm = true,
 				},
+				aFocus = {
+					{},
+				},
+				dwID = 7103,
 				szNote = "天赐秘宝",
 			},
 			{
-				dwID = 7057,
-				aFocus = {
-					{},
-				},
 				[17] = {
 					bCenterAlarm = true,
 				},
+				aFocus = {
+					{},
+				},
+				dwID = 7057,
 				szNote = "天赐秘宝",
 			},
 		},
+	},
+	NPC = {
+		[-2] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						szDisplay = "曲小宝·李渡鬼域",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 60212,
+				nFrame = 47,
+				szNote = "李渡鬼域·曲小宝",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "乐游纪·兑换商店",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 113529,
+				nFrame = 47,
+				szNote = "乐游纪·乐小天",
+			},
+		},
+		[322] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 60228,
+				nFrame = 54,
+				szNote = "尸罐",
+			},
+		},
+	},
+	TALK = {
+		[322] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "毒圈即将出现",
+				szNote = "毒圈·即将出现",
+				tCountdown = {
+					{
+						key = "毒圈",
+						nClass = 14,
+						nFrame = 8,
+						nIcon = 10478,
+						nRefresh = 0,
+						nTime = "120,毒圈·刷新剩余;240,毒圈·刷新剩余;360,毒圈·刷新剩余",
+						szName = "毒圈·刷新剩余",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "感染尸罐出现，摧毁可获得大量尸毒样本！",
+				szNote = "尸罐·已刷新",
+				tCountdown = {
+					{
+						key = "战斗开始",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 3477,
+						nRefresh = 0,
+						nTime = "120,尸罐·刷新剩余;240,尸罐·刷新剩余;360,尸罐·刷新剩余",
+						szName = "尸罐·刷新剩余",
+					},
+				},
+			},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1789635397,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
 }
