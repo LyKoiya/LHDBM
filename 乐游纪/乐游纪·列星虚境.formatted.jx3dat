@@ -6,7 +6,15 @@ return {
 					bBuffList = true,
 					bTeamPanel = true,
 				},
-				nLevel = 1,
+				aCataclysmBuff = {
+					{
+						col = "#00FF00FF",
+						colScreenHead = "#00FF00",
+						nColAlpha = 255,
+						nPriority = 4,
+						szReminder = "回",
+					},
+				},
 				col = {
 					0,
 					255,
@@ -14,388 +22,106 @@ return {
 				},
 				dwID = 14937,
 				nIcon = 3012,
+				nLevel = 1,
 				szNote = "回血光环恢复周围人",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#00FF00",
-						col = "#00FF00FF",
-						nPriority = 4,
-						szReminder = "回",
-						nColAlpha = 255,
-					},
-				},
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				nLevel = 1,
 				dwID = 14949,
+				nLevel = 1,
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				nLevel = 1,
 				dwID = 14943,
+				nLevel = 1,
 			},
 			{
 				{
 					bBuffList = true,
 				},
-				nLevel = 1,
 				dwID = 14944,
+				nLevel = 1,
 			},
 			{
 				{
-					bTeamPanel = true,
 					bBuffList = true,
 					bScreenHead = true,
+					bTeamPanel = true,
 				},
-				nLevel = 1,
+				aCataclysmBuff = {
+					{
+						bScreenHead = true,
+						col = "#FFFF00FF",
+						colScreenHead = "#FFFF00",
+						nColAlpha = 255,
+						nPriority = 4,
+						szReminder = "藏",
+					},
+				},
 				col = {
 					255,
 					255,
 					0,
 				},
 				dwID = 14834,
+				nLevel = 1,
 				szNote = "隐匿",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#FFFF00",
-						col = "#FFFF00FF",
-						nColAlpha = 255,
-						nPriority = 4,
-						szReminder = "藏",
-						bScreenHead = true,
-					},
-				},
 			},
 			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				col = {
-					0,
-					255,
-					0,
-				},
-				[1] = {
+				{
 					bBuffList = true,
 					bScreenHead = true,
 				},
-				dwID = 15233,
-				szNote = "恢复",
 				aCataclysmBuff = {
 					{
-						colScreenHead = "#00FF00",
+						bScreenHead = true,
 						col = "#00FF00FF",
+						colScreenHead = "#00FF00",
+						nColAlpha = 255,
 						nPriority = 5,
 						szReminder = "恢",
-						nColAlpha = 255,
-						bScreenHead = true,
 					},
 				},
-			},
-		},
-	},
-	CHAT = {
-		[412] = {
-			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "战斗开始",
-						nTime = 20,
-						szName = "战斗·开始倒计时",
-						nIcon = 13,
-						nFrame = 5,
-					},
-				},
-				szContent = "战斗20秒后开始。\
-",
 				col = {
+					0,
 					255,
-					255,
-					100,
+					0,
 				},
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 13,
-						key = "战斗开始",
-						nTime = "5,战斗·开始倒计时;41,贪星巨猿·出生剩余;43,贪星巨猿·已经出生;132,凶星龙兽·出生剩余;134,凶星龙兽·已经出生;490,煞星龙兽·出生剩余;495,煞星龙兽·已经出生",
-						szName = "战斗开始",
-						nRefresh = 0,
-						nClass = 20,
-						nFrame = 4,
-					},
-				},
-				szContent = "战斗将在5秒后开始。\
-",
-				col = {
-					255,
-					255,
-					100,
-				},
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "投票事件1",
-						nTime = 60,
-						szName = "在线{$3}人·投降{$2}/{$1}",
-						nIcon = 22438,
-						nFrame = 8,
-					},
-				},
-				szContent = "当前我方投降情况：已有  (%d+)人参与投票，其中(%d+)人选择投降, 共(%d+)人在线。",
-				col = {
-					255,
-					255,
-					100,
-				},
-				bReg = true,
-				szNote = "投降·{$2}/{$1}",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "战场事件0",
-						nTime = 5,
-						szName = "[{$1}]{$2}[{$3}]",
-						nIcon = 13,
-						nFrame = 5,
-					},
-				},
-				bReg = true,
-				szContent = "^%[(.-)·.-%](.-)%[(.-)·.-%]\
-",
-				szNote = "[{$1}]{$2}[{$3}]",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 10450,
-						key = "煞星龙兽",
-						nTime = "10,煞星龙兽·被重伤;300,煞星龙兽·刷新剩余;302,煞星龙兽·即将刷新",
-						szName = " 煞星龙兽",
-						nRefresh = 298,
-						nFrame = 3,
-						nClass = 20,
-					},
-				},
-				bReg = true,
-				szContent = "^%[(.-)%]重伤%[煞星龙兽%]",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 10449,
-						key = "凶星龙兽",
-						nTime = "10,凶星龙兽·被重伤;241,凶星龙兽·刷新剩余;243,凶星龙兽·即将刷新",
-						szName = "凶星龙兽",
-						nRefresh = 239,
-						nClass = 20,
-						nFrame = 3,
-					},
-				},
-				bReg = true,
-				szContent = "^%[(.-)%]重伤%[凶星龙兽%]",
-			},
-			{
-				[20] = {
-					bCenterAlarm = true,
-				},
-				szContent = "^%[(.-)%]摧毁敌方%[(.-)%]",
-				bReg = true,
-				szNote = "[{$1}]摧毁[{$2}]",
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "战场事件1",
-						nTime = 10,
-						szName = "【{$1}】摧毁[{$2}]",
-						nIcon = 13,
-						nFrame = 7,
-					},
-				},
-			},
-			{
-				[20] = {
-					bCenterAlarm = true,
-					bFullScreen = true,
-				},
-				szContent = "[煞星龙兽]借星象之力重生\
-",
-				col = {
-					255,
-					255,
-					255,
-				},
-				szNote = "煞星龙兽·已经刷新",
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "煞星龙兽",
-						nTime = 0,
-						szName = "煞星龙兽",
-						nIcon = 10450,
-					},
-					{
-						nClass = 20,
-						key = "煞星龙兽",
-						nTime = 10,
-						szName = "煞星龙兽·已刷新",
-						nFrame = 4,
-						nIcon = 10450,
-					},
-				},
-			},
-			{
-				[20] = {
-					bCenterAlarm = true,
-					bFullScreen = true,
-				},
-				szContent = "[凶星龙兽]借星象之力重生\
-",
-				col = {
-					255,
-					255,
-					255,
-				},
-				szNote = "凶星龙兽·已经刷新",
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "凶星龙兽",
-						nTime = 0,
-						szName = "凶星龙兽",
-						nIcon = 10449,
-					},
-					{
-						nClass = 20,
-						key = "凶星龙兽",
-						nTime = 10,
-						szName = "凶星龙兽·已刷新",
-						nFrame = 4,
-						nIcon = 10449,
-					},
-				},
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "战场提示3",
-						nTime = 10,
-						szName = "我方·玄武星辉塔·被摧毁",
-						nIcon = 3736,
-						nFrame = 1,
-					},
-				},
-				szContent = "我方[玄武星辉塔]被摧毁！\
-",
-				col = {
-					100,
-					100,
-					255,
-				},
-				szNote = "我方·玄武星辉塔·被摧毁",
-				[20] = {
-					bCenterAlarm = true,
-				},
-			},
-			{
-				[20] = {
-					bCenterAlarm = true,
-				},
-				szContent = "我方[朱雀星辉塔]被摧毁！\
-",
-				col = {
-					255,
-					100,
-					100,
-				},
-				szNote = "我方·朱雀星辉塔·被摧毁",
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "战场提示3",
-						nTime = 10,
-						szName = "我方·朱雀星辉塔·被摧毁",
-						nIcon = 3736,
-						nFrame = 1,
-					},
-				},
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "战场提示2",
-						nTime = 10,
-						szName = "我方·玄武圣象·受到攻击",
-						nIcon = 2492,
-						nFrame = 2,
-					},
-				},
-				szContent = "我方[玄武圣象]正在受到攻击\
-",
-				col = {
-					100,
-					100,
-					255,
-				},
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "战场提示2",
-						nTime = 10,
-						szName = "我方·朱雀圣象·受到攻击",
-						nIcon = 2492,
-						nFrame = 2,
-					},
-				},
-				szContent = "我方[朱雀圣象]正在受到攻击\
-",
-				col = {
-					255,
-					100,
-					100,
-				},
+				dwID = 15233,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "恢复",
 			},
 		},
 	},
 	CASTING = {
 		[412] = {
 			{
-				tCountdown = {
-					{
-						nClass = 9,
-						key = "恢复",
-						nTime = "5,正在恢复;30,恢复·CD;32,恢复·就绪",
-						szName = "恢复",
-						nRefresh = 1,
-						nIcon = 1483,
-						nFrame = 6,
-					},
-				},
 				col = {
 					0,
 					255,
 					0,
 				},
 				dwID = 21945,
-				szNote = "恢复",
 				nLevel = 1,
+				szNote = "恢复",
+				tCountdown = {
+					{
+						key = "恢复",
+						nClass = 9,
+						nFrame = 6,
+						nIcon = 1483,
+						nRefresh = 1,
+						nTime = "5,正在恢复;30,恢复·CD;32,恢复·就绪",
+						szName = "恢复",
+					},
+				},
 			},
 			{
-				nLevel = 1,
 				[8] = {
 					bScreenHead = true,
 				},
@@ -405,754 +131,281 @@ return {
 					0,
 				},
 				dwID = 21592,
+				nLevel = 1,
 				szNote = "回城",
 			},
 		},
 	},
-	TALK = {
+	CHAT = {
 		[412] = {
 			{
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "战斗20秒后开始。\
+",
 				tCountdown = {
 					{
-						nClass = 14,
-						key = "煞星龙兽",
-						nTime = -2,
-						szName = " 煞星龙兽",
-						nIcon = 10450,
-						nFrame = 3,
+						key = "战斗开始",
+						nClass = 20,
+						nFrame = 5,
+						nIcon = 13,
+						nTime = 20,
+						szName = "战斗·开始倒计时",
 					},
+				},
+			},
+			{
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "战斗将在5秒后开始。\
+",
+				tCountdown = {
 					{
-						nIcon = 10450,
+						key = "战斗开始",
+						nClass = 20,
+						nFrame = 4,
+						nIcon = 13,
+						nRefresh = 0,
+						nTime = "5,战斗·开始倒计时;41,贪星巨猿·出生剩余;43,贪星巨猿·已经出生;132,凶星龙兽·出生剩余;134,凶星龙兽·已经出生;490,煞星龙兽·出生剩余;495,煞星龙兽·已经出生",
+						szName = "战斗开始",
+					},
+				},
+			},
+			{
+				bReg = true,
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "当前我方投降情况：已有  (%d+)人参与投票，其中(%d+)人选择投降, 共(%d+)人在线。",
+				szNote = "投降·{$2}/{$1}",
+				tCountdown = {
+					{
+						key = "投票事件1",
+						nClass = 20,
+						nFrame = 8,
+						nIcon = 22438,
+						nTime = 60,
+						szName = "在线{$3}人·投降{$2}/{$1}",
+					},
+				},
+			},
+			{
+				bReg = true,
+				szContent = "^%[(.-)·.-%](.-)%[(.-)·.-%]\
+",
+				szNote = "[{$1}]{$2}[{$3}]",
+				tCountdown = {
+					{
+						key = "战场事件0",
+						nClass = 20,
+						nFrame = 5,
+						nIcon = 13,
+						nTime = 5,
+						szName = "[{$1}]{$2}[{$3}]",
+					},
+				},
+			},
+			{
+				bReg = true,
+				szContent = "^%[(.-)%]重伤%[煞星龙兽%]",
+				tCountdown = {
+					{
 						key = "煞星龙兽",
-						nTime = "10,煞星龙兽·我方击杀;300,煞星龙兽·刷新剩余;302,煞星龙兽·即将刷新",
-						szName = "煞星龙兽",
+						nClass = 20,
+						nFrame = 3,
+						nIcon = 10450,
 						nRefresh = 298,
-						nClass = 14,
-						nFrame = 7,
+						nTime = "10,煞星龙兽·被重伤;300,煞星龙兽·刷新剩余;302,煞星龙兽·即将刷新",
+						szName = " 煞星龙兽",
 					},
-				},
-				szNote = "我方重伤·煞星龙兽",
-				szContent = "我方击杀煞星龙兽！",
-				[14] = {
-					bCenterAlarm = true,
 				},
 			},
 			{
+				bReg = true,
+				szContent = "^%[(.-)%]重伤%[凶星龙兽%]",
 				tCountdown = {
 					{
-						nClass = 14,
 						key = "凶星龙兽",
-						nTime = -2,
-						szName = "凶星龙兽",
-						nIcon = 10449,
+						nClass = 20,
 						nFrame = 3,
-					},
-					{
 						nIcon = 10449,
-						key = "凶星龙兽",
-						nTime = "10,凶星龙兽·我方击杀;241,凶星龙兽·刷新剩余;243,凶星龙兽·即将刷新",
-						szName = "凶星龙兽",
 						nRefresh = 239,
-						nClass = 14,
-						nFrame = 7,
+						nTime = "10,凶星龙兽·被重伤;241,凶星龙兽·刷新剩余;243,凶星龙兽·即将刷新",
+						szName = "凶星龙兽",
 					},
 				},
-				szNote = "我方重伤·凶星龙兽",
-				szContent = "我方击杀凶星龙兽！",
-				[14] = {
+			},
+			{
+				[20] = {
 					bCenterAlarm = true,
 				},
-			},
-		},
-	},
-	NPC = {
-		[412] = {
-			{
-				nFrame = 47,
-				dwID = 65410,
-				aFocus = {
-					{
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "贪星巨猿",
+				bReg = true,
+				szContent = "^%[(.-)%]摧毁敌方%[(.-)%]",
+				szNote = "[{$1}]摧毁[{$2}]",
 				tCountdown = {
 					{
-						nFrame = 4,
-						nTime = "180,贪星巨猿·红·刷新剩余;185,贪星巨猿·红·已经刷新",
-						szName = "贪星巨猿·红·刷新剩余",
-						nClass = 12,
-						nIcon = 2672,
+						key = "战场事件1",
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 13,
+						nTime = 10,
+						szName = "【{$1}】摧毁[{$2}]",
 					},
 				},
 			},
 			{
-				nFrame = 47,
-				dwID = 65411,
-				aFocus = {
-					{
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-					},
+				[20] = {
+					bCenterAlarm = true,
+					bFullScreen = true,
 				},
-				szNote = "贪星巨猿",
+				col = {
+					255,
+					255,
+					255,
+				},
+				szContent = "[煞星龙兽]借星象之力重生\
+",
+				szNote = "煞星龙兽·已经刷新",
 				tCountdown = {
 					{
+						key = "煞星龙兽",
+						nClass = 20,
+						nIcon = 10450,
+						nTime = 0,
+						szName = "煞星龙兽",
+					},
+					{
+						key = "煞星龙兽",
+						nClass = 20,
 						nFrame = 4,
-						nTime = "180,贪星巨猿·蓝·刷新剩余;185,贪星巨猿·蓝·已经刷新",
-						szName = "贪星巨猿·蓝·刷新剩余",
-						nClass = 12,
-						nIcon = 2671,
+						nIcon = 10450,
+						nTime = 10,
+						szName = "煞星龙兽·已刷新",
 					},
 				},
 			},
 			{
-				nFrame = 47,
-				aFocus = {
+				[20] = {
+					bCenterAlarm = true,
+					bFullScreen = true,
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				szContent = "[凶星龙兽]借星象之力重生\
+",
+				szNote = "凶星龙兽·已经刷新",
+				tCountdown = {
 					{
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
+						key = "凶星龙兽",
+						nClass = 20,
+						nIcon = 10449,
+						nTime = 0,
+						szName = "凶星龙兽",
+					},
+					{
+						key = "凶星龙兽",
+						nClass = 20,
+						nFrame = 4,
+						nIcon = 10449,
+						nTime = 10,
+						szName = "凶星龙兽·已刷新",
 					},
 				},
-				szNote = "煞星龙兽",
-				dwID = 65412,
 			},
 			{
-				nFrame = 47,
-				aFocus = {
+				[20] = {
+					bCenterAlarm = true,
+				},
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "我方[玄武星辉塔]被摧毁！\
+",
+				szNote = "我方·玄武星辉塔·被摧毁",
+				tCountdown = {
 					{
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
+						key = "战场提示3",
+						nClass = 20,
+						nFrame = 1,
+						nIcon = 3736,
+						nTime = 10,
+						szName = "我方·玄武星辉塔·被摧毁",
 					},
 				},
-				szNote = "凶星龙兽",
-				dwID = 65413,
 			},
 			{
-				nFrame = 47,
-				aFocus = {
+				[20] = {
+					bCenterAlarm = true,
+				},
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "我方[朱雀星辉塔]被摧毁！\
+",
+				szNote = "我方·朱雀星辉塔·被摧毁",
+				tCountdown = {
 					{
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
+						key = "战场提示3",
+						nClass = 20,
+						nFrame = 1,
+						nIcon = 3736,
+						nTime = 10,
+						szName = "我方·朱雀星辉塔·被摧毁",
 					},
 				},
-				szNote = "朱雀超级俑",
-				dwID = 65721,
 			},
 			{
-				nFrame = 47,
-				aFocus = {
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "我方[玄武圣象]正在受到攻击\
+",
+				tCountdown = {
 					{
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
+						key = "战场提示2",
+						nClass = 20,
+						nFrame = 2,
+						nIcon = 2492,
+						nTime = 10,
+						szName = "我方·玄武圣象·受到攻击",
 					},
 				},
-				szNote = "玄武超级俑",
-				dwID = 65722,
 			},
 			{
-				nFrame = 47,
-				aFocus = {
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "我方[朱雀圣象]正在受到攻击\
+",
+				tCountdown = {
 					{
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
+						key = "战场提示2",
+						nClass = 20,
+						nFrame = 2,
+						nIcon = 2492,
+						nTime = 10,
+						szName = "我方·朱雀圣象·受到攻击",
 					},
 				},
-				szNote = "朱雀车俑",
-				dwID = 65224,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "玄武车俑",
-				dwID = 65229,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "玄武防御塔",
-				dwID = 66507,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "玄武防御塔",
-				dwID = 66506,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "玄武防御塔",
-				dwID = 66505,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "玄武防御塔",
-				dwID = 66504,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "玄武防御塔",
-				dwID = 66503,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "玄武防御塔",
-				dwID = 66502,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "玄武防御塔",
-				dwID = 66501,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "玄武防御塔",
-				dwID = 66500,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "玄武防御塔",
-				dwID = 66499,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "朱雀防御塔",
-				dwID = 66495,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "朱雀防御塔",
-				dwID = 66494,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "朱雀防御塔",
-				dwID = 66493,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "朱雀防御塔",
-				dwID = 66492,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "朱雀防御塔",
-				dwID = 66491,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "朱雀防御塔",
-				dwID = 66490,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "朱雀防御塔",
-				dwID = 66489,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "朱雀防御塔",
-				dwID = 66488,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "朱雀防御塔",
-				dwID = 66487,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "玄武圣像",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 50,
-					},
-				},
-				szNote = "玄武圣像",
-				dwID = 66498,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "朱雀圣像",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 50,
-					},
-				},
-				szNote = "朱雀圣像1",
-				dwID = 66439,
-			},
-			{
-				nFrame = 52,
-				aFocus = {
-					{
-						nMaxDistance = 3,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-					},
-				},
-				szNote = "阿甘",
-				dwID = 65255,
-			},
-		},
-		[-2] = {
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "乐游纪·列星虚境",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "列星虚境·尹修禊",
-				dwID = 65821,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "乐小天·乐游纪",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "乐游纪·乐小天",
-				dwID = 113529,
 			},
 		},
 	},
@@ -1163,108 +416,812 @@ return {
 					bBuffList = true,
 					bTeamPanel = true,
 				},
-				nLevel = 1,
 				aCataclysmBuff = {
 					{
-						colScreenHead = "#FF0055",
 						col = "#FF0055FF",
+						colScreenHead = "#FF0055",
+						nColAlpha = 255,
 						nPriority = 7,
 						szReminder = "流",
-						nColAlpha = 255,
 					},
 				},
-				dwID = 14891,
 				col = {
 					255,
 					0,
 					85,
 				},
+				dwID = 14891,
+				nLevel = 1,
 			},
 			{
 				{
 					bBuffList = true,
 					bTeamPanel = true,
 				},
-				nLevel = 1,
 				aCataclysmBuff = {
 					{
-						nColAlpha = 255,
-						colScreenHead = "#FFFF00",
-						szReminder = "火",
 						col = "#FFFF00FF",
+						colScreenHead = "#FFFF00",
+						nColAlpha = 255,
+						szReminder = "火",
 					},
 				},
-				dwID = 14892,
 				col = {
 					255,
 					255,
 					0,
 				},
+				dwID = 14892,
+				nLevel = 1,
 			},
 			{
 				{
-					bScreenHead = true,
 					bBuffList = true,
+					bScreenHead = true,
 					bTeamPanel = true,
 				},
-				nLevel = 1,
+				aCataclysmBuff = {
+					{
+						bCaution = true,
+						bScreenHead = true,
+						col = "#FF0055FF",
+						colScreenHead = "#FF0055",
+						nColAlpha = 255,
+						nPriority = 3,
+						szReminder = "箭",
+					},
+				},
 				col = {
 					255,
 					0,
 					85,
 				},
 				dwID = 14831,
+				nLevel = 1,
 				szName = "注视",
 				szNote = "星辉塔注视",
-				aCataclysmBuff = {
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 15004,
+				nLevel = 1,
+				szName = "灼烧",
+				szNote = "龙兽·灼烧",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 15005,
+				nLevel = 1,
+				szName = "腐蚀",
+				szNote = "龙兽·腐蚀",
+			},
+		},
+	},
+	DOODAD = {},
+	NPC = {
+		[-2] = {
+			{
+				aFocus = {
 					{
-						colScreenHead = "#FF0055",
-						nPriority = 3,
-						col = "#FF0055FF",
-						nColAlpha = 255,
-						szReminder = "箭",
-						bCaution = true,
-						bScreenHead = true,
+						nMaxDistance = 30,
+						szDisplay = "乐游纪·列星虚境",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 65821,
+				nFrame = 47,
+				szNote = "列星虚境·尹修禊",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "乐小天·乐游纪",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 113529,
+				nFrame = 47,
+				szNote = "乐游纪·乐小天",
+			},
+		},
+		[412] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 65410,
+				nFrame = 47,
+				szNote = "贪星巨猿",
+				tCountdown = {
+					{
+						nClass = 12,
+						nFrame = 4,
+						nIcon = 2672,
+						nTime = "180,贪星巨猿·红·刷新剩余;185,贪星巨猿·红·已经刷新",
+						szName = "贪星巨猿·红·刷新剩余",
 					},
 				},
 			},
 			{
-				{
-					bBuffList = true,
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
 				},
-				nLevel = 1,
-				col = {
-					255,
-					50,
-					50,
+				dwID = 65411,
+				nFrame = 47,
+				szNote = "贪星巨猿",
+				tCountdown = {
+					{
+						nClass = 12,
+						nFrame = 4,
+						nIcon = 2671,
+						nTime = "180,贪星巨猿·蓝·刷新剩余;185,贪星巨猿·蓝·已经刷新",
+						szName = "贪星巨猿·蓝·刷新剩余",
+					},
 				},
-				szName = "灼烧",
-				szNote = "龙兽·灼烧",
-				dwID = 15004,
 			},
 			{
-				{
-					bBuffList = true,
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
 				},
-				nLevel = 1,
-				col = {
-					255,
-					50,
-					50,
+				dwID = 65412,
+				nFrame = 47,
+				szNote = "煞星龙兽",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
 				},
-				szName = "腐蚀",
-				szNote = "龙兽·腐蚀",
-				dwID = 15005,
+				dwID = 65413,
+				nFrame = 47,
+				szNote = "凶星龙兽",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 65721,
+				nFrame = 47,
+				szNote = "朱雀超级俑",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 65722,
+				nFrame = 47,
+				szNote = "玄武超级俑",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 65224,
+				nFrame = 47,
+				szNote = "朱雀车俑",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 65229,
+				nFrame = 47,
+				szNote = "玄武车俑",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 66507,
+				nFrame = 47,
+				szNote = "玄武防御塔",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 66506,
+				nFrame = 47,
+				szNote = "玄武防御塔",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 66505,
+				nFrame = 47,
+				szNote = "玄武防御塔",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 66504,
+				nFrame = 47,
+				szNote = "玄武防御塔",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 66503,
+				nFrame = 47,
+				szNote = "玄武防御塔",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 66502,
+				nFrame = 47,
+				szNote = "玄武防御塔",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 66501,
+				nFrame = 47,
+				szNote = "玄武防御塔",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 66500,
+				nFrame = 47,
+				szNote = "玄武防御塔",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 66499,
+				nFrame = 47,
+				szNote = "玄武防御塔",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 66495,
+				nFrame = 47,
+				szNote = "朱雀防御塔",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 66494,
+				nFrame = 47,
+				szNote = "朱雀防御塔",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 66493,
+				nFrame = 47,
+				szNote = "朱雀防御塔",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 66492,
+				nFrame = 47,
+				szNote = "朱雀防御塔",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 66491,
+				nFrame = 47,
+				szNote = "朱雀防御塔",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 66490,
+				nFrame = 47,
+				szNote = "朱雀防御塔",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 66489,
+				nFrame = 47,
+				szNote = "朱雀防御塔",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 66488,
+				nFrame = 47,
+				szNote = "朱雀防御塔",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 66487,
+				nFrame = 47,
+				szNote = "朱雀防御塔",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 50,
+						szDisplay = "玄武圣像",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 66498,
+				nFrame = 47,
+				szNote = "玄武圣像",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 50,
+						szDisplay = "朱雀圣像",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 66439,
+				nFrame = 47,
+				szNote = "朱雀圣像1",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 3,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 65255,
+				nFrame = 52,
+				szNote = "阿甘",
+			},
+		},
+	},
+	TALK = {
+		[412] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "我方击杀煞星龙兽！",
+				szNote = "我方重伤·煞星龙兽",
+				tCountdown = {
+					{
+						key = "煞星龙兽",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 10450,
+						nTime = -2,
+						szName = " 煞星龙兽",
+					},
+					{
+						key = "煞星龙兽",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 10450,
+						nRefresh = 298,
+						nTime = "10,煞星龙兽·我方击杀;300,煞星龙兽·刷新剩余;302,煞星龙兽·即将刷新",
+						szName = "煞星龙兽",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "我方击杀凶星龙兽！",
+				szNote = "我方重伤·凶星龙兽",
+				tCountdown = {
+					{
+						key = "凶星龙兽",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 10449,
+						nTime = -2,
+						szName = "凶星龙兽",
+					},
+					{
+						key = "凶星龙兽",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 10449,
+						nRefresh = 239,
+						nTime = "10,凶星龙兽·我方击杀;241,凶星龙兽·刷新剩余;243,凶星龙兽·即将刷新",
+						szName = "凶星龙兽",
+					},
+				},
 			},
 		},
 	},
 	__meta = {
-		szServer = "唯我独尊",
+		nTimeStamp = 1789635397,
 		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1741530036,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
-	DOODAD = {},
 }
