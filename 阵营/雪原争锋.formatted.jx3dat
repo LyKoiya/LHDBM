@@ -19,7 +19,7 @@ return {
 				nIcon = 4838,
 				nLevel = 1,
 				nScrutinyType = 1,
-				szName = "红旗",
+				szName = "红方",
 				szNote = "帮会约战_红旗",
 			},
 			{
@@ -30,7 +30,7 @@ return {
 				nIcon = 4837,
 				nLevel = 1,
 				nScrutinyType = 1,
-				szName = "蓝旗",
+				szName = "蓝方",
 				szNote = "帮会约战_蓝旗",
 			},
 			{
@@ -169,16 +169,16 @@ return {
 					bCenterAlarm = true,
 				},
 				bReg = true,
-				szContent = "帮会【(.-)】技高一筹，胜！",
-				szNote = "{$1}·胜利",
+				szContent = "^帮会【(.-)】技高一筹，胜！",
+				szNote = "帮会·{$1}·胜利",
 				tCountdown = {
 					{
 						key = "战斗开始",
 						nClass = 20,
 						nFrame = 4,
 						nIcon = 13,
-						nTime = -1,
-						szName = "战斗开始",
+						nTime = 30,
+						szName = "帮会·{$1}·胜利",
 					},
 				},
 			},
@@ -187,7 +187,7 @@ return {
 					bCenterAlarm = true,
 				},
 				bReg = true,
-				szContent = "【(.-)】的(.-)一骑当先、首战告捷，率先拿到战场的第一滴血，【(.-)】额外获得(%d-)点资源！\
+				szContent = "^【(.-)】的(.-)一骑当先、首战告捷，率先拿到战场的第一滴血，【(.-)】额外获得(%d-)点资源！\
 ",
 				szNote = "【{$1}·{$2}】·获得一血·额外{$3}资源",
 			},
@@ -1561,6 +1561,40 @@ return {
 		},
 	},
 	TALK = {
+		[-2] = {
+			{
+				szContent = "本帮会和【(.-)】帮会之间的约战已经开启，请有外交的权限的成员速带本帮成员到各主城帮会区外交执事【(.-)】处排队参战！",
+				szNote = "帮会约战·{$1}",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "帮会约战",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nTime = 30,
+						szName = "帮会约战·{$1}",
+					},
+				},
+			},
+		},
+		[74] = {
+			{
+				szContent = "本帮会和【(.-)】帮会之间的约战已经开启，请有外交的权限的成员速带本帮成员到各主城帮会区外交执事【(.-)】处排队参战！",
+				szNote = "帮会约战·{$1}",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "帮会约战",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nTime = 30,
+						szName = "帮会约战·{$1}",
+					},
+				},
+			},
+		},
 		[149] = {
 			{
 				szContent = "战场在2分钟后正式开启。",
@@ -1794,10 +1828,26 @@ return {
 					},
 				},
 			},
+			{
+				szContent = "^本帮会和【(.-)】帮会的约战中，本帮(.-)，(.-)！",
+				szNote = "本帮会·{$3}",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "战斗开始",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "本帮会·{$3}",
+					},
+				},
+			},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1787923990,
+		nTimeStamp = 1789921614,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
