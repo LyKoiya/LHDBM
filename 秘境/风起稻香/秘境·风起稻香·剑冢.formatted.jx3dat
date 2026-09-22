@@ -1,0 +1,104 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {},
+	NPC = {
+		[51] = {
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 7090,
+				nFrame = 57,
+				szNote = "老一·叶芳致",
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 6773,
+				nFrame = 57,
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 7097,
+				nFrame = 47,
+				szNote = "冬·春秋",
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 7096,
+				nFrame = 47,
+				szNote = "秋·玄泽",
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 7095,
+				nFrame = 47,
+				szNote = "夏·青丝",
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 7093,
+				nFrame = 47,
+				szNote = "春·流风",
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 7278,
+				nFrame = 50,
+				szNote = "夜啸",
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 7098,
+				nFrame = 57,
+				szNote = "老三·叶琦菲",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "传送·离开",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 7271,
+				nFrame = 47,
+				szNote = "不知名的老者",
+			},
+		},
+	},
+	TALK = {},
+	__meta = {
+		nTimeStamp = 1790093671,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+	},
+}
