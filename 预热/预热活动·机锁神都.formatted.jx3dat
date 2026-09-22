@@ -7,12 +7,41 @@ return {
 	NPC = {
 		[806] = {
 			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "唐乐孜·活动商人",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 140018,
+				nFrame = 47,
+				szNote = "机锁神都·唐乐孜·飞星筹",
+			},
+			{
 				aFocus = {
 					{},
 				},
 				dwID = 138421,
 				nFrame = 57,
-				szNote = "机锁神都·阿史那承庆·飞星筹",
+				szNote = "机锁神都·阿史那承庆",
 			},
 		},
 	},
@@ -36,7 +65,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790066163,
+		nTimeStamp = 1790066845,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
