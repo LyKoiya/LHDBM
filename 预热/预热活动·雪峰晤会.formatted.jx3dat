@@ -1,326 +1,254 @@
 return {
 	BUFF = {},
-	CHAT = {},
 	CASTING = {},
-	TALK = {
-		[695] = {
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {},
+	NPC = {
+		[23] = {
 			{
-				tCountdown = {
+				aFocus = {
 					{
-						nClass = 14,
-						key = "预热活动1",
-						nTime = 5,
-						szName = "雪峰晤会·终了之战·开启",
-						nIcon = 13,
-						nFrame = 3,
+						nMaxDistance = 20,
+						szDisplay = "传送·冷龙风·欲曙",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
 					},
 				},
-				szContent = "吾教圣地岂容尔等侵犯！受死吧，异教徒！",
-				szTarget = "巴木克",
+				dwID = 128939,
+				nFrame = 47,
 			},
 		},
-	},
-	NPC = {
 		[695] = {
 			{
-				nFrame = 57,
 				aFocus = {
 					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
 						nMaxDistance = 60,
 						tLife = {
-							szOperator = ">",
-							nValue = 0,
 							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
 						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "巴木克",
-				dwID = 129678,
-			},
-			{
-				nFrame = 57,
-				aFocus = {
-					{
-						szDisplay = "",
 						tRelation = {
-							bAlly = false,
 							bAll = false,
+							bAlly = false,
 							bEnemy = true,
 						},
-						dwMapID = -1,
+					},
+				},
+				dwID = 129678,
+				nFrame = 57,
+				szNote = "巴木克",
+			},
+			{
+				aFocus = {
+					{
 						nMaxDistance = 20,
 						tLife = {
-							szOperator = "<",
-							nValue = 99,
 							bEnable = true,
+							nValue = 99,
+							szOperator = "<",
 						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
 						},
 					},
 				},
-				szNote = "祆教教徒",
 				dwID = 129010,
+				nFrame = 57,
+				szNote = "祆教教徒",
 			},
 			{
-				nFrame = 50,
 				aFocus = {
 					{
-						szDisplay = "德弗囚所·登天步道",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
 						nMaxDistance = 40,
+						szDisplay = "德弗囚所·登天步道",
 						tLife = {
-							szOperator = ">",
-							nValue = 0,
 							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
 						},
-						tType = {
-							[3] = false,
+						tRelation = {
 							bAll = true,
-							[4] = false,
-							[5] = false,
+							bAlly = false,
+							bEnemy = false,
 						},
 					},
 				},
-				szNote = "德弗囚所·登天步道",
 				dwID = 129072,
+				nFrame = 50,
+				szNote = "德弗囚所·登天步道",
 			},
 			{
-				nFrame = 50,
 				aFocus = {
 					{
-						szDisplay = "鹰·山脚",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
 						nMaxDistance = 10,
+						szDisplay = "鹰·山脚",
 						tLife = {
-							szOperator = ">",
-							nValue = 0,
 							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
 						},
-						tType = {
-							[3] = false,
+						tRelation = {
 							bAll = true,
-							[4] = false,
-							[5] = false,
+							bAlly = false,
+							bEnemy = false,
 						},
 					},
 				},
-				szNote = "鹰·山脚",
 				dwID = 129645,
+				nFrame = 50,
+				szNote = "鹰·山脚",
 			},
 			{
-				nFrame = 50,
 				aFocus = {
 					{
-						szDisplay = "鹰·诺布众营地",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
 						nMaxDistance = 20,
+						szDisplay = "鹰·诺布众营地",
 						tLife = {
-							szOperator = ">",
-							nValue = 0,
 							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
 						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "鹰·诺布众营地",
-				dwID = 129647,
-			},
-			{
-				nFrame = 50,
-				aFocus = {
-					{
-						szDisplay = "鹰·审判庭",
 						tRelation = {
-							bAlly = false,
 							bAll = true,
+							bAlly = false,
 							bEnemy = false,
 						},
-						dwMapID = -1,
+					},
+				},
+				dwID = 129647,
+				nFrame = 50,
+				szNote = "鹰·诺布众营地",
+			},
+			{
+				aFocus = {
+					{
 						nMaxDistance = 15,
+						szDisplay = "鹰·审判庭",
 						tLife = {
-							szOperator = ">",
-							nValue = 0,
 							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
 						},
-						tType = {
-							[3] = false,
+						tRelation = {
 							bAll = true,
-							[4] = false,
-							[5] = false,
+							bAlly = false,
+							bEnemy = false,
 						},
 					},
 				},
-				szNote = "鹰·审判庭",
 				dwID = 129646,
+				nFrame = 50,
+				szNote = "鹰·审判庭",
 			},
 			{
-				nFrame = 47,
 				[3] = {
 					bScreenHead = true,
 				},
-				dwID = 129105,
 				aFocus = {
 					{
-						szDisplay = "柳寄秋·活动商人",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
 						nMaxDistance = 10,
+						szDisplay = "柳寄秋·活动商人",
 						tLife = {
-							szOperator = ">",
-							nValue = 0,
 							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
 						},
-						tType = {
-							[3] = false,
+						tRelation = {
 							bAll = true,
-							[4] = false,
-							[5] = false,
+							bAlly = false,
+							bEnemy = false,
 						},
 					},
 				},
-				szNote = "柳寄秋·活动商人",
 				col = {
 					0,
 					255,
 					0,
 				},
+				dwID = 129105,
+				nFrame = 47,
+				szNote = "柳寄秋·活动商人",
 			},
 			{
-				dwID = 129054,
 				aFocus = {
 					{
+						nMaxDistance = 20,
 						szDisplay = "传送·山脚",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
 						tLife = {
-							szOperator = ">",
-							nValue = 0,
 							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
 						},
-						tType = {
-							[3] = false,
+						tRelation = {
 							bAll = true,
-							[4] = false,
-							[5] = false,
+							bAlly = false,
+							bEnemy = false,
 						},
 					},
 				},
+				dwID = 129054,
+				nFrame = 47,
 				szNote = "穆启明·传送·山脚",
-				nFrame = 47,
 			},
 			{
-				nFrame = 47,
 				aFocus = {
 					{
+						nMaxDistance = 20,
 						szDisplay = "传送·德弗囚所",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
 						tLife = {
-							szOperator = ">",
-							nValue = 0,
 							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
 						},
-						tType = {
-							[3] = false,
+						tRelation = {
 							bAll = true,
-							[4] = false,
-							[5] = false,
+							bAlly = false,
+							bEnemy = false,
 						},
 					},
 				},
-				szNote = "传送·德弗囚所",
 				dwID = 129830,
-			},
-		},
-		[23] = {
-			{
 				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "传送·冷龙风·欲曙",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				dwID = 128939,
+				szNote = "传送·德弗囚所",
 			},
 		},
 	},
-	DEBUFF = {},
+	TALK = {
+		[695] = {
+			{
+				szContent = "吾教圣地岂容尔等侵犯！受死吧，异教徒！",
+				szTarget = "巴木克",
+				tCountdown = {
+					{
+						key = "预热活动",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 5,
+						szName = "雪峰晤会·终了之战·开启",
+					},
+				},
+			},
+		},
+	},
 	__meta = {
-		szServer = "唯我独尊",
+		nTimeStamp = 1790066048,
 		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1728837807,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
-	DOODAD = {},
 }
