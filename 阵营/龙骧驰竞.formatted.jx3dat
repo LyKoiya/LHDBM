@@ -314,7 +314,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 120,
 						szDisplay = "µÄÂ¬¡¤±¦¶Ñ",
 						tLife = {
@@ -356,7 +355,6 @@ return {
 				},
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 30,
 						szDisplay = "µÄÂ¬¡¤30³ß",
 						tLife = {
@@ -371,7 +369,6 @@ return {
 						},
 					},
 					{
-						dwMapID = -1,
 						nMaxDistance = 40,
 						szDisplay = "µÄÂ¬¡¤40³ß",
 						tLife = {
@@ -386,7 +383,6 @@ return {
 						},
 					},
 					{
-						dwMapID = -1,
 						nMaxDistance = 0,
 						szDisplay = "µÄÂ¬",
 						tLife = {
@@ -430,15 +426,15 @@ return {
 						nFrame = 1,
 						nIcon = 13,
 						nRefresh = 1,
-						nTime = "30,Áúæø³Û¾º¡¤µÄÂ¬¡¤´«ËÍÊ£Óà;32,Áúæø³Û¾º¡¤µÄÂ¬¡¤ÇåÍ¼´«ËÍ",
-						szName = "Áúæø³Û¾º¡¤ÇåÍ¼´«ËÍ",
+						nTime = "30,Áúæø³Û¾º¡¤³öÍ¼Ê£Óà;32,Áúæø³Û¾º¡¤ÇåÍ¼´«³ö",
+						szName = "Áúæø³Û¾º¡¤³öÍ¼Ê£Óà",
 					},
 				},
 			},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1786717050,
+		nTimeStamp = 1790094947,
 		szAuthor = "ºÉ»¨Àð",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
