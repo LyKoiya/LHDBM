@@ -1,217 +1,21 @@
 return {
 	BUFF = {},
+	CASTING = {},
 	CHAT = {
 		[23] = {
 			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "预热活动·上限1",
-						nTime = 20,
-						szName = "预热·粟特铜币·已达上限",
-						nRefresh = 3600,
-						nFrame = 2,
-						nIcon = 99,
-					},
-					{
-						nClass = 20,
-						key = "预热活动·上限2",
-						nTime = 20,
-						szName = "预热·粟特铜币·已达上限",
-						nRefresh = 3600,
-						nFrame = 2,
-						nIcon = 99,
-					},
-					{
-						nClass = 20,
-						key = "预热活动·上限3",
-						nTime = 20,
-						szName = "预热·粟特铜币·已达上限",
-						nRefresh = 3600,
-						nFrame = 2,
-						nIcon = 99,
-					},
-				},
 				szContent = "本日已不能从本事件获得奖励。\
 ",
-			},
-		},
-	},
-	CASTING = {},
-	TALK = {
-		[23] = {
-			{
 				tCountdown = {
 					{
-						nClass = 14,
-						key = "预热活动1",
+						key = "预热活动",
+						nClass = 20,
+						nFrame = 2,
+						nIcon = 99,
+						nRefresh = 3600,
 						nTime = 20,
-						szName = "洛丹·即将刷新",
-						nIcon = 17135,
-						nFrame = 4,
+						szName = "预热·粟特铜币·已达上限",
 					},
-				},
-				szContent = "正愁找不到溜走的老鼠，还敢回来自投罗网？",
-				szTarget = "洛丹",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "预热活动1",
-						nTime = 5,
-						szName = "朔漠飞尘·剪恶除奸·开启",
-						nFrame = 4,
-						nIcon = 17135,
-					},
-				},
-				szContent = "赞普的敌人……绝不能放过……",
-				szTarget = "洛丹",
-			},
-		},
-	},
-	NPC = {
-		[23] = {
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = "<",
-							nValue = 100,
-							bEnable = true,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = "<",
-							nValue = 100,
-							bEnable = true,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "朔漠飞尘·吐蕃劫匪",
-				dwID = 127680,
-			},
-			{
-				nFrame = 57,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 127679,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "朔漠飞尘·洛丹",
-				col = {
-					255,
-					50,
-					50,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 127754,
-				aFocus = {
-					{
-						szDisplay = "拔悉密·活动商店",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 10,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "活动商店·拔悉密",
-				col = {
-					0,
-					255,
-					0,
 				},
 			},
 		},
@@ -219,135 +23,274 @@ return {
 	DEBUFF = {
 		[23] = {
 			{
+				dwID = 28242,
 				nLevel = 1,
 				szNote = "预热活动·朔漠飞尘",
-				dwID = 28242,
 			},
 			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				nIcon = 343,
-				szName = "按1",
-				dwID = 28243,
-				[1] = {
+				{
 					bBuffList = true,
 				},
+				dwID = 28243,
+				nIcon = 343,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "按1",
 				szNote = "预热活动·朔漠飞尘",
 				tCountdown = {
 					{
-						nClass = 1,
 						key = "QTE·按1",
+						nClass = 1,
+						nIcon = 343,
 						nTime = 1.2,
 						szName = "按111",
-						nIcon = 343,
 					},
 					{
-						nClass = 2,
 						key = "QTE·按1",
+						nClass = 2,
+						nIcon = 343,
 						nTime = 0,
 						szName = "QTE·按1",
-						nIcon = 343,
 					},
 				},
 			},
 			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				nIcon = 11826,
-				szName = "按2",
-				dwID = 28244,
-				[1] = {
+				{
 					bBuffList = true,
 				},
+				dwID = 28244,
+				nIcon = 11826,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "按2",
 				szNote = "预热活动·朔漠飞尘",
 				tCountdown = {
 					{
-						nClass = 1,
 						key = "QTE·按2",
+						nClass = 1,
+						nIcon = 11826,
 						nTime = 1.2,
 						szName = "按222",
-						nIcon = 11826,
 					},
 					{
-						nClass = 2,
 						key = "QTE·按2",
+						nClass = 2,
+						nIcon = 11826,
 						nTime = 0,
 						szName = "QTE·按2",
-						nIcon = 11826,
 					},
 				},
 			},
 			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				nIcon = 130,
-				szName = "按3",
-				dwID = 28245,
-				[1] = {
+				{
 					bBuffList = true,
 				},
+				dwID = 28245,
+				nIcon = 130,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "按3",
 				szNote = "预热活动·朔漠飞尘",
 				tCountdown = {
 					{
-						nClass = 1,
 						key = "QTE·按3",
+						nClass = 1,
+						nIcon = 130,
 						nTime = 1.2,
 						szName = "按333",
-						nIcon = 130,
 					},
 					{
-						nClass = 2,
 						key = "QTE·按3",
+						nClass = 2,
+						nIcon = 130,
 						nTime = 0,
 						szName = "QTE·按3",
-						nIcon = 130,
 					},
 				},
 			},
 			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						nClass = 1,
-						key = "QTE·按4",
-						nTime = 1.2,
-						szName = "按444",
-						nIcon = 106,
-					},
-					{
-						nClass = 2,
-						key = "QTE·按4",
-						nTime = 0,
-						szName = "QTE·按4",
-						nIcon = 106,
-					},
-				},
-				dwID = 28246,
-				szName = "按4",
-				[1] = {
+				{
 					bBuffList = true,
 				},
-				szNote = "预热活动·朔漠飞尘",
+				dwID = 28246,
 				nIcon = 106,
-			},
-			{
 				nLevel = 1,
 				nScrutinyType = 1,
+				szName = "按4",
+				szNote = "预热活动·朔漠飞尘",
+				tCountdown = {
+					{
+						key = "QTE·按4",
+						nClass = 1,
+						nIcon = 106,
+						nTime = 1.2,
+						szName = "按444",
+					},
+					{
+						key = "QTE·按4",
+						nClass = 2,
+						nIcon = 106,
+						nTime = 0,
+						szName = "QTE·按4",
+					},
+				},
+			},
+			{
 				dwID = 17022,
+				nIcon = 99,
+				nLevel = 1,
+				nScrutinyType = 1,
 				szName = "满贡献",
 				szNote = "满贡献奖励领取标记",
-				nIcon = 99,
+			},
+		},
+	},
+	DOODAD = {},
+	NPC = {
+		[23] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						tLife = {
+							bEnable = true,
+							nValue = 100,
+							szOperator = "<",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 100,
+							szOperator = "<",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 6,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 127680,
+				nFrame = 47,
+				szNote = "朔漠飞尘·吐蕃劫匪",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 127679,
+				nFrame = 57,
+				szNote = "朔漠飞尘·洛丹",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						szDisplay = "拔悉密·活动商店",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 127754,
+				nFrame = 47,
+				szNote = "活动商店·拔悉密",
+			},
+		},
+	},
+	TALK = {
+		[23] = {
+			{
+				szContent = "正愁找不到溜走的老鼠，还敢回来自投罗网？",
+				szTarget = "洛丹",
+				tCountdown = {
+					{
+						key = "预热活动",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 17135,
+						nTime = 20,
+						szName = "洛丹·即将刷新",
+					},
+				},
+			},
+			{
+				szContent = "赞普的敌人……绝不能放过……",
+				szTarget = "洛丹",
+				tCountdown = {
+					{
+						key = "预热活动",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 17135,
+						nTime = 5,
+						szName = "朔漠飞尘·剪恶除奸·开启",
+					},
+				},
 			},
 		},
 	},
 	__meta = {
-		szServer = "唯我独尊",
+		nTimeStamp = 1790066048,
 		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1712326551,
 		szCustomVoicePacketUUID = "",
 		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
-	DOODAD = {},
 }
