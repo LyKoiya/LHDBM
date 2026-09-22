@@ -103,7 +103,12 @@ packList = [
         "Checked": True
     },
     {
-        "Path": "\\节日",
+        "Path": "\\节日\\节日活动",
+        "Method": "fileMerge",
+        "Checked": True
+    },
+    {
+        "Path": "\\节日\\节日剧情\\节日剧情·中秋节·2026.formatted.jx3dat",
         "Method": "fileMerge",
         "Checked": True
     },
@@ -113,12 +118,22 @@ packList = [
         "Checked": True
     },
     {
-        "Path": "\\预热\\预热活动·仗剑江湖.formatted.jx3dat",
+        "Path": "\\预热\\预热任务·仗剑江湖.formatted.jx3dat",
         "Method": "fileMerge",
         "Checked": True
     },
     {
-        "Path": "\\预热\\预热活动·暗影千机.formatted.jx3dat",
+        "Path": "\\预热\\预热任务·暗影千机.formatted.jx3dat",
+        "Method": "fileMerge",
+        "Checked": True
+    },
+    {
+        "Path": "\\预热\\预热任务·苍生铸世.formatted.jx3dat",
+        "Method": "fileMerge",
+        "Checked": True
+    },
+    {
+        "Path": "\\预热\\预热活动·机锁神都.formatted.jx3dat",
         "Method": "fileMerge",
         "Checked": True
     },
