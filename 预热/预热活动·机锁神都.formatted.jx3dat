@@ -1,0 +1,46 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {},
+	NPC = {
+		[806] = {
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 138421,
+				nFrame = 57,
+				szNote = "机锁神都·阿史那承庆·飞星筹",
+			},
+		},
+	},
+	TALK = {
+		[806] = {
+			{
+				szContent = "你这中原人！竟想在本帅眼下救人？！",
+				szNote = "预热活动·阿史那承庆·已刷新",
+				szTarget = "阿史那承庆",
+				tCountdown = {
+					{
+						key = "预热活动1",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 13675,
+						nTime = 299,
+						szName = "阿史那承庆·已刷新",
+					},
+				},
+			},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1790066163,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+	},
+}
