@@ -123,9 +123,14 @@ packList = [
         "Checked": True
     },
     {
-        "Path": "\\联动\\联动活动·鹅鸭杀.formatted.jx3dat",
+        "Path": "\\预热\\书剑天涯·四乡风物.formatted.jx3dat",
         "Method": "fileMerge",
         "Checked": True
+    },
+    {
+        "Path": "\\联动\\联动活动·鹅鸭杀.formatted.jx3dat",
+        "Method": "fileMerge",
+        "Checked": False
     },
     {
         "Path": "\\联动\\联动活动·凡人修仙传.formatted.jx3dat",
