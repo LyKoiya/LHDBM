@@ -1,150 +1,1040 @@
 return {
 	BUFF = {},
+	CASTING = {},
 	CHAT = {
 		[-2] = {
 			{
+				bSearch = true,
+				szContent = "你已接受了[大战！",
 				tCountdown = {
 					{
-						nIcon = 360,
 						key = "打包外食1",
+						nClass = 20,
+						nFrame = 2,
+						nIcon = 360,
 						nTime = 20,
 						szName = "记得打包·帮会外食",
-						nFrame = 2,
-						nClass = 20,
 					},
 					{
-						nIcon = 360,
 						key = "打包外食2",
+						nClass = 20,
+						nFrame = 2,
+						nIcon = 360,
 						nTime = 20,
 						szName = "记得打包·帮会外食",
-						nFrame = 2,
-						nClass = 20,
 					},
 				},
-				szContent = "你已接受了[大战！",
-				bSearch = true,
+			},
+		},
+		[2] = {
+			{
+				szContent = "你已接受了[鸿鹄·天工迷云]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·天工坊·五人普通",
+					},
+				},
 			},
 		},
 		[5] = {
 			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "任务提示1",
-						nTime = 2,
-						szName = "秘境·灵霄峡·五人普通",
-						nIcon = 13,
-					},
-				},
 				szContent = "你已接受了[鸿鹄·灵霄险恶]。\
 ",
-			},
-		},
-		[16] = {
-			{
 				tCountdown = {
 					{
-						nClass = 20,
 						key = "任务提示1",
-						nTime = 2,
-						szName = "秘境·无盐岛·五人普通",
+						nClass = 20,
+						nFrame = 6,
 						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·灵霄峡·五人普通",
 					},
 				},
-				szContent = "你已接受了[鸿鹄·无盐恶枭]。\
-",
-			},
-		},
-		[74] = {
-			{
-				tCountdown = {
-					{
-						nIcon = 360,
-						key = "打包外食1",
-						nTime = 20,
-						szName = "记得打包·帮会外食",
-						nFrame = 2,
-						nClass = 20,
-					},
-					{
-						nIcon = 360,
-						key = "打包外食2",
-						nTime = 20,
-						szName = "记得打包·帮会外食",
-						nFrame = 2,
-						nClass = 20,
-					},
-				},
-				szContent = "你已接受了[大战！",
-				bSearch = true,
-			},
-		},
-		[153] = {
-			{
-				tCountdown = {
-					{
-						nIcon = 360,
-						key = "打包外食1",
-						nTime = 20,
-						szName = "记得打包·帮会外食",
-						nFrame = 2,
-						nClass = 20,
-					},
-					{
-						nIcon = 360,
-						key = "打包外食2",
-						nTime = 20,
-						szName = "记得打包·帮会外食",
-						nFrame = 2,
-						nClass = 20,
-					},
-				},
-				szContent = "你已接受了[大战！",
-				bSearch = true,
-			},
-		},
-		[102] = {
-			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "任务提示1",
-						nTime = 2,
-						szName = "秘境·仙踪林·五人简单",
-						nIcon = 13,
-					},
-				},
-				szContent = "你已接受了[鸿鹄·毒海仙踪]。\
-",
 			},
 		},
 		[7] = {
 			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "任务提示1",
-						nTime = 2,
-						szName = "秘境·空雾峰·五人普通",
-						nIcon = 13,
-					},
-				},
 				szContent = "你已接受了[鸿鹄·空雾风云]。\
 ",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·空雾峰·五人普通",
+					},
+				},
+			},
+		},
+		[11] = {
+			{
+				szContent = "你已接受了[鸿鹄·勇闯三才]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·天地三才阵·五人普通",
+					},
+				},
+			},
+		},
+		[16] = {
+			{
+				szContent = "你已接受了[鸿鹄·无盐恶枭]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·无盐岛·五人普通",
+					},
+				},
+			},
+		},
+		[49] = {
+			{
+				szContent = "你已接受了[鸿鹄·剑冢剑芒]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·剑冢·五人普通",
+					},
+				},
+			},
+		},
+		[74] = {
+			{
+				bSearch = true,
+				szContent = "你已接受了[大战！",
+				tCountdown = {
+					{
+						key = "打包外食1",
+						nClass = 20,
+						nFrame = 2,
+						nIcon = 360,
+						nTime = 20,
+						szName = "记得打包·帮会外食",
+					},
+					{
+						key = "打包外食2",
+						nClass = 20,
+						nFrame = 2,
+						nIcon = 360,
+						nTime = 20,
+						szName = "记得打包·帮会外食",
+					},
+				},
+			},
+		},
+		[102] = {
+			{
+				szContent = "你已接受了[鸿鹄·毒海仙踪]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·仙踪林·五人简单",
+					},
+				},
+			},
+		},
+		[122] = {
+			{
+				szContent = "你已接受了[鸿鹄·密室机关]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·唐门密室·五人普通",
+					},
+				},
+			},
+		},
+		[150] = {
+			{
+				szContent = "你已接受了[鸿鹄·五行奇阵]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·光明顶秘道·五人普通",
+					},
+				},
+			},
+		},
+		[153] = {
+			{
+				bSearch = true,
+				szContent = "你已接受了[大战！",
+				tCountdown = {
+					{
+						key = "打包外食1",
+						nClass = 20,
+						nFrame = 2,
+						nIcon = 360,
+						nTime = 20,
+						szName = "记得打包·帮会外食",
+					},
+					{
+						key = "打包外食2",
+						nClass = 20,
+						nFrame = 2,
+						nIcon = 360,
+						nTime = 20,
+						szName = "记得打包·帮会外食",
+					},
+				},
+			},
+		},
+		[159] = {
+			{
+				szContent = "你已接受了[鸿鹄·魅影迷离]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·流离岛·五人普通",
+					},
+				},
+			},
+		},
+		[193] = {
+			{
+				szContent = "你已接受了[鸿鹄·长恨雁门]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·雁门关之役·5人普通",
+					},
+				},
+			},
+		},
+		[213] = {
+			{
+				szContent = "你已接受了[鸿鹄·正气长存]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·微山书院·五人普通",
+					},
+				},
+			},
+		},
+		[243] = {
+			{
+				szContent = "你已接受了[鸿鹄·夕颜无泪]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·夕颜阁·五人普通",
+					},
+				},
+			},
+		},
+		[333] = {
+			{
+				szContent = "你已接受了[鸿鹄·九辩迷局]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·九辩馆·五人普通",
+					},
+				},
+			},
+		},
+		[419] = {
+			{
+				szContent = "你已接受了[鸿鹄·玄鹤秘事]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·玄鹤别院·普通/英雄",
+					},
+				},
+			},
+		},
+		[464] = {
+			{
+				szContent = "你已接受了[鸿鹄·入梦推演]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·梦入集真岛·普通/英雄",
+					},
+				},
+			},
+		},
+		[526] = {
+			{
+				szContent = "你已接受了[鸿鹄·别院危境]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·武氏别院·五人普通/英雄",
+					},
+				},
+			},
+		},
+		[578] = {
+			{
+				szContent = "你已接受了[鸿鹄·幽藤之馆]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·幽藤馆·五人普通/英雄",
+					},
+				},
+			},
+		},
+		[642] = {
+			{
+				szContent = "你已接受了[鸿鹄·栖灵旧事]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·栖灵洞天旧事·普通/英雄",
+					},
+				},
+			},
+		},
+		[666] = {
+			{
+				szContent = "你已接受了[鸿鹄·天龙对擂]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·天龙寺·五人普通/英雄",
+					},
+				},
 			},
 		},
 	},
-	CASTING = {},
-	TALK = {},
-	NPC = {},
 	DEBUFF = {},
+	DOODAD = {},
+	NPC = {
+		[2] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·天工坊",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 7128,
+				nFrame = 47,
+				szNote = "天字贰陆",
+			},
+		},
+		[5] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·灵霄峡",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 7130,
+				nFrame = 47,
+				szNote = "天字叁伍",
+			},
+		},
+		[7] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·空雾峰",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 7129,
+				nFrame = 47,
+				szNote = "天字贰捌",
+			},
+		},
+		[11] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·天地三才阵",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 7127,
+				nFrame = 47,
+				szNote = "天字贰肆",
+			},
+		},
+		[16] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·无盐岛",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 7131,
+				nFrame = 47,
+				szNote = "天字肆贰",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "无盐岛·接引人",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 2997,
+				nFrame = 47,
+				szNote = "无盐岛·接引人·残影",
+			},
+		},
+		[49] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·剑冢",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 7416,
+				nFrame = 47,
+				szNote = "天字壹捌",
+			},
+		},
+		[102] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·仙踪林",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 13116,
+				nFrame = 47,
+				szNote = "天字玖壹壹",
+			},
+		},
+		[122] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·唐门密室",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 15891,
+				nFrame = 47,
+				szNote = "天字壹壹壹壹",
+			},
+		},
+		[150] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "鸿鹄·光明顶秘道",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 20225,
+				nFrame = 47,
+				szNote = "天字壹壹贰玖",
+			},
+		},
+		[159] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·流离岛",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 24965,
+				nFrame = 47,
+				szNote = "天字陆捌",
+			},
+		},
+		[193] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·雁门关之役",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 40846,
+				nFrame = 47,
+				szNote = "天字玖伍贰柒",
+			},
+		},
+		[213] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·微山书院",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 44519,
+				nFrame = 47,
+				szNote = "天字陆陆",
+			},
+		},
+		[243] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "夕颜阁·接引人",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 52455,
+				nFrame = 47,
+				szNote = "夕颜阁·接引人任·青萍",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·夕颜阁",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 54676,
+				nFrame = 47,
+				szNote = "天字伍叁",
+			},
+		},
+		[333] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·九辩馆",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 64484,
+				nFrame = 47,
+				szNote = "天字柒壹",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "九辩馆·接引人",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 62405,
+				nFrame = 47,
+				szNote = "九辩馆·接引人·方尽",
+			},
+		},
+		[419] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·玄鹤别院",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 68531,
+				nFrame = 47,
+				szNote = "凌柒零",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "玄鹤别院·接引人",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 68571,
+				nFrame = 47,
+				szNote = "玄鹤别院·接引人·凌捌零",
+			},
+		},
+		[464] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·梦入集真岛",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 102374,
+				nFrame = 47,
+				szNote = "记录册",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "梦入集真岛·接引人",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 102306,
+				nFrame = 67,
+				szNote = "梦入集真岛·接引人·使役·小兔",
+			},
+		},
+		[526] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·武氏别院",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 106870,
+				nFrame = 47,
+				szNote = "柳襄",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "武氏别院·接引人",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 105052,
+				nFrame = 47,
+			},
+		},
+		[578] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·幽藤馆",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 108493,
+				nFrame = 47,
+				szNote = "浪惊风",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "幽藤馆·接引人",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 108492,
+				nFrame = 47,
+				szNote = "幽藤馆·接引人·浪翻天",
+			},
+		},
+		[642] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "栖灵洞天旧事·接引人",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 124535,
+				nFrame = 47,
+				szNote = "栖灵洞天旧事·接引人·颂雁辞",
+			},
+		},
+		[666] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·天龙寺",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 130299,
+				nFrame = 47,
+				szNote = "段霍",
+			},
+		},
+		[718] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "獭山岛·接引人",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 135451,
+				nFrame = 47,
+				szNote = "獭山岛·接引人·林勉",
+			},
+		},
+	},
+	TALK = {},
 	__meta = {
-		szServer = "唯我独尊",
+		nTimeStamp = 1790093704,
 		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1785482920,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
-	DOODAD = {},
 }
