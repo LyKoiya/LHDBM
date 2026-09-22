@@ -32376,7 +32376,7 @@ return {
 				nIcon = 4837,
 				nLevel = 1,
 				nScrutinyType = 1,
-				szName = "蓝旗",
+				szName = "蓝方",
 			},
 			{
 				{
@@ -32386,7 +32386,7 @@ return {
 				nIcon = 4838,
 				nLevel = 1,
 				nScrutinyType = 1,
-				szName = "红旗",
+				szName = "红方",
 			},
 			{
 				{
@@ -36072,6 +36072,16 @@ return {
 				dwID = 33401,
 				nLevel = 1,
 				nScrutinyType = 2,
+			},
+		},
+		[806] = {
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 33981,
+				nLevel = 1,
+				nScrutinyType = 1,
 			},
 		},
 		[995] = {
@@ -58657,7 +58667,7 @@ return {
 					bCenterAlarm = true,
 				},
 				bReg = true,
-				szContent = "【(.-)】的(.-)一骑当先、首战告捷，率先拿到战场的第一滴血，【(.-)】额外获得(%d-)点资源！\
+				szContent = "^【(.-)】的(.-)一骑当先、首战告捷，率先拿到战场的第一滴血，【(.-)】额外获得(%d-)点资源！\
 ",
 				szNote = "【{$1}·{$2}】·获得一血·额外{$3}资源",
 			},
@@ -58666,16 +58676,16 @@ return {
 					bCenterAlarm = true,
 				},
 				bReg = true,
-				szContent = "帮会【(.-)】技高一筹，胜！",
-				szNote = "{$1}·胜利",
+				szContent = "^帮会【(.-)】技高一筹，胜！",
+				szNote = "帮会·{$1}·胜利",
 				tCountdown = {
 					{
 						key = "战斗开始",
 						nClass = 20,
 						nFrame = 4,
 						nIcon = 13,
-						nTime = -1,
-						szName = "战斗开始",
+						nTime = 30,
+						szName = "帮会·{$1}·胜利",
 					},
 				},
 			},
@@ -74281,60 +74291,6 @@ return {
 		[-2] = {
 			{
 				{
-					bTeamPanel = true,
-				},
-				aCataclysmBuff = {
-					{
-						nPriority = 43,
-						szReminder = "逃",
-					},
-				},
-				dwID = 33928,
-				nLevel = 1,
-				nScrutinyType = 2,
-			},
-			{
-				dwID = 34176,
-				nIcon = 18640,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "红尘不渡·触发上限",
-				tCountdown = {
-					{
-						key = "红尘不渡",
-						nClass = -1,
-						nFrame = 4,
-						nIcon = 18640,
-						nRefresh = 7200,
-						nTime = 10,
-						szName = "鹅鸭杀·红尘不渡·本周上限",
-					},
-					{
-						key = "红尘不渡",
-						nClass = -1,
-						nIcon = 18640,
-						nTime = 0,
-						szName = "红尘不渡",
-					},
-				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 34191,
-				nIcon = 25016,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "祈福",
-			},
-			{
-				{
 					bBuffList = true,
 				},
 				col = {
@@ -75554,6 +75510,28 @@ return {
 						szName = "【{$sender}】→【{$receiver}】",
 					},
 				},
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						nPriority = 1,
+						szReminder = "赏",
+					},
+				},
+				col = {
+					255,
+					50,
+					50,
+				},
+				dwID = 31297,
+				nIcon = 9572,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "决斗",
 			},
 			{
 				col = {
@@ -107378,45 +107356,85 @@ return {
 				dwID = 5181,
 			},
 			{
+				[17] = {
+					bScreenHead = true,
+				},
 				aFocus = {
 					{
 						nMaxDistance = 6,
 					},
+				},
+				col = {
+					0,
+					255,
+					0,
 				},
 				dwID = 2971,
 			},
 			{
+				[17] = {
+					bScreenHead = true,
+				},
 				aFocus = {
 					{
 						nMaxDistance = 6,
 					},
 				},
+				col = {
+					0,
+					255,
+					0,
+				},
 				dwID = 2970,
 			},
 			{
+				[17] = {
+					bScreenHead = true,
+				},
 				aFocus = {
 					{
 						nMaxDistance = 10,
 						szDisplay = "有鱼灯·鱼龙一舞",
 					},
 				},
+				col = {
+					0,
+					255,
+					0,
+				},
 				dwID = 2991,
 			},
 			{
+				[17] = {
+					bScreenHead = true,
+				},
 				aFocus = {
 					{
 						nMaxDistance = 10,
 						szDisplay = "桃花灯·鱼龙一舞",
 					},
 				},
+				col = {
+					0,
+					255,
+					0,
+				},
 				dwID = 2990,
 			},
 			{
+				[17] = {
+					bScreenHead = true,
+				},
 				aFocus = {
 					{
 						nMaxDistance = 10,
 						szDisplay = "元宝灯·鱼龙一舞",
 					},
+				},
+				col = {
+					0,
+					255,
+					0,
 				},
 				dwID = 2992,
 			},
@@ -110951,7 +110969,21 @@ return {
 			{
 				aFocus = {
 					{
+						nMaxDistance = 10,
+						szDisplay = "安置·戟俑",
+					},
+				},
+				dwID = 4681,
+				szName = "安置点",
+			},
+			{
+				aFocus = {
+					{
 						nMaxDistance = 6,
+						szDisplay = "机关·交互",
+					},
+					{
+						nMaxDistance = 20,
 						szDisplay = "机关",
 					},
 				},
@@ -114670,6 +114702,16 @@ return {
 				dwID = 11729,
 			},
 		},
+		[806] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 11970,
+			},
+		},
 	},
 	NPC = {
 		[-21] = {
@@ -118252,25 +118294,7 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 6,
-						szDisplay = "生日蛋糕·红尘不渡",
-					},
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 138763,
-				nFrame = 47,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "主持鹅·鹅鸭杀",
+						szDisplay = "戚凤娘·书剑天涯",
 					},
 				},
 				col = {
@@ -118278,7 +118302,7 @@ return {
 					255,
 					0,
 				},
-				dwID = 138654,
+				dwID = 125504,
 				nFrame = 47,
 			},
 			{
@@ -119120,6 +119144,25 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 6,
+						szDisplay = "丘石·中秋节",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 6274,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "小饼·中秋节",
 					},
 				},
 				col = {
@@ -119137,6 +119180,7 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 6,
+						szDisplay = "宫叶杉·中秋节",
 					},
 				},
 				col = {
@@ -119154,6 +119198,7 @@ return {
 				aFocus = {
 					{
 						nMaxDistance = 6,
+						szDisplay = "丘怀·中秋节",
 					},
 				},
 				col = {
@@ -119465,7 +119510,7 @@ return {
 				},
 				aFocus = {
 					{
-						nMaxDistance = 20,
+						nMaxDistance = 6,
 						szDisplay = "乐小天·乐游纪",
 					},
 				},
@@ -121229,6 +121274,23 @@ return {
 					0,
 				},
 				dwID = 138360,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 139522,
 				nFrame = 47,
 			},
 			{
@@ -123667,6 +123729,87 @@ return {
 			},
 		},
 		[15] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 140014,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+					},
+				},
+				dwID = 139821,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 139827,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "光圈",
+					},
+				},
+				dwID = 139829,
+				nFrame = 47,
+				szName = "光圈",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "青柳",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 139521,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 20,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 139518,
+				nFrame = 47,
+			},
 			{
 				aFocus = {
 					{
@@ -143162,6 +143305,130 @@ return {
 			{
 				aFocus = {
 					{
+						nMaxDistance = 60,
+					},
+				},
+				dwID = 30398,
+				nFrame = 52,
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 90,
+					},
+				},
+				dwID = 36386,
+				nFrame = 52,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 30396,
+				nFrame = 52,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 30394,
+				nFrame = 52,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 30395,
+				nFrame = 52,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 30393,
+				nFrame = 52,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "安置·成功",
+					},
+				},
+				dwID = 30588,
+				nFrame = 47,
+				szName = "安置成功",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "戟俑·安置·机关",
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 30582,
+				nFrame = 52,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{},
+				},
+				dwID = 27668,
+				nFrame = 52,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "传送·老三",
+					},
+				},
+				dwID = 36451,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
 						nMaxDistance = 30,
 						szDisplay = "传送·入口",
 					},
@@ -157420,6 +157687,20 @@ return {
 		},
 		[642] = {
 			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 138368,
+				nFrame = 47,
+			},
+			{
 				[3] = {
 					bScreenHead = true,
 				},
@@ -161499,11 +161780,19 @@ return {
 				nFrame = 47,
 			},
 			{
+				[3] = {
+					bScreenHead = true,
+				},
 				aFocus = {
 					{
-						nMaxDistance = 6,
+						nMaxDistance = -1,
 						szDisplay = "奇怪的洞·匿沙影",
 					},
+				},
+				col = {
+					0,
+					255,
+					255,
 				},
 				dwID = 132215,
 				nFrame = 47,
@@ -164149,6 +164438,213 @@ return {
 				nFrame = 47,
 			},
 		},
+		[806] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "唐乐孜·活动商人",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 140018,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 30,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 137732,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 138421,
+				nFrame = 57,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 138349,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 138348,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 3,
+						szDisplay = "地刺",
+					},
+				},
+				dwID = 137734,
+				nFrame = 57,
+				szName = "地刺",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "机关",
+					},
+				},
+				dwID = 140499,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "暗门",
+					},
+				},
+				dwID = 138128,
+				nFrame = 47,
+				szName = "暗门",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 138262,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 137728,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 138224,
+				nFrame = 52,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 137731,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+					},
+				},
+				dwID = 137730,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 137733,
+				nFrame = 57,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 137676,
+				nFrame = 57,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 137696,
+				nFrame = 57,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "唐无影",
+					},
+				},
+				dwID = 137669,
+				nFrame = 47,
+			},
+		},
 		[995] = {
 			{
 				[3] = {
@@ -166287,6 +166783,21 @@ return {
 				},
 			},
 			{
+				szContent = "攻防之战在即，为公平起见，侠士将在30秒后被传出本图，攻防排队将在12点30分或18点30分开始，请做好准备。",
+				szNote = "阵营攻防·场景清图",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "阵营业务",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 13,
+						nTime = 30,
+						szName = "攻防清图·传出剩余",
+					},
+				},
+			},
+			{
 				col = {
 					255,
 					255,
@@ -166414,7 +166925,7 @@ return {
 						nFrame = -1,
 						nIcon = 7676,
 						nRefresh = 0,
-						nTime = "1800.02,{$5}{$4}{$6}·{$8}{$7}{$9}",
+						nTime = "1800.1,{$5}{$4}{$6}·{$8}{$7}{$9}",
 						szName = "{$4}{$5}·{$6}分·{$7}{$8}·{$9}分",
 					},
 					{
@@ -168685,6 +169196,25 @@ return {
 					255,
 					100,
 				},
+				szContent = "竞技场准备时间内可切换奇穴",
+				tCountdown = {
+					{
+						key = "战斗开始",
+						nClass = 14,
+						nFrame = 5,
+						nIcon = 13,
+						nRefresh = 40,
+						nTime = "40,切换奇穴·剩余时间;60,战斗·开始倒计时",
+						szName = "切换奇穴·剩余时间",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					255,
+					100,
+				},
 				szContent = "海选赛中，竞技场准备时间内可切换奇穴",
 				tCountdown = {
 					{
@@ -170154,6 +170684,21 @@ return {
 						nIcon = 13,
 						nTime = 20,
 						szName = "需吃饱3次后·对话·秋叶青",
+					},
+				},
+			},
+			{
+				szContent = "本帮会和【(.-)】帮会之间的约战已经开启，请有外交的权限的成员速带本帮成员到各主城帮会区外交执事【(.-)】处排队参战！",
+				szNote = "帮会约战·{$1}",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "帮会约战",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nTime = 30,
+						szName = "帮会约战·{$1}",
 					},
 				},
 			},
@@ -174332,6 +174877,20 @@ return {
 			},
 		},
 		[15] = {
+			{
+				szContent = "好你个小贼！偷我钱袋！",
+				szTarget = "无理的富豪",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "切换·输出心法",
+					},
+				},
+			},
 			{
 				szContent = "宠物已成功添加。",
 				tCountdown = {
@@ -179668,6 +180227,21 @@ return {
 				},
 			},
 			{
+				szContent = "本帮会和【(.-)】帮会之间的约战已经开启，请有外交的权限的成员速带本帮成员到各主城帮会区外交执事【(.-)】处排队参战！",
+				szNote = "帮会约战·{$1}",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "帮会约战",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nTime = 30,
+						szName = "帮会约战·{$1}",
+					},
+				},
+			},
+			{
 				szContent = "最近七天内，帮会宣战·领地失利，已为侠士添加不利状态。",
 				szNote = "帮会宣战·领地·失败",
 				tCountdown = {
@@ -181676,6 +182250,22 @@ return {
 			},
 		},
 		[149] = {
+			{
+				szContent = "^本帮会和【(.-)】帮会的约战中，本帮(.-)，(.-)！",
+				szNote = "本帮会·{$3}",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "战斗开始",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "本帮会·{$3}",
+					},
+				},
+			},
 			{
 				szContent = "我方成功升级一座箭塔！",
 				tCountdown = {
@@ -198865,6 +199455,38 @@ return {
 				},
 			},
 		},
+		[806] = {
+			{
+				szContent = "你这中原人！竟想在本帅眼下救人？！",
+				szNote = "预热活动·阿史那承庆·已刷新",
+				szTarget = "阿史那承庆",
+				tCountdown = {
+					{
+						key = "预热活动1",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 13675,
+						nTime = 299,
+						szName = "阿史那承庆·已刷新",
+					},
+				},
+			},
+			{
+				szContent = "复活后可前往唐简处接取余烬新途，继续剧情。",
+				szNote = "复活后·唐简·继续剧情",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "前往·唐简·继续剧情",
+					},
+				},
+			},
+		},
 		[995] = {
 			{
 				szContent = "提示：首领出现！",
@@ -198971,6 +199593,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1789273268,
+		nTimeStamp = 1790067322,
 	},
 }
