@@ -50604,6 +50604,20 @@ return {
 					},
 				},
 			},
+			{
+				szContent = "你已接受了[鸿鹄·天工迷云]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·天工坊·五人普通",
+					},
+				},
+			},
 		},
 		[5] = {
 			{
@@ -50659,8 +50673,9 @@ return {
 					{
 						key = "任务提示1",
 						nClass = 20,
+						nFrame = 6,
 						nIcon = 13,
-						nTime = 2,
+						nTime = 10,
 						szName = "秘境·灵霄峡·五人普通",
 					},
 				},
@@ -50942,8 +50957,9 @@ return {
 					{
 						key = "任务提示1",
 						nClass = 20,
+						nFrame = 6,
 						nIcon = 13,
-						nTime = 2,
+						nTime = 10,
 						szName = "秘境·空雾峰·五人普通",
 					},
 				},
@@ -51273,6 +51289,22 @@ return {
 						nIcon = 13,
 						nTime = 30,
 						szName = "长安·战乱·大明宫·玉和金",
+					},
+				},
+			},
+		},
+		[11] = {
+			{
+				szContent = "你已接受了[鸿鹄·勇闯三才]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·天地三才阵·五人普通",
 					},
 				},
 			},
@@ -51715,8 +51747,9 @@ return {
 					{
 						key = "任务提示1",
 						nClass = 20,
+						nFrame = 6,
 						nIcon = 13,
-						nTime = 2,
+						nTime = 10,
 						szName = "秘境·无盐岛·五人普通",
 					},
 				},
@@ -54931,6 +54964,20 @@ return {
 					},
 				},
 			},
+			{
+				szContent = "你已接受了[鸿鹄·剑冢剑芒]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·剑冢·五人普通",
+					},
+				},
+			},
 		},
 		[50] = {
 			{
@@ -57468,8 +57515,9 @@ return {
 					{
 						key = "任务提示1",
 						nClass = 20,
+						nFrame = 6,
 						nIcon = 13,
-						nTime = 2,
+						nTime = 10,
 						szName = "秘境·仙踪林·五人简单",
 					},
 				},
@@ -58353,6 +58401,20 @@ return {
 					},
 				},
 			},
+			{
+				szContent = "你已接受了[鸿鹄·密室机关]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·唐门密室·五人普通",
+					},
+				},
+			},
 		},
 		[135] = {
 			{
@@ -58812,6 +58874,20 @@ return {
 						nIcon = 13,
 						nTime = 10,
 						szName = "明教·门派事件·圣墓山",
+					},
+				},
+			},
+			{
+				szContent = "你已接受了[鸿鹄·五行奇阵]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·光明顶秘道·五人普通",
 					},
 				},
 			},
@@ -59929,6 +60005,20 @@ return {
 					},
 				},
 			},
+			{
+				szContent = "你已接受了[鸿鹄·魅影迷离]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·流离岛·五人普通",
+					},
+				},
+			},
 		},
 		[172] = {
 			{
@@ -60198,6 +60288,20 @@ return {
 						nIcon = 13,
 						nTime = 10,
 						szName = "苍云·门派事件·东陉关",
+					},
+				},
+			},
+			{
+				szContent = "你已接受了[鸿鹄·长恨雁门]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·雁门关之役·5人普通",
 					},
 				},
 			},
@@ -61260,6 +61364,20 @@ return {
 						nIcon = 13,
 						nTime = 10,
 						szName = "长歌·门派事件·徽山书院",
+					},
+				},
+			},
+			{
+				szContent = "你已接受了[鸿鹄·正气长存]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·微山书院·五人普通",
 					},
 				},
 			},
@@ -62598,6 +62716,20 @@ return {
 					},
 				},
 			},
+			{
+				szContent = "你已接受了[鸿鹄·夕颜无泪]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·夕颜阁·五人普通",
+					},
+				},
+			},
 		},
 		[247] = {
 			{
@@ -63753,6 +63885,22 @@ return {
 				},
 			},
 		},
+		[333] = {
+			{
+				szContent = "你已接受了[鸿鹄·九辩迷局]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·九辩馆·五人普通",
+					},
+				},
+			},
+		},
 		[334] = {
 			{
 				szContent = "本次贡献度:100\
@@ -64106,6 +64254,22 @@ return {
 						nIcon = 13,
 						nTime = 20,
 						szName = "战斗·开始倒计时",
+					},
+				},
+			},
+		},
+		[419] = {
+			{
+				szContent = "你已接受了[鸿鹄·玄鹤秘事]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·玄鹤别院·普通/英雄",
 					},
 				},
 			},
@@ -64657,6 +64821,22 @@ return {
 				},
 			},
 		},
+		[464] = {
+			{
+				szContent = "你已接受了[鸿鹄·入梦推演]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·梦入集真岛·普通/英雄",
+					},
+				},
+			},
+		},
 		[475] = {
 			{
 				szContent = "你已接受了[剑照湖波]。\
@@ -64812,6 +64992,22 @@ return {
 				},
 			},
 		},
+		[526] = {
+			{
+				szContent = "你已接受了[鸿鹄·别院危境]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·武氏别院·五人普通/英雄",
+					},
+				},
+			},
+		},
 		[529] = {
 			{
 				szContent = "地板即将在三十秒后破碎。\
@@ -64870,6 +65066,22 @@ return {
 						nIcon = 15627,
 						nTime = 10,
 						szName = "[{$1}]·获得·{$2}",
+					},
+				},
+			},
+		},
+		[578] = {
+			{
+				szContent = "你已接受了[鸿鹄·幽藤之馆]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·幽藤馆·五人普通/英雄",
 					},
 				},
 			},
@@ -65119,6 +65331,22 @@ return {
 						nIcon = 17582,
 						nTime = 180,
 						szName = "恶人谷·[{$1}]·{$3}",
+					},
+				},
+			},
+		},
+		[642] = {
+			{
+				szContent = "你已接受了[鸿鹄·栖灵旧事]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·栖灵洞天旧事·普通/英雄",
 					},
 				},
 			},
@@ -66562,6 +66790,22 @@ return {
 				szContent = "^江湖快报！(.*)据点粮仓被一群浩气盟人士洗劫，损失一半据点资金。\
 ",
 				szNote = "防止冲突",
+			},
+		},
+		[666] = {
+			{
+				szContent = "你已接受了[鸿鹄·天龙对擂]。\
+",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 20,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "秘境·天龙寺·五人普通/英雄",
+					},
+				},
 			},
 		},
 		[673] = {
@@ -68253,6 +68497,31 @@ return {
 				nLevel = 1,
 				nScrutinyType = 2,
 				szName = "眩晕·抛掷",
+			},
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				aCataclysmBuff = {
+					{
+						bScreenHead = true,
+						col = "#FFFF00FF",
+						colScreenHead = "#FFFF00",
+						nColAlpha = 255,
+						nPriority = 13,
+						szReminder = "晕",
+					},
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 812,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szName = "眩晕·致盲",
 			},
 			{
 				{
@@ -120857,6 +121126,16 @@ return {
 				dwID = 60182,
 				nFrame = 47,
 			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·天工坊",
+					},
+				},
+				dwID = 7128,
+				nFrame = 47,
+			},
 		},
 		[5] = {
 			{
@@ -121255,6 +121534,16 @@ return {
 					255,
 				},
 				dwID = 58137,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·灵霄峡",
+					},
+				},
+				dwID = 7130,
 				nFrame = 47,
 			},
 		},
@@ -122675,6 +122964,16 @@ return {
 				dwID = 60531,
 				nFrame = 47,
 			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·空雾峰",
+					},
+				},
+				dwID = 7129,
+				nFrame = 47,
+			},
 		},
 		[8] = {
 			{
@@ -123224,6 +123523,16 @@ return {
 					0,
 				},
 				dwID = 129154,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·天地三才阵",
+					},
+				},
+				dwID = 7127,
 				nFrame = 47,
 			},
 		},
@@ -124639,6 +124948,25 @@ return {
 					255,
 				},
 				dwID = 36945,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						szDisplay = "无盐岛·接引人",
+					},
+				},
+				dwID = 2997,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·无盐岛",
+					},
+				},
+				dwID = 7131,
 				nFrame = 47,
 			},
 		},
@@ -133914,6 +134242,16 @@ return {
 				dwID = 48171,
 				nFrame = 47,
 			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·剑冢",
+					},
+				},
+				dwID = 7416,
+				nFrame = 47,
+			},
 		},
 		[50] = {
 			{
@@ -134007,6 +134345,74 @@ return {
 				},
 				dwID = 6963,
 				nFrame = 47,
+			},
+		},
+		[51] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "传送·离开",
+					},
+				},
+				dwID = 7271,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 7098,
+				nFrame = 57,
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 7278,
+				nFrame = 50,
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 7093,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 7095,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 7096,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 7097,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 6773,
+				nFrame = 57,
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 7090,
+				nFrame = 57,
 			},
 		},
 		[52] = {
@@ -135712,6 +136118,16 @@ return {
 					0,
 				},
 				dwID = 60518,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·仙踪林",
+					},
+				},
+				dwID = 13116,
 				nFrame = 47,
 			},
 		},
@@ -138340,6 +138756,16 @@ return {
 				dwID = 59356,
 				nFrame = 47,
 			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·唐门密室",
+					},
+				},
+				dwID = 15891,
+				nFrame = 47,
+			},
 		},
 		[123] = {
 			{
@@ -140161,6 +140587,16 @@ return {
 					0,
 				},
 				dwID = 60182,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "鸿鹄·光明顶秘道",
+					},
+				},
+				dwID = 20225,
 				nFrame = 47,
 			},
 			{
@@ -142364,6 +142800,16 @@ return {
 				dwID = 54677,
 				nFrame = 47,
 			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·流离岛",
+					},
+				},
+				dwID = 24965,
+				nFrame = 47,
+			},
 		},
 		[165] = {
 			{
@@ -144441,6 +144887,16 @@ return {
 			{
 				aFocus = {
 					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·雁门关之役",
+					},
+				},
+				dwID = 40846,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
 						nMaxDistance = 30,
 						szDisplay = "高分球",
 					},
@@ -145302,6 +145758,16 @@ return {
 					["SKILL#10447"] = true,
 					["SKILL#10448"] = true,
 				},
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·微山书院",
+					},
+				},
+				dwID = 44519,
+				nFrame = 47,
 			},
 		},
 		[214] = {
@@ -149372,6 +149838,26 @@ return {
 				dwID = 62005,
 				nFrame = 47,
 			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·夕颜阁",
+					},
+				},
+				dwID = 54676,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "夕颜阁·接引人",
+					},
+				},
+				dwID = 52455,
+				nFrame = 47,
+			},
 		},
 		[247] = {
 			{
@@ -151030,6 +151516,26 @@ return {
 				dwID = 99178,
 				nFrame = 47,
 			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "九辩馆·接引人",
+					},
+				},
+				dwID = 62405,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·九辩馆",
+					},
+				},
+				dwID = 64484,
+				nFrame = 47,
+			},
 		},
 		[334] = {
 			{
@@ -152487,6 +152993,26 @@ return {
 				dwID = 69848,
 				nFrame = 47,
 			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "玄鹤别院·接引人",
+					},
+				},
+				dwID = 68571,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·玄鹤别院",
+					},
+				},
+				dwID = 68531,
+				nFrame = 47,
+			},
 		},
 		[426] = {
 			{
@@ -153815,6 +154341,26 @@ return {
 				dwID = 127776,
 				nFrame = 47,
 			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "梦入集真岛·接引人",
+					},
+				},
+				dwID = 102306,
+				nFrame = 67,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·梦入集真岛",
+					},
+				},
+				dwID = 102374,
+				nFrame = 47,
+			},
 		},
 		[471] = {
 			{
@@ -154659,6 +155205,26 @@ return {
 				dwID = 106832,
 				nFrame = 47,
 			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "武氏别院·接引人",
+					},
+				},
+				dwID = 105052,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·武氏别院",
+					},
+				},
+				dwID = 106870,
+				nFrame = 47,
+			},
 		},
 		[531] = {
 			{
@@ -155252,6 +155818,26 @@ return {
 					255,
 				},
 				dwID = 112804,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "幽藤馆·接引人",
+					},
+				},
+				dwID = 108492,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·幽藤馆",
+					},
+				},
+				dwID = 108493,
 				nFrame = 47,
 			},
 		},
@@ -157842,6 +158428,16 @@ return {
 					},
 				},
 				dwID = 125423,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "栖灵洞天旧事·接引人",
+					},
+				},
+				dwID = 124535,
 				nFrame = 47,
 			},
 		},
@@ -161571,6 +162167,16 @@ return {
 				dwID = 130598,
 				nFrame = 47,
 			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "鸿鹄·天龙寺",
+					},
+				},
+				dwID = 130299,
+				nFrame = 47,
+			},
 		},
 		[673] = {
 			{
@@ -164056,6 +164662,16 @@ return {
 				dwID = 137476,
 				nFrame = 47,
 			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "獭山岛·接引人",
+					},
+				},
+				dwID = 135451,
+				nFrame = 47,
+			},
 		},
 		[760] = {
 			{
@@ -165743,6 +166359,22 @@ return {
 				szNote = "据点贸易·货物不足",
 			},
 			{
+				szContent = "据点之战在即，为公平起见，侠士将在30秒后被传出本图，据点帮会25名(PVP服为40名)拥有地图优先进入权的玩家将不会被传送出去。",
+				szNote = "据点攻防·场景清图",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "挂机检测",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = "30,攻防清图·出图剩余;32,据点攻防·清图传出",
+						szName = "攻防清图·出图剩余",
+					},
+				},
+			},
+			{
 				[14] = {
 					bCenterAlarm = true,
 				},
@@ -166788,12 +167420,13 @@ return {
 				szTarget = "%",
 				tCountdown = {
 					{
-						key = "阵营业务",
+						key = "挂机检测",
 						nClass = 14,
 						nFrame = 4,
 						nIcon = 13,
-						nTime = 30,
-						szName = "攻防清图·传出剩余",
+						nRefresh = 1,
+						nTime = "30,攻防清图·出图剩余;32,阵营攻防·清图传出",
+						szName = "攻防清图·出图剩余",
 					},
 				},
 			},
@@ -189958,8 +190591,8 @@ return {
 						nFrame = 1,
 						nIcon = 13,
 						nRefresh = 1,
-						nTime = "30,龙骧驰竞·的卢·传送剩余;32,龙骧驰竞·的卢·清图传送",
-						szName = "龙骧驰竞·清图传送",
+						nTime = "30,龙骧驰竞·出图剩余;32,龙骧驰竞·清图传出",
+						szName = "龙骧驰竞·出图剩余",
 					},
 				},
 			},
@@ -199593,6 +200226,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790067322,
+		nTimeStamp = 1790094989,
 	},
 }
