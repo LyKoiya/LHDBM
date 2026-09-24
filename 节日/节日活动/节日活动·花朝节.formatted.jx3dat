@@ -1,477 +1,432 @@
 return {
 	BUFF = {},
+	CASTING = {},
 	CHAT = {
 		[-1] = {
 			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "种植事件1",
-						nTime = 10,
-						szName = "包裹内果实已上限",
-						nFrame = 3,
-						nIcon = 2580,
-					},
-				},
 				szContent = "花盆内的植物已经可以收获，但包裹内的果实已经达到上限，请先消耗掉部分再行收获。\
 ",
-			},
-		},
-	},
-	CASTING = {},
-	TALK = {
-		[213] = {
-			{
 				tCountdown = {
 					{
-						nClass = 14,
-						key = "节日活动1",
-						nTime = 30,
-						szName = "翠湄居·金翅雨蝶群·出现",
-						nFrame = 7,
-						nIcon = 10154,
+						key = "种植事件1",
+						nClass = 20,
+						nFrame = 3,
+						nIcon = 2580,
+						nTime = 10,
+						szName = "包裹内果实已上限",
 					},
-				},
-				szContent = "翠湄居出现了金翅雨蝶群，感兴趣的侠士们速去寻找吧！",
-				[14] = {
-					bCenterAlarm = true,
-					szVoice = "ZhuanJieDuan",
-				},
-				szNote = "翠湄居·金翅雨蝶群·出现",
-				szTarget = "苏水心",
-			},
-		},
-		[2] = {
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "节日活动1",
-						nTime = 30,
-						szName = "花海·金翅雨蝶群·出现",
-						nFrame = 7,
-						nIcon = 10154,
-					},
-				},
-				szContent = "花海出现了金翅雨蝶群，感兴趣的侠士们速去寻找吧！",
-				[14] = {
-					bCenterAlarm = true,
-					szVoice = "ZhuanJieDuan",
-				},
-				szTarget = "苏水心",
-				szNote = "花海·金翅雨蝶群·出现",
-			},
-		},
-		[-3] = {
-			{
-				tCountdown = {
-					{
-						nIcon = 1521,
-						key = "救治重伤",
-						nTime = 11,
-						szName = "陈月正在救你",
-						nFrame = 6,
-						nClass = 14,
-					},
-				},
-				szTarget = "陈月",
-				szNote = "陈月·正在救你",
-				szContent = "{$me}，有人用月季花请我来救你了哦~",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 1521,
-						key = "救治重伤",
-						nTime = 11,
-						szName = "陈月正在救你",
-						nClass = 14,
-						nFrame = 6,
-					},
-				},
-				szTarget = "陈月",
-				szNote = "陈月·正在救你",
-				szContent = "{$me}，我救你起来，你要把月季花给我哦~~",
-			},
-		},
-		[16] = {
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "节日活动1",
-						nTime = 30,
-						szName = "青萝岛·金翅雨蝶群·出现",
-						nIcon = 10154,
-						nFrame = 7,
-					},
-				},
-				szContent = "青萝岛出现了金翅雨蝶群，感兴趣的侠士们速去寻找吧！",
-				[14] = {
-					bCenterAlarm = true,
-					szVoice = "ZhuanJieDuan",
-				},
-				szNote = "青萝岛·金翅雨蝶群·出现",
-				szTarget = "苏水心",
-			},
-		},
-		[-1] = {
-			{
-				tCountdown = {
-					{
-						nIcon = 1521,
-						key = "救治重伤",
-						nTime = 11,
-						szName = "陈月正在救你",
-						nClass = 14,
-						nFrame = 6,
-					},
-				},
-				szContent = "有人用月季花请我来救你了哦~",
-				szTarget = "陈月",
-				szNote = "陈月·正在救你",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 1521,
-						key = "救治重伤",
-						nTime = 11,
-						szName = "陈月正在救你",
-						nClass = 14,
-						nFrame = 6,
-					},
-				},
-				szContent = "我救你起来，你要把月季花给我哦~~",
-				szTarget = "陈月",
-				szNote = "陈月·正在救你",
-			},
-		},
-		[-2] = {
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "节日活动1",
-						nTime = 30,
-						szName = "金翅雨蝶群·出现",
-						nFrame = 7,
-						nIcon = 10154,
-					},
-				},
-				szContent = "出现了金翅雨蝶群，感兴趣的侠士们速去寻找吧！",
-				bSearch = true,
-				[14] = {
-					bCenterAlarm = true,
-					szVoice = "ZhuanJieDuan",
-				},
-				szTarget = "苏水心",
-				szNote = "金翅雨蝶群·出现",
-			},
-		},
-		[-21] = {
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "节日活动1",
-						nTime = 30,
-						szName = "金翅雨蝶群·出现",
-						nFrame = 7,
-						nIcon = 10154,
-					},
-				},
-				szContent = "出现了金翅雨蝶群，感兴趣的侠士们速去寻找吧！",
-				bSearch = true,
-				[14] = {
-					bCenterAlarm = true,
-					szVoice = "ZhuanJieDuan",
-				},
-				szTarget = "苏水心",
-				szNote = "金翅雨蝶群·出现",
-			},
-		},
-		[102] = {
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "节日活动1",
-						nTime = 30,
-						szName = "圣兽潭·金翅雨蝶群·出现",
-						nIcon = 10154,
-						nFrame = 7,
-					},
-				},
-				szContent = "圣兽潭出现了金翅雨蝶群，感兴趣的侠士们速去寻找吧！",
-				[14] = {
-					bCenterAlarm = true,
-					szVoice = "ZhuanJieDuan",
-				},
-				szNote = "圣兽潭·金翅雨蝶群·出现",
-				szTarget = "苏水心",
-			},
-		},
-		[332] = {
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "节日活动1",
-						nTime = 30,
-						szName = "惊风林·金翅雨蝶群·出现",
-						nIcon = 10154,
-						nFrame = 7,
-					},
-				},
-				szContent = "惊风林出现了金翅雨蝶群，感兴趣的侠士们速去寻找吧！",
-				[14] = {
-					bCenterAlarm = true,
-					szVoice = "ZhuanJieDuan",
-				},
-				szTarget = "苏水心",
-				szNote = "惊风林·金翅雨蝶群·出现",
-			},
-		},
-	},
-	NPC = {
-		[-2] = {
-			{
-				nFrame = 50,
-				[3] = {
-					bCenterAlarm = true,
-					tMark = {
-						true,
-					},
-					bScreenHead = true,
-				},
-				dwID = 50983,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 120,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "金翅雨蝶群",
-				col = {
-					0,
-					255,
-					255,
-				},
-			},
-			{
-				nFrame = 65,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 59409,
-				aFocus = {
-					{
-						szDisplay = "小凶许·小叶子",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 20,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "小凶许",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 52,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 113580,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 3,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "花朝货品",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 16701,
-				aFocus = {
-					{
-						szDisplay = "苏水心·花朝节",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 10,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "苏水心",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-		},
-		[-21] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 16701,
-				aFocus = {
-					{
-						szDisplay = "苏水心·花朝节",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 10,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "苏水心",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 50,
-				[3] = {
-					bCenterAlarm = true,
-					tMark = {
-						true,
-					},
-					bScreenHead = true,
-				},
-				dwID = 50983,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 120,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "金翅雨蝶群",
-				col = {
-					0,
-					255,
-					255,
 				},
 			},
 		},
 	},
 	DEBUFF = {},
+	DOODAD = {},
+	NPC = {
+		[-21] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						szDisplay = "苏水心·花朝节",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 16701,
+				nFrame = 47,
+				szNote = "苏水心",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+					tMark = {
+						true,
+					},
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 50983,
+				nFrame = 50,
+				szNote = "金翅雨蝶群",
+			},
+		},
+		[-2] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+					tMark = {
+						true,
+					},
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 50983,
+				nFrame = 50,
+				szNote = "金翅雨蝶群",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						szDisplay = "小凶许·小叶子",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 59409,
+				nFrame = 65,
+				szNote = "小凶许",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 3,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 113580,
+				nFrame = 52,
+				szNote = "花朝货品",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 10,
+						szDisplay = "苏水心·花朝节",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 16701,
+				nFrame = 47,
+				szNote = "苏水心",
+			},
+		},
+	},
+	TALK = {
+		[-21] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+					szVoice = "ZhuanJieDuan",
+				},
+				bSearch = true,
+				szContent = "出现了金翅雨蝶群，感兴趣的侠士们速去寻找吧！",
+				szNote = "金翅雨蝶群·出现",
+				szTarget = "苏水心",
+				tCountdown = {
+					{
+						key = "节日活动1",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 10154,
+						nTime = 30,
+						szName = "金翅雨蝶群·出现",
+					},
+				},
+			},
+		},
+		[-3] = {
+			{
+				szContent = "{$me}，有人用月季花请我来救你了哦~",
+				szNote = "陈月·正在救你",
+				szTarget = "陈月",
+				tCountdown = {
+					{
+						key = "救治监控",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 1521,
+						nTime = 11,
+						szName = "陈月正在救你",
+					},
+				},
+			},
+			{
+				szContent = "{$me}，我救你起来，你要把月季花给我哦~~",
+				szNote = "陈月·正在救你",
+				szTarget = "陈月",
+				tCountdown = {
+					{
+						key = "救治监控",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 1521,
+						nTime = 11,
+						szName = "陈月正在救你",
+					},
+				},
+			},
+		},
+		[-2] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+					szVoice = "ZhuanJieDuan",
+				},
+				bSearch = true,
+				szContent = "出现了金翅雨蝶群，感兴趣的侠士们速去寻找吧！",
+				szNote = "金翅雨蝶群·出现",
+				szTarget = "苏水心",
+				tCountdown = {
+					{
+						key = "节日活动1",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 10154,
+						nTime = 30,
+						szName = "金翅雨蝶群·出现",
+					},
+				},
+			},
+		},
+		[-1] = {
+			{
+				szContent = "有人用月季花请我来救你了哦~",
+				szNote = "陈月·正在救你",
+				szTarget = "陈月",
+				tCountdown = {
+					{
+						key = "救治监控",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 1521,
+						nTime = 11,
+						szName = "陈月正在救你",
+					},
+				},
+			},
+			{
+				szContent = "我救你起来，你要把月季花给我哦~~",
+				szNote = "陈月·正在救你",
+				szTarget = "陈月",
+				tCountdown = {
+					{
+						key = "救治监控",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 1521,
+						nTime = 11,
+						szName = "陈月正在救你",
+					},
+				},
+			},
+		},
+		[2] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+					szVoice = "ZhuanJieDuan",
+				},
+				szContent = "花海出现了金翅雨蝶群，感兴趣的侠士们速去寻找吧！",
+				szNote = "花海·金翅雨蝶群·出现",
+				szTarget = "苏水心",
+				tCountdown = {
+					{
+						key = "节日活动1",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 10154,
+						nTime = 30,
+						szName = "花海·金翅雨蝶群·出现",
+					},
+				},
+			},
+		},
+		[16] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+					szVoice = "ZhuanJieDuan",
+				},
+				szContent = "青萝岛出现了金翅雨蝶群，感兴趣的侠士们速去寻找吧！",
+				szNote = "青萝岛·金翅雨蝶群·出现",
+				szTarget = "苏水心",
+				tCountdown = {
+					{
+						key = "节日活动1",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 10154,
+						nTime = 30,
+						szName = "青萝岛·金翅雨蝶群·出现",
+					},
+				},
+			},
+		},
+		[102] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+					szVoice = "ZhuanJieDuan",
+				},
+				szContent = "圣兽潭出现了金翅雨蝶群，感兴趣的侠士们速去寻找吧！",
+				szNote = "圣兽潭·金翅雨蝶群·出现",
+				szTarget = "苏水心",
+				tCountdown = {
+					{
+						key = "节日活动1",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 10154,
+						nTime = 30,
+						szName = "圣兽潭·金翅雨蝶群·出现",
+					},
+				},
+			},
+		},
+		[213] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+					szVoice = "ZhuanJieDuan",
+				},
+				szContent = "翠湄居出现了金翅雨蝶群，感兴趣的侠士们速去寻找吧！",
+				szNote = "翠湄居·金翅雨蝶群·出现",
+				szTarget = "苏水心",
+				tCountdown = {
+					{
+						key = "节日活动1",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 10154,
+						nTime = 30,
+						szName = "翠湄居·金翅雨蝶群·出现",
+					},
+				},
+			},
+		},
+		[332] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+					szVoice = "ZhuanJieDuan",
+				},
+				szContent = "惊风林出现了金翅雨蝶群，感兴趣的侠士们速去寻找吧！",
+				szNote = "惊风林·金翅雨蝶群·出现",
+				szTarget = "苏水心",
+				tCountdown = {
+					{
+						key = "节日活动1",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 10154,
+						nTime = 30,
+						szName = "惊风林·金翅雨蝶群·出现",
+					},
+				},
+			},
+		},
+	},
 	__meta = {
-		szServer = "唯我独尊",
+		nTimeStamp = 1790234105,
 		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1774361543,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
-	DOODAD = {},
 }
