@@ -1,0 +1,5273 @@
+return {
+	DOODAD = {
+		[2] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "盆栽·燕啼松",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 11143,
+				szNote = "盆栽·燕啼松",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "散落的书页·孩童书",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4696,
+				szNote = "散落的书页·孩童书",
+			},
+		},
+		[5] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						szDisplay = "酒葫芦·小果",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4582,
+				szNote = "跟宠·酒葫芦·小果",
+			},
+		},
+		[6] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "一本书·蟹马蓝",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5321,
+				szNote = "蹲宠·一本书·蟹马蓝",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "埋东西的痕迹·烟花戏",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 6914,
+				szNote = "埋东西的痕迹·烟花戏",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "奇怪的土堆·归安志",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 6987,
+				szNote = "奇怪的土堆·归安志",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "苜蓿草·谜书生",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 7763,
+				szNote = "苜蓿草·谜书生",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "带血的金钗·谜书生",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 7772,
+				szNote = "带血的金钗·谜书生",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "几页书稿·江湖录",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 8045,
+				szNote = "几页书稿·江湖录",
+			},
+		},
+		[8] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						szDisplay = "小土堆·小花",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4706,
+				szNote = "跟宠·小土堆·小花",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "遗失的包裹·归安志",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 6988,
+				szNote = "遗失的包裹·归安志",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "招牌菜·义千金",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 10680,
+				szNote = "招牌菜·义千金",
+			},
+		},
+		[9] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "小泥娃娃·红衣歌",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4776,
+				szNote = "小泥娃娃·红衣歌",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "古旧的卷轴·归安志",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 6986,
+				szNote = "古旧的卷轴·归安志",
+			},
+		},
+		[10] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "诱捕的笼子·破晓鸣",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 6093,
+				szNote = "诱捕的笼子·破晓鸣",
+			},
+		},
+		[12] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "一本书·蟹相",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4713,
+				szNote = "蹲宠·一本书·蟹相",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "沙土堆·枫林酒",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5158,
+				szNote = "沙土堆·枫林酒",
+			},
+		},
+		[13] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "陈旧的宝盒·三山",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5245,
+				szNote = "陈旧的宝盒·三山四海",
+			},
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "一本书·蟹士",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5052,
+				szNote = "蹲宠·一本书·蟹士",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "张老头的竹筐·归安志",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 6985,
+				szNote = "张老头的竹筐·归安志·归",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "落叶堆·鸠雀记",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 9637,
+				szNote = "落叶堆·鸠雀记",
+			},
+		},
+		[16] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "酒坛·捉妖记",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5812,
+				szNote = "酒坛·捉妖记",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "川芎·烟花戏",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 6915,
+				szNote = "川芎·烟花戏·秋",
+			},
+		},
+		[21] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "一本书·蟹车蓝",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5154,
+				szNote = "蹲宠·一本书·蟹车蓝",
+			},
+		},
+		[22] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "一盏青头草·嘟嘟",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5054,
+				szNote = "一盏青头草·嘟嘟",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "夏枯草·东海客",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 6500,
+				szNote = "夏枯草·东海客",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "半本秘诀·尘网中",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 8762,
+				szNote = "半本秘诀·尘网中",
+			},
+		},
+		[23] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "遗失的画纸·沙海谣",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 6058,
+				szNote = "遗失的画纸·沙海谣",
+			},
+		},
+		[30] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						szDisplay = "冰凌雪莲·冰蓝花客",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5053,
+				szNote = "跟宠·冰凌雪莲·冰蓝花客",
+			},
+		},
+		[35] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "一本书·蟹仕",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5051,
+				szNote = "蹲宠·一本书·蟹仕",
+			},
+		},
+		[100] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "一本书·蟹车红",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5153,
+				szNote = "蹲宠·一本书·蟹车红",
+			},
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						szDisplay = "破旧的纸卷·小诺",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4763,
+				szNote = "跟宠·破旧的纸卷·小诺",
+			},
+		},
+		[101] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						szDisplay = "泥沙堆·红羽大将军",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5155,
+				szNote = "跟宠·泥沙堆·红羽大将军",
+			},
+		},
+		[102] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "日记1·东海客",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 6514,
+				szNote = "日记1·东海客",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "日记2·东海客",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 6515,
+				szNote = "日记2·东海客",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "日记3·东海客",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 6516,
+				szNote = "日记3·东海客",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "日记4·东海客",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 6517,
+				szNote = "日记4·东海客",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "日记5·东海客",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 6518,
+				szNote = "日记5·东海客",
+			},
+		},
+		[103] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "一本书·蟹砲",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4773,
+				szNote = "蹲宠·一本书·蟹砲",
+			},
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						szDisplay = "小土堆·商周客",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5316,
+				szNote = "跟宠·小土堆·商周客",
+			},
+		},
+		[104] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "一本书·蟹马红",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5320,
+				szNote = "蹲宠·一本书·蟹马红",
+			},
+		},
+		[105] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "一本书·蟹象",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4714,
+				szNote = "蹲宠·一本书·蟹象",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "神秘书籍·至尊宝",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 6103,
+				szNote = "神秘书籍·至尊宝",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "空酒坛子·至尊宝",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 6104,
+				szNote = "空酒坛子·至尊宝",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "不起眼的小土堆·至尊宝",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 6105,
+				szNote = "不起眼的小土堆·至尊宝",
+			},
+		},
+		[108] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "一本书·蟹炮",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4772,
+				szNote = "蹲宠·一本书·蟹炮",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "小土堆·石敢当",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 6064,
+				szNote = "小土堆·石敢当",
+			},
+		},
+		[122] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "竹叶青·烟花戏",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 6916,
+				szNote = "竹叶青·烟花戏",
+			},
+		},
+		[139] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "马四·枫林酒",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5157,
+				szNote = "马四·枫林酒",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "道旁墓碑·沧海笛",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 7777,
+				szNote = "道旁墓碑·沧海笛",
+			},
+		},
+		[151] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "奇怪的包袱·阿里",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4298,
+				szNote = "蹲宠·奇怪的包袱·阿里",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "情报箱·兽王佩",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 6109,
+				szNote = "情报箱·兽王佩",
+			},
+		},
+		[153] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "一个小包裹·小锦",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4296,
+				szNote = "蹲宠·一个小包裹·小锦",
+			},
+		},
+		[158] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "士兵的包裹·阿飞",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4278,
+				szNote = "蹲宠·士兵的包裹·阿飞",
+			},
+		},
+		[159] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "桃花枝·稚子心",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 6341,
+				szNote = "桃花枝·稚子心",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "银鱼·稚子心",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 6342,
+				szNote = "银鱼·稚子心",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "猴儿酒·稚子心",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 6343,
+				szNote = "猴儿酒·稚子心",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "春风酿·烟花戏",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 6912,
+				szNote = "春风酿·烟花戏",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "鱼篓·醉烟波",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 10161,
+				szNote = "鱼篓·醉烟波",
+			},
+		},
+		[194] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						szDisplay = "坚果·果果",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5055,
+				szNote = "跟宠·坚果·果果",
+			},
+		},
+		[214] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "土堆·碎片一·清茗经",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5749,
+				szNote = "奇怪的土堆·碎片一·清茗经",
+			},
+			{
+				[17] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "密宗宝图碎片四·清茗经",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 5748,
+				szNote = "密宗宝图碎片·四·清茗经",
+			},
+		},
+		[216] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "拜火教箱子·青草歌",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 6368,
+				szNote = "拜火教箱子·青草歌",
+			},
+		},
+		[243] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "寒泉岩·太行道",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 7274,
+				szNote = "寒泉岩·太行道",
+			},
+		},
+		[330] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "野菜·客江干",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 7459,
+				szNote = "野菜·客江干",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "无名侠士之墓·客江干",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 7457,
+				szNote = "无名侠士之墓·客江干",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "奇怪的雪堆·客江干",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 7458,
+				szNote = "奇怪的雪堆·客江干",
+			},
+		},
+		[332] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "沉甸甸的木桶·秘宝图",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 7455,
+				szNote = "沉甸甸的木桶·秘宝图",
+			},
+		},
+		[333] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 50,
+						szDisplay = "兔子的尸体·念旧林",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 9202,
+				szNote = "兔子的尸体·念旧林",
+			},
+		},
+		[411] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "水缸·滴水恩",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 7707,
+				szNote = "水缸·滴水恩",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "死去的鱼虾·滴水恩",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 7833,
+				szNote = "死去的鱼虾·滴水恩",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "小土堆·话玄虚",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 8614,
+				szNote = "小土堆·话玄虚",
+			},
+		},
+		[462] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "白六娘的樱桃树·丹青记",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 8961,
+				szNote = "白六娘的樱桃树·丹青记",
+			},
+		},
+		[464] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "货物堆·觅知音",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 10678,
+				szNote = "货物堆·觅知音",
+			},
+		},
+		[473] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "兔子窝1·白月皎",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 8600,
+				szNote = "兔子窝1·白月皎",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "兔子窝2·白月皎",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 8604,
+				szNote = "兔子窝2·白月皎",
+			},
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "兔子窝3·白月皎",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 8605,
+				szNote = "兔子窝3·白月皎",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "散落的画作·白月皎",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 8603,
+				szNote = "散落的画作·白月皎",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "散落的日记·白月皎",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 8602,
+				szNote = "散落的日记·白月皎",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "散落的日记·白月皎",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 8606,
+				szNote = "散落的日记·白月皎",
+			},
+		},
+		[526] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						szDisplay = "虫穴·念旧林",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 9178,
+				szNote = "虫穴·念旧林",
+			},
+		},
+		[578] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "渔具·重洋客",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 10007,
+				szNote = "渔具·重洋客",
+			},
+		},
+		[580] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "虹下之泉·子夜歌",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 10044,
+				szNote = "虹下之泉·子夜歌",
+			},
+		},
+		[673] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "洞口·匿沙影",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 11191,
+				szNote = "洞口·匿沙影",
+			},
+		},
+		[701] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "饲料堆·妖与狸",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 11466,
+				szNote = "饲料堆·妖与狸",
+			},
+		},
+		[718] = {
+			{
+				[17] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "听潮·换房记",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 11465,
+				szNote = "听潮·换房记",
+			},
+		},
+	},
+	NPC = {
+		[-15] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 99216,
+				nFrame = 47,
+				szNote = "猹",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 128493,
+				nFrame = 47,
+				szNote = "豪猪",
+			},
+		},
+		[2] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "赵小凯·孩童书",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 48105,
+				nFrame = 47,
+				szNote = "赵小凯·孩童书",
+			},
+		},
+		[5] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "道知·烹调法",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 58137,
+				nFrame = 47,
+				szNote = "道知·烹调法",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "闰水·缘来会",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 68983,
+				nFrame = 47,
+				szNote = "闰水·缘来会",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "查小娘·缘来会",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 68984,
+				nFrame = 47,
+				szNote = "查小娘·缘来会",
+			},
+		},
+		[6] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "横小五·蟹卒",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 19322,
+				nFrame = 47,
+				szNote = "蹲宠·横小五·蟹卒",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "幼小的蛤蟆·大哈",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 36268,
+				nFrame = 47,
+				szNote = "蹲宠·幼小的蛤蟆·大哈",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "毛丝鼠·谜书生",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 65896,
+				nFrame = 47,
+				szNote = "毛丝鼠·谜书生",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "公页少风·兽王佩",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 52008,
+				nFrame = 47,
+				szNote = "公页少风·兽王佩",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "苏拂衣·江湖录",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 69036,
+				nFrame = 47,
+				szNote = "苏拂衣·江湖录",
+			},
+		},
+		[7] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "步虚尘·白雪忆",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 59335,
+				nFrame = 47,
+				szNote = "步虚尘·白雪忆",
+			},
+		},
+		[8] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "果子狸·稻稻",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 27468,
+				nFrame = 47,
+				szNote = "蹲宠·果子狸·稻稻",
+			},
+		},
+		[9] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "果子狸·稻稻",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 27468,
+				nFrame = 47,
+				szNote = "蹲宠·果子狸·稻稻",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "老不知·红衣歌",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 47992,
+				nFrame = 47,
+				szNote = "老不知·红衣歌",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "红师农·尘网中",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 102833,
+				nFrame = 47,
+				szNote = "红师农·尘网中",
+			},
+		},
+		[10] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "喜小乐·蟹兵",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 19323,
+				nFrame = 47,
+				szNote = "蹲宠·喜小乐·蟹兵",
+				tCountdown = {
+					{
+						key = "蹲宠提示0",
+						nClass = 3,
+						nFrame = 7,
+						nIcon = 6110,
+						nTime = 20,
+						szName = "蟹兵·三十二·八·四",
+					},
+				},
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "寄居蟹·蟹仔",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 27467,
+				nFrame = 47,
+				szNote = "蹲宠·寄居蟹·蟹仔",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "猫猫·破晓鸣",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 2350,
+				nFrame = 47,
+				szNote = "猫猫·破晓鸣",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "秦邑·破晓鸣",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 1274,
+				nFrame = 47,
+				szNote = "秦邑·破晓鸣",
+			},
+		},
+		[12] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "马四·枫林酒",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 42874,
+				nFrame = 47,
+				szNote = "马四·枫林酒",
+			},
+		},
+		[13] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "果子狸·稻稻",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 27468,
+				nFrame = 47,
+				szNote = "蹲宠·果子狸·稻稻",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "阮染·锻剑女",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 59272,
+				nFrame = 47,
+				szNote = "阮染·锻剑女",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "亭十四·归安志",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 59794,
+				nFrame = 47,
+				szNote = "亭十四·归安志·安",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "刘理阳·归安志",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 59796,
+				nFrame = 47,
+				szNote = "刘理阳·归安志·志",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "小花·鸠雀记",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 109278,
+				nFrame = 47,
+				szNote = "小花·鸠雀记",
+			},
+		},
+		[15] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "林小明·大头鹅",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 19320,
+				nFrame = 47,
+				szNote = "蹲宠·林小明·大头鹅",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "杨悦·一念间",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 59322,
+				nFrame = 47,
+				szNote = "杨悦·一念间",
+			},
+		},
+		[16] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "陶九翁·捉妖记",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 36945,
+				nFrame = 47,
+				szNote = "陶九翁·捉妖记",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "卢蓉·烟花戏",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 59355,
+				nFrame = 47,
+				szNote = "卢蓉·烟花戏·秋",
+			},
+		},
+		[21] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "皮皮·白鹅",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 19321,
+				nFrame = 47,
+				szNote = "蹲宠·皮皮·白鹅",
+			},
+		},
+		[22] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "寄居蟹·蟹仔",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 27467,
+				nFrame = 47,
+				szNote = "蹲宠·寄居蟹·蟹仔",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "车山果·嘟嘟",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 41126,
+				nFrame = 47,
+				szNote = "车山果·嘟嘟",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "康永浩·东海客",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 56477,
+				nFrame = 47,
+				szNote = "康永浩·东海客",
+			},
+		},
+		[23] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "桩桩·沙海谣",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 51303,
+				nFrame = 47,
+				szNote = "桩桩·沙海谣",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "田语夕·锋芒展",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 57929,
+				nFrame = 47,
+				szNote = "田语夕·锋芒展",
+			},
+		},
+		[49] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "铸剑大师·归乡路",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 48171,
+				nFrame = 47,
+				szNote = "铸剑大师·归乡路",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "王厨娘·莫贪杯",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 99195,
+				nFrame = 47,
+				szNote = "王厨娘·莫贪杯",
+			},
+		},
+		[101] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "沈笑颜·竹马情",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 51936,
+				nFrame = 47,
+				szNote = "沈笑颜·竹马情",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "螃蟹·青蟹",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 10,
+						szDisplay = "螃蟹·青蟹",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = true,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 10030,
+				nFrame = 50,
+				szNote = "螃蟹·青蟹",
+			},
+		},
+		[102] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "苗淼尔·滇南行",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 55289,
+				nFrame = 47,
+				szNote = "苗淼尔·滇南行",
+			},
+		},
+		[105] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "查飞天·至尊宝",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 51963,
+				nFrame = 47,
+				szNote = "查飞天·至尊宝",
+			},
+		},
+		[108] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "虚弱的小狗·哈皮",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 27081,
+				nFrame = 47,
+				szNote = "蹲宠·虚弱的小狗·哈皮",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "吴为有·石敢当",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 11969,
+				nFrame = 47,
+				szNote = "吴为有·石敢当",
+			},
+		},
+		[122] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "唐御御·烟花戏",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 59356,
+				nFrame = 47,
+				szNote = "唐御御·烟花戏·风",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "唐素娘·龟影锋",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 137328,
+				nFrame = 47,
+				szNote = "唐素娘·龟影锋",
+			},
+		},
+		[139] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "密探·蟹将·蟹帅",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 25531,
+				nFrame = 47,
+				szNote = "蹲宠·密探·蟹将·蟹帅",
+			},
+		},
+		[150] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "阿貘·烟花戏",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 59336,
+				nFrame = 47,
+				szNote = "阿貘·烟花戏·月",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "雨芒·烟花戏",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 59337,
+				nFrame = 47,
+				szNote = "雨芒·烟花戏·月",
+			},
+		},
+		[156] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "惊恐的灰鹅·小灰",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 25524,
+				nFrame = 47,
+				szNote = "蹲宠·惊恐的灰鹅·小灰",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "错错·枉叹恨",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 109467,
+				nFrame = 47,
+				szNote = "错错·枉叹恨",
+			},
+		},
+		[159] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "苏临渊·稚子心",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 54677,
+				nFrame = 47,
+				szNote = "苏临渊·稚子心",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "李嫂·稚子心",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 55065,
+				nFrame = 47,
+				szNote = "李嫂·稚子心",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "连九醉·烟花戏",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 59352,
+				nFrame = 47,
+				szNote = "连九醉·烟花戏·春",
+			},
+		},
+		[172] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 42868,
+				nFrame = 47,
+				szNote = "蹲宠·小静静",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "九隆神丐·荆轲刺",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 51323,
+				nFrame = 47,
+				szNote = "九隆神丐·荆轲刺",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "孟乌·瀛洲梦",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 25876,
+				nFrame = 47,
+				szNote = "孟乌·瀛洲梦",
+			},
+		},
+		[193] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "南静·关外商",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 56476,
+				nFrame = 47,
+				szNote = "南静·关外商",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "白芷沅·戎马边",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 59328,
+				nFrame = 47,
+				szNote = "白芷沅·戎马边",
+			},
+		},
+		[194] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "庞以松·童蒙志",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 107295,
+				nFrame = 47,
+				szNote = "庞以松·童蒙志",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						szDisplay = "流民老奶奶·燕难归",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 137447,
+				nFrame = 47,
+				szNote = "流民老奶奶·燕难归",
+			},
+		},
+		[213] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "阿秋·儿女事",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 59052,
+				nFrame = 47,
+				szNote = "阿秋·儿女事",
+			},
+		},
+		[214] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "王老道·碎片五·清茗经",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 44430,
+				nFrame = 47,
+				szNote = "王老道·碎片五·清茗经",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 90,
+						szDisplay = "李尘缘·碎片八·清茗经",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 47878,
+				nFrame = 47,
+				szNote = "李尘缘·碎片八·清茗经",
+			},
+		},
+		[215] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "航小婷·胜负局",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 48057,
+				nFrame = 47,
+				szNote = "航小婷·胜负局",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "刘安·风雨意",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 107331,
+				nFrame = 47,
+				szNote = "刘安·风雨意",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "曙曙·风雨意",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 107332,
+				nFrame = 47,
+				szNote = "曙曙·风雨意",
+			},
+		},
+		[216] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "野马烈风·青草歌",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 55060,
+				nFrame = 47,
+				szNote = "野马烈风·青草歌",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "神秘商人·沧海笛",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 65917,
+				nFrame = 47,
+				szNote = "神秘商人·沧海笛",
+			},
+		},
+		[217] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "沙木沙克·幽海牧",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 109423,
+				nFrame = 47,
+				szNote = "沙木沙克·幽海牧",
+			},
+		},
+		[239] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "小叮当·北行镖",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 56702,
+				nFrame = 47,
+				szNote = "小叮当·北行镖",
+			},
+		},
+		[243] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "边澈·太行道",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 62005,
+				nFrame = 47,
+				szNote = "边澈·太行道",
+			},
+		},
+		[325] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "林云飞·露园事",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 70597,
+				nFrame = 47,
+				szNote = "林云飞·露园事",
+			},
+		},
+		[330] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "火头僧·客江干",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 62806,
+				nFrame = 47,
+				szNote = "火头僧·客江干",
+			},
+		},
+		[332] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "焦福贵·秘宝图",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 62788,
+				nFrame = 47,
+				szNote = "焦福贵·秘宝图",
+			},
+		},
+		[333] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "落单少侠·瀛洲梦",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 99178,
+				nFrame = 47,
+				szNote = "落单少侠·瀛洲梦",
+			},
+		},
+		[334] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "算命先生·话玄虚",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 102012,
+				nFrame = 47,
+				szNote = "算命先生·话玄虚",
+			},
+		},
+		[411] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "绿头鸭·滴水恩",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 65578,
+				nFrame = 47,
+				szNote = "绿头鸭·滴水恩",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "宋旅·路投石",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 127964,
+				nFrame = 47,
+				szNote = "宋旅·路投石",
+			},
+		},
+		[455] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						szDisplay = "曾莲·捉贼记",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 104935,
+				nFrame = 47,
+				szNote = "曾莲·捉贼记",
+			},
+		},
+		[471] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "泥鳅·一枝栖",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 99555,
+				nFrame = 47,
+				szNote = "泥鳅·一枝栖",
+			},
+		},
+		[486] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "泥鳅·一枝栖",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 99555,
+				nFrame = 47,
+				szNote = "泥鳅·一枝栖",
+			},
+		},
+		[526] = {
+			{
+				[3] = {
+					bCenterAlarm = true,
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						szDisplay = "刘山夕·念旧林",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 106832,
+				nFrame = 47,
+				szNote = "刘山夕·念旧林",
+			},
+		},
+		[578] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "小肥花·重洋客",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 112804,
+				nFrame = 47,
+				szNote = "小肥花·重洋客",
+			},
+		},
+		[579] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "礼礼·乱红鸾",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 122983,
+				nFrame = 47,
+				szNote = "礼礼·乱红鸾",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "晒太阳·寓天涯",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 126031,
+				nFrame = 47,
+				szNote = "晒太阳·寓天涯",
+			},
+		},
+		[580] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "崔有恒·子夜歌",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 112639,
+				nFrame = 47,
+				szNote = "崔有恒·子夜歌",
+			},
+		},
+		[581] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "姜堰·授太平",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 132204,
+				nFrame = 47,
+				szNote = "姜堰·授太平",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "逗逗·夜哀鸣",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 122790,
+				nFrame = 47,
+				szNote = "逗逗·夜哀鸣",
+			},
+		},
+		[582] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "槲生·故岁辞",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 113068,
+				nFrame = 47,
+				szNote = "槲生·故岁辞",
+			},
+		},
+		[713] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "米迦尔·追光记",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 135609,
+				nFrame = 47,
+				szNote = "米迦尔·追光记",
+			},
+		},
+		[718] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "刘一竿·碗中仙",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 137476,
+				nFrame = 47,
+				szNote = "刘一竿·碗中仙",
+			},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1790275369,
+	},
+}
