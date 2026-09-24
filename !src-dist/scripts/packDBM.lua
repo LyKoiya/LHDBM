@@ -487,12 +487,22 @@ local function tableReverse(tData)
 	return tData
 end
 -- 保存FILE表，序列化有序，可缩进
-function fileSave(szSavePath, nMaxLevel)
-	clearInvalidData(FILE, true, true, true)
-	tableReverse(FILE)
+function fileSave(szSavePath, nMaxLevel, bClear, bReverse)
+	if bClear then
+		clearInvalidData(FILE, true, true, true)
+	end
+	if bReverse then
+		tableReverse(FILE)
+	end
+	
 	local str = 'return ' .. X.var2str(FILE, '\t', 0, nMaxLevel)
 	X.WriteFile(szSavePath, str)
 	return str
+end
+
+-- 清除FILE表
+function fileClear()
+	FILE = {}
 end
 
 print("PackDBM initialized")
