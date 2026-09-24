@@ -34,6 +34,7 @@ def InitLua():
             print(f"dofile success {lua_script}.")
         else:
             print(f"dofile fail {Lua.tostring(-1)}.")
+            Lua.pop(1)
     except Exception as e:
         print(f"error: {e}")
     finally:
@@ -79,6 +80,7 @@ def teamBuff(L, Ranges):
             L.pushlstringA(result)
             if L.pcall(1, 0, 0) != 0:
                 print(f"Error calling decodeBuff({i}): {L.tostring(-1)}({result})")
+                Lua.pop(1)
 
 # 提取表格文件数据，返回数组列表，一个元素是一种数据（气劲、角色、物件、喊话）
 def xlsx2list(wb):
@@ -121,6 +123,7 @@ def packxlsx(L, szPath, szMethod):
                         L.pushlstringA(str)
                         if L.pcall(1, 0, 0) != 0:
                             print(f"Error calling strMerge: {L.tostring(-1)}")
+                            Lua.pop(1)
         finally:
             Workbook.close()
 
@@ -164,7 +167,8 @@ def runPack(filesPath):
         if L.pcall(4, 0, 0) == 0:
             print("fileSave success.")
         else:
-            print("fileSave fail.")
+            print(f"fileSave fail.{L.tostring(-1)}")
+            Lua.pop(1)
         L.close()
 
 def xlsx2jx3dat(szDataPath, szSavePath):

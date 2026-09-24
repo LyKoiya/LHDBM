@@ -5,7 +5,6 @@ local buffRules = X.file2var('.\\!src-dist\\data\\buffRules.jx3dat')
 local FILE = {}
 for _, szType in ipairs(X.MY_TM_TYPE_LIST) do
 	FILE[szType] = {}
-	print(szType)
 end
 -- 检查表内相似键
 local function CheckSameData(szTable, szType, dwMapID, dwID, nLevel)
