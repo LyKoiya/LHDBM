@@ -1,0 +1,28 @@
+return {
+	DOODAD = {
+		[-21] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 3254,
+				szNote = "²è¼¸",
+			},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1790275369,
+	},
+}

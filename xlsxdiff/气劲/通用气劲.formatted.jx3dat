@@ -1,0 +1,2088 @@
+return {
+	BUFF = {
+		[-7] = {
+			{
+				{
+					bOnlySelfSrc = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						bOnlyMine = true,
+						col = "#1FFFEEFF",
+						nColAlpha = 255,
+						nPriority = 5,
+						szReminder = "握",
+					},
+				},
+				col = {
+					31,
+					255,
+					238,
+				},
+				dwID = 631,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "握针",
+				tKungFu = {
+					["SKILL#10028"] = true,
+				},
+			},
+		},
+		[-3] = {
+			{
+				dwID = 2564,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "肘子菜盘",
+				tCountdown = {
+					{
+						key = "帮会外食",
+						nClass = 2,
+						nFrame = 5,
+						nIcon = 546,
+						nRefresh = 60,
+						nTime = 2,
+						szName = "肘子菜盘·消失",
+					},
+				},
+			},
+			{
+				dwID = 2562,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "南瓜盅菜盘",
+				tCountdown = {
+					{
+						key = "帮会外食",
+						nClass = 2,
+						nFrame = 5,
+						nIcon = 1546,
+						nRefresh = 60,
+						nTime = 3,
+						szName = "南瓜盅菜盘·消失",
+					},
+				},
+			},
+			{
+				dwID = 17963,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "烧鸡外食",
+				tCountdown = {
+					{
+						key = "帮会外食",
+						nClass = 2,
+						nFrame = 5,
+						nIcon = 171,
+						nRefresh = 60,
+						nTime = 2,
+						szName = "烧鸡外食·消失",
+					},
+				},
+			},
+			{
+				dwID = 2563,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "蒸鱼菜盘",
+				tCountdown = {
+					{
+						key = "帮会外食",
+						nClass = 2,
+						nFrame = 5,
+						nIcon = 552,
+						nRefresh = 60,
+						nTime = 3,
+						szName = "蒸鱼菜盘·消失",
+					},
+				},
+			},
+			{
+				dwID = 2560,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "鸡肉菜盘",
+				tCountdown = {
+					{
+						key = "绣球花",
+						nClass = 1,
+						nFrame = 5,
+						nIcon = 264,
+						nRefresh = 5,
+						nTime = 2,
+						szName = "已食用·鸡肉菜盘5%",
+					},
+					{
+						key = "绣球花",
+						nClass = 2,
+						nFrame = 5,
+						nIcon = 264,
+						nTime = 2,
+						szName = "鸡肉菜盘·已消失",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						col = "#00FF00FF",
+						colScreenHead = "#00FF00",
+						nColAlpha = 255,
+						nPriority = 11,
+						szReminder = "葵",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 20398,
+				nLevel = 1,
+				szNote = "龙葵",
+				tCountdown = {
+					{
+						key = "减伤监控",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 15413,
+						nTime = 7,
+						szName = "龙葵自苦·[{$sender}]",
+					},
+				},
+			},
+			{
+				{
+					bOnlySelfSrc = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						bOnlyMine = true,
+						col = "#00EE00FF",
+						nColAlpha = 255,
+						nPriority = 6,
+						szReminder = "述",
+					},
+				},
+				dwID = 5693,
+				nLevel = 1,
+				szNote = "述怀",
+			},
+			{
+				{
+					bOnlySelfSrc = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						bOnlyMine = true,
+						col = "#00EE00FF",
+						nColAlpha = 255,
+						nPriority = 5,
+						szReminder = "翔",
+					},
+				},
+				dwID = 680,
+				nLevel = 1,
+				szNote = "翔舞",
+			},
+			{
+				{
+					bOnlySelfSrc = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						bOnlyMine = true,
+						col = "#00EE00FF",
+						nColAlpha = 255,
+						nPriority = 6,
+						szReminder = "元",
+					},
+				},
+				dwID = 681,
+				nLevel = 1,
+				szNote = "上元点鬟",
+			},
+			{
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						bOnlyMine = true,
+						col = "#00EE00FF",
+						nColAlpha = 255,
+						nPriority = 5,
+						szReminder = "芍",
+					},
+				},
+				dwID = 20070,
+				nLevel = 1,
+				szNote = "赤芍寒香",
+			},
+			{
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						bOnlyMine = true,
+						col = "#1FFFEEFF",
+						nColAlpha = 255,
+						nPriority = 4,
+						szReminder = "梅",
+					},
+				},
+				col = {
+					31,
+					255,
+					238,
+				},
+				dwID = 9334,
+				nLevel = 1,
+				szNote = "梅花三弄",
+			},
+			{
+				{
+					bOnlySelfSrc = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						bOnlyMine = true,
+						col = "#00EE00FF",
+						nColAlpha = 255,
+						nPriority = 5,
+						szReminder = "宫",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 9454,
+				nLevel = 1,
+				szNote = "宫",
+			},
+			{
+				{
+					bOnlySelfSrc = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						bOnlyMine = true,
+						col = "#00EE00FF",
+						nColAlpha = 255,
+						nPriority = 5,
+						szReminder = "宫",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 9455,
+				nLevel = 1,
+				szNote = "宫",
+			},
+			{
+				{
+					bOnlySelfSrc = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						bOnlyMine = true,
+						col = "#00EE00FF",
+						nColAlpha = 255,
+						nPriority = 5,
+						szReminder = "宫",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 9456,
+				nLevel = 1,
+				szNote = "宫",
+			},
+			{
+				{
+					bOnlySelfSrc = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						bOnlyMine = true,
+						col = "#00EE00FF",
+						nColAlpha = 255,
+						nPriority = 5,
+						szReminder = "宫",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 9457,
+				nLevel = 1,
+				szNote = "宫",
+			},
+			{
+				{
+					bOnlySelfSrc = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						bOnlyMine = true,
+						col = "#00EE00FF",
+						nColAlpha = 255,
+						nPriority = 6,
+						szReminder = "商",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 9459,
+				nLevel = 1,
+				szNote = "商",
+			},
+			{
+				{
+					bOnlySelfSrc = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						bOnlyMine = true,
+						col = "#00EE00FF",
+						nColAlpha = 255,
+						nPriority = 6,
+						szReminder = "商",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 9460,
+				nLevel = 1,
+				szNote = "商",
+			},
+			{
+				{
+					bOnlySelfSrc = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						bOnlyMine = true,
+						col = "#00EE00FF",
+						nColAlpha = 255,
+						nPriority = 6,
+						szReminder = "商",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 9461,
+				nLevel = 1,
+				szNote = "商",
+			},
+			{
+				{
+					bOnlySelfSrc = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						bOnlyMine = true,
+						col = "#00EE00FF",
+						nColAlpha = 255,
+						nPriority = 6,
+						szReminder = "商",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 9462,
+				nLevel = 1,
+				szNote = "商",
+			},
+			{
+				{
+					bOnlySelfSrc = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						bOnlyMine = true,
+						col = "#00EE00FF",
+						nColAlpha = 255,
+						nPriority = 7,
+						szReminder = "角",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 9463,
+				nLevel = 1,
+				szNote = "角",
+			},
+			{
+				{
+					bOnlySelfSrc = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						bOnlyMine = true,
+						col = "#00EE00FF",
+						nColAlpha = 255,
+						nPriority = 7,
+						szReminder = "角",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 9464,
+				nLevel = 1,
+				szNote = "角",
+			},
+			{
+				{
+					bOnlySelfSrc = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						bOnlyMine = true,
+						col = "#00EE00FF",
+						nColAlpha = 255,
+						nPriority = 7,
+						szReminder = "角",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 9465,
+				nLevel = 1,
+				szNote = "角",
+			},
+			{
+				{
+					bOnlySelfSrc = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						bOnlyMine = true,
+						col = "#00EE00FF",
+						nColAlpha = 255,
+						nPriority = 7,
+						szReminder = "角",
+					},
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 9466,
+				nLevel = 1,
+				szNote = "角",
+			},
+			{
+				{
+					bOnlySelfSrc = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						bOnlyMine = true,
+						col = "#1FFFEEFF",
+						nColAlpha = 255,
+						nPriority = 5,
+						szReminder = "握",
+					},
+				},
+				col = {
+					31,
+					255,
+					238,
+				},
+				dwID = 631,
+				nLevel = 1,
+				szNote = "握针",
+			},
+		},
+		[-1] = {
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 32144,
+				nIcon = 25576,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "无相楼橙武效果",
+				tKungFu = {
+					["SKILL#10821"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 29604,
+				nIcon = 23391,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "段氏橙武效果",
+				tKungFu = {
+					["SKILL#10786"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 27543,
+				nIcon = 23410,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "130级万灵山庄橙武效果",
+				tKungFu = {
+					["SKILL#10756"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 24752,
+				nIcon = 23389,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "刀宗橙武效果",
+				tKungFu = {
+					["SKILL#10698"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 21803,
+				nIcon = 23415,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "北天药宗灵素橙武特效实际BUFF",
+				tKungFu = {
+					["SKILL#10626"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 21796,
+				nIcon = 23414,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "北天药宗橙武特效实际BUFF",
+				tKungFu = {
+					["SKILL#10627"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 18601,
+				nIcon = 23413,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "衍天宗橙武特效实际Buff",
+				tKungFu = {
+					["SKILL#10615"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 18511,
+				nIcon = 23400,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "冰心诀_无限剑气长江带dot",
+				tKungFu = {
+					["SKILL#10081"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 16482,
+				nIcon = 23396,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "130级凌雪阁大橙武特效",
+				tKungFu = {
+					["SKILL#10585"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 14352,
+				nIcon = 23399,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "蓬莱大CW特效",
+				tKungFu = {
+					["SKILL#10533"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 12770,
+				nIcon = 23409,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "橙武_离经_彼针长针",
+				tKungFu = {
+					["SKILL#10028"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 12769,
+				nIcon = 23412,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "橙武_补天_重置圣手",
+				tKungFu = {
+					["SKILL#10176"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 12768,
+				nIcon = 23401,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "橙武_云裳_重置风袖",
+				tKungFu = {
+					["SKILL#10080"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 11376,
+				nIcon = 23382,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "霸刀130橙武buff",
+				tKungFu = {
+					["SKILL#10464"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 10193,
+				nIcon = 23417,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "130级相知橙武buff",
+				tKungFu = {
+					["SKILL#10448"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 10192,
+				nIcon = 23416,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "130级莫问橙武buff",
+				tKungFu = {
+					["SKILL#10447"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 8474,
+				nIcon = 23384,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "苍云橙武触发buff效果（T特效备份）",
+				tKungFu = {
+					["SKILL#10389"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 6471,
+				nIcon = 23385,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "藏剑_130橙武无限听雷(问水)",
+				tKungFu = {
+					["SKILL#10144"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 6466,
+				nIcon = 23395,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "丐帮_橙武buff",
+				tKungFu = {
+					["SKILL#10268"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 4931,
+				nIcon = 23397,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "明教橙武_T触发BUFF",
+				tKungFu = {
+					["SKILL#10243"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 4930,
+				nIcon = 23398,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "明教橙武_dps触发BUFF",
+				tKungFu = {
+					["SKILL#10242"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 3488,
+				nIcon = 23405,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "80橙武_天罗_超级暴雨",
+				tKungFu = {
+					["SKILL#10225"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 3487,
+				nIcon = 23404,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "80橙武_惊羽_无限追命",
+				tKungFu = {
+					["SKILL#10224"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 3028,
+				nIcon = 23411,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "130橙武_毒经_蝎心重置dot",
+				tKungFu = {
+					["SKILL#10175"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 1922,
+				nIcon = 23386,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "130橙武_山居剑意_重置云飞玉皇",
+				tKungFu = {
+					["SKILL#10145"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 1920,
+				nIcon = 23402,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "130橙武_洗髓经_威胁提高",
+				tKungFu = {
+					["SKILL#10002"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 1919,
+				nIcon = 23403,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "130橙武_易筋经_攻击回豆",
+				tKungFu = {
+					["SKILL#10003"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 1916,
+				nIcon = 23388,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "80橙武_紫霞功_两仪化形回气",
+				tKungFu = {
+					["SKILL#10014"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 1915,
+				nIcon = 23387,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "80橙武_太虚剑意_无我无剑回气",
+				tKungFu = {
+					["SKILL#10015"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 1913,
+				nIcon = 23408,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "130橙武_花间游_玉石附钟林毓秀",
+				tKungFu = {
+					["SKILL#10021"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 1912,
+				nIcon = 23406,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "130橙武_铁牢律_威胁提高",
+				tKungFu = {
+					["SKILL#10062"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 1911,
+				nIcon = 23407,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "橙武",
+				szNote = "130级橙武_傲血战意_龙牙附致残",
+				tKungFu = {
+					["SKILL#10026"] = true,
+				},
+			},
+			{
+				bCheckLevel = true,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 17365,
+				nLevel = 46,
+				nScrutinyType = 1,
+				szNote = "破招降低·无双提高",
+				tCountdown = {
+					{
+						key = "创意食品",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 549,
+						nTime = 8,
+						szName = "破招降低·无双提高",
+					},
+				},
+			},
+			{
+				bCheckLevel = true,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 17365,
+				nLevel = 47,
+				nScrutinyType = 1,
+				szNote = "破招降低·内攻提高",
+				tCountdown = {
+					{
+						key = "创意食品",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 549,
+						nTime = 8,
+						szName = "破招降低·内攻提高",
+					},
+				},
+			},
+			{
+				bCheckLevel = true,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 17365,
+				nLevel = 48,
+				nScrutinyType = 1,
+				szNote = "破招降低·外攻提高",
+				tCountdown = {
+					{
+						key = "创意食品",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 549,
+						nTime = 8,
+						szName = "破招降低·外攻提高",
+					},
+				},
+			},
+			{
+				bCheckLevel = true,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 17365,
+				nLevel = 49,
+				nScrutinyType = 1,
+				szNote = "破招降低·破防提高",
+				tCountdown = {
+					{
+						key = "创意食品",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 549,
+						nTime = 8,
+						szName = "破招降低·破防提高",
+					},
+				},
+			},
+			{
+				bCheckLevel = true,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 17365,
+				nLevel = 50,
+				nScrutinyType = 1,
+				szNote = "破招降低·会心提高",
+				tCountdown = {
+					{
+						key = "创意食品",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 549,
+						nTime = 8,
+						szName = "破招降低·会心提高",
+					},
+				},
+			},
+			{
+				bCheckLevel = true,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 17365,
+				nLevel = 51,
+				nScrutinyType = 1,
+				szNote = "无双降低·破招提高",
+				tCountdown = {
+					{
+						key = "创意食品",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 549,
+						nTime = 8,
+						szName = "无双降低·破招提高",
+					},
+				},
+			},
+			{
+				bCheckLevel = true,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 17365,
+				nLevel = 52,
+				nScrutinyType = 1,
+				szNote = "无双降低·内攻提高",
+				tCountdown = {
+					{
+						key = "创意食品",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 549,
+						nTime = 8,
+						szName = "无双降低·内攻提高",
+					},
+				},
+			},
+			{
+				bCheckLevel = true,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 17365,
+				nLevel = 53,
+				nScrutinyType = 1,
+				szNote = "无双降低·外攻提高",
+				tCountdown = {
+					{
+						key = "创意食品",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 549,
+						nTime = 8,
+						szName = "无双降低·外攻提高",
+					},
+				},
+			},
+			{
+				bCheckLevel = true,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 17365,
+				nLevel = 54,
+				nScrutinyType = 1,
+				szNote = "无双降低·破防提高",
+				tCountdown = {
+					{
+						key = "创意食品",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 549,
+						nTime = 8,
+						szName = "无双降低·破防提高",
+					},
+				},
+			},
+			{
+				bCheckLevel = true,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 17365,
+				nLevel = 55,
+				nScrutinyType = 1,
+				szNote = "无双降低·会心提高",
+				tCountdown = {
+					{
+						key = "创意食品",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 549,
+						nTime = 8,
+						szName = "无双降低·会心提高",
+					},
+				},
+			},
+			{
+				bCheckLevel = true,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 17365,
+				nLevel = 56,
+				nScrutinyType = 1,
+				szNote = "气血降低·无双提高",
+				tCountdown = {
+					{
+						key = "创意食品",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 549,
+						nTime = 8,
+						szName = "气血降低·无双提高",
+					},
+				},
+			},
+			{
+				bCheckLevel = true,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 17365,
+				nLevel = 57,
+				nScrutinyType = 1,
+				szNote = "气血降低·内攻提高",
+				tCountdown = {
+					{
+						key = "创意食品",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 549,
+						nTime = 8,
+						szName = "气血降低·内攻提高",
+					},
+				},
+			},
+			{
+				bCheckLevel = true,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 17365,
+				nLevel = 58,
+				nScrutinyType = 1,
+				szNote = "气血降低·外攻提高",
+				tCountdown = {
+					{
+						key = "创意食品",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 549,
+						nTime = 8,
+						szName = "气血降低·外攻提高",
+					},
+				},
+			},
+			{
+				bCheckLevel = true,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 17365,
+				nLevel = 59,
+				nScrutinyType = 1,
+				szNote = "气血降低·破防提高",
+				tCountdown = {
+					{
+						key = "创意食品",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 549,
+						nTime = 8,
+						szName = "气血降低·破防提高",
+					},
+				},
+			},
+			{
+				bCheckLevel = true,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 17365,
+				nLevel = 60,
+				nScrutinyType = 1,
+				szNote = "气血降低·会心提高",
+				tCountdown = {
+					{
+						key = "创意食品",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 549,
+						nTime = 8,
+						szName = "气血降低·会心提高",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 30720,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "鞋会心",
+				szNote = "PVP附魔2鞋子战阶_雷特效_太极秘录",
+			},
+			{
+				col = {
+					29,
+					238,
+					255,
+				},
+				dwID = 30719,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "鞋移速",
+				szNote = "PVP附魔1鞋子_移速",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 30718,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "鞋伤疗",
+				szNote = "PVP附魔1鞋子战阶_水特效_太极秘录",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 30717,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "衣护盾",
+				szNote = "PVP附魔2上衣_护盾_太极秘录",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					29,
+					238,
+					255,
+				},
+				dwID = 30716,
+				nIcon = 19548,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "衣恢复",
+				szNote = "PVP附魔1上衣战阶_持续回复效果_太极秘录",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 30709,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "头特效",
+				szNote = "PVP附魔1帽子_密玉BUFF",
+			},
+			{
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 30708,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "化转御",
+				szNote = "PVP附魔2腰带战阶_化劲转御劲_太极秘录",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 30707,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "腰御劲",
+				szNote = "PVP附魔1腰带战阶_被击加御劲_太极秘录",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 30705,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "手会心",
+				szNote = "PVP附魔2护手战阶_全会心添加_太极秘录",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 30703,
+				nIcon = 23942,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "手特效",
+				szNote = "PVP附魔1护手拍卖_效果添加",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 30083,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "腰护盾",
+				szNote = "PVP腰带护盾",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					29,
+					238,
+					255,
+				},
+				dwID = 30073,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "鞋移速",
+				szNote = "PVP鞋子受击加移速20%",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					29,
+					238,
+					255,
+				},
+				dwID = 30072,
+				nIcon = 16720,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "裤治疗",
+				szNote = "治疗PVP裤子加治疗",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 30071,
+				nIcon = 16717,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "裤攻击",
+				szNote = "输出PVP裤子加攻击",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 29268,
+				nIcon = 4519,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "风腰坠",
+				szNote = "PVP风·斩流",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					29,
+					238,
+					255,
+				},
+				dwID = 3067,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "沐风-基础治疗量提高",
+				tKungFu = {
+					["SKILL#10028"] = true,
+					["SKILL#10080"] = true,
+					["SKILL#10176"] = true,
+					["SKILL#10448"] = true,
+					["SKILL#10626"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4761,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "水武器",
+				szNote = "水·鋭刃-水特效武器",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 4759,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "雷武器",
+				szNote = "雷·鋭刃-雷特效武器",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 6360,
+				nIcon = 4519,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "风腰坠",
+				szNote = "风·鋭刃-风特效腰坠",
+			},
+		},
+	},
+	DEBUFF = {
+		[-3] = {
+			{
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						bOnlyMine = true,
+						col = "#00EE00FF",
+						nColAlpha = 255,
+						nPriority = 5,
+						szReminder = "蛊",
+					},
+				},
+				dwID = 2316,
+				nLevel = 1,
+			},
+			{
+				aCataclysmBuff = {
+					{
+						bAttention = true,
+						bOnlyMine = true,
+						col = "#00EE00FF",
+						nColAlpha = 255,
+						nPriority = 5,
+						szReminder = "音",
+					},
+				},
+				dwID = 26986,
+				nLevel = 1,
+			},
+			{
+				aCataclysmBuff = {
+					{
+						bOnlyMine = true,
+						col = "#FFEEEEFF",
+						nColAlpha = 255,
+						nPriority = 3,
+						szReminder = "落",
+					},
+				},
+				col = {
+					255,
+					238,
+					255,
+				},
+				dwID = 9335,
+				nIcon = 11863,
+				nLevel = 1,
+				szNote = "无法获得梅花三弄",
+			},
+		},
+		[-1] = {
+			{
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 27689,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "缘会·今夕何夕",
+				tCountdown = {
+					{
+						key = "缘会·今夕何夕",
+						nClass = 1,
+						nFrame = 5,
+						nIcon = 21596,
+						nTime = 0,
+						szName = "缘会·今夕何夕",
+					},
+					{
+						key = "缘会·今夕何夕",
+						nClass = 2,
+						nFrame = 2,
+						nIcon = 21596,
+						nTime = 60,
+						szName = "香膏·绝世奇遇·已消失",
+					},
+				},
+			},
+			{
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 27663,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "缘会·月出皎兮",
+				tCountdown = {
+					{
+						key = "缘会·月出皎兮",
+						nClass = 1,
+						nFrame = 5,
+						nIcon = 21600,
+						nTime = 0,
+						szName = "缘会·月出皎兮",
+					},
+					{
+						key = "缘会·月出皎兮",
+						nClass = 2,
+						nFrame = 2,
+						nIcon = 21600,
+						nTime = 60,
+						szName = "香膏·普通奇遇·已消失",
+					},
+				},
+			},
+			{
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 27662,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "缘会·山有扶苏",
+				tCountdown = {
+					{
+						key = "缘会·山有扶苏",
+						nClass = 1,
+						nFrame = 5,
+						nIcon = 21600,
+						nTime = 0,
+						szName = "缘会·山有扶苏",
+					},
+					{
+						key = "缘会·山有扶苏",
+						nClass = 2,
+						nFrame = 2,
+						nIcon = 21600,
+						nTime = 60,
+						szName = "香膏·宠物奇遇·已消失",
+					},
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 30710,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "头计数",
+				szNote = "3次后额外伤害或治疗",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				bCheckLevel = true,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 15455,
+				nIcon = 7293,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "1%腰",
+				szNote = "输出伤害波动-伤腰大附魔增伤1%",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				bCheckLevel = true,
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 15455,
+				nIcon = 7371,
+				nLevel = 2,
+				nScrutinyType = 1,
+				szName = "5%腰",
+				szNote = "输出伤害波动-伤腰大附魔增伤5%",
+			},
+			{
+				{
+					bBuffList = true,
+					bPartyBuffList = true,
+					bScreenHead = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						col = "#FA9B00FF",
+						nColAlpha = 255,
+						nPriority = 6,
+						szReminder = "枯",
+					},
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 21953,
+				nLevel = 1,
+				szNote = "枯木",
+				tCountdown = {
+					{
+						key = "枯木{$receiver}",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 15422,
+						nTime = "1,奶【{$receiver}】;2,奶【{$receiver}】;3,奶【{$receiver}】;30,奶【{$receiver}】",
+						szName = "1,奶【{$receiver}】;2,奶【{$receiver}】;3,奶【{$receiver}】;30,奶【{$receiver}】;",
+					},
+					{
+						key = "枯木{$receiver}",
+						nClass = 2,
+						nFrame = 6,
+						nIcon = 15422,
+						nTime = 0,
+						szName = "",
+					},
+				},
+				tKungFu = {
+					["SKILL#10028"] = true,
+					["SKILL#10080"] = true,
+					["SKILL#10176"] = true,
+					["SKILL#10448"] = true,
+					["SKILL#10626"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+					bPartyBuffList = true,
+					bScreenHead = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						col = "#FF9600FF",
+						nColAlpha = 255,
+						nPriority = 6,
+						szReminder = "枯",
+					},
+				},
+				col = {
+					255,
+					150,
+					0,
+				},
+				dwID = 20554,
+				nLevel = 1,
+				szNote = "枯木",
+				tCountdown = {
+					{
+						key = "枯木{$receiver}",
+						nClass = 1,
+						nFrame = 6,
+						nIcon = 15422,
+						nTime = "1,奶【{$receiver}】;2,奶【{$receiver}】;3,奶【{$receiver}】;30,奶【{$receiver}】",
+						szName = "1,奶[{$receiver}];2,奶[{$receiver}];3,奶[{$receiver}];30,奶[{$receiver}];",
+					},
+					{
+						key = "枯木{$receiver}",
+						nClass = 2,
+						nFrame = 5,
+						nIcon = 15422,
+						nTime = 0,
+						szName = "",
+					},
+				},
+				tKungFu = {
+					["SKILL#10028"] = true,
+					["SKILL#10080"] = true,
+					["SKILL#10176"] = true,
+					["SKILL#10448"] = true,
+					["SKILL#10626"] = true,
+				},
+			},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1790275369,
+	},
+}

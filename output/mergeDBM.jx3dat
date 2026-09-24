@@ -49579,7 +49579,7 @@ return {
 				szNote = "中秋节·天狗事件",
 				tCountdown = {
 					{
-						key = "天狗事件",
+						key = "通用事件",
 						nClass = 20,
 						nFrame = 7,
 						nIcon = 89,
@@ -71113,6 +71113,20 @@ return {
 			},
 		},
 		[-15] = {
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 18266,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
 			{
 				{
 					bBuffList = true,
@@ -106559,6 +106573,43 @@ return {
 				nScrutinyType = 2,
 			},
 		},
+		[806] = {
+			{
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 29408,
+				nIcon = 8449,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "满贡献",
+				tCountdown = {
+					{
+						key = "预热活动",
+						nClass = 1,
+						nFrame = 2,
+						nIcon = 8449,
+						nRefresh = 600,
+						nTime = 20,
+						szName = "预热活动·今日贡献度上限",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 34632,
+				nIcon = 8449,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "预热",
+			},
+		},
 		[995] = {
 			{
 				{
@@ -124156,13 +124207,6 @@ return {
 				},
 				dwID = 2460,
 				nFrame = 57,
-			},
-			{
-				aFocus = {
-					{},
-				},
-				dwID = 25787,
-				nFrame = 47,
 			},
 			{
 				aFocus = {
@@ -166359,7 +166403,12 @@ return {
 				szNote = "据点贸易·货物不足",
 			},
 			{
-				szContent = "据点之战在即，为公平起见，侠士将在30秒后被传出本图，据点帮会25名(PVP服为40名)拥有地图优先进入权的玩家将不会被传送出去。",
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "据点之战在即，为公平起见，侠士将在30秒后被传出本图，据点帮会25名拥有地图优先进入权的玩家将不会被传送出去。",
 				szNote = "据点攻防·场景清图",
 				szTarget = "%",
 				tCountdown = {
@@ -167331,6 +167380,11 @@ return {
 				},
 			},
 			{
+				col = {
+					255,
+					255,
+					100,
+				},
 				szContent = "阵营业务繁忙，中立侠士只能停留30分钟，您将传出场景",
 				szNote = "中立侠士·传出场景",
 				tCountdown = {
@@ -167345,6 +167399,11 @@ return {
 				},
 			},
 			{
+				col = {
+					255,
+					255,
+					100,
+				},
 				szContent = "阵营业务繁忙，中立侠士只能停留30分钟，您将在1分钟后传出场景",
 				szNote = "中立侠士·请离场景",
 				tCountdown = {
@@ -167359,6 +167418,11 @@ return {
 				},
 			},
 			{
+				col = {
+					255,
+					255,
+					100,
+				},
 				szContent = "阵营业务繁忙，中立侠士只能停留30分钟，您将在2分钟后传出场景",
 				szNote = "中立侠士·请离场景",
 				tCountdown = {
@@ -167373,6 +167437,11 @@ return {
 				},
 			},
 			{
+				col = {
+					255,
+					255,
+					100,
+				},
 				szContent = "阵营业务繁忙，中立侠士只能停留30分钟，您将在3分钟后传出场景",
 				szNote = "中立侠士·请离场景",
 				tCountdown = {
@@ -167387,6 +167456,11 @@ return {
 				},
 			},
 			{
+				col = {
+					255,
+					255,
+					100,
+				},
 				szContent = "阵营业务繁忙，中立侠士只能停留30分钟，您将在4分钟后传出场景",
 				szNote = "中立侠士·请离场景",
 				tCountdown = {
@@ -167401,6 +167475,11 @@ return {
 				},
 			},
 			{
+				col = {
+					255,
+					255,
+					100,
+				},
 				szContent = "阵营业务繁忙，中立侠士只能停留30分钟，您将在5分钟后传出场景",
 				szNote = "中立侠士·请离场景",
 				tCountdown = {
@@ -167415,6 +167494,11 @@ return {
 				},
 			},
 			{
+				col = {
+					255,
+					255,
+					100,
+				},
 				szContent = "攻防之战在即，为公平起见，侠士将在30秒后被传出本图，攻防排队将在12点30分或18点30分开始，请做好准备。",
 				szNote = "阵营攻防·场景清图",
 				szTarget = "%",
@@ -170364,7 +170448,7 @@ return {
 				szTarget = "陈月",
 				tCountdown = {
 					{
-						key = "救治重伤",
+						key = "救治监控",
 						nClass = 14,
 						nFrame = 6,
 						nIcon = 1521,
@@ -170379,7 +170463,7 @@ return {
 				szTarget = "陈月",
 				tCountdown = {
 					{
-						key = "救治重伤",
+						key = "救治监控",
 						nClass = 14,
 						nFrame = 6,
 						nIcon = 1521,
@@ -170393,7 +170477,7 @@ return {
 				szTarget = "秦月樱",
 				tCountdown = {
 					{
-						key = "救治重伤",
+						key = "救治监控",
 						nClass = 14,
 						nFrame = 6,
 						nIcon = 1526,
@@ -171222,7 +171306,7 @@ return {
 				szTarget = "天狗的爪牙",
 				tCountdown = {
 					{
-						key = "天狗事件",
+						key = "通用事件",
 						nClass = 14,
 						nFrame = 7,
 						nIcon = 3449,
@@ -171572,7 +171656,7 @@ return {
 				szTarget = "陈月",
 				tCountdown = {
 					{
-						key = "救治重伤",
+						key = "救治监控",
 						nClass = 14,
 						nFrame = 6,
 						nIcon = 1521,
@@ -171587,7 +171671,7 @@ return {
 				szTarget = "陈月",
 				tCountdown = {
 					{
-						key = "救治重伤",
+						key = "救治监控",
 						nClass = 14,
 						nFrame = 6,
 						nIcon = 1521,
@@ -171682,7 +171766,7 @@ return {
 				szTarget = "秦月樱",
 				tCountdown = {
 					{
-						key = "救治重伤",
+						key = "救治监控",
 						nClass = 14,
 						nFrame = 6,
 						nIcon = 1526,
@@ -200095,11 +200179,11 @@ return {
 				szTarget = "阿史那承庆",
 				tCountdown = {
 					{
-						key = "预热活动1",
+						key = "预热活动",
 						nClass = 14,
 						nFrame = 4,
 						nIcon = 13675,
-						nTime = 299,
+						nTime = 179,
 						szName = "阿史那承庆·已刷新",
 					},
 				},
@@ -200226,6 +200310,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790094989,
+		nTimeStamp = 1790275368,
 	},
 }

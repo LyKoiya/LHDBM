@@ -1,0 +1,1712 @@
+return {
+	CHAT = {
+		[74] = {
+			{
+				szContent = "帮会宣战·领地正式开始！\
+",
+				tCountdown = {
+					{
+						key = "帮会宣战",
+						nClass = 20,
+						nFrame = 4,
+						nIcon = 13,
+						nTime = 5,
+						szName = "宣战·正式开始",
+					},
+					{
+						key = "诛恶事件",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "诛恶事件",
+					},
+					{
+						key = "通用事件",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "通用事件",
+					},
+					{
+						key = "金水镇",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "金水镇",
+					},
+					{
+						key = "巴陵县",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "巴陵县",
+					},
+					{
+						key = "龙门荒漠",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "龙门荒漠",
+					},
+					{
+						key = "南屏山",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "南屏山",
+					},
+					{
+						key = "昆仑",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "昆仑",
+					},
+					{
+						key = "白龙口",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "白龙口",
+					},
+					{
+						key = "无量山",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "无量山",
+					},
+					{
+						key = "黑龙沼",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "黑龙沼",
+					},
+					{
+						key = "阴山大草原",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "阴山大草原",
+					},
+					{
+						key = "黑戈壁",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "黑戈壁",
+					},
+					{
+						key = "鲲鹏岛",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "鲲鹏岛",
+					},
+				},
+			},
+			{
+				szContent = "本次宣战进攻将在10秒后正式开始。\
+",
+				tCountdown = {
+					{
+						key = "帮会宣战",
+						nClass = 20,
+						nFrame = 4,
+						nIcon = 13,
+						nTime = 10,
+						szName = "宣战·开始剩余",
+					},
+				},
+			},
+			{
+				szContent = "本次宣战进攻将在30秒后正式开始。\
+",
+				tCountdown = {
+					{
+						key = "帮会宣战",
+						nClass = 20,
+						nFrame = 4,
+						nIcon = 13,
+						nTime = 30,
+						szName = "宣战·开始剩余",
+					},
+				},
+			},
+			{
+				szContent = "本帮今日防守领地失败，望上下一心，团结一致。\
+",
+				tCountdown = {
+					{
+						key = "帮会宣战",
+						nClass = 20,
+						nFrame = 8,
+						nIcon = 13,
+						nTime = 30,
+						szName = "帮会应战·领地·防守失败",
+					},
+				},
+			},
+			{
+				bReg = true,
+				szContent = "(.-)已被击伤，留下拥有逐鹿中原战略物资%[神机雷%]，进攻方侠士可拾取，切莫错过！ ",
+				tCountdown = {
+					{
+						key = "{$1}·退场",
+						nClass = 20,
+						nFrame = 1,
+						nIcon = 13,
+						nTime = 30,
+						szName = "{$1}·退场",
+					},
+					{
+						key = "诛恶事件",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "诛恶事件",
+					},
+					{
+						key = "通用事件",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "通用事件",
+					},
+					{
+						key = "金水镇",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "金水镇",
+					},
+					{
+						key = "巴陵县",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "巴陵县",
+					},
+					{
+						key = "龙门荒漠",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "龙门荒漠",
+					},
+					{
+						key = "南屏山",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "南屏山",
+					},
+					{
+						key = "昆仑",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "昆仑",
+					},
+					{
+						key = "白龙口",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "白龙口",
+					},
+					{
+						key = "无量山",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "无量山",
+					},
+					{
+						key = "黑龙沼",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "黑龙沼",
+					},
+					{
+						key = "阴山大草原",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "阴山大草原",
+					},
+					{
+						key = "黑戈壁",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "黑戈壁",
+					},
+					{
+						key = "鲲鹏岛",
+						nClass = 20,
+						nIcon = 13,
+						nRefresh = 2700,
+						nTime = -1,
+						szName = "鲲鹏岛",
+					},
+				},
+			},
+		},
+	},
+	DEBUFF = {
+		[74] = {
+			{
+				dwID = 26071,
+				nLevel = 1,
+			},
+			{
+				dwID = 26151,
+				nLevel = 1,
+			},
+			{
+				dwID = 26152,
+				nLevel = 1,
+			},
+			{
+				dwID = 26153,
+				nLevel = 1,
+			},
+			{
+				dwID = 26157,
+				nLevel = 1,
+			},
+			{
+				dwID = 26158,
+				nLevel = 1,
+			},
+		},
+	},
+	DOODAD = {
+		[74] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 10213,
+				szNote = "战利品宝堆",
+			},
+		},
+	},
+	NPC = {
+		[74] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "李霖·300分",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 122078,
+				nFrame = 47,
+				szNote = "李霖",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "凤妞·100分",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 122079,
+				nFrame = 47,
+				szNote = "凤妞",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "陈士美·200分",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 122087,
+				nFrame = 47,
+				szNote = "陈士美",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "黄剑翔·100分",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 122168,
+				nFrame = 47,
+				szNote = "黄剑翔",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "韩非子·300分",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 122170,
+				nFrame = 47,
+				szNote = "韩非子",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "邵卿城·500分",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 122171,
+				nFrame = 47,
+				szNote = "邵卿城",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "高九问·500分",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 122172,
+				nFrame = 47,
+				szNote = "高九问",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "雄爷·200分",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 122173,
+				nFrame = 47,
+				szNote = "雄爷",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "贾扁·100分",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 122174,
+				nFrame = 47,
+				szNote = "贾扁",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "甄琦·100分",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 122175,
+				nFrame = 47,
+				szNote = "甄琦",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "三石叔·100分",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 122176,
+				nFrame = 47,
+				szNote = "三石叔",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "韩荞生·100分",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 122177,
+				nFrame = 47,
+				szNote = "韩荞生",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "鲁印·300分",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 122178,
+				nFrame = 47,
+				szNote = "鲁印",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "苏不尘·300分",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 122179,
+				nFrame = 47,
+				szNote = "苏不尘",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "梦香菲·100分",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 122180,
+				nFrame = 47,
+				szNote = "梦香菲",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "凯风·100分",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 122181,
+				nFrame = 47,
+				szNote = "凯风",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "帮会大旗·800分",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 122226,
+				nFrame = 47,
+				szNote = "帮会大旗",
+				tCountdown = {
+					{
+						key = "帮会大旗·退场",
+						nClass = 12,
+						nFrame = 1,
+						nIcon = 591,
+						nTime = 30,
+						szName = "帮会大旗·损毁·800分",
+					},
+				},
+			},
+		},
+	},
+	TALK = {
+		[-21] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "当前已开战，请直接对话进入被宣战方帮会领地。",
+				szNote = "帮会宣战·领地·正式开始",
+				tCountdown = {
+					{
+						key = "帮会宣战",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 13,
+						nTime = 5,
+						szName = "帮会宣战·领地·正式开启",
+					},
+				},
+			},
+			{
+				szContent = "本次宣战进攻将在10秒后正式开始。",
+				szNote = "帮会宣战·领地·10秒",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "帮会宣战",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 13,
+						nRefresh = 0,
+						nTime = "10,帮会宣战·领地·开启剩余;15,帮会宣战·领地·正式开启",
+						szName = "帮会宣战·领地·开启剩余",
+					},
+				},
+			},
+			{
+				szContent = "本次宣战进攻将在30秒后正式开始。",
+				szNote = "帮会宣战·领地·30秒",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "帮会宣战",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 13,
+						nRefresh = 0,
+						nTime = "30,帮会宣战·领地·开启剩余;35,帮会宣战·领地·正式开启",
+						szName = "帮会宣战·领地·开启剩余",
+					},
+				},
+			},
+		},
+		[-7] = {
+			{
+				szContent = "^%[帮会宣战%]%[(.-)%]：我在“(.-)”被敌帮的“(.-)”侠士重伤，请速来支援！",
+				szNote = "帮战·{$2}·[{$3}]击伤[{$1}]",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "帮会宣战·重伤",
+						nClass = 14,
+						nFrame = 8,
+						nIcon = 13,
+						nTime = 5,
+						szName = "帮战·{$2}·[{$3}]击伤[{$1}]",
+					},
+				},
+			},
+		},
+		[-2] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "当前已开战，请直接对话进入被宣战方帮会领地。",
+				szNote = "帮会宣战·领地·正式开始",
+				tCountdown = {
+					{
+						key = "帮会宣战",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 13,
+						nTime = 5,
+						szName = "帮会宣战·领地·正式开启",
+					},
+				},
+			},
+			{
+				szContent = "本次宣战进攻将在10秒后正式开始。",
+				szNote = "帮会宣战·领地·10秒",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "帮会宣战",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 13,
+						nRefresh = 0,
+						nTime = "10,帮会宣战·领地·开启剩余;15,帮会宣战·领地·正式开启",
+						szName = "帮会宣战·领地·开启剩余",
+					},
+				},
+			},
+			{
+				szContent = "本次宣战进攻将在30秒后正式开始。",
+				szNote = "帮会宣战·领地·30秒",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "帮会宣战",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 13,
+						nRefresh = 0,
+						nTime = "30,帮会宣战·领地·开启剩余;35,帮会宣战·领地·正式开启",
+						szName = "帮会宣战·领地·开启剩余",
+					},
+				},
+			},
+		},
+		[-1] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				bReg = true,
+				col = {
+					255,
+					50,
+					255,
+				},
+				szContent = "(.-)【(.+)】帮会(.-)发起为期(%d+)小时的野外宣战，各位非中立成员",
+				szNote = "帮战·[{$2}]·{$4}小时",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "帮会宣战·野外",
+						nClass = 14,
+						nFrame = 8,
+						nIcon = 3750,
+						nTime = 20,
+						szName = "帮战·[{$2}]·{$4}小时",
+					},
+				},
+			},
+		},
+		[74] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+					bTeamChannel = true,
+				},
+				bSearch = true,
+				col = {
+					255,
+					255,
+					255,
+				},
+				szContent = "帮会的兄弟们，我且先修整下！",
+				szNote = "陈士美·退场·山水田园·200分",
+				szTarget = "陈士美",
+				tCountdown = {
+					{
+						key = "陈士美·退场",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "陈士美·退场·山水田园·200分",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+					bTeamChannel = true,
+				},
+				bSearch = true,
+				col = {
+					255,
+					255,
+					255,
+				},
+				szContent = "帮会的兄弟们，我且先修整下！",
+				szNote = "三石叔·退场·落日牧场·100分",
+				szTarget = "三石叔",
+				tCountdown = {
+					{
+						key = "三石叔·退场",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "三石叔·退场·落日牧场·100分",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+					bTeamChannel = true,
+				},
+				bSearch = true,
+				col = {
+					255,
+					255,
+					255,
+				},
+				szContent = "帮会的兄弟们，我且先修整下！",
+				szNote = "黄剑翔·退场·流星赶月·100分",
+				szTarget = "黄剑翔",
+				tCountdown = {
+					{
+						key = "黄剑翔·退场",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "黄剑翔·退场·流星赶月·100分",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+					bTeamChannel = true,
+				},
+				bSearch = true,
+				col = {
+					255,
+					255,
+					255,
+				},
+				szContent = "帮会的兄弟们，我且先修整下！",
+				szNote = "韩荞生·退场·流星赶月·100分",
+				szTarget = "韩荞生",
+				tCountdown = {
+					{
+						key = "韩荞生·退场",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "韩荞生·退场·流星赶月·100分",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+					bTeamChannel = true,
+				},
+				bSearch = true,
+				col = {
+					255,
+					255,
+					255,
+				},
+				szContent = "帮会的兄弟们，我且先修整下！",
+				szNote = "凤妞·退场·大旗西侧方·100分",
+				szTarget = "凤妞",
+				tCountdown = {
+					{
+						key = "凤妞·退场",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "凤妞·退场·大旗西侧方·100分",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+					bTeamChannel = true,
+				},
+				bSearch = true,
+				col = {
+					255,
+					255,
+					255,
+				},
+				szContent = "帮会的兄弟们，我且先修整下！",
+				szNote = "梦香菲·退场·大旗东侧·100分",
+				szTarget = "梦香菲",
+				tCountdown = {
+					{
+						key = "梦香菲·退场",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "梦香菲·退场·大旗东侧·100分",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+					bTeamChannel = true,
+				},
+				bSearch = true,
+				col = {
+					255,
+					255,
+					255,
+				},
+				szContent = "帮会的兄弟们，我且先修整下！",
+				szNote = "贾扁·退场·屋檐顶西北·100分",
+				szTarget = "贾扁",
+				tCountdown = {
+					{
+						key = "贾扁·退场",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "贾扁·退场·屋檐顶西北·100分",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+					bTeamChannel = true,
+				},
+				bSearch = true,
+				col = {
+					255,
+					255,
+					255,
+				},
+				szContent = "帮会的兄弟们，我且先修整下！",
+				szNote = "凯风·退场·帮会内宴席·100分",
+				szTarget = "凯风",
+				tCountdown = {
+					{
+						key = "凯风·退场",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "凯风·退场·帮会内宴席·100分",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+					bTeamChannel = true,
+				},
+				bSearch = true,
+				col = {
+					255,
+					255,
+					255,
+				},
+				szContent = "帮会的兄弟们，我且先修整下！",
+				szNote = "雄爷·退场·帮会书柜旁·200分",
+				szTarget = "雄爷",
+				tCountdown = {
+					{
+						key = "雄爷·退场",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "雄爷·退场·帮会书柜旁·200分",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+					bTeamChannel = true,
+				},
+				bSearch = true,
+				col = {
+					255,
+					255,
+					255,
+				},
+				szContent = "帮会的兄弟们，我且先修整下！",
+				szNote = "鲁印·退场·会友台东侧·300分",
+				szTarget = "鲁印",
+				tCountdown = {
+					{
+						key = "鲁印·退场",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "鲁印·退场·会友台东侧·300分",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+					bTeamChannel = true,
+				},
+				bSearch = true,
+				col = {
+					255,
+					255,
+					255,
+				},
+				szContent = "帮会的兄弟们，我且先修整下！",
+				szNote = "高九问·退场·帮会天工·500分",
+				szTarget = "高九问",
+				tCountdown = {
+					{
+						key = "高九问·退场",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "高九问·退场·帮会天工·500分",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+					bTeamChannel = true,
+				},
+				bSearch = true,
+				col = {
+					255,
+					255,
+					255,
+				},
+				szContent = "帮会的兄弟们，我且先修整下！",
+				szNote = "苏不尘·退场·帮会药师·300分",
+				szTarget = "苏不尘",
+				tCountdown = {
+					{
+						key = "苏不尘·退场",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "苏不尘·退场·帮会药师·300分",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+					bTeamChannel = true,
+				},
+				bSearch = true,
+				col = {
+					255,
+					255,
+					255,
+				},
+				szContent = "帮会的兄弟们，我且先修整下！",
+				szNote = "韩非子·退场·祈星台北·300分",
+				szTarget = "韩非子",
+				tCountdown = {
+					{
+						key = "韩非子·退场",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "韩非子·退场·祈星台北·300分",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+					bTeamChannel = true,
+				},
+				bSearch = true,
+				col = {
+					255,
+					255,
+					255,
+				},
+				szContent = "帮会的兄弟们，我且先修整下！",
+				szNote = "李霖·退场·唱晚池鱼塘·300分",
+				szTarget = "李霖",
+				tCountdown = {
+					{
+						key = "李霖·退场",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "李霖·退场·唱晚池鱼塘·300分",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+					bTeamChannel = true,
+				},
+				bSearch = true,
+				col = {
+					255,
+					255,
+					255,
+				},
+				szContent = "帮会的兄弟们，我且先修整下！",
+				szNote = "邵卿城·退场·屋前西侧·500分",
+				szTarget = "邵卿城",
+				tCountdown = {
+					{
+						key = "邵卿城·退场",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "邵卿城·退场·屋前西侧·500分",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+					bTeamChannel = true,
+				},
+				bSearch = true,
+				col = {
+					255,
+					255,
+					255,
+				},
+				szContent = "帮会的兄弟们，我且先修整下！",
+				szNote = "甄琦·退场·屋门前东侧·100分",
+				szTarget = "甄琦",
+				tCountdown = {
+					{
+						key = "甄琦·退场",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "甄琦·退场·屋门前东侧·100分",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+					bTeamChannel = true,
+				},
+				bSearch = true,
+				col = {
+					255,
+					255,
+					255,
+				},
+				szContent = "帮会的兄弟们，我且先修整下！",
+				szNote = "{$sender}·退场",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "{$sender}·退场",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "{$sender}·退场",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+					bTeamChannel = true,
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				szContent = "[帮会宣战][帮会大旗]已被敌方攻破！诸位兄弟！团结一致！",
+				szNote = "帮会大旗·退场·800分",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "帮会大旗·退场",
+						nClass = 14,
+						nFrame = 1,
+						nIcon = 591,
+						nRefresh = 1,
+						nTime = 30,
+						szName = "帮会大旗·损毁·800分",
+					},
+				},
+			},
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "恭喜侠士帮会宣战·领地获胜！已为您添加增益状态。",
+				szNote = "帮会宣战·领地·获胜",
+				tCountdown = {
+					{
+						key = "帮会宣战",
+						nClass = 14,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 30,
+						szName = "帮会宣战·领地·获胜",
+					},
+					{
+						key = "诛恶事件",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "诛恶事件",
+					},
+					{
+						key = "通用事件",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "通用事件",
+					},
+					{
+						key = "金水镇",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "金水镇",
+					},
+					{
+						key = "巴陵县",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "巴陵县",
+					},
+					{
+						key = "龙门荒漠",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "龙门荒漠",
+					},
+					{
+						key = "南屏山",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "南屏山",
+					},
+					{
+						key = "昆仑",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "昆仑",
+					},
+					{
+						key = "白龙口",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "白龙口",
+					},
+					{
+						key = "无量山",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "无量山",
+					},
+					{
+						key = "黑龙沼",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "黑龙沼",
+					},
+					{
+						key = "阴山大草原",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "阴山大草原",
+					},
+					{
+						key = "黑戈壁",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "黑戈壁",
+					},
+					{
+						key = "鲲鹏岛",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "鲲鹏岛",
+					},
+				},
+			},
+			{
+				szContent = "最近七天内，帮会宣战·领地失利，已为侠士添加不利状态。",
+				szNote = "帮会宣战·领地·失败",
+				tCountdown = {
+					{
+						key = "帮会宣战",
+						nClass = 14,
+						nFrame = 8,
+						nIcon = 13,
+						nTime = 30,
+						szName = "帮会宣战·领地·失败",
+					},
+					{
+						key = "诛恶事件",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "诛恶事件",
+					},
+					{
+						key = "通用事件",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "通用事件",
+					},
+					{
+						key = "金水镇",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "金水镇",
+					},
+					{
+						key = "巴陵县",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "巴陵县",
+					},
+					{
+						key = "龙门荒漠",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "龙门荒漠",
+					},
+					{
+						key = "南屏山",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "南屏山",
+					},
+					{
+						key = "昆仑",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "昆仑",
+					},
+					{
+						key = "白龙口",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "白龙口",
+					},
+					{
+						key = "无量山",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "无量山",
+					},
+					{
+						key = "黑龙沼",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "黑龙沼",
+					},
+					{
+						key = "阴山大草原",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "阴山大草原",
+					},
+					{
+						key = "黑戈壁",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "黑戈壁",
+					},
+					{
+						key = "鲲鹏岛",
+						nClass = 14,
+						nIcon = 13,
+						nTime = -2,
+						szName = "鲲鹏岛",
+					},
+				},
+			},
+		},
+		[153] = {
+			{
+				[14] = {
+					bCenterAlarm = true,
+				},
+				szContent = "当前已开战，请直接对话进入被宣战方帮会领地。",
+				szNote = "帮会宣战·领地·正式开始",
+				tCountdown = {
+					{
+						key = "帮会宣战",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 13,
+						nTime = 5,
+						szName = "帮会宣战·领地·正式开启",
+					},
+				},
+			},
+			{
+				szContent = "本次宣战进攻将在10秒后正式开始。",
+				szNote = "帮会宣战·领地·10秒",
+				szTarget = "%",
+				tCountdown = {
+					{
+						key = "帮会宣战",
+						nClass = 14,
+						nFrame = 4,
+						nIcon = 13,
+						nRefresh = 0,
+						nTime = "10,帮会宣战·领地·开启剩余;15,帮会宣战·领地·正式开启",
+						szName = "帮会宣战·领地·开启剩余",
+					},
+				},
+			},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1790275369,
+	},
+}
