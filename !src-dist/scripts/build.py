@@ -1,168 +1,20 @@
 
 import os
+import importlib.util
 import pLualib
 from python_calamine import CalamineWorkbook
 
+# 加载模块
+def loadModule(path, name):
+    spec = importlib.util.spec_from_file_location(name, path)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+packConfig = loadModule("!src-dist\\data\\packConfig.py", "packConfig")
+
 ALLOWED_EXTENSIONS = {'.jx3dat', '.xlsx'}
 aType = ['有利气劲', '不利气劲', '武学招式', '系统角色', '交互物件', '角色喊话', '系统频道']
-
-packList = [
-    {
-        "Path": "\\模板\\团队监控·通用.xlsx",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\模板\\门派地图·茶几.xlsx",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\气劲\\团队气劲.xlsx",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\气劲\\通用气劲.xlsx",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\武学",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\阵营\\雪龙风原.formatted.jx3dat",
-        "Method": "fileMerge",
-        "Checked": False
-    },
-    {
-        "Path": "\\阵营\\攻防监控防冲突.xlsx",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\阵营\\攻防监控.xlsx",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\阵营",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\任务\\任务·地图通用.formatted.jx3dat",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\任务",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\奇遇\\奇遇_未分类.formatted.jx3dat",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\奇遇\\宠物奇遇_通用全部.xlsx",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\奇遇\\宠物奇遇_蹲宠监控.formatted.jx3dat",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\奇遇",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\乐游纪",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\秘境",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\成就",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\江湖",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\节日\\节日活动",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\节日\\节日剧情\\节日剧情·中秋节·2026.formatted.jx3dat",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\联动\\联动活动·常驻·冠军侯.formatted.jx3dat",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\预热\\预热任务·仗剑江湖.formatted.jx3dat",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\预热\\预热任务·暗影千机.formatted.jx3dat",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\预热\\预热任务·苍生铸世.formatted.jx3dat",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\预热\\预热活动·机锁神都.formatted.jx3dat",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\预热\\书剑天涯·四乡风物.formatted.jx3dat",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\联动\\联动活动·鹅鸭杀.formatted.jx3dat",
-        "Method": "fileMerge",
-        "Checked": False
-    },
-    {
-        "Path": "\\联动\\联动活动·凡人修仙传.formatted.jx3dat",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\模板\\倒计时条·阻断.formatted.jx3dat",
-        "Method": "fileMerge",
-        "Checked": True
-    },
-    {
-        "Path": "\\模板\\团队监控·杂项.formatted.jx3dat",
-        "Method": "fileMerge",
-        "Checked": True
-    }
-]
 
 def get_filtered_files(pick_list, extensions=None):
     dict_files = {}
@@ -297,7 +149,7 @@ def runPack(filesPath):
 def main() -> None:
     """主入口：执行打包任务。"""
     # 只处理 .xlsx 和 .jx3dat 文件
-    files = get_filtered_files(packList, ALLOWED_EXTENSIONS)
+    files = get_filtered_files(packConfig.packList, ALLOWED_EXTENSIONS)
     print(f"find {len(files)} files to process.")
     runPack(files)
 
