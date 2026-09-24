@@ -5,6 +5,7 @@ local buffRules = X.file2var('.\\!src-dist\\data\\buffRules.jx3dat')
 local FILE = {}
 for _, szType in ipairs(X.MY_TM_TYPE_LIST) do
 	FILE[szType] = {}
+	print(szType)
 end
 -- 检查表内相似键
 local function CheckSameData(szTable, szType, dwMapID, dwID, nLevel)
@@ -106,6 +107,7 @@ end
 local function dataMerge(tData, szType, MapID)
 	local k, v
 	if tData then
+		FILE[szType] = FILE[szType] or {}
 		k, v = CheckSameData(FILE, szType, MapID, tData.dwID, tData.nLevel)
 
 		if k then
@@ -494,7 +496,7 @@ function fileSave(szSavePath, nMaxLevel, bClear, bReverse)
 	if bReverse then
 		tableReverse(FILE)
 	end
-	
+
 	local str = 'return ' .. X.var2str(FILE, '\t', 0, nMaxLevel)
 	X.WriteFile(szSavePath, str)
 	return str

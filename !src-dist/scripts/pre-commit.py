@@ -61,7 +61,7 @@ def main() -> None:
     for f in xlsxfiles:
         print(f'  - {f}')
         dst = Path(f"xlsxdiff/{f}")
-        dst = dst.with_suffix(".jx3dat")
+        dst = dst.with_suffix(".formatted.jx3dat")
         dst.parent.mkdir(parents=True, exist_ok=True)
         build.xlsx2jx3dat(f, str(Path(dst).resolve()))
         backSave.append(dst)
