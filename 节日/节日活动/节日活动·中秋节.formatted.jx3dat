@@ -62,7 +62,7 @@ return {
 				szNote = "中秋节·天狗事件",
 				tCountdown = {
 					{
-						key = "天狗事件",
+						key = "通用事件",
 						nClass = 20,
 						nFrame = 7,
 						nIcon = 89,
@@ -558,7 +558,7 @@ return {
 				szTarget = "秦月樱",
 				tCountdown = {
 					{
-						key = "救治重伤",
+						key = "救治监控",
 						nClass = 14,
 						nFrame = 6,
 						nIcon = 1526,
@@ -574,7 +574,7 @@ return {
 				szTarget = "天狗的爪牙",
 				tCountdown = {
 					{
-						key = "天狗事件",
+						key = "通用事件",
 						nClass = 14,
 						nFrame = 7,
 						nIcon = 3449,
@@ -591,7 +591,7 @@ return {
 				szTarget = "秦月樱",
 				tCountdown = {
 					{
-						key = "救治重伤",
+						key = "救治监控",
 						nClass = 14,
 						nFrame = 6,
 						nIcon = 1526,
@@ -603,7 +603,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790150402,
+		nTimeStamp = 1790234105,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
