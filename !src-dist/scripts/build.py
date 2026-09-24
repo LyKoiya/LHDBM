@@ -4,6 +4,10 @@ import importlib.util
 import pLualib
 from python_calamine import CalamineWorkbook
 
+Lua = None
+ALLOWED_EXTENSIONS = {'.jx3dat', '.xlsx'}
+aType = ['有利气劲', '不利气劲', '武学招式', '系统角色', '交互物件', '角色喊话', '系统频道']
+
 # 加载模块
 def loadModule(path, name):
     spec = importlib.util.spec_from_file_location(name, path)
@@ -11,11 +15,31 @@ def loadModule(path, name):
     spec.loader.exec_module(mod)
     return mod
 
-packConfig = loadModule("!src-dist\\data\\packConfig.py", "packConfig")
+# 加载Lua
+def InitLua():
+    # 检查文件是否存在
+    lua_script = os.path.abspath("!src-dist\\scripts\\PackDBM.lua")
+    if not os.path.exists(lua_script):
+        print(f"lua_script not found: {lua_script}")
+        return
+    try:
+        # 创建 Lua 状态机
+        Lua = pLualib.LuaState()
+        if Lua:
+            print("lua newstate success.")
+        else:
+            print("lua newstate fail.")
 
-ALLOWED_EXTENSIONS = {'.jx3dat', '.xlsx'}
-aType = ['有利气劲', '不利气劲', '武学招式', '系统角色', '交互物件', '角色喊话', '系统频道']
+        if Lua.dofile(lua_script):
+            print(f"dofile success {lua_script}.")
+        else:
+            print(f"dofile fail {L.tostring(-1)}.")
+    except Exception as e:
+        print(f"error: {e}")
+    finally:
+        return Lua
 
+# 遍历文件
 def get_filtered_files(pick_list, extensions=None):
     dict_files = {}
     
@@ -45,6 +69,7 @@ def get_filtered_files(pick_list, extensions=None):
 
     return dict_files
 
+# 提取团队气劲数据
 def teamBuff(L, Ranges, Method):
     if Method == "fileMerge":
         i = 0
@@ -56,7 +81,7 @@ def teamBuff(L, Ranges, Method):
             if L.pcall(1, 0, 0) != 0:
                 print(f"Error calling decodeBuff({i}): {L.tostring(-1)}")
 
-
+# 提取表格文件数据，返回数组列表，一个元素是一种数据（气劲、角色、物件、喊话）
 def xlsx2list(wb):
     retList = []
     for szType in aType:
@@ -77,26 +102,43 @@ def xlsx2list(wb):
                 print(f"Error occurred while processing sheet: {szType} {e}")
     return retList
 
+# 打包表格文件，有两种表格数据，分别处理，一种是团队气劲面板，一种是团队监控数据
+def packxlsx(L, szPath, szMethod):
+    if szPath.lower().endswith(('.xls', '.xlsx')):
+        # 打开文件
+        Workbook = CalamineWorkbook.from_path(szPath)
+        sheet = Workbook.get_sheet_by_index(0)   # 通过下标，0为第一个sheet
+
+        if sheet.name == "茗伊团队气劲":
+            Ranges = sheet.to_python(skip_empty_area=False)
+            teamBuff(L, Ranges, szMethod)
+        else:
+            listStr = xlsx2list(Workbook)
+            for str in listStr:
+                if szMethod == "fileMerge":
+                    L.getglobal("strMerge")
+                    L.pushlstringA(str)
+                    if L.pcall(1, 0, 0) != 0:
+                        print(f"Error calling strMerge: {L.tostring(-1)}")
+        Workbook.close()
+
+# 打包jx3dat文件
+def packjx3dat(L, szPath, szMethod):
+    if szMethod == "fileMerge":
+        with open(szPath, 'rb') as f:
+            data = f.read()
+        if data:
+            L.getglobal("strMerge")
+            L.pushlstringA(data)
+            if L.pcall(1, 0, 0) != 0:
+                print(f"Error calling {szMethod}: {L.tostring(-1)}")
+                L.pop(1)
+
+# 打包模块总控
 def runPack(filesPath):
-    lua_script = os.path.abspath("!src-dist\\scripts\\PackDBM.lua")
-    # print(lua_script)
-    # 检查文件是否存在
-    if not os.path.exists(lua_script):
-        print(f"lua_script not found: {lua_script}")
-        return
     
     try:
-        # 创建 Lua 状态机
-        L = pLualib.LuaState()
-        if L:
-            print("lua newstate success.")
-        else:
-            print("lua newstate fail.")
-
-        if L.dofile(lua_script):
-            print(f"dofile success {lua_script}.")
-        else:
-            print(f"dofile fail {L.tostring(-1)}.")
+        L = InitLua()
         i = 0
         for file_path, file_info in filesPath.items():
             i += 1
@@ -104,51 +146,55 @@ def runPack(filesPath):
             # 只处理选中的且方法为fileMerge的文件
             if file_info['Checked']:
                 if file_path.lower().endswith(('.xls', '.xlsx')):
-                    # 打开文件
-                    Workbook = CalamineWorkbook.from_path(file_path)
-                    sheet = Workbook.get_sheet_by_index(0)   # 通过下标，0为第一个sheet
-
-                    if sheet.name == "茗伊团队气劲":
-                        Ranges = sheet.to_python(skip_empty_area=False)
-                        teamBuff(L, Ranges, file_info['Method'])
-                    else:
-                        listStr = xlsx2list(Workbook)
-                        for str in listStr:
-                            if file_info['Method'] == "fileMerge":
-                                L.getglobal("strMerge")
-                                L.pushlstringA(str)
-                                if L.pcall(1, 0, 0) != 0:
-                                    print(f"Error calling strMerge: {L.tostring(-1)}")
-                    Workbook.close()
-                else:
-                    if file_info['Method'] == "fileMerge":
-                        with open(file_path, 'rb') as f:
-                            data = f.read()
-                        if data:
-                            L.getglobal("strMerge")
-                            L.pushlstringA(data)
-                            if L.pcall(1, 0, 0) != 0:
-                                print(f"Error calling {file_info['Method']}: {L.tostring(-1)}")
-                                L.pop(1)
-                                
+                    packxlsx(L, file_path, file_info['Method'])
+                elif file_path.lower().endswith(('.jx3dat')):
+                    packjx3dat(L, file_path, file_info['Method'])
             else:
                 continue
-            
     except Exception as e:
         print(f"error: {e}")
     finally:
         L.getglobal("fileSave")
         L.pushlstringA(os.path.abspath("output\\mergeDBM.jx3dat"))
         L.pushinteger(3)
-        if L.pcall(2, 0, 0) == 0:
+        L.pushboolean(True)
+        L.pushboolean(True)
+        if L.pcall(4, 0, 0) == 0:
             print("fileSave success.")
         else:
             print("fileSave fail.")
         L.close()
 
+def xlsx2jx3dat(szDataPath, szSavePath):
+    global Lua
+    try:
+        if not Lua:
+            Lua = InitLua()
+        Lua.getglobal("fileClear")
+        Lua.pcall(0, 0, 0)
+        packxlsx(Lua, szDataPath, "fileMerge")
+
+    finally:
+        Lua.getglobal("fileSave")
+        Lua.pushlstringA(szSavePath)
+        Lua.pushnil()
+        Lua.pushboolean(False)
+        Lua.pushboolean(False)
+        if Lua.pcall(4, 0, 0) == 0:
+            print("xlsxfileSave success.")
+            Lua.getglobal("fileClear")
+            Lua.pcall(0, 0, 0)
+        else:
+            print(f"xlsxfileSave fail.{Lua.tostring(-1)}")
+            Lua.pop(1)
+
+        #Lua.close()
+        return
+
 def main() -> None:
     """主入口：执行打包任务。"""
     # 只处理 .xlsx 和 .jx3dat 文件
+    packConfig = loadModule("!src-dist\\data\\packConfig.py", "packConfig")
     files = get_filtered_files(packConfig.packList, ALLOWED_EXTENSIONS)
     print(f"find {len(files)} files to process.")
     runPack(files)
