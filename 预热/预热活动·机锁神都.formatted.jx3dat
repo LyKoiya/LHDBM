@@ -2,7 +2,47 @@ return {
 	BUFF = {},
 	CASTING = {},
 	CHAT = {},
-	DEBUFF = {},
+	DEBUFF = {
+		[806] = {
+			{
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 34632,
+				nIcon = 8449,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "预热",
+				szNote = "机锁神都·参与事件",
+			},
+			{
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 29408,
+				nIcon = 8449,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "满贡献",
+				szNote = "江湖行记_20240930预热mark",
+				tCountdown = {
+					{
+						key = "预热活动",
+						nClass = 1,
+						nFrame = 2,
+						nIcon = 8449,
+						nRefresh = 600,
+						nTime = 20,
+						szName = "预热活动·今日贡献度上限",
+					},
+				},
+			},
+		},
+	},
 	DOODAD = {},
 	NPC = {
 		[806] = {
@@ -53,11 +93,11 @@ return {
 				szTarget = "阿史那承庆",
 				tCountdown = {
 					{
-						key = "预热活动1",
+						key = "预热活动",
 						nClass = 14,
 						nFrame = 4,
 						nIcon = 13675,
-						nTime = 299,
+						nTime = 179,
 						szName = "阿史那承庆·已刷新",
 					},
 				},
@@ -65,7 +105,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790066845,
+		nTimeStamp = 1790232623,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
