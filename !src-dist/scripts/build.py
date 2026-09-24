@@ -33,7 +33,7 @@ def InitLua():
         if Lua.dofile(lua_script):
             print(f"dofile success {lua_script}.")
         else:
-            print(f"dofile fail {L.tostring(-1)}.")
+            print(f"dofile fail {Lua.tostring(-1)}.")
     except Exception as e:
         print(f"error: {e}")
     finally:
@@ -70,8 +70,7 @@ def get_filtered_files(pick_list, extensions=None):
     return dict_files
 
 # 提取团队气劲数据
-def teamBuff(L, Ranges, Method):
-    if Method == "fileMerge":
+def teamBuff(L, Ranges):
         i = 0
         for row in Ranges:
             i += 1
@@ -79,7 +78,7 @@ def teamBuff(L, Ranges, Method):
             L.getglobal("decodeBuff")
             L.pushlstringA(result)
             if L.pcall(1, 0, 0) != 0:
-                print(f"Error calling decodeBuff({i}): {L.tostring(-1)}")
+                print(f"Error calling decodeBuff({i}): {L.tostring(-1)}({result})")
 
 # 提取表格文件数据，返回数组列表，一个元素是一种数据（气劲、角色、物件、喊话）
 def xlsx2list(wb):
@@ -108,19 +107,22 @@ def packxlsx(L, szPath, szMethod):
         # 打开文件
         Workbook = CalamineWorkbook.from_path(szPath)
         sheet = Workbook.get_sheet_by_index(0)   # 通过下标，0为第一个sheet
-
-        if sheet.name == "茗伊团队气劲":
-            Ranges = sheet.to_python(skip_empty_area=False)
-            teamBuff(L, Ranges, szMethod)
-        else:
-            listStr = xlsx2list(Workbook)
-            for str in listStr:
+        try:
+            
+            if sheet.name == "茗伊团队气劲":
                 if szMethod == "fileMerge":
-                    L.getglobal("strMerge")
-                    L.pushlstringA(str)
-                    if L.pcall(1, 0, 0) != 0:
-                        print(f"Error calling strMerge: {L.tostring(-1)}")
-        Workbook.close()
+                    Ranges = sheet.to_python(skip_empty_area=False)
+                    teamBuff(L, Ranges)
+            else:
+                listStr = xlsx2list(Workbook)
+                for str in listStr:
+                    if szMethod == "fileMerge":
+                        L.getglobal("strMerge")
+                        L.pushlstringA(str)
+                        if L.pcall(1, 0, 0) != 0:
+                            print(f"Error calling strMerge: {L.tostring(-1)}")
+        finally:
+            Workbook.close()
 
 # 打包jx3dat文件
 def packjx3dat(L, szPath, szMethod):
