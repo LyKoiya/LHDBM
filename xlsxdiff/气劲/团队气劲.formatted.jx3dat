@@ -10710,7 +10710,7 @@ return {
 					bTeamPanel = false,
 				},
 				dwID = 71019,
-				nIcon = 4573,
+				nIcon = 6497,
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "¿¹Ë¤",
@@ -50877,7 +50877,7 @@ return {
 					0,
 				},
 				dwID = 32836,
-				nIcon = 4573,
+				nIcon = 6497,
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "¿¹Ë¤",
@@ -52326,6 +52326,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790275369,
+		nTimeStamp = 1790319994,
 	},
 }

@@ -986,7 +986,7 @@ return {
 					0,
 				},
 				dwID = 3473,
-				nIcon = 4573,
+				nIcon = 6497,
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "¿¹Ë¤",
@@ -1223,7 +1223,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1789028916,
+		nTimeStamp = 1790319995,
 		szAuthor = "ºÉ»¨Àð",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
