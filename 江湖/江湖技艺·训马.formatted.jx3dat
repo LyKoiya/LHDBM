@@ -1598,6 +1598,17 @@ return {
 				nScrutinyType = 1,
 				szNote = "损10",
 			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 7698,
+				nIcon = 13172,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "锁定",
+				szNote = "天灯_上马锁定",
+			},
 		},
 		[216] = {
 			{
@@ -4589,7 +4600,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1787845982,
+		nTimeStamp = 1790330171,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
