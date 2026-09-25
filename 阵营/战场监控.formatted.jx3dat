@@ -4755,7 +4755,8 @@ return {
 				dwID = 30998,
 				nLevel = 1,
 				nScrutinyType = 1,
-				szNote = "神行",
+				szName = "疾走",
+				szNote = "雪域疾走·神行",
 			},
 		},
 		[715] = {
@@ -8562,7 +8563,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1789635397,
+		nTimeStamp = 1790327354,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
