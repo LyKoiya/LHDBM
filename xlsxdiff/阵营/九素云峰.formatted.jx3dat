@@ -46,7 +46,7 @@ return {
 					bBuffList = true,
 				},
 				dwID = 29019,
-				nIcon = 4573,
+				nIcon = 6497,
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "µØ…‰",
@@ -2239,6 +2239,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790275369,
+		nTimeStamp = 1790319995,
 	},
 }
