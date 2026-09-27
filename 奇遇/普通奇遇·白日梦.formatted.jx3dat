@@ -2,9 +2,6 @@ return {
 	BUFF = {
 		[-15] = {
 			{
-				{
-					bBuffList = true,
-				},
 				dwID = 16966,
 				nLevel = 1,
 				nScrutinyType = 1,
@@ -23,9 +20,6 @@ return {
 				},
 			},
 			{
-				{
-					bBuffList = true,
-				},
 				dwID = 16924,
 				nLevel = 1,
 				nScrutinyType = 1,
@@ -616,7 +610,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 10,
 						tLife = {
 							bEnable = false,
@@ -649,7 +642,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 6,
 						szDisplay = "ÄýÑª²Ý°¢´ó¡¤°×ÈÕÃÎ",
 						tLife = {
@@ -671,7 +663,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 6,
 						szDisplay = "ÄýÑª²Ý°¢¶þ¡¤°×ÈÕÃÎ",
 						tLife = {
@@ -693,7 +684,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 6,
 						szDisplay = "ÄýÑª²Ý°¢Èý¡¤°×ÈÕÃÎ",
 						tLife = {
@@ -717,7 +707,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 6,
 						szDisplay = "³àÍÃ¡¤°×ÈÕÃÎ",
 						tLife = {
@@ -739,7 +728,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 6,
 						szDisplay = "²»î¿¡¤°×ÈÕÃÎ",
 						tLife = {
@@ -761,7 +749,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 6,
 						szDisplay = "ÂÌó¤æõ¡¤°×ÈÕÃÎ",
 						tLife = {
@@ -785,7 +772,6 @@ return {
 			{
 				aFocus = {
 					{
-						dwMapID = -1,
 						nMaxDistance = 6,
 						szDisplay = "Ä¾×®¡¤°×ÈÕÃÎ",
 						tLife = {
@@ -993,7 +979,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1786988938,
+		nTimeStamp = 1790492758,
 		szAuthor = "ºÉ»¨Àð",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
