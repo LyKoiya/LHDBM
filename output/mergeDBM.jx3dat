@@ -347,9 +347,6 @@ return {
 				nScrutinyType = 1,
 			},
 			{
-				{
-					bBuffList = true,
-				},
 				dwID = 16924,
 				nLevel = 1,
 				nScrutinyType = 1,
@@ -367,9 +364,6 @@ return {
 				},
 			},
 			{
-				{
-					bBuffList = true,
-				},
 				dwID = 16966,
 				nLevel = 1,
 				nScrutinyType = 1,
@@ -30560,7 +30554,7 @@ return {
 					bBuffList = true,
 				},
 				dwID = 71019,
-				nIcon = 4573,
+				nIcon = 6497,
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "抗摔",
@@ -35095,7 +35089,7 @@ return {
 					bBuffList = true,
 				},
 				dwID = 29019,
-				nIcon = 4573,
+				nIcon = 6497,
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "弹射",
@@ -49442,6 +49436,22 @@ return {
 						nTime = -1,
 						szName = "奇遇提示",
 					},
+					{
+						key = "破阵点将·一·常驻",
+						nClass = 20,
+						nIcon = 7674,
+						nRefresh = 5,
+						nTime = -2,
+						szName = "破阵点将·一·常驻",
+					},
+					{
+						key = "破阵点将·二·常驻",
+						nClass = 20,
+						nIcon = 7676,
+						nRefresh = 5,
+						nTime = -2,
+						szName = "破阵点将·二·常驻",
+					},
 				},
 			},
 			{
@@ -52697,18 +52707,20 @@ return {
 					{
 						key = "破阵点将·一·常驻",
 						nClass = 20,
-						nIcon = 7674,
+						nFrame = -1,
+						nIcon = 1465,
 						nRefresh = 99999,
-						nTime = -2,
-						szName = "破阵点将·一·常驻",
+						nTime = 0.001,
+						szName = " ",
 					},
 					{
 						key = "破阵点将·二·常驻",
 						nClass = 20,
-						nIcon = 7676,
+						nFrame = -1,
+						nIcon = 1465,
 						nRefresh = 99999,
-						nTime = -2,
-						szName = "破阵点将·二·常驻",
+						nTime = 0.001,
+						szName = " ",
 					},
 					{
 						key = "天气事件1",
@@ -53006,18 +53018,20 @@ return {
 					{
 						key = "破阵点将·一·常驻",
 						nClass = 20,
-						nIcon = 7674,
+						nFrame = -1,
+						nIcon = 1465,
 						nRefresh = 99999,
-						nTime = -2,
-						szName = "破阵点将·一·常驻",
+						nTime = 0.001,
+						szName = " ",
 					},
 					{
 						key = "破阵点将·二·常驻",
 						nClass = 20,
-						nIcon = 7676,
+						nFrame = -1,
+						nIcon = 1465,
 						nRefresh = 99999,
-						nTime = -2,
-						szName = "破阵点将·二·常驻",
+						nTime = 0.001,
+						szName = " ",
 					},
 					{
 						key = "天气事件1",
@@ -69773,7 +69787,7 @@ return {
 						nClass = 1,
 						nIcon = 7674,
 						nRefresh = 5,
-						nTime = -2,
+						nTime = -1,
 						szName = "破阵点将·一·常驻",
 					},
 					{
@@ -69781,7 +69795,7 @@ return {
 						nClass = 1,
 						nIcon = 7676,
 						nRefresh = 5,
-						nTime = -2,
+						nTime = -1,
 						szName = "破阵点将·二·常驻",
 					},
 				},
@@ -74915,7 +74929,7 @@ return {
 					0,
 				},
 				dwID = 3473,
-				nIcon = 4573,
+				nIcon = 6497,
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "抗摔",
@@ -75535,6 +75549,16 @@ return {
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "鱼群",
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 7698,
+				nIcon = 13172,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "锁定",
 			},
 			{
 				{
@@ -76410,7 +76434,7 @@ return {
 					0,
 				},
 				dwID = 32836,
-				nIcon = 4573,
+				nIcon = 6497,
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "抗摔",
@@ -95132,7 +95156,7 @@ return {
 					0,
 				},
 				dwID = 4013,
-				nIcon = 4573,
+				nIcon = 6497,
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "抗摔",
@@ -95149,7 +95173,7 @@ return {
 					0,
 				},
 				dwID = 4013,
-				nIcon = 4573,
+				nIcon = 6497,
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "抗摔",
@@ -105138,6 +105162,7 @@ return {
 				dwID = 30998,
 				nLevel = 1,
 				nScrutinyType = 1,
+				szName = "疾走",
 			},
 			{
 				{
@@ -106586,6 +106611,14 @@ return {
 				nScrutinyType = 1,
 				szName = "满贡献",
 				tCountdown = {
+					{
+						key = "本日上限",
+						nClass = 1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = -1,
+						szName = "本日上限",
+					},
 					{
 						key = "预热活动",
 						nClass = 1,
@@ -111676,6 +111709,16 @@ return {
 			{
 				aFocus = {
 					{
+						nMaxDistance = 30,
+						szDisplay = "喜帖·赴九幽",
+					},
+				},
+				dwID = 10510,
+				szName = "喜帖",
+			},
+			{
+				aFocus = {
+					{
 						nMaxDistance = 60,
 						szDisplay = "沈同的墓碑·旧宴承欢",
 					},
@@ -113585,6 +113628,16 @@ return {
 			{
 				aFocus = {
 					{
+						nMaxDistance = 120,
+						szDisplay = "破损的牌匾·赴九幽",
+					},
+				},
+				dwID = 10508,
+				szName = "破损的牌匾",
+			},
+			{
+				aFocus = {
+					{
 						szDisplay = "光圈·授太平",
 					},
 				},
@@ -114401,6 +114454,28 @@ return {
 				},
 				dwID = 8418,
 				szName = "狼牙先锋首领掉落",
+			},
+		},
+		[664] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						szDisplay = "异色冥界花·赴九幽",
+					},
+				},
+				dwID = 10502,
+				szName = "异色冥界花",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						szDisplay = "水井·赴九幽",
+					},
+				},
+				dwID = 10507,
+				szName = "水井",
 			},
 		},
 		[666] = {
@@ -120298,6 +120373,16 @@ return {
 				},
 				dwID = 43803,
 				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "好心的魂灵·赴九幽",
+					},
+				},
+				dwID = 126597,
+				nFrame = 67,
 			},
 			{
 				[3] = {
@@ -133005,6 +133090,16 @@ return {
 					},
 				},
 				dwID = 6864,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						szDisplay = "郑龙·赴九幽",
+					},
+				},
+				dwID = 126762,
 				nFrame = 47,
 			},
 			{
@@ -146149,6 +146244,16 @@ return {
 			{
 				aFocus = {
 					{
+						nMaxDistance = 60,
+						szDisplay = "药铺掌柜·赴九幽",
+					},
+				},
+				dwID = 126754,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
 						nMaxDistance = 6,
 						szDisplay = "跟随·金秋娘",
 					},
@@ -148817,6 +148922,16 @@ return {
 					0,
 				},
 				dwID = 69228,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "吐尔迪·赴九幽",
+					},
+				},
+				dwID = 126733,
 				nFrame = 47,
 			},
 			{
@@ -156745,6 +156860,16 @@ return {
 			{
 				aFocus = {
 					{
+						nMaxDistance = 120,
+						szDisplay = "王老伯·赴九幽",
+					},
+				},
+				dwID = 126705,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
 						nMaxDistance = 30,
 						szDisplay = "姜通·授太平",
 					},
@@ -162109,6 +162234,77 @@ return {
 					0,
 				},
 				dwID = 124353,
+				nFrame = 47,
+			},
+		},
+		[664] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 40,
+						szDisplay = "寻仇的魂灵·赴九幽",
+					},
+				},
+				dwID = 126684,
+				nFrame = 67,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						szDisplay = "倨傲的魂灵·赴九幽",
+					},
+				},
+				dwID = 126682,
+				nFrame = 67,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						szDisplay = "徘徊的魂灵·赴九幽",
+					},
+				},
+				dwID = 126679,
+				nFrame = 67,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						szDisplay = "口渴的魂灵·赴九幽",
+					},
+				},
+				dwID = 126677,
+				nFrame = 67,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						szDisplay = "练武的魂灵·赴九幽",
+					},
+				},
+				dwID = 126675,
+				nFrame = 67,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						szDisplay = "张承玄·赴九幽",
+					},
+				},
+				dwID = 126596,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 20,
+					},
+				},
+				dwID = 70076,
 				nFrame = 47,
 			},
 		},
@@ -200184,7 +200380,7 @@ return {
 						nFrame = 4,
 						nIcon = 13675,
 						nTime = 179,
-						szName = "阿史那承庆·已刷新",
+						szName = "预热·阿史那承庆·刷新",
 					},
 				},
 			},
@@ -200310,6 +200506,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790275368,
+		nTimeStamp = 1790531757,
 	},
 }
