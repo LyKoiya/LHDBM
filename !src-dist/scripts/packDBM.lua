@@ -3,6 +3,7 @@ package.path = package.path .. ';.\\!src-dist\\scripts\\?.lua'
 local X = require('Base')
 local buffRules = X.file2var('.\\!src-dist\\data\\buffRules.jx3dat')
 local FILE = {}
+local teamBuff = {}
 for _, szType in ipairs(X.MY_TM_TYPE_LIST) do
 	FILE[szType] = {}
 end
@@ -253,19 +254,115 @@ local function buffRule(tData, szRule, bCanCancel)
 	end
 end
 
+-- 团队气劲转文本文档
+local function teamBuff2str(aLine)
+
+	local aTeamBuff = {}
+	local tTeamBuff = {}
+	if aLine[2] ~= '' then
+		tTeamBuff.dwID = tostring(tonumber(aLine[2])) 
+	end
+	if aLine[3] ~= '' then
+		tTeamBuff.szName = aLine[3]
+	end
+	if aLine[4] ~= '' then
+		tTeamBuff.nLevel = aLine[4]
+	end
+	
+	if aLine[5] ~= '' then
+		tTeamBuff.nCount = aLine[5]
+	end
+	if aLine[6] == 'mine' then
+		tTeamBuff.bOnlyMine = aLine[6]
+	end
+
+	if aLine[7] == 'me' then
+		tTeamBuff.bOnlyMe = aLine[7]
+	end
+	if aLine[8] ~= '' then
+		tTeamBuff.szReminder = aLine[8]
+	end
+	if aLine[9] ~= '' then
+		tTeamBuff.nPriority = tostring(tonumber(aLine[9]))
+	end
+	if aLine[10] == '!!' then
+		tTeamBuff.bAttention = true
+	end
+	if aLine[11] == '!!!' then
+		tTeamBuff.bCaution = true
+	end
+	if aLine[12] == '!!!!' then
+		tTeamBuff.bScreenHead = true
+	end
+	if aLine[13] ~= '' then
+		tTeamBuff.col = aLine[13]
+	end
+	if aLine[14] ~= ''  then
+		tTeamBuff.colScreenHead = aLine[14]
+	end
+	if aLine[18] == '-'  then
+		tTeamBuff.bDelete = true
+	end
+
+	if tTeamBuff.dwID or tTeamBuff.szName then
+		
+		table.insert(aTeamBuff, tTeamBuff.dwID or tTeamBuff.szName)
+		if tTeamBuff.nLevel then
+			table.insert(aTeamBuff,'|' .. tTeamBuff.nLevel)
+		end
+		if tTeamBuff.nCount then
+			table.insert(aTeamBuff,'|' .. tTeamBuff.nCount)
+		end
+		if tTeamBuff.bOnlyMe then
+			table.insert(aTeamBuff,'|' .. tTeamBuff.bOnlyMe)
+		end
+		if tTeamBuff.bOnlyMine then
+			table.insert(aTeamBuff,'|' .. tTeamBuff.bOnlyMine)
+		end
+		if tTeamBuff.col then
+			table.insert(aTeamBuff,',' .. tTeamBuff.col)
+		end
+		if tTeamBuff.szReminder then
+			table.insert(aTeamBuff,',('.. tTeamBuff.szReminder .. ')')
+		end
+		if tTeamBuff.nPriority then
+			table.insert(aTeamBuff,',#' .. tTeamBuff.nPriority)
+		end
+		if tTeamBuff.bAttention then
+			table.insert(aTeamBuff,',!!')
+		end
+		if tTeamBuff.bCaution then
+			table.insert(aTeamBuff,',!!!')
+		end
+		if tTeamBuff.bScreenHead then
+			table.insert(aTeamBuff,',!!!!')
+		end
+		if tTeamBuff.colScreenHead then
+			table.insert(aTeamBuff,'|' .. tTeamBuff.colScreenHead)
+		end
+		if tTeamBuff.bDelete then
+			table.insert(aTeamBuff,',-')
+		end
+		local str = table.concat(aTeamBuff)
+		table.insert(teamBuff, str .. '\n')
+		return str
+	end
+
+	-- 122|lv2|sn>=2|me|mine,[#DF7F3FC1],(备注),#99,!!,!!!,!!!!|[#DFFF1F],-
+end
 -- 解析一行团队气劲面板数据并转为团队监控数据
-function decodeBuff(line)
-	if not line then
+function decodeBuff(szLine)
+	if not szLine then
 		return
 	end
-	local aline = X.split(line, '\t')
+	local aline = X.split(szLine, '\t')
 	if not aline then
 		return
 	end
 	if #aline < 18 or aline[18] == '-' or aline[2] == '' or (tonumber(aline[2]) or 0) <= 0 then
 		return
 	end
-
+	
 	local tData = {}
 	tData[1] = {}
 	tData[2] = {}
@@ -368,6 +465,7 @@ function decodeBuff(line)
 		end
 	end
 	buffRule(tData, aline[17], string.lower(aline[15]) == 'true')
+	teamBuff2str(aline)
 end
 -- 2	631	握针			mine		握 奶花技能握针hot	6				[#00EE00]		TRUE		/MapID -1 /nScrutinyType 2
 
@@ -506,4 +604,14 @@ function fileClear()
 	FILE = {}
 end
 
+-- 保存teamBuff为txt
+function teamBuffSave(szSavePath)
+	local str = table.concat(teamBuff)
+	X.WriteFile(szSavePath, str)
+end
+
+-- 清除teamBuff
+function teamBuffClear()
+	teamBuff = {}
+end
 print("PackDBM initialized")
