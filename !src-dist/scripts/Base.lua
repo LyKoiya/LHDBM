@@ -429,6 +429,11 @@ function M.arrayReverse(arr)
     return arr
 end
 
+-- 转为字符串或nil，防止变nil
+function M.tonumberStr(v)
+    local n = tonumber(v)
+    return n and tostring(n) or nil
+end
 -- 判断文件是否存在
 function M.fileExists(path)
 	local f = io.open(path, "r")
