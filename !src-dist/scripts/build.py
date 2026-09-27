@@ -109,12 +109,14 @@ def packxlsx(L, szPath, szMethod):
         # 打开文件
         Workbook = CalamineWorkbook.from_path(szPath)
         sheet = Workbook.get_sheet_by_index(0)   # 通过下标，0为第一个sheet
+        bTeamBuffFile = False
         try:
             
             if sheet.name == "茗伊团队气劲":
                 if szMethod == "fileMerge":
                     Ranges = sheet.to_python(skip_empty_area=False)
                     teamBuff(L, Ranges)
+                    bTeamBuffFile = True
             else:
                 listStr = xlsx2list(Workbook)
                 for str in listStr:
@@ -126,6 +128,7 @@ def packxlsx(L, szPath, szMethod):
                             Lua.pop(1)
         finally:
             Workbook.close()
+            return bTeamBuffFile
 
 # 打包jx3dat文件
 def packjx3dat(L, szPath, szMethod):
@@ -178,7 +181,18 @@ def xlsx2jx3dat(szDataPath, szSavePath):
             Lua = InitLua()
         Lua.getglobal("fileClear")
         Lua.pcall(0, 0, 0)
-        packxlsx(Lua, szDataPath, "fileMerge")
+        bTeamBuffFile = packxlsx(Lua, szDataPath, "fileMerge")
+        if bTeamBuffFile:
+            Lua.getglobal("teamBuffSave")
+            Lua.pushlstringA(szSavePath[:-len('.formatted.jx3dat')] + '.txt')
+            if Lua.pcall(1, 0, 0) == 0:
+                print("teamBuffsave success.")
+            else:
+                print(f"teamBuffsave fail.{Lua.tostring(-1)}")
+                Lua.pop(1)
+            Lua.getglobal("teamBuffClear")
+            Lua.pcall(0, 0, 0)
+
 
     finally:
         Lua.getglobal("fileSave")
