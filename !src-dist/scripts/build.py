@@ -142,38 +142,7 @@ def packjx3dat(L, szPath, szMethod):
                 print(f"Error calling {szMethod}: {L.tostring(-1)}")
                 L.pop(1)
 
-# 打包模块总控
-def runPack(filesPath):
-    
-    try:
-        L = InitLua()
-        i = 0
-        for file_path, file_info in filesPath.items():
-            i += 1
-            print(f"[{i}/{len(filesPath)}] Checked={file_info['Checked']} {file_info['Method']}: {file_path}")
-            # 只处理选中的且方法为fileMerge的文件
-            if file_info['Checked']:
-                if file_path.lower().endswith(('.xls', '.xlsx')):
-                    packxlsx(L, file_path, file_info['Method'])
-                elif file_path.lower().endswith(('.jx3dat')):
-                    packjx3dat(L, file_path, file_info['Method'])
-            else:
-                continue
-    except Exception as e:
-        print(f"error: {e}")
-    finally:
-        L.getglobal("fileSave")
-        L.pushlstringA(os.path.abspath("output\\mergeDBM.jx3dat"))
-        L.pushinteger(3)
-        L.pushboolean(True)
-        L.pushboolean(True)
-        if L.pcall(4, 0, 0) == 0:
-            print("fileSave success.")
-        else:
-            print(f"fileSave fail.{L.tostring(-1)}")
-            Lua.pop(1)
-        L.close()
-
+# 处理表格转团队数据
 def xlsx2jx3dat(szDataPath, szSavePath):
     global Lua
     try:
@@ -210,6 +179,38 @@ def xlsx2jx3dat(szDataPath, szSavePath):
 
         #Lua.close()
         return
+
+# 打包模块总控
+def runPack(filesPath):
+    
+    try:
+        L = InitLua()
+        i = 0
+        for file_path, file_info in filesPath.items():
+            i += 1
+            print(f"[{i}/{len(filesPath)}] Checked={file_info['Checked']} {file_info['Method']}: {file_path}")
+            # 只处理选中的且方法为fileMerge的文件
+            if file_info['Checked']:
+                if file_path.lower().endswith(('.xls', '.xlsx')):
+                    packxlsx(L, file_path, file_info['Method'])
+                elif file_path.lower().endswith(('.jx3dat')):
+                    packjx3dat(L, file_path, file_info['Method'])
+            else:
+                continue
+    except Exception as e:
+        print(f"error: {e}")
+    finally:
+        L.getglobal("fileSave")
+        L.pushlstringA(os.path.abspath("output\\mergeDBM.jx3dat"))
+        L.pushnil()
+        L.pushboolean(True)
+        L.pushboolean(True)
+        if L.pcall(4, 0, 0) == 0:
+            print("fileSave success.")
+        else:
+            print(f"fileSave fail.{L.tostring(-1)}")
+            Lua.pop(1)
+        L.close()
 
 def main() -> None:
     """主入口：执行打包任务。"""
