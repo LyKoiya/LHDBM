@@ -259,17 +259,25 @@ local function teamBuff2str(aLine)
 
 	local aTeamBuff = {}
 	local tTeamBuff = {}
-	if aLine[2] ~= '' then
-		tTeamBuff.dwID = tostring(tonumber(aLine[2])) 
-	end
 	if aLine[3] ~= '' then
-		tTeamBuff.szName = aLine[3]
+		local szTitle = string.sub(aLine[3],1,2)
+		
+		if szTitle == '==' or szTitle == '——' then
+			table.insert(teamBuff, aLine[3] .. '\n')
+			return aLine[3]
+		else
+			tTeamBuff.szName = aLine[3]
+		end
 	end
-	if aLine[4] ~= '' then
+	if aLine[2] ~= '' then
+		tTeamBuff.dwID = X.tonumberStr(aLine[2])
+	end
+
+	if aLine[4]:sub(1, 2) == 'lv' then
 		tTeamBuff.nLevel = aLine[4]
 	end
 	
-	if aLine[5] ~= '' then
+	if aLine[5]:sub(1, 2) == 'sn' then
 		tTeamBuff.nCount = aLine[5]
 	end
 	if aLine[6] == 'mine' then
@@ -283,7 +291,7 @@ local function teamBuff2str(aLine)
 		tTeamBuff.szReminder = aLine[8]
 	end
 	if aLine[9] ~= '' then
-		tTeamBuff.nPriority = tostring(tonumber(aLine[9]))
+		tTeamBuff.nPriority = X.tonumberStr(aLine[9])
 	end
 	if aLine[10] == '!!' then
 		tTeamBuff.bAttention = true
@@ -294,10 +302,10 @@ local function teamBuff2str(aLine)
 	if aLine[12] == '!!!!' then
 		tTeamBuff.bScreenHead = true
 	end
-	if aLine[13] ~= '' then
+	if aLine[13]:sub(1, 2) == '[#' then
 		tTeamBuff.col = aLine[13]
 	end
-	if aLine[14] ~= ''  then
+	if aLine[14]:sub(1, 2) == '[#'  then
 		tTeamBuff.colScreenHead = aLine[14]
 	end
 	if aLine[18] == '-'  then
@@ -360,9 +368,10 @@ function decodeBuff(szLine)
 		return
 	end
 	if #aline < 18 or aline[18] == '-' or aline[2] == '' or (tonumber(aline[2]) or 0) <= 0 then
+		teamBuff2str(aline)
 		return
 	end
-	
+	teamBuff2str(aline)
 	local tData = {}
 	tData[1] = {}
 	tData[2] = {}
@@ -402,7 +411,7 @@ function decodeBuff(szLine)
 		tData[1].bScreenHead = true
 	end
 
-	if aline[13] ~= '' then
+	if aline[13]:sub(1, 2) == '[#' then
 		tData.aCataclysmBuff[1].col = X.strMid(aline[13], '[', ']') or ''
 		if tData.aCataclysmBuff[1].col:len() == 7 then
 			tData.aCataclysmBuff[1].col = tData.aCataclysmBuff[1].col .. 'FF'
@@ -415,7 +424,7 @@ function decodeBuff(szLine)
 			tData.aCataclysmBuff[1].nColAlpha = tonumber(tData.aCataclysmBuff[1].col:sub(8, 9), 16)
 		end
 	end
-	if aline[14] ~= '' and tData[1].bScreenHead then -- 处理头顶颜色，头顶警报开启再提取颜色
+	if aline[14]:sub(1, 2) == '[#' and tData[1].bScreenHead then -- 处理头顶颜色，头顶警报开启再提取颜色
 		tData.aCataclysmBuff[1].colScreenHead = X.strMid(aline[14], '[', ']') or ''
 		-- 如果存在头顶染色颜色，覆盖气劲通用颜色
 		if tData.aCataclysmBuff[1].colScreenHead:len() >= 7 then
@@ -426,7 +435,7 @@ function decodeBuff(szLine)
 		end
 	end
 	-- 处理团队气劲面板数据
-	if aline[5] ~= '' and aline[5]:sub(1, 2) == 'sn' then
+	if aline[5]:sub(1, 2) == 'sn' then
 		local szStackOp 
 		local nStackNum
 		if tonumber(aline[5]:sub(4, 4)) then
@@ -465,7 +474,6 @@ function decodeBuff(szLine)
 		end
 	end
 	buffRule(tData, aline[17], string.lower(aline[15]) == 'true')
-	teamBuff2str(aline)
 end
 -- 2	631	握针			mine		握 奶花技能握针hot	6				[#00EE00]		TRUE		/MapID -1 /nScrutinyType 2
 
