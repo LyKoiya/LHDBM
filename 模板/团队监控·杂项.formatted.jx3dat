@@ -622,6 +622,22 @@ return {
 						nTime = -1,
 						szName = "奇遇提示",
 					},
+					{
+						key = "破阵点将·一·常驻",
+						nClass = 20,
+						nIcon = 7674,
+						nRefresh = 5,
+						nTime = -2,
+						szName = "破阵点将·一·常驻",
+					},
+					{
+						key = "破阵点将·二·常驻",
+						nClass = 20,
+						nIcon = 7676,
+						nRefresh = 5,
+						nTime = -2,
+						szName = "破阵点将·二·常驻",
+					},
 				},
 			},
 			{
@@ -1223,7 +1239,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790319995,
+		nTimeStamp = 1790531127,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
