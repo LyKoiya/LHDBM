@@ -494,7 +494,7 @@ return {
 			{
 				aFocus = {
 					{
-						nMaxDistance = 6,
+						nMaxDistance = 30,
 						szDisplay = "ºèðÀ¡¤ÎÞÑÎµº",
 						tLife = {
 							bEnable = false,
@@ -1030,7 +1030,7 @@ return {
 	},
 	TALK = {},
 	__meta = {
-		nTimeStamp = 1790093704,
+		nTimeStamp = 1790695588,
 		szAuthor = "ºÉ»¨Àð",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
