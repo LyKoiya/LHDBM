@@ -73240,6 +73240,28 @@ return {
 					107,
 					140,
 				},
+				dwID = 31385,
+				nLevel = 1,
+				nScrutinyType = 2,
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						col = "#FF6B8CFF",
+						nColAlpha = 255,
+						nPriority = 36,
+						szReminder = "流",
+					},
+				},
+				col = {
+					255,
+					107,
+					140,
+				},
 				dwID = 8249,
 				nLevel = 1,
 				nScrutinyType = 2,
@@ -92191,7 +92213,6 @@ return {
 			{
 				{
 					bBuffList = true,
-					bScreenHead = true,
 				},
 				col = {
 					255,
@@ -115107,6 +115128,14 @@ return {
 				dwID = 11970,
 			},
 		},
+		[838] = {
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 12178,
+			},
+		},
 	},
 	NPC = {
 		[-21] = {
@@ -125091,7 +125120,7 @@ return {
 			{
 				aFocus = {
 					{
-						nMaxDistance = 6,
+						nMaxDistance = 30,
 						szDisplay = "鸿鹄·无盐岛",
 					},
 				},
@@ -165294,6 +165323,48 @@ return {
 				nFrame = 47,
 			},
 		},
+		[802] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "藏玉·大豆",
+					},
+				},
+				dwID = 137316,
+				nFrame = 52,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "三梭·荞麦",
+					},
+				},
+				dwID = 137315,
+				nFrame = 52,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "重穂·粟种",
+					},
+				},
+				dwID = 137314,
+				nFrame = 52,
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 6,
+						szDisplay = "迎霜·莜麦",
+					},
+				},
+				dwID = 137317,
+				nFrame = 52,
+			},
+		},
 		[806] = {
 			{
 				[3] = {
@@ -165499,6 +165570,48 @@ return {
 				},
 				dwID = 137669,
 				nFrame = 47,
+			},
+		},
+		[838] = {
+			{
+				dwID = 140360,
+				nFrame = 47,
+			},
+			{
+				dwID = 140361,
+				nFrame = 57,
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 139948,
+				nFrame = 52,
+			},
+			{
+				aFocus = {
+					{
+						szDisplay = "浩气·引航",
+					},
+				},
+				dwID = 140235,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{
+						szDisplay = "中立·引航",
+					},
+				},
+				dwID = 140237,
+				nFrame = 47,
+			},
+			{
+				aFocus = {
+					{},
+				},
+				dwID = 139947,
+				nFrame = 52,
 			},
 		},
 		[995] = {
@@ -200368,6 +200481,22 @@ return {
 				},
 			},
 		},
+		[803] = {
+			{
+				szContent = "不好……他要拼命了！站我后头！老子替你挡！",
+				szTarget = "唐猫儿",
+				tCountdown = {
+					{
+						key = "任务提示1",
+						nClass = 14,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 10,
+						szName = "退至唐猫儿身后",
+					},
+				},
+			},
+		},
 		[806] = {
 			{
 				szContent = "你这中原人！竟想在本帅眼下救人？！",
@@ -200396,6 +200525,92 @@ return {
 						nIcon = 13,
 						nTime = 10,
 						szName = "前往·唐简·继续剧情",
+					},
+				},
+			},
+		},
+		[838] = {
+			{
+				szContent = "【恶人·运送物资】事件已经结束，由于你没有贡献，没有获得奖励。",
+			},
+			{
+				szContent = "换东家了！这回是浩气盟的船。",
+				szTarget = "工头",
+				tCountdown = {
+					{
+						key = "引航大旗",
+						nClass = 14,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 30,
+						szName = "浩气·占领·引航大旗",
+					},
+				},
+			},
+			{
+				szContent = "恶人：赤矶的车起了！都贴紧牛车，谁来劫货就打回去！",
+				szTarget = "韩铁桥",
+				tCountdown = {
+					{
+						key = "恶人·矿车",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 359,
+						szName = "恶人·护送矿车",
+					},
+				},
+			},
+			{
+				szContent = "到了到了！浩气盟的诸位辛苦，这一路押得漂亮！",
+				szTarget = "工头",
+				tCountdown = {
+					{
+						key = "浩气·矿车",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nTime = 90,
+						szName = "浩气·跟车奖励",
+					},
+				},
+			},
+			{
+				szContent = "到了到了！恶人谷的诸位辛苦，这一路押得漂亮！",
+				szTarget = "工头",
+				tCountdown = {
+					{
+						key = "恶人·矿车",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 90,
+						szName = "恶人·跟车奖励",
+					},
+				},
+			},
+			{
+				szContent = "【浩气·运送物资】事件已经结束，由于你没有贡献，没有获得奖励。",
+			},
+			{
+				szContent = "让让，让让！让我点点数——",
+				szTarget = "清点工",
+			},
+			{
+				szContent = "货到了！记清点数，弟兄们收队。",
+				szTarget = "苏行山",
+			},
+			{
+				szContent = "牛车出发了。货已经在路上，我们沿来路撤回。",
+				szTarget = "浩气盟骑兵",
+				tCountdown = {
+					{
+						key = "浩气·矿车",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nTime = 359,
+						szName = "浩气·护送矿车",
 					},
 				},
 			},
@@ -200506,6 +200721,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790531757,
+		nTimeStamp = 1790865893,
 	},
 }

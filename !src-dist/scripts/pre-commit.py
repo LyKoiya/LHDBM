@@ -63,7 +63,9 @@ def main() -> None:
         dst = Path(f"xlsxdiff/{f}")
         dst = dst.with_suffix(".formatted.jx3dat")
         dst.parent.mkdir(parents=True, exist_ok=True)
-        build.xlsx2jx3dat(f, str(Path(dst).resolve()))
+        szPath = build.xlsx2jx3dat(f, str(Path(dst).resolve()))
+        if szPath != str(dst):
+            backSave.append(szPath)
         backSave.append(dst)
 
     run_git('add', *backSave)

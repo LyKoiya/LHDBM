@@ -153,7 +153,8 @@ def xlsx2jx3dat(szDataPath, szSavePath):
         bTeamBuffFile = packxlsx(Lua, szDataPath, "fileMerge")
         if bTeamBuffFile:
             Lua.getglobal("teamBuffSave")
-            Lua.pushlstringA(szSavePath[:-len('.formatted.jx3dat')] + '.txt')
+            szRetPath = szSavePath[:-len('.formatted.jx3dat')] + '.txt'
+            Lua.pushlstringA(szRetPath)
             if Lua.pcall(1, 0, 0) == 0:
                 print("teamBuffsave success.")
             else:
@@ -178,7 +179,7 @@ def xlsx2jx3dat(szDataPath, szSavePath):
             Lua.pop(1)
 
         #Lua.close()
-        return
+        return szRetPath or szSavePath
 
 # 打包模块总控
 def runPack(filesPath):
