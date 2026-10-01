@@ -11569,53 +11569,6 @@ return {
 				szName = "跨服",
 			},
 			{
-				dwID = 12382,
-				nIcon = 13697,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "剑舞表现",
-				tCountdown = {
-					{
-						key = "KEY·左旋右转",
-						nClass = 2,
-						nIcon = 904,
-						nRefresh = 121,
-						nTime = -1,
-						szName = "KEY·左旋右转",
-					},
-				},
-				tKungFu = {
-					["SKILL#10080"] = true,
-					["SKILL#10081"] = true,
-				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 20938,
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "KEY·左旋右转",
-						nClass = 2,
-						nIcon = 904,
-						nRefresh = 1,
-						nTime = "1,【{$receiver}】·补左旋右转;2,【{$receiver}】·补左旋右转;5,【{$receiver}】·补左旋右转",
-						szName = "KEY·左旋右转",
-					},
-				},
-				tKungFu = {
-					["SKILL#10080"] = true,
-				},
-			},
-			{
 				{
 					bBuffList = true,
 				},
@@ -11794,6 +11747,53 @@ return {
 				tKungFu = {
 					["SKILL#10021"] = true,
 					["SKILL#10028"] = true,
+				},
+			},
+			{
+				dwID = 12382,
+				nIcon = 13697,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "剑舞表现",
+				tCountdown = {
+					{
+						key = "KEY·左旋右转",
+						nClass = 2,
+						nIcon = 904,
+						nRefresh = 121,
+						nTime = -1,
+						szName = "KEY·左旋右转",
+					},
+				},
+				tKungFu = {
+					["SKILL#10080"] = true,
+					["SKILL#10081"] = true,
+				},
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 20938,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "KEY·左旋右转",
+						nClass = 2,
+						nIcon = 904,
+						nRefresh = 1,
+						nTime = "1,【{$receiver}】·补左旋右转;2,【{$receiver}】·补左旋右转;5,【{$receiver}】·补左旋右转",
+						szName = "KEY·左旋右转",
+					},
+				},
+				tKungFu = {
+					["SKILL#10080"] = true,
 				},
 			},
 			{
@@ -37342,153 +37342,6 @@ return {
 				},
 			},
 			{
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 567,
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "KEY·左旋右转",
-						nClass = 8,
-						nIcon = 904,
-						nTime = -2,
-						szName = "KEY·左旋右转",
-					},
-					{
-						key = "KEY·左旋右转",
-						nClass = 8,
-						nFrame = 0,
-						nIcon = 904,
-						nRefresh = 40,
-						nTime = "40,【{$sender}】·破招;41,【{$sender}】·补左旋右转;42,【{$sender}】·补左旋右转;43,【{$sender}】·补左旋右转",
-						szName = "KEY·左旋右转",
-					},
-				},
-				tKungFu = {
-					["SKILL#10080"] = true,
-				},
-			},
-			{
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 35,
-				nLevel = 1,
-				nScrutinyType = 2,
-				tCountdown = {
-					{
-						key = "传功·{$sender}",
-						nClass = 8,
-						nIcon = 2111,
-						nTime = 121,
-						szName = "传功【{$sender}】→【{$receiver}】",
-					},
-					{
-						key = "传功·{$sender}",
-						nClass = 9,
-						nIcon = 2111,
-						nRefresh = 2,
-						nTime = 2,
-						szName = "传功完成【{$sender}】→【{$receiver}】",
-					},
-				},
-			},
-			{
-				[8] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 31254,
-				nLevel = 1,
-				nScrutinyType = 2,
-				tCountdown = {
-					{
-						key = "切心法·{$sender}",
-						nClass = 8,
-						nFrame = 6,
-						nIcon = 13,
-						nTime = 4,
-						szName = "【{$sender}】正在切心法",
-					},
-				},
-			},
-			{
-				[8] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 31468,
-				nLevel = 1,
-				nScrutinyType = 2,
-				tCountdown = {
-					{
-						key = "切心法·{$sender}",
-						nClass = 8,
-						nFrame = 6,
-						nIcon = 13,
-						nTime = 3,
-						szName = "【{$sender}】正在切奇穴",
-					},
-				},
-			},
-			{
-				[8] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 13165,
-				nLevel = 1,
-				nScrutinyType = 2,
-				tCountdown = {
-					{
-						key = "切心法·{$sender}",
-						nClass = 8,
-						nFrame = 6,
-						nIcon = 13,
-						nTime = 4,
-						szName = "【{$sender}】正在切心法",
-					},
-				},
-			},
-			{
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 2654,
-				nLevel = 1,
-				nScrutinyType = 2,
-				tCountdown = {
-					{
-						key = "玩家驱友技能",
-						nClass = 8,
-						nIcon = 3004,
-						nRefresh = 1,
-						nTime = 1.2,
-						szName = "【{$sender}】·利针·【{$receiver}】",
-					},
-				},
-			},
-			{
 				dwID = 24832,
 				nIcon = 13868,
 				nLevel = 1,
@@ -38253,6 +38106,153 @@ return {
 						nIcon = 100445,
 						nTime = 3,
 						szName = "心鼓弦·{$sender}→{$receiver}",
+					},
+				},
+			},
+			{
+				col = {
+					0,
+					255,
+					255,
+				},
+				dwID = 567,
+				nLevel = 1,
+				nScrutinyType = 1,
+				tCountdown = {
+					{
+						key = "KEY·左旋右转",
+						nClass = 8,
+						nIcon = 904,
+						nTime = -2,
+						szName = "KEY·左旋右转",
+					},
+					{
+						key = "KEY·左旋右转",
+						nClass = 8,
+						nFrame = 0,
+						nIcon = 904,
+						nRefresh = 40,
+						nTime = "40,【{$sender}】·破招;41,【{$sender}】·补左旋右转;42,【{$sender}】·补左旋右转;43,【{$sender}】·补左旋右转",
+						szName = "KEY·左旋右转",
+					},
+				},
+				tKungFu = {
+					["SKILL#10080"] = true,
+				},
+			},
+			{
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 35,
+				nLevel = 1,
+				nScrutinyType = 2,
+				tCountdown = {
+					{
+						key = "传功·{$sender}",
+						nClass = 8,
+						nIcon = 2111,
+						nTime = 121,
+						szName = "传功【{$sender}】→【{$receiver}】",
+					},
+					{
+						key = "传功·{$sender}",
+						nClass = 9,
+						nIcon = 2111,
+						nRefresh = 2,
+						nTime = 2,
+						szName = "传功完成【{$sender}】→【{$receiver}】",
+					},
+				},
+			},
+			{
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 31254,
+				nLevel = 1,
+				nScrutinyType = 2,
+				tCountdown = {
+					{
+						key = "切心法·{$sender}",
+						nClass = 8,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 4,
+						szName = "【{$sender}】正在切心法",
+					},
+				},
+			},
+			{
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 31468,
+				nLevel = 1,
+				nScrutinyType = 2,
+				tCountdown = {
+					{
+						key = "切心法·{$sender}",
+						nClass = 8,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 3,
+						szName = "【{$sender}】正在切奇穴",
+					},
+				},
+			},
+			{
+				[8] = {
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 13165,
+				nLevel = 1,
+				nScrutinyType = 2,
+				tCountdown = {
+					{
+						key = "切心法·{$sender}",
+						nClass = 8,
+						nFrame = 6,
+						nIcon = 13,
+						nTime = 4,
+						szName = "【{$sender}】正在切心法",
+					},
+				},
+			},
+			{
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 2654,
+				nLevel = 1,
+				nScrutinyType = 2,
+				tCountdown = {
+					{
+						key = "玩家驱友技能",
+						nClass = 8,
+						nIcon = 3004,
+						nRefresh = 1,
+						nTime = 1.2,
+						szName = "【{$sender}】·利针·【{$receiver}】",
 					},
 				},
 			},
@@ -76118,6 +76118,43 @@ return {
 				nLevel = 1,
 			},
 			{
+				{
+					bBuffList = true,
+				},
+				dwID = 15377,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				dwID = 15381,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 3097,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 15380,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 16497,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
 				dwID = 24281,
 				nIcon = 15667,
 				nLevel = 1,
@@ -76204,43 +76241,6 @@ return {
 						szName = "{$sender}·切心法",
 					},
 				},
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				dwID = 15377,
-				nLevel = 1,
-				nScrutinyType = 1,
-			},
-			{
-				dwID = 15381,
-				nLevel = 1,
-				nScrutinyType = 1,
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				dwID = 3097,
-				nLevel = 1,
-				nScrutinyType = 1,
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				dwID = 15380,
-				nLevel = 1,
-				nScrutinyType = 1,
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				dwID = 16497,
-				nLevel = 1,
-				nScrutinyType = 1,
 			},
 			{
 				{
@@ -123368,6 +123368,102 @@ return {
 				szName = "果子狸·稻稻",
 			},
 			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59876,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59875,
+				nFrame = 47,
+			},
+			{
 				aFocus = {
 					{
 						nMaxDistance = 1,
@@ -125491,6 +125587,102 @@ return {
 				nFrame = 47,
 			},
 			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59878,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59877,
+				nFrame = 47,
+			},
+			{
 				aFocus = {
 					{
 						nMaxDistance = 1,
@@ -125977,6 +126169,102 @@ return {
 				nFrame = 47,
 			},
 			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59874,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 30562,
+				nFrame = 47,
+			},
+			{
 				aFocus = {
 					{
 						nMaxDistance = 1,
@@ -126372,6 +126660,102 @@ return {
 					31,
 				},
 				dwID = 7604,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59869,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59868,
 				nFrame = 47,
 			},
 			{
@@ -132564,6 +132948,102 @@ return {
 				nFrame = 47,
 			},
 			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59867,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 30519,
+				nFrame = 47,
+			},
+			{
 				aFocus = {
 					{
 						nMaxDistance = -1,
@@ -136422,6 +136902,102 @@ return {
 				nFrame = 57,
 			},
 			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59873,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59872,
+				nFrame = 47,
+			},
+			{
 				aFocus = {
 					{
 						nMaxDistance = 1,
@@ -136902,6 +137478,102 @@ return {
 					0,
 				},
 				dwID = 16103,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59880,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59879,
 				nFrame = 47,
 			},
 			{
@@ -141575,6 +142247,102 @@ return {
 					},
 				},
 				dwID = 19926,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59871,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59870,
 				nFrame = 47,
 			},
 			{
@@ -200721,6 +201489,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790865893,
+		nTimeStamp = 1790879815,
 	},
 }
