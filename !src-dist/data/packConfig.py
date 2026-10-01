@@ -30,6 +30,11 @@ packList = [
         "Checked": True
     },
     {
+        "Path": "\\武学\\武学招式·通用.formatted.jx3dat",
+        "Method": "fileMerge",
+        "Checked": True
+    },
+    {
         "Path": "\\武学",
         "Method": "fileMerge",
         "Checked": True

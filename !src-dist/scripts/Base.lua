@@ -4,7 +4,7 @@ M.MY_TM_TYPE_LIST = { 'BUFF', 'DEBUFF', 'CASTING', 'NPC', 'DOODAD', 'TALK', 'CHA
 
 -- ¥Ú”°±Ì
 function M.printTable(var, n)
-    local str = M.var2str(var, '\t',0,n)
+    local str = M.var2str(var, '\t', 0, n)
     print(str)
     return str
 end
