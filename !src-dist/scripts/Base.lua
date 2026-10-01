@@ -3,8 +3,8 @@ local M = {}
 M.MY_TM_TYPE_LIST = { 'BUFF', 'DEBUFF', 'CASTING', 'NPC', 'DOODAD', 'TALK', 'CHAT' }
 
 -- ¥Ú”°±Ì
-function M.printTable(var)
-    local str = M.var2str(var)
+function M.printTable(var, n)
+    local str = M.var2str(var, '\t',0,n)
     print(str)
     return str
 end
@@ -442,6 +442,16 @@ function M.fileExists(path)
 		return true
 	end
 	return false
+end
+
+function M.str2csv(str)
+	if str then
+		if str == '' or str == 'nil' then
+			return '""'
+		end
+		return '"' .. string.gsub(tostring(str), '\n', '\\n') .. '"' or '""'
+	end
+	return '""'
 end
 
 M.empty = empty
