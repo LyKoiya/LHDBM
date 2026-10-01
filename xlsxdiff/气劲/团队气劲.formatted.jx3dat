@@ -32593,6 +32593,29 @@ return {
 				},
 				aCataclysmBuff = {
 					{
+						col = "#FF6B8CFF",
+						nColAlpha = 255,
+						nPriority = 36,
+						szReminder = "Á÷",
+					},
+				},
+				col = {
+					255,
+					107,
+					140,
+				},
+				dwID = 31385,
+				nLevel = 1,
+				nScrutinyType = 2,
+				szNote = "Á÷Ñª",
+			},
+			{
+				{
+					bBuffList = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
 						col = "#FF7FAAFF",
 						nColAlpha = 255,
 						nPriority = 31,
@@ -52325,6 +52348,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790695732,
+		nTimeStamp = 1790865869,
 	},
 }
