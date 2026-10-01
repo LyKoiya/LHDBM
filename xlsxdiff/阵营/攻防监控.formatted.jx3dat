@@ -16313,6 +16313,114 @@ return {
 					},
 				},
 			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = true,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59875,
+				nFrame = 47,
+				szNote = "据点争夺·增援首领·月弄痕",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = true,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59876,
+				nFrame = 47,
+				szNote = "据点争夺·增援首领·影",
+			},
 		},
 		[13] = {
 			{
@@ -16493,6 +16601,114 @@ return {
 					},
 				},
 			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = true,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59877,
+				nFrame = 47,
+				szNote = "据点争夺·增援首领·张桎辕",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = true,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59878,
+				nFrame = 47,
+				szNote = "据点争夺·增援首领·可人",
+			},
 		},
 		[22] = {
 			{
@@ -16538,6 +16754,114 @@ return {
 						szName = "武王城·恶人大旗被夺",
 					},
 				},
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = true,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 30562,
+				nFrame = 47,
+				szNote = "据点争夺·据点守将·穆玄英",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = true,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59874,
+				nFrame = 47,
+				szNote = "据点争夺·增援首领·谢渊",
 			},
 		},
 		[23] = {
@@ -17834,6 +18158,114 @@ return {
 				dwID = 29502,
 				nFrame = 52,
 				szNote = "箭塔·龙门荒漠",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = true,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59868,
+				nFrame = 47,
+				szNote = "据点争夺·增援首领·米丽古丽",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = true,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59869,
+				nFrame = 47,
+				szNote = "据点争夺·增援首领·莫雨",
 			},
 		},
 		[25] = {
@@ -23392,6 +23824,114 @@ return {
 				nFrame = 52,
 				szNote = "通用箭塔·昆仑·苍山洱海",
 			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = true,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 30519,
+				nFrame = 47,
+				szNote = "据点争夺·据点守将·莫雨",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = true,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59867,
+				nFrame = 47,
+				szNote = "据点争夺·增援首领·王遗风",
+			},
 		},
 		[35] = {
 			{
@@ -24237,6 +24777,114 @@ return {
 						szName = "烈日岗·恶人大旗被夺",
 					},
 				},
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = true,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59872,
+				nFrame = 47,
+				szNote = "据点争夺·增援首领·烟",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = true,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59873,
+				nFrame = 47,
+				szNote = "据点争夺·增援首领·顾延恶",
 			},
 		},
 		[104] = {
@@ -25648,6 +26296,114 @@ return {
 				nFrame = 52,
 				szNote = "箭塔·苍山洱海",
 			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = true,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59879,
+				nFrame = 47,
+				szNote = "据点争夺·增援首领·司空仲平",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = true,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59880,
+				nFrame = 47,
+				szNote = "据点争夺·增援首领·谢烟客",
+			},
 		},
 		[139] = {
 			{
@@ -26123,6 +26879,114 @@ return {
 				dwID = 29501,
 				nFrame = 52,
 				szNote = "箭塔·马嵬驿·龙门荒漠",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = true,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59870,
+				nFrame = 47,
+				szNote = "据点争夺·增援首领·陶寒亭",
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 50,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<=",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = true,
+							bEnemy = true,
+						},
+					},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 59871,
+				nFrame = 47,
+				szNote = "据点争夺·增援首领·肖药儿",
 			},
 		},
 		[216] = {
@@ -36510,6 +37374,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790531126,
+		nTimeStamp = 1790864942,
 	},
 }
