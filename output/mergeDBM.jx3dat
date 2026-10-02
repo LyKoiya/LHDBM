@@ -40861,6 +40861,21 @@ return {
 				},
 			},
 			{
+				szContent = "沙盘载具运输活动现已结束，未来得及运输至据点的车将不计入结算，运输详情见沙盘界面，感谢各位侠士的参与。\
+",
+				szNote = "沙盘运输·活动结束",
+				tCountdown = {
+					{
+						key = "沙盘运输",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 10,
+						szName = "沙盘运输·活动结束",
+					},
+				},
+			},
+			{
 				szContent = "未到报名时间，或请重新打开界面!\
 ",
 				szNote = "武林争霸赛·未到报名时间",
@@ -42210,6 +42225,56 @@ return {
 			},
 		},
 		[-20] = {
+			{
+				bReg = true,
+				szContent = "([浩气恶人]+)([盟谷]+)(.-)据点的运输车已顺利抵达前线！感谢侠士们的护送！",
+				szNote = "{$1}·{$3}·运输车·抵达",
+				tCountdown = {
+					{
+						key = "{$3}·浩气大旗",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 1465,
+						nRefresh = 2,
+						nTime = -2,
+						szName = "{$3}·浩气大旗",
+					},
+					{
+						key = "{$3}·恶人大旗",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 1465,
+						nRefresh = 2,
+						nTime = -2,
+						szName = "{$3}·恶人大旗",
+					},
+					{
+						key = "{$3}·{$1}大旗",
+						nClass = 20,
+						nIcon = 13,
+						nTime = -2,
+						szName = "{$3}·{$1}大旗",
+					},
+					{
+						key = "{$3}·浩气大旗",
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 4543,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "浩气·{$3}·运输车·抵达",
+					},
+					{
+						key = "{$3}·恶人大旗",
+						nClass = 20,
+						nFrame = 3,
+						nIcon = 4544,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "恶人·{$3}·运输车·抵达",
+					},
+				},
+			},
 			{
 				bReg = true,
 				col = {
@@ -44757,6 +44822,21 @@ return {
 						nIcon = 13,
 						nTime = 30,
 						szName = "龙骧驰竞·拍卖掉落",
+					},
+				},
+			},
+			{
+				szContent = "沙盘载具运输活动现已结束，未来得及运输至据点的车将不计入结算，运输详情见沙盘界面，感谢各位侠士的参与。\
+",
+				szNote = "沙盘运输·活动结束",
+				tCountdown = {
+					{
+						key = "沙盘运输",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 10,
+						szName = "沙盘运输·活动结束",
 					},
 				},
 			},
@@ -47582,6 +47662,21 @@ return {
 				},
 			},
 			{
+				szContent = "沙盘载具运输活动现已结束，未来得及运输至据点的车将不计入结算，运输详情见沙盘界面，感谢各位侠士的参与。\
+",
+				szNote = "沙盘运输·活动结束",
+				tCountdown = {
+					{
+						key = "沙盘运输",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 10,
+						szName = "沙盘运输·活动结束",
+					},
+				},
+			},
+			{
 				szContent = "未到报名时间，或请重新打开界面!\
 ",
 				szNote = "武林争霸赛·未到报名时间",
@@ -49860,6 +49955,54 @@ return {
 						nRefresh = 1,
 						nTime = "1,的卢·龙泉府·开始排队;10,的卢·龙泉府·开始排队;60,的卢·龙泉府·等待排队",
 						szName = "的卢·龙泉府·开始排队",
+					},
+				},
+			},
+			{
+				bReg = true,
+				szContent = "^【沙盘运输】(.-)势力本场累计达成(%d-)次运输车战果，丰厚嘉奖物资已出现在(.-)，请同阵营侠士前往拾取！",
+				szNote = "{$1}·沙盘运输·抵达{$2}辆",
+				tCountdown = {
+					{
+						key = "恶人谷·沙盘运输",
+						nClass = 20,
+						nIcon = 1465,
+						nRefresh = 2,
+						nTime = -2,
+						szName = "恶人谷·沙盘运输",
+					},
+					{
+						key = "浩气盟·沙盘运输",
+						nClass = 20,
+						nIcon = 1465,
+						nRefresh = 2,
+						nTime = -2,
+						szName = "浩气盟·沙盘运输",
+					},
+					{
+						key = "{$1}·沙盘运输",
+						nClass = 20,
+						nIcon = 13,
+						nTime = -2,
+						szName = "{$1}·沙盘运输",
+					},
+					{
+						key = "恶人谷·沙盘运输",
+						nClass = 20,
+						nFrame = 3,
+						nIcon = 3316,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "恶人·沙盘运输·抵达{$2}辆",
+					},
+					{
+						key = "浩气盟·沙盘运输",
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 3319,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "浩气·沙盘运输·抵达{$2}辆",
 					},
 				},
 			},
@@ -68149,6 +68292,11 @@ return {
 		},
 		[-20] = {
 			{
+				dwID = 34526,
+				nLevel = 1,
+				nScrutinyType = 1,
+			},
+			{
 				{
 					bBuffList = true,
 					bTeamPanel = true,
@@ -68511,31 +68659,6 @@ return {
 				nLevel = 1,
 				nScrutinyType = 2,
 				szName = "眩晕·抛掷",
-			},
-			{
-				{
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				aCataclysmBuff = {
-					{
-						bScreenHead = true,
-						col = "#FFFF00FF",
-						colScreenHead = "#FFFF00",
-						nColAlpha = 255,
-						nPriority = 13,
-						szReminder = "晕",
-					},
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 812,
-				nLevel = 1,
-				nScrutinyType = 2,
-				szName = "眩晕·致盲",
 			},
 			{
 				{
@@ -69056,6 +69179,29 @@ return {
 			},
 		},
 		[-19] = {
+			{
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 34654,
+				nIcon = 6158,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "奖励物资",
+				tCountdown = {
+					{
+						key = "沙盘运输",
+						nClass = 1,
+						nFrame = 0,
+						nIcon = 6158,
+						nRefresh = 9999999,
+						nTime = 10,
+						szName = "沙盘运输·已领取奖励",
+					},
+				},
+			},
 			{
 				{
 					bBuffList = true,
@@ -76288,6 +76434,31 @@ return {
 					["SKILL#10448"] = true,
 					["SKILL#10626"] = true,
 				},
+			},
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bScreenHead = true,
+						col = "#FFFF00FF",
+						colScreenHead = "#FFFF00",
+						nColAlpha = 255,
+						nPriority = 13,
+						szReminder = "晕",
+					},
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 812,
+				nLevel = 1,
+				szName = "眩晕·致盲",
 			},
 			{
 				{
@@ -107368,6 +107539,15 @@ return {
 		},
 		[-19] = {
 			{
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						szDisplay = "奖励物资·沙盘运输",
+					},
+				},
+				dwID = 12156,
+			},
+			{
 				[17] = {
 					bCenterAlarm = true,
 					bScreenHead = true,
@@ -115304,6 +115484,21 @@ return {
 					bScreenHead = true,
 				},
 				aFocus = {
+					{},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 138941,
+				nFrame = 47,
+			},
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
 					{
 						nMaxDistance = 6,
 						tRelation = {
@@ -117226,6 +117421,15 @@ return {
 			},
 		},
 		[-19] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = -1,
+					},
+				},
+				dwID = 140441,
+				nFrame = 47,
+			},
 			{
 				[3] = {
 					bScreenHead = true,
@@ -201461,6 +201665,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790927166,
+		nTimeStamp = 1790955236,
 	},
 }
