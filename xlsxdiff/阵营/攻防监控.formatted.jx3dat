@@ -16761,11 +16761,11 @@ return {
 				},
 				aFocus = {
 					{
-						nMaxDistance = 120,
+						nMaxDistance = 90,
 						tLife = {
-							bEnable = true,
-							nValue = 99,
-							szOperator = "<=",
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
 						},
 						tRelation = {
 							bAll = false,
@@ -16774,29 +16774,15 @@ return {
 						},
 					},
 					{
-						nMaxDistance = 50,
+						nMaxDistance = 60,
 						tLife = {
 							bEnable = true,
-							nValue = 99,
-							szOperator = "<=",
+							nValue = 100,
+							szOperator = "<",
 						},
 						tRelation = {
 							bAll = false,
 							bAlly = true,
-							bEnemy = false,
-						},
-					},
-					{
-						nMaxDistance = 20,
-						tLife = {
-							bEnable = true,
-							nValue = 99,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = true,
-							bEnemy = true,
 						},
 					},
 				},
@@ -23830,11 +23816,11 @@ return {
 				},
 				aFocus = {
 					{
-						nMaxDistance = 120,
+						nMaxDistance = 90,
 						tLife = {
-							bEnable = true,
-							nValue = 99,
-							szOperator = "<=",
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
 						},
 						tRelation = {
 							bAll = false,
@@ -23843,29 +23829,15 @@ return {
 						},
 					},
 					{
-						nMaxDistance = 50,
+						nMaxDistance = 60,
 						tLife = {
 							bEnable = true,
-							nValue = 99,
-							szOperator = "<=",
+							nValue = 100,
+							szOperator = "<",
 						},
 						tRelation = {
 							bAll = false,
 							bAlly = true,
-							bEnemy = false,
-						},
-					},
-					{
-						nMaxDistance = 20,
-						tLife = {
-							bEnable = true,
-							nValue = 99,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = true,
-							bEnemy = true,
 						},
 					},
 				},
@@ -37374,6 +37346,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790864942,
+		nTimeStamp = 1790927167,
 	},
 }
