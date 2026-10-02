@@ -10093,32 +10093,6 @@ return {
 					255,
 					0,
 				},
-				dwID = 812,
-				nLevel = 1,
-				nScrutinyType = 2,
-				szName = "—£‘Œ°§÷¬√§",
-				szNote = "÷¬√§",
-			},
-			{
-				{
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				aCataclysmBuff = {
-					{
-						bScreenHead = true,
-						col = "#FFFF00FF",
-						colScreenHead = "#FFFF00",
-						nColAlpha = 255,
-						nPriority = 13,
-						szReminder = "‘Œ",
-					},
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
 				dwID = 7497,
 				nLevel = 1,
 				nScrutinyType = 2,
@@ -37346,6 +37320,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790927167,
+		nTimeStamp = 1790936291,
 	},
 }
