@@ -1,0 +1,270 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {
+		[-21] = {
+			{
+				szContent = "沙盘载具运输活动现已结束，未来得及运输至据点的车将不计入结算，运输详情见沙盘界面，感谢各位侠士的参与。\
+",
+				szNote = "沙盘运输·活动结束",
+				tCountdown = {
+					{
+						key = "沙盘运输",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 10,
+						szName = "沙盘运输·活动结束",
+					},
+				},
+			},
+		},
+		[-20] = {
+			{
+				bReg = true,
+				szContent = "([浩气恶人]+)([盟谷]+)(.-)据点的运输车已顺利抵达前线！感谢侠士们的护送！",
+				szNote = "{$1}·{$3}·运输车·抵达",
+				tCountdown = {
+					{
+						key = "{$3}·浩气大旗",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 1465,
+						nRefresh = 2,
+						nTime = -2,
+						szName = "{$3}·浩气大旗",
+					},
+					{
+						key = "{$3}·恶人大旗",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 1465,
+						nRefresh = 2,
+						nTime = -2,
+						szName = "{$3}·恶人大旗",
+					},
+					{
+						key = "{$3}·{$1}大旗",
+						nClass = 20,
+						nIcon = 13,
+						nTime = -2,
+						szName = "{$3}·{$1}大旗",
+					},
+					{
+						key = "{$3}·浩气大旗",
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 4543,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "浩气·{$3}·运输车·抵达",
+					},
+					{
+						key = "{$3}·恶人大旗",
+						nClass = 20,
+						nFrame = 3,
+						nIcon = 4544,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "恶人·{$3}·运输车·抵达",
+					},
+				},
+			},
+		},
+		[-7] = {
+			{
+				szContent = "沙盘载具运输活动现已结束，未来得及运输至据点的车将不计入结算，运输详情见沙盘界面，感谢各位侠士的参与。\
+",
+				szNote = "沙盘运输·活动结束",
+				tCountdown = {
+					{
+						key = "沙盘运输",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 10,
+						szName = "沙盘运输·活动结束",
+					},
+				},
+			},
+		},
+		[-2] = {
+			{
+				szContent = "沙盘载具运输活动现已结束，未来得及运输至据点的车将不计入结算，运输详情见沙盘界面，感谢各位侠士的参与。\
+",
+				szNote = "沙盘运输·活动结束",
+				tCountdown = {
+					{
+						key = "沙盘运输",
+						nClass = 20,
+						nFrame = 0,
+						nIcon = 13,
+						nTime = 10,
+						szName = "沙盘运输·活动结束",
+					},
+				},
+			},
+		},
+		[-1] = {
+			{
+				bReg = true,
+				szContent = "^【沙盘运输】(.-)势力本场累计达成(%d-)次运输车战果，丰厚嘉奖物资已出现在(.-)，请同阵营侠士前往拾取！",
+				szNote = "{$1}·沙盘运输·抵达{$2}辆",
+				tCountdown = {
+					{
+						key = "恶人谷·沙盘运输",
+						nClass = 20,
+						nIcon = 1465,
+						nRefresh = 2,
+						nTime = -2,
+						szName = "恶人谷·沙盘运输",
+					},
+					{
+						key = "浩气盟·沙盘运输",
+						nClass = 20,
+						nIcon = 1465,
+						nRefresh = 2,
+						nTime = -2,
+						szName = "浩气盟·沙盘运输",
+					},
+					{
+						key = "{$1}·沙盘运输",
+						nClass = 20,
+						nIcon = 13,
+						nTime = -2,
+						szName = "{$1}·沙盘运输",
+					},
+					{
+						key = "恶人谷·沙盘运输",
+						nClass = 20,
+						nFrame = 3,
+						nIcon = 3316,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "恶人·沙盘运输·抵达{$2}辆",
+					},
+					{
+						key = "浩气盟·沙盘运输",
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 3319,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "浩气·沙盘运输·抵达{$2}辆",
+					},
+				},
+			},
+		},
+	},
+	DEBUFF = {
+		[-20] = {
+			{
+				dwID = 34526,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "沙盘运输·护送时长",
+			},
+		},
+		[-19] = {
+			{
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 34654,
+				nIcon = 6158,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "奖励物资",
+				szNote = "沙盘运输·奖励物资",
+				tCountdown = {
+					{
+						key = "沙盘运输",
+						nClass = 1,
+						nFrame = 0,
+						nIcon = 6158,
+						nRefresh = 9999999,
+						nTime = 10,
+						szName = "沙盘运输·已领取奖励",
+					},
+				},
+			},
+		},
+	},
+	DOODAD = {
+		[-19] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 120,
+						szDisplay = "奖励物资·沙盘运输",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 12156,
+				szNote = "沙盘运输·奖励物资",
+			},
+		},
+	},
+	NPC = {
+		[-20] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{},
+				},
+				col = {
+					255,
+					255,
+					255,
+				},
+				dwID = 138941,
+				nFrame = 47,
+				szNote = "沙盘运输·载具运输车",
+			},
+		},
+		[-19] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = -1,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 140441,
+				nFrame = 47,
+				szNote = "沙盘运输·摧城车",
+			},
+		},
+	},
+	TALK = {},
+	__meta = {
+		nTimeStamp = 1790955237,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_exp",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "苍生铸世",
+	},
+}
