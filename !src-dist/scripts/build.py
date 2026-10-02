@@ -145,6 +145,7 @@ def packjx3dat(L, szPath, szMethod):
 # 处理表格转团队数据
 def xlsx2jx3dat(szDataPath, szSavePath):
     global Lua
+    szRetPath = None
     try:
         if not Lua:
             Lua = InitLua()
