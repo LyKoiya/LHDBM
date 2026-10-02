@@ -1847,6 +1847,21 @@ return {
 		},
 		[-1] = {
 			{
+				{
+					bBuffList = true,
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 8613,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "«–∆Ê—®",
+				szNote = "Œ‰—ß÷˙ ÷CD",
+			},
+			{
 				col = {
 					0,
 					255,
@@ -2109,6 +2124,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790936291,
+		nTimeStamp = 1790958763,
 	},
 }
