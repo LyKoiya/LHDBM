@@ -1985,6 +1985,32 @@ return {
 			{
 				{
 					bBuffList = true,
+					bScreenHead = true,
+					bTeamPanel = true,
+				},
+				aCataclysmBuff = {
+					{
+						bScreenHead = true,
+						col = "#FFFF00FF",
+						colScreenHead = "#FFFF00",
+						nColAlpha = 255,
+						nPriority = 13,
+						szReminder = "晕",
+					},
+				},
+				col = {
+					255,
+					255,
+					0,
+				},
+				dwID = 812,
+				nLevel = 1,
+				szName = "眩晕·致盲",
+				szNote = "据点·家园创意食品·盛·致盲",
+			},
+			{
+				{
+					bBuffList = true,
 					bPartyBuffList = true,
 					bScreenHead = true,
 					bTeamPanel = true,
@@ -2083,6 +2109,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790275369,
+		nTimeStamp = 1790936291,
 	},
 }
