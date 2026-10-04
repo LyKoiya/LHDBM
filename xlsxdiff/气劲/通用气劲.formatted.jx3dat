@@ -1856,6 +1856,7 @@ return {
 					0,
 				},
 				dwID = 8613,
+				nIcon = 630,
 				nLevel = 1,
 				nScrutinyType = 1,
 				szName = "«–∆Ê—®",
@@ -2124,6 +2125,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790958763,
+		nTimeStamp = 1791105047,
 	},
 }
