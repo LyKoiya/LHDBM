@@ -78,6 +78,17 @@ return {
 					},
 				},
 			},
+			{
+				{
+					bBuffList = true,
+				},
+				dwID = 14393,
+				nIcon = 11372,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szName = "僵直",
+				szNote = "牵马定身",
+			},
 		},
 		[-20] = {
 			{
@@ -4677,7 +4688,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791112107,
+		nTimeStamp = 1791113258,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
