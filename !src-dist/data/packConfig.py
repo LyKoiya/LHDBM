@@ -55,6 +55,11 @@ packList = [
         "Checked": True
     },
     {
+        "Path": "\\阵营\\阵营矿车·跨服·烂柯山.formatted.jx3dat",
+        "Method": "fileMerge",
+        "Checked": False
+    },
+    {
         "Path": "\\阵营",
         "Method": "fileMerge",
         "Checked": True
