@@ -1,0 +1,474 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {
+		[627] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 9813,
+				szNote = "恶人谷占领",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+				},
+				dwID = 9812,
+				szNote = "浩气盟占领",
+			},
+			{
+				[17] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{},
+				},
+				dwID = 9759,
+				szNote = "矿车·物资堆",
+			},
+		},
+	},
+	NPC = {
+		[627] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 30,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 10,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">=",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 111025,
+				nFrame = 47,
+				szNote = "恶人谷恣桀先锋队正",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 90,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 10,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">=",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 111155,
+				nFrame = 47,
+				szNote = "恶人谷恣桀先锋副官",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 30,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 10,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">=",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 111154,
+				nFrame = 47,
+				szNote = "浩气盟和正先锋副官",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 30,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = "<",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+					{
+						nMaxDistance = 10,
+						tLife = {
+							bEnable = true,
+							nValue = 99,
+							szOperator = ">=",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 111024,
+				nFrame = 47,
+				szNote = "浩气盟和正先锋队正",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 110578,
+				nFrame = 47,
+				szNote = "浩气出车",
+			},
+			{
+				[3] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 110579,
+				nFrame = 47,
+				szNote = "恶人出车",
+			},
+		},
+	},
+	TALK = {
+		[627] = {
+			{
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "老伙计们！这一车可得小心点，这路上可有不少浩气盟的探子，有劲的一会使出来！",
+				szNote = "恶人·出车",
+				szTarget = "纪平",
+				tCountdown = {
+					{
+						key = "通用·矿车",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 347,
+						szName = "恶人·护送矿车",
+					},
+				},
+			},
+			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "诸位兄弟们，瓷器可换银钱，壮大我方势力，请与我一道运送回浩气盟！",
+				szNote = "浩气·出车",
+				szTarget = "周也",
+				tCountdown = {
+					{
+						key = "通用·矿车",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nTime = 347,
+						szName = "浩气·护送矿车",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "恶人谷的老伙计们！一路上可算没有出啥岔子。这是洒家给伙计们的报酬，且拿好。",
+				szNote = "恶人·跟车奖励",
+				szTarget = "纪平",
+				tCountdown = {
+					{
+						key = "通用·矿车",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "通用·矿车",
+					},
+					{
+						key = "恶人·矿车",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nRefresh = 5,
+						nTime = 90,
+						szName = "恶人·跟车奖励",
+					},
+				},
+			},
+			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "浩气盟的众兄弟们，辛苦了！这是盟里给众兄弟们的奖赏，请各位收下。",
+				szNote = "浩气·跟车奖励",
+				szTarget = "周也",
+				tCountdown = {
+					{
+						key = "通用·矿车",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "通用·矿车",
+					},
+					{
+						key = "浩气·矿车",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nRefresh = 5,
+						nTime = 90,
+						szName = "浩气·跟车奖励",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "【恶人·运送物资】事件已经结束，由于你没有贡献，没有获得奖励。",
+				tCountdown = {
+					{
+						key = "通用·矿车",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "通用·矿车",
+					},
+					{
+						key = "恶人·矿车",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nTime = 58,
+						szName = "浩气·劫车奖励",
+					},
+				},
+			},
+			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "【浩气·运送物资】事件已经结束，由于你没有贡献，没有获得奖励。",
+				tCountdown = {
+					{
+						key = "通用·矿车",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "通用·矿车",
+					},
+					{
+						key = "浩气·矿车",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 58,
+						szName = "恶人·劫车奖励",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "侠士所在阵营无法拾取此物。",
+				tCountdown = {
+					{
+						key = "浩气·矿车",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "浩气·矿车",
+					},
+					{
+						key = "恶人·矿车",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 0,
+						szName = "恶人·矿车",
+					},
+				},
+			},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1791104762,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+	},
+}
