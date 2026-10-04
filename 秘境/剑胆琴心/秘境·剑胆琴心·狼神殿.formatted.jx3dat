@@ -250,6 +250,20 @@ return {
 				},
 			},
 			{
+				szContent = "在这边！",
+				szNote = "无支祁·正在打开·北门",
+				szTarget = "无支祁",
+				tCountdown = {
+					{
+						key = "剧情提示",
+						nClass = 14,
+						nIcon = 13,
+						nTime = 3,
+						szName = "无支祁·正在打开·北门",
+					},
+				},
+			},
+			{
 				[14] = {
 					bScreenHead = true,
 				},
@@ -268,7 +282,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1787743482,
+		nTimeStamp = 1791131037,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
