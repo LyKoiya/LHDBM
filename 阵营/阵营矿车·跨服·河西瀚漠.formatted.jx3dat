@@ -1,0 +1,385 @@
+return {
+	BUFF = {
+		[697] = {
+			{
+				{
+					bBuffList = true,
+					bScreenHead = true,
+				},
+				col = {
+					0,
+					255,
+					0,
+				},
+				dwID = 29449,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "运送宝箱",
+			},
+		},
+	},
+	DOODAD = {
+		[697] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 10883,
+				szNote = "马匪首领宝堆",
+			},
+			{
+				[17] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 10880,
+				szNote = "矿车·物资堆",
+			},
+		},
+	},
+	NPC = {
+		[697] = {
+			{
+				[3] = {
+					bScreenHead = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "神机台·敌方",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = false,
+							bEnemy = true,
+						},
+					},
+					{
+						nMaxDistance = 60,
+						szDisplay = "神机台·有人",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 130685,
+				nFrame = 52,
+				szName = "神机台·有人",
+				szNote = "神机台·有人",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 129780,
+				nFrame = 47,
+				szNote = "罗追·马首",
+				tCountdown = {
+					{
+						key = "罗追",
+						nClass = 12,
+						nFrame = 1,
+						nIcon = 13,
+						nTime = "60,马匪首领宝堆·拾取剩余;180,马匪首领·刷新剩余;182,马匪首领·即将刷新",
+						szName = "马匪首领宝堆·拾取剩余",
+					},
+				},
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "运送点·恶人谷",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 129953,
+				nFrame = 47,
+				szNote = "恶人·运送点·周赫",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						szDisplay = "运送点·浩气盟",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = false,
+							bAlly = true,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 129952,
+				nFrame = 47,
+				szNote = "浩气·运送点·冯辞",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 129782,
+				nFrame = 47,
+				szNote = "恶人谷物资车",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 129781,
+				nFrame = 47,
+				szNote = "浩气盟物资车",
+			},
+		},
+	},
+	TALK = {
+		[697] = {
+			{
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "【恶人·运送物资】事件已经结束，由于你没有贡献，没有获得奖励。",
+				tCountdown = {
+					{
+						key = "恶人·矿车",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nTime = 59,
+						szName = "浩气·劫车奖励",
+					},
+				},
+			},
+			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "【浩气·运送物资】事件已经结束，由于你没有贡献，没有获得奖励。",
+				tCountdown = {
+					{
+						key = "浩气·矿车",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 59,
+						szName = "恶人·劫车奖励",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "不好！物资车被砸！这里不宜久留，大家先撤，待重整旗鼓再来一番！",
+				szTarget = "宋道希",
+				tCountdown = {
+					{
+						key = "恶人·矿车",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nRefresh = 10,
+						nTime = 60,
+						szName = "浩气·劫车奖励",
+					},
+				},
+			},
+			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "不好！物资车被劫！这里不宜久留，大家先撤，待重整旗鼓再来一番！",
+				szTarget = "吴宿知",
+				tCountdown = {
+					{
+						key = "浩气·矿车",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nRefresh = 10,
+						nTime = 60,
+						szName = "恶人·劫车奖励",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "恶人谷的老伙计们！一路上可算没有出啥岔子。这是洒家给伙计们的报酬，且拿好。",
+				szTarget = "宋道希",
+				tCountdown = {
+					{
+						key = "恶人·矿车",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nRefresh = 10,
+						nTime = 90,
+						szName = "恶人·跟车奖励",
+					},
+				},
+			},
+			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "浩气盟的众兄弟们，辛苦了！这是盟里给众兄弟们的奖赏，请各位收下。",
+				szTarget = "吴宿知",
+				tCountdown = {
+					{
+						key = "浩气·矿车",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nRefresh = 10,
+						nTime = 90,
+						szName = "浩气·跟车奖励",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "老伙计们！这一车可得小心点，这路上可有不少浩气盟的探子，有劲的一会使出来！",
+				szTarget = "宋道希",
+				tCountdown = {
+					{
+						key = "恶人·矿车",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 13,
+						nTime = 292,
+						szName = "恶人·护送矿车",
+					},
+				},
+			},
+			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "诸位兄弟们，这些银钱可壮大我方势力，请与我一道运送回浩气盟！",
+				szTarget = "吴宿知",
+				tCountdown = {
+					{
+						key = "浩气·矿车",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 13,
+						nTime = 292,
+						szName = "浩气·护送矿车",
+					},
+				},
+			},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1791104762,
+	},
+}
