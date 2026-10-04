@@ -2288,6 +2288,16 @@ return {
 				nScrutinyType = 2,
 				szName = "无敌·笼花",
 				szNote = "笼花·御",
+				tCountdown = {
+					{
+						key = "折叶笼花·{$sender}",
+						nClass = 1,
+						nFrame = 0,
+						nIcon = 18426,
+						nTime = 3,
+						szName = "笼花·御→{$receiver}",
+					},
+				},
 			},
 			{
 				{
@@ -12170,7 +12180,7 @@ return {
 						nFrame = 0,
 						nIcon = 16602,
 						nTime = 12,
-						szName = "折叶笼花→{$sender}",
+						szName = "折叶笼花→{$receiver}",
 					},
 				},
 			},
@@ -12201,6 +12211,16 @@ return {
 				nScrutinyType = 2,
 				szName = "无敌·笼花",
 				szNote = "笼花·御",
+				tCountdown = {
+					{
+						key = "折叶笼花·{$sender}",
+						nClass = 1,
+						nFrame = 0,
+						nIcon = 18426,
+						nTime = 3,
+						szName = "笼花·御→{$receiver}",
+					},
+				},
 			},
 			{
 				{
@@ -52348,6 +52368,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790865869,
+		nTimeStamp = 1791130499,
 	},
 }
