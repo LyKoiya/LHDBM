@@ -1,0 +1,680 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {
+		[-2] = {
+			{
+				bReg = true,
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "^%[(.-)%]服务器：%[(.-)%]大侠，率领%[([浩气盟恶人谷]-)%]阵营侠士们，成功夺得【(.-)】",
+				tCountdown = {
+					{
+						key = "关隘·浩气盟·{$1}",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 1465,
+						nRefresh = 2,
+						nTime = -1,
+						szName = "关隘·浩气盟·{$1}",
+					},
+					{
+						key = "关隘·恶人谷·{$1}",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 1465,
+						nRefresh = 2,
+						nTime = -1,
+						szName = "关隘·恶人谷·{$1}",
+					},
+					{
+						key = "关隘·{$3}·{$1}",
+						nClass = 20,
+						nFrame = 5,
+						nIcon = 13,
+						nTime = 0,
+						szName = "关隘·{$3}·{$1}",
+					},
+					{
+						key = "关隘·浩气盟·{$1}",
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 17583,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "浩气盟·[{$1}]·{$4}",
+					},
+					{
+						key = "关隘·恶人谷·{$1}",
+						nClass = 20,
+						nFrame = 3,
+						nIcon = 17582,
+						nRefresh = 1,
+						nTime = 10,
+						szName = "恶人谷·[{$1}]·{$4}",
+					},
+				},
+			},
+		},
+		[697] = {
+			{
+				bReg = true,
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "^%[(.-)%]服务器：%[(.-)%]大侠，率领%[恶人谷%]阵营侠士们，成功夺得【(.-)】",
+				tCountdown = {
+					{
+						key = "关隘·拾取·恶人谷",
+						nClass = 20,
+						nFrame = 3,
+						nIcon = 17582,
+						nTime = 180,
+						szName = "恶人谷·[{$1}]·{$3}",
+					},
+				},
+			},
+			{
+				bReg = true,
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "^%[(.-)%]服务器：%[(.-)%]大侠，率领%[浩气盟%]阵营侠士们，成功夺得【(.-)】",
+				tCountdown = {
+					{
+						key = "关隘·拾取·浩气盟",
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 17583,
+						nTime = 180,
+						szName = "浩气盟·[{$1}]·{$3}",
+					},
+				},
+			},
+			{
+				bReg = true,
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "%[(.-)%]【(.-)】岂是你们这些([浩气恶人]-)宵小敢染指的，([浩气恶人]-)的兄弟们随我杀！",
+				tCountdown = {
+					{
+						key = "关隘·进攻·浩气",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 13,
+						nRefresh = 600,
+						nTime = -2,
+						szName = "关隘·进攻·浩气",
+					},
+					{
+						key = "关隘·进攻·恶人",
+						nClass = 20,
+						nFrame = -1,
+						nIcon = 13,
+						nRefresh = 600,
+						nTime = -2,
+						szName = "关隘·进攻·恶人",
+					},
+					{
+						key = "关隘·进攻·{$3}",
+						nClass = 20,
+						nIcon = 13,
+						nTime = 0,
+						szName = "关隘·进攻·{$3}",
+					},
+					{
+						key = "关隘·进攻·浩气",
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 11370,
+						nRefresh = 600,
+						nTime = 10,
+						szName = "浩气进攻·[{$1}]·{$2}",
+					},
+					{
+						key = "关隘·进攻·恶人",
+						nClass = 20,
+						nFrame = 3,
+						nIcon = 11369,
+						nRefresh = 600,
+						nTime = 10,
+						szName = "恶人进攻·[{$1}]·{$2}",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					255,
+					100,
+				},
+				szContent = "帮会辛大厨为大家准备了丰盛的午餐，各位侠士现在即可返回帮会领地尽情享用。\
+",
+				szNote = "帮会食堂·享用午餐",
+				tCountdown = {
+					{
+						key = "关隘宝箱",
+						nClass = 20,
+						nFrame = 7,
+						nIcon = 13,
+						nRefresh = 5,
+						nTime = -1,
+						szName = "关隘宝箱",
+					},
+				},
+			},
+		},
+	},
+	DEBUFF = {
+		[697] = {
+			{
+				[2] = {
+					bCenterAlarm = true,
+					szVoice = "ZhuanJieDuan",
+				},
+				dwID = 24670,
+				nLevel = 1,
+				nScrutinyType = 1,
+				szNote = "白沙龙墟",
+			},
+		},
+	},
+	DOODAD = {
+		[697] = {
+			{
+				[17] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "赤焰关·宝堆",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 9981,
+				szName = "赤焰关·宝箱",
+				szNote = "赤焰关·宝箱",
+			},
+			{
+				[17] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "回雁关·宝堆",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 10005,
+				szName = "回雁关·宝箱",
+				szNote = "回雁关·宝箱",
+			},
+			{
+				[17] = {
+					bCenterAlarm = true,
+				},
+				aFocus = {
+					{
+						nMaxDistance = 0,
+						szDisplay = "盘碣关·宝堆",
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 9980,
+				szName = "盘碣关·宝箱",
+				szNote = "盘碣关·宝箱",
+			},
+		},
+	},
+	NPC = {
+		[627] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 20,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 112395,
+				nFrame = 52,
+				szNote = "重霄玄石矿堆",
+			},
+		},
+		[697] = {
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 111651,
+				nFrame = 57,
+				szNote = "狼牙·隐樵关",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 111653,
+				nFrame = 57,
+				szNote = "狼牙·赤岩关",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 111652,
+				nFrame = 57,
+				szNote = "狼牙·天生关",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 111608,
+				nFrame = 47,
+				szNote = "恶人·隐樵关",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 111610,
+				nFrame = 47,
+				szNote = "恶人·赤岩关",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 111609,
+				nFrame = 47,
+				szNote = "恶人·天生关",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 111605,
+				nFrame = 47,
+				szNote = "浩气·隐樵关",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 111607,
+				nFrame = 47,
+				szNote = "浩气·赤岩关",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 60,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 111606,
+				nFrame = 47,
+				szNote = "浩气·天生关",
+			},
+			{
+				aFocus = {
+					{
+						nMaxDistance = 30,
+						tLife = {
+							bEnable = false,
+							nValue = 0,
+							szOperator = ">",
+						},
+						tRelation = {
+							bAll = true,
+							bAlly = false,
+							bEnemy = false,
+						},
+					},
+				},
+				dwID = 130211,
+				nFrame = 52,
+				szNote = "烨阳晶箱",
+			},
+		},
+	},
+	TALK = {
+		[697] = {
+			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "吾奉盟主之令，特来镇守此处关隘。",
+				szTarget = "谢烟客",
+				tCountdown = {
+					{
+						key = "关隘宝箱",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 10449,
+						nRefresh = 2,
+						nTime = 179,
+						szName = "浩气盟·盘碣关·拾取剩余",
+					},
+					{
+						key = "关隘·拾取·浩气盟",
+						nClass = 14,
+						nFrame = -1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = -1,
+						szName = "关隘·拾取·浩气盟",
+					},
+				},
+			},
+			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "司空仲平在此，尔等还不速速退去！",
+				szTarget = "司空仲平",
+				tCountdown = {
+					{
+						key = "关隘宝箱",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 10449,
+						nRefresh = 2,
+						nTime = 179,
+						szName = "浩气盟·回雁关·拾取剩余",
+					},
+					{
+						key = "关隘·拾取·浩气盟",
+						nClass = 14,
+						nFrame = -1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = -1,
+						szName = "关隘·拾取·浩气盟",
+					},
+				},
+			},
+			{
+				col = {
+					100,
+					100,
+					255,
+				},
+				szContent = "浩气盟，浩气长存！",
+				szTarget = "穆玄英",
+				tCountdown = {
+					{
+						key = "关隘宝箱",
+						nClass = 14,
+						nFrame = 7,
+						nIcon = 10449,
+						nRefresh = 2,
+						nTime = 179,
+						szName = "浩气盟·赤焰关·拾取剩余",
+					},
+					{
+						key = "关隘·拾取·浩气盟",
+						nClass = 14,
+						nFrame = -1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = -1,
+						szName = "关隘·拾取·浩气盟",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "终于出趟谷，不容易呀！寒鸦大人请放心，第一关隘就交给我吧！",
+				szTarget = "顾延恶",
+				tCountdown = {
+					{
+						key = "关隘宝箱",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 10450,
+						nRefresh = 2,
+						nTime = 179,
+						szName = "恶人谷·盘碣关·拾取剩余",
+					},
+					{
+						key = "关隘·拾取·恶人谷",
+						nClass = 14,
+						nFrame = -1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = -1,
+						szName = "关隘·拾取·恶人谷",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "此处关隘，至关重要，谷主请放心！",
+				szTarget = "陶寒亭",
+				tCountdown = {
+					{
+						key = "关隘宝箱",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 10450,
+						nRefresh = 2,
+						nTime = 179,
+						szName = "恶人谷·回雁关·拾取剩余",
+					},
+					{
+						key = "关隘·拾取·恶人谷",
+						nClass = 14,
+						nFrame = -1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = -1,
+						szName = "关隘·拾取·恶人谷",
+					},
+				},
+			},
+			{
+				col = {
+					255,
+					100,
+					100,
+				},
+				szContent = "承让了！恶人谷众兄弟们，安心开采矿产。",
+				szTarget = "白某",
+				tCountdown = {
+					{
+						key = "关隘宝箱",
+						nClass = 14,
+						nFrame = 3,
+						nIcon = 10450,
+						nRefresh = 2,
+						nTime = 179,
+						szName = "恶人谷·赤焰关·拾取剩余",
+					},
+					{
+						key = "关隘·拾取·恶人谷",
+						nClass = 14,
+						nFrame = -1,
+						nIcon = 13,
+						nRefresh = 1,
+						nTime = -1,
+						szName = "关隘·拾取·恶人谷",
+					},
+				},
+			},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1791104723,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+	},
+}
