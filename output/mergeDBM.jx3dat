@@ -9591,6 +9591,9 @@ return {
 			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{nMaxDistance=60}},col={0,255,255},dwID=101191,nFrame=47},
 			{aFocus={{nMaxDistance=3,szDisplay="郭善·隐藏任务"}},dwID=100372,nFrame=47},
 		},
+		[482] = {
+			{aFocus={{nMaxDistance=50,szDisplay="慧意·特效武器"}},dwID=103147,nFrame=47},
+		},
 		[486] = {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20}},col={0,255,0},dwID=132809,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20}},col={0,255,0},dwID=132733,nFrame=65},
@@ -12132,6 +12135,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791190856,
+		nTimeStamp = 1791191881,
 	},
 }
