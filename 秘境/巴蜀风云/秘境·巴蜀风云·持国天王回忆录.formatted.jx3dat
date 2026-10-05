@@ -13,10 +13,6 @@ return {
 		},
 	},
 	NPC = {
-		[-9] = {
-			{aFocus={{}},dwID=18397,nFrame=47},
-			{aFocus={{}},dwID=18397,nFrame=47},
-		},
 		[148] = {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=10,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=18297,nFrame=47},
 			{[3]={bScreenHead=true},col={0,255,0},dwID=18299,nFrame=47,szNote="»Û³Õ"},
@@ -39,7 +35,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791190289,
+		nTimeStamp = 1791191786,
 		szAuthor = "ºÉ»¨Àð",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
