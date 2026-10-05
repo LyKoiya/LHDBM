@@ -1,0 +1,86 @@
+return {
+	BUFF = {
+		[805] = {
+			{{bBuffList=true,bScreenHead=true},col={179,238,58},dwID=7508,nLevel=1,nScrutinyType=1,szNote="帮会跑商·哑运"},
+			{{bBuffList=true},col={255,150,0},dwID=10067,nLevel=1,nScrutinyType=1,szName="补货点",szNote="帮会跑商·贸易区"},
+		},
+	},
+	CASTING = {},
+	CHAT = {
+		[-21] = {
+			{col={100,255,255},szContent="陕州商路运输物资成功开启！请帮会有权限的侠士到洛阳城西帮会物资主簿处申请成为运货首领开始运送！\
+",szNote="陕州商路·开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·帮会大跑商·开启"}}},
+		},
+		[-7] = {
+			{col={100,255,255},szContent="陕州商路运输物资成功开启！请帮会有权限的侠士到洛阳城西帮会物资主簿处申请成为运货首领开始运送！\
+",szNote="陕州商路·开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·帮会大跑商·开启"}}},
+		},
+		[-2] = {
+			{col={100,255,255},szContent="陕州商路运输物资成功开启！请帮会有权限的侠士到洛阳城西帮会物资主簿处申请成为运货首领开始运送！\
+",szNote="陕州商路·开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·帮会大跑商·开启"}}},
+		},
+	},
+	DEBUFF = {
+		[805] = {
+			{{bBuffList=true},col={255,255,0},dwID=9992,nIcon=8004,nLevel=1,nScrutinyType=1,szName="大跑商",szNote="帮会跑商·场景标记"},
+			{aCataclysmBuff={{col="#FFFFFFFF",colScreenHead="#FFFFFFFF",nColAlpha=255,nPriority=2,szReminder="镖"}},col={255,255,255},dwID=9982,nLevel=1,nScrutinyType=2,szNote="帮会跑商·运货首领"},
+			{{bBuffList=true},col={31,63,255},dwID=7851,nLevel=1,nScrutinyType=1,szNote="帮会跑商·追踪·减速50%"},
+			{{bBuffList=true},col={255,255,0},dwID=10068,nIcon=216,nLevel=1,nScrutinyType=1,szName="押镖",szNote="帮会跑商·押镖表现"},
+		},
+		[806] = {
+			{{bBuffList=true},col={255,255,0},dwID=9992,nIcon=8004,nLevel=1,nScrutinyType=1,szName="大跑商",szNote="帮会跑商·场景标记"},
+			{aCataclysmBuff={{col="#FFFFFFFF",colScreenHead="#FFFFFFFF",nColAlpha=255,nPriority=2,szReminder="镖"}},col={255,255,255},dwID=9982,nLevel=1,nScrutinyType=2,szNote="帮会跑商·运货首领"},
+			{{bBuffList=true},col={31,63,255},dwID=7851,nLevel=1,nScrutinyType=1,szNote="帮会跑商·追踪·减速50%"},
+			{{bBuffList=true},col={255,255,0},dwID=10068,nIcon=216,nLevel=1,nScrutinyType=1,szName="押镖",szNote="帮会跑商·押镖表现"},
+		},
+	},
+	DOODAD = {},
+	NPC = {
+		[194] = {
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="褚禾·阴山商路",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=47754,nFrame=47,szNote="帮会跑商·褚禾"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="秦交复·陕州商路",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=139440,nFrame=47,szNote="陕州商路·秦交复"},
+		},
+		[805] = {
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,szDisplay="姚宁·补货",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={100,255,100},dwID=138834,nFrame=47,szNote="陕州商路·姚宁·补货"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,szDisplay="姚安·补货",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={100,255,100},dwID=138833,nFrame=47,szNote="陕州商路·姚安·补货"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,szDisplay="郭无患·补货",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={100,255,100},dwID=138832,nFrame=47,szNote="陕州商路·郭无患·补货"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,szDisplay="郭有备·补货",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={100,255,100},dwID=138831,nFrame=47,szNote="陕州商路·郭有备·补货"},
+			{aFocus={{nMaxDistance=10,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=47032,nFrame=47,szNote="帮会跑商·恶人谷镖车"},
+			{aFocus={{nMaxDistance=10,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=47859,nFrame=47,szNote="帮会跑商·浩气盟镖车"},
+			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{nMaxDistance=0,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=47408,nFrame=47,szNote="帮会跑商·散落的货物"},
+		},
+		[806] = {
+			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{nMaxDistance=0,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=47408,nFrame=47,szNote="帮会跑商·散落的货物"},
+		},
+	},
+	TALK = {
+		[-21] = {
+			{[14]={bCenterAlarm=true},bReg=true,col={100,255,255},szContent="(.-)已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",szNote="陕州商路·【{$1}】·送货首领",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·镖头·{$1}"}}},
+		},
+		[-7] = {
+			{[14]={bCenterAlarm=true},bReg=true,col={100,255,255},szContent="(.-)已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",szNote="陕州商路·【{$1}】·送货首领",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·镖头·{$1}"}}},
+			{[14]={bCenterAlarm=true},col={100,255,255},szContent="运货首领身份已重置，请各位尽快认领物资队将其运抵目的地！",szNote="陕州商路·首领重置·损失30镖银",szTarget="%",tCountdown={{key="帮会跑商·时限",nClass=14,nIcon=8004,nTime=-2,szName="陕州商路·时限"},{key="帮会跑商·时限",nClass=14,nFrame=1,nIcon=8004,nRefresh=14400,nTime=10,szName="陕州商路·首领重置·损失30镖银"}}},
+			{[14]={bCenterAlarm=true},col={100,255,255},szContent="运货首领花费5000两帮会资金成功补货50份！",szNote="陕州商路·补货·50份",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=0,nIcon=8004,nTime=10,szName="陕州商路·补货·50份"}}},
+			{[14]={bCenterAlarm=true},col={100,255,255},szContent="运货首领离线了，损失了20份镖银……",szNote="陕州商路·首领离线·损失20镖银",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=1,nIcon=8004,nTime=10,szName="陕州商路·首领离线·损失20镖银"}}},
+			{[14]={bCenterAlarm=true},col={100,255,255},szContent="运货首领被击杀，损失了10份镖银……",szNote="陕州商路·首领重伤·损失10镖银",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=1,nIcon=8004,nTime=10,szName="陕州商路·首领重伤·损失10镖银"}}},
+		},
+		[-2] = {
+			{[14]={bCenterAlarm=true},bReg=true,col={100,255,255},szContent="(.-)已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",szNote="陕州商路·【{$1}】·送货首领",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·镖头·{$1}"}}},
+		},
+		[-1] = {
+			{col={100,255,255},szContent="陕州商路运输物资已成功开启，请有权限的侠士速到洛阳城西帮会物资主簿处申请成为运货首领开始运送！",szNote="陕州商路·开启",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=0,nIcon=8004,nTime=10,szName="陕州商路·帮会大跑商·开启"}}},
+			{bReg=false,bSearch=true,col={100,255,255},szContent="此次帮会通过陕州商路成功运抵",szNote="陕州商路·成功运抵",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·成功运抵"},{key="帮会跑商·时限",nClass=14,nIcon=13,nTime=-1,szName="陕州商路·时限"}}},
+		},
+		[806] = {
+			{[14]={bCenterAlarm=true},col={100,255,255},szContent="{$me}已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",szNote="陕州商路·你登记为送货首领",szTarget="%",tCountdown={{bHold=true,key="帮会跑商·时限",nClass=14,nFrame=-1,nIcon=8004,nRefresh=0,nTime="10,你登记为送货首领;14400,陕州商路·运送剩余;14410,陕州商路·运送超时",szName="阴山商路"}}},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1791219188,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_exp",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "苍生铸世",
+	},
+}
