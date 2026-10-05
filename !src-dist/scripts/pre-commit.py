@@ -51,8 +51,6 @@ def main() -> None:
         sys.exit(0)
 
     xlsxfiles = getdiffFile(".xlsx")
-    if not xlsxfiles:
-        print('没有需要处理的 .xlsx 文件')
 
     # 批量处理
     print('开始数据有序格式化规整')
@@ -69,7 +67,8 @@ def main() -> None:
         backSave.append(dst)
 
     run_git('add', *backSave)
-    jx3datfiles = getdiffFile(".jx3dat")
+    jx3datfiles = getdiffFile(".formatted.jx3dat")
+    print(f'收集到 {len(jx3datfiles)} 个.formatted.jx3dat文件')
     try:
         subprocess.run(
             ['lua', str(script)] + jx3datfiles,

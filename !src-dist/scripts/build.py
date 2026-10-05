@@ -5,7 +5,7 @@ import pLualib
 from python_calamine import CalamineWorkbook
 
 Lua = None
-ALLOWED_EXTENSIONS = {'.jx3dat', '.xlsx'}
+ALLOWED_EXTENSIONS = {'.formatted.jx3dat', '.xlsx'}
 aType = ['有利气劲', '不利气劲', '武学招式', '系统角色', '交互物件', '角色喊话', '系统频道']
 
 # 加载模块
@@ -16,9 +16,9 @@ def loadModule(path, name):
     return mod
 
 # 加载Lua
-def InitLua():
+def InitLua(script="!src-dist\\scripts\\PackDBM.lua"):
     # 检查文件是否存在
-    lua_script = os.path.abspath("!src-dist\\scripts\\PackDBM.lua")
+    lua_script = os.path.abspath(script)
     if not os.path.exists(lua_script):
         print(f"lua_script not found: {lua_script}")
         return
@@ -214,13 +214,40 @@ def runPack(filesPath):
             Lua.pop(1)
         L.close()
 
+def setAllfiles():
+    aFiles = []
+    cwd = os.getcwd()
+    print(cwd)
+    for root, dirs, files in os.walk(cwd):
+        for name in files:
+            if name.endswith('.formatted.jx3dat'):
+                aFiles.append(os.path.join(root, name))
+
+    print(f"find {len(aFiles)} files to process.")
+    try:
+        L = InitLua("!src-dist\\scripts\\ordering.lua")
+        i = 0
+        for file_path in aFiles:
+            i += 1
+            print(f"[{i}/{len(aFiles)}]: {file_path}")
+            L.getglobal("processFile")
+            L.pushlstringA(file_path)
+            if L.pcall(1, 0, 0) == 0:
+                print("processFile success.")
+            else:
+                print(f"processFile fail.{L.tostring(-1)}")
+                Lua.pop(1)
+
+    finally:
+        L.close()
+
 def main() -> None:
     """主入口：执行打包任务。"""
     # 只处理 .xlsx 和 .jx3dat 文件
     packConfig = loadModule("!src-dist\\data\\packConfig.py", "packConfig")
-    files = get_filtered_files(packConfig.packList, ALLOWED_EXTENSIONS)
-    print(f"find {len(files)} files to process.")
-    runPack(files)
+    aFiles = get_filtered_files(packConfig.packList, ALLOWED_EXTENSIONS)
+    print(f"find {len(aFiles)} files to process.")
+    runPack(aFiles)
 
 if __name__ == "__main__":
     main()

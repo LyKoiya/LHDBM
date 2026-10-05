@@ -57,7 +57,7 @@ local function refreshTimeStamp(tData, nTimeStamp)
 end
 
 -- 处理文件（有序化Table转String）
-local function processFile(szFileName)
+function processFile(szFileName)
     -- print('Sorting: ' .. szFileName)
     local tData = X.file2var(szFileName)
     if not tData then
@@ -68,6 +68,10 @@ local function processFile(szFileName)
     local szSorted = 'return ' .. X.var2str(tData, '\t', 0, 3) .. '\n'
     X.WriteFile(szFileName, szSorted)
     return true
+end
+
+if select('#', ...) == 0 then
+    return
 end
 
 -- 批量处理所有传入的文件
@@ -91,4 +95,4 @@ else
     io.stderr:write(string.format('failed %d file: %s\n', #errorFiles, table.concat(errorFiles, ', ')))
 end
 
-os.exit(success and 0 or 1)
+--os.exit(success and 0 or 1)
