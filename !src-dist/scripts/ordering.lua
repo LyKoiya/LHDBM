@@ -65,7 +65,7 @@ local function processFile(szFileName)
     end
     clearInvalidtable(tData, true)
     refreshTimeStamp(tData)
-    local szSorted = 'return ' .. X.var2str(tData, '\t', 0) .. '\n'
+    local szSorted = 'return ' .. X.var2str(tData, '\t', 0, 3) .. '\n'
     X.WriteFile(szFileName, szSorted)
     return true
 end

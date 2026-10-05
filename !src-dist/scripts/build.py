@@ -168,7 +168,7 @@ def xlsx2jx3dat(szDataPath, szSavePath):
     finally:
         Lua.getglobal("fileSave")
         Lua.pushlstringA(szSavePath)
-        Lua.pushnil()
+        Lua.pushnumber(3)
         Lua.pushboolean(False)
         Lua.pushboolean(False)
         if Lua.pcall(4, 0, 0) == 0:
@@ -204,7 +204,7 @@ def runPack(filesPath):
     finally:
         L.getglobal("fileSave")
         L.pushlstringA(os.path.abspath("output\\mergeDBM.jx3dat"))
-        L.pushnil()
+        L.pushnumber(3)
         L.pushboolean(True)
         L.pushboolean(True)
         if L.pcall(4, 0, 0) == 0:
