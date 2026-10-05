@@ -1,372 +1,41 @@
 return {
-	CHAT = {},
-	TALK = {
-		[159] = {
-			{
-				tCountdown = {
-					{
-						key = "奇遇提示1",
-						nIcon = 12373,
-						nTime = 600,
-						nFrame = 7,
-						nClass = 14,
-						szName = "对话·郭珠·前往·关帝庙岛",
-					},
-					{
-						key = "奇遇提示2",
-						nIcon = 12373,
-						nTime = 600,
-						nFrame = 7,
-						nClass = 14,
-						szName = "对话·龙俊华·前往·龙涎泉",
-					},
-					{
-						key = "奇遇提示3",
-						nIcon = 12373,
-						nTime = 600,
-						nFrame = 7,
-						nClass = 14,
-						szName = "对话·洪笑尘·快捷商店·酒",
-					},
-					{
-						key = "奇遇提示4",
-						nIcon = 12373,
-						nTime = 600,
-						nFrame = 7,
-						nClass = 14,
-						szName = "赠予·今朝醉·送六炉金龙丹",
-					},
-				},
-				szContent = "突然之间，你面前闪过一道黑影！",
-			},
-			{
-				tCountdown = {
-					{
-						key = "奇遇提示1",
-						nIcon = 12373,
-						nTime = 300,
-						nClass = 14,
-						nFrame = 7,
-						szName = "交互·面前美酒·等待·剧情",
-					},
-					{
-						key = "奇遇提示2",
-						nIcon = 12373,
-						nTime = 300,
-						nClass = 14,
-						nFrame = 7,
-						szName = "对话·郭珠·获得鲜美的小鱼",
-					},
-					{
-						key = "奇遇提示3",
-						nIcon = 12373,
-						nTime = 300,
-						nClass = 14,
-						nFrame = 7,
-						szName = "选中·小鳄鱼投喂鲜美的小鱼",
-					},
-					{
-						key = "奇遇提示4",
-						nIcon = 12373,
-						nTime = 300,
-						nClass = 14,
-						nFrame = 7,
-						szName = "对话·郭珠·完成奇遇醉烟波",
-					},
-				},
-				szContent = "与面前的美酒交互即可饮酒。",
-			},
-			{
-				tCountdown = {
-					{
-						key = "奇遇提示1",
-						nIcon = 12373,
-						nTime = 30,
-						nFrame = 7,
-						nClass = 14,
-						szName = "对话·郭珠·完成宠物奇遇",
-					},
-					{
-						key = "奇遇提示2",
-						nIcon = 12373,
-						nTime = 30,
-						nFrame = 7,
-						nClass = 14,
-						szName = "宠物·奇遇·醉烟波·饿饿",
-					},
-					{
-						key = "奇遇提示3",
-						nIcon = 12373,
-						nTime = 0,
-						nFrame = 7,
-						nClass = 14,
-						szName = "奇遇提示3",
-					},
-					{
-						key = "奇遇提示4",
-						nIcon = 12373,
-						nTime = 0,
-						nFrame = 7,
-						nClass = 14,
-						szName = "奇遇提示4",
-					},
-				},
-				szContent = "小鳄鱼一口吃掉了小鱼，看起来很开心。",
-			},
-		},
-	},
 	BUFF = {
 		[159] = {
-			{
-				{
-					bBuffList = true,
-				},
-				nScrutinyType = 1,
-				nLevel = 1,
-				szName = "垂钓",
-				szNote = "醉烟波_垂钓_BUFF",
-				nIcon = 2678,
-				dwID = 26176,
-			},
-			{
-				{
-					bScreenHead = true,
-					bBuffList = true,
-				},
-				nScrutinyType = 1,
-				szName = "收竿",
-				nLevel = 1,
-				nIcon = 19012,
-				szNote = "醉烟波_收竿_BUFF",
-				dwID = 26177,
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
+			{{bBuffList=true},dwID=26176,nIcon=2678,nLevel=1,nScrutinyType=1,szName="垂钓",szNote="醉烟波_垂钓_BUFF"},
+			{{bBuffList=true,bScreenHead=true},col={0,255,0},dwID=26177,nIcon=19012,nLevel=1,nScrutinyType=1,szName="收竿",szNote="醉烟波_收竿_BUFF"},
 		},
 	},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
 	DOODAD = {
 		[159] = {
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "鱼篓·醉烟波",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-					},
-				},
-				[17] = {
-					bScreenHead = true,
-				},
-				szName = "鱼篓",
-				szNote = "醉烟波·鱼篓",
-				dwID = 10161,
-				col = {
-					0,
-					255,
-					255,
-				},
-			},
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "酒·醉烟波",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-					},
-				},
-				szNote = "醉烟波·酒",
-				szName = "酒",
-				dwID = 10172,
-			},
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="鱼篓·醉烟波",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=10161,szName="鱼篓",szNote="醉烟波·鱼篓"},
+			{aFocus={{nMaxDistance=60,szDisplay="酒·醉烟波",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=10172,szName="酒",szNote="醉烟波·酒"},
 		},
 	},
 	NPC = {
 		[159] = {
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "郭珠·醉烟波",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-					},
-				},
-				nFrame = 47,
-				szNote = "醉烟波·郭珠",
-				dwID = 122784,
-			},
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "龙俊华·醉烟波",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-					},
-				},
-				nFrame = 47,
-				szNote = "醉烟波·龙俊华",
-				dwID = 122785,
-			},
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "洪笑尘·醉烟波",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 90,
-					},
-				},
-				nFrame = 47,
-				szNote = "醉烟波·洪笑尘",
-				dwID = 122786,
-			},
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "郭珠·醉烟波",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-					},
-				},
-				nFrame = 47,
-				szNote = "醉烟波·郭珠",
-				dwID = 122949,
-			},
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "小鳄鱼·醉烟波",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-					},
-				},
-				nFrame = 47,
-				szNote = "醉烟波·小鳄鱼",
-				dwID = 122950,
-			},
+			{aFocus={{nMaxDistance=60,szDisplay="郭珠·醉烟波",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=122784,nFrame=47,szNote="醉烟波·郭珠"},
+			{aFocus={{nMaxDistance=60,szDisplay="龙俊华·醉烟波",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=122785,nFrame=47,szNote="醉烟波·龙俊华"},
+			{aFocus={{nMaxDistance=90,szDisplay="洪笑尘·醉烟波",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=122786,nFrame=47,szNote="醉烟波·洪笑尘"},
+			{aFocus={{nMaxDistance=60,szDisplay="郭珠·醉烟波",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=122949,nFrame=47,szNote="醉烟波·郭珠"},
+			{aFocus={{nMaxDistance=60,szDisplay="小鳄鱼·醉烟波",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=122950,nFrame=47,szNote="醉烟波·小鳄鱼"},
 		},
 	},
-	CASTING = {},
-	DEBUFF = {},
+	TALK = {
+		[159] = {
+			{szContent="突然之间，你面前闪过一道黑影！",tCountdown={{key="奇遇提示1",nClass=14,nFrame=7,nIcon=12373,nTime=600,szName="对话·郭珠·前往·关帝庙岛"},{key="奇遇提示2",nClass=14,nFrame=7,nIcon=12373,nTime=600,szName="对话·龙俊华·前往·龙涎泉"},{key="奇遇提示3",nClass=14,nFrame=7,nIcon=12373,nTime=600,szName="对话·洪笑尘·快捷商店·酒"},{key="奇遇提示4",nClass=14,nFrame=7,nIcon=12373,nTime=600,szName="赠予·今朝醉·送六炉金龙丹"}}},
+			{szContent="与面前的美酒交互即可饮酒。",tCountdown={{key="奇遇提示1",nClass=14,nFrame=7,nIcon=12373,nTime=300,szName="交互·面前美酒·等待·剧情"},{key="奇遇提示2",nClass=14,nFrame=7,nIcon=12373,nTime=300,szName="对话·郭珠·获得鲜美的小鱼"},{key="奇遇提示3",nClass=14,nFrame=7,nIcon=12373,nTime=300,szName="选中·小鳄鱼投喂鲜美的小鱼"},{key="奇遇提示4",nClass=14,nFrame=7,nIcon=12373,nTime=300,szName="对话·郭珠·完成奇遇醉烟波"}}},
+			{szContent="小鳄鱼一口吃掉了小鱼，看起来很开心。",tCountdown={{key="奇遇提示1",nClass=14,nFrame=7,nIcon=12373,nTime=30,szName="对话·郭珠·完成宠物奇遇"},{key="奇遇提示2",nClass=14,nFrame=7,nIcon=12373,nTime=30,szName="宠物·奇遇·醉烟波·饿饿"},{key="奇遇提示3",nClass=14,nFrame=7,nIcon=12373,nTime=0,szName="奇遇提示3"},{key="奇遇提示4",nClass=14,nFrame=7,nIcon=12373,nTime=0,szName="奇遇提示4"}}},
+		},
+	},
 	__meta = {
-		nTimeStamp = 1723574548,
+		nTimeStamp = 1791190288,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "",
 		szEdition = "zhcn_hd",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
 		szServer = "唯我独尊",
-		szAuthor = "荷花鲤",
-		szCustomVoicePacketUUID = "",
 	},
 }

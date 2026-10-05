@@ -4,491 +4,56 @@ return {
 	CHAT = {},
 	DEBUFF = {
 		[23] = {
-			{
-				[2] = {
-					bCenterAlarm = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 12829,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "限时",
-				szNote = "时间紧迫！",
-				tCountdown = {
-					{
-						key = "奇遇提示2",
-						nClass = 1,
-						nFrame = 2,
-						nIcon = 2030,
-						nTime = 60,
-						szName = "使用·背包·未完成的地图",
-					},
-				},
-			},
+			{[2]={bCenterAlarm=true},col={255,255,0},dwID=12829,nLevel=1,nScrutinyType=1,szName="限时",szNote="时间紧迫！",tCountdown={{key="奇遇提示2",nClass=1,nFrame=2,nIcon=2030,nTime=60,szName="使用·背包·未完成的地图"}}},
 		},
 		[193] = {
-			{
-				[2] = {
-					bCenterAlarm = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 12829,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "限时",
-				szNote = "时间紧迫！",
-			},
+			{[2]={bCenterAlarm=true},col={255,255,0},dwID=12829,nLevel=1,nScrutinyType=1,szName="限时",szNote="时间紧迫！"},
 		},
 		[194] = {
-			{
-				{
-					bPartyBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 12829,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "限时",
-				szNote = "时间紧迫！",
-				tCountdown = {
-					{
-						bHold = false,
-						key = "奇遇提示0",
-						nClass = 1,
-						nFrame = 7,
-						nIcon = 12373,
-						nTime = 120,
-						szName = "前往·怀德门·对话·栾志辉",
-					},
-					{
-						bHold = false,
-						key = "奇遇提示0",
-						nClass = 2,
-						nFrame = 7,
-						nIcon = 12373,
-						nTime = 120,
-						szName = "封印·三天后·怀德门栾志辉",
-					},
-				},
-			},
-			{
-				[2] = {
-					bCenterAlarm = true,
-				},
-				dwID = 12830,
-				nIcon = 10052,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "戎马边",
-				szNote = "戎马边",
-				tCountdown = {
-					{
-						key = "奇遇封印",
-						nClass = 2,
-						nIcon = 10052,
-						nTime = -2,
-						szName = "奇遇封印",
-					},
-					{
-						key = "奇遇封印",
-						nClass = 2,
-						nFrame = 7,
-						nIcon = 10052,
-						nTime = 10,
-						szName = "奇遇·戎马边·解封",
-					},
-					{
-						key = "奇遇解封",
-						nClass = 2,
-						nFrame = 7,
-						nIcon = 10052,
-						nTime = 10.1,
-						szName = "太原·怀德门·栾志辉",
-					},
-					{
-						key = "奇遇封印",
-						nClass = 1,
-						nFrame = 7,
-						nIcon = 10052,
-						nRefresh = 7200,
-						nTime = 10,
-						szName = "奇遇·戎马边·封印·72小时",
-					},
-					{
-						key = "奇遇提示1",
-						nClass = 1,
-						nFrame = 7,
-						nIcon = 13,
-						nTime = -1,
-						szName = "奇遇提示1",
-					},
-					{
-						key = "奇遇提示2",
-						nClass = 1,
-						nFrame = 7,
-						nIcon = 13,
-						nTime = -1,
-						szName = "奇遇提示2",
-					},
-					{
-						key = "奇遇提示3",
-						nClass = 1,
-						nFrame = 7,
-						nIcon = 13,
-						nTime = -1,
-						szName = "奇遇提示3",
-					},
-					{
-						key = "奇遇提示4",
-						nClass = 1,
-						nFrame = 7,
-						nIcon = 13,
-						nTime = -1,
-						szName = "奇遇提示4",
-					},
-				},
-			},
+			{{bPartyBuffList=true},col={255,255,0},dwID=12829,nLevel=1,nScrutinyType=1,szName="限时",szNote="时间紧迫！",tCountdown={{bHold=false,key="奇遇提示0",nClass=1,nFrame=7,nIcon=12373,nTime=120,szName="前往·怀德门·对话·栾志辉"},{bHold=false,key="奇遇提示0",nClass=2,nFrame=7,nIcon=12373,nTime=120,szName="封印·三天后·怀德门栾志辉"}}},
+			{[2]={bCenterAlarm=true},dwID=12830,nIcon=10052,nLevel=1,nScrutinyType=1,szName="戎马边",szNote="戎马边",tCountdown={{key="奇遇封印",nClass=2,nIcon=10052,nTime=-2,szName="奇遇封印"},{key="奇遇封印",nClass=2,nFrame=7,nIcon=10052,nTime=10,szName="奇遇·戎马边·解封"},{key="奇遇解封",nClass=2,nFrame=7,nIcon=10052,nTime=10.1,szName="太原·怀德门·栾志辉"},{key="奇遇封印",nClass=1,nFrame=7,nIcon=10052,nRefresh=7200,nTime=10,szName="奇遇·戎马边·封印·72小时"},{key="奇遇提示1",nClass=1,nFrame=7,nIcon=13,nTime=-1,szName="奇遇提示1"},{key="奇遇提示2",nClass=1,nFrame=7,nIcon=13,nTime=-1,szName="奇遇提示2"},{key="奇遇提示3",nClass=1,nFrame=7,nIcon=13,nTime=-1,szName="奇遇提示3"},{key="奇遇提示4",nClass=1,nFrame=7,nIcon=13,nTime=-1,szName="奇遇提示4"}}},
 		},
 		[216] = {
-			{
-				{
-					bPartyBuffList = true,
-				},
-				{
-					bCenterAlarm = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 12829,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "限时",
-				szNote = "时间紧迫！",
-				tCountdown = {
-					{
-						key = "奇遇提示3",
-						nClass = 1,
-						nFrame = 2,
-						nIcon = 2030,
-						nTime = 60,
-						szName = "使用·背包·未完成的地图",
-					},
-				},
-			},
+			{{bPartyBuffList=true},{bCenterAlarm=true},col={255,255,0},dwID=12829,nLevel=1,nScrutinyType=1,szName="限时",szNote="时间紧迫！",tCountdown={{key="奇遇提示3",nClass=1,nFrame=2,nIcon=2030,nTime=60,szName="使用·背包·未完成的地图"}}},
 		},
 		[217] = {
-			{
-				{
-					bPartyBuffList = true,
-				},
-				{
-					bCenterAlarm = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 12829,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "限时",
-				szNote = "时间紧迫！",
-				tCountdown = {
-					{
-						key = "奇遇提示4",
-						nClass = 1,
-						nFrame = 2,
-						nIcon = 2030,
-						nTime = 30,
-						szName = "使用·背包·未完成的地图",
-					},
-				},
-			},
+			{{bPartyBuffList=true},{bCenterAlarm=true},col={255,255,0},dwID=12829,nLevel=1,nScrutinyType=1,szName="限时",szNote="时间紧迫！",tCountdown={{key="奇遇提示4",nClass=1,nFrame=2,nIcon=2030,nTime=30,szName="使用·背包·未完成的地图"}}},
 		},
 	},
 	DOODAD = {},
 	NPC = {
 		[23] = {
-			{
-				aFocus = {
-					{
-						dwMapID = -1,
-						nMaxDistance = 90,
-						szDisplay = "陈节·戎马边",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
-					},
-				},
-				dwID = 59331,
-				nFrame = 47,
-				szNote = "戎马边·陈节",
-			},
+			{aFocus={{nMaxDistance=90,szDisplay="陈节·戎马边",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=59331,nFrame=47,szNote="戎马边·陈节"},
 		},
 		[193] = {
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						dwMapID = -1,
-						nMaxDistance = 60,
-						szDisplay = "白芷沅·戎马边",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
-					},
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 59328,
-				nFrame = 47,
-				szNote = "戎马边·白芷沅",
-			},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="白芷沅·戎马边",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=59328,nFrame=47,szNote="戎马边·白芷沅"},
 		},
 		[194] = {
-			{
-				aFocus = {
-					{
-						dwMapID = -1,
-						nMaxDistance = 60,
-						szDisplay = "栾志辉·戎马边",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
-					},
-				},
-				dwID = 59329,
-				nFrame = 47,
-				szNote = "戎马边·栾志辉",
-			},
+			{aFocus={{nMaxDistance=60,szDisplay="栾志辉·戎马边",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=59329,nFrame=47,szNote="戎马边·栾志辉"},
 		},
 		[216] = {
-			{
-				aFocus = {
-					{
-						dwMapID = -1,
-						nMaxDistance = 90,
-						szDisplay = "陈奏·戎马边",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
-					},
-				},
-				dwID = 59332,
-				nFrame = 47,
-				szNote = "戎马边·陈奏",
-			},
+			{aFocus={{nMaxDistance=90,szDisplay="陈奏·戎马边",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=59332,nFrame=47,szNote="戎马边·陈奏"},
 		},
 		[217] = {
-			{
-				aFocus = {
-					{
-						dwMapID = -1,
-						nMaxDistance = 90,
-						szDisplay = "陈涛·戎马边",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
-					},
-				},
-				dwID = 59330,
-				nFrame = 47,
-				szNote = "戎马边·陈涛",
-			},
+			{aFocus={{nMaxDistance=90,szDisplay="陈涛·戎马边",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=59330,nFrame=47,szNote="戎马边·陈涛"},
 		},
 	},
 	TALK = {
 		[23] = {
-			{
-				szContent = "需要补全的位置已经标记。",
-				tCountdown = {
-					{
-						bHold = false,
-						key = "奇遇提示2",
-						nClass = 14,
-						nFrame = 6,
-						nIcon = 12373,
-						nTime = 120,
-						szName = "前往·玉门关·山顶·标点处",
-					},
-				},
-			},
+			{szContent="需要补全的位置已经标记。",tCountdown={{bHold=false,key="奇遇提示2",nClass=14,nFrame=6,nIcon=12373,nTime=120,szName="前往·玉门关·山顶·标点处"}}},
 		},
 		[193] = {
-			{
-				szContent = "不错不错，你很有画地图的天赋。",
-				szTarget = "白芷沅",
-				tCountdown = {
-					{
-						bHold = true,
-						key = "奇遇提示0",
-						nClass = 14,
-						nFrame = 0,
-						nIcon = 12373,
-						nRefresh = 0,
-						nTime = "5,恭喜触发·戎马边·贵贵;15,奇遇封印3日;30,对话白芷沅·获得未完成的地图;180,前往以下地图·使用未完成的地图;600,前往太原·怀德门·栾志辉",
-						szName = "奇遇提示0",
-					},
-					{
-						bHold = false,
-						key = "奇遇提示1",
-						nClass = 14,
-						nFrame = 7,
-						nIcon = 12373,
-						nTime = 1200,
-						szName = "对话·白芷沅·20分钟内完成",
-					},
-					{
-						bHold = true,
-						key = "奇遇提示2",
-						nClass = 14,
-						nFrame = 7,
-						nIcon = 12373,
-						nTime = 1200,
-						szName = "神行·龙门荒漠·玉门关",
-					},
-					{
-						bHold = true,
-						key = "奇遇提示3",
-						nClass = 14,
-						nFrame = 7,
-						nIcon = 12373,
-						nTime = 1200,
-						szName = "神行·阴山大草原·沼泽驿站",
-					},
-					{
-						bHold = true,
-						key = "奇遇提示4",
-						nClass = 14,
-						nFrame = 7,
-						nIcon = 12373,
-						nTime = 1200,
-						szName = "神行·黑戈壁·黑水城",
-					},
-				},
-			},
+			{szContent="不错不错，你很有画地图的天赋。",szTarget="白芷沅",tCountdown={{bHold=true,key="奇遇提示0",nClass=14,nFrame=0,nIcon=12373,nRefresh=0,nTime="5,恭喜触发·戎马边·贵贵;15,奇遇封印3日;30,对话白芷沅·获得未完成的地图;180,前往以下地图·使用未完成的地图;600,前往太原·怀德门·栾志辉",szName="奇遇提示0"},{bHold=false,key="奇遇提示1",nClass=14,nFrame=7,nIcon=12373,nTime=1200,szName="对话·白芷沅·20分钟内完成"},{bHold=true,key="奇遇提示2",nClass=14,nFrame=7,nIcon=12373,nTime=1200,szName="神行·龙门荒漠·玉门关"},{bHold=true,key="奇遇提示3",nClass=14,nFrame=7,nIcon=12373,nTime=1200,szName="神行·阴山大草原·沼泽驿站"},{bHold=true,key="奇遇提示4",nClass=14,nFrame=7,nIcon=12373,nTime=1200,szName="神行·黑戈壁·黑水城"}}},
 		},
 		[216] = {
-			{
-				szContent = "需要补全的位置已经标记。",
-				tCountdown = {
-					{
-						bHold = false,
-						key = "奇遇提示3",
-						nClass = 14,
-						nFrame = 6,
-						nIcon = 12373,
-						nTime = 120,
-						szName = "前往·十二连环坞马贼营地·标点处",
-					},
-				},
-			},
+			{szContent="需要补全的位置已经标记。",tCountdown={{bHold=false,key="奇遇提示3",nClass=14,nFrame=6,nIcon=12373,nTime=120,szName="前往·十二连环坞马贼营地·标点处"}}},
 		},
 		[217] = {
-			{
-				szContent = "需要补全的位置已经标记。",
-				tCountdown = {
-					{
-						bHold = false,
-						key = "奇遇提示4",
-						nClass = 14,
-						nFrame = 6,
-						nIcon = 12373,
-						nTime = 120,
-						szName = "前往·灰岩坳·石壁·标点处",
-					},
-				},
-			},
+			{szContent="需要补全的位置已经标记。",tCountdown={{bHold=false,key="奇遇提示4",nClass=14,nFrame=6,nIcon=12373,nTime=120,szName="前往·灰岩坳·石壁·标点处"}}},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1734801447,
+		nTimeStamp = 1791190288,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

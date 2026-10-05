@@ -6,87 +6,17 @@ return {
 	DOODAD = {},
 	NPC = {
 		[673] = {
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 20,
-						szDisplay = "张弘·预热商店",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 133696,
-				nFrame = 47,
-				szNote = "预热活动·使至塞上",
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						szDisplay = "百花夫人·预热活动",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				col = {
-					255,
-					50,
-					50,
-				},
-				dwID = 133519,
-				nFrame = 57,
-				szNote = "使至塞上·百花夫人",
-			},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,szDisplay="张弘·预热商店",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=133696,nFrame=47,szNote="预热活动·使至塞上"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="百花夫人·预热活动",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,50},dwID=133519,nFrame=57,szNote="使至塞上·百花夫人"},
 		},
 	},
 	TALK = {
 		[673] = {
-			{
-				szContent = "竟追到这儿来了，倒有几分胆识。正好没了那云寨那帮废物碍事，教你尝尝老娘的真本事！",
-				szNote = "预热活动·使至塞上",
-				szTarget = "百花夫人",
-				tCountdown = {
-					{
-						key = "预热活动",
-						nClass = 14,
-						nFrame = 6,
-						nIcon = 13,
-						nTime = 60,
-						szName = "预热·百花夫人·刷新",
-					},
-				},
-			},
+			{szContent="竟追到这儿来了，倒有几分胆识。正好没了那云寨那帮废物碍事，教你尝尝老娘的真本事！",szNote="预热活动·使至塞上",szTarget="百花夫人",tCountdown={{key="预热活动",nClass=14,nFrame=6,nIcon=13,nTime=60,szName="预热·百花夫人·刷新"}}},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790066048,
+		nTimeStamp = 1791190289,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

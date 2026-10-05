@@ -6,73 +6,16 @@ return {
 	DOODAD = {},
 	NPC = {
 		[406] = {
-			{
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 65460,
-				nFrame = 57,
-				szNote = "形迹可疑的海寇",
-			},
+			{aFocus={{nMaxDistance=60,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=65460,nFrame=57,szNote="形迹可疑的海寇"},
 		},
 		[407] = {
-			{
-				aFocus = {
-					{
-						nMaxDistance = 50,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 65844,
-				nFrame = 57,
-				szNote = "鬼鬼祟祟的弓手",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 65847,
-				nFrame = 57,
-				szNote = "形迹可疑的海寇",
-			},
+			{aFocus={{nMaxDistance=50,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=65844,nFrame=57,szNote="鬼鬼祟祟的弓手"},
+			{aFocus={{nMaxDistance=60,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=65847,nFrame=57,szNote="形迹可疑的海寇"},
 		},
 	},
 	TALK = {},
 	__meta = {
-		nTimeStamp = 1787241223,
+		nTimeStamp = 1791190289,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

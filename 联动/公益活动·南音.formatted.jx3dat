@@ -1,161 +1,31 @@
 return {
 	BUFF = {},
-	CHAT = {},
 	CASTING = {},
-	TALK = {},
-	NPC = {
-		[579] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 133269,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "公益活动·南音·沈剑心",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-		},
-	},
+	CHAT = {},
 	DEBUFF = {
 		[579] = {
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 1,
-				nScrutinyType = 1,
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 31326,
-				szNote = "公益活动·南音·观看南音表演",
-				szName = "观看",
-			},
+			{{bBuffList=true},col={255,255,0},dwID=31326,nLevel=1,nScrutinyType=1,szName="观看",szNote="公益活动·南音·观看南音表演"},
 		},
-	},
-	__meta = {
-		szServer = "唯我独尊",
-		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1785582125,
-		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
-		szEdition = "zhcn_hd",
 	},
 	DOODAD = {
 		[579] = {
-			{
-				dwID = 11354,
-				aFocus = {
-					{
-						szDisplay = "光圈·交互",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "公益活动·南音·光圈·燃眉之急",
-				szName = "光圈·燃眉之急",
-			},
-			{
-				dwID = 11355,
-				aFocus = {
-					{
-						szDisplay = "光圈·交互",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "公益活动·南音·光圈·翻箱倒笼",
-				szName = "光圈·翻箱倒笼",
-			},
-			{
-				dwID = 11356,
-				aFocus = {
-					{
-						szDisplay = "光圈·交互",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "公益活动·南音·光圈·弦歌不辍",
-				szName = "光圈·弦歌不辍",
-			},
+			{aFocus={{nMaxDistance=30,szDisplay="光圈·交互",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11354,szName="光圈·燃眉之急",szNote="公益活动·南音·光圈·燃眉之急"},
+			{aFocus={{nMaxDistance=30,szDisplay="光圈·交互",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11355,szName="光圈·翻箱倒笼",szNote="公益活动·南音·光圈·翻箱倒笼"},
+			{aFocus={{nMaxDistance=30,szDisplay="光圈·交互",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11356,szName="光圈·弦歌不辍",szNote="公益活动·南音·光圈·弦歌不辍"},
 		},
+	},
+	NPC = {
+		[579] = {
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=133269,nFrame=47,szNote="公益活动·南音·沈剑心"},
+		},
+	},
+	TALK = {},
+	__meta = {
+		nTimeStamp = 1791190289,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
 }

@@ -1,167 +1,31 @@
 return {
 	BUFF = {
 		[-1] = {
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 1,
-				nScrutinyType = 1,
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 16259,
-				tKungFu = {
-					["SKILL#10175"] = true,
-					["SKILL#10176"] = true,
-				},
-				szNote = "Ð«Áé",
-				szName = "Ð«Áé",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 1,
-						key = "¼õÉË¼à¿Ø",
-						nTime = 5,
-						szName = "ÏÉÍõ¹Æ¶¦¡¤[{$sender}]",
-						nRefresh = 1,
-						nFrame = 6,
-						nIcon = 2747,
-					},
-				},
-				[1] = {
-					bBuffList = true,
-				},
-				szNote = "ÏÉÍõ¹Æ¶¦",
-				aCataclysmBuff = {
-					{
-						szReminder = "¼õ",
-						nPriority = 11,
-						nColAlpha = 255,
-						col = "#00FF00FF",
-					},
-				},
-				nLevel = 1,
-				nScrutinyType = 1,
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 29827,
-				szName = "¼õÉË¶¦",
-			},
+			{{bBuffList=true},col={0,255,255},dwID=16259,nLevel=1,nScrutinyType=1,szName="Ð«Áé",szNote="Ð«Áé",tKungFu={["SKILL#10175"]=true,["SKILL#10176"]=true}},
+			{{bBuffList=true},aCataclysmBuff={{col="#00FF00FF",nColAlpha=255,nPriority=11,szReminder="¼õ"}},col={0,255,0},dwID=29827,nLevel=1,nScrutinyType=1,szName="¼õÉË¶¦",szNote="ÏÉÍõ¹Æ¶¦",tCountdown={{key="¼õÉË¼à¿Ø",nClass=1,nFrame=6,nIcon=2747,nRefresh=1,nTime=5,szName="ÏÉÍõ¹Æ¶¦¡¤[{$sender}]"}}},
+		},
+	},
+	CASTING = {
+		[-1] = {
+			{dwID=34244,nIcon=13,nLevel=1,nScrutinyType=1,tKungFu={["SKILL#10175"]=true,["SKILL#10176"]=true}},
+			{dwID=22851,nLevel=1,nScrutinyType=1,tKungFu={["SKILL#10175"]=true,["SKILL#10176"]=true}},
+			{dwID=15121,nLevel=1,nScrutinyType=2,szNote="Ê´ÐÄ¹Æ",tCountdown={{key="Ê´ÐÄ¹Æ¡¤{$sender}",nClass=8,nFrame=1,nIcon=7233,nTime=1.31,szName="Ê´ÐÄ¹ÆÔË¹¦¡ú{$receiver}"},{key="Ê´ÐÄ¹Æ¡¤{$sender}",nClass=9,nFrame=1,nIcon=7233,nTime=6,szName="Ê´ÐÄ¹ÆÃüÖÐ¡¤{$receiver}"}}},
+			{dwID=34654,nLevel=1,nScrutinyType=2,szNote="»³Ôó¹Æ",tCountdown={{key="»³Ôó¹Æ¡¤{$sender}",nClass=9,nFrame=1,nIcon=19189,nTime=6,szName="»³Ôó¹Æ¡ú{$receiver}"}}},
+			{dwID=32824,nLevel=1,nScrutinyType=2,szNote="¿×È¸Òý",tCountdown={{key="¿×È¸Òý¡¤{$sender}",nClass=9,nFrame=6,nIcon=17708,nTime=5,szName="¿×È¸Òý¡¤{$sender}"}}},
+			{dwID=25058,nLevel=1,nScrutinyType=2,szNote="Ê¥ÔªÕó",tCountdown={{key="Ê¥ÔªÕó¡¤{$sender}",nClass=9,nFrame=8,nIcon=13447,nTime=6,szName="Ê¥ÔªÕó¡ú{$receiver}"}}},
 		},
 	},
 	CHAT = {},
-	CASTING = {
-		[-1] = {
-			{
-				tKungFu = {
-					["SKILL#10175"] = true,
-					["SKILL#10176"] = true,
-				},
-				nScrutinyType = 1,
-				dwID = 34244,
-				nIcon = 13,
-				nLevel = 1,
-			},
-			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				tKungFu = {
-					["SKILL#10175"] = true,
-					["SKILL#10176"] = true,
-				},
-				dwID = 22851,
-			},
-			{
-				nLevel = 1,
-				nScrutinyType = 2,
-				dwID = 15121,
-				szNote = "Ê´ÐÄ¹Æ",
-				tCountdown = {
-					{
-						nClass = 8,
-						key = "Ê´ÐÄ¹Æ¡¤{$sender}",
-						nTime = 1.31,
-						szName = "Ê´ÐÄ¹ÆÔË¹¦¡ú{$receiver}",
-						nIcon = 7233,
-						nFrame = 1,
-					},
-					{
-						nClass = 9,
-						key = "Ê´ÐÄ¹Æ¡¤{$sender}",
-						nTime = 6,
-						szName = "Ê´ÐÄ¹ÆÃüÖÐ¡¤{$receiver}",
-						nIcon = 7233,
-						nFrame = 1,
-					},
-				},
-			},
-			{
-				nLevel = 1,
-				nScrutinyType = 2,
-				dwID = 34654,
-				szNote = "»³Ôó¹Æ",
-				tCountdown = {
-					{
-						nClass = 9,
-						key = "»³Ôó¹Æ¡¤{$sender}",
-						nTime = 6,
-						szName = "»³Ôó¹Æ¡ú{$receiver}",
-						nIcon = 19189,
-						nFrame = 1,
-					},
-				},
-			},
-			{
-				nLevel = 1,
-				nScrutinyType = 2,
-				dwID = 32824,
-				szNote = "¿×È¸Òý",
-				tCountdown = {
-					{
-						nClass = 9,
-						key = "¿×È¸Òý¡¤{$sender}",
-						nTime = 5,
-						szName = "¿×È¸Òý¡¤{$sender}",
-						nIcon = 17708,
-						nFrame = 6,
-					},
-				},
-			},
-			{
-				nLevel = 1,
-				nScrutinyType = 2,
-				dwID = 25058,
-				szNote = "Ê¥ÔªÕó",
-				tCountdown = {
-					{
-						nClass = 9,
-						key = "Ê¥ÔªÕó¡¤{$sender}",
-						nTime = 6,
-						szName = "Ê¥ÔªÕó¡ú{$receiver}",
-						nIcon = 13447,
-						nFrame = 8,
-					},
-				},
-			},
-		},
-	},
-	TALK = {},
-	NPC = {},
 	DEBUFF = {},
+	DOODAD = {},
+	NPC = {},
+	TALK = {},
 	__meta = {
-		szServer = "Î¨ÎÒ¶À×ð",
+		nTimeStamp = 1791190289,
 		szAuthor = "ºÉ»¨Àð",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1784200735,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "Î¨ÎÒ¶À×ð",
 	},
-	DOODAD = {},
 }

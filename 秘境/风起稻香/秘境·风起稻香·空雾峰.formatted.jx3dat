@@ -1,48 +1,21 @@
 return {
 	BUFF = {},
-	CHAT = {},
 	CASTING = {},
-	TALK = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {},
 	NPC = {
 		[19] = {
-			{
-				dwID = 831,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "°¢¸Ó",
-				nFrame = 50,
-			},
+			{aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=831,nFrame=50,szNote="°¢¸Ó"},
 		},
 	},
-	DEBUFF = {},
+	TALK = {},
 	__meta = {
-		szServer = "Î¨ÎÒ¶À×ð",
+		nTimeStamp = 1791190289,
 		szAuthor = "ºÉ»¨Àð",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1729173117,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "Î¨ÎÒ¶À×ð",
 	},
-	DOODAD = {},
 }

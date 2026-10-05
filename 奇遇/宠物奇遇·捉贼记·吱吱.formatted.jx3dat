@@ -1,339 +1,37 @@
 return {
 	BUFF = {},
-	CHAT = {},
 	CASTING = {},
-	TALK = {
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {
 		[455] = {
-			{
-				tCountdown = {
-					{
-						nIcon = 12373,
-						key = "奇遇提示0",
-						nTime = "5,恭喜触发·捉贼记·吱吱;15,奇遇不封印·约5分钟完成",
-						szName = "奇遇提示0",
-						nRefresh = 0,
-						nClass = 14,
-						nFrame = 0,
-					},
-					{
-						nIcon = 12373,
-						key = "奇遇提示1",
-						nTime = 600,
-						szName = "对话·曾莲·前往·家园车夫处",
-						nClass = 14,
-						nFrame = 7,
-					},
-					{
-						nIcon = 12373,
-						key = "奇遇提示2",
-						nTime = 600,
-						szName = "对话·严丫头·对话居业行伙计",
-						nClass = 14,
-						nFrame = 7,
-					},
-					{
-						nIcon = 12373,
-						key = "奇遇提示3",
-						nTime = 600,
-						szName = "回复·严丫头·交互·钱箱",
-						nClass = 14,
-						nFrame = 7,
-					},
-				},
-				szContent = "这酒不错吧？我费了好大劲才从严丫头那儿买来的。",
-				szTarget = "曾莲",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 12373,
-						key = "奇遇提示1",
-						nTime = 600,
-						szName = "对话·伙计·对话·老板",
-						nFrame = 7,
-						nClass = 14,
-					},
-					{
-						nIcon = 12373,
-						key = "奇遇提示2",
-						nTime = 600,
-						szName = "回复·严丫头·交互·树",
-						nFrame = 7,
-						nClass = 14,
-					},
-					{
-						nIcon = 12373,
-						key = "奇遇提示3",
-						nTime = 600,
-						szName = "对话小松鼠·返回严丫头",
-						nFrame = 7,
-						nClass = 14,
-					},
-				},
-				szContent = "你仔细观察，发现了一些坚果碎屑。",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 12373,
-						key = "奇遇提示1",
-						nTime = 60,
-						szName = "对话·小松鼠·返回·严丫头",
-						nClass = 14,
-						nFrame = 7,
-					},
-					{
-						nIcon = 12373,
-						key = "奇遇提示2",
-						nTime = 60,
-						szName = "完成宠物奇遇·捉贼记·吱吱",
-						nClass = 14,
-						nFrame = 7,
-					},
-					{
-						nIcon = 12373,
-						key = "奇遇提示3",
-						nTime = 0,
-						szName = "奇遇提示3",
-						nClass = 14,
-						nFrame = 7,
-					},
-				},
-				szContent = "好像有一个小动物掉了下来。",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						nTime = 10,
-						szName = "重新交互·一棵树",
-						nFrame = 2,
-						nIcon = 13,
-					},
-				},
-				szContent = "掉下来的小动物又跑回了树上。",
-			},
+			{aFocus={{nMaxDistance=6,szDisplay="钱箱·捉贼记",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=9004,szName="钱箱",szNote="捉贼记·钱箱"},
+			{aFocus={{nMaxDistance=12,szDisplay="一棵树·捉贼记",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=9005,szName="一棵树",szNote="捉贼记·一棵树"},
 		},
 	},
 	NPC = {
 		[455] = {
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "小松鼠·捉贼记",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "捉贼记·小松鼠",
-				dwID = 104914,
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 104935,
-				aFocus = {
-					{
-						szDisplay = "曾莲·捉贼记",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "捉贼记·曾莲",
-				col = {
-					0,
-					255,
-					255,
-				},
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "严丫头·捉贼记",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "捉贼记·严丫头",
-				dwID = 104936,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "居业行伙计·捉贼记",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "捉贼记·居业行伙计",
-				dwID = 104937,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "茶铺老板·捉贼记",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "捉贼记·茶铺老板",
-				dwID = 104938,
-			},
+			{aFocus={{nMaxDistance=60,szDisplay="小松鼠·捉贼记",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=104914,nFrame=47,szNote="捉贼记·小松鼠"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="曾莲·捉贼记",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=104935,nFrame=47,szNote="捉贼记·曾莲"},
+			{aFocus={{nMaxDistance=40,szDisplay="严丫头·捉贼记",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=104936,nFrame=47,szNote="捉贼记·严丫头"},
+			{aFocus={{nMaxDistance=6,szDisplay="居业行伙计·捉贼记",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=104937,nFrame=47,szNote="捉贼记·居业行伙计"},
+			{aFocus={{nMaxDistance=6,szDisplay="茶铺老板·捉贼记",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=104938,nFrame=47,szNote="捉贼记·茶铺老板"},
 		},
 	},
-	DEBUFF = {},
+	TALK = {
+		[455] = {
+			{szContent="这酒不错吧？我费了好大劲才从严丫头那儿买来的。",szTarget="曾莲",tCountdown={{key="奇遇提示0",nClass=14,nFrame=0,nIcon=12373,nRefresh=0,nTime="5,恭喜触发·捉贼记·吱吱;15,奇遇不封印·约5分钟完成",szName="奇遇提示0"},{key="奇遇提示1",nClass=14,nFrame=7,nIcon=12373,nTime=600,szName="对话·曾莲·前往·家园车夫处"},{key="奇遇提示2",nClass=14,nFrame=7,nIcon=12373,nTime=600,szName="对话·严丫头·对话居业行伙计"},{key="奇遇提示3",nClass=14,nFrame=7,nIcon=12373,nTime=600,szName="回复·严丫头·交互·钱箱"}}},
+			{szContent="你仔细观察，发现了一些坚果碎屑。",tCountdown={{key="奇遇提示1",nClass=14,nFrame=7,nIcon=12373,nTime=600,szName="对话·伙计·对话·老板"},{key="奇遇提示2",nClass=14,nFrame=7,nIcon=12373,nTime=600,szName="回复·严丫头·交互·树"},{key="奇遇提示3",nClass=14,nFrame=7,nIcon=12373,nTime=600,szName="对话小松鼠·返回严丫头"}}},
+			{szContent="好像有一个小动物掉了下来。",tCountdown={{key="奇遇提示1",nClass=14,nFrame=7,nIcon=12373,nTime=60,szName="对话·小松鼠·返回·严丫头"},{key="奇遇提示2",nClass=14,nFrame=7,nIcon=12373,nTime=60,szName="完成宠物奇遇·捉贼记·吱吱"},{key="奇遇提示3",nClass=14,nFrame=7,nIcon=12373,nTime=0,szName="奇遇提示3"}}},
+			{szContent="掉下来的小动物又跑回了树上。",tCountdown={{nClass=14,nFrame=2,nIcon=13,nTime=10,szName="重新交互·一棵树"}}},
+		},
+	},
 	__meta = {
-		szServer = "唯我独尊",
+		nTimeStamp = 1791190288,
 		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1742570780,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
-	},
-	DOODAD = {
-		[455] = {
-			{
-				dwID = 9004,
-				aFocus = {
-					{
-						szDisplay = "钱箱·捉贼记",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "捉贼记·钱箱",
-				szName = "钱箱",
-			},
-			{
-				dwID = 9005,
-				aFocus = {
-					{
-						szDisplay = "一棵树·捉贼记",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 12,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "捉贼记·一棵树",
-				szName = "一棵树",
-			},
-		},
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
 }

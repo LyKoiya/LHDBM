@@ -5,27 +5,12 @@ return {
 	DEBUFF = {},
 	DOODAD = {
 		[70] = {
-			{
-				aFocus = {
-					{
-						nMaxDistance = 40,
-						szDisplay = "",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 1963,
-			},
+			{aFocus={{nMaxDistance=40,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=1963},
 		},
 	},
 	NPC = {},
 	TALK = {},
+	__meta = {
+		nTimeStamp = 1791190289,
+	},
 }

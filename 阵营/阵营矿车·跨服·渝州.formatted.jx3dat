@@ -4,330 +4,40 @@ return {
 	CHAT = {},
 	DEBUFF = {
 		[838] = {
-			{
-				{
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				aCataclysmBuff = {
-					{
-						bScreenHead = true,
-						col = "#FFFF00FF",
-						colScreenHead = "#FFFF00",
-						nColAlpha = 255,
-						nPriority = 13,
-						szReminder = "晕",
-					},
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 7504,
-				nLevel = 1,
-				nScrutinyType = 2,
-				szName = "眩晕·御城",
-				szNote = "御城·精准",
-			},
-			{
-				{
-					bBuffList = true,
-					bTeamPanel = true,
-				},
-				aCataclysmBuff = {
-					{
-						col = "#1F3FFFAA",
-						colScreenHead = "#1F3FFF",
-						nColAlpha = 255,
-						nPriority = 37,
-					},
-				},
-				col = {
-					31,
-					63,
-					255,
-				},
-				dwID = 7503,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "减速·御城",
-				szNote = "御城·断股",
-			},
+			{{bBuffList=true,bScreenHead=true},aCataclysmBuff={{bScreenHead=true,col="#FFFF00FF",colScreenHead="#FFFF00",nColAlpha=255,nPriority=13,szReminder="晕"}},col={255,255,0},dwID=7504,nLevel=1,nScrutinyType=2,szName="眩晕·御城",szNote="御城·精准"},
+			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#1F3FFFAA",colScreenHead="#1F3FFF",nColAlpha=255,nPriority=37}},col={31,63,255},dwID=7503,nLevel=1,nScrutinyType=1,szName="减速·御城",szNote="御城·断股"},
 		},
 	},
 	DOODAD = {
 		[838] = {
-			{
-				aFocus = {
-					{},
-				},
-				dwID = 12178,
-				szNote = "车载物资箱",
-			},
+			{aFocus={{}},dwID=12178,szNote="车载物资箱"},
 		},
 	},
 	NPC = {
 		[838] = {
-			{
-				aFocus = {
-					{},
-				},
-				dwID = 139947,
-				nFrame = 52,
-				szNote = "浩气盟物资车",
-			},
-			{
-				aFocus = {
-					{},
-				},
-				dwID = 139948,
-				nFrame = 52,
-				szNote = "恶人谷物资车",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 0,
-						szDisplay = "浩气·引航",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 140235,
-				nFrame = 47,
-				szNote = "浩气·旗手·许镇川",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 0,
-						szDisplay = "中立·引航",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 140237,
-				nFrame = 47,
-				szNote = "中立·旗手·严守渡",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 0,
-						szDisplay = "恶人·引航",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 140236,
-				nFrame = 47,
-				szNote = "恶人·旗手·罗横江",
-			},
-			{
-				dwID = 140360,
-				nFrame = 47,
-				szNote = "浩气·押运头领",
-			},
-			{
-				dwID = 140361,
-				nFrame = 47,
-				szNote = "恶人·押运头领",
-			},
+			{aFocus={{}},dwID=139947,nFrame=52,szNote="浩气盟物资车"},
+			{aFocus={{}},dwID=139948,nFrame=52,szNote="恶人谷物资车"},
+			{aFocus={{nMaxDistance=0,szDisplay="浩气·引航",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=140235,nFrame=47,szNote="浩气·旗手·许镇川"},
+			{aFocus={{nMaxDistance=0,szDisplay="中立·引航",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=140237,nFrame=47,szNote="中立·旗手·严守渡"},
+			{aFocus={{nMaxDistance=0,szDisplay="恶人·引航",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=140236,nFrame=47,szNote="恶人·旗手·罗横江"},
+			{dwID=140360,nFrame=47,szNote="浩气·押运头领"},
+			{dwID=140361,nFrame=47,szNote="恶人·押运头领"},
 		},
 	},
 	TALK = {
 		[838] = {
-			{
-				col = {
-					255,
-					100,
-					100,
-				},
-				szContent = "恶人：赤矶的车起了！都贴紧牛车，谁来劫货就打回去！",
-				szTarget = "韩铁桥",
-				tCountdown = {
-					{
-						key = "恶人·矿车",
-						nClass = 14,
-						nFrame = 3,
-						nIcon = 13,
-						nRefresh = 5,
-						nTime = 363,
-						szName = "恶人·护送矿车",
-					},
-				},
-			},
-			{
-				col = {
-					100,
-					100,
-					255,
-				},
-				szContent = "浩气：青崖的车起了！沿坡护送，送到转运点再散！",
-				szTarget = "苏行山",
-				tCountdown = {
-					{
-						key = "浩气·矿车",
-						nClass = 14,
-						nFrame = 7,
-						nIcon = 13,
-						nRefresh = 5,
-						nTime = 363,
-						szName = "浩气·护送矿车",
-					},
-				},
-			},
-			{
-				col = {
-					255,
-					100,
-					100,
-				},
-				szContent = "到了！点数入仓，弟兄们收队回谷。",
-				szTarget = "韩铁桥",
-				tCountdown = {
-					{
-						key = "恶人·矿车",
-						nClass = 14,
-						nFrame = 3,
-						nIcon = 13,
-						nRefresh = 1,
-						nTime = 90,
-						szName = "恶人·跟车奖励",
-					},
-				},
-			},
-			{
-				col = {
-					100,
-					100,
-					255,
-				},
-				szContent = "货到了！记清点数，弟兄们收队。",
-				szTarget = "苏行山",
-				tCountdown = {
-					{
-						key = "浩气·矿车",
-						nClass = 14,
-						nFrame = 7,
-						nIcon = 13,
-						nRefresh = 1,
-						nTime = 90,
-						szName = "浩气·跟车奖励",
-					},
-				},
-			},
-			{
-				col = {
-					255,
-					100,
-					100,
-				},
-				szContent = "到了到了！恶人谷的诸位辛苦，这一路押得漂亮！",
-				szNote = "恶人·跟车奖励",
-				szTarget = "工头",
-				tCountdown = {
-					{
-						key = "恶人·矿车",
-						nClass = 14,
-						nFrame = 3,
-						nIcon = 13,
-						nRefresh = 1,
-						nTime = 90,
-						szName = "恶人·跟车奖励",
-					},
-				},
-			},
-			{
-				col = {
-					100,
-					100,
-					255,
-				},
-				szContent = "到了到了！浩气盟的诸位辛苦，这一路押得漂亮！",
-				szNote = "浩气·跟车奖励",
-				szTarget = "工头",
-				tCountdown = {
-					{
-						key = "浩气·矿车",
-						nClass = 14,
-						nFrame = 7,
-						nIcon = 13,
-						nRefresh = 1,
-						nTime = 90,
-						szName = "浩气·跟车奖励",
-					},
-				},
-			},
-			{
-				col = {
-					100,
-					100,
-					255,
-				},
-				szContent = "换东家了！这回是浩气盟的船。",
-				szNote = "浩气·占领·引航大旗",
-				szTarget = "工头",
-				tCountdown = {
-					{
-						key = "引航大旗",
-						nClass = 14,
-						nFrame = 0,
-						nIcon = 13,
-						nTime = 30,
-						szName = "浩气·占领·引航大旗",
-					},
-				},
-			},
-			{
-				col = {
-					255,
-					100,
-					100,
-				},
-				szContent = "换东家了！这回是恶人谷的船。",
-				szNote = "恶人·占领·引航大旗",
-				szTarget = "工头",
-				tCountdown = {
-					{
-						key = "引航大旗",
-						nClass = 14,
-						nFrame = 0,
-						nIcon = 13,
-						nTime = 30,
-						szName = "恶人·占领·引航大旗",
-					},
-				},
-			},
+			{col={255,100,100},szContent="恶人：赤矶的车起了！都贴紧牛车，谁来劫货就打回去！",szTarget="韩铁桥",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=5,nTime=363,szName="恶人·护送矿车"}}},
+			{col={100,100,255},szContent="浩气：青崖的车起了！沿坡护送，送到转运点再散！",szTarget="苏行山",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=5,nTime=363,szName="浩气·护送矿车"}}},
+			{col={255,100,100},szContent="到了！点数入仓，弟兄们收队回谷。",szTarget="韩铁桥",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=1,nTime=90,szName="恶人·跟车奖励"}}},
+			{col={100,100,255},szContent="货到了！记清点数，弟兄们收队。",szTarget="苏行山",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=1,nTime=90,szName="浩气·跟车奖励"}}},
+			{col={255,100,100},szContent="到了到了！恶人谷的诸位辛苦，这一路押得漂亮！",szNote="恶人·跟车奖励",szTarget="工头",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=1,nTime=90,szName="恶人·跟车奖励"}}},
+			{col={100,100,255},szContent="到了到了！浩气盟的诸位辛苦，这一路押得漂亮！",szNote="浩气·跟车奖励",szTarget="工头",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=1,nTime=90,szName="浩气·跟车奖励"}}},
+			{col={100,100,255},szContent="换东家了！这回是浩气盟的船。",szNote="浩气·占领·引航大旗",szTarget="工头",tCountdown={{key="引航大旗",nClass=14,nFrame=0,nIcon=13,nTime=30,szName="浩气·占领·引航大旗"}}},
+			{col={255,100,100},szContent="换东家了！这回是恶人谷的船。",szNote="恶人·占领·引航大旗",szTarget="工头",tCountdown={{key="引航大旗",nClass=14,nFrame=0,nIcon=13,nTime=30,szName="恶人·占领·引航大旗"}}},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791184992,
+		nTimeStamp = 1791190289,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_exp",

@@ -4,285 +4,41 @@ return {
 	CHAT = {},
 	DEBUFF = {
 		[301] = {
-			{
-				{
-					bBuffList = true,
-					bPartyBuffList = true,
-					bScreenHead = true,
-					bTeamPanel = true,
-				},
-				aCataclysmBuff = {
-					{
-						bScreenHead = true,
-						colScreenHead = "#DF3F3F",
-						nPriority = 3,
-						szReminder = "暴",
-					},
-				},
-				col = {
-					255,
-					50,
-					50,
-				},
-				dwID = 13377,
-				nLevel = 1,
-				szNote = "腐血",
-				tCountdown = {
-					{
-						nClass = 1,
-						nIcon = 4513,
-						nTime = 15,
-						szName = "腐血·DPS提前死亡",
-					},
-				},
-			},
+			{{bBuffList=true,bPartyBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,colScreenHead="#DF3F3F",nPriority=3,szReminder="暴"}},col={255,50,50},dwID=13377,nLevel=1,szNote="腐血",tCountdown={{nClass=1,nIcon=4513,nTime=15,szName="腐血·DPS提前死亡"}}},
 		},
 	},
 	DOODAD = {
 		[299] = {
-			{
-				aFocus = {
-					{
-						nMaxDistance = 30,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 7128,
-			},
+			{aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=7128},
 		},
 	},
 	NPC = {
 		[-9] = {
-			{
-				aFocus = {
-					{},
-				},
-				dwID = 60765,
-				nFrame = 47,
-			},
+			{aFocus={{}},dwID=60765,nFrame=47},
 		},
 		[299] = {
-			{
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 60953,
-				nFrame = 47,
-				szNote = "狼牙铂金宝箱",
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						szDisplay = "岩鬼·传送",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 128492,
-				nFrame = 47,
-				szNote = "岩鬼",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 30,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 60759,
-				nFrame = 57,
-				szNote = "狼牙嗜血禁卫",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "无支祁·剧情",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 60790,
-				nFrame = 47,
-				szNote = "无支祁",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 90,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 60704,
-				nFrame = 50,
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 60718,
-				nFrame = 57,
-				szNote = "靳空明",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 90,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 60707,
-				nFrame = 57,
-				szNote = "史思明",
-			},
+			{aFocus={{nMaxDistance=60,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=60953,nFrame=47,szNote="狼牙铂金宝箱"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="岩鬼·传送",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=128492,nFrame=47,szNote="岩鬼"},
+			{aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=60759,nFrame=57,szNote="狼牙嗜血禁卫"},
+			{aFocus={{nMaxDistance=6,szDisplay="无支祁·剧情",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=60790,nFrame=47,szNote="无支祁"},
+			{aFocus={{nMaxDistance=90,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=60704,nFrame=50},
+			{aFocus={{nMaxDistance=60,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=60718,nFrame=57,szNote="靳空明"},
+			{aFocus={{nMaxDistance=90,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=60707,nFrame=57,szNote="史思明"},
 		},
 		[301] = {
-			{
-				aFocus = {
-					{
-						nMaxDistance = 60,
-					},
-				},
-				dwID = 60955,
-				nFrame = 47,
-				szNote = "狼牙铂金宝箱",
-			},
+			{aFocus={{nMaxDistance=60}},dwID=60955,nFrame=47,szNote="狼牙铂金宝箱"},
 		},
 	},
 	TALK = {
 		[299] = {
-			{
-				szContent = "哼，不只如此……",
-				szTarget = "靳空明",
-				tCountdown = {
-					{
-						key = "剧情提示",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 40,
-						szName = "靳空明·剧情剩余",
-					},
-				},
-			},
-			{
-				szContent = "在这边！",
-				szNote = "无支祁·正在打开·北门",
-				szTarget = "无支祁",
-				tCountdown = {
-					{
-						key = "剧情提示",
-						nClass = 14,
-						nIcon = 13,
-						nTime = 3,
-						szName = "无支祁·正在打开·北门",
-					},
-				},
-			},
-			{
-				[14] = {
-					bScreenHead = true,
-				},
-				szContent = "你没事吧？！恩公！",
-				szNote = "打开北门",
-				szTarget = "无支祁",
-			},
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szContent = "门已经开了……",
-				szNote = "老二·乌索·已打开北门",
-				szTarget = "无支祁",
-			},
+			{szContent="哼，不只如此……",szTarget="靳空明",tCountdown={{key="剧情提示",nClass=14,nIcon=13,nTime=40,szName="靳空明·剧情剩余"}}},
+			{szContent="在这边！",szNote="无支祁·正在打开·北门",szTarget="无支祁",tCountdown={{key="剧情提示",nClass=14,nIcon=13,nTime=3,szName="无支祁·正在打开·北门"}}},
+			{[14]={bScreenHead=true},szContent="你没事吧？！恩公！",szNote="打开北门",szTarget="无支祁"},
+			{[14]={bCenterAlarm=true},szContent="门已经开了……",szNote="老二·乌索·已打开北门",szTarget="无支祁"},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791131037,
+		nTimeStamp = 1791190289,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

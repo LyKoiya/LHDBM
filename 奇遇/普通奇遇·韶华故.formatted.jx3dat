@@ -1,261 +1,33 @@
 return {
-	CHAT = {},
-	TALK = {
-		[-1] = {
-			{
-				tCountdown = {
-					{
-						bHold = true,
-						key = "奇遇提示1",
-						nIcon = 12371,
-						nTime = 600,
-						nFrame = 7,
-						nClass = 14,
-						szName = "万花·三星望月·对话·吴岱",
-					},
-					{
-						bHold = true,
-						key = "奇遇提示2",
-						nIcon = 12371,
-						nTime = 600,
-						nFrame = 7,
-						nClass = 14,
-						szName = "前往·落星湖·对话·宇晴",
-					},
-					{
-						bHold = true,
-						key = "奇遇提示3",
-						nIcon = 12371,
-						nTime = 600,
-						nFrame = 7,
-						nClass = 14,
-						szName = "对话·裴元·前往·逍遥林",
-					},
-					{
-						bHold = true,
-						key = "奇遇提示4",
-						nIcon = 12371,
-						nTime = 600,
-						nFrame = 7,
-						nClass = 14,
-						szName = "击杀·灵猴·返回·裴元",
-					},
-					{
-						bHold = true,
-						key = "奇遇提示5",
-						nIcon = 12371,
-						nTime = 600,
-						nFrame = 7,
-						nClass = 14,
-						szName = "前往·晴昼海·采集·曼陀罗",
-					},
-					{
-						bHold = true,
-						key = "奇遇提示6",
-						nIcon = 12371,
-						nTime = 600,
-						nFrame = 7,
-						nClass = 14,
-						szName = "返回·裴元·交互·炉子",
-					},
-					{
-						bHold = true,
-						key = "奇遇提示7",
-						nIcon = 12371,
-						nTime = 600,
-						nFrame = 7,
-						nClass = 14,
-						szName = "对话·伍秋·叶晓·张慧·南笙",
-					},
-				},
-				szContent = "侠士古道热肠，帮助他人之时，意外发现了[丝帕]！",
-			},
-		},
-	},
 	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
 	DOODAD = {
 		[2] = {
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "曼陀罗花·韶华故",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-					},
-				},
-				szNote = "韶华故·曼陀罗花",
-				dwID = 6880,
-			},
+			{aFocus={{nMaxDistance=60,szDisplay="曼陀罗花·韶华故",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=6880,szNote="韶华故·曼陀罗花"},
 		},
 	},
 	NPC = {
 		[2] = {
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "吴岱·韶华故",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-					},
-				},
-				nFrame = 47,
-				szNote = "韶华故·吴岱",
-				dwID = 113,
-			},
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "伍秋·韶华故",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-					},
-				},
-				szNote = "韶华故·伍秋",
-				nFrame = 47,
-				dwID = 59206,
-			},
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "叶晓·韶华故",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-					},
-				},
-				szNote = "韶华故·叶晓",
-				nFrame = 47,
-				dwID = 59204,
-			},
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "张慧·韶华故",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 10,
-					},
-				},
-				szNote = "韶华故·张慧",
-				nFrame = 47,
-				dwID = 59205,
-			},
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "南笙·韶华故",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 3,
-					},
-				},
-				szNote = "韶华故·南笙",
-				nFrame = 47,
-				dwID = 59207,
-			},
+			{aFocus={{nMaxDistance=20,szDisplay="吴岱·韶华故",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=113,nFrame=47,szNote="韶华故·吴岱"},
+			{aFocus={{nMaxDistance=6,szDisplay="伍秋·韶华故",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=59206,nFrame=47,szNote="韶华故·伍秋"},
+			{aFocus={{nMaxDistance=6,szDisplay="叶晓·韶华故",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=59204,nFrame=47,szNote="韶华故·叶晓"},
+			{aFocus={{nMaxDistance=10,szDisplay="张慧·韶华故",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=59205,nFrame=47,szNote="韶华故·张慧"},
+			{aFocus={{nMaxDistance=3,szDisplay="南笙·韶华故",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=59207,nFrame=47,szNote="韶华故·南笙"},
 		},
 	},
-	CASTING = {},
-	DEBUFF = {},
+	TALK = {
+		[-1] = {
+			{szContent="侠士古道热肠，帮助他人之时，意外发现了[丝帕]！",tCountdown={{bHold=true,key="奇遇提示1",nClass=14,nFrame=7,nIcon=12371,nTime=600,szName="万花·三星望月·对话·吴岱"},{bHold=true,key="奇遇提示2",nClass=14,nFrame=7,nIcon=12371,nTime=600,szName="前往·落星湖·对话·宇晴"},{bHold=true,key="奇遇提示3",nClass=14,nFrame=7,nIcon=12371,nTime=600,szName="对话·裴元·前往·逍遥林"},{bHold=true,key="奇遇提示4",nClass=14,nFrame=7,nIcon=12371,nTime=600,szName="击杀·灵猴·返回·裴元"},{bHold=true,key="奇遇提示5",nClass=14,nFrame=7,nIcon=12371,nTime=600,szName="前往·晴昼海·采集·曼陀罗"},{bHold=true,key="奇遇提示6",nClass=14,nFrame=7,nIcon=12371,nTime=600,szName="返回·裴元·交互·炉子"},{bHold=true,key="奇遇提示7",nClass=14,nFrame=7,nIcon=12371,nTime=600,szName="对话·伍秋·叶晓·张慧·南笙"}}},
+		},
+	},
 	__meta = {
-		nTimeStamp = 1720337490,
+		nTimeStamp = 1791190289,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "",
 		szEdition = "zhcn_hd",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
 		szServer = "唯我独尊",
-		szAuthor = "荷花鲤",
-		szCustomVoicePacketUUID = "",
 	},
 }

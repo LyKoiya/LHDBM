@@ -1,446 +1,47 @@
 return {
 	BUFF = {},
+	CASTING = {},
 	CHAT = {
 		[-1] = {
-			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "屠杀模式",
-						nTime = 300,
-						szName = "癫狂状态·结束剩余",
-						nIcon = 13,
-						nFrame = 4,
-					},
-				},
-				szContent = "你将在300秒后结束癫狂状态。\
-",
-				szNote = "屠杀模式",
-			},
-		},
-	},
-	CASTING = {},
-	TALK = {
-		[152] = {
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "监狱事件",
-						nTime = 10,
-						szName = "{$sender}·已经刷新",
-						nIcon = 13,
-						nFrame = 4,
-					},
-				},
-				szTarget = "%",
-				szContent = "监狱中的蝼蚁，看我这次怎么虐杀你们！",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "监狱事件",
-						nTime = 10,
-						szName = "{$sender}·已击伤",
-						nIcon = 13,
-						nFrame = 4,
-					},
-				},
-				szTarget = "%",
-				szContent = "各位少侠饶命,我这有一批消罪状,可消减少许各位身上的杀气！",
-			},
-		},
-	},
-	NPC = {
-		[152] = {
-			{
-				dwID = 55531,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = "<",
-							nValue = 99,
-							bEnable = true,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 90,
-						tLife = {
-							szOperator = "==",
-							nValue = 100,
-							bEnable = true,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "凌霜泽",
-				nFrame = 57,
-			},
-			{
-				dwID = 55532,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = "<",
-							nValue = 99,
-							bEnable = true,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 90,
-						tLife = {
-							szOperator = "==",
-							nValue = 100,
-							bEnable = true,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "陆寅",
-				nFrame = 57,
-			},
-			{
-				dwID = 55533,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = "<",
-							nValue = 99,
-							bEnable = true,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 90,
-						tLife = {
-							szOperator = "==",
-							nValue = 100,
-							bEnable = true,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "阿释青",
-				nFrame = 57,
-			},
-			{
-				dwID = 55534,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = "<",
-							nValue = 99,
-							bEnable = true,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 90,
-						tLife = {
-							szOperator = "==",
-							nValue = 100,
-							bEnable = true,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "高梧",
-				nFrame = 57,
-			},
-			{
-				dwID = 55552,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = "<",
-							nValue = 100,
-							bEnable = true,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "硕鼠",
-				nFrame = 50,
-			},
-			{
-				dwID = 25591,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = "<",
-							nValue = 99,
-							bEnable = true,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "监狱巡卫",
-				nFrame = 57,
-			},
-			{
-				nFrame = 47,
-				col = {
-					50,
-					255,
-					50,
-				},
-				dwID = 20737,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "牢房信使",
-				[3] = {
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 47,
-				col = {
-					50,
-					255,
-					50,
-				},
-				dwID = 20738,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "牢房铁匠",
-				[3] = {
-					bScreenHead = true,
-				},
-			},
+			{szContent="你将在300秒后结束癫狂状态。\
+",szNote="屠杀模式",tCountdown={{key="屠杀模式",nClass=20,nFrame=4,nIcon=13,nTime=300,szName="癫狂状态·结束剩余"}}},
 		},
 	},
 	DEBUFF = {
-		[152] = {
-			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				dwID = 4665,
-				szName = "禁操作",
-				[1] = {
-					bBuffList = true,
-				},
-				szNote = "禁操作",
-				nIcon = 13172,
-			},
-			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "锁链",
-				dwID = 6909,
-				[1] = {
-					bBuffList = true,
-				},
-				szNote = "大唐监狱_锁链",
-				nIcon = 13166,
-			},
-		},
 		[-1] = {
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 1,
-				dwID = 10794,
-				col = {
-					255,
-					50,
-					50,
-				},
-			},
-			{
-				{
-					bScreenHead = true,
-				},
-				nLevel = 1,
-				nScrutinyType = 1,
-				col = {
-					255,
-					50,
-					50,
-				},
-				dwID = 4704,
-				szNote = "野外被抓",
-			},
+			{{bBuffList=true},col={255,50,50},dwID=10794,nLevel=1},
+			{{bScreenHead=true},col={255,50,50},dwID=4704,nLevel=1,nScrutinyType=1,szNote="野外被抓"},
+		},
+		[152] = {
+			{{bBuffList=true},dwID=4665,nIcon=13172,nLevel=1,nScrutinyType=1,szName="禁操作",szNote="禁操作"},
+			{{bBuffList=true},dwID=6909,nIcon=13166,nLevel=1,nScrutinyType=1,szName="锁链",szNote="大唐监狱_锁链"},
+		},
+	},
+	DOODAD = {},
+	NPC = {
+		[152] = {
+			{aFocus={{nMaxDistance=30,tLife={bEnable=true,nValue=99,szOperator="<"},tRelation={bAll=false,bAlly=false,bEnemy=true}},{nMaxDistance=90,tLife={bEnable=true,nValue=100,szOperator="=="},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=55531,nFrame=57,szNote="凌霜泽"},
+			{aFocus={{nMaxDistance=30,tLife={bEnable=true,nValue=99,szOperator="<"},tRelation={bAll=false,bAlly=false,bEnemy=true}},{nMaxDistance=90,tLife={bEnable=true,nValue=100,szOperator="=="},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=55532,nFrame=57,szNote="陆寅"},
+			{aFocus={{nMaxDistance=30,tLife={bEnable=true,nValue=99,szOperator="<"},tRelation={bAll=false,bAlly=false,bEnemy=true}},{nMaxDistance=90,tLife={bEnable=true,nValue=100,szOperator="=="},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=55533,nFrame=57,szNote="阿释青"},
+			{aFocus={{nMaxDistance=30,tLife={bEnable=true,nValue=99,szOperator="<"},tRelation={bAll=false,bAlly=false,bEnemy=true}},{nMaxDistance=90,tLife={bEnable=true,nValue=100,szOperator="=="},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=55534,nFrame=57,szNote="高梧"},
+			{aFocus={{nMaxDistance=20,tLife={bEnable=true,nValue=100,szOperator="<"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=55552,nFrame=50,szNote="硕鼠"},
+			{aFocus={{nMaxDistance=20,tLife={bEnable=true,nValue=99,szOperator="<"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=25591,nFrame=57,szNote="监狱巡卫"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={50,255,50},dwID=20737,nFrame=47,szNote="牢房信使"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={50,255,50},dwID=20738,nFrame=47,szNote="牢房铁匠"},
+		},
+	},
+	TALK = {
+		[152] = {
+			{szContent="监狱中的蝼蚁，看我这次怎么虐杀你们！",szTarget="%",tCountdown={{key="监狱事件",nClass=14,nFrame=4,nIcon=13,nTime=10,szName="{$sender}·已经刷新"}}},
+			{szContent="各位少侠饶命,我这有一批消罪状,可消减少许各位身上的杀气！",szTarget="%",tCountdown={{key="监狱事件",nClass=14,nFrame=4,nIcon=13,nTime=10,szName="{$sender}·已击伤"}}},
 		},
 	},
 	__meta = {
-		szServer = "太极秘录",
+		nTimeStamp = 1791190288,
 		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1750611052,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_exp",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "太极秘录",
 	},
-	DOODAD = {},
 }

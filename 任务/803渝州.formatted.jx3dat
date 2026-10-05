@@ -7,24 +7,11 @@ return {
 	NPC = {},
 	TALK = {
 		[803] = {
-			{
-				szContent = "不好……他要拼命了！站我后头！老子替你挡！",
-				szTarget = "唐猫儿",
-				tCountdown = {
-					{
-						key = "任务提示1",
-						nClass = 14,
-						nFrame = 6,
-						nIcon = 13,
-						nTime = 10,
-						szName = "退至唐猫儿身后",
-					},
-				},
-			},
+			{szContent="不好……他要拼命了！站我后头！老子替你挡！",szTarget="唐猫儿",tCountdown={{key="任务提示1",nClass=14,nFrame=6,nIcon=13,nTime=10,szName="退至唐猫儿身后"}}},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790705718,
+		nTimeStamp = 1791190288,
 		szAuthor = "荷花鲤",
 		szEdition = "zhcn_hd",
 		szServer = "唯我独尊",
