@@ -1,733 +1,93 @@
 return {
 	BUFF = {},
-	CHAT = {},
 	CASTING = {},
-	TALK = {
-		[100] = {
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "任务提示1",
-						nTime = 10,
-						szName = "黑天姬·已败退",
-						nClass = 14,
-						nIcon = 13,
-					},
-				},
-				szContent = "黑天姬，你这又是何必？唉......",
-				szTarget = "吉卓",
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "任务提示1",
-						nTime = 52,
-						szName = "黑天姬·剧情剩余",
-						nClass = 14,
-						nIcon = 13,
-					},
-				},
-				szContent = "明教以我为饵，目的就是引人来救，你们不可中计，速度离开！",
-				szTarget = "吉卓",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "任务提示1",
-						nTime = 10,
-						szName = "侠义！白龙口·黑天姬",
-						nFrame = 6,
-						nIcon = 13,
-					},
-				},
-				szTarget = "黑天姬",
-				szContent = "又冒出来几个不怕死的，口气还不小，那你们就一起上吧！",
-			},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {
+		[9] = {
+			{[17]={bCenterAlarm=true},aFocus={{nMaxDistance=0,szDisplay="急报成就",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=9504,szName="急报成就",szNote="急报成就"},
 		},
 		[10] = {
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "急报成就",
-						nTime = 300,
-						szName = "急报·濯垢奇蛛·拾取剩余",
-						nIcon = 13,
-						nClass = 14,
-					},
-				},
-				szContent = "随着濯垢奇蛛被击退，地上出现了一块尘封之石，似乎记录着一些遗失的隐元秘鉴。",
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szNote = "急报成就·濯垢奇蛛",
-				szTarget = "%",
-			},
-		},
-		[9] = {
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "急报成就",
-						nTime = 300,
-						szName = "急报·沐云冲·拾取剩余",
-						nIcon = 13,
-						nClass = 14,
-					},
-				},
-				szContent = "随着沐云冲被击退，地上出现了一块尘封之石，似乎记录着一些遗失的隐元秘鉴。",
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szNote = "急报成就·沐云冲",
-				szTarget = "%",
-			},
+			{[17]={bCenterAlarm=true},aFocus={{nMaxDistance=0,szDisplay="急报成就",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=9504,szName="急报成就",szNote="急报成就"},
 		},
 		[13] = {
-			{
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "急报成就",
-						nTime = 300,
-						szName = "急报·猿飞鬼助·拾取剩余",
-						nIcon = 13,
-						nClass = 14,
-					},
-				},
-				szContent = "随着猿飞鬼助被击退，地上出现了一块尘封之石，似乎记录着一些遗失的隐元秘鉴。",
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szNote = "急报成就·猿飞鬼助",
-				szTarget = "%",
-			},
-		},
-		[105] = {
-			{
-				tCountdown = {
-					{
-						nFrame = 4,
-						key = "系统事件",
-						nTime = 10,
-						szName = "板凳儿·已离开·间隔5小时",
-						nIcon = 13,
-						nClass = 14,
-					},
-				},
-				szContent = "罗老板，多有叨扰，某先告辞了。",
-				szTarget = "板凳儿",
-			},
+			{[17]={bCenterAlarm=true},aFocus={{nMaxDistance=0,szDisplay="急报成就",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=9504,szName="急报成就",szNote="急报成就"},
 		},
 	},
 	NPC = {
-		[8] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 1101,
-				aFocus = {
-					{
-						szDisplay = "宋笑声·除邪惩恶",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 90,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "伸张正义·宋笑声",
-				col = {
-					255,
-					50,
-					50,
-				},
-			},
-		},
-		[108] = {
-			{
-				nFrame = 57,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 10949,
-				aFocus = {
-					{
-						szDisplay = "巫蛊丘祭祀·除邪惩恶",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 90,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "侠义！成都·伸张正义·巫蛊丘大祭祀",
-				col = {
-					255,
-					50,
-					50,
-				},
-			},
-		},
-		[642] = {
-			{
-				nFrame = 57,
-				col = {
-					255,
-					50,
-					50,
-				},
-				dwID = 123901,
-				aFocus = {
-					{
-						szDisplay = "侠义！万灵山庄",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "侠义！万灵山庄",
-			},
-		},
-		[13] = {
-			{
-				dwID = 5834,
-				aFocus = {
-					{},
-				},
-				szNote = "金水·急报！猿飞鬼助",
-				nFrame = 47,
-			},
-		},
-		[10] = {
-			{
-				dwID = 5843,
-				aFocus = {
-					{},
-				},
-				szNote = "寇岛·急报！濯垢奇蛛",
-				nFrame = 47,
-			},
-		},
-		[578] = {
-			{
-				nFrame = 57,
-				col = {
-					255,
-					50,
-					50,
-				},
-				dwID = 109597,
-				aFocus = {
-					{
-						szDisplay = "侠义！刀宗",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 120,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "侠义·红袍",
-			},
-		},
-		[100] = {
-			{
-				nFrame = 47,
-				szNote = "救吉卓控制",
-				dwID = 10604,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "吉卓",
-				dwID = 8683,
-			},
-			{
-				nFrame = 57,
-				col = {
-					255,
-					50,
-					50,
-				},
-				dwID = 8704,
-				aFocus = {
-					{
-						szDisplay = "侠义！白龙口",
-						tRelation = {
-							bAlly = true,
-							bAll = true,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 90,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "侠义·黑天姬",
-			},
-		},
-		[105] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				dwID = 16566,
-				aFocus = {
-					{
-						szDisplay = "板凳儿·略施援手",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 120,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "略施援手",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-		},
-		[151] = {
-			{
-				nFrame = 57,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				dwID = 25423,
-				aFocus = {
-					{},
-				},
-				szNote = "狂人统领",
-				col = {
-					255,
-					50,
-					50,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				dwID = 25422,
-				aFocus = {
-					{},
-				},
-				szNote = "飞夜叉",
-				col = {
-					255,
-					50,
-					50,
-				},
-			},
-			{
-				nFrame = 57,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				dwID = 25424,
-				aFocus = {
-					{},
-				},
-				szNote = "恶修罗",
-				col = {
-					255,
-					50,
-					50,
-				},
-			},
-			{
-				nFrame = 57,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				dwID = 25421,
-				aFocus = {
-					{},
-				},
-				szNote = "黑水使",
-				col = {
-					255,
-					50,
-					50,
-				},
-			},
-		},
-		[666] = {
-			{
-				nFrame = 57,
-				col = {
-					255,
-					50,
-					50,
-				},
-				dwID = 130383,
-				aFocus = {
-					{
-						szDisplay = "侠义！南诏段氏",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "侠义！南诏段氏",
-			},
-		},
 		[6] = {
-			{
-				nFrame = 57,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 416,
-				aFocus = {
-					{
-						szDisplay = "土肥原次郎·除邪惩恶",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 90,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "侠义！扬州·伸张正义·土肥原次郎",
-				col = {
-					255,
-					50,
-					50,
-				},
-			},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=90,szDisplay="土肥原次郎·除邪惩恶",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,50},dwID=416,nFrame=57,szNote="侠义！扬州·伸张正义·土肥原次郎"},
+		},
+		[8] = {
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=90,szDisplay="宋笑声·除邪惩恶",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,50},dwID=1101,nFrame=47,szNote="伸张正义·宋笑声"},
 		},
 		[9] = {
-			{
-				dwID = 6612,
-				aFocus = {
-					{},
-				},
-				szNote = "洛道·急报！沐云冲",
-				nFrame = 47,
-			},
+			{aFocus={{}},dwID=6612,nFrame=47,szNote="洛道·急报！沐云冲"},
+		},
+		[10] = {
+			{aFocus={{}},dwID=5843,nFrame=47,szNote="寇岛·急报！濯垢奇蛛"},
+		},
+		[13] = {
+			{aFocus={{}},dwID=5834,nFrame=47,szNote="金水·急报！猿飞鬼助"},
 		},
 		[15] = {
-			{
-				nFrame = 57,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 2460,
-				aFocus = {
-					{
-						szDisplay = "白萍·除邪惩恶",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "侠义！长安·伸张正义·白萍",
-				col = {
-					255,
-					50,
-					50,
-				},
-			},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="白萍·除邪惩恶",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,50},dwID=2460,nFrame=57,szNote="侠义！长安·伸张正义·白萍"},
+		},
+		[100] = {
+			{dwID=10604,nFrame=47,szNote="救吉卓控制"},
+			{aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=8683,nFrame=47,szNote="吉卓"},
+			{aFocus={{nMaxDistance=90,szDisplay="侠义！白龙口",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=true,bEnemy=true}}},col={255,50,50},dwID=8704,nFrame=57,szNote="侠义·黑天姬"},
+		},
+		[105] = {
+			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{nMaxDistance=120,szDisplay="板凳儿·略施援手",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=16566,nFrame=47,szNote="略施援手"},
+		},
+		[108] = {
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=90,szDisplay="巫蛊丘祭祀·除邪惩恶",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,50},dwID=10949,nFrame=57,szNote="侠义！成都·伸张正义·巫蛊丘大祭祀"},
+		},
+		[151] = {
+			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{}},col={255,50,50},dwID=25423,nFrame=57,szNote="狂人统领"},
+			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{}},col={255,50,50},dwID=25422,nFrame=47,szNote="飞夜叉"},
+			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{}},col={255,50,50},dwID=25424,nFrame=57,szNote="恶修罗"},
+			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{}},col={255,50,50},dwID=25421,nFrame=57,szNote="黑水使"},
+		},
+		[578] = {
+			{aFocus={{nMaxDistance=120,szDisplay="侠义！刀宗",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},col={255,50,50},dwID=109597,nFrame=57,szNote="侠义·红袍"},
+		},
+		[642] = {
+			{aFocus={{nMaxDistance=60,szDisplay="侠义！万灵山庄",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},col={255,50,50},dwID=123901,nFrame=57,szNote="侠义！万灵山庄"},
+		},
+		[666] = {
+			{aFocus={{nMaxDistance=60,szDisplay="侠义！南诏段氏",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},col={255,50,50},dwID=130383,nFrame=57,szNote="侠义！南诏段氏"},
 		},
 		[673] = {
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "塔吉古丽·侠义",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "侠义！河西瀚漠·塔吉古丽",
-				dwID = 128564,
-			},
+			{aFocus={{nMaxDistance=60,szDisplay="塔吉古丽·侠义",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=128564,nFrame=47,szNote="侠义！河西瀚漠·塔吉古丽"},
 		},
 	},
-	DEBUFF = {},
-	__meta = {
-		szServer = "唯我独尊",
-		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1785415829,
-		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
-		szEdition = "zhcn_hd",
-	},
-	DOODAD = {
-		[10] = {
-			{
-				[17] = {
-					bCenterAlarm = true,
-				},
-				szName = "急报成就",
-				aFocus = {
-					{
-						szDisplay = "急报成就",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 0,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "急报成就",
-				dwID = 9504,
-			},
-		},
+	TALK = {
 		[9] = {
-			{
-				[17] = {
-					bCenterAlarm = true,
-				},
-				szName = "急报成就",
-				aFocus = {
-					{
-						szDisplay = "急报成就",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 0,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "急报成就",
-				dwID = 9504,
-			},
+			{[14]={bCenterAlarm=true},szContent="随着沐云冲被击退，地上出现了一块尘封之石，似乎记录着一些遗失的隐元秘鉴。",szNote="急报成就·沐云冲",szTarget="%",tCountdown={{key="急报成就",nClass=14,nFrame=6,nIcon=13,nTime=300,szName="急报·沐云冲·拾取剩余"}}},
+		},
+		[10] = {
+			{[14]={bCenterAlarm=true},szContent="随着濯垢奇蛛被击退，地上出现了一块尘封之石，似乎记录着一些遗失的隐元秘鉴。",szNote="急报成就·濯垢奇蛛",szTarget="%",tCountdown={{key="急报成就",nClass=14,nFrame=6,nIcon=13,nTime=300,szName="急报·濯垢奇蛛·拾取剩余"}}},
 		},
 		[13] = {
-			{
-				[17] = {
-					bCenterAlarm = true,
-				},
-				szName = "急报成就",
-				aFocus = {
-					{
-						szDisplay = "急报成就",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 0,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "急报成就",
-				dwID = 9504,
-			},
+			{[14]={bCenterAlarm=true},szContent="随着猿飞鬼助被击退，地上出现了一块尘封之石，似乎记录着一些遗失的隐元秘鉴。",szNote="急报成就·猿飞鬼助",szTarget="%",tCountdown={{key="急报成就",nClass=14,nFrame=6,nIcon=13,nTime=300,szName="急报·猿飞鬼助·拾取剩余"}}},
 		},
+		[100] = {
+			{szContent="黑天姬，你这又是何必？唉......",szTarget="吉卓",tCountdown={{key="任务提示1",nClass=14,nFrame=6,nIcon=13,nTime=10,szName="黑天姬·已败退"}}},
+			{szContent="明教以我为饵，目的就是引人来救，你们不可中计，速度离开！",szTarget="吉卓",tCountdown={{key="任务提示1",nClass=14,nFrame=6,nIcon=13,nTime=52,szName="黑天姬·剧情剩余"}}},
+			{szContent="又冒出来几个不怕死的，口气还不小，那你们就一起上吧！",szTarget="黑天姬",tCountdown={{key="任务提示1",nClass=14,nFrame=6,nIcon=13,nTime=10,szName="侠义！白龙口·黑天姬"}}},
+		},
+		[105] = {
+			{szContent="罗老板，多有叨扰，某先告辞了。",szTarget="板凳儿",tCountdown={{key="系统事件",nClass=14,nFrame=4,nIcon=13,nTime=10,szName="板凳儿·已离开·间隔5小时"}}},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1791190289,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
 }

@@ -4,97 +4,25 @@ return {
 	CHAT = {},
 	DEBUFF = {
 		[-21] = {
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					150,
-					0,
-				},
-				dwID = 3897,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "传功",
-				szNote = "掌门人的传功",
-			},
+			{{bBuffList=true},col={255,150,0},dwID=3897,nLevel=1,nScrutinyType=1,szName="传功",szNote="掌门人的传功"},
 		},
 		[473] = {
-			{
-				{
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				dwID = 18552,
-				nLevel = 1,
-				szNote = "门派日常·武学试炼",
-			},
+			{{bBuffList=true,bScreenHead=true},dwID=18552,nLevel=1,szNote="门派日常·武学试炼"},
 		},
 	},
 	DOODAD = {},
 	NPC = {
 		[213] = {
-			{
-				aFocus = {
-					{
-						dwMapID = -1,
-						nMaxDistance = 6,
-						szDisplay = "蛤蟆",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-						tType = {
-							[3] = false,
-							[4] = false,
-							[5] = false,
-							bAll = true,
-						},
-					},
-				},
-				dwID = 45447,
-				nFrame = 65,
-				szName = "蛤蟆",
-				szNote = "门派日常·蛤蟆",
-				tKungFu = {
-					["SKILL#10447"] = true,
-					["SKILL#10448"] = true,
-				},
-			},
+			{aFocus={{nMaxDistance=6,szDisplay="蛤蟆",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=45447,nFrame=65,szName="蛤蟆",szNote="门派日常·蛤蟆",tKungFu={["SKILL#10447"]=true,["SKILL#10448"]=true}},
 		},
 	},
 	TALK = {
 		[213] = {
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				bReg = true,
-				szContent = "我知道我知道，先生说的是(.-)！",
-				szNote = "拾取·{$1}",
-				szTarget = "睿儿",
-				tCountdown = {
-					{
-						key = "门派日常",
-						nClass = 14,
-						nFrame = 6,
-						nIcon = 13,
-						nTime = 30,
-						szName = "拾取·{$1}",
-					},
-				},
-			},
+			{[14]={bCenterAlarm=true},bReg=true,szContent="我知道我知道，先生说的是(.-)！",szNote="拾取·{$1}",szTarget="睿儿",tCountdown={{key="门派日常",nClass=14,nFrame=6,nIcon=13,nTime=30,szName="拾取·{$1}"}}},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1785416853,
+		nTimeStamp = 1791190288,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

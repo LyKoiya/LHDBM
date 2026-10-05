@@ -6,77 +6,17 @@ return {
 	DOODAD = {},
 	NPC = {
 		[673] = {
-			{
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = false,
-							bAlly = false,
-							bEnemy = true,
-						},
-					},
-				},
-				dwID = 131446,
-				nFrame = 57,
-				szNote = "赤扎罗",
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 20,
-						szDisplay = "张泽·活动商人",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 131558,
-				nFrame = 47,
-				szNote = "张泽",
-			},
+			{aFocus={{nMaxDistance=60,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=131446,nFrame=57,szNote="赤扎罗"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,szDisplay="张泽·活动商人",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=131558,nFrame=47,szNote="张泽"},
 		},
 	},
 	TALK = {
 		[673] = {
-			{
-				szContent = "乖乖把货留下，反抗的全他娘剁碎了喂沙狼！",
-				szTarget = "赤扎罗",
-				tCountdown = {
-					{
-						key = "预热活动",
-						nClass = 14,
-						nFrame = 4,
-						nIcon = 13,
-						nTime = 10,
-						szName = "预热活动·赤扎罗·已刷新",
-					},
-				},
-			},
+			{szContent="乖乖把货留下，反抗的全他娘剁碎了喂沙狼！",szTarget="赤扎罗",tCountdown={{key="预热活动",nClass=14,nFrame=4,nIcon=13,nTime=10,szName="预热活动·赤扎罗·已刷新"}}},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790066048,
+		nTimeStamp = 1791190289,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

@@ -1,436 +1,57 @@
 return {
 	BUFF = {
 		[-3] = {
-			{
-				{
-					bBuffList = true,
-				},
-				dwID = 33490,
-				nIcon = 23362,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "观战",
-				szNote = "观战缴械",
-			},
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					150,
-					0,
-				},
-				dwID = 13926,
-				nIcon = 4533,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "免伤",
-				szNote = "老本免伤",
-				tCountdown = {
-					{
-						bHold = false,
-						key = "子规笛·战",
-						nClass = 1,
-						nFrame = 0,
-						nIcon = 589,
-						nTime = 20.11,
-						szName = "记得使用·家园·子规笛",
-					},
-				},
-			},
-			{
-				dwID = 27656,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szNote = "合心·南山幽幽",
-				tCountdown = {
-					{
-						key = "郁金香",
-						nClass = 1,
-						nFrame = 7,
-						nIcon = 21604,
-						nRefresh = 5,
-						nTime = 2,
-						szName = "已使用·香膏声望15%",
-					},
-					{
-						key = "郁金香",
-						nClass = 2,
-						nFrame = 7,
-						nIcon = 21604,
-						nTime = 5,
-						szName = "香膏声望·已消失",
-					},
-				},
-			},
+			{{bBuffList=true},dwID=33490,nIcon=23362,nLevel=1,nScrutinyType=1,szName="观战",szNote="观战缴械"},
+			{{bBuffList=true},col={255,150,0},dwID=13926,nIcon=4533,nLevel=1,nScrutinyType=1,szName="免伤",szNote="老本免伤",tCountdown={{bHold=false,key="子规笛·战",nClass=1,nFrame=0,nIcon=589,nTime=20.11,szName="记得使用·家园·子规笛"}}},
+			{dwID=27656,nLevel=1,nScrutinyType=1,szNote="合心·南山幽幽",tCountdown={{key="郁金香",nClass=1,nFrame=7,nIcon=21604,nRefresh=5,nTime=2,szName="已使用·香膏声望15%"},{key="郁金香",nClass=2,nFrame=7,nIcon=21604,nTime=5,szName="香膏声望·已消失"}}},
 		},
 	},
 	CASTING = {
 		[-3] = {
-			{
-				dwID = 53,
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "侠客重伤",
-						nClass = 9,
-						nFrame = -1,
-						nIcon = 13,
-						nRefresh = 3600,
-						nTime = -1,
-						szName = "侠客重伤",
-					},
-				},
-			},
-			{
-				dwID = 4097,
-				nLevel = 1,
-				nScrutinyType = 1,
-				tCountdown = {
-					{
-						key = "KEY·左旋右转",
-						nClass = 9,
-						nIcon = 904,
-						nRefresh = 121,
-						nTime = -1,
-						szName = "KEY·左旋右转",
-					},
-					{
-						key = "KEY·飘黄",
-						nClass = 9,
-						nIcon = 15692,
-						nRefresh = 80,
-						nTime = -1,
-						szName = "KEY·飘黄",
-					},
-					{
-						key = "侠客重伤",
-						nClass = 9,
-						nFrame = -1,
-						nIcon = 13,
-						nRefresh = 120,
-						nTime = -1,
-						szName = "侠客重伤",
-					},
-				},
-				tKungFu = {
-					["SKILL#10028"] = true,
-					["SKILL#10080"] = true,
-					["SKILL#10626"] = true,
-				},
-			},
+			{dwID=53,nLevel=1,nScrutinyType=1,tCountdown={{key="侠客重伤",nClass=9,nFrame=-1,nIcon=13,nRefresh=3600,nTime=-1,szName="侠客重伤"}}},
+			{dwID=4097,nLevel=1,nScrutinyType=1,tCountdown={{key="KEY·左旋右转",nClass=9,nIcon=904,nRefresh=121,nTime=-1,szName="KEY·左旋右转"},{key="KEY·飘黄",nClass=9,nIcon=15692,nRefresh=80,nTime=-1,szName="KEY·飘黄"},{key="侠客重伤",nClass=9,nFrame=-1,nIcon=13,nRefresh=120,nTime=-1,szName="侠客重伤"}},tKungFu={["SKILL#10028"]=true,["SKILL#10080"]=true,["SKILL#10626"]=true}},
 		},
 	},
 	CHAT = {
 		[-3] = {
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				bSearch = true,
-				col = {
-					255,
-					50,
-					255,
-				},
-				szContent = "财神降临！慷慨之士 {$team} 正在",
-				szNote = "【{$receiver}】·正在发红包",
-				tCountdown = {
-					{
-						key = "{$receiver}·红包",
-						nClass = 20,
-						nFrame = 3,
-						nIcon = 6766,
-						nRefresh = 5,
-						nTime = 180,
-						szName = "【{$receiver}】红包·消失剩余",
-					},
-				},
-			},
-			{
-				bSearch = true,
-				szContent = "侠士",
-				szNote = "屏蔽·的卢·诛恶·攻防·刷马",
-			},
-			{
-				szContent = "[剑心插件]已重置团队技能监控CD。\
-",
-				tCountdown = {
-					{
-						key = "KEY·左旋右转",
-						nClass = 20,
-						nIcon = 904,
-						nRefresh = 121,
-						nTime = -1,
-						szName = "KEY·左旋右转",
-					},
-					{
-						key = "KEY·飘黄",
-						nClass = 20,
-						nIcon = 15692,
-						nRefresh = 80,
-						nTime = -1,
-						szName = "KEY·飘黄",
-					},
-					{
-						key = "侠客重伤",
-						nClass = 20,
-						nFrame = -1,
-						nIcon = 13,
-						nRefresh = 3600,
-						nTime = -1,
-						szName = "侠客重伤",
-					},
-				},
-			},
+			{[14]={bCenterAlarm=true},bSearch=true,col={255,50,255},szContent="财神降临！慷慨之士 {$team} 正在",szNote="【{$receiver}】·正在发红包",tCountdown={{key="{$receiver}·红包",nClass=20,nFrame=3,nIcon=6766,nRefresh=5,nTime=180,szName="【{$receiver}】红包·消失剩余"}}},
+			{bSearch=true,szContent="侠士",szNote="屏蔽·的卢·诛恶·攻防·刷马"},
+			{szContent="[剑心插件]已重置团队技能监控CD。\
+",tCountdown={{key="KEY·左旋右转",nClass=20,nIcon=904,nRefresh=121,nTime=-1,szName="KEY·左旋右转"},{key="KEY·飘黄",nClass=20,nIcon=15692,nRefresh=80,nTime=-1,szName="KEY·飘黄"},{key="侠客重伤",nClass=20,nFrame=-1,nIcon=13,nRefresh=3600,nTime=-1,szName="侠客重伤"}}},
 		},
 	},
 	DEBUFF = {
 		[-3] = {
-			{
-				dwID = 21104,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szNote = "家园团队声望",
-				tCountdown = {
-					{
-						key = "牵牛花",
-						nClass = 1,
-						nFrame = 3,
-						nIcon = 3407,
-						nRefresh = 5,
-						nTime = 2,
-						szName = "已使用·家园声望40%",
-					},
-					{
-						key = "牵牛花",
-						nClass = 2,
-						nFrame = 3,
-						nIcon = 3407,
-						nTime = 5,
-						szName = "家园声望·已消失",
-					},
-				},
-			},
-			{
-				dwID = 21103,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szNote = "家园团队声望",
-				tCountdown = {
-					{
-						key = "牵牛花",
-						nClass = 1,
-						nFrame = 3,
-						nIcon = 3407,
-						nRefresh = 5,
-						nTime = 2,
-						szName = "已使用·家园声望40%",
-					},
-					{
-						key = "牵牛花",
-						nClass = 2,
-						nFrame = 3,
-						nIcon = 3407,
-						nTime = 5,
-						szName = "家园声望·已消失",
-					},
-				},
-			},
-			{
-				dwID = 21102,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szNote = "家园团队声望",
-				tCountdown = {
-					{
-						key = "牵牛花",
-						nClass = 1,
-						nFrame = 3,
-						nIcon = 3406,
-						nRefresh = 5,
-						nTime = 2,
-						szName = "已使用·家园声望40%",
-					},
-					{
-						key = "牵牛花",
-						nClass = 2,
-						nFrame = 3,
-						nIcon = 3406,
-						nTime = 5,
-						szName = "家园声望·已消失",
-					},
-				},
-			},
-			{
-				dwID = 21101,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szNote = "家园团队声望",
-				tCountdown = {
-					{
-						key = "牵牛花",
-						nClass = 1,
-						nFrame = 3,
-						nIcon = 3406,
-						nRefresh = 5,
-						nTime = 2,
-						szName = "已使用·家园声望40%",
-					},
-					{
-						key = "牵牛花",
-						nClass = 2,
-						nFrame = 3,
-						nIcon = 3406,
-						nTime = 5,
-						szName = "家园声望·已消失",
-					},
-				},
-			},
+			{dwID=21104,nLevel=1,nScrutinyType=1,szNote="家园团队声望",tCountdown={{key="牵牛花",nClass=1,nFrame=3,nIcon=3407,nRefresh=5,nTime=2,szName="已使用·家园声望40%"},{key="牵牛花",nClass=2,nFrame=3,nIcon=3407,nTime=5,szName="家园声望·已消失"}}},
+			{dwID=21103,nLevel=1,nScrutinyType=1,szNote="家园团队声望",tCountdown={{key="牵牛花",nClass=1,nFrame=3,nIcon=3407,nRefresh=5,nTime=2,szName="已使用·家园声望40%"},{key="牵牛花",nClass=2,nFrame=3,nIcon=3407,nTime=5,szName="家园声望·已消失"}}},
+			{dwID=21102,nLevel=1,nScrutinyType=1,szNote="家园团队声望",tCountdown={{key="牵牛花",nClass=1,nFrame=3,nIcon=3406,nRefresh=5,nTime=2,szName="已使用·家园声望40%"},{key="牵牛花",nClass=2,nFrame=3,nIcon=3406,nTime=5,szName="家园声望·已消失"}}},
+			{dwID=21101,nLevel=1,nScrutinyType=1,szNote="家园团队声望",tCountdown={{key="牵牛花",nClass=1,nFrame=3,nIcon=3406,nRefresh=5,nTime=2,szName="已使用·家园声望40%"},{key="牵牛花",nClass=2,nFrame=3,nIcon=3406,nTime=5,szName="家园声望·已消失"}}},
 		},
 	},
 	DOODAD = {
 		[-4] = {
-			{
-				aFocus = {
-					{
-						nMaxDistance = 10,
-						szDisplay = "砥砺同心宝箱",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 7839,
-				szNote = "砥砺同心宝箱",
-			},
+			{aFocus={{nMaxDistance=10,szDisplay="砥砺同心宝箱",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=7839,szNote="砥砺同心宝箱"},
 		},
 		[-3] = {
-			{
-				aFocus = {
-					{
-						nMaxDistance = 30,
-						szDisplay = "寻路·传送",
-					},
-				},
-				dwID = 10558,
-				szName = "寻路传送",
-				szNote = "寻路传送",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 10,
-						szDisplay = "传送点",
-					},
-				},
-				dwID = 818,
-				szNote = "副本入口",
-			},
+			{aFocus={{nMaxDistance=30,szDisplay="寻路·传送"}},dwID=10558,szName="寻路传送",szNote="寻路传送"},
+			{aFocus={{nMaxDistance=10,szDisplay="传送点"}},dwID=818,szNote="副本入口"},
 		},
 	},
 	NPC = {
 		[-3] = {
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 126181,
-				nFrame = 47,
-				szName = "碎石记号",
-				szNote = "碎石记号",
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 69462,
-				nFrame = 47,
-				szNote = "黄字玖伍贰柒",
-			},
+			{[3]={bScreenHead=true},col={0,255,0},dwID=126181,nFrame=47,szName="碎石记号",szNote="碎石记号"},
+			{[3]={bScreenHead=true},col={0,255,255},dwID=69462,nFrame=47,szNote="黄字玖伍贰柒"},
 		},
 	},
 	TALK = {
 		[-3] = {
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szContent = "宝光闪闪，祈愿触发！",
-				szNote = "祈愿台·祈愿触发",
-				szTarget = "%",
-				tCountdown = {
-					{
-						key = "祈愿台",
-						nClass = 14,
-						nFrame = 3,
-						nIcon = 15293,
-						nTime = 10,
-						szName = "祈愿台·祈愿触发",
-					},
-				},
-			},
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				bReg = false,
-				szContent = "祈愿未触发，当前已尝试次数为： 2",
-				szNote = "祈愿台·尝试·2次",
-				szTarget = "%",
-				tCountdown = {
-					{
-						key = "祈愿台",
-						nClass = 14,
-						nFrame = 1,
-						nIcon = 15294,
-						nTime = 10,
-						szName = "祈愿台·尝试·2次",
-					},
-				},
-			},
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				bReg = false,
-				szContent = "祈愿未触发，当前已尝试次数为： 1",
-				szNote = "祈愿台·尝试·1次",
-				szTarget = "%",
-				tCountdown = {
-					{
-						key = "祈愿台",
-						nClass = 14,
-						nFrame = 1,
-						nIcon = 15294,
-						nTime = 10,
-						szName = "祈愿台·尝试·1次",
-					},
-				},
-			},
+			{[14]={bCenterAlarm=true},szContent="宝光闪闪，祈愿触发！",szNote="祈愿台·祈愿触发",szTarget="%",tCountdown={{key="祈愿台",nClass=14,nFrame=3,nIcon=15293,nTime=10,szName="祈愿台·祈愿触发"}}},
+			{[14]={bCenterAlarm=true},bReg=false,szContent="祈愿未触发，当前已尝试次数为： 2",szNote="祈愿台·尝试·2次",szTarget="%",tCountdown={{key="祈愿台",nClass=14,nFrame=1,nIcon=15294,nTime=10,szName="祈愿台·尝试·2次"}}},
+			{[14]={bCenterAlarm=true},bReg=false,szContent="祈愿未触发，当前已尝试次数为： 1",szNote="祈愿台·尝试·1次",szTarget="%",tCountdown={{key="祈愿台",nClass=14,nFrame=1,nIcon=15294,nTime=10,szName="祈愿台·尝试·1次"}}},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1787242153,
+		nTimeStamp = 1791190289,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

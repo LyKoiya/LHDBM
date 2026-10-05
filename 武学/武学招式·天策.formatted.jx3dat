@@ -1,80 +1,24 @@
 return {
 	BUFF = {},
-	CHAT = {},
 	CASTING = {
 		[-1] = {
-			{
-				nLevel = 1,
-				nScrutinyType = 2,
-				dwID = 2628,
-				tCountdown = {
-					{
-						nClass = 9,
-						key = "Ô¨¡¤{$sender}",
-						nTime = 5,
-						szName = "Ô¨¡¤{$sender}¡ú{$receiver}",
-						nFrame = 0,
-						nIcon = 2985,
-					},
-				},
-			},
-			{
-				nLevel = 1,
-				nScrutinyType = 2,
-				tCountdown = {
-					{
-						nClass = 9,
-						key = "ÆÆÖØÎ§¡¤{$sender}",
-						nTime = 3,
-						szName = "ÆÆÖØÎ§¡¤{$sender}¡ú{$receiver}",
-						nIcon = 7506,
-						nFrame = 1,
-					},
-				},
-				dwID = 15158,
-			},
-			{
-				nLevel = 1,
-				nScrutinyType = 2,
-				dwID = 21124,
-				tCountdown = {
-					{
-						nClass = 9,
-						key = "ÆÆÖØÎ§¡¤{$sender}",
-						nTime = 3,
-						szName = "ÆÆÖØÎ§¡¤{$sender}¡ú{$receiver}",
-						nFrame = 1,
-						nIcon = 7506,
-					},
-				},
-			},
-			{
-				nLevel = 1,
-				nScrutinyType = 2,
-				tCountdown = {
-					{
-						nClass = 9,
-						key = "ÆÆÖØÎ§¡¤{$sender}",
-						nTime = 3,
-						szName = "ÆÆÖØÎ§¡¤{$sender}¡ú{$receiver}",
-						nIcon = 100036,
-						nFrame = 1,
-					},
-				},
-				dwID = 100036,
-			},
+			{dwID=2628,nLevel=1,nScrutinyType=2,tCountdown={{key="Ô¨¡¤{$sender}",nClass=9,nFrame=0,nIcon=2985,nTime=5,szName="Ô¨¡¤{$sender}¡ú{$receiver}"}}},
+			{dwID=15158,nLevel=1,nScrutinyType=2,tCountdown={{key="ÆÆÖØÎ§¡¤{$sender}",nClass=9,nFrame=1,nIcon=7506,nTime=3,szName="ÆÆÖØÎ§¡¤{$sender}¡ú{$receiver}"}}},
+			{dwID=21124,nLevel=1,nScrutinyType=2,tCountdown={{key="ÆÆÖØÎ§¡¤{$sender}",nClass=9,nFrame=1,nIcon=7506,nTime=3,szName="ÆÆÖØÎ§¡¤{$sender}¡ú{$receiver}"}}},
+			{dwID=100036,nLevel=1,nScrutinyType=2,tCountdown={{key="ÆÆÖØÎ§¡¤{$sender}",nClass=9,nFrame=1,nIcon=100036,nTime=3,szName="ÆÆÖØÎ§¡¤{$sender}¡ú{$receiver}"}}},
 		},
 	},
-	TALK = {},
-	NPC = {},
+	CHAT = {},
 	DEBUFF = {},
+	DOODAD = {},
+	NPC = {},
+	TALK = {},
 	__meta = {
-		szServer = "Î¨ÎÒ¶À×ð",
+		nTimeStamp = 1791190289,
 		szAuthor = "ºÉ»¨Àð",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1723721118,
 		szCustomVoicePacketUUID = "",
 		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "Î¨ÎÒ¶À×ð",
 	},
-	DOODAD = {},
 }

@@ -1,569 +1,62 @@
 return {
 	BUFF = {
 		[6] = {
-			{
-				dwID = 7308,
-				nScrutinyType = 1,
-				nLevel = 1,
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "断线的风筝",
-						nTime = 10,
-						szName = "轻盈",
-						nClass = 1,
-						nIcon = 3313,
-					},
-					{
-						nClass = 2,
-						key = "断线的风筝",
-						nTime = 0.001,
-						szName = " ",
-						nIcon = 1465,
-					},
-				},
-			},
+			{dwID=7308,nLevel=1,nScrutinyType=1,tCountdown={{key="断线的风筝",nClass=1,nFrame=6,nIcon=3313,nTime=10,szName="轻盈"},{key="断线的风筝",nClass=2,nIcon=1465,nTime=0.001,szName=" "}}},
 		},
 		[108] = {
-			{
-				dwID = 7308,
-				nScrutinyType = 1,
-				nLevel = 1,
-				tCountdown = {
-					{
-						nFrame = 6,
-						key = "断线的风筝",
-						nTime = 10,
-						szName = "轻盈",
-						nClass = 1,
-						nIcon = 3313,
-					},
-					{
-						nClass = 2,
-						key = "断线的风筝",
-						nTime = 0.001,
-						szName = " ",
-						nIcon = 1465,
-					},
-				},
-			},
+			{dwID=7308,nLevel=1,nScrutinyType=1,tCountdown={{key="断线的风筝",nClass=1,nFrame=6,nIcon=3313,nTime=10,szName="轻盈"},{key="断线的风筝",nClass=2,nIcon=1465,nTime=0.001,szName=" "}}},
 		},
 	},
-	CHAT = {},
 	CASTING = {},
+	CHAT = {},
+	DEBUFF = {
+		[6] = {
+			{dwID=7309,nLevel=1,nScrutinyType=1,tCountdown={{key="断线的风筝",nClass=2,nIcon=3314,nTime=0,szName="断线的风筝"}}},
+			{{bBuffList=true,bScreenHead=true},col={255,0,255},dwID=7312,nIcon=3393,nLevel=1,nScrutinyType=1,szName="CD",tCountdown={{key="踩花灯·CD",nClass=1,nFrame=1,nIcon=5372,nTime=2,szName="踩花灯·CD"},{key="踩花灯·CD",nClass=2,nIcon=5372,nTime=0,szName="踩花灯·CD"}}},
+		},
+		[108] = {
+			{dwID=7309,nLevel=1,nScrutinyType=1,tCountdown={{key="断线的风筝",nClass=2,nIcon=3314,nTime=0,szName="断线的风筝"}}},
+			{{bBuffList=true,bScreenHead=true},col={255,0,255},dwID=7312,nIcon=3393,nLevel=1,nScrutinyType=1,szName="CD",tCountdown={{key="踩花灯·CD",nClass=1,nFrame=1,nIcon=5372,nTime=2,szName="踩花灯·CD"},{key="踩花灯·CD",nClass=2,nIcon=5372,nTime=0,szName="踩花灯·CD"}}},
+		},
+	},
+	DOODAD = {},
+	NPC = {
+		[-4] = {
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,szDisplay="甄荧荧·花灯流火",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=27552,nFrame=47,szNote="元宵节·甄荧荧"},
+			{[3]={bCenterAlarm=true,bScreenHead=true,tMark={true,true,true,false,false,false,false,false,false,false}},aFocus={{nMaxDistance=0,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,50},dwID=27556,nFrame=47,szNote="元宵节·花灯·竹梦"},
+		},
+		[-2] = {
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=3,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=113579,nFrame=52,szNote="元宵货品"},
+		},
+		[6] = {
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,szDisplay="王樊·元宵节",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=27543,nFrame=47,szNote="元宵节·王樊"},
+			{aFocus={{nMaxDistance=100,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=27542,nFrame=52,szNote="元宵节·风筝"},
+		},
+		[108] = {
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,szDisplay="王樊·元宵节",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=27543,nFrame=47,szNote="元宵节·王樊"},
+			{aFocus={{nMaxDistance=100,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=27542,nFrame=52,szNote="元宵节·风筝"},
+		},
+	},
 	TALK = {
 		[-4] = {
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						nFrame = 4,
-						key = "{$2}·{$4}",
-						nTime = 30,
-						szName = "{$2}·[{$1}/{$4}]",
-						bHold = true,
-						nIcon = 3140,
-						nRefresh = 2,
-					},
-					{
-						nClass = 14,
-						key = "{$2}·0",
-						nTime = -2,
-						szName = "{$2}·0",
-						nIcon = 13,
-					},
-					{
-						nClass = 14,
-						nIcon = 3140,
-						key = "{$2}·{$4}",
-						nTime = 30,
-						szName = "{$2}·已达上限",
-						nRefresh = 1,
-						bHold = true,
-						nFrame = 2,
-					},
-				},
-				bReg = true,
-				szContent = "本次活动获得(%d-)份(.-)，(.-)还可通过活动获得(%d-)份(.-)。",
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 4,
-						key = "花灯流火",
-						nTime = 30,
-						szName = "花灯流火·已经清零",
-						nIcon = 13,
-						nClass = 14,
-					},
-				},
-				szContent = "流火数量已清零。",
-				bSearch = true,
-			},
-		},
-		[108] = {
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "{$2}·{$4}",
-						nTime = 30,
-						szName = "{$3}·{$2}·[{$1}/{$4}]",
-						nRefresh = 2,
-						nIcon = 3140,
-						nFrame = 4,
-					},
-					{
-						nClass = 14,
-						key = "{$2}·0",
-						nTime = -2,
-						szName = "{$2}·0",
-						nIcon = 13,
-					},
-					{
-						nClass = 14,
-						key = "{$2}·{$4}",
-						nTime = 30,
-						szName = "{$3}·{$2}·已达上限",
-						nRefresh = 1,
-						nIcon = 3140,
-						nFrame = 2,
-					},
-				},
-				bReg = true,
-				szContent = "本次活动获得(%d-)份(.-)，今年(.-)还可通过活动获得(%d-)份(.-)。",
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 7,
-						key = "断线的风筝",
-						nTime = 60,
-						szName = "本轮得分·{$1}",
-						nRefresh = 11,
-						nIcon = 3314,
-						nClass = 14,
-					},
-				},
-				bReg = true,
-				szContent = "本轮得分为(%d-)分",
-			},
+			{bReg=true,szContent="本次活动获得(%d-)份(.-)，(.-)还可通过活动获得(%d-)份(.-)。",tCountdown={{bHold=true,key="{$2}·{$4}",nClass=14,nFrame=4,nIcon=3140,nRefresh=2,nTime=30,szName="{$2}·[{$1}/{$4}]"},{key="{$2}·0",nClass=14,nIcon=13,nTime=-2,szName="{$2}·0"},{bHold=true,key="{$2}·{$4}",nClass=14,nFrame=2,nIcon=3140,nRefresh=1,nTime=30,szName="{$2}·已达上限"}}},
+			{bSearch=true,szContent="流火数量已清零。",tCountdown={{key="花灯流火",nClass=14,nFrame=4,nIcon=13,nTime=30,szName="花灯流火·已经清零"}}},
 		},
 		[6] = {
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "{$2}·{$4}",
-						nTime = 30,
-						szName = "{$3}·{$2}·[{$1}/{$4}]",
-						nRefresh = 2,
-						nFrame = 4,
-						nIcon = 3140,
-					},
-					{
-						nClass = 14,
-						key = "{$2}·0",
-						nTime = -2,
-						szName = "{$2}·0",
-						nIcon = 13,
-					},
-					{
-						nClass = 14,
-						key = "{$2}·{$4}",
-						nTime = 30,
-						szName = "{$3}·{$2}·已达上限",
-						nRefresh = 1,
-						nIcon = 3140,
-						nFrame = 2,
-					},
-				},
-				bReg = true,
-				szContent = "本次活动获得(%d-)份(.-)，今年(.-)还可通过活动获得(%d-)份(.-)。",
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 7,
-						key = "断线的风筝",
-						nTime = 60,
-						szName = "本轮得分·{$1}",
-						nRefresh = 11,
-						nIcon = 3314,
-						nClass = 14,
-					},
-				},
-				bReg = true,
-				szContent = "本轮得分为(%d-)分",
-			},
-		},
-	},
-	NPC = {
-		[-2] = {
-			{
-				nFrame = 52,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 113579,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 3,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "元宵货品",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-		},
-		[-4] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 27552,
-				aFocus = {
-					{
-						szDisplay = "甄荧荧·花灯流火",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 6,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "元宵节·甄荧荧",
-				col = {
-					0,
-					255,
-					255,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-					tMark = {
-						true,
-						true,
-						true,
-						false,
-						false,
-						false,
-						false,
-						false,
-						false,
-						false,
-					},
-				},
-				dwID = 27556,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 0,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "元宵节·花灯·竹梦",
-				col = {
-					255,
-					50,
-					50,
-				},
-			},
+			{bReg=true,szContent="本次活动获得(%d-)份(.-)，今年(.-)还可通过活动获得(%d-)份(.-)。",tCountdown={{key="{$2}·{$4}",nClass=14,nFrame=4,nIcon=3140,nRefresh=2,nTime=30,szName="{$3}·{$2}·[{$1}/{$4}]"},{key="{$2}·0",nClass=14,nIcon=13,nTime=-2,szName="{$2}·0"},{key="{$2}·{$4}",nClass=14,nFrame=2,nIcon=3140,nRefresh=1,nTime=30,szName="{$3}·{$2}·已达上限"}}},
+			{bReg=true,szContent="本轮得分为(%d-)分",tCountdown={{key="断线的风筝",nClass=14,nFrame=7,nIcon=3314,nRefresh=11,nTime=60,szName="本轮得分·{$1}"}}},
 		},
 		[108] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 27543,
-				aFocus = {
-					{
-						szDisplay = "王樊·元宵节",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "元宵节·王樊",
-				col = {
-					0,
-					255,
-					255,
-				},
-			},
-			{
-				nFrame = 52,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 100,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "元宵节·风筝",
-				dwID = 27542,
-			},
-		},
-		[6] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 27543,
-				aFocus = {
-					{
-						szDisplay = "王樊·元宵节",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "元宵节·王樊",
-				col = {
-					0,
-					255,
-					255,
-				},
-			},
-			{
-				nFrame = 52,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 100,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "元宵节·风筝",
-				dwID = 27542,
-			},
-		},
-	},
-	DEBUFF = {
-		[108] = {
-			{
-				dwID = 7309,
-				nScrutinyType = 1,
-				nLevel = 1,
-				tCountdown = {
-					{
-						nClass = 2,
-						key = "断线的风筝",
-						nTime = 0,
-						szName = "断线的风筝",
-						nIcon = 3314,
-					},
-				},
-			},
-			{
-				{
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				tCountdown = {
-					{
-						nFrame = 1,
-						key = "踩花灯·CD",
-						nTime = 2,
-						szName = "踩花灯·CD",
-						nClass = 1,
-						nIcon = 5372,
-					},
-					{
-						nClass = 2,
-						key = "踩花灯·CD",
-						nTime = 0,
-						szName = "踩花灯·CD",
-						nIcon = 5372,
-					},
-				},
-				nScrutinyType = 1,
-				col = {
-					255,
-					0,
-					255,
-				},
-				szName = "CD",
-				dwID = 7312,
-				nIcon = 3393,
-				nLevel = 1,
-			},
-		},
-		[6] = {
-			{
-				dwID = 7309,
-				nScrutinyType = 1,
-				nLevel = 1,
-				tCountdown = {
-					{
-						nClass = 2,
-						key = "断线的风筝",
-						nTime = 0,
-						szName = "断线的风筝",
-						nIcon = 3314,
-					},
-				},
-			},
-			{
-				{
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				tCountdown = {
-					{
-						nFrame = 1,
-						key = "踩花灯·CD",
-						nTime = 2,
-						szName = "踩花灯·CD",
-						nClass = 1,
-						nIcon = 5372,
-					},
-					{
-						nClass = 2,
-						key = "踩花灯·CD",
-						nTime = 0,
-						szName = "踩花灯·CD",
-						nIcon = 5372,
-					},
-				},
-				nScrutinyType = 1,
-				col = {
-					255,
-					0,
-					255,
-				},
-				szName = "CD",
-				dwID = 7312,
-				nIcon = 3393,
-				nLevel = 1,
-			},
+			{bReg=true,szContent="本次活动获得(%d-)份(.-)，今年(.-)还可通过活动获得(%d-)份(.-)。",tCountdown={{key="{$2}·{$4}",nClass=14,nFrame=4,nIcon=3140,nRefresh=2,nTime=30,szName="{$3}·{$2}·[{$1}/{$4}]"},{key="{$2}·0",nClass=14,nIcon=13,nTime=-2,szName="{$2}·0"},{key="{$2}·{$4}",nClass=14,nFrame=2,nIcon=3140,nRefresh=1,nTime=30,szName="{$3}·{$2}·已达上限"}}},
+			{bReg=true,szContent="本轮得分为(%d-)分",tCountdown={{key="断线的风筝",nClass=14,nFrame=7,nIcon=3314,nRefresh=11,nTime=60,szName="本轮得分·{$1}"}}},
 		},
 	},
 	__meta = {
-		szServer = "唯我独尊",
+		nTimeStamp = 1791190289,
 		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1772526088,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
-	DOODAD = {},
 }

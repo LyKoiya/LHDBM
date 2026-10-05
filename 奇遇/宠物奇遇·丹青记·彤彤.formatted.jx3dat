@@ -1,244 +1,33 @@
 return {
 	BUFF = {},
-	CHAT = {},
 	CASTING = {},
-	TALK = {
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {
 		[462] = {
-			{
-				tCountdown = {
-					{
-						nIcon = 12373,
-						key = "奇遇提示0",
-						nTime = "5,恭喜触发·丹青记·彤彤;15,奇遇封印4日·每日约2分钟完成;30,每日7时·刷新CD",
-						szName = "奇遇提示0",
-						nRefresh = 0,
-						nFrame = 0,
-						nClass = 14,
-					},
-					{
-						nIcon = 12373,
-						key = "奇遇提示1",
-						nTime = 300,
-						szName = "对话·白六娘·前往西北方",
-						nFrame = 7,
-						nClass = 14,
-					},
-					{
-						nIcon = 12373,
-						key = "奇遇提示2",
-						nTime = 300,
-						szName = "对话·李准·使用·樱桃",
-						nFrame = 7,
-						nClass = 14,
-					},
-					{
-						nIcon = 12373,
-						key = "奇遇提示3",
-						nTime = 300,
-						szName = "对话·李准·返回·白六娘",
-						nFrame = 7,
-						nClass = 14,
-					},
-				},
-				szContent = "{$me}侠士，看你照料蛮细心，不如来陪六娘说说话？",
-				szTarget = "白六娘",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 12373,
-						key = "奇遇提示1",
-						nTime = 60,
-						szName = "交互·小猴子·对话·李准",
-						nFrame = 7,
-						nClass = 14,
-					},
-					{
-						nIcon = 12373,
-						key = "奇遇提示2",
-						nTime = 60,
-						szName = "完成·奇遇·丹青记·彤彤",
-						nClass = 14,
-						nFrame = 7,
-					},
-					{
-						nIcon = 12373,
-						key = "奇遇提示3",
-						nTime = 0,
-						szName = "奇遇提示3",
-						nClass = 14,
-						nFrame = 7,
-					},
-				},
-				szContent = "今天的小猴子出来的很快，好像想和你玩。",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 12373,
-						key = "奇遇提示1",
-						nTime = 20,
-						szName = "对话·李准·完成·丹青记",
-						nClass = 14,
-						nFrame = 7,
-					},
-					{
-						nIcon = 12373,
-						key = "奇遇提示2",
-						nTime = 0,
-						szName = "奇遇提示2",
-						nFrame = 7,
-						nClass = 14,
-					},
-					{
-						nIcon = 12373,
-						key = "奇遇提示3",
-						nTime = 0,
-						szName = "奇遇提示3",
-						nFrame = 7,
-						nClass = 14,
-					},
-				},
-				szContent = "小猴子和你玩的很开心。",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 12373,
-						key = "奇遇提示1",
-						nTime = 20,
-						szName = "封印·明日7时·共封印4日",
-						nClass = 14,
-						nFrame = 7,
-					},
-					{
-						nIcon = 12373,
-						key = "奇遇提示2",
-						nTime = 20,
-						szName = "明日·对话·白六娘·李准",
-						nClass = 14,
-						nFrame = 7,
-					},
-					{
-						nIcon = 12373,
-						key = "奇遇提示3",
-						nTime = 20,
-						szName = "明日·使用·白六娘的樱桃",
-						nClass = 14,
-						nFrame = 7,
-					},
-				},
-				szTarget = "一只小猴子",
-				szContent = "吱吱吱!",
-			},
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=40,szDisplay="白六娘的樱桃树·丹青记",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=8961,szNote="丹青记白六娘的樱桃树"},
 		},
 	},
 	NPC = {
 		[462] = {
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "李准·丹青记",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 90,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "丹青记·李准",
-				dwID = 104377,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "一只小猴子·丹青记",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "丹青记·一只小猴子",
-				dwID = 104853,
-			},
+			{aFocus={{nMaxDistance=90,szDisplay="李准·丹青记",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=104377,nFrame=47,szNote="丹青记·李准"},
+			{aFocus={{nMaxDistance=60,szDisplay="一只小猴子·丹青记",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=104853,nFrame=47,szNote="丹青记·一只小猴子"},
 		},
 	},
-	DEBUFF = {},
+	TALK = {
+		[462] = {
+			{szContent="{$me}侠士，看你照料蛮细心，不如来陪六娘说说话？",szTarget="白六娘",tCountdown={{key="奇遇提示0",nClass=14,nFrame=0,nIcon=12373,nRefresh=0,nTime="5,恭喜触发·丹青记·彤彤;15,奇遇封印4日·每日约2分钟完成;30,每日7时·刷新CD",szName="奇遇提示0"},{key="奇遇提示1",nClass=14,nFrame=7,nIcon=12373,nTime=300,szName="对话·白六娘·前往西北方"},{key="奇遇提示2",nClass=14,nFrame=7,nIcon=12373,nTime=300,szName="对话·李准·使用·樱桃"},{key="奇遇提示3",nClass=14,nFrame=7,nIcon=12373,nTime=300,szName="对话·李准·返回·白六娘"}}},
+			{szContent="今天的小猴子出来的很快，好像想和你玩。",tCountdown={{key="奇遇提示1",nClass=14,nFrame=7,nIcon=12373,nTime=60,szName="交互·小猴子·对话·李准"},{key="奇遇提示2",nClass=14,nFrame=7,nIcon=12373,nTime=60,szName="完成·奇遇·丹青记·彤彤"},{key="奇遇提示3",nClass=14,nFrame=7,nIcon=12373,nTime=0,szName="奇遇提示3"}}},
+			{szContent="小猴子和你玩的很开心。",tCountdown={{key="奇遇提示1",nClass=14,nFrame=7,nIcon=12373,nTime=20,szName="对话·李准·完成·丹青记"},{key="奇遇提示2",nClass=14,nFrame=7,nIcon=12373,nTime=0,szName="奇遇提示2"},{key="奇遇提示3",nClass=14,nFrame=7,nIcon=12373,nTime=0,szName="奇遇提示3"}}},
+			{szContent="吱吱吱!",szTarget="一只小猴子",tCountdown={{key="奇遇提示1",nClass=14,nFrame=7,nIcon=12373,nTime=20,szName="封印·明日7时·共封印4日"},{key="奇遇提示2",nClass=14,nFrame=7,nIcon=12373,nTime=20,szName="明日·对话·白六娘·李准"},{key="奇遇提示3",nClass=14,nFrame=7,nIcon=12373,nTime=20,szName="明日·使用·白六娘的樱桃"}}},
+		},
+	},
 	__meta = {
-		szServer = "唯我独尊",
+		nTimeStamp = 1791190288,
 		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1734937622,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
-	},
-	DOODAD = {
-		[462] = {
-			{
-				[17] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 8961,
-				aFocus = {
-					{
-						szDisplay = "白六娘的樱桃树·丹青记",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 40,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "丹青记白六娘的樱桃树",
-			},
-		},
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
 }

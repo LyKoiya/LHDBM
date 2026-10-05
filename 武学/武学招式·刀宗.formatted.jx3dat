@@ -1,115 +1,28 @@
 return {
 	BUFF = {},
-	CHAT = {},
 	CASTING = {},
-	TALK = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {
+		[-17] = {
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=16,szDisplay="±øÆ÷µôÂä",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,255},dwID=9810,szNote="±øÆ÷µôÂä"},
+		},
+		[-1] = {
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=2,szDisplay="±øÆ÷µôÂä",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,255},dwID=9810,szNote="±øÆ÷µôÂä"},
+		},
+	},
 	NPC = {
 		[-1] = {
-			{
-				nFrame = 47,
-				szName = "Ó°×Ó",
-				dwID = 111366,
-				aFocus = {
-					{
-						szDisplay = "µ¶×Ú¡¤Ó°×Ó",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 120,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				szNote = "µ¶×Ú¡¤Ó°×Ó",
-				tKungFu = {
-					["SKILL#10698"] = true,
-				},
-			},
+			{aFocus={{nMaxDistance=120,szDisplay="µ¶×Ú¡¤Ó°×Ó",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=111366,nFrame=47,szName="Ó°×Ó",szNote="µ¶×Ú¡¤Ó°×Ó",tKungFu={["SKILL#10698"]=true}},
 		},
 	},
-	DEBUFF = {},
+	TALK = {},
 	__meta = {
-		szServer = "Î¨ÎÒ¶À×ð",
+		nTimeStamp = 1791190289,
 		szAuthor = "ºÉ»¨Àð",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1783500612,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
-	},
-	DOODAD = {
-		[-1] = {
-			{
-				[17] = {
-					bScreenHead = true,
-				},
-				col = {
-					255,
-					50,
-					255,
-				},
-				dwID = 9810,
-				aFocus = {
-					{
-						szDisplay = "±øÆ÷µôÂä",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 2,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "±øÆ÷µôÂä",
-			},
-		},
-		[-17] = {
-			{
-				[17] = {
-					bScreenHead = true,
-				},
-				col = {
-					255,
-					50,
-					255,
-				},
-				dwID = 9810,
-				aFocus = {
-					{
-						szDisplay = "±øÆ÷µôÂä",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 16,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				szNote = "±øÆ÷µôÂä",
-			},
-		},
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "Î¨ÎÒ¶À×ð",
 	},
 }

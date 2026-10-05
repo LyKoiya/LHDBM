@@ -1,276 +1,39 @@
 return {
 	BUFF = {},
+	CASTING = {},
 	CHAT = {
 		[281] = {
-			{
-				tCountdown = {
-					{
-						nIcon = 13,
-						key = "竞技活动",
-						nTime = 30,
-						szName = "排队·名剑大会·队列",
-						nClass = 20,
-						nFrame = 4,
-					},
-				},
-				[20] = {
-					bCenterAlarm = true,
-				},
-				szContent = "您已经加入海选赛的名剑大会等待队列中。\
-",
-				szNote = "排队·海选赛·队列",
-			},
-			{
-				tCountdown = {
-					{
-						nIcon = 13,
-						key = "竞技活动",
-						nTime = 30,
-						szName = "排队·名剑大会·队列",
-						nFrame = 4,
-						nClass = 20,
-					},
-				},
-				[20] = {
-					bCenterAlarm = true,
-				},
-				szContent = "您已经加入名剑大会等待队列。\
-",
-				szNote = "排队·名剑大会·队列",
-			},
-		},
-	},
-	CASTING = {},
-	TALK = {
-		[-2] = {
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						nTime = 10,
-						szName = "群英赛·周四至周日开放",
-						nFrame = 1,
-						nIcon = 13,
-					},
-				},
-				szContent = "现在不是入场时间",
-			},
-		},
-	},
-	NPC = {
-		[281] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 56185,
-				aFocus = {
-					{
-						szDisplay = "叶诗·配装",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "叶诗·配装",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 56176,
-				aFocus = {
-					{
-						szDisplay = "叶竞·配装",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "叶竞·配装",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 56177,
-				aFocus = {
-					{
-						szDisplay = "叶炜·匹配",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "叶炜·匹配",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 56432,
-				aFocus = {
-					{
-						szDisplay = "叶璃·接引人",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "叶璃·接引人",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-		},
-		[-2] = {
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "群英赛·活动商人",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 3,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "活动商人·李媛媛",
-				dwID = 127262,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "叶璃·拭剑园",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "叶璃·拭剑园",
-				dwID = 56432,
-			},
+			{[20]={bCenterAlarm=true},szContent="您已经加入海选赛的名剑大会等待队列中。\
+",szNote="排队·海选赛·队列",tCountdown={{key="竞技活动",nClass=20,nFrame=4,nIcon=13,nTime=30,szName="排队·名剑大会·队列"}}},
+			{[20]={bCenterAlarm=true},szContent="您已经加入名剑大会等待队列。\
+",szNote="排队·名剑大会·队列",tCountdown={{key="竞技活动",nClass=20,nFrame=4,nIcon=13,nTime=30,szName="排队·名剑大会·队列"}}},
 		},
 	},
 	DEBUFF = {},
+	DOODAD = {},
+	NPC = {
+		[-2] = {
+			{aFocus={{nMaxDistance=3,szDisplay="群英赛·活动商人",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=127262,nFrame=47,szNote="活动商人·李媛媛"},
+			{aFocus={{nMaxDistance=20,szDisplay="叶璃·拭剑园",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=56432,nFrame=47,szNote="叶璃·拭剑园"},
+		},
+		[281] = {
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="叶诗·配装",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=56185,nFrame=47,szNote="叶诗·配装"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="叶竞·配装",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=56176,nFrame=47,szNote="叶竞·配装"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="叶炜·匹配",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=56177,nFrame=47,szNote="叶炜·匹配"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="叶璃·接引人",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=56432,nFrame=47,szNote="叶璃·接引人"},
+		},
+	},
+	TALK = {
+		[-2] = {
+			{szContent="现在不是入场时间",tCountdown={{nClass=14,nFrame=1,nIcon=13,nTime=10,szName="群英赛·周四至周日开放"}}},
+		},
+	},
 	__meta = {
-		szServer = "唯我独尊",
+		nTimeStamp = 1791190289,
 		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1773497457,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
-	DOODAD = {},
 }

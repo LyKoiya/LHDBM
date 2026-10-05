@@ -1,387 +1,55 @@
 return {
 	BUFF = {},
-	CHAT = {},
 	CASTING = {
 		[620] = {
-			{
-				nLevel = 1,
-				tCountdown = {
-					{
-						nFrame = 3,
-						nTime = "3,追击开始;12,追击结束",
-						szName = "",
-						nRefresh = 0,
-						nClass = 9,
-						nIcon = 13170,
-					},
-				},
-				dwID = 32121,
-			},
-			{
-				nLevel = 1,
-				tCountdown = {
-					{
-						nFrame = 4,
-						nTime = 10,
-						szName = "跳舞结束",
-						nClass = 8,
-						nIcon = 11981,
-					},
-				},
-				dwID = 32327,
-			},
-			{
-				nLevel = 1,
-				tCountdown = {
-					{
-						nFrame = 4,
-						nTime = 8.4,
-						szName = "准备击退",
-						nClass = 9,
-						nIcon = 12449,
-					},
-					{
-						nFrame = 7,
-						nTime = 10,
-						szName = "进圈结算",
-						nClass = 9,
-						nIcon = 13169,
-					},
-				},
-				dwID = 32073,
-			},
-			{
-				nLevel = 1,
-				tCountdown = {
-					{
-						nFrame = 3,
-						nTime = 10,
-						szName = "走火入魔",
-						nClass = 9,
-						nIcon = 2028,
-					},
-				},
-				dwID = 32295,
-			},
-			{
-				nLevel = 1,
-				dwID = 32072,
-			},
-			{
-				nLevel = 1,
-				dwID = 32137,
-			},
-			{
-				nLevel = 1,
-				dwID = 32136,
-			},
-			{
-				nLevel = 1,
-				dwID = 32342,
-			},
-			{
-				nLevel = 1,
-				dwID = 32243,
-			},
-			{
-				nLevel = 1,
-				[8] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 32299,
-				[9] = {
-					bCenterAlarm = true,
-				},
-				tCountdown = {
-					{
-						nClass = 8,
-						key = "心鼓弦·{$sender}",
-						nTime = 5,
-						szName = "心鼓弦·{$sender}",
-						nIcon = 898,
-						nFrame = 0,
-					},
-				},
-			},
+			{dwID=32121,nLevel=1,tCountdown={{nClass=9,nFrame=3,nIcon=13170,nRefresh=0,nTime="3,追击开始;12,追击结束",szName=""}}},
+			{dwID=32327,nLevel=1,tCountdown={{nClass=8,nFrame=4,nIcon=11981,nTime=10,szName="跳舞结束"}}},
+			{dwID=32073,nLevel=1,tCountdown={{nClass=9,nFrame=4,nIcon=12449,nTime=8.4,szName="准备击退"},{nClass=9,nFrame=7,nIcon=13169,nTime=10,szName="进圈结算"}}},
+			{dwID=32295,nLevel=1,tCountdown={{nClass=9,nFrame=3,nIcon=2028,nTime=10,szName="走火入魔"}}},
+			{dwID=32072,nLevel=1},
+			{dwID=32137,nLevel=1},
+			{dwID=32136,nLevel=1},
+			{dwID=32342,nLevel=1},
+			{dwID=32243,nLevel=1},
+			{[8]={bScreenHead=true},[9]={bCenterAlarm=true},col={0,255,0},dwID=32299,nLevel=1,tCountdown={{key="心鼓弦·{$sender}",nClass=8,nFrame=0,nIcon=898,nTime=5,szName="心鼓弦·{$sender}"}}},
+		},
+	},
+	CHAT = {},
+	DEBUFF = {
+		[620] = {
+			{{bBuffList=true,bScreenHead=true},col={255,50,255},dwID=23931,nLevel=1},
+			{{bBuffList=true,bScreenHead=true},col={255,255,0},dwID=23858,nLevel=1},
+			{{bBuffList=true,bScreenHead=true},col={255,50,50},dwID=24090,nLevel=1,szName="失控"},
+		},
+	},
+	DOODAD = {},
+	NPC = {
+		[620] = {
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="T",tLife={bEnable=true,nValue=0.5,szOperator=">="},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,255,0},dwID=110831,nFrame=57,szName="T",szNote="侠士·T"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="奶1",tLife={bEnable=true,nValue=0.5,szOperator=">="},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=110860,nFrame=57,szName="奶1",szNote="侠士·奶1"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="奶2",tLife={bEnable=true,nValue=0.5,szOperator=">="},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=110861,nFrame=57,szName="奶2",szNote="侠士·奶2"},
+			{col={255,255,45},dwID=110833,nFrame=57,szNote="侠士·近战"},
+			{col={255,255,45},dwID=110834,nFrame=57,szNote="侠士·近战"},
+			{col={255,255,45},dwID=110862,nFrame=57,szNote="侠士·近战"},
+			{col={255,255,0},dwID=110835,nFrame=57,szNote="侠士·远程"},
+			{col={255,255,0},dwID=110836,nFrame=57,szNote="侠士·远程"},
+			{col={255,255,0},dwID=110863,nFrame=57,szNote="侠士·远程"},
+			{col={255,255,0},dwID=110864,nFrame=57,szNote="侠士·远程"},
+			{dwID=110685,nFrame=47,szNote="水鬼"},
+			{dwID=110686,nFrame=47,szNote="狼牙斧卫"},
 		},
 	},
 	TALK = {
 		[620] = {
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "{$1}·0",
-						nTime = -1,
-						szName = "{$1}·0",
-						nRefresh = 3600,
-						nIcon = 13,
-					},
-					{
-						nClass = 14,
-						key = "{$1}·{$2}",
-						nTime = 20,
-						szName = "劈波斩浪·本周上限·{$2}",
-						nRefresh = 2,
-						nFrame = 4,
-						nIcon = 11381,
-					},
-					{
-						nClass = 14,
-						key = "{$1}·{$2}",
-						nTime = -2,
-						szName = "{$1}·{$2}",
-						nFrame = 4,
-						nIcon = 11381,
-					},
-					{
-						nClass = 14,
-						key = "{$1}·0",
-						nTime = 20,
-						szName = "{$1}·本周已达上限",
-						nRefresh = 1,
-						nFrame = 2,
-						nIcon = 11381,
-					},
-				},
-				bReg = true,
-				szContent = "^本周还可以(.-)获得(%d-)个(.-)。",
-			},
-		},
-	},
-	NPC = {
-		[620] = {
-			{
-				nFrame = 57,
-				szName = "T",
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 110831,
-				aFocus = {
-					{
-						szDisplay = "T",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">=",
-							nValue = 0.5,
-							bEnable = true,
-						},
-						nMaxDistance = 0,
-					},
-				},
-				szNote = "侠士·T",
-				[3] = {
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 57,
-				szName = "奶1",
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 110860,
-				aFocus = {
-					{
-						szDisplay = "奶1",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">=",
-							nValue = 0.5,
-							bEnable = true,
-						},
-						nMaxDistance = 0,
-					},
-				},
-				szNote = "侠士·奶1",
-				[3] = {
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 57,
-				szName = "奶2",
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 110861,
-				aFocus = {
-					{
-						szDisplay = "奶2",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">=",
-							nValue = 0.5,
-							bEnable = true,
-						},
-						nMaxDistance = 0,
-					},
-				},
-				szNote = "侠士·奶2",
-				[3] = {
-					bScreenHead = true,
-				},
-			},
-			{
-				nFrame = 57,
-				dwID = 110833,
-				szNote = "侠士·近战",
-				col = {
-					255,
-					255,
-					45,
-				},
-			},
-			{
-				nFrame = 57,
-				dwID = 110834,
-				szNote = "侠士·近战",
-				col = {
-					255,
-					255,
-					45,
-				},
-			},
-			{
-				nFrame = 57,
-				dwID = 110862,
-				szNote = "侠士·近战",
-				col = {
-					255,
-					255,
-					45,
-				},
-			},
-			{
-				nFrame = 57,
-				dwID = 110835,
-				szNote = "侠士·远程",
-				col = {
-					255,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 57,
-				dwID = 110836,
-				szNote = "侠士·远程",
-				col = {
-					255,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 57,
-				dwID = 110863,
-				szNote = "侠士·远程",
-				col = {
-					255,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 57,
-				dwID = 110864,
-				szNote = "侠士·远程",
-				col = {
-					255,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				szNote = "水鬼",
-				dwID = 110685,
-			},
-			{
-				nFrame = 47,
-				szNote = "狼牙斧卫",
-				dwID = 110686,
-			},
-		},
-	},
-	DEBUFF = {
-		[620] = {
-			{
-				{
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				dwID = 23931,
-				nLevel = 1,
-				col = {
-					255,
-					50,
-					255,
-				},
-			},
-			{
-				{
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				dwID = 23858,
-				nLevel = 1,
-				col = {
-					255,
-					255,
-					0,
-				},
-			},
-			{
-				{
-					bBuffList = true,
-					bScreenHead = true,
-				},
-				dwID = 24090,
-				nLevel = 1,
-				szName = "失控",
-				col = {
-					255,
-					50,
-					50,
-				},
-			},
+			{bReg=true,szContent="^本周还可以(.-)获得(%d-)个(.-)。",tCountdown={{key="{$1}·0",nClass=14,nIcon=13,nRefresh=3600,nTime=-1,szName="{$1}·0"},{key="{$1}·{$2}",nClass=14,nFrame=4,nIcon=11381,nRefresh=2,nTime=20,szName="劈波斩浪·本周上限·{$2}"},{key="{$1}·{$2}",nClass=14,nFrame=4,nIcon=11381,nTime=-2,szName="{$1}·{$2}"},{key="{$1}·0",nClass=14,nFrame=2,nIcon=11381,nRefresh=1,nTime=20,szName="{$1}·本周已达上限"}}},
 		},
 	},
 	__meta = {
-		szServer = "唯我独尊",
+		nTimeStamp = 1791190289,
 		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1759428975,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
-	DOODAD = {},
 }

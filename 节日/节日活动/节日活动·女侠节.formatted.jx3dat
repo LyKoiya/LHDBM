@@ -1,56 +1,21 @@
 return {
 	BUFF = {},
-	CHAT = {},
 	CASTING = {},
-	TALK = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {},
 	NPC = {
 		[6] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 64852,
-				aFocus = {
-					{
-						szDisplay = "¿µÎèÎè¡¤Å®ÏÀ½Ú",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "Å®ÏÀ½Ú¡¤¿µÎèÎè",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,szDisplay="¿µÎèÎè¡¤Å®ÏÀ½Ú",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=64852,nFrame=47,szNote="Å®ÏÀ½Ú¡¤¿µÎèÎè"},
 		},
 	},
-	DEBUFF = {},
+	TALK = {},
 	__meta = {
-		szServer = "Î¨ÎÒ¶À×ð",
+		nTimeStamp = 1791190289,
 		szAuthor = "ºÉ»¨Àð",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1741532401,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "Î¨ÎÒ¶À×ð",
 	},
-	DOODAD = {},
 }

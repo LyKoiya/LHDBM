@@ -1,317 +1,49 @@
 return {
 	BUFF = {},
-	CHAT = {},
 	CASTING = {},
-	TALK = {
-		[194] = {
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "奇遇提示0",
-						nTime = 60,
-						szName = "苍云·明教·放过分支·4千侠行点",
-						nIcon = 13,
-						nFrame = 0,
-					},
-				},
-				szContent = "至于我，就随你们处置好了。",
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szTarget = "秋画扇",
-				szNote = "苍云·明教·放过分支·4千侠行点",
-			},
-		},
-	},
-	NPC = {
-		[193] = {
-			{
-				dwID = 43753,
-				aFocus = {
-					{
-						szDisplay = "秋画扇·茶馆奇缘",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "茶馆奇缘·秋画扇",
-				nFrame = 47,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "东陉关守将·茶馆奇缘",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 120,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "茶馆奇缘·东陉关守将",
-				dwID = 43768,
-			},
-		},
-		[151] = {
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "秋画扇·茶馆奇缘",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "茶馆奇缘·秋画扇",
-				dwID = 43753,
-			},
-		},
-		[150] = {
-			{
-				dwID = 43753,
-				aFocus = {
-					{
-						szDisplay = "秋画扇·茶馆奇缘",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "茶馆奇缘·秋画扇",
-				nFrame = 47,
-			},
-		},
-		[194] = {
-			{
-				dwID = 43753,
-				aFocus = {
-					{
-						szDisplay = "秋画扇·茶馆奇缘",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "茶馆奇缘·秋画扇",
-				nFrame = 47,
-			},
-		},
-		[156] = {
-			{
-				dwID = 43754,
-				aFocus = {
-					{
-						szDisplay = "胡人女子·茶馆奇缘",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 90,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "茶馆奇缘·胡人女子",
-				nFrame = 47,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "秋画扇·茶馆奇缘",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "茶馆奇缘·秋画扇",
-				dwID = 43753,
-			},
-		},
-		[13] = {
-			{
-				dwID = 43753,
-				aFocus = {
-					{
-						szDisplay = "秋画扇·茶馆奇缘",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "茶馆奇缘·秋画扇",
-				nFrame = 47,
-			},
-		},
-		[23] = {
-			{
-				dwID = 43753,
-				aFocus = {
-					{
-						szDisplay = "秋画扇·茶馆奇缘",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "茶馆奇缘·秋画扇",
-				nFrame = 47,
-			},
-		},
-	},
+	CHAT = {},
 	DEBUFF = {
 		[13] = {
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 1,
-				nScrutinyType = 1,
-				szNote = "家园活动中毒",
-				dwID = 9136,
-			},
+			{{bBuffList=true},dwID=9136,nLevel=1,nScrutinyType=1,szNote="家园活动中毒"},
+		},
+	},
+	DOODAD = {},
+	NPC = {
+		[13] = {
+			{aFocus={{nMaxDistance=60,szDisplay="秋画扇·茶馆奇缘",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43753,nFrame=47,szNote="茶馆奇缘·秋画扇"},
+		},
+		[23] = {
+			{aFocus={{nMaxDistance=60,szDisplay="秋画扇·茶馆奇缘",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43753,nFrame=47,szNote="茶馆奇缘·秋画扇"},
+		},
+		[150] = {
+			{aFocus={{nMaxDistance=60,szDisplay="秋画扇·茶馆奇缘",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43753,nFrame=47,szNote="茶馆奇缘·秋画扇"},
+		},
+		[151] = {
+			{aFocus={{nMaxDistance=60,szDisplay="秋画扇·茶馆奇缘",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43753,nFrame=47,szNote="茶馆奇缘·秋画扇"},
+		},
+		[156] = {
+			{aFocus={{nMaxDistance=90,szDisplay="胡人女子·茶馆奇缘",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43754,nFrame=47,szNote="茶馆奇缘·胡人女子"},
+			{aFocus={{nMaxDistance=60,szDisplay="秋画扇·茶馆奇缘",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43753,nFrame=47,szNote="茶馆奇缘·秋画扇"},
+		},
+		[193] = {
+			{aFocus={{nMaxDistance=60,szDisplay="秋画扇·茶馆奇缘",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43753,nFrame=47,szNote="茶馆奇缘·秋画扇"},
+			{aFocus={{nMaxDistance=120,szDisplay="东陉关守将·茶馆奇缘",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43768,nFrame=47,szNote="茶馆奇缘·东陉关守将"},
+		},
+		[194] = {
+			{aFocus={{nMaxDistance=60,szDisplay="秋画扇·茶馆奇缘",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43753,nFrame=47,szNote="茶馆奇缘·秋画扇"},
+		},
+	},
+	TALK = {
+		[194] = {
+			{[14]={bCenterAlarm=true},szContent="至于我，就随你们处置好了。",szNote="苍云·明教·放过分支·4千侠行点",szTarget="秋画扇",tCountdown={{key="奇遇提示0",nClass=14,nFrame=0,nIcon=13,nTime=60,szName="苍云·明教·放过分支·4千侠行点"}}},
 		},
 	},
 	__meta = {
-		szServer = "唯我独尊",
+		nTimeStamp = 1791190289,
 		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1782308746,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
-	DOODAD = {},
 }

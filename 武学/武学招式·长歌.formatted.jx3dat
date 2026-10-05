@@ -1,163 +1,30 @@
 return {
 	BUFF = {},
-	CHAT = {},
 	CASTING = {
 		[-1] = {
-			{
-				nLevel = 1,
-				nScrutinyType = 2,
-				dwID = 14232,
-				szNote = "平沙落雁",
-				tCountdown = {
-					{
-						nClass = 8,
-						key = "平沙落雁·{$sender}",
-						nTime = 2.5,
-						szName = "平沙运功·{$sender}→{$receiver}",
-						nIcon = 7055,
-						nFrame = 1,
-					},
-					{
-						nClass = 9,
-						key = "平沙落雁·{$sender}",
-						nTime = 10,
-						szName = "平沙落雁·{$receiver}",
-						nIcon = 7055,
-						nFrame = 1,
-					},
-				},
-			},
-			{
-				nLevel = 1,
-				nScrutinyType = 2,
-				tCountdown = {
-					{
-						nClass = 9,
-						key = "杯水留影·{$sender}",
-						nTime = 3,
-						szName = "杯水留影·{$sender}→{$receiver}",
-						nFrame = 6,
-						nIcon = 7058,
-					},
-				},
-				dwID = 14084,
-			},
+			{dwID=14232,nLevel=1,nScrutinyType=2,szNote="平沙落雁",tCountdown={{key="平沙落雁·{$sender}",nClass=8,nFrame=1,nIcon=7055,nTime=2.5,szName="平沙运功·{$sender}→{$receiver}"},{key="平沙落雁·{$sender}",nClass=9,nFrame=1,nIcon=7055,nTime=10,szName="平沙落雁·{$receiver}"}}},
+			{dwID=14084,nLevel=1,nScrutinyType=2,tCountdown={{key="杯水留影·{$sender}",nClass=9,nFrame=6,nIcon=7058,nTime=3,szName="杯水留影·{$sender}→{$receiver}"}}},
+		},
+	},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {},
+	NPC = {
+		[-8] = {
+			{[3]={bScreenHead=true,tMark={false,false,false,false,false,false,false,false,false,true}},aFocus={{nMaxDistance=60,szDisplay="长歌·本体",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}},{nMaxDistance=30,szDisplay="长歌·本体",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=true,bEnemy=false}}},dwID=46140,nFrame=47,szName="长歌·本体",szNote="清绝影歌"},
+		},
+		[-7] = {
+			{aFocus={{nMaxDistance=10,szDisplay="长歌·本体",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=46140,nFrame=47,szName="长歌·本体",szNote="清绝影歌"},
+			{aFocus={{nMaxDistance=20,szDisplay="长歌·影子",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=false}}},dwID=46297,nFrame=47,szName="长歌·影子",szNote="长歌·影子"},
 		},
 	},
 	TALK = {},
-	NPC = {
-		[-8] = {
-			{
-				nFrame = 47,
-				[3] = {
-					tMark = {
-						false,
-						false,
-						false,
-						false,
-						false,
-						false,
-						false,
-						false,
-						false,
-						true,
-					},
-					bScreenHead = true,
-				},
-				dwID = 46140,
-				aFocus = {
-					{
-						szDisplay = "长歌·本体",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-					{
-						szDisplay = "长歌·本体",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				szNote = "清绝影歌",
-				szName = "长歌·本体",
-			},
-		},
-		[-7] = {
-			{
-				nFrame = 47,
-				dwID = 46140,
-				aFocus = {
-					{
-						szDisplay = "长歌·本体",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 10,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				szNote = "清绝影歌",
-				szName = "长歌·本体",
-			},
-			{
-				nFrame = 47,
-				dwID = 46297,
-				aFocus = {
-					{
-						szDisplay = "长歌·影子",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				szNote = "长歌·影子",
-				szName = "长歌·影子",
-			},
-		},
-	},
-	DEBUFF = {},
 	__meta = {
-		szServer = "唯我独尊",
+		nTimeStamp = 1791190289,
 		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1783499600,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
-	DOODAD = {},
 }

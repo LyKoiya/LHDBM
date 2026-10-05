@@ -1,256 +1,56 @@
 return {
 	BUFF = {
 		[192] = {
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 1,
-				nScrutinyType = 1,
-				dwID = 8482,
-				szName = "定身",
-				szNote = "史思明_战斗结束定身",
-				nIcon = 2019,
-			},
-		},
-		[206] = {
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 1,
-				nScrutinyType = 1,
-				dwID = 8482,
-				szName = "定身",
-				szNote = "史思明_战斗结束定身",
-				nIcon = 2019,
-			},
+			{{bBuffList=true},dwID=8482,nIcon=2019,nLevel=1,nScrutinyType=1,szName="定身",szNote="史思明_战斗结束定身"},
 		},
 		[199] = {
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 1,
-				nScrutinyType = 1,
-				dwID = 8482,
-				szName = "定身",
-				szNote = "史思明_战斗结束定身",
-				nIcon = 2019,
-			},
+			{{bBuffList=true},dwID=8482,nIcon=2019,nLevel=1,nScrutinyType=1,szName="定身",szNote="史思明_战斗结束定身"},
+		},
+		[206] = {
+			{{bBuffList=true},dwID=8482,nIcon=2019,nLevel=1,nScrutinyType=1,szName="定身",szNote="史思明_战斗结束定身"},
 		},
 		[212] = {
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 1,
-				nScrutinyType = 1,
-				dwID = 8482,
-				nIcon = 2019,
-				szNote = "史思明_战斗结束定身",
-				szName = "定身",
-			},
+			{{bBuffList=true},dwID=8482,nIcon=2019,nLevel=1,nScrutinyType=1,szName="定身",szNote="史思明_战斗结束定身"},
 		},
 	},
-	CHAT = {},
 	CASTING = {},
-	TALK = {},
-	NPC = {
-		[192] = {
-			{
-				nFrame = 52,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "军资箱",
-				dwID = 41161,
-			},
-		},
-		[212] = {
-			{
-				nFrame = 52,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "军资箱",
-				dwID = 42797,
-			},
-		},
-		[199] = {
-			{
-				nFrame = 52,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "军资箱",
-				dwID = 41162,
-			},
-		},
-		[206] = {
-			{
-				nFrame = 52,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "军资箱",
-				dwID = 42269,
-			},
-		},
-	},
+	CHAT = {},
 	DEBUFF = {
 		[192] = {
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 1,
-				nScrutinyType = 1,
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 8540,
-				szNote = "溃神",
-			},
-		},
-		[206] = {
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 1,
-				nScrutinyType = 1,
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 8540,
-				szNote = "溃神",
-			},
+			{{bBuffList=true},col={255,255,0},dwID=8540,nLevel=1,nScrutinyType=1,szNote="溃神"},
 		},
 		[199] = {
-			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 8540,
-				[1] = {
-					bBuffList = true,
-				},
-				szNote = "溃神",
-			},
+			{{bBuffList=true},col={255,255,0},dwID=8540,nLevel=1,nScrutinyType=1,szNote="溃神"},
+		},
+		[206] = {
+			{{bBuffList=true},col={255,255,0},dwID=8540,nLevel=1,nScrutinyType=1,szNote="溃神"},
 		},
 		[212] = {
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 1,
-				nScrutinyType = 1,
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 8540,
-				szNote = "溃神",
-			},
+			{{bBuffList=true},col={255,255,0},dwID=8540,nLevel=1,nScrutinyType=1,szNote="溃神"},
 		},
 	},
+	DOODAD = {},
+	NPC = {
+		[192] = {
+			{aFocus={{nMaxDistance=60,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=41161,nFrame=52,szNote="军资箱"},
+		},
+		[199] = {
+			{aFocus={{nMaxDistance=60,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=41162,nFrame=52,szNote="军资箱"},
+		},
+		[206] = {
+			{aFocus={{nMaxDistance=60,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=42269,nFrame=52,szNote="军资箱"},
+		},
+		[212] = {
+			{aFocus={{nMaxDistance=60,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=42797,nFrame=52,szNote="军资箱"},
+		},
+	},
+	TALK = {},
 	__meta = {
-		szServer = "唯我独尊",
+		nTimeStamp = 1791190289,
 		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1784557292,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
-	DOODAD = {},
 }

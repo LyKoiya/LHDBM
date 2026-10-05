@@ -6,245 +6,27 @@ return {
 	DOODAD = {},
 	NPC = {
 		[23] = {
-			{
-				aFocus = {
-					{
-						nMaxDistance = 20,
-						szDisplay = "传送·冷龙风·欲曙",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 128939,
-				nFrame = 47,
-			},
+			{aFocus={{nMaxDistance=20,szDisplay="传送·冷龙风·欲曙",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=128939,nFrame=47},
 		},
 		[695] = {
-			{
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = false,
-							bAlly = false,
-							bEnemy = true,
-						},
-					},
-				},
-				dwID = 129678,
-				nFrame = 57,
-				szNote = "巴木克",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 20,
-						tLife = {
-							bEnable = true,
-							nValue = 99,
-							szOperator = "<",
-						},
-						tRelation = {
-							bAll = false,
-							bAlly = false,
-							bEnemy = true,
-						},
-					},
-				},
-				dwID = 129010,
-				nFrame = 57,
-				szNote = "祆教教徒",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 40,
-						szDisplay = "德弗囚所·登天步道",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 129072,
-				nFrame = 50,
-				szNote = "德弗囚所·登天步道",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 10,
-						szDisplay = "鹰·山脚",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 129645,
-				nFrame = 50,
-				szNote = "鹰·山脚",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 20,
-						szDisplay = "鹰·诺布众营地",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 129647,
-				nFrame = 50,
-				szNote = "鹰·诺布众营地",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 15,
-						szDisplay = "鹰·审判庭",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 129646,
-				nFrame = 50,
-				szNote = "鹰·审判庭",
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 10,
-						szDisplay = "柳寄秋·活动商人",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 129105,
-				nFrame = 47,
-				szNote = "柳寄秋·活动商人",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 20,
-						szDisplay = "传送·山脚",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 129054,
-				nFrame = 47,
-				szNote = "穆启明·传送·山脚",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 20,
-						szDisplay = "传送·德弗囚所",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 129830,
-				nFrame = 47,
-				szNote = "传送·德弗囚所",
-			},
+			{aFocus={{nMaxDistance=60,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=129678,nFrame=57,szNote="巴木克"},
+			{aFocus={{nMaxDistance=20,tLife={bEnable=true,nValue=99,szOperator="<"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=129010,nFrame=57,szNote="祆教教徒"},
+			{aFocus={{nMaxDistance=40,szDisplay="德弗囚所·登天步道",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=129072,nFrame=50,szNote="德弗囚所·登天步道"},
+			{aFocus={{nMaxDistance=10,szDisplay="鹰·山脚",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=129645,nFrame=50,szNote="鹰·山脚"},
+			{aFocus={{nMaxDistance=20,szDisplay="鹰·诺布众营地",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=129647,nFrame=50,szNote="鹰·诺布众营地"},
+			{aFocus={{nMaxDistance=15,szDisplay="鹰·审判庭",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=129646,nFrame=50,szNote="鹰·审判庭"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=10,szDisplay="柳寄秋·活动商人",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=129105,nFrame=47,szNote="柳寄秋·活动商人"},
+			{aFocus={{nMaxDistance=20,szDisplay="传送·山脚",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=129054,nFrame=47,szNote="穆启明·传送·山脚"},
+			{aFocus={{nMaxDistance=20,szDisplay="传送·德弗囚所",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=129830,nFrame=47,szNote="传送·德弗囚所"},
 		},
 	},
 	TALK = {
 		[695] = {
-			{
-				szContent = "吾教圣地岂容尔等侵犯！受死吧，异教徒！",
-				szTarget = "巴木克",
-				tCountdown = {
-					{
-						key = "预热活动",
-						nClass = 14,
-						nFrame = 3,
-						nIcon = 13,
-						nTime = 5,
-						szName = "雪峰晤会·终了之战·开启",
-					},
-				},
-			},
+			{szContent="吾教圣地岂容尔等侵犯！受死吧，异教徒！",szTarget="巴木克",tCountdown={{key="预热活动",nClass=14,nFrame=3,nIcon=13,nTime=5,szName="雪峰晤会·终了之战·开启"}}},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790066048,
+		nTimeStamp = 1791190289,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

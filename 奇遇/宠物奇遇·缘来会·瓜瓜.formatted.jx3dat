@@ -1,181 +1,28 @@
 return {
-	CHAT = {},
-	TALK = {
-		[5] = {
-			{
-				tCountdown = {
-					{
-						key = "奇遇提示1",
-						nIcon = 12373,
-						nTime = 600,
-						nFrame = 7,
-						nClass = 14,
-						szName = "对话·闰水·后方山坡·水豚",
-					},
-					{
-						key = "奇遇提示2",
-						nIcon = 12373,
-						nTime = 600,
-						nFrame = 7,
-						nClass = 14,
-						szName = "前往·齐华村·对话·查小娘",
-					},
-					{
-						key = "奇遇提示3",
-						nIcon = 12373,
-						nTime = 600,
-						nFrame = 7,
-						nClass = 14,
-						szName = "返回·闰水·前往·桥边树下",
-					},
-				},
-				szContent = "闰水似乎有话想对你说。",
-			},
-			{
-				tCountdown = {
-					{
-						key = "奇遇提示1",
-						nIcon = 12373,
-						nTime = 60,
-						nClass = 14,
-						nFrame = 7,
-						szName = "对话·闰水·完成奇遇",
-					},
-					{
-						key = "奇遇提示2",
-						nIcon = 12373,
-						nTime = 0,
-						nClass = 14,
-						nFrame = 7,
-						szName = "奇遇提示2",
-					},
-					{
-						key = "奇遇提示3",
-						nIcon = 12373,
-						nTime = 0,
-						nClass = 14,
-						nFrame = 7,
-						szName = "奇遇提示3",
-					},
-				},
-				szContent = "闰水来了，他和查姑娘似乎彼此认识，去问问闰水怎么回事吧。",
-			},
-		},
-	},
 	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
 	DOODAD = {},
 	NPC = {
 		[5] = {
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "闰水·缘来会",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-					},
-				},
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				szNote = "缘来会·瓜·闰水",
-				dwID = 68983,
-				col = {
-					0,
-					255,
-					255,
-				},
-			},
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "水豚·缘来会",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-					},
-				},
-				nFrame = 47,
-				szNote = "缘来会·瓜·水豚",
-				dwID = 68985,
-			},
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "查小娘·缘来会",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-					},
-				},
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				szNote = "缘来会·查小娘",
-				dwID = 68984,
-				col = {
-					0,
-					255,
-					255,
-				},
-			},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="闰水·缘来会",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=68983,nFrame=47,szNote="缘来会·瓜·闰水"},
+			{aFocus={{nMaxDistance=60,szDisplay="水豚·缘来会",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=68985,nFrame=47,szNote="缘来会·瓜·水豚"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="查小娘·缘来会",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=68984,nFrame=47,szNote="缘来会·查小娘"},
 		},
 	},
-	CASTING = {},
-	DEBUFF = {},
+	TALK = {
+		[5] = {
+			{szContent="闰水似乎有话想对你说。",tCountdown={{key="奇遇提示1",nClass=14,nFrame=7,nIcon=12373,nTime=600,szName="对话·闰水·后方山坡·水豚"},{key="奇遇提示2",nClass=14,nFrame=7,nIcon=12373,nTime=600,szName="前往·齐华村·对话·查小娘"},{key="奇遇提示3",nClass=14,nFrame=7,nIcon=12373,nTime=600,szName="返回·闰水·前往·桥边树下"}}},
+			{szContent="闰水来了，他和查姑娘似乎彼此认识，去问问闰水怎么回事吧。",tCountdown={{key="奇遇提示1",nClass=14,nFrame=7,nIcon=12373,nTime=60,szName="对话·闰水·完成奇遇"},{key="奇遇提示2",nClass=14,nFrame=7,nIcon=12373,nTime=0,szName="奇遇提示2"},{key="奇遇提示3",nClass=14,nFrame=7,nIcon=12373,nTime=0,szName="奇遇提示3"}}},
+		},
+	},
 	__meta = {
-		nTimeStamp = 1721562009,
+		nTimeStamp = 1791190288,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "",
 		szEdition = "zhcn_hd",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
 		szServer = "唯我独尊",
-		szAuthor = "荷花鲤",
-		szCustomVoicePacketUUID = "",
 	},
 }

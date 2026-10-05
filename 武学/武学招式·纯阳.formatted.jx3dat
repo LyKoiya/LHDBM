@@ -1,187 +1,30 @@
 return {
 	BUFF = {},
-	CHAT = {},
 	CASTING = {
-		[-1] = {
-			{
-				tCountdown = {
-					{
-						nFrame = 0,
-						key = "镇山河",
-						nTime = 8,
-						szName = "镇山河·{$sender}",
-						nRefresh = 20,
-						nIcon = 1453,
-						nClass = 9,
-					},
-				},
-				nScrutinyType = 2,
-				dwID = 100082,
-				szNote = "镇山河·悟",
-				nLevel = 1,
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 0,
-						key = "镇山河",
-						nTime = 8,
-						szName = "镇山河·{$sender}",
-						nRefresh = 20,
-						nClass = 9,
-						nIcon = 1453,
-					},
-				},
-				nScrutinyType = 2,
-				dwID = 6911,
-				szNote = "镇山河",
-				nLevel = 1,
-			},
-			{
-				tCountdown = {
-					{
-						nFrame = 0,
-						key = "镇山河",
-						nTime = 8,
-						szName = "镇山河·{$sender}",
-						nRefresh = 20,
-						nClass = 9,
-						nIcon = 1453,
-					},
-				},
-				nScrutinyType = 2,
-				dwID = 371,
-				szNote = "镇山河",
-				nLevel = 1,
-			},
-		},
 		[-11] = {
-			{
-				tCountdown = {
-					{
-						nFrame = 0,
-						key = "镇山河",
-						nTime = 8,
-						szName = "镇山河·{$sender}",
-						nRefresh = 20,
-						nIcon = 1453,
-						nClass = 9,
-					},
-				},
-				nScrutinyType = 2,
-				dwID = 65167,
-				szNote = "绝境·镇山河",
-				nLevel = 1,
-			},
+			{dwID=65167,nLevel=1,nScrutinyType=2,szNote="绝境·镇山河",tCountdown={{key="镇山河",nClass=9,nFrame=0,nIcon=1453,nRefresh=20,nTime=8,szName="镇山河·{$sender}"}}},
+		},
+		[-1] = {
+			{dwID=100082,nLevel=1,nScrutinyType=2,szNote="镇山河·悟",tCountdown={{key="镇山河",nClass=9,nFrame=0,nIcon=1453,nRefresh=20,nTime=8,szName="镇山河·{$sender}"}}},
+			{dwID=6911,nLevel=1,nScrutinyType=2,szNote="镇山河",tCountdown={{key="镇山河",nClass=9,nFrame=0,nIcon=1453,nRefresh=20,nTime=8,szName="镇山河·{$sender}"}}},
+			{dwID=371,nLevel=1,nScrutinyType=2,szNote="镇山河",tCountdown={{key="镇山河",nClass=9,nFrame=0,nIcon=1453,nRefresh=20,nTime=8,szName="镇山河·{$sender}"}}},
+		},
+	},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {},
+	NPC = {
+		[-17] = {
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,szDisplay="镇山河·敌对",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}},{nMaxDistance=4,szDisplay="镇山河·4尺内",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=true,bEnemy=false}},{nMaxDistance=6,szDisplay="镇山河·6尺内",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=true,bEnemy=false}},{nMaxDistance=20,szDisplay="镇山河·友方",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=true,bEnemy=false}}},dwID=4982,nFrame=47,szNote="气场镇山河"},
 		},
 	},
 	TALK = {},
-	NPC = {
-		[-17] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 4982,
-				aFocus = {
-					{
-						szDisplay = "镇山河·敌对",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-					{
-						szDisplay = "镇山河·4尺内",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 4,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-					{
-						szDisplay = "镇山河·6尺内",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-					{
-						szDisplay = "镇山河·友方",
-						tRelation = {
-							bAlly = true,
-							bAll = false,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "气场镇山河",
-			},
-		},
-	},
-	DEBUFF = {},
 	__meta = {
-		szServer = "唯我独尊",
+		nTimeStamp = 1791190289,
 		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1780243045,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
-	DOODAD = {},
 }

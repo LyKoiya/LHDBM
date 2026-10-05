@@ -1,320 +1,41 @@
 return {
+	BUFF = {},
+	CASTING = {},
 	CHAT = {
 		[652] = {
-			{
-				tCountdown = {
-					{
-						key = "联动活动1",
-						szName = "使用路石铺路·让重明到达终点",
-						nClass = 20,
-						nIcon = 13,
-						nFrame = 6,
-						nTime = 20,
-					},
-				},
-				szContent = "你已接受了[铺设通路·一]。\
-",
-			},
+			{szContent="你已接受了[铺设通路·一]。\
+",tCountdown={{key="联动活动1",nClass=20,nFrame=6,nIcon=13,nTime=20,szName="使用路石铺路·让重明到达终点"}}},
+		},
+	},
+	DEBUFF = {},
+	DOODAD = {},
+	NPC = {
+		[-2] = {
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=3,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=123617,nFrame=47},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=3,szDisplay="传送·落日丘",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=128683,nFrame=47,szNote="佘婵"},
+		},
+		[652] = {
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=90,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=128511,nFrame=47},
+			{[3]={bScreenHead=true},col={0,255,0},dwID=128479,nFrame=47},
+			{[3]={bScreenHead=true},col={0,255,0},dwID=128814,nFrame=47},
+			{[3]={bScreenHead=true},col={0,255,0},dwID=128815,nFrame=47},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=3,szDisplay="频伽·商城",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=128727,nFrame=47,szNote="频伽"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=3,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={0,255,0},dwID=128731,nFrame=47},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=50,szDisplay="佘婵·传送",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=128682,nFrame=47},
 		},
 	},
 	TALK = {
 		[652] = {
-			{
-				szTarget = "重明",
-				szNote = "重明·返回起点",
-				tCountdown = {
-					{
-						key = "联动活动1",
-						szName = "重明·已返回起点",
-						nClass = 14,
-						nIcon = 13,
-						nFrame = 8,
-						nTime = 5,
-					},
-				},
-				szContent = "我回去起点了！",
-			},
-			{
-				szContent = "成功了呢！",
-				tCountdown = {
-					{
-						key = "联动活动1",
-						nFrame = 8,
-						szName = "重明·成功到达终点",
-						nClass = 14,
-						nIcon = 13,
-						nRefresh = 5,
-						nTime = 2,
-					},
-				},
-				szTarget = "重明",
-			},
+			{szContent="我回去起点了！",szNote="重明·返回起点",szTarget="重明",tCountdown={{key="联动活动1",nClass=14,nFrame=8,nIcon=13,nTime=5,szName="重明·已返回起点"}}},
+			{szContent="成功了呢！",szTarget="重明",tCountdown={{key="联动活动1",nClass=14,nFrame=8,nIcon=13,nRefresh=5,nTime=2,szName="重明·成功到达终点"}}},
 		},
 	},
-	BUFF = {},
-	DOODAD = {},
-	NPC = {
-		[652] = {
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 90,
-					},
-				},
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 128511,
-				col = {
-					0,
-					255,
-					255,
-				},
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				nFrame = 47,
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 128479,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				nFrame = 47,
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 128814,
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				nFrame = 47,
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 128815,
-			},
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "频伽·商城",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 3,
-					},
-				},
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				szNote = "频伽",
-				dwID = 128727,
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "",
-						tRelation = {
-							bAll = false,
-							bEnemy = false,
-							bAlly = true,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 3,
-					},
-				},
-				nFrame = 47,
-				dwID = 128731,
-				[3] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "佘婵·传送",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 50,
-					},
-				},
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 128682,
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-		},
-		[-2] = {
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 3,
-					},
-				},
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 123617,
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "传送·落日丘",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 3,
-					},
-				},
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				szNote = "佘婵",
-				dwID = 128683,
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-		},
-	},
-	CASTING = {},
-	DEBUFF = {},
 	__meta = {
-		nTimeStamp = 1724570372,
+		nTimeStamp = 1791190289,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "",
 		szEdition = "zhcn_hd",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
 		szServer = "唯我独尊",
-		szAuthor = "荷花鲤",
-		szCustomVoicePacketUUID = "",
 	},
 }

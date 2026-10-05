@@ -6,94 +6,14 @@ return {
 	DOODAD = {},
 	NPC = {
 		[802] = {
-			{
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "”≠À™°§›Ø¬Û",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 137317,
-				nFrame = 52,
-				szNote = "”≠À™°§›Ø¬Û",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "÷ÿ∑[°§À⁄÷÷",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 137314,
-				nFrame = 52,
-				szNote = "÷ÿ∑[°§À⁄÷÷",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "»˝ÀÛ°§‹Ò¬Û",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 137315,
-				nFrame = 52,
-				szNote = "»˝ÀÛ°§‹Ò¬Û",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "≤ÿ”Ò°§¥Û∂π",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 137316,
-				nFrame = 52,
-				szNote = "≤ÿ”Ò°§¥Û∂π",
-			},
+			{aFocus={{nMaxDistance=6,szDisplay="”≠À™°§›Ø¬Û",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=137317,nFrame=52,szNote="”≠À™°§›Ø¬Û"},
+			{aFocus={{nMaxDistance=6,szDisplay="÷ÿ∑[°§À⁄÷÷",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=137314,nFrame=52,szNote="÷ÿ∑[°§À⁄÷÷"},
+			{aFocus={{nMaxDistance=6,szDisplay="»˝ÀÛ°§‹Ò¬Û",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=137315,nFrame=52,szNote="»˝ÀÛ°§‹Ò¬Û"},
+			{aFocus={{nMaxDistance=6,szDisplay="≤ÿ”Ò°§¥Û∂π",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=137316,nFrame=52,szNote="≤ÿ”Ò°§¥Û∂π"},
 		},
 	},
 	TALK = {},
 	__meta = {
-		nTimeStamp = 1790695606,
+		nTimeStamp = 1791190288,
 	},
 }

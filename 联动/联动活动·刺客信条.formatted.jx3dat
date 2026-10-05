@@ -1,337 +1,41 @@
 return {
 	BUFF = {},
-	CHAT = {},
 	CASTING = {},
-	TALK = {},
-	NPC = {
-		[787] = {
-			{
-				nFrame = 57,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "乌鲁克",
-				dwID = 136060,
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 136095,
-				aFocus = {
-					{
-						nMaxDistance = 40,
-					},
-				},
-				szNote = "飞踏点",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 136062,
-				aFocus = {
-					{
-						nMaxDistance = 40,
-					},
-				},
-				szNote = "飞踏点",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "大食护卫·2尺",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 2,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "大食护卫",
-				dwID = 136112,
-			},
-			{
-				nFrame = 47,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 2,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "大食护卫",
-				dwID = 136067,
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 136097,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "夏拉派蒂",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-		},
-		[713] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 136057,
-				aFocus = {
-					{
-						szDisplay = "夏拉派蒂·侠影无形",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "联动·刺客信条",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-		},
-	},
+	CHAT = {},
 	DEBUFF = {
 		[787] = {
-			{
-				{
-					bScreenHead = true,
-				},
-				nLevel = 1,
-				dwID = 32624,
-				szNote = "晕",
-				col = {
-					255,
-					255,
-					0,
-				},
-			},
+			{{bScreenHead=true},col={255,255,0},dwID=32624,nLevel=1,szNote="晕"},
 		},
-	},
-	__meta = {
-		szServer = "唯我独尊",
-		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1768057997,
-		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
-		szEdition = "zhcn_hd",
 	},
 	DOODAD = {
 		[713] = {
-			{
-				dwID = 11575,
-				aFocus = {
-					{
-						szDisplay = "书籍·侠影无形",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "联动·刺客信条",
-			},
-			{
-				dwID = 11596,
-				aFocus = {
-					{
-						szDisplay = "回忆·侠影无形",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "联动·刺客信条",
-			},
+			{aFocus={{nMaxDistance=6,szDisplay="书籍·侠影无形",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11575,szNote="联动·刺客信条"},
+			{aFocus={{nMaxDistance=30,szDisplay="回忆·侠影无形",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11596,szNote="联动·刺客信条"},
 		},
 		[787] = {
-			{
-				dwID = 11571,
-				aFocus = {
-					{
-						szDisplay = "宝箱·真",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 12,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "联动·宝箱",
-			},
+			{aFocus={{nMaxDistance=12,szDisplay="宝箱·真",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11571,szNote="联动·宝箱"},
 		},
+	},
+	NPC = {
+		[713] = {
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="夏拉派蒂·侠影无形",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=136057,nFrame=47,szNote="联动·刺客信条"},
+		},
+		[787] = {
+			{aFocus={{nMaxDistance=60,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=136060,nFrame=57,szNote="乌鲁克"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=40}},col={0,255,0},dwID=136095,nFrame=47,szNote="飞踏点"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=40}},col={0,255,0},dwID=136062,nFrame=47,szNote="飞踏点"},
+			{aFocus={{nMaxDistance=2,szDisplay="大食护卫·2尺",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}},{nMaxDistance=20,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=136112,nFrame=47,szNote="大食护卫"},
+			{aFocus={{nMaxDistance=2,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=136067,nFrame=47,szNote="大食护卫"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=136097,nFrame=47,szNote="夏拉派蒂"},
+		},
+	},
+	TALK = {},
+	__meta = {
+		nTimeStamp = 1791190289,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
 }

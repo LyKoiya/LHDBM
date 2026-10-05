@@ -3,240 +3,46 @@ return {
 	CASTING = {},
 	CHAT = {
 		[-21] = {
-			{
-				[20] = {
-					bCenterAlarm = true,
-				},
-				szContent = "援助关系绑定成功，退队可主动解除，但会受到一定惩罚。若对方离线，主动退队解除关系将不受惩罚。\
-",
-				szNote = "援助·已绑定",
-				tCountdown = {
-					{
-						key = "援助提示",
-						nClass = 20,
-						nFrame = 0,
-						nIcon = 13,
-						nTime = 10,
-						szName = "援助·已绑定",
-					},
-				},
-			},
+			{[20]={bCenterAlarm=true},szContent="援助关系绑定成功，退队可主动解除，但会受到一定惩罚。若对方离线，主动退队解除关系将不受惩罚。\
+",szNote="援助·已绑定",tCountdown={{key="援助提示",nClass=20,nFrame=0,nIcon=13,nTime=10,szName="援助·已绑定"}}},
 		},
 		[-7] = {
-			{
-				[20] = {
-					bCenterAlarm = true,
-				},
-				szContent = "援助关系绑定成功，退队可主动解除，但会受到一定惩罚。若对方离线，主动退队解除关系将不受惩罚。\
-",
-				szNote = "援助·已绑定",
-				tCountdown = {
-					{
-						key = "援助提示",
-						nClass = 20,
-						nFrame = 0,
-						nIcon = 13,
-						nTime = 10,
-						szName = "援助·已绑定",
-					},
-				},
-			},
+			{[20]={bCenterAlarm=true},szContent="援助关系绑定成功，退队可主动解除，但会受到一定惩罚。若对方离线，主动退队解除关系将不受惩罚。\
+",szNote="援助·已绑定",tCountdown={{key="援助提示",nClass=20,nFrame=0,nIcon=13,nTime=10,szName="援助·已绑定"}}},
 		},
 		[-2] = {
-			{
-				[20] = {
-					bCenterAlarm = true,
-				},
-				szContent = "援助关系绑定成功，退队可主动解除，但会受到一定惩罚。若对方离线，主动退队解除关系将不受惩罚。\
-",
-				szNote = "援助·已绑定",
-				tCountdown = {
-					{
-						key = "援助提示",
-						nClass = 20,
-						nFrame = 0,
-						nIcon = 13,
-						nTime = 10,
-						szName = "援助·已绑定",
-					},
-				},
-			},
+			{[20]={bCenterAlarm=true},szContent="援助关系绑定成功，退队可主动解除，但会受到一定惩罚。若对方离线，主动退队解除关系将不受惩罚。\
+",szNote="援助·已绑定",tCountdown={{key="援助提示",nClass=20,nFrame=0,nIcon=13,nTime=10,szName="援助·已绑定"}}},
 		},
 		[6] = {
-			{
-				szContent = "你已接受了[一杯浊酒尽余欢]。\
-",
-				szNote = "剑三江湖·师徒·出师任务",
-				tCountdown = {
-					{
-						key = "任务提示1",
-						nClass = 20,
-						nFrame = 6,
-						nIcon = 13,
-						nTime = 30,
-						szName = "徒弟7日·不可拜师敬酒师傅",
-					},
-					{
-						key = "任务提示2",
-						nClass = 20,
-						nFrame = 6,
-						nIcon = 13,
-						nTime = 30,
-						szName = "师傅5日·不可收徒敬酒徒弟",
-					},
-					{
-						key = "任务提示3",
-						nClass = 20,
-						nFrame = 6,
-						nIcon = 13,
-						nTime = 30,
-						szName = "非敬酒师傅出师后可直接拜师",
-					},
-					{
-						key = "任务提示4",
-						nClass = 20,
-						nFrame = 6,
-						nIcon = 13,
-						nTime = 30,
-						szName = "被敬酒师傅5日后可主动收徒",
-					},
-				},
-			},
+			{szContent="你已接受了[一杯浊酒尽余欢]。\
+",szNote="剑三江湖·师徒·出师任务",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="徒弟7日·不可拜师敬酒师傅"},{key="任务提示2",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="师傅5日·不可收徒敬酒徒弟"},{key="任务提示3",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="非敬酒师傅出师后可直接拜师"},{key="任务提示4",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="被敬酒师傅5日后可主动收徒"}}},
 		},
 	},
 	DEBUFF = {
 		[-1] = {
-			{
-				dwID = 15743,
-				nIcon = 2118,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "拜师CD",
-				szNote = "剑三江湖·师徒·出师_徒弟用",
-				tCountdown = {
-					{
-						key = "师徒提示",
-						nClass = 2,
-						nFrame = 6,
-						nIcon = 2118,
-						nTime = 5,
-						szName = "师徒·徒弟封印·结束",
-					},
-				},
-			},
-			{
-				dwID = 15744,
-				nIcon = 2117,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "收徒CD",
-				szNote = "剑三江湖·师徒·出师_师傅用",
-				tCountdown = {
-					{
-						key = "师徒提示",
-						nClass = 2,
-						nFrame = 6,
-						nIcon = 2117,
-						nTime = 5,
-						szName = "师徒·师傅封印·结束",
-					},
-				},
-			},
+			{dwID=15743,nIcon=2118,nLevel=1,nScrutinyType=1,szName="拜师CD",szNote="剑三江湖·师徒·出师_徒弟用",tCountdown={{key="师徒提示",nClass=2,nFrame=6,nIcon=2118,nTime=5,szName="师徒·徒弟封印·结束"}}},
+			{dwID=15744,nIcon=2117,nLevel=1,nScrutinyType=1,szName="收徒CD",szNote="剑三江湖·师徒·出师_师傅用",tCountdown={{key="师徒提示",nClass=2,nFrame=6,nIcon=2117,nTime=5,szName="师徒·师傅封印·结束"}}},
 		},
 	},
 	DOODAD = {},
 	NPC = {},
 	TALK = {
 		[-21] = {
-			{
-				szContent = "未找到前来帮助的侠士，少侠可重新发布援助。",
-				tCountdown = {
-					{
-						key = "援助提示",
-						nClass = 14,
-						nFrame = 4,
-						nIcon = 13,
-						nRefresh = 0,
-						nTime = "10,援助·未找到;232,援助·CD",
-						szName = "",
-					},
-				},
-			},
-			{
-				szContent = "正在为你寻找玩家，一分钟内对方将与你自动组队，请保持可组队状态。",
-				tCountdown = {
-					{
-						key = "援助提示",
-						nClass = 14,
-						nFrame = 6,
-						nIcon = 13,
-						nTime = 60,
-						szName = "援助·保持可组队状态",
-					},
-				},
-			},
+			{szContent="未找到前来帮助的侠士，少侠可重新发布援助。",tCountdown={{key="援助提示",nClass=14,nFrame=4,nIcon=13,nRefresh=0,nTime="10,援助·未找到;232,援助·CD",szName=""}}},
+			{szContent="正在为你寻找玩家，一分钟内对方将与你自动组队，请保持可组队状态。",tCountdown={{key="援助提示",nClass=14,nFrame=6,nIcon=13,nTime=60,szName="援助·保持可组队状态"}}},
 		},
 		[-7] = {
-			{
-				szContent = "未找到前来帮助的侠士，少侠可重新发布援助。",
-				tCountdown = {
-					{
-						key = "援助提示",
-						nClass = 14,
-						nFrame = 4,
-						nIcon = 13,
-						nRefresh = 0,
-						nTime = "10,援助·未找到;232,援助·CD",
-						szName = "",
-					},
-				},
-			},
-			{
-				szContent = "正在为你寻找玩家，一分钟内对方将与你自动组队，请保持可组队状态。",
-				tCountdown = {
-					{
-						key = "援助提示",
-						nClass = 14,
-						nFrame = 6,
-						nIcon = 13,
-						nTime = 60,
-						szName = "援助·保持可组队状态",
-					},
-				},
-			},
+			{szContent="未找到前来帮助的侠士，少侠可重新发布援助。",tCountdown={{key="援助提示",nClass=14,nFrame=4,nIcon=13,nRefresh=0,nTime="10,援助·未找到;232,援助·CD",szName=""}}},
+			{szContent="正在为你寻找玩家，一分钟内对方将与你自动组队，请保持可组队状态。",tCountdown={{key="援助提示",nClass=14,nFrame=6,nIcon=13,nTime=60,szName="援助·保持可组队状态"}}},
 		},
 		[-2] = {
-			{
-				szContent = "未找到前来帮助的侠士，少侠可重新发布援助。",
-				tCountdown = {
-					{
-						key = "援助提示",
-						nClass = 14,
-						nFrame = 4,
-						nIcon = 13,
-						nRefresh = 0,
-						nTime = "10,援助·未找到;232,援助·CD",
-						szName = "",
-					},
-				},
-			},
-			{
-				szContent = "正在为你寻找玩家，一分钟内对方将与你自动组队，请保持可组队状态。",
-				tCountdown = {
-					{
-						key = "援助提示",
-						nClass = 14,
-						nFrame = 6,
-						nIcon = 13,
-						nTime = 60,
-						szName = "援助·保持可组队状态",
-					},
-				},
-			},
+			{szContent="未找到前来帮助的侠士，少侠可重新发布援助。",tCountdown={{key="援助提示",nClass=14,nFrame=4,nIcon=13,nRefresh=0,nTime="10,援助·未找到;232,援助·CD",szName=""}}},
+			{szContent="正在为你寻找玩家，一分钟内对方将与你自动组队，请保持可组队状态。",tCountdown={{key="援助提示",nClass=14,nFrame=6,nIcon=13,nTime=60,szName="援助·保持可组队状态"}}},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1785578952,
+		nTimeStamp = 1791190289,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

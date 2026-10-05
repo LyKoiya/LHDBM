@@ -3,466 +3,68 @@ return {
 	CASTING = {},
 	CHAT = {
 		[-2] = {
-			{
-				szContent = "你已接受了[枫叶红如血]。\
-",
-				tCountdown = {
-					{
-						key = "节日活动1",
-						nClass = 20,
-						nIcon = 13,
-						nTime = 10,
-						szName = "扬州·扬州城·出魂",
-					},
-				},
-			},
-			{
-				szContent = "你已接受了[玉蝶不知处]。\
-",
-				tCountdown = {
-					{
-						key = "节日活动1",
-						nClass = 20,
-						nIcon = 13,
-						nTime = 10,
-						szName = "扬州·扬州城·出魂",
-					},
-				},
-			},
-			{
-				szContent = "你已接受了[长枪今何在]。\
-",
-				tCountdown = {
-					{
-						key = "节日活动1",
-						nClass = 20,
-						nIcon = 13,
-						nTime = 10,
-						szName = "神行·天策战乱·天策大营·出魂",
-					},
-				},
-			},
+			{szContent="你已接受了[枫叶红如血]。\
+",tCountdown={{key="节日活动1",nClass=20,nIcon=13,nTime=10,szName="扬州·扬州城·出魂"}}},
+			{szContent="你已接受了[玉蝶不知处]。\
+",tCountdown={{key="节日活动1",nClass=20,nIcon=13,nTime=10,szName="扬州·扬州城·出魂"}}},
+			{szContent="你已接受了[长枪今何在]。\
+",tCountdown={{key="节日活动1",nClass=20,nIcon=13,nTime=10,szName="神行·天策战乱·天策大营·出魂"}}},
 		},
 		[6] = {
-			{
-				szContent = "你已接受了[梦蝶却迷踪]。\
-",
-				tCountdown = {
-					{
-						key = "节日活动1",
-						nClass = 20,
-						nIcon = 13,
-						nTime = 10,
-						szName = "神行·洛阳城·白马寺",
-					},
-				},
-			},
-			{
-				szContent = "你已接受了[故人醉笑去]。\
-",
-				tCountdown = {
-					{
-						key = "节日活动1",
-						nClass = 20,
-						nIcon = 13,
-						nTime = 10,
-						szName = "神行·苍云·古战场·出魂",
-					},
-				},
-			},
+			{szContent="你已接受了[梦蝶却迷踪]。\
+",tCountdown={{key="节日活动1",nClass=20,nIcon=13,nTime=10,szName="神行·洛阳城·白马寺"}}},
+			{szContent="你已接受了[故人醉笑去]。\
+",tCountdown={{key="节日活动1",nClass=20,nIcon=13,nTime=10,szName="神行·苍云·古战场·出魂"}}},
 		},
 		[193] = {
-			{
-				szContent = "你已接受了[烈酒共死生]。\
-",
-				tCountdown = {
-					{
-						key = "节日活动1",
-						nClass = 20,
-						nIcon = 13,
-						nTime = 10,
-						szName = "还魂·前往·苍云堡",
-					},
-				},
-			},
+			{szContent="你已接受了[烈酒共死生]。\
+",tCountdown={{key="节日活动1",nClass=20,nIcon=13,nTime=10,szName="还魂·前往·苍云堡"}}},
 		},
 	},
 	DEBUFF = {},
 	DOODAD = {
 		[-21] = {
-			{
-				[17] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 120,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 6653,
-				szNote = "中元节·祭坛",
-			},
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=120,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=6653,szNote="中元节·祭坛"},
 		},
 		[6] = {
-			{
-				[17] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 120,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 6653,
-				szNote = "中元节·祭坛",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 6676,
-				szNote = "中元节·将士的祭坛",
-			},
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=120,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=6653,szNote="中元节·祭坛"},
+			{aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=6676,szNote="中元节·将士的祭坛"},
 		},
 	},
 	NPC = {
 		[-21] = {
-			{
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				aFocus = {
-					{},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 57719,
-				nFrame = 67,
-				szNote = "善良的魂灵",
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 50,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = false,
-							bAlly = false,
-							bEnemy = true,
-						},
-					},
-				},
-				col = {
-					255,
-					50,
-					255,
-				},
-				dwID = 57718,
-				nFrame = 67,
-				szNote = "捣乱的魂灵",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 50,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = false,
-							bAlly = false,
-							bEnemy = true,
-						},
-					},
-				},
-				dwID = 57749,
-				nFrame = 67,
-				szNote = "偷食祭品的魂灵",
-			},
+			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{}},col={0,255,0},dwID=57719,nFrame=67,szNote="善良的魂灵"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=50,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},col={255,50,255},dwID=57718,nFrame=67,szNote="捣乱的魂灵"},
+			{aFocus={{nMaxDistance=50,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=57749,nFrame=67,szNote="偷食祭品的魂灵"},
 		},
 		[-2] = {
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 3,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 113586,
-				nFrame = 52,
-				szNote = "中元节·中元货品",
-			},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=3,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=113586,nFrame=52,szNote="中元节·中元货品"},
 		},
 		[6] = {
-			{
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				aFocus = {
-					{},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 57719,
-				nFrame = 67,
-				szNote = "善良的魂灵",
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 50,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = false,
-							bAlly = false,
-							bEnemy = true,
-						},
-					},
-				},
-				col = {
-					255,
-					50,
-					255,
-				},
-				dwID = 57718,
-				nFrame = 67,
-				szNote = "捣乱的魂灵",
-			},
-			{
-				aFocus = {
-					{
-						nMaxDistance = 50,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = false,
-							bAlly = false,
-							bEnemy = true,
-						},
-					},
-				},
-				dwID = 57749,
-				nFrame = 67,
-				szNote = "偷食祭品的魂灵",
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						szDisplay = "蒋玉宸·中元节",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 57717,
-				nFrame = 47,
-				szNote = "中元节·蒋玉宸",
-			},
+			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{}},col={0,255,0},dwID=57719,nFrame=67,szNote="善良的魂灵"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=50,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},col={255,50,255},dwID=57718,nFrame=67,szNote="捣乱的魂灵"},
+			{aFocus={{nMaxDistance=50,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=57749,nFrame=67,szNote="偷食祭品的魂灵"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,szDisplay="蒋玉宸·中元节",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=57717,nFrame=47,szNote="中元节·蒋玉宸"},
 		},
 		[193] = {
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 60,
-						szDisplay = "薛直·中元节",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 57721,
-				nFrame = 67,
-				szNote = "薛直",
-			},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="薛直·中元节",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=57721,nFrame=67,szNote="薛直"},
 		},
 		[239] = {
-			{
-				aFocus = {
-					{
-						nMaxDistance = 30,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = false,
-							bAlly = false,
-							bEnemy = true,
-						},
-					},
-				},
-				dwID = 53420,
-				nFrame = 65,
-				szNote = "中元节·蝴蝶",
-			},
+			{aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=53420,nFrame=65,szNote="中元节·蝴蝶"},
 		},
 	},
 	TALK = {
 		[-21] = {
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szContent = "祭扫魂墟祭坛，无意间得到一件物品，望侠士善加利用。",
-				szNote = "祭扫祭坛·获得物品",
-			},
-			{
-				szContent = "周围已有其他方士正在入定，为避免互相干扰，离远一些方可出魂入定。",
-				tCountdown = {
-					{
-						key = "方士事件1",
-						nClass = 14,
-						nFrame = 7,
-						nIcon = 13,
-						nTime = 5,
-						szName = "方士·入定·间隔4.5尺",
-					},
-				},
-			},
+			{[14]={bCenterAlarm=true},szContent="祭扫魂墟祭坛，无意间得到一件物品，望侠士善加利用。",szNote="祭扫祭坛·获得物品"},
+			{szContent="周围已有其他方士正在入定，为避免互相干扰，离远一些方可出魂入定。",tCountdown={{key="方士事件1",nClass=14,nFrame=7,nIcon=13,nTime=5,szName="方士·入定·间隔4.5尺"}}},
 		},
 		[6] = {
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szContent = "祭扫魂墟祭坛，无意间得到一件物品，望侠士善加利用。",
-				szNote = "祭扫祭坛·获得物品",
-			},
-			{
-				szContent = "周围已有其他方士正在入定，为避免互相干扰，离远一些方可出魂入定。",
-				tCountdown = {
-					{
-						key = "方士事件1",
-						nClass = 14,
-						nFrame = 7,
-						nIcon = 13,
-						nTime = 5,
-						szName = "方士·入定·间隔4.5尺",
-					},
-				},
-			},
+			{[14]={bCenterAlarm=true},szContent="祭扫魂墟祭坛，无意间得到一件物品，望侠士善加利用。",szNote="祭扫祭坛·获得物品"},
+			{szContent="周围已有其他方士正在入定，为避免互相干扰，离远一些方可出魂入定。",tCountdown={{key="方士事件1",nClass=14,nFrame=7,nIcon=13,nTime=5,szName="方士·入定·间隔4.5尺"}}},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1787845941,
+		nTimeStamp = 1791190289,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

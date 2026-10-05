@@ -1,556 +1,62 @@
 return {
 	BUFF = {},
+	CASTING = {},
 	CHAT = {
 		[-1] = {
-			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "通用事件",
-						nTime = 20,
-						szName = "扬州·机甲巨豕",
-						nFrame = 6,
-						nIcon = 88,
-					},
-				},
-				szContent = "司徒一一的机甲巨豕出现啦，它威力无比，将破坏赏花大会的菊花花圃，侠士们速去扬州将它赶跑！\
-",
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "通用事件",
-						nTime = 20,
-						szName = "成都·机甲巨豕",
-						nIcon = 88,
-						nFrame = 6,
-					},
-				},
-				szContent = "司徒一一的机甲巨豕出现啦，它威力无比，将破坏赏花大会的菊花花圃，侠士们速去成都将它赶跑！\
-",
-			},
+			{szContent="司徒一一的机甲巨豕出现啦，它威力无比，将破坏赏花大会的菊花花圃，侠士们速去扬州将它赶跑！\
+",tCountdown={{key="通用事件",nClass=20,nFrame=6,nIcon=88,nTime=20,szName="扬州·机甲巨豕"}}},
+			{szContent="司徒一一的机甲巨豕出现啦，它威力无比，将破坏赏花大会的菊花花圃，侠士们速去成都将它赶跑！\
+",tCountdown={{key="通用事件",nClass=20,nFrame=6,nIcon=88,nTime=20,szName="成都·机甲巨豕"}}},
 		},
 		[150] = {
-			{
-				tCountdown = {
-					{
-						nIcon = 13,
-						key = "任务提示1",
-						nTime = 30,
-						szName = "寻找·明教·罐子",
-						nRefresh = 2,
-						nFrame = 0,
-						nClass = 20,
-					},
-				},
-				szNote = "寻找·明教·罐子",
-				[20] = {
-					bCenterAlarm = true,
-				},
-				szContent = "你已接受了[慰问老人·遗失的宝物]。\
-",
-			},
+			{[20]={bCenterAlarm=true},szContent="你已接受了[慰问老人·遗失的宝物]。\
+",szNote="寻找·明教·罐子",tCountdown={{key="任务提示1",nClass=20,nFrame=0,nIcon=13,nRefresh=2,nTime=30,szName="寻找·明教·罐子"}}},
 		},
 	},
-	CASTING = {},
-	TALK = {
+	DEBUFF = {},
+	DOODAD = {
 		[-2] = {
-			{
-				tCountdown = {
-					{
-						nFrame = 3,
-						key = "机甲巨豕",
-						nTime = "10,机甲巨豕·已击退;118.43,神秘的碎片·拾取剩余",
-						szName = "",
-						nRefresh = 0,
-						nIcon = 144,
-						nClass = 14,
-					},
-				},
-				szNote = "重阳节·机甲巨豕·已击退",
-				szContent = "多谢侠士相助！今日花会成功举办，我等这就将鲜花送给城中百姓，以表万花谷的心意。",
-				szTarget = "白馨",
-			},
+			{[17]={bCenterAlarm=true,bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="神秘的宝箱·重阳节",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=4847,szNote="重阳节·神秘的宝箱"},
+		},
+		[158] = {
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="小香炉·上香",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=4817,szNote="重阳节·小香炉"},
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="念祭文",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=4818,szNote="重阳节·祭文"},
+		},
+		[217] = {
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="小香炉·上香",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=4817,szNote="重阳节·小香炉"},
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="念祭文",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=4818,szNote="重阳节·祭文"},
 		},
 	},
 	NPC = {
 		[-2] = {
-			{
-				nFrame = 52,
-				[3] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				dwID = 37163,
-				aFocus = {
-					{},
-				},
-				szNote = "重阳节·机甲巨豕",
-				col = {
-					255,
-					50,
-					50,
-				},
-			},
-			{
-				nFrame = 52,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 113588,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 3,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "重阳节·重阳货品",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 37149,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "重阳节·白馨",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 37356,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "重阳节·风筱孑",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
-		},
-		[122] = {
-			{
-				nFrame = 50,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "熊猫·重阳节",
-				dwID = 15236,
-			},
-			{
-				nFrame = 50,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "熊猫·重阳节",
-				dwID = 15212,
-			},
+			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{}},col={255,50,50},dwID=37163,nFrame=52,szNote="重阳节·机甲巨豕"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=3,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=113588,nFrame=52,szNote="重阳节·重阳货品"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=37149,nFrame=47,szNote="重阳节·白馨"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=37356,nFrame=47,szNote="重阳节·风筱孑"},
 		},
 		[2] = {
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 37165,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 20,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "机甲人",
-			},
-			{
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				dwID = 37148,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "刘愈",
-				col = {
-					0,
-					255,
-					0,
-				},
-			},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=37165,nFrame=47,szNote="机甲人"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=37148,nFrame=47,szNote="刘愈"},
+		},
+		[122] = {
+			{aFocus={{nMaxDistance=20,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=15236,nFrame=50,szNote="熊猫·重阳节"},
+			{aFocus={{nMaxDistance=20,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=15212,nFrame=50,szNote="熊猫·重阳节"},
 		},
 		[150] = {
-			{
-				nFrame = 52,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "罐子",
-				dwID = 19433,
-			},
+			{aFocus={{nMaxDistance=60,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=19433,nFrame=52,szNote="罐子"},
 		},
 	},
-	DEBUFF = {},
+	TALK = {
+		[-2] = {
+			{szContent="多谢侠士相助！今日花会成功举办，我等这就将鲜花送给城中百姓，以表万花谷的心意。",szNote="重阳节·机甲巨豕·已击退",szTarget="白馨",tCountdown={{key="机甲巨豕",nClass=14,nFrame=3,nIcon=144,nRefresh=0,nTime="10,机甲巨豕·已击退;118.43,神秘的碎片·拾取剩余",szName=""}}},
+		},
+	},
 	__meta = {
-		szServer = "唯我独尊",
+		nTimeStamp = 1791190289,
 		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1761306715,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
-	},
-	DOODAD = {
-		[-2] = {
-			{
-				[17] = {
-					bCenterAlarm = true,
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 4847,
-				aFocus = {
-					{
-						szDisplay = "神秘的宝箱·重阳节",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						nMaxDistance = 0,
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "重阳节·神秘的宝箱",
-			},
-		},
-		[158] = {
-			{
-				[17] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 4817,
-				aFocus = {
-					{
-						szDisplay = "小香炉·上香",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "重阳节·小香炉",
-			},
-			{
-				[17] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 4818,
-				aFocus = {
-					{
-						szDisplay = "念祭文",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "重阳节·祭文",
-			},
-		},
-		[217] = {
-			{
-				[17] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 4817,
-				aFocus = {
-					{
-						szDisplay = "小香炉·上香",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "重阳节·小香炉",
-			},
-			{
-				[17] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 4818,
-				aFocus = {
-					{
-						szDisplay = "念祭文",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "重阳节·祭文",
-			},
-		},
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
 }

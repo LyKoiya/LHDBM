@@ -4,209 +4,30 @@ return {
 	CHAT = {},
 	DEBUFF = {
 		[133] = {
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 4013,
-				nIcon = 6497,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "抗摔",
-				szNote = "烛龙殿_乌蒙贵_判断BUFF",
-			},
+			{{bBuffList=true},col={255,255,0},dwID=4013,nIcon=6497,nLevel=1,nScrutinyType=1,szName="抗摔",szNote="烛龙殿_乌蒙贵_判断BUFF"},
 		},
 		[134] = {
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 4013,
-				nIcon = 6497,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "抗摔",
-				szNote = "烛龙殿_乌蒙贵_判断BUFF",
-			},
+			{{bBuffList=true},col={255,255,0},dwID=4013,nIcon=6497,nLevel=1,nScrutinyType=1,szName="抗摔",szNote="烛龙殿_乌蒙贵_判断BUFF"},
 		},
 	},
 	DOODAD = {},
 	NPC = {
 		[133] = {
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 50,
-						szDisplay = "地字玖陆伍·快速",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 105943,
-				nFrame = 47,
-				szNote = "地字玖陆伍",
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 50,
-						szDisplay = "杨宁·剧情",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 16526,
-				nFrame = 47,
-				szNote = "杨宁",
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 90,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 17382,
-				nFrame = 52,
-				szNote = "瓷罐",
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 0,
-						szDisplay = "天蛛暗杀者·吸蓝",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				dwID = 17369,
-				nFrame = 47,
-				szNote = "天蛛暗杀者",
-			},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=50,szDisplay="地字玖陆伍·快速",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=105943,nFrame=47,szNote="地字玖陆伍"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=50,szDisplay="杨宁·剧情",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=16526,nFrame=47,szNote="杨宁"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=90,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=17382,nFrame=52,szNote="瓷罐"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="天蛛暗杀者·吸蓝",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=17369,nFrame=47,szNote="天蛛暗杀者"},
 		},
 	},
 	TALK = {
 		[133] = {
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szContent = "你们小心，这里的蜘蛛异常凶猛，我等被困于此，待救出好一起去救叶掌门!",
-				szNote = "清除·周围蜘蛛",
-				szTarget = "李承恩",
-				tCountdown = {
-					{
-						key = "剧情提示",
-						nClass = 14,
-						nFrame = 4,
-						nIcon = 13,
-						nTime = 10,
-						szName = "清除·周围蜘蛛",
-					},
-				},
-			},
-			{
-				[14] = {
-					bCenterAlarm = true,
-				},
-				szContent = "将周围凶猛的蜘蛛清除，我们一起前往祭坛!",
-				szNote = "清除·周围蜘蛛",
-				szTarget = "李承恩",
-				tCountdown = {
-					{
-						key = "剧情提示",
-						nClass = 14,
-						nFrame = 4,
-						nIcon = 13,
-						nTime = 10,
-						szName = "清除·周围蜘蛛",
-					},
-				},
-			},
-			{
-				szContent = "大家跟在我身后，此地是天一教立身之地，毒物极多！",
-				szNote = "清除·周围蜘蛛",
-				szTarget = "李承恩",
-				tCountdown = {
-					{
-						key = "剧情提示",
-						nClass = 14,
-						nFrame = 5,
-						nIcon = 13,
-						nTime = 30,
-						szName = "剧情·索笛尔",
-					},
-				},
-			},
+			{[14]={bCenterAlarm=true},szContent="你们小心，这里的蜘蛛异常凶猛，我等被困于此，待救出好一起去救叶掌门!",szNote="清除·周围蜘蛛",szTarget="李承恩",tCountdown={{key="剧情提示",nClass=14,nFrame=4,nIcon=13,nTime=10,szName="清除·周围蜘蛛"}}},
+			{[14]={bCenterAlarm=true},szContent="将周围凶猛的蜘蛛清除，我们一起前往祭坛!",szNote="清除·周围蜘蛛",szTarget="李承恩",tCountdown={{key="剧情提示",nClass=14,nFrame=4,nIcon=13,nTime=10,szName="清除·周围蜘蛛"}}},
+			{szContent="大家跟在我身后，此地是天一教立身之地，毒物极多！",szNote="清除·周围蜘蛛",szTarget="李承恩",tCountdown={{key="剧情提示",nClass=14,nFrame=5,nIcon=13,nTime=30,szName="剧情·索笛尔"}}},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1790319995,
+		nTimeStamp = 1791190289,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

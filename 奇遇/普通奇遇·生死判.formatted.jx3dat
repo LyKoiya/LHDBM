@@ -1,321 +1,36 @@
 return {
 	BUFF = {},
-	CHAT = {},
 	CASTING = {},
-	TALK = {},
-	NPC = {
-		[25] = {
-			{
-				nFrame = 47,
-				dwID = 43856,
-				aFocus = {
-					{
-						szDisplay = "卞凡通·生死判·驱遣",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "生死判·卞凡通",
-			},
-			{
-				nFrame = 47,
-				dwID = 43859,
-				aFocus = {
-					{
-						szDisplay = "江沅陵·生死判·入盟",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "生死判·江沅陵",
-			},
-			{
-				nFrame = 47,
-				dwID = 43858,
-				aFocus = {
-					{
-						szDisplay = "彭戚远·生死判·驱遣",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "生死判·彭戚远",
-			},
-			{
-				nFrame = 47,
-				dwID = 43855,
-				aFocus = {
-					{
-						szDisplay = "李经州·生死判·入盟",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "生死判·李经州",
-			},
-			{
-				nFrame = 47,
-				dwID = 43857,
-				aFocus = {
-					{
-						szDisplay = "韩猛·生死判·驱遣",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "生死判·韩猛",
-			},
-		},
-		[27] = {
-			{
-				dwID = 43854,
-				aFocus = {
-					{
-						szDisplay = "英布·生死判·入谷",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "生死判·英布",
-				nFrame = 47,
-			},
-			{
-				dwID = 43853,
-				aFocus = {
-					{
-						szDisplay = "董天重·生死判·入谷",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "生死判·董天重",
-				nFrame = 47,
-			},
-			{
-				dwID = 43852,
-				aFocus = {
-					{
-						szDisplay = "冯盅·生死判·驱遣",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "生死判·冯盅",
-				nFrame = 47,
-			},
-			{
-				dwID = 43821,
-				aFocus = {
-					{
-						szDisplay = "向拓·生死判·驱遣",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "生死判·向拓",
-				nFrame = 47,
-			},
-			{
-				dwID = 43820,
-				aFocus = {
-					{
-						szDisplay = "王麒·生死判·入谷",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "生死判·王麒",
-				nFrame = 47,
-			},
-		},
-	},
+	CHAT = {},
 	DEBUFF = {
 		[-1] = {
-			{
-				{
-					bBuffList = true,
-				},
-				nLevel = 1,
-				nScrutinyType = 1,
-				col = {
-					255,
-					255,
-					0,
-				},
-				szName = "看信",
-				nIcon = 22438,
-				szNote = "看信",
-				dwID = 7907,
-			},
+			{{bBuffList=true},col={255,255,0},dwID=7907,nIcon=22438,nLevel=1,nScrutinyType=1,szName="看信",szNote="看信"},
 		},
 	},
+	DOODAD = {},
+	NPC = {
+		[25] = {
+			{aFocus={{nMaxDistance=60,szDisplay="卞凡通·生死判·驱遣",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43856,nFrame=47,szNote="生死判·卞凡通"},
+			{aFocus={{nMaxDistance=60,szDisplay="江沅陵·生死判·入盟",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43859,nFrame=47,szNote="生死判·江沅陵"},
+			{aFocus={{nMaxDistance=60,szDisplay="彭戚远·生死判·驱遣",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43858,nFrame=47,szNote="生死判·彭戚远"},
+			{aFocus={{nMaxDistance=60,szDisplay="李经州·生死判·入盟",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43855,nFrame=47,szNote="生死判·李经州"},
+			{aFocus={{nMaxDistance=60,szDisplay="韩猛·生死判·驱遣",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43857,nFrame=47,szNote="生死判·韩猛"},
+		},
+		[27] = {
+			{aFocus={{nMaxDistance=60,szDisplay="英布·生死判·入谷",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43854,nFrame=47,szNote="生死判·英布"},
+			{aFocus={{nMaxDistance=60,szDisplay="董天重·生死判·入谷",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43853,nFrame=47,szNote="生死判·董天重"},
+			{aFocus={{nMaxDistance=60,szDisplay="冯盅·生死判·驱遣",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43852,nFrame=47,szNote="生死判·冯盅"},
+			{aFocus={{nMaxDistance=60,szDisplay="向拓·生死判·驱遣",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43821,nFrame=47,szNote="生死判·向拓"},
+			{aFocus={{nMaxDistance=60,szDisplay="王麒·生死判·入谷",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43820,nFrame=47,szNote="生死判·王麒"},
+		},
+	},
+	TALK = {},
 	__meta = {
-		szServer = "唯我独尊",
+		nTimeStamp = 1791190289,
 		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1749455048,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
-	DOODAD = {},
 }

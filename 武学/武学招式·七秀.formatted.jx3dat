@@ -1,105 +1,27 @@
 return {
 	BUFF = {
 		[-1] = {
-			{
-				nLevel = 1,
-				tCountdown = {
-					{
-						nClass = 1,
-						key = "¼õÉË¼à¿Ø",
-						nTime = 5,
-						szName = "×óÐýÓÒ×ª¡¤[{$sender}]",
-						nRefresh = 1,
-						nIcon = 904,
-						nFrame = 6,
-					},
-				},
-				dwID = 29826,
-				col = {
-					0,
-					255,
-					0,
-				},
-				szName = "¼õÉËÐý",
-				[1] = {
-					bBuffList = true,
-				},
-				szNote = "×óÐýÓÒ×ª",
-				aCataclysmBuff = {
-					{
-						colScreenHead = "#00FF00",
-						col = "#00FF00FF",
-						nColAlpha = 255,
-						nPriority = 11,
-						szReminder = "Ðý",
-					},
-				},
-			},
+			{{bBuffList=true},aCataclysmBuff={{col="#00FF00FF",colScreenHead="#00FF00",nColAlpha=255,nPriority=11,szReminder="Ðý"}},col={0,255,0},dwID=29826,nLevel=1,szName="¼õÉËÐý",szNote="×óÐýÓÒ×ª",tCountdown={{key="¼õÉË¼à¿Ø",nClass=1,nFrame=6,nIcon=904,nRefresh=1,nTime=5,szName="×óÐýÓÒ×ª¡¤[{$sender}]"}}},
+		},
+	},
+	CASTING = {
+		[-1] = {
+			{dwID=551,nLevel=1,nScrutinyType=2,tCountdown={{key="ÐÄ¹ÄÏÒ¡¤{$sender}",nClass=9,nFrame=6,nIcon=100445,nTime=3,szName="ÐÄ¹ÄÏÒ¡¤{$sender}¡ú{$receiver}"}}},
+			{dwID=100445,nIcon=100445,nLevel=1,nScrutinyType=2,szName="ÐÄ¹ÄÏÒ¡¤Îò",tCountdown={{key="ÐÄ¹ÄÏÒ¡¤{$sender}",nClass=9,nFrame=6,nIcon=100445,nTime=3,szName="ÐÄ¹ÄÏÒ¡¤{$sender}¡ú{$receiver}"}}},
+			{dwID=558,nLevel=1,nScrutinyType=2,tCountdown={{key="À×öªÕðÅ­¡¤{$sender}",nClass=9,nFrame=1,nIcon=1506,nTime=2,szName="À×öªÕðÅ­¡ú{$receiver}"}}},
 		},
 	},
 	CHAT = {},
-	CASTING = {
-		[-1] = {
-			{
-				nLevel = 1,
-				nScrutinyType = 2,
-				dwID = 551,
-				tCountdown = {
-					{
-						nClass = 9,
-						key = "ÐÄ¹ÄÏÒ¡¤{$sender}",
-						nTime = 3,
-						szName = "ÐÄ¹ÄÏÒ¡¤{$sender}¡ú{$receiver}",
-						nFrame = 6,
-						nIcon = 100445,
-					},
-				},
-			},
-			{
-				nIcon = 100445,
-				nScrutinyType = 2,
-				tCountdown = {
-					{
-						nClass = 9,
-						key = "ÐÄ¹ÄÏÒ¡¤{$sender}",
-						nTime = 3,
-						szName = "ÐÄ¹ÄÏÒ¡¤{$sender}¡ú{$receiver}",
-						nIcon = 100445,
-						nFrame = 6,
-					},
-				},
-				dwID = 100445,
-				szName = "ÐÄ¹ÄÏÒ¡¤Îò",
-				[9] = {},
-				nLevel = 1,
-			},
-			{
-				nLevel = 1,
-				nScrutinyType = 2,
-				dwID = 558,
-				tCountdown = {
-					{
-						nClass = 9,
-						key = "À×öªÕðÅ­¡¤{$sender}",
-						nTime = 2,
-						szName = "À×öªÕðÅ­¡ú{$receiver}",
-						nFrame = 1,
-						nIcon = 1506,
-					},
-				},
-			},
-		},
-	},
-	TALK = {},
-	NPC = {},
 	DEBUFF = {},
+	DOODAD = {},
+	NPC = {},
+	TALK = {},
 	__meta = {
-		szServer = "Î¨ÎÒ¶À×ð",
+		nTimeStamp = 1791190289,
 		szAuthor = "ºÉ»¨Àð",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1766170487,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "Î¨ÎÒ¶À×ð",
 	},
-	DOODAD = {},
 }

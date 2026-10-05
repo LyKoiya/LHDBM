@@ -1,136 +1,24 @@
 return {
 	BUFF = {},
-	CHAT = {},
 	CASTING = {},
-	TALK = {},
-	NPC = {},
+	CHAT = {},
 	DEBUFF = {},
-	__meta = {
-		szServer = "唯我独尊",
-		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1784201862,
-		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
-		szEdition = "zhcn_hd",
-	},
 	DOODAD = {
 		[525] = {
-			{
-				[17] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 9265,
-				aFocus = {
-					{
-						szDisplay = "林海珍奇宝箱",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				szNote = "林海珍奇宝箱",
-			},
-			{
-				[17] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 9260,
-				aFocus = {
-					{
-						szDisplay = "林海珍奇宝箱",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				szNote = "林海珍奇宝箱",
-			},
-			{
-				[17] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 9259,
-				aFocus = {
-					{
-						szDisplay = "林海珍奇宝箱",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				szNote = "林海珍奇宝箱",
-			},
-			{
-				[17] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 9173,
-				aFocus = {
-					{
-						szDisplay = "林海珍奇宝箱",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-					},
-				},
-				szNote = "林海珍奇宝箱",
-			},
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="林海珍奇宝箱",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=9265,szNote="林海珍奇宝箱"},
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="林海珍奇宝箱",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=9260,szNote="林海珍奇宝箱"},
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="林海珍奇宝箱",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=9259,szNote="林海珍奇宝箱"},
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="林海珍奇宝箱",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=9173,szNote="林海珍奇宝箱"},
 		},
+	},
+	NPC = {},
+	TALK = {},
+	__meta = {
+		nTimeStamp = 1791190288,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
 }

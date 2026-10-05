@@ -1,225 +1,44 @@
 return {
 	BUFF = {},
+	CASTING = {},
 	CHAT = {
 		[701] = {
-			{
-				szContent = "你已接受了[往鸿胪寺]。\
-",
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "任务提示1",
-						nTime = 20,
-						szName = "记得切换·输出心法",
-						nFrame = 6,
-						nIcon = 13,
-					},
-				},
-			},
-			{
-				tCountdown = {
-					{
-						nClass = 20,
-						key = "任务提示1",
-						nTime = 30,
-						szName = "连续·顺时针x2或逆时针x2",
-						nFrame = 6,
-						nIcon = 13,
-					},
-				},
-				szContent = "你已接受了[鸿胪密室·一]。\
-",
-			},
-		},
-	},
-	CASTING = {},
-	TALK = {
-		[701] = {
-			{
-				tCountdown = {
-					{
-						nClass = 14,
-						key = "任务提示1",
-						nTime = 10,
-						szName = "记得切换·输出心法",
-						nIcon = 13,
-						nFrame = 6,
-					},
-				},
-				szContent = "守卫退离！趁机翻窗离开",
-			},
-		},
-	},
-	NPC = {
-		[701] = {
-			{
-				nFrame = 57,
-				dwID = 131940,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "许灵素",
-			},
-			{
-				nFrame = 57,
-				dwID = 131466,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = false,
-							bEnemy = true,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "兰拔诺",
-			},
+			{szContent="你已接受了[往鸿胪寺]。\
+",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=20,szName="记得切换·输出心法"}}},
+			{szContent="你已接受了[鸿胪密室·一]。\
+",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="连续·顺时针x2或逆时针x2"}}},
 		},
 	},
 	DEBUFF = {
 		[701] = {
-			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 30183,
-				szNote = "觐见",
-				[1] = {
-					bBuffList = true,
-				},
-			},
-			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 30594,
-				szNote = "扒马车",
-				[1] = {
-					bBuffList = true,
-				},
-			},
-			{
-				nLevel = 1,
-				nScrutinyType = 1,
-				col = {
-					255,
-					255,
-					0,
-				},
-				dwID = 30182,
-				szNote = "隐蔽",
-				[1] = {
-					bBuffList = true,
-				},
-			},
+			{{bBuffList=true},col={255,255,0},dwID=30183,nLevel=1,nScrutinyType=1,szNote="觐见"},
+			{{bBuffList=true},col={255,255,0},dwID=30594,nLevel=1,nScrutinyType=1,szNote="扒马车"},
+			{{bBuffList=true},col={255,255,0},dwID=30182,nLevel=1,nScrutinyType=1,szNote="隐蔽"},
 		},
-	},
-	__meta = {
-		szServer = "唯我独尊",
-		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1746292090,
-		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
-		szEdition = "zhcn_hd",
 	},
 	DOODAD = {
 		[701] = {
-			{
-				dwID = 11125,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 12,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "密室出口",
-			},
-			{
-				dwID = 11124,
-				aFocus = {
-					{
-						szDisplay = "",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "密室入口",
-			},
+			{aFocus={{nMaxDistance=12,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11125,szNote="密室出口"},
+			{aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11124,szNote="密室入口"},
 		},
+	},
+	NPC = {
+		[701] = {
+			{aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=131940,nFrame=57,szNote="许灵素"},
+			{aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=131466,nFrame=57,szNote="兰拔诺"},
+		},
+	},
+	TALK = {
+		[701] = {
+			{szContent="守卫退离！趁机翻窗离开",tCountdown={{key="任务提示1",nClass=14,nFrame=6,nIcon=13,nTime=10,szName="记得切换·输出心法"}}},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1791190288,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
 }

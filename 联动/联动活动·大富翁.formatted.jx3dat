@@ -1,161 +1,35 @@
 return {
 	BUFF = {
 		[-2] = {
-			{
-				{
-					bBuffList = true,
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 33909,
-				nIcon = 27610,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "大财神",
-				szNote = "主城大财神拜一拜转向",
-			},
+			{{bBuffList=true},col={0,255,255},dwID=33909,nIcon=27610,nLevel=1,nScrutinyType=1,szName="大财神",szNote="主城大财神拜一拜转向"},
 		},
 	},
 	CASTING = {},
 	CHAT = {},
 	DEBUFF = {
 		[-2] = {
-			{
-				dwID = 34176,
-				nIcon = 18640,
-				nLevel = 1,
-				nScrutinyType = 1,
-				szName = "红尘不渡·触发上限",
-				szNote = "大富翁·红尘不渡·触发上限",
-				tCountdown = {
-					{
-						key = "红尘不渡",
-						nClass = -1,
-						nFrame = 4,
-						nIcon = 18640,
-						nRefresh = 7200,
-						nTime = 10,
-						szName = "大富翁·红尘不渡·本周上限",
-					},
-					{
-						key = "红尘不渡",
-						nClass = -1,
-						nIcon = 18640,
-						nTime = 0,
-						szName = "红尘不渡",
-					},
-				},
-			},
+			{dwID=34176,nIcon=18640,nLevel=1,nScrutinyType=1,szName="红尘不渡·触发上限",szNote="大富翁·红尘不渡·触发上限",tCountdown={{key="红尘不渡",nClass=-1,nFrame=4,nIcon=18640,nRefresh=7200,nTime=10,szName="大富翁·红尘不渡·本周上限"},{key="红尘不渡",nClass=-1,nIcon=18640,nTime=0,szName="红尘不渡"}}},
 		},
 	},
 	DOODAD = {
 		[-2] = {
-			{
-				[17] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 20,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 11839,
-				szNote = "大富翁游戏棋盘",
-			},
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=20,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=11839,szNote="大富翁游戏棋盘"},
 		},
 	},
 	NPC = {
 		[-2] = {
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 6,
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				col = {
-					0,
-					255,
-					0,
-				},
-				dwID = 137606,
-				nFrame = 52,
-				szNote = "大富翁货品",
-			},
-			{
-				[3] = {
-					bScreenHead = true,
-				},
-				aFocus = {
-					{
-						nMaxDistance = 20,
-						szDisplay = "大财神·红尘不渡",
-						tLife = {
-							bEnable = false,
-							nValue = 0,
-							szOperator = ">",
-						},
-						tRelation = {
-							bAll = true,
-							bAlly = false,
-							bEnemy = false,
-						},
-					},
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 137629,
-				nFrame = 52,
-				szNote = "大财神·红尘不渡",
-			},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=137606,nFrame=52,szNote="大富翁货品"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,szDisplay="大财神·红尘不渡",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=137629,nFrame=52,szNote="大财神·红尘不渡"},
 		},
 	},
 	TALK = {
 		[801] = {
-			{
-				szContent = "欢迎来到大富翁，游戏将在人齐后（4人）开始。",
-			},
-			{
-				szContent = "买地，加盖，收租！拿到全场最高现金，成为一方霸主！祝大侠玩得开心！",
-				szTarget = "%",
-			},
+			{szContent="欢迎来到大富翁，游戏将在人齐后（4人）开始。"},
+			{szContent="买地，加盖，收租！拿到全场最高现金，成为一方霸主！祝大侠玩得开心！",szTarget="%"},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1788152052,
+		nTimeStamp = 1791190289,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

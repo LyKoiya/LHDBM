@@ -1,235 +1,41 @@
 return {
 	BUFF = {},
-	CHAT = {},
 	CASTING = {},
-	TALK = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {
+		[10] = {
+			{dwID=5754,szNote="天涯无归·黄雪草"},
+		},
+		[157] = {
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="杨玉环的发钗·天涯无归",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=5753,szNote="天涯无归杨玉环的发钗"},
+		},
+	},
 	NPC = {
-		[172] = {
-			{
-				nFrame = 47,
-				dwID = 47967,
-				aFocus = {
-					{
-						szDisplay = "煌煌·天涯无归",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "天涯无归·煌煌",
-			},
-			{
-				nFrame = 47,
-				dwID = 47968,
-				aFocus = {
-					{},
-				},
-				szNote = "天涯无归·黑衣人",
-			},
+		[-1] = {
+			{aFocus={{nMaxDistance=60,szDisplay="茹儿·天涯无归",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=47966,nFrame=47,szNote="天涯无归·茹儿"},
 		},
 		[10] = {
-			{
-				dwID = 47968,
-				aFocus = {
-					{},
-				},
-				szNote = "天涯无归·黑衣人",
-				nFrame = 47,
-			},
-			{
-				nFrame = 47,
-				dwID = 47969,
-				aFocus = {
-					{
-						szDisplay = "茹儿·天涯无归",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "天涯无归·茹儿",
-			},
-			{
-				nFrame = 47,
-				dwID = 47970,
-				aFocus = {
-					{
-						szDisplay = "茹儿的坟墓·天涯无归",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 6,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "天涯无归·茹儿的坟墓",
-			},
-			{
-				nFrame = 47,
-				dwID = 47967,
-				aFocus = {
-					{
-						szDisplay = "煌煌·天涯无归",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "天涯无归·煌煌",
-			},
+			{aFocus={{}},dwID=47968,nFrame=47,szNote="天涯无归·黑衣人"},
+			{aFocus={{nMaxDistance=0,szDisplay="茹儿·天涯无归",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=47969,nFrame=47,szNote="天涯无归·茹儿"},
+			{aFocus={{nMaxDistance=6,szDisplay="茹儿的坟墓·天涯无归",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=47970,nFrame=47,szNote="天涯无归·茹儿的坟墓"},
+			{aFocus={{nMaxDistance=0,szDisplay="煌煌·天涯无归",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=47967,nFrame=47,szNote="天涯无归·煌煌"},
 		},
 		[153] = {
-			{
-				nFrame = 47,
-				dwID = 47968,
-				aFocus = {
-					{},
-				},
-				szNote = "天涯无归·黑衣人",
-			},
+			{aFocus={{}},dwID=47968,nFrame=47,szNote="天涯无归·黑衣人"},
 		},
-		[-1] = {
-			{
-				nFrame = 47,
-				dwID = 47966,
-				aFocus = {
-					{
-						szDisplay = "茹儿·天涯无归",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "天涯无归·茹儿",
-			},
+		[172] = {
+			{aFocus={{nMaxDistance=0,szDisplay="煌煌·天涯无归",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=47967,nFrame=47,szNote="天涯无归·煌煌"},
+			{aFocus={{}},dwID=47968,nFrame=47,szNote="天涯无归·黑衣人"},
 		},
 	},
-	DEBUFF = {},
+	TALK = {},
 	__meta = {
-		szServer = "唯我独尊",
+		nTimeStamp = 1791190288,
 		szAuthor = "荷花鲤",
-		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		nTimeStamp = 1749210335,
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
-	},
-	DOODAD = {
-		[157] = {
-			{
-				[17] = {
-					bScreenHead = true,
-				},
-				col = {
-					0,
-					255,
-					255,
-				},
-				dwID = 5753,
-				aFocus = {
-					{
-						szDisplay = "杨玉环的发钗·天涯无归",
-						tRelation = {
-							bAlly = false,
-							bAll = true,
-							bEnemy = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 0,
-						tLife = {
-							szOperator = ">",
-							nValue = 0,
-							bEnable = false,
-						},
-						tType = {
-							[3] = false,
-							bAll = true,
-							[4] = false,
-							[5] = false,
-						},
-					},
-				},
-				szNote = "天涯无归杨玉环的发钗",
-			},
-		},
-		[10] = {
-			{
-				dwID = 5754,
-				aFocus = {},
-				szNote = "天涯无归·黄雪草",
-			},
-		},
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
 	},
 }

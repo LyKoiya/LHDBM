@@ -1,344 +1,36 @@
 return {
-	CHAT = {},
-	TALK = {
-		[101] = {
-			{
-				szContent = "真好吃！",
-				tCountdown = {
-					{
-						key = "奇遇提示0",
-						nClass = 14,
-						nIcon = 12373,
-						nTime = "5,恭喜触发·竹马情·弈棋小龟;15,奇遇不封印·约10分钟完成;30,1.对话·沈笑颜;120,2.归林泽上括号一个闪闪发光的物件;180,3.返回归林泽·沈笑颜;240,4.万宝阁下括号·万福;300,5.南冥谷上括号左·向万景;360,6.万宝阁下括号右下·向万景;480,7.返回归林泽·沈笑颜·结束",
-						nFrame = 0,
-						nRefresh = 0,
-						szName = "奇遇提示0",
-					},
-					{
-						key = "奇遇提示1",
-						nIcon = 12373,
-						nTime = 600,
-						nClass = 14,
-						nFrame = 7,
-						szName = "对话·沈笑颜",
-					},
-					{
-						key = "奇遇提示2",
-						nIcon = 12373,
-						nTime = 600,
-						nClass = 14,
-						nFrame = 7,
-						szName = "归林泽上·一个闪闪发光的物件",
-					},
-					{
-						key = "奇遇提示3",
-						nIcon = 12373,
-						nTime = 600,
-						nClass = 14,
-						nFrame = 7,
-						szName = "返回·沈笑颜·万宝阁下·万福",
-					},
-					{
-						key = "奇遇提示4",
-						nIcon = 12373,
-						nTime = 600,
-						nClass = 14,
-						nFrame = 7,
-						szName = "前往·南冥谷左·向万景",
-					},
-					{
-						key = "奇遇提示5",
-						nIcon = 12373,
-						nTime = 600,
-						nClass = 14,
-						nFrame = 7,
-						szName = "前往·万宝阁右下·向万景",
-					},
-				},
-				szTarget = "沈笑颜",
-			},
-			{
-				szContent = "果果，快来快来，快看我给你带了什么。",
-				tCountdown = {
-					{
-						key = "奇遇提示0",
-						nIcon = 12373,
-						nTime = "60,等待剧情·对话·向万景;300,返回归林泽·沈笑颜·结束",
-						nFrame = 0,
-						nClass = 14,
-						szName = "奇遇提示0",
-					},
-					{
-						key = "奇遇提示1",
-						nIcon = 12373,
-						nTime = 60,
-						nFrame = 7,
-						nClass = 14,
-						szName = "等待剧情·对话·向万景",
-					},
-					{
-						key = "奇遇提示2",
-						nIcon = 12373,
-						nTime = 0,
-						nFrame = 7,
-						nClass = 14,
-						szName = "奇遇提示2",
-					},
-					{
-						key = "奇遇提示3",
-						nIcon = 12373,
-						nTime = 0,
-						nFrame = 7,
-						nClass = 14,
-						szName = "奇遇提示3",
-					},
-					{
-						key = "奇遇提示4",
-						nIcon = 12373,
-						nTime = 0,
-						nFrame = 7,
-						nClass = 14,
-						szName = "奇遇提示4",
-					},
-					{
-						key = "奇遇提示5",
-						nIcon = 12373,
-						nTime = 0,
-						nFrame = 7,
-						nClass = 14,
-						szName = "奇遇提示5",
-					},
-				},
-				szTarget = "向万景",
-			},
-			{
-				szContent = "原来只要这样，那这两样东西我立刻就去还了。",
-				tCountdown = {
-					{
-						key = "奇遇提示1",
-						nIcon = 12373,
-						nTime = 240,
-						nFrame = 7,
-						nClass = 14,
-						szName = "返回归林泽·沈笑颜·结束",
-					},
-				},
-				szTarget = "向万景",
-			},
-			{
-				tCountdown = {
-					{
-						key = "奇遇提示0",
-						nIcon = 12373,
-						nTime = 0,
-						nClass = 14,
-						nFrame = 0,
-						szName = "奇遇提示0",
-					},
-					{
-						key = "奇遇提示1",
-						nIcon = 12373,
-						nTime = 0,
-						nClass = 14,
-						nFrame = 7,
-						szName = "奇遇提示1",
-					},
-				},
-				szContent = "宠物已成功添加。",
-			},
-		},
-	},
 	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
 	DOODAD = {
 		[101] = {
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "一个闪闪发光的物件·竹马情",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 90,
-					},
-				},
-				szNote = "竹马情·发光的物件",
-				dwID = 6101,
-			},
+			{aFocus={{nMaxDistance=90,szDisplay="一个闪闪发光的物件·竹马情",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=6101,szNote="竹马情·发光的物件"},
 		},
 	},
 	NPC = {
 		[101] = {
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "沈笑颜·竹马情",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-					},
-				},
-				nFrame = 47,
-				[3] = {
-					bScreenHead = true,
-				},
-				szNote = "竹马情·沈笑颜",
-				dwID = 51936,
-				col = {
-					0,
-					255,
-					255,
-				},
-			},
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "万福·竹马情",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 60,
-					},
-				},
-				nFrame = 47,
-				szNote = "竹马情·万福",
-				dwID = 7911,
-			},
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "向万景·竹马情",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 120,
-					},
-				},
-				nFrame = 47,
-				szNote = "竹马情·向万景",
-				dwID = 51939,
-			},
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "向万景·竹马情",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 90,
-					},
-				},
-				nFrame = 47,
-				szNote = "竹马情·向万景",
-				dwID = 51944,
-			},
-			{
-				aFocus = {
-					{
-						tType = {
-							[3] = false,
-							bAll = true,
-							[5] = false,
-							[4] = false,
-						},
-						szDisplay = "",
-						tRelation = {
-							bAll = true,
-							bEnemy = false,
-							bAlly = false,
-						},
-						tLife = {
-							nValue = 0,
-							szOperator = ">",
-							bEnable = false,
-						},
-						dwMapID = -1,
-						nMaxDistance = 30,
-					},
-				},
-				nFrame = 47,
-				dwID = 51945,
-			},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="沈笑颜·竹马情",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=51936,nFrame=47,szNote="竹马情·沈笑颜"},
+			{aFocus={{nMaxDistance=60,szDisplay="万福·竹马情",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=7911,nFrame=47,szNote="竹马情·万福"},
+			{aFocus={{nMaxDistance=120,szDisplay="向万景·竹马情",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=51939,nFrame=47,szNote="竹马情·向万景"},
+			{aFocus={{nMaxDistance=90,szDisplay="向万景·竹马情",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=51944,nFrame=47,szNote="竹马情·向万景"},
+			{aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=51945,nFrame=47},
 		},
 	},
-	CASTING = {},
-	DEBUFF = {},
+	TALK = {
+		[101] = {
+			{szContent="真好吃！",szTarget="沈笑颜",tCountdown={{key="奇遇提示0",nClass=14,nFrame=0,nIcon=12373,nRefresh=0,nTime="5,恭喜触发·竹马情·弈棋小龟;15,奇遇不封印·约10分钟完成;30,1.对话·沈笑颜;120,2.归林泽上括号一个闪闪发光的物件;180,3.返回归林泽·沈笑颜;240,4.万宝阁下括号·万福;300,5.南冥谷上括号左·向万景;360,6.万宝阁下括号右下·向万景;480,7.返回归林泽·沈笑颜·结束",szName="奇遇提示0"},{key="奇遇提示1",nClass=14,nFrame=7,nIcon=12373,nTime=600,szName="对话·沈笑颜"},{key="奇遇提示2",nClass=14,nFrame=7,nIcon=12373,nTime=600,szName="归林泽上·一个闪闪发光的物件"},{key="奇遇提示3",nClass=14,nFrame=7,nIcon=12373,nTime=600,szName="返回·沈笑颜·万宝阁下·万福"},{key="奇遇提示4",nClass=14,nFrame=7,nIcon=12373,nTime=600,szName="前往·南冥谷左·向万景"},{key="奇遇提示5",nClass=14,nFrame=7,nIcon=12373,nTime=600,szName="前往·万宝阁右下·向万景"}}},
+			{szContent="果果，快来快来，快看我给你带了什么。",szTarget="向万景",tCountdown={{key="奇遇提示0",nClass=14,nFrame=0,nIcon=12373,nTime="60,等待剧情·对话·向万景;300,返回归林泽·沈笑颜·结束",szName="奇遇提示0"},{key="奇遇提示1",nClass=14,nFrame=7,nIcon=12373,nTime=60,szName="等待剧情·对话·向万景"},{key="奇遇提示2",nClass=14,nFrame=7,nIcon=12373,nTime=0,szName="奇遇提示2"},{key="奇遇提示3",nClass=14,nFrame=7,nIcon=12373,nTime=0,szName="奇遇提示3"},{key="奇遇提示4",nClass=14,nFrame=7,nIcon=12373,nTime=0,szName="奇遇提示4"},{key="奇遇提示5",nClass=14,nFrame=7,nIcon=12373,nTime=0,szName="奇遇提示5"}}},
+			{szContent="原来只要这样，那这两样东西我立刻就去还了。",szTarget="向万景",tCountdown={{key="奇遇提示1",nClass=14,nFrame=7,nIcon=12373,nTime=240,szName="返回归林泽·沈笑颜·结束"}}},
+			{szContent="宠物已成功添加。",tCountdown={{key="奇遇提示0",nClass=14,nFrame=0,nIcon=12373,nTime=0,szName="奇遇提示0"},{key="奇遇提示1",nClass=14,nFrame=7,nIcon=12373,nTime=0,szName="奇遇提示1"}}},
+		},
+	},
 	__meta = {
-		nTimeStamp = 1713799957,
+		nTimeStamp = 1791190288,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "",
 		szEdition = "zhcn_hd",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
 		szServer = "唯我独尊",
-		szAuthor = "荷花鲤",
-		szCustomVoicePacketUUID = "",
 	},
 }
