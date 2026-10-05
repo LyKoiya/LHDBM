@@ -9,15 +9,33 @@ return {
 	CHAT = {
 		[-21] = {
 			{col={100,255,255},szContent="陕州商路运输物资成功开启！请帮会有权限的侠士到洛阳城西帮会物资主簿处申请成为运货首领开始运送！\
-",szNote="陕州商路·开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·帮会大跑商·开启"}}},
+",szNote="陕州商路·成功开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·帮会大跑商·开启"}}},
 		},
 		[-7] = {
 			{col={100,255,255},szContent="陕州商路运输物资成功开启！请帮会有权限的侠士到洛阳城西帮会物资主簿处申请成为运货首领开始运送！\
-",szNote="陕州商路·开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·帮会大跑商·开启"}}},
+",szNote="陕州商路·成功开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·帮会大跑商·开启"}}},
 		},
 		[-2] = {
 			{col={100,255,255},szContent="陕州商路运输物资成功开启！请帮会有权限的侠士到洛阳城西帮会物资主簿处申请成为运货首领开始运送！\
-",szNote="陕州商路·开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·帮会大跑商·开启"}}},
+",szNote="陕州商路·成功开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·帮会大跑商·开启"}}},
+		},
+		[1] = {
+			szContent = "陕州商路已经关闭，错过的侠士请等待下次开启！\
+",
+			szNote = "陕州商路·已经关闭",
+			tCountdown = {{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=10,szName="陕州商路·已经关闭"}},
+		},
+		[2] = {
+			szContent = "陕州商路已经关闭，错过的侠士请等待下次开启！\
+",
+			szNote = "陕州商路·已经关闭",
+			tCountdown = {{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=10,szName="陕州商路·已经关闭"}},
+		},
+		[3] = {
+			szContent = "陕州商路已经关闭，错过的侠士请等待下次开启！\
+",
+			szNote = "陕州商路·已经关闭",
+			tCountdown = {{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=10,szName="陕州商路·已经关闭"}},
 		},
 	},
 	DEBUFF = {
@@ -76,7 +94,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791219188,
+		nTimeStamp = 1791223884,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_exp",
