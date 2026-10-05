@@ -454,6 +454,16 @@ function M.str2csv(str)
 	return '""'
 end
 
+-- 刷新数据修改时间戳
+function M.refreshTimeStamp(tData, nTimeStamp)
+    if not tData then
+        return nil
+    end
+    tData.__meta = tData.__meta or {}
+    tData.__meta.nTimeStamp = nTimeStamp or os.time()
+    return tData.__meta.nTimeStamp
+end
+
 M.empty = empty
 M.ipairs_r = ipairs_r
 

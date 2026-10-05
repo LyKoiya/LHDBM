@@ -46,15 +46,7 @@ local function clearInvalidtable(tData, bDelFocusType)
     end
 end
 
--- 刷新数据修改时间戳
-local function refreshTimeStamp(tData, nTimeStamp)
-    if not tData then
-        return nil
-    end
-    tData.__meta = tData.__meta or {}
-    tData.__meta.nTimeStamp = nTimeStamp or os.time()
-    return tData.__meta.nTimeStamp
-end
+
 
 -- 处理文件（有序化Table转String）
 function processFile(szFileName)
@@ -64,7 +56,7 @@ function processFile(szFileName)
         return false
     end
     clearInvalidtable(tData, true)
-    refreshTimeStamp(tData)
+    X.refreshTimeStamp(tData)
     local szSorted = 'return ' .. X.var2str(tData, '\t', 0, 3) .. '\n'
     X.WriteFile(szFileName, szSorted)
     return true
