@@ -601,8 +601,8 @@ function fileSave(szSavePath, nMaxLevel, bClear, bReverse)
 	if bReverse then
 		tableReverse(FILE)
 	end
-
-	local str = 'return ' .. X.var2str(FILE, '\t', 0, nMaxLevel)
+	X.refreshTimeStamp(FILE)
+	local str = 'return ' .. X.var2str(FILE, '\t', 0, nMaxLevel or 3)
 	X.WriteFile(szSavePath, str)
 	return str
 end
