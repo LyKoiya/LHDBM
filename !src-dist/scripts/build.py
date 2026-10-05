@@ -80,7 +80,7 @@ def teamBuff(L, Ranges):
             L.pushlstringA(result)
             if L.pcall(1, 0, 0) != 0:
                 print(f"Error calling decodeBuff({i}): {L.tostring(-1)}({result})")
-                Lua.pop(1)
+                L.pop(1)
 
 # 提取表格文件数据，返回数组列表，一个元素是一种数据（气劲、角色、物件、喊话）
 def xlsx2list(wb):
@@ -125,7 +125,7 @@ def packxlsx(L, szPath, szMethod):
                         L.pushlstringA(str)
                         if L.pcall(1, 0, 0) != 0:
                             print(f"Error calling strMerge: {L.tostring(-1)}")
-                            Lua.pop(1)
+                            L.pop(1)
         finally:
             Workbook.close()
             return bTeamBuffFile
@@ -211,9 +211,10 @@ def runPack(filesPath):
             print("fileSave success.")
         else:
             print(f"fileSave fail.{L.tostring(-1)}")
-            Lua.pop(1)
+            L.pop(1)
         L.close()
 
+# 处理所有.formatted.jx3dat文件
 def setAllfiles():
     aFiles = []
     cwd = os.getcwd()
@@ -236,7 +237,7 @@ def setAllfiles():
                 print("processFile success.")
             else:
                 print(f"processFile fail.{L.tostring(-1)}")
-                Lua.pop(1)
+                L.pop(1)
 
     finally:
         L.close()
