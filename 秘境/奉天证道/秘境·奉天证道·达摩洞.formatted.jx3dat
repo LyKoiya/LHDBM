@@ -2,11 +2,7 @@ return {
 	BUFF = {},
 	CASTING = {},
 	CHAT = {},
-	DEBUFF = {
-		[301] = {
-			{{bBuffList=true,bPartyBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,colScreenHead="#DF3F3F",nPriority=3,szReminder="±©"}},col={255,50,50},dwID=13377,nLevel=1,szNote="¸¯Ñª",tCountdown={{nClass=1,nIcon=4513,nTime=15,szName="¸¯Ñª¡¤DPSÌáÇ°ËÀÍö"}}},
-		},
-	},
+	DEBUFF = {},
 	DOODAD = {
 		[482] = {
 			{aFocus={{nMaxDistance=30,szDisplay="´«ËÍ¹âÈ¦",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=8775,szName="´«ËÍ¹âÈ¦",szNote="´«ËÍ¹âÈ¦"},
@@ -19,16 +15,13 @@ return {
 		},
 	},
 	NPC = {
-		[299] = {
-			{aFocus={{nMaxDistance=60,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=60953,nFrame=47,szNote="ÀÇÑÀ²¬½ð±¦Ïä"},
-		},
-		[301] = {
-			{aFocus={{nMaxDistance=60}},dwID=60955,nFrame=47,szNote="ÀÇÑÀ²¬½ð±¦Ïä"},
+		[482] = {
+			{aFocus={{nMaxDistance=50,szDisplay="»ÛÒâ¡¤ÌØÐ§ÎäÆ÷",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=103147,nFrame=47,szNote="»ÛÒâ"},
 		},
 	},
 	TALK = {},
 	__meta = {
-		nTimeStamp = 1791190289,
+		nTimeStamp = 1791191801,
 		szAuthor = "ºÉ»¨Àð",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
