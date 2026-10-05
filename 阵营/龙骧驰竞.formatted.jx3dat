@@ -47,6 +47,13 @@ return {
 		},
 	},
 	NPC = {
+		[1] = {
+			aFocus = {{dwMapID=-1,nMaxDistance=10,szDisplay="马驹·停留点",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},
+			dwID = 128936,
+			nFrame = 47,
+			szName = "停留点",
+			szNote = "马驹·停留点",
+		},
 		[330] = {
 			{[3]={bCenterAlarm=true,bScreenHead=true,tMark={true,false,false,false,false,false,false,false,false,false}},aFocus={{nMaxDistance=30,szDisplay="的卢·30尺",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=true,bEnemy=false}},{nMaxDistance=40,szDisplay="的卢·40尺",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=true,bEnemy=false}},{nMaxDistance=0,szDisplay="的卢",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={255,255,255},dwID=123946,nFrame=47,szNote="的卢"},
 		},
@@ -57,7 +64,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791190289,
+		nTimeStamp = 1791217254,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
