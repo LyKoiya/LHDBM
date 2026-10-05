@@ -55,7 +55,6 @@ return {
 	DOODAD = {},
 	NPC = {
 		[194] = {
-			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="褚禾·阴山商路",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=47754,nFrame=47,szNote="帮会跑商·褚禾"},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="秦交复·陕州商路",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=139440,nFrame=47,szNote="陕州商路·秦交复"},
 		},
 		[805] = {
@@ -90,11 +89,11 @@ return {
 			{bReg=false,bSearch=true,col={100,255,255},szContent="此次帮会通过陕州商路成功运抵",szNote="陕州商路·成功运抵",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·成功运抵"},{key="帮会跑商·时限",nClass=14,nIcon=13,nTime=-1,szName="陕州商路·时限"}}},
 		},
 		[806] = {
-			{[14]={bCenterAlarm=true},col={100,255,255},szContent="{$me}已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",szNote="陕州商路·你登记为送货首领",szTarget="%",tCountdown={{bHold=true,key="帮会跑商·时限",nClass=14,nFrame=-1,nIcon=8004,nRefresh=0,nTime="10,你登记为送货首领;14400,陕州商路·运送剩余;14410,陕州商路·运送超时",szName="阴山商路"}}},
+			{[14]={bCenterAlarm=true},col={100,255,255},szContent="{$me}已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",szNote="陕州商路·你登记为送货首领",szTarget="%",tCountdown={{bHold=true,key="帮会跑商·时限",nClass=14,nFrame=-1,nIcon=8004,nRefresh=0,nTime="10,你登记为送货首领;14400,陕州商路·运送剩余;14410,陕州商路·运送超时",szName="帮会跑商"}}},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791223884,
+		nTimeStamp = 1791225942,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_exp",
