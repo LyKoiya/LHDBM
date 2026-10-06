@@ -60,6 +60,16 @@ packList = [
         "Checked": False
     },
     {
+        "Path": "\\阵营\\帮会跑商·陕州商路.formatted.jx3dat",
+        "Method": "fileMerge",
+        "Checked": True
+    },
+    {
+        "Path": "\\阵营\\帮会跑商·阴山商路.formatted.jx3dat",
+        "Method": "fileMerge",
+        "Checked": True
+    },
+    {
         "Path": "\\阵营",
         "Method": "fileMerge",
         "Checked": True
