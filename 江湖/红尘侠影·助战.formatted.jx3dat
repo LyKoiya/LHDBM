@@ -30,6 +30,12 @@ return {
 			{bReg=true,col={255,255,100},szContent="^侠客.*召请成功\
 ",szNote="助战·召请侠客",tCountdown={{key="侠客召请",nClass=20,nIcon=13,nRefresh=1,nTime=2,szName="侠客召请·CD"},{key="侠客重伤",nClass=20,nFrame=-1,nIcon=13,nRefresh=3600,nTime=-1,szName="侠客重伤"}}},
 		},
+		[1] = {
+			szContent = "你已接受了[寻镞证迹 ]。\
+",
+			szNote = "需要切换·输出心法",
+			tCountdown = {{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="需要切换·输出心法"}},
+		},
 		[193] = {
 			{szContent="你已接受了[寒郊辨痕]。\
 ",szNote="需要切换·输出心法",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="需要切换·输出心法"}}},
@@ -70,11 +76,17 @@ return {
 	},
 	DOODAD = {
 		[193] = {
-			{aFocus={{nMaxDistance=2,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11892},
-			{aFocus={{nMaxDistance=2,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11893},
+			{aFocus={{nMaxDistance=2,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11892,szNote="痕迹"},
+			{aFocus={{nMaxDistance=2,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11893,szNote="痕迹"},
 		},
 	},
 	NPC = {
+		[1] = {
+			aFocus = {{dwMapID=-1,nMaxDistance=60,szDisplay="",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true},tType={[3]=false,[4]=false,[5]=false,bAll=true}}},
+			dwID = 137708,
+			nFrame = 57,
+			szNote = "岳仲山·灰衣人精锐",
+		},
 		[15] = {
 			{aFocus={{nMaxDistance=10,szDisplay="白鹊·使用钥匙",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=126992,nFrame=47,szName="白鹊·天杀密钥",szNote="红尘侠影·白鹊·天杀密钥"},
 		},
@@ -120,7 +132,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791190289,
+		nTimeStamp = 1791291212,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
