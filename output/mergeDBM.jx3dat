@@ -12124,6 +12124,7 @@ return {
 ",szNote="敌方·获得·麒麟珠",szTarget="%",tCountdown={{key="九渊麒麟",nClass=14,nFrame=0,nIcon=2673,nRefresh=0,nTime="5,敌方获得·麒麟珠·资源+500;240,敌方·麒麟佑·增益剩余;250,敌方·麒麟佑·增益消失;360,九渊麒麟·刷新剩余;365,九渊麒麟·已经刷新",szName="九渊麒麟·刷新剩余"}}},
 		},
 		[697] = {
+			{szContent="提醒：您已进入可敌对区域，在帮会领地或秘境中方能免除被敌对的危险。",szTarget="%",tCountdown={{key="阵营模式",nClass=14,nFrame=-1,nIcon=13,nRefresh=20,nTime=-1,szName="阵营模式"}}},
 			{col={100,100,255},szContent="诸位兄弟们，这些银钱可壮大我方势力，请与我一道运送回浩气盟！",szTarget="吴宿知",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nTime=292,szName="浩气·护送矿车"}}},
 			{col={255,100,100},szContent="老伙计们！这一车可得小心点，这路上可有不少浩气盟的探子，有劲的一会使出来！",szTarget="宋道希",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nTime=292,szName="恶人·护送矿车"}}},
 			{col={100,100,255},szContent="浩气盟的众兄弟们，辛苦了！这是盟里给众兄弟们的奖赏，请各位收下。",szTarget="吴宿知",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=10,nTime=90,szName="浩气·跟车奖励"}}},
@@ -12188,6 +12189,7 @@ return {
 			{[14]={bCenterAlarm=true},col={100,255,255},szContent="{$me}已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",szNote="陕州商路·你登记为送货首领",szTarget="%",tCountdown={{bHold=true,key="帮会跑商·时限",nClass=14,nFrame=-1,nIcon=8004,nRefresh=0,nTime="10,你登记为送货首领;14400,陕州商路·运送剩余;14410,陕州商路·运送超时",szName="帮会跑商"}}},
 		},
 		[838] = {
+			{szContent="提醒：您已进入可敌对区域，在帮会领地或秘境中方能免除被敌对的危险。",szTarget="%",tCountdown={{key="阵营模式",nClass=14,nFrame=-1,nIcon=13,nRefresh=20,nTime=-1,szName="阵营模式"}}},
 			{col={255,100,100},szContent="换东家了！这回是恶人谷的船。",szNote="恶人·占领·引航大旗",szTarget="工头",tCountdown={{key="引航大旗",nClass=14,nFrame=0,nIcon=13,nTime=30,szName="恶人·占领·引航大旗"}}},
 			{col={100,100,255},szContent="换东家了！这回是浩气盟的船。",szNote="浩气·占领·引航大旗",szTarget="工头",tCountdown={{key="引航大旗",nClass=14,nFrame=0,nIcon=13,nTime=30,szName="浩气·占领·引航大旗"}}},
 			{col={100,100,255},szContent="到了到了！浩气盟的诸位辛苦，这一路押得漂亮！",szNote="浩气·跟车奖励",szTarget="工头",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=1,nTime=90,szName="浩气·跟车奖励"}}},
@@ -12208,6 +12210,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791377211,
+		nTimeStamp = 1791378501,
 	},
 }
