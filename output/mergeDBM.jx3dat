@@ -4275,6 +4275,11 @@ return {
 			{col={255,153,204},szContent="连战不休，气势渐衰，攻守双方气血大量流失中，请速战速决！\
 ",szNote="双方气血·大量流失",tCountdown={{key="战斗开始",nClass=20,nFrame=1,nIcon=13,nRefresh=1,nTime=60,szName="双方气血·大量流失·结算剩余"}}},
 		},
+		[838] = {
+			{szContent="恭喜获得战利品。保家卫国，望侠士再接再厉！\
+",tCountdown={{key="拍卖分红",nClass=20,nFrame=1,nIcon=3556,nTime=10,szName="世界首领·战利品·已拾取"}}},
+			{bReg=true,szContent="^在众人齐心猛攻下，%[(.-)%]的世界首领“(.-)”已力竭败退！",tCountdown={{key="{$2}",nClass=20,nFrame=8,nIcon=13,nRefresh=1,nTime=5,szName="{$1}·{$2}·已败退"}}},
+		},
 	},
 	DEBUFF = {
 		[-21] = {
@@ -6157,6 +6162,10 @@ return {
 		[838] = {
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#1F3FFFAA",nColAlpha=255,nPriority=37}},col={31,63,255},dwID=7503,nLevel=1,nScrutinyType=1,szName="减速·御城"},
 			{{bBuffList=true,bScreenHead=true},aCataclysmBuff={{bScreenHead=true,col="#FFFF00FF",colScreenHead="#FFFF00",nColAlpha=255,nPriority=13,szReminder="晕"}},col={255,255,0},dwID=7504,nLevel=1,nScrutinyType=2,szName="眩晕·御城"},
+			{dwID=6704,nIcon=3556,nLevel=1,nScrutinyType=1,szName="战利品",tCountdown={{key="拍卖分红",nClass=1,nFrame=1,nIcon=3556,nRefresh=2,nTime=10,szName="世界首领·战利品·已拾取"}}},
+			{dwID=25895,nLevel=1,nScrutinyType=1,tCountdown={{key="拍卖分红",nClass=1,nFrame=0,nIcon=13547,nTime=20,szName="拍卖分红·已获得·未拾取"}}},
+			{dwID=25894,nLevel=1,nScrutinyType=1,tCountdown={{key="拍卖分红",nClass=1,nFrame=0,nIcon=13547,nTime=20,szName="拍卖分红·已获得·未拾取"}}},
+			{dwID=25893,nLevel=1,nScrutinyType=1,tCountdown={{key="拍卖分红",nClass=1,nFrame=0,nIcon=13547,nTime=20,szName="拍卖分红·已获得·未拾取"}}},
 		},
 		[995] = {
 			{{bBuffList=true},col={0,255,255},dwID=50749,nLevel=1},
@@ -7151,6 +7160,7 @@ return {
 		},
 		[838] = {
 			{aFocus={{}},dwID=12178},
+			{aFocus={{}},dwID=4255},
 		},
 	},
 	NPC = {
@@ -10445,6 +10455,36 @@ return {
 			{aFocus={{szDisplay="浩气·引航"}},dwID=140235,nFrame=47},
 			{aFocus={{}},dwID=139948,nFrame=52},
 			{aFocus={{}},dwID=139947,nFrame=52},
+			{aFocus={{}},dwID=128464,nFrame=47},
+			{aFocus={{}},dwID=110629,nFrame=47,tCountdown={{key="秽血勇虫",nClass=11,nFrame=5,nIcon=13,nTime=0}}},
+			{aFocus={{}},dwID=110450,nFrame=47},
+			{aFocus={{}},dwID=110184,nFrame=47},
+			{aFocus={{}},dwID=110403,nFrame=47},
+			{aFocus={{}},dwID=110353,nFrame=47},
+			{aFocus={{}},dwID=110281,nFrame=47},
+			{aFocus={{}},dwID=110275,nFrame=47},
+			{aFocus={{}},dwID=105869,nFrame=47},
+			{aFocus={{}},dwID=105868,nFrame=47},
+			{aFocus={{}},dwID=100509,nFrame=47},
+			{aFocus={{}},dwID=100574,nFrame=47},
+			{aFocus={{}},dwID=100818,nFrame=47},
+			{aFocus={{}},dwID=100817,nFrame=47},
+			{aFocus={{}},dwID=100506,nFrame=47},
+			{aFocus={{}},dwID=66980,nFrame=47},
+			{aFocus={{}},dwID=67310,nFrame=47},
+			{aFocus={{}},dwID=67307,nFrame=47},
+			{aFocus={{}},dwID=62133,nFrame=47},
+			{aFocus={{}},dwID=62714,nFrame=47},
+			{aFocus={{}},dwID=62770,nFrame=47},
+			{aFocus={{}},dwID=62110,nFrame=47},
+			{aFocus={{}},dwID=57100,nFrame=47},
+			{aFocus={{}},dwID=57101,nFrame=47},
+			{aFocus={{}},dwID=57110,nFrame=47},
+			{aFocus={{}},dwID=56922,nFrame=47},
+			{aFocus={{}},dwID=46792,nFrame=47},
+			{aFocus={{}},dwID=46788,nFrame=47},
+			{aFocus={{}},dwID=46402,nFrame=47},
+			{aFocus={{}},dwID=46766,nFrame=47},
 		},
 		[995] = {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60}},col={0,255,0},dwID=201226,nFrame=47},
@@ -12098,7 +12138,6 @@ return {
 			{col={100,100,255},szContent="浩气盟，浩气长存！",szTarget="穆玄英",tCountdown={{key="关隘宝箱",nClass=14,nFrame=7,nIcon=10449,nRefresh=2,nTime=179,szName="浩气盟·赤焰关·拾取剩余"},{key="关隘·拾取·浩气盟",nClass=14,nFrame=-1,nIcon=13,nRefresh=1,nTime=-1,szName="关隘·拾取·浩气盟"}}},
 			{col={100,100,255},szContent="司空仲平在此，尔等还不速速退去！",szTarget="司空仲平",tCountdown={{key="关隘宝箱",nClass=14,nFrame=7,nIcon=10449,nRefresh=2,nTime=179,szName="浩气盟·回雁关·拾取剩余"},{key="关隘·拾取·浩气盟",nClass=14,nFrame=-1,nIcon=13,nRefresh=1,nTime=-1,szName="关隘·拾取·浩气盟"}}},
 			{col={100,100,255},szContent="吾奉盟主之令，特来镇守此处关隘。",szTarget="谢烟客",tCountdown={{key="关隘宝箱",nClass=14,nFrame=7,nIcon=10449,nRefresh=2,nTime=179,szName="浩气盟·盘碣关·拾取剩余"},{key="关隘·拾取·浩气盟",nClass=14,nFrame=-1,nIcon=13,nRefresh=1,nTime=-1,szName="关隘·拾取·浩气盟"}}},
-			{szContent="提醒：您已进入可敌对区域，在帮会领地或秘境中方能免除被敌对的危险。",szTarget="%",tCountdown={{key="阵营模式",nClass=14,nFrame=-1,nIcon=13,nRefresh=20,nTime=-1,szName="阵营模式"}}},
 		},
 		[701] = {
 			{szContent="张大，你可知何处老鼠出没最多？",szNote="完成·宠物奇遇·妖与狸",szTarget="林清",tCountdown={{key="奇遇提示1",nClass=14,nFrame=7,nIcon=12373,nTime=600,szName="完成·宠物奇遇·妖与狸"},{key="奇遇提示2",nClass=14,nFrame=7,nIcon=12373,nTime=600,szName="获得·宠物·一团黑大人"},{key="奇遇提示3",nClass=14,nFrame=7,nIcon=12373,nTime=0,szName="奇遇提示3"}}},
@@ -12169,6 +12208,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791295580,
+		nTimeStamp = 1791377211,
 	},
 }
