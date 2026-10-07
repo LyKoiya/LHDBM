@@ -180,6 +180,11 @@ packList = [
         "Checked": True
     },
     {
+        "Path": "\\模板\\倒计时条·阻断·野外.formatted.jx3dat",
+        "Method": "fileMerge",
+        "Checked": True
+    },
+    {
         "Path": "\\模板\\团队监控·杂项.formatted.jx3dat",
         "Method": "fileMerge",
         "Checked": True
