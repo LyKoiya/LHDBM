@@ -29,6 +29,38 @@ local function empty(var)
     end
 end
 
+-- 判断是否为空
+---@param var any @需要判断的数据
+---@return boolean @是否为空
+function M.IsEmpty(var)
+	local szType = type(var)
+	if szType == 'nil' then
+		return true
+	elseif szType == 'boolean' then
+		return var
+	elseif szType == 'number' then
+		return var == 0
+	elseif szType == 'string' then
+		return var == ''
+	elseif szType == 'function' then
+		return false
+	elseif szType == 'table' then
+		for _, _ in pairs(var) do
+			return false
+		end
+		return true
+	else
+		return false
+	end
+end
+
+function M.TrimString(szText)
+	if not szText or szText == '' then
+		return ''
+	end
+	return (string.gsub(szText, '^%s*(.-)%s*$', '%1'))
+end
+
 -- 深拷贝表
 function M.clone(var)
     local szType = type(var)
