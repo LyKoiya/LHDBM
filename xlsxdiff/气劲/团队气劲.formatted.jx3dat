@@ -2059,7 +2059,7 @@ return {
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#1F3FFFFF",colScreenHead="#1F3FFF",nColAlpha=255,nPriority=15,szReminder="Ëø"}},col={31,63,255},dwID=70567,nLevel=1,nScrutinyType=2,szName="Ëø×ã¡¤ÓÎ·çÆ®×Ù",szNote="ÓÎ·çÆ®×Ù¡¤Ëø×ã"},
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#AAAAAAFF",nColAlpha=255,nPriority=29,szReminder="ÁÆ"}},col={170,170,170},dwID=70603,nLevel=1,nScrutinyType=2,szNote="´Çö¬"},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bAttention=true,bScreenHead=true,col="#FFCC00FF",colScreenHead="#FFCC00",nColAlpha=255,nPriority=3,szReminder="ºÏ"}},col={255,204,0},dwID=26944,nLevel=1,nScrutinyType=2,szNote="ºÏÉñ"},
-			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bAttention=true,bCaution=true,bScreenHead=true,col="#FF0055FF",colScreenHead="#FF0055",nColAlpha=255,nPriority=4,szReminder="¿Ö"}},col={255,0,85},dwID=27038,nLevel=1,nScrutinyType=2,szNote="¿Ö¾å"},
+			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bCaution=true,bScreenHead=true,col="#FF0055FF",colScreenHead="#FF0055",nColAlpha=255,nPriority=4,szReminder="¿Ö"}},col={255,0,85},dwID=27038,nLevel=1,nScrutinyType=2,szNote="¿Ö¾å"},
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#1F3FFFFF",nColAlpha=255,nPriority=15,szReminder="ÖÍ"}},col={31,63,255},dwID=26959,nLevel=1,nScrutinyType=2,szNote="¿ÕÏÒ¾ªÑã¡¤¼õËÙ"},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#1F3FFFFF",colScreenHead="#1F3FFF",nColAlpha=255,nPriority=15,szReminder="Ëø"}},col={31,63,255},dwID=26960,nLevel=1,nScrutinyType=2,szName="Ëø×ã¡¤¿ÕÏÒ¾ªÑã",szNote="¿ÕÏÒ¾ªÑã¡¤Ëø×ã"},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#FFFF00FF",colScreenHead="#FFFF00",nColAlpha=255,nPriority=14,szReminder="¶¨"}},col={255,255,0},dwID=26961,nLevel=1,nScrutinyType=2,szName="¶¨Éí¡¤¿ÕÏÒ¾ªÑã",szNote="¿ÕÏÒ¾ªÑã¡¤¶¨Éí"},
@@ -2082,7 +2082,7 @@ return {
 			{{bBuffList=true,bOnlySelfSrc=false,bTeamPanel=false},col={0,255,255},dwID=27128,nLevel=1,nScrutinyType=1,szNote="ÅåÏÒ",tKungFu={["SKILL#10756"]=true}},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bOnlyMe=true,bScreenHead=true,col="#FFCC00FF",colScreenHead="#FFCC00",nColAlpha=255,nPriority=3,szReminder="Ëø"}},col={255,204,0},dwID=27523,nIcon=19589,nLevel=1,nScrutinyType=1,szName="Ëø²Ù×÷",szNote="»ãÁéºÏÆõÆÚ¼äÎÞµÐËø²Ù×÷"},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bOnlyMe=true,bScreenHead=true,col="#B3EE3AFF",colScreenHead="#B3EE3A",nColAlpha=255,nPriority=18,szReminder="Ãâ"}},col={179,238,58},dwID=27819,nIcon=20423,nLevel=1,nScrutinyType=1,szName="Ãâ¿Ø¡¤¸¡Éú",szNote="ÍòÁéÉ½×¯_·ç¾¡¸¡Éú¹ý³ÌÃâ¿Ø"},
-			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bAttention=true,bCaution=true,bScreenHead=true,col="#FF0055FF",colScreenHead="#FF0055",nColAlpha=255,nPriority=4,szReminder="¿Ö"}},col={255,0,85},dwID=71272,nIcon=102168,nLevel=1,nScrutinyType=2,szNote="¿Ö¾å"},
+			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bCaution=true,bScreenHead=true,col="#FF0055FF",colScreenHead="#FF0055",nColAlpha=255,nPriority=4,szReminder="¿Ö"}},col={255,0,85},dwID=71272,nIcon=102168,nLevel=1,nScrutinyType=2,szNote="¿Ö¾å"},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#FF99CCFF",colScreenHead="#FF99CC",nColAlpha=255,nPriority=37,szReminder="±ê"}},col={255,153,204},dwID=29222,nLevel=1,nScrutinyType=2,szNote="·ç»²Ðõ×ª"},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#00FF00FF",colScreenHead="#00FF00",nColAlpha=255,nPriority=22,szReminder="¼õ"}},col={0,255,0},dwID=29534,nLevel=1,nScrutinyType=2,szName="¼õÉË¡¤ÔÂÂä²Îºá",szNote="ÔÂÂä²Îºá"},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#B3EE3AFF",colScreenHead="#B3EE3A",nColAlpha=255,nPriority=18,szReminder="³å"}},col={179,238,58},dwID=29424,nIcon=22807,nLevel=1,nScrutinyType=2,szName="³å´Ì¡¤·çÁ÷ÔÆÉ¢",szNote="·çÁ÷ÔÆÉ¢³å´ÌÃâ¿Ø"},
@@ -2203,6 +2203,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791190287,
+		nTimeStamp = 1791535543,
 	},
 }
