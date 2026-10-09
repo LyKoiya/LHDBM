@@ -548,6 +548,7 @@ return {
 			{{bBuffList=true,bOnlySelfSrc=false,bTeamPanel=false},col={0,255,255},dwID=31886,nLevel=1,nScrutinyType=1,szName="增疗",szNote="听风同命"},
 			{{bBuffList=true,bOnlySelfSrc=false,bTeamPanel=false},col={0,255,255},dwID=31887,nIcon=25000,nLevel=1,nScrutinyType=1,szName="2听风",szNote="听风同命_换技能标记",tKungFu={["SKILL#10028"]=true}},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bAttention=true,bScreenHead=true,col="#FFCC00FF",colScreenHead="#FFCC00",nColAlpha=255,nPriority=3,szReminder="听"}},col={255,204,0},dwID=31890,nLevel=1,nScrutinyType=2,szNote="听风同命"},
+			{{bBuffList=true,bOnlySelfSrc=false,bTeamPanel=false},col={0,255,255},dwID=33027,nLevel=1,nScrutinyType=1,szNote="如馥",tKungFu={["SKILL#10021"]=true}},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#00FF00FF",colScreenHead="#00FF00",nColAlpha=255,nPriority=24,szReminder="盾"}},col={0,255,0},dwID=33123,nLevel=1,nScrutinyType=2,szNote="知寒"},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#00FF00FF",colScreenHead="#00FF00",nColAlpha=255,nPriority=24,szReminder="盾"}},col={0,255,0},dwID=33141,nLevel=1,nScrutinyType=2,szNote="见雪"},
 			{{bBuffList=true,bOnlySelfSrc=false,bTeamPanel=false},col={0,255,0},dwID=33174,nLevel=1,nScrutinyType=2,szNote="清和"},
@@ -1520,6 +1521,8 @@ return {
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#FFFF00FF",colScreenHead="#FFFF00",nColAlpha=255,nPriority=13,szReminder="晕"}},col={255,255,0},dwID=4377,nLevel=1,nScrutinyType=2,szName="眩晕·冲撞",szNote="冲撞"},
 			{{bBuffList=true,bOnlySelfSrc=false,bTeamPanel=false},bCheckLevel=true,col={0,255,255},dwID=412,nLevel=1,nScrutinyType=1,szName="瞬发",szNote="水月",tKungFu={["SKILL#10021"]=true,["SKILL#10028"]=true}},
 			{{bTeamPanel=true},aCataclysmBuff={{nPriority=42,szReminder="埃"}},dwID=1674,nLevel=1,nScrutinyType=2,szNote="涓埃"},
+			{{bBuffList=true,bOnlySelfSrc=true,bTeamPanel=true},aCataclysmBuff={{bOnlyMine=true,nPriority=42,szReminder="埃"}},dwID=6415,nIcon=3006,nLevel=1,nScrutinyType=1,szName="涓埃",szNote="万花_长针春泥内置cd"},
+			{{bBuffList=true,bOnlySelfSrc=false,bTeamPanel=false},dwID=27383,nIcon=3015,nLevel=1,nScrutinyType=1,szName="涓埃",szNote="列宿内置cd"},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#FFFF00FF",colScreenHead="#1F3FFF",nColAlpha=255,nPriority=14,szReminder="定"}},col={31,63,255},dwID=998,nLevel=1,nScrutinyType=2,szName="定身·太阴指",szNote="太阴指"},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#1F3FFFFF",colScreenHead="#1F3FFF",nColAlpha=255,nPriority=15,szReminder="锁"}},col={31,63,255},dwID=5694,nLevel=1,nScrutinyType=2,szName="锁足·太阴指",szNote="太阴指"},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bAttention=true,bScreenHead=true,col="#FF0055FF",colScreenHead="#FF0055",nColAlpha=255,nPriority=2,szReminder="锢"}},col={255,0,85},dwID=20814,nLevel=1,nScrutinyType=2,szName="禁锢·守拙",szNote="守拙"},
@@ -2207,6 +2210,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791546340,
+		nTimeStamp = 1791549239,
 	},
 }
