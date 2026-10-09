@@ -3,22 +3,34 @@ return {
 	CASTING = {},
 	CHAT = {
 		[-21] = {
-			{szContent="沙盘载具运输活动现已结束，未来得及运输至据点的车将不计入结算，运输详情见沙盘界面，感谢各位侠士的参与。\
-",szNote="沙盘运输·活动结束",tCountdown={{key="沙盘运输",nClass=20,nFrame=0,nIcon=13,nTime=10,szName="沙盘运输·活动结束"}}},
+			{bReg=true,szContent="^【沙盘运输】(.-)势力本场累计达成(%d-)次运输车战果，丰厚嘉奖物资已出现在(.-)，请同阵营侠士前往拾取！",szNote="{$1}·沙盘运输·抵达{$2}辆",tCountdown={{key="恶人谷·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="恶人谷·沙盘运输"},{key="浩气盟·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="浩气盟·沙盘运输"},{key="{$1}·沙盘运输",nClass=20,nIcon=13,nTime=-2,szName="{$1}·沙盘运输"},{key="恶人谷·沙盘运输",nClass=20,nFrame=3,nIcon=3316,nRefresh=1,nTime=60,szName="恶人·沙盘运输·抵达{$2}辆"},{key="浩气盟·沙盘运输",nClass=20,nFrame=7,nIcon=3319,nRefresh=1,nTime=60,szName="浩气·沙盘运输·抵达{$2}辆"}}},
+			{szContent="沙盘载具运输活动即将开启，浩气盟与恶人谷的运输车已刷新在各自据点，将在活动正式开始后开始运输，详情见沙盘界面。\
+",szNote="沙盘运输·即将开启",tCountdown={{key="沙盘运输",nClass=20,nFrame=-1,nIcon=1465,nTime=300,szName="沙盘运输·即将开启"}}},
 		},
 		[-20] = {
-			{bReg=true,szContent="([浩气恶人]+)([盟谷]+)(.-)据点的运输车已顺利抵达前线！感谢侠士们的护送！",szNote="{$1}·{$3}·运输车·抵达",tCountdown={{key="{$3}·浩气大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·浩气大旗"},{key="{$3}·恶人大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·恶人大旗"},{key="{$3}·{$1}大旗",nClass=20,nIcon=13,nTime=-2,szName="{$3}·{$1}大旗"},{key="{$3}·浩气大旗",nClass=20,nFrame=7,nIcon=4543,nRefresh=1,nTime=10,szName="浩气·{$3}·运输车·抵达"},{key="{$3}·恶人大旗",nClass=20,nFrame=3,nIcon=4544,nRefresh=1,nTime=10,szName="恶人·{$3}·运输车·抵达"}}},
+			{bReg=true,szContent="([浩气恶人]+)([盟谷]+)(.-)据点的运输车已顺利抵达前线！感谢侠士们的护送！",szNote="{$1}·[{$3}]运输车·抵达",tCountdown={{key="{$3}·浩气大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·浩气大旗"},{key="{$3}·恶人大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·恶人大旗"},{key="{$3}·{$1}大旗",nClass=20,nIcon=13,nTime=-2,szName="{$3}·{$1}大旗"},{key="{$3}·浩气大旗",nClass=20,nFrame=7,nIcon=4543,nRefresh=1,nTime=10,szName="浩气·[{$3}]运输车·抵达"},{key="{$3}·恶人大旗",nClass=20,nFrame=3,nIcon=4544,nRefresh=1,nTime=10,szName="恶人·[{$3}]运输车·抵达"}}},
+			{bReg=true,szContent="([浩气恶人]+)([盟谷]+)(.-)据点的运输车在(.-)被劫持！",szNote="{$1}·[{$3}]运输车·在[{$4}]被劫",tCountdown={{key="{$3}·浩气大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·浩气大旗"},{key="{$3}·恶人大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·恶人大旗"},{key="{$3}·{$1}大旗",nClass=20,nIcon=13,nTime=-2,szName="{$3}·{$1}大旗"},{key="{$3}·浩气大旗",nClass=20,nFrame=3,nIcon=20116,nRefresh=1,nTime=30,szName="{$4}·恶人劫[{$3}]车"},{key="{$3}·恶人大旗",nClass=20,nFrame=7,nIcon=20125,nRefresh=1,nTime=30,szName="{$4}·浩气劫[{$3}]车"}}},
+			{szContent="沙盘载具运输活动已开启，浩气盟与恶人谷的运输车即将自各据点出发，详情见沙盘界面。\
+",szNote="沙盘运输·正式开启",tCountdown={{key="沙盘运输",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="沙盘运输·正式开启"}}},
 		},
 		[-7] = {
+			{bReg=true,szContent="^【沙盘运输】(.-)势力本场累计达成(%d-)次运输车战果，丰厚嘉奖物资已出现在(.-)，请同阵营侠士前往拾取！",szNote="{$1}·沙盘运输·抵达{$2}辆",tCountdown={{key="恶人谷·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="恶人谷·沙盘运输"},{key="浩气盟·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="浩气盟·沙盘运输"},{key="{$1}·沙盘运输",nClass=20,nIcon=13,nTime=-2,szName="{$1}·沙盘运输"},{key="恶人谷·沙盘运输",nClass=20,nFrame=3,nIcon=3316,nRefresh=1,nTime=60,szName="恶人·沙盘运输·抵达{$2}辆"},{key="浩气盟·沙盘运输",nClass=20,nFrame=7,nIcon=3319,nRefresh=1,nTime=60,szName="浩气·沙盘运输·抵达{$2}辆"}}},
 			{szContent="沙盘载具运输活动现已结束，未来得及运输至据点的车将不计入结算，运输详情见沙盘界面，感谢各位侠士的参与。\
 ",szNote="沙盘运输·活动结束",tCountdown={{key="沙盘运输",nClass=20,nFrame=0,nIcon=13,nTime=10,szName="沙盘运输·活动结束"}}},
+			{szContent="沙盘载具运输活动即将开启，浩气盟与恶人谷的运输车已刷新在各自据点，将在活动正式开始后开始运输，详情见沙盘界面。\
+",szNote="沙盘运输·即将开启",tCountdown={{key="沙盘运输",nClass=20,nFrame=-1,nIcon=1465,nTime=300,szName="沙盘运输·即将开启"}}},
 		},
 		[-2] = {
+			{bReg=true,szContent="^【沙盘运输】(.-)势力本场累计达成(%d-)次运输车战果，丰厚嘉奖物资已出现在(.-)，请同阵营侠士前往拾取！",szNote="{$1}·沙盘运输·抵达{$2}辆",tCountdown={{key="恶人谷·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="恶人谷·沙盘运输"},{key="浩气盟·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="浩气盟·沙盘运输"},{key="{$1}·沙盘运输",nClass=20,nIcon=13,nTime=-2,szName="{$1}·沙盘运输"},{key="恶人谷·沙盘运输",nClass=20,nFrame=3,nIcon=3316,nRefresh=1,nTime=60,szName="恶人·沙盘运输·抵达{$2}辆"},{key="浩气盟·沙盘运输",nClass=20,nFrame=7,nIcon=3319,nRefresh=1,nTime=6,szName="浩气·沙盘运输·抵达{$2}辆"}}},
 			{szContent="沙盘载具运输活动现已结束，未来得及运输至据点的车将不计入结算，运输详情见沙盘界面，感谢各位侠士的参与。\
 ",szNote="沙盘运输·活动结束",tCountdown={{key="沙盘运输",nClass=20,nFrame=0,nIcon=13,nTime=10,szName="沙盘运输·活动结束"}}},
+			{szContent="沙盘载具运输活动即将开启，浩气盟与恶人谷的运输车已刷新在各自据点，将在活动正式开始后开始运输，详情见沙盘界面。\
+",szNote="沙盘运输·即将开启",tCountdown={{key="沙盘运输",nClass=20,nFrame=-1,nIcon=1465,nTime=300,szName="沙盘运输·即将开启"}}},
 		},
-		[-1] = {
-			{bReg=true,szContent="^【沙盘运输】(.-)势力本场累计达成(%d-)次运输车战果，丰厚嘉奖物资已出现在(.-)，请同阵营侠士前往拾取！",szNote="{$1}·沙盘运输·抵达{$2}辆",tCountdown={{key="恶人谷·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="恶人谷·沙盘运输"},{key="浩气盟·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="浩气盟·沙盘运输"},{key="{$1}·沙盘运输",nClass=20,nIcon=13,nTime=-2,szName="{$1}·沙盘运输"},{key="恶人谷·沙盘运输",nClass=20,nFrame=3,nIcon=3316,nRefresh=1,nTime=10,szName="恶人·沙盘运输·抵达{$2}辆"},{key="浩气盟·沙盘运输",nClass=20,nFrame=7,nIcon=3319,nRefresh=1,nTime=10,szName="浩气·沙盘运输·抵达{$2}辆"}}},
+		[74] = {
+			{bReg=true,szContent="^【沙盘运输】(.-)势力本场累计达成(%d-)次运输车战果，丰厚嘉奖物资已出现在(.-)，请同阵营侠士前往拾取！",szNote="{$1}·沙盘运输·抵达{$2}辆",tCountdown={{key="恶人谷·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="恶人谷·沙盘运输"},{key="浩气盟·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="浩气盟·沙盘运输"},{key="{$1}·沙盘运输",nClass=20,nIcon=13,nTime=-2,szName="{$1}·沙盘运输"},{key="恶人谷·沙盘运输",nClass=20,nFrame=3,nIcon=3316,nRefresh=1,nTime=60,szName="恶人·沙盘运输·抵达{$2}辆"},{key="浩气盟·沙盘运输",nClass=20,nFrame=7,nIcon=3319,nRefresh=1,nTime=60,szName="浩气·沙盘运输·抵达{$2}辆"}}},
+			{szContent="沙盘载具运输活动即将开启，浩气盟与恶人谷的运输车已刷新在各自据点，将在活动正式开始后开始运输，详情见沙盘界面。\
+",szNote="沙盘运输·即将开启",tCountdown={{key="沙盘运输",nClass=20,nFrame=-1,nIcon=1465,nTime=300,szName="沙盘运输·即将开启"}}},
 		},
 	},
 	DEBUFF = {
@@ -26,25 +38,35 @@ return {
 			{dwID=34526,nLevel=1,nScrutinyType=1,szNote="沙盘运输·护送时长"},
 		},
 		[-19] = {
-			{col={255,255,0},dwID=34654,nIcon=6158,nLevel=1,nScrutinyType=1,szName="奖励物资",szNote="沙盘运输·奖励物资",tCountdown={{key="沙盘运输",nClass=1,nFrame=0,nIcon=6158,nRefresh=9999999,nTime=10,szName="沙盘运输·已领取奖励"}}},
+			{col={255,255,0},dwID=34654,nIcon=6158,nLevel=1,nScrutinyType=1,szName="奖励物资",szNote="沙盘运输·奖励物资",tCountdown={{key="沙盘运输",nClass=1,nFrame=0,nIcon=6158,nRefresh=176400,nTime=10,szName="沙盘运输·已领取奖励"}}},
 		},
 	},
 	DOODAD = {
+		[-20] = {
+			{[17]={bCenterAlarm=true,bScreenHead=true},aFocus={{}},col={0,255,0},dwID=12133,szNote="沙盘运输·劫车宝堆"},
+		},
 		[-19] = {
-			{aFocus={{nMaxDistance=30,szDisplay="奖励物资·沙盘运输",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=12156,szNote="沙盘运输·奖励物资"},
+			{aFocus={{nMaxDistance=6,szDisplay="奖励物资·沙盘运输",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=12156,szNote="沙盘运输·奖励物资"},
 		},
 	},
 	NPC = {
 		[-20] = {
-			{[3]={bScreenHead=true},aFocus={{}},col={255,255,255},dwID=138941,nFrame=47,szNote="沙盘运输·载具运输车"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="载具运输车·敌方",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}},{nMaxDistance=0,szDisplay="载具运输车·友方",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={255,255,255},dwID=138941,nFrame=47,szNote="沙盘运输·载具运输车"},
 		},
 		[-19] = {
 			{aFocus={{nMaxDistance=-1,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=140441,nFrame=47,szNote="沙盘运输·摧城车"},
 		},
 	},
-	TALK = {},
+	TALK = {
+		[-20] = {
+			{[14]={bCenterAlarm=true},szContent="仅劫车方阵营可拾取",szNote="仅劫车方阵营可拾取",szTarget="%"},
+			{[14]={bCenterAlarm=true},col={255,255,100},szContent="糟糕，护送不利，我们先撤了!",szNote="{$sender}·护送不利",szTarget="%"},
+			{szContent="你获得了0点威名、200点战阶。",tCountdown={{key="沙盘运输",nClass=14,nFrame=1,nIcon=13561,nRefresh=1,nTime="20,劫车堆·拾取物资·间隔剩余;30,劫车堆·可以拾取物资了",szName="劫车堆·拾取物资·间隔剩余"}}},
+			{szContent="你获得了500点威名、200点战阶。",tCountdown={{key="沙盘运输",nClass=14,nFrame=1,nIcon=13561,nRefresh=1,nTime="20,劫车堆·拾取物资·间隔剩余;30,劫车堆·可以拾取物资了",szName="劫车堆·拾取物资·间隔剩余"}}},
+		},
+	},
 	__meta = {
-		nTimeStamp = 1791190904,
+		nTimeStamp = 1791559465,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_exp",

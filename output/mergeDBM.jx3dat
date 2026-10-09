@@ -2321,8 +2321,9 @@ return {
 ",szNote="扬州·打雪仗",tCountdown={{key="节日活动1",nClass=20,nFrame=6,nIcon=11375,nTime=10,szName="扬州·打雪仗"}}},
 			{szContent="正在拍卖龙骧驰竞活动专属稀有物品，内含最高移速坐骑及珍稀马饰，诸位侠士们切勿错过！！！\
 ",szNote="龙骧驰竞·拍卖掉落",tCountdown={{key="拍卖分红",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="龙骧驰竞·拍卖掉落"}}},
-			{szContent="沙盘载具运输活动现已结束，未来得及运输至据点的车将不计入结算，运输详情见沙盘界面，感谢各位侠士的参与。\
-",szNote="沙盘运输·活动结束",tCountdown={{key="沙盘运输",nClass=20,nFrame=0,nIcon=13,nTime=10,szName="沙盘运输·活动结束"}}},
+			{szContent="沙盘载具运输活动即将开启，浩气盟与恶人谷的运输车已刷新在各自据点，将在活动正式开始后开始运输，详情见沙盘界面。\
+",szNote="沙盘运输·即将开启",tCountdown={{key="沙盘运输",nClass=20,nFrame=-1,nIcon=1465,nTime=300,szName="沙盘运输·即将开启"}}},
+			{bReg=true,szContent="^【沙盘运输】(.-)势力本场累计达成(%d-)次运输车战果，丰厚嘉奖物资已出现在(.-)，请同阵营侠士前往拾取！",szNote="{$1}·沙盘运输·抵达{$2}辆",tCountdown={{key="恶人谷·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="恶人谷·沙盘运输"},{key="浩气盟·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="浩气盟·沙盘运输"},{key="{$1}·沙盘运输",nClass=20,nIcon=13,nTime=-2,szName="{$1}·沙盘运输"},{key="恶人谷·沙盘运输",nClass=20,nFrame=3,nIcon=3316,nRefresh=1,nTime=60,szName="恶人·沙盘运输·抵达{$2}辆"},{key="浩气盟·沙盘运输",nClass=20,nFrame=7,nIcon=3319,nRefresh=1,nTime=60,szName="浩气·沙盘运输·抵达{$2}辆"}}},
 			{szContent="未到报名时间，或请重新打开界面!\
 ",szNote="武林争霸赛·未到报名时间",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·未到报名时间"}}},
 			{[20]={bCenterAlarm=true},szContent="练习赛匹配超时\
@@ -2393,7 +2394,10 @@ return {
 ",tCountdown={{key="竞技活动",nClass=20,nFrame=4,nIcon=13,nTime=30,szName="战场·排队·开始"},{key="事件规则",nClass=20,nFrame=5,nIcon=13,nTime=30,szName="检查·心法·奇穴"}}},
 		},
 		[-20] = {
-			{bReg=true,szContent="([浩气恶人]+)([盟谷]+)(.-)据点的运输车已顺利抵达前线！感谢侠士们的护送！",szNote="{$1}·{$3}·运输车·抵达",tCountdown={{key="{$3}·浩气大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·浩气大旗"},{key="{$3}·恶人大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·恶人大旗"},{key="{$3}·{$1}大旗",nClass=20,nIcon=13,nTime=-2,szName="{$3}·{$1}大旗"},{key="{$3}·浩气大旗",nClass=20,nFrame=7,nIcon=4543,nRefresh=1,nTime=10,szName="浩气·{$3}·运输车·抵达"},{key="{$3}·恶人大旗",nClass=20,nFrame=3,nIcon=4544,nRefresh=1,nTime=10,szName="恶人·{$3}·运输车·抵达"}}},
+			{szContent="沙盘载具运输活动已开启，浩气盟与恶人谷的运输车即将自各据点出发，详情见沙盘界面。\
+",szNote="沙盘运输·正式开启",tCountdown={{key="沙盘运输",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="沙盘运输·正式开启"}}},
+			{bReg=true,szContent="([浩气恶人]+)([盟谷]+)(.-)据点的运输车在(.-)被劫持！",szNote="{$1}·[{$3}]运输车·在[{$4}]被劫",tCountdown={{key="{$3}·浩气大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·浩气大旗"},{key="{$3}·恶人大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·恶人大旗"},{key="{$3}·{$1}大旗",nClass=20,nIcon=13,nTime=-2,szName="{$3}·{$1}大旗"},{key="{$3}·浩气大旗",nClass=20,nFrame=3,nIcon=20116,nRefresh=1,nTime=30,szName="{$4}·恶人劫[{$3}]车"},{key="{$3}·恶人大旗",nClass=20,nFrame=7,nIcon=20125,nRefresh=1,nTime=30,szName="{$4}·浩气劫[{$3}]车"}}},
+			{bReg=true,szContent="([浩气恶人]+)([盟谷]+)(.-)据点的运输车已顺利抵达前线！感谢侠士们的护送！",szNote="{$1}·[{$3}]运输车·抵达",tCountdown={{key="{$3}·浩气大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·浩气大旗"},{key="{$3}·恶人大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·恶人大旗"},{key="{$3}·{$1}大旗",nClass=20,nIcon=13,nTime=-2,szName="{$3}·{$1}大旗"},{key="{$3}·浩气大旗",nClass=20,nFrame=7,nIcon=4543,nRefresh=1,nTime=10,szName="浩气·[{$3}]运输车·抵达"},{key="{$3}·恶人大旗",nClass=20,nFrame=3,nIcon=4544,nRefresh=1,nTime=10,szName="恶人·[{$3}]运输车·抵达"}}},
 			{bReg=true,col={255,255,100},szContent="^江湖快报！(.-)据点粮仓被一群([浩气恶人]+)[盟谷]-人士洗劫",szNote="{$1}·{$2}劫粮",tCountdown={{key="{$1}·浩气劫粮",nClass=20,nFrame=-1,nIcon=2397,nRefresh=2,nTime=-1,szName="{$1}·浩气劫粮"},{key="{$1}·恶人劫粮",nClass=20,nFrame=-1,nIcon=2398,nRefresh=2,nTime=-1,szName="{$1}·恶人劫粮"},{key="{$1}·{$2}劫粮",nClass=20,nFrame=7,nIcon=2400,nTime=-2,szName="{$1}·{$2}劫粮"},{key="{$1}·浩气劫粮",nClass=20,nFrame=7,nIcon=10449,nRefresh=1,nTime=30,szName="【{$1}】浩气劫粮"},{key="{$1}·恶人劫粮",nClass=20,nFrame=3,nIcon=10450,nRefresh=1,nTime=30,szName="【{$1}】恶人劫粮"}}},
 		},
 		[-19] = {
@@ -2462,8 +2466,11 @@ return {
 ",szNote="扬州·打雪仗",tCountdown={{key="节日活动1",nClass=20,nFrame=6,nIcon=11375,nTime=10,szName="扬州·打雪仗"}}},
 			{szContent="正在拍卖龙骧驰竞活动专属稀有物品，内含最高移速坐骑及珍稀马饰，诸位侠士们切勿错过！！！\
 ",szNote="龙骧驰竞·拍卖掉落",tCountdown={{key="拍卖分红",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="龙骧驰竞·拍卖掉落"}}},
+			{szContent="沙盘载具运输活动即将开启，浩气盟与恶人谷的运输车已刷新在各自据点，将在活动正式开始后开始运输，详情见沙盘界面。\
+",szNote="沙盘运输·即将开启",tCountdown={{key="沙盘运输",nClass=20,nFrame=-1,nIcon=1465,nTime=300,szName="沙盘运输·即将开启"}}},
 			{szContent="沙盘载具运输活动现已结束，未来得及运输至据点的车将不计入结算，运输详情见沙盘界面，感谢各位侠士的参与。\
 ",szNote="沙盘运输·活动结束",tCountdown={{key="沙盘运输",nClass=20,nFrame=0,nIcon=13,nTime=10,szName="沙盘运输·活动结束"}}},
+			{bReg=true,szContent="^【沙盘运输】(.-)势力本场累计达成(%d-)次运输车战果，丰厚嘉奖物资已出现在(.-)，请同阵营侠士前往拾取！",szNote="{$1}·沙盘运输·抵达{$2}辆",tCountdown={{key="恶人谷·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="恶人谷·沙盘运输"},{key="浩气盟·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="浩气盟·沙盘运输"},{key="{$1}·沙盘运输",nClass=20,nIcon=13,nTime=-2,szName="{$1}·沙盘运输"},{key="恶人谷·沙盘运输",nClass=20,nFrame=3,nIcon=3316,nRefresh=1,nTime=60,szName="恶人·沙盘运输·抵达{$2}辆"},{key="浩气盟·沙盘运输",nClass=20,nFrame=7,nIcon=3319,nRefresh=1,nTime=60,szName="浩气·沙盘运输·抵达{$2}辆"}}},
 			{col={255,255,100},szContent="正在拍卖世界首领掉落的稀有物品，其中有当前最高品质附魔，诸位侠士们切勿错过！\
 ",szNote="世界首领·拍卖掉落",tCountdown={{key="拍卖分红",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="世界首领·拍卖掉落"}}},
 			{col={100,255,255},szContent="陕州商路运输物资成功开启！请帮会有权限的侠士到洛阳城西帮会物资主簿处申请成为运货首领开始运送！\
@@ -2604,8 +2611,11 @@ return {
 ",tCountdown={{key="节日活动1",nClass=20,nIcon=13,nTime=10,szName="扬州·扬州城·出魂"}}},
 			{szContent="正在拍卖龙骧驰竞活动专属稀有物品，内含最高移速坐骑及珍稀马饰，诸位侠士们切勿错过！！！\
 ",szNote="龙骧驰竞·拍卖掉落",tCountdown={{key="拍卖分红",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="龙骧驰竞·拍卖掉落"}}},
+			{szContent="沙盘载具运输活动即将开启，浩气盟与恶人谷的运输车已刷新在各自据点，将在活动正式开始后开始运输，详情见沙盘界面。\
+",szNote="沙盘运输·即将开启",tCountdown={{key="沙盘运输",nClass=20,nFrame=-1,nIcon=1465,nTime=300,szName="沙盘运输·即将开启"}}},
 			{szContent="沙盘载具运输活动现已结束，未来得及运输至据点的车将不计入结算，运输详情见沙盘界面，感谢各位侠士的参与。\
 ",szNote="沙盘运输·活动结束",tCountdown={{key="沙盘运输",nClass=20,nFrame=0,nIcon=13,nTime=10,szName="沙盘运输·活动结束"}}},
+			{bReg=true,szContent="^【沙盘运输】(.-)势力本场累计达成(%d-)次运输车战果，丰厚嘉奖物资已出现在(.-)，请同阵营侠士前往拾取！",szNote="{$1}·沙盘运输·抵达{$2}辆",tCountdown={{key="恶人谷·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="恶人谷·沙盘运输"},{key="浩气盟·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="浩气盟·沙盘运输"},{key="{$1}·沙盘运输",nClass=20,nIcon=13,nTime=-2,szName="{$1}·沙盘运输"},{key="恶人谷·沙盘运输",nClass=20,nFrame=3,nIcon=3316,nRefresh=1,nTime=60,szName="恶人·沙盘运输·抵达{$2}辆"},{key="浩气盟·沙盘运输",nClass=20,nFrame=7,nIcon=3319,nRefresh=1,nTime=6,szName="浩气·沙盘运输·抵达{$2}辆"}}},
 			{szContent="未到报名时间，或请重新打开界面!\
 ",szNote="武林争霸赛·未到报名时间",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·未到报名时间"}}},
 			{[20]={bCenterAlarm=true},szContent="练习赛匹配超时\
@@ -2737,7 +2747,6 @@ return {
 ",tCountdown={{bHold=true,key="阵营活动",nClass=20,nFrame=-1,nIcon=1465,nTime=599.795,szName="龙骧驰竞·消失模式"}}},
 			{col={255,255,100},szContent="龙骧驰竞排队正式开始，侠士们速速前往龙泉府地图参与排队。\
 ",szNote="龙骧驰竞·排队开始",tCountdown={{key="阵营活动",nClass=20,nFrame=-1,nIcon=5815,nRefresh=1,nTime="1,的卢·龙泉府·开始排队;10,的卢·龙泉府·开始排队;60,的卢·龙泉府·等待排队",szName="的卢·龙泉府·开始排队"}}},
-			{bReg=true,szContent="^【沙盘运输】(.-)势力本场累计达成(%d-)次运输车战果，丰厚嘉奖物资已出现在(.-)，请同阵营侠士前往拾取！",szNote="{$1}·沙盘运输·抵达{$2}辆",tCountdown={{key="恶人谷·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="恶人谷·沙盘运输"},{key="浩气盟·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="浩气盟·沙盘运输"},{key="{$1}·沙盘运输",nClass=20,nIcon=13,nTime=-2,szName="{$1}·沙盘运输"},{key="恶人谷·沙盘运输",nClass=20,nFrame=3,nIcon=3316,nRefresh=1,nTime=10,szName="恶人·沙盘运输·抵达{$2}辆"},{key="浩气盟·沙盘运输",nClass=20,nFrame=7,nIcon=3319,nRefresh=1,nTime=10,szName="浩气·沙盘运输·抵达{$2}辆"}}},
 			{[20]={bCenterAlarm=true},szContent="您在跨服野外玩法队列中。\
 ",szNote="处于跨服队列·限制竞技比赛",tCountdown={{key="竞技活动",nClass=20,nFrame=2,nIcon=13,nTime=5,szName="处于跨服队列·限制竞技比赛"}}},
 			{bReg=true,col={255,255,100},szContent="(.-)【(.-)】帮会的(.-)大侠成功护送祭祀物资到达(.-)据点，该据点将士备受鼓舞，战意高昂，战时必将固若金汤！",szNote="祭天·{$1}·[{$2}]·{$4}",tCountdown={{key="通用事件",nClass=20,nFrame=1,nIcon=8838,nTime=30,szName="{$1}祭天·[{$2}]·{$4}"}}},
@@ -3227,6 +3236,9 @@ return {
 			{[20]={bCenterAlarm=true},bReg=true,szContent="^开启(.-)第(%d-)重成功！消耗帮会资金：(%d-)金",szNote="天工树·{$1}[{$2}]·消耗帮资{$3}",tCountdown={{key="天工树",nClass=20,nFrame=1,nIcon=13,nTime=20,szName="{$1}[{$2}]·消耗帮资{$3}"}}},
 			{[20]={bCenterAlarm=true},bReg=true,szContent="消耗帮会资金：(%d-)金",szNote="消耗帮资·[{$1}]金",tCountdown={{key="帮会资金",nClass=20,nFrame=1,nIcon=13,nTime=20,szName="消耗帮资·[{$1}]金"}}},
 			{bSearch=true,szContent="你已接受了[大战！",tCountdown={{key="打包外食1",nClass=20,nFrame=2,nIcon=360,nTime=20,szName="记得打包·帮会外食"},{key="打包外食2",nClass=20,nFrame=2,nIcon=360,nTime=20,szName="记得打包·帮会外食"}}},
+			{szContent="沙盘载具运输活动即将开启，浩气盟与恶人谷的运输车已刷新在各自据点，将在活动正式开始后开始运输，详情见沙盘界面。\
+",szNote="沙盘运输·即将开启",tCountdown={{key="沙盘运输",nClass=20,nFrame=-1,nIcon=1465,nTime=300,szName="沙盘运输·即将开启"}}},
+			{bReg=true,szContent="^【沙盘运输】(.-)势力本场累计达成(%d-)次运输车战果，丰厚嘉奖物资已出现在(.-)，请同阵营侠士前往拾取！",szNote="{$1}·沙盘运输·抵达{$2}辆",tCountdown={{key="恶人谷·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="恶人谷·沙盘运输"},{key="浩气盟·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="浩气盟·沙盘运输"},{key="{$1}·沙盘运输",nClass=20,nIcon=13,nTime=-2,szName="{$1}·沙盘运输"},{key="恶人谷·沙盘运输",nClass=20,nFrame=3,nIcon=3316,nRefresh=1,nTime=60,szName="恶人·沙盘运输·抵达{$2}辆"},{key="浩气盟·沙盘运输",nClass=20,nFrame=7,nIcon=3319,nRefresh=1,nTime=60,szName="浩气·沙盘运输·抵达{$2}辆"}}},
 			{bReg=true,szContent="(.-)已被击伤，留下拥有逐鹿中原战略物资%[神机雷%]，进攻方侠士可拾取，切莫错过！ ",tCountdown={{key="{$1}·退场",nClass=20,nFrame=1,nIcon=13,nTime=30,szName="{$1}·退场"},{key="诛恶事件",nClass=20,nIcon=13,nRefresh=2700,nTime=-1,szName="诛恶事件"},{key="通用事件",nClass=20,nIcon=13,nRefresh=2700,nTime=-1,szName="通用事件"},{key="金水镇",nClass=20,nIcon=13,nRefresh=2700,nTime=-1,szName="金水镇"},{key="巴陵县",nClass=20,nIcon=13,nRefresh=2700,nTime=-1,szName="巴陵县"},{key="龙门荒漠",nClass=20,nIcon=13,nRefresh=2700,nTime=-1,szName="龙门荒漠"},{key="南屏山",nClass=20,nIcon=13,nRefresh=2700,nTime=-1,szName="南屏山"},{key="昆仑",nClass=20,nIcon=13,nRefresh=2700,nTime=-1,szName="昆仑"},{key="白龙口",nClass=20,nIcon=13,nRefresh=2700,nTime=-1,szName="白龙口"},{key="无量山",nClass=20,nIcon=13,nRefresh=2700,nTime=-1,szName="无量山"},{key="黑龙沼",nClass=20,nIcon=13,nRefresh=2700,nTime=-1,szName="黑龙沼"},{key="阴山大草原",nClass=20,nIcon=13,nRefresh=2700,nTime=-1,szName="阴山大草原"},{key="黑戈壁",nClass=20,nIcon=13,nRefresh=2700,nTime=-1,szName="黑戈壁"},{key="鲲鹏岛",nClass=20,nIcon=13,nRefresh=2700,nTime=-1,szName="鲲鹏岛"}}},
 			{szContent="本帮今日防守领地失败，望上下一心，团结一致。\
 ",tCountdown={{key="帮会宣战",nClass=20,nFrame=8,nIcon=13,nTime=30,szName="帮会应战·领地·防守失败"}}},
@@ -4320,7 +4332,7 @@ return {
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#FF99CCFF",colScreenHead="#FF99CC",nColAlpha=255,nPriority=11,szReminder="针"}},col={255,153,204},dwID=530,nLevel=1,nScrutinyType=1,szName="虚内大",tCountdown={{key="金针·影",nClass=1,nFrame=8,nIcon=1368,nRefresh=0,nTime="5,敌方·{$sender}·内功大金针;120,金针·降低基础内功50%",szName="金针·降低基础内功50%"},{key="金针·影",nClass=2,nIcon=13,nTime=-1,szName="金针·影"}}},
 		},
 		[-19] = {
-			{col={255,255,0},dwID=34654,nIcon=6158,nLevel=1,nScrutinyType=1,szName="奖励物资",tCountdown={{key="沙盘运输",nClass=1,nFrame=0,nIcon=6158,nRefresh=9999999,nTime=10,szName="沙盘运输·已领取奖励"}}},
+			{col={255,255,0},dwID=34654,nIcon=6158,nLevel=1,nScrutinyType=1,szName="奖励物资",tCountdown={{key="沙盘运输",nClass=1,nFrame=0,nIcon=6158,nRefresh=176400,nTime=10,szName="沙盘运输·已领取奖励"}}},
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#FFFFFF00",nPriority=1}},col={255,255,255},dwID=9632,nLevel=1,nScrutinyType=2},
 			{{bBuffList=true,bScreenHead=true},aCataclysmBuff={{bScreenHead=true,col="#FFFFFFFF",colScreenHead="#FFFFFF",nColAlpha=255,nPriority=3}},col={255,255,255},dwID=9871,nIcon=7682,nLevel=1,nScrutinyType=2,szName="翅膀"},
 			{{bBuffList=true},col={255,255,0},dwID=9677,nIcon=2024,nLevel=1,nScrutinyType=1,szName="轰炸"},
@@ -6208,13 +6220,14 @@ return {
 			{aFocus={{nMaxDistance=60}},dwID=3254},
 		},
 		[-20] = {
+			{[17]={bCenterAlarm=true,bScreenHead=true},aFocus={{}},col={0,255,0},dwID=12133},
 			{[17]={bCenterAlarm=true,bScreenHead=true},aFocus={{szDisplay="粮仓宝堆"}},col={100,255,100},dwID=6971,szName="粮仓宝堆"},
 			{[17]={bCenterAlarm=true,bScreenHead=true},aFocus={{szDisplay="狼牙先锋首领·掉落"}},col={100,255,100},dwID=8418,szName="狼牙先锋首领掉落"},
 			{[17]={bScreenHead=true},aFocus={{nMaxDistance=60}},col={31,230,255},dwID=7010},
 			{[17]={bScreenHead=true},aFocus={{nMaxDistance=60}},col={255,120,31},dwID=7011},
 		},
 		[-19] = {
-			{aFocus={{nMaxDistance=30,szDisplay="奖励物资·沙盘运输"}},dwID=12156},
+			{aFocus={{nMaxDistance=6,szDisplay="奖励物资·沙盘运输"}},dwID=12156},
 			{[17]={bCenterAlarm=true,bScreenHead=true},aFocus={{szDisplay="物资堆·首领掉落"}},col={100,255,100},dwID=5626,szName="物资堆·首领掉落"},
 			{[17]={bCenterAlarm=true,bScreenHead=true},aFocus={{szDisplay="物资堆·助战掉落"}},col={100,255,100},dwID=7518,szName="物资堆·助战掉落"},
 			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="物资箱·复活点"}},col={100,255,100},dwID=5625,szName="物资箱·复活点"},
@@ -7184,7 +7197,7 @@ return {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,szDisplay="闻千瞬·争霸赛"}},col={0,255,0},dwID=103373,nFrame=47},
 		},
 		[-20] = {
-			{[3]={bScreenHead=true},aFocus={{}},col={255,255,255},dwID=138941,nFrame=47},
+			{[3]={bScreenHead=true},aFocus={{szDisplay="载具运输车·敌方",tRelation={bAll=false,bAlly=false,bEnemy=true}},{szDisplay="载具运输车·友方",tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={255,255,255},dwID=138941,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,tRelation={bAll=false,bAlly=true,bEnemy=false}}},dwID=36387,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,tRelation={bAll=false,bAlly=true,bEnemy=false}}},dwID=36388,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=10,tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={100,255,100},dwID=30537,nFrame=47},
@@ -10585,6 +10598,10 @@ return {
 			{szContent="正在为你寻找玩家，一分钟内对方将与你自动组队，请保持可组队状态。",tCountdown={{key="援助提示",nClass=14,nFrame=6,nIcon=13,nTime=60,szName="援助·保持可组队状态"}}},
 		},
 		[-20] = {
+			{szContent="你获得了500点威名、200点战阶。",tCountdown={{key="沙盘运输",nClass=14,nFrame=1,nIcon=13561,nRefresh=1,nTime="20,劫车堆·拾取物资·间隔剩余;30,劫车堆·可以拾取物资了",szName="劫车堆·拾取物资·间隔剩余"}}},
+			{szContent="你获得了0点威名、200点战阶。",tCountdown={{key="沙盘运输",nClass=14,nFrame=1,nIcon=13561,nRefresh=1,nTime="20,劫车堆·拾取物资·间隔剩余;30,劫车堆·可以拾取物资了",szName="劫车堆·拾取物资·间隔剩余"}}},
+			{[14]={bCenterAlarm=true},col={255,255,100},szContent="糟糕，护送不利，我们先撤了!",szNote="{$sender}·护送不利",szTarget="%"},
+			{[14]={bCenterAlarm=true},szContent="仅劫车方阵营可拾取",szNote="仅劫车方阵营可拾取",szTarget="%"},
 			{[14]={bCenterAlarm=true,bFullScreen=true,szVoice="ShiYongDaoJu"},col={255,50,255},szContent="万水千山总是情，买满货物行不行？",szNote="据点贸易·货物不足"},
 			{col={255,255,100},szContent="据点之战在即，为公平起见，侠士将在30秒后被传出本图，据点帮会25名拥有地图优先进入权的玩家将不会被传送出去。",szNote="据点攻防·场景清图",szTarget="%",tCountdown={{key="挂机检测",nClass=14,nFrame=4,nIcon=13,nRefresh=1,nTime="30,攻防清图·出图剩余;32,据点攻防·清图传出",szName="攻防清图·出图剩余"}}},
 			{[14]={bCenterAlarm=true},col={255,50,255},szContent="因侠士近来行为异常，逐鹿中原期间，禁止参与，你即将被传送到百溪！",szNote="据点攻防·禁止参与",tCountdown={{bHold=true,key="挂机检测",nClass=14,nFrame=2,nIcon=13,nTime=30,szName="据点攻防·禁止参与本场"}}},
@@ -12217,6 +12234,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791549133,
+		nTimeStamp = 1791559450,
 	},
 }
