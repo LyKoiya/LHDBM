@@ -119,6 +119,140 @@ local function dataMerge(tData, szType, MapID)
 	end
 end
 
+-- 解析团队面板规则
+function EncodeBuffRule(v, bNoBasic)
+	local a = {}
+	if not bNoBasic then
+		table.insert(a, v.dwID or v.szName)
+		if v.nLevel then
+			table.insert(a, 'lv' .. v.nLevel)
+		end
+	end
+	if v.nStackNum then
+		table.insert(a, 'sn' .. (v.szStackOp or '>=') .. v.nStackNum)
+	end
+	if v.bOnlyMe then
+		table.insert(a, 'me')
+	end
+	if v.bOnlyMine or v.bOnlySelf or v.bSelf then
+		table.insert(a, 'mine')
+	end
+	a = { table.concat(a, '|') }
+
+	if v.col then
+		local cols = { v.col }
+		if v.nColAlpha and v.col:sub(1, 1) ~= '#' then
+			table.insert(cols, v.nColAlpha)
+		end
+		table.insert(a, '[' .. table.concat(cols, '|') .. ']')
+	end
+	if not X.IsEmpty(v.szReminder) then
+		table.insert(a, '(' .. v.szReminder .. ')')
+	end
+	if v.nPriority then
+		table.insert(a, '#' .. v.nPriority)
+	end
+	if v.bAttention then
+		table.insert(a, '!!')
+	end
+	if v.bCaution then
+		table.insert(a, '!!!')
+	end
+	if v.bScreenHead then
+		if v.colScreenHead then
+			table.insert(a, '!!!!|[' .. v.colScreenHead .. ']')
+		else
+			table.insert(a, '!!!!')
+		end
+	end
+	if v.bDelete then
+		table.insert(a, '-')
+	end
+	return table.concat(a, ',')
+end
+
+-- 团队面板txt解析一行数据
+local function DecodeBuffRule(line)
+	line = X.TrimString(line)
+	if line ~= '' then
+		local tab = {}
+		local vals = X.split(line, ',')
+		for i, val in ipairs(vals) do
+			if i == 1 then
+				local vs = X.split(val, '|')
+				for j, v in ipairs(vs) do
+					v = X.TrimString(v)
+					if v ~= '' then
+						if j == 1 then
+							tab.dwID = tonumber(v)
+							if not tab.dwID then
+								tab.szName = v
+							end
+						elseif v == 'self' or v == 'mine' then
+							tab.bOnlyMine = true
+						elseif v:sub(1, 2) == 'lv' then
+							tab.nLevel = tonumber((v:sub(3)))
+						elseif v:sub(1, 2) == 'sn' then
+							if tonumber(v:sub(4, 4)) then
+								tab.szStackOp = v:sub(3, 3)
+								tab.nStackNum = tonumber((v:sub(4)))
+							else
+								tab.szStackOp = v:sub(3, 4)
+								tab.nStackNum = tonumber((v:sub(5)))
+							end
+						end
+					end
+				end
+			elseif val == '!!' then
+				tab.bAttention = true
+			elseif val == '!!!' then
+				tab.bCaution = true
+			elseif val == '!!!!' or val:sub(1, 5) == '!!!!|' then
+				tab.bScreenHead = true
+				local vs = X.split(val, '|')
+				for _, v in ipairs(vs) do
+					if v:sub(1, 1) == '[' and v:sub(-1, -1) == ']' then
+						tab.colScreenHead = v:sub(2, -2)
+					end
+				end
+			elseif val == '-' then
+				tab.bDelete = true
+			elseif val:sub(1, 1) == '#' then
+				tab.nPriority = tonumber((val:sub(2)))
+			elseif val:sub(1, 1) == '[' and val:sub(-1, -1) == ']' then
+				val = val:sub(2, -2)
+				if val:sub(1, 1) == '#' then
+					tab.col = val
+				else
+					local vs = X.split(val, '|')
+					tab.col = vs[1]
+					tab.nColAlpha = vs[2] and tonumber(vs[2])
+				end
+			elseif val:sub(1, 1) == '(' and val:sub(-1, -1) == ')' then
+				tab.szReminder = val:sub(2, -2)
+			end
+		end
+		if tab.dwID or tab.szName then
+			return tab
+		end
+	end
+end
+
+-- 团队气劲面板文档转传入DBM
+function teamBufftxt2DBM(szFilePath)
+	FILE.Cataclysm = FILE.Cataclysm or {}
+	local str =  X.ReadFile(szFilePath)
+	if str then
+		for k, v in ipairs(X.split(str, '\n')) do
+			local tData = DecodeBuffRule(v)
+			if tData then
+				local key = tData.dwID or tData.szName
+				FILE.Cataclysm[key] = tData
+			end
+		end
+	end
+end
+
 -- 清理不必要的团队气劲面板，用于秘境地图阻断通用数据，可实现秘境地图关闭头顶染色
 local function cleanCataclysmBuff(tData)
 	local retData = X.clone(tData)
