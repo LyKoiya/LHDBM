@@ -2396,8 +2396,8 @@ return {
 		[-20] = {
 			{szContent="沙盘载具运输活动已开启，浩气盟与恶人谷的运输车即将自各据点出发，详情见沙盘界面。\
 ",szNote="沙盘运输·正式开启",tCountdown={{key="沙盘运输",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="沙盘运输·正式开启"}}},
-			{bReg=true,szContent="([浩气恶人]+)([盟谷]+)(.-)据点的运输车在(.-)被劫持！",szNote="{$1}·[{$3}]运输车·在[{$4}]被劫",tCountdown={{key="{$3}·浩气大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·浩气大旗"},{key="{$3}·恶人大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·恶人大旗"},{key="{$3}·{$1}大旗",nClass=20,nIcon=13,nTime=-2,szName="{$3}·{$1}大旗"},{key="{$3}·浩气大旗",nClass=20,nFrame=3,nIcon=20116,nRefresh=1,nTime=30,szName="{$4}·恶人劫[{$3}]车"},{key="{$3}·恶人大旗",nClass=20,nFrame=7,nIcon=20125,nRefresh=1,nTime=30,szName="{$4}·浩气劫[{$3}]车"}}},
-			{bReg=true,szContent="([浩气恶人]+)([盟谷]+)(.-)据点的运输车已顺利抵达前线！感谢侠士们的护送！",szNote="{$1}·[{$3}]运输车·抵达",tCountdown={{key="{$3}·浩气大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·浩气大旗"},{key="{$3}·恶人大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·恶人大旗"},{key="{$3}·{$1}大旗",nClass=20,nIcon=13,nTime=-2,szName="{$3}·{$1}大旗"},{key="{$3}·浩气大旗",nClass=20,nFrame=7,nIcon=4543,nRefresh=1,nTime=10,szName="浩气·[{$3}]运输车·抵达"},{key="{$3}·恶人大旗",nClass=20,nFrame=3,nIcon=4544,nRefresh=1,nTime=10,szName="恶人·[{$3}]运输车·抵达"}}},
+			{bReg=true,szContent="([浩气恶人]+)([霉][巳])(.-)据点的运输车在(.-)被劫持！",szNote="{$1}·[{$3}]运输车·在[{$4}]被劫",tCountdown={{key="{$3}·浩气大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·浩气大旗"},{key="{$3}·恶人大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·恶人大旗"},{key="{$3}·{$1}大旗",nClass=20,nIcon=13,nTime=-2,szName="{$3}·{$1}大旗"},{key="{$3}·浩气大旗",nClass=20,nFrame=3,nIcon=20116,nRefresh=1,nTime=30,szName="{$4}·恶人劫[{$3}]车"},{key="{$3}·恶人大旗",nClass=20,nFrame=7,nIcon=20125,nRefresh=1,nTime=30,szName="{$4}·浩气劫[{$3}]车"}}},
+			{bReg=true,szContent="([浩气恶人]+)([霉][巳])(.-)据点的运输车已顺利抵达前线！感谢侠士们的护送！",szNote="{$1}·[{$3}]运输车·抵达",tCountdown={{key="{$3}·浩气大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·浩气大旗"},{key="{$3}·恶人大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·恶人大旗"},{key="{$3}·{$1}大旗",nClass=20,nIcon=13,nTime=-2,szName="{$3}·{$1}大旗"},{key="{$3}·浩气大旗",nClass=20,nFrame=7,nIcon=4543,nRefresh=1,nTime=10,szName="浩气·[{$3}]运输车·抵达"},{key="{$3}·恶人大旗",nClass=20,nFrame=3,nIcon=4544,nRefresh=1,nTime=10,szName="恶人·[{$3}]运输车·抵达"}}},
 			{bReg=true,col={255,255,100},szContent="^江湖快报！(.-)据点粮仓被一群([浩气恶人]+)[盟谷]-人士洗劫",szNote="{$1}·{$2}劫粮",tCountdown={{key="{$1}·浩气劫粮",nClass=20,nFrame=-1,nIcon=2397,nRefresh=2,nTime=-1,szName="{$1}·浩气劫粮"},{key="{$1}·恶人劫粮",nClass=20,nFrame=-1,nIcon=2398,nRefresh=2,nTime=-1,szName="{$1}·恶人劫粮"},{key="{$1}·{$2}劫粮",nClass=20,nFrame=7,nIcon=2400,nTime=-2,szName="{$1}·{$2}劫粮"},{key="{$1}·浩气劫粮",nClass=20,nFrame=7,nIcon=10449,nRefresh=1,nTime=30,szName="【{$1}】浩气劫粮"},{key="{$1}·恶人劫粮",nClass=20,nFrame=3,nIcon=10450,nRefresh=1,nTime=30,szName="【{$1}】恶人劫粮"}}},
 		},
 		[-19] = {
@@ -12235,6 +12235,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791604639,
+		nTimeStamp = 1791633364,
 	},
 }
