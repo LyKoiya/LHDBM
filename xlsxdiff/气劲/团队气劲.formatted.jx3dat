@@ -808,8 +808,8 @@ return {
 			{{bBuffList=true,bOnlySelfSrc=false,bTeamPanel=false},col={0,255,255},dwID=9981,nLevel=1,nScrutinyType=2,szName="Çï·ç",szNote="Çï·çÉ¢Ó°"},
 			{{bBuffList=true,bOnlySelfSrc=false,bTeamPanel=false},col={0,255,255},dwID=10005,nLevel=1,nScrutinyType=2,szNote="´ßº®"},
 			{{bBuffList=true,bOnlySelfSrc=false,bTeamPanel=false},col={0,255,255},dwID=12529,nLevel=1,nScrutinyType=2,szNote="Ç§ÇïÍò½Ù"},
-			{{bBuffList=true,bOnlySelfSrc=false,bTeamPanel=false},col={0,255,255},dwID=24383,nIcon=16604,nLevel=1,nScrutinyType=2,szName="1¹î¼ø",szNote="¹î¼øÄâÌ¬ÏÝÚå¼ÇÂ¼1",tKungFu={["SKILL#10225"]=true}},
-			{{bBuffList=true,bOnlySelfSrc=false,bTeamPanel=false},col={0,255,255},dwID=24384,nIcon=18302,nLevel=1,nScrutinyType=2,szName="2¹î¼ø",szNote="¹î¼øÄâÌ¬ÏÝÚå¼ÇÂ¼2",tKungFu={["SKILL#10225"]=true}},
+			{{bBuffList=true,bOnlySelfSrc=false,bTeamPanel=true},col={0,255,255},dwID=24383,nIcon=16604,nLevel=1,nScrutinyType=2,szName="1¹î¼ø",szNote="¹î¼øÄâÌ¬ÏÝÚå¼ÇÂ¼1",tKungFu={["SKILL#10225"]=true}},
+			{{bBuffList=true,bOnlySelfSrc=false,bTeamPanel=true},col={0,255,255},dwID=24384,nIcon=18302,nLevel=1,nScrutinyType=2,szName="2¹î¼ø",szNote="¹î¼øÄâÌ¬ÏÝÚå¼ÇÂ¼2",tKungFu={["SKILL#10225"]=true}},
 			{{bBuffList=true,bOnlySelfSrc=false,bTeamPanel=false},col={255,0,85},dwID=24391,nIcon=7507,nLevel=1,nScrutinyType=2,szName="¹î¼øCD",szNote="¹î¼øÚ¤Î¢CD",tKungFu={["SKILL#10225"]=true}},
 			{{bBuffList=true,bOnlySelfSrc=false,bTeamPanel=false},col={0,255,255},dwID=24455,nLevel=1,nScrutinyType=2,szNote="×¢ÄÜ"},
 			{{bBuffList=true,bOnlySelfSrc=false,bTeamPanel=false},col={0,255,255},dwID=24456,nLevel=1,nScrutinyType=2,szNote="×¢ÄÜÒÑÂú"},
@@ -2210,6 +2210,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791650369,
+		nTimeStamp = 1791650594,
 	},
 }
