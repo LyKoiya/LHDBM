@@ -3,6 +3,8 @@
 
 ## 荷花鲤团队监控 - 2026-10-10
 * [程序] 修复bTeamPanel指令参数错误
+* [程序] 修复bTeamPanel、bFullScreen指令缺少标号
+* [程序] 增加bScreenHead1、bVoiceOfficial1、bVoiceOfficial2指令
 
 ## 荷花鲤团队监控 - 2026-10-10
 * [联动] 补充凡人修仙传联动红尘不渡奇遇焦点
