@@ -3,7 +3,7 @@ return {
 	CASTING = {},
 	CHAT = {
 		[-7] = {
-			{[20]={bCenterAlarm=true},bReg=true,col={255,50,50},szContent="(.-)已经添加(.-)为(.-)，将在(%d-)秒后对(.-)开启(.-)战斗。",szNote="{$1}·添加·{$2}·{$3}",tCountdown={{key="仇敌事件",nClass=20,nFrame=8,nIcon=20116,nTime=10,szName="{$1}·添加·{$2}·{$3}"}}},
+			{[20]={bCenterAlarm=true},bReg=true,col={255,50,50},szContent="(.-)已经添加(.-)为(.-)，将在(%d-)秒后对(.-)开启(.-)战斗。",szNote="{$1}·添加·{$2}·{$3}",tCountdown={{key="仇敌事件",nClass=20,nFrame=8,nIcon=13432,nTime=10,szName="{$1}·添加·{$2}·{$3}"}}},
 			{szContent="你的武斗值增加了30点。\
 ",szNote="武斗值·增加·30点"},
 			{szContent="你的武斗值增加了20点。\
@@ -24,7 +24,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791190289,
+		nTimeStamp = 1791634477,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
