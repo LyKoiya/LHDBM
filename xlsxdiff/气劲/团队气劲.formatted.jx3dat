@@ -501,7 +501,7 @@ return {
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#B3EE3AFF",colScreenHead="#B3EE3A",nColAlpha=255,nPriority=18,szReminder="锻"}},col={179,238,58},dwID=70674,nIcon=100539,nLevel=1,nScrutinyType=2,szNote="锻骨诀"},
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#00FFFFFF",nColAlpha=255,nPriority=38,szReminder="相"}},col={0,255,255},dwID=70875,nIcon=101774,nLevel=1,nScrutinyType=2,szNote="无相诀"},
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#00FF00FF",nColAlpha=255,nPriority=23,nStackNum=2,szReminder="减",szStackOp=">="}},col={0,255,0},dwID=70872,nCount=2,nLevel=1,nScrutinyType=2,szName="减伤·归去来棍",szNote="归去来棍"},
-			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#FFCC00FF",nColAlpha=255,nPriority=3,szReminder="笼"}},col={255,204,0},dwID=9933,nLevel=1,nScrutinyType=2,szName="免死·笼花",szNote="笼花",tCountdown={{key="折叶笼花·{$sender}",nClass=1,nFrame=0,nIcon=16602,nTime=12,szName="折叶笼花→{$receiver}"}}},
+			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{col="#FFCC00FF",nColAlpha=255,nPriority=3,szReminder="笼"}},col={255,204,0},dwID=9933,nLevel=1,nScrutinyType=2,szName="免死·笼花",szNote="笼花",tCountdown={{key="折叶笼花·{$sender}",nClass=1,nFrame=0,nIcon=16602,nTime=12,szName="折叶笼花→{$receiver}"}}},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bAttention=true,bScreenHead=true,col="#FFCC00FF",colScreenHead="#FFCC00",nColAlpha=255,nPriority=3,szReminder="御"}},col={255,204,0},dwID=31672,nLevel=1,nScrutinyType=2,szName="无敌·笼花",szNote="笼花·御",tCountdown={{key="折叶笼花·{$sender}",nClass=1,nFrame=0,nIcon=18426,nTime=3,szName="笼花·御→{$receiver}"}}},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bAttention=true,bScreenHead=true,col="#FFCC00FF",colScreenHead="#FFCC00",nColAlpha=255,nPriority=3,szReminder="南"}},col={255,204,0},dwID=9934,nLevel=1,nScrutinyType=2,szName="无敌·南风",szNote="南风吐月",tCountdown={{key="南风吐月·{$sender}",nClass=1,nFrame=0,nIcon=7510,nTime=8,szName="南风吐月→{$receiver}"}}},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#FFCC00FF",colScreenHead="#FFCC00",nColAlpha=255,nPriority=3,szReminder="大"}},col={255,204,0},dwID=17894,nLevel=1,nScrutinyType=2,szNote="大针",tCountdown={{key="大针·{$sender}",nClass=1,nFrame=0,nIcon=14148,nTime=6,szName="大针→{$receiver}"}}},
@@ -2210,6 +2210,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791652383,
+		nTimeStamp = 1791655090,
 	},
 }
