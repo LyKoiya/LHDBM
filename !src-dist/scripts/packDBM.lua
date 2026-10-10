@@ -325,14 +325,14 @@ local function buffRuleCMD(tData, szRule, tCmd)
 				tData[1].bWhisperChannel = true
 			elseif k == 'bWhisperChannel2' then
 				tData[2].bWhisperChannel = true
-			elseif k == 'bTeamPanel' then
+			elseif k == 'bTeamPanel1' then
 				tData[1].bTeamPanel = true
 				if tonumber(v) >= 1 then
 					tData[1].bOnlySelfSrc = true
 				else
 					tData[1].bOnlySelfSrc = false
 				end
-			elseif k == 'bFullScreen' then
+			elseif k == 'bFullScreen1' then
 				tData[1].bFullScreen = true
 			elseif k == 'col' then
 				local aCol = X.str2var('{' .. v .. '}')
@@ -347,6 +347,12 @@ local function buffRuleCMD(tData, szRule, tCmd)
 				if #aMark >= 1 then
 					tData.tMark = aMark
 				end
+			elseif k == 'bScreenHead1' then
+				tData[1].bScreenHead = true
+			elseif k == 'bVoiceOfficial1' then
+				tData[1].bVoiceOfficial = true
+			elseif k == 'bVoiceOfficial2' then
+				tData[2].bVoiceOfficial = true
 			elseif k == 'reservedEx' then
 				local tReservedEx = X.str2var('{' .. v .. '}')
 				for kk, vv in pairs(tReservedEx) do
@@ -372,7 +378,7 @@ local function buffRule(tData, szRule, bCanCancel)
 
 	for _, v in pairs(tCmd.aMapID) do
 		dataMerge(tData, bCanCancel and 'BUFF' or 'DEBUFF', tonumber(v))
-		if v == -1 and tData[1].bScreenHead then -- 通用地图且开启头顶警报，需要考虑秘境地图屏蔽头顶染色
+		if v == -1 and (tData[1].bScreenHead or (tData.aCataclysmBuff and tData.aCataclysmBuff[1] and tData.aCataclysmBuff[1].bScreenHead)) then -- 通用地图且开启头顶警报，需要考虑秘境地图屏蔽头顶染色
 			if bCanCancel then
 				-- 有利气劲，默认屏蔽, 但是Reshield强制不屏蔽
 				if not tCmd.Reshield then
