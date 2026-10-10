@@ -7018,6 +7018,7 @@ return {
 			{aFocus={{nMaxDistance=6,szDisplay="座椅·屏蔽"}},dwID=10119},
 		},
 		[642] = {
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=10,szDisplay="煮药台·红尘不渡"}},col={0,255,255},dwID=12126},
 			{aFocus={{nMaxDistance=30}},dwID=11994},
 			{aFocus={{nMaxDistance=30}},dwID=11995},
 			{aFocus={{nMaxDistance=6,szDisplay="光圈·沙棘果·解心语"}},dwID=10399,szName="沙棘果·解心语"},
@@ -12234,6 +12235,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791559450,
+		nTimeStamp = 1791604639,
 	},
 }

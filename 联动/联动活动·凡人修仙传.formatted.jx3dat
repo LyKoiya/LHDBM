@@ -7,6 +7,7 @@ return {
 		[642] = {
 			{aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11995,szNote="渡厄问心·百灵芝"},
 			{aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11994,szNote="渡厄问心·青蕴灵草"},
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=10,szDisplay="煮药台·红尘不渡",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=12126,szNote="渡厄问心·煮药台"},
 		},
 	},
 	NPC = {
@@ -21,7 +22,7 @@ return {
 	},
 	TALK = {},
 	__meta = {
-		nTimeStamp = 1791190289,
+		nTimeStamp = 1791604650,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
