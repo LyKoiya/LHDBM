@@ -328,9 +328,9 @@ local function buffRuleCMD(tData, szRule, tCmd)
 			elseif k == 'bTeamPanel' then
 				tData[1].bTeamPanel = true
 				if tonumber(v) >= 1 then
-					tData[1].bTeamPanel = true
+					tData[1].bOnlySelfSrc = true
 				else
-					tData[1].bTeamPanel = false
+					tData[1].bOnlySelfSrc = false
 				end
 			elseif k == 'bFullScreen' then
 				tData[1].bFullScreen = true
