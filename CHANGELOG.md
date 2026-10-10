@@ -1,7 +1,7 @@
 # 更新日志
 记录剑侠情缘网络版叁茗伊插件集荷花鲤团队监控数据修改日志
 
-## 荷花鲤团队监控 - 2026-10-10
+## 荷花鲤团队监控 - 2026-10-11
 * [程序] 修复bTeamPanel指令参数错误
 * [程序] 修复bTeamPanel、bFullScreen指令缺少标号
 * [程序] 增加bScreenHead1、bVoiceOfficial1、bVoiceOfficial2指令
