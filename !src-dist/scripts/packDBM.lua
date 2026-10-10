@@ -448,7 +448,7 @@ local function teamBuff2str(aLine)
 	if aLine[14]:sub(1, 2) == '[#'  then
 		tTeamBuff.colScreenHead = aLine[14]
 	end
-	if aLine[18] == '-'  then
+	if aLine[16] == '-'  then
 		tTeamBuff.bDelete = true
 	end
 
@@ -507,7 +507,7 @@ function decodeBuff(szLine)
 	if not aline then
 		return
 	end
-	if #aline < 18 or aline[18] == '-' or aline[2] == '' or (tonumber(aline[2]) or 0) <= 0 then
+	if #aline < 18 or aline[16] == '-' or aline[2] == '' or (tonumber(aline[2]) or 0) <= 0 then
 		teamBuff2str(aline)
 		return
 	end
