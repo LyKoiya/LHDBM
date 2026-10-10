@@ -5,6 +5,8 @@
 * [程序] 修复bTeamPanel指令参数错误
 * [程序] 修复bTeamPanel、bFullScreen指令缺少标号
 * [程序] 增加bScreenHead1、bVoiceOfficial1、bVoiceOfficial2指令
+* [程序] 增加指令说明md文档
+* [程序] 调整隐藏列位置，第18列调至第16列
 
 ## 荷花鲤团队监控 - 2026-10-10
 * [联动] 补充凡人修仙传联动红尘不渡奇遇焦点
