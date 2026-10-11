@@ -6,7 +6,7 @@ return {
 	},
 	CASTING = {
 		[-1] = {
-			{[8]={bCenterAlarm=true,bScreenHead=true,szVoice="HouTiao_P"},col={255,50,50},dwID=7381,nLevel=1,nScrutinyType=3,szNote="清明节·醉猿",tCountdown={{key="清明节·醉猿",nClass=8,nFrame=3,nIcon=13,nRefresh=0,nTime="4.2,泰山压顶·准备后跳;5,泰山压顶·快后跳;15,泰山压顶·安全时间;39,泰山压顶·随时触发",szName=""}}},
+			{[8]={bCenterAlarm=true,bScreenHead=true,szVoice="HouTiao_P"},col={255,50,50},dwID=7381,nLevel=1,nScrutinyType=3,szNote="清明节·醉猿",tCountdown={{key="招式提示1",nClass=8,nFrame=3,nIcon=13,nRefresh=0,nTime="4.2,泰山压顶·准备后跳;5,泰山压顶·快后跳;15,泰山压顶·安全时间;39,泰山压顶·随时触发",szName="泰山压顶"}}},
 		},
 	},
 	CHAT = {
@@ -64,7 +64,7 @@ return {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,50},dwID=56188,nFrame=67,szNote="清明节·暴躁的魂灵"},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,50},dwID=56187,nFrame=67,szNote="清明节·精魅"},
 			{aFocus={{nMaxDistance=90,szDisplay="灵魂隐藏处",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=56209,nFrame=47,szName="灵魂隐藏处",szNote="清明节·灵魂隐藏处"},
-			{[3]={bCenterAlarm=true,bScreenHead=true,tMark={false,false,false,false,false,false,false,false,true,false}},aFocus={{nMaxDistance=90,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,50},dwID=11734,nFrame=50,szNote="清明节·醉猿",tCountdown={{key="清明节·醉猿",nClass=4,nIcon=13,nTime=0,szName="清明节·醉猿"}}},
+			{[3]={bCenterAlarm=true,bScreenHead=true,tMark={false,false,false,false,false,false,false,false,true,false}},aFocus={{nMaxDistance=90,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,50},dwID=11734,nFrame=50,szNote="清明节·醉猿",tCountdown={{key="招式提示1",nClass=4,nIcon=13,nTime=0,szName="招式提示1"}}},
 			{aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=12254,nFrame=52,szNote="清明节·醉猿的酒坛"},
 		},
 		[108] = {
@@ -105,7 +105,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791190289,
+		nTimeStamp = 1791739642,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
