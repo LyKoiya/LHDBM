@@ -1,6 +1,12 @@
 return {
 	BUFF = {},
-	CASTING = {},
+	CASTING = {
+		[21] = {
+			{dwID=16877,nLevel=1,nScrutinyType=4,szNote="御兽·冰域咆哮",tCountdown={{key="招式提示1",nClass=8,nIcon=13,nTime=2,szName="冰域咆哮·恐惧·退20尺"}}},
+			{dwID=16876,nLevel=1,nScrutinyType=4,szNote="御兽·山崩地裂",tCountdown={{key="招式提示1",nClass=8,nIcon=13,nTime=2,szName="山崩地裂·减速·退10尺"}}},
+			{dwID=16878,nLevel=1,nScrutinyType=4,szNote="御兽·横扫天地",tCountdown={{key="招式提示1",nClass=8,nIcon=13,nTime=2,szName="横扫天地·推·退8尺"}}},
+		},
+	},
 	CHAT = {
 		[-21] = {
 			{[20]={bCenterAlarm=true},szContent="您的宠物已消除忧虑，变得活泼欢快。\
@@ -29,14 +35,14 @@ return {
 			{{bBuffList=true},col={255,255,0},dwID=4408,nIcon=6124,nLevel=1,nScrutinyType=1,szName="召宠",szNote="张岩召唤宠物CD"},
 		},
 		[21] = {
-			{{bBuffList=true},col={0,255,255},dwID=11326,nLevel=1,szNote="御兽·安宁"},
-			{{bBuffList=true},dwID=11286,nLevel=1,szNote="御兽·呆若木鸡"},
-			{{bBuffList=true},dwID=11284,nLevel=1,szNote="御兽·颤抖"},
+			{{bBuffList=true,bScreenHead=true},col={0,255,255},dwID=11326,nLevel=1,szNote="御兽·安宁"},
+			{{bBuffList=true,bScreenHead=true},col={255,255,0},dwID=11286,nLevel=1,szName="定身",szNote="御兽·呆若木鸡"},
+			{{bBuffList=true},col={31,63,255},dwID=11284,nLevel=1,szName="减速",szNote="御兽·颤抖"},
 			{{bBuffList=true},dwID=11287,nLevel=1,szNote="御兽·畏惧"},
-			{{bBuffList=true},dwID=11285,nLevel=1,szNote="御兽·恐惧"},
-			{{bBuffList=true},dwID=11487,nLevel=1,szNote="御兽·威势"},
-			{{bBuffList=true},dwID=11491,nLevel=1,szNote="御兽·邪王领域"},
-			{{bBuffList=true},col={255,255,0},dwID=11488,nLevel=1,szNote="御兽·邪王领域"},
+			{{bBuffList=true,bScreenHead=true},col={255,0,85},dwID=11285,nLevel=1,szNote="御兽·恐惧"},
+			{{bBuffList=true},dwID=11487,nLevel=1,szName="流血",szNote="御兽·威势"},
+			{{bBuffList=true},col={255,255,0},dwID=11491,nLevel=1,nScrutinyType=1,szName="降伤害",szNote="御兽·邪王领域"},
+			{{bBuffList=true},col={255,255,0},dwID=11488,nLevel=1,szName="免选中",szNote="御兽·邪王领域"},
 		},
 	},
 	DOODAD = {
@@ -48,18 +54,21 @@ return {
 		[21] = {
 			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{}},col={255,50,50},dwID=53526,nFrame=50,szNote="御兽·冰域邪王虎"},
 		},
+		[100] = {
+			{aFocus={{nMaxDistance=0,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}},{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=8532,nFrame=50,szNote="成就·七星问道·灵犀"},
+		},
 	},
 	TALK = {
 		[21] = {
-			{szContent="诸位侠士，请住手，此间或许有些误会。",szTarget="秦玉川",tCountdown={{key="御兽挑战",nClass=14,nFrame=1,nIcon=13,nTime=63,szName="巴陵·御兽挑战·剧情剩余"}}},
-			{szContent="还请各位侠士宽限一二，待我查明真相，必会给各位侠士一个交代。些许礼物赠予众侠士，聊表歉意，还望众位笑纳。",szNote="御兽挑战·奖励出现",szTarget="秦玉川",tCountdown={{key="御兽挑战",nClass=14,nFrame=1,nIcon=13,nTime=30,szName="巴陵·御兽挑战·奖励"}}},
+			{szContent="诸位侠士，请住手，此间或许有些误会。",szTarget="秦玉川",tCountdown={{key="御兽挑战",nClass=14,nFrame=4,nIcon=13,nTime=63,szName="巴陵·御兽挑战·剧情剩余"}}},
+			{szContent="还请各位侠士宽限一二，待我查明真相，必会给各位侠士一个交代。些许礼物赠予众侠士，聊表歉意，还望众位笑纳。",szNote="御兽挑战·奖励出现",szTarget="秦玉川",tCountdown={{key="御兽挑战",nClass=14,nFrame=0,nIcon=13,nRefresh=1,nTime="6,巴陵·御兽挑战·等待宝箱;30,巴陵·御兽挑战·宝箱出现",szName="巴陵·御兽挑战·奖励"}}},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791190289,
+		nTimeStamp = 1791739693,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
-		szEdition = "zhcn_hd",
+		szEdition = "zhcn_exp",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
 		szServer = "唯我独尊",
 	},
