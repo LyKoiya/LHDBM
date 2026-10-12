@@ -50,6 +50,8 @@ return {
 		},
 		[806] = {
 			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{nMaxDistance=0,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=47408,nFrame=47,szNote="帮会跑商·散落的货物"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,szDisplay="谷艾·陕州商路·主簿",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={255,120,31},dwID=138842,nFrame=47,szNote="帮会跑商·恶人·王登"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,szDisplay="宋涛·陕州商路·主簿",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={31,230,255},dwID=138843,nFrame=47,szNote="帮会跑商·浩气·谢记"},
 		},
 	},
 	TALK = {
@@ -75,7 +77,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791260717,
+		nTimeStamp = 1791821766,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_exp",
