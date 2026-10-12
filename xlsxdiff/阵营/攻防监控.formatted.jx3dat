@@ -33,6 +33,9 @@ return {
 		},
 	},
 	CASTING = {
+		[-20] = {
+			{dwID=8823,nLevel=1,nScrutinyType=4,szNote="御城·抛掷",tCountdown={{key="招式提示1",nClass=9,nFrame=5,nIcon=13,nRefresh=2,nTime="2,御城·抛掷;4.5,抛掷·眩晕;15,御城·抛掷·下一个",szName="御城·抛掷·下一个"}}},
+		},
 		[-19] = {
 			{[8]={bScreenHead=true},dwID=7242,nLevel=1,szNote="屹立不倒",tCountdown={{key="屹立不倒",nClass=8,nFrame=0,nIcon=1537,nRefresh=0,nTime="1,屹立不倒·{$sender}·正在释放;9.5,屹立不倒·{$sender}·50减伤;32.5,屹立不倒·{$sender}·释放剩余;40.5,屹立不倒·{$sender}·延迟释放;50,屹立不倒·{$sender}·随时释放",szName="屹立不倒"},{key="屹立不倒",nClass=9,nFrame=0,nIcon=1537,nRefresh=5,nTime="9,屹立不倒·{$sender}·50减伤;31.5,屹立不倒·{$sender}·释放剩余;40,屹立不倒·{$sender}·延迟释放;50,屹立不倒·{$sender}·随时释放",szName="屹立不倒"}}},
 		},
@@ -1035,6 +1038,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791740138,
+		nTimeStamp = 1791821815,
 	},
 }
