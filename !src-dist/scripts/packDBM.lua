@@ -403,7 +403,7 @@ local function teamBuff2str(aLine)
 		local szTitle = string.sub(aLine[3],1,2)
 		
 		if szTitle == '==' or szTitle == '¡ª¡ª' then
-			table.insert(teamBuff, aLine[3] .. '\n')
+			table.insert(teamBuff, aLine[3])
 			return aLine[3]
 		else
 			tTeamBuff.szName = aLine[3]
@@ -492,7 +492,7 @@ local function teamBuff2str(aLine)
 			table.insert(aTeamBuff,',-')
 		end
 		local str = table.concat(aTeamBuff)
-		table.insert(teamBuff, str .. '\n')
+		table.insert(teamBuff, str)
 		return str
 	end
 
@@ -754,7 +754,7 @@ end
 
 -- ±£´æteamBuffÎªtxt
 function teamBuffSave(szSavePath)
-	local str = table.concat(teamBuff)
+	local str = table.concat(teamBuff, '\n')
 	X.WriteFile(szSavePath, str)
 end
 
