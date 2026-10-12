@@ -8,9 +8,13 @@ return {
 			{szContent="司徒一一的机甲巨豕出现啦，它威力无比，将破坏赏花大会的菊花花圃，侠士们速去成都将它赶跑！\
 ",tCountdown={{key="通用事件",nClass=20,nFrame=6,nIcon=88,nTime=20,szName="成都·机甲巨豕"}}},
 		},
+		[7] = {
+			{szContent="你已接受了[慰问老人·沁芳济小龟]。\
+",szNote="使用·道具·[沁芳丸]",tCountdown={{key="任务提示1",nClass=20,nFrame=0,nIcon=13,nRefresh=2,nTime=10,szName="使用·道具·[沁芳丸]"}}},
+		},
 		[150] = {
 			{[20]={bCenterAlarm=true},szContent="你已接受了[慰问老人·遗失的宝物]。\
-",szNote="寻找·明教·罐子",tCountdown={{key="任务提示1",nClass=20,nFrame=0,nIcon=13,nRefresh=2,nTime=30,szName="寻找·明教·罐子"}}},
+",szNote="寻找·明教·罐子",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nRefresh=2,nTime=30,szName="寻找·明教·罐子"}}},
 		},
 	},
 	DEBUFF = {},
@@ -18,13 +22,16 @@ return {
 		[-2] = {
 			{[17]={bCenterAlarm=true,bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="神秘的宝箱·重阳节",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=4847,szNote="重阳节·神秘的宝箱"},
 		},
+		[2] = {
+			{aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=4819,szNote="菊花盆栽"},
+		},
 		[158] = {
-			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="小香炉·上香",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=4817,szNote="重阳节·小香炉"},
-			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="念祭文",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=4818,szNote="重阳节·祭文"},
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=4817,szNote="重阳节·小香炉"},
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=4818,szNote="重阳节·祭文"},
 		},
 		[217] = {
-			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="小香炉·上香",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=4817,szNote="重阳节·小香炉"},
-			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="念祭文",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=4818,szNote="重阳节·祭文"},
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=4817,szNote="重阳节·小香炉"},
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=4818,szNote="重阳节·祭文"},
 		},
 	},
 	NPC = {
@@ -33,17 +40,28 @@ return {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=3,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=113588,nFrame=52,szNote="重阳节·重阳货品"},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=37149,nFrame=47,szNote="重阳节·白馨"},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=37356,nFrame=47,szNote="重阳节·风筱孑"},
+			{aFocus={{nMaxDistance=6,szDisplay="邱小沁·重阳节",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=37144,nFrame=47,szNote="重阳节·邱小沁"},
+			{aFocus={{nMaxDistance=6,szDisplay="小琥·重阳节",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=37145,nFrame=47,szNote="重阳节·小琥"},
+			{aFocus={{nMaxDistance=6,szDisplay="瞿婉清·重阳节",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=37147,nFrame=47,szNote="重阳节·瞿婉清"},
 		},
 		[2] = {
-			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=37165,nFrame=47,szNote="机甲人"},
-			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=37148,nFrame=47,szNote="刘愈"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=37165,nFrame=47,szNote="重阳节·机甲人"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,szDisplay="刘愈·重阳节",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=37148,nFrame=47,szNote="重阳节·刘愈"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,szDisplay="郑米羔·重阳节",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=139075,nFrame=47,szNote="重阳节·郑米羔"},
+		},
+		[7] = {
+			{aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=753,nFrame=47,szNote="重阳节·山石道人"},
+		},
+		[16] = {
+			{aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=2616,nFrame=47,szNote="重阳节·孙婆婆"},
 		},
 		[122] = {
-			{aFocus={{nMaxDistance=20,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=15236,nFrame=50,szNote="熊猫·重阳节"},
+			{aFocus={{nMaxDistance=20,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=15236,nFrame=50,szNote="重阳节·熊猫"},
 			{aFocus={{nMaxDistance=20,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=15212,nFrame=50,szNote="熊猫·重阳节"},
 		},
 		[150] = {
 			{aFocus={{nMaxDistance=60,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=19433,nFrame=52,szNote="罐子"},
+			{aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=19254,nFrame=47,szNote="重阳节·热合曼"},
 		},
 	},
 	TALK = {
@@ -52,7 +70,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791190289,
+		nTimeStamp = 1791800612,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
