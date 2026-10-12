@@ -391,6 +391,12 @@ lua.luaopen_table.restype = ctypes.c_int
 # ==================== LUA 常量 ====================
 LUA_GLOBALSINDEX = -10002
 LUA_REGISTRYINDEX = -10000
+LUA_OK       = 0
+LUA_MULTRET  = -1
+LUA_TNIL     = 0
+LUA_TBOOLEAN = 1
+LUA_TNUMBER  = 3
+LUA_TSTRING  = 4
 
 # ==================== Python 封装类 ====================
 class LuaState:
@@ -421,13 +427,53 @@ class LuaState:
         """保护调用 Lua 函数"""
         return lua.lua_pcall(self.state, nargs, nresults, errfunc)
     
+    def xpcall(self, fname: str, *args, nresults: int = LUA_MULTRET, errfunc: int = 0):
+        """扩展保护调用 Lua 函数"""
+        base = self.gettop()
+        self.getglobal(fname)
+        for a in args:
+            self.push(a)
+
+        if self.pcall(len(args), nresults, errfunc) != 0:
+            results = self.tostring(-1)
+            self.settop(base)
+            raise RuntimeError(f"Lua error in '{fname}': {results}")
+        else:
+            nret = self.gettop() - base
+            results = tuple(self.tovalue(-nret + i) for i in range(nret))
+            self.settop(base)              # 恢复栈（也可不清，看设计）
+            if nret == 0:
+                return None
+            return results[0] if nret == 1 else results
+            
     def call(self, nargs: int = 0, nresults: int = 0):
         """直接调用 Lua 函数（不保护）"""
         lua.lua_call(self.state, nargs, nresults)
-    
-    def pushstring(self, s: str):
+
+    def push(self, value):
+        """通用压栈"""
+        if value is None:
+            self.pushnil()
+        elif isinstance(value, bool):
+            self.pushboolean(1 if value else 0)
+        elif isinstance(value, int):
+            self.pushinteger(value)
+        elif isinstance(value, float):
+            self.pushnumber(value)
+        elif isinstance(value, str):
+            self.pushstringA(value)
+        elif isinstance(value, bytes):
+            self.pushlstringA(value)
+        else:
+            raise TypeError(f"不支持的类型: {type(value)}")
+        
+    def pushstringA(self, s: str):
         """推送字符串到栈"""
-        lua.lua_pushstring(self.state, s.encode("gbk") + b"\0")
+        lua.lua_pushstring(self.state, s.encode("gbk"))
+
+    def pushstringW(self, s: str):
+        """推送字符串到栈"""
+        lua.lua_pushstring(self.state, s.encode("utf-8"))
 
     def pushlstringA(self, s: str):
         """显式推送gbk字符串到栈"""
@@ -480,8 +526,19 @@ class LuaState:
     def pop(self, n: int) -> None:
         """从栈顶弹出 n 个元素"""
         lua.lua_settop(self.state, -n - 1)
-
-    def tostring(self, idx: int) -> str:
+    def tovalue(self, idx=-1):
+        """通用将栈上的值转换为值"""
+        t = self.type(idx)
+        if t == LUA_TNIL:     return None
+        if t == LUA_TBOOLEAN: return bool(self.toboolean(idx))
+        if t == LUA_TNUMBER:  
+            v = self.tonumber(idx)
+            return int(v) if v.is_integer() else v
+        if t == LUA_TSTRING:
+            return self.tostring(idx)
+        return None   # table/function/userdata 暂不支持
+    
+    def tostring(self, idx: int=-1) -> str:
         """将栈上的值转换为字符串"""
         result = lua.lua_tolstring(self.state, idx, None)
         return result.decode('gbk') if result else None
@@ -515,6 +572,8 @@ class LuaState:
         if self.loadfile(filename) != 0:
             return False
         return self.pcall(0, 0, 0) == 0
+    def type(self, idx: int) -> int:
+        return lua.lua_type(self.state, idx)
 
     def close(self):
         """关闭 Lua 状态机"""
