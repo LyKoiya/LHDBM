@@ -3629,6 +3629,8 @@ return {
 ",tCountdown={{key="节日活动1",nClass=20,nIcon=13,nTime=10,szName="还魂·前往·苍云堡"}}},
 			{szContent="你已接受了[寒郊辨痕]。\
 ",szNote="需要切换·输出心法",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="需要切换·输出心法"}}},
+			{szContent="你已接受了[寻镞证迹 ]。\
+",szNote="需要切换·输出心法",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="需要切换·输出心法"}}},
 			{szContent="奸臣所害矿药物资匮，黑云压城扬我苍云威！那奚人库莫率手下潜入苍云堡，众将士速到苍云堡门口集合，务必让这库莫有来无回！\
 ",tCountdown={{key="门派事件1",nClass=20,nFrame=0,nIcon=13,nTime=10,szName="苍云·门派事件·苍云堡"}}},
 			{szContent="奚人小儿妄图攻破东陉关，请众位侠士速速至东陉关集合，给那奚人小儿点颜色瞧瞧！\
@@ -7804,6 +7806,7 @@ return {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20}},col={0,255,0},dwID=139518,nFrame=47},
 			{aFocus={{nMaxDistance=30,szDisplay="杜甫·新春有缘人"}},dwID=2438,nFrame=47},
 			{aFocus={{nMaxDistance=10,szDisplay="白鹊·使用钥匙"}},dwID=126992,nFrame=47,szName="白鹊·天杀密钥"},
+			{aFocus={{nMaxDistance=60,tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=137708,nFrame=57},
 			{[3]={bScreenHead=true},aFocus={{szDisplay="白萍·除邪惩恶"}},col={255,50,50},dwID=2460,nFrame=57},
 			{aFocus={{nMaxDistance=40,szDisplay="申二·一念间"}},dwID=59327,nFrame=47},
 			{aFocus={{nMaxDistance=60,szDisplay="思兰·一念间"}},dwID=59325,nFrame=47},
@@ -12269,6 +12272,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791821887,
+		nTimeStamp = 1791836595,
 	},
 }
