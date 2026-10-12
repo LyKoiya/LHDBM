@@ -388,15 +388,44 @@ lua.luaopen_string.restype = ctypes.c_int
 lua.luaopen_table.argtypes = [lua_State]
 lua.luaopen_table.restype = ctypes.c_int
 
-# ==================== LUA 常量 ====================
-LUA_GLOBALSINDEX = -10002
-LUA_REGISTRYINDEX = -10000
-LUA_OK       = 0
-LUA_MULTRET  = -1
-LUA_TNIL     = 0
-LUA_TBOOLEAN = 1
-LUA_TNUMBER  = 3
-LUA_TSTRING  = 4
+# ==================== LUA5.1 常量 ====================
+# 线程状态码 (lua_pcall 返回值)
+LUA_OK        = 0
+LUA_YIELD     = 1
+LUA_ERRRUN    = 2
+LUA_ERRSYNTAX = 3
+LUA_ERRMEM    = 4
+LUA_ERRERR    = 5
+
+# 数据类型 (lua_type 返回值)
+LUA_TNONE          = -1
+LUA_TNIL           = 0
+LUA_TBOOLEAN       = 1
+LUA_TLIGHTUSERDATA = 2
+LUA_TNUMBER        = 3
+LUA_TSTRING        = 4
+LUA_TTABLE         = 5
+LUA_TFUNCTION      = 6
+LUA_TUSERDATA      = 7
+LUA_TTHREAD        = 8
+
+# 伪索引 (Pseudo-indices)
+LUA_REGISTRYINDEX  = -10000
+LUA_ENVIRONINDEX   = -10001
+LUA_GLOBALSINDEX   = -10002
+
+# 多返回值选项 (用于 lua_pcall)
+LUA_MULTRET = -1
+
+# GC 选项
+LUA_GCSTOP       = 0
+LUA_GCRESTART    = 1
+LUA_GCCOLLECT    = 2
+LUA_GCCOUNT      = 3
+LUA_GCCOUNTB     = 4
+LUA_GCSTEP       = 5
+LUA_GCSETPAUSE   = 6
+LUA_GCSETSTEPMUL = 7
 
 # ==================== Python 封装类 ====================
 class LuaState:
@@ -528,7 +557,7 @@ class LuaState:
         lua.lua_settop(self.state, -n - 1)
     def tovalue(self, idx=-1):
         """通用将栈上的值转换为值"""
-        t = self.type(idx)
+        t = self.totype(idx)
         if t == LUA_TNIL:     return None
         if t == LUA_TBOOLEAN: return bool(self.toboolean(idx))
         if t == LUA_TNUMBER:  
@@ -572,9 +601,19 @@ class LuaState:
         if self.loadfile(filename) != 0:
             return False
         return self.pcall(0, 0, 0) == 0
-    def type(self, idx: int) -> int:
+    def totype(self, idx: int) -> int:
+        """获取栈上的值类型常量"""
         return lua.lua_type(self.state, idx)
-
+    
+    def totypename(self, idx: int) -> int:
+        """获取栈上的值类型名称"""
+        return self.typename(self.totype(idx))
+        
+    def typename(self, n: int) -> str:
+        """获取类型常量对应类型名称,1是布尔,4是字符串"""
+        result = lua.lua_typename(self.state, n)
+        return result.decode('gbk') if result else None
+    
     def close(self):
         """关闭 Lua 状态机"""
         if not self._closed and self.state:

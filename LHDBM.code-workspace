@@ -35,6 +35,12 @@
 			"**/*.txt": "gbk",
 			"**/*.yml":"utf8",
 		},
+		"python.analysis.extraPaths": [
+			"${workspaceFolder}/!src-dist/scripts"
+		],
+		"python.autoComplete.extraPaths": [
+			"${workspaceFolder}/!src-dist/scripts"
+		]
 	},
 	"launch": {
 		"version": "0.2.0",
