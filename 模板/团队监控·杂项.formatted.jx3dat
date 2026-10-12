@@ -14,7 +14,7 @@ return {
 			{{bBuffList=true},dwID=23741,nIcon=2399,nLevel=1,nScrutinyType=1,szName="CD",szNote="通用CD1"},
 			{{bBuffList=true},dwID=23790,nIcon=2399,nLevel=1,nScrutinyType=1,szName="CD",szNote="通用CD2"},
 			{aCataclysmBuff={{col="#FF32FFFF",nColAlpha=255,nPriority=1}},col={255,50,255},dwID=8727,nLevel=1,nScrutinyType=2,szNote="财神降临"},
-			{{bBuffList=true},col={255,255,0},dwID=14210,nIcon=7143,nLevel=1,nScrutinyType=1,szName="交通",szNote="更换交通表现标记"},
+			{{bBuffList=true},col={255,255,0},dwID=14120,nIcon=7143,nLevel=1,nScrutinyType=1,szName="交通",szNote="更换交通表现标记"},
 		},
 	},
 	CASTING = {
@@ -138,7 +138,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791190289,
+		nTimeStamp = 1791800636,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
