@@ -13,8 +13,17 @@ return {
 		[-7] = {
 			{{bBuffList=true},col={255,255,0},dwID=18080,nIcon=3557,nLevel=1,szName="已拾取",szNote="阵营日常_拾取CD1"},
 		},
+		[334] = {
+			{{bBuffList=true},col={255,255,0},dwID=10028,nIcon=3557,nLevel=1,szName="已拾取",szNote="95阵营-矿车残骸拾取cd"},
+			{{bBuffList=true},col={255,255,0},dwID=13668,nIcon=3557,nLevel=1,szName="已拾取",szNote="投石车·经首道源岛日常BUFF"},
+			{{bBuffList=true},col={255,255,0},dwID=14090,nIcon=3557,nLevel=1,szName="已拾取",szNote="海龟·经首道源岛CDBUFF"},
+		},
 	},
 	DOODAD = {
+		[10] = {
+			{[17]={bCenterAlarm=true},aFocus={{}},dwID=8598,szNote="寇岛牛车奖励"},
+			{[17]={bCenterAlarm=true},aFocus={{}},dwID=7968,szNote="牛车被打奖励"},
+		},
 		[216] = {
 			{[17]={bCenterAlarm=true},aFocus={{nMaxDistance=0,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=5731,szNote="矿车残骸"},
 			{[17]={bCenterAlarm=true},aFocus={{nMaxDistance=0,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=5732,szNote="押运奖赏"},
@@ -46,6 +55,10 @@ return {
 		},
 	},
 	NPC = {
+		[10] = {
+			{aFocus={{}},dwID=56526,nFrame=52,szNote="浩气牛车"},
+			{aFocus={{}},dwID=56527,nFrame=52,szNote="恶人牛车"},
+		},
 		[217] = {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="神机台·敌方",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}},{nMaxDistance=60,szDisplay="神机台·有人",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=true,bEnemy=false}}},dwID=46238,nFrame=52,szName="神机台·有人",szNote="神机台·启动状态"},
 			{aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=47401,nFrame=52,szNote="珍奇晶矿"},
@@ -72,6 +85,12 @@ return {
 		},
 	},
 	TALK = {
+		[10] = {
+			{szContent="浩气盟的牛车从寇岛出发了！大家快前往护送，盟主重重有赏！",szTarget="蔺孟威",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nTime=540,szName="浩气·护送牛车"}}},
+			{szContent="恶人谷的牛车已经从寇岛出发了！大伙快前往护送，谷主重重有赏！",szTarget="贾伐",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nTime=540,szName="恶人·护送牛车"}}},
+			{szContent="弟兄们辛苦了！接下来的押送就交给我们吧。",szTarget="浩气盟镖师",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nTime=90,szName="浩气·护送奖赏"}}},
+			{szContent="弟兄们辛苦了！接下来的押送就交给我们吧。",szTarget="恶人谷镖师",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nTime=90,szName="恶人·护送奖赏"}}},
+		},
 		[217] = {
 			{szContent="恶人谷的矿车被浩气盟劫走了！",szTarget="莫白",tCountdown={{key="恶人·矿车",nClass=14,nFrame=7,nIcon=13,nTime=60,szName="浩气·劫车奖励"}}},
 			{szContent="浩气盟的矿车被恶人谷劫走了！",szTarget="莫云",tCountdown={{key="浩气·矿车",nClass=14,nFrame=3,nIcon=13,nTime=60,szName="恶人·劫车奖励"}}},
@@ -112,7 +131,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791190289,
+		nTimeStamp = 1791817232,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
