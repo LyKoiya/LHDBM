@@ -518,7 +518,7 @@ return {
 			{dwID=8951,nIcon=4953,nLevel=1,szName="材料"},
 		},
 		[-1] = {
-			{{bBuffList=true},col={255,255,0},dwID=14210,nIcon=7143,nLevel=1,nScrutinyType=1,szName="交通"},
+			{{bBuffList=true},col={255,255,0},dwID=14120,nIcon=7143,nLevel=1,nScrutinyType=1,szName="交通"},
 			{aCataclysmBuff={{col="#FF32FFFF",nColAlpha=255,nPriority=1}},col={255,50,255},dwID=8727,nLevel=1,nScrutinyType=2},
 			{{bBuffList=true},dwID=23790,nIcon=2399,nLevel=1,nScrutinyType=1,szName="CD"},
 			{{bBuffList=true},dwID=23741,nIcon=2399,nLevel=1,nScrutinyType=1,szName="CD"},
@@ -1939,6 +1939,9 @@ return {
 		},
 	},
 	CASTING = {
+		[-20] = {
+			{dwID=8823,nLevel=1,nScrutinyType=4,tCountdown={{key="招式提示1",nClass=9,nFrame=5,nIcon=13,nRefresh=2,nTime="2,御城·抛掷;4.5,抛掷·眩晕;15,御城·抛掷·下一个",szName="御城·抛掷·下一个"}}},
+		},
 		[-19] = {
 			{[8]={bScreenHead=true},col={255,255,100},dwID=38096,nLevel=1,nScrutinyType=2,szName="进战移动上马"},
 			{[8]={bScreenHead=true},dwID=7242,nLevel=1,tCountdown={{key="屹立不倒",nClass=8,nFrame=0,nIcon=1537,nRefresh=0,nTime="1,屹立不倒·{$sender}·正在释放;9.5,屹立不倒·{$sender}·50减伤;32.5,屹立不倒·{$sender}·释放剩余;40.5,屹立不倒·{$sender}·延迟释放;50,屹立不倒·{$sender}·随时释放",szName="屹立不倒"},{key="屹立不倒",nClass=9,nFrame=0,nIcon=1537,nRefresh=5,nTime="9,屹立不倒·{$sender}·50减伤;31.5,屹立不倒·{$sender}·释放剩余;40,屹立不倒·{$sender}·延迟释放;50,屹立不倒·{$sender}·随时释放",szName="屹立不倒"}}},
@@ -2856,6 +2859,8 @@ return {
 "},
 		},
 		[7] = {
+			{szContent="你已接受了[慰问老人·沁芳济小龟]。\
+",szNote="使用·道具·[沁芳丸]",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nRefresh=2,nTime=10,szName="使用·道具·[沁芳丸]"}}},
 			{[20]={bCenterAlarm=true},szContent="你已完成了[拜年]。\
 ",szNote="下一站·枫华谷·战乱·午阳岗",tCountdown={{key="新春·拜年",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="枫华谷·战乱·午阳岗·山腾路"}}},
 			{szContent="诸侠士需协助纯阳修复、完成剑阵，并协力抵御星宿老仙的进攻。星宿老仙千秋子于小星宿海中获得武侯移星术以及上古毒经残卷的另外版本后，闭关潜心修炼秘术多年，如今实力更胜从先，侠士须得小心行事。\
@@ -3458,7 +3463,7 @@ return {
 		},
 		[150] = {
 			{[20]={bCenterAlarm=true},szContent="你已接受了[慰问老人·遗失的宝物]。\
-",szNote="寻找·明教·罐子",tCountdown={{key="任务提示1",nClass=20,nFrame=0,nIcon=13,nRefresh=2,nTime=30,szName="寻找·明教·罐子"}}},
+",szNote="寻找·明教·罐子",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nRefresh=2,nTime=30,szName="寻找·明教·罐子"}}},
 			{szContent="明教正召集人手清剿红衣教势力，侠士可前往明教三生树附近参与。\
 ",tCountdown={{key="门派事件1",nClass=20,nFrame=0,nIcon=13,nTime=10,szName="明教·门派事件·三生树"}}},
 			{szContent="明教正在举行明尊大典，侠士可前往明教圣墓山参与盛会。\
@@ -5805,6 +5810,11 @@ return {
 			{bCheckLevel=true,dwID=1624,nLevel=14,nScrutinyType=1,tCountdown={{key="冬至·饱食·蓬莱",nClass=1,nFrame=5,nIcon=10762,nRefresh=3600,nTime=2,szName="饱食·蓬莱·方乾"}}},
 			{col={255,255,0},dwID=11582,nLevel=1,nScrutinyType=1,tCountdown={{key="雪山恩仇·提示0",nClass=1,nFrame=7,nIcon=13706,nTime=60,szName="雪山恩仇·蓬莱·方乾"},{key="雪山恩仇·提示0",nClass=2,nFrame=7,nIcon=13706,nTime=0,szName="雪山恩仇·提示0"}},tKungFu={["SKILL#10533"]=true}},
 		},
+		[334] = {
+			{{bBuffList=true},col={255,255,0},dwID=14090,nIcon=3557,nLevel=1,szName="已拾取"},
+			{{bBuffList=true},col={255,255,0},dwID=13668,nIcon=3557,nLevel=1,szName="已拾取"},
+			{{bBuffList=true},col={255,255,0},dwID=10028,nIcon=3557,nLevel=1,szName="已拾取"},
+		},
 		[410] = {
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#32FFFFFF",nColAlpha=255,nPriority=11,szReminder="风"}},col={50,255,255},dwID=15006,nLevel=1,nScrutinyType=2},
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#FF32FFFF",nColAlpha=255,nPriority=1,szReminder="箱"}},col={255,50,255},dwID=15191,nLevel=1,nScrutinyType=2},
@@ -6308,6 +6318,7 @@ return {
 			{aFocus={{nMaxDistance=20}},dwID=4783},
 		},
 		[2] = {
+			{aFocus={{nMaxDistance=6}},dwID=4819},
 			{aFocus={{nMaxDistance=0.5}},dwID=5884},
 			{aFocus={{nMaxDistance=0.5}},dwID=5883},
 			{aFocus={{nMaxDistance=0.8}},dwID=5951},
@@ -6386,6 +6397,8 @@ return {
 			{aFocus={{nMaxDistance=90,szDisplay="孟母尸体·三尺青锋"}},dwID=5298},
 			{dwID=5754},
 			{aFocus={{nMaxDistance=10,szDisplay="诱捕的笼子·破晓鸣"}},dwID=6093},
+			{[17]={bCenterAlarm=true},aFocus={{}},dwID=7968},
+			{[17]={bCenterAlarm=true},aFocus={{}},dwID=8598},
 		},
 		[11] = {
 			{aFocus={{nMaxDistance=120,szDisplay="皇竹草"}},dwID=3359},
@@ -6634,8 +6647,8 @@ return {
 			{[17]={bScreenHead=true},aFocus={{szDisplay="杨玉环的发钗·天涯无归"}},col={0,255,255},dwID=5753},
 		},
 		[158] = {
-			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="念祭文"}},col={0,255,0},dwID=4818},
-			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="小香炉·上香"}},col={0,255,0},dwID=4817},
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30}},col={0,255,0},dwID=4818},
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30}},col={0,255,0},dwID=4817},
 			{aFocus={{nMaxDistance=6}},dwID=5898},
 			{aFocus={{nMaxDistance=6}},dwID=5858},
 			{aFocus={{nMaxDistance=6,szDisplay="染血的沙土堆·阿飞"}},dwID=4303},
@@ -6736,8 +6749,6 @@ return {
 			{[17]={bCenterAlarm=true,bScreenHead=true},aFocus={{szDisplay="狼牙先锋首领·掉落"}},col={100,255,100},dwID=8418,szName="狼牙先锋首领掉落"},
 		},
 		[217] = {
-			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="念祭文"}},col={0,255,0},dwID=4818},
-			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="小香炉·上香"}},col={0,255,0},dwID=4817},
 			{aFocus={{nMaxDistance=40,szDisplay="光圈点·幽海牧"}},dwID=9640,szName="光圈点·幽海牧"},
 			{aFocus={{nMaxDistance=40,szDisplay="光圈点·幽海牧"}},dwID=9639,szName="光圈点·幽海牧"},
 			{aFocus={{nMaxDistance=6}},dwID=5715},
@@ -7366,6 +7377,9 @@ return {
 		},
 		[-2] = {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,szDisplay="戚凤娘·书剑天涯"}},col={0,255,0},dwID=125504,nFrame=47},
+			{aFocus={{nMaxDistance=6,szDisplay="瞿婉清·重阳节"}},dwID=37147,nFrame=47},
+			{aFocus={{nMaxDistance=6,szDisplay="小琥·重阳节"}},dwID=37145,nFrame=47},
+			{aFocus={{nMaxDistance=6,szDisplay="邱小沁·重阳节"}},col={0,255,0},dwID=37144,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6}},col={0,255,0},dwID=37356,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6}},col={0,255,0},dwID=37149,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=3}},col={0,255,0},dwID=113588,nFrame=52},
@@ -7507,7 +7521,8 @@ return {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=10,szDisplay="布娃娃·隐藏任务"}},dwID=1248,nFrame=52},
 		},
 		[2] = {
-			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6}},col={0,255,0},dwID=37148,nFrame=47},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,szDisplay="郑米羔·重阳节"}},col={0,255,0},dwID=139075,nFrame=47},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,szDisplay="刘愈·重阳节"}},col={0,255,0},dwID=37148,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20}},dwID=37165,nFrame=47},
 			{aFocus={{nMaxDistance=30,szDisplay="集元聚·新春有缘人"}},dwID=6855,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=3,szDisplay="若初·七夕节"}},col={0,255,0},dwID=15402,nFrame=47},
@@ -7671,6 +7686,7 @@ return {
 			{aFocus={{nMaxDistance=30,szDisplay="罗掌柜·小吃商"}},dwID=390,nFrame=47},
 		},
 		[7] = {
+			{aFocus={{nMaxDistance=6}},dwID=753,nFrame=47},
 			{aFocus={{nMaxDistance=30,szDisplay="三魁六·新春有缘人"}},dwID=6856,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=10,szDisplay="物资车·门派事件"}},col={0,255,0},dwID=50211,nFrame=52},
 			{[3]={bScreenHead=true},dwID=50210,nFrame=57},
@@ -7732,6 +7748,8 @@ return {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="猫猫·破晓鸣"}},col={0,255,255},dwID=2350,nFrame=47},
 			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{szDisplay="寄居蟹·蟹仔"}},col={0,255,255},dwID=27467,nFrame=47,szName="寄居蟹·蟹仔"},
 			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{szDisplay="喜小乐·蟹兵"}},col={0,255,255},dwID=19323,nFrame=47,szName="喜小乐·蟹兵",tCountdown={{key="蹲宠答题1",nClass=3,nFrame=7,nIcon=6110,nTime=20,szName="喜小乐·[2]三十二、八、四"},{key="蹲宠答题1",nClass=4,nIcon=13,nTime=-1,szName="蹲宠答题1"}}},
+			{aFocus={{}},dwID=56527,nFrame=52},
+			{aFocus={{}},dwID=56526,nFrame=52},
 		},
 		[11] = {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30}},col={0,255,0},dwID=129154,nFrame=47},
@@ -7795,6 +7813,7 @@ return {
 			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{}},col={0,255,255},dwID=19320,nFrame=47,szName="林小明·大头鹅",tCountdown={{key="蹲宠答题1",nClass=3,nFrame=7,nIcon=3558,nTime=20,szName="林小明·[2]白毛浮绿水"},{key="蹲宠答题1",nClass=4,nIcon=13,nTime=-1,szName="蹲宠答题1"}}},
 		},
 		[16] = {
+			{aFocus={{nMaxDistance=6}},dwID=2616,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,szDisplay="龙舟接引人"}},col={0,255,0},dwID=57094,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,szDisplay="小午·货币兑换"}},col={0,255,0},dwID=43087,nFrame=47},
 			{aFocus={{nMaxDistance=60}},dwID=57066,nFrame=60},
@@ -8587,6 +8606,7 @@ return {
 			{aFocus={{nMaxDistance=60,tRelation={bAll=false,bAlly=false,bEnemy=true}},{nMaxDistance=40,tLife={bEnable=true,nValue=99,szOperator="<"},tRelation={bAll=false,bAlly=true,bEnemy=false}},{nMaxDistance=30}},dwID=19652,nFrame=47},
 		},
 		[150] = {
+			{aFocus={{nMaxDistance=6}},dwID=19254,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30}},col={255,50,255},dwID=52650,nFrame=67},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30}},col={255,50,255},dwID=52766,nFrame=67},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30}},col={255,50,255},dwID=52592,nFrame=67},
@@ -9378,6 +9398,7 @@ return {
 			{aFocus={{nMaxDistance=20,szDisplay="贺沛福·雪国冬猎"}},dwID=61748,nFrame=47},
 			{aFocus={{nMaxDistance=20,szDisplay="贺多多·雪国冬猎"}},dwID=64677,nFrame=47},
 			{[3]={bCenterAlarm=true,bScreenHead=true,tMark={true,false,false,false,false,false,false,false,false,false}},aFocus={{nMaxDistance=30,szDisplay="的卢·30尺",tRelation={bAll=false,bAlly=true,bEnemy=false}},{nMaxDistance=40,szDisplay="的卢·40尺",tRelation={bAll=false,bAlly=true,bEnemy=false}},{szDisplay="的卢",tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={255,255,255},dwID=123946,nFrame=47},
+			{aFocus={{nMaxDistance=10,szDisplay="马驹·停留点"}},dwID=128936,nFrame=47,szName="停留点"},
 		},
 		[331] = {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=120}},col={0,255,0},dwID=60182,nFrame=47},
@@ -10473,6 +10494,8 @@ return {
 			{aFocus={{nMaxDistance=30,tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=137676,nFrame=57},
 			{aFocus={{nMaxDistance=30,tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=137696,nFrame=57},
 			{aFocus={{nMaxDistance=30,szDisplay="唐无影"}},dwID=137669,nFrame=47},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,szDisplay="宋涛·陕州商路·主簿",tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={31,230,255},dwID=138843,nFrame=47},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,szDisplay="谷艾·陕州商路·主簿",tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={255,120,31},dwID=138842,nFrame=47},
 			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{}},col={0,255,0},dwID=47408,nFrame=47},
 		},
 		[838] = {
@@ -10990,6 +11013,10 @@ return {
 			{szContent="蟹仔已被好心侠士带走。",szNote="蹲宠·蟹仔·已被捕获",szTarget="神秘人",tCountdown={{key="蹲宠提示0",nClass=14,nFrame=7,nIcon=4988,nRefresh=0,nTime="10,蹲宠·蟹仔·已捕获;20,寄居蟹·CD·1-2小时",szName="蹲宠提示0"}}},
 			{szContent="蟹兵已被好心侠士带走照顾。",szNote="蹲宠·蟹兵·已被捕获",szTarget="神秘人",tCountdown={{key="蹲宠提示1",nClass=14,nFrame=7,nIcon=6110,nRefresh=0,nTime="10,蹲宠·蟹兵·已捕获;20,喜小乐·CD·1-2小时",szName="蹲宠提示0"}}},
 			{szContent="我先回去了，我们有缘再见哦。",szTarget="喜小乐",tCountdown={{key="蹲宠提示1",nClass=14,nFrame=7,nIcon=6110,nRefresh=0,nTime="10,蹲宠·蟹兵·已捕获;20,喜小乐·CD·1-2小时",szName="蹲宠提示1"}}},
+			{szContent="弟兄们辛苦了！接下来的押送就交给我们吧。",szTarget="恶人谷镖师",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nTime=90,szName="恶人·护送奖赏"}}},
+			{szContent="弟兄们辛苦了！接下来的押送就交给我们吧。",szTarget="浩气盟镖师",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nTime=90,szName="浩气·护送奖赏"}}},
+			{szContent="恶人谷的牛车已经从寇岛出发了！大伙快前往护送，谷主重重有赏！",szTarget="贾伐",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nTime=540,szName="恶人·护送牛车"}}},
+			{szContent="浩气盟的牛车从寇岛出发了！大家快前往护送，盟主重重有赏！",szTarget="蔺孟威",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nTime=540,szName="浩气·护送牛车"}}},
 		},
 		[12] = {
 			{szContent="不知道是谁丢失的《象棋谱·半仙局上部》，已被好心侠士带走。",szNote="蹲宠·蟹相·已被捕获",szTarget="神秘人",tCountdown={{key="蹲宠提示0",nClass=14,nFrame=7,nIcon=6141,nRefresh=0,nTime="10,蹲宠·蟹相·已捕获;20,蟹相·CD·2-3小时",szName="蹲宠提示0"}}},
@@ -12242,6 +12269,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791739844,
+		nTimeStamp = 1791821887,
 	},
 }
