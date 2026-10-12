@@ -119,125 +119,6 @@ local function dataMerge(tData, szType, MapID)
 	end
 end
 
--- 解析团队面板规则
-function EncodeBuffRule(v, bNoBasic)
-	local a = {}
-	if not bNoBasic then
-		table.insert(a, v.dwID or v.szName)
-		if v.nLevel then
-			table.insert(a, 'lv' .. v.nLevel)
-		end
-	end
-	if v.nStackNum then
-		table.insert(a, 'sn' .. (v.szStackOp or '>=') .. v.nStackNum)
-	end
-	if v.bOnlyMe then
-		table.insert(a, 'me')
-	end
-	if v.bOnlyMine or v.bOnlySelf or v.bSelf then
-		table.insert(a, 'mine')
-	end
-	a = { table.concat(a, '|') }
-
-	if v.col then
-		local cols = { v.col }
-		if v.nColAlpha and v.col:sub(1, 1) ~= '#' then
-			table.insert(cols, v.nColAlpha)
-		end
-		table.insert(a, '[' .. table.concat(cols, '|') .. ']')
-	end
-	if not X.IsEmpty(v.szReminder) then
-		table.insert(a, '(' .. v.szReminder .. ')')
-	end
-	if v.nPriority then
-		table.insert(a, '#' .. v.nPriority)
-	end
-	if v.bAttention then
-		table.insert(a, '!!')
-	end
-	if v.bCaution then
-		table.insert(a, '!!!')
-	end
-	if v.bScreenHead then
-		if v.colScreenHead then
-			table.insert(a, '!!!!|[' .. v.colScreenHead .. ']')
-		else
-			table.insert(a, '!!!!')
-		end
-	end
-	if v.bDelete then
-		table.insert(a, '-')
-	end
-	return table.concat(a, ',')
-end
-
--- 团队面板txt解析一行数据
-local function DecodeBuffRule(line)
-	line = X.TrimString(line)
-	if line ~= '' then
-		local tab = {}
-		local vals = X.split(line, ',')
-		for i, val in ipairs(vals) do
-			if i == 1 then
-				local vs = X.split(val, '|')
-				for j, v in ipairs(vs) do
-					v = X.TrimString(v)
-					if v ~= '' then
-						if j == 1 then
-							tab.dwID = tonumber(v)
-							if not tab.dwID then
-								tab.szName = v
-							end
-						elseif v == 'self' or v == 'mine' then
-							tab.bOnlyMine = true
-						elseif v:sub(1, 2) == 'lv' then
-							tab.nLevel = tonumber((v:sub(3)))
-						elseif v:sub(1, 2) == 'sn' then
-							if tonumber(v:sub(4, 4)) then
-								tab.szStackOp = v:sub(3, 3)
-								tab.nStackNum = tonumber((v:sub(4)))
-							else
-								tab.szStackOp = v:sub(3, 4)
-								tab.nStackNum = tonumber((v:sub(5)))
-							end
-						end
-					end
-				end
-			elseif val == '!!' then
-				tab.bAttention = true
-			elseif val == '!!!' then
-				tab.bCaution = true
-			elseif val == '!!!!' or val:sub(1, 5) == '!!!!|' then
-				tab.bScreenHead = true
-				local vs = X.split(val, '|')
-				for _, v in ipairs(vs) do
-					if v:sub(1, 1) == '[' and v:sub(-1, -1) == ']' then
-						tab.colScreenHead = v:sub(2, -2)
-					end
-				end
-			elseif val == '-' then
-				tab.bDelete = true
-			elseif val:sub(1, 1) == '#' then
-				tab.nPriority = tonumber((val:sub(2)))
-			elseif val:sub(1, 1) == '[' and val:sub(-1, -1) == ']' then
-				val = val:sub(2, -2)
-				if val:sub(1, 1) == '#' then
-					tab.col = val
-				else
-					local vs = X.split(val, '|')
-					tab.col = vs[1]
-					tab.nColAlpha = vs[2] and tonumber(vs[2])
-				end
-			elseif val:sub(1, 1) == '(' and val:sub(-1, -1) == ')' then
-				tab.szReminder = val:sub(2, -2)
-			end
-		end
-		if tab.dwID or tab.szName then
-			return tab
-		end
-	end
-end
-
 -- 团队气劲面板文档转传入DBM
 function teamBufftxt2DBM(szFilePath)
 	FILE.Cataclysm = FILE.Cataclysm or {}
@@ -394,10 +275,175 @@ local function buffRule(tData, szRule, bCanCancel)
 	end
 end
 
+-- 团队气劲面板数据转一行
+local function EncodeBuffRuleLH(tTeamBuff)
+	local aTeamBuff = {}
+	if tTeamBuff.dwID or tTeamBuff.szName then
+		
+		table.insert(aTeamBuff, tTeamBuff.dwID or tTeamBuff.szName)
+		if tTeamBuff.nLevel then
+			table.insert(aTeamBuff,'|lv' .. tTeamBuff.nLevel)
+		end
+		if tTeamBuff.nStackNum then
+			table.insert(aTeamBuff, '|sn' .. (tTeamBuff.szStackOp or '>=') .. tTeamBuff.nStackNum)
+		end
+		if tTeamBuff.bOnlyMe then
+			table.insert(aTeamBuff,'|' .. tTeamBuff.bOnlyMe)
+		end
+		if tTeamBuff.bOnlyMine then
+			table.insert(aTeamBuff,'|' .. tTeamBuff.bOnlyMine)
+		end
+		if tTeamBuff.col then
+			table.insert(aTeamBuff,',['.. tTeamBuff.col .. ']')
+		end
+		if tTeamBuff.szReminder then
+			table.insert(aTeamBuff,',('.. tTeamBuff.szReminder .. ')')
+		end
+		if tTeamBuff.nPriority then
+			table.insert(aTeamBuff,',#' .. tTeamBuff.nPriority)
+		end
+		if tTeamBuff.bAttention then
+			table.insert(aTeamBuff,',!!')
+		end
+		if tTeamBuff.bCaution then
+			table.insert(aTeamBuff,',!!!')
+		end
+		if tTeamBuff.bScreenHead then
+			if tTeamBuff.colScreenHead then
+				table.insert(aTeamBuff,',!!!!|[' .. tTeamBuff.colScreenHead .. ']')
+			else
+				table.insert(aTeamBuff,',!!!!')
+			end
+		end
+		if tTeamBuff.bDelete then
+			table.insert(aTeamBuff,',-')
+		end
+		return table.concat(aTeamBuff)
+	end
+end
+
+-- 解析团队面板规则，表转一行字符串
+local function EncodeBuffRule(v, bNoBasic)
+	local a = {}
+	if not bNoBasic then
+		table.insert(a, v.dwID or v.szName)
+		if v.nLevel then
+			table.insert(a, 'lv' .. v.nLevel)
+		end
+	end
+	if v.nStackNum then
+		table.insert(a, 'sn' .. (v.szStackOp or '>=') .. v.nStackNum)
+	end
+	if v.bOnlyMe then
+		table.insert(a, 'me')
+	end
+	if v.bOnlyMine or v.bOnlySelf or v.bSelf then
+		table.insert(a, 'mine')
+	end
+	a = { table.concat(a, '|') }
+
+	if v.col then
+		local cols = { v.col }
+		if v.nColAlpha and v.col:sub(1, 1) ~= '#' then
+			table.insert(cols, v.nColAlpha)
+		end
+		table.insert(a, '[' .. table.concat(cols, '|') .. ']')
+	end
+	if not X.IsEmpty(v.szReminder) then
+		table.insert(a, '(' .. v.szReminder .. ')')
+	end
+	if v.nPriority then
+		table.insert(a, '#' .. v.nPriority)
+	end
+	if v.bAttention then
+		table.insert(a, '!!')
+	end
+	if v.bCaution then
+		table.insert(a, '!!!')
+	end
+	if v.bScreenHead then
+		if v.colScreenHead then
+			table.insert(a, '!!!!|[' .. v.colScreenHead .. ']')
+		else
+			table.insert(a, '!!!!')
+		end
+	end
+	if v.bDelete then
+		table.insert(a, '-')
+	end
+	return table.concat(a, ',')
+end
+
+-- 团队面板txt解析一行数据
+local function DecodeBuffRule(line)
+	line = X.TrimString(line)
+	if line ~= '' then
+		local tab = {}
+		local vals = X.split(line, ',')
+		for i, val in ipairs(vals) do
+			if i == 1 then
+				local vs = X.split(val, '|')
+				for j, v in ipairs(vs) do
+					v = X.TrimString(v)
+					if v ~= '' then
+						if j == 1 then
+							tab.dwID = tonumber(v)
+							if not tab.dwID then
+								tab.szName = v
+							end
+						elseif v == 'self' or v == 'mine' then
+							tab.bOnlyMine = true
+						elseif v:sub(1, 2) == 'lv' then
+							tab.nLevel = tonumber((v:sub(3)))
+						elseif v:sub(1, 2) == 'sn' then
+							if tonumber(v:sub(4, 4)) then
+								tab.szStackOp = v:sub(3, 3)
+								tab.nStackNum = tonumber((v:sub(4)))
+							else
+								tab.szStackOp = v:sub(3, 4)
+								tab.nStackNum = tonumber((v:sub(5)))
+							end
+						end
+					end
+				end
+			elseif val == '!!' then
+				tab.bAttention = true
+			elseif val == '!!!' then
+				tab.bCaution = true
+			elseif val == '!!!!' or val:sub(1, 5) == '!!!!|' then
+				tab.bScreenHead = true
+				local vs = X.split(val, '|')
+				for _, v in ipairs(vs) do
+					if v:sub(1, 1) == '[' and v:sub(-1, -1) == ']' then
+						tab.colScreenHead = v:sub(2, -2)
+					end
+				end
+			elseif val == '-' then
+				tab.bDelete = true
+			elseif val:sub(1, 1) == '#' then
+				tab.nPriority = tonumber((val:sub(2)))
+			elseif val:sub(1, 1) == '[' and val:sub(-1, -1) == ']' then
+				val = val:sub(2, -2)
+				if val:sub(1, 1) == '#' then
+					tab.col = val
+				else
+					local vs = X.split(val, '|')
+					tab.col = vs[1]
+					tab.nColAlpha = vs[2] and tonumber(vs[2])
+				end
+			elseif val:sub(1, 1) == '(' and val:sub(-1, -1) == ')' then
+				tab.szReminder = val:sub(2, -2)
+			end
+		end
+		if tab.dwID or tab.szName then
+			return tab
+		end
+	end
+end
+
 -- 团队气劲转文本文档
 local function teamBuff2str(aLine)
 
-	local aTeamBuff = {}
 	local tTeamBuff = {}
 	if aLine[3] ~= '' then
 		local szTitle = string.sub(aLine[3],1,2)
@@ -414,11 +460,17 @@ local function teamBuff2str(aLine)
 	end
 
 	if aLine[4]:sub(1, 2) == 'lv' then
-		tTeamBuff.nLevel = aLine[4]
+		tTeamBuff.nLevel = aLine[4]:sub(3, -1)
 	end
 	
 	if aLine[5]:sub(1, 2) == 'sn' then
-		tTeamBuff.nCount = aLine[5]
+		if tonumber(aLine[5]:sub(4, 4)) then
+			tTeamBuff.szStackOp = aLine[5]:sub(3, 3)
+			tTeamBuff.nStackNum = tonumber((aLine[5]:sub(4)))
+		else
+			tTeamBuff.szStackOp = aLine[5]:sub(3, 4)
+			tTeamBuff.nStackNum = tonumber((aLine[5]:sub(5)))
+		end
 	end
 	if aLine[6] == 'mine' then
 		tTeamBuff.bOnlyMine = aLine[6]
@@ -443,58 +495,17 @@ local function teamBuff2str(aLine)
 		tTeamBuff.bScreenHead = true
 	end
 	if aLine[13]:sub(1, 2) == '[#' then
-		tTeamBuff.col = aLine[13]
+		tTeamBuff.col = X.strMid(aLine[13], '[', ']')
 	end
 	if aLine[14]:sub(1, 2) == '[#'  then
-		tTeamBuff.colScreenHead = aLine[14]
+		tTeamBuff.colScreenHead = X.strMid(aLine[14], '[', ']')
 	end
 	if aLine[16] == '-'  then
 		tTeamBuff.bDelete = true
 	end
-
-	if tTeamBuff.dwID or tTeamBuff.szName then
-		
-		table.insert(aTeamBuff, tTeamBuff.dwID or tTeamBuff.szName)
-		if tTeamBuff.nLevel then
-			table.insert(aTeamBuff,'|' .. tTeamBuff.nLevel)
-		end
-		if tTeamBuff.nCount then
-			table.insert(aTeamBuff,'|' .. tTeamBuff.nCount)
-		end
-		if tTeamBuff.bOnlyMe then
-			table.insert(aTeamBuff,'|' .. tTeamBuff.bOnlyMe)
-		end
-		if tTeamBuff.bOnlyMine then
-			table.insert(aTeamBuff,'|' .. tTeamBuff.bOnlyMine)
-		end
-		if tTeamBuff.col then
-			table.insert(aTeamBuff,',' .. tTeamBuff.col)
-		end
-		if tTeamBuff.szReminder then
-			table.insert(aTeamBuff,',('.. tTeamBuff.szReminder .. ')')
-		end
-		if tTeamBuff.nPriority then
-			table.insert(aTeamBuff,',#' .. tTeamBuff.nPriority)
-		end
-		if tTeamBuff.bAttention then
-			table.insert(aTeamBuff,',!!')
-		end
-		if tTeamBuff.bCaution then
-			table.insert(aTeamBuff,',!!!')
-		end
-		if tTeamBuff.bScreenHead then
-			table.insert(aTeamBuff,',!!!!')
-		end
-		if tTeamBuff.colScreenHead then
-			table.insert(aTeamBuff,'|' .. tTeamBuff.colScreenHead)
-		end
-		if tTeamBuff.bDelete then
-			table.insert(aTeamBuff,',-')
-		end
-		local str = table.concat(aTeamBuff)
-		table.insert(teamBuff, str)
-		return str
-	end
+	local str =  EncodeBuffRule(tTeamBuff, false)
+	table.insert(teamBuff, str)
+	return str
 
 	-- 122|lv2|sn>=2|me|mine,[#DF7F3FC1],(备注),#99,!!,!!!,!!!!|[#DFFF1F],-
 end
