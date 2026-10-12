@@ -10,7 +10,7 @@ return {
 		},
 		[7] = {
 			{szContent="你已接受了[慰问老人·沁芳济小龟]。\
-",szNote="使用·道具·[沁芳丸]",tCountdown={{key="任务提示1",nClass=20,nFrame=0,nIcon=13,nRefresh=2,nTime=10,szName="使用·道具·[沁芳丸]"}}},
+",szNote="使用·道具·[沁芳丸]",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nRefresh=2,nTime=10,szName="使用·道具·[沁芳丸]"}}},
 		},
 		[150] = {
 			{[20]={bCenterAlarm=true},szContent="你已接受了[慰问老人·遗失的宝物]。\
@@ -26,10 +26,6 @@ return {
 			{aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=4819,szNote="菊花盆栽"},
 		},
 		[158] = {
-			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=4817,szNote="重阳节·小香炉"},
-			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=4818,szNote="重阳节·祭文"},
-		},
-		[217] = {
 			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=4817,szNote="重阳节·小香炉"},
 			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=4818,szNote="重阳节·祭文"},
 		},
@@ -70,7 +66,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791800612,
+		nTimeStamp = 1791805531,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
