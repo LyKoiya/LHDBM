@@ -119,21 +119,6 @@ local function dataMerge(tData, szType, MapID)
 	end
 end
 
--- 团队气劲面板文档转传入DBM
-function teamBufftxt2DBM(szFilePath)
-	FILE.Cataclysm = FILE.Cataclysm or {}
-	local str =  X.ReadFile(szFilePath)
-	if str then
-		for k, v in ipairs(X.split(str, '\n')) do
-			local tData = DecodeBuffRule(v)
-			if tData then
-				local key = tData.dwID or tData.szName
-				FILE.Cataclysm[key] = tData
-			end
-		end
-	end
-end
-
 -- 清理不必要的团队气劲面板，用于秘境地图阻断通用数据，可实现秘境地图关闭头顶染色
 local function cleanCataclysmBuff(tData)
 	local retData = X.clone(tData)
@@ -441,6 +426,20 @@ local function DecodeBuffRule(line)
 	end
 end
 
+-- 团队气劲面板文档转传入DBM
+function teamBufftxt2DBM(szFilePath)
+	FILE.Cataclysm = FILE.Cataclysm or {}
+	local str =  X.ReadFile(szFilePath)
+	if str then
+		for k, v in ipairs(X.split(str, '\n')) do
+			local tData = DecodeBuffRule(v)
+			if tData then
+				local key = tData.dwID or tData.szName
+				FILE.Cataclysm[key] = tData
+			end
+		end
+	end
+end
 -- 团队气劲转文本文档
 local function teamBuff2str(aLine)
 

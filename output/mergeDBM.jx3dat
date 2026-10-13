@@ -7216,7 +7216,7 @@ return {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,szDisplay="闻千瞬·争霸赛"}},col={0,255,0},dwID=103373,nFrame=47},
 		},
 		[-20] = {
-			{[3]={bScreenHead=true},aFocus={{szDisplay="载具运输车·敌方",tRelation={bAll=false,bAlly=false,bEnemy=true}},{szDisplay="载具运输车·友方",tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={255,255,255},dwID=138941,nFrame=47},
+			{[3]={bScreenHead=true},aFocus={{szDisplay="载具运输车·敌方",tRelation={bAll=false,bAlly=false,bEnemy=true}},{szDisplay="载具运输车·友方",tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={255,50,255},dwID=138941,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,tRelation={bAll=false,bAlly=true,bEnemy=false}}},dwID=36387,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,tRelation={bAll=false,bAlly=true,bEnemy=false}}},dwID=36388,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=10,tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={100,255,100},dwID=30537,nFrame=47},
@@ -12272,6 +12272,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791836595,
+		nTimeStamp = 1791915867,
 	},
 }
