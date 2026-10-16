@@ -548,6 +548,7 @@ return {
 			{{bBuffList=true,bOnlySelfSrc=false,bTeamPanel=false},col={0,255,255},dwID=31886,nLevel=1,nScrutinyType=1,szName="增疗",szNote="听风同命"},
 			{{bBuffList=true,bOnlySelfSrc=false,bTeamPanel=false},col={0,255,255},dwID=31887,nIcon=25000,nLevel=1,nScrutinyType=1,szName="2听风",szNote="听风同命_换技能标记",tKungFu={["SKILL#10028"]=true}},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bAttention=true,bScreenHead=true,col="#FFCC00FF",colScreenHead="#FFCC00",nColAlpha=255,nPriority=3,szReminder="听"}},col={255,204,0},dwID=31890,nLevel=1,nScrutinyType=2,szNote="听风同命"},
+			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#00FF00FF",nColAlpha=255,nPriority=24,szReminder="盾"}},col={0,255,0},dwID=32714,nLevel=1,nScrutinyType=2,szNote="晴昼",tKungFu={["SKILL#10021"]=true}},
 			{{bBuffList=true,bOnlySelfSrc=false,bTeamPanel=false},col={0,255,255},dwID=33027,nLevel=1,nScrutinyType=1,szNote="如馥",tKungFu={["SKILL#10021"]=true}},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#00FF00FF",colScreenHead="#00FF00",nColAlpha=255,nPriority=24,szReminder="盾"}},col={0,255,0},dwID=33123,nLevel=1,nScrutinyType=2,szNote="知寒"},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#00FF00FF",colScreenHead="#00FF00",nColAlpha=255,nPriority=24,szReminder="盾"}},col={0,255,0},dwID=33141,nLevel=1,nScrutinyType=2,szNote="见雪"},
@@ -2210,6 +2211,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791836167,
+		nTimeStamp = 1792167687,
 	},
 }

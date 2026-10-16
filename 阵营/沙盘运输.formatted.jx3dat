@@ -21,7 +21,7 @@ return {
 ",szNote="沙盘运输·即将开启",tCountdown={{key="沙盘运输",nClass=20,nFrame=-1,nIcon=1465,nTime=300,szName="沙盘运输·即将开启"}}},
 		},
 		[-2] = {
-			{bReg=true,szContent="^【沙盘运输】(.-)势力本场累计达成(%d-)次运输车战果，丰厚嘉奖物资已出现在(.-)，请同阵营侠士前往拾取！",szNote="{$1}·沙盘运输·抵达{$2}辆",tCountdown={{key="恶人谷·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="恶人谷·沙盘运输"},{key="浩气盟·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="浩气盟·沙盘运输"},{key="{$1}·沙盘运输",nClass=20,nIcon=13,nTime=-2,szName="{$1}·沙盘运输"},{key="恶人谷·沙盘运输",nClass=20,nFrame=3,nIcon=3316,nRefresh=1,nTime=60,szName="恶人·沙盘运输·抵达{$2}辆"},{key="浩气盟·沙盘运输",nClass=20,nFrame=7,nIcon=3319,nRefresh=1,nTime=6,szName="浩气·沙盘运输·抵达{$2}辆"}}},
+			{bReg=true,szContent="^【沙盘运输】(.-)势力本场累计达成(%d-)次运输车战果，丰厚嘉奖物资已出现在(.-)，请同阵营侠士前往拾取！",szNote="{$1}·沙盘运输·抵达{$2}辆",tCountdown={{key="恶人谷·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="恶人谷·沙盘运输"},{key="浩气盟·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="浩气盟·沙盘运输"},{key="{$1}·沙盘运输",nClass=20,nIcon=13,nTime=-2,szName="{$1}·沙盘运输"},{key="恶人谷·沙盘运输",nClass=20,nFrame=3,nIcon=3316,nRefresh=1,nTime=60,szName="恶人·沙盘运输·抵达{$2}辆"},{key="浩气盟·沙盘运输",nClass=20,nFrame=7,nIcon=3319,nRefresh=1,nTime=60,szName="浩气·沙盘运输·抵达{$2}辆"}}},
 			{szContent="沙盘载具运输活动现已结束，未来得及运输至据点的车将不计入结算，运输详情见沙盘界面，感谢各位侠士的参与。\
 ",szNote="沙盘运输·活动结束",tCountdown={{key="沙盘运输",nClass=20,nFrame=0,nIcon=13,nTime=10,szName="沙盘运输·活动结束"}}},
 			{szContent="沙盘载具运输活动即将开启，浩气盟与恶人谷的运输车已刷新在各自据点，将在活动正式开始后开始运输，详情见沙盘界面。\
@@ -51,7 +51,7 @@ return {
 	},
 	NPC = {
 		[-20] = {
-			{[3]={bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="载具运输车·敌方",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}},{nMaxDistance=0,szDisplay="载具运输车·友方",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={255,50,255},dwID=138941,nFrame=47,szNote="沙盘运输·载具运输车"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="运输车·敌方",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}},{nMaxDistance=0,szDisplay="运输车·友方",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={255,50,255},dwID=138941,nFrame=47,szNote="沙盘运输·载具运输车"},
 		},
 		[-19] = {
 			{aFocus={{nMaxDistance=-1,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=140441,nFrame=47,szNote="沙盘运输·摧城车"},
@@ -66,7 +66,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791915879,
+		nTimeStamp = 1792167687,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_exp",
