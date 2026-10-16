@@ -861,7 +861,7 @@ return {
 			{[14]={bCenterAlarm=true},bReg=true,col={255,50,255},szContent="^【(.-)】据点大旗受损，获得(%d-)层易伤，当前总计【(%d-)层易伤】！",szNote="【{$1}】大旗·易伤{$3}层",szTarget="%",tCountdown={{key="大旗易伤",nClass=14,nFrame=1,nIcon=16834,nRefresh=2,nTime=-1,szName="大旗易伤"},{key="{$1}·大旗易伤",nClass=14,nFrame=1,nIcon=16834,nRefresh=0,nTime="60,【{$1}】大旗·易伤{$3}层;65,【{$1}】大旗·易伤冷却结束",szName="【{$1}】大旗·易伤{$3}层"}}},
 			{bReg=true,col={255,255,100},szContent="好嘞，老夫开始收货了。本次特产转为(%d-)个(.-)，(.-)[，]-您辛苦了！",szTarget="据点总管",tCountdown={{key="阵营模式",nClass=14,nFrame=6,nIcon=13,nTime=-2,szName="阵营模式"},{key="阵营模式",nClass=14,nFrame=6,nIcon=374,nRefresh=600,nTime=10,szName="{$2}·{$1}{$3}"}}},
 			{[14]={bCenterAlarm=true,bScreenHead=true},bReg=true,col={100,255,100},szContent="已为.-补.-%[(.+)%].-(%d-)个.-消耗(%d+%.?%d-)金",szNote="补货·[{$1}]·{$2}",szTarget="据点总管",tCountdown={{key="阵营模式",nClass=14,nFrame=6,nIcon=13,nTime=-2,szName="阵营模式"},{key="阵营模式",nClass=14,nFrame=6,nIcon=135,nRefresh=600,nTime=10,szName="补货·[{$1}]·{$2}"}}},
-			{[14]={bCenterAlarm=true},bReg=true,col={255,255,100},szContent="(.-)离开据点过久，或在原地五尺范围内盘踞超过五分钟，旗帜重置！",szNote="[{$1}]·离开据点·大旗重置",szTarget="%",tCountdown={{key="离开据点·大旗重置",nClass=14,nFrame=4,nIcon=592,nTime=180,szName="【离开据点】大旗重置"}}},
+			{[14]={bCenterAlarm=true},bReg=true,col={255,255,100},szContent="(.-)离开据点过久，或在原地五尺范围内盘踞超过五分钟，旗帜重置！",szNote="[{$1}]·离开据点·大旗重置",szTarget="%",tCountdown={{key="离开据点·大旗重置",nClass=14,nFrame=4,nIcon=592,nTime=180,szName="【{$1}·离开据点】大旗重置"}}},
 			{[14]={bCenterAlarm=true},bReg=true,col={255,255,100},szContent="^%[逐鹿中原%]%[(.-)%]：正在(.-)城门！",szNote="[{$1}]·{$2}·城门",szTarget="%",tCountdown={{key="打开·城门",nClass=14,nFrame=5,nIcon=1465,nRefresh=10,nTime=-2,szName="打开·城门"},{key="关闭·城门",nClass=14,nFrame=5,nIcon=1465,nRefresh=10,nTime=-2,szName="关闭·城门"},{key="{$2}·城门",nClass=14,nFrame=5,nIcon=13,nTime=-2,szName="{$2}·城门"},{key="打开·城门",nClass=14,nFrame=1,nIcon=2310,nRefresh=10,nTime=10,szName="城门·打开·[{$1}]"},{key="关闭·城门",nClass=14,nFrame=1,nIcon=4839,nRefresh=10,nTime=10,szName="城门·关闭·[{$1}]"}}},
 			{[14]={bCenterAlarm=true,bTeamChannel=true},col={255,255,100},szContent="身负据点大旗，当心被夺！",szNote="[{$me}]·扛起大旗",tCountdown={{key="拾取大旗·{$me}",nClass=14,nFrame=8,nIcon=592,nTime=30,szName="【{$me}】·拾取大旗"}}},
 			{col={255,255,100},szContent="你已经离开据点，10秒内未进入据点，则据点旗帜重置。",tCountdown={{key="据点大旗·旗手提示",nClass=14,nFrame=2,nIcon=592,nTime=10,szName="据点大旗·重置剩余"}}},
@@ -1038,6 +1038,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791821815,
+		nTimeStamp = 1792134854,
 	},
 }
