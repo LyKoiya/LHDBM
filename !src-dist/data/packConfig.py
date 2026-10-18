@@ -172,7 +172,7 @@ packList = [
     {
         "Path": "\\联动\\联动活动·凡人修仙传.formatted.jx3dat",
         "Method": "fileMerge",
-        "Checked": True
+        "Checked": False
     },
     {
         "Path": "\\模板\\倒计时条·阻断.formatted.jx3dat",
