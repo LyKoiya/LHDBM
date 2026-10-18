@@ -645,7 +645,10 @@ local function clearNil(tData)
 			tData[k] = clearNil(v)
 		end
 	end
-	return X.emptyTable(tData) and nil or tData
+	if X.emptyTable(tData) then
+		return nil
+	end
+	return tData
 end
 
 -- 打包前清除无效数据，极致缩减体积
