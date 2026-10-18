@@ -340,6 +340,10 @@ return {
 			{{bScreenHead=false,bTeamPanel=true},aCataclysmBuff={{bAttention=false,bCaution=false,bOnlyMe=false,bOnlyMine=false,bScreenHead=false,nPriority=43,szReminder="逃"}},dwID=12821,nLevel=1,nScrutinyType=2,szNote="逃兵·战场无法排队"},
 			{{bTeamPanel=true},aCataclysmBuff={{nPriority=43,szReminder="逃"}},dwID=11880,nLevel=1,nScrutinyType=2,szNote="逃兵·消极参战竞技场无法"},
 		},
+		[-1] = {
+			{{bBuffList=true},col={255,255,0},dwID=31362,nIcon=2144,nLevel=1,nScrutinyType=1,szName="排战场",szNote="战场排队记录·寻宝·有事件无触发"},
+			{{bBuffList=false},col={255,255,0},dwID=22912,nIcon=2237,nLevel=1,nScrutinyType=1,szName="绝境",szNote="吃鸡排队人数标记·气劲持续半小时"},
+		},
 		[38] = {
 			{{bBuffList=true},col={255,153,204},dwID=11593,nLevel=1,nScrutinyType=1,szName="毒沼",szNote="毒沼瘴气"},
 		},
@@ -640,7 +644,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791190289,
+		nTimeStamp = 1792302443,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
