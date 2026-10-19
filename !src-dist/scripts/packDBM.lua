@@ -101,9 +101,9 @@ function strMerge(szStr)
 end
 
 -- 合并一条原始数据
----@param tData  table?
+---@param tData table?
 ---@param szType string
----@param MapID  int | number
+---@param MapID int | number
 local function dataMerge(tData, szType, MapID)
 	local k, v
 	if tData then
@@ -147,10 +147,12 @@ end
 
 local function buffRuleCMD(tData, szRule, tCmd)
 	local aRule = X.split(szRule, '/')
+	local tRule = {}
 	for _, Rule in ipairs(aRule) do
 		local k = X.strLeft(Rule, ' ')
 		local v = X.strDelBothEnd(X.strRight(Rule, ' '), ' ')
 		if k then
+			tRule[k] = X.str2var('{' .. v .. '}') or {}
 			if k == 'MapID' then
 				tCmd.aMapID = X.str2var('{' .. v .. '}') or {}
 			elseif k == 'szName' then
@@ -163,6 +165,8 @@ local function buffRuleCMD(tData, szRule, tCmd)
 				tData.nCount = tonumber(v)
 			elseif k == 'nScrutinyType' then
 				tData.nScrutinyType = tonumber(v)
+			elseif k == 'disableCataclysmBuff' then
+				tData.aCataclysmBuff = nil
 			elseif k == 'disableTeamPanel' then
 				tData.aCataclysmBuff = nil
 				tData[1].bTeamPanel = false
@@ -231,8 +235,9 @@ local function buffRuleCMD(tData, szRule, tCmd)
 			end
 		end
 	end
-	return tCmd
+	return tCmd, tRule
 end
+
 local function buffRule(tData, szRule, bCanCancel)
 	tData[1] = tData[1] or {}
 	tData[2] = tData[2] or {}
@@ -300,7 +305,7 @@ local function EncodeBuffRuleLH(tTeamBuff)
 				table.insert(aTeamBuff,',!!!!')
 			end
 		end
-		if tTeamBuff.bDelete then
+		if tTeamBuff.bDelete or tTeamBuff.disableTeamPanel or tTeamBuff.disableCataclysmBuff then
 			table.insert(aTeamBuff,',-')
 		end
 		return table.concat(aTeamBuff)
@@ -353,7 +358,7 @@ local function EncodeBuffRule(v, bNoBasic)
 			table.insert(a, '!!!!')
 		end
 	end
-	if v.bDelete then
+	if v.bDelete or v.disableTeamPanel or v.disableCataclysmBuff then
 		table.insert(a, '-')
 	end
 	return table.concat(a, ',')
@@ -429,7 +434,7 @@ end
 -- 团队气劲面板文档转传入DBM
 function teamBufftxt2DBM(szFilePath)
 	FILE.Cataclysm = FILE.Cataclysm or {}
-	local str =  X.ReadFile(szFilePath)
+	local str = X.ReadFile(szFilePath)
 	if str then
 		for k, v in ipairs(X.split(str, '\n')) do
 			local tData = DecodeBuffRule(v)
@@ -496,13 +501,21 @@ local function teamBuff2str(aLine)
 	if aLine[13]:sub(1, 2) == '[#' then
 		tTeamBuff.col = X.strMid(aLine[13], '[', ']')
 	end
-	if aLine[14]:sub(1, 2) == '[#'  then
+	if aLine[14]:sub(1, 2) == '[#' then
 		tTeamBuff.colScreenHead = X.strMid(aLine[14], '[', ']')
 	end
-	if aLine[16] == '-'  then
+	if aLine[16] == '-' then
 		tTeamBuff.bDelete = true
 	end
-	local str =  EncodeBuffRule(tTeamBuff, false)
+	if aLine[17] then
+		if string.find(aLine[17], '\disableTeamPanel', 1, true) then
+			tTeamBuff.disableTeamPanel = true
+		end
+		if string.find(aLine[17], '\disableCataclysmBuff', 1, true) then
+			tTeamBuff.disableCataclysmBuff = true
+		end
+	end
+	local str = EncodeBuffRule(tTeamBuff, false)
 	table.insert(teamBuff, str)
 	return str
 
