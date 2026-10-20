@@ -529,7 +529,7 @@ return {
 		},
 		[48] = {
 			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{nMaxDistance=0,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=6620,nFrame=47,szNote="µÃ·Ö¶¹×Ó"},
-			{aFocus={{nMaxDistance=10,szDisplay="ÈªÑÛ",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=6772,nFrame=47,szNote="ÅçÈª"},
+			{aFocus={{nMaxDistance=10,szDisplay="ÈªÑÛ¡¤»ØÀ¶",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=6772,nFrame=47,szNote="ÅçÈª"},
 		},
 		[50] = {
 			{[3]={bScreenHead=true},aFocus={{}},dwID=6963,nFrame=47,szNote="ºì·½¡¤Á÷»ðïÚ³µ"},
@@ -644,7 +644,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1792302443,
+		nTimeStamp = 1792528187,
 		szAuthor = "ºÉ»¨Àð",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
