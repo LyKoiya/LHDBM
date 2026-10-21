@@ -38,11 +38,11 @@ return {
 		},
 		[-19] = {
 			{[8]={bScreenHead=true},dwID=7242,nLevel=1,szNote="屹立不倒",tCountdown={{key="屹立不倒",nClass=8,nFrame=0,nIcon=1537,nRefresh=0,nTime="1,屹立不倒·{$sender}·正在释放;9.5,屹立不倒·{$sender}·50减伤;32.5,屹立不倒·{$sender}·释放剩余;40.5,屹立不倒·{$sender}·延迟释放;50,屹立不倒·{$sender}·随时释放",szName="屹立不倒"},{key="屹立不倒",nClass=9,nFrame=0,nIcon=1537,nRefresh=5,nTime="9,屹立不倒·{$sender}·50减伤;31.5,屹立不倒·{$sender}·释放剩余;40,屹立不倒·{$sender}·延迟释放;50,屹立不倒·{$sender}·随时释放",szName="屹立不倒"}}},
-			{dwID=1361,nLevel=1,szNote="月弄痕·霸气",tCountdown={{key="反弹提示",nClass=9,nFrame=5,nIcon=2037,nRefresh=2,nTime="10,月弄痕·霸气·正在反弹;68,月弄痕·霸气·释放剩余",szName="反弹提示"}}},
-			{dwID=27379,nLevel=1,szNote="小七·珠袖落日",tCountdown={{key="反弹提示",nClass=8,nFrame=5,nIcon=21,nRefresh=2,nTime="6,小七·珠袖落日·正在反弹;44,小七·珠袖落日·释放剩余",szName="反弹提示"}}},
-			{dwID=27917,nLevel=1,szNote="伊夜·斩无常",tCountdown={{key="反弹提示",nClass=8,nFrame=5,nIcon=12101,nRefresh=2,nTime="2.5,伊夜·斩无常·正在反弹;27,伊夜·斩无常·释放剩余",szName="反弹提示"}}},
-			{dwID=7230,nLevel=1,szNote="王遗风·红尘曲·倾城",tCountdown={{key="招式提示1",nClass=8,nFrame=5,nIcon=2033,nRefresh=1,nTime="1,红尘曲倾城·抬血",szName="招式提示1"}}},
-			{dwID=7330,nLevel=1,szNote="王遗风·红尘曲·御伤",tCountdown={{key="王遗风",nClass=9,nFrame=5,nIcon=2024,nRefresh=2,nTime="10,红尘曲御伤·80减伤",szName="王遗风"}}},
+			{dwID=1361,nLevel=1,szNote="月弄痕·霸气",tCountdown={{key="反弹提示",nClass=9,nFrame=0,nIcon=2037,nRefresh=2,nTime="10,月弄痕·霸气·正在反弹;68,月弄痕·霸气·释放剩余",szName="反弹提示"}}},
+			{dwID=27379,nLevel=1,szNote="小七·珠袖落日",tCountdown={{key="反弹提示",nClass=8,nFrame=0,nIcon=21,nRefresh=2,nTime="6,小七·珠袖落日·正在反弹;44,小七·珠袖落日·释放剩余",szName="反弹提示"}}},
+			{dwID=27917,nLevel=1,szNote="伊夜·斩无常",tCountdown={{key="反弹提示",nClass=8,nFrame=0,nIcon=12101,nRefresh=2,nTime="2.5,伊夜·斩无常·正在反弹;27,伊夜·斩无常·释放剩余",szName="反弹提示"}}},
+			{dwID=7230,nLevel=1,szNote="王遗风·红尘曲·倾城",tCountdown={{key="招式提示1",nClass=8,nFrame=0,nIcon=2033,nRefresh=1,nTime="1,红尘曲倾城·抬血",szName="招式提示1"}}},
+			{dwID=7330,nLevel=1,szNote="王遗风·红尘曲·御伤",tCountdown={{key="王遗风",nClass=9,nFrame=0,nIcon=2024,nRefresh=2,nTime="10,红尘曲御伤·80减伤",szName="王遗风"}}},
 		},
 	},
 	CHAT = {
@@ -388,7 +388,7 @@ return {
 			{{bBuffList=true,bScreenHead=true},aCataclysmBuff={{bScreenHead=true,col="#FFFF00FF",colScreenHead="#FFFF00",nColAlpha=255,nPriority=13,szReminder="晕"}},col={255,255,0},dwID=2224,nLevel=1,nScrutinyType=2,szName="眩晕·斩魂",szNote="眩晕·斩魂"},
 			{{bBuffList=true,bScreenHead=true},col={31,63,255},dwID=1499,nLevel=1,nScrutinyType=1,szName="锁足·呔",szNote="锁足·首领·呔"},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#FFFF00FF",colScreenHead="#FFFF00",nColAlpha=255,nPriority=14,szReminder="定"}},col={255,255,0},dwID=1373,nLevel=1,nScrutinyType=2,szNote="定身·红尘曲·心魔"},
-			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bCaution=true,bScreenHead=true,col="#FF32FFFF",colScreenHead="#FF32FF",nColAlpha=255,nPriority=4,szReminder="爆"}},col={255,50,255},dwID=1452,nLevel=1,nScrutinyType=2,szNote="爆炸·烈日剑·升凤"},
+			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bCaution=true,bScreenHead=true,col="#FF32FFFF",colScreenHead="#FF32FF",nColAlpha=255,nPriority=4,szReminder="雷"}},col={255,50,255},dwID=1452,nLevel=1,nScrutinyType=2,szNote="爆炸·烈日剑·升凤"},
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#CE55FDFF",nColAlpha=255,nPriority=31,szReminder="毒"}},col={206,85,223},dwID=1490,nLevel=1,nScrutinyType=2,szNote="DOT·毒王杖·爆"},
 			{{bBuffList=true},col={206,85,223},dwID=32121,nLevel=1,nScrutinyType=1,szNote="易伤·流血·天魔裂空"},
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#1F3FFFFF",nColAlpha=255,nPriority=15,szReminder="慢"}},col={31,63,255},dwID=1472,nLevel=1,nScrutinyType=2,szNote="减速40%·四象轮回"},
@@ -1071,6 +1071,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1792528286,
+		nTimeStamp = 1792576206,
 	},
 }
