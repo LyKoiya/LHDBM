@@ -1587,7 +1587,7 @@ return {
 			{{bBuffList=true,bOnlySelfSrc=false,bTeamPanel=false},col={0,255,255},dwID=31745,nLevel=1,nScrutinyType=1,szNote="Ë¼Æå",tKungFu={["SKILL#10028"]=true}},
 			{{bBuffList=true,bOnlySelfSrc=false,bTeamPanel=false},col={255,153,204},dwID=31824,nLevel=1,nScrutinyType=1,szNote="´ÌÍ´"},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#FFFF00FF",colScreenHead="#FFFF00",nColAlpha=255,nPriority=14,szReminder="¶¨"}},col={255,255,0},dwID=33143,nLevel=1,nScrutinyType=2,szName="¶¨Éí¡¤¾ÖÕë",szNote="Õë´Ì"},
-			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#1F3FFFFF",colScreenHead="#1F3FFF",nColAlpha=255,nPriority=15,szReminder="Âý"}},col={31,63,255},dwID=34540,nLevel=1,nScrutinyType=2,szName="¼õËÙ¡¤¾°ÐÐ",szNote="±Ì²¨µ´"},
+			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#1F3FFFFF",colScreenHead="#1F3FFF",nColAlpha=255,nPriority=15,szReminder="Âý"}},col={31,63,255},dwID=34540,nLevel=1,nScrutinyType=2,szName="¼õËÙ¡¤±Ì²¨µ´",szNote="±Ì²¨µ´"},
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#AAAAAAFF",nColAlpha=255,nPriority=29,szReminder="ÁÆ"}},col={170,170,170},dwID=34541,nLevel=1,nScrutinyType=2,szName="¼õÁÆ",szNote="×ÇÓñÂÒºì"},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#FFFF00FF",colScreenHead="#FFFF00",nColAlpha=255,nPriority=14,szReminder="¶¨"}},col={255,255,0},dwID=70616,nIcon=100048,nLevel=1,nScrutinyType=2,szName="¶¨Éí¡¤Ü½ÈØ",szNote="Ü½ÈØ²¢µÙ"},
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#FF7FAAFF",nColAlpha=255,nPriority=31,szReminder="À¼"}},col={255,127,170},dwID=70041,nIcon=100041,nLevel=1,nScrutinyType=2,szNote="À¼´Ý"},
@@ -2259,6 +2259,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1792406904,
+		nTimeStamp = 1792592850,
 	},
 }

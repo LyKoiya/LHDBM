@@ -2448,17 +2448,17 @@ return {
 			{bReg=true,szContent="([浩气恶人]+)([霉][巳])(.-)据点的运输车已顺利抵达前线！感谢侠士们的护送！",szNote="{$1}·[{$3}]运输车·抵达",tCountdown={{key="{$3}·浩气大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·浩气大旗"},{key="{$3}·恶人大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·恶人大旗"},{key="{$3}·{$1}大旗",nClass=20,nIcon=13,nTime=-2,szName="{$3}·{$1}大旗"},{key="{$3}·浩气大旗",nClass=20,nFrame=7,nIcon=4543,nRefresh=1,nTime=10,szName="浩气·[{$3}]运输车·抵达"},{key="{$3}·恶人大旗",nClass=20,nFrame=3,nIcon=4544,nRefresh=1,nTime=10,szName="恶人·[{$3}]运输车·抵达"}}},
 			{bReg=true,col={255,255,100},szContent="^江湖快报！(.-)据点粮仓被一群([浩气恶人]+)[盟谷]-人士洗劫",szNote="{$1}·{$2}劫粮",tCountdown={{key="{$1}·浩气劫粮",nClass=20,nFrame=-1,nIcon=2397,nRefresh=2,nTime=-1,szName="{$1}·浩气劫粮"},{key="{$1}·恶人劫粮",nClass=20,nFrame=-1,nIcon=2398,nRefresh=2,nTime=-1,szName="{$1}·恶人劫粮"},{key="{$1}·{$2}劫粮",nClass=20,nFrame=7,nIcon=2400,nTime=-2,szName="{$1}·{$2}劫粮"},{key="{$1}·浩气劫粮",nClass=20,nFrame=7,nIcon=10449,nRefresh=1,nTime=30,szName="【{$1}】浩气劫粮"},{key="{$1}·恶人劫粮",nClass=20,nFrame=3,nIcon=10450,nRefresh=1,nTime=30,szName="【{$1}】恶人劫粮"}}},
 			{szContent="^江湖快报！(.*)据点粮仓被一群浩气盟人士洗劫，损失一半据点资金。\
-"},
+",szNote="防止冲突"},
 			{szContent="^江湖快报！(.*)据点粮仓被一群恶人谷人士洗劫，损失一半据点资金。\
-"},
+",szNote="防止冲突"},
 			{szContent="^浩气盟位于(.*)的【(.*)据点】大旗被夺，10分钟后若未能夺回大旗，则会丢失此据点！\
-"},
+",szNote="防止冲突"},
 			{szContent="^恶人谷位于(.*)的【(.*)据点】大旗被夺，10分钟后若未能夺回大旗，则会丢失此据点！\
-"},
-			{szContent="^浩气盟的【(.*)】帮会成功占领【(.*)】据点！(.*)"},
-			{szContent="^恶人谷的【(.*)】帮会成功占领【(.*)】据点！(.*)"},
+",szNote="防止冲突"},
+			{szContent="^浩气盟的【(.*)】帮会成功占领【(.*)】据点！(.*)",szNote="防止冲突"},
+			{szContent="^恶人谷的【(.*)】帮会成功占领【(.*)】据点！(.*)",szNote="防止冲突"},
 			{szContent="^【(.*)】据点大旗(.*)重置回初始位置！\
-"},
+",szNote="防止冲突"},
 		},
 		[-19] = {
 			{bSearch=true,szContent="[团队监控]数据加载成功",szNote="关闭刷马等计时条",tCountdown={{key="诛恶事件",nClass=20,nIcon=13,nRefresh=7200,nTime=-1,szName="诛恶事件"},{key="通用事件",nClass=20,nIcon=13,nRefresh=7200,nTime=-1,szName="通用事件"},{key="金水镇",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="金水镇"},{key="巴陵县",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="巴陵县"},{key="龙门荒漠",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="龙门荒漠"},{key="南屏山",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="南屏山"},{key="昆仑",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="昆仑"},{key="白龙口",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="白龙口"},{key="无量山",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="无量山"},{key="黑龙沼",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="黑龙沼"},{key="阴山大草原",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="阴山大草原"},{key="黑戈壁",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="黑戈壁"},{key="鲲鹏岛",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="鲲鹏岛"},{key="大攻防·奇袭场",nClass=20,nIcon=2402,nRefresh=999999,nTime=-1,szName="大攻防·奇袭场"},{key="订阅提示1",nClass=-1,nFrame=5,nIcon=13,nRefresh=2,nTime=15,szName="订阅提示1"},{key="订阅提示2",nClass=-1,nFrame=6,nIcon=13,nRefresh=2,nTime=15,szName="订阅提示2"},{key="订阅提示3",nClass=-1,nFrame=7,nIcon=13,nRefresh=2,nTime=15,szName="订阅提示3"}}},
@@ -4236,7 +4236,7 @@ return {
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#FF99CCFF",colScreenHead="#FF99CC",nColAlpha=255,nPriority=11,szReminder="针"}},col={255,153,204},dwID=530,nLevel=1,nScrutinyType=1,szName="虚内大",tCountdown={{key="金针·影",nClass=1,nFrame=8,nIcon=1368,nRefresh=0,nTime="5,敌方·{$sender}·内功大金针;120,金针·降低基础内功50%",szName="金针·降低基础内功50%"},{key="金针·影",nClass=2,nIcon=13,nTime=-1,szName="金针·影"}}},
 		},
 		[-19] = {
-			{col={255,255,0},dwID=34654,nIcon=6158,nLevel=1,nScrutinyType=1,szName="奖励物资",tCountdown={{key="沙盘运输",nClass=1,nFrame=0,nIcon=6158,nRefresh=176400,nTime=10,szName="沙盘运输·已领奖励"}}},
+			{col={255,255,0},dwID=34654,nIcon=6158,nLevel=1,nScrutinyType=1,szName="奖励物资",tCountdown={{key="沙盘运输",nClass=1,nFrame=0,nIcon=6158,nRefresh=176400,nTime=30,szName="沙盘运输·已领奖励"}}},
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#FFFFFF00",nPriority=1}},col={255,255,255},dwID=9632,nLevel=1,nScrutinyType=2},
 			{{bBuffList=true,bScreenHead=true},aCataclysmBuff={{bScreenHead=true,col="#FFFFFFFF",colScreenHead="#FFFFFF",nColAlpha=255,nPriority=3}},col={255,255,255},dwID=9871,nIcon=7682,nLevel=1,nScrutinyType=2,szName="翅膀"},
 			{{bBuffList=true},col={255,255,0},dwID=9677,nIcon=2024,nLevel=1,nScrutinyType=1,szName="轰炸"},
@@ -5172,7 +5172,7 @@ return {
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#FF7FAAFF",nColAlpha=255,nPriority=31,szReminder="兰"}},col={255,127,170},dwID=70041,nIcon=100041,nLevel=1,nScrutinyType=2},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#FFFF00FF",colScreenHead="#FFFF00",nColAlpha=255,nPriority=14,szReminder="定"}},col={255,255,0},dwID=70616,nIcon=100048,nLevel=1,nScrutinyType=2,szName="定身·芙蓉"},
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#AAAAAAFF",nColAlpha=255,nPriority=29,szReminder="疗"}},col={170,170,170},dwID=34541,nLevel=1,nScrutinyType=2,szName="减疗"},
-			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#1F3FFFFF",colScreenHead="#1F3FFF",nColAlpha=255,nPriority=15,szReminder="慢"}},col={31,63,255},dwID=34540,nLevel=1,nScrutinyType=2,szName="减速·景行"},
+			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#1F3FFFFF",colScreenHead="#1F3FFF",nColAlpha=255,nPriority=15,szReminder="慢"}},col={31,63,255},dwID=34540,nLevel=1,nScrutinyType=2,szName="减速·碧波荡"},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#FFFF00FF",colScreenHead="#FFFF00",nColAlpha=255,nPriority=14,szReminder="定"}},col={255,255,0},dwID=33143,nLevel=1,nScrutinyType=2,szName="定身·局针"},
 			{{bBuffList=true},col={255,153,204},dwID=31824,nLevel=1,nScrutinyType=1},
 			{{bBuffList=true},col={0,255,255},dwID=31745,nLevel=1,nScrutinyType=1,tKungFu={["SKILL#10028"]=true}},
@@ -12205,6 +12205,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1792588428,
+		nTimeStamp = 1792592844,
 	},
 }
