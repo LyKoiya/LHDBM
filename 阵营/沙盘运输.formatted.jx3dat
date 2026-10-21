@@ -38,7 +38,7 @@ return {
 			{dwID=34526,nLevel=1,nScrutinyType=1,szNote="沙盘运输·护送时长"},
 		},
 		[-19] = {
-			{col={255,255,0},dwID=34654,nIcon=6158,nLevel=1,nScrutinyType=1,szName="奖励物资",szNote="沙盘运输·奖励物资",tCountdown={{key="沙盘运输",nClass=1,nFrame=0,nIcon=6158,nRefresh=176400,nTime=10,szName="沙盘运输·已领取奖励"}}},
+			{col={255,255,0},dwID=34654,nIcon=6158,nLevel=1,nScrutinyType=1,szName="奖励物资",szNote="沙盘运输·奖励物资",tCountdown={{key="沙盘运输",nClass=1,nFrame=0,nIcon=6158,nRefresh=176400,nTime=30,szName="沙盘运输·已领奖励"}}},
 		},
 	},
 	DOODAD = {
@@ -66,7 +66,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1792167687,
+		nTimeStamp = 1792591695,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_exp",
