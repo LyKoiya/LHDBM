@@ -4243,7 +4243,7 @@ return {
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#1F3FFFFF",nColAlpha=255,nPriority=15,szReminder="Âý"}},col={31,63,255},dwID=1472,nLevel=1,nScrutinyType=2},
 			{{bBuffList=true},col={206,85,223},dwID=32121,nLevel=1,nScrutinyType=1},
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#CE55FDFF",nColAlpha=255,nPriority=31,szReminder="¶¾"}},col={206,85,223},dwID=1490,nLevel=1,nScrutinyType=2},
-			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bCaution=true,bScreenHead=true,col="#FF32FFFF",colScreenHead="#FF32FF",nColAlpha=255,nPriority=4,szReminder="±¬"}},col={255,50,255},dwID=1452,nLevel=1,nScrutinyType=2},
+			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bCaution=true,bScreenHead=true,col="#FF32FFFF",colScreenHead="#FF32FF",nColAlpha=255,nPriority=4,szReminder="À×"}},col={255,50,255},dwID=1452,nLevel=1,nScrutinyType=2},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#FFFF00FF",colScreenHead="#FFFF00",nColAlpha=255,nPriority=14,szReminder="¶¨"}},col={255,255,0},dwID=1373,nLevel=1,nScrutinyType=2},
 			{{bBuffList=true,bScreenHead=true},col={31,63,255},dwID=1499,nLevel=1,nScrutinyType=1,szName="Ëø×ã¡¤ß¾"},
 			{{bBuffList=true,bScreenHead=true},aCataclysmBuff={{bScreenHead=true,col="#FFFF00FF",colScreenHead="#FFFF00",nColAlpha=255,nPriority=13,szReminder="ÔÎ"}},col={255,255,0},dwID=2224,nLevel=1,nScrutinyType=2,szName="Ñ£ÔÎ¡¤Õ¶»ê"},
@@ -12201,6 +12201,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1792528222,
+		nTimeStamp = 1792567783,
 	},
 }
