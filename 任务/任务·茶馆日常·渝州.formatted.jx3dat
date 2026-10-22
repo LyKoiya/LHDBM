@@ -1,0 +1,27 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {
+		[803] = {
+			{aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=12058,szNote="春笋"},
+			{aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=12087,szNote="来此取水"},
+			{aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=12078,szNote="来此生火"},
+		},
+	},
+	NPC = {
+		[803] = {
+			{aFocus={{nMaxDistance=20,tLife={bEnable=true,nValue=99,szOperator="<"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=138717,nFrame=50,szNote="野猪"},
+		},
+	},
+	TALK = {},
+	__meta = {
+		nTimeStamp = 1792679924,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "",
+		szEdition = "zhcn_exp",
+		szOfficialVoicePacketUUID = "",
+		szServer = "苍生铸世",
+	},
+}
