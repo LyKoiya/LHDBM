@@ -153,12 +153,15 @@ return {
 			{szContent="那厮最喜欢用琉璃杯喝玉露酒！",szTarget="秋叶青",tCountdown={{key="任务提示0",nClass=14,nFrame=7,nIcon=13,nTime=10,szName="琉璃杯·玉露酒"}}},
 			{szContent="状元红最配古瓷杯！",szTarget="秋叶青",tCountdown={{key="任务提示0",nClass=14,nFrame=7,nIcon=13,nTime=10,szName="古瓷杯·状元红"}}},
 		},
+		[105] = {
+			{[14]={bCenterAlarm=true},szContent="开始占卜，扣除1金。",szNote="开始占卜·扣除1金",szTarget="%"},
+		},
 		[151] = {
 			{szContent="我不怕，娘说那些狼不会咬我！",szNote="隐藏任务",szTarget="苏恨林",tCountdown={{key="任务提示1",nClass=14,nIcon=13,nTime=0,szName="任务提示1"}}},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791190288,
+		nTimeStamp = 1792679533,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
