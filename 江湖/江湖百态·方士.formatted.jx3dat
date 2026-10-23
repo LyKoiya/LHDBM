@@ -86,6 +86,7 @@ return {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=true}}},col={255,50,255},dwID=52592,nFrame=67},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=true}}},col={255,50,255},dwID=52766,nFrame=67},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=true}}},col={255,50,255},dwID=52650,nFrame=67},
+			{[3]={bCenterAlarm=true},aFocus={{nMaxDistance=-1,szDisplay="神龙现世·福德齐天",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=52875,nFrame=60,szName="神龙现世",szNote="福德齐天·神龙现世"},
 		},
 		[158] = {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="隐藏任务·方士5级",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=55303,nFrame=67,szNote="石疑"},
@@ -129,7 +130,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791190289,
+		nTimeStamp = 1792743202,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
