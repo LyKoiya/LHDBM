@@ -524,8 +524,8 @@ return {
 	},
 	NPC = {
 		[38] = {
-			{[3]={bCenterAlarm=true,bScreenHead=true,tMark={false,false,false,false,false,false,false,false,false,true}},aFocus={{nMaxDistance=6,szDisplay="物资箱·交互",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}},{nMaxDistance=0,szDisplay="物资箱·掉落",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,32,128},dwID=55831,nFrame=47,szNote="物资箱·红"},
-			{[3]={bCenterAlarm=true,bScreenHead=true,tMark={false,false,false,false,false,false,false,false,false,true}},aFocus={{nMaxDistance=6,szDisplay="物资箱·交互",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}},{nMaxDistance=0,szDisplay="物资箱·掉落",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={31,230,255},dwID=55832,nFrame=47,szNote="物资箱·蓝"},
+			{[3]={bCenterAlarm=true,bScreenHead=true,tMark={false,false,false,false,false,false,false,false,false,true}},aFocus={{nMaxDistance=3,szDisplay="物资箱·交互",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}},{nMaxDistance=0,szDisplay="物资箱·掉落",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,32,128},dwID=55831,nFrame=47,szNote="物资箱·红"},
+			{[3]={bCenterAlarm=true,bScreenHead=true,tMark={false,false,false,false,false,false,false,false,false,true}},aFocus={{nMaxDistance=3,szDisplay="物资箱·交互",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}},{nMaxDistance=0,szDisplay="物资箱·掉落",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={31,230,255},dwID=55832,nFrame=47,szNote="物资箱·蓝"},
 		},
 		[48] = {
 			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{nMaxDistance=0,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=6620,nFrame=47,szNote="得分豆子"},
@@ -644,7 +644,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1792528187,
+		nTimeStamp = 1792756361,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
