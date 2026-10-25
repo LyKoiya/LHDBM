@@ -1,0 +1,120 @@
+---@meta
+
+---@class CataclysmBuff 茗伊团队监控团队气劲面板列表
+---@field bOnlyMine? boolean 仅来源自己
+---@field bOnlyMe? boolean 仅监控自己
+---@field bAttention? boolean 蒙版警告
+---@field bScreenHead? boolean 头顶提示
+---@field bCaution? boolean 特效警告
+---@field col? string 蒙版颜色 + 描边颜色
+---@field colScreenHead? string 头顶提示颜色
+---@field nColAlpha? integer 描边透明度
+---@field nPriority? integer 优先级（越小越高，0为最高）
+---@field szReminder? string 备注
+---@field szStackOp? string 触发逻辑（==、!=、>、>=、<、<=）
+---@field nStackNum? integer 气劲层数
+
+---@class Focus 茗伊团队监控焦点列表
+---@field nMaxDistance? number 最大距离
+---@field szDisplay? string 名称显示
+---@field tLife? { bEnable?: boolean 是否启用, nValue?: number 气血百分比, szOperator?: string 触发逻辑（对应气血百分比，==、!=、<、<=、>、>=）} 目标血量百分比
+---@field tRelation? { bAll?: boolean 全部, bAlly?: boolean 非敌对目标, bEnemy?: boolean 敌对目标 } 目标关系
+---@field dwMapID? integer 生效地图ID
+
+---@class Countdown 茗伊团队监控倒计时条
+---@field nClass integer 动态属性编号
+---@field nIcon integer 计时条图标
+---@field nTime number|string 倒计时条显示时长
+---@field szName? string 倒计时条显示文字
+---@field key? string 倒计时唯一标识
+---@field nFrame? integer 倒计时条背景色（0橙,1粉,2红,3黄,4灰,5深蓝,6绿,7浅蓝,8紫,其他为透明）
+---@field nRefresh? number 重复调用时间限制
+---@field bHold? boolean 倒计时过图不消失
+---@field bFightHold? boolean 倒计时离开战斗不消失
+---@field bTeamChannel? boolean 是否开启团队喊话报警
+
+---@class EventFlag 茗伊团队监控动态事件
+---@field tMark? boolean[] 标记，目前支持10个标记，索引（1-白云，2-小剑，）
+---@field bTeamChannel? boolean 团队频道报警
+---@field bWhisperChannel? boolean 密聊频道报警
+---@field bCenterAlarm? boolean 中央报警
+---@field bScreenHead? boolean 头顶报警
+---@field bPartyBuffList? boolean 团队气劲列表
+---@field bBuffList? boolean 自身气劲列表
+---@field bTeamPanel? boolean 团队面板
+---@field bOnlySelfSrc? boolean 仅显示来源自己的气劲
+---@field szVoice? string 语音slug标识
+---@field bVoiceOfficial? boolean 是否优先使用官方语音条目
+---@field bVoiceSelfOnly? boolean 是否仅在自身气劲下播放语音（仅用于气劲相关）
+
+---@class TMCOMMON 茗伊团队监控通用字段
+---@field [15]? EventFlag COMMON
+---@field szName? string 自定义名称
+---@field szNote? string 备注信息
+---@field tKungFu? table<string, boolean> 自身心法要求
+---@field col? integer[] 通用报警颜色
+---@field nIcon? integer 自定义图标
+---@field bMonTarget? boolean 显示目标名称
+---@field tCountdown? Countdown[] 倒计时条
+
+---@class BUFF : TMCOMMON 茗伊团队监控气劲数据
+---@field [1]? EventFlag 获得BUFF
+---@field [2]? EventFlag 失去BUFF
+---@field dwID integer ID（编号）
+---@field nLevel integer 等级
+---@field nScrutinyType? integer 监控对象类型（缺省-全部，1自身，2团队，3敌对，4当前目标）
+---@field nCount? integer 层数必须达到n/数量必须达到n
+---@field bCheckLevel? boolean 是否区分等级
+---@field aCataclysmBuff? CataclysmBuff[] 团队气劲面板
+
+---@class CASTING : TMCOMMON 茗伊团队监控技能数据
+---@field [8]? EventFlag 技能开始释放
+---@field [9]? EventFlag 技能成功(结束)释放
+---@field dwID integer ID（编号）
+---@field nLevel integer 等级
+---@field nScrutinyType? integer 监控对象类型（缺省-全部，1自身，2团队，3敌对，4当前目标）
+---@field bCheckLevel? boolean 是否区分等级
+
+---@class NPC : TMCOMMON 茗伊团队监控NPC数据
+---@field [3]? EventFlag NPC进入场景
+---@field [4]? EventFlag NPC离开场景
+---@field [5]? EventFlag NPC说话信息(未使用)
+---@field [6]? EventFlag NPC气血值监控
+---@field [7]? EventFlag NPC进入战斗
+---@field [11]? EventFlag 所有同一个NPC离开场景
+---@field [12]? EventFlag NPC死亡
+---@field [13]? EventFlag 所有同一个NPC死亡
+---@field [16]? EventFlag NPC内力值监控
+---@field dwID integer ID（编号）
+---@field nFrame integer npc头像图标ID
+---@field nCount? integer 层数必须达到n/数量必须达到n
+---@field bAllLeave? boolean 必须全部消失
+---@field aFocus? Focus[] 焦点列表
+
+---@class DOODAD : TMCOMMON 茗伊团队监控交互物件数据
+---@field [17]? EventFlag 互动物品进入场景
+---@field [18]? EventFlag 互动物品离开场景
+---@field [19]? EventFlag 所有同一个互动物品离开场景
+---@field dwID integer ID（编号）
+---@field nCount? integer 层数必须达到n/数量必须达到n
+---@field bAllLeave? boolean 必须全部消失
+---@field aFocus? Focus[] 焦点列表
+
+---@class MESSAGE : TMCOMMON 茗伊团队监控喊话数据
+---@field [10]? EventFlag 系统聊天信息(未使用)
+---@field [14]? EventFlag 聊天监控(喊话监控使用)
+---@field [20]? EventFlag 触发监听系统信息(系统聊天监控使用)
+---@field szContent string 喊话内容
+---@field szTarget? string 喊话对象
+---@field bSearch? boolean 模糊匹配
+---@field bReg? boolean 正则匹配
+
+---@class TeamMonData 茗伊团队监控数据
+---@field BUFF? table<number, BUFF[]>
+---@field DEBUFF? table<number, BUFF[]>
+---@field CASTING? table<number, CASTING[]>
+---@field CHAT? table<number, MESSAGE[]>
+---@field TALK? table<number, MESSAGE[]>
+---@field NPC? table<number, NPC[]>
+---@field DOODAD? table<number, DOODAD[]>
+---@field __meta? { nTimeStamp?: number ,szAuthor?: string ,szServer?: string ,szEdition?: string ,szOfficialVoicePacketUUID?: string ,szCustomVoicePacketUUID?: string }

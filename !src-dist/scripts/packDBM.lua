@@ -7,7 +7,13 @@ local teamBuff = {}
 for _, szType in ipairs(X.MY_TM_TYPE_LIST) do
 	FILE[szType] = {}
 end
+
 -- 检查表内相似键
+---@param szTable TeamMonData 需要检查的表
+---@param szType string 类型
+---@param dwMapID integer | number? 地图ID
+---@param dwID integer | string ID
+---@param nLevel integer | string 等级
 local function CheckSameData(szTable, szType, dwMapID, dwID, nLevel)
 	if szTable[szType][dwMapID] then
 		if dwMapID ~= -9 then
@@ -120,6 +126,7 @@ local function dataMerge(tData, szType, nMapID)
 end
 
 -- 清理不必要的团队气劲面板，用于秘境地图阻断通用数据，可实现秘境地图关闭头顶染色
+---@param tData BUFF 需要清理的表
 local function cleanCataclysmBuff(tData)
 	local retData = X.clone(tData)
 	retData.nCount = nil
@@ -149,6 +156,7 @@ end
 ---@param tData table 团队监控气劲数据，根据指令原表修改
 ---@param szRule string 一条指令
 ---@param tCMD table? 返回指令表，若表内指令相同会根据szRule参数覆盖更新
+---@return table 返回指令表，若表内指令相同会根据szRule参数覆盖更新
 local function buffRuleCMD(tData, szRule, tCMD)
 	local aRule = X.strSplit(szRule, '/')
 	local tRule = tCMD or {}
@@ -280,6 +288,9 @@ local function buffRuleCMD(tData, szRule, tCMD)
 end
 
 -- 插入团队监控数据表，通过调用buffRuleCMD处理指令效果，将处理后的数据合并到数据表里面
+---@param tData BUFF 团队监控气劲数据，根据指令原表修改
+---@param szRule string 一条指令
+---@param bCanCancel boolean 是否可以取消
 local function buffRule(tData, szRule, bCanCancel)
 	tData[1] = tData[1] or {}
 	tData[2] = tData[2] or {}
@@ -568,6 +579,8 @@ local function teamBuff2str(aLine)
 end
 
 -- 解析一行团队气劲面板数据并转为团队监控数据
+---@param szLine string 一行团队气劲面板数据
+---@return BUFF? 转换后的团队监控数据表，若不符合规则返回nil
 function decodeBuff(szLine)
 	if not szLine then
 		return
@@ -692,6 +705,8 @@ end
 ]]--
 
 -- 递归清除为空数据
+---@param tData table 需要清理的表
+---@return table? 清理后的表，若为空返回nil
 local function clearNil(tData)
 	for k, v in pairs(tData) do -- 遍历数据判断是否有空表
 		if X.emptyTable(v) then
@@ -711,6 +726,11 @@ local function clearNil(tData)
 end
 
 -- 打包前清除无效数据，极致缩减体积
+---@param tData TeamMonData 需要清理的茗伊团队监控数据表
+---@param bDelNote boolean 是否删除备注
+---@param bDelFocus boolean 是否删除焦点列表
+---@param bDelCataclysmBuff boolean 是否删除团队气劲面板
+---@return TeamMonData 返回清理后的茗伊团队监控数据表
 local function clearInvalidData(tData, bDelNote, bDelFocus, bDelCataclysmBuff)
 	for _, szType in ipairs(X.MY_TM_TYPE_LIST) do
 		if tData[szType] then

@@ -8,6 +8,9 @@
             "**/zhtw.jx3dat",
             "**/zhtw_*.jx3dat",
             "**/*.zhtw.jx3dat"
+        ],
+        "library": [
+            ".!src-dist/types"
         ]
     }
 }
