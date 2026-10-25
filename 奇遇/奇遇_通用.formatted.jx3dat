@@ -21,9 +21,6 @@ return {
 	},
 	DOODAD = {},
 	NPC = {
-		[159] = {
-			{aFocus={{nMaxDistance=120,szDisplay="猴儿酒·稚子心",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=6343,szName="猴儿酒·稚子心",szNote="猴儿酒·稚子心"},
-		},
 		[215] = {
 			{aFocus={{nMaxDistance=20,szDisplay="沉甸甸的箱子·石敢当",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=51338,nFrame=47,szNote="石敢当·沉甸甸的箱子"},
 		},
@@ -49,7 +46,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791190288,
+		nTimeStamp = 1792951645,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
