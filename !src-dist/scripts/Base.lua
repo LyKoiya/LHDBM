@@ -170,7 +170,7 @@ function M.strDelBothEnd(szText, delimiter)
 end
 
 -- 分隔字符串
-function M.split(str, delimiter)
+function M.strSplit(str, delimiter)
     local result = {}
 
     -- 如果字符串为空，返回空表
@@ -208,6 +208,14 @@ function M.split(str, delimiter)
     end
 
     return result
+end
+
+-- 删除字符串首尾不可见字符
+function M.strTrim(szText)
+	if not szText or szText == '' then
+		return ''
+	end
+	return (string.gsub(szText, '^%s*(.-)%s*$', '%1'))
 end
 
 -- 是否为空表
@@ -466,6 +474,7 @@ function M.tonumberStr(v)
     local n = tonumber(v)
     return n and tostring(n) or nil
 end
+
 -- 判断文件是否存在
 function M.fileExists(path)
 	local f = io.open(path, "r")
@@ -476,6 +485,7 @@ function M.fileExists(path)
 	return false
 end
 
+-- 处理csv字符串
 function M.str2csv(str)
 	if str then
 		if str == '' or str == 'nil' then

@@ -145,111 +145,153 @@ local function cleanCataclysmBuff(tData)
 	return retData
 end
 
-local function buffRuleCMD(tData, szRule, tCmd)
-	local aRule = X.split(szRule, '/')
-	local tRule = {}
+-- 团队气劲根据指令修改效果
+---@param tData table 团队监控气劲数据，根据指令原表修改
+---@param szRule string 一条指令
+---@param tCMD table? 返回指令表，若表内指令相同会根据szRule参数覆盖更新
+local function buffRuleCMD(tData, szRule, tCMD)
+	local aRule = X.strSplit(szRule, '/')
+	local tRule = tCMD or {}
+	tRule.tUnknown = tRule.tUnknown or {}
 	for _, Rule in ipairs(aRule) do
 		local k = X.strLeft(Rule, ' ')
 		local v = X.strDelBothEnd(X.strRight(Rule, ' '), ' ')
 		if k then
-			tRule[k] = X.str2var('{' .. v .. '}') or {}
 			if k == 'MapID' then
-				tCmd.aMapID = X.str2var('{' .. v .. '}') or {}
+				tRule.MapID = X.str2var('{' .. v .. '}') or {}
 			elseif k == 'szName' then
 				tData.szName = v
+				tRule.szName = tData.szName
 			elseif k == 'nIcon' then
 				tData.nIcon = tonumber(v)
+				tRule.nIcon = tData.nIcon
 			elseif k == 'nLevel' then
 				tData.nLevel = tonumber(v)
+				tRule.nLevel = tData.nLevel
 			elseif k == 'nCount' then
 				tData.nCount = tonumber(v)
+				tRule.nCount = tData.nCount
 			elseif k == 'nScrutinyType' then
 				tData.nScrutinyType = tonumber(v)
+				tRule.nScrutinyType = tData.nScrutinyType
 			elseif k == 'disableCataclysmBuff' then
 				tData.aCataclysmBuff = nil
+				tRule.disableCataclysmBuff = true
 			elseif k == 'disableTeamPanel' then
 				tData.aCataclysmBuff = nil
 				tData[1].bTeamPanel = false
 				tData[1].bOnlySelfSrc = false
+				tRule.disableTeamPanel = true
 			elseif k == 'bCenterAlarm1' then
 				tData[1].bCenterAlarm = true
+				tRule.bCenterAlarm1 = true
 			elseif k == 'bCenterAlarm2' then
 				tData[2].bCenterAlarm = true
+				tRule.bCenterAlarm2 = true
 			elseif k == 'bPartyBuffList1' then
 				tData[1].bPartyBuffList = true
+				tRule.bPartyBuffList1 = true
 			elseif k == 'bBuffList1' then
 				tData[1].bBuffList = true
+				tRule.bBuffList1 = true
 			elseif k == 'szVoice1' then
 				tData[1].szVoice = v
+				tRule.szVoice1 = tData[1].szVoice
 			elseif k == 'szVoice2' then
 				tData[2].szVoice = v
+				tRule.szVoice2 = tData[2].szVoice
 			elseif k == 'bVoiceSelfOnly1' then
 				tData[1].bVoiceSelfOnly = true
+				tRule.bVoiceSelfOnly1 = true
 			elseif k == 'bVoiceSelfOnly2' then
 				tData[2].bVoiceSelfOnly = true
+				tRule.bVoiceSelfOnly2 = true
 			elseif k == 'bTeamChannel1' then
 				tData[1].bTeamChannel = true
+				tRule.bTeamChannel1 = true
 			elseif k == 'bTeamChannel2' then
 				tData[2].bTeamChannel = true
+				tRule.bTeamChannel2 = true
 			elseif k == 'bWhisperChannel1' then
 				tData[1].bWhisperChannel = true
+				tRule.bWhisperChannel1 = true
 			elseif k == 'bWhisperChannel2' then
 				tData[2].bWhisperChannel = true
+				tRule.bWhisperChannel2 = true
 			elseif k == 'bTeamPanel1' then
 				tData[1].bTeamPanel = true
+				tRule.bTeamPanel1 = true
 				if tonumber(v) >= 1 then
 					tData[1].bOnlySelfSrc = true
+					tRule.bOnlySelfSrc1 = true
 				else
 					tData[1].bOnlySelfSrc = false
+					tRule.bOnlySelfSrc1 = false
 				end
 			elseif k == 'bFullScreen1' then
 				tData[1].bFullScreen = true
+				tRule.bFullScreen1 = true
 			elseif k == 'col' then
 				local aCol = X.str2var('{' .. v .. '}')
 				if #aCol >= 3 then
 					tData.col = aCol
+					tRule.col = X.clone(aCol)
 				end
 			elseif k == 'tKungFu' then
 				local aKungFu = X.str2var('{' .. v .. '}')
-				tData.tKungFu = aKungFu
+				if aKungFu then
+					tData.tKungFu = aKungFu
+					tRule.tKungFu = X.clone(aKungFu)
+				end
 			elseif k == 'tMark' then
 				local aMark = X.str2var('{' .. v .. '}')
 				if #aMark >= 1 then
 					tData.tMark = aMark
+					tRule.tMark = X.clone(aMark)
 				end
 			elseif k == 'bScreenHead1' then
 				tData[1].bScreenHead = true
+				tRule.bScreenHead1 = true
 			elseif k == 'bVoiceOfficial1' then
 				tData[1].bVoiceOfficial = true
+				tRule.bVoiceOfficial1 = true
 			elseif k == 'bVoiceOfficial2' then
 				tData[2].bVoiceOfficial = true
+				tRule.bVoiceOfficial2 = true
 			elseif k == 'reservedEx' then
 				local tReservedEx = X.str2var('{' .. v .. '}')
+				
 				if tReservedEx then
+					tRule.reservedEx = X.clone(tReservedEx)
 					for kk, vv in pairs(tReservedEx) do
 						tData[kk] = vv
 					end
 				end
 			elseif k == 'shield' then
-				tCmd.shield = true -- 指定气劲在秘境地图不开启头顶染色，该指令只在气劲开启头顶警报功能且生效地图包含id为-1通用地图时有效
+				tRule.shield = true -- 指定气劲在秘境地图不开启头顶染色，该指令只在气劲开启头顶警报功能且生效地图包含id为-1通用地图时有效
 			elseif k == 'Reshield' then
-				tCmd.Reshield = true -- 若该气劲在秘境地图屏蔽了头顶警报功能，则取消屏蔽，在秘境地图仍允许头顶染色
+				tRule.Reshield = true -- 若该气劲在秘境地图屏蔽了头顶警报功能，则取消屏蔽，在秘境地图仍允许头顶染色
+			else
+				tRule.tUnknown[k] = v -- 异常指令也记录一下，方便调试可能输入错误的指令
 			end
 		end
 	end
-	return tCmd, tRule
+	return tRule
 end
 
+-- 插入团队监控数据表，通过调用buffRuleCMD处理指令效果，将处理后的数据合并到数据表里面
 local function buffRule(tData, szRule, bCanCancel)
 	tData[1] = tData[1] or {}
 	tData[2] = tData[2] or {}
 	local tCmd = {}
-	if buffRules[tData.dwID] then
-		buffRuleCMD(tData, buffRules[tData.dwID], tCmd)
-	end
-	buffRuleCMD(tData, szRule, tCmd)
 
-	for _, v in pairs(tCmd.aMapID) do
+	-- 先自定义气劲规则字典指令处理，再表格指令处理
+	if buffRules[tData.dwID] then
+		tCmd = buffRuleCMD(tData, buffRules[tData.dwID], tCmd)
+	end
+	tCmd = buffRuleCMD(tData, szRule, tCmd)
+
+	for _, v in pairs(tCmd.MapID) do
 		dataMerge(tData, bCanCancel and 'BUFF' or 'DEBUFF', tonumber(v))
 		if v == -1 and (tData[1].bScreenHead or (tData.aCataclysmBuff and tData.aCataclysmBuff[1] and tData.aCataclysmBuff[1].bScreenHead)) then -- 通用地图且开启头顶警报，需要考虑秘境地图屏蔽头顶染色
 			if bCanCancel then
@@ -267,7 +309,7 @@ local function buffRule(tData, szRule, bCanCancel)
 	end
 end
 
--- 团队气劲面板数据转一行
+-- 团队气劲面板数据转一行，非官方解析，自定义解析方案
 local function EncodeBuffRuleLH(tTeamBuff)
 	local aTeamBuff = {}
 	if tTeamBuff.dwID or tTeamBuff.szName then
@@ -314,7 +356,7 @@ local function EncodeBuffRuleLH(tTeamBuff)
 	end
 end
 
--- 解析团队面板规则，表转一行字符串
+-- 官方写法，解析团队面板规则，表转一行字符串
 local function EncodeBuffRule(v, bNoBasic)
 	local a = {}
 	if not bNoBasic then
@@ -366,15 +408,15 @@ local function EncodeBuffRule(v, bNoBasic)
 	return table.concat(a, ',')
 end
 
--- 团队面板txt解析一行数据
+-- 官方写法，团队面板txt解析一行数据
 local function DecodeBuffRule(line)
 	line = X.TrimString(line)
 	if line ~= '' then
 		local tab = {}
-		local vals = X.split(line, ',')
+		local vals = X.strSplit(line, ',')
 		for i, val in ipairs(vals) do
 			if i == 1 then
-				local vs = X.split(val, '|')
+				local vs = X.strSplit(val, '|')
 				for j, v in ipairs(vs) do
 					v = X.TrimString(v)
 					if v ~= '' then
@@ -404,7 +446,7 @@ local function DecodeBuffRule(line)
 				tab.bCaution = true
 			elseif val == '!!!!' or val:sub(1, 5) == '!!!!|' then
 				tab.bScreenHead = true
-				local vs = X.split(val, '|')
+				local vs = X.strSplit(val, '|')
 				for _, v in ipairs(vs) do
 					if v:sub(1, 1) == '[' and v:sub(-1, -1) == ']' then
 						tab.colScreenHead = v:sub(2, -2)
@@ -419,7 +461,7 @@ local function DecodeBuffRule(line)
 				if val:sub(1, 1) == '#' then
 					tab.col = val
 				else
-					local vs = X.split(val, '|')
+					local vs = X.strSplit(val, '|')
 					tab.col = vs[1]
 					tab.nColAlpha = vs[2] and tonumber(vs[2])
 				end
@@ -438,7 +480,7 @@ function teamBufftxt2DBM(szFilePath)
 	FILE.Cataclysm = FILE.Cataclysm or {}
 	local str = X.ReadFile(szFilePath)
 	if str then
-		for k, v in ipairs(X.split(str, '\n')) do
+		for k, v in ipairs(X.strSplit(str, '\n')) do
 			local tData = DecodeBuffRule(v)
 			if tData then
 				local key = tData.dwID or tData.szName
@@ -447,6 +489,7 @@ function teamBufftxt2DBM(szFilePath)
 		end
 	end
 end
+
 -- 团队气劲转文本文档
 local function teamBuff2str(aLine)
 
@@ -523,12 +566,13 @@ local function teamBuff2str(aLine)
 
 	-- 122|lv2|sn>=2|me|mine,[#DF7F3FC1],(备注),#99,!!,!!!,!!!!|[#DFFF1F],-
 end
+
 -- 解析一行团队气劲面板数据并转为团队监控数据
 function decodeBuff(szLine)
 	if not szLine then
 		return
 	end
-	local aline = X.split(szLine, '\t')
+	local aline = X.strSplit(szLine, '\t')
 	if not aline then
 		return
 	end
@@ -638,7 +682,7 @@ function decodeBuff(szLine)
 			end
 		end
 	end
-	buffRule(tData, aline[17], string.lower(aline[15]) == 'true')
+	buffRule(tData, aline[17], string.lower(X.strTrim(aline[15])) == 'true')
 end
 -- 2	631	握针			mine		握 奶花技能握针hot	6				[#00EE00]		TRUE		/MapID -1 /nScrutinyType 2
 
