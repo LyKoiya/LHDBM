@@ -935,6 +935,10 @@ return {
 			{col={255,255,100},szContent="五分钟内只可拾取一次对立阵营首领仓皇撤退留下的物资。",szNote="主场·助战首领堆·拾取间隔",tCountdown={{key="首领拾取间隔",nClass=14,nIcon=13,nTime=-2,szName="首领拾取间隔"}}},
 			{bReg=true,col={255,255,100},szContent="放置一辆摧城车，本日本阵营还可放置(%d-)辆摧城车。",szNote="放置·摧城车",tCountdown={{key="摧城车",nClass=14,nFrame=1,nIcon=6158,nTime=10,szName="摧城车·本日剩余·{$1}辆"}}},
 			{col={255,255,100},szContent="当前分线即将关闭，请离场景内所有侠士。",szNote="分线关闭·请离侠士"},
+			{[14]={bCenterAlarm=true},col={100,100,255},szContent="唯有浩气盟侠士方可拾取此物资堆。",szNote="浩气侠士·方可拾取",szTarget="%"},
+			{[14]={bCenterAlarm=true},col={255,100,100},szContent="唯有恶人谷侠士方可拾取此物资堆。",szNote="恶人侠士·方可拾取",szTarget="%"},
+			{[14]={bCenterAlarm=true},col={100,100,255},szContent="此为浩气盟物资，你无法领取。",szNote="浩气侠士·方可拾取"},
+			{[14]={bCenterAlarm=true},col={255,100,100},szContent="此为恶人谷物资，你无法领取。",szNote="恶人侠士·方可拾取"},
 			{col={255,255,100},szContent="攻防之战在即，为公平起见，侠士将在30秒后被传出本图，攻防排队将在12点30分或18点30分开始，请做好准备。",szNote="阵营攻防·场景清图",szTarget="%",tCountdown={{key="挂机检测",nClass=14,nFrame=4,nIcon=13,nRefresh=1,nTime="30,攻防清图·出图剩余;32,阵营攻防·清图传出",szName="攻防清图·出图剩余"}}},
 			{col={255,255,100},szContent="阵营业务繁忙，中立侠士只能停留30分钟，您将在5分钟后传出场景",szNote="中立侠士·请离场景",tCountdown={{key="阵营业务",nClass=14,nFrame=4,nIcon=13,nTime=300,szName="中立侠士·传出剩余"}}},
 			{col={255,255,100},szContent="阵营业务繁忙，中立侠士只能停留30分钟，您将在4分钟后传出场景",szNote="中立侠士·请离场景",tCountdown={{key="阵营业务",nClass=14,nFrame=4,nIcon=13,nTime=240,szName="中立侠士·传出剩余"}}},
@@ -1073,6 +1077,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1792682350,
+		nTimeStamp = 1792930262,
 	},
 }
