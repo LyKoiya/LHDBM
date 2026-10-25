@@ -103,18 +103,18 @@ end
 -- 合并一条原始数据
 ---@param tData table?
 ---@param szType string
----@param MapID int | number
-local function dataMerge(tData, szType, MapID)
+---@param nMapID integer | number?
+local function dataMerge(tData, szType, nMapID)
 	local k, v
-	if tData then
+	if tData and szType and nMapID then
 		FILE[szType] = FILE[szType] or {}
-		k, v = CheckSameData(FILE, szType, MapID, tData.dwID, tData.nLevel)
+		k, v = CheckSameData(FILE, szType, nMapID, tData.dwID, tData.nLevel)
 
 		if k then
-			FILE[szType][MapID][k] = tData
+			FILE[szType][nMapID][k] = tData
 		else
-			FILE[szType][MapID] = FILE[szType][MapID] or {}
-			table.insert(FILE[szType][MapID], tData)
+			FILE[szType][nMapID] = FILE[szType][nMapID] or {}
+			table.insert(FILE[szType][nMapID], tData)
 		end
 	end
 end
@@ -225,8 +225,10 @@ local function buffRuleCMD(tData, szRule, tCmd)
 				tData[2].bVoiceOfficial = true
 			elseif k == 'reservedEx' then
 				local tReservedEx = X.str2var('{' .. v .. '}')
-				for kk, vv in pairs(tReservedEx) do
-					tData[kk] = vv
+				if tReservedEx then
+					for kk, vv in pairs(tReservedEx) do
+						tData[kk] = vv
+					end
 				end
 			elseif k == 'shield' then
 				tCmd.shield = true -- 指定气劲在秘境地图不开启头顶染色，该指令只在气劲开启头顶警报功能且生效地图包含id为-1通用地图时有效
@@ -558,7 +560,7 @@ function decodeBuff(szLine)
 		tData.nScrutinyType = 1
 	end
 	if aline[8] ~= '' then
-		tData.aCataclysmBuff[1].szReminder = X.strLeft(aline[8], ' ') or aline[8]:sub(1, 2)
+		tData.aCataclysmBuff[1].szReminder = X.strLeft(aline[8], ' ') or string.sub(aline[8], 1, 2)
 	end
 	if aline[9] ~= '' and tonumber(aline[9]) >= 0 then
 		tData.aCataclysmBuff[1].nPriority = tonumber(aline[9])
@@ -749,6 +751,7 @@ local function clearInvalidData(tData, bDelNote, bDelFocus, bDelCataclysmBuff)
 	return tData
 end
 
+-- 反转数据顺序
 local function tableReverse(tData)
 	for _, szType in ipairs(X.MY_TM_TYPE_LIST) do
 		if tData[szType] then
@@ -759,6 +762,7 @@ local function tableReverse(tData)
 	end
 	return tData
 end
+
 -- 保存FILE表，序列化有序，可缩进
 function fileSave(szSavePath, nMaxLevel, bClear, bReverse)
 	if bClear then
