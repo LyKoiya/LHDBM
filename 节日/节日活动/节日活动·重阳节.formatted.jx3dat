@@ -25,9 +25,12 @@ return {
 		[2] = {
 			{aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=4819,szNote="菊花盆栽"},
 		},
+		[16] = {
+			{aFocus={{nMaxDistance=6,szDisplay="秋茶·重阳节",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=4822,szNote="重阳节·秋茶"},
+		},
 		[158] = {
-			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=4817,szNote="重阳节·小香炉"},
-			{[17]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=4818,szNote="重阳节·祭文"},
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=120,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=4817,szNote="重阳节·小香炉"},
+			{[17]={bScreenHead=true},aFocus={{nMaxDistance=120,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=4818,szNote="重阳节·祭文"},
 		},
 	},
 	NPC = {
@@ -66,7 +69,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791805531,
+		nTimeStamp = 1793094135,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
