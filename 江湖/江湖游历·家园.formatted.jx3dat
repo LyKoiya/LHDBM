@@ -58,7 +58,7 @@ return {
 	NPC = {
 		[-15] = {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=0,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=106317,nFrame=47,szNote="六爷"},
-			{aFocus={{nMaxDistance=0,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=70102,nFrame=47,szNote="戴厄仁",tCountdown={{key="周常1",nClass=3,nFrame=5,nIcon=13,nRefresh=0,nTime="10.7,猛击;20.7,猛击;30.7,猛击;40.7,猛击;50.7,猛击;60.7,猛击;70.7,猛击;80.7,猛击;90.7,猛击;100.7,猛击;110.7,猛击",szName=""},{key="周常2",nClass=3,nFrame=3,nIcon=13,nTime=119.2,szName="周常结算"},{key="周常1",nClass=4,nFrame=5,nIcon=13,nTime=0,szName="周常1"},{key="周常2",nClass=4,nFrame=5,nIcon=13,nTime=0,szName="周常2"}}},
+			{aFocus={{nMaxDistance=0,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=70102,nFrame=47,szNote="戴厄仁",tCountdown={{key="周常1",nClass=3,nFrame=5,nIcon=13,nRefresh=0,nTime="10.7,猛击;20.7,猛击;30.7,猛击;40.7,猛击;50.7,猛击;60.7,猛击;70.7,猛击;80.7,猛击;90.7,猛击;100.7,猛击;110.7,猛击",szName="周常1"},{key="周常2",nClass=3,nFrame=3,nIcon=13,nTime=119.2,szName="周常结算"},{key="周常1",nClass=4,nFrame=5,nIcon=13,nTime=0,szName="周常1"},{key="周常2",nClass=4,nFrame=5,nIcon=13,nTime=0,szName="周常2"}}},
 		},
 		[471] = {
 			{dwID=132794,nFrame=47,szName="光圈范围",szNote="光圈范围"},
@@ -88,11 +88,11 @@ return {
 			{szContent="协助订单已被完成！",tCountdown={{key="系统事件",nClass=14,nFrame=6,nIcon=13,nTime=15,szName="协助订单·完成"}}},
 			{[14]={bTeamChannel=true},szContent="成功重置原野奇踪进度",szNote="成功重置原野奇踪进度",tCountdown={{key="系统事件",nClass=14,nFrame=7,nIcon=949,nTime=5,szName="重置自身秘境成功"}}},
 			{szContent="阿甘开心的对你扭了扭！",tCountdown={{key="送花·CD",nClass=14,nFrame=6,nIcon=2286,nTime=120,szName="园宅送花·赞赏间隔"}}},
-			{szContent="侠士成功种下了百合种子·一级。",tCountdown={{key="百合",nClass=14,nFrame=7,nIcon=13159,nRefresh=1,nTime="10,百合·黄粉白;3312,百合·迅捷3;3456,百合·迅捷2;3528,百合·迅捷1;3600,百合·成熟",szName=""}}},
-			{szContent="侠士成功种下了玫瑰种子·一级。",tCountdown={{key="玫瑰",nClass=14,nFrame=7,nIcon=13161,nRefresh=1,nTime="10,玫瑰·红黄蓝橙粉;2484,玫瑰·迅捷3;2592,玫瑰·迅捷2;2646,玫瑰·迅捷1;2700,玫瑰·成熟",szName=""}}},
-			{szContent="侠士成功种下了牵牛花种子·一级。",tCountdown={{bHold=true,key="牵牛花",nClass=14,nFrame=7,nIcon=13160,nRefresh=1,nTime="10,牵牛花·红粉紫;1656,牵牛花·迅捷3;1728,牵牛花·迅捷2;1764,牵牛花·迅捷1;1800,牵牛花·成熟",szName=""}}},
-			{szContent="侠士成功种下了郁金香种子·一级。",tCountdown={{bHold=true,key="郁金香",nClass=14,nFrame=7,nIcon=13165,nRefresh=1,nTime="10,郁金香·红金粉;1104,郁金香·迅捷3;1152,郁金香·迅捷2;1176,郁金香·迅捷1;1200,郁金香·成熟",szName=""}}},
-			{szContent="侠士成功种下了绣球花种子·一级。",tCountdown={{bHold=true,key="绣球花",nClass=14,nFrame=7,nIcon=13164,nRefresh=1,nTime="10,绣球花·红白紫;552,绣球花·迅捷3;576,绣球花·迅捷2;588,绣球花·迅捷1;600,绣球花·成熟",szName=""}}},
+			{szContent="侠士成功种下了百合种子·一级。",tCountdown={{key="百合",nClass=14,nFrame=7,nIcon=13159,nRefresh=1,nTime="10,百合·黄粉白;3312,百合·迅捷3;3456,百合·迅捷2;3528,百合·迅捷1;3600,百合·成熟",szName="百合"}}},
+			{szContent="侠士成功种下了玫瑰种子·一级。",tCountdown={{key="玫瑰",nClass=14,nFrame=7,nIcon=13161,nRefresh=1,nTime="10,玫瑰·红黄蓝橙粉;2484,玫瑰·迅捷3;2592,玫瑰·迅捷2;2646,玫瑰·迅捷1;2700,玫瑰·成熟",szName="玫瑰"}}},
+			{szContent="侠士成功种下了牵牛花种子·一级。",tCountdown={{bHold=true,key="牵牛花",nClass=14,nFrame=7,nIcon=13160,nRefresh=1,nTime="10,牵牛花·红粉紫;1656,牵牛花·迅捷3;1728,牵牛花·迅捷2;1764,牵牛花·迅捷1;1800,牵牛花·成熟",szName="牵牛花"}}},
+			{szContent="侠士成功种下了郁金香种子·一级。",tCountdown={{bHold=true,key="郁金香",nClass=14,nFrame=7,nIcon=13165,nRefresh=1,nTime="10,郁金香·红金粉;1104,郁金香·迅捷3;1152,郁金香·迅捷2;1176,郁金香·迅捷1;1200,郁金香·成熟",szName="郁金香"}}},
+			{szContent="侠士成功种下了绣球花种子·一级。",tCountdown={{bHold=true,key="绣球花",nClass=14,nFrame=7,nIcon=13164,nRefresh=1,nTime="10,绣球花·红白紫;552,绣球花·迅捷3;576,绣球花·迅捷2;588,绣球花·迅捷1;600,绣球花·成熟",szName="绣球花"}}},
 			{szContent="阁下可获得的园宅币上限不足或持有的物品不足，暂时无法出售！",szNote="园宅币上限或物品不足",tCountdown={{key="道具上限",nClass=14,nFrame=2,nIcon=3530,nTime=10,szName="园宅币上限或物品不足"}}},
 			{szContent="你的园宅币已到携带上限",szNote="园宅币·携带上限",tCountdown={{key="道具上限",nClass=14,nFrame=2,nIcon=3530,nTime=10,szName="园宅币·携带上限"}}},
 			{[14]={bCenterAlarm=true},bReg=true,szContent="^恭喜侠士获得“(.-)”增益！",szNote="祈福树·增益·{$1}",szTarget="%",tCountdown={{key="祈福树·{$1}",nClass=14,nFrame=6,nIcon=14797,nTime=20,szName="祈福树·增益·{$1}"}}},
@@ -114,7 +114,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791190289,
+		nTimeStamp = 1793094710,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

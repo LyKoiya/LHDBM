@@ -2,7 +2,7 @@ return {
 	BUFF = {},
 	CASTING = {
 		[620] = {
-			{dwID=32121,nLevel=1,tCountdown={{nClass=9,nFrame=3,nIcon=13170,nRefresh=0,nTime="3,追击开始;12,追击结束",szName=""}}},
+			{dwID=32121,nLevel=1,tCountdown={{nClass=9,nFrame=3,nIcon=13170,nRefresh=0,nTime="3,追击开始;12,追击结束",szName="追击开始"}}},
 			{dwID=32327,nLevel=1,tCountdown={{nClass=8,nFrame=4,nIcon=11981,nTime=10,szName="跳舞结束"}}},
 			{dwID=32073,nLevel=1,tCountdown={{nClass=9,nFrame=4,nIcon=12449,nTime=8.4,szName="准备击退"},{nClass=9,nFrame=7,nIcon=13169,nTime=10,szName="进圈结算"}}},
 			{dwID=32295,nLevel=1,tCountdown={{nClass=9,nFrame=3,nIcon=2028,nTime=10,szName="走火入魔"}}},
@@ -45,7 +45,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791190289,
+		nTimeStamp = 1793094710,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

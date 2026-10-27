@@ -21,12 +21,12 @@ return {
 	},
 	TALK = {
 		[2] = {
-			{szContent="好画！好画！",szTarget="赵小凯",tCountdown={{key="奇遇提示0",nClass=14,nFrame=0,nIcon=12373,nRefresh=0,nTime="5,恭喜触发孩童书;15,奇遇不封印·约15分钟完成;30,1.对话赵小凯·三星望月找陈一;180,2.往长安方向寻找·散落的书页;240,3.返回对话陈一·楼外找徐书;150,4.采摘·止血草并使用;270,4.返回对话陈一·楼下找吴岱;360,5.吴岱身后山崖树边触发脚印剧情;420,6.落星湖对话葛晚星·花海东偷书小兽;480,7.返回找葛晚星·返回找陈一;600,8.仙迹岩寻找·颜真卿;720,9.等待剧情后·返回找陈一;780,10.对话颜真卿·返回对话陈一;840,11.下楼对话徐书;900,12.再次对话陈一·结束",szName="奇遇提示0"},{key="奇遇提示1",nClass=14,nFrame=7,nIcon=12373,nRefresh=0,nTime="180,1.对话赵小凯·三星望月找陈一;360,4.返回对话陈一·楼下找吴岱",szName=""},{key="奇遇提示2",nClass=14,nFrame=7,nIcon=12373,nRefresh=0,nTime="180,2.往长安方向寻找·散落的书页;360,5.吴岱身后山崖树边触发脚印剧情",szName=""},{key="奇遇提示3",nClass=14,nFrame=7,nIcon=12373,nRefresh=0,nTime="180,3.返回对话陈一·楼外找徐书;360,6.落星湖葛晚星·花海东偷书小兽",szName=""}}},
+			{szContent="好画！好画！",szTarget="赵小凯",tCountdown={{key="奇遇提示0",nClass=14,nFrame=0,nIcon=12373,nRefresh=0,nTime="5,恭喜触发孩童书;15,奇遇不封印·约15分钟完成;30,1.对话赵小凯·三星望月找陈一;180,2.往长安方向寻找·散落的书页;240,3.返回对话陈一·楼外找徐书;150,4.采摘·止血草并使用;270,4.返回对话陈一·楼下找吴岱;360,5.吴岱身后山崖树边触发脚印剧情;420,6.落星湖对话葛晚星·花海东偷书小兽;480,7.返回找葛晚星·返回找陈一;600,8.仙迹岩寻找·颜真卿;720,9.等待剧情后·返回找陈一;780,10.对话颜真卿·返回对话陈一;840,11.下楼对话徐书;900,12.再次对话陈一·结束",szName="奇遇提示0"},{key="奇遇提示1",nClass=14,nFrame=7,nIcon=12373,nRefresh=0,nTime="180,1.对话赵小凯·三星望月找陈一;360,4.返回对话陈一·楼下找吴岱",szName="奇遇提示1"},{key="奇遇提示2",nClass=14,nFrame=7,nIcon=12373,nRefresh=0,nTime="180,2.往长安方向寻找·散落的书页;360,5.吴岱身后山崖树边触发脚印剧情",szName="奇遇提示2"},{key="奇遇提示3",nClass=14,nFrame=7,nIcon=12373,nRefresh=0,nTime="180,3.返回对话陈一·楼外找徐书;360,6.落星湖葛晚星·花海东偷书小兽",szName="奇遇提示3"}}},
 			{szContent="不仅是你们小师弟，尔等也须谨记。",szTarget="颜真卿",tCountdown={{key="奇遇提示0",nClass=14,nFrame=0,nIcon=12373,nRefresh=0,nTime="60,10.对话颜真卿·返回对话陈一;120,11.下楼对话徐书;180,12.再次对话陈一·结束",szName="奇遇提示0"},{key="奇遇提示1",nClass=14,nFrame=7,nIcon=12373,nTime=0,szName="奇遇提示1"},{key="奇遇提示2",nClass=14,nFrame=7,nIcon=12373,nTime=0,szName="奇遇提示2"},{key="奇遇提示3",nClass=14,nFrame=7,nIcon=12373,nTime=0,szName="奇遇提示3"},{key="奇遇提示1",nClass=14,nFrame=7,nIcon=12373,nTime=300,szName="10.对话颜真卿·返回对话陈一"},{key="奇遇提示2",nClass=14,nFrame=7,nIcon=12373,nTime=300,szName="11.下楼对话徐书"},{key="奇遇提示3",nClass=14,nFrame=7,nIcon=12373,nTime=300,szName="12.再次对话陈一·结束"}}},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791190288,
+		nTimeStamp = 1793094710,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "",
 		szEdition = "zhcn_hd",

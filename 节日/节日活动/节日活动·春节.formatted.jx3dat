@@ -375,7 +375,7 @@ return {
 			{[14]={bCenterAlarm=true},szContent="红纸包上写着：疑。快做出对应的动作来赢得奖励吧。",szNote="红纸包·疑·按6",tCountdown={{key="红纸包",nClass=14,nFrame=7,nIcon=21742,nTime=15,szName="红纸包·疑·按6"}}},
 			{[14]={bCenterAlarm=true},szContent="红纸包上写着：寻。快做出对应的动作来赢得奖励吧。",szNote="红纸包·寻·按7",tCountdown={{key="红纸包",nClass=14,nFrame=7,nIcon=21741,nTime=15,szName="红纸包·寻·按7"}}},
 			{[14]={bCenterAlarm=true},szContent="红纸包上写着：盼。快做出对应的动作来赢得奖励吧。",szNote="红纸包·盼·按8",tCountdown={{key="红纸包",nClass=14,nFrame=7,nIcon=21738,nTime=15,szName="红纸包·盼·按8"}}},
-			{szContent="红纸包只有20个，存在1分钟，先到先得！",szTarget="福豆",tCountdown={{nClass=14,nFrame=4,nIcon=13,nRefresh=0,nTime="60,红纸包·消失剩余;180,红纸包·刷新剩余",szName=""}}},
+			{szContent="红纸包只有20个，存在1分钟，先到先得！",szTarget="福豆",tCountdown={{nClass=14,nFrame=4,nIcon=13,nRefresh=0,nTime="60,红纸包·消失剩余;180,红纸包·刷新剩余",szName="红纸包"}}},
 			{[14]={bCenterAlarm=true,bScreenHead=true},col={255,50,255},szContent="这一式！喜！",szNote="舞狮·喜·按1",szTarget="福豆",tCountdown={{key="舞狮",nClass=14,nFrame=6,nIcon=21739,nTime=33,szName="舞狮·喜·按1"}}},
 			{[14]={bCenterAlarm=true,bScreenHead=true},col={255,50,255},szContent="下一式！怒！",szNote="舞狮·怒·按2",szTarget="福豆",tCountdown={{key="舞狮",nClass=14,nFrame=6,nIcon=21737,nTime=33,szName="舞狮·怒·按2"}}},
 			{[14]={bCenterAlarm=true,bScreenHead=true},col={255,50,255},szContent="下一式！醉！想想看，你喝醉的样子。",szNote="舞狮·醉·按3",szTarget="福豆",tCountdown={{key="舞狮",nClass=14,nFrame=6,nIcon=21743,nTime=33,szName="舞狮·醉·按3"}}},
@@ -390,7 +390,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791190289,
+		nTimeStamp = 1793094710,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

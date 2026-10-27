@@ -52,7 +52,7 @@ return {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=36778,nFrame=47,szNote="藏宝洞接引人"},
 		},
 		[190] = {
-			{[3]={tMark={false,false,false,false,false,false,false,false,false,true}},aFocus={{nMaxDistance=80,szDisplay="王史涯",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=36683,nFrame=47,szNote="王史涯",tCountdown={{nClass=6,nFrame=5,nIcon=13,nTime="0.6,准备神怒·后跳,3;0.2,准备神怒·后跳,3",szName=""}}},
+			{[3]={tMark={false,false,false,false,false,false,false,false,false,true}},aFocus={{nMaxDistance=80,szDisplay="王史涯",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=36683,nFrame=47,szNote="王史涯",tCountdown={{nClass=6,nFrame=5,nIcon=13,nTime="0.6,准备神怒·后跳,3;0.2,准备神怒·后跳,3",szName="王史涯"}}},
 			{[3]={bCenterAlarm=true},aFocus={{nMaxDistance=0,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=36780,nFrame=57,szNote="小火圈"},
 			{[3]={bCenterAlarm=true},dwID=36719,nFrame=57,szNote="伤害圈"},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=36778,nFrame=47,szNote="藏宝洞接引人"},
@@ -69,7 +69,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791190289,
+		nTimeStamp = 1793094710,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

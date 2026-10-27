@@ -65,11 +65,11 @@ return {
 	},
 	TALK = {
 		[-2] = {
-			{szContent="多谢侠士相助！今日花会成功举办，我等这就将鲜花送给城中百姓，以表万花谷的心意。",szNote="重阳节·机甲巨豕·已击退",szTarget="白馨",tCountdown={{key="机甲巨豕",nClass=14,nFrame=3,nIcon=144,nRefresh=0,nTime="10,机甲巨豕·已击退;118.43,神秘的碎片·拾取剩余",szName=""}}},
+			{szContent="多谢侠士相助！今日花会成功举办，我等这就将鲜花送给城中百姓，以表万花谷的心意。",szNote="重阳节·机甲巨豕·已击退",szTarget="白馨",tCountdown={{key="机甲巨豕",nClass=14,nFrame=3,nIcon=144,nRefresh=0,nTime="10,机甲巨豕·已击退;118.43,神秘的碎片·拾取剩余",szName="机甲巨豕"}}},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1793094135,
+		nTimeStamp = 1793094710,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

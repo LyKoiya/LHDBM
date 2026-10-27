@@ -50,7 +50,7 @@ return {
 			{szContent="你已完成了[寻宫大肥]。\
 ",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="可组队共享次数"}}},
 			{szContent="你已完成了[美人图]。\
-",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName=""},{key="美人图2",nClass=20,nIcon=13,nTime=0,szName=""},{key="美人图3",nClass=20,nIcon=13,nTime=0,szName=""}}},
+",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="美人图1"},{key="美人图2",nClass=20,nIcon=13,nTime=0,szName="美人图2"},{key="美人图3",nClass=20,nIcon=13,nTime=0,szName="美人图3"}}},
 			{szContent="你已完成了[寻龙勘脉窥天机]。\
 ",tCountdown={{key="寻龙勘脉窥天机·开启",nClass=20,nIcon=4975,nTime=0,szName="寻龙勘脉·任务结束"}}},
 		},
@@ -112,7 +112,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791190288,
+		nTimeStamp = 1793094710,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
