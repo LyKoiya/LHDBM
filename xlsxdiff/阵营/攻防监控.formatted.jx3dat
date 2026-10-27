@@ -4,8 +4,11 @@ return {
 			{{bBuffList=true},dwID=11035,nLevel=1,szName="找镖师",szNote="寻找镖师"},
 			{{bBuffList=true,bPartyBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bOnlyMe=true,col="#00FFFFFF",colScreenHead="#00FFFF",nColAlpha=255,nPriority=2,szReminder="旗"},{bOnlyMe=false,bScreenHead=true,col="#00FFFFFF",colScreenHead="#00FFFF",nColAlpha=255,nPriority=3,nStackNum=1,szReminder="旗",szStackOp=">="}},col={0,255,255},dwID=7561,nLevel=1,szName="守据点",szNote="守卫据点",tCountdown={{key="拾取大旗·{$receiver}",nClass=1,nFrame=8,nIcon=592,nTime=30,szName="【{$receiver}】·拾取大旗"},{key="拾取大旗·{$receiver}",nClass=2,nIcon=592,nTime=-1,szName="拾取大旗"}}},
 			{{bBuffList=true,bPartyBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bOnlyMe=true,col="#00FFFFFF",colScreenHead="#00FFFF",nColAlpha=255,nPriority=2,szReminder="旗"},{bOnlyMe=false,bScreenHead=true,col="#00FFFFFF",colScreenHead="#00FFFF",nColAlpha=255,nPriority=3,nStackNum=1,szReminder="旗",szStackOp=">="}},col={0,255,255},dwID=7525,nLevel=1,szName="占据点",szNote="据点大旗",tCountdown={{key="拾取大旗·{$receiver}",nClass=1,nFrame=8,nIcon=592,nTime=30,szName="【{$receiver}】·拾取大旗"},{key="拾取大旗·{$receiver}",nClass=2,nIcon=592,nTime=-1,szName="拾取大旗"}}},
-			{{bScreenHead=true},col={255,50,255},dwID=7373,nIcon=134,nLevel=1,nScrutinyType=3,szName="箭弩车",szNote="箭弩车记录ID"},
-			{{bBuffList=true},col={0,255,0},dwID=7492,nLevel=1,nScrutinyType=2,szName="御城矛",szNote="御城·矛"},
+			{{bScreenHead=true},col={255,50,255},dwID=7373,nIcon=134,nLevel=1,nScrutinyType=3,szName="箭弩车",szNote="箭弩车记录ID·大车坐下"},
+			{{bBuffList=true},col={0,255,0},dwID=7492,nLevel=1,nScrutinyType=2,szName="矛御城",szNote="御城·矛"},
+			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#B3EE3A",colScreenHead="#B3EE3A",nColAlpha=255,nPriority=18,szReminder="急"}},col={179,238,74},dwID=16035,nLevel=1,nScrutinyType=2,szName="急御城",szNote="御城·急"},
+			{dwID=7743,nLevel=1,nScrutinyType=2,szName="抗旗",szNote="扛旗表现·恶抗浩旗lv2"},
+			{{bBuffList=true},col={0,255,255},dwID=8021,nLevel=1,nScrutinyType=2,szName="读条中",szNote="读条标记·野性撞击"},
 		},
 		[-19] = {
 			{{bBuffList=true},dwID=3921,nIcon=134,nLevel=1,nScrutinyType=1,szName="弩CD",szNote="伟龙debuff"},
@@ -22,19 +25,25 @@ return {
 			{{bBuffList=true,bPartyBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bOnlyMe=true,col="#00FFFFFF",colScreenHead="#00FFFF",nColAlpha=255,nPriority=2,szReminder="旗"},{bOnlyMe=false,bScreenHead=true,col="#00FFFFFF",colScreenHead="#00FFFF",nColAlpha=255,nPriority=3,nStackNum=1,szReminder="旗",szStackOp=">="}},col={0,255,255},dwID=7561,nLevel=1,szName="守据点",szNote="守卫据点",tCountdown={{key="拾取大旗·{$receiver}",nClass=1,nFrame=8,nIcon=592,nTime=30,szName="【{$receiver}】·拾取大旗"},{key="拾取大旗·{$receiver}",nClass=2,nIcon=592,nTime=-1,szName="拾取大旗"}}},
 			{{bBuffList=true,bPartyBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bOnlyMe=true,col="#00FFFFFF",colScreenHead="#00FFFF",nColAlpha=255,nPriority=2,szReminder="旗"},{bOnlyMe=false,bScreenHead=true,col="#00FFFFFF",colScreenHead="#00FFFF",nColAlpha=255,nPriority=3,nStackNum=1,szReminder="旗",szStackOp=">="}},col={0,255,255},dwID=7525,nLevel=1,szName="占据点",szNote="据点大旗",tCountdown={{key="拾取大旗·{$receiver}",nClass=1,nFrame=8,nIcon=592,nTime=30,szName="【{$receiver}】·拾取大旗"},{key="拾取大旗·{$receiver}",nClass=2,nIcon=592,nTime=-1,szName="拾取大旗"}}},
 			{{bScreenHead=true},col={255,50,255},dwID=7373,nIcon=134,nLevel=1,nScrutinyType=3,szName="箭弩车",szNote="箭弩车记录ID"},
-			{{bBuffList=true},col={0,255,0},dwID=7492,nLevel=1,nScrutinyType=2,szName="御城矛",szNote="御城·矛"},
+			{{bBuffList=true},col={0,255,0},dwID=7492,nLevel=1,nScrutinyType=2,szName="矛御城",szNote="御城·矛"},
+			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#B3EE3A",colScreenHead="#B3EE3A",nColAlpha=255,nPriority=18,szReminder="急"}},col={179,238,74},dwID=16035,nLevel=1,nScrutinyType=2,szName="急御城",szNote="御城·急"},
 		},
 		[656] = {
 			{col={80,231,236},dwID=27699,nLevel=1,nScrutinyType=1,szName="据点内",szNote="请战·少林寺",tCountdown={{key="据点大旗·旗手提示",nClass=1,nIcon=27699,nTime=-1,szName="据点大旗·旗手提示"}}},
 			{{bBuffList=true,bPartyBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bOnlyMe=true,col="#00FFFFFF",colScreenHead="#00FFFF",nColAlpha=255,nPriority=2,szReminder="旗"},{bOnlyMe=false,bScreenHead=true,col="#00FFFFFF",colScreenHead="#00FFFF",nColAlpha=255,nPriority=3,nStackNum=1,szReminder="旗",szStackOp=">="}},col={0,255,255},dwID=7561,nLevel=1,szName="守据点",szNote="守卫据点",tCountdown={{key="拾取大旗·{$receiver}",nClass=1,nFrame=8,nIcon=592,nTime=30,szName="【{$receiver}】·拾取大旗"},{key="拾取大旗·{$receiver}",nClass=2,nIcon=592,nTime=-1,szName="拾取大旗"}}},
 			{{bBuffList=true,bPartyBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bOnlyMe=true,col="#00FFFFFF",colScreenHead="#00FFFF",nColAlpha=255,nPriority=2,szReminder="旗"},{bOnlyMe=false,bScreenHead=true,col="#00FFFFFF",colScreenHead="#00FFFF",nColAlpha=255,nPriority=3,nStackNum=1,szReminder="旗",szStackOp=">="}},col={0,255,255},dwID=7525,nLevel=1,szName="占据点",szNote="据点大旗",tCountdown={{key="拾取大旗·{$receiver}",nClass=1,nFrame=8,nIcon=592,nTime=30,szName="【{$receiver}】·拾取大旗"},{key="拾取大旗·{$receiver}",nClass=2,nIcon=592,nTime=-1,szName="拾取大旗"}}},
 			{{bScreenHead=true},col={255,50,255},dwID=7373,nIcon=134,nLevel=1,nScrutinyType=3,szName="箭弩车",szNote="箭弩车记录ID"},
-			{{bBuffList=true},col={0,255,0},dwID=7492,nLevel=1,nScrutinyType=2,szName="御城矛",szNote="御城·矛"},
+			{{bBuffList=true},col={0,255,0},dwID=7492,nLevel=1,nScrutinyType=2,szName="矛御城",szNote="御城·矛"},
+			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#B3EE3A",colScreenHead="#B3EE3A",nColAlpha=255,nPriority=18,szReminder="急"}},col={179,238,74},dwID=16035,nLevel=1,nScrutinyType=2,szName="急御城",szNote="御城·急"},
 		},
 	},
 	CASTING = {
 		[-20] = {
 			{dwID=8823,nLevel=1,nScrutinyType=4,szNote="御城·抛掷",tCountdown={{key="招式提示1",nClass=9,nFrame=5,nIcon=13,nRefresh=2,nTime="2,御城·抛掷·远离1仇5尺;4.5,抛掷·眩晕;15,御城·抛掷·下一个",szName="御城·抛掷·下一个"}}},
+			{[8]={bScreenHead=true},col={0,255,255},dwID=9307,nLevel=1,nScrutinyType=1,szNote="野性撞击·摧城车"},
+			{dwID=22908,nLevel=1,nScrutinyType=1,szNote="御城·急",tCountdown={{key="御城·急",nClass=9,nFrame=0,nIcon=3776,nRefresh=10,nTime="5,御城急·免减速;10,御城急·CD;11,御城急·就绪",szName="御城·急"}}},
+			{dwID=24959,nLevel=1,nScrutinyType=4,szNote="狼牙先锋首领·火雷术",tCountdown={{key="招式提示1",nClass=8,nFrame=5,nIcon=13,nRefresh=3,nTime="3,火雷术·远离火雷10尺",szName="火雷术·远离火雷10尺"}}},
+			{dwID=24960,nLevel=1,nScrutinyType=4,szNote="狼牙先锋首领·无情践踏",tCountdown={{key="招式提示1",nClass=8,nFrame=5,nIcon=13,nRefresh=3,nTime="3,无情践踏·远离10尺",szName="无情践踏·远离10尺"}}},
 		},
 		[-19] = {
 			{[8]={bScreenHead=true},dwID=7242,nLevel=1,szNote="屹立不倒",tCountdown={{key="屹立不倒",nClass=8,nFrame=0,nIcon=1537,nRefresh=0,nTime="1,屹立不倒·{$sender}·正在释放;9.5,屹立不倒·{$sender}·50减伤;32.5,屹立不倒·{$sender}·释放剩余;40.5,屹立不倒·{$sender}·延迟释放;50,屹立不倒·{$sender}·随时释放",szName="屹立不倒"},{key="屹立不倒",nClass=9,nFrame=0,nIcon=1537,nRefresh=5,nTime="9,屹立不倒·{$sender}·50减伤;31.5,屹立不倒·{$sender}·释放剩余;40,屹立不倒·{$sender}·延迟释放;50,屹立不倒·{$sender}·随时释放",szName="屹立不倒"}}},
@@ -43,6 +52,18 @@ return {
 			{dwID=27917,nLevel=1,szNote="伊夜·斩无常",tCountdown={{key="反弹提示",nClass=8,nFrame=0,nIcon=12101,nRefresh=2,nTime="2.5,伊夜·斩无常·正在反弹;27,伊夜·斩无常·释放剩余",szName="反弹提示"}}},
 			{dwID=7230,nLevel=1,szNote="王遗风·红尘曲·倾城",tCountdown={{key="招式提示1",nClass=8,nFrame=0,nIcon=2033,nRefresh=1,nTime="1,红尘曲倾城·抬血",szName="招式提示1"}}},
 			{dwID=7330,nLevel=1,szNote="王遗风·红尘曲·御伤",tCountdown={{key="王遗风",nClass=9,nFrame=0,nIcon=2024,nRefresh=2,nTime="10,红尘曲御伤·80减伤",szName="王遗风"}}},
+		},
+		[216] = {
+			{dwID=8823,nLevel=1,nScrutinyType=4,szNote="御城·抛掷",tCountdown={{key="招式提示1",nClass=9,nFrame=5,nIcon=13,nRefresh=2,nTime="2,御城·抛掷·远离1仇5尺;4.5,抛掷·眩晕;15,御城·抛掷·下一个",szName="御城·抛掷·下一个"}}},
+			{dwID=22908,nLevel=1,nScrutinyType=1,szNote="御城·急",tCountdown={{key="御城·急",nClass=9,nFrame=0,nIcon=3776,nRefresh=10,nTime="5,御城急·免减速;10,御城急·CD;11,御城急·就绪",szName="御城·急"}}},
+			{dwID=24959,nLevel=1,nScrutinyType=4,szNote="狼牙先锋首领·火雷术",tCountdown={{key="招式提示1",nClass=8,nFrame=5,nIcon=13,nRefresh=3,nTime="3,火雷术·远离火雷10尺",szName="火雷术·远离火雷10尺"}}},
+			{dwID=24960,nLevel=1,nScrutinyType=4,szNote="狼牙先锋首领·无情践踏",tCountdown={{key="招式提示1",nClass=8,nFrame=5,nIcon=13,nRefresh=3,nTime="3,无情践踏·远离10尺",szName="无情践踏·远离10尺"}}},
+		},
+		[656] = {
+			{dwID=8823,nLevel=1,nScrutinyType=4,szNote="御城·抛掷",tCountdown={{key="招式提示1",nClass=9,nFrame=5,nIcon=13,nRefresh=2,nTime="2,御城·抛掷·远离1仇5尺;4.5,抛掷·眩晕;15,御城·抛掷·下一个",szName="御城·抛掷·下一个"}}},
+			{dwID=22908,nLevel=1,nScrutinyType=1,szNote="御城·急",tCountdown={{key="御城·急",nClass=9,nFrame=0,nIcon=3776,nRefresh=10,nTime="5,御城急·免减速;10,御城急·CD;11,御城急·就绪",szName="御城·急"}}},
+			{dwID=24959,nLevel=1,nScrutinyType=4,szNote="狼牙先锋首领·火雷术",tCountdown={{key="招式提示1",nClass=8,nFrame=5,nIcon=13,nRefresh=3,nTime="3,火雷术·远离火雷10尺",szName="火雷术·远离火雷10尺"}}},
+			{dwID=24960,nLevel=1,nScrutinyType=4,szNote="狼牙先锋首领·无情践踏",tCountdown={{key="招式提示1",nClass=8,nFrame=5,nIcon=13,nRefresh=3,nTime="3,无情践踏·远离10尺",szName="无情践踏·远离10尺"}}},
 		},
 	},
 	CHAT = {
@@ -363,6 +384,8 @@ return {
 			{col={128,238,255},dwID=29007,nLevel=1,nScrutinyType=1,szNote="九素化生·伤害距离",tCountdown={{key="诛恶事件",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="诛恶事件"},{key="通用事件",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="通用事件"},{key="金水镇",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="金水镇"},{key="巴陵县",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="巴陵县"},{key="龙门荒漠",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="龙门荒漠"},{key="南屏山",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="南屏山"},{key="昆仑",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="昆仑"},{key="白龙口",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="白龙口"},{key="无量山",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="无量山"},{key="黑龙沼",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="黑龙沼"},{key="阴山大草原",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="阴山大草原"},{key="黑戈壁",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="黑戈壁"},{key="鲲鹏岛",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="鲲鹏岛"},{key="绣球花",nClass=1,nIcon=13,nTime=-1,szName="绣球花"},{key="郁金香",nClass=1,nIcon=13,nTime=-1,szName="郁金香"},{key="牵牛花",nClass=1,nIcon=13,nTime=-1,szName="牵牛花"},{key="诛恶事件",nClass=2,nIcon=13,nTime=-2,szName="诛恶事件"},{key="通用事件",nClass=2,nIcon=13,nTime=-2,szName="通用事件"},{key="金水镇",nClass=2,nIcon=13,nTime=-2,szName="金水镇"},{key="巴陵县",nClass=2,nIcon=13,nTime=-2,szName="巴陵县"},{key="龙门荒漠",nClass=2,nIcon=13,nTime=-2,szName="龙门荒漠"},{key="南屏山",nClass=2,nIcon=13,nTime=-2,szName="南屏山"},{key="昆仑",nClass=2,nIcon=13,nTime=-2,szName="昆仑"},{key="白龙口",nClass=2,nIcon=13,nTime=-2,szName="白龙口"},{key="无量山",nClass=2,nIcon=13,nTime=-2,szName="无量山"},{key="黑龙沼",nClass=2,nIcon=13,nTime=-2,szName="黑龙沼"},{key="阴山大草原",nClass=2,nIcon=13,nTime=-2,szName="阴山大草原"},{key="黑戈壁",nClass=2,nIcon=13,nTime=-2,szName="黑戈壁"},{key="鲲鹏岛",nClass=2,nIcon=13,nTime=-2,szName="鲲鹏岛"}}},
 			{col={80,231,236},dwID=11561,nLevel=1,nScrutinyType=1,szName="据点内",szNote="判断是否在大旗附近",tCountdown={{key="据点大旗·旗手提示",nClass=1,nIcon=1272,nTime=-1,szName="据点大旗·旗手提示"}}},
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#FFFFFF00",nPriority=1}},col={255,255,255},dwID=7723,nLevel=1,nScrutinyType=2,szNote="神机雷"},
+			{{bBuffList=true},col={255,127,170},dwID=8037,nLevel=1,nScrutinyType=2,szNote="灼烧"},
+			{col={255,50,50},dwID=7908,nLevel=1,nScrutinyType=1,szName="禁跳",szNote="跳跃控制·抗大旗触发"},
 		},
 		[-19] = {
 			{col={255,255,0},dwID=11567,nIcon=1245,nLevel=1,nScrutinyType=1,szName="答对",szNote="回答奖励",tCountdown={{key="挂机检测",nClass=1,nFrame=1,nIcon=13,nTime=5,szName="答题验证·回答正确"}}},
@@ -448,6 +471,7 @@ return {
 			{[17]={bScreenHead=true},aFocus={{nMaxDistance=60,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={31,230,255},dwID=7010,szNote="祭天护送浩气宝箱"},
 			{[17]={bCenterAlarm=true,bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="狼牙先锋首领·掉落",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={100,255,100},dwID=8418,szName="狼牙先锋首领掉落"},
 			{[17]={bCenterAlarm=true,bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="粮仓宝堆",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={100,255,100},dwID=6971,szName="粮仓宝堆"},
+			{aFocus={{nMaxDistance=10,szDisplay="火雷",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,50},dwID=5296,szNote="狼牙先锋首领·火雷·燃烧的火焰"},
 		},
 		[-19] = {
 			{[17]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="物资堆·物资车",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={100,255,100},dwID=5693,szName="物资堆·物资车"},
@@ -458,10 +482,12 @@ return {
 		[216] = {
 			{[17]={bCenterAlarm=true,bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="狼牙先锋首领·掉落",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={100,255,100},dwID=8418,szName="狼牙先锋首领掉落"},
 			{[17]={bCenterAlarm=true,bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="粮仓宝堆",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={100,255,100},dwID=6971,szName="粮仓宝堆"},
+			{aFocus={{nMaxDistance=10,szDisplay="火雷",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,50},dwID=5296,szNote="狼牙先锋首领·火雷·燃烧的火焰"},
 		},
 		[656] = {
 			{[17]={bCenterAlarm=true,bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="狼牙先锋首领·掉落",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={100,255,100},dwID=8418,szName="狼牙先锋首领掉落"},
 			{[17]={bCenterAlarm=true,bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="粮仓宝堆",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={100,255,100},dwID=6971,szName="粮仓宝堆"},
+			{aFocus={{nMaxDistance=10,szDisplay="火雷",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,50},dwID=5296,szNote="狼牙先锋首领·火雷·燃烧的火焰"},
 		},
 	},
 	NPC = {
@@ -523,6 +549,7 @@ return {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=10,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={100,255,100},dwID=30537,nFrame=47,szNote="据点伙计"},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=true,bEnemy=false}}},dwID=36388,nFrame=47,szNote="浩气·据点总管"},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=true,bEnemy=false}}},dwID=36387,nFrame=47,szNote="恶人·据点总管"},
+			{dwID=100383,nFrame=57,szNote="狼牙先锋首领·火雷"},
 		},
 		[-19] = {
 			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="摧城车·恶人",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=true,bEnemy=true}}},col={255,120,31},dwID=46194,nFrame=52,szName="恶人·摧城车",szNote="摧城车底座-恶人",tCountdown={{nClass=12,nFrame=1,nIcon=15838,nTime=10,szName="恶人·摧城车·已摧毁"}}},
@@ -870,6 +897,8 @@ return {
 			{[14]={bCenterAlarm=true},col={255,255,100},szContent="可恶！",szNote="{$sender}·败退",szTarget="%",tCountdown={{key="守备首领·浩气盟大将",nClass=14,nIcon=1465,nRefresh=2,nTime=-2,szName="浩气盟大将"},{key="守备首领·恶人谷大将",nClass=14,nIcon=1465,nRefresh=2,nTime=-2,szName="恶人谷大将"},{key="守备首领·{$sender}",nClass=14,nIcon=13,nTime=-2,szName="{$sender}"},{key="守备首领·浩气盟大将",nClass=14,nFrame=7,nIcon=18829,nRefresh=1,nTime=10,szName="浩气盟大将·败退"},{key="守备首领·恶人谷大将",nClass=14,nFrame=3,nIcon=18830,nRefresh=1,nTime=10,szName="恶人谷大将·败退"}}},
 			{[14]={bCenterAlarm=true},col={255,255,100},szContent="敌人攻势凶猛，吾今日暂且撤退，休养生息，来日再战！",szNote="{$sender}·败退",szTarget="%",tCountdown={{key="增援首领·{$sender}",nClass=14,nFrame=8,nIcon=13,nTime=10,szName="{$sender}·败退"}}},
 			{[14]={bCenterAlarm=true},col={255,255,100},szContent="你们这些卑鄙小人，这个时间我是不会把据点让给你们的！",szNote="{$sender}·拒绝换防",szTarget="%",tCountdown={{key="阵营业务",nClass=14,nFrame=8,nIcon=13,nTime=10,szName="{$sender}·拒绝换防"}}},
+			{[14]={bCenterAlarm=true},col={255,255,100},szContent="敌方据点范围内，无法组装神机车。",szNote="据点内·无法组装·神机车",szTarget="%"},
+			{[14]={bCenterAlarm=true},col={255,255,100},szContent="敌方据点范围内，无法组装摧城车。",szNote="据点内·无法组装·摧城车",szTarget="%"},
 			{bSearch=true,col={255,100,100},szContent="留下大量军功，请“恶人谷”侠士们前来拾取，切莫错过。",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=3,nIcon=13,nRefresh=300,nTime="300,恶人谷·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="恶人谷·拾取首领掉落"}}},
 			{bSearch=true,col={100,100,255},szContent="留下大量军功，请“浩气盟”侠士们前来拾取，切莫错过。",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=7,nIcon=13,nRefresh=300,nTime="300,浩气盟·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="浩气盟·拾取首领掉落"}}},
 			{[14]={bCenterAlarm=true,bFullScreen=true},col={255,50,255},szContent="您因消极怠战,扰乱阵营秩序，被阵营督查官请离当前地图，但同时给予250点贡献积分！",szNote="阵营督查官·请离据点攻防",szTarget="%",tCountdown={{bHold=true,key="挂机检测",nClass=14,nFrame=1,nIcon=13,nTime=30,szName="阵营督查·请离据点攻防"}}},
@@ -934,7 +963,7 @@ return {
 			{[14]={bCenterAlarm=true},bReg=true,col={255,255,100},szContent="^本周累计从(.-)奖励堆获得战阶：(%d-)/(%d+)",szNote="{$1}·累计奖励堆·[{$2}/{$3}]",szTarget="%"},
 			{[14]={bCenterAlarm=true},bReg=true,col={255,255,100},szContent="^本场攻防“(.-)”“(.-)·(.-)”已结束，(.-)存活首领及拥有据点数为(%d-)，获得(%d-)分；(.-)存活首领及拥有据点数为(%d-)，获得(%d-)分。请再接再厉！",szNote="{$2}·{$3}·[{$4}{$5}·{$6}]:[{$7}{$8}·{$9}]",szTarget="%",tCountdown={{key="阵营活动",nClass=14,nFrame=-1,nIcon=2401,nTime=0,szName="阵营活动"},{key="破阵点将·一",nClass=14,nFrame=-1,nIcon=2397,nRefresh=2,nTime=-1,szName="破阵点将·一"},{key="破阵点将·二",nClass=14,nFrame=-1,nIcon=2398,nRefresh=2,nTime=-1,szName="破阵点将·二"},{key="{$2}·{$3}",nClass=14,nFrame=-1,nIcon=2396,nTime=-2,szName="{$2}·{$3}"},{key="破阵点将·一·常驻",nClass=14,nFrame=-1,nIcon=7674,nRefresh=0,nTime="2700,{$5}{$4}{$6}·{$8}{$7}{$9};4500,{$5}{$4}{$6}·{$8}{$7}{$9}",szName="{$4}{$5}·{$6}分·{$7}{$8}·{$9}分"},{key="破阵点将·二·常驻",nClass=14,nFrame=-1,nIcon=7676,nRefresh=0,nTime="1800.1,{$5}{$4}{$6}·{$8}{$7}{$9}",szName="{$4}{$5}·{$6}分·{$7}{$8}·{$9}分"},{key="破阵点将·{$3}·常驻",nClass=14,nIcon=13,nRefresh=99999,nTime=-2,szName="破阵点将·{$3}"},{key="破阵点将·一·常驻",nClass=14,nFrame=-1,nIcon=1465,nTime=0.001,szName=" "},{key="破阵点将·二·常驻",nClass=14,nFrame=-1,nIcon=1465,nTime=0.001,szName=" "},{key="破阵点将·一",nClass=14,nFrame=-1,nIcon=2401,nRefresh=1,nTime="60,{$4}{$5}·{$6}分·{$7}{$8}·{$9}分;840,阶段·物资车2·出发剩余;850,阶段·物资车2·正在出发;900,阶段·首领出战·助战剩余;905,阶段·首领出战·助战结束;2699,阶段·破阵点将2·结算剩余;2705,阶段·破阵点将2·正在结算;2710,阶段·物资车3·正在出发;4500,阶段·本场攻防·结束剩余;4505,阶段·本场攻防·正在结算;4510,阶段·本场攻防·已经结束",szName="{$4}{$5}·{$6}分·{$7}{$8}·{$9}分"},{key="破阵点将·二",nClass=14,nFrame=-1,nIcon=2401,nRefresh=1,nTime="60,{$4}{$5}·{$6}分·{$7}{$8}·{$9}分;1800.15,阶段·本场攻防·结束剩余;1805,阶段·本场攻防·正在结算;1810,阶段·本场攻防·已经结束",szName="{$4}{$5}·{$6}分·{$7}{$8}·{$9}分"}}},
 			{col={255,255,100},szContent="五分钟内只可拾取一次对立阵营首领仓皇撤退留下的物资。",szNote="主场·助战首领堆·拾取间隔",tCountdown={{key="首领拾取间隔",nClass=14,nIcon=13,nTime=-2,szName="首领拾取间隔"}}},
-			{bReg=true,col={255,255,100},szContent="放置一辆摧城车，本日本阵营还可放置(%d-)辆摧城车。",szNote="放置·摧城车",tCountdown={{key="摧城车",nClass=14,nFrame=1,nIcon=6158,nTime=10,szName="摧城车·本日剩余·{$1}辆"}}},
+			{bReg=true,col={255,255,100},szContent="放置一辆摧城车，本日本阵营还可放置(%d-)辆摧城车。",szNote="放置·摧城车",tCountdown={{key="载具物资",nClass=14,nFrame=1,nIcon=6158,nTime=10,szName="摧城车·本日剩余·{$1}辆"}}},
 			{col={255,255,100},szContent="当前分线即将关闭，请离场景内所有侠士。",szNote="分线关闭·请离侠士"},
 			{[14]={bCenterAlarm=true},col={100,100,255},szContent="唯有浩气盟侠士方可拾取此物资堆。",szNote="浩气侠士·方可拾取",szTarget="%"},
 			{[14]={bCenterAlarm=true},col={255,100,100},szContent="唯有恶人谷侠士方可拾取此物资堆。",szNote="恶人侠士·方可拾取",szTarget="%"},
@@ -1078,6 +1107,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1793093967,
+		nTimeStamp = 1793113371,
 	},
 }
