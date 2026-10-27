@@ -12,6 +12,7 @@
 		}
 	],
 	"settings": {
+		// 开启 Emmylua 插件的自动补全功能
 		"emmylua.completion.enable": true,
 		// 针对 Python 文件单独设置为 UTF-8
 		"[python]": {
@@ -33,7 +34,8 @@
 			"**/*.ini.zh_TW": "utf8",
 			"**/*.txt": "gbk",
 			"**/*zhtw*.txt": "utf8",
-			"**/*.yml":"utf8"
+			"**/*.yml":"utf8",
+			"**/*.md":"utf8"
 		},
 		"python.analysis.extraPaths": [
 			"${workspaceFolder}/!src-dist/scripts"
