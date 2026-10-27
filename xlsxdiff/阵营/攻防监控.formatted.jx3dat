@@ -34,7 +34,7 @@ return {
 	},
 	CASTING = {
 		[-20] = {
-			{dwID=8823,nLevel=1,nScrutinyType=4,szNote="御城·抛掷",tCountdown={{key="招式提示1",nClass=9,nFrame=5,nIcon=13,nRefresh=2,nTime="2,御城·抛掷;4.5,抛掷·眩晕;15,御城·抛掷·下一个",szName="御城·抛掷·下一个"}}},
+			{dwID=8823,nLevel=1,nScrutinyType=4,szNote="御城·抛掷",tCountdown={{key="招式提示1",nClass=9,nFrame=5,nIcon=13,nRefresh=2,nTime="2,御城·抛掷·远离1仇5尺;4.5,抛掷·眩晕;15,御城·抛掷·下一个",szName="御城·抛掷·下一个"}}},
 		},
 		[-19] = {
 			{[8]={bScreenHead=true},dwID=7242,nLevel=1,szNote="屹立不倒",tCountdown={{key="屹立不倒",nClass=8,nFrame=0,nIcon=1537,nRefresh=0,nTime="1,屹立不倒·{$sender}·正在释放;9.5,屹立不倒·{$sender}·50减伤;32.5,屹立不倒·{$sender}·释放剩余;40.5,屹立不倒·{$sender}·延迟释放;50,屹立不倒·{$sender}·随时释放",szName="屹立不倒"},{key="屹立不倒",nClass=9,nFrame=0,nIcon=1537,nRefresh=5,nTime="9,屹立不倒·{$sender}·50减伤;31.5,屹立不倒·{$sender}·释放剩余;40,屹立不倒·{$sender}·延迟释放;50,屹立不倒·{$sender}·随时释放",szName="屹立不倒"}}},
@@ -869,6 +869,7 @@ return {
 			{[14]={bCenterAlarm=true},szContent="尔等鼠辈！谁敢与我一战！",szNote="据点攻防·正式开始",szTarget="%",tCountdown={{key="阵营活动",nClass=14,nFrame=0,nIcon=3536,nRefresh=2,nTime="2,据点攻防·正式开始;10,建议关闭·江湖身份",szName="据点攻防·正式开始"},{key="绣球花",nClass=14,nIcon=13,nTime=-1,szName="绣球花"},{key="郁金香",nClass=14,nIcon=13,nTime=-1,szName="郁金香"},{key="牵牛花",nClass=14,nIcon=13,nTime=-1,szName="牵牛花"},{key="诛恶事件",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="诛恶事件"},{key="通用事件",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="通用事件"},{key="金水镇",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="金水镇"},{key="巴陵县",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="巴陵县"},{key="龙门荒漠",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="龙门荒漠"},{key="南屏山",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="南屏山"},{key="昆仑",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="昆仑"},{key="白龙口",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="白龙口"},{key="无量山",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="无量山"},{key="黑龙沼",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="黑龙沼"},{key="阴山大草原",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="阴山大草原"},{key="黑戈壁",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="黑戈壁"},{key="鲲鹏岛",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="鲲鹏岛"}}},
 			{[14]={bCenterAlarm=true},col={255,255,100},szContent="可恶！",szNote="{$sender}·败退",szTarget="%",tCountdown={{key="守备首领·浩气盟大将",nClass=14,nIcon=1465,nRefresh=2,nTime=-2,szName="浩气盟大将"},{key="守备首领·恶人谷大将",nClass=14,nIcon=1465,nRefresh=2,nTime=-2,szName="恶人谷大将"},{key="守备首领·{$sender}",nClass=14,nIcon=13,nTime=-2,szName="{$sender}"},{key="守备首领·浩气盟大将",nClass=14,nFrame=7,nIcon=18829,nRefresh=1,nTime=10,szName="浩气盟大将·败退"},{key="守备首领·恶人谷大将",nClass=14,nFrame=3,nIcon=18830,nRefresh=1,nTime=10,szName="恶人谷大将·败退"}}},
 			{[14]={bCenterAlarm=true},col={255,255,100},szContent="敌人攻势凶猛，吾今日暂且撤退，休养生息，来日再战！",szNote="{$sender}·败退",szTarget="%",tCountdown={{key="增援首领·{$sender}",nClass=14,nFrame=8,nIcon=13,nTime=10,szName="{$sender}·败退"}}},
+			{[14]={bCenterAlarm=true},col={255,255,100},szContent="你们这些卑鄙小人，这个时间我是不会把据点让给你们的！",szNote="{$sender}·拒绝换防",szTarget="%",tCountdown={{key="阵营业务",nClass=14,nFrame=8,nIcon=13,nTime=10,szName="{$sender}·拒绝换防"}}},
 			{bSearch=true,col={255,100,100},szContent="留下大量军功，请“恶人谷”侠士们前来拾取，切莫错过。",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=3,nIcon=13,nRefresh=300,nTime="300,恶人谷·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="恶人谷·拾取首领掉落"}}},
 			{bSearch=true,col={100,100,255},szContent="留下大量军功，请“浩气盟”侠士们前来拾取，切莫错过。",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=7,nIcon=13,nRefresh=300,nTime="300,浩气盟·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="浩气盟·拾取首领掉落"}}},
 			{[14]={bCenterAlarm=true,bFullScreen=true},col={255,50,255},szContent="您因消极怠战,扰乱阵营秩序，被阵营督查官请离当前地图，但同时给予250点贡献积分！",szNote="阵营督查官·请离据点攻防",szTarget="%",tCountdown={{bHold=true,key="挂机检测",nClass=14,nFrame=1,nIcon=13,nTime=30,szName="阵营督查·请离据点攻防"}}},
@@ -877,12 +878,12 @@ return {
 			{[14]={bCenterAlarm=true,bScreenHead=true},bReg=true,col={100,255,100},szContent="已为.-补.-%[(.+)%].-(%d-)个.-消耗(%d+%.?%d-)金",szNote="补货·[{$1}]·{$2}",szTarget="据点总管",tCountdown={{key="阵营模式",nClass=14,nFrame=6,nIcon=13,nTime=-2,szName="阵营模式"},{key="阵营模式",nClass=14,nFrame=6,nIcon=135,nRefresh=600,nTime=10,szName="补货·[{$1}]·{$2}"}}},
 			{[14]={bCenterAlarm=true},bReg=true,col={255,255,100},szContent="(.-)离开据点过久，或在原地五尺范围内盘踞超过五分钟，旗帜重置！",szNote="[{$1}]·离开据点·大旗重置",szTarget="%",tCountdown={{key="离开据点·大旗重置",nClass=14,nFrame=4,nIcon=592,nTime=180,szName="【{$1}·离开据点】大旗重置"}}},
 			{[14]={bCenterAlarm=true},bReg=true,col={255,255,100},szContent="^%[逐鹿中原%]%[(.-)%]：正在(.-)城门！",szNote="[{$1}]·{$2}·城门",szTarget="%",tCountdown={{key="打开·城门",nClass=14,nFrame=5,nIcon=1465,nRefresh=10,nTime=-2,szName="打开·城门"},{key="关闭·城门",nClass=14,nFrame=5,nIcon=1465,nRefresh=10,nTime=-2,szName="关闭·城门"},{key="{$2}·城门",nClass=14,nFrame=5,nIcon=13,nTime=-2,szName="{$2}·城门"},{key="打开·城门",nClass=14,nFrame=1,nIcon=2310,nRefresh=10,nTime=10,szName="城门·打开·[{$1}]"},{key="关闭·城门",nClass=14,nFrame=1,nIcon=4839,nRefresh=10,nTime=10,szName="城门·关闭·[{$1}]"}}},
+			{[14]={bCenterAlarm=true},col={255,255,100},szContent="少侠并没有【管理活动】权限，不能召唤增援。",szNote="缺少·管锂活动·权限",szTarget="%",tCountdown={{key="阵营业务",nClass=14,nFrame=8,nIcon=13,nTime=10,szName="缺少·管锂活动·权限"}}},
 			{[14]={bCenterAlarm=true,bTeamChannel=true},col={255,255,100},szContent="身负据点大旗，当心被夺！",szNote="[{$me}]·扛起大旗",tCountdown={{key="拾取大旗·{$me}",nClass=14,nFrame=8,nIcon=592,nTime=30,szName="【{$me}】·拾取大旗"}}},
 			{col={255,255,100},szContent="你已经离开据点，10秒内未进入据点，则据点旗帜重置。",tCountdown={{key="据点大旗·旗手提示",nClass=14,nFrame=2,nIcon=592,nTime=10,szName="据点大旗·重置剩余"}}},
 			{[14]={bCenterAlarm=true,bFullScreen=true,bTeamChannel=true,bWhisperChannel=true,szVoice="DianMing_P"},col={255,50,255},szContent="系统检测您有挂机行为，如果长期维持该状态将被传送出图！",szNote="挂机检测·快活跃起来",tCountdown={{key="挂机检测",nClass=14,nFrame=2,nIcon=13,nTime=30,szName="挂机检测·动一动"}}},
 			{[14]={bCenterAlarm=true},col={255,50,255},szContent="侠士对抗类装分过低，请前往分流场景或黑戈壁参与。",szNote="据点攻防·装分过低",tCountdown={{bHold=true,key="挂机检测",nClass=14,nFrame=2,nIcon=13,nTime=30,szName="据点攻防·装分过低"}}},
 			{[14]={bCenterAlarm=true},col={255,50,255},szContent="因侠士近来行为异常，逐鹿中原期间，禁止参与，你即将被传送到百溪！",szNote="据点攻防·禁止参与",tCountdown={{bHold=true,key="挂机检测",nClass=14,nFrame=2,nIcon=13,nTime=30,szName="据点攻防·禁止参与本场"}}},
-			{[14]={bCenterAlarm=true},col={255,255,100},szContent="少侠并没有【管理活动】权限，不能召唤增援。",szNote="缺少·管锂活动·权限",szTarget="%"},
 			{col={255,255,100},szContent="据点之战在即，为公平起见，侠士将在30秒后被传出本图，据点帮会25名拥有地图优先进入权的玩家将不会被传送出去。",szNote="据点攻防·场景清图",szTarget="%",tCountdown={{key="挂机检测",nClass=14,nFrame=4,nIcon=13,nRefresh=1,nTime="30,攻防清图·出图剩余;32,据点攻防·清图传出",szName="攻防清图·出图剩余"}}},
 			{[14]={bCenterAlarm=true,bFullScreen=true,szVoice="ShiYongDaoJu"},col={255,50,255},szContent="万水千山总是情，买满货物行不行？",szNote="据点贸易·货物不足"},
 		},
@@ -1077,6 +1078,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1792930944,
+		nTimeStamp = 1793093967,
 	},
 }
