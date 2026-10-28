@@ -17,11 +17,11 @@ return {
 	},
 	TALK = {},
 	__meta = {
-		nTimeStamp = 1792679924,
+		nTimeStamp = 1793173784,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "",
-		szEdition = "zhcn_exp",
+		szEdition = "zhcn_hd",
 		szOfficialVoicePacketUUID = "",
-		szServer = "苍生铸世",
+		szServer = "唯我独尊",
 	},
 }

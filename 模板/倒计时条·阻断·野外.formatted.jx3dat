@@ -14,11 +14,11 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791377205,
+		nTimeStamp = 1793173784,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
-		szEdition = "zhcn_exp",
+		szEdition = "zhcn_hd",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		szServer = "苍生铸世",
+		szServer = "唯我独尊",
 	},
 }
