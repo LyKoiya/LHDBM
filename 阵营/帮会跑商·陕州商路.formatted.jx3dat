@@ -12,15 +12,15 @@ return {
 	CHAT = {
 		[-21] = {
 			{col={100,255,255},szContent="陕州商路运输物资成功开启！请帮会有权限的侠士到洛阳城西帮会物资主簿处申请成为运货首领开始运送！\
-",szNote="陕州商路·成功开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·帮会大跑商·开启"}}},
+",szNote="陕州商路·活动开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·帮会大跑商·开启"}}},
 		},
 		[-7] = {
 			{col={100,255,255},szContent="陕州商路运输物资成功开启！请帮会有权限的侠士到洛阳城西帮会物资主簿处申请成为运货首领开始运送！\
-",szNote="陕州商路·成功开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·帮会大跑商·开启"}}},
+",szNote="陕州商路·活动开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·帮会大跑商·开启"}}},
 		},
 		[-2] = {
 			{col={100,255,255},szContent="陕州商路运输物资成功开启！请帮会有权限的侠士到洛阳城西帮会物资主簿处申请成为运货首领开始运送！\
-",szNote="陕州商路·成功开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·帮会大跑商·开启"}}},
+",szNote="陕州商路·活动开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·帮会大跑商·开启"}}},
 		},
 	},
 	DEBUFF = {
@@ -72,7 +72,7 @@ return {
 			{[14]={bCenterAlarm=true},bReg=true,col={100,255,255},szContent="(.-)已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",szNote="陕州商路·【{$1}】·送货首领",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·镖头·{$1}"}}},
 		},
 		[-1] = {
-			{col={100,255,255},szContent="陕州商路运输物资已成功开启，请有权限的侠士速到洛阳城西帮会物资主簿处申请成为运货首领开始运送！",szNote="陕州商路·开启",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=0,nIcon=8004,nTime=10,szName="陕州商路·帮会大跑商·开启"}}},
+			{col={100,255,255},szContent="陕州商路运输物资已成功开启，请有权限的侠士速到洛阳城西帮会物资主簿处申请成为运货首领开始运送！",szNote="陕州商路·活动开启",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=0,nIcon=8004,nTime=10,szName="陕州商路·帮会大跑商·开启"}}},
 			{bReg=false,bSearch=true,col={100,255,255},szContent="此次帮会通过陕州商路成功运抵",szNote="陕州商路·成功运抵",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·成功运抵"},{key="帮会跑商·时限",nClass=14,nIcon=13,nTime=-1,szName="陕州商路·时限"}}},
 		},
 		[194] = {
@@ -83,11 +83,11 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1792591695,
+		nTimeStamp = 1793173831,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
-		szEdition = "zhcn_exp",
+		szEdition = "zhcn_hd",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
-		szServer = "苍生铸世",
+		szServer = "唯我独尊",
 	},
 }
