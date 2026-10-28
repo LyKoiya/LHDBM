@@ -55,9 +55,34 @@ packList = [
         "Checked": True
     },
     {
+        "Path": "\\阵营\\千里伐逐.formatted.jx3dat",
+        "Method": "fileMerge",
+        "Checked": False
+    },
+    {
         "Path": "\\阵营\\阵营矿车·跨服·烂柯山.formatted.jx3dat",
         "Method": "fileMerge",
         "Checked": False
+    },
+    {
+        "Path": "\\阵营\\阵营矿车·跨服·河西瀚漠.formatted.jx3dat",
+        "Method": "fileMerge",
+        "Checked": False
+    },
+    {
+        "Path": "\\阵营\\阵营矿车·跨服·渝州.formatted.jx3dat",
+        "Method": "fileMerge",
+        "Checked": True
+    },
+    {
+        "Path": "\\阵营\\世界首领·跨服·河西瀚漠.formatted.jx3dat",
+        "Method": "fileMerge",
+        "Checked": False
+    },
+    {
+        "Path": "\\阵营\\世界首领·跨服·渝州.formatted.jx3dat",
+        "Method": "fileMerge",
+        "Checked": True
     },
     {
         "Path": "\\阵营\\帮会跑商·陕州商路.formatted.jx3dat",
@@ -67,7 +92,7 @@ packList = [
     {
         "Path": "\\阵营\\帮会跑商·阴山商路.formatted.jx3dat",
         "Method": "fileMerge",
-        "Checked": True
+        "Checked": False
     },
     {
         "Path": "\\阵营",
@@ -157,12 +182,12 @@ packList = [
     {
         "Path": "\\预热\\预热活动·机锁神都.formatted.jx3dat",
         "Method": "fileMerge",
-        "Checked": True
+        "Checked": False
     },
     {
         "Path": "\\预热\\书剑天涯·四乡风物.formatted.jx3dat",
         "Method": "fileMerge",
-        "Checked": True
+        "Checked": False
     },
     {
         "Path": "\\联动\\联动活动·鹅鸭杀.formatted.jx3dat",

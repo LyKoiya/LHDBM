@@ -1697,8 +1697,6 @@ return {
 			{{bBuffList=true,bCenterAlarm=true},dwID=9471,nLevel=1,nScrutinyType=1,szName="佛像"},
 			{{bBuffList=true},dwID=9522,nLevel=1,szName="守卫佛像"},
 			{{bBuffList=true},col={0,255,0},dwID=9566,nLevel=1,nScrutinyType=1},
-			{{bBuffList=true,bScreenHead=true},col={179,238,58},dwID=7508,nLevel=1,nScrutinyType=1},
-			{{bBuffList=true},col={255,150,0},dwID=10067,nLevel=1,nScrutinyType=1,szName="补货点"},
 		},
 		[215] = {
 			{{bBuffList=true},dwID=10075,nLevel=1,nScrutinyType=1,szName="丫鬟"},
@@ -1710,8 +1708,6 @@ return {
 			{dwID=16499,nLevel=1,nScrutinyType=1,tCountdown={{key="训马·交互·神采飞扬",nClass=1,nIcon=3401,nTime=-2,szName="训马·交互·神采飞扬"},{key="训马·交互·无忧无虑",nClass=1,nIcon=3401,nTime=-2,szName="训马·交互·无忧无虑"},{key="训马·心情",nClass=1,nIcon=3401,nTime=-2,szName="训马·心情"},{key="训马·交互",nClass=1,nIcon=3401,nTime=-2,szName="训马·交互"},{key="训马·交互·神采飞扬",nClass=2,nIcon=3401,nRefresh=180,nTime=-1,szName="训马·交互·神采飞扬"},{key="训马·交互·无忧无虑",nClass=2,nIcon=3401,nRefresh=180,nTime=-1,szName="训马·交互·无忧无虑"},{key="训马·心情",nClass=2,nIcon=3401,nRefresh=180,nTime=-1,szName="训马·心情"},{key="训马·交互",nClass=2,nIcon=3401,nRefresh=180,nTime=-1,szName="训马·交互"},{key="牧场",nClass=1,nFrame=4,nIcon=3401,nRefresh=0,nTime="60.2,放牧·计时剩余·1/3;120.4,放牧·计时剩余·2/3;180.6,放牧·计时剩余·3/3;183,放牧·计时结束,VO:ZhuanJieDuan"},{key="牧场",nClass=2,nIcon=3401,nTime=0,szName="牧场"}}},
 			{{bBuffList=true},dwID=8606,nLevel=1,nScrutinyType=1,szName="抗摔"},
 			{{bBuffList=true,bScreenHead=true},col={255,204,0},dwID=9548,nLevel=1,nScrutinyType=1,szName="格挡"},
-			{{bBuffList=true,bScreenHead=true},col={179,238,58},dwID=7508,nLevel=1,nScrutinyType=1},
-			{{bBuffList=true},col={255,150,0},dwID=10067,nLevel=1,nScrutinyType=1,szName="补货点"},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#B3EE3A",colScreenHead="#B3EE3A",nColAlpha=255,nPriority=18,szReminder="急"}},col={179,238,74},dwID=16035,nLevel=1,nScrutinyType=2,szName="急御城"},
 			{{bBuffList=true},col={0,255,0},dwID=7492,nLevel=1,nScrutinyType=2,szName="矛御城"},
 			{{bScreenHead=true},col={255,50,255},dwID=7373,nIcon=134,nLevel=1,nScrutinyType=3,szName="箭弩车"},
@@ -1722,7 +1718,6 @@ return {
 		[217] = {
 			{dwID=16499,nLevel=1,nScrutinyType=1,tCountdown={{key="训马·交互·神采飞扬",nClass=1,nIcon=3401,nTime=-2,szName="训马·交互·神采飞扬"},{key="训马·交互·无忧无虑",nClass=1,nIcon=3401,nTime=-2,szName="训马·交互·无忧无虑"},{key="训马·心情",nClass=1,nIcon=3401,nTime=-2,szName="训马·心情"},{key="训马·交互",nClass=1,nIcon=3401,nTime=-2,szName="训马·交互"},{key="训马·交互·神采飞扬",nClass=2,nIcon=3401,nRefresh=180,nTime=-1,szName="训马·交互·神采飞扬"},{key="训马·交互·无忧无虑",nClass=2,nIcon=3401,nRefresh=180,nTime=-1,szName="训马·交互·无忧无虑"},{key="训马·心情",nClass=2,nIcon=3401,nRefresh=180,nTime=-1,szName="训马·心情"},{key="训马·交互",nClass=2,nIcon=3401,nRefresh=180,nTime=-1,szName="训马·交互"},{key="牧场",nClass=1,nFrame=4,nIcon=3401,nRefresh=0,nTime="60.2,放牧·计时剩余·1/3;120.4,放牧·计时剩余·2/3;180.6,放牧·计时剩余·3/3;183,放牧·计时结束,VO:ZhuanJieDuan"},{key="牧场",nClass=2,nIcon=3401,nTime=0,szName="牧场"}}},
 			{{bBuffList=true},dwID=10009,nLevel=1},
-			{{bBuffList=true,bScreenHead=true},col={179,238,58},dwID=7508,nLevel=1,nScrutinyType=1},
 		},
 		[239] = {
 			{{bBuffList=true,bTeamPanel=true},dwID=11313,nLevel=1,nScrutinyType=2},
@@ -1894,9 +1889,6 @@ return {
 			{{bBuffList=true},dwID=29019,nIcon=6497,nLevel=1,nScrutinyType=1,szName="弹射"},
 			{{bBuffList=true,bFullScreen=true},col={153,26,26},dwID=29048,nIcon=3293,nLevel=1,nScrutinyType=1,szName="塔内"},
 			{{bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#FFFF0000",colScreenHead="#FFFF00",nPriority=40}},col={255,255,0},dwID=244,nLevel=1,szName="骑御中"},
-		},
-		[697] = {
-			{{bBuffList=true,bScreenHead=true},col={0,255,0},dwID=29449,nLevel=1,nScrutinyType=1},
 		},
 		[709] = {
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#00FF00FF",colScreenHead="#00FF00",nColAlpha=255,nPriority=12,szReminder="盾"}},col={0,255,0},dwID=31194,nLevel=1},
@@ -2399,8 +2391,6 @@ return {
 ",szNote="武林争霸赛·练习赛·已经报名",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·练习赛·已经报名"}}},
 			{col={255,255,100},szContent="正在拍卖世界首领掉落的稀有物品，其中有当前最高品质附魔，诸位侠士们切勿错过！\
 ",szNote="世界首领·拍卖掉落",tCountdown={{key="拍卖分红",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="世界首领·拍卖掉落"}}},
-			{col={100,255,255},szContent="陕州商路运输物资成功开启！请帮会有权限的侠士到洛阳城西帮会物资主簿处申请成为运货首领开始运送！\
-",szNote="陕州商路·成功开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·帮会大跑商·开启"}}},
 			{bReg=true,col={255,255,100},szContent="([浩气恶人]+)[盟谷]-的【(.-)】帮会成功占领【(.-)】据点！",szNote="{$3}·{$1}占领",tCountdown={{key="{$3}·浩气大旗",nClass=20,nIcon=13,nRefresh=2,nTime=-1,szName="{$3}·浩气大旗"},{key="{$3}·恶人大旗",nClass=20,nIcon=13,nRefresh=2,nTime=-1,szName="{$3}·恶人大旗"},{key="{$3}·{$1}大旗",nClass=20,nIcon=13,nTime=-2,szName="{$3}·{$1}大旗"},{key="{$3}·浩气大旗",nClass=20,nFrame=7,nIcon=14888,nRefresh=1,nTime=30,szName="【{$3}】·浩气[{$2}]占领"},{key="{$3}·恶人大旗",nClass=20,nFrame=3,nIcon=14887,nRefresh=1,nTime=30,szName="【{$3}】·恶人[{$2}]占领"}}},
 			{bReg=true,col={255,255,100},szContent="([浩气恶人]+)[盟谷]-位于([^%d]-)的【(.-)据点】大旗被夺",szNote="{$3}·{$1}大旗被夺",tCountdown={{key="{$3}·大旗重置",nClass=20,nFrame=4,nIcon=592,nTime=-1,szName="{$3}·大旗重置"},{key="{$3}·浩气大旗",nClass=20,nFrame=-1,nIcon=2397,nRefresh=2,nTime=-1,szName="{$3}·浩气大旗被夺"},{key="{$3}·恶人大旗",nClass=20,nFrame=-1,nIcon=2398,nRefresh=2,nTime=-1,szName="{$3}·恶人大旗被夺"},{key="{$3}·{$1}大旗",nClass=20,nFrame=7,nIcon=2400,nTime=-2,szName="{$3}·{$1}大旗被夺"},{key="{$3}·浩气大旗",nClass=20,nFrame=7,nIcon=4837,nRefresh=1,nTime=30,szName="{$2}【{$3}】浩气大旗被夺"},{key="{$3}·恶人大旗",nClass=20,nFrame=3,nIcon=4838,nRefresh=1,nTime=30,szName="{$2}【{$3}】恶人大旗被夺"}}},
 			{col={255,100,100},szContent="本周恶人谷略胜一筹，赢得了阵营胜利！所有参与击退敌对首领十次以上的恶人谷侠士下周一七时以后均可获得【血踪万里】称号！另外为了庆祝本周的胜利，恶人谷首领特请来舞狮队在长安、洛阳、扬州庆祝，感兴趣的侠士可以前往一观。\
@@ -2445,8 +2435,8 @@ return {
 ",szNote="扶摇九天·开启",tCountdown={{key="扶摇九天",nClass=20,nFrame=7,nIcon=12371,nTime=30,szName="少林·扶摇九天·开启"}}},
 			{col={100,255,255},szContent="江湖急报：巴陵县出现罕见异兽，请深通驭兽秘术之侠客前往收服，以解百姓之忧。\
 ",szNote="巴陵御兽·开启",tCountdown={{key="御兽挑战",nClass=20,nFrame=0,nIcon=8302,nTime=30,szName="巴陵·御兽挑战·开启"}}},
-			{col={100,255,255},szContent="阴山商路运输物资成功开启！请帮会有权限的侠士到黑戈壁帮会物资主簿处申请成为运货首领开始运送！\
-",szNote="阴山商路·成功开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="阴山商路·帮会大跑商·开启"}}},
+			{col={100,255,255},szContent="陕州商路运输物资成功开启！请帮会有权限的侠士到洛阳城西帮会物资主簿处申请成为运货首领开始运送！\
+",szNote="陕州商路·活动开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·帮会大跑商·开启"}}},
 			{col={100,255,255},szContent="帮会领地唱晚池突现异常，各类鱼儿异常活跃，鱼儿上钩时间大大缩短！各路已满80级的侠士可前往一试，定能收获不菲。\
 ",tCountdown={{key="帮会钓鱼",nClass=20,nFrame=6,nIcon=3781,nRefresh=1,nTime=15,szName="帮会钓鱼·活动开启"}}},
 			{col={100,255,255},szContent="南宫麒：随着暮色降临，扬州、五毒、明教、苍云、战乱天策魂虚场景中的魂灵变得活跃起来，各位方士不妨出魂一探究竟，说不定有意外收获！\
@@ -2552,8 +2542,6 @@ return {
 			{bReg=true,szContent="^【沙盘运输】(.-)势力本场累计达成(%d-)次运输车战果，丰厚嘉奖物资已出现在(.-)，请同阵营侠士前往拾取！",szNote="{$1}·沙盘运输·抵达{$2}辆",tCountdown={{key="恶人谷·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="恶人谷·沙盘运输"},{key="浩气盟·沙盘运输",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="浩气盟·沙盘运输"},{key="{$1}·沙盘运输",nClass=20,nIcon=13,nTime=-2,szName="{$1}·沙盘运输"},{key="恶人谷·沙盘运输",nClass=20,nFrame=3,nIcon=3316,nRefresh=1,nTime=60,szName="恶人·沙盘运输·抵达{$2}辆"},{key="浩气盟·沙盘运输",nClass=20,nFrame=7,nIcon=3319,nRefresh=1,nTime=60,szName="浩气·沙盘运输·抵达{$2}辆"}}},
 			{col={255,255,100},szContent="正在拍卖世界首领掉落的稀有物品，其中有当前最高品质附魔，诸位侠士们切勿错过！\
 ",szNote="世界首领·拍卖掉落",tCountdown={{key="拍卖分红",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="世界首领·拍卖掉落"}}},
-			{col={100,255,255},szContent="陕州商路运输物资成功开启！请帮会有权限的侠士到洛阳城西帮会物资主簿处申请成为运货首领开始运送！\
-",szNote="陕州商路·成功开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·帮会大跑商·开启"}}},
 			{bReg=true,col={255,255,100},szContent="([浩气恶人]+)[盟谷]-的【(.-)】帮会成功占领【(.-)】据点！",szNote="{$3}·{$1}占领",tCountdown={{key="{$3}·浩气大旗",nClass=20,nIcon=13,nTime=-1,szName="{$3}·浩气大旗"},{key="{$3}·恶人大旗",nClass=20,nIcon=13,nTime=-1,szName="{$3}·恶人大旗"},{key="{$3}·浩气占领",nClass=20,nFrame=3,nIcon=14887,nRefresh=1,nTime=30,szName="【{$3}】·恶人[{$2}]占领"},{key="{$3}·恶人占领",nClass=20,nFrame=7,nIcon=14888,nRefresh=1,nTime=30,szName="【{$3}】·浩气[{$2}]占领"},{key="{$3}·{$1}占领",nClass=20,nIcon=13,nTime=-1,szName="{$3}·{$1}占领"}}},
 			{bReg=true,col={255,255,100},szContent="([浩气恶人]+)[盟谷]-位于([^%d]-)的【(.-)据点】大旗被夺",szNote="{$3}·{$1}大旗被夺",tCountdown={{key="{$3}·大旗重置",nClass=20,nFrame=4,nIcon=592,nTime=-1,szName="{$3}·大旗重置"},{key="{$3}·浩气大旗",nClass=20,nFrame=-1,nIcon=2397,nRefresh=2,nTime=-1,szName="{$3}·浩气大旗被夺"},{key="{$3}·恶人大旗",nClass=20,nFrame=-1,nIcon=2398,nRefresh=2,nTime=-1,szName="{$3}·恶人大旗被夺"},{key="{$3}·{$1}大旗",nClass=20,nFrame=7,nIcon=2400,nTime=-2,szName="{$3}·{$1}大旗被夺"},{key="{$3}·浩气大旗",nClass=20,nFrame=7,nIcon=4837,nRefresh=1,nTime=30,szName="{$2}【{$3}】浩气大旗被夺"},{key="{$3}·恶人大旗",nClass=20,nFrame=3,nIcon=4838,nRefresh=1,nTime=30,szName="{$2}【{$3}】恶人大旗被夺"}}},
 			{col={255,100,100},szContent="本周恶人谷略胜一筹，赢得了阵营胜利！所有参与击退敌对首领十次以上的恶人谷侠士下周一七时以后均可获得【血踪万里】称号！另外为了庆祝本周的胜利，恶人谷首领特请来舞狮队在长安、洛阳、扬州庆祝，感兴趣的侠士可以前往一观。\
@@ -2614,8 +2602,8 @@ return {
 ",szNote="扶摇九天·开启",tCountdown={{key="扶摇九天",nClass=20,nFrame=7,nIcon=12371,nTime=30,szName="少林·扶摇九天·开启"}}},
 			{col={100,255,255},szContent="江湖急报：巴陵县出现罕见异兽，请深通驭兽秘术之侠客前往收服，以解百姓之忧。\
 ",szNote="巴陵御兽·开启",tCountdown={{key="御兽挑战",nClass=20,nFrame=0,nIcon=8302,nTime=30,szName="巴陵·御兽挑战·开启"}}},
-			{col={100,255,255},szContent="阴山商路运输物资成功开启！请帮会有权限的侠士到黑戈壁帮会物资主簿处申请成为运货首领开始运送！\
-",szNote="阴山商路·成功开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="阴山商路·帮会大跑商·开启"}}},
+			{col={100,255,255},szContent="陕州商路运输物资成功开启！请帮会有权限的侠士到洛阳城西帮会物资主簿处申请成为运货首领开始运送！\
+",szNote="陕州商路·活动开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·帮会大跑商·开启"}}},
 			{col={100,255,255},szContent="南宫麒：随着暮色降临，扬州、五毒、明教、苍云、战乱天策魂虚场景中的魂灵变得活跃起来，各位方士不妨出魂一探究竟，说不定有意外收获！\
 ",szNote="方士活动·已经开启",tCountdown={{key="方士提示1",nClass=20,nFrame=5,nIcon=16565,nTime=15,szName="方士·扬州|五毒|明教"},{key="方士提示2",nClass=20,nFrame=5,nIcon=16565,nTime=15,szName="方士·苍云|天策战乱"}}},
 			{col={100,255,255},szContent="帮会领地唱晚池突现异常，各类鱼儿异常活跃，鱼儿上钩时间大大缩短！各路已满80级的侠士可前往一试，定能收获不菲。\
@@ -2703,8 +2691,6 @@ return {
 ",szNote="武林争霸赛·练习赛·已经报名",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·练习赛·已经报名"}}},
 			{col={255,255,100},szContent="正在拍卖世界首领掉落的稀有物品，其中有当前最高品质附魔，诸位侠士们切勿错过！\
 ",szNote="世界首领·拍卖掉落",tCountdown={{key="拍卖分红",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="世界首领·拍卖掉落"}}},
-			{col={100,255,255},szContent="陕州商路运输物资成功开启！请帮会有权限的侠士到洛阳城西帮会物资主簿处申请成为运货首领开始运送！\
-",szNote="陕州商路·成功开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·帮会大跑商·开启"}}},
 			{bReg=true,col={255,255,100},szContent="([浩气恶人]+)[盟谷]-的【(.-)】帮会成功占领【(.-)】据点！",szNote="{$3}·{$1}占领",tCountdown={{key="{$3}·浩气大旗",nClass=20,nIcon=13,nRefresh=2,nTime=-1,szName="{$3}·浩气大旗"},{key="{$3}·恶人大旗",nClass=20,nIcon=13,nRefresh=2,nTime=-1,szName="{$3}·恶人大旗"},{key="{$3}·{$1}大旗",nClass=20,nIcon=13,nTime=-2,szName="{$3}·{$1}大旗"},{key="{$3}·浩气大旗",nClass=20,nFrame=7,nIcon=14888,nRefresh=1,nTime=30,szName="【{$3}】·浩气[{$2}]占领"},{key="{$3}·恶人大旗",nClass=20,nFrame=3,nIcon=14887,nRefresh=1,nTime=30,szName="【{$3}】·恶人[{$2}]占领"}}},
 			{bReg=true,col={255,255,100},szContent="([浩气恶人]+)[盟谷]-位于([^%d]-)的【(.-)据点】大旗被夺",szNote="{$3}·{$1}大旗被夺",tCountdown={{key="{$3}·大旗重置",nClass=20,nFrame=4,nIcon=592,nTime=-1,szName="{$3}·大旗重置"},{key="{$3}·浩气大旗",nClass=20,nFrame=-1,nIcon=2397,nRefresh=2,nTime=-1,szName="{$3}·浩气大旗被夺"},{key="{$3}·恶人大旗",nClass=20,nFrame=-1,nIcon=2398,nRefresh=2,nTime=-1,szName="{$3}·恶人大旗被夺"},{key="{$3}·{$1}大旗",nClass=20,nFrame=7,nIcon=2400,nTime=-2,szName="{$3}·{$1}大旗被夺"},{key="{$3}·浩气大旗",nClass=20,nFrame=7,nIcon=4837,nRefresh=1,nTime=30,szName="{$2}【{$3}】浩气大旗被夺"},{key="{$3}·恶人大旗",nClass=20,nFrame=3,nIcon=4838,nRefresh=1,nTime=30,szName="{$2}【{$3}】恶人大旗被夺"}}},
 			{col={255,100,100},szContent="本周恶人谷略胜一筹，赢得了阵营胜利！所有参与击退敌对首领十次以上的恶人谷侠士下周一七时以后均可获得【血踪万里】称号！另外为了庆祝本周的胜利，恶人谷首领特请来舞狮队在长安、洛阳、扬州庆祝，感兴趣的侠士可以前往一观。\
@@ -2774,8 +2760,8 @@ return {
 ",szNote="扶摇九天·开启",tCountdown={{key="扶摇九天",nClass=20,nFrame=7,nIcon=12371,nTime=30,szName="少林·扶摇九天·开启"}}},
 			{col={100,255,255},szContent="江湖急报：巴陵县出现罕见异兽，请深通驭兽秘术之侠客前往收服，以解百姓之忧。\
 ",szNote="巴陵御兽·开启",tCountdown={{key="御兽挑战",nClass=20,nFrame=0,nIcon=8302,nTime=30,szName="巴陵·御兽挑战·开启"}}},
-			{col={100,255,255},szContent="阴山商路运输物资成功开启！请帮会有权限的侠士到黑戈壁帮会物资主簿处申请成为运货首领开始运送！\
-",szNote="阴山商路·成功开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="阴山商路·帮会大跑商·开启"}}},
+			{col={100,255,255},szContent="陕州商路运输物资成功开启！请帮会有权限的侠士到洛阳城西帮会物资主簿处申请成为运货首领开始运送！\
+",szNote="陕州商路·活动开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·帮会大跑商·开启"}}},
 			{col={100,255,255},szContent="南宫麒：随着暮色降临，扬州、五毒、明教、苍云、战乱天策魂虚场景中的魂灵变得活跃起来，各位方士不妨出魂一探究竟，说不定有意外收获！\
 ",szNote="方士活动·已经开启",tCountdown={{key="方士提示1",nClass=20,nFrame=5,nIcon=16565,nTime=15,szName="方士·扬州|五毒|明教"},{key="方士提示2",nClass=20,nFrame=5,nIcon=16565,nTime=15,szName="方士·苍云|天策战乱"}}},
 			{col={100,255,255},szContent="帮会领地唱晚池突现异常，各类鱼儿异常活跃，鱼儿上钩时间大大缩短！各路已满80级的侠士可前往一试，定能收获不菲。\
@@ -2791,7 +2777,6 @@ return {
 ",tCountdown={{key="社交",nClass=20,nFrame=6,nIcon=2116,nTime=5,szName="对方不在线"}}},
 			{bReg=true,col={255,255,100},szContent="^你驯养的(.-)[触发]-事件“(.-)”([消除了]-)。",tCountdown={{key="寒风入体！·",nClass=20,nFrame=-1,nIcon=6227,nRefresh=2,nTime=-1,szName="寒风入体！·"},{key="焦躁不安！·",nClass=20,nFrame=-1,nIcon=6227,nRefresh=2,nTime=-1,szName="焦躁不安！·"},{key="野兽！野兽！·",nClass=20,nFrame=-1,nIcon=6227,nRefresh=2,nTime=-1,szName="野兽！野兽！·"},{key="受伤躁动！·",nClass=20,nFrame=-1,nIcon=6227,nRefresh=2,nTime=-1,szName="受伤躁动！·"},{key="惊恐不安！·",nClass=20,nFrame=-1,nIcon=6227,nRefresh=2,nTime=-1,szName="惊恐不安！·"},{key="{$2}·消除了",nClass=20,nFrame=-1,nIcon=6227,nRefresh=2,nTime=-1,szName="{$2}·消除了"},{key="{$2}·{$3}",nClass=20,nFrame=-1,nIcon=13,nTime=0,szName="{$2}·{$3}"},{key="寒风入体！·",nClass=20,nFrame=4,nIcon=2025,nRefresh=1,nTime=10,szName="{$1}·寒风入体·成都"},{key="焦躁不安！·",nClass=20,nFrame=4,nIcon=329,nRefresh=1,nTime=10,szName="{$1}·焦躁不安·扬州"},{key="野兽！野兽！·",nClass=20,nFrame=4,nIcon=89,nRefresh=1,nTime=10,szName="{$1}·野兽野兽·扬州"},{key="受伤躁动！·",nClass=20,nFrame=4,nIcon=3426,nRefresh=1,nTime=10,szName="{$1}·受伤躁动·成都"},{key="惊恐不安！·",nClass=20,nFrame=4,nIcon=643,nRefresh=1,nTime=10,szName="{$1}·惊恐不安·成都"},{key="{$2}·消除了",nClass=20,nFrame=6,nIcon=6227,nRefresh=1,nTime=5,szName="{$1}·{$2}·消除了"}}},
 			{bReg=true,col={255,255,100},szContent="^密探来报：\"(.-)\"(.-)出现在(.-)[前尘影事]-[“]-([峥嵘振武]-)[”]-([主分线]-)，",szNote="世界首领·出现",tCountdown={{key="世界首领",nClass=20,nFrame=0,nIcon=13,nRefresh=5,nTime=20,szName="{$1}·{$2}·{$3}·{$5}{$4}"}}},
-			{bReg=true,col={255,255,100},szContent="^%[(.-)%]服务器：%[(.-)%]大侠，率领%[([浩气盟恶人谷]-)%]阵营侠士们，成功夺得【(.-)】",tCountdown={{key="关隘·浩气盟·{$1}",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-1,szName="关隘·浩气盟·{$1}"},{key="关隘·恶人谷·{$1}",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-1,szName="关隘·恶人谷·{$1}"},{key="关隘·{$3}·{$1}",nClass=20,nFrame=5,nIcon=13,nTime=0,szName="关隘·{$3}·{$1}"},{key="关隘·浩气盟·{$1}",nClass=20,nFrame=7,nIcon=17583,nRefresh=1,nTime=10,szName="浩气盟·[{$1}]·{$4}"},{key="关隘·恶人谷·{$1}",nClass=20,nFrame=3,nIcon=17582,nRefresh=1,nTime=10,szName="恶人谷·[{$1}]·{$4}"}}},
 			{bSearch=true,szContent="你已进入地图",tCountdown={{key="浪客笺",nClass=20,nIcon=13,nTime=0,szName="浪客笺"},{key="金水镇",nClass=20,nIcon=13,nTime=-2,szName="金水镇"},{key="巴陵县",nClass=20,nIcon=13,nTime=-2,szName="巴陵县"},{key="龙门荒漠",nClass=20,nIcon=13,nTime=-2,szName="龙门荒漠"},{key="南屏山",nClass=20,nIcon=13,nTime=-2,szName="南屏山"},{key="昆仑",nClass=20,nIcon=13,nTime=-2,szName="昆仑"},{key="白龙口",nClass=20,nIcon=13,nTime=-2,szName="白龙口"},{key="无量山",nClass=20,nIcon=13,nTime=-2,szName="无量山"},{key="黑龙沼",nClass=20,nIcon=13,nTime=-2,szName="黑龙沼"},{key="阴山大草原",nClass=20,nIcon=13,nTime=-2,szName="阴山大草原"},{key="黑戈壁",nClass=20,nIcon=13,nTime=-2,szName="黑戈壁"},{key="鲲鹏岛",nClass=20,nIcon=13,nTime=-2,szName="鲲鹏岛"},{key="骑御·调息",nClass=20,nFrame=-1,nIcon=13,nRefresh=5,nTime=-1,szName="骑御·调息"},{key="炊事",nClass=20,nIcon=13,nRefresh=5,nTime=-1,szName="炊事"},{key="创意食品",nClass=20,nFrame=-1,nIcon=13,nRefresh=5,nTime=-1,szName="创意食品"},{bHold=true,key="每日茶饼",nClass=20,nFrame=6,nIcon=4434,nRefresh=99999,nTime=20,szName="记得领茶饼"},{key="诛恶事件",nClass=20,nIcon=13,nTime=-2,szName="诛恶事件"},{key="阵营活动",nClass=20,nIcon=13,nTime=-2,szName="阵营活动"},{key="通用事件",nClass=20,nIcon=13,nTime=-2,szName="通用事件"},{key="减伤监控",nClass=20,nIcon=13,nTime=-2,szName="减伤监控"}}},
 		},
 		[-1] = {
@@ -4164,16 +4149,6 @@ return {
 ",tCountdown={{key="蓝方·古猿·皓",nClass=20,nFrame=7,nIcon=2671,nRefresh=2,nTime="5,蓝方·获得古猿皓·资源+200;90,蓝方·古猿·刷新剩余;95,蓝方·古猿皓·已经刷新",szName="蓝方·古猿·刷新剩余"}}},
 			{szContent="蓝方成功击败了古猿\
 ",tCountdown={{key="通用·古猿",nClass=20,nFrame=7,nIcon=2671,nRefresh=0,nTime="5,蓝方·获得古猿·资源+200;90,蓝方·古猿·刷新剩余;95,蓝方·古猿·已经刷新",szName="蓝方·古猿·刷新剩余"}}},
-		},
-		[697] = {
-			{col={255,255,100},szContent="帮会辛大厨为大家准备了丰盛的午餐，各位侠士现在即可返回帮会领地尽情享用。\
-",szNote="帮会食堂·享用午餐",tCountdown={{key="关隘宝箱",nClass=20,nFrame=7,nIcon=13,nRefresh=5,nTime=-1,szName="关隘宝箱"}}},
-			{bReg=true,col={255,255,100},szContent="%[(.-)%]【(.-)】岂是你们这些([浩气恶人]-)宵小敢染指的，([浩气恶人]-)的兄弟们随我杀！",tCountdown={{key="关隘·进攻·浩气",nClass=20,nFrame=-1,nIcon=13,nRefresh=600,nTime=-2,szName="关隘·进攻·浩气"},{key="关隘·进攻·恶人",nClass=20,nFrame=-1,nIcon=13,nRefresh=600,nTime=-2,szName="关隘·进攻·恶人"},{key="关隘·进攻·{$3}",nClass=20,nIcon=13,nTime=0,szName="关隘·进攻·{$3}"},{key="关隘·进攻·浩气",nClass=20,nFrame=7,nIcon=11370,nRefresh=600,nTime=10,szName="浩气进攻·[{$1}]·{$2}"},{key="关隘·进攻·恶人",nClass=20,nFrame=3,nIcon=11369,nRefresh=600,nTime=10,szName="恶人进攻·[{$1}]·{$2}"}}},
-			{bReg=true,col={100,100,255},szContent="^%[(.-)%]服务器：%[(.-)%]大侠，率领%[浩气盟%]阵营侠士们，成功夺得【(.-)】",tCountdown={{key="关隘·拾取·浩气盟",nClass=20,nFrame=7,nIcon=17583,nTime=180,szName="浩气盟·[{$1}]·{$3}"}}},
-			{bReg=true,col={255,100,100},szContent="^%[(.-)%]服务器：%[(.-)%]大侠，率领%[恶人谷%]阵营侠士们，成功夺得【(.-)】",tCountdown={{key="关隘·拾取·恶人谷",nClass=20,nFrame=3,nIcon=17582,nTime=180,szName="恶人谷·[{$1}]·{$3}"}}},
-			{szContent="恭喜获得战利品。保家卫国，望侠士再接再厉！\
-",tCountdown={{key="拍卖分红",nClass=20,nFrame=1,nIcon=3556,nTime=10,szName="世界首领·战利品·已拾取"}}},
-			{bReg=true,szContent="^在众人齐心猛攻下，%[(.-)%]的世界首领“(.-)”已力竭败退！",tCountdown={{key="{$2}",nClass=20,nFrame=8,nIcon=13,nRefresh=1,nTime=5,szName="{$1}·{$2}·已败退"}}},
 		},
 		[701] = {
 			{szContent="你已接受了[鸿胪密室·一]。\
@@ -5581,12 +5556,6 @@ return {
 			{bCheckLevel=true,dwID=1624,nLevel=12,nScrutinyType=1,tCountdown={{key="冬至·饱食·长歌",nClass=1,nFrame=5,nIcon=7129,nRefresh=3600,nTime=2,szName="饱食·长歌·杨逸飞"}}},
 			{col={255,255,0},dwID=11582,nLevel=1,nScrutinyType=1,tCountdown={{key="雪山恩仇·提示0",nClass=1,nFrame=7,nIcon=13704,nTime=60,szName="雪山恩仇·长歌·杨逸飞"},{key="雪山恩仇·提示0",nClass=2,nFrame=7,nIcon=13704,nTime=0,szName="雪山恩仇·提示0"}},tKungFu={["SKILL#10447"]=true,["SKILL#10448"]=true}},
 		},
-		[214] = {
-			{{bBuffList=true},col={255,255,0},dwID=10068,nIcon=216,nLevel=1,nScrutinyType=1,szName="押镖"},
-			{{bBuffList=true},col={31,63,255},dwID=7851,nLevel=1,nScrutinyType=1},
-			{aCataclysmBuff={{col="#FFFFFFFF",nColAlpha=255,nPriority=2,szReminder="镖"}},col={255,255,255},dwID=9982,nLevel=1,nScrutinyType=2},
-			{{bBuffList=true},col={255,255,0},dwID=9992,nIcon=8004,nLevel=1,nScrutinyType=1,szName="大跑商"},
-		},
 		[215] = {
 			{{bBuffList=true},col={255,255,0},dwID=21769,nIcon=19489,nLevel=1,nScrutinyType=1,szName="剧情"},
 			{{bBuffList=true},col={255,255,0},dwID=21660,nIcon=19489,nLevel=1,nScrutinyType=1,szName="剧情"},
@@ -5610,10 +5579,6 @@ return {
 			{dwID=10205,nIcon=541,nLevel=1,nScrutinyType=1,szName="面纱"},
 			{dwID=9318,nLevel=1,nScrutinyType=1,tCountdown={{key="摔跤比试",nClass=1,nFrame=5,nIcon=13,nTime=-2,szName="摔跤比试"},{key="摔跤比试",nClass=2,nIcon=13,nRefresh=9999,nTime=-1,szName="摔跤比试"}}},
 			{{bBuffList=true},dwID=6820,nIcon=2179,nLevel=1,nScrutinyType=1,szName="如厕"},
-			{{bBuffList=true},col={255,255,0},dwID=10068,nIcon=216,nLevel=1,nScrutinyType=1,szName="押镖"},
-			{{bBuffList=true},col={31,63,255},dwID=7851,nLevel=1,nScrutinyType=1},
-			{aCataclysmBuff={{col="#FFFFFFFF",nColAlpha=255,nPriority=2,szReminder="镖"}},col={255,255,255},dwID=9982,nLevel=1,nScrutinyType=2},
-			{{bBuffList=true},col={255,255,0},dwID=9992,nIcon=8004,nLevel=1,nScrutinyType=1,szName="大跑商"},
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#FFFFFF00",nPriority=1}},col={255,255,255},dwID=7723,nLevel=1,nScrutinyType=2},
 			{col={128,238,255},dwID=29007,nLevel=1,nScrutinyType=1,tCountdown={{key="诛恶事件",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="诛恶事件"},{key="通用事件",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="通用事件"},{key="金水镇",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="金水镇"},{key="巴陵县",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="巴陵县"},{key="龙门荒漠",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="龙门荒漠"},{key="南屏山",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="南屏山"},{key="昆仑",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="昆仑"},{key="白龙口",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="白龙口"},{key="无量山",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="无量山"},{key="黑龙沼",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="黑龙沼"},{key="阴山大草原",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="阴山大草原"},{key="黑戈壁",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="黑戈壁"},{key="鲲鹏岛",nClass=1,nIcon=13,nRefresh=7200,nTime=-1,szName="鲲鹏岛"},{key="绣球花",nClass=1,nIcon=13,nTime=-1,szName="绣球花"},{key="郁金香",nClass=1,nIcon=13,nTime=-1,szName="郁金香"},{key="牵牛花",nClass=1,nIcon=13,nTime=-1,szName="牵牛花"},{key="诛恶事件",nClass=2,nIcon=13,nTime=-2,szName="诛恶事件"},{key="通用事件",nClass=2,nIcon=13,nTime=-2,szName="通用事件"},{key="金水镇",nClass=2,nIcon=13,nTime=-2,szName="金水镇"},{key="巴陵县",nClass=2,nIcon=13,nTime=-2,szName="巴陵县"},{key="龙门荒漠",nClass=2,nIcon=13,nTime=-2,szName="龙门荒漠"},{key="南屏山",nClass=2,nIcon=13,nTime=-2,szName="南屏山"},{key="昆仑",nClass=2,nIcon=13,nTime=-2,szName="昆仑"},{key="白龙口",nClass=2,nIcon=13,nTime=-2,szName="白龙口"},{key="无量山",nClass=2,nIcon=13,nTime=-2,szName="无量山"},{key="黑龙沼",nClass=2,nIcon=13,nTime=-2,szName="黑龙沼"},{key="阴山大草原",nClass=2,nIcon=13,nTime=-2,szName="阴山大草原"},{key="黑戈壁",nClass=2,nIcon=13,nTime=-2,szName="黑戈壁"},{key="鲲鹏岛",nClass=2,nIcon=13,nTime=-2,szName="鲲鹏岛"}}},
 			{{bBuffList=true,bScreenHead=true},aCataclysmBuff={{bScreenHead=true,col="#1F3FFFFF",colScreenHead="#1F3FFF",nColAlpha=255,nPriority=15,szReminder="锁"}},col={31,63,255},dwID=4038,nLevel=1,nScrutinyType=1},
@@ -5641,10 +5606,6 @@ return {
 			{{bBuffList=true},bCheckLevel=true,dwID=16517,nLevel=2,nScrutinyType=1,tCountdown={{key="训马·心情",nClass=1,nFrame=3,nIcon=13,nTime=60,szName="训马·心情·狂躁不安"}}},
 			{{bPartyBuffList=true},{bCenterAlarm=true},col={255,255,0},dwID=12829,nLevel=1,nScrutinyType=1,szName="限时",tCountdown={{key="奇遇提示4",nClass=1,nFrame=2,nIcon=2030,nTime=30,szName="使用·背包·未完成的地图"}}},
 			{{bBuffList=true},col={255,255,0},dwID=23131,nIcon=19489,nLevel=1,nScrutinyType=1,szName="剧情"},
-			{{bBuffList=true},col={255,255,0},dwID=10068,nIcon=216,nLevel=1,nScrutinyType=1,szName="押镖"},
-			{{bBuffList=true},col={31,63,255},dwID=7851,nLevel=1,nScrutinyType=1},
-			{aCataclysmBuff={{col="#FFFFFFFF",nColAlpha=255,nPriority=2,szReminder="镖"}},col={255,255,255},dwID=9982,nLevel=1,nScrutinyType=2},
-			{{bBuffList=true},col={255,255,0},dwID=9992,nIcon=8004,nLevel=1,nScrutinyType=1,szName="大跑商"},
 		},
 		[239] = {
 			{{bBuffList=true,bScreenHead=true},col={0,255,255},dwID=17592,nIcon=237,nLevel=1,nScrutinyType=1,szName="喝酒"},
@@ -5982,11 +5943,6 @@ return {
 		},
 		[697] = {
 			{{bBuffList=true,bCenterAlarm=true},col={255,150,0},dwID=25417,nLevel=1,nScrutinyType=1,szName="追魂骨",tCountdown={{key="奇遇提示0",nClass=1,nFrame=0,nIcon=4946,nTime=10,szName="触发·绝世奇遇·追魂骨"}}},
-			{[2]={bCenterAlarm=true,szVoice="ZhuanJieDuan"},dwID=24670,nLevel=1,nScrutinyType=1},
-			{dwID=6704,nIcon=3556,nLevel=1,nScrutinyType=1,szName="战利品",tCountdown={{key="拍卖分红",nClass=1,nFrame=1,nIcon=3556,nRefresh=2,nTime=10,szName="世界首领·战利品·已拾取"}}},
-			{dwID=25895,nLevel=1,nScrutinyType=1,tCountdown={{key="拍卖分红",nClass=1,nFrame=0,nIcon=13547,nTime=20,szName="拍卖分红·已获得·未拾取"}}},
-			{dwID=25894,nLevel=1,nScrutinyType=1,tCountdown={{key="拍卖分红",nClass=1,nFrame=0,nIcon=13547,nTime=20,szName="拍卖分红·已获得·未拾取"}}},
-			{dwID=25893,nLevel=1,nScrutinyType=1,tCountdown={{key="拍卖分红",nClass=1,nFrame=0,nIcon=13547,nTime=20,szName="拍卖分红·已获得·未拾取"}}},
 		},
 		[701] = {
 			{{bBuffList=true,bScreenHead=true},col={0,255,0},dwID=32017,nLevel=1,nScrutinyType=1},
@@ -6129,20 +6085,18 @@ return {
 			{{bBuffList=true},col={255,255,0},dwID=9992,nIcon=8004,nLevel=1,nScrutinyType=1,szName="大跑商"},
 		},
 		[806] = {
-			{col={255,255,0},dwID=29408,nIcon=8449,nLevel=1,nScrutinyType=1,szName="满贡献",tCountdown={{key="本日上限",nClass=1,nIcon=13,nRefresh=1,nTime=-1,szName="本日上限"},{key="预热活动",nClass=1,nFrame=2,nIcon=8449,nRefresh=600,nTime=20,szName="预热活动·今日贡献度上限"}}},
-			{col={255,255,0},dwID=34632,nIcon=8449,nLevel=1,nScrutinyType=1,szName="预热"},
 			{{bBuffList=true},col={255,255,0},dwID=10068,nIcon=216,nLevel=1,nScrutinyType=1,szName="押镖"},
 			{{bBuffList=true},col={31,63,255},dwID=7851,nLevel=1,nScrutinyType=1},
 			{aCataclysmBuff={{col="#FFFFFFFF",nColAlpha=255,nPriority=2,szReminder="镖"}},col={255,255,255},dwID=9982,nLevel=1,nScrutinyType=2},
 			{{bBuffList=true},col={255,255,0},dwID=9992,nIcon=8004,nLevel=1,nScrutinyType=1,szName="大跑商"},
 		},
 		[838] = {
-			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#1F3FFFAA",nColAlpha=255,nPriority=37}},col={31,63,255},dwID=7503,nLevel=1,nScrutinyType=1,szName="减速·御城"},
-			{{bBuffList=true,bScreenHead=true},aCataclysmBuff={{bScreenHead=true,col="#FFFF00FF",colScreenHead="#FFFF00",nColAlpha=255,nPriority=13,szReminder="晕"}},col={255,255,0},dwID=7504,nLevel=1,nScrutinyType=2,szName="眩晕·御城"},
 			{dwID=6704,nIcon=3556,nLevel=1,nScrutinyType=1,szName="战利品",tCountdown={{key="拍卖分红",nClass=1,nFrame=1,nIcon=3556,nRefresh=2,nTime=10,szName="世界首领·战利品·已拾取"}}},
 			{dwID=25895,nLevel=1,nScrutinyType=1,tCountdown={{key="拍卖分红",nClass=1,nFrame=0,nIcon=13547,nTime=20,szName="拍卖分红·已获得·未拾取"}}},
 			{dwID=25894,nLevel=1,nScrutinyType=1,tCountdown={{key="拍卖分红",nClass=1,nFrame=0,nIcon=13547,nTime=20,szName="拍卖分红·已获得·未拾取"}}},
 			{dwID=25893,nLevel=1,nScrutinyType=1,tCountdown={{key="拍卖分红",nClass=1,nFrame=0,nIcon=13547,nTime=20,szName="拍卖分红·已获得·未拾取"}}},
+			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#1F3FFFAA",nColAlpha=255,nPriority=37}},col={31,63,255},dwID=7503,nLevel=1,nScrutinyType=1,szName="减速·御城"},
+			{{bBuffList=true,bScreenHead=true},aCataclysmBuff={{bScreenHead=true,col="#FFFF00FF",colScreenHead="#FFFF00",nColAlpha=255,nPriority=13,szReminder="晕"}},col={255,255,0},dwID=7504,nLevel=1,nScrutinyType=2,szName="眩晕·御城"},
 		},
 		[995] = {
 			{{bBuffList=true},col={0,255,255},dwID=50749,nLevel=1},
@@ -7084,14 +7038,6 @@ return {
 		[689] = {
 			{[17]={bCenterAlarm=true,bScreenHead=true},aFocus={{nMaxDistance=6,szDisplay="麒麟珠·交互"},{nMaxDistance=90}},col={50,255,255},dwID=10781},
 		},
-		[697] = {
-			{[17]={bCenterAlarm=true},aFocus={{}},dwID=10880},
-			{[17]={bCenterAlarm=true},aFocus={{}},dwID=10883},
-			{[17]={bCenterAlarm=true},aFocus={{szDisplay="盘碣关·宝堆"}},dwID=9980,szName="盘碣关·宝箱"},
-			{[17]={bCenterAlarm=true},aFocus={{szDisplay="回雁关·宝堆"}},dwID=10005,szName="回雁关·宝箱"},
-			{[17]={bCenterAlarm=true},aFocus={{szDisplay="赤焰关·宝堆"}},dwID=9981,szName="赤焰关·宝箱"},
-			{aFocus={{}},dwID=4255},
-		},
 		[701] = {
 			{aFocus={{nMaxDistance=6,szDisplay="捕鼠笼·妖与狸"}},dwID=11472,szName="捕鼠笼"},
 			{aFocus={{nMaxDistance=20,szDisplay="光圈·捕鼠笼·妖与狸"}},dwID=11471,szName="光圈"},
@@ -7145,8 +7091,8 @@ return {
 			{aFocus={{nMaxDistance=6}},dwID=11970},
 		},
 		[838] = {
-			{aFocus={{}},dwID=12178},
 			{aFocus={{}},dwID=4255},
+			{aFocus={{}},dwID=12178},
 		},
 	},
 	NPC = {
@@ -7326,7 +7272,6 @@ return {
 			{aFocus={{nMaxDistance=-1,szDisplay="冰荷花"}},dwID=66734,nFrame=47,szName="冰荷花",tKungFu={["SKILL#10021"]=true,["SKILL#10028"]=true}},
 		},
 		[-2] = {
-			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,szDisplay="戚凤娘·书剑天涯"}},col={0,255,0},dwID=125504,nFrame=47},
 			{aFocus={{nMaxDistance=6,szDisplay="瞿婉清·重阳节"}},dwID=37147,nFrame=47},
 			{aFocus={{nMaxDistance=6,szDisplay="小琥·重阳节"}},dwID=37145,nFrame=47},
 			{aFocus={{nMaxDistance=6,szDisplay="邱小沁·重阳节"}},col={0,255,0},dwID=37144,nFrame=47},
@@ -8952,7 +8897,6 @@ return {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,szDisplay="杉木·盔甲"}},col={0,255,0},dwID=41092,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=10,szDisplay="木材·盔甲·4次"}},col={0,255,0},dwID=41090,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="盔甲·4次"}},col={0,255,0},dwID=41089,nFrame=47},
-			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="褚禾·阴山商路"}},col={0,255,0},dwID=47754,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="秦交复·陕州商路"}},col={0,255,0},dwID=139440,nFrame=47},
 		},
 		[199] = {
@@ -9010,10 +8954,6 @@ return {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=10,szDisplay="无神·运势"}},col={0,255,0},dwID=45378,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30}},col={255,50,50},dwID=45845,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=50,szDisplay="无遮会·九邬碧玉"}},col={0,255,0},dwID=46331,nFrame=47},
-			{aFocus={{nMaxDistance=10,tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=47859,nFrame=47},
-			{aFocus={{nMaxDistance=10,tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=47032,nFrame=47},
-			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{}},col={0,255,0},dwID=47408,nFrame=47},
-			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,szDisplay="木博·阴山商路·补货"}},col={100,255,100},dwID=47749,nFrame=47},
 		},
 		[215] = {
 			{aFocus={{nMaxDistance=6,szDisplay="雷首飞电·塞外宝驹"}},dwID=47912,nFrame=47},
@@ -9080,10 +9020,6 @@ return {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="艾尼东·虎齿"}},col={0,255,0},dwID=45149,nFrame=47},
 			{[3]={bScreenHead=true},col={0,255,0},dwID=45099,nFrame=47},
 			{aFocus={{nMaxDistance=60,szDisplay="小七·醇厚马奶酒"}},dwID=45086,nFrame=47},
-			{aFocus={{nMaxDistance=10,tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=47859,nFrame=47},
-			{aFocus={{nMaxDistance=10,tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=47032,nFrame=47},
-			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{}},col={0,255,0},dwID=47408,nFrame=47},
-			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,szDisplay="夏洛特·阴山商路·补货"}},col={100,255,100},dwID=47888,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=10,tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={100,255,100},dwID=30537,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=90,tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=100133,nFrame=57},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=-1,tLife={bEnable=true,nValue=10,szOperator="<"}}},dwID=36005,nFrame=52},
@@ -9159,9 +9095,6 @@ return {
 			{aFocus={{}},dwID=47035,nFrame=47},
 			{aFocus={{nMaxDistance=30}},dwID=47401,nFrame=52},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="神机台·敌方",tRelation={bAll=false,bAlly=false,bEnemy=true}},{nMaxDistance=60,szDisplay="神机台·有人",tRelation={bAll=false,bAlly=true,bEnemy=false}}},dwID=46238,nFrame=52,szName="神机台·有人"},
-			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{}},col={0,255,0},dwID=47408,nFrame=47},
-			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,szDisplay="宋涛·阴山商路·主簿",tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={31,230,255},dwID=47858,nFrame=47},
-			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,szDisplay="谷艾·阴山商路·主簿",tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={255,120,31},dwID=47744,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=10,szDisplay="蒋征南·烽烟再起",tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={31,230,255},dwID=101011,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=10,szDisplay="郭戈·烽烟再起",tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={255,120,31},dwID=101012,nFrame=47},
 		},
@@ -9916,9 +9849,6 @@ return {
 			{[3]={bScreenHead=true},aFocus={{szDisplay="奶1",tLife={bEnable=true,nValue=0.5,szOperator=">="}}},col={0,255,255},dwID=110860,nFrame=57,szName="奶1"},
 			{[3]={bScreenHead=true},aFocus={{szDisplay="T",tLife={bEnable=true,nValue=0.5,szOperator=">="}}},col={255,255,0},dwID=110831,nFrame=57,szName="T"},
 		},
-		[627] = {
-			{aFocus={{nMaxDistance=20}},dwID=112395,nFrame=52},
-		},
 		[632] = {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="乔源智·接引使"}},col={0,255,0},dwID=108182,nFrame=47},
 			{aFocus={{nMaxDistance=6,szDisplay="乐小天·接引人"}},dwID=120620,nFrame=47},
@@ -10221,54 +10151,6 @@ return {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,szDisplay="飞行·传送",tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={100,255,100},dwID=133268,nFrame=47},
 			{aFocus={{nMaxDistance=6}},dwID=128768,nFrame=47},
 		},
-		[697] = {
-			{aFocus={{}},dwID=129781,nFrame=47},
-			{aFocus={{}},dwID=129782,nFrame=47},
-			{aFocus={{nMaxDistance=60,szDisplay="运送点·浩气盟",tRelation={bAll=false,bAlly=true,bEnemy=false}}},dwID=129952,nFrame=47},
-			{aFocus={{nMaxDistance=60,szDisplay="运送点·恶人谷",tRelation={bAll=false,bAlly=true,bEnemy=false}}},dwID=129953,nFrame=47},
-			{aFocus={{}},dwID=129780,nFrame=47,tCountdown={{key="罗追",nClass=12,nFrame=1,nIcon=13,nTime="60,马匪首领宝堆·拾取剩余;180,马匪首领·刷新剩余;182,马匪首领·即将刷新",szName="马匪首领宝堆·拾取剩余"}}},
-			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="神机台·敌方",tRelation={bAll=false,bAlly=false,bEnemy=true}},{nMaxDistance=60,szDisplay="神机台·有人",tRelation={bAll=false,bAlly=true,bEnemy=false}}},dwID=130685,nFrame=52,szName="神机台·有人"},
-			{aFocus={{nMaxDistance=30}},dwID=130211,nFrame=52},
-			{aFocus={{nMaxDistance=60}},dwID=111606,nFrame=47},
-			{aFocus={{nMaxDistance=60}},dwID=111607,nFrame=47},
-			{aFocus={{nMaxDistance=60}},dwID=111605,nFrame=47},
-			{aFocus={{nMaxDistance=60}},dwID=111609,nFrame=47},
-			{aFocus={{nMaxDistance=60}},dwID=111610,nFrame=47},
-			{aFocus={{nMaxDistance=60}},dwID=111608,nFrame=47},
-			{aFocus={{nMaxDistance=60}},dwID=111652,nFrame=57},
-			{aFocus={{nMaxDistance=60}},dwID=111653,nFrame=57},
-			{aFocus={{nMaxDistance=60}},dwID=111651,nFrame=57},
-			{aFocus={{}},dwID=128464,nFrame=47},
-			{aFocus={{}},dwID=110629,nFrame=47,tCountdown={{key="秽血勇虫",nClass=11,nFrame=5,nIcon=13,nTime=0,szName="秽血勇虫"}}},
-			{aFocus={{}},dwID=110450,nFrame=47},
-			{aFocus={{}},dwID=110184,nFrame=47},
-			{aFocus={{}},dwID=110403,nFrame=47},
-			{aFocus={{}},dwID=110353,nFrame=47},
-			{aFocus={{}},dwID=110281,nFrame=47},
-			{aFocus={{}},dwID=110275,nFrame=47},
-			{aFocus={{}},dwID=105869,nFrame=47},
-			{aFocus={{}},dwID=105868,nFrame=47},
-			{aFocus={{}},dwID=100509,nFrame=47},
-			{aFocus={{}},dwID=100574,nFrame=47},
-			{aFocus={{}},dwID=100818,nFrame=47},
-			{aFocus={{}},dwID=100817,nFrame=47},
-			{aFocus={{}},dwID=100506,nFrame=47},
-			{aFocus={{}},dwID=66980,nFrame=47},
-			{aFocus={{}},dwID=67310,nFrame=47},
-			{aFocus={{}},dwID=67307,nFrame=47},
-			{aFocus={{}},dwID=62133,nFrame=47},
-			{aFocus={{}},dwID=62714,nFrame=47},
-			{aFocus={{}},dwID=62770,nFrame=47},
-			{aFocus={{}},dwID=62110,nFrame=47},
-			{aFocus={{}},dwID=57100,nFrame=47},
-			{aFocus={{}},dwID=57101,nFrame=47},
-			{aFocus={{}},dwID=57110,nFrame=47},
-			{aFocus={{}},dwID=56922,nFrame=47},
-			{aFocus={{}},dwID=46792,nFrame=47},
-			{aFocus={{}},dwID=46788,nFrame=47},
-			{aFocus={{}},dwID=46402,nFrame=47},
-			{aFocus={{}},dwID=46766,nFrame=47},
-		},
 		[701] = {
 			{aFocus={{nMaxDistance=60,szDisplay="林清·妖与狸"}},dwID=134854,nFrame=47},
 			{aFocus={{nMaxDistance=30,szDisplay="大猫·妖与狸"}},dwID=134858,nFrame=47},
@@ -10426,7 +10308,6 @@ return {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,szDisplay="姚宁·补货"}},col={100,255,100},dwID=138834,nFrame=47},
 		},
 		[806] = {
-			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="唐乐孜·活动商人"}},col={0,255,0},dwID=140018,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30}},col={0,255,0},dwID=137732,nFrame=47},
 			{aFocus={{}},dwID=138421,nFrame=57},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6}},col={0,255,0},dwID=138349,nFrame=47},
@@ -10448,13 +10329,6 @@ return {
 			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{}},col={0,255,0},dwID=47408,nFrame=47},
 		},
 		[838] = {
-			{dwID=140361,nFrame=47},
-			{dwID=140360,nFrame=47},
-			{aFocus={{szDisplay="恶人·引航"}},dwID=140236,nFrame=47},
-			{aFocus={{szDisplay="中立·引航"}},dwID=140237,nFrame=47},
-			{aFocus={{szDisplay="浩气·引航"}},dwID=140235,nFrame=47},
-			{aFocus={{}},dwID=139948,nFrame=52},
-			{aFocus={{}},dwID=139947,nFrame=52},
 			{aFocus={{}},dwID=128464,nFrame=47},
 			{aFocus={{}},dwID=110629,nFrame=47,tCountdown={{key="秽血勇虫",nClass=11,nFrame=5,nIcon=13,nTime=0,szName="秽血勇虫"}}},
 			{aFocus={{}},dwID=110450,nFrame=47},
@@ -10485,6 +10359,13 @@ return {
 			{aFocus={{}},dwID=46788,nFrame=47},
 			{aFocus={{}},dwID=46402,nFrame=47},
 			{aFocus={{}},dwID=46766,nFrame=47},
+			{dwID=140361,nFrame=47},
+			{dwID=140360,nFrame=47},
+			{aFocus={{szDisplay="恶人·引航"}},dwID=140236,nFrame=47},
+			{aFocus={{szDisplay="中立·引航"}},dwID=140237,nFrame=47},
+			{aFocus={{szDisplay="浩气·引航"}},dwID=140235,nFrame=47},
+			{aFocus={{}},dwID=139948,nFrame=52},
+			{aFocus={{}},dwID=139947,nFrame=52},
 		},
 		[995] = {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60}},col={0,255,0},dwID=201226,nFrame=47},
@@ -10572,7 +10453,7 @@ return {
 			{[14]={bCenterAlarm=true},bReg=true,szContent="^报名成功：【(.-)】已报名本届《(.-)》【(.-)】场次(.-)！！！",szNote="[{$1}]·{$4}报名·《{$2}·{$3}》",szTarget="%",tCountdown={{key="武林争霸赛",nClass=14,nFrame=4,nIcon=13,nRefresh=2,nTime=30,szName="报名·{$2}·{$3}"}}},
 			{col={100,100,255},szContent="分流活动已开启，大侠可以前往巴陵县接取阵营攻防前置任务",tCountdown={{key="分流活动",nClass=14,nFrame=7,nIcon=3536,nRefresh=1800,nTime=30,szName="巴陵·攻防前置分流"}}},
 			{col={255,100,100},szContent="分流活动已开启，大侠可以前往龙门荒漠接取阵营攻防前置任务",tCountdown={{key="分流活动",nClass=14,nFrame=3,nIcon=3536,nRefresh=1800,nTime=30,szName="龙门·攻防前置分流"}}},
-			{[14]={bCenterAlarm=true},bReg=true,col={100,255,255},szContent="(.-)已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",szNote="阴山商路·【{$1}】·送货首领",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=3,nIcon=8004,nTime=20,szName="阴山商路·镖头·{$1}"}}},
+			{[14]={bCenterAlarm=true},bReg=true,col={100,255,255},szContent="(.-)已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",szNote="陕州商路·【{$1}】·送货首领",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·镖头·{$1}"}}},
 			{bReg=true,szContent="^大侠的(.-)运势累计至(%d-)/(%d+)",szNote="运势·{$1}·{$2}/{$3}",szTarget="%",tCountdown={{key="{$1}",nClass=14,nFrame=6,nIcon=10215,nTime=20,szName="运势·{$1}·{$2}/{$3}"}}},
 			{szContent="未找到前来帮助的侠士，少侠可重新发布援助。",tCountdown={{key="援助提示",nClass=14,nFrame=4,nIcon=13,nRefresh=0,nTime="10,援助·未找到;232,援助·CD",szName="援助提示"}}},
 			{szContent="正在为你寻找玩家，一分钟内对方将与你自动组队，请保持可组队状态。",tCountdown={{key="援助提示",nClass=14,nFrame=6,nIcon=13,nTime=60,szName="援助·保持可组队状态"}}},
@@ -10722,11 +10603,11 @@ return {
 			{col={255,100,100},szContent="分流活动已开启，大侠可以前往龙门荒漠接取阵营攻防前置任务",tCountdown={{key="分流活动",nClass=14,nFrame=3,nIcon=3536,nRefresh=1800,nTime=30,szName="龙门·攻防前置分流"}}},
 			{szContent="未找到前来帮助的侠士，少侠可重新发布援助。",tCountdown={{key="援助提示",nClass=14,nFrame=4,nIcon=13,nRefresh=0,nTime="10,援助·未找到;232,援助·CD",szName="援助提示"}}},
 			{szContent="正在为你寻找玩家，一分钟内对方将与你自动组队，请保持可组队状态。",tCountdown={{key="援助提示",nClass=14,nFrame=6,nIcon=13,nTime=60,szName="援助·保持可组队状态"}}},
-			{[14]={bCenterAlarm=true},bReg=true,col={100,255,255},szContent="(.-)已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",szNote="阴山商路·【{$1}】·送货首领",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=3,nIcon=8004,nTime=20,szName="阴山商路·镖头·{$1}"}}},
-			{[14]={bCenterAlarm=true},col={100,255,255},szContent="运货首领身份已重置，请各位尽快认领物资队将其运抵目的地！",szNote="阴山商路·首领重置·损失30镖银",szTarget="%",tCountdown={{key="帮会跑商·时限",nClass=14,nFrame=1,nIcon=8004,nTime=-2,szName="阴山商路·时限"},{key="帮会跑商·时限",nClass=14,nFrame=1,nIcon=8004,nRefresh=14400,nTime=10,szName="阴山商路·首领重置·损失30镖银"}}},
-			{[14]={bCenterAlarm=true},col={100,255,255},szContent="运货首领花费5000两帮会资金成功补货50份！",szNote="阴山商路·补货·50份",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=3,nIcon=8004,nTime=10,szName="阴山商路·补货·50份"}}},
-			{[14]={bCenterAlarm=true},col={100,255,255},szContent="运货首领离线了，损失了20份镖银……",szNote="阴山商路·首领离线·损失20镖银",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=1,nIcon=8004,nTime=10,szName="阴山商路·首领离线·损失20镖银"}}},
-			{[14]={bCenterAlarm=true},col={100,255,255},szContent="运货首领被击杀，损失了10份镖银……",szNote="阴山商路·首领重伤·损失10镖银",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=1,nIcon=8004,nTime=10,szName="阴山商路·首领重伤·损失10镖银"}}},
+			{[14]={bCenterAlarm=true},bReg=true,col={100,255,255},szContent="(.-)已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",szNote="陕州商路·【{$1}】·送货首领",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·镖头·{$1}"}}},
+			{[14]={bCenterAlarm=true},col={100,255,255},szContent="运货首领身份已重置，请各位尽快认领物资队将其运抵目的地！",szNote="陕州商路·首领重置·损失30镖银",szTarget="%",tCountdown={{key="帮会跑商·时限",nClass=14,nIcon=8004,nTime=-2,szName="陕州商路·时限"},{key="帮会跑商·时限",nClass=14,nFrame=1,nIcon=8004,nRefresh=14400,nTime=10,szName="陕州商路·首领重置·损失30镖银"}}},
+			{[14]={bCenterAlarm=true},col={100,255,255},szContent="运货首领花费5000两帮会资金成功补货50份！",szNote="陕州商路·补货·50份",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=0,nIcon=8004,nTime=10,szName="陕州商路·补货·50份"}}},
+			{[14]={bCenterAlarm=true},col={100,255,255},szContent="运货首领离线了，损失了20份镖银……",szNote="陕州商路·首领离线·损失20镖银",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=1,nIcon=8004,nTime=10,szName="陕州商路·首领离线·损失20镖银"}}},
+			{[14]={bCenterAlarm=true},col={100,255,255},szContent="运货首领被击杀，损失了10份镖银……",szNote="陕州商路·首领重伤·损失10镖银",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=1,nIcon=8004,nTime=10,szName="陕州商路·首领重伤·损失10镖银"}}},
 		},
 		[-4] = {
 			{bSearch=true,szContent="流火数量已清零。",tCountdown={{key="花灯流火",nClass=14,nFrame=4,nIcon=13,nTime=30,szName="花灯流火·已经清零"}}},
@@ -10799,7 +10680,7 @@ return {
 			{szContent="未找到前来帮助的侠士，少侠可重新发布援助。",tCountdown={{key="援助提示",nClass=14,nFrame=4,nIcon=13,nRefresh=0,nTime="10,援助·未找到;232,援助·CD",szName="援助提示"}}},
 			{szContent="正在为你寻找玩家，一分钟内对方将与你自动组队，请保持可组队状态。",tCountdown={{key="援助提示",nClass=14,nFrame=6,nIcon=13,nTime=60,szName="援助·保持可组队状态"}}},
 			{bSearch=true,szContent="{$me}这是什么乱七八糟的水沏的，白白浪费了上好的",szTarget="%",tCountdown={{key="茶馆成就",nClass=14,nFrame=6,nIcon=2179,nTime=2,szName="沏茶错误"}}},
-			{[14]={bCenterAlarm=true},bReg=true,col={100,255,255},szContent="(.-)已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",szNote="阴山商路·【{$1}】·送货首领",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=3,nIcon=8004,nTime=20,szName="阴山商路·镖头·{$1}"}}},
+			{[14]={bCenterAlarm=true},bReg=true,col={100,255,255},szContent="(.-)已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",szNote="陕州商路·【{$1}】·送货首领",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·镖头·{$1}"}}},
 			{bReg=true,szContent="^大侠的(.-)运势累计至(%d-)/(%d+)",szNote="运势·{$1}·{$2}/{$3}",szTarget="%",tCountdown={{key="{$1}",nClass=14,nFrame=6,nIcon=10215,nTime=20,szName="运势·{$1}·{$2}/{$3}"}}},
 		},
 		[-1] = {
@@ -10822,8 +10703,6 @@ return {
 			{[14]={bCenterAlarm=true},bReg=true,col={255,50,255},szContent="(.-)【(.+)】帮会(.-)发起为期(%d+)小时的野外宣战，各位非中立成员",szNote="帮战·[{$2}]·{$4}小时",szTarget="%",tCountdown={{key="帮会宣战·野外",nClass=14,nFrame=8,nIcon=3750,nTime=20,szName="帮战·[{$2}]·{$4}小时"}}},
 			{szContent="【武林争霸赛】本届武林争霸赛正式已开启！风起云涌，一朝闻名天下知！已报名的帮会侠士，可前往各大主城或各门派，闻千瞬处对话进入参与对决！！！帮会帮主及核心成员优先进入，以免造成不便！！！",szNote="武林争霸赛·正式开启",szTarget="%",tCountdown={{key="武林争霸赛",nClass=14,nFrame=6,nIcon=13,nRefresh=1,nTime=10,szName="武林争霸赛·正式开启"}}},
 			{szContent="[帮会总管]邵卿城：诸位兄弟，愿此行战无不胜，扬我帮威！",szNote="武林争霸赛·已经报名",szTarget="%",tCountdown={{key="武林争霸赛",nClass=14,nFrame=6,nIcon=13,nRefresh=1,nTime=10,szName="武林争霸赛·已经报名"}}},
-			{bSearch=true,col={100,255,255},szContent="此次帮会通过陕州商路成功运抵",szNote="陕州商路·成功运抵",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·成功运抵"},{key="帮会跑商·时限",nClass=14,nIcon=13,nTime=-1,szName="陕州商路·时限"}}},
-			{col={100,255,255},szContent="陕州商路运输物资已成功开启，请有权限的侠士速到洛阳城西帮会物资主簿处申请成为运货首领开始运送！",szNote="陕州商路·开启",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=0,nIcon=8004,nTime=10,szName="陕州商路·帮会大跑商·开启"}}},
 			{[14]={bCenterAlarm=true,bFullScreen=true},col={255,50,255},szContent="注意，你已被发布决斗挑战，决斗挑战正式生效！",szNote="决斗挑战·正式生效",tCountdown={{key="决斗挑战",nClass=14,nFrame=8,nIcon=13,nTime=2,szName="决斗挑战·正式生效"}}},
 			{col={255,50,255},szContent="注意，你已被发布决斗挑战，10秒后决斗挑战正式生效！",szNote="你被发布·决斗挑战",tCountdown={{key="决斗挑战",nClass=14,nFrame=8,nIcon=13,nRefresh=0,nTime="10,决斗挑战·生效剩余;12,决斗挑战·正式生效",szName="决斗挑战"}}},
 			{[14]={bCenterAlarm=true},szContent="你在探寻魂墟宝物时不小心惊动了魂墟看守宝物的魂灵！",szNote="方士寻宝·魂灵宝物",tCountdown={{key="挖宝·方士",nClass=14,nFrame=7,nIcon=13,nTime=60,szName="方士寻宝·魂灵宝物"}}},
@@ -10839,8 +10718,8 @@ return {
 			{szContent="据韩非子最新消息，唱晚池将于20分钟后归于平静。在此之前于唱晚池钓到稀有物品的概率将大幅增长，机不可失失不再来啊。",szNote="帮会领地·钓鱼活动·已经开启",szTarget="%",tCountdown={{key="钓鱼活动",nClass=14,nFrame=6,nIcon=3781,nTime=10,szName="帮会领地·钓鱼活动·20分钟"}}},
 			{szContent="猪九戒出现祝融山，请大家速去阻止它破坏农田。",szNote="菜园保卫战·祝融山·猪九戒·出现",szTarget="%",tCountdown={{key="菜园保卫战",nClass=14,nFrame=6,nIcon=3766,nTime=10,szName="帮会领地·祝融山·猪九戒出现"}}},
 			{szContent="本周帮会菜园保卫战完满达成，增加了70000点不占周上限的帮会资金。",szNote="帮会领地·菜园保卫战·完满达成",szTarget="%",tCountdown={{key="菜园保卫战",nClass=14,nFrame=6,nIcon=3766,nTime=20,szName="帮会领地·菜园保卫战·完满达成"}}},
-			{col={100,255,255},szContent="阴山商路运输物资已成功开启，请有权限的侠士速到黑戈壁帮会物资主簿处申请成为运货首领开始运送！",szNote="阴山商路·开启",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=3,nIcon=8004,nTime=10,szName="阴山商路·帮会大跑商·开启"}}},
-			{bSearch=true,col={100,255,255},szContent="此次帮会通过阴山商路成功运抵",szNote="阴山商路·成功运抵",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=3,nIcon=8004,nTime=20,szName="阴山商路·成功运抵"},{key="帮会跑商·时限",nClass=14,nIcon=13,nTime=-1,szName="阴山商路·时限"}}},
+			{col={100,255,255},szContent="陕州商路运输物资已成功开启，请有权限的侠士速到洛阳城西帮会物资主簿处申请成为运货首领开始运送！",szNote="陕州商路·活动开启",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=0,nIcon=8004,nTime=10,szName="陕州商路·帮会大跑商·开启"}}},
+			{bSearch=true,col={100,255,255},szContent="此次帮会通过陕州商路成功运抵",szNote="陕州商路·成功运抵",szTarget="%",tCountdown={{key="帮会跑商",nClass=14,nFrame=0,nIcon=8004,nTime=20,szName="陕州商路·成功运抵"},{key="帮会跑商·时限",nClass=14,nIcon=13,nTime=-1,szName="陕州商路·时限"}}},
 			{[14]={bCenterAlarm=true},szContent="好像有鱼咬钩了，快收杆！",szNote="有鱼咬钩",szTarget="%",tCountdown={{key="钓鱼提示",nClass=14,nFrame=2,nIcon=2678,nTime=5,szName="快收杆"}}},
 		},
 		[1] = {
@@ -11639,7 +11518,6 @@ return {
 			{szContent="恶人谷的矿车已经到达营地！大伙辛苦了！",szTarget="莫白",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nTime=60,szName="恶人·护送奖赏"}}},
 			{szContent="浩气盟的矿车被恶人谷劫走了！",szTarget="莫云",tCountdown={{key="浩气·矿车",nClass=14,nFrame=3,nIcon=13,nTime=60,szName="恶人·劫车奖励"}}},
 			{szContent="恶人谷的矿车被浩气盟劫走了！",szTarget="莫白",tCountdown={{key="恶人·矿车",nClass=14,nFrame=7,nIcon=13,nTime=60,szName="浩气·劫车奖励"}}},
-			{[14]={bCenterAlarm=true},col={100,255,255},szContent="{$me}已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",szNote="阴山商路·你登记为送货首领",szTarget="%",tCountdown={{bHold=true,key="帮会跑商·时限",nClass=14,nFrame=-1,nIcon=8004,nRefresh=0,nTime="10,你登记为送货首领;14400,阴山商路·运送剩余;14410,阴山商路·运送超时",szName="阴山商路"}}},
 		},
 		[239] = {
 			{[14]={bCenterAlarm=true},szContent="笑笑突然出现了，好像找大侠有事情。",szNote="笑笑·出现"},
@@ -12164,20 +12042,6 @@ return {
 		},
 		[697] = {
 			{szContent="提醒：您已进入可敌对区域，在帮会领地或秘境中方能免除被敌对的危险。",szTarget="%",tCountdown={{key="阵营模式",nClass=14,nFrame=-1,nIcon=13,nRefresh=20,nTime=-1,szName="阵营模式"}}},
-			{col={100,100,255},szContent="诸位兄弟们，这些银钱可壮大我方势力，请与我一道运送回浩气盟！",szTarget="吴宿知",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nTime=292,szName="浩气·护送矿车"}}},
-			{col={255,100,100},szContent="老伙计们！这一车可得小心点，这路上可有不少浩气盟的探子，有劲的一会使出来！",szTarget="宋道希",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nTime=292,szName="恶人·护送矿车"}}},
-			{col={100,100,255},szContent="浩气盟的众兄弟们，辛苦了！这是盟里给众兄弟们的奖赏，请各位收下。",szTarget="吴宿知",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=10,nTime=90,szName="浩气·跟车奖励"}}},
-			{col={255,100,100},szContent="恶人谷的老伙计们！一路上可算没有出啥岔子。这是洒家给伙计们的报酬，且拿好。",szTarget="宋道希",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=10,nTime=90,szName="恶人·跟车奖励"}}},
-			{col={100,100,255},szContent="不好！物资车被劫！这里不宜久留，大家先撤，待重整旗鼓再来一番！",szTarget="吴宿知",tCountdown={{key="浩气·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=10,nTime=60,szName="恶人·劫车奖励"}}},
-			{col={255,100,100},szContent="不好！物资车被砸！这里不宜久留，大家先撤，待重整旗鼓再来一番！",szTarget="宋道希",tCountdown={{key="恶人·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=10,nTime=60,szName="浩气·劫车奖励"}}},
-			{col={100,100,255},szContent="【浩气·运送物资】事件已经结束，由于你没有贡献，没有获得奖励。",tCountdown={{key="浩气·矿车",nClass=14,nFrame=3,nIcon=13,nTime=59,szName="恶人·劫车奖励"}}},
-			{col={255,100,100},szContent="【恶人·运送物资】事件已经结束，由于你没有贡献，没有获得奖励。",tCountdown={{key="恶人·矿车",nClass=14,nFrame=7,nIcon=13,nTime=59,szName="浩气·劫车奖励"}}},
-			{col={255,100,100},szContent="承让了！恶人谷众兄弟们，安心开采矿产。",szTarget="白某",tCountdown={{key="关隘宝箱",nClass=14,nFrame=3,nIcon=10450,nRefresh=2,nTime=179,szName="恶人谷·赤焰关·拾取剩余"},{key="关隘·拾取·恶人谷",nClass=14,nFrame=-1,nIcon=13,nRefresh=1,nTime=-1,szName="关隘·拾取·恶人谷"}}},
-			{col={255,100,100},szContent="此处关隘，至关重要，谷主请放心！",szTarget="陶寒亭",tCountdown={{key="关隘宝箱",nClass=14,nFrame=3,nIcon=10450,nRefresh=2,nTime=179,szName="恶人谷·回雁关·拾取剩余"},{key="关隘·拾取·恶人谷",nClass=14,nFrame=-1,nIcon=13,nRefresh=1,nTime=-1,szName="关隘·拾取·恶人谷"}}},
-			{col={255,100,100},szContent="终于出趟谷，不容易呀！寒鸦大人请放心，第一关隘就交给我吧！",szTarget="顾延恶",tCountdown={{key="关隘宝箱",nClass=14,nFrame=3,nIcon=10450,nRefresh=2,nTime=179,szName="恶人谷·盘碣关·拾取剩余"},{key="关隘·拾取·恶人谷",nClass=14,nFrame=-1,nIcon=13,nRefresh=1,nTime=-1,szName="关隘·拾取·恶人谷"}}},
-			{col={100,100,255},szContent="浩气盟，浩气长存！",szTarget="穆玄英",tCountdown={{key="关隘宝箱",nClass=14,nFrame=7,nIcon=10449,nRefresh=2,nTime=179,szName="浩气盟·赤焰关·拾取剩余"},{key="关隘·拾取·浩气盟",nClass=14,nFrame=-1,nIcon=13,nRefresh=1,nTime=-1,szName="关隘·拾取·浩气盟"}}},
-			{col={100,100,255},szContent="司空仲平在此，尔等还不速速退去！",szTarget="司空仲平",tCountdown={{key="关隘宝箱",nClass=14,nFrame=7,nIcon=10449,nRefresh=2,nTime=179,szName="浩气盟·回雁关·拾取剩余"},{key="关隘·拾取·浩气盟",nClass=14,nFrame=-1,nIcon=13,nRefresh=1,nTime=-1,szName="关隘·拾取·浩气盟"}}},
-			{col={100,100,255},szContent="吾奉盟主之令，特来镇守此处关隘。",szTarget="谢烟客",tCountdown={{key="关隘宝箱",nClass=14,nFrame=7,nIcon=10449,nRefresh=2,nTime=179,szName="浩气盟·盘碣关·拾取剩余"},{key="关隘·拾取·浩气盟",nClass=14,nFrame=-1,nIcon=13,nRefresh=1,nTime=-1,szName="关隘·拾取·浩气盟"}}},
 		},
 		[701] = {
 			{szContent="张大，你可知何处老鼠出没最多？",szNote="完成·宠物奇遇·妖与狸",szTarget="林清",tCountdown={{key="奇遇提示1",nClass=14,nFrame=7,nIcon=12373,nTime=600,szName="完成·宠物奇遇·妖与狸"},{key="奇遇提示2",nClass=14,nFrame=7,nIcon=12373,nTime=600,szName="获得·宠物·一团黑大人"},{key="奇遇提示3",nClass=14,nFrame=7,nIcon=12373,nTime=0,szName="奇遇提示3"}}},
@@ -12223,7 +12087,6 @@ return {
 			{szContent="不好……他要拼命了！站我后头！老子替你挡！",szTarget="唐猫儿",tCountdown={{key="任务提示1",nClass=14,nFrame=6,nIcon=13,nTime=10,szName="退至唐猫儿身后"}}},
 		},
 		[806] = {
-			{szContent="你这中原人！竟想在本帅眼下救人？！",szNote="预热活动·阿史那承庆·已刷新",szTarget="阿史那承庆",tCountdown={{key="预热活动",nClass=14,nFrame=4,nIcon=13675,nTime=179,szName="预热·阿史那承庆·刷新"}}},
 			{szContent="复活后可前往唐简处接取余烬新途，继续剧情。",szNote="复活后·唐简·继续剧情",szTarget="%",tCountdown={{key="任务提示1",nClass=14,nFrame=6,nIcon=13,nTime=10,szName="前往·唐简·继续剧情"}}},
 			{[14]={bCenterAlarm=true},col={100,255,255},szContent="{$me}已经登记成为送货首领，物资队已出发，请帮会成员立即集合护送！",szNote="陕州商路·你登记为送货首领",szTarget="%",tCountdown={{bHold=true,key="帮会跑商·时限",nClass=14,nFrame=-1,nIcon=8004,nRefresh=0,nTime="10,你登记为送货首领;14400,陕州商路·运送剩余;14410,陕州商路·运送超时",szName="帮会跑商"}}},
 		},
@@ -12249,6 +12112,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1793113338,
+		nTimeStamp = 1793206169,
 	},
 }
