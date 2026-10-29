@@ -106,6 +106,8 @@ return {
 			{bReg=true,col={255,255,100},szContent="([浩气恶人]+)[盟谷]-的【(.-)】帮会成功占领【(.-)】据点！",szNote="{$3}·{$1}占领",tCountdown={{key="{$3}·浩气大旗",nClass=20,nIcon=13,nRefresh=2,nTime=-1,szName="{$3}·浩气大旗"},{key="{$3}·恶人大旗",nClass=20,nIcon=13,nRefresh=2,nTime=-1,szName="{$3}·恶人大旗"},{key="{$3}·{$1}大旗",nClass=20,nIcon=13,nTime=-2,szName="{$3}·{$1}大旗"},{key="{$3}·浩气大旗",nClass=20,nFrame=7,nIcon=14888,nRefresh=1,nTime=30,szName="【{$3}】·浩气[{$2}]占领"},{key="{$3}·恶人大旗",nClass=20,nFrame=3,nIcon=14887,nRefresh=1,nTime=30,szName="【{$3}】·恶人[{$2}]占领"}}},
 		},
 		[-20] = {
+			{col={255,255,100},szContent="由于战况惨烈，浩气盟和恶人谷守卫体力不支，现在开始，非据点贸易状态，在野外地图侠士重伤后复活仅可回到中立复活点！\
+",szNote="据点攻防·活动结束",tCountdown={{key="方士提示1",nClass=20,nIcon=13,nRefresh=5,nTime=-1,szName="方士提示1"},{key="方士提示2",nClass=20,nIcon=13,nRefresh=5,nTime=-1,szName="方士提示2"}}},
 			{bReg=true,col={255,255,100},szContent="^江湖快报！(.-)据点粮仓被一群([浩气恶人]+)[盟谷]-人士洗劫",szNote="{$1}·{$2}劫粮",tCountdown={{key="{$1}·浩气劫粮",nClass=20,nFrame=-1,nIcon=2397,nRefresh=2,nTime=-1,szName="{$1}·浩气劫粮"},{key="{$1}·恶人劫粮",nClass=20,nFrame=-1,nIcon=2398,nRefresh=2,nTime=-1,szName="{$1}·恶人劫粮"},{key="{$1}·{$2}劫粮",nClass=20,nFrame=7,nIcon=2400,nTime=-2,szName="{$1}·{$2}劫粮"},{key="{$1}·浩气劫粮",nClass=20,nFrame=7,nIcon=10449,nRefresh=1,nTime=30,szName="【{$1}】浩气劫粮"},{key="{$1}·恶人劫粮",nClass=20,nFrame=3,nIcon=10450,nRefresh=1,nTime=30,szName="【{$1}】恶人劫粮"}}},
 		},
 		[-19] = {
@@ -231,7 +233,7 @@ return {
 			{col={255,255,100},szContent="据点争夺战即将开始，为防弄虚作假者，即将对据点活动地图进行清场操作，同时清空此前所有排队队列，请各阵营侠士做好准备。拥有据点地图优先进入权的帮众可提前进入地图以作防守准备，不会被清出地图。\
 ",tCountdown={{key="阵营活动",nClass=20,nFrame=-1,nIcon=5815,nRefresh=1,nTime="1,据点攻防·开始排队;10,据点攻防·开始排队;60,据点攻防·等待排队",szName="阵营活动"}}},
 			{col={255,255,100},szContent="为保障各位侠士的安全，浩气盟和恶人谷重新派出了守卫，在野外地图侠士重伤后复活可回到阵营复活点！\
-",tCountdown={{bHold=true,key="阵营活动",nClass=20,nFrame=-1,nIcon=1465,nTime=1799.795,szName="据点攻防·消失模式"}}},
+",szNote="粮仓争夺·活动开启",tCountdown={{bHold=true,key="阵营活动",nClass=20,nFrame=-1,nIcon=1465,nTime=1799.795,szName="据点攻防·消失模式"}}},
 			{bReg=true,col={255,255,100},szContent="(.-)【(.-)】帮会的(.-)大侠成功护送祭祀物资到达(.-)据点，该据点将士备受鼓舞，战意高昂，战时必将固若金汤！",szNote="祭天·{$1}·[{$2}]·{$4}",tCountdown={{key="通用事件",nClass=20,nFrame=1,nIcon=8838,nTime=30,szName="{$1}祭天·[{$2}]·{$4}"}}},
 		},
 		[9] = {
@@ -908,6 +910,8 @@ return {
 			{[14]={bCenterAlarm=true},bReg=true,col={255,255,100},szContent="(.-)离开据点过久，或在原地五尺范围内盘踞超过五分钟，旗帜重置！",szNote="[{$1}]·离开据点·大旗重置",szTarget="%",tCountdown={{key="离开据点·大旗重置",nClass=14,nFrame=4,nIcon=592,nTime=180,szName="【{$1}·离开据点】大旗重置"}}},
 			{[14]={bCenterAlarm=true},bReg=true,col={255,255,100},szContent="^%[逐鹿中原%]%[(.-)%]：正在(.-)城门！",szNote="[{$1}]·{$2}·城门",szTarget="%",tCountdown={{key="打开·城门",nClass=14,nFrame=5,nIcon=1465,nRefresh=10,nTime=-2,szName="打开·城门"},{key="关闭·城门",nClass=14,nFrame=5,nIcon=1465,nRefresh=10,nTime=-2,szName="关闭·城门"},{key="{$2}·城门",nClass=14,nFrame=5,nIcon=13,nTime=-2,szName="{$2}·城门"},{key="打开·城门",nClass=14,nFrame=1,nIcon=2310,nRefresh=10,nTime=10,szName="城门·打开·[{$1}]"},{key="关闭·城门",nClass=14,nFrame=1,nIcon=4839,nRefresh=10,nTime=10,szName="城门·关闭·[{$1}]"}}},
 			{[14]={bCenterAlarm=true},col={255,255,100},szContent="少侠并没有【管理活动】权限，不能召唤增援。",szNote="缺少·管锂活动·权限",szTarget="%",tCountdown={{key="阵营业务",nClass=14,nFrame=8,nIcon=13,nTime=10,szName="缺少·管锂活动·权限"}}},
+			{[14]={bCenterAlarm=true},col={100,100,255},szContent="只有浩气盟侠士方可领取。",szNote="浩气侠士·方可拾取"},
+			{[14]={bCenterAlarm=true},col={255,100,100},szContent="只有恶人谷侠士方可领取。",szNote="恶人侠士·方可拾取"},
 			{[14]={bCenterAlarm=true,bTeamChannel=true},col={255,255,100},szContent="身负据点大旗，当心被夺！",szNote="[{$me}]·扛起大旗",tCountdown={{key="拾取大旗·{$me}",nClass=14,nFrame=8,nIcon=592,nTime=30,szName="【{$me}】·拾取大旗"}}},
 			{col={255,255,100},szContent="你已经离开据点，10秒内未进入据点，则据点旗帜重置。",tCountdown={{key="据点大旗·旗手提示",nClass=14,nFrame=2,nIcon=592,nTime=10,szName="据点大旗·重置剩余"}}},
 			{[14]={bCenterAlarm=true,bFullScreen=true,bTeamChannel=true,bWhisperChannel=true,szVoice="DianMing_P"},col={255,50,255},szContent="系统检测您有挂机行为，如果长期维持该状态将被传送出图！",szNote="挂机检测·快活跃起来",tCountdown={{key="挂机检测",nClass=14,nFrame=2,nIcon=13,nTime=30,szName="挂机检测·动一动"}}},
@@ -1107,6 +1111,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1793113371,
+		nTimeStamp = 1793291186,
 	},
 }
