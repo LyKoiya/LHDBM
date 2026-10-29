@@ -165,10 +165,17 @@ return {
 		[718] = {
 			{aFocus={{nMaxDistance=6,szDisplay="獭山岛·接引人",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=135451,nFrame=47,szNote="獭山岛·接引人·林勉"},
 		},
+		[802] = {
+			{aFocus={{nMaxDistance=30,szDisplay="南山马场·接引人",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=141122,nFrame=47,szNote="南山马场·接引人·齐德隆"},
+			{aFocus={{nMaxDistance=30,szDisplay="昊渊极·接引人",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=141047,nFrame=47,szNote="昊渊极·接引人·散落的书页"},
+		},
+		[803] = {
+			{aFocus={{nMaxDistance=30,szDisplay="玄元观·接引人",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=140111,nFrame=47,szNote="玄元观·接引人·唐趣"},
+		},
 	},
 	TALK = {},
 	__meta = {
-		nTimeStamp = 1791190288,
+		nTimeStamp = 1793275590,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
