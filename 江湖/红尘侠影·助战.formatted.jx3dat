@@ -100,6 +100,10 @@ return {
 			{aFocus={{nMaxDistance=60,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=137690,nFrame=47,szNote="岳仲山·红名"},
 			{aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=137693,nFrame=47,szNote="岳仲山"},
 		},
+		[216] = {
+			{aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=137854,nFrame=47,szNote="岳仲山·可疑商人·战斗"},
+			{aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=137855,nFrame=47,szNote="岳仲山·可疑商人"},
+		},
 		[475] = {
 			{[3]={bScreenHead=true},col={0,255,0},dwID=110046,nFrame=47,szNote="红尘侠影·康宴别"},
 			{[3]={bScreenHead=true},col={0,255,0},dwID=110047,nFrame=47,szNote="红尘侠影·康宴别"},
@@ -123,7 +127,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791836600,
+		nTimeStamp = 1793291439,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
