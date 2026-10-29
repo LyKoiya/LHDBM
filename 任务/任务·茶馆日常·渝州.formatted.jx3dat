@@ -1,11 +1,15 @@
 return {
-	BUFF = {},
+	BUFF = {
+		[803] = {
+			{{bBuffList=true},dwID=34491,nLevel=1,nScrutinyType=1,szNote="喝茶小憩"},
+			{{bBuffList=true},dwID=34351,nLevel=1,nScrutinyType=1,szNote="超重要客户配送中！"},
+		},
+	},
 	CASTING = {},
 	CHAT = {},
 	DEBUFF = {},
 	DOODAD = {
 		[803] = {
-			{aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=12058,szNote="春笋"},
 			{aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=12087,szNote="来此取水"},
 			{aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=12078,szNote="来此生火"},
 		},
@@ -17,11 +21,11 @@ return {
 	},
 	TALK = {},
 	__meta = {
-		nTimeStamp = 1793173784,
+		nTimeStamp = 1793291289,
 		szAuthor = "荷花鲤",
-		szCustomVoicePacketUUID = "",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
-		szOfficialVoicePacketUUID = "",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
 		szServer = "唯我独尊",
 	},
 }
