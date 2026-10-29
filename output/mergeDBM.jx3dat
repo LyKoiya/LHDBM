@@ -1951,6 +1951,10 @@ return {
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bAttention=true,bScreenHead=true,col="#FFCC00FF",colScreenHead="#FFCC00",nColAlpha=255,nPriority=3,szReminder="火"}},col={255,204,0},dwID=33449,nLevel=1,nScrutinyType=2},
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#FFCC00FF",nColAlpha=255,nPriority=3,szReminder="焦"}},col={255,204,0},dwID=33401,nLevel=1,nScrutinyType=2},
 		},
+		[803] = {
+			{{bBuffList=true},dwID=34351,nLevel=1,nScrutinyType=1},
+			{{bBuffList=true},dwID=34491,nLevel=1,nScrutinyType=1},
+		},
 		[805] = {
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#FFCC00FF",nColAlpha=255,nPriority=3,szReminder="庇"}},col={255,204,0},dwID=10076,nLevel=1,nScrutinyType=2},
 			{{bBuffList=true},dwID=7507,nLevel=1,nScrutinyType=1},
@@ -2456,6 +2460,8 @@ return {
 			{bReg=true,szContent="([浩气恶人]+)([霉][巳])(.-)据点的运输车在(.-)被劫持！",szNote="{$1}·[{$3}]运输车·在[{$4}]被劫",tCountdown={{key="{$3}·浩气大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·浩气大旗"},{key="{$3}·恶人大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·恶人大旗"},{key="{$3}·{$1}大旗",nClass=20,nIcon=13,nTime=-2,szName="{$3}·{$1}大旗"},{key="{$3}·浩气大旗",nClass=20,nFrame=3,nIcon=20116,nRefresh=1,nTime=30,szName="{$4}·恶人劫[{$3}]车"},{key="{$3}·恶人大旗",nClass=20,nFrame=7,nIcon=20125,nRefresh=1,nTime=30,szName="{$4}·浩气劫[{$3}]车"}}},
 			{bReg=true,szContent="([浩气恶人]+)([霉][巳])(.-)据点的运输车已顺利抵达前线！感谢侠士们的护送！",szNote="{$1}·[{$3}]运输车·抵达",tCountdown={{key="{$3}·浩气大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·浩气大旗"},{key="{$3}·恶人大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=2,nTime=-2,szName="{$3}·恶人大旗"},{key="{$3}·{$1}大旗",nClass=20,nIcon=13,nTime=-2,szName="{$3}·{$1}大旗"},{key="{$3}·浩气大旗",nClass=20,nFrame=7,nIcon=4543,nRefresh=1,nTime=10,szName="浩气·[{$3}]运输车·抵达"},{key="{$3}·恶人大旗",nClass=20,nFrame=3,nIcon=4544,nRefresh=1,nTime=10,szName="恶人·[{$3}]运输车·抵达"}}},
 			{bReg=true,col={255,255,100},szContent="^江湖快报！(.-)据点粮仓被一群([浩气恶人]+)[盟谷]-人士洗劫",szNote="{$1}·{$2}劫粮",tCountdown={{key="{$1}·浩气劫粮",nClass=20,nFrame=-1,nIcon=2397,nRefresh=2,nTime=-1,szName="{$1}·浩气劫粮"},{key="{$1}·恶人劫粮",nClass=20,nFrame=-1,nIcon=2398,nRefresh=2,nTime=-1,szName="{$1}·恶人劫粮"},{key="{$1}·{$2}劫粮",nClass=20,nFrame=7,nIcon=2400,nTime=-2,szName="{$1}·{$2}劫粮"},{key="{$1}·浩气劫粮",nClass=20,nFrame=7,nIcon=10449,nRefresh=1,nTime=30,szName="【{$1}】浩气劫粮"},{key="{$1}·恶人劫粮",nClass=20,nFrame=3,nIcon=10450,nRefresh=1,nTime=30,szName="【{$1}】恶人劫粮"}}},
+			{col={255,255,100},szContent="由于战况惨烈，浩气盟和恶人谷守卫体力不支，现在开始，非据点贸易状态，在野外地图侠士重伤后复活仅可回到中立复活点！\
+",szNote="据点攻防·活动结束",tCountdown={{key="方士提示1",nClass=20,nIcon=13,nRefresh=5,nTime=-1,szName="方士提示1"},{key="方士提示2",nClass=20,nIcon=13,nRefresh=5,nTime=-1,szName="方士提示2"}}},
 			{szContent="^江湖快报！(.*)据点粮仓被一群浩气盟人士洗劫，损失一半据点资金。\
 ",szNote="防止冲突"},
 			{szContent="^江湖快报！(.*)据点粮仓被一群恶人谷人士洗劫，损失一半据点资金。\
@@ -2815,7 +2821,7 @@ return {
 ",szNote="处于跨服队列·限制竞技比赛",tCountdown={{key="竞技活动",nClass=20,nFrame=2,nIcon=13,nTime=5,szName="处于跨服队列·限制竞技比赛"}}},
 			{bReg=true,col={255,255,100},szContent="(.-)【(.-)】帮会的(.-)大侠成功护送祭祀物资到达(.-)据点，该据点将士备受鼓舞，战意高昂，战时必将固若金汤！",szNote="祭天·{$1}·[{$2}]·{$4}",tCountdown={{key="通用事件",nClass=20,nFrame=1,nIcon=8838,nTime=30,szName="{$1}祭天·[{$2}]·{$4}"}}},
 			{col={255,255,100},szContent="为保障各位侠士的安全，浩气盟和恶人谷重新派出了守卫，在野外地图侠士重伤后复活可回到阵营复活点！\
-",tCountdown={{bHold=true,key="阵营活动",nClass=20,nFrame=-1,nIcon=1465,nTime=1799.795,szName="据点攻防·消失模式"}}},
+",szNote="粮仓争夺·活动开启",tCountdown={{bHold=true,key="阵营活动",nClass=20,nFrame=-1,nIcon=1465,nTime=1799.795,szName="据点攻防·消失模式"}}},
 			{col={255,255,100},szContent="据点争夺战即将开始，为防弄虚作假者，即将对据点活动地图进行清场操作，同时清空此前所有排队队列，请各阵营侠士做好准备。拥有据点地图优先进入权的帮众可提前进入地图以作防守准备，不会被清出地图。\
 ",tCountdown={{key="阵营活动",nClass=20,nFrame=-1,nIcon=5815,nRefresh=1,nTime="1,据点攻防·开始排队;10,据点攻防·开始排队;60,据点攻防·等待排队",szName="阵营活动"}}},
 			{col={255,100,100},szContent="阵营攻防战即将开始，为防弄虚作假者，即将对“恶人谷”地图进行清场操作，并在“下午六点三十分”开始攻防排队，请勿在下午六点三十分前排队，将被视为无效，请侠士们提前做好准备。\
@@ -4518,6 +4524,9 @@ return {
 			{{bBuffList=true},dwID=7616,nIcon=13172,nLevel=1,nScrutinyType=1,szName="僵直"},
 			{{bBuffList=true},col={255,255,0},dwID=17626,nIcon=14120,nLevel=1,nScrutinyType=1,szName="无敌"},
 			{{bBuffList=true},col={255,255,0},dwID=11523,nIcon=13172,nLevel=1,nScrutinyType=1,szName="禁操作"},
+			{{bBuffList=true},col={255,255,0},dwID=18291,nLevel=1,nScrutinyType=1,szName="标记"},
+			{{bBuffList=true},col={255,255,0},dwID=19112,nLevel=1,nScrutinyType=1,szName="轮数"},
+			{{bBuffList=true},col={255,255,0},dwID=18290,nLevel=1,nScrutinyType=1,szName="小游戏"},
 			{dwID=15744,nIcon=2117,nLevel=1,nScrutinyType=1,szName="收徒CD",tCountdown={{key="师徒提示",nClass=2,nFrame=6,nIcon=2117,nTime=5,szName="师徒·师傅封印·结束"}}},
 			{dwID=15743,nIcon=2118,nLevel=1,nScrutinyType=1,szName="拜师CD",tCountdown={{key="师徒提示",nClass=2,nFrame=6,nIcon=2118,nTime=5,szName="师徒·徒弟封印·结束"}}},
 			{{bBuffList=true,bScreenHead=true},col={0,255,0},dwID=27613,nIcon=2678,nLevel=1,nScrutinyType=1,szName="快收杆"},
@@ -5799,6 +5808,11 @@ return {
 		},
 		[473] = {
 			{col={255,255,0},dwID=11582,nLevel=1,nScrutinyType=1,tCountdown={{key="雪山恩仇·提示0",nClass=1,nFrame=7,nIcon=13694,nTime=20,szName="请前往·万花门派·孙思邈"},{key="雪山恩仇·提示0",nClass=2,nFrame=7,nIcon=13694,nTime=0,szName="雪山恩仇·提示0"}},tKungFu={["SKILL#10021"]=true,["SKILL#10028"]=true}},
+			{{bBuffList=true},bCheckLevel=true,col={255,255,0},dwID=18516,nIcon=207,nLevel=5,nScrutinyType=1,szName="连杆",tCountdown={{key="任务提示1",nClass=1,nFrame=6,nIcon=207,nTime=10,szName="缺少·[瓦力的连杆]"}}},
+			{{bBuffList=true},bCheckLevel=true,col={255,255,0},dwID=18516,nIcon=367,nLevel=4,nScrutinyType=1,szName="弹簧",tCountdown={{key="任务提示1",nClass=1,nFrame=6,nIcon=367,nTime=10,szName="缺少·[瓦力的弹簧]"}}},
+			{{bBuffList=true},bCheckLevel=true,col={255,255,0},dwID=18516,nIcon=208,nLevel=3,nScrutinyType=1,szName="铆钉",tCountdown={{key="任务提示1",nClass=1,nFrame=6,nIcon=208,nTime=10,szName="缺少·[瓦力的铆钉]"}}},
+			{{bBuffList=true},bCheckLevel=true,col={255,255,0},dwID=18516,nIcon=144,nLevel=2,nScrutinyType=1,szName="齿轮",tCountdown={{key="任务提示1",nClass=1,nFrame=6,nIcon=144,nTime=10,szName="缺少·[瓦力的齿轮]"}}},
+			{{bBuffList=true},bCheckLevel=true,col={255,255,0},dwID=18516,nIcon=134,nLevel=1,nScrutinyType=1,szName="正常",tCountdown={{key="任务提示1",nClass=1,nFrame=6,nIcon=134,nTime=10,szName="瓦力没有丢失零件"}}},
 			{{bBuffList=true,bScreenHead=true},dwID=18552,nLevel=1},
 		},
 		[474] = {
@@ -7085,7 +7099,6 @@ return {
 		[803] = {
 			{aFocus={{nMaxDistance=6}},dwID=12078},
 			{aFocus={{nMaxDistance=6}},dwID=12087},
-			{aFocus={{nMaxDistance=6}},dwID=12058},
 		},
 		[806] = {
 			{aFocus={{nMaxDistance=6}},dwID=11970},
@@ -8439,6 +8452,9 @@ return {
 			{aFocus={{nMaxDistance=1,szDisplay="大旗·啖杏林·交互"}},col={0,255,0},dwID=36422,nFrame=52,tCountdown={{key="啖杏林·浩气大旗",nClass=3,nFrame=3,nIcon=3445,nTime=-1,szName="啖杏林·浩气大旗被夺"},{key="啖杏林·恶人大旗",nClass=3,nFrame=7,nIcon=3444,nTime=-1,szName="啖杏林·恶人大旗被夺"}}},
 			{aFocus={{nMaxDistance=1,szDisplay="大旗·枫湖寨·交互"}},col={0,255,0},dwID=36423,nFrame=52,tCountdown={{key="枫湖寨·浩气大旗",nClass=3,nFrame=3,nIcon=3445,nTime=-1,szName="枫湖寨·浩气大旗被夺"},{key="枫湖寨·恶人大旗",nClass=3,nFrame=7,nIcon=3444,nTime=-1,szName="枫湖寨·恶人大旗被夺"}}},
 		},
+		[142] = {
+			{aFocus={{nMaxDistance=60}},dwID=20715,nFrame=52},
+		},
 		[148] = {
 			{aFocus={{nMaxDistance=30,szDisplay="离开·传送"}},dwID=16475,nFrame=47},
 			{aFocus={{nMaxDistance=30,szDisplay="离开·传送"}},dwID=16332,nFrame=47},
@@ -8988,6 +9004,8 @@ return {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=40,szDisplay="上交毛巾·25个"}},col={0,255,0},dwID=44933,nFrame=47},
 		},
 		[216] = {
+			{aFocus={{nMaxDistance=6}},dwID=137855,nFrame=47},
+			{aFocus={{nMaxDistance=30,tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=137854,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=10,szDisplay="小小·放牧"}},col={0,255,0},dwID=69166,nFrame=47},
 			{[3]={bScreenHead=true},dwID=69162,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=20,szDisplay="石林马场·捐马声望"}},col={255,255,50},dwID=69163,nFrame=47},
@@ -10290,6 +10308,11 @@ return {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=90}},col={0,255,0},dwID=136845,nFrame=47},
 		},
 		[802] = {
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="胡不渝·与鸢行"}},col={0,255,255},dwID=141092,nFrame=47},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="裴人闻·玲珑谣"}},col={0,255,255},dwID=141010,nFrame=47},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="思素·利世心"}},col={0,255,255},dwID=140775,nFrame=47},
+			{aFocus={{nMaxDistance=30,szDisplay="昊渊极·接引人"}},dwID=141047,nFrame=47},
+			{aFocus={{nMaxDistance=30,szDisplay="南山马场·接引人"}},dwID=141122,nFrame=47},
 			{aFocus={{nMaxDistance=6,szDisplay="藏玉·大豆"}},dwID=137316,nFrame=52},
 			{aFocus={{nMaxDistance=6,szDisplay="三梭·荞麦"}},dwID=137315,nFrame=52},
 			{aFocus={{nMaxDistance=6,szDisplay="重穂·粟种"}},dwID=137314,nFrame=52},
@@ -10297,8 +10320,10 @@ return {
 		},
 		[803] = {
 			{aFocus={{nMaxDistance=20,tLife={bEnable=true,nValue=99,szOperator="<"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=138717,nFrame=50},
+			{aFocus={{nMaxDistance=30,szDisplay="玄元观·接引人"}},dwID=140111,nFrame=47},
 		},
 		[805] = {
+			{aFocus={{nMaxDistance=60,tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=140387,nFrame=52},
 			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{}},col={0,255,0},dwID=47408,nFrame=47},
 			{aFocus={{nMaxDistance=10,tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=47859,nFrame=47},
 			{aFocus={{nMaxDistance=10,tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=47032,nFrame=47},
@@ -10366,6 +10391,13 @@ return {
 			{aFocus={{szDisplay="浩气·引航"}},dwID=140235,nFrame=47},
 			{aFocus={{}},dwID=139948,nFrame=52},
 			{aFocus={{}},dwID=139947,nFrame=52},
+		},
+		[846] = {
+			{aFocus={{nMaxDistance=30}},dwID=140357,nFrame=47},
+			{aFocus={{}},dwID=140456,nFrame=47},
+			{aFocus={{nMaxDistance=30}},dwID=138804,nFrame=57},
+			{aFocus={{}},dwID=140210,nFrame=47},
+			{aFocus={{}},dwID=138805,nFrame=52},
 		},
 		[995] = {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60}},col={0,255,0},dwID=201226,nFrame=47},
@@ -10470,6 +10502,8 @@ return {
 			{[14]={bCenterAlarm=true,bFullScreen=true,bTeamChannel=true,bWhisperChannel=true,szVoice="DianMing_P"},col={255,50,255},szContent="系统检测您有挂机行为，如果长期维持该状态将被传送出图！",szNote="挂机检测·快活跃起来",tCountdown={{key="挂机检测",nClass=14,nFrame=2,nIcon=13,nTime=30,szName="挂机检测·动一动"}}},
 			{col={255,255,100},szContent="你已经离开据点，10秒内未进入据点，则据点旗帜重置。",tCountdown={{key="据点大旗·旗手提示",nClass=14,nFrame=2,nIcon=592,nTime=10,szName="据点大旗·重置剩余"}}},
 			{[14]={bCenterAlarm=true,bTeamChannel=true},col={255,255,100},szContent="身负据点大旗，当心被夺！",szNote="[{$me}]·扛起大旗",tCountdown={{key="拾取大旗·{$me}",nClass=14,nFrame=8,nIcon=592,nTime=30,szName="【{$me}】·拾取大旗"}}},
+			{[14]={bCenterAlarm=true},col={255,100,100},szContent="只有恶人谷侠士方可领取。",szNote="恶人侠士·方可拾取"},
+			{[14]={bCenterAlarm=true},col={100,100,255},szContent="只有浩气盟侠士方可领取。",szNote="浩气侠士·方可拾取"},
 			{[14]={bCenterAlarm=true},col={255,255,100},szContent="少侠并没有【管理活动】权限，不能召唤增援。",szNote="缺少·管锂活动·权限",szTarget="%",tCountdown={{key="阵营业务",nClass=14,nFrame=8,nIcon=13,nTime=10,szName="缺少·管锂活动·权限"}}},
 			{[14]={bCenterAlarm=true},bReg=true,col={255,255,100},szContent="^%[逐鹿中原%]%[(.-)%]：正在(.-)城门！",szNote="[{$1}]·{$2}·城门",szTarget="%",tCountdown={{key="打开·城门",nClass=14,nFrame=5,nIcon=1465,nRefresh=10,nTime=-2,szName="打开·城门"},{key="关闭·城门",nClass=14,nFrame=5,nIcon=1465,nRefresh=10,nTime=-2,szName="关闭·城门"},{key="{$2}·城门",nClass=14,nFrame=5,nIcon=13,nTime=-2,szName="{$2}·城门"},{key="打开·城门",nClass=14,nFrame=1,nIcon=2310,nRefresh=10,nTime=10,szName="城门·打开·[{$1}]"},{key="关闭·城门",nClass=14,nFrame=1,nIcon=4839,nRefresh=10,nTime=10,szName="城门·关闭·[{$1}]"}}},
 			{[14]={bCenterAlarm=true},bReg=true,col={255,255,100},szContent="(.-)离开据点过久，或在原地五尺范围内盘踞超过五分钟，旗帜重置！",szNote="[{$1}]·离开据点·大旗重置",szTarget="%",tCountdown={{key="离开据点·大旗重置",nClass=14,nFrame=4,nIcon=592,nTime=180,szName="【{$1}·离开据点】大旗重置"}}},
@@ -12092,14 +12126,24 @@ return {
 		},
 		[838] = {
 			{szContent="提醒：您已进入可敌对区域，在帮会领地或秘境中方能免除被敌对的危险。",szTarget="%",tCountdown={{key="阵营模式",nClass=14,nFrame=-1,nIcon=13,nRefresh=20,nTime=-1,szName="阵营模式"}}},
-			{col={255,100,100},szContent="换东家了！这回是恶人谷的船。",szNote="恶人·占领·引航大旗",szTarget="工头",tCountdown={{key="引航大旗",nClass=14,nFrame=0,nIcon=13,nTime=30,szName="恶人·占领·引航大旗"}}},
-			{col={100,100,255},szContent="换东家了！这回是浩气盟的船。",szNote="浩气·占领·引航大旗",szTarget="工头",tCountdown={{key="引航大旗",nClass=14,nFrame=0,nIcon=13,nTime=30,szName="浩气·占领·引航大旗"}}},
-			{col={100,100,255},szContent="到了到了！浩气盟的诸位辛苦，这一路押得漂亮！",szNote="浩气·跟车奖励",szTarget="工头",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=1,nTime=90,szName="浩气·跟车奖励"}}},
-			{col={255,100,100},szContent="到了到了！恶人谷的诸位辛苦，这一路押得漂亮！",szNote="恶人·跟车奖励",szTarget="工头",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=1,nTime=90,szName="恶人·跟车奖励"}}},
-			{col={100,100,255},szContent="货到了！记清点数，弟兄们收队。",szTarget="苏行山",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=1,nTime=90,szName="浩气·跟车奖励"}}},
-			{col={255,100,100},szContent="到了！点数入仓，弟兄们收队回谷。",szTarget="韩铁桥",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=1,nTime=90,szName="恶人·跟车奖励"}}},
-			{col={100,100,255},szContent="浩气：青崖的车起了！沿坡护送，送到转运点再散！",szTarget="苏行山",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=5,nTime=363,szName="浩气·护送矿车"}}},
-			{col={255,100,100},szContent="恶人：赤矶的车起了！都贴紧牛车，谁来劫货就打回去！",szTarget="韩铁桥",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=5,nTime=363,szName="恶人·护送矿车"}}},
+			{col={100,100,255},szContent="【浩气·运送物资】事件已经结束，由于你没有贡献，没有获得奖励。",tCountdown={{key="浩气·矿车",nClass=-1,nFrame=3,nIcon=13,nTime=60,szName="恶人·劫车奖励"}}},
+			{col={255,100,100},szContent="【恶人·运送物资】事件已经结束，由于你没有贡献，没有获得奖励。",tCountdown={{key="恶人·矿车",nClass=-1,nFrame=7,nIcon=13,nTime=60,szName="浩气·劫车奖励"}}},
+			{col={100,100,255},szContent="引航旗到手了！赤渊栈桥要进船，守住货道！",szNote="浩气·占领·引航大旗",szTarget="浩气盟骑兵",tCountdown={{key="引航大旗",nClass=14,nFrame=0,nIcon=13,nRefresh=2,nTime=30,szName="浩气·占领·引航大旗"}}},
+			{col={255,100,100},szContent="引航旗到手了！赤渊栈桥要进船，守住货道！",szNote="恶人·占领·引航大旗",szTarget="恶人谷骑兵",tCountdown={{key="引航大旗",nClass=14,nFrame=0,nIcon=13,nRefresh=2,nTime=30,szName="恶人·占领·引航大旗"}}},
+			{col={100,100,255},szContent="换东家了！这回是浩气盟的船。",szNote="浩气·占领·引航大旗",szTarget="工头",tCountdown={{key="引航大旗",nClass=14,nFrame=0,nIcon=13,nRefresh=2,nTime=30,szName="浩气·占领·引航大旗"}}},
+			{col={255,100,100},szContent="换东家了！这回是恶人谷的船。",szNote="恶人·占领·引航大旗",szTarget="工头",tCountdown={{key="引航大旗",nClass=14,nFrame=0,nIcon=13,nRefresh=2,nTime=30,szName="恶人·占领·引航大旗"}}},
+			{col={100,100,255},szContent="到了到了！浩气盟的诸位辛苦，这一路押得漂亮！",szNote="体服·浩气·跟车奖励",szTarget="工头",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=5,nTime=90,szName="浩气·跟车奖励"}}},
+			{col={100,100,255},szContent="牛车到了！浩气盟的诸位，辛苦了！",szNote="浩气·跟车奖励",szTarget="工头",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=5,nTime=90,szName="浩气·跟车奖励"}}},
+			{col={255,100,100},szContent="到了到了！恶人谷的诸位辛苦，这一路押得漂亮！",szNote="体服·恶人·跟车奖励",szTarget="工头",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=5,nTime=90,szName="恶人·跟车奖励"}}},
+			{col={255,100,100},szContent="牛车到了！恶人谷的诸位，辛苦了！",szNote="恶人·跟车奖励",szTarget="工头",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=5,nTime=90,szName="恶人·跟车奖励"}}},
+			{col={100,100,255},szContent="货到了！记清点数，弟兄们收队。",szNote="体服",szTarget="苏行山",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=5,nTime=90,szName="浩气·跟车奖励"}}},
+			{bSearch=true,col={100,100,255},szContent="到了，收队。",szTarget="苏行山",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=5,nTime=90,szName="浩气·跟车奖励"}}},
+			{col={255,100,100},szContent="到了！点数入仓，弟兄们收队回谷。",szNote="体服",szTarget="韩铁桥",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=5,nTime=90,szName="恶人·跟车奖励"}}},
+			{bSearch=true,col={255,100,100},szContent="到了，收队。",szTarget="韩铁桥",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=5,nTime=90,szName="恶人·跟车奖励"}}},
+			{col={100,100,255},szContent="浩气：青崖的车起了！沿坡护送，送到转运点再散！",szNote="体服",szTarget="苏行山",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=5,nTime=367,szName="浩气·护送矿车"}}},
+			{col={100,100,255},szContent="青崖栈桥的牛车起了！沿山道护送，到高阁再收队！",szTarget="苏行山",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=5,nTime=367,szName="浩气·护送矿车"}}},
+			{col={255,100,100},szContent="恶人：赤矶的车起了！都贴紧牛车，谁来劫货就打回去！",szNote="体服",szTarget="韩铁桥",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=5,nTime=367,szName="恶人·护送矿车"}}},
+			{col={255,100,100},szContent="赤渊栈桥的牛车起了！跟紧车，谁来劫货就打回去！",szTarget="韩铁桥",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=5,nTime=367,szName="恶人·护送矿车"}}},
 		},
 		[995] = {
 			{szContent="提示：首领出现！",szNote="八荒首领·出现",tCountdown={{key="首领出现",nClass=14,nFrame=1,nIcon=19185,nTime=30,szName="八荒首领·出现"}}},
@@ -12112,6 +12156,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1793263104,
+		nTimeStamp = 1793293985,
 	},
 }
