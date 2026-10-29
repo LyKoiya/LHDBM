@@ -1,0 +1,25 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {},
+	NPC = {
+		[846] = {
+			{aFocus={{}},dwID=138805,nFrame=52,szNote="据点宝箱"},
+			{aFocus={{}},dwID=140210,nFrame=47,szNote="散落的木箱"},
+			{aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=138804,nFrame=57,szNote="回纥精英"},
+			{aFocus={{}},dwID=140456,nFrame=47,szNote="宝箱"},
+			{aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=140357,nFrame=47,szNote="挑战出口"},
+		},
+	},
+	TALK = {},
+	__meta = {
+		nTimeStamp = 1793291242,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+	},
+}
