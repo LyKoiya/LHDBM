@@ -8,6 +8,11 @@ return {
 		},
 		[473] = {
 			{{bBuffList=true,bScreenHead=true},dwID=18552,nLevel=1,szNote="门派日常·武学试炼"},
+			{{bBuffList=true},bCheckLevel=true,col={255,255,0},dwID=18516,nIcon=134,nLevel=1,nScrutinyType=1,szName="正常",szNote="没掉零件",tCountdown={{key="任务提示1",nClass=1,nFrame=6,nIcon=134,nTime=10,szName="瓦力没有丢失零件"}}},
+			{{bBuffList=true},bCheckLevel=true,col={255,255,0},dwID=18516,nIcon=144,nLevel=2,nScrutinyType=1,szName="齿轮",szNote="齿轮",tCountdown={{key="任务提示1",nClass=1,nFrame=6,nIcon=144,nTime=10,szName="缺少·[瓦力的齿轮]"}}},
+			{{bBuffList=true},bCheckLevel=true,col={255,255,0},dwID=18516,nIcon=208,nLevel=3,nScrutinyType=1,szName="铆钉",szNote="铆钉",tCountdown={{key="任务提示1",nClass=1,nFrame=6,nIcon=208,nTime=10,szName="缺少·[瓦力的铆钉]"}}},
+			{{bBuffList=true},bCheckLevel=true,col={255,255,0},dwID=18516,nIcon=367,nLevel=4,nScrutinyType=1,szName="弹簧",szNote="弹簧",tCountdown={{key="任务提示1",nClass=1,nFrame=6,nIcon=367,nTime=10,szName="缺少·[瓦力的弹簧]"}}},
+			{{bBuffList=true},bCheckLevel=true,col={255,255,0},dwID=18516,nIcon=207,nLevel=5,nScrutinyType=1,szName="连杆",szNote="连杆",tCountdown={{key="任务提示1",nClass=1,nFrame=6,nIcon=207,nTime=10,szName="缺少·[瓦力的连杆]"}}},
 		},
 	},
 	DOODAD = {},
@@ -22,7 +27,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791190288,
+		nTimeStamp = 1793292739,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
