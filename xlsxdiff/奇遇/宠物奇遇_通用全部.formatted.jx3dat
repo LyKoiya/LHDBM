@@ -372,8 +372,13 @@ return {
 		[718] = {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="刘一竿·碗中仙",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=137476,nFrame=47,szNote="刘一竿·碗中仙"},
 		},
+		[802] = {
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="思素·利世心",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=140775,nFrame=47,szNote="思素·利世心"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="裴人闻·玲珑谣",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=141010,nFrame=47,szNote="裴人闻·玲珑谣"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="胡不渝·与鸢行",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=141092,nFrame=47,szNote="胡不渝·与鸢行"},
+		},
 	},
 	__meta = {
-		nTimeStamp = 1791190287,
+		nTimeStamp = 1793291528,
 	},
 }
