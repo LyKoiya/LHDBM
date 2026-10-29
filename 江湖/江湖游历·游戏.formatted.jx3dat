@@ -1,0 +1,23 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {
+		[-1] = {
+			{{bBuffList=true},col={255,255,0},dwID=18290,nLevel=1,nScrutinyType=1,szName="小游戏",szNote="小游戏定身"},
+			{{bBuffList=true},col={255,255,0},dwID=19112,nLevel=1,nScrutinyType=1,szName="轮数",szNote="小游戏轮数"},
+			{{bBuffList=true},col={255,255,0},dwID=18291,nLevel=1,nScrutinyType=1,szName="标记",szNote="小游戏标记"},
+		},
+	},
+	DOODAD = {},
+	NPC = {},
+	TALK = {},
+	__meta = {
+		nTimeStamp = 1793291464,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+	},
+}
