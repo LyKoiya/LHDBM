@@ -26,10 +26,10 @@ return {
 	},
 	TALK = {
 		[838] = {
-			{col={255,100,100},szContent="赤渊栈桥的牛车起了！跟紧车，谁来劫货就打回去！",szTarget="韩铁桥",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=5,nTime=363,szName="恶人·护送矿车"}}},
-			{col={255,100,100},szContent="恶人：赤矶的车起了！都贴紧牛车，谁来劫货就打回去！",szNote="体服",szTarget="韩铁桥",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=5,nTime=363,szName="恶人·护送矿车"}}},
-			{col={100,100,255},szContent="青崖栈桥的牛车起了！沿山道护送，到高阁再收队！",szTarget="苏行山",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=5,nTime=363,szName="浩气·护送矿车"}}},
-			{col={100,100,255},szContent="浩气：青崖的车起了！沿坡护送，送到转运点再散！",szNote="体服",szTarget="苏行山",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=5,nTime=363,szName="浩气·护送矿车"}}},
+			{col={255,100,100},szContent="赤渊栈桥的牛车起了！跟紧车，谁来劫货就打回去！",szTarget="韩铁桥",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=5,nTime=367,szName="恶人·护送矿车"}}},
+			{col={255,100,100},szContent="恶人：赤矶的车起了！都贴紧牛车，谁来劫货就打回去！",szNote="体服",szTarget="韩铁桥",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=5,nTime=367,szName="恶人·护送矿车"}}},
+			{col={100,100,255},szContent="青崖栈桥的牛车起了！沿山道护送，到高阁再收队！",szTarget="苏行山",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=5,nTime=367,szName="浩气·护送矿车"}}},
+			{col={100,100,255},szContent="浩气：青崖的车起了！沿坡护送，送到转运点再散！",szNote="体服",szTarget="苏行山",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=5,nTime=367,szName="浩气·护送矿车"}}},
 			{bSearch=true,col={255,100,100},szContent="到了，收队。",szTarget="韩铁桥",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=5,nTime=90,szName="恶人·跟车奖励"}}},
 			{col={255,100,100},szContent="到了！点数入仓，弟兄们收队回谷。",szNote="体服",szTarget="韩铁桥",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=5,nTime=90,szName="恶人·跟车奖励"}}},
 			{bSearch=true,col={100,100,255},szContent="到了，收队。",szTarget="苏行山",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=5,nTime=90,szName="浩气·跟车奖励"}}},
@@ -47,7 +47,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1793278745,
+		nTimeStamp = 1793291356,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
