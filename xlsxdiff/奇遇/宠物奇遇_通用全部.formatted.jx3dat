@@ -285,6 +285,9 @@ return {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="¾ÅÂ¡ÉñØ¤¡¤¾£éð´Ì",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=51323,nFrame=47,szNote="¾ÅÂ¡ÉñØ¤¡¤¾£éð´Ì"},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="ÃÏÎÚ¡¤å­ÖÞÃÎ",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=25876,nFrame=47,szNote="ÃÏÎÚ¡¤å­ÖÞÃÎ"},
 		},
+		[189] = {
+			{[3]={bCenterAlarm=true,bScreenHead=true},aFocus={{nMaxDistance=0,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=47704,nFrame=47,szNote="¶×³è¡¤ºôºô"},
+		},
 		[193] = {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="ÄÏ¾²¡¤¹ØÍâÉÌ",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=56476,nFrame=47,szNote="ÄÏ¾²¡¤¹ØÍâÉÌ"},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="°×ÜÆãä¡¤ÈÖÂí±ß",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=59328,nFrame=47,szNote="°×ÜÆãä¡¤ÈÖÂí±ß"},
@@ -379,6 +382,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1793295590,
+		nTimeStamp = 1793378334,
 	},
 }
