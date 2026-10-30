@@ -19,9 +19,22 @@ return {
 		[-1] = {
 			{[2]={bCenterAlarm=true},dwID=11486,nIcon=4606,nLevel=1,nScrutinyType=1,szName="ÔµÃð",szNote="¸£µÂÆëÌì¡¤CD",tCountdown={{key="¸£µÂÆëÌì¡¤CD",nClass=2,nFrame=7,nIcon=4606,nTime=10,szName="³É¾Í¡¤¸£µÂÆëÌì¡¤CDÏû³ý"}}},
 		},
+		[6] = {
+			{col={255,255,0},dwID=11444,nIcon=8312,nLevel=1,nScrutinyType=1,szName="¾ÛÁé·û",szNote="·½Ê¿¡¤µãî¸ÆÆÉ·"},
+		},
+		[102] = {
+			{col={255,255,0},dwID=11444,nIcon=8312,nLevel=1,nScrutinyType=1,szName="¾ÛÁé·û",szNote="·½Ê¿¡¤µãî¸ÆÆÉ·"},
+		},
 		[150] = {
 			{{bBuffList=true},dwID=11438,nIcon=10208,nLevel=1,nScrutinyType=1,szName="Äîºì³¾",szNote="·½Ê¿_Äîºì³¾"},
 			{[2]={bCenterAlarm=true},dwID=11486,nIcon=4606,nLevel=1,nScrutinyType=1,szName="ÔµÃð",szNote="¸£µÂÆëÌì¡¤CD",tCountdown={{key="¸£µÂÆëÌì¡¤CD",nClass=1,nFrame=7,nIcon=4606,nTime=10,szName="³É¾Í¡¤¸£µÂÆëÌì¡¤CD¡¤18Ð¡Ê±"},{key="¸£µÂÆëÌì¡¤CD",nClass=2,nFrame=7,nIcon=4606,nTime=10,szName="³É¾Í¡¤¸£µÂÆëÌì¡¤CDÏû³ý"}}},
+			{col={255,255,0},dwID=11444,nIcon=8312,nLevel=1,nScrutinyType=1,szName="¾ÛÁé·û",szNote="·½Ê¿¡¤µãî¸ÆÆÉ·"},
+		},
+		[158] = {
+			{col={255,255,0},dwID=11444,nIcon=8312,nLevel=1,nScrutinyType=1,szName="¾ÛÁé·û",szNote="·½Ê¿¡¤µãî¸ÆÆÉ·"},
+		},
+		[193] = {
+			{col={255,255,0},dwID=11444,nIcon=8312,nLevel=1,nScrutinyType=1,szName="¾ÛÁé·û",szNote="·½Ê¿¡¤µãî¸ÆÆÉ·"},
 		},
 	},
 	DOODAD = {
@@ -37,9 +50,7 @@ return {
 			{aFocus={{nMaxDistance=4.5,szDisplay="ÉÙÏÀ¡¤·½Ê¿",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=51715,nFrame=47,szName="ÌØÐ§¡¤·½Ê¿",szNote="ÌØÐ§¡¤·½Ê¿¡¤ÉÙÏÀ"},
 		},
 		[-1] = {
-			{[3]={bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="²Ø±¦¶Ñ",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=52295,nFrame=47,szName="²Ø±¦¶Ñ",szNote="·½Ê¿Ñ°±¦¡¤²Ø±¦¶Ñ"},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,szDisplay="»ë»ëØ¬Ø¬µÄ»êÁé",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,50},dwID=52940,nFrame=67,szNote="»ë»ëØ¬Ø¬µÄ»êÁé"},
-			{aFocus={{nMaxDistance=60,szDisplay="ÒõÑôÖ®Á¦",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=51501,nFrame=67,szNote="ÒõÑôÖ®Á¦"},
 		},
 		[6] = {
 			{aFocus={{nMaxDistance=4.5,szDisplay="³ÉÄÐ¡¤·½Ê¿",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=51506,nFrame=47,szName="ÌØÐ§¡¤·½Ê¿",szNote="ÌØÐ§¡¤·½Ê¿¡¤³ÉÄÐ"},
@@ -61,6 +72,8 @@ return {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,255},dwID=54642,nFrame=67},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,255},dwID=54641,nFrame=67},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,255},dwID=52316,nFrame=67},
+			{aFocus={{nMaxDistance=4.5,szDisplay="ÒõÑôÖ®Á¦¡¤½»»¥",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}},{nMaxDistance=60,szDisplay="ÒõÑôÖ®Á¦",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=51501,nFrame=67,szNote="ÒõÑôÖ®Á¦"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=4,szDisplay="²Ø±¦¶Ñ¡¤½»»¥",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}},{nMaxDistance=0,szDisplay="²Ø±¦¶Ñ¡¤¾ÛÁé·û",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=52295,nFrame=47,szName="²Ø±¦¶Ñ",szNote="·½Ê¿Ñ°±¦¡¤²Ø±¦¶Ñ"},
 		},
 		[102] = {
 			{aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=52726,nFrame=67},
@@ -73,6 +86,8 @@ return {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,255},dwID=55243,nFrame=67},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,255},dwID=55254,nFrame=67},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,255},dwID=55255,nFrame=67},
+			{aFocus={{nMaxDistance=4.5,szDisplay="ÒõÑôÖ®Á¦¡¤½»»¥",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}},{nMaxDistance=60,szDisplay="ÒõÑôÖ®Á¦",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=51501,nFrame=67,szNote="ÒõÑôÖ®Á¦"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=4,szDisplay="²Ø±¦¶Ñ¡¤½»»¥",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}},{nMaxDistance=0,szDisplay="²Ø±¦¶Ñ¡¤¾ÛÁé·û",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=52295,nFrame=47,szName="²Ø±¦¶Ñ",szNote="·½Ê¿Ñ°±¦¡¤²Ø±¦¶Ñ"},
 		},
 		[150] = {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=3,tLife={bEnable=false,nValue=100,szOperator="<"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=50870,nFrame=67},
@@ -87,6 +102,8 @@ return {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=true}}},col={255,50,255},dwID=52766,nFrame=67},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=true}}},col={255,50,255},dwID=52650,nFrame=67},
 			{[3]={bCenterAlarm=true},aFocus={{nMaxDistance=-1,szDisplay="ÉñÁúÏÖÊÀ¡¤¸£µÂÆëÌì",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=52875,nFrame=60,szName="ÉñÁúÏÖÊÀ",szNote="¸£µÂÆëÌì¡¤ÉñÁúÏÖÊÀ"},
+			{aFocus={{nMaxDistance=4.5,szDisplay="ÒõÑôÖ®Á¦¡¤½»»¥",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}},{nMaxDistance=60,szDisplay="ÒõÑôÖ®Á¦",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=51501,nFrame=67,szNote="ÒõÑôÖ®Á¦"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=4,szDisplay="²Ø±¦¶Ñ¡¤½»»¥",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}},{nMaxDistance=0,szDisplay="²Ø±¦¶Ñ¡¤¾ÛÁé·û",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=52295,nFrame=47,szName="²Ø±¦¶Ñ",szNote="·½Ê¿Ñ°±¦¡¤²Ø±¦¶Ñ"},
 		},
 		[158] = {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="Òþ²ØÈÎÎñ¡¤·½Ê¿5¼¶",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=55303,nFrame=67,szNote="Ê¯ÒÉ"},
@@ -102,6 +119,8 @@ return {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,255},dwID=55088,nFrame=67,szNote="±©º­ÈÌ"},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,255},dwID=55091,nFrame=67,szNote="Ôª¼ÎÑÔ"},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,255},dwID=53446,nFrame=67,szNote="Ð¡ÜÔÀò"},
+			{aFocus={{nMaxDistance=4.5,szDisplay="ÒõÑôÖ®Á¦¡¤½»»¥",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}},{nMaxDistance=60,szDisplay="ÒõÑôÖ®Á¦",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=51501,nFrame=67,szNote="ÒõÑôÖ®Á¦"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=4,szDisplay="²Ø±¦¶Ñ¡¤½»»¥",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}},{nMaxDistance=0,szDisplay="²Ø±¦¶Ñ¡¤¾ÛÁé·û",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=52295,nFrame=47,szName="²Ø±¦¶Ñ",szNote="·½Ê¿Ñ°±¦¡¤²Ø±¦¶Ñ"},
 		},
 		[193] = {
 			{aFocus={{nMaxDistance=20,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=53367,nFrame=67},
@@ -112,6 +131,8 @@ return {
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,255},dwID=55165,nFrame=67},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,255},dwID=55163,nFrame=67},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,255},dwID=55162,nFrame=67},
+			{aFocus={{nMaxDistance=4.5,szDisplay="ÒõÑôÖ®Á¦¡¤½»»¥",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}},{nMaxDistance=60,szDisplay="ÒõÑôÖ®Á¦",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=51501,nFrame=67,szNote="ÒõÑôÖ®Á¦"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=4,szDisplay="²Ø±¦¶Ñ¡¤½»»¥",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}},{nMaxDistance=0,szDisplay="²Ø±¦¶Ñ¡¤¾ÛÁé·û",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=52295,nFrame=47,szName="²Ø±¦¶Ñ",szNote="·½Ê¿Ñ°±¦¡¤²Ø±¦¶Ñ"},
 		},
 		[647] = {
 			{[3]={bScreenHead=true},aFocus={{}},dwID=125813,nFrame=67},
@@ -130,7 +151,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1792743202,
+		nTimeStamp = 1793377515,
 		szAuthor = "ºÉ»¨Àð",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
