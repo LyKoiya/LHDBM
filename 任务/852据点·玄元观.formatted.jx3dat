@@ -1,0 +1,27 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {},
+	DEBUFF = {},
+	DOODAD = {},
+	NPC = {
+		[803] = {
+			{aFocus={{nMaxDistance=60,szDisplay="据点·玄远观·入口",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=140503,nFrame=47,szNote="据点入口·玄元观"},
+		},
+		[852] = {
+			{aFocus={{}},dwID=140506,nFrame=52,szNote="据点宝箱"},
+			{aFocus={{}},dwID=140508,nFrame=47,szNote="宝箱"},
+			{aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=140509,nFrame=47,szNote="挑战出口"},
+			{aFocus={{}},dwID=140213,nFrame=47,szNote="破损的栅栏"},
+		},
+	},
+	TALK = {},
+	__meta = {
+		nTimeStamp = 1793381136,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+	},
+}
