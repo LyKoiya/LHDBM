@@ -1,7 +1,7 @@
 return {
 	BUFF = {
 		[803] = {
-			{{bBuffList=true},dwID=34491,nLevel=1,nScrutinyType=1,szNote="喝茶小憩"},
+			{{bBuffList=true},dwID=34491,nLevel=1,nScrutinyType=1,szName="小憩",szNote="喝茶小憩"},
 			{{bBuffList=true},dwID=34351,nLevel=1,nScrutinyType=1,szNote="超重要客户配送中！"},
 		},
 	},
@@ -17,11 +17,12 @@ return {
 	NPC = {
 		[803] = {
 			{aFocus={{nMaxDistance=20,tLife={bEnable=true,nValue=99,szOperator="<"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=138717,nFrame=50,szNote="野猪"},
+			{aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=138713,nFrame=47,szNote="地痞流氓"},
 		},
 	},
 	TALK = {},
 	__meta = {
-		nTimeStamp = 1793291289,
+		nTimeStamp = 1793380213,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
