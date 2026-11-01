@@ -22,6 +22,9 @@ return {
 			{aFocus={{nMaxDistance=0,szDisplay="恶人·引航",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=140236,nFrame=47,szNote="恶人·旗手·罗横江"},
 			{dwID=140360,nFrame=47,szNote="浩气·押运头领"},
 			{dwID=140361,nFrame=47,szNote="恶人·押运头领"},
+			{aFocus={{nMaxDistance=6,szDisplay="登楼·传送",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=141389,nFrame=47,szNote="登楼接引·侯起风"},
+			{aFocus={{nMaxDistance=6,szDisplay="世界首领·传送",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=141394,nFrame=47,szNote="索道接引·穆行川·世界首领→巴水津"},
+			{aFocus={{nMaxDistance=6,szDisplay="巴水津·传送",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=141395,nFrame=47,szNote="索道接引·梁归渡·世界首领→巴水津"},
 		},
 	},
 	TALK = {
@@ -47,7 +50,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1793291356,
+		nTimeStamp = 1793514565,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
