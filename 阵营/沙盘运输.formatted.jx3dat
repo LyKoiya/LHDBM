@@ -63,11 +63,11 @@ return {
 			{[14]={bCenterAlarm=true},szContent="仅劫车方阵营可拾取",szNote="仅劫车方阵营可拾取",szTarget="%"},
 			{[14]={bCenterAlarm=true},col={255,255,100},szContent="糟糕，护送不利，我们先撤了!",szNote="{$sender}·护送不利",szTarget="%"},
 			{szContent="你获得了1000点威望、500点战阶。",tCountdown={{key="沙盘运输",nClass=14,nFrame=1,nIcon=13561,nRefresh=1,nTime="20,劫车堆·拾取物资·间隔剩余;30,劫车堆·可以拾取物资了",szName="劫车堆·拾取物资·间隔剩余"}}},
-			{szContent="你获得了0点威名、500点战阶。",tCountdown={{key="沙盘运输",nClass=14,nFrame=1,nIcon=13561,nRefresh=1,nTime="20,劫车堆·拾取物资·间隔剩余;30,劫车堆·可以拾取物资了",szName="劫车堆·拾取物资·间隔剩余"}}},
+			{szContent="你获得了0点威望、500点战阶。",tCountdown={{key="沙盘运输",nClass=14,nFrame=1,nIcon=13561,nRefresh=1,nTime="20,劫车堆·拾取物资·间隔剩余;30,劫车堆·可以拾取物资了",szName="劫车堆·拾取物资·间隔剩余"}}},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1793377446,
+		nTimeStamp = 1793514580,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
