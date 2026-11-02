@@ -35,6 +35,8 @@ return {
 ",szNote="需要切换·输出心法",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="需要切换·输出心法"}}},
 			{szContent="你已接受了[寒郊辨痕]。\
 ",szNote="需要切换·输出心法",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="需要切换·输出心法"}}},
+			{szContent="你已接受了[共破围杀]。\
+",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="需要切换·输出心法"}}},
 		},
 		[215] = {
 			{szContent="你已接受了[拔刀无惧]。\
@@ -99,6 +101,7 @@ return {
 			{aFocus={{nMaxDistance=2,szDisplay="光圈·探查",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=137752,nFrame=47,szName="光圈·探查",szNote="岳仲山·光圈·探查"},
 			{aFocus={{nMaxDistance=60,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=137690,nFrame=47,szNote="岳仲山·红名"},
 			{aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=137693,nFrame=47,szNote="岳仲山"},
+			{aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=137875,nFrame=47,szNote="岳仲山·灰衣人"},
 		},
 		[216] = {
 			{aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=137854,nFrame=47,szNote="岳仲山·可疑商人·战斗"},
@@ -127,7 +130,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1793291439,
+		nTimeStamp = 1793602277,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
