@@ -999,6 +999,9 @@ return {
 			{col={255,100,100},szContent="分流活动已开启，大侠可以前往龙门荒漠接取阵营攻防前置任务",tCountdown={{key="分流活动",nClass=14,nFrame=3,nIcon=3536,nRefresh=1800,nTime=30,szName="龙门·攻防前置分流"}}},
 			{col={100,100,255},szContent="分流活动已开启，大侠可以前往巴陵县接取阵营攻防前置任务",tCountdown={{key="分流活动",nClass=14,nFrame=7,nIcon=3536,nRefresh=1800,nTime=30,szName="巴陵·攻防前置分流"}}},
 		},
+		[-1] = {
+			{[14]={bCenterAlarm=true},col={255,255,100},szContent="阵营排队即将开始，请侠士速速重新排队。",szNote="阵营排队·地图清空·重新排队"},
+		},
 		[9] = {
 			{[14]={bCenterAlarm=true},col={100,100,255},szContent="增援已至红莲岗，速速进攻！",szNote="浩气·兵符增援·红莲岗",szTarget="浩气盟督廷卫",tCountdown={{key="兵符·红莲岗",nClass=14,nFrame=8,nIcon=8478,nRefresh=1,nTime="10,浩气·兵符增援·红莲岗;300,浩气·红莲岗·兵符冷却;305,浩气·红莲岗·可用兵符",szName="浩气·兵符增援·红莲岗"}}},
 			{[14]={bCenterAlarm=true},col={100,100,255},szContent="增援已至秋雨堡，速速进攻！",szNote="浩气·兵符增援·秋雨堡",szTarget="浩气盟督廷卫",tCountdown={{key="兵符·秋雨堡",nClass=14,nFrame=8,nIcon=8478,nRefresh=1,nTime="10,浩气·兵符增援·秋雨堡;300,浩气·秋雨堡·兵符冷却;305,浩气·秋雨堡·可用兵符",szName="浩气·兵符增援·秋雨堡"}}},
@@ -1121,6 +1124,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1793515660,
+		nTimeStamp = 1793625697,
 	},
 }
