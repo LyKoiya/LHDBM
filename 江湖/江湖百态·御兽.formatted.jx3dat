@@ -1,5 +1,9 @@
 return {
-	BUFF = {},
+	BUFF = {
+		[21] = {
+			{dwID=11264,nIcon=8302,nLevel=1,nScrutinyType=1,szName="参战",szNote="驭兽参战标记"},
+		},
+	},
 	CASTING = {
 		[21] = {
 			{dwID=16877,nLevel=1,nScrutinyType=4,szNote="御兽·冰域咆哮",tCountdown={{key="招式提示1",nClass=8,nIcon=13,nTime=2,szName="冰域咆哮·恐惧·退20尺"}}},
@@ -43,6 +47,7 @@ return {
 			{{bBuffList=true},dwID=11487,nLevel=1,szName="流血",szNote="御兽·威势"},
 			{{bBuffList=true},col={255,255,0},dwID=11491,nLevel=1,nScrutinyType=1,szName="降伤害",szNote="御兽·邪王领域"},
 			{{bBuffList=true},col={255,255,0},dwID=11488,nLevel=1,szName="免选中",szNote="御兽·邪王领域"},
+			{col={255,255,0},dwID=11265,nIcon=8302,nLevel=1,nScrutinyType=1,szName="已拾取",szNote="驭兽拾取标记"},
 		},
 	},
 	DOODAD = {
@@ -65,7 +70,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1793173784,
+		nTimeStamp = 1793602251,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
