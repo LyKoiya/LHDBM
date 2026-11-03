@@ -11,15 +11,15 @@ return {
 	},
 	CHAT = {
 		[-21] = {
-			{szContent="正在拍卖龙骧驰竞活动专属稀有物品，内含最高移速坐骑及珍稀马饰，诸位侠士们切勿错过！！！\
+			{col={255,255,100},szContent="正在拍卖龙骧驰竞活动专属稀有物品，内含最高移速坐骑及珍稀马饰，诸位侠士们切勿错过！！！\
 ",szNote="龙骧驰竞·拍卖掉落",tCountdown={{key="拍卖分红",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="龙骧驰竞·拍卖掉落"}}},
 		},
 		[-7] = {
-			{szContent="正在拍卖龙骧驰竞活动专属稀有物品，内含最高移速坐骑及珍稀马饰，诸位侠士们切勿错过！！！\
+			{col={255,255,100},szContent="正在拍卖龙骧驰竞活动专属稀有物品，内含最高移速坐骑及珍稀马饰，诸位侠士们切勿错过！！！\
 ",szNote="龙骧驰竞·拍卖掉落",tCountdown={{key="拍卖分红",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="龙骧驰竞·拍卖掉落"}}},
 		},
 		[-2] = {
-			{szContent="正在拍卖龙骧驰竞活动专属稀有物品，内含最高移速坐骑及珍稀马饰，诸位侠士们切勿错过！！！\
+			{col={255,255,100},szContent="正在拍卖龙骧驰竞活动专属稀有物品，内含最高移速坐骑及珍稀马饰，诸位侠士们切勿错过！！！\
 ",szNote="龙骧驰竞·拍卖掉落",tCountdown={{key="拍卖分红",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="龙骧驰竞·拍卖掉落"}}},
 		},
 		[-1] = {
@@ -58,7 +58,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791813681,
+		nTimeStamp = 1793694458,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
