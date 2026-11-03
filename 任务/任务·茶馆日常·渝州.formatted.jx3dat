@@ -2,18 +2,13 @@ return {
 	BUFF = {
 		[803] = {
 			{{bBuffList=true},dwID=34491,nLevel=1,nScrutinyType=1,szName="小憩",szNote="喝茶小憩"},
-			{{bBuffList=true},dwID=34351,nLevel=1,nScrutinyType=1,szNote="超重要客户配送中！"},
+			{{bBuffList=true},dwID=34351,nLevel=1,nScrutinyType=1,szName="时限",szNote="超重要客户配送中！"},
 		},
 	},
 	CASTING = {},
 	CHAT = {},
 	DEBUFF = {},
-	DOODAD = {
-		[803] = {
-			{aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=12087,szNote="来此取水"},
-			{aFocus={{nMaxDistance=6,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=12078,szNote="来此生火"},
-		},
-	},
+	DOODAD = {},
 	NPC = {
 		[803] = {
 			{aFocus={{nMaxDistance=20,tLife={bEnable=true,nValue=99,szOperator="<"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=138717,nFrame=50,szNote="野猪"},
@@ -22,7 +17,7 @@ return {
 	},
 	TALK = {},
 	__meta = {
-		nTimeStamp = 1793380213,
+		nTimeStamp = 1793715581,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
