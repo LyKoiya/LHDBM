@@ -7,8 +7,8 @@ return {
 			{{bScreenHead=true},col={255,50,255},dwID=7373,nIcon=134,nLevel=1,nScrutinyType=3,szName="箭弩车",szNote="箭弩车记录ID·大车坐下"},
 			{{bBuffList=true},col={0,255,0},dwID=7492,nLevel=1,nScrutinyType=2,szName="矛御城",szNote="御城·矛"},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#B3EE3A",colScreenHead="#B3EE3A",nColAlpha=255,nPriority=18,szReminder="急"}},col={179,238,74},dwID=16035,nLevel=1,nScrutinyType=2,szName="急御城",szNote="御城·急"},
-			{dwID=7743,nLevel=1,nScrutinyType=2,szName="抗旗",szNote="扛旗表现·恶抗浩旗lv2"},
-			{{bBuffList=true},col={0,255,255},dwID=8021,nLevel=1,nScrutinyType=2,szName="读条中",szNote="读条标记·野性撞击"},
+			{dwID=7743,nIcon=7352,nLevel=1,nScrutinyType=2,szName="抗旗",szNote="扛旗表现·恶抗浩旗lv2"},
+			{{bBuffList=true},col={0,255,255},dwID=8021,nIcon=7426,nLevel=1,nScrutinyType=2,szName="读条中",szNote="读条标记·野性撞击"},
 		},
 		[-19] = {
 			{{bBuffList=true},dwID=3921,nIcon=134,nLevel=1,nScrutinyType=1,szName="弩CD",szNote="伟龙debuff"},
@@ -393,7 +393,7 @@ return {
 			{col={80,231,236},dwID=11561,nLevel=1,nScrutinyType=1,szName="据点内",szNote="判断是否在大旗附近",tCountdown={{key="据点大旗·旗手提示",nClass=1,nIcon=1272,nTime=-1,szName="据点大旗·旗手提示"}}},
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#FFFFFF00",nPriority=1}},col={255,255,255},dwID=7723,nLevel=1,nScrutinyType=2,szNote="神机雷"},
 			{{bBuffList=true},col={255,127,170},dwID=8037,nLevel=1,nScrutinyType=2,szNote="灼烧"},
-			{col={255,50,50},dwID=7908,nLevel=1,nScrutinyType=1,szName="禁跳",szNote="跳跃控制·抗大旗触发"},
+			{col={255,50,50},dwID=7908,nIcon=2020,nLevel=1,nScrutinyType=1,szName="禁跳",szNote="跳跃控制·抗大旗触发"},
 		},
 		[-19] = {
 			{col={255,255,0},dwID=11567,nIcon=1245,nLevel=1,nScrutinyType=1,szName="答对",szNote="回答奖励",tCountdown={{key="挂机检测",nClass=1,nFrame=1,nIcon=13,nTime=5,szName="答题验证·回答正确"}}},
@@ -1127,6 +1127,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1793715633,
+		nTimeStamp = 1793781836,
 	},
 }
