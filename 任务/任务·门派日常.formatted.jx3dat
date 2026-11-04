@@ -1,13 +1,17 @@
 return {
 	BUFF = {},
-	CASTING = {},
+	CASTING = {
+		[473] = {
+			{[9]={bCenterAlarm=true},dwID=25822,nIcon=398,nLevel=1,nScrutinyType=3,szNote="门派日常·闲雁剑影·芙蓉并蒂",tCountdown={{key="招式提示1",nClass=8,nIcon=398,nTime=3,szName="芙蓉并蒂·正在运功"}}},
+		},
+	},
 	CHAT = {},
 	DEBUFF = {
 		[-21] = {
 			{{bBuffList=true},col={255,150,0},dwID=3897,nLevel=1,nScrutinyType=1,szName="传功",szNote="掌门人的传功"},
 		},
 		[473] = {
-			{{bBuffList=true,bScreenHead=true},dwID=18552,nLevel=1,szNote="门派日常·武学试炼"},
+			{{bBuffList=true},col={0,255,255},dwID=18552,nLevel=1,nScrutinyType=1,szName="试炼",szNote="门派日常·武学试炼"},
 			{{bBuffList=true},bCheckLevel=true,col={255,255,0},dwID=18516,nIcon=134,nLevel=1,nScrutinyType=1,szName="正常",szNote="没掉零件",tCountdown={{key="任务提示1",nClass=1,nFrame=6,nIcon=134,nTime=10,szName="瓦力没有丢失零件"}}},
 			{{bBuffList=true},bCheckLevel=true,col={255,255,0},dwID=18516,nIcon=144,nLevel=2,nScrutinyType=1,szName="齿轮",szNote="齿轮",tCountdown={{key="任务提示1",nClass=1,nFrame=6,nIcon=144,nTime=10,szName="缺少·[瓦力的齿轮]"}}},
 			{{bBuffList=true},bCheckLevel=true,col={255,255,0},dwID=18516,nIcon=208,nLevel=3,nScrutinyType=1,szName="铆钉",szNote="铆钉",tCountdown={{key="任务提示1",nClass=1,nFrame=6,nIcon=208,nTime=10,szName="缺少·[瓦力的铆钉]"}}},
@@ -20,6 +24,9 @@ return {
 		[213] = {
 			{aFocus={{nMaxDistance=6,szDisplay="蛤蟆",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=45447,nFrame=65,szName="蛤蟆",szNote="门派日常·蛤蟆",tKungFu={["SKILL#10447"]=true,["SKILL#10448"]=true}},
 		},
+		[473] = {
+			{aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=102924,nFrame=47,szNote="门派日常·闲雁剑影"},
+		},
 	},
 	TALK = {
 		[213] = {
@@ -27,7 +34,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1793292739,
+		nTimeStamp = 1793779005,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
