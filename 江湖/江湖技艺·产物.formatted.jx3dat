@@ -14,9 +14,21 @@ return {
 		[-20] = {
 			{[14]={bCenterAlarm=true},col={255,255,100},szContent="据点范围内，无法使用归营旌。",szNote="据点内·无法使用·归营旌",szTarget="%"},
 		},
+		[-19] = {
+			{[14]={bCenterAlarm=true},szContent="协助成功，消耗精力500。",szNote="协助成功·消耗500精力"},
+			{[14]={bCenterAlarm=true},bReg=true,szContent="^([浩气恶人]+)([盟谷]-)阵营的(.-)帮会正在建设帮会临时营地。",szNote="{$1}·{$3}·正在搭建营地",szTarget="%"},
+			{[14]={bCenterAlarm=true},szContent="本帮专属复活营地已被摧毁，请注意保护自身安全。",szNote="本帮会·复活营地·被摧毁",szTarget="%",tCountdown={{key="帮会·复活营地",nClass=14,nFrame=1,nIcon=28136,nTime=10,szName="本帮·复活营地·被摧毁"}}},
+			{[14]={bCenterAlarm=true},bSearch=true,szContent="本帮专属复活营地已建立",szNote="本帮会·复活营地·已建立",szTarget="%",tCountdown={{key="帮会·复活营地",nClass=14,nFrame=0,nIcon=28136,nTime=30,szName="本帮·复活营地·已建立"}}},
+		},
+		[-7] = {
+			{[14]={bCenterAlarm=true},szContent="协助成功，消耗精力500。",szNote="协助成功·消耗500精力"},
+			{[14]={bCenterAlarm=true},bReg=true,szContent="^([浩气恶人]+)([盟谷]-)阵营的(.-)帮会正在建设帮会临时营地。",szNote="{$1}·{$3}·正在搭建营地",szTarget="%"},
+			{[14]={bCenterAlarm=true},szContent="本帮专属复活营地已被摧毁，请注意保护自身安全。",szNote="本帮会·复活营地·被摧毁",szTarget="%",tCountdown={{key="帮会·复活营地",nClass=14,nFrame=1,nIcon=28136,nTime=10,szName="本帮·复活营地·被摧毁"}}},
+			{[14]={bCenterAlarm=true},bSearch=true,szContent="本帮专属复活营地已建立",szNote="本帮会·复活营地·已建立",szTarget="%",tCountdown={{key="帮会·复活营地",nClass=14,nFrame=0,nIcon=28136,nTime=30,szName="本帮·复活营地·已建立"}}},
+		},
 	},
 	__meta = {
-		nTimeStamp = 1793957134,
+		nTimeStamp = 1793973961,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
