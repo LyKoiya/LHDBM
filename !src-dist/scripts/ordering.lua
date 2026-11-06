@@ -98,12 +98,14 @@ function DBMdiff(old, new)
     local tOld = X.clone(old) or {}
     local tNew = X.clone(new) or {}
 
-    local tRet = {}
-    local tData = {}
-    tRet.ADD = {}
-    tRet.REMOVE = {}
-    tRet.MODIFY = {}
-    --X.printTable(tRet)
+    local LH_ADD = {szChanged = 'ADD'}
+    local LH_MODIFY = {szChanged = 'MODIFY'}
+    local LH_REMOVE = {szChanged = 'REMOVE'}
+
+    local tRet, tData
+    tRet, tData = {}, {}
+    tRet.ADD,tRet.REMOVE,tRet.MODIFY = {}, {}, {}
+
 	for _, szType in ipairs(X.MY_TM_TYPE_LIST) do
         tOld[szType] = tOld[szType] or {}
         tNew[szType] = tNew[szType] or {}
@@ -121,8 +123,11 @@ function DBMdiff(old, new)
                         tRet.MODIFY[szType][k] = tRet.MODIFY[szType][k] or {}
                         table.insert(tRet.MODIFY[szType][k], tNew[szType][k][idx])
                         local tDiff = X.clone(tNew[szType][k][idx])
-                        tDiff.LH = {}
-                        tDiff.LH.szChanged = 'MODIFY'
+                        if tDiff.LH then
+                            tDiff.LH.szChanged = 'MODIFY'
+                        else
+                            tDiff.LH = LH_MODIFY
+                        end
                         table.insert(tData[szType][k],tDiff)
                     end
                 else -- 新表不存在相似数据，被删除
@@ -130,8 +135,11 @@ function DBMdiff(old, new)
                     tRet.REMOVE[szType][k] = tRet.REMOVE[szType][k] or {}
                     table.insert(tRet.REMOVE[szType][k], vv)
                     local tDiff = X.clone(vv)
-                    tDiff.LH = {}
-                    tDiff.LH.szChanged = 'REMOVE'
+                        if tDiff.LH then
+                            tDiff.LH.szChanged = 'REMOVE'
+                        else
+                            tDiff.LH = LH_REMOVE
+                        end
                     table.insert(tData[szType][k],tDiff)
                 end
             end
@@ -145,14 +153,26 @@ function DBMdiff(old, new)
                     tRet.ADD[szType][k] = tRet.ADD[szType][k] or {}
                     table.insert(tRet.ADD[szType][k], vv)
                     local tDiff = X.clone(vv)
-                    tDiff.LH = {}
-                    tDiff.LH.szChanged = 'ADD'
+                    if tDiff.LH then
+                        tDiff.LH.szChanged = 'ADD'
+                    else
+                        tDiff.LH = LH_ADD
+                    end
                     table.insert(tData[szType][k],tDiff)
                 end
             end
         end
 
 	end
+    tData = clearNil(clearNil(tData))
+    tRet = clearNil(clearNil(tRet))
+
+    if X.emptyTable(tData) then
+        tData = nil
+    end
+    if X.emptyTable(tRet) then
+        tRet = nil
+    end
     return tData, tRet
 end
 
@@ -160,15 +180,24 @@ end
 function processFilediff(szNewFileName, szOldFileName, szSaveDiffFileName)
     -- print('Sorting: ' .. szFileName)
     local tData = X.file2var(szNewFileName)
+    if tData then
+        clearInvalidtable(tData, true)
+    end
     local tOldData = X.file2var(szOldFileName)
+    -- 旧文件不清除也可以，因为旧文件是历史数据，上次提交都清过一次，但为了安心，还是清除一次
+    if tOldData then
+        clearInvalidtable(tOldData, true)
+    end
+
     local tDiffmark, tDiff = DBMdiff(tOldData, tData)
+    
     if tDiffmark or tDiff then
         X.WriteFile(szSaveDiffFileName, 'return ' .. X.var2str(tDiffmark, '\t', 0, 3).. ',' .. X.var2str(tDiff, '\t', 0, 4) .. '\n')
     end
-    if not tData then
+    if not tData then -- 新表为空，说明该文件被删除，删除记录差异，记录完后返回false
         return false
     end
-    clearInvalidtable(tData, true)
+    
     X.refreshTimeStamp(tData)
     local szSorted = 'return ' .. X.var2str(tData, '\t', 0, 3) .. '\n'
     X.WriteFile(szNewFileName, szSorted)
