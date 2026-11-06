@@ -265,6 +265,16 @@ function M.WriteFile(szPath, var)
     file:close()
     return true
 end
+
+-- 格式化字符串，处理换行符
+local function format_q(var)
+    local s = string.format('%q', var)
+    if s:find('\\\n', 1, true) then          -- plain=true，纯字面查找，比模式匹配快
+        s = s:gsub('\\\n', '\\n')
+    end
+    return s
+end
+
 -- 有序序列化，防止嵌合引用无限递归
 local function serialize(var, indent, nLevel, nMaxLevel, tVisited)
     if nMaxLevel and nLevel >= nMaxLevel then
@@ -277,7 +287,7 @@ local function serialize(var, indent, nLevel, nMaxLevel, tVisited)
     elseif szType == 'number' then
         table.insert(t, tostring(var))
     elseif szType == 'string' then
-        table.insert(t, string.format('%q', var))
+        table.insert(t, format_q(var))
     elseif szType == 'function' then
         local s = string.dump(var)
         table.insert(t, 'loadstring("')

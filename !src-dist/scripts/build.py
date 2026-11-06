@@ -202,8 +202,9 @@ def runPack(filesPath):
     except Exception as e:
         print(f"error: {e}")
     finally:
+        szSavePath = os.path.abspath("output\\mergeDBM.jx3dat")
         L.getglobal("fileSave")
-        L.pushlstringA(os.path.abspath("output\\mergeDBM.jx3dat"))
+        L.pushlstringA(szSavePath)
         L.pushnumber(3)
         L.pushboolean(True)
         L.pushboolean(True)
@@ -213,6 +214,7 @@ def runPack(filesPath):
             print(f"fileSave fail.{L.tostring(-1)}")
             L.pop(1)
         L.close()
+        return szSavePath
 
 # 处理所有.formatted.jx3dat文件
 def setAllfiles():
@@ -248,7 +250,18 @@ def main() -> None:
     packConfig = loadModule("!src-dist\\data\\packConfig.py", "packConfig")
     aFiles = get_filtered_files(packConfig.packList, ALLOWED_EXTENSIONS)
     print(f"find {len(aFiles)} files to process.")
-    runPack(aFiles)
+    szSavePath = runPack(aFiles)
+    # 兼容JX3BOX，将\\n替换为\\\n，防止魔盒云数据错误解析
+    if szSavePath:
+        with open(szSavePath, 'r', encoding='gbk') as f:
+            content = f.read()
+        content = content.replace('\\n', '\\\n')
+        directory, filename = os.path.split(szSavePath)
+        name, ext = os.path.splitext(filename)
+        new_filename = name + "_JX3BOX" + ext
+        new_file_path = os.path.join(directory, new_filename)
+        with open(new_file_path, 'w', encoding='gbk', newline='') as f:
+            f.write(content)
 
 if __name__ == "__main__":
     main()
