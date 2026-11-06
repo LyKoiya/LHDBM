@@ -1,6 +1,6 @@
 package.path = package.path .. ';.\\!src-dist\\scripts\\?.lua'
-local X = require('Base') 
-os.execute("chcp 936")
+local X = require('Base')
+-- os.execute("chcp 936")
 -- 清除为空的数据
 local function clearNil(tData)
     for k, v in pairs(tData) do -- 遍历数据判断是否有空表
@@ -46,34 +46,33 @@ local function clearInvalidtable(tData, bDelFocusType)
     end
 end
 
-
 -- 检查表内相似键
----@param szTable TeamMonData 需要检查的表
----@param szType string 类型
+---@param szTable TeamMonData       需要检查的表
+---@param szType  string            类型
 ---@param dwMapID integer | number? 地图ID
----@param dwID integer | string ID
----@param nLevel integer | string 等级
+---@param dwID    integer | string  ID
+---@param nLevel  integer | string  等级
 local function CheckSameData(szTable, szType, dwMapID, dwID, nLevel)
-	if szTable[szType][dwMapID] then
-		if dwMapID ~= -9 then
-			for k, v in ipairs(szTable[szType][dwMapID]) do
-				if type(dwID) == 'string' then
-					if dwID == v.szContent and nLevel == v.szTarget then
-						return k, v
-					end
-				else
-					if dwID == v.dwID and (not v.bCheckLevel or nLevel == v.nLevel) then
-						return k, v
-					end
-				end
-			end
-		end
-	end
+    if szTable[szType][dwMapID] then
+        if dwMapID ~= -9 then
+            for k, v in ipairs(szTable[szType][dwMapID]) do
+                if type(dwID) == 'string' then
+                    if dwID == v.szContent and nLevel == v.szTarget then
+                        return k, v
+                    end
+                else
+                    if dwID == v.dwID and (not v.bCheckLevel or nLevel == v.nLevel) then
+                        return k, v
+                    end
+                end
+            end
+        end
+    end
 end
 local function deepEqual(a, b)
-    if a == b then return true end          -- 同一引用或相同原始值
+    if a == b then return true end -- 同一引用或相同原始值
     if type(a) ~= "table" or type(b) ~= "table" then
-        return false                         -- 类型不同 / 原始值不等
+        return false -- 类型不同 / 原始值不等
     end
     -- 比较 a 的每个键值
     for k, v in pairs(a) do
@@ -98,15 +97,15 @@ function DBMdiff(old, new)
     local tOld = X.clone(old) or {}
     local tNew = X.clone(new) or {}
 
-    local LH_ADD = {szChanged = 'ADD'}
-    local LH_MODIFY = {szChanged = 'MODIFY'}
-    local LH_REMOVE = {szChanged = 'REMOVE'}
+    local LH_ADD = { szChanged = 'ADD' }
+    local LH_MODIFY = { szChanged = 'MODIFY' }
+    local LH_REMOVE = { szChanged = 'REMOVE' }
 
     local tRet, tData
     tRet, tData = {}, {}
-    tRet.ADD,tRet.REMOVE,tRet.MODIFY = {}, {}, {}
+    tRet.ADD, tRet.REMOVE, tRet.MODIFY = {}, {}, {}
 
-	for _, szType in ipairs(X.MY_TM_TYPE_LIST) do
+    for _, szType in ipairs(X.MY_TM_TYPE_LIST) do
         tOld[szType] = tOld[szType] or {}
         tNew[szType] = tNew[szType] or {}
         tData[szType] = tData[szType] or {}
@@ -128,23 +127,23 @@ function DBMdiff(old, new)
                         else
                             tDiff.LH = LH_MODIFY
                         end
-                        table.insert(tData[szType][k],tDiff)
+                        table.insert(tData[szType][k], tDiff)
                     end
                 else -- 新表不存在相似数据，被删除
                     tData[szType][k] = tData[szType][k] or {}
                     tRet.REMOVE[szType][k] = tRet.REMOVE[szType][k] or {}
                     table.insert(tRet.REMOVE[szType][k], vv)
                     local tDiff = X.clone(vv)
-                        if tDiff.LH then
-                            tDiff.LH.szChanged = 'REMOVE'
-                        else
-                            tDiff.LH = LH_REMOVE
-                        end
-                    table.insert(tData[szType][k],tDiff)
+                    if tDiff.LH then
+                        tDiff.LH.szChanged = 'REMOVE'
+                    else
+                        tDiff.LH = LH_REMOVE
+                    end
+                    table.insert(tData[szType][k], tDiff)
                 end
             end
         end
-        for k, v in pairs(tNew[szType]) do 
+        for k, v in pairs(tNew[szType]) do
             tNew[szType][k] = tNew[szType][k] or {}
             for kk, vv in ipairs(v) do -- kk项目下标,vv项目数据
                 local idx = CheckSameData(tOld, szType, k, vv.dwID or vv.szContent, vv.nLevel or vv.szTarget)
@@ -158,12 +157,11 @@ function DBMdiff(old, new)
                     else
                         tDiff.LH = LH_ADD
                     end
-                    table.insert(tData[szType][k],tDiff)
+                    table.insert(tData[szType][k], tDiff)
                 end
             end
         end
-
-	end
+    end
     tData = clearNil(clearNil(tData))
     tRet = clearNil(clearNil(tRet))
 
@@ -190,14 +188,19 @@ function processFilediff(szNewFileName, szOldFileName, szSaveDiffFileName)
     end
 
     local tDiffmark, tDiff = DBMdiff(tOldData, tData)
-    
+
     if tDiffmark or tDiff then
-        X.WriteFile(szSaveDiffFileName, 'return ' .. X.var2str(tDiffmark, '\t', 0, 3).. ',' .. X.var2str(tDiff, '\t', 0, 4) .. '\n')
+        X.WriteFile(
+            szSaveDiffFileName,
+            'return ' .. X.var2str(tDiffmark, '\t', 0, 3)
+                .. ',' .. X.var2str(tDiff, '\t', 0, 4)
+                .. '\n'
+        )
     end
     if not tData then -- 新表为空，说明该文件被删除，删除记录差异，记录完后返回false
         return false
     end
-    
+
     X.refreshTimeStamp(tData)
     local szSorted = 'return ' .. X.var2str(tData, '\t', 0, 3) .. '\n'
     X.WriteFile(szNewFileName, szSorted)
@@ -243,4 +246,4 @@ else
     io.stderr:write(string.format('failed %d file: %s\n', #errorFiles, table.concat(errorFiles, ', ')))
 end
 
---os.exit(success and 0 or 1)
+-- os.exit(success and 0 or 1)
