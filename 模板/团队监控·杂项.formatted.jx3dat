@@ -55,8 +55,8 @@ return {
 		},
 		[-1] = {
 			{szContent="[剑心插件]欢迎侠士使用剑心插件集。\
-",tCountdown={{key="奇遇提示",nClass=20,nFrame=-1,nIcon=13,nRefresh=99999,nTime=-1,szName="奇遇提示"}}},
-			{bSearch=true,szContent="[茗伊插件]欢迎{$me}使用茗伊插件集",tCountdown={{bHold=true,key="每日茶饼",nClass=20,nFrame=6,nIcon=4434,nTime=30,szName="记得领茶饼"},{key="奇遇提示",nClass=20,nFrame=-1,nIcon=13,nRefresh=99999,nTime=-1,szName="奇遇提示"},{key="破阵点将·一·常驻",nClass=20,nIcon=7674,nRefresh=5,nTime=-2,szName="破阵点将·一·常驻"},{key="破阵点将·二·常驻",nClass=20,nIcon=7676,nRefresh=5,nTime=-2,szName="破阵点将·二·常驻"}}},
+",tCountdown={{key="奇遇提示",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="奇遇提示"}}},
+			{bSearch=true,szContent="[茗伊插件]欢迎{$me}使用茗伊插件集",tCountdown={{bHold=true,key="每日茶饼",nClass=20,nFrame=6,nIcon=4434,nTime=30,szName="记得领茶饼"},{key="奇遇提示",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="奇遇提示"},{key="阵营模式",nClass=20,nIcon=13,nRefresh=300,nTime=-2,szName="阵营模式"},{key="破阵点将·一·常驻",nClass=20,nIcon=7674,nRefresh=5,nTime=-2,szName="破阵点将·一·常驻"},{key="破阵点将·二·常驻",nClass=20,nIcon=7676,nRefresh=5,nTime=-2,szName="破阵点将·二·常驻"}}},
 			{bReg=true,col={255,255,100},szContent="[%[帮会%]]*([邀请]-)%[(.-)%]([从婉拒发出的邀请你加入退出被移除踢了本已经在一个帮会中好友敌对列表不再是黑名单成将]+)[^%d团队/\\][，。]+",tCountdown={{key="{$2}",nClass=20,nFrame=2,nIcon=2116,nTime=2,szName="{$1}【{$2}】{$3}"},{key="客服网页",nClass=20,nFrame=2,nIcon=13,nTime=-1,szName="客服网页"}}},
 			{bReg=true,col={255,255,100},szContent="[你邀请的]*([向对方该玩家加入谢绝]-)[了]*\"(.-)\"[的]*([已经在其他的房间队伍中人数满发送出谢绝了你组邀请不线存是长]+)[，。]+",tCountdown={{key="社交",nClass=20,nFrame=6,nIcon=2116,nTime=2,szName="{$1}【{$2}】{$3}"}}},
 			{[14]={bCenterAlarm=true},bSearch=true,col={255,50,255},szContent="财神降临！慷慨之士 {$team} 正在",szNote="【{$receiver}】·正在发红包",tCountdown={{key="{$receiver}·红包",nClass=20,nFrame=3,nIcon=6766,nRefresh=5,nTime=180,szName="【{$receiver}】红包·消失剩余"}}},
@@ -138,7 +138,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791800636,
+		nTimeStamp = 1793959227,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
