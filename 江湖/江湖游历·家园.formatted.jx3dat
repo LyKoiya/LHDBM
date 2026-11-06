@@ -100,7 +100,7 @@ return {
 			{bReg=true,szContent="^本周还可通过配置香膏获得调香经验(%d+)次",szTarget="%",tCountdown={{key="调香",nClass=14,nFrame=6,nIcon=21596,nTime=20,szName="本周配置香膏剩余{$1}次"},{key="调香·0",nClass=14,nFrame=2,nIcon=13,nRefresh=30,nTime=-1,szName="调香·0"},{key="调香·{$1}",nClass=14,nFrame=2,nIcon=13,nTime=0,szName="调香·{$1}"},{key="调香·0",nClass=14,nFrame=2,nIcon=21596,nRefresh=1,nTime=20,szName="配置香膏获得经验已达周上限"}}},
 			{bReg=true,szContent="^本周已获得送花奖励次数 (%d-)/(%d+)",szTarget="%",tCountdown={{key="送花·CD",nClass=14,nFrame=6,nIcon=2286,nRefresh=1,nTime=120,szName="园宅送花·赞赏间隔[{$1}/{$2}]"},{key="送花·CD·{$1}/{$2}",nClass=14,nFrame=-1,nIcon=13,nRefresh=2,nTime=-1,szName="送花·CD·{$1}/{$2}"},{key="送花·CD·{$2}/{$2}",nClass=14,nFrame=-1,nIcon=2286,nTime=-2,szName="送花·CD"},{key="送花·CD·{$1}/{$2}",nClass=14,nFrame=2,nIcon=2286,nRefresh=1,nTime=20,szName="园宅送花·奖励上限"}}},
 			{bReg=true,szContent="^大侠的(.-)运势累计至(%d-)/(%d+)",szNote="运势·{$1}·{$2}/{$3}",szTarget="%",tCountdown={{key="{$1}",nClass=14,nFrame=6,nIcon=10215,nTime=20,szName="运势·{$1}·{$2}/{$3}"}}},
-			{bReg=true,szContent="(.-)([增加扣除]-)(%d+)个【(.-)】。",szNote="{$2}【{$2}】{$1}个",szTarget="%",tCountdown={{key="道具·{$4}",nClass=14,nFrame=6,nIcon=13556,nRefresh=1,nTime=5,szName="{$2}【{$4}】{$3}个"}}},
+			{bReg=true,szContent="(.-)([增加扣除获得]+)(%d+)个【(.-)】[。][，]",szNote="{$2}【{$2}】{$1}个",szTarget="%",tCountdown={{key="道具·{$4}",nClass=14,nFrame=6,nIcon=13556,nRefresh=1,nTime=5,szName="{$2}【{$4}】{$3}个"}}},
 			{szContent="你当前园宅币即将到达上限，请消耗部分再使用本物品。",szNote="园宅币·即将上限",szTarget="%",tCountdown={{key="道具上限",nClass=14,nFrame=4,nIcon=3530,nTime=10,szName="园宅币·即将上限"}}},
 			{[14]={bCenterAlarm=true},szContent="转换失败，可能是道具即将超过拥有上限。",szNote="宝箱·转换失败·可能上限",szTarget="%"},
 			{szContent="大侠在好友家的今日的许愿次数已用尽，请明日再来。",szNote="今日用尽·好友园宅·许愿次数",szTarget="%"},
@@ -114,7 +114,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1793094710,
+		nTimeStamp = 1793957313,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
