@@ -6,13 +6,17 @@ return {
 	DOODAD = {},
 	NPC = {
 		[-1] = {
-			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="帮会营地·建造中",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,255},dwID=139654,nFrame=47,szNote="建造中的帮会营地"},
-			{[3]={bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="营地·敌方",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}},{nMaxDistance=0,szDisplay="营地·友方",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={255,255,255},dwID=139656,nFrame=47,szNote="帮会临时营地"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=60,szDisplay="归营旌·建造中",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={255,50,255},dwID=139654,nFrame=47,szNote="归营旌·建造中的帮会营地"},
+			{[3]={bScreenHead=true},aFocus={{nMaxDistance=0,szDisplay="营地·敌方",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}},{nMaxDistance=0,szDisplay="营地·友方",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=true,bEnemy=false}}},col={255,255,255},dwID=139656,nFrame=47,szNote="归营旌·帮会临时营地"},
 		},
 	},
-	TALK = {},
+	TALK = {
+		[-20] = {
+			{[14]={bCenterAlarm=true},col={255,255,100},szContent="据点范围内，无法使用归营旌。",szNote="据点内·无法使用·归营旌",szTarget="%"},
+		},
+	},
 	__meta = {
-		nTimeStamp = 1793862468,
+		nTimeStamp = 1793957134,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
