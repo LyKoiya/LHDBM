@@ -38,8 +38,8 @@ local function tableMerge(tData)
 		if tData[szType] then
 			FILE[szType] = FILE[szType] or {}
 			for k, v in pairs(tData[szType]) do -- 数据类型
+				FILE[szType][k] = FILE[szType][k] or {}
 				for kk, vv in ipairs(v) do -- 地图ID
-					FILE[szType][k] = FILE[szType][k] or {}
 					local idx = CheckSameData(FILE, szType, k, vv.dwID or vv.szContent, vv.nLevel or vv.szTarget)
 					if idx then
 						FILE[szType][k][idx] = vv
@@ -59,6 +59,7 @@ local function tableXor(tData)
 		if tData[szType] then
 			FILE[szType] = FILE[szType] or {}
 			for k, v in pairs(tData[szType]) do -- 地图ID
+				FILE[szType][k] = FILE[szType][k] or {}
 				for kk, vv in X.ipairs_r(v) do -- 具体数据
 					local idx = CheckSameData(FILE, szType, k, vv.dwID or vv.szContent, vv.nLevel or vv.szTarget)
 					if idx then
@@ -77,6 +78,7 @@ local function tableAnd(tData)
 		if FILE[szType] then
 			tData[szType] = tData[szType] or {}
 			for k, v in pairs(FILE[szType]) do -- 地图ID
+				FILE[szType][k] = FILE[szType][k] or {}
 				for kk, vv in X.ipairs_r(v) do -- 具体数据
 					if not CheckSameData(tData, szType, k, vv.dwID or vv.szContent, vv.nLevel or vv.szTarget) then
 						FILE[szType][k][kk] = nil

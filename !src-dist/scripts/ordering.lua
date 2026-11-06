@@ -1,6 +1,6 @@
 package.path = package.path .. ';.\\!src-dist\\scripts\\?.lua'
 local X = require('Base') 
-
+os.execute("chcp 936")
 -- 清除为空的数据
 local function clearNil(tData)
     for k, v in pairs(tData) do -- 遍历数据判断是否有空表
@@ -47,8 +47,135 @@ local function clearInvalidtable(tData, bDelFocusType)
 end
 
 
+-- 检查表内相似键
+---@param szTable TeamMonData 需要检查的表
+---@param szType string 类型
+---@param dwMapID integer | number? 地图ID
+---@param dwID integer | string ID
+---@param nLevel integer | string 等级
+local function CheckSameData(szTable, szType, dwMapID, dwID, nLevel)
+	if szTable[szType][dwMapID] then
+		if dwMapID ~= -9 then
+			for k, v in ipairs(szTable[szType][dwMapID]) do
+				if type(dwID) == 'string' then
+					if dwID == v.szContent and nLevel == v.szTarget then
+						return k, v
+					end
+				else
+					if dwID == v.dwID and (not v.bCheckLevel or nLevel == v.nLevel) then
+						return k, v
+					end
+				end
+			end
+		end
+	end
+end
+local function deepEqual(a, b)
+    if a == b then return true end          -- 同一引用或相同原始值
+    if type(a) ~= "table" or type(b) ~= "table" then
+        return false                         -- 类型不同 / 原始值不等
+    end
+    -- 比较 a 的每个键值
+    for k, v in pairs(a) do
+        if not deepEqual(v, b[k]) then
+            return false
+        end
+    end
+    -- 再确认 b 没有多余的键
+    for k in pairs(b) do
+        if a[k] == nil then
+            return false
+        end
+    end
+    return true
+end
 
--- 处理文件（有序化Table转String）
+function DBMdiff(old, new)
+    if not old and not new then
+        return nil
+    end
+
+    local tOld = X.clone(old) or {}
+    local tNew = X.clone(new) or {}
+
+    local tRet = {}
+    local tData = {}
+    tRet.ADD = {}
+    tRet.REMOVE = {}
+    tRet.MODIFY = {}
+    --X.printTable(tRet)
+	for _, szType in ipairs(X.MY_TM_TYPE_LIST) do
+        tOld[szType] = tOld[szType] or {}
+        tNew[szType] = tNew[szType] or {}
+        tData[szType] = tData[szType] or {}
+        tRet.ADD[szType] = tRet.ADD[szType] or {}
+        tRet.REMOVE[szType] = tRet.REMOVE[szType] or {}
+        tRet.MODIFY[szType] = tRet.MODIFY[szType] or {}
+        for k, v in pairs(tOld[szType]) do -- k地图组,v项目数据数组
+            tNew[szType][k] = tNew[szType][k] or {}
+            for kk, vv in ipairs(v) do -- kk项目下标,vv项目数据
+                local idx = CheckSameData(tNew, szType, k, vv.dwID or vv.szContent, vv.nLevel or vv.szTarget)
+                if idx then -- 新表存在相似数据，比较差异
+                    if not deepEqual(vv, tNew[szType][k][idx]) then -- 数据不同，记录差异
+                        tData[szType][k] = tData[szType][k] or {}
+                        tRet.MODIFY[szType][k] = tRet.MODIFY[szType][k] or {}
+                        table.insert(tRet.MODIFY[szType][k], tNew[szType][k][idx])
+                        local tDiff = X.clone(tNew[szType][k][idx])
+                        tDiff.LH = {}
+                        tDiff.LH.szChanged = 'MODIFY'
+                        table.insert(tData[szType][k],tDiff)
+                    end
+                else -- 新表不存在相似数据，被删除
+                    tData[szType][k] = tData[szType][k] or {}
+                    tRet.REMOVE[szType][k] = tRet.REMOVE[szType][k] or {}
+                    table.insert(tRet.REMOVE[szType][k], vv)
+                    local tDiff = X.clone(vv)
+                    tDiff.LH = {}
+                    tDiff.LH.szChanged = 'REMOVE'
+                    table.insert(tData[szType][k],tDiff)
+                end
+            end
+        end
+        for k, v in pairs(tNew[szType]) do 
+            tNew[szType][k] = tNew[szType][k] or {}
+            for kk, vv in ipairs(v) do -- kk项目下标,vv项目数据
+                local idx = CheckSameData(tOld, szType, k, vv.dwID or vv.szContent, vv.nLevel or vv.szTarget)
+                if not idx then -- 旧表不存在相似数据，被新增
+                    tData[szType][k] = tData[szType][k] or {}
+                    tRet.ADD[szType][k] = tRet.ADD[szType][k] or {}
+                    table.insert(tRet.ADD[szType][k], vv)
+                    local tDiff = X.clone(vv)
+                    tDiff.LH = {}
+                    tDiff.LH.szChanged = 'ADD'
+                    table.insert(tData[szType][k],tDiff)
+                end
+            end
+        end
+
+	end
+    return tData, tRet
+end
+
+-- dllcall调用处理文件，对比版本差异
+function processFilediff(szNewFileName, szOldFileName, szSaveDiffFileName)
+    -- print('Sorting: ' .. szFileName)
+    local tData = X.file2var(szNewFileName)
+    local tOldData = X.file2var(szOldFileName)
+    local tDiffmark, tDiff = DBMdiff(tOldData, tData)
+    if tDiffmark or tDiff then
+        X.WriteFile(szSaveDiffFileName, 'return ' .. X.var2str(tDiffmark, '\t', 0, 3).. ',' .. X.var2str(tDiff, '\t', 0, 4) .. '\n')
+    end
+    if not tData then
+        return false
+    end
+    clearInvalidtable(tData, true)
+    X.refreshTimeStamp(tData)
+    local szSorted = 'return ' .. X.var2str(tData, '\t', 0, 3) .. '\n'
+    X.WriteFile(szNewFileName, szSorted)
+    return true
+end
+
+-- PY调用处理文件（有序化Table转String）
 function processFile(szFileName)
     -- print('Sorting: ' .. szFileName)
     local tData = X.file2var(szFileName)

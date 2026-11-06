@@ -31,6 +31,13 @@ def getdiffFile(szEndSwith):
                 files.append(line)
     return files
 
+# 取该文件上一次被修改的提交里的内容；不存在返回 None
+def get_old_content(file_path):
+    r = run_git('show', f'HEAD:{file_path}')
+    if r.returncode != 0:
+        return None
+    return r.stdout
+
 def main() -> None:
     # 获取 Git 根目录
     result = run_git('rev-parse', '--show-toplevel')
@@ -38,18 +45,11 @@ def main() -> None:
 
     script = Path(git_root) / '!src-dist/scripts/ordering.lua'
 
-    # 检查 Lua 是否可用
-    try:
-        subprocess.run(['where', 'lua'], capture_output=True, check=True)
-    except subprocess.CalledProcessError:
-        print('[警告] 找不到 lua.exe')
-        sys.exit(0)
-
     # 检查脚本是否存在
     if not script.exists():
         print(f'[警告] 格式化脚本缺失：{script}')
         sys.exit(0)
-
+    Lua = build.InitLua(script)
     xlsxfiles = getdiffFile(".xlsx")
 
     # 批量处理
@@ -66,23 +66,29 @@ def main() -> None:
             backSave.append(szPath)
         backSave.append(dst)
 
-    run_git('add', *backSave)
     jx3datfiles = getdiffFile(".formatted.jx3dat")
     print(f'收集到 {len(jx3datfiles)} 个.formatted.jx3dat文件')
     try:
-        subprocess.run(
-            ['lua', str(script)] + jx3datfiles,
-            check=True,
-            encoding='utf-8',
-            errors='surrogateescape',
-            cwd=git_root,
-            env={
-                'LUA_PATH': f"{git_root}/?.lua;"
-            }  # 设置模块路径
-        )
+        if Lua:
+            for file_path in jx3datfiles:
+                print(f'  - {file_path}')
+                old_content = get_old_content(file_path)
+                tmp_file_path = f"{file_path}.temp"
+                Path(tmp_file_path).parent.mkdir(parents=True, exist_ok=True)
+                with open(tmp_file_path, "wb") as fTmp:
+                    fTmp.write(old_content.encode("utf-8", errors="surrogateescape"))
+                # 调用 Lua 脚本处理差异
+                dst = Path(f"datadiff/{file_path}")
+                dst = dst.with_suffix("").with_suffix(".diff.jx3dat")
+                dst.parent.mkdir(parents=True, exist_ok=True)
+                Lua.xpcall("processFilediff", file_path, tmp_file_path, str(dst))
+                backSave.append(file_path)
+                backSave.append(dst)
+                Path(tmp_file_path).unlink(missing_ok=True)
+
         
-        run_git('add', *jx3datfiles)
-        
+        run_git('add', *backSave)
+            
         print('[成功] 已处理并暂存所有 .jx3dat 文件')
         
     except subprocess.CalledProcessError:
