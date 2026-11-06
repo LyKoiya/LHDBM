@@ -97,10 +97,6 @@ function DBMdiff(old, new)
     local tOld = X.clone(old) or {}
     local tNew = X.clone(new) or {}
 
-    local LH_ADD = { szChanged = 'ADD' }
-    local LH_MODIFY = { szChanged = 'MODIFY' }
-    local LH_REMOVE = { szChanged = 'REMOVE' }
-
     local tRet, tData
     tRet, tData = {}, {}
     tRet.ADD, tRet.REMOVE, tRet.MODIFY = {}, {}, {}
@@ -125,7 +121,7 @@ function DBMdiff(old, new)
                         if tDiff.LH then
                             tDiff.LH.szChanged = 'MODIFY'
                         else
-                            tDiff.LH = LH_MODIFY
+                            tDiff.LH = { szChanged = 'MODIFY' }
                         end
                         table.insert(tData[szType][k], tDiff)
                     end
@@ -137,7 +133,7 @@ function DBMdiff(old, new)
                     if tDiff.LH then
                         tDiff.LH.szChanged = 'REMOVE'
                     else
-                        tDiff.LH = LH_REMOVE
+                        tDiff.LH = { szChanged = 'REMOVE' }
                     end
                     table.insert(tData[szType][k], tDiff)
                 end
@@ -155,7 +151,7 @@ function DBMdiff(old, new)
                     if tDiff.LH then
                         tDiff.LH.szChanged = 'ADD'
                     else
-                        tDiff.LH = LH_ADD
+                        tDiff.LH = { szChanged = 'ADD' }
                     end
                     table.insert(tData[szType][k], tDiff)
                 end
