@@ -118,14 +118,13 @@ return {
 			{[14]={bCenterAlarm=true},szContent="小猪快跑活动已经成功开启，快召集帮会成员速回帮会吧。",szNote="帮会领地·小猪快跑·活动开启",szTarget="%",tCountdown={{key="小猪快跑",nClass=14,nFrame=-1,nIcon=3730,nRefresh=2,nTime="10,小猪快跑·活动开启;2400,小猪快跑·结束剩余;2410,小猪快跑·已经结束",szName="小猪快跑·活动开启"}}},
 			{[14]={bCenterAlarm=true},szContent="距猪九戒出现还有1分钟，请大家做好准备。此期间请不要离开帮会领地，以防猪九戒作怪。",szNote="帮会领地·菜园保卫战·活动开启",szTarget="%",tCountdown={{key="菜园保卫战",nClass=14,nFrame=6,nIcon=3766,nRefresh=62,nTime="60,菜园保卫战·猪九戒·出现剩余;70,菜园保卫战·祝融山·猪九戒出现",szName="帮会领地·菜园保卫战·猪九戒"}}},
 			{szContent="韩先生已经开始预见，完成之前请勿打扰。预见成功后请尽快领取！",szNote="帮会领地·瑰石·开始预见",szTarget="%",tCountdown={{key="帮会资金",nClass=14,nFrame=1,nIcon=3556,nTime=5,szName="瑰石·预见剩余"}}},
-			{szContent="你召唤的小马驹非当前驯养对象。\
-",szNote="遛马名师·小马驹·非当前驯养",szTarget="%",tCountdown={{key="遛马名师",nClass=14,nIcon=643,nRefresh=120,nTime=10,szName="小马驹·召唤溜达"}}},
+			{szContent="你召唤的小马驹非当前驯养对象。",szNote="遛马名师·小马驹·非当前驯养",szTarget="%",tCountdown={{key="遛马名师",nClass=14,nIcon=643,nRefresh=120,nTime=10,szName="小马驹·召唤溜达"}}},
 			{szContent="需要将小马驹召唤出来溜达。",szNote="遛马名师·小马驹·未召唤",szTarget="%",tCountdown={{key="遛马名师",nClass=14,nIcon=643,nRefresh=1800,nTime=10,szName="小马驹·召唤溜达"}}},
 			{[14]={bCenterAlarm=true},szContent="无法从此地离开帮会领地。",szNote="无法从此地离开帮会领地",szTarget="%"},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791219164,
+		nTimeStamp = 1793986923,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

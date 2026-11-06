@@ -160,10 +160,8 @@ return {
 			{szContent="【武林争霸赛】本届武林争霸赛正式已开启！风起云涌，一朝闻名天下知！已报名的帮会侠士，可前往各大主城或各门派，闻千瞬处对话进入参与对决！！！帮会帮主及核心成员优先进入，以免造成不便！！！",szNote="武林争霸赛·正式开启",szTarget="%",tCountdown={{key="武林争霸赛",nClass=14,nFrame=6,nIcon=13,nRefresh=1,nTime=10,szName="武林争霸赛·正式开启"}}},
 		},
 		[689] = {
-			{[14]={bCenterAlarm=true},szContent="敌方拾取麒麟珠\
-",szNote="敌方·获得·麒麟珠",szTarget="%",tCountdown={{key="九渊麒麟",nClass=14,nFrame=0,nIcon=2673,nRefresh=0,nTime="5,敌方获得·麒麟珠·资源+500;240,敌方·麒麟佑·增益剩余;250,敌方·麒麟佑·增益消失;360,九渊麒麟·刷新剩余;365,九渊麒麟·已经刷新",szName="九渊麒麟·刷新剩余"}}},
-			{[14]={bCenterAlarm=true},szContent="我方拾取麒麟珠\
-",szNote="我方·获得·麒麟珠",szTarget="%",tCountdown={{key="九渊麒麟",nClass=14,nFrame=0,nIcon=2673,nRefresh=0,nTime="5,我方获得·麒麟珠·资源+500;240,我方·麒麟佑·增益剩余;250,我方·麒麟佑·增益消失;360,九渊麒麟·刷新剩余;365,九渊麒麟·已经刷新",szName="九渊麒麟·刷新剩余"}}},
+			{[14]={bCenterAlarm=true},szContent="敌方拾取麒麟珠",szNote="敌方·获得·麒麟珠",szTarget="%",tCountdown={{key="九渊麒麟",nClass=14,nFrame=0,nIcon=2673,nRefresh=0,nTime="5,敌方获得·麒麟珠·资源+500;240,敌方·麒麟佑·增益剩余;250,敌方·麒麟佑·增益消失;360,九渊麒麟·刷新剩余;365,九渊麒麟·已经刷新",szName="九渊麒麟·刷新剩余"}}},
+			{[14]={bCenterAlarm=true},szContent="我方拾取麒麟珠",szNote="我方·获得·麒麟珠",szTarget="%",tCountdown={{key="九渊麒麟",nClass=14,nFrame=0,nIcon=2673,nRefresh=0,nTime="5,我方获得·麒麟珠·资源+500;240,我方·麒麟佑·增益剩余;250,我方·麒麟佑·增益消失;360,九渊麒麟·刷新剩余;365,九渊麒麟·已经刷新",szName="九渊麒麟·刷新剩余"}}},
 			{[14]={bCenterAlarm=true},szContent="蓝方成功击败了九渊麒麟",szNote="蓝方·击伤·九渊麒麟",szTarget="%",tCountdown={{key="九渊麒麟",nClass=14,nFrame=8,nIcon=2673,nRefresh=0,nTime="180,麒麟珠·拾取剩余;185,麒麟珠·已经消失;540,九渊麒麟·刷新剩余;545,九渊麒麟·已经刷新",szName="麒麟珠·拾取剩余"}}},
 			{[14]={bCenterAlarm=true},szContent="红方成功击败了九渊麒麟",szNote="红方·击伤·九渊麒麟",szTarget="%",tCountdown={{key="九渊麒麟",nClass=14,nFrame=8,nIcon=2673,nRefresh=0,nTime="180,麒麟珠·拾取剩余;185,麒麟珠·已经消失;540,九渊麒麟·刷新剩余;545,九渊麒麟·已经刷新",szName="麒麟珠·拾取剩余"}}},
 			{szContent="我方大旗已被摧毁，本场比赛结束！",tCountdown={{key="战斗开始",nClass=14,nFrame=0,nIcon=13,nTime=30,szName="本场比赛·失利"}}},
@@ -172,6 +170,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1793295590,
+		nTimeStamp = 1793986923,
 	},
 }
