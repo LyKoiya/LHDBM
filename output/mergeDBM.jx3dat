@@ -2506,7 +2506,7 @@ return {
 		[-19] = {
 			{bSearch=true,szContent="[团队监控]数据加载成功",szNote="关闭刷马等计时条",tCountdown={{key="诛恶事件",nClass=20,nIcon=13,nRefresh=7200,nTime=-1,szName="诛恶事件"},{key="通用事件",nClass=20,nIcon=13,nRefresh=7200,nTime=-1,szName="通用事件"},{key="金水镇",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="金水镇"},{key="巴陵县",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="巴陵县"},{key="龙门荒漠",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="龙门荒漠"},{key="南屏山",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="南屏山"},{key="昆仑",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="昆仑"},{key="白龙口",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="白龙口"},{key="无量山",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="无量山"},{key="黑龙沼",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="黑龙沼"},{key="阴山大草原",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="阴山大草原"},{key="黑戈壁",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="黑戈壁"},{key="鲲鹏岛",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="鲲鹏岛"},{key="大攻防·奇袭场",nClass=20,nIcon=2402,nRefresh=999999,nTime=-1,szName="大攻防·奇袭场"},{key="订阅提示1",nClass=-1,nFrame=5,nIcon=13,nRefresh=2,nTime=15,szName="订阅提示1"},{key="订阅提示2",nClass=-1,nFrame=6,nIcon=13,nRefresh=2,nTime=15,szName="订阅提示2"},{key="订阅提示3",nClass=-1,nFrame=7,nIcon=13,nRefresh=2,nTime=15,szName="订阅提示3"}}},
 			{col={255,255,100},szContent="驿马快报！本周浩气盟和恶人谷最终战为平手，未分胜负！\
-",szNote="阵营事件·本周战平",tCountdown={{key="阵营活动",nClass=20,nFrame=4,nIcon=13354,nTime=60,szName="阵营事件·本周战平"}}},
+",szNote="阵营事件·本周战平",tCountdown={{key="阵营活动",nClass=20,nFrame=0,nIcon=13354,nTime=60,szName="阵营事件·本周战平"}}},
 			{col={255,100,100},szContent="本周恶人谷略胜一筹，赢得了阵营胜利！所有参与击退敌对首领十次以上的恶人谷侠士下周一七时以后均可获得【血踪万里】称号！另外为了庆祝本周的胜利，恶人谷首领特请来舞狮队在长安、洛阳、扬州庆祝，感兴趣的侠士可以前往一观。\
 ",szNote="恶人谷·本周胜利",tCountdown={{key="阵营活动",nClass=20,nFrame=3,nIcon=3445,nTime=60,szName="恶人谷·本周胜利"}}},
 			{col={100,100,255},szContent="本周浩气盟略胜一筹，赢得了阵营胜利！所有参与击退敌对首领十次以上的浩气盟侠士下周一七时以后均可获得【血踪万里】称号！另外为了庆祝本周的胜利，浩气盟首领特请来舞狮队在长安、洛阳、扬州庆祝，感兴趣的侠士可以前往一观。\
@@ -10610,7 +10610,7 @@ return {
 			{szContent="我竟然败给你们这群小辈！",szNote="防冲突禁用·击退·狼牙先锋首领",szTarget="狼牙先锋首领",tCountdown={{key="狼牙先锋首领",nClass=-1,nFrame=1,nIcon=3556,nRefresh=2,nTime="10,狼牙先锋首领·已击退;300,狼牙先锋首领·拾取剩余;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;627,狼牙先锋首领·延迟刷新",szName="狼牙先锋首领·拾取掉落"},{key="诛恶事件",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="诛恶事件"},{key="通用事件",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="通用事件"},{key="金水镇",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="金水镇"},{key="巴陵县",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="巴陵县"},{key="龙门荒漠",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="龙门荒漠"},{key="南屏山",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="南屏山"},{key="昆仑",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="昆仑"},{key="白龙口",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="白龙口"},{key="无量山",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="无量山"},{key="黑龙沼",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="黑龙沼"},{key="阴山大草原",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="阴山大草原"},{key="黑戈壁",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="黑戈壁"},{key="鲲鹏岛",nClass=14,nIcon=13,nRefresh=7200,nTime=-1,szName="鲲鹏岛"}}},
 		},
 		[-19] = {
-			{[14]={bCenterAlarm=true},szContent="恭喜少侠完成黑白路奇遇！",szNote="完成·普通奇遇·黑白路",szTarget="%",tCountdown={{key="宣战战书",nClass=14,nFrame=0,nIcon=12371,nTime=10,szName="完成·普通奇遇·黑白路"}}},
+			{[14]={bCenterAlarm=true},szContent="恭喜少侠完成黑白路奇遇！",szNote="完成·普通奇遇·黑白路",szTarget="%",tCountdown={{key="宣战战书",nClass=14,nFrame=0,nIcon=12371,nRefresh=10,nTime=10,szName="完成·普通奇遇·黑白路"}}},
 			{col={255,255,100},szContent="阵营业务繁忙，中立侠士只能停留30分钟，您将传出场景",szNote="中立侠士·传出场景",tCountdown={{key="阵营业务",nClass=14,nFrame=4,nIcon=13,nTime=5,szName="中立侠士·传出场景"}}},
 			{col={255,255,100},szContent="阵营业务繁忙，中立侠士只能停留30分钟，您将在1分钟后传出场景",szNote="中立侠士·请离场景",tCountdown={{key="阵营业务",nClass=14,nFrame=4,nIcon=13,nTime=60,szName="中立侠士·传出剩余"}}},
 			{col={255,255,100},szContent="阵营业务繁忙，中立侠士只能停留30分钟，您将在2分钟后传出场景",szNote="中立侠士·请离场景",tCountdown={{key="阵营业务",nClass=14,nFrame=4,nIcon=13,nTime=120,szName="中立侠士·传出剩余"}}},
@@ -12244,6 +12244,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1793958659,
+		nTimeStamp = 1793959308,
 	},
 }
