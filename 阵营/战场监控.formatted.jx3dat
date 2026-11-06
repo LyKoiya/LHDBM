@@ -61,240 +61,147 @@ return {
 	},
 	CHAT = {
 		[-21] = {
-			{szContent="您已经加入战场等待队列。\
-",tCountdown={{key="竞技活动",nClass=20,nFrame=4,nIcon=13,nTime=30,szName="战场·排队·开始"},{key="事件规则",nClass=20,nFrame=5,nIcon=13,nTime=30,szName="检查·心法·奇穴"}}},
+			{szContent="您已经加入战场等待队列。\n",tCountdown={{key="竞技活动",nClass=20,nFrame=4,nIcon=13,nTime=30,szName="战场·排队·开始"},{key="事件规则",nClass=20,nFrame=5,nIcon=13,nTime=30,szName="检查·心法·奇穴"}}},
 		},
 		[-10] = {
-			{col={255,255,100},szContent="战斗将在10秒后开始。\
-",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="10,战斗·开始倒计时;11,战斗·开始比赛",szName="战斗·开始倒计时"}}},
-			{col={255,255,100},szContent="战斗将在30秒后开始。\
-",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="30,战斗·开始倒计时;31,战斗·开始比赛",szName="战斗·开始倒计时"}}},
-			{col={255,255,100},szContent="战斗将在60秒后开始。\
-",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nTime=60,szName="战斗·开始倒计时"}}},
-			{bReg=true,col={255,255,100},szContent="^%[(.-)%]：(%d+)/(1?%d%d)\
-",tCountdown={{bHold=true,key="成就进度",nClass=20,nFrame=2,nIcon=15678,nTime=30,szName="{$1}·{$2}/{$3}"}}},
+			{col={255,255,100},szContent="战斗将在10秒后开始。\n",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="10,战斗·开始倒计时;11,战斗·开始比赛",szName="战斗·开始倒计时"}}},
+			{col={255,255,100},szContent="战斗将在30秒后开始。\n",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="30,战斗·开始倒计时;31,战斗·开始比赛",szName="战斗·开始倒计时"}}},
+			{col={255,255,100},szContent="战斗将在60秒后开始。\n",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nTime=60,szName="战斗·开始倒计时"}}},
+			{bReg=true,col={255,255,100},szContent="^%[(.-)%]：(%d+)/(1?%d%d)\n",tCountdown={{bHold=true,key="成就进度",nClass=20,nFrame=2,nIcon=15678,nTime=30,szName="{$1}·{$2}/{$3}"}}},
 		},
 		[-8] = {
-			{col={255,255,100},szContent="名剑大会将在10秒后开始。\
-",tCountdown={{key="战斗开始",nClass=20,nIcon=13,nTime=-2,szName="战斗开始"},{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="10,战斗·开始倒计时;11,战斗·开始比赛",szName="战斗·开始倒计时"}}},
-			{col={255,255,100},szContent="名剑大会将在30秒后开始。\
-",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="30,战斗·开始倒计时;31,战斗·开始比赛",szName="战斗·开始倒计时"}}},
+			{col={255,255,100},szContent="名剑大会将在10秒后开始。\n",tCountdown={{key="战斗开始",nClass=20,nIcon=13,nTime=-2,szName="战斗开始"},{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="10,战斗·开始倒计时;11,战斗·开始比赛",szName="战斗·开始倒计时"}}},
+			{col={255,255,100},szContent="名剑大会将在30秒后开始。\n",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="30,战斗·开始倒计时;31,战斗·开始比赛",szName="战斗·开始倒计时"}}},
 		},
 		[-2] = {
-			{szContent="您已经加入战场等待队列。\
-",tCountdown={{key="竞技活动",nClass=20,nFrame=4,nIcon=13,nTime=30,szName="战场·排队·开始"},{key="事件规则",nClass=20,nFrame=5,nIcon=13,nTime=30,szName="检查·心法·奇穴"}}},
+			{szContent="您已经加入战场等待队列。\n",tCountdown={{key="竞技活动",nClass=20,nFrame=4,nIcon=13,nTime=30,szName="战场·排队·开始"},{key="事件规则",nClass=20,nFrame=5,nIcon=13,nTime=30,szName="检查·心法·奇穴"}}},
 		},
 		[-1] = {
-			{szContent="您离开了名剑大会的等待队列。\
-",szNote="离开排队·名剑大会",tCountdown={{key="竞技活动",nClass=20,nFrame=1,nIcon=13,nTime=10,szName="名剑大会·离开排队"}}},
-			{[20]={bCenterAlarm=true},szContent="您已经加入2对2的名剑大会等待队列中。\
-",szNote="排队·名剑大会·2v2",tCountdown={{key="竞技活动",nClass=20,nFrame=4,nIcon=13,nTime=30,szName="排队·名剑大会·2v2"}}},
-			{[20]={bCenterAlarm=true},szContent="您已经加入3对3的名剑大会等待队列中。\
-",szNote="排队·名剑大会·3v3",tCountdown={{key="竞技活动",nClass=20,nFrame=4,nIcon=13,nTime=30,szName="排队·名剑大会·3v3"}}},
-			{[20]={bCenterAlarm=true},szContent="您已经加入5对5的名剑大会等待队列中。\
-",szNote="排队·名剑大会·5v5",tCountdown={{key="竞技活动",nClass=20,nFrame=4,nIcon=13,nTime=30,szName="排队·名剑大会·5v5"}}},
-			{[20]={bCenterAlarm=true},szContent="您在跨服野外玩法队列中。\
-",szNote="处于跨服队列·限制竞技比赛",tCountdown={{key="竞技活动",nClass=20,nFrame=2,nIcon=13,nTime=5,szName="处于跨服队列·限制竞技比赛"}}},
-			{[20]={bCenterAlarm=true},szContent="该时间段不能参加名剑大会！\
-",szNote="名剑大会·非开启时段"},
-			{[20]={bCenterAlarm=true},szContent="当前时间不能进入战场。\
-",szNote="战场·非开启时段"},
+			{szContent="您离开了名剑大会的等待队列。\n",szNote="离开排队·名剑大会",tCountdown={{key="竞技活动",nClass=20,nFrame=1,nIcon=13,nTime=10,szName="名剑大会·离开排队"}}},
+			{[20]={bCenterAlarm=true},szContent="您已经加入2对2的名剑大会等待队列中。\n",szNote="排队·名剑大会·2v2",tCountdown={{key="竞技活动",nClass=20,nFrame=4,nIcon=13,nTime=30,szName="排队·名剑大会·2v2"}}},
+			{[20]={bCenterAlarm=true},szContent="您已经加入3对3的名剑大会等待队列中。\n",szNote="排队·名剑大会·3v3",tCountdown={{key="竞技活动",nClass=20,nFrame=4,nIcon=13,nTime=30,szName="排队·名剑大会·3v3"}}},
+			{[20]={bCenterAlarm=true},szContent="您已经加入5对5的名剑大会等待队列中。\n",szNote="排队·名剑大会·5v5",tCountdown={{key="竞技活动",nClass=20,nFrame=4,nIcon=13,nTime=30,szName="排队·名剑大会·5v5"}}},
+			{[20]={bCenterAlarm=true},szContent="您在跨服野外玩法队列中。\n",szNote="处于跨服队列·限制竞技比赛",tCountdown={{key="竞技活动",nClass=20,nFrame=2,nIcon=13,nTime=5,szName="处于跨服队列·限制竞技比赛"}}},
+			{[20]={bCenterAlarm=true},szContent="该时间段不能参加名剑大会！\n",szNote="名剑大会·非开启时段"},
+			{[20]={bCenterAlarm=true},szContent="当前时间不能进入战场。\n",szNote="战场·非开启时段"},
 		},
 		[38] = {
-			{col={255,255,100},szContent="战斗开始。\
-",szNote="战斗开始",tCountdown={{key="战斗开始",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="物资箱·刷新剩余"}}},
-			{[20]={bCenterAlarm=true,szVoice="ZhuanHuo_P"},col={100,255,100},szContent="神秘的物资箱已经刷新，快去运送回己方营地！！\
-",szNote="物资箱·已刷新",tCountdown={{key="战斗开始",nClass=20,nFrame=6,nIcon=8984,nTime=5,szName="物资箱·已刷新"}}},
+			{col={255,255,100},szContent="战斗开始。\n",szNote="战斗开始",tCountdown={{key="战斗开始",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="物资箱·刷新剩余"}}},
+			{[20]={bCenterAlarm=true,szVoice="ZhuanHuo_P"},col={100,255,100},szContent="神秘的物资箱已经刷新，快去运送回己方营地！！\n",szNote="物资箱·已刷新",tCountdown={{key="战斗开始",nClass=20,nFrame=6,nIcon=8984,nTime=5,szName="物资箱·已刷新"}}},
 			{[20]={bCenterAlarm=true,szVoice="ZhuanJieDuan"},bSearch=false,col={100,255,100},szContent="趁乱背起了物资箱！",tCountdown={{key="物资箱",nClass=20,nFrame=4,nIcon=919,nRefresh=150,nTime=150,szName="物资箱·刷新剩余"}}},
-			{[20]={bCenterAlarm=true},col={100,100,255},szContent="溶溪寨成功背回一个物资箱，当前分数为一！任意方率先达三分将赢得胜利！\
-",szNote="蓝方一分",tCountdown={{nClass=20,nFrame=6,nIcon=13,nTime=25,szName="新物资箱·刷新剩余"}}},
-			{[20]={bCenterAlarm=true},col={100,100,255},szContent="溶溪寨成功背回一个物资箱，当前分数为二！任意方率先达三分将赢得胜利！\
-",szNote="蓝方二分",tCountdown={{nClass=20,nFrame=6,nIcon=13,nTime=25,szName="新物资箱·刷新剩余"}}},
-			{[20]={bCenterAlarm=true},col={255,100,100},szContent="火塘寨成功背回一个物资箱，当前分数为一！任意方率先达三分将赢得胜利！\
-",szNote="红方一分",tCountdown={{nClass=20,nFrame=6,nIcon=13,nTime=25,szName="新物资箱·刷新剩余"}}},
-			{[20]={bCenterAlarm=true},col={255,100,100},szContent="火塘寨成功背回一个物资箱，当前分数为二！任意方率先达三分将赢得胜利！\
-",szNote="红方二分",tCountdown={{nClass=20,nFrame=6,nIcon=13,nTime=25,szName="新物资箱·刷新剩余"}}},
+			{[20]={bCenterAlarm=true},col={100,100,255},szContent="溶溪寨成功背回一个物资箱，当前分数为一！任意方率先达三分将赢得胜利！\n",szNote="蓝方一分",tCountdown={{nClass=20,nFrame=6,nIcon=13,nTime=25,szName="新物资箱·刷新剩余"}}},
+			{[20]={bCenterAlarm=true},col={100,100,255},szContent="溶溪寨成功背回一个物资箱，当前分数为二！任意方率先达三分将赢得胜利！\n",szNote="蓝方二分",tCountdown={{nClass=20,nFrame=6,nIcon=13,nTime=25,szName="新物资箱·刷新剩余"}}},
+			{[20]={bCenterAlarm=true},col={255,100,100},szContent="火塘寨成功背回一个物资箱，当前分数为一！任意方率先达三分将赢得胜利！\n",szNote="红方一分",tCountdown={{nClass=20,nFrame=6,nIcon=13,nTime=25,szName="新物资箱·刷新剩余"}}},
+			{[20]={bCenterAlarm=true},col={255,100,100},szContent="火塘寨成功背回一个物资箱，当前分数为二！任意方率先达三分将赢得胜利！\n",szNote="红方二分",tCountdown={{nClass=20,nFrame=6,nIcon=13,nTime=25,szName="新物资箱·刷新剩余"}}},
 			{[20]={bCenterAlarm=true,szVoice="HuanChou_P"},bReg=true,col={255,255,100},szContent="([红蓝方]+)(.-)的(.-)侠士不慎遗失物资箱，战局瞬息万变！",szNote="{$1}【{$3}】遗失物资",tCountdown={{key="蓝方·{$3}",nClass=20,nFrame=3,nIcon=3435,nTime=10,szName="红方【{$3}】失箱"},{key="红方·{$3}",nClass=20,nFrame=7,nIcon=3434,nTime=10,szName="蓝方【{$3}】失箱"},{key="{$1}·{$3}",nClass=20,nFrame=3,nIcon=13,nTime=-1,szName="{$1}·{$3}"}}},
 			{[20]={bCenterAlarm=true,szVoice="HuanChou_T"},bReg=true,col={255,255,100},szContent="([红蓝方]+)(.-)的(.-)侠士趁乱背起了物资箱！",szNote="{$1}【{$3}】背起物资",tCountdown={{key="蓝方·{$3}",nClass=20,nFrame=3,nIcon=3445,nTime=20,szName="红方【{$3}】背箱"},{key="红方·{$3}",nClass=20,nFrame=7,nIcon=3444,nTime=20,szName="蓝方【{$3}】背箱"},{key="{$1}·{$3}",nClass=20,nFrame=3,nIcon=13,nTime=-1,szName="{$1}·{$3}"},{key="物资箱",nClass=20,nFrame=4,nIcon=919,nRefresh=150,nTime=150,szName="物资箱·刷新剩余"}}},
 		},
 		[48] = {
-			{col={255,255,100},szContent="战斗开始。\
-",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=21425,nRefresh=0,nTime="30,武典残页·得分豆子;32,武典残页·已经刷新;80,武典残页·得分豆子;82,武典残页·已经刷新;130,武典残页·得分豆子;132,武典残页·已经刷新;180,武典残页·得分豆子;182,武典残页·已经刷新;230,武典残页·得分豆子;232,武典残页·已经刷新;280,武典残页·得分豆子;282,武典残页·已经刷新;330,武典残页·得分豆子;332,武典残页·已经刷新;380,武典残页·得分豆子;382,武典残页·已经刷新;430,武典残页·得分豆子;432,武典残页·已经刷新;480,武典残页·得分豆子;482,武典残页·已经刷新;530,武典残页·得分豆子;532,武典残页·已经刷新;580,武典残页·得分豆子;582,武典残页·已经刷新;630,武典残页·得分豆子;632,武典残页·已经刷新;680,武典残页·得分豆子;682,武典残页·已经刷新;730,武典残页·得分豆子;732,武典残页·已经刷新;780,武典残页·得分豆子;782,武典残页·已经刷新;830,武典残页·得分豆子;832,武典残页·已经刷新;880,武典残页·得分豆子;882,武典残页·已经刷新;930,武典残页·得分豆子;932,武典残页·已经刷新",szName="战斗开始"},{key="物资箱",nClass=20,nFrame=6,nIcon=919,nRefresh=0,nTime="30,第一宝箱·刷新剩余;31,第一宝箱·已经刷新;35,第二宝箱·刷新剩余;36,第二宝箱·已经刷新",szName="珍珑宝箱·刷新剩余"}}},
+			{col={255,255,100},szContent="战斗开始。\n",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=21425,nRefresh=0,nTime="30,武典残页·得分豆子;32,武典残页·已经刷新;80,武典残页·得分豆子;82,武典残页·已经刷新;130,武典残页·得分豆子;132,武典残页·已经刷新;180,武典残页·得分豆子;182,武典残页·已经刷新;230,武典残页·得分豆子;232,武典残页·已经刷新;280,武典残页·得分豆子;282,武典残页·已经刷新;330,武典残页·得分豆子;332,武典残页·已经刷新;380,武典残页·得分豆子;382,武典残页·已经刷新;430,武典残页·得分豆子;432,武典残页·已经刷新;480,武典残页·得分豆子;482,武典残页·已经刷新;530,武典残页·得分豆子;532,武典残页·已经刷新;580,武典残页·得分豆子;582,武典残页·已经刷新;630,武典残页·得分豆子;632,武典残页·已经刷新;680,武典残页·得分豆子;682,武典残页·已经刷新;730,武典残页·得分豆子;732,武典残页·已经刷新;780,武典残页·得分豆子;782,武典残页·已经刷新;830,武典残页·得分豆子;832,武典残页·已经刷新;880,武典残页·得分豆子;882,武典残页·已经刷新;930,武典残页·得分豆子;932,武典残页·已经刷新",szName="战斗开始"},{key="物资箱",nClass=20,nFrame=6,nIcon=919,nRefresh=0,nTime="30,第一宝箱·刷新剩余;31,第一宝箱·已经刷新;35,第二宝箱·刷新剩余;36,第二宝箱·已经刷新",szName="珍珑宝箱·刷新剩余"}}},
 			{[20]={bCenterAlarm=true},bReg=true,col={255,255,100},szContent="(.-)%[(.-)%]第(%d-)次夺得了珍珑宝箱！",szNote="{$1}·夺得宝箱×{$3}",tCountdown={{nClass=20,nFrame=6,nIcon=3557,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
 			{[20]={bCenterAlarm=true},bReg=true,col={255,255,100},szContent="(.-)成功获得(.-)%,(.-)方%[(.-)%]获得(%d-)分",szNote="{$3}方·[{$1}]·{$2}·[{$4}]{$5}分"},
-			{[20]={bCenterAlarm=true},col={255,100,100},szContent="红方[帅]第7次夺得了珍珑宝箱！\
-",szNote="红方·夺得宝箱×7",tCountdown={{nClass=20,nFrame=3,nIcon=10214,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
-			{[20]={bCenterAlarm=true},col={255,100,100},szContent="红方[帅]第6次夺得了珍珑宝箱！\
-",szNote="红方·夺得宝箱×6",tCountdown={{nClass=20,nFrame=3,nIcon=10214,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
-			{[20]={bCenterAlarm=true},col={255,100,100},szContent="红方[帅]第5次夺得了珍珑宝箱！\
-",szNote="红方·夺得宝箱×5",tCountdown={{nClass=20,nFrame=3,nIcon=10214,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
-			{[20]={bCenterAlarm=true},col={255,100,100},szContent="红方[帅]第4次夺得了珍珑宝箱！\
-",szNote="红方·夺得宝箱×4",tCountdown={{nClass=20,nFrame=3,nIcon=10214,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
-			{[20]={bCenterAlarm=true},col={255,100,100},szContent="红方[帅]第3次夺得了珍珑宝箱！\
-",szNote="红方·夺得宝箱×3",tCountdown={{nClass=20,nFrame=3,nIcon=10214,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
-			{[20]={bCenterAlarm=true},col={255,100,100},szContent="红方[帅]第2次夺得了珍珑宝箱！\
-",szNote="红方·夺得宝箱×2",tCountdown={{nClass=20,nFrame=3,nIcon=10214,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
-			{[20]={bCenterAlarm=true},col={255,100,100},szContent="红方[帅]第1次夺得了珍珑宝箱！\
-",szNote="红方·夺得宝箱×1",tCountdown={{nClass=20,nFrame=3,nIcon=10214,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
-			{[20]={bCenterAlarm=true},col={100,100,255},szContent="蓝方[将]第7次夺得了珍珑宝箱！\
-",szNote="蓝方·夺得宝箱×7",tCountdown={{nClass=20,nFrame=7,nIcon=10215,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
-			{[20]={bCenterAlarm=true},col={100,100,255},szContent="蓝方[将]第6次夺得了珍珑宝箱！\
-",szNote="蓝方·夺得宝箱×6",tCountdown={{nClass=20,nFrame=7,nIcon=10215,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
-			{[20]={bCenterAlarm=true},col={100,100,255},szContent="蓝方[将]第5次夺得了珍珑宝箱！\
-",szNote="蓝方·夺得宝箱×5",tCountdown={{nClass=20,nFrame=7,nIcon=10215,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
-			{[20]={bCenterAlarm=true},col={100,100,255},szContent="蓝方[将]第4次夺得了珍珑宝箱！\
-",szNote="蓝方·夺得宝箱×4",tCountdown={{nClass=20,nFrame=7,nIcon=10215,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
-			{[20]={bCenterAlarm=true},col={100,100,255},szContent="蓝方[将]第3次夺得了珍珑宝箱！\
-",szNote="蓝方·夺得宝箱×3",tCountdown={{nClass=20,nFrame=7,nIcon=10215,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
-			{[20]={bCenterAlarm=true},col={100,100,255},szContent="蓝方[将]第2次夺得了珍珑宝箱！\
-",szNote="蓝方·夺得宝箱×2",tCountdown={{nClass=20,nFrame=7,nIcon=10215,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
-			{[20]={bCenterAlarm=true},col={100,100,255},szContent="蓝方[将]第1次夺得了珍珑宝箱！\
-",szNote="蓝方·夺得宝箱×1",tCountdown={{nClass=20,nFrame=7,nIcon=10215,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
-			{[20]={bCenterAlarm=true,szVoice="ZhuanHuo_P"},bSearch=true,col={100,255,100},szContent="珍珑宝箱出现在东南方。\
-",szNote="【东南方】宝箱",tCountdown={{nClass=20,nFrame=6,nIcon=919,nTime=15,szName="【东南方】宝箱"}}},
-			{[20]={bCenterAlarm=true,szVoice="ZhuanHuo_P"},bSearch=true,col={100,255,100},szContent="珍珑宝箱出现在西南方。\
-",szNote="【西南方】宝箱",tCountdown={{nClass=20,nFrame=6,nIcon=919,nTime=15,szName="【西南方】宝箱"}}},
-			{[20]={bCenterAlarm=true,szVoice="ZhuanHuo_P"},bSearch=true,col={100,255,100},szContent="珍珑宝箱出现在西北方。\
-",szNote="【西北方】宝箱",tCountdown={{nClass=20,nFrame=6,nIcon=919,nTime=15,szName="【西北方】宝箱"}}},
-			{[20]={bCenterAlarm=true,szVoice="ZhuanHuo_P"},bSearch=true,col={100,255,100},szContent="珍珑宝箱出现在中央。\
-",szNote="【中间】宝箱",tCountdown={{nClass=20,nFrame=6,nIcon=919,nTime=15,szName="【中间】宝箱"}}},
-			{[20]={bCenterAlarm=true,szVoice="ZhuanHuo_P"},bSearch=true,col={100,255,100},szContent="珍珑宝箱出现在东北方。\
-",szNote="【东北方】宝箱",tCountdown={{nClass=20,nFrame=6,nIcon=919,nTime=15,szName="【东北方】宝箱"}}},
-			{[20]={bCenterAlarm=true,szVoice="YinDao_T"},bSearch=true,col={100,255,100},szContent="珍珑宝箱将在10秒后刷新。\
-",szNote="珍珑宝箱·10秒刷新"},
+			{[20]={bCenterAlarm=true},col={255,100,100},szContent="红方[帅]第7次夺得了珍珑宝箱！\n",szNote="红方·夺得宝箱×7",tCountdown={{nClass=20,nFrame=3,nIcon=10214,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
+			{[20]={bCenterAlarm=true},col={255,100,100},szContent="红方[帅]第6次夺得了珍珑宝箱！\n",szNote="红方·夺得宝箱×6",tCountdown={{nClass=20,nFrame=3,nIcon=10214,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
+			{[20]={bCenterAlarm=true},col={255,100,100},szContent="红方[帅]第5次夺得了珍珑宝箱！\n",szNote="红方·夺得宝箱×5",tCountdown={{nClass=20,nFrame=3,nIcon=10214,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
+			{[20]={bCenterAlarm=true},col={255,100,100},szContent="红方[帅]第4次夺得了珍珑宝箱！\n",szNote="红方·夺得宝箱×4",tCountdown={{nClass=20,nFrame=3,nIcon=10214,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
+			{[20]={bCenterAlarm=true},col={255,100,100},szContent="红方[帅]第3次夺得了珍珑宝箱！\n",szNote="红方·夺得宝箱×3",tCountdown={{nClass=20,nFrame=3,nIcon=10214,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
+			{[20]={bCenterAlarm=true},col={255,100,100},szContent="红方[帅]第2次夺得了珍珑宝箱！\n",szNote="红方·夺得宝箱×2",tCountdown={{nClass=20,nFrame=3,nIcon=10214,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
+			{[20]={bCenterAlarm=true},col={255,100,100},szContent="红方[帅]第1次夺得了珍珑宝箱！\n",szNote="红方·夺得宝箱×1",tCountdown={{nClass=20,nFrame=3,nIcon=10214,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
+			{[20]={bCenterAlarm=true},col={100,100,255},szContent="蓝方[将]第7次夺得了珍珑宝箱！\n",szNote="蓝方·夺得宝箱×7",tCountdown={{nClass=20,nFrame=7,nIcon=10215,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
+			{[20]={bCenterAlarm=true},col={100,100,255},szContent="蓝方[将]第6次夺得了珍珑宝箱！\n",szNote="蓝方·夺得宝箱×6",tCountdown={{nClass=20,nFrame=7,nIcon=10215,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
+			{[20]={bCenterAlarm=true},col={100,100,255},szContent="蓝方[将]第5次夺得了珍珑宝箱！\n",szNote="蓝方·夺得宝箱×5",tCountdown={{nClass=20,nFrame=7,nIcon=10215,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
+			{[20]={bCenterAlarm=true},col={100,100,255},szContent="蓝方[将]第4次夺得了珍珑宝箱！\n",szNote="蓝方·夺得宝箱×4",tCountdown={{nClass=20,nFrame=7,nIcon=10215,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
+			{[20]={bCenterAlarm=true},col={100,100,255},szContent="蓝方[将]第3次夺得了珍珑宝箱！\n",szNote="蓝方·夺得宝箱×3",tCountdown={{nClass=20,nFrame=7,nIcon=10215,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
+			{[20]={bCenterAlarm=true},col={100,100,255},szContent="蓝方[将]第2次夺得了珍珑宝箱！\n",szNote="蓝方·夺得宝箱×2",tCountdown={{nClass=20,nFrame=7,nIcon=10215,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
+			{[20]={bCenterAlarm=true},col={100,100,255},szContent="蓝方[将]第1次夺得了珍珑宝箱！\n",szNote="蓝方·夺得宝箱×1",tCountdown={{nClass=20,nFrame=7,nIcon=10215,nTime=120,szName="珍珑宝箱·刷新剩余"}}},
+			{[20]={bCenterAlarm=true,szVoice="ZhuanHuo_P"},bSearch=true,col={100,255,100},szContent="珍珑宝箱出现在东南方。\n",szNote="【东南方】宝箱",tCountdown={{nClass=20,nFrame=6,nIcon=919,nTime=15,szName="【东南方】宝箱"}}},
+			{[20]={bCenterAlarm=true,szVoice="ZhuanHuo_P"},bSearch=true,col={100,255,100},szContent="珍珑宝箱出现在西南方。\n",szNote="【西南方】宝箱",tCountdown={{nClass=20,nFrame=6,nIcon=919,nTime=15,szName="【西南方】宝箱"}}},
+			{[20]={bCenterAlarm=true,szVoice="ZhuanHuo_P"},bSearch=true,col={100,255,100},szContent="珍珑宝箱出现在西北方。\n",szNote="【西北方】宝箱",tCountdown={{nClass=20,nFrame=6,nIcon=919,nTime=15,szName="【西北方】宝箱"}}},
+			{[20]={bCenterAlarm=true,szVoice="ZhuanHuo_P"},bSearch=true,col={100,255,100},szContent="珍珑宝箱出现在中央。\n",szNote="【中间】宝箱",tCountdown={{nClass=20,nFrame=6,nIcon=919,nTime=15,szName="【中间】宝箱"}}},
+			{[20]={bCenterAlarm=true,szVoice="ZhuanHuo_P"},bSearch=true,col={100,255,100},szContent="珍珑宝箱出现在东北方。\n",szNote="【东北方】宝箱",tCountdown={{nClass=20,nFrame=6,nIcon=919,nTime=15,szName="【东北方】宝箱"}}},
+			{[20]={bCenterAlarm=true,szVoice="YinDao_T"},bSearch=true,col={100,255,100},szContent="珍珑宝箱将在10秒后刷新。\n",szNote="珍珑宝箱·10秒刷新"},
 		},
 		[50] = {
 			{[20]={bCenterAlarm=true},bReg=true,col={255,255,100},szContent="(.-)成功送达第一个镖银，(.-)驿得(%d-)分",szNote="{$2}·[{$1}]·送达镖银",tCountdown={{key="红方流火·镖银",nClass=20,nFrame=7,nIcon=1262,nTime=10,szName="蓝方·送达镖银·[{$1}]"},{key="蓝方风雷·镖银",nClass=20,nFrame=3,nIcon=1261,nTime=10,szName="红方·送达镖银·[{$1}]"},{key="{$2}·镖银",nClass=20,nIcon=13,nTime=-1,szName="{$2}·镖银"}}},
 			{[20]={bCenterAlarm=true},bReg=true,col={255,255,100},szContent="(.-)成功占领一个据点，(.-)每(%d-)秒可获得(%d-)分",szNote="{$2}·【{$1}】·占领据点"},
-			{[20]={bCenterAlarm=true},col={255,100,100},szContent="红方当前分数400分，任意方达500分将根据本方占领的旗子数目发出镖车\
-",szNote="红方流火·400分",tCountdown={{key="红方·镖车",nClass=20,nFrame=3,nIcon=1265,nTime=10,szName="红方·400分"}}},
-			{[20]={bCenterAlarm=true},col={100,100,255},szContent="蓝方当前分数400分，任意方达500分将根据本方占领的旗子数目发出镖车\
-",szNote="蓝方风雷·400分",tCountdown={{key="蓝方·镖车",nClass=20,nFrame=7,nIcon=1266,nTime=10,szName="蓝方·400分"}}},
-			{[20]={bCenterAlarm=true,szVoice="HuanChou_T"},col={255,100,100},szContent="红方·流火镖车出发，护送镖车成功可得100分，拦截镖车成功可得50分\
-",szNote="红方流火·镖车出发",tCountdown={{key="红方·镖车",nClass=20,nFrame=3,nIcon=4544,nTime=150,szName="红方·镖车出发"}}},
-			{[20]={bCenterAlarm=true,szVoice="HuanChou_T"},col={100,100,255},szContent="蓝方·风雷镖车出发，护送镖车成功可得100分，拦截镖车成功可得50分\
-",szNote="蓝方风雷·镖车出发",tCountdown={{key="蓝方·镖车",nClass=20,nFrame=7,nIcon=4543,nTime=150,szName="蓝方·镖车出发"}}},
+			{[20]={bCenterAlarm=true},col={255,100,100},szContent="红方当前分数400分，任意方达500分将根据本方占领的旗子数目发出镖车\n",szNote="红方流火·400分",tCountdown={{key="红方·镖车",nClass=20,nFrame=3,nIcon=1265,nTime=10,szName="红方·400分"}}},
+			{[20]={bCenterAlarm=true},col={100,100,255},szContent="蓝方当前分数400分，任意方达500分将根据本方占领的旗子数目发出镖车\n",szNote="蓝方风雷·400分",tCountdown={{key="蓝方·镖车",nClass=20,nFrame=7,nIcon=1266,nTime=10,szName="蓝方·400分"}}},
+			{[20]={bCenterAlarm=true,szVoice="HuanChou_T"},col={255,100,100},szContent="红方·流火镖车出发，护送镖车成功可得100分，拦截镖车成功可得50分\n",szNote="红方流火·镖车出发",tCountdown={{key="红方·镖车",nClass=20,nFrame=3,nIcon=4544,nTime=150,szName="红方·镖车出发"}}},
+			{[20]={bCenterAlarm=true,szVoice="HuanChou_T"},col={100,100,255},szContent="蓝方·风雷镖车出发，护送镖车成功可得100分，拦截镖车成功可得50分\n",szNote="蓝方风雷·镖车出发",tCountdown={{key="蓝方·镖车",nClass=20,nFrame=7,nIcon=4543,nTime=150,szName="蓝方·镖车出发"}}},
 		},
 		[52] = {
-			{col={255,255,100},szContent="战场将在30秒后开始。\
-",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nTime=30,szName="战斗·开始倒计时"}}},
-			{col={255,255,100},szContent="战场将在20秒后开始。\
-",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nTime=20,szName="战斗·开始倒计时"}}},
-			{col={255,255,100},szContent="战场将在10秒后开始。\
-",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="战斗·开始倒计时"}}},
-			{col={255,255,100},szContent="战斗开始!!!\
-",tCountdown={{key="战斗开始",nClass=20,nFrame=6,nIcon=13,nRefresh=0,nTime="15.3,内满·刷新剩余;16,内满·已经刷新;90,擂旗·刷新剩余;95,擂旗·已经刷新",szName="战斗开始"}}},
-			{[20]={bCenterAlarm=true,szVoice="ZhuanHuo_P"},col={100,255,100},szContent="擂旗已经重置！得到它的队伍将获得高分奖励！\
-",szNote="【擂旗】出现",tCountdown={{key="战斗开始",nClass=20,nFrame=6,nIcon=13,nTime=5,szName="擂旗·已经重置"}}},
-			{col={100,255,100},szContent="擂旗将在10秒后刷新。\
-",szNote="【擂旗】·刷新·10秒",tCountdown={{key="战斗开始",nClass=20,nFrame=6,nIcon=13,nRefresh=0,nTime="10,擂旗·重置剩余;15,擂旗·已经重置",szName="擂旗·重置剩余"}}},
-			{col={100,255,100},szContent="擂旗将在30秒后刷新。\
-",szNote="【擂旗】·刷新·30秒",tCountdown={{key="战斗开始",nClass=20,nFrame=6,nIcon=13,nRefresh=0,nTime="10,道具·刷新剩余;12,道具·已经刷新,VO:ShiYongDaoJu;30,擂旗·重置剩余;35,擂旗·已经重置",szName="擂旗·重置剩余"}}},
-			{col={255,100,100},szContent="刀宗获得擂旗！擂旗将在两分半后重置！\
-",szNote="红方·刀宗·夺得擂旗",tCountdown={{key="战斗开始",nClass=20,nFrame=6,nIcon=13,nRefresh=0,nTime="150,擂旗·重置剩余;155,擂旗·已经重置",szName="擂旗·重置剩余"}}},
-			{col={100,100,255},szContent="昆仑获得擂旗！擂旗将在两分半后重置！\
-",szNote="蓝方·昆仑·夺得擂旗",tCountdown={{key="战斗开始",nClass=20,nFrame=6,nIcon=13,nRefresh=0,nTime="150,擂旗·重置剩余;155,擂旗·已经重置",szName="擂旗·重置剩余"}}},
+			{col={255,255,100},szContent="战场将在30秒后开始。\n",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nTime=30,szName="战斗·开始倒计时"}}},
+			{col={255,255,100},szContent="战场将在20秒后开始。\n",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nTime=20,szName="战斗·开始倒计时"}}},
+			{col={255,255,100},szContent="战场将在10秒后开始。\n",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="战斗·开始倒计时"}}},
+			{col={255,255,100},szContent="战斗开始!!!\n",tCountdown={{key="战斗开始",nClass=20,nFrame=6,nIcon=13,nRefresh=0,nTime="15.3,内满·刷新剩余;16,内满·已经刷新;90,擂旗·刷新剩余;95,擂旗·已经刷新",szName="战斗开始"}}},
+			{[20]={bCenterAlarm=true,szVoice="ZhuanHuo_P"},col={100,255,100},szContent="擂旗已经重置！得到它的队伍将获得高分奖励！\n",szNote="【擂旗】出现",tCountdown={{key="战斗开始",nClass=20,nFrame=6,nIcon=13,nTime=5,szName="擂旗·已经重置"}}},
+			{col={100,255,100},szContent="擂旗将在10秒后刷新。\n",szNote="【擂旗】·刷新·10秒",tCountdown={{key="战斗开始",nClass=20,nFrame=6,nIcon=13,nRefresh=0,nTime="10,擂旗·重置剩余;15,擂旗·已经重置",szName="擂旗·重置剩余"}}},
+			{col={100,255,100},szContent="擂旗将在30秒后刷新。\n",szNote="【擂旗】·刷新·30秒",tCountdown={{key="战斗开始",nClass=20,nFrame=6,nIcon=13,nRefresh=0,nTime="10,道具·刷新剩余;12,道具·已经刷新,VO:ShiYongDaoJu;30,擂旗·重置剩余;35,擂旗·已经重置",szName="擂旗·重置剩余"}}},
+			{col={255,100,100},szContent="刀宗获得擂旗！擂旗将在两分半后重置！\n",szNote="红方·刀宗·夺得擂旗",tCountdown={{key="战斗开始",nClass=20,nFrame=6,nIcon=13,nRefresh=0,nTime="150,擂旗·重置剩余;155,擂旗·已经重置",szName="擂旗·重置剩余"}}},
+			{col={100,100,255},szContent="昆仑获得擂旗！擂旗将在两分半后重置！\n",szNote="蓝方·昆仑·夺得擂旗",tCountdown={{key="战斗开始",nClass=20,nFrame=6,nIcon=13,nRefresh=0,nTime="150,擂旗·重置剩余;155,擂旗·已经重置",szName="擂旗·重置剩余"}}},
 			{[20]={bCenterAlarm=true,bTeamChannel=true},bReg=true,col={255,255,100},szContent="(.-)夺取了旗帜，(.-)获得(%d-)分",szNote="{$2}·[{$1}]·开旗",tCountdown={{key="旗帜·昆仑",nClass=20,nFrame=3,nIcon=4838,nTime=10,szName="红方·[{$1}]·开旗"},{key="旗帜·刀宗",nClass=20,nFrame=7,nIcon=4837,nTime=10,szName="蓝方·[{$1}]·开旗"},{key="旗帜·{$2}",nClass=20,nFrame=-1,nIcon=13,nTime=-1,szName="旗帜·{$2}"},{key="战斗开始",nClass=20,nFrame=6,nIcon=13,nRefresh=0,nTime="150,擂旗·重置剩余;155,擂旗·已经重置",szName="擂旗·重置剩余"}}},
 			{[20]={bCenterAlarm=true},bReg=true,col={255,50,255},szContent="^内满自溢效果从(.-)的(.-)侠士身上消失了！",szNote="{$1}·【{$2}】·已自爆",tCountdown={{key="内满·昆仑·{$2}",nClass=20,nFrame=3,nIcon=3411,nTime=5,szName="红方【{$2}】已自爆"},{key="内满·刀宗·{$2}",nClass=20,nFrame=7,nIcon=3410,nTime=5,szName="蓝方【{$2}】已自爆"},{key="内满·{$1}·{$2}",nClass=20,nFrame=1,nIcon=13,nTime=-1,szName="内满·{$1}·{$2}"}}},
 			{[20]={bCenterAlarm=true,bTeamChannel=true,szVoice="FenSan_P"},bReg=true,col={255,50,255},szContent="(.-)的(.-)侠士获得了内满自溢效果！",szNote="{$1}【{$2}】自爆",tCountdown={{key="内满·昆仑·{$2}",nClass=20,nFrame=3,nIcon=3449,nTime=30,szName="红方【{$2}】自爆"},{key="内满·刀宗·{$2}",nClass=20,nFrame=7,nIcon=3448,nTime=30,szName="蓝方【{$2}】自爆"},{key="内满·{$1}·{$2}",nClass=20,nIcon=13,nTime=-1,szName="内满·{$1}·{$2}"},{key="内满·昆仑·刷新",nClass=20,nIcon=13,nRefresh=900,nTime=-2,szName="内满·昆仑·刷新"},{key="内满·刀宗·刷新",nClass=20,nIcon=13,nRefresh=900,nTime=-2,szName="内满·刀宗·刷新"},{key="内满·{$1}·刷新",nClass=20,nFrame=-1,nIcon=13,nTime=-2,szName="内满·{$1}·刷新"},{key="内满·昆仑·刷新",nClass=20,nFrame=4,nIcon=4975,nRefresh=900,nTime="120,蓝方内满·刷新剩余;125,蓝方内满·已经刷新",szName="蓝方内满·刷新剩余"},{key="内满·刀宗·刷新",nClass=20,nFrame=4,nIcon=4973,nRefresh=900,nTime="120,红方内满·刷新剩余;125,红方内满·已经刷新",szName="红方内满·刷新剩余"}}},
 		},
 		[135] = {
-			{[20]={bCenterAlarm=true},col={255,100,100},szContent="红方成功占领一个据点，每5秒可获得1分\
-",szNote="红方·占领·一个据点",tCountdown={{nClass=20,nFrame=3,nIcon=4838,nTime=10,szName="红方·占领据点"}}},
-			{[20]={bCenterAlarm=true},col={100,100,255},szContent="蓝方成功占领一个据点，每5秒可获得1分\
-",szNote="蓝方·占领·一个据点",tCountdown={{nClass=20,nFrame=7,nIcon=4837,nTime=10,szName="蓝方·占领据点"}}},
+			{[20]={bCenterAlarm=true},col={255,100,100},szContent="红方成功占领一个据点，每5秒可获得1分\n",szNote="红方·占领·一个据点",tCountdown={{nClass=20,nFrame=3,nIcon=4838,nTime=10,szName="红方·占领据点"}}},
+			{[20]={bCenterAlarm=true},col={100,100,255},szContent="蓝方成功占领一个据点，每5秒可获得1分\n",szNote="蓝方·占领·一个据点",tCountdown={{nClass=20,nFrame=7,nIcon=4837,nTime=10,szName="蓝方·占领据点"}}},
 		},
 		[186] = {
-			{col={255,100,100},szContent="红方火塘寨成功占领一个据点，每5秒可获得1分\
-",szNote="红方·占领·一个据点",tCountdown={{nClass=20,nFrame=3,nIcon=4838,nTime=10,szName="红方·占领据点"}}},
-			{col={100,100,255},szContent="蓝方溶溪寨成功占领一个据点，每5秒可获得1分\
-",szNote="蓝方·占领·一个据点",tCountdown={{nClass=20,nFrame=7,nIcon=4837,nTime=10,szName="蓝方·占领据点"}}},
+			{col={255,100,100},szContent="红方火塘寨成功占领一个据点，每5秒可获得1分\n",szNote="红方·占领·一个据点",tCountdown={{nClass=20,nFrame=3,nIcon=4838,nTime=10,szName="红方·占领据点"}}},
+			{col={100,100,255},szContent="蓝方溶溪寨成功占领一个据点，每5秒可获得1分\n",szNote="蓝方·占领·一个据点",tCountdown={{nClass=20,nFrame=7,nIcon=4837,nTime=10,szName="蓝方·占领据点"}}},
 		},
 		[297] = {
-			{szContent="龙门绝境开启!祝各位洪福齐天。\
-",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="120,准备刷圈·1/8;420,准备刷圈·2/8;684,准备刷圈·3/8;912,准备刷圈·4/8;1104,准备刷圈·5/8;1260,准备刷圈·6/8;1380,准备刷圈·7/8;1464,准备刷圈·8/8;1644,全图伤害",szName="战斗开始"}}},
-			{szContent="楼兰神兵匣现世，持有者五分钟后将开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\
-",tCountdown={{key="宝箱",nClass=20,nFrame=3,nIcon=3556,nRefresh=0,nTime="300,楼兰神兵匣·开启剩余;302,楼兰神兵匣·已经开启",szName="楼兰神兵匣·开启剩余"}}},
-			{szContent="楼兰神兵匣再度易手！新持有者将在两分半钟后开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\
-",tCountdown={{key="宝箱",nClass=20,nFrame=3,nIcon=3556,nRefresh=0,nTime="150,楼兰神兵匣·开启剩余;152,楼兰神兵匣·已经开启",szName="楼兰神兵匣·开启剩余"}}},
-			{[20]={bCenterAlarm=true},szContent="大漠中出现了穷凶极恶的马贼，速往清缴可获得马贼王的宝藏。\
-",szNote="【马贼】出现"},
+			{szContent="龙门绝境开启!祝各位洪福齐天。\n",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="120,准备刷圈·1/8;420,准备刷圈·2/8;684,准备刷圈·3/8;912,准备刷圈·4/8;1104,准备刷圈·5/8;1260,准备刷圈·6/8;1380,准备刷圈·7/8;1464,准备刷圈·8/8;1644,全图伤害",szName="战斗开始"}}},
+			{szContent="楼兰神兵匣现世，持有者五分钟后将开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\n",tCountdown={{key="宝箱",nClass=20,nFrame=3,nIcon=3556,nRefresh=0,nTime="300,楼兰神兵匣·开启剩余;302,楼兰神兵匣·已经开启",szName="楼兰神兵匣·开启剩余"}}},
+			{szContent="楼兰神兵匣再度易手！新持有者将在两分半钟后开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\n",tCountdown={{key="宝箱",nClass=20,nFrame=3,nIcon=3556,nRefresh=0,nTime="150,楼兰神兵匣·开启剩余;152,楼兰神兵匣·已经开启",szName="楼兰神兵匣·开启剩余"}}},
+			{[20]={bCenterAlarm=true},szContent="大漠中出现了穷凶极恶的马贼，速往清缴可获得马贼王的宝藏。\n",szNote="【马贼】出现"},
 		},
 		[410] = {
-			{szContent="沧溟绝境开启!祝各位洪福齐天。\
-",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="120,准备刷圈·1/8;420,准备刷圈·2/8;684,准备刷圈·3/8;912,准备刷圈·4/8;1104,准备刷圈·5/8;1260,准备刷圈·6/8;1380,准备刷圈·7/8;1464,准备刷圈·8/8;1644,全图伤害",szName="战斗开始"}}},
-			{szContent="沧溟神兵匣现世，持有者五分钟后将开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\
-",tCountdown={{key="宝箱",nClass=20,nFrame=3,nIcon=3556,nRefresh=0,nTime="300,沧溟神兵匣·开启剩余;302,沧溟神兵匣·已经开启",szName="沧溟神兵匣·开启剩余"}}},
-			{szContent="沧溟神兵匣再度易手！新持有者将在两分半钟后开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\
-",tCountdown={{key="宝箱",nClass=20,nFrame=3,nIcon=3556,nRefresh=0,nTime="150,沧溟神兵匣·开启剩余;152,沧溟神兵匣·已经开启",szName="沧溟神兵匣·开启剩余"}}},
-			{[20]={bCenterAlarm=true},szContent="沧溟岛出现了穷凶极恶的海贼，速往清缴可获得海贼王的宝藏。\
-",szNote="【海贼】出现"},
+			{szContent="沧溟绝境开启!祝各位洪福齐天。\n",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="120,准备刷圈·1/8;420,准备刷圈·2/8;684,准备刷圈·3/8;912,准备刷圈·4/8;1104,准备刷圈·5/8;1260,准备刷圈·6/8;1380,准备刷圈·7/8;1464,准备刷圈·8/8;1644,全图伤害",szName="战斗开始"}}},
+			{szContent="沧溟神兵匣现世，持有者五分钟后将开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\n",tCountdown={{key="宝箱",nClass=20,nFrame=3,nIcon=3556,nRefresh=0,nTime="300,沧溟神兵匣·开启剩余;302,沧溟神兵匣·已经开启",szName="沧溟神兵匣·开启剩余"}}},
+			{szContent="沧溟神兵匣再度易手！新持有者将在两分半钟后开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\n",tCountdown={{key="宝箱",nClass=20,nFrame=3,nIcon=3556,nRefresh=0,nTime="150,沧溟神兵匣·开启剩余;152,沧溟神兵匣·已经开启",szName="沧溟神兵匣·开启剩余"}}},
+			{[20]={bCenterAlarm=true},szContent="沧溟岛出现了穷凶极恶的海贼，速往清缴可获得海贼王的宝藏。\n",szNote="【海贼】出现"},
 		},
 		[512] = {
-			{szContent="首场无间死斗将在3分钟后开始入场。\
-",tCountdown={{key="无间死斗",nClass=20,nFrame=4,nIcon=5356,nTime=180,szName="无间死斗·入场剩余"}}},
-			{szContent="下一场无间死斗将在82秒后开始入场！\
-",tCountdown={{key="无间死斗",nClass=20,nFrame=4,nIcon=5356,nTime=82,szName="无间死斗·入场剩余"}}},
-			{szContent="下一场无间死斗将在76秒后开始入场！\
-",tCountdown={{key="无间死斗",nClass=20,nFrame=4,nIcon=5356,nTime=76,szName="无间死斗·入场剩余"}}},
-			{szContent="下一场无间死斗将在116秒后开始入场！\
-",tCountdown={{key="无间死斗",nClass=20,nFrame=4,nIcon=5356,nTime=116,szName="无间死斗·入场剩余"}}},
-			{szContent="下一场无间死斗将在70秒后开始入场！\
-",tCountdown={{key="无间死斗",nClass=20,nFrame=4,nIcon=5356,nTime=70,szName="无间死斗·入场剩余"}}},
-			{szContent="白龙绝境开启!祝各位洪福齐天。\
-",tCountdown={{key="战斗开始",nClass=20,nFrame=5,nIcon=13,nRefresh=0,nTime="120,准备刷圈·1/8;420,准备刷圈·2/8;684,准备刷圈·3/8;912,准备刷圈·4/8;1104,准备刷圈·5/8;1260,准备刷圈·6/8;1380,准备刷圈·7/8;1464,准备刷圈·8/8;1644,全图伤害",szName="战斗开始"}}},
-			{szContent="白龙神兵匣现世，持有者五分钟后将开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\
-",tCountdown={{key="宝箱",nClass=20,nFrame=3,nIcon=3556,nRefresh=0,nTime="300,白龙神兵匣·开启剩余;302,白龙神兵匣·已经开启",szName="白龙神兵匣·开启剩余"}}},
-			{szContent="白龙神兵匣再度易手！新持有者将在两分半钟后开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\
-",tCountdown={{key="宝箱",nClass=20,nFrame=3,nIcon=3556,nRefresh=0,nTime="150,白龙神兵匣·开启剩余;152,白龙神兵匣·已经开启",szName="白龙神兵匣·开启剩余"}}},
-			{[20]={bCenterAlarm=true},szContent="白龙口出现了穷凶极恶的山贼，速往清缴可获得山贼王的宝藏。\
-",szNote="【山贼】出现"},
+			{szContent="首场无间死斗将在3分钟后开始入场。\n",tCountdown={{key="无间死斗",nClass=20,nFrame=4,nIcon=5356,nTime=180,szName="无间死斗·入场剩余"}}},
+			{szContent="下一场无间死斗将在82秒后开始入场！\n",tCountdown={{key="无间死斗",nClass=20,nFrame=4,nIcon=5356,nTime=82,szName="无间死斗·入场剩余"}}},
+			{szContent="下一场无间死斗将在76秒后开始入场！\n",tCountdown={{key="无间死斗",nClass=20,nFrame=4,nIcon=5356,nTime=76,szName="无间死斗·入场剩余"}}},
+			{szContent="下一场无间死斗将在116秒后开始入场！\n",tCountdown={{key="无间死斗",nClass=20,nFrame=4,nIcon=5356,nTime=116,szName="无间死斗·入场剩余"}}},
+			{szContent="下一场无间死斗将在70秒后开始入场！\n",tCountdown={{key="无间死斗",nClass=20,nFrame=4,nIcon=5356,nTime=70,szName="无间死斗·入场剩余"}}},
+			{szContent="白龙绝境开启!祝各位洪福齐天。\n",tCountdown={{key="战斗开始",nClass=20,nFrame=5,nIcon=13,nRefresh=0,nTime="120,准备刷圈·1/8;420,准备刷圈·2/8;684,准备刷圈·3/8;912,准备刷圈·4/8;1104,准备刷圈·5/8;1260,准备刷圈·6/8;1380,准备刷圈·7/8;1464,准备刷圈·8/8;1644,全图伤害",szName="战斗开始"}}},
+			{szContent="白龙神兵匣现世，持有者五分钟后将开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\n",tCountdown={{key="宝箱",nClass=20,nFrame=3,nIcon=3556,nRefresh=0,nTime="300,白龙神兵匣·开启剩余;302,白龙神兵匣·已经开启",szName="白龙神兵匣·开启剩余"}}},
+			{szContent="白龙神兵匣再度易手！新持有者将在两分半钟后开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\n",tCountdown={{key="宝箱",nClass=20,nFrame=3,nIcon=3556,nRefresh=0,nTime="150,白龙神兵匣·开启剩余;152,白龙神兵匣·已经开启",szName="白龙神兵匣·开启剩余"}}},
+			{[20]={bCenterAlarm=true},szContent="白龙口出现了穷凶极恶的山贼，速往清缴可获得山贼王的宝藏。\n",szNote="【山贼】出现"},
 		},
 		[529] = {
-			{szContent="地板即将在三十秒后破碎。\
-",szNote="地板破碎·剩余三十秒",tCountdown={{key="战斗开始",nClass=20,nFrame=1,nIcon=13,nRefresh=0,nTime="30,地板·破碎剩余;34,地板·正在破裂",szName="地板破碎·剩余时间"}}},
+			{szContent="地板即将在三十秒后破碎。\n",szNote="地板破碎·剩余三十秒",tCountdown={{key="战斗开始",nClass=20,nFrame=1,nIcon=13,nRefresh=0,nTime="30,地板·破碎剩余;34,地板·正在破裂",szName="地板破碎·剩余时间"}}},
 		},
 		[532] = {
-			{szContent="天原绝境开启!祝各位洪福齐天。\
-",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="120,准备刷圈 1/8;420,准备刷圈 2/8;684,准备刷圈 3/8;912,准备刷圈 4/8;1104,准备刷圈 5/8;1260,准备刷圈 6/8;1380,准备刷圈 7/8;1464,准备刷圈 8/8;1644,全图伤害"}}},
-			{[20]={bCenterAlarm=true},szContent="天原绝境出现了武家护卫，前往击败他们可获得武家物资。\
-",szNote="【护卫】出现"},
+			{szContent="天原绝境开启!祝各位洪福齐天。\n",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="120,准备刷圈 1/8;420,准备刷圈 2/8;684,准备刷圈 3/8;912,准备刷圈 4/8;1104,准备刷圈 5/8;1260,准备刷圈 6/8;1380,准备刷圈 7/8;1464,准备刷圈 8/8;1644,全图伤害"}}},
+			{[20]={bCenterAlarm=true},szContent="天原绝境出现了武家护卫，前往击败他们可获得武家物资。\n",szNote="【护卫】出现"},
 		},
 		[645] = {
-			{szContent="洱海绝境开启!祝各位洪福齐天。\
-",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="120,准备刷圈·1/8;420,准备刷圈·2/8;684,准备刷圈·3/8;912,准备刷圈·4/8;1104,准备刷圈·5/8;1260,准备刷圈·6/8;1380,准备刷圈·7/8;1464,准备刷圈·8/8;1644,全图伤害",szName="战斗开始"}}},
-			{[20]={bCenterAlarm=true},szContent="洱海出现了战战兢兢的马贼，待其离去后可拾取遗落的宝物。\
-",szNote="【马贼】出现"},
-			{[20]={bCenterAlarm=true},szContent="南诏王之召已开启报名，各位侠士可点击背包中的入场券报名了。\
-",szNote="南诏王之召·开启报名"},
+			{szContent="洱海绝境开启!祝各位洪福齐天。\n",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="120,准备刷圈·1/8;420,准备刷圈·2/8;684,准备刷圈·3/8;912,准备刷圈·4/8;1104,准备刷圈·5/8;1260,准备刷圈·6/8;1380,准备刷圈·7/8;1464,准备刷圈·8/8;1644,全图伤害",szName="战斗开始"}}},
+			{[20]={bCenterAlarm=true},szContent="洱海出现了战战兢兢的马贼，待其离去后可拾取遗落的宝物。\n",szNote="【马贼】出现"},
+			{[20]={bCenterAlarm=true},szContent="南诏王之召已开启报名，各位侠士可点击背包中的入场券报名了。\n",szNote="南诏王之召·开启报名"},
 		},
 		[676] = {
-			{szContent="龙门绝境开启!祝各位洪福齐天。\
-",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="120,准备刷圈 1/8;420,准备刷圈 2/8;684,准备刷圈 3/8;912,准备刷圈 4/8;1104,准备刷圈 5/8;1260,准备刷圈 6/8;1380,准备刷圈 7/8;1464,准备刷圈 8/8;1644,全图伤害"}}},
-			{szContent="楼兰神兵匣现世，持有者五分钟后将开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\
-",tCountdown={{key="宝箱",nClass=20,nFrame=3,nIcon=3556,nRefresh=0,nTime="300,楼兰神兵匣·开启剩余;302,楼兰神兵匣·已经开启",szName="楼兰神兵匣·开启剩余"}}},
-			{szContent="楼兰神兵匣再度易手！新持有者将在两分半钟后开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\
-",tCountdown={{key="宝箱",nClass=20,nFrame=3,nIcon=3556,nRefresh=0,nTime="150,楼兰神兵匣·开启剩余;152,楼兰神兵匣·已经开启",szName="楼兰神兵匣·开启剩余"}}},
-			{[20]={bCenterAlarm=true},szContent="大漠中出现了穷凶极恶的马贼，速往清缴可获得马贼王的宝藏。\
-",szNote="【马贼】出现"},
+			{szContent="龙门绝境开启!祝各位洪福齐天。\n",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="120,准备刷圈 1/8;420,准备刷圈 2/8;684,准备刷圈 3/8;912,准备刷圈 4/8;1104,准备刷圈 5/8;1260,准备刷圈 6/8;1380,准备刷圈 7/8;1464,准备刷圈 8/8;1644,全图伤害"}}},
+			{szContent="楼兰神兵匣现世，持有者五分钟后将开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\n",tCountdown={{key="宝箱",nClass=20,nFrame=3,nIcon=3556,nRefresh=0,nTime="300,楼兰神兵匣·开启剩余;302,楼兰神兵匣·已经开启",szName="楼兰神兵匣·开启剩余"}}},
+			{szContent="楼兰神兵匣再度易手！新持有者将在两分半钟后开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\n",tCountdown={{key="宝箱",nClass=20,nFrame=3,nIcon=3556,nRefresh=0,nTime="150,楼兰神兵匣·开启剩余;152,楼兰神兵匣·已经开启",szName="楼兰神兵匣·开启剩余"}}},
+			{[20]={bCenterAlarm=true},szContent="大漠中出现了穷凶极恶的马贼，速往清缴可获得马贼王的宝藏。\n",szNote="【马贼】出现"},
 		},
 		[677] = {
-			{szContent="龙门绝境开启!祝各位洪福齐天。\
-",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="120,准备刷圈 1/8;420,准备刷圈 2/8;684,准备刷圈 3/8;912,准备刷圈 4/8;1104,准备刷圈 5/8;1260,准备刷圈 6/8;1380,准备刷圈 7/8;1464,准备刷圈 8/8;1644,全图伤害"}}},
-			{szContent="楼兰神兵匣现世，持有者五分钟后将开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\
-",tCountdown={{key="宝箱",nClass=20,nFrame=3,nIcon=3556,nRefresh=0,nTime="300,楼兰神兵匣·开启剩余;302,楼兰神兵匣·已经开启",szName="楼兰神兵匣·开启剩余"}}},
-			{szContent="楼兰神兵匣再度易手！新持有者将在两分半钟后开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\
-",tCountdown={{key="宝箱",nClass=20,nFrame=3,nIcon=3556,nRefresh=0,nTime="150,楼兰神兵匣·开启剩余;152,楼兰神兵匣·已经开启",szName="楼兰神兵匣·开启剩余"}}},
-			{[20]={bCenterAlarm=true},szContent="大漠中出现了穷凶极恶的马贼，速往清缴可获得马贼王的宝藏。\
-",szNote="【马贼】出现"},
+			{szContent="龙门绝境开启!祝各位洪福齐天。\n",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="120,准备刷圈 1/8;420,准备刷圈 2/8;684,准备刷圈 3/8;912,准备刷圈 4/8;1104,准备刷圈 5/8;1260,准备刷圈 6/8;1380,准备刷圈 7/8;1464,准备刷圈 8/8;1644,全图伤害"}}},
+			{szContent="楼兰神兵匣现世，持有者五分钟后将开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\n",tCountdown={{key="宝箱",nClass=20,nFrame=3,nIcon=3556,nRefresh=0,nTime="300,楼兰神兵匣·开启剩余;302,楼兰神兵匣·已经开启",szName="楼兰神兵匣·开启剩余"}}},
+			{szContent="楼兰神兵匣再度易手！新持有者将在两分半钟后开出稀世兵甲！大侠可在地图上查看持有者位置，前往争夺！\n",tCountdown={{key="宝箱",nClass=20,nFrame=3,nIcon=3556,nRefresh=0,nTime="150,楼兰神兵匣·开启剩余;152,楼兰神兵匣·已经开启",szName="楼兰神兵匣·开启剩余"}}},
+			{[20]={bCenterAlarm=true},szContent="大漠中出现了穷凶极恶的马贼，速往清缴可获得马贼王的宝藏。\n",szNote="【马贼】出现"},
 		},
 		[712] = {
-			{[20]={bCenterAlarm=true},szContent="战斗开始。\
-",szNote="战斗开始",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=1,nTime="2,第一旗帜·已经刷新;180,第二旗帜·刷新剩余;182,第二旗帜·已经刷新",szName="战斗开始"}}},
-			{szContent="你不能背起己方的旗帜！\
-",szNote="不能背己方旗帜",tCountdown={{key="警告事件",nClass=20,nFrame=2,nIcon=13,nTime=2,szName="不能背己方旗帜"}}},
-			{szContent="旗帜暂时不能被背起。\
-",szNote="暂不能背起旗帜",tCountdown={{key="警告事件",nClass=20,nFrame=2,nIcon=13,nRefresh=2,nTime=5,szName="暂不能背起旗帜·5s"}}},
+			{[20]={bCenterAlarm=true},szContent="战斗开始。\n",szNote="战斗开始",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=1,nTime="2,第一旗帜·已经刷新;180,第二旗帜·刷新剩余;182,第二旗帜·已经刷新",szName="战斗开始"}}},
+			{szContent="你不能背起己方的旗帜！\n",szNote="不能背己方旗帜",tCountdown={{key="警告事件",nClass=20,nFrame=2,nIcon=13,nTime=2,szName="不能背己方旗帜"}}},
+			{szContent="旗帜暂时不能被背起。\n",szNote="暂不能背起旗帜",tCountdown={{key="警告事件",nClass=20,nFrame=2,nIcon=13,nRefresh=2,nTime=5,szName="暂不能背起旗帜·5s"}}},
 			{[20]={bCenterAlarm=true},bReg=true,szContent="(.-)收取了第一滴血，(.-)士气值加(%d-)",szNote="{$2}·【{$2}】获得1血·士气加{$3}",tCountdown={{key="蓝方·第一滴血",nClass=20,nFrame=3,nIcon=4513,nTime=2,szName="红方·获得第一滴血"},{key="红方·第一滴血",nClass=20,nFrame=7,nIcon=4516,nTime=2,szName="蓝方·获得第一滴血"},{key="{$2}·第一滴血",nClass=20,nIcon=13,nTime=-1,szName="{$2}·第一滴血"}}},
 			{[20]={bCenterAlarm=true},bReg=true,szContent="(.-)的(.-)侠士成功运回对方旗帜获得一分！",szNote="{$1}·【{$2}】·运旗成功·得一分",tCountdown={{key="蓝方·{$2}",nClass=20,nFrame=3,nIcon=4544,nTime=5,szName="红方·运旗成功·[{$2}]"},{key="红方·{$2}",nClass=20,nFrame=7,nIcon=4543,nTime=5,szName="蓝方·运旗成功·[{$2}]"},{key="{$1}·{$2}",nClass=20,nFrame=5,nIcon=13,nTime=-1,szName="{$1}·{$2}·运旗成功"}}},
 			{[20]={bCenterAlarm=true},bReg=true,szContent="(.-)的旗帜已被(.-)拾取送回(.-)旗帜点！",szNote="{$1}·【{$2}】·收回旗帜",tCountdown={{key="蓝方·收回旗帜",nClass=20,nFrame=3,nIcon=3447,nRefresh=1,nTime=2,szName="红方·收回旗帜·防守成功"},{key="红方·收回旗帜",nClass=20,nFrame=7,nIcon=3446,nRefresh=1,nTime=2,szName="蓝方·收回旗帜·防守成功"},{key="{$1}·收回旗帜",nClass=20,nFrame=5,nIcon=13,nTime=-1,szName="{$1}·收回旗帜"}}},

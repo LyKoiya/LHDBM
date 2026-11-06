@@ -3,22 +3,15 @@ return {
 	CASTING = {},
 	CHAT = {
 		[101] = {
-			{szContent="请在骑乘花山节大会赛马的时候使用！\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="花月马·骑乘赛马"}}},
-			{szContent="你已接受了[天一尸毒祸四方]。\
-",tCountdown={{key="任务提示2",nClass=20,nFrame=6,nIcon=13,nRefresh=0,nTime="10,天一尸毒祸四方;20,花骨朵·乘船到·神木谷;30,交互·孔雀·乌蒙后山;60,注意使用正确的玄火丸",szName="任务提示3"}}},
-			{szContent="你已接受了[孔雀神恩赐万福]。\
-",tCountdown={{key="任务提示3",nClass=20,nFrame=6,nIcon=13,nRefresh=0,nTime="10,孔雀神恩赐万福;20,交互·竹儿·孔雀湖;30,飞行途中使用正确的玄火丸",szName="任务提示2"}}},
+			{szContent="请在骑乘花山节大会赛马的时候使用！\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="花月马·骑乘赛马"}}},
+			{szContent="你已接受了[天一尸毒祸四方]。\n",tCountdown={{key="任务提示2",nClass=20,nFrame=6,nIcon=13,nRefresh=0,nTime="10,天一尸毒祸四方;20,花骨朵·乘船到·神木谷;30,交互·孔雀·乌蒙后山;60,注意使用正确的玄火丸",szName="任务提示3"}}},
+			{szContent="你已接受了[孔雀神恩赐万福]。\n",tCountdown={{key="任务提示3",nClass=20,nFrame=6,nIcon=13,nRefresh=0,nTime="10,孔雀神恩赐万福;20,交互·竹儿·孔雀湖;30,飞行途中使用正确的玄火丸",szName="任务提示2"}}},
 		},
 		[105] = {
-			{[20]={bCenterAlarm=true},szContent="你向“无愧南灵”捐赠了30金。\
-",szNote="无愧南灵·捐赠了30金"},
-			{[20]={bCenterAlarm=true},szContent="你已接受了[挽澜纪·抓襟见肘]。\
-",szNote="注意·此任务需上交30金",tCountdown={{key="任务提示1",nClass=20,nFrame=2,nIcon=13,nTime=10,szName="注意·任务[抓襟见肘]需付费30金"}}},
-			{szContent="你已接受了[挽澜纪·只进不出]。\
-",tCountdown={{key="任务提示2",nClass=20,nFrame=6,nIcon=13,nTime=20,szName="先去飞虎营·打飞虎战驹"}}},
-			{szContent="你已接受了[通缉：越狱之囚]。\
-",tCountdown={{key="任务提示3",nClass=20,nFrame=6,nIcon=13,nTime=20,szName="任务·[越狱之囚]目标很能跑"}}},
+			{[20]={bCenterAlarm=true},szContent="你向“无愧南灵”捐赠了30金。\n",szNote="无愧南灵·捐赠了30金"},
+			{[20]={bCenterAlarm=true},szContent="你已接受了[挽澜纪·抓襟见肘]。\n",szNote="注意·此任务需上交30金",tCountdown={{key="任务提示1",nClass=20,nFrame=2,nIcon=13,nTime=10,szName="注意·任务[抓襟见肘]需付费30金"}}},
+			{szContent="你已接受了[挽澜纪·只进不出]。\n",tCountdown={{key="任务提示2",nClass=20,nFrame=6,nIcon=13,nTime=20,szName="先去飞虎营·打飞虎战驹"}}},
+			{szContent="你已接受了[通缉：越狱之囚]。\n",tCountdown={{key="任务提示3",nClass=20,nFrame=6,nIcon=13,nTime=20,szName="任务·[越狱之囚]目标很能跑"}}},
 		},
 	},
 	DEBUFF = {

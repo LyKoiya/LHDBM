@@ -3,8 +3,7 @@ return {
 	CASTING = {},
 	CHAT = {
 		[-1] = {
-			{szContent="你将在300秒后结束癫狂状态。\
-",szNote="屠杀模式",tCountdown={{key="屠杀模式",nClass=20,nFrame=4,nIcon=13,nTime=300,szName="癫狂状态·结束剩余"}}},
+			{szContent="你将在300秒后结束癫狂状态。\n",szNote="屠杀模式",tCountdown={{key="屠杀模式",nClass=20,nFrame=4,nIcon=13,nTime=300,szName="癫狂状态·结束剩余"}}},
 		},
 	},
 	DEBUFF = {

@@ -5,13 +5,7 @@ return {
 	DEBUFF = {},
 	DOODAD = {},
 	NPC = {},
-	TALK = {
-		[74] = {
-			{LH={szChanged="REMOVE"},szContent="你召唤的小马驹非当前驯养对象。\
-",szNote="遛马名师·小马驹·非当前驯养",szTarget="%",tCountdown={{key="遛马名师",nClass=14,nIcon=643,nRefresh=120,nTime=10,szName="小马驹·召唤溜达"}}},
-			{LH={szChanged="ADD"},szContent="你召唤的小马驹非当前驯养对象。",szNote="遛马名师·小马驹·非当前驯养",szTarget="%",tCountdown={{key="遛马名师",nClass=14,nIcon=643,nRefresh=120,nTime=10,szName="小马驹·召唤溜达"}}},
-		},
-	},
+	TALK = {},
 },{
 	ADD = {
 		BUFF = {},
@@ -20,11 +14,7 @@ return {
 		DEBUFF = {},
 		DOODAD = {},
 		NPC = {},
-		TALK = {
-			[74] = {
-				{szContent="你召唤的小马驹非当前驯养对象。",szNote="遛马名师·小马驹·非当前驯养",szTarget="%",tCountdown={{key="遛马名师",nClass=14,nIcon=643,nRefresh=120,nTime=10,szName="小马驹·召唤溜达"}}},
-			},
-		},
+		TALK = {},
 	},
 	MODIFY = {
 		BUFF = {},
@@ -42,11 +32,6 @@ return {
 		DEBUFF = {},
 		DOODAD = {},
 		NPC = {},
-		TALK = {
-			[74] = {
-				{szContent="你召唤的小马驹非当前驯养对象。\
-",szNote="遛马名师·小马驹·非当前驯养",szTarget="%",tCountdown={{key="遛马名师",nClass=14,nIcon=643,nRefresh=120,nTime=10,szName="小马驹·召唤溜达"}}},
-			},
-		},
+		TALK = {},
 	},
 }

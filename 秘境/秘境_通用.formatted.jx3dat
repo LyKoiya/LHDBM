@@ -16,8 +16,7 @@ return {
 		[-3] = {
 			{[14]={bCenterAlarm=true},bSearch=true,col={255,50,255},szContent="财神降临！慷慨之士 {$team} 正在",szNote="【{$receiver}】·正在发红包",tCountdown={{key="{$receiver}·红包",nClass=20,nFrame=3,nIcon=6766,nRefresh=5,nTime=180,szName="【{$receiver}】红包·消失剩余"}}},
 			{bSearch=true,szContent="侠士",szNote="屏蔽·的卢·诛恶·攻防·刷马"},
-			{szContent="[剑心插件]已重置团队技能监控CD。\
-",tCountdown={{key="KEY·左旋右转",nClass=20,nIcon=904,nRefresh=121,nTime=-1,szName="KEY·左旋右转"},{key="KEY·飘黄",nClass=20,nIcon=15692,nRefresh=80,nTime=-1,szName="KEY·飘黄"},{key="侠客重伤",nClass=20,nFrame=-1,nIcon=13,nRefresh=3600,nTime=-1,szName="侠客重伤"}}},
+			{szContent="[剑心插件]已重置团队技能监控CD。\n",tCountdown={{key="KEY·左旋右转",nClass=20,nIcon=904,nRefresh=121,nTime=-1,szName="KEY·左旋右转"},{key="KEY·飘黄",nClass=20,nIcon=15692,nRefresh=80,nTime=-1,szName="KEY·飘黄"},{key="侠客重伤",nClass=20,nFrame=-1,nIcon=13,nRefresh=3600,nTime=-1,szName="侠客重伤"}}},
 		},
 	},
 	DEBUFF = {

@@ -3,8 +3,7 @@ return {
 	CASTING = {},
 	CHAT = {
 		[-1] = {
-			{szContent="花盆内的植物已经可以收获，但包裹内的果实已经达到上限，请先消耗掉部分再行收获。\
-",tCountdown={{key="种植事件1",nClass=20,nFrame=3,nIcon=2580,nTime=10,szName="包裹内果实已上限"}}},
+			{szContent="花盆内的植物已经可以收获，但包裹内的果实已经达到上限，请先消耗掉部分再行收获。\n",tCountdown={{key="种植事件1",nClass=20,nFrame=3,nIcon=2580,nTime=10,szName="包裹内果实已上限"}}},
 		},
 	},
 	DEBUFF = {},

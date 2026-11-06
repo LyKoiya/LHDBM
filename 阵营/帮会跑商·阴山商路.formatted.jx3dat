@@ -15,16 +15,13 @@ return {
 	CASTING = {},
 	CHAT = {
 		[-21] = {
-			{col={100,255,255},szContent="阴山商路运输物资成功开启！请帮会有权限的侠士到黑戈壁帮会物资主簿处申请成为运货首领开始运送！\
-",szNote="阴山商路·成功开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="阴山商路·帮会大跑商·开启"}}},
+			{col={100,255,255},szContent="阴山商路运输物资成功开启！请帮会有权限的侠士到黑戈壁帮会物资主簿处申请成为运货首领开始运送！\n",szNote="阴山商路·成功开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="阴山商路·帮会大跑商·开启"}}},
 		},
 		[-7] = {
-			{col={100,255,255},szContent="阴山商路运输物资成功开启！请帮会有权限的侠士到黑戈壁帮会物资主簿处申请成为运货首领开始运送！\
-",szNote="阴山商路·成功开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="阴山商路·帮会大跑商·开启"}}},
+			{col={100,255,255},szContent="阴山商路运输物资成功开启！请帮会有权限的侠士到黑戈壁帮会物资主簿处申请成为运货首领开始运送！\n",szNote="阴山商路·成功开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="阴山商路·帮会大跑商·开启"}}},
 		},
 		[-2] = {
-			{col={100,255,255},szContent="阴山商路运输物资成功开启！请帮会有权限的侠士到黑戈壁帮会物资主簿处申请成为运货首领开始运送！\
-",szNote="阴山商路·成功开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="阴山商路·帮会大跑商·开启"}}},
+			{col={100,255,255},szContent="阴山商路运输物资成功开启！请帮会有权限的侠士到黑戈壁帮会物资主簿处申请成为运货首领开始运送！\n",szNote="阴山商路·成功开启",tCountdown={{key="帮会跑商",nClass=20,nFrame=0,nIcon=8004,nTime=20,szName="阴山商路·帮会大跑商·开启"}}},
 		},
 	},
 	DEBUFF = {

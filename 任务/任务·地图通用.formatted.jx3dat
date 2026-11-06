@@ -7,18 +7,13 @@ return {
 	CASTING = {},
 	CHAT = {
 		[151] = {
-			{szContent="你已接受了[父欲养，而时不待]。\
-",szNote="隐藏任务",tCountdown={{key="任务提示1",nClass=20,nFrame=2,nIcon=13,nTime=10,szName="告知真相则没有屠狼会声望日常"}}},
-			{szContent="你已接受了[淘气的小孩]。\
-",szNote="隐藏任务",tCountdown={{key="任务提示1",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="找NPC·苏恨林·快速交互3次"}}},
-			{szContent="你已完成了[淘气的小孩]。\
-",szNote="隐藏任务",tCountdown={{key="任务提示1",nClass=20,nIcon=13,nTime=0,szName="任务提示1"},{key="任务提示2",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="找NPC·张巡·真相"}}},
-			{szContent="你已接受了[真相]。\
-",szNote="隐藏任务",tCountdown={{key="任务提示2",nClass=20,nFrame=6,nIcon=13,nTime=0,szName="任务提示2"}}},
+			{szContent="你已接受了[父欲养，而时不待]。\n",szNote="隐藏任务",tCountdown={{key="任务提示1",nClass=20,nFrame=2,nIcon=13,nTime=10,szName="告知真相则没有屠狼会声望日常"}}},
+			{szContent="你已接受了[淘气的小孩]。\n",szNote="隐藏任务",tCountdown={{key="任务提示1",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="找NPC·苏恨林·快速交互3次"}}},
+			{szContent="你已完成了[淘气的小孩]。\n",szNote="隐藏任务",tCountdown={{key="任务提示1",nClass=20,nIcon=13,nTime=0,szName="任务提示1"},{key="任务提示2",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="找NPC·张巡·真相"}}},
+			{szContent="你已接受了[真相]。\n",szNote="隐藏任务",tCountdown={{key="任务提示2",nClass=20,nFrame=6,nIcon=13,nTime=0,szName="任务提示2"}}},
 		},
 		[194] = {
-			{szContent="你已接受了[偷运粮食出城去]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="天王盖地虎，宝塔镇河妖"},{key="任务提示2",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="风来吴山倒，烧鱼要放糖"},{key="任务提示3",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="为何不开云溪松，梦泉虎跑还没好"}}},
+			{szContent="你已接受了[偷运粮食出城去]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="天王盖地虎，宝塔镇河妖"},{key="任务提示2",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="风来吴山倒，烧鱼要放糖"},{key="任务提示3",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="为何不开云溪松，梦泉虎跑还没好"}}},
 		},
 	},
 	DEBUFF = {

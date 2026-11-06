@@ -3,10 +3,8 @@ return {
 	CASTING = {},
 	CHAT = {
 		[281] = {
-			{[20]={bCenterAlarm=true},szContent="您已经加入海选赛的名剑大会等待队列中。\
-",szNote="排队·海选赛·队列",tCountdown={{key="竞技活动",nClass=20,nFrame=4,nIcon=13,nTime=30,szName="排队·名剑大会·队列"}}},
-			{[20]={bCenterAlarm=true},szContent="您已经加入名剑大会等待队列。\
-",szNote="排队·名剑大会·队列",tCountdown={{key="竞技活动",nClass=20,nFrame=4,nIcon=13,nTime=30,szName="排队·名剑大会·队列"}}},
+			{[20]={bCenterAlarm=true},szContent="您已经加入海选赛的名剑大会等待队列中。\n",szNote="排队·海选赛·队列",tCountdown={{key="竞技活动",nClass=20,nFrame=4,nIcon=13,nTime=30,szName="排队·名剑大会·队列"}}},
+			{[20]={bCenterAlarm=true},szContent="您已经加入名剑大会等待队列。\n",szNote="排队·名剑大会·队列",tCountdown={{key="竞技活动",nClass=20,nFrame=4,nIcon=13,nTime=30,szName="排队·名剑大会·队列"}}},
 		},
 	},
 	DEBUFF = {},

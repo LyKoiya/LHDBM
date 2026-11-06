@@ -7,8 +7,7 @@ return {
 	CASTING = {},
 	CHAT = {
 		[515] = {
-			{[20]={bCenterAlarm=true},bReg=true,szContent="我方的(.-)被(.-)[，]\
-",szNote="我方·{$1}·被{$2}",tCountdown={{key="我方·{$1}",nClass=20,nFrame=7,nIcon=13,nTime=600,szName="我方·{$1}·被{$2}"}}},
+			{[20]={bCenterAlarm=true},bReg=true,szContent="我方的(.-)被(.-)[，]\n",szNote="我方·{$1}·被{$2}",tCountdown={{key="我方·{$1}",nClass=20,nFrame=7,nIcon=13,nTime=600,szName="我方·{$1}·被{$2}"}}},
 			{[20]={bCenterAlarm=true},bReg=true,szContent="我方(.-)了([敌对]-方)[的]*(.-)[，][！]",szNote="敌方·{$3}·已{$1}",tCountdown={{key="敌方·{$3}",nClass=20,nFrame=3,nIcon=13,nTime=600,szName="敌方·{$3}·已{$1}"}}},
 		},
 	},

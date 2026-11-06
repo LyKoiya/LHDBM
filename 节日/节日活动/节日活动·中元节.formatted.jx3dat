@@ -3,22 +3,16 @@ return {
 	CASTING = {},
 	CHAT = {
 		[-2] = {
-			{szContent="你已接受了[枫叶红如血]。\
-",tCountdown={{key="节日活动1",nClass=20,nIcon=13,nTime=10,szName="扬州·扬州城·出魂"}}},
-			{szContent="你已接受了[玉蝶不知处]。\
-",tCountdown={{key="节日活动1",nClass=20,nIcon=13,nTime=10,szName="扬州·扬州城·出魂"}}},
-			{szContent="你已接受了[长枪今何在]。\
-",tCountdown={{key="节日活动1",nClass=20,nIcon=13,nTime=10,szName="神行·天策战乱·天策大营·出魂"}}},
+			{szContent="你已接受了[枫叶红如血]。\n",tCountdown={{key="节日活动1",nClass=20,nIcon=13,nTime=10,szName="扬州·扬州城·出魂"}}},
+			{szContent="你已接受了[玉蝶不知处]。\n",tCountdown={{key="节日活动1",nClass=20,nIcon=13,nTime=10,szName="扬州·扬州城·出魂"}}},
+			{szContent="你已接受了[长枪今何在]。\n",tCountdown={{key="节日活动1",nClass=20,nIcon=13,nTime=10,szName="神行·天策战乱·天策大营·出魂"}}},
 		},
 		[6] = {
-			{szContent="你已接受了[梦蝶却迷踪]。\
-",tCountdown={{key="节日活动1",nClass=20,nIcon=13,nTime=10,szName="神行·洛阳城·白马寺"}}},
-			{szContent="你已接受了[故人醉笑去]。\
-",tCountdown={{key="节日活动1",nClass=20,nIcon=13,nTime=10,szName="神行·苍云·古战场·出魂"}}},
+			{szContent="你已接受了[梦蝶却迷踪]。\n",tCountdown={{key="节日活动1",nClass=20,nIcon=13,nTime=10,szName="神行·洛阳城·白马寺"}}},
+			{szContent="你已接受了[故人醉笑去]。\n",tCountdown={{key="节日活动1",nClass=20,nIcon=13,nTime=10,szName="神行·苍云·古战场·出魂"}}},
 		},
 		[193] = {
-			{szContent="你已接受了[烈酒共死生]。\
-",tCountdown={{key="节日活动1",nClass=20,nIcon=13,nTime=10,szName="还魂·前往·苍云堡"}}},
+			{szContent="你已接受了[烈酒共死生]。\n",tCountdown={{key="节日活动1",nClass=20,nIcon=13,nTime=10,szName="还魂·前往·苍云堡"}}},
 		},
 	},
 	DEBUFF = {},

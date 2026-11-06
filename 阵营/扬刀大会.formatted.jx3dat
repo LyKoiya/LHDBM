@@ -7,16 +7,11 @@ return {
 	CASTING = {},
 	CHAT = {
 		[790] = {
-			{col={255,153,204},szContent="连战不休，气势渐衰，攻守双方气血大量流失中，请速战速决！\
-",szNote="双方气血·大量流失",tCountdown={{key="战斗开始",nClass=20,nFrame=1,nIcon=13,nRefresh=1,nTime=60,szName="双方气血·大量流失·结算剩余"}}},
-			{col={255,153,204},szContent="连战不休，气势渐衰，攻守双方气血持续流失中，请速战速决！\
-",szNote="双方气血·中量流失",tCountdown={{key="战斗开始",nClass=20,nFrame=1,nIcon=13,nRefresh=1,nTime=60,szName="双方气血·中量流失"}}},
-			{col={255,153,204},szContent="连战不休，气势渐衰，攻守双方气血开始流失，请速战速决！\
-",szNote="双方气血·少量流失",tCountdown={{key="战斗开始",nClass=20,nFrame=1,nIcon=13,nRefresh=1,nTime=60,szName="双方气血·少量流失"}}},
-			{col={255,255,100},szContent="扬刀大会将在30秒后开始。\
-",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="30,战斗·开始倒计时;31,战斗·开始比赛",szName="战斗·开始倒计时"}}},
-			{col={255,255,100},szContent="扬刀大会将在10秒后开始。\
-",tCountdown={{key="战斗开始",nClass=20,nIcon=13,nTime=-2,szName="战斗开始"},{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="10,战斗·开始倒计时;11,战斗·开始比赛",szName="战斗·开始倒计时"}}},
+			{col={255,153,204},szContent="连战不休，气势渐衰，攻守双方气血大量流失中，请速战速决！\n",szNote="双方气血·大量流失",tCountdown={{key="战斗开始",nClass=20,nFrame=1,nIcon=13,nRefresh=1,nTime=60,szName="双方气血·大量流失·结算剩余"}}},
+			{col={255,153,204},szContent="连战不休，气势渐衰，攻守双方气血持续流失中，请速战速决！\n",szNote="双方气血·中量流失",tCountdown={{key="战斗开始",nClass=20,nFrame=1,nIcon=13,nRefresh=1,nTime=60,szName="双方气血·中量流失"}}},
+			{col={255,153,204},szContent="连战不休，气势渐衰，攻守双方气血开始流失，请速战速决！\n",szNote="双方气血·少量流失",tCountdown={{key="战斗开始",nClass=20,nFrame=1,nIcon=13,nRefresh=1,nTime=60,szName="双方气血·少量流失"}}},
+			{col={255,255,100},szContent="扬刀大会将在30秒后开始。\n",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="30,战斗·开始倒计时;31,战斗·开始比赛",szName="战斗·开始倒计时"}}},
+			{col={255,255,100},szContent="扬刀大会将在10秒后开始。\n",tCountdown={{key="战斗开始",nClass=20,nIcon=13,nTime=-2,szName="战斗开始"},{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="10,战斗·开始倒计时;11,战斗·开始比赛",szName="战斗·开始倒计时"}}},
 		},
 	},
 	DEBUFF = {

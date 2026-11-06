@@ -51,65 +51,46 @@ return {
 			{bReg=true,col={255,255,100},szContent="^本日还能从本事件获得(%d-)贡献度的奖励。",tCountdown={{key="公共事件·结算",nClass=20,nFrame=4,nIcon=13,nTime=15,szName="贡献度上限剩余·{$1}"}}},
 		},
 		[-1] = {
-			{szContent="本日已不能从本事件获得奖励。\
-",tCountdown={{key="本日上限",nClass=20,nFrame=4,nIcon=13,nTime=20,szName="本日已达上限"}}},
-			{szContent="本周已不能从本事件获得奖励。\
-",tCountdown={{key="本周上限",nClass=20,nFrame=4,nIcon=13,nTime=20,szName="本周已达上限"}}},
+			{szContent="本日已不能从本事件获得奖励。\n",tCountdown={{key="本日上限",nClass=20,nFrame=4,nIcon=13,nTime=20,szName="本日已达上限"}}},
+			{szContent="本周已不能从本事件获得奖励。\n",tCountdown={{key="本周上限",nClass=20,nFrame=4,nIcon=13,nTime=20,szName="本周已达上限"}}},
 		},
 		[151] = {
-			{szContent="本次贡献度:100\
-",tCountdown={{key="公共事件·结算",nClass=20,nFrame=3,nIcon=13,nTime=5,szName="完美完成·神兵迷踪·九邬碧玉"}}},
-			{szContent="本日已不能从本事件获得奖励。\
-",tCountdown={{key="公共事件·上限·九邬碧玉",nClass=20,nFrame=0,nIcon=13,nRefresh=3600,nTime=10.1,szName="神兵迷踪·已上限·九邬碧玉"}}},
-			{[20]={bCenterAlarm=true},szContent="公共事件【守卫听泉私塾】开启了。\
-",szNote="守卫听泉私塾·开启",tCountdown={{key="公共事件2",nClass=20,nFrame=3,nIcon=13,nTime=15,szName="守卫听泉私塾·开启"}}},
+			{szContent="本次贡献度:100\n",tCountdown={{key="公共事件·结算",nClass=20,nFrame=3,nIcon=13,nTime=5,szName="完美完成·神兵迷踪·九邬碧玉"}}},
+			{szContent="本日已不能从本事件获得奖励。\n",tCountdown={{key="公共事件·上限·九邬碧玉",nClass=20,nFrame=0,nIcon=13,nRefresh=3600,nTime=10.1,szName="神兵迷踪·已上限·九邬碧玉"}}},
+			{[20]={bCenterAlarm=true},szContent="公共事件【守卫听泉私塾】开启了。\n",szNote="守卫听泉私塾·开启",tCountdown={{key="公共事件2",nClass=20,nFrame=3,nIcon=13,nTime=15,szName="守卫听泉私塾·开启"}}},
 		},
 		[194] = {
-			{szContent="本日已经无法获得战龙玉佩。\
-",tCountdown={{key="公共事件·上限·战龙玉佩",nClass=20,nFrame=0,nIcon=13,nRefresh=3600,nTime=10.1,szName="太原事件·已上限·战龙玉佩"}}},
+			{szContent="本日已经无法获得战龙玉佩。\n",tCountdown={{key="公共事件·上限·战龙玉佩",nClass=20,nFrame=0,nIcon=13,nRefresh=3600,nTime=10.1,szName="太原事件·已上限·战龙玉佩"}}},
 			{bReg=true,szContent="^本日还可以获得:(%d-)个战龙玉佩。",tCountdown={{key="公共事件·结算",nClass=20,nFrame=7,nIcon=13,nTime=15,szName="战龙玉佩上限剩余·{$1}"}}},
 		},
 		[214] = {
-			{szContent="本次贡献度:100\
-",szNote="公共事件",tCountdown={{key="公共事件·结算",nClass=20,nFrame=3,nIcon=13,nTime=5,szName="完美完成·无遮大会·九邬碧玉"}}},
-			{szContent="本日已不能从本事件获得奖励。\
-",szNote="公共事件",tCountdown={{key="公共事件·上限·九邬碧玉",nClass=20,nFrame=0,nIcon=13,nRefresh=3600,nTime=10.1,szName="无遮大会·已上限·九邬碧玉"}}},
+			{szContent="本次贡献度:100\n",szNote="公共事件",tCountdown={{key="公共事件·结算",nClass=20,nFrame=3,nIcon=13,nTime=5,szName="完美完成·无遮大会·九邬碧玉"}}},
+			{szContent="本日已不能从本事件获得奖励。\n",szNote="公共事件",tCountdown={{key="公共事件·上限·九邬碧玉",nClass=20,nFrame=0,nIcon=13,nRefresh=3600,nTime=10.1,szName="无遮大会·已上限·九邬碧玉"}}},
 		},
 		[215] = {
-			{szContent="本日已不能从本事件获得奖励。\
-",szNote="公共事件",tCountdown={{key="公共事件·上限·九邬碧玉",nClass=20,nFrame=0,nIcon=13,nRefresh=3600,nTime=10.1,szName="温泉战倭·已上限·九邬碧玉"}}},
-			{szContent="本次贡献度:100\
-",szNote="公共事件",tCountdown={{key="公共事件·结算",nClass=20,nFrame=3,nIcon=13,nTime=5,szName="完美完成·温泉战倭·九邬碧玉"}}},
+			{szContent="本日已不能从本事件获得奖励。\n",szNote="公共事件",tCountdown={{key="公共事件·上限·九邬碧玉",nClass=20,nFrame=0,nIcon=13,nRefresh=3600,nTime=10.1,szName="温泉战倭·已上限·九邬碧玉"}}},
+			{szContent="本次贡献度:100\n",szNote="公共事件",tCountdown={{key="公共事件·结算",nClass=20,nFrame=3,nIcon=13,nTime=5,szName="完美完成·温泉战倭·九邬碧玉"}}},
 		},
 		[239] = {
-			{szContent="你已完成了[洛阳城·攻打应天门]。\
-"},
-			{szContent="本次贡献度:100\
-",tCountdown={{key="公共事件·结算",nClass=20,nFrame=3,nIcon=13,nTime=5,szName="完美完成·洛阳城事件·神都玉佩"}}},
-			{szContent="本日已不能从本事件获得奖励。\
-",tCountdown={{key="公共事件·上限·神都玉佩",nClass=20,nFrame=0,nIcon=13,nRefresh=3600,nTime=10.1,szName="洛阳城事件·已上限·神都玉佩"}}},
+			{szContent="你已完成了[洛阳城·攻打应天门]。\n"},
+			{szContent="本次贡献度:100\n",tCountdown={{key="公共事件·结算",nClass=20,nFrame=3,nIcon=13,nTime=5,szName="完美完成·洛阳城事件·神都玉佩"}}},
+			{szContent="本日已不能从本事件获得奖励。\n",tCountdown={{key="公共事件·上限·神都玉佩",nClass=20,nFrame=0,nIcon=13,nRefresh=3600,nTime=10.1,szName="洛阳城事件·已上限·神都玉佩"}}},
 			{bReg=true,szContent="^本日还能从本事件获得(%d-)贡献度的奖励。",tCountdown={{key="公共事件·结算",nClass=20,nFrame=4,nIcon=13,nTime=15,szName="贡献度上限剩余·{$1}"}}},
 		},
 		[325] = {
-			{szContent="本次贡献度:100\
-",szNote="公共事件",tCountdown={{key="公共事件·结算",nClass=20,nFrame=3,nIcon=13,nTime=5,szName="守卫泥兰·完美完成·沧海珠贝"}}},
+			{szContent="本次贡献度:100\n",szNote="公共事件",tCountdown={{key="公共事件·结算",nClass=20,nFrame=3,nIcon=13,nTime=5,szName="守卫泥兰·完美完成·沧海珠贝"}}},
 		},
 		[330] = {
-			{szContent="本次贡献度:100\
-",szNote="公共事件",tCountdown={{key="公共事件·结算",nClass=20,nFrame=3,nIcon=13,nTime=5,szName="完美完成·雪国冬猎·沧海珠贝"}}},
+			{szContent="本次贡献度:100\n",szNote="公共事件",tCountdown={{key="公共事件·结算",nClass=20,nFrame=3,nIcon=13,nTime=5,szName="完美完成·雪国冬猎·沧海珠贝"}}},
 		},
 		[332] = {
-			{szContent="本日已不能从本事件获得奖励。\
-",tCountdown={{key="公共事件·上限·沧海珠贝",nClass=20,nFrame=0,nIcon=13,nRefresh=3600,nTime=10.1,szName="雾岛寻丹·已上限·沧海珠贝"}}},
-			{szContent="本次贡献度:100\
-",szNote="公共事件",tCountdown={{key="公共事件·结算",nClass=20,nFrame=3,nIcon=13,nTime=5,szName="完美完成·雾岛寻丹·沧海珠贝"}}},
+			{szContent="本日已不能从本事件获得奖励。\n",tCountdown={{key="公共事件·上限·沧海珠贝",nClass=20,nFrame=0,nIcon=13,nRefresh=3600,nTime=10.1,szName="雾岛寻丹·已上限·沧海珠贝"}}},
+			{szContent="本次贡献度:100\n",szNote="公共事件",tCountdown={{key="公共事件·结算",nClass=20,nFrame=3,nIcon=13,nTime=5,szName="完美完成·雾岛寻丹·沧海珠贝"}}},
 			{bSearch=true,szContent="当前贡献度100。",szNote="公共事件",tCountdown={{key="雾岛寻丹",nClass=20,nFrame=2,nIcon=13,nTime=30,szName="雾岛寻丹·贡献度·已满"}}},
 		},
 		[334] = {
-			{szContent="本日已不能从本事件获得奖励。\
-",szNote="公共事件",tCountdown={{key="公共事件·上限·沧海珠贝",nClass=20,nFrame=0,nIcon=13,nRefresh=3600,nTime=10.1,szName="越海珠贝·已上限·沧海珠贝"}}},
-			{szContent="本次贡献度:100\
-",tCountdown={{key="公共事件·结算",nClass=20,nFrame=3,nIcon=13,nTime=5,szName="完美完成·越海珠贝·沧海珠贝"}}},
+			{szContent="本日已不能从本事件获得奖励。\n",szNote="公共事件",tCountdown={{key="公共事件·上限·沧海珠贝",nClass=20,nFrame=0,nIcon=13,nRefresh=3600,nTime=10.1,szName="越海珠贝·已上限·沧海珠贝"}}},
+			{szContent="本次贡献度:100\n",tCountdown={{key="公共事件·结算",nClass=20,nFrame=3,nIcon=13,nTime=5,szName="完美完成·越海珠贝·沧海珠贝"}}},
 		},
 	},
 	DEBUFF = {

@@ -27,32 +27,24 @@ return {
 	},
 	CHAT = {
 		[-1] = {
-			{bReg=true,col={255,255,100},szContent="^侠客.*召请成功\
-",szNote="助战·召请侠客",tCountdown={{key="侠客召请",nClass=20,nIcon=13,nRefresh=1,nTime=2,szName="侠客召请·CD"},{key="侠客重伤",nClass=20,nFrame=-1,nIcon=13,nRefresh=3600,nTime=-1,szName="侠客重伤"}}},
+			{bReg=true,col={255,255,100},szContent="^侠客.*召请成功\n",szNote="助战·召请侠客",tCountdown={{key="侠客召请",nClass=20,nIcon=13,nRefresh=1,nTime=2,szName="侠客召请·CD"},{key="侠客重伤",nClass=20,nFrame=-1,nIcon=13,nRefresh=3600,nTime=-1,szName="侠客重伤"}}},
 		},
 		[193] = {
-			{szContent="你已接受了[寻镞证迹 ]。\
-",szNote="需要切换·输出心法",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="需要切换·输出心法"}}},
-			{szContent="你已接受了[寒郊辨痕]。\
-",szNote="需要切换·输出心法",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="需要切换·输出心法"}}},
-			{szContent="你已接受了[共破围杀]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="需要切换·输出心法"}}},
+			{szContent="你已接受了[寻镞证迹 ]。\n",szNote="需要切换·输出心法",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="需要切换·输出心法"}}},
+			{szContent="你已接受了[寒郊辨痕]。\n",szNote="需要切换·输出心法",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="需要切换·输出心法"}}},
+			{szContent="你已接受了[共破围杀]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="需要切换·输出心法"}}},
 		},
 		[215] = {
-			{szContent="你已接受了[拔刀无惧]。\
-",szNote="红尘侠影·月嘉禾",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=15,szName="前往·刀宗"}}},
+			{szContent="你已接受了[拔刀无惧]。\n",szNote="红尘侠影·月嘉禾",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=15,szName="前往·刀宗"}}},
 		},
 		[216] = {
-			{szContent="你已接受了[探查边异]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=15,szName="前往·苍云·奚人营地"}}},
+			{szContent="你已接受了[探查边异]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=15,szName="前往·苍云·奚人营地"}}},
 		},
 		[475] = {
-			{szContent="你已接受了[剑照湖波]。\
-",szNote="红尘侠影·月嘉禾",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=15,szName="前往·千岛湖"}}},
+			{szContent="你已接受了[剑照湖波]。\n",szNote="红尘侠影·月嘉禾",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=15,szName="前往·千岛湖"}}},
 		},
 		[582] = {
-			{szContent="你已接受了[何日成功]。\
-",szNote="红尘侠影·月嘉禾",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=15,szName="前往·少林·乱世"}}},
+			{szContent="你已接受了[何日成功]。\n",szNote="红尘侠影·月嘉禾",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=15,szName="前往·少林·乱世"}}},
 		},
 	},
 	DEBUFF = {

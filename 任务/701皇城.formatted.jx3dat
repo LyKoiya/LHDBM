@@ -3,10 +3,8 @@ return {
 	CASTING = {},
 	CHAT = {
 		[701] = {
-			{szContent="你已接受了[往鸿胪寺]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=20,szName="记得切换·输出心法"}}},
-			{szContent="你已接受了[鸿胪密室·一]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="连续·顺时针x2或逆时针x2"}}},
+			{szContent="你已接受了[往鸿胪寺]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=20,szName="记得切换·输出心法"}}},
+			{szContent="你已接受了[鸿胪密室·一]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="连续·顺时针x2或逆时针x2"}}},
 		},
 	},
 	DEBUFF = {

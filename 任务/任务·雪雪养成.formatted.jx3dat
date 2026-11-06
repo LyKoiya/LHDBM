@@ -10,16 +10,11 @@ return {
 	CASTING = {},
 	CHAT = {
 		[302] = {
-			{szContent="今日无法再通过互动来获得雪雪的好感度了。\
-",tCountdown={{key="雪雪养成·交互上限",nClass=20,nFrame=5,nIcon=13,nRefresh=3600,nTime=10,szName="雪雪·交互上限"}}},
-			{szContent="雪雪对你的好感度上升了一个等级！新的剧情开启！\
-",tCountdown={{key="雪雪·剧情",nClass=20,nFrame=3,nIcon=13,nRefresh=180,nTime=20,szName="雪雪·新剧情·开启"},{key="雪雪·剧情·提示1",nClass=20,nFrame=6,nIcon=13,nRefresh=180,nTime=20.1,szName="若命途未满不触发剧情3·一梦长"},{key="雪雪·剧情·提示2",nClass=20,nFrame=6,nIcon=13,nRefresh=180,nTime=20.1,szName="雪雪依旧停留在云梦幽泽"},{key="雪雪·剧情·提示3",nClass=20,nFrame=6,nIcon=13,nRefresh=180,nTime=20.1,szName="仍可·互动·做饭·旅途"},{key="雪雪·剧情·提示4",nClass=20,nFrame=7,nIcon=13,nRefresh=180,nTime=20.1,szName="若命途已满可自选是否触发"},{key="雪雪·剧情·提示5",nClass=20,nFrame=7,nIcon=13,nRefresh=180,nTime=20.1,szName="停云居·交互船·触发剧情3"}}},
-			{szContent="此任务完成后，雪雪的命途不可再改变。想要修改雪雪的命途，可以放弃任务后选择每天带雪雪游玩。最终阶段游玩时命途的改变为平时的三倍。\
-",tCountdown={{key="雪雪·命途1",nClass=20,nFrame=7,nIcon=13,nTime=10.1,szName="任务完成则命途不可再改变"},{key="雪雪·命途2",nClass=20,nFrame=7,nIcon=13,nTime=10.1,szName="可放弃任务继续游玩修改命途"}}},
-			{szContent="你已接受了[溪山再闻凌雪事]。\
-"},
-			{szContent="你已完成了[山高路远祈再会]。\
-"},
+			{szContent="今日无法再通过互动来获得雪雪的好感度了。\n",tCountdown={{key="雪雪养成·交互上限",nClass=20,nFrame=5,nIcon=13,nRefresh=3600,nTime=10,szName="雪雪·交互上限"}}},
+			{szContent="雪雪对你的好感度上升了一个等级！新的剧情开启！\n",tCountdown={{key="雪雪·剧情",nClass=20,nFrame=3,nIcon=13,nRefresh=180,nTime=20,szName="雪雪·新剧情·开启"},{key="雪雪·剧情·提示1",nClass=20,nFrame=6,nIcon=13,nRefresh=180,nTime=20.1,szName="若命途未满不触发剧情3·一梦长"},{key="雪雪·剧情·提示2",nClass=20,nFrame=6,nIcon=13,nRefresh=180,nTime=20.1,szName="雪雪依旧停留在云梦幽泽"},{key="雪雪·剧情·提示3",nClass=20,nFrame=6,nIcon=13,nRefresh=180,nTime=20.1,szName="仍可·互动·做饭·旅途"},{key="雪雪·剧情·提示4",nClass=20,nFrame=7,nIcon=13,nRefresh=180,nTime=20.1,szName="若命途已满可自选是否触发"},{key="雪雪·剧情·提示5",nClass=20,nFrame=7,nIcon=13,nRefresh=180,nTime=20.1,szName="停云居·交互船·触发剧情3"}}},
+			{szContent="此任务完成后，雪雪的命途不可再改变。想要修改雪雪的命途，可以放弃任务后选择每天带雪雪游玩。最终阶段游玩时命途的改变为平时的三倍。\n",tCountdown={{key="雪雪·命途1",nClass=20,nFrame=7,nIcon=13,nTime=10.1,szName="任务完成则命途不可再改变"},{key="雪雪·命途2",nClass=20,nFrame=7,nIcon=13,nTime=10.1,szName="可放弃任务继续游玩修改命途"}}},
+			{szContent="你已接受了[溪山再闻凌雪事]。\n"},
+			{szContent="你已完成了[山高路远祈再会]。\n"},
 		},
 	},
 	DEBUFF = {

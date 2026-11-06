@@ -7,26 +7,18 @@ return {
 	CASTING = {},
 	CHAT = {
 		[22] = {
-			{col={255,255,100},szContent="本场浩气盟攻防即将结束，南屏山物资运送暂且休整，等待下一场攻防开启！\
-",tCountdown={{key="粮草先行·浩气盟",nClass=20,nFrame=0,nIcon=13,nTime=5,szName="粮草先行·活动结束"},{key="粮草先行·恶人谷",nClass=20,nIcon=13,nTime=0,szName="粮草先行·恶人谷"},{key="赵新宇",nClass=20,nFrame=7,nIcon=589,nRefresh=0,nTime="60,赵新宇·刷新剩余;62,赵新宇·即将刷新",szName="赵新宇"}}},
-			{col={255,100,100},szContent="南屏山恶人谷伴江村援军已到，营地夺回，交通恢复！\
-",tCountdown={{key="赵新宇",nClass=20,nFrame=7,nIcon=589,nRefresh=600,nTime=10,szName="赵新宇·已刷新"}}},
-			{col={100,100,255},szContent="南屏山浩气盟望北村援军已到，营地夺回，交通恢复！\
-",tCountdown={{key="方超",nClass=20,nFrame=3,nIcon=308,nRefresh=600,nTime=10,szName="方超·已刷新"}}},
+			{col={255,255,100},szContent="本场浩气盟攻防即将结束，南屏山物资运送暂且休整，等待下一场攻防开启！\n",tCountdown={{key="粮草先行·浩气盟",nClass=20,nFrame=0,nIcon=13,nTime=5,szName="粮草先行·活动结束"},{key="粮草先行·恶人谷",nClass=20,nIcon=13,nTime=0,szName="粮草先行·恶人谷"},{key="赵新宇",nClass=20,nFrame=7,nIcon=589,nRefresh=0,nTime="60,赵新宇·刷新剩余;62,赵新宇·即将刷新",szName="赵新宇"}}},
+			{col={255,100,100},szContent="南屏山恶人谷伴江村援军已到，营地夺回，交通恢复！\n",tCountdown={{key="赵新宇",nClass=20,nFrame=7,nIcon=589,nRefresh=600,nTime=10,szName="赵新宇·已刷新"}}},
+			{col={100,100,255},szContent="南屏山浩气盟望北村援军已到，营地夺回，交通恢复！\n",tCountdown={{key="方超",nClass=20,nFrame=3,nIcon=308,nRefresh=600,nTime=10,szName="方超·已刷新"}}},
 		},
 		[30] = {
-			{col={255,255,100},szContent="本场恶人谷攻防即将结束，昆仑物资运送暂且休整，等待下一场攻防开启！\
-",tCountdown={{key="粮草先行·恶人谷",nClass=20,nFrame=0,nIcon=13,nTime=5,szName="粮草先行·活动结束"},{key="粮草先行·浩气盟",nClass=20,nIcon=13,nTime=0,szName="粮草先行·浩气盟"},{key="霸图",nClass=20,nFrame=7,nIcon=2864,nRefresh=0,nTime="60,霸图·刷新剩余;62,霸图·即将刷新",szName="霸图"},{key="孙永恒",nClass=20,nFrame=3,nIcon=845,nRefresh=0,nTime="60,孙永恒·刷新剩余;62,孙永恒·即将刷新",szName="孙永恒"}}},
-			{col={255,100,100},szContent="昆仑山恶人谷西昆仑高地援军已到，营地夺回，交通恢复！\
-",tCountdown={{key="霸图",nClass=20,nFrame=7,nIcon=2864,nRefresh=600,nTime=10,szName="霸图·已刷新"}}},
-			{col={100,100,255},szContent="昆仑山浩气盟东昆仑高地援军已到，营地夺回，交通恢复！\
-",tCountdown={{key="孙永恒",nClass=20,nFrame=3,nIcon=845,nRefresh=600,nTime=10,szName="孙永恒·已刷新"}}},
+			{col={255,255,100},szContent="本场恶人谷攻防即将结束，昆仑物资运送暂且休整，等待下一场攻防开启！\n",tCountdown={{key="粮草先行·恶人谷",nClass=20,nFrame=0,nIcon=13,nTime=5,szName="粮草先行·活动结束"},{key="粮草先行·浩气盟",nClass=20,nIcon=13,nTime=0,szName="粮草先行·浩气盟"},{key="霸图",nClass=20,nFrame=7,nIcon=2864,nRefresh=0,nTime="60,霸图·刷新剩余;62,霸图·即将刷新",szName="霸图"},{key="孙永恒",nClass=20,nFrame=3,nIcon=845,nRefresh=0,nTime="60,孙永恒·刷新剩余;62,孙永恒·即将刷新",szName="孙永恒"}}},
+			{col={255,100,100},szContent="昆仑山恶人谷西昆仑高地援军已到，营地夺回，交通恢复！\n",tCountdown={{key="霸图",nClass=20,nFrame=7,nIcon=2864,nRefresh=600,nTime=10,szName="霸图·已刷新"}}},
+			{col={100,100,255},szContent="昆仑山浩气盟东昆仑高地援军已到，营地夺回，交通恢复！\n",tCountdown={{key="孙永恒",nClass=20,nFrame=3,nIcon=845,nRefresh=600,nTime=10,szName="孙永恒·已刷新"}}},
 		},
 		[713] = {
-			{col={255,100,100},szContent="在恶人谷精英的协助下，首道成功击退了郝德。\
-",szNote="阵营前置·恶人谷·击退·郝德",tCountdown={{key="郝德",nClass=20,nFrame=3,nIcon=13,nRefresh=0,nTime="10,恶人·击退郝德;300,郝德·刷新剩余;310,郝德·已经刷新",szName="郝德·刷新剩余"}}},
-			{col={100,100,255},szContent="在浩气盟精英的协助下，郝德成功击退了首道。\
-",szNote="阵营前置·浩气盟·击退·首道",tCountdown={{key="首道",nClass=20,nFrame=7,nIcon=13,nRefresh=0,nTime="10,浩气·击退首道;300,首道·刷新剩余;310,首道·已经刷新",szName="首道·刷新剩余"}}},
+			{col={255,100,100},szContent="在恶人谷精英的协助下，首道成功击退了郝德。\n",szNote="阵营前置·恶人谷·击退·郝德",tCountdown={{key="郝德",nClass=20,nFrame=3,nIcon=13,nRefresh=0,nTime="10,恶人·击退郝德;300,郝德·刷新剩余;310,郝德·已经刷新",szName="郝德·刷新剩余"}}},
+			{col={100,100,255},szContent="在浩气盟精英的协助下，郝德成功击退了首道。\n",szNote="阵营前置·浩气盟·击退·首道",tCountdown={{key="首道",nClass=20,nFrame=7,nIcon=13,nRefresh=0,nTime="10,浩气·击退首道;300,首道·刷新剩余;310,首道·已经刷新",szName="首道·刷新剩余"}}},
 		},
 	},
 	DEBUFF = {},

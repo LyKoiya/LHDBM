@@ -3,8 +3,7 @@ return {
 	CASTING = {},
 	CHAT = {
 		[6] = {
-			{szContent="你已接受了[李婶烦心事]。\
-"},
+			{szContent="你已接受了[李婶烦心事]。\n"},
 		},
 	},
 	DEBUFF = {},

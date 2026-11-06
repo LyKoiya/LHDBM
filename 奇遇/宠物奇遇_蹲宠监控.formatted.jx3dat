@@ -3,74 +3,49 @@ return {
 	CASTING = {},
 	CHAT = {
 		[15] = {
-			{szContent="你已接受了[不许煮了吃]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=4,nIcon=83,nTime=60,szName="前往·城门车夫附近·段小小"}}},
+			{szContent="你已接受了[不许煮了吃]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=4,nIcon=83,nTime=60,szName="前往·城门车夫附近·段小小"}}},
 		},
 		[22] = {
-			{szContent="你已接受了[一草一石可交易]。\
-",tCountdown={{key="任务提示1",nClass=20,nIcon=588,nRefresh=0,nTime="10,日常采集·一盏青头草·10天;20,需获取·[彩色石子]x10",szName="日常采集·一盏青头草·10天"}}},
+			{szContent="你已接受了[一草一石可交易]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=588,nRefresh=0,nTime="10,日常采集·一盏青头草·10天;20,需获取·[彩色石子]x10",szName="日常采集·一盏青头草·10天"}}},
 		},
 		[105] = {
-			{szContent="你已接受了[还书禅师在玉局]。\
-",tCountdown={{key="任务提示1",nClass=20,nIcon=6142,nTime=60,szName="前往·玉局峰·对话·渡忧"}}},
+			{szContent="你已接受了[还书禅师在玉局]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=6142,nTime=60,szName="前往·玉局峰·对话·渡忧"}}},
 		},
 		[108] = {
-			{szContent="你已接受了[训犬秘术]。\
-",tCountdown={{key="任务提示1",nClass=20,nIcon=4986,nTime=120,szName="使用·线索纸条·巨树村的左下"},{key="任务提示2",nClass=20,nIcon=4986,nTime=120,szName="前往·地图左下·交互·沙土堆"}}},
-			{szContent="你已完成了[寻母之路·四]。\
-",tCountdown={{key="任务提示1",nClass=20,nIcon=4986,nTime=10,szName="使用·背包·[找妈妈的哈皮]"}}},
-			{szContent="你已接受了[朋友之道]。\
-",tCountdown={{key="任务提示1",nClass=20,nIcon=244,nRefresh=0,nTime="10,日常投喂·[骨头]x10·10天;20,需获取·[犬语术残页]x10",szName="日常·[骨头]x10·10天"}}},
+			{szContent="你已接受了[训犬秘术]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=4986,nTime=120,szName="使用·线索纸条·巨树村的左下"},{key="任务提示2",nClass=20,nIcon=4986,nTime=120,szName="前往·地图左下·交互·沙土堆"}}},
+			{szContent="你已完成了[寻母之路·四]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=4986,nTime=10,szName="使用·背包·[找妈妈的哈皮]"}}},
+			{szContent="你已接受了[朋友之道]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=244,nRefresh=0,nTime="10,日常投喂·[骨头]x10·10天;20,需获取·[犬语术残页]x10",szName="日常·[骨头]x10·10天"}}},
 		},
 		[139] = {
-			{szContent="你已完成了[终极对弈]。\
-",tCountdown={{key="任务提示1",nClass=20,nIcon=6140,nTime=30,szName="获取蟹帅·需要成就·[屠狼大会]"}}},
+			{szContent="你已完成了[终极对弈]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=6140,nTime=30,szName="获取蟹帅·需要成就·[屠狼大会]"}}},
 		},
 		[151] = {
-			{szContent="你已接受了[血烟草]。\
-",tCountdown={{key="任务提示1",nClass=20,nIcon=232,nTime=60,szName="前往·城外西南河岸·[血烟草]"}}},
-			{szContent="你已接受了[华落羽]。\
-",tCountdown={{key="任务提示1",nClass=20,nIcon=146,nTime=60,szName="前往·听泉私塾南河岸·[华落羽]"}}},
-			{szContent="你已接受了[巫医秘药]。\
-",tCountdown={{key="任务提示1",nClass=20,nIcon=219,nTime=60,szName="前往·牢营·狼牙巫医的草药箱"}}},
-			{szContent="你已接受了[还以颜色]。\
-",tCountdown={{key="任务提示1",nClass=20,nIcon=130,nTime=60,szName="交互·内城西边·草料垛"}}},
-			{szContent="你已接受了[捣乱狼牙]。\
-",tCountdown={{key="任务提示1",nClass=20,nIcon=294,nRefresh=0,nTime="10,日常寻找·军机宝箱·10天;20,需获取·[军机密件]x10",szName="日常·寻找·军机宝箱·10天"}}},
+			{szContent="你已接受了[血烟草]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=232,nTime=60,szName="前往·城外西南河岸·[血烟草]"}}},
+			{szContent="你已接受了[华落羽]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=146,nTime=60,szName="前往·听泉私塾南河岸·[华落羽]"}}},
+			{szContent="你已接受了[巫医秘药]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=219,nTime=60,szName="前往·牢营·狼牙巫医的草药箱"}}},
+			{szContent="你已接受了[还以颜色]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=130,nTime=60,szName="交互·内城西边·草料垛"}}},
+			{szContent="你已接受了[捣乱狼牙]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=294,nRefresh=0,nTime="10,日常寻找·军机宝箱·10天;20,需获取·[军机密件]x10",szName="日常·寻找·军机宝箱·10天"}}},
 		},
 		[153] = {
-			{szContent="你已接受了[锦毛小兔]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=4,nIcon=3559,nTime=60,szName="前往·望咸宫·左下角·锦毛兔"}}},
-			{szContent="你已接受了[喂兔之草]。\
-",tCountdown={{key="任务提示1",nClass=20,nIcon=307,nTime="10,日常上交·[甜象草]x6·10天;20,需获取·[皇家玉佩]x10",szName="上交·[甜象草]x6·10天"}}},
+			{szContent="你已接受了[锦毛小兔]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=4,nIcon=3559,nTime=60,szName="前往·望咸宫·左下角·锦毛兔"}}},
+			{szContent="你已接受了[喂兔之草]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=307,nTime="10,日常上交·[甜象草]x6·10天;20,需获取·[皇家玉佩]x10",szName="上交·[甜象草]x6·10天"}}},
 		},
 		[156] = {
-			{szContent="你已接受了[害鹅之人]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=4,nIcon=4912,nTime=30,szName="对话·林小明·[别怕有我在]"}}},
-			{szContent="你已接受了[咏鹅之篇]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=4,nIcon=4912,nTime=60,szName="前往·骆宾王墓·骆宾王诗碑"}}},
+			{szContent="你已接受了[害鹅之人]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=4,nIcon=4912,nTime=30,szName="对话·林小明·[别怕有我在]"}}},
+			{szContent="你已接受了[咏鹅之篇]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=4,nIcon=4912,nTime=60,szName="前往·骆宾王墓·骆宾王诗碑"}}},
 		},
 		[158] = {
-			{szContent="你已接受了[骨瘦如柴]。\
-",tCountdown={{key="任务提示1",nClass=20,nIcon=171,nTime=60,szName="前往·青骓牧场西北·狼牙的食盒"}}},
-			{szContent="你已接受了[藏宝之处]。\
-",tCountdown={{key="任务提示1",nClass=20,nIcon=171,nTime=20,szName="交互·土堆·阅读日志"}}},
-			{szContent="你已接受了[找回战靴]。\
-",tCountdown={{key="任务提示1",nClass=20,nIcon=61,nTime=60,szName="前往·战阵前线·外城墙下"},{key="任务提示2",nClass=20,nIcon=61,nTime=60,szName="交互·破损的靴子·返回"}}},
-			{szContent="你已接受了[找回护手]。\
-",tCountdown={{key="任务提示1",nClass=20,nIcon=1084,nTime=60,szName="前往外城东南·交互破损的护手"},{key="任务提示2",nClass=20,nIcon=13,nTime=-1,szName="任务提示2"}}},
-			{szContent="你已接受了[找回腿甲]。\
-",tCountdown={{key="任务提示1",nClass=20,nIcon=947,nTime=60,szName="前往战阵前线·交互破损的腿甲"}}},
-			{szContent="你已接受了[寻找遗物]。\
-",tCountdown={{key="任务提示1",nClass=20,nIcon=947,nRefresh=0,nTime="10,日常寻找·染血的沙土堆·10天;20,需获取·[战甲残片]x10",szName="日常寻找·染血的沙土堆·10天"}}},
+			{szContent="你已接受了[骨瘦如柴]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=171,nTime=60,szName="前往·青骓牧场西北·狼牙的食盒"}}},
+			{szContent="你已接受了[藏宝之处]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=171,nTime=20,szName="交互·土堆·阅读日志"}}},
+			{szContent="你已接受了[找回战靴]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=61,nTime=60,szName="前往·战阵前线·外城墙下"},{key="任务提示2",nClass=20,nIcon=61,nTime=60,szName="交互·破损的靴子·返回"}}},
+			{szContent="你已接受了[找回护手]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=1084,nTime=60,szName="前往外城东南·交互破损的护手"},{key="任务提示2",nClass=20,nIcon=13,nTime=-1,szName="任务提示2"}}},
+			{szContent="你已接受了[找回腿甲]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=947,nTime=60,szName="前往战阵前线·交互破损的腿甲"}}},
+			{szContent="你已接受了[寻找遗物]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=947,nRefresh=0,nTime="10,日常寻找·染血的沙土堆·10天;20,需获取·[战甲残片]x10",szName="日常寻找·染血的沙土堆·10天"}}},
 		},
 		[172] = {
-			{szContent="你已接受了[欲寻宝藏魂归天]。\
-",tCountdown={{key="任务提示1",nClass=20,nIcon=6801,nTime=30,szName="前往·长安地宫·狼牙探寻者"}}},
-			{szContent="你已完成了[欲寻宝藏魂归天]。\
-",tCountdown={{key="任务提示1",nClass=20,nIcon=6801,nTime=30,szName="前往·胡玉楼·对话·周钰彤"}}},
-			{szContent="你已接受了[蛇心龙胆诱老怪]。\
-",tCountdown={{key="任务提示1",nClass=20,nIcon=1398,nTime="10,前往长安地宫·攻击洞窟黑蛇;20,日常获取·[龙胆]x10·10天;30,需获取·[龙胆酒]x10",szName="日常获取·[龙胆]x10·10天"}}},
+			{szContent="你已接受了[欲寻宝藏魂归天]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=6801,nTime=30,szName="前往·长安地宫·狼牙探寻者"}}},
+			{szContent="你已完成了[欲寻宝藏魂归天]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=6801,nTime=30,szName="前往·胡玉楼·对话·周钰彤"}}},
+			{szContent="你已接受了[蛇心龙胆诱老怪]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=1398,nTime="10,前往长安地宫·攻击洞窟黑蛇;20,日常获取·[龙胆]x10·10天;30,需获取·[龙胆酒]x10",szName="日常获取·[龙胆]x10·10天"}}},
 		},
 	},
 	DEBUFF = {

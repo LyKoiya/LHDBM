@@ -9,8 +9,7 @@ return {
 			{bReg=true,col={255,100,100},szContent="^%[(.-)%]服务器：%[(.-)%]大侠，率领%[恶人谷%]阵营侠士们，成功夺得【(.-)】",tCountdown={{key="关隘·拾取·恶人谷",nClass=20,nFrame=3,nIcon=17582,nTime=180,szName="恶人谷·[{$1}]·{$3}"}}},
 			{bReg=true,col={100,100,255},szContent="^%[(.-)%]服务器：%[(.-)%]大侠，率领%[浩气盟%]阵营侠士们，成功夺得【(.-)】",tCountdown={{key="关隘·拾取·浩气盟",nClass=20,nFrame=7,nIcon=17583,nTime=180,szName="浩气盟·[{$1}]·{$3}"}}},
 			{bReg=true,col={255,255,100},szContent="%[(.-)%]【(.-)】岂是你们这些([浩气恶人]-)宵小敢染指的，([浩气恶人]-)的兄弟们随我杀！",tCountdown={{key="关隘·进攻·浩气",nClass=20,nFrame=-1,nIcon=13,nRefresh=600,nTime=-2,szName="关隘·进攻·浩气"},{key="关隘·进攻·恶人",nClass=20,nFrame=-1,nIcon=13,nRefresh=600,nTime=-2,szName="关隘·进攻·恶人"},{key="关隘·进攻·{$3}",nClass=20,nIcon=13,nTime=0,szName="关隘·进攻·{$3}"},{key="关隘·进攻·浩气",nClass=20,nFrame=7,nIcon=11370,nRefresh=600,nTime=10,szName="浩气进攻·[{$1}]·{$2}"},{key="关隘·进攻·恶人",nClass=20,nFrame=3,nIcon=11369,nRefresh=600,nTime=10,szName="恶人进攻·[{$1}]·{$2}"}}},
-			{col={255,255,100},szContent="帮会辛大厨为大家准备了丰盛的午餐，各位侠士现在即可返回帮会领地尽情享用。\
-",szNote="帮会食堂·享用午餐",tCountdown={{key="关隘宝箱",nClass=20,nFrame=7,nIcon=13,nRefresh=5,nTime=-1,szName="关隘宝箱"}}},
+			{col={255,255,100},szContent="帮会辛大厨为大家准备了丰盛的午餐，各位侠士现在即可返回帮会领地尽情享用。\n",szNote="帮会食堂·享用午餐",tCountdown={{key="关隘宝箱",nClass=20,nFrame=7,nIcon=13,nRefresh=5,nTime=-1,szName="关隘宝箱"}}},
 		},
 	},
 	DEBUFF = {

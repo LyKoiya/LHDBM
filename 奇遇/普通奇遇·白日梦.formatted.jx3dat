@@ -28,8 +28,7 @@ return {
 	CHAT = {
 		[-15] = {
 			{[20]={bCenterAlarm=true},bSearch=true,szContent="他人床，鼾震天，还睡，还睡？“{$me}”侠士在",szNote="触发奇遇·白日梦",tCountdown={{bHold=false,key="奇遇提示0",nClass=20,nFrame=0,nIcon=12371,nRefresh=0,nTime="10,恭喜触发·普通奇遇·白日梦;20,该奇遇不封印;30,预计10分钟完成",szName="恭喜触发奇遇·白日梦"},{bHold=true,key="奇遇提示1",nClass=20,nFrame=6,nIcon=12371,nTime=600,szName="家园集市·裴草·扬州·敬师堂"},{bHold=true,key="奇遇提示2",nClass=20,nFrame=7,nIcon=12371,nTime=600,szName="沈从恩·稻香村·土地庙·余半仙"},{bHold=true,key="奇遇提示3",nClass=20,nFrame=7,nIcon=12371,nTime=600,szName="稻香村前尘·稻山野林·游梦仙枕"}}},
-			{[20]={bCenterAlarm=true},szContent="“{$me}”侠士的睡姿过于奇葩成功引起裴草注意，裴草触发奇遇【白日梦】作为交换，强行将这个睡姿据为己有，取名裴草睡。\
-",szNote="触发奇遇·白日梦",tCountdown={{bHold=false,key="奇遇提示0",nClass=20,nFrame=0,nIcon=12371,nRefresh=0,nTime="10,恭喜触发·普通奇遇·白日梦;20,该奇遇不封印;30,预计10分钟完成",szName="恭喜触发奇遇·白日梦"},{bHold=true,key="奇遇提示1",nClass=20,nFrame=6,nIcon=12371,nTime=600,szName="家园集市·裴草·扬州·敬师堂"},{bHold=true,key="奇遇提示2",nClass=20,nFrame=7,nIcon=12371,nTime=600,szName="沈从恩·稻香村·土地庙·余半仙"},{bHold=true,key="奇遇提示3",nClass=20,nFrame=7,nIcon=12371,nTime=600,szName="稻香村前尘·稻山野林·游梦仙枕"}}},
+			{[20]={bCenterAlarm=true},szContent="“{$me}”侠士的睡姿过于奇葩成功引起裴草注意，裴草触发奇遇【白日梦】作为交换，强行将这个睡姿据为己有，取名裴草睡。\n",szNote="触发奇遇·白日梦",tCountdown={{bHold=false,key="奇遇提示0",nClass=20,nFrame=0,nIcon=12371,nRefresh=0,nTime="10,恭喜触发·普通奇遇·白日梦;20,该奇遇不封印;30,预计10分钟完成",szName="恭喜触发奇遇·白日梦"},{bHold=true,key="奇遇提示1",nClass=20,nFrame=6,nIcon=12371,nTime=600,szName="家园集市·裴草·扬州·敬师堂"},{bHold=true,key="奇遇提示2",nClass=20,nFrame=7,nIcon=12371,nTime=600,szName="沈从恩·稻香村·土地庙·余半仙"},{bHold=true,key="奇遇提示3",nClass=20,nFrame=7,nIcon=12371,nTime=600,szName="稻香村前尘·稻山野林·游梦仙枕"}}},
 		},
 	},
 	DEBUFF = {

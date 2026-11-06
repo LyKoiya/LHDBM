@@ -9,50 +9,28 @@ return {
 	CASTING = {},
 	CHAT = {
 		[35] = {
-			{szContent="你已接受了[鼠字腰牌]。\
-",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=60,szName="阁下莫非是为高人"},{key="美人图2",nClass=20,nIcon=13,nTime=60,szName="果然是位高人"}}},
-			{szContent="获得【鼠字腰牌】，可以打开腰牌袋子查看。\
-",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="阁下莫非是为高人"},{key="美人图2",nClass=20,nIcon=13,nTime=0,szName="果然是位高人"}}},
-			{szContent="你已完成了[鼠字腰牌]。\
-",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="阁下莫非是为高人"},{key="美人图2",nClass=20,nIcon=13,nTime=0,szName="果然是位高人"}}},
-			{szContent="你已接受了[探贾一陀]。\
-",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=60,szName="这位高僧好饭量"},{key="美人图2",nClass=20,nIcon=13,nTime=60,szName="佛爷你是否需要些吃的东西"},{key="美人图3",nClass=20,nIcon=13,nTime=60,szName="烧鸡烧鹅都来点"}}},
-			{szContent="你已完成了[探贾一陀]。\
-",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="这位高僧好饭量"},{key="美人图2",nClass=20,nIcon=13,nTime=0,szName="佛爷你是否需要些吃的东西"},{key="美人图3",nClass=20,nIcon=13,nTime=0,szName="烧鸡烧鹅都来点"}}},
-			{szContent="你已接受了[这是交易]。\
-",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=60,szName="找丁老三购买·冰糖葫芦·小木人"},{key="美人图2",nClass=20,nIcon=13,nTime=60,szName="成就·篝火边的大厨·购买调料"}}},
-			{szContent="你已完成了[这是交易]。\
-",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="找丁老三购买·冰糖葫芦·小木人"},{key="美人图2",nClass=20,nIcon=13,nTime=0,szName="成就·篝火边的大厨·购买调料"}}},
-			{szContent="你已接受了[获得烤肉]。\
-",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=60,szName="在贾一陀身后烤肉"}}},
-			{szContent="你已完成了[获得烤肉]。\
-",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="在贾一陀身后烤肉"}}},
-			{szContent="你已接受了[大嘴之怒]。\
-",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=60,szName="的确十分可气"},{key="美人图2",nClass=20,nIcon=13,nTime=60,szName="维|护军威，自然愿意"}}},
-			{szContent="你已完成了[大嘴之怒]。\
-",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="的确十分可气"},{key="美人图2",nClass=20,nIcon=13,nTime=0,szName="维护军威，自然愿意"}}},
-			{szContent="你已接受了[虎字腰牌]。\
-",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=60,szName="一声号令，令人拜服"},{key="美人图2",nClass=20,nIcon=13,nTime=60,szName="威武雄壮"},{key="美人图3",nClass=20,nIcon=13,nTime=60,szName="我对大将军的景仰"}}},
-			{szContent="获得【虎字腰牌】，可以打开腰牌袋子查看。\
-",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="一声号令，令人拜服"},{key="美人图2",nClass=20,nIcon=13,nTime=0,szName="威武雄壮"},{key="美人图3",nClass=20,nIcon=13,nTime=0,szName="我对大将军的景仰"}}},
-			{szContent="你已接受了[画中美人]。\
-",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=60,szName="倾国倾城"},{key="美人图2",nClass=20,nIcon=13,nTime=60,szName="我愿意给你画像"}}},
-			{szContent="画纸就放在背包里，右键点击对仇赛赛使用即可为她作画。\
-",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="倾国倾城"},{key="美人图2",nClass=20,nIcon=13,nTime=0,szName="我愿意给你画像"},{key="美人图1",nClass=20,nIcon=13,nTime=60,szName="鹅蛋脸·不画雀斑"},{key="美人图2",nClass=20,nIcon=13,nTime=60,szName="婀娜多姿·杨柳细腰"},{key="美人图3",nClass=20,nIcon=13,nTime=60,szName="小脚丫·雪白"}}},
-			{szContent="你已完成了[画中美人]。\
-",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="鹅蛋脸·不画雀斑"},{key="美人图2",nClass=20,nIcon=13,nTime=0,szName="婀娜多姿·杨柳细腰"},{key="美人图3",nClass=20,nIcon=13,nTime=0,szName="小脚丫·雪白"}}},
-			{szContent="你已接受了[闯木人阵]。\
-",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=60,szName="靠右边·走沿石上"},{key="美人图2",nClass=20,nIcon=13,nTime=60,szName="下层·到1/4时走沿石上"}}},
-			{szContent="你已完成了[闯木人阵]。\
-",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="靠右边·走沿石上"},{key="美人图2",nClass=20,nIcon=13,nTime=0,szName="下层·到一半时走沿石上"}}},
-			{szContent="你已接受了[寻宫大肥]。\
-",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=60,szName="可组队共享次数"}}},
-			{szContent="你已完成了[寻宫大肥]。\
-",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="可组队共享次数"}}},
-			{szContent="你已完成了[美人图]。\
-",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="美人图1"},{key="美人图2",nClass=20,nIcon=13,nTime=0,szName="美人图2"},{key="美人图3",nClass=20,nIcon=13,nTime=0,szName="美人图3"}}},
-			{szContent="你已完成了[寻龙勘脉窥天机]。\
-",tCountdown={{key="寻龙勘脉窥天机·开启",nClass=20,nIcon=4975,nTime=0,szName="寻龙勘脉·任务结束"}}},
+			{szContent="你已接受了[鼠字腰牌]。\n",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=60,szName="阁下莫非是为高人"},{key="美人图2",nClass=20,nIcon=13,nTime=60,szName="果然是位高人"}}},
+			{szContent="获得【鼠字腰牌】，可以打开腰牌袋子查看。\n",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="阁下莫非是为高人"},{key="美人图2",nClass=20,nIcon=13,nTime=0,szName="果然是位高人"}}},
+			{szContent="你已完成了[鼠字腰牌]。\n",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="阁下莫非是为高人"},{key="美人图2",nClass=20,nIcon=13,nTime=0,szName="果然是位高人"}}},
+			{szContent="你已接受了[探贾一陀]。\n",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=60,szName="这位高僧好饭量"},{key="美人图2",nClass=20,nIcon=13,nTime=60,szName="佛爷你是否需要些吃的东西"},{key="美人图3",nClass=20,nIcon=13,nTime=60,szName="烧鸡烧鹅都来点"}}},
+			{szContent="你已完成了[探贾一陀]。\n",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="这位高僧好饭量"},{key="美人图2",nClass=20,nIcon=13,nTime=0,szName="佛爷你是否需要些吃的东西"},{key="美人图3",nClass=20,nIcon=13,nTime=0,szName="烧鸡烧鹅都来点"}}},
+			{szContent="你已接受了[这是交易]。\n",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=60,szName="找丁老三购买·冰糖葫芦·小木人"},{key="美人图2",nClass=20,nIcon=13,nTime=60,szName="成就·篝火边的大厨·购买调料"}}},
+			{szContent="你已完成了[这是交易]。\n",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="找丁老三购买·冰糖葫芦·小木人"},{key="美人图2",nClass=20,nIcon=13,nTime=0,szName="成就·篝火边的大厨·购买调料"}}},
+			{szContent="你已接受了[获得烤肉]。\n",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=60,szName="在贾一陀身后烤肉"}}},
+			{szContent="你已完成了[获得烤肉]。\n",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="在贾一陀身后烤肉"}}},
+			{szContent="你已接受了[大嘴之怒]。\n",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=60,szName="的确十分可气"},{key="美人图2",nClass=20,nIcon=13,nTime=60,szName="维|护军威，自然愿意"}}},
+			{szContent="你已完成了[大嘴之怒]。\n",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="的确十分可气"},{key="美人图2",nClass=20,nIcon=13,nTime=0,szName="维护军威，自然愿意"}}},
+			{szContent="你已接受了[虎字腰牌]。\n",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=60,szName="一声号令，令人拜服"},{key="美人图2",nClass=20,nIcon=13,nTime=60,szName="威武雄壮"},{key="美人图3",nClass=20,nIcon=13,nTime=60,szName="我对大将军的景仰"}}},
+			{szContent="获得【虎字腰牌】，可以打开腰牌袋子查看。\n",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="一声号令，令人拜服"},{key="美人图2",nClass=20,nIcon=13,nTime=0,szName="威武雄壮"},{key="美人图3",nClass=20,nIcon=13,nTime=0,szName="我对大将军的景仰"}}},
+			{szContent="你已接受了[画中美人]。\n",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=60,szName="倾国倾城"},{key="美人图2",nClass=20,nIcon=13,nTime=60,szName="我愿意给你画像"}}},
+			{szContent="画纸就放在背包里，右键点击对仇赛赛使用即可为她作画。\n",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="倾国倾城"},{key="美人图2",nClass=20,nIcon=13,nTime=0,szName="我愿意给你画像"},{key="美人图1",nClass=20,nIcon=13,nTime=60,szName="鹅蛋脸·不画雀斑"},{key="美人图2",nClass=20,nIcon=13,nTime=60,szName="婀娜多姿·杨柳细腰"},{key="美人图3",nClass=20,nIcon=13,nTime=60,szName="小脚丫·雪白"}}},
+			{szContent="你已完成了[画中美人]。\n",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="鹅蛋脸·不画雀斑"},{key="美人图2",nClass=20,nIcon=13,nTime=0,szName="婀娜多姿·杨柳细腰"},{key="美人图3",nClass=20,nIcon=13,nTime=0,szName="小脚丫·雪白"}}},
+			{szContent="你已接受了[闯木人阵]。\n",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=60,szName="靠右边·走沿石上"},{key="美人图2",nClass=20,nIcon=13,nTime=60,szName="下层·到1/4时走沿石上"}}},
+			{szContent="你已完成了[闯木人阵]。\n",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="靠右边·走沿石上"},{key="美人图2",nClass=20,nIcon=13,nTime=0,szName="下层·到一半时走沿石上"}}},
+			{szContent="你已接受了[寻宫大肥]。\n",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=60,szName="可组队共享次数"}}},
+			{szContent="你已完成了[寻宫大肥]。\n",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="可组队共享次数"}}},
+			{szContent="你已完成了[美人图]。\n",tCountdown={{key="美人图1",nClass=20,nIcon=13,nTime=0,szName="美人图1"},{key="美人图2",nClass=20,nIcon=13,nTime=0,szName="美人图2"},{key="美人图3",nClass=20,nIcon=13,nTime=0,szName="美人图3"}}},
+			{szContent="你已完成了[寻龙勘脉窥天机]。\n",tCountdown={{key="寻龙勘脉窥天机·开启",nClass=20,nIcon=4975,nTime=0,szName="寻龙勘脉·任务结束"}}},
 		},
 	},
 	DEBUFF = {

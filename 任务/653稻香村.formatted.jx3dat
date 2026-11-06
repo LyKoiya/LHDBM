@@ -11,10 +11,8 @@ return {
 	CASTING = {},
 	CHAT = {
 		[653] = {
-			{szContent="你已接受了[终探镜湖决战事]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="先去王婆婆·购买糖葫芦"}}},
-			{szContent="你已接受了[卦辞所示为何物]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="前往·山贼营地·地字"},{key="任务提示2",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="前往·镜湖亭·亭字左"}}},
+			{szContent="你已接受了[终探镜湖决战事]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="先去王婆婆·购买糖葫芦"}}},
+			{szContent="你已接受了[卦辞所示为何物]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="前往·山贼营地·地字"},{key="任务提示2",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="前往·镜湖亭·亭字左"}}},
 		},
 	},
 	DEBUFF = {

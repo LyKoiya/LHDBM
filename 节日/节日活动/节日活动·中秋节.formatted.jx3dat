@@ -8,10 +8,8 @@ return {
 	},
 	CHAT = {
 		[-1] = {
-			{[20]={bCenterAlarm=true},szContent="神厨饼痴带着做好的大月饼出现啦，侠士们可以去扬州门外品尝大月饼了！\
-",szNote="扬州·大月饼·出现",tCountdown={{key="通用事件",nClass=20,nFrame=0,nIcon=7182,nTime=10,szName="扬州·大月饼·出现"}}},
-			{szContent="天狗的爪牙在中原五大主城外出现，侠士们可速前往除之，否则小饼收集的材料会被叼走。\
-",szNote="中秋节·天狗事件",tCountdown={{key="通用事件",nClass=20,nFrame=7,nIcon=89,nTime=10,szName="五大主城·天狗事件"}}},
+			{[20]={bCenterAlarm=true},szContent="神厨饼痴带着做好的大月饼出现啦，侠士们可以去扬州门外品尝大月饼了！\n",szNote="扬州·大月饼·出现",tCountdown={{key="通用事件",nClass=20,nFrame=0,nIcon=7182,nTime=10,szName="扬州·大月饼·出现"}}},
+			{szContent="天狗的爪牙在中原五大主城外出现，侠士们可速前往除之，否则小饼收集的材料会被叼走。\n",szNote="中秋节·天狗事件",tCountdown={{key="通用事件",nClass=20,nFrame=7,nIcon=89,nTime=10,szName="五大主城·天狗事件"}}},
 		},
 	},
 	DEBUFF = {

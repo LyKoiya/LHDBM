@@ -3,24 +3,20 @@ return {
 	CASTING = {},
 	CHAT = {
 		[-21] = {
-			{col={255,255,100},szContent="正在拍卖世界首领掉落的稀有物品，其中有当前最高品质附魔，诸位侠士们切勿错过！\
-",szNote="世界首领·拍卖掉落",tCountdown={{key="拍卖分红",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="世界首领·拍卖掉落"}}},
+			{col={255,255,100},szContent="正在拍卖世界首领掉落的稀有物品，其中有当前最高品质附魔，诸位侠士们切勿错过！\n",szNote="世界首领·拍卖掉落",tCountdown={{key="拍卖分红",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="世界首领·拍卖掉落"}}},
 			{bReg=true,col={255,255,100},szContent="^密探来报：\"(.-)\"(.-)出现在(.-)[前尘影事]-[“]-([峥嵘振武]-)[”]-([主分线]-)，",szNote="世界首领·出现",tCountdown={{key="世界首领",nClass=20,nFrame=0,nIcon=13,nRefresh=5,nTime=20,szName="{$1}·{$2}·{$3}·{$5}{$4}"}}},
 		},
 		[-7] = {
-			{col={255,255,100},szContent="正在拍卖世界首领掉落的稀有物品，其中有当前最高品质附魔，诸位侠士们切勿错过！\
-",szNote="世界首领·拍卖掉落",tCountdown={{key="拍卖分红",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="世界首领·拍卖掉落"}}},
+			{col={255,255,100},szContent="正在拍卖世界首领掉落的稀有物品，其中有当前最高品质附魔，诸位侠士们切勿错过！\n",szNote="世界首领·拍卖掉落",tCountdown={{key="拍卖分红",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="世界首领·拍卖掉落"}}},
 			{bReg=true,col={255,255,100},szContent="^密探来报：\"(.-)\"(.-)出现在(.-)[前尘影事]-[“]-([峥嵘振武]-)[”]-([主分线]-)，",szNote="世界首领·出现",tCountdown={{key="世界首领",nClass=20,nFrame=0,nIcon=13,nRefresh=5,nTime=20,szName="{$1}·{$2}·{$3}·{$5}{$4}"}}},
 		},
 		[-2] = {
-			{col={255,255,100},szContent="正在拍卖世界首领掉落的稀有物品，其中有当前最高品质附魔，诸位侠士们切勿错过！\
-",szNote="世界首领·拍卖掉落",tCountdown={{key="拍卖分红",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="世界首领·拍卖掉落"}}},
+			{col={255,255,100},szContent="正在拍卖世界首领掉落的稀有物品，其中有当前最高品质附魔，诸位侠士们切勿错过！\n",szNote="世界首领·拍卖掉落",tCountdown={{key="拍卖分红",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="世界首领·拍卖掉落"}}},
 			{bReg=true,col={255,255,100},szContent="^密探来报：\"(.-)\"(.-)出现在(.-)[前尘影事]-[“]-([峥嵘振武]-)[”]-([主分线]-)，",szNote="世界首领·出现",tCountdown={{key="世界首领",nClass=20,nFrame=0,nIcon=13,nRefresh=5,nTime=20,szName="{$1}·{$2}·{$3}·{$5}{$4}"}}},
 		},
 		[697] = {
 			{bReg=true,szContent="^在众人齐心猛攻下，%[(.-)%]的世界首领“(.-)”已力竭败退！",tCountdown={{key="{$2}",nClass=20,nFrame=8,nIcon=13,nRefresh=1,nTime=5,szName="{$1}·{$2}·已败退"}}},
-			{szContent="恭喜获得战利品。保家卫国，望侠士再接再厉！\
-",tCountdown={{key="拍卖分红",nClass=20,nFrame=1,nIcon=3556,nTime=10,szName="世界首领·战利品·已拾取"}}},
+			{szContent="恭喜获得战利品。保家卫国，望侠士再接再厉！\n",tCountdown={{key="拍卖分红",nClass=20,nFrame=1,nIcon=3556,nTime=10,szName="世界首领·战利品·已拾取"}}},
 		},
 	},
 	DEBUFF = {

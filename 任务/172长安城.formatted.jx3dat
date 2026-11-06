@@ -8,14 +8,10 @@ return {
 	CASTING = {},
 	CHAT = {
 		[172] = {
-			{szContent="你已接受了[笔墨书香添风雅]。\
-",tCountdown={{key="周易",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="周易·左边右上角"},{key="礼记",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="礼记·左边中间"},{key="世说新语",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="世说新语·左边左上角"},{key="春秋繁露",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="春秋繁露·右边中间"}}},
-			{szContent="你放弃了[笔墨书香添风雅]。\
-",tCountdown={{key="周易",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="周易·左边右上角"},{key="礼记",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="礼记·左边中间"},{key="世说新语",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="世说新语·左边左上角"},{key="春秋繁露",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="春秋繁露·右边中间"}}},
-			{szContent="你已完成了[笔墨书香添风雅]。\
-",tCountdown={{key="周易",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="周易·左边右上角"},{key="礼记",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="礼记·左边中间"},{key="世说新语",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="世说新语·左边左上角"},{key="春秋繁露",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="春秋繁露·右边中间"}}},
-			{col={255,255,100},szContent="隐元密报：狼牙军即将押送颜氏老妇到内城西市法场斩首示众！颜氏一门满门忠烈，还望各路侠士即刻前往搭救！\
-",tCountdown={{key="系统事件",nClass=20,nFrame=3,nIcon=3320,nTime=30,szName="长安城·搭救颜老太太"}}},
+			{szContent="你已接受了[笔墨书香添风雅]。\n",tCountdown={{key="周易",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="周易·左边右上角"},{key="礼记",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="礼记·左边中间"},{key="世说新语",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="世说新语·左边左上角"},{key="春秋繁露",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="春秋繁露·右边中间"}}},
+			{szContent="你放弃了[笔墨书香添风雅]。\n",tCountdown={{key="周易",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="周易·左边右上角"},{key="礼记",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="礼记·左边中间"},{key="世说新语",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="世说新语·左边左上角"},{key="春秋繁露",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="春秋繁露·右边中间"}}},
+			{szContent="你已完成了[笔墨书香添风雅]。\n",tCountdown={{key="周易",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="周易·左边右上角"},{key="礼记",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="礼记·左边中间"},{key="世说新语",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="世说新语·左边左上角"},{key="春秋繁露",nClass=20,nFrame=5,nIcon=4946,nTime=0,szName="春秋繁露·右边中间"}}},
+			{col={255,255,100},szContent="隐元密报：狼牙军即将押送颜氏老妇到内城西市法场斩首示众！颜氏一门满门忠烈，还望各路侠士即刻前往搭救！\n",tCountdown={{key="系统事件",nClass=20,nFrame=3,nIcon=3320,nTime=30,szName="长安城·搭救颜老太太"}}},
 		},
 	},
 	DEBUFF = {

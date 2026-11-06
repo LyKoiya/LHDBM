@@ -27,28 +27,18 @@ return {
 	CASTING = {},
 	CHAT = {
 		[322] = {
-			{szContent="还有30秒开始游戏。\
-",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nTime=30,szName="战斗·开始倒计时"}}},
-			{szContent="还有20秒开始游戏。\
-",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nTime=20,szName="战斗·开始倒计时"}}},
-			{szContent="还有10秒开始游戏。\
-",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="10,战斗·开始倒计时;130,尸罐·刷新剩余;140,尸罐·延迟刷新",szName="战斗·开始倒计时"}}},
+			{szContent="还有30秒开始游戏。\n",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nTime=30,szName="战斗·开始倒计时"}}},
+			{szContent="还有20秒开始游戏。\n",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nTime=20,szName="战斗·开始倒计时"}}},
+			{szContent="还有10秒开始游戏。\n",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=13,nRefresh=0,nTime="10,战斗·开始倒计时;130,尸罐·刷新剩余;140,尸罐·延迟刷新",szName="战斗·开始倒计时"}}},
 			{[20]={bCenterAlarm=true},bReg=true,szContent="你成为李渡鬼域中第(%d-)名感染者",szNote="被感染·第{$1}个",tCountdown={{nClass=20,nFrame=1,nIcon=13,nTime=5,szName="被感染·第{$1}个"}}},
 			{[20]={bCenterAlarm=true},bReg=true,szContent="收集到了(%d-)份魂铃。",szNote="魂铃·{$1}份",tCountdown={{nClass=20,nFrame=6,nIcon=382,nTime=5,szName="魂铃·{$1}份"}}},
-			{szContent="经过艰辛的斗争，探秘者获得了最终的胜利！\
-",szNote="探秘者·胜利",tCountdown={{key="战斗开始",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="探秘者·胜利"},{key="毒圈",nClass=20,nFrame=8,nIcon=13,nTime=-1,szName="毒圈"}}},
-			{szContent="经过艰辛的斗争，感染者获得了最终的胜利！\
-",szNote="感染者·胜利",tCountdown={{key="战斗开始",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="感染者·胜利"},{key="毒圈",nClass=20,nFrame=8,nIcon=13,nTime=-1,szName="毒圈"}}},
-			{[20]={bCenterAlarm=true},szContent="尸毒样本收集数量过半，探秘者胜利在望！\
-",szNote="尸毒样本·收集过半",tCountdown={{nClass=20,nFrame=3,nIcon=13,nTime=10,szName="尸毒样本·收集过半"}}},
-			{[20]={bCenterAlarm=true},szContent="病毒样本收集数量过半，探秘者胜利在望！\
-",szNote="尸毒样本·收集过半",tCountdown={{nClass=20,nFrame=3,nIcon=13,nTime=10,szName="尸毒样本·收集过半"}}},
-			{[20]={bCenterAlarm=true},szContent="仅剩10名探秘者存活，感染者胜利在望！\
-",szNote="探秘者·仅剩10名",tCountdown={{nClass=20,nFrame=3,nIcon=13,nTime=10,szName="探秘者·仅剩10名"}}},
-			{[20]={bCenterAlarm=true},szContent="毒圈即将出现\
-",szNote="毒圈·即将出现",tCountdown={{key="毒圈",nClass=20,nFrame=8,nIcon=10478,nRefresh=0,nTime="120,毒圈·刷新剩余;240,毒圈·刷新剩余;360,毒圈·刷新剩余",szName="毒圈·刷新剩余"}}},
-			{[20]={bCenterAlarm=true},szContent="感染者的几个尸罐被探秘者发现了，阻止他们摧毁尸罐！\
-",szNote="尸罐·已刷新",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=3477,nRefresh=0,nTime="120,尸罐·刷新剩余;240,尸罐·刷新剩余;360,尸罐·刷新剩余",szName="尸罐·刷新剩余"}}},
+			{szContent="经过艰辛的斗争，探秘者获得了最终的胜利！\n",szNote="探秘者·胜利",tCountdown={{key="战斗开始",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="探秘者·胜利"},{key="毒圈",nClass=20,nFrame=8,nIcon=13,nTime=-1,szName="毒圈"}}},
+			{szContent="经过艰辛的斗争，感染者获得了最终的胜利！\n",szNote="感染者·胜利",tCountdown={{key="战斗开始",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="感染者·胜利"},{key="毒圈",nClass=20,nFrame=8,nIcon=13,nTime=-1,szName="毒圈"}}},
+			{[20]={bCenterAlarm=true},szContent="尸毒样本收集数量过半，探秘者胜利在望！\n",szNote="尸毒样本·收集过半",tCountdown={{nClass=20,nFrame=3,nIcon=13,nTime=10,szName="尸毒样本·收集过半"}}},
+			{[20]={bCenterAlarm=true},szContent="病毒样本收集数量过半，探秘者胜利在望！\n",szNote="尸毒样本·收集过半",tCountdown={{nClass=20,nFrame=3,nIcon=13,nTime=10,szName="尸毒样本·收集过半"}}},
+			{[20]={bCenterAlarm=true},szContent="仅剩10名探秘者存活，感染者胜利在望！\n",szNote="探秘者·仅剩10名",tCountdown={{nClass=20,nFrame=3,nIcon=13,nTime=10,szName="探秘者·仅剩10名"}}},
+			{[20]={bCenterAlarm=true},szContent="毒圈即将出现\n",szNote="毒圈·即将出现",tCountdown={{key="毒圈",nClass=20,nFrame=8,nIcon=10478,nRefresh=0,nTime="120,毒圈·刷新剩余;240,毒圈·刷新剩余;360,毒圈·刷新剩余",szName="毒圈·刷新剩余"}}},
+			{[20]={bCenterAlarm=true},szContent="感染者的几个尸罐被探秘者发现了，阻止他们摧毁尸罐！\n",szNote="尸罐·已刷新",tCountdown={{key="战斗开始",nClass=20,nFrame=4,nIcon=3477,nRefresh=0,nTime="120,尸罐·刷新剩余;240,尸罐·刷新剩余;360,尸罐·刷新剩余",szName="尸罐·刷新剩余"}}},
 		},
 	},
 	DEBUFF = {

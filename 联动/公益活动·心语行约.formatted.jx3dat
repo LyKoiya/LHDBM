@@ -3,8 +3,7 @@ return {
 	CASTING = {},
 	CHAT = {
 		[652] = {
-			{szContent="你已接受了[铺设通路·一]。\
-",tCountdown={{key="联动活动1",nClass=20,nFrame=6,nIcon=13,nTime=20,szName="使用路石铺路·让重明到达终点"}}},
+			{szContent="你已接受了[铺设通路·一]。\n",tCountdown={{key="联动活动1",nClass=20,nFrame=6,nIcon=13,nTime=20,szName="使用路石铺路·让重明到达终点"}}},
 		},
 	},
 	DEBUFF = {},

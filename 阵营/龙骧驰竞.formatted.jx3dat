@@ -11,26 +11,20 @@ return {
 	},
 	CHAT = {
 		[-21] = {
-			{col={255,255,100},szContent="正在拍卖龙骧驰竞活动专属稀有物品，内含最高移速坐骑及珍稀马饰，诸位侠士们切勿错过！！！\
-",szNote="龙骧驰竞·拍卖掉落",tCountdown={{key="拍卖分红",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="龙骧驰竞·拍卖掉落"}}},
+			{col={255,255,100},szContent="正在拍卖龙骧驰竞活动专属稀有物品，内含最高移速坐骑及珍稀马饰，诸位侠士们切勿错过！！！\n",szNote="龙骧驰竞·拍卖掉落",tCountdown={{key="拍卖分红",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="龙骧驰竞·拍卖掉落"}}},
 		},
 		[-7] = {
-			{col={255,255,100},szContent="正在拍卖龙骧驰竞活动专属稀有物品，内含最高移速坐骑及珍稀马饰，诸位侠士们切勿错过！！！\
-",szNote="龙骧驰竞·拍卖掉落",tCountdown={{key="拍卖分红",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="龙骧驰竞·拍卖掉落"}}},
+			{col={255,255,100},szContent="正在拍卖龙骧驰竞活动专属稀有物品，内含最高移速坐骑及珍稀马饰，诸位侠士们切勿错过！！！\n",szNote="龙骧驰竞·拍卖掉落",tCountdown={{key="拍卖分红",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="龙骧驰竞·拍卖掉落"}}},
 		},
 		[-2] = {
-			{col={255,255,100},szContent="正在拍卖龙骧驰竞活动专属稀有物品，内含最高移速坐骑及珍稀马饰，诸位侠士们切勿错过！！！\
-",szNote="龙骧驰竞·拍卖掉落",tCountdown={{key="拍卖分红",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="龙骧驰竞·拍卖掉落"}}},
+			{col={255,255,100},szContent="正在拍卖龙骧驰竞活动专属稀有物品，内含最高移速坐骑及珍稀马饰，诸位侠士们切勿错过！！！\n",szNote="龙骧驰竞·拍卖掉落",tCountdown={{key="拍卖分红",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="龙骧驰竞·拍卖掉落"}}},
 		},
 		[-1] = {
-			{col={255,255,100},szContent="龙骧驰竞排队正式开始，侠士们速速前往龙泉府地图参与排队。\
-",szNote="龙骧驰竞·排队开始",tCountdown={{key="阵营活动",nClass=20,nFrame=-1,nIcon=5815,nRefresh=1,nTime="1,的卢·龙泉府·开始排队;10,的卢·龙泉府·开始排队;60,的卢·龙泉府·等待排队",szName="的卢·龙泉府·开始排队"}}},
-			{col={255,255,100},szContent="龙骧驰竞即将开始，为防弄虚作假者，即将对“龙泉府”地图进行清场操作，并在“21：10”开始排队，请勿在21：10前排队，将被视为无效，请侠士们提前做好准备。\
-",tCountdown={{bHold=true,key="阵营活动",nClass=20,nFrame=-1,nIcon=1465,nTime=599.795,szName="龙骧驰竞·消失模式"}}},
+			{col={255,255,100},szContent="龙骧驰竞排队正式开始，侠士们速速前往龙泉府地图参与排队。\n",szNote="龙骧驰竞·排队开始",tCountdown={{key="阵营活动",nClass=20,nFrame=-1,nIcon=5815,nRefresh=1,nTime="1,的卢·龙泉府·开始排队;10,的卢·龙泉府·开始排队;60,的卢·龙泉府·等待排队",szName="的卢·龙泉府·开始排队"}}},
+			{col={255,255,100},szContent="龙骧驰竞即将开始，为防弄虚作假者，即将对“龙泉府”地图进行清场操作，并在“21：10”开始排队，请勿在21：10前排队，将被视为无效，请侠士们提前做好准备。\n",tCountdown={{bHold=true,key="阵营活动",nClass=20,nFrame=-1,nIcon=1465,nTime=599.795,szName="龙骧驰竞·消失模式"}}},
 		},
 		[330] = {
-			{[20]={bCenterAlarm=true,bFullScreen=true},col={255,255,255},szContent="的卢已经出现在龙泉府中，浩气盟和恶人谷的侠士可前去尝试抓捕！\
-",szNote="龙泉府·的卢·出山",tCountdown={{key="阵营活动",nClass=20,nFrame=8,nIcon=21034,nRefresh=1,nTime="600,的卢·保护剩余;610,的卢·保护结束",szName="的卢·保护剩余"}}},
+			{[20]={bCenterAlarm=true,bFullScreen=true},col={255,255,255},szContent="的卢已经出现在龙泉府中，浩气盟和恶人谷的侠士可前去尝试抓捕！\n",szNote="龙泉府·的卢·出山",tCountdown={{key="阵营活动",nClass=20,nFrame=8,nIcon=21034,nRefresh=1,nTime="600,的卢·保护剩余;610,的卢·保护结束",szName="的卢·保护剩余"}}},
 			{[20]={bCenterAlarm=true,bFullScreen=true,bTeamChannel=true},bReg=true,col={255,100,100},szContent="^江湖快马飞报！恶人谷侠士“(.-)”在龙泉府捕获(%d-)级稀有坐骑[马]-“(.-)”",szNote="恶人谷·[{$1}]·捕获·{$3}",tCountdown={{key="阵营活动",nClass=20,nFrame=3,nIcon=21034,nTime=60,szName="恶人谷[{$1}]捕获·{$3}"},{key="套马",nClass=20,nIcon=13,nTime=-1,szName="套马"}}},
 			{[20]={bCenterAlarm=true,bFullScreen=true,bTeamChannel=true},bReg=true,col={100,100,255},szContent="^江湖快马飞报！浩气盟侠士“(.-)”在龙泉府捕获(%d-)级稀有坐骑[马]-“(.-)”",szNote="浩气盟·[{$1}]·捕获·{$3}",tCountdown={{key="阵营活动",nClass=20,nFrame=7,nIcon=21034,nTime=60,szName="浩气盟[{$1}]捕获·{$3}"},{key="套马",nClass=20,nIcon=13,nTime=-1,szName="套马"}}},
 			{[20]={bCenterAlarm=true,bFullScreen=true,bTeamChannel=true},bReg=true,col={255,255,255},szContent="^江湖快马飞报！(.-)侠士“(.-)”在龙泉府捕获(%d-)级稀有坐骑[马]-“(.-)”",szNote="{$1}[{$2}]·捕获·{$4}",tCountdown={{key="阵营活动",nClass=20,nFrame=8,nIcon=21034,nTime=60,szName="{$1}[{$2}]捕获·{$4}"}}},

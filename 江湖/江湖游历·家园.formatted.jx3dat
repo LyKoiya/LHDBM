@@ -20,10 +20,8 @@ return {
 	CHAT = {
 		[-15] = {
 			{[20]={bCenterAlarm=true},bReg=true,szContent="^恭喜侠士获得“(.-)”增益！",szNote="祈福树·增益·{$1}",tCountdown={{key="祈福树·{$1}",nClass=20,nFrame=6,nIcon=14797,nTime=20,szName="祈福树·增益·{$1}"}}},
-			{szContent="物件已自动收集到[桑木书柜]中，交互书柜家具可再次查阅。\
-",tCountdown={{key="系统事件",nClass=20,nIcon=13556,nTime=2,szName="物件已收集到[桑木书柜]中"}}},
-			{szContent="建造成功\
-",tCountdown={{key="系统事件",nClass=20,nFrame=0,nIcon=879,nRefresh=1,nTime=5,szName="建造成功"}}},
+			{szContent="物件已自动收集到[桑木书柜]中，交互书柜家具可再次查阅。\n",tCountdown={{key="系统事件",nClass=20,nIcon=13556,nTime=2,szName="物件已收集到[桑木书柜]中"}}},
+			{szContent="建造成功\n",tCountdown={{key="系统事件",nClass=20,nFrame=0,nIcon=879,nRefresh=1,nTime=5,szName="建造成功"}}},
 		},
 	},
 	DEBUFF = {

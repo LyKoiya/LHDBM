@@ -3,8 +3,7 @@ return {
 	CASTING = {},
 	CHAT = {
 		[-15] = {
-			{bSearch=true,szContent="园宅啾鸣，主人幸得兔啾青睐。“{$me}”侠士触发奇遇【兔江湖】，真是奇哉！\
-",tCountdown={{bHold=true,key="奇遇提示0",nClass=20,nFrame=0,nIcon=12372,nRefresh=0,nTime="5,恭喜触发奇遇·兔江湖;15,该奇遇封印5日;30,每日预计10分钟完成;60,1.前往·广陵邑集市·阎规;90,2.洛阳·战乱·洛阳城门;120,3.茶馆附近·对话·神秘人;150,4.对话·阎规·对话·鲁小兔;180,5.佛塔前·再对话·鲁小兔",szName="恭喜触发奇遇·白日梦"},{bHold=true,key="奇遇提示1",nClass=20,nFrame=6,nIcon=12372,nTime=600,szName="前往·广陵邑集市·阎规"},{bHold=true,key="奇遇提示2",nClass=20,nFrame=7,nIcon=12372,nTime=600,szName="洛阳·战乱·洛阳城门"},{bHold=true,key="奇遇提示3",nClass=20,nFrame=7,nIcon=12372,nTime=600,szName="茶馆附近·对话·神秘人"}}},
+			{bSearch=true,szContent="园宅啾鸣，主人幸得兔啾青睐。“{$me}”侠士触发奇遇【兔江湖】，真是奇哉！\n",tCountdown={{bHold=true,key="奇遇提示0",nClass=20,nFrame=0,nIcon=12372,nRefresh=0,nTime="5,恭喜触发奇遇·兔江湖;15,该奇遇封印5日;30,每日预计10分钟完成;60,1.前往·广陵邑集市·阎规;90,2.洛阳·战乱·洛阳城门;120,3.茶馆附近·对话·神秘人;150,4.对话·阎规·对话·鲁小兔;180,5.佛塔前·再对话·鲁小兔",szName="恭喜触发奇遇·白日梦"},{bHold=true,key="奇遇提示1",nClass=20,nFrame=6,nIcon=12372,nTime=600,szName="前往·广陵邑集市·阎规"},{bHold=true,key="奇遇提示2",nClass=20,nFrame=7,nIcon=12372,nTime=600,szName="洛阳·战乱·洛阳城门"},{bHold=true,key="奇遇提示3",nClass=20,nFrame=7,nIcon=12372,nTime=600,szName="茶馆附近·对话·神秘人"}}},
 		},
 	},
 	DEBUFF = {

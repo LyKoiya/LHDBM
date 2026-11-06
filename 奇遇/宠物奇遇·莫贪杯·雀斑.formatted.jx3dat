@@ -3,8 +3,7 @@ return {
 	CASTING = {},
 	CHAT = {
 		[49] = {
-			{szContent="你已接受了[特供醒酒汤·一]。\
-",tCountdown={{key="奇遇提示1",nClass=20,nFrame=7,nIcon=12373,nTime=600,szName="准备·生活技艺·胡椒粉x2"},{key="奇遇提示2",nClass=20,nFrame=7,nIcon=12373,nTime=600,szName="对话·王厨娘·对话·叶然"},{key="奇遇提示3",nClass=20,nFrame=7,nIcon=12373,nTime=600,szName="再次·对话叶然·触发奇遇"}}},
+			{szContent="你已接受了[特供醒酒汤·一]。\n",tCountdown={{key="奇遇提示1",nClass=20,nFrame=7,nIcon=12373,nTime=600,szName="准备·生活技艺·胡椒粉x2"},{key="奇遇提示2",nClass=20,nFrame=7,nIcon=12373,nTime=600,szName="对话·王厨娘·对话·叶然"},{key="奇遇提示3",nClass=20,nFrame=7,nIcon=12373,nTime=600,szName="再次·对话叶然·触发奇遇"}}},
 		},
 	},
 	DEBUFF = {},

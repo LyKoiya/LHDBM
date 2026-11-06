@@ -3,20 +3,16 @@ return {
 	CASTING = {},
 	CHAT = {
 		[-21] = {
-			{[20]={bCenterAlarm=true},szContent="援助关系绑定成功，退队可主动解除，但会受到一定惩罚。若对方离线，主动退队解除关系将不受惩罚。\
-",szNote="援助·已绑定",tCountdown={{key="援助提示",nClass=20,nFrame=0,nIcon=13,nTime=10,szName="援助·已绑定"}}},
+			{[20]={bCenterAlarm=true},szContent="援助关系绑定成功，退队可主动解除，但会受到一定惩罚。若对方离线，主动退队解除关系将不受惩罚。\n",szNote="援助·已绑定",tCountdown={{key="援助提示",nClass=20,nFrame=0,nIcon=13,nTime=10,szName="援助·已绑定"}}},
 		},
 		[-7] = {
-			{[20]={bCenterAlarm=true},szContent="援助关系绑定成功，退队可主动解除，但会受到一定惩罚。若对方离线，主动退队解除关系将不受惩罚。\
-",szNote="援助·已绑定",tCountdown={{key="援助提示",nClass=20,nFrame=0,nIcon=13,nTime=10,szName="援助·已绑定"}}},
+			{[20]={bCenterAlarm=true},szContent="援助关系绑定成功，退队可主动解除，但会受到一定惩罚。若对方离线，主动退队解除关系将不受惩罚。\n",szNote="援助·已绑定",tCountdown={{key="援助提示",nClass=20,nFrame=0,nIcon=13,nTime=10,szName="援助·已绑定"}}},
 		},
 		[-2] = {
-			{[20]={bCenterAlarm=true},szContent="援助关系绑定成功，退队可主动解除，但会受到一定惩罚。若对方离线，主动退队解除关系将不受惩罚。\
-",szNote="援助·已绑定",tCountdown={{key="援助提示",nClass=20,nFrame=0,nIcon=13,nTime=10,szName="援助·已绑定"}}},
+			{[20]={bCenterAlarm=true},szContent="援助关系绑定成功，退队可主动解除，但会受到一定惩罚。若对方离线，主动退队解除关系将不受惩罚。\n",szNote="援助·已绑定",tCountdown={{key="援助提示",nClass=20,nFrame=0,nIcon=13,nTime=10,szName="援助·已绑定"}}},
 		},
 		[6] = {
-			{szContent="你已接受了[一杯浊酒尽余欢]。\
-",szNote="剑三江湖·师徒·出师任务",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="徒弟7日·不可拜师敬酒师傅"},{key="任务提示2",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="师傅5日·不可收徒敬酒徒弟"},{key="任务提示3",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="非敬酒师傅出师后可直接拜师"},{key="任务提示4",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="被敬酒师傅5日后可主动收徒"}}},
+			{szContent="你已接受了[一杯浊酒尽余欢]。\n",szNote="剑三江湖·师徒·出师任务",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="徒弟7日·不可拜师敬酒师傅"},{key="任务提示2",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="师傅5日·不可收徒敬酒徒弟"},{key="任务提示3",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="非敬酒师傅出师后可直接拜师"},{key="任务提示4",nClass=20,nFrame=6,nIcon=13,nTime=30,szName="被敬酒师傅5日后可主动收徒"}}},
 		},
 	},
 	DEBUFF = {

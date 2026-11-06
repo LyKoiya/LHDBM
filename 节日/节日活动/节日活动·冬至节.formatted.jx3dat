@@ -96,66 +96,36 @@ return {
 	},
 	CHAT = {
 		[451] = {
-			{szContent="今日似乎有更加强大的敌人出现，请侠士多加小心。\
-",tCountdown={{key="强大敌人",nClass=20,nFrame=2,nIcon=13,nTime=30,szName="强大的敌人出现"}}},
-			{szContent="你的门客意外救下了一个昏倒在雪地里的人，她醒来以后说有很重要的事情要告诉你，快去看看吧。\
-",tCountdown={{key="门客出游",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="门客出游·开启"}}},
-			{szContent="一群猴子聚集在温泉上游洗澡，游客们很不满意，快去驱逐它们。\
-",tCountdown={{key="事件提示",nClass=20,nFrame=3,nIcon=13,nTime=600,szName="事件·驱逐猴子"}}},
-			{szContent="一群山贼在山脚下抢劫游客，快去驱逐他们。\
-",tCountdown={{key="事件提示",nClass=20,nFrame=3,nIcon=13,nTime=600,szName="事件·驱逐山贼"}}},
-			{szContent="一群饿狼出现在了山脚下骚扰游客，快去驱逐它们。\
-",tCountdown={{key="事件提示",nClass=20,nFrame=3,nIcon=13,nTime=600,szName="事件·驱逐饿狼"}}},
-			{szContent="山庄生气勃勃。往来之人鱼龙混杂，其中有人似怀歹意。\
-",tCountdown={{key="事件提示",nClass=20,nFrame=3,nIcon=13,nTime=360,szName="事件·地鼠门开山将"}}},
-			{szContent="驱逐了山贼，山庄又恢复了平静。\
-",tCountdown={{key="事件提示",nClass=20,nFrame=5,nIcon=13,nTime=0,szName="事件提示"}}},
-			{szContent="驱逐了猴子，山庄又恢复了平静。\
-",tCountdown={{key="事件提示",nClass=20,nFrame=5,nIcon=13,nTime=0,szName="事件提示"}}},
-			{szContent="驱逐了饿狼，山庄又恢复了平静。\
-",tCountdown={{key="事件提示",nClass=20,nFrame=5,nIcon=13,nTime=0,szName="事件提示"}}},
-			{szContent="驱逐了地鼠门开山将，山庄又恢复了平静。\
-",tCountdown={{key="事件提示",nClass=20,nFrame=5,nIcon=13,nTime=0,szName="事件提示"}}},
-			{[20]={bCenterAlarm=true},szContent="温泉池中似乎有一位神秘客人，去看看吧！\
-",szNote="明教·陆三喵·温泉池中",tCountdown={{key="门客·陆三喵",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="明教·陆三喵·温泉池中"}}},
-			{[20]={bCenterAlarm=true},szContent="幽雾洞附近有一个小姑娘似乎迷路了，去看一下是何情况。\
-",szNote="万花·澜漪·幽雾洞附近",tCountdown={{key="门客·澜漪",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="万花·澜漪·幽雾洞附近"}}},
-			{[20]={bCenterAlarm=true},szContent="枭狼坡附近有一个小姑娘似乎迷路了，去看一下是何情况。\
-",szNote="万花·澜漪·枭狼坡附近",tCountdown={{key="门客·澜漪",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="万花·澜漪·枭狼坡附近"}}},
-			{[20]={bCenterAlarm=true},szContent="山庄外的河边似乎有血迹，不知是人还是动物的，还是去探查一下吧。\
-",szNote="唐门·鹊羽·山庄外河边",tCountdown={{key="门客·鹊羽",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="唐门·鹊羽·山庄外河边"}}},
-			{[20]={bCenterAlarm=true},szContent="去幽雾洞的路上似乎有血迹，不知是人还是动物的，还是去探查一下吧。\
-",szNote="唐门·鹊羽·幽雾洞路上",tCountdown={{key="门客·鹊羽",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="唐门·鹊羽·幽雾洞路上"}}},
-			{[20]={bCenterAlarm=true},szContent="枭狼坡附近似乎有血迹，不知是人还是动物的，还是去探查一下吧。\
-",szNote="唐门·鹊羽·枭狼坡附近",tCountdown={{key="门客·鹊羽",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="唐门·鹊羽·枭狼坡附近"}}},
-			{[20]={bCenterAlarm=true},szContent="今天温泉山庄来了一位神秘客人，去山庄门外看看是谁吧。\
-",szNote="凌雪·风眠·山庄门外",tCountdown={{key="门客·风眠",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="凌雪·风眠·山庄门外"}}},
-			{[20]={bCenterAlarm=true},szContent="温泉山庄外似乎有一位神秘客人驻足，还是去看看是谁吧。\
-",szNote="药宗青圃/藏剑叶方卉·山庄门外",tCountdown={{key="门客·青圃",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="药宗/藏剑·山庄门外"},{key="门客·叶方卉",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="药宗/藏剑·山庄门外"}}},
-			{[20]={bCenterAlarm=true},szContent="山庄的前台好像来了一个小姑娘，去看看发生甚么事了？\
-",szNote="万灵·栖迟·山庄前台",tCountdown={{key="门客·栖迟",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="万灵·栖迟·山庄前台"}}},
-			{[20]={bCenterAlarm=true},szContent="温泉山庄内似乎有一位神秘客人驻足，还是去看看是谁吧。\
-",szNote="段氏·段树·山庄内",tCountdown={{key="门客·段树",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="段氏·段树·山庄内"}}},
-			{[20]={bCenterAlarm=true},szContent="咸娴似乎有事找你，快去前台看看。\
-",szNote="丐帮·闻苗·山庄前台",tCountdown={{key="门客·闻苗",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="丐帮·闻苗·山庄前台"}}},
-			{szContent="陆三喵成为山庄门客。\
-",szNote="门客·明教·陆三喵",tCountdown={{key="门客·陆三喵",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="门客·陆三喵·防御·阴阳"}}},
-			{szContent="叶方卉成为山庄门客。\
-",szNote="门客·藏剑·叶方卉",tCountdown={{key="门客·青圃",nClass=20,nFrame=6,nIcon=13,nTime=0,szName="门客·青圃"},{key="门客·叶方卉",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="藏剑·叶方卉·输出·外功"}}},
-			{szContent="澜漪成为山庄门客。\
-",szNote="门客·万花·澜漪",tCountdown={{key="门客·澜漪",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="万花·澜漪·治疗·混元"}}},
-			{szContent="鹊羽成为山庄门客。\
-",szNote="门客·唐门·鹊羽",tCountdown={{key="门客·鹊羽",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="唐门·鹊羽·输出·毒性外功"}}},
-			{szContent="风眠成为山庄门客。\
-",szNote="门客·凌雪·风眠",tCountdown={{key="门客·风眠",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="凌雪·风眠·输出·外功"}}},
-			{szContent="青圃成为山庄门客。\
-",szNote="门客·药宗·青圃",tCountdown={{key="门客·青圃",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="药宗·青圃·治疗·毒性"},{key="门客·叶方卉",nClass=20,nFrame=6,nIcon=13,nTime=0,szName="门客·叶方卉"}}},
-			{szContent="栖迟成为山庄门客。\
-",szNote="门客·万灵·栖迟",tCountdown={{key="门客·栖迟",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="万灵·栖迟·输出·外功"}}},
-			{szContent="段树成为山庄门客。\
-",szNote="门客·段氏·段树",tCountdown={{key="门客·段树",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="段氏·段树·输出·混元"}}},
-			{szContent="闻苗成为山庄门客。\
-",szNote="门客·丐帮·闻苗",tCountdown={{key="门客·闻苗",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="丐帮·闻苗·输出·外功"}}},
+			{szContent="今日似乎有更加强大的敌人出现，请侠士多加小心。\n",tCountdown={{key="强大敌人",nClass=20,nFrame=2,nIcon=13,nTime=30,szName="强大的敌人出现"}}},
+			{szContent="你的门客意外救下了一个昏倒在雪地里的人，她醒来以后说有很重要的事情要告诉你，快去看看吧。\n",tCountdown={{key="门客出游",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="门客出游·开启"}}},
+			{szContent="一群猴子聚集在温泉上游洗澡，游客们很不满意，快去驱逐它们。\n",tCountdown={{key="事件提示",nClass=20,nFrame=3,nIcon=13,nTime=600,szName="事件·驱逐猴子"}}},
+			{szContent="一群山贼在山脚下抢劫游客，快去驱逐他们。\n",tCountdown={{key="事件提示",nClass=20,nFrame=3,nIcon=13,nTime=600,szName="事件·驱逐山贼"}}},
+			{szContent="一群饿狼出现在了山脚下骚扰游客，快去驱逐它们。\n",tCountdown={{key="事件提示",nClass=20,nFrame=3,nIcon=13,nTime=600,szName="事件·驱逐饿狼"}}},
+			{szContent="山庄生气勃勃。往来之人鱼龙混杂，其中有人似怀歹意。\n",tCountdown={{key="事件提示",nClass=20,nFrame=3,nIcon=13,nTime=360,szName="事件·地鼠门开山将"}}},
+			{szContent="驱逐了山贼，山庄又恢复了平静。\n",tCountdown={{key="事件提示",nClass=20,nFrame=5,nIcon=13,nTime=0,szName="事件提示"}}},
+			{szContent="驱逐了猴子，山庄又恢复了平静。\n",tCountdown={{key="事件提示",nClass=20,nFrame=5,nIcon=13,nTime=0,szName="事件提示"}}},
+			{szContent="驱逐了饿狼，山庄又恢复了平静。\n",tCountdown={{key="事件提示",nClass=20,nFrame=5,nIcon=13,nTime=0,szName="事件提示"}}},
+			{szContent="驱逐了地鼠门开山将，山庄又恢复了平静。\n",tCountdown={{key="事件提示",nClass=20,nFrame=5,nIcon=13,nTime=0,szName="事件提示"}}},
+			{[20]={bCenterAlarm=true},szContent="温泉池中似乎有一位神秘客人，去看看吧！\n",szNote="明教·陆三喵·温泉池中",tCountdown={{key="门客·陆三喵",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="明教·陆三喵·温泉池中"}}},
+			{[20]={bCenterAlarm=true},szContent="幽雾洞附近有一个小姑娘似乎迷路了，去看一下是何情况。\n",szNote="万花·澜漪·幽雾洞附近",tCountdown={{key="门客·澜漪",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="万花·澜漪·幽雾洞附近"}}},
+			{[20]={bCenterAlarm=true},szContent="枭狼坡附近有一个小姑娘似乎迷路了，去看一下是何情况。\n",szNote="万花·澜漪·枭狼坡附近",tCountdown={{key="门客·澜漪",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="万花·澜漪·枭狼坡附近"}}},
+			{[20]={bCenterAlarm=true},szContent="山庄外的河边似乎有血迹，不知是人还是动物的，还是去探查一下吧。\n",szNote="唐门·鹊羽·山庄外河边",tCountdown={{key="门客·鹊羽",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="唐门·鹊羽·山庄外河边"}}},
+			{[20]={bCenterAlarm=true},szContent="去幽雾洞的路上似乎有血迹，不知是人还是动物的，还是去探查一下吧。\n",szNote="唐门·鹊羽·幽雾洞路上",tCountdown={{key="门客·鹊羽",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="唐门·鹊羽·幽雾洞路上"}}},
+			{[20]={bCenterAlarm=true},szContent="枭狼坡附近似乎有血迹，不知是人还是动物的，还是去探查一下吧。\n",szNote="唐门·鹊羽·枭狼坡附近",tCountdown={{key="门客·鹊羽",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="唐门·鹊羽·枭狼坡附近"}}},
+			{[20]={bCenterAlarm=true},szContent="今天温泉山庄来了一位神秘客人，去山庄门外看看是谁吧。\n",szNote="凌雪·风眠·山庄门外",tCountdown={{key="门客·风眠",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="凌雪·风眠·山庄门外"}}},
+			{[20]={bCenterAlarm=true},szContent="温泉山庄外似乎有一位神秘客人驻足，还是去看看是谁吧。\n",szNote="药宗青圃/藏剑叶方卉·山庄门外",tCountdown={{key="门客·青圃",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="药宗/藏剑·山庄门外"},{key="门客·叶方卉",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="药宗/藏剑·山庄门外"}}},
+			{[20]={bCenterAlarm=true},szContent="山庄的前台好像来了一个小姑娘，去看看发生甚么事了？\n",szNote="万灵·栖迟·山庄前台",tCountdown={{key="门客·栖迟",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="万灵·栖迟·山庄前台"}}},
+			{[20]={bCenterAlarm=true},szContent="温泉山庄内似乎有一位神秘客人驻足，还是去看看是谁吧。\n",szNote="段氏·段树·山庄内",tCountdown={{key="门客·段树",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="段氏·段树·山庄内"}}},
+			{[20]={bCenterAlarm=true},szContent="咸娴似乎有事找你，快去前台看看。\n",szNote="丐帮·闻苗·山庄前台",tCountdown={{key="门客·闻苗",nClass=20,nFrame=6,nIcon=13,nTime=900,szName="丐帮·闻苗·山庄前台"}}},
+			{szContent="陆三喵成为山庄门客。\n",szNote="门客·明教·陆三喵",tCountdown={{key="门客·陆三喵",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="门客·陆三喵·防御·阴阳"}}},
+			{szContent="叶方卉成为山庄门客。\n",szNote="门客·藏剑·叶方卉",tCountdown={{key="门客·青圃",nClass=20,nFrame=6,nIcon=13,nTime=0,szName="门客·青圃"},{key="门客·叶方卉",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="藏剑·叶方卉·输出·外功"}}},
+			{szContent="澜漪成为山庄门客。\n",szNote="门客·万花·澜漪",tCountdown={{key="门客·澜漪",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="万花·澜漪·治疗·混元"}}},
+			{szContent="鹊羽成为山庄门客。\n",szNote="门客·唐门·鹊羽",tCountdown={{key="门客·鹊羽",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="唐门·鹊羽·输出·毒性外功"}}},
+			{szContent="风眠成为山庄门客。\n",szNote="门客·凌雪·风眠",tCountdown={{key="门客·风眠",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="凌雪·风眠·输出·外功"}}},
+			{szContent="青圃成为山庄门客。\n",szNote="门客·药宗·青圃",tCountdown={{key="门客·青圃",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="药宗·青圃·治疗·毒性"},{key="门客·叶方卉",nClass=20,nFrame=6,nIcon=13,nTime=0,szName="门客·叶方卉"}}},
+			{szContent="栖迟成为山庄门客。\n",szNote="门客·万灵·栖迟",tCountdown={{key="门客·栖迟",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="万灵·栖迟·输出·外功"}}},
+			{szContent="段树成为山庄门客。\n",szNote="门客·段氏·段树",tCountdown={{key="门客·段树",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="段氏·段树·输出·混元"}}},
+			{szContent="闻苗成为山庄门客。\n",szNote="门客·丐帮·闻苗",tCountdown={{key="门客·闻苗",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="丐帮·闻苗·输出·外功"}}},
 			{[20]={bCenterAlarm=true},bSearch=true,szContent="柴钗采货归来",szNote="柴钗·采货归来",tCountdown={{key="柴钗采货",nClass=20,nFrame=7,nIcon=13,nRefresh=0,nTime="10,柴钗·采货归来;105,柴钗·休息剩余;115,柴钗·休息结束",szName="柴钗采货"}}},
 		},
 	},

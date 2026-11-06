@@ -3,18 +3,14 @@ return {
 	CASTING = {},
 	CHAT = {
 		[-1] = {
-			{szContent="司徒一一的机甲巨豕出现啦，它威力无比，将破坏赏花大会的菊花花圃，侠士们速去扬州将它赶跑！\
-",tCountdown={{key="通用事件",nClass=20,nFrame=6,nIcon=88,nTime=20,szName="扬州·机甲巨豕"}}},
-			{szContent="司徒一一的机甲巨豕出现啦，它威力无比，将破坏赏花大会的菊花花圃，侠士们速去成都将它赶跑！\
-",tCountdown={{key="通用事件",nClass=20,nFrame=6,nIcon=88,nTime=20,szName="成都·机甲巨豕"}}},
+			{szContent="司徒一一的机甲巨豕出现啦，它威力无比，将破坏赏花大会的菊花花圃，侠士们速去扬州将它赶跑！\n",tCountdown={{key="通用事件",nClass=20,nFrame=6,nIcon=88,nTime=20,szName="扬州·机甲巨豕"}}},
+			{szContent="司徒一一的机甲巨豕出现啦，它威力无比，将破坏赏花大会的菊花花圃，侠士们速去成都将它赶跑！\n",tCountdown={{key="通用事件",nClass=20,nFrame=6,nIcon=88,nTime=20,szName="成都·机甲巨豕"}}},
 		},
 		[7] = {
-			{szContent="你已接受了[慰问老人·沁芳济小龟]。\
-",szNote="使用·道具·[沁芳丸]",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nRefresh=2,nTime=10,szName="使用·道具·[沁芳丸]"}}},
+			{szContent="你已接受了[慰问老人·沁芳济小龟]。\n",szNote="使用·道具·[沁芳丸]",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nRefresh=2,nTime=10,szName="使用·道具·[沁芳丸]"}}},
 		},
 		[150] = {
-			{[20]={bCenterAlarm=true},szContent="你已接受了[慰问老人·遗失的宝物]。\
-",szNote="寻找·明教·罐子",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nRefresh=2,nTime=30,szName="寻找·明教·罐子"}}},
+			{[20]={bCenterAlarm=true},szContent="你已接受了[慰问老人·遗失的宝物]。\n",szNote="寻找·明教·罐子",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nRefresh=2,nTime=30,szName="寻找·明教·罐子"}}},
 		},
 	},
 	DEBUFF = {},

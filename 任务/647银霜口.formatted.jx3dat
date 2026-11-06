@@ -3,16 +3,11 @@ return {
 	CASTING = {},
 	CHAT = {
 		[647] = {
-			{szContent="你已接受了[保护友人]。\
-",tCountdown={{key="任务提示0",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="可以出洞口从背后攻击"}}},
-			{szContent="你已接受了[入人间]。\
-",tCountdown={{key="任务提示0",nClass=20,nFrame=0,nIcon=13,nTime=20,szName="洞口在大地图泉字东边下方"}}},
-			{szContent="你已完成了[引人耳目]。\
-",tCountdown={{key="罗道山",nClass=20,nFrame=5,nIcon=13,nTime=0,szName="罗道山"}}},
-			{szContent="你已接受了[搬运物用]。\
-",tCountdown={{key="任务提示0",nClass=20,nFrame=3,nIcon=13,nRefresh=20,nTime=20,szName="先使用·白羽焰翼"}}},
-			{szContent="你已完成了[搬运物用]。\
-",tCountdown={{key="任务提示0",nClass=20,nFrame=3,nIcon=13,nTime=0,szName="周常提示"}}},
+			{szContent="你已接受了[保护友人]。\n",tCountdown={{key="任务提示0",nClass=20,nFrame=0,nIcon=13,nTime=30,szName="可以出洞口从背后攻击"}}},
+			{szContent="你已接受了[入人间]。\n",tCountdown={{key="任务提示0",nClass=20,nFrame=0,nIcon=13,nTime=20,szName="洞口在大地图泉字东边下方"}}},
+			{szContent="你已完成了[引人耳目]。\n",tCountdown={{key="罗道山",nClass=20,nFrame=5,nIcon=13,nTime=0,szName="罗道山"}}},
+			{szContent="你已接受了[搬运物用]。\n",tCountdown={{key="任务提示0",nClass=20,nFrame=3,nIcon=13,nRefresh=20,nTime=20,szName="先使用·白羽焰翼"}}},
+			{szContent="你已完成了[搬运物用]。\n",tCountdown={{key="任务提示0",nClass=20,nFrame=3,nIcon=13,nTime=0,szName="周常提示"}}},
 		},
 	},
 	DEBUFF = {

@@ -6,90 +6,70 @@ return {
 			{bSearch=true,szContent="你已接受了[大战！",tCountdown={{key="打包外食1",nClass=20,nFrame=2,nIcon=360,nTime=20,szName="记得打包·帮会外食"},{key="打包外食2",nClass=20,nFrame=2,nIcon=360,nTime=20,szName="记得打包·帮会外食"}}},
 		},
 		[2] = {
-			{szContent="你已接受了[鸿鹄·天工迷云]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·天工坊·五人普通"}}},
+			{szContent="你已接受了[鸿鹄·天工迷云]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·天工坊·五人普通"}}},
 		},
 		[5] = {
-			{szContent="你已接受了[鸿鹄·灵霄险恶]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·灵霄峡·五人普通"}}},
+			{szContent="你已接受了[鸿鹄·灵霄险恶]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·灵霄峡·五人普通"}}},
 		},
 		[7] = {
-			{szContent="你已接受了[鸿鹄·空雾风云]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·空雾峰·五人普通"}}},
+			{szContent="你已接受了[鸿鹄·空雾风云]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·空雾峰·五人普通"}}},
 		},
 		[11] = {
-			{szContent="你已接受了[鸿鹄·勇闯三才]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·天地三才阵·五人普通"}}},
+			{szContent="你已接受了[鸿鹄·勇闯三才]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·天地三才阵·五人普通"}}},
 		},
 		[16] = {
-			{szContent="你已接受了[鸿鹄·无盐恶枭]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·无盐岛·五人普通"}}},
+			{szContent="你已接受了[鸿鹄·无盐恶枭]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·无盐岛·五人普通"}}},
 		},
 		[49] = {
-			{szContent="你已接受了[鸿鹄·剑冢剑芒]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·剑冢·五人普通"}}},
+			{szContent="你已接受了[鸿鹄·剑冢剑芒]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·剑冢·五人普通"}}},
 		},
 		[74] = {
 			{bSearch=true,szContent="你已接受了[大战！",tCountdown={{key="打包外食1",nClass=20,nFrame=2,nIcon=360,nTime=20,szName="记得打包·帮会外食"},{key="打包外食2",nClass=20,nFrame=2,nIcon=360,nTime=20,szName="记得打包·帮会外食"}}},
 		},
 		[102] = {
-			{szContent="你已接受了[鸿鹄·毒海仙踪]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·仙踪林·五人简单"}}},
+			{szContent="你已接受了[鸿鹄·毒海仙踪]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·仙踪林·五人简单"}}},
 		},
 		[122] = {
-			{szContent="你已接受了[鸿鹄·密室机关]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·唐门密室·五人普通"}}},
+			{szContent="你已接受了[鸿鹄·密室机关]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·唐门密室·五人普通"}}},
 		},
 		[150] = {
-			{szContent="你已接受了[鸿鹄·五行奇阵]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·光明顶秘道·五人普通"}}},
+			{szContent="你已接受了[鸿鹄·五行奇阵]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·光明顶秘道·五人普通"}}},
 		},
 		[153] = {
 			{bSearch=true,szContent="你已接受了[大战！",tCountdown={{key="打包外食1",nClass=20,nFrame=2,nIcon=360,nTime=20,szName="记得打包·帮会外食"},{key="打包外食2",nClass=20,nFrame=2,nIcon=360,nTime=20,szName="记得打包·帮会外食"}}},
 		},
 		[159] = {
-			{szContent="你已接受了[鸿鹄·魅影迷离]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·流离岛·五人普通"}}},
+			{szContent="你已接受了[鸿鹄·魅影迷离]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·流离岛·五人普通"}}},
 		},
 		[193] = {
-			{szContent="你已接受了[鸿鹄·长恨雁门]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·雁门关之役·5人普通"}}},
+			{szContent="你已接受了[鸿鹄·长恨雁门]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·雁门关之役·5人普通"}}},
 		},
 		[213] = {
-			{szContent="你已接受了[鸿鹄·正气长存]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·微山书院·五人普通"}}},
+			{szContent="你已接受了[鸿鹄·正气长存]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·微山书院·五人普通"}}},
 		},
 		[243] = {
-			{szContent="你已接受了[鸿鹄·夕颜无泪]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·夕颜阁·五人普通"}}},
+			{szContent="你已接受了[鸿鹄·夕颜无泪]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·夕颜阁·五人普通"}}},
 		},
 		[333] = {
-			{szContent="你已接受了[鸿鹄·九辩迷局]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·九辩馆·五人普通"}}},
+			{szContent="你已接受了[鸿鹄·九辩迷局]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·九辩馆·五人普通"}}},
 		},
 		[419] = {
-			{szContent="你已接受了[鸿鹄·玄鹤秘事]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·玄鹤别院·普通/英雄"}}},
+			{szContent="你已接受了[鸿鹄·玄鹤秘事]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·玄鹤别院·普通/英雄"}}},
 		},
 		[464] = {
-			{szContent="你已接受了[鸿鹄·入梦推演]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·梦入集真岛·普通/英雄"}}},
+			{szContent="你已接受了[鸿鹄·入梦推演]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·梦入集真岛·普通/英雄"}}},
 		},
 		[526] = {
-			{szContent="你已接受了[鸿鹄·别院危境]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·武氏别院·五人普通/英雄"}}},
+			{szContent="你已接受了[鸿鹄·别院危境]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·武氏别院·五人普通/英雄"}}},
 		},
 		[578] = {
-			{szContent="你已接受了[鸿鹄·幽藤之馆]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·幽藤馆·五人普通/英雄"}}},
+			{szContent="你已接受了[鸿鹄·幽藤之馆]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·幽藤馆·五人普通/英雄"}}},
 		},
 		[642] = {
-			{szContent="你已接受了[鸿鹄·栖灵旧事]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·栖灵洞天旧事·普通/英雄"}}},
+			{szContent="你已接受了[鸿鹄·栖灵旧事]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·栖灵洞天旧事·普通/英雄"}}},
 		},
 		[666] = {
-			{szContent="你已接受了[鸿鹄·天龙对擂]。\
-",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·天龙寺·五人普通/英雄"}}},
+			{szContent="你已接受了[鸿鹄·天龙对擂]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·天龙寺·五人普通/英雄"}}},
 		},
 	},
 	DEBUFF = {},

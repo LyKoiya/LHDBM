@@ -18,8 +18,7 @@ return {
 	},
 	CHAT = {
 		[2] = {
-			{szContent="你已完成了[在天愿为比翼鸟]。\
-",szNote="七夕节·完成·在天愿为比翼鸟",tCountdown={{key="任务提示1",nClass=20,nIcon=13,nTime=0,szName="任务提示1"}}},
+			{szContent="你已完成了[在天愿为比翼鸟]。\n",szNote="七夕节·完成·在天愿为比翼鸟",tCountdown={{key="任务提示1",nClass=20,nIcon=13,nTime=0,szName="任务提示1"}}},
 		},
 	},
 	DEBUFF = {

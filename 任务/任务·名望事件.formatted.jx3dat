@@ -7,30 +7,20 @@ return {
 	CASTING = {},
 	CHAT = {
 		[-4] = {
-			{bReg=true,szContent="^诛恶事件触发！(.*)众侠士可前往【(.*)】一探究竟。\
-",tCountdown={{key="诛恶事件",nClass=20,nFrame=6,nIcon=334,nTime=10,szName="诛恶事件·{$2}"}}},
+			{bReg=true,szContent="^诛恶事件触发！(.*)众侠士可前往【(.*)】一探究竟。\n",tCountdown={{key="诛恶事件",nClass=20,nFrame=6,nIcon=334,nTime=10,szName="诛恶事件·{$2}"}}},
 		},
 		[-1] = {
-			{bReg=true,col={255,255,100},szContent="^诛恶事件触发！(.*)众侠士可前往【(.*)】一探究竟。\
-",tCountdown={{key="诛恶事件",nClass=20,nFrame=6,nIcon=334,nTime=300,szName="诛恶事件·{$2}"}}},
+			{bReg=true,col={255,255,100},szContent="^诛恶事件触发！(.*)众侠士可前往【(.*)】一探究竟。\n",tCountdown={{key="诛恶事件",nClass=20,nFrame=6,nIcon=334,nTime=300,szName="诛恶事件·{$2}"}}},
 		},
 		[647] = {
-			{[20]={szVoice="ZhuanJieDuan"},bSearch=true,szContent="侠士一不留心打碎了哗哗洞里的酒坛，浓烈的酒香引来野猪王的觊觎！\
-",tCountdown={{key="特殊事件1",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="引猪出洞·开启"}}},
-			{[20]={szVoice="ZhuanJieDuan"},bSearch=true,szContent="侠士一不留心打碎了酒坛，浓烈的酒香引来野猪王的觊觎！\
-",tCountdown={{key="特殊事件1",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="引猪出洞·开启"}}},
-			{[20]={szVoice="ZhuanJieDuan"},bSearch=true,szContent="侠士驱除狼群时，狼群发出怒吼，狼王于洞内现身！\
-",tCountdown={{key="特殊事件1",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="击退狼王·开启"}}},
-			{[20]={szVoice="ZhuanJieDuan"},bSearch=true,szContent="侠士驱逐的雪原豹中有一只在逃跑时误入巨猿王领地，雪山巨猿王于玉英谷深处现身！\
-",tCountdown={{key="特殊事件1",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="巨猿之谜·开启"}}},
-			{[20]={szVoice="ZhuanJieDuan"},szContent="云从社线报：宋家将于隐者客栈下行山路运送一车药材下山，药田管事宋松预感此行不顺，请诸位侠士前往护送！\
-",tCountdown={{key="特殊事件1",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="护送药材·开启"}}},
-			{[20]={szVoice="ZhuanJieDuan"},szContent="云从社线报：秦强的羊在风雪天走失，正在焦急寻找中！\
-",tCountdown={{key="特殊事件1",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="迷途羊羔·开启"}}},
-			{[20]={szVoice="ZhuanJieDuan"},szContent="云从社线报：绳池剑宗韩清芒正于玉英谷掩护鬼筹进行堪舆，请诸位侠士前往查探！\
-",tCountdown={{key="特殊事件1",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="退敌首·韩清芒刷新"}}},
-			{[20]={szVoice="ZhuanJieDuan"},szContent="云从社线报：血月众雷阎出现在洞心坪！\
-",tCountdown={{key="特殊事件1",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="恶斗争锋·雷阎刷新"}}},
+			{[20]={szVoice="ZhuanJieDuan"},bSearch=true,szContent="侠士一不留心打碎了哗哗洞里的酒坛，浓烈的酒香引来野猪王的觊觎！\n",tCountdown={{key="特殊事件1",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="引猪出洞·开启"}}},
+			{[20]={szVoice="ZhuanJieDuan"},bSearch=true,szContent="侠士一不留心打碎了酒坛，浓烈的酒香引来野猪王的觊觎！\n",tCountdown={{key="特殊事件1",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="引猪出洞·开启"}}},
+			{[20]={szVoice="ZhuanJieDuan"},bSearch=true,szContent="侠士驱除狼群时，狼群发出怒吼，狼王于洞内现身！\n",tCountdown={{key="特殊事件1",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="击退狼王·开启"}}},
+			{[20]={szVoice="ZhuanJieDuan"},bSearch=true,szContent="侠士驱逐的雪原豹中有一只在逃跑时误入巨猿王领地，雪山巨猿王于玉英谷深处现身！\n",tCountdown={{key="特殊事件1",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="巨猿之谜·开启"}}},
+			{[20]={szVoice="ZhuanJieDuan"},szContent="云从社线报：宋家将于隐者客栈下行山路运送一车药材下山，药田管事宋松预感此行不顺，请诸位侠士前往护送！\n",tCountdown={{key="特殊事件1",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="护送药材·开启"}}},
+			{[20]={szVoice="ZhuanJieDuan"},szContent="云从社线报：秦强的羊在风雪天走失，正在焦急寻找中！\n",tCountdown={{key="特殊事件1",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="迷途羊羔·开启"}}},
+			{[20]={szVoice="ZhuanJieDuan"},szContent="云从社线报：绳池剑宗韩清芒正于玉英谷掩护鬼筹进行堪舆，请诸位侠士前往查探！\n",tCountdown={{key="特殊事件1",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="退敌首·韩清芒刷新"}}},
+			{[20]={szVoice="ZhuanJieDuan"},szContent="云从社线报：血月众雷阎出现在洞心坪！\n",tCountdown={{key="特殊事件1",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="恶斗争锋·雷阎刷新"}}},
 			{[20]={szVoice="ZhuanJieDuan"},bSearch=true,szContent="云从社线报：鲍猴子正在前往青牛谷药田，他要向",tCountdown={{key="特殊事件1",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="夺田恶霸·开启"}}},
 		},
 	},

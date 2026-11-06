@@ -12,46 +12,31 @@ return {
 	},
 	CHAT = {
 		[-21] = {
-			{col={100,255,255},szContent="帮会领地唱晚池突现异常，各类鱼儿异常活跃，鱼儿上钩时间大大缩短！各路已满80级的侠士可前往一试，定能收获不菲。\
-",tCountdown={{key="帮会钓鱼",nClass=20,nFrame=6,nIcon=3781,nRefresh=1,nTime=15,szName="帮会钓鱼·活动开启"}}},
+			{col={100,255,255},szContent="帮会领地唱晚池突现异常，各类鱼儿异常活跃，鱼儿上钩时间大大缩短！各路已满80级的侠士可前往一试，定能收获不菲。\n",tCountdown={{key="帮会钓鱼",nClass=20,nFrame=6,nIcon=3781,nRefresh=1,nTime=15,szName="帮会钓鱼·活动开启"}}},
 		},
 		[-7] = {
-			{col={100,255,255},szContent="帮会领地唱晚池突现异常，各类鱼儿异常活跃，鱼儿上钩时间大大缩短！各路已满80级的侠士可前往一试，定能收获不菲。\
-",tCountdown={{key="帮会钓鱼",nClass=20,nFrame=6,nIcon=3781,nRefresh=1,nTime=15,szName="帮会钓鱼·活动开启"}}},
+			{col={100,255,255},szContent="帮会领地唱晚池突现异常，各类鱼儿异常活跃，鱼儿上钩时间大大缩短！各路已满80级的侠士可前往一试，定能收获不菲。\n",tCountdown={{key="帮会钓鱼",nClass=20,nFrame=6,nIcon=3781,nRefresh=1,nTime=15,szName="帮会钓鱼·活动开启"}}},
 		},
 		[-2] = {
-			{col={100,255,255},szContent="帮会领地唱晚池突现异常，各类鱼儿异常活跃，鱼儿上钩时间大大缩短！各路已满80级的侠士可前往一试，定能收获不菲。\
-",tCountdown={{key="帮会钓鱼",nClass=20,nFrame=6,nIcon=3781,nRefresh=1,nTime=15,szName="帮会钓鱼·活动开启"}}},
+			{col={100,255,255},szContent="帮会领地唱晚池突现异常，各类鱼儿异常活跃，鱼儿上钩时间大大缩短！各路已满80级的侠士可前往一试，定能收获不菲。\n",tCountdown={{key="帮会钓鱼",nClass=20,nFrame=6,nIcon=3781,nRefresh=1,nTime=15,szName="帮会钓鱼·活动开启"}}},
 		},
 		[74] = {
 			{[20]={bCenterAlarm=true},bReg=true,szContent="消耗帮会资金：(%d-)金",szNote="消耗帮资·[{$1}]金",tCountdown={{key="帮会资金",nClass=20,nFrame=1,nIcon=13,nTime=20,szName="消耗帮资·[{$1}]金"}}},
 			{[20]={bCenterAlarm=true},bReg=true,szContent="^开启(.-)第(%d-)重成功！消耗帮会资金：(%d-)金",szNote="天工树·{$1}[{$2}]·消耗帮资{$3}",tCountdown={{key="天工树",nClass=20,nFrame=1,nIcon=13,nTime=20,szName="{$1}[{$2}]·消耗帮资{$3}"}}},
 			{bReg=true,szContent="^%[帮会%](%b[])由%[(.-)%]转为%[(.-)%]。",tCountdown={{key="{$2}",nClass=20,nFrame=6,nIcon=13,nTime=5,szName="{$1}·{$2}→{$3}"}}},
 			{bReg=true,szContent="^你当前积分为(%d-)分，帮会总积分为(%d-)分。",szNote="当前积分·[{$1}]分",tCountdown={{key="小猪快跑",nClass=20,nFrame=6,nIcon=13,nTime=5,szName="个人积分{$1}分·帮会积分{$2}分"}}},
-			{szContent="帮会资金不足。\
-",tCountdown={{key="帮会资金",nClass=20,nFrame=2,nIcon=3358,nRefresh=2,nTime=5,szName="帮会资金·不足"}}},
-			{szContent="你已接受了[再遇新难题]。\
-",tCountdown={{key="炼狱水煮鱼·改良3",nClass=20,nFrame=0,nIcon=13,nTime=20,szName="需要准备·今朝醉·1个"},{key="炼狱水煮鱼·改良4",nClass=20,nFrame=0,nIcon=13,nTime=20,szName="再去找帮会大厨·辛三金"}}},
-			{szContent="你已接受了[菊花鲈鱼]。\
-",tCountdown={{key="帮会·送鱼",nClass=20,nFrame=6,nIcon=2825,nTime=60,szName="送鱼·[6]鲈鱼[-1]·20条"}}},
-			{szContent="你已接受了[清炖鲢鱼头]。\
-",tCountdown={{key="帮会·送鱼",nClass=20,nFrame=6,nIcon=2677,nTime=60,szName="送鱼·[5]鲢鱼[-2]·20条"}}},
-			{szContent="你已接受了[一品青鱼]。\
-",tCountdown={{key="帮会·送鱼",nClass=20,nFrame=6,nIcon=2676,nTime=60,szName="送鱼·[4]青鱼[-3]·20条"}}},
-			{szContent="你已接受了[芙蓉酥鲫鱼]。\
-",tCountdown={{key="帮会·送鱼",nClass=20,nFrame=6,nIcon=2817,nTime=60,szName="送鱼·[3]鲫鱼[-4]·20条"}}},
-			{szContent="你已接受了[西湖醋鱼]。\
-",tCountdown={{key="帮会·送鱼",nClass=20,nFrame=6,nIcon=2818,nTime=60,szName="送鱼·[2]草鱼[-5]·20条"}}},
-			{szContent="你已接受了[荷香鲤鱼]。\
-",tCountdown={{key="帮会·送鱼",nClass=20,nFrame=6,nIcon=2819,nTime=60,szName="送鱼·[1]鲤鱼[-6]·20条"}}},
-			{szContent="帮会领地唱晚池突现异常，各类鱼儿异常活跃，鱼儿上钩时间大大缩短！各路已满80级的侠士可前往一试，定能收获不菲。\
-",tCountdown={{key="帮会钓鱼",nClass=20,nFrame=6,nIcon=3781,nRefresh=1,nTime=15,szName="帮会钓鱼·活动开启"}}},
-			{szContent="各路侠士下手略狠，唱晚池鱼类减少，鱼儿上钩时间稍微延长，但收益仍然不薄！\
-",tCountdown={{key="帮会钓鱼",nClass=20,nFrame=6,nIcon=3781,nRefresh=1,nTime=10,szName="帮会钓鱼·鱼群减少"}}},
-			{[20]={szVoice="ZhuanJieDuan"},szContent="帮会领地唱晚池水面平静，回归正常，未能尽兴的侠士下次请早。\
-",tCountdown={{key="帮会钓鱼",nClass=20,nFrame=6,nIcon=3781,nRefresh=1,nTime=15,szName="帮会钓鱼·活动结束"}}},
-			{szContent="小马驹的饱食度好像不够了，请及时补充草料。\
-",tCountdown={{key="马驹·饱食",nClass=20,nFrame=6,nIcon=219,nRefresh=600,nTime=15,szName="小马驹·补充草料"}}},
+			{szContent="帮会资金不足。\n",tCountdown={{key="帮会资金",nClass=20,nFrame=2,nIcon=3358,nRefresh=2,nTime=5,szName="帮会资金·不足"}}},
+			{szContent="你已接受了[再遇新难题]。\n",tCountdown={{key="炼狱水煮鱼·改良3",nClass=20,nFrame=0,nIcon=13,nTime=20,szName="需要准备·今朝醉·1个"},{key="炼狱水煮鱼·改良4",nClass=20,nFrame=0,nIcon=13,nTime=20,szName="再去找帮会大厨·辛三金"}}},
+			{szContent="你已接受了[菊花鲈鱼]。\n",tCountdown={{key="帮会·送鱼",nClass=20,nFrame=6,nIcon=2825,nTime=60,szName="送鱼·[6]鲈鱼[-1]·20条"}}},
+			{szContent="你已接受了[清炖鲢鱼头]。\n",tCountdown={{key="帮会·送鱼",nClass=20,nFrame=6,nIcon=2677,nTime=60,szName="送鱼·[5]鲢鱼[-2]·20条"}}},
+			{szContent="你已接受了[一品青鱼]。\n",tCountdown={{key="帮会·送鱼",nClass=20,nFrame=6,nIcon=2676,nTime=60,szName="送鱼·[4]青鱼[-3]·20条"}}},
+			{szContent="你已接受了[芙蓉酥鲫鱼]。\n",tCountdown={{key="帮会·送鱼",nClass=20,nFrame=6,nIcon=2817,nTime=60,szName="送鱼·[3]鲫鱼[-4]·20条"}}},
+			{szContent="你已接受了[西湖醋鱼]。\n",tCountdown={{key="帮会·送鱼",nClass=20,nFrame=6,nIcon=2818,nTime=60,szName="送鱼·[2]草鱼[-5]·20条"}}},
+			{szContent="你已接受了[荷香鲤鱼]。\n",tCountdown={{key="帮会·送鱼",nClass=20,nFrame=6,nIcon=2819,nTime=60,szName="送鱼·[1]鲤鱼[-6]·20条"}}},
+			{szContent="帮会领地唱晚池突现异常，各类鱼儿异常活跃，鱼儿上钩时间大大缩短！各路已满80级的侠士可前往一试，定能收获不菲。\n",tCountdown={{key="帮会钓鱼",nClass=20,nFrame=6,nIcon=3781,nRefresh=1,nTime=15,szName="帮会钓鱼·活动开启"}}},
+			{szContent="各路侠士下手略狠，唱晚池鱼类减少，鱼儿上钩时间稍微延长，但收益仍然不薄！\n",tCountdown={{key="帮会钓鱼",nClass=20,nFrame=6,nIcon=3781,nRefresh=1,nTime=10,szName="帮会钓鱼·鱼群减少"}}},
+			{[20]={szVoice="ZhuanJieDuan"},szContent="帮会领地唱晚池水面平静，回归正常，未能尽兴的侠士下次请早。\n",tCountdown={{key="帮会钓鱼",nClass=20,nFrame=6,nIcon=3781,nRefresh=1,nTime=15,szName="帮会钓鱼·活动结束"}}},
+			{szContent="小马驹的饱食度好像不够了，请及时补充草料。\n",tCountdown={{key="马驹·饱食",nClass=20,nFrame=6,nIcon=219,nRefresh=600,nTime=15,szName="小马驹·补充草料"}}},
 		},
 	},
 	DEBUFF = {

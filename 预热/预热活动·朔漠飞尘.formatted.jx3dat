@@ -3,8 +3,7 @@ return {
 	CASTING = {},
 	CHAT = {
 		[23] = {
-			{szContent="本日已不能从本事件获得奖励。\
-",tCountdown={{key="预热活动",nClass=20,nFrame=2,nIcon=99,nRefresh=3600,nTime=20,szName="预热·粟特铜币·已达上限"}}},
+			{szContent="本日已不能从本事件获得奖励。\n",tCountdown={{key="预热活动",nClass=20,nFrame=2,nIcon=99,nRefresh=3600,nTime=20,szName="预热·粟特铜币·已达上限"}}},
 		},
 	},
 	DEBUFF = {

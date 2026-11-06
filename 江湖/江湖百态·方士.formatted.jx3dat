@@ -3,16 +3,13 @@ return {
 	CASTING = {},
 	CHAT = {
 		[-21] = {
-			{col={100,255,255},szContent="南宫麒：随着暮色降临，扬州、五毒、明教、苍云、战乱天策魂虚场景中的魂灵变得活跃起来，各位方士不妨出魂一探究竟，说不定有意外收获！\
-",szNote="方士活动·已经开启",tCountdown={{key="方士提示1",nClass=20,nFrame=5,nIcon=16565,nTime=15,szName="方士·扬州|五毒|明教"},{key="方士提示2",nClass=20,nFrame=5,nIcon=16565,nTime=15,szName="方士·苍云|天策战乱"}}},
+			{col={100,255,255},szContent="南宫麒：随着暮色降临，扬州、五毒、明教、苍云、战乱天策魂虚场景中的魂灵变得活跃起来，各位方士不妨出魂一探究竟，说不定有意外收获！\n",szNote="方士活动·已经开启",tCountdown={{key="方士提示1",nClass=20,nFrame=5,nIcon=16565,nTime=15,szName="方士·扬州|五毒|明教"},{key="方士提示2",nClass=20,nFrame=5,nIcon=16565,nTime=15,szName="方士·苍云|天策战乱"}}},
 		},
 		[-7] = {
-			{col={100,255,255},szContent="南宫麒：随着暮色降临，扬州、五毒、明教、苍云、战乱天策魂虚场景中的魂灵变得活跃起来，各位方士不妨出魂一探究竟，说不定有意外收获！\
-",szNote="方士活动·已经开启",tCountdown={{key="方士提示1",nClass=20,nFrame=5,nIcon=16565,nTime=15,szName="方士·扬州|五毒|明教"},{key="方士提示2",nClass=20,nFrame=5,nIcon=16565,nTime=15,szName="方士·苍云|天策战乱"}}},
+			{col={100,255,255},szContent="南宫麒：随着暮色降临，扬州、五毒、明教、苍云、战乱天策魂虚场景中的魂灵变得活跃起来，各位方士不妨出魂一探究竟，说不定有意外收获！\n",szNote="方士活动·已经开启",tCountdown={{key="方士提示1",nClass=20,nFrame=5,nIcon=16565,nTime=15,szName="方士·扬州|五毒|明教"},{key="方士提示2",nClass=20,nFrame=5,nIcon=16565,nTime=15,szName="方士·苍云|天策战乱"}}},
 		},
 		[-2] = {
-			{col={100,255,255},szContent="南宫麒：随着暮色降临，扬州、五毒、明教、苍云、战乱天策魂虚场景中的魂灵变得活跃起来，各位方士不妨出魂一探究竟，说不定有意外收获！\
-",szNote="方士活动·已经开启",tCountdown={{key="方士提示1",nClass=20,nFrame=5,nIcon=16565,nTime=15,szName="方士·扬州|五毒|明教"},{key="方士提示2",nClass=20,nFrame=5,nIcon=16565,nTime=15,szName="方士·苍云|天策战乱"}}},
+			{col={100,255,255},szContent="南宫麒：随着暮色降临，扬州、五毒、明教、苍云、战乱天策魂虚场景中的魂灵变得活跃起来，各位方士不妨出魂一探究竟，说不定有意外收获！\n",szNote="方士活动·已经开启",tCountdown={{key="方士提示1",nClass=20,nFrame=5,nIcon=16565,nTime=15,szName="方士·扬州|五毒|明教"},{key="方士提示2",nClass=20,nFrame=5,nIcon=16565,nTime=15,szName="方士·苍云|天策战乱"}}},
 		},
 	},
 	DEBUFF = {
