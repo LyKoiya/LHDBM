@@ -22,7 +22,7 @@ return {
 	},
 	TALK = {
 		[-19] = {
-			{[14]={bCenterAlarm=true},szContent="恭喜少侠完成黑白路奇遇！",szNote="完成·普通奇遇·黑白路",szTarget="%",tCountdown={{key="宣战战书",nClass=14,nFrame=0,nIcon=12371,nTime=10,szName="完成·普通奇遇·黑白路"}}},
+			{[14]={bCenterAlarm=true},szContent="恭喜少侠完成黑白路奇遇！",szNote="完成·普通奇遇·黑白路",szTarget="%",tCountdown={{key="宣战战书",nClass=14,nFrame=0,nIcon=12371,nRefresh=10,nTime=10,szName="完成·普通奇遇·黑白路"}}},
 		},
 		[25] = {
 			{bReg=true,col={100,100,255},szContent="(.-)的“(.-)”在(.-)插下了宣战令旗，简直是对(.-)的侮辱！谁去摧毁它，必有重赏！",szNote="黑白路·{$1}战书·{$3}·{$2}",szTarget="谢渊",tCountdown={{key="宣战战书",nClass=14,nFrame=3,nIcon=591,nTime=10,szName="{$1}战书·{$3}·{$2}"}}},
@@ -32,7 +32,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791190289,
+		nTimeStamp = 1793959266,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
