@@ -1,7 +1,11 @@
 # export ignore
 /\!src-dist          export-ignore
+/datadiff            export-ignore
 /.*                  export-ignore
 /*.py                export-ignore
 /*.lua               export-ignore
 /*.md                export-ignore
 /*.code-workspace    export-ignore
+
+# -diff
+*.diff.jx3dat -diff
