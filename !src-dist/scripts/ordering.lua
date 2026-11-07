@@ -116,26 +116,23 @@ function DBMdiff(old, new)
                     if not deepEqual(vv, tNew[szType][k][idx]) then -- 数据不同，记录差异
                         tData[szType][k] = tData[szType][k] or {}
                         tRet.MODIFY[szType][k] = tRet.MODIFY[szType][k] or {}
-                        table.insert(tRet.MODIFY[szType][k], tNew[szType][k][idx])
                         local tDiff = X.clone(tNew[szType][k][idx])
-                        if tDiff.LH then
-                            tDiff.LH.szChanged = 'MODIFY'
-                        else
-                            tDiff.LH = { szChanged = 'MODIFY' }
-                        end
+                        tDiff.LH = tDiff.LH or {}
+                        tDiff.LH.szChanged = 'MODIFY'
+                        tDiff.LH.tOld = X.clone(vv)
+                        tDiff.szNote = 'MODIFY·' .. (tDiff.szNote or '')
                         table.insert(tData[szType][k], tDiff)
+                        table.insert(tRet.MODIFY[szType][k], tDiff)
                     end
                 else -- 新表不存在相似数据，被删除
                     tData[szType][k] = tData[szType][k] or {}
                     tRet.REMOVE[szType][k] = tRet.REMOVE[szType][k] or {}
-                    table.insert(tRet.REMOVE[szType][k], vv)
                     local tDiff = X.clone(vv)
-                    if tDiff.LH then
-                        tDiff.LH.szChanged = 'REMOVE'
-                    else
-                        tDiff.LH = { szChanged = 'REMOVE' }
-                    end
+                    tDiff.LH = tDiff.LH or {}
+                    tDiff.LH.szChanged = 'REMOVE'
+                    tDiff.szNote = 'REMOVE·' .. (tDiff.szNote or '')
                     table.insert(tData[szType][k], tDiff)
+                    table.insert(tRet.REMOVE[szType][k], tDiff)
                 end
             end
         end
@@ -146,14 +143,12 @@ function DBMdiff(old, new)
                 if not idx then -- 旧表不存在相似数据，被新增
                     tData[szType][k] = tData[szType][k] or {}
                     tRet.ADD[szType][k] = tRet.ADD[szType][k] or {}
-                    table.insert(tRet.ADD[szType][k], vv)
                     local tDiff = X.clone(vv)
-                    if tDiff.LH then
-                        tDiff.LH.szChanged = 'ADD'
-                    else
-                        tDiff.LH = { szChanged = 'ADD' }
-                    end
+                    tDiff.LH = tDiff.LH or {}
+                    tDiff.LH.szChanged = 'ADD'
+                    tDiff.szNote = 'ADD·' .. (tDiff.szNote or '')
                     table.insert(tData[szType][k], tDiff)
+                    table.insert(tRet.ADD[szType][k], tDiff)
                 end
             end
         end
