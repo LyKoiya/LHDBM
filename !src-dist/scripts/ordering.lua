@@ -232,9 +232,9 @@ end
 
 -- 输出处理结果统计
 if success then
-    print(string.format('success %d file.', #arg))
+    print(string.format('[Pass] success %d file.', #arg))
 else
-    io.stderr:write(string.format('failed %d file: %s\n', #errorFiles, table.concat(errorFiles, ', ')))
+    io.stderr:write(string.format('[Fail] failed %d file: %s\n', #errorFiles, table.concat(errorFiles, ', ')))
 end
 
 -- os.exit(success and 0 or 1)

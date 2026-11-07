@@ -858,4 +858,4 @@ end
 function teamBuffClear()
 	teamBuff = {}
 end
-print("PackDBM initialized")
+print('[Done] PackDBM initialized')

@@ -4,9 +4,9 @@ from ctypes import *
 # 加载 lua5.1.dll
 try:
     lua = ctypes.CDLL("!src-dist\\bin\\lua.dll")
-    print("lua load success")
+    print("[Success] lua.dll load success")
 except OSError:
-    print("lua load fail")
+    print("[Fail] lua.dll load fail")
 
 
 # ==================== 基本类型定义 ====================

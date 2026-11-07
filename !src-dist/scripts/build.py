@@ -20,20 +20,20 @@ def InitLua(script="!src-dist\\scripts\\PackDBM.lua"):
     # 检查文件是否存在
     lua_script = os.path.abspath(script)
     if not os.path.exists(lua_script):
-        print(f"lua_script not found: {lua_script}")
+        print(f"[Fail] lua_script not found: {lua_script}")
         return
     try:
         # 创建 Lua 状态机
         Lua = pLualib.LuaState()
         if Lua:
-            print("lua newstate success.")
+            print("[OK] lua newstate success.")
         else:
-            print("lua newstate fail.")
+            print("[Fail] lua newstate fail.")
 
         if Lua.dofile(lua_script):
-            print(f"dofile success {lua_script}.")
+            print(f"[OK] dofile success {lua_script}.")
         else:
-            print(f"dofile fail {Lua.tostring(-1)}.")
+            print(f"[Fail] dofile fail {Lua.tostring(-1)}.")
             Lua.pop(1)
     except Exception as e:
         print(f"error: {e}")
@@ -79,7 +79,7 @@ def teamBuff(L, Ranges):
             L.getglobal("decodeBuff")
             L.pushlstringA(result)
             if L.pcall(1, 0, 0) != 0:
-                print(f"Error calling decodeBuff({i}): {L.tostring(-1)}({result})")
+                print(f"[ERROR] Error calling decodeBuff({i}): {L.tostring(-1)}({result})")
                 L.pop(1)
 
 # 提取表格文件数据，返回数组列表，一个元素是一种数据（气劲、角色、物件、喊话）
@@ -100,7 +100,7 @@ def xlsx2list(wb):
                                 data.append(row[idx])
                             retList.append(''.join(data))
             except Exception as e:
-                print(f"Error occurred while processing sheet: {szType} {e}")
+                print(f"[ERROR] Error occurred while processing sheet: {szType} {e}")
     return retList
 
 # 打包表格文件，有两种表格数据，分别处理，一种是团队气劲面板，一种是团队监控数据
@@ -124,7 +124,7 @@ def packxlsx(L, szPath, szMethod):
                         L.getglobal("strMerge")
                         L.pushlstringA(str)
                         if L.pcall(1, 0, 0) != 0:
-                            print(f"Error calling strMerge: {L.tostring(-1)}")
+                            print(f"[ERROR] Error calling strMerge: {L.tostring(-1)}")
                             L.pop(1)
         finally:
             Workbook.close()
@@ -139,7 +139,7 @@ def packjx3dat(L, szPath, szMethod):
             L.getglobal("strMerge")
             L.pushlstringA(data)
             if L.pcall(1, 0, 0) != 0:
-                print(f"Error calling {szMethod}: {L.tostring(-1)}")
+                print(f"[ERROR] Error calling {szMethod}: {L.tostring(-1)}")
                 L.pop(1)
 
 # 处理表格转团队数据
@@ -157,9 +157,9 @@ def xlsx2jx3dat(szDataPath, szSavePath):
             szRetPath = szSavePath[:-len('.formatted.jx3dat')] + '.txt'
             Lua.pushlstringA(szRetPath)
             if Lua.pcall(1, 0, 0) == 0:
-                print("teamBuffsave success.")
+                print("[OK] teamBuffsave success.")
             else:
-                print(f"teamBuffsave fail.{Lua.tostring(-1)}")
+                print(f"[Fail] teamBuffsave fail.{Lua.tostring(-1)}")
                 Lua.pop(1)
             Lua.getglobal("teamBuffClear")
             Lua.pcall(0, 0, 0)
@@ -172,11 +172,11 @@ def xlsx2jx3dat(szDataPath, szSavePath):
         Lua.pushboolean(False)
         Lua.pushboolean(False)
         if Lua.pcall(4, 0, 0) == 0:
-            print("xlsxfileSave success.")
+            print("[OK] xlsxfileSave success.")
             Lua.getglobal("fileClear")
             Lua.pcall(0, 0, 0)
         else:
-            print(f"xlsxfileSave fail.{Lua.tostring(-1)}")
+            print(f"[Fail] xlsxfileSave fail.{Lua.tostring(-1)}")
             Lua.pop(1)
 
         #Lua.close()
@@ -209,9 +209,9 @@ def runPack(filesPath):
         L.pushboolean(True)
         L.pushboolean(True)
         if L.pcall(4, 0, 0) == 0:
-            print("fileSave success.")
+            print("[OK] fileSave success.")
         else:
-            print(f"fileSave fail.{L.tostring(-1)}")
+            print(f"[Fail] fileSave fail.{L.tostring(-1)}")
             L.pop(1)
         L.close()
         return szSavePath
@@ -236,9 +236,9 @@ def setAllfiles():
             L.getglobal("processFile")
             L.pushlstringA(file_path)
             if L.pcall(1, 0, 0) == 0:
-                print("processFile success.")
+                print("[OK] processFile success.")
             else:
-                print(f"processFile fail.{L.tostring(-1)}")
+                print(f"[Fail] processFile fail.{L.tostring(-1)}")
                 L.pop(1)
 
     finally:

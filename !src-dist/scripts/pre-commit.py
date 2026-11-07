@@ -47,57 +47,57 @@ def main() -> None:
 
     # 检查脚本是否存在
     if not script.exists():
-        print(f'[警告] 格式化脚本缺失：{script}')
+        print(f'[Warn] Missing formatting script:{script}')
         sys.exit(0)
     Lua = build.InitLua(script)
-    xlsxfiles = getdiffFile(".xlsx")
+    files = getdiffFile(".xlsx")
 
     # 批量处理
-    print('开始数据有序格式化规整')
+    print('[Info] Start formatting and organizing the data in an orderly manner.')
     backSave = []
-    print(f'收集到 {len(xlsxfiles)} 个.xlsx文件:')
-    for f in xlsxfiles:
-        print(f'  - {f}')
-        dst = Path(f"xlsxdiff/{f}")
-        dst = dst.with_suffix(".formatted.jx3dat")
-        dst.parent.mkdir(parents=True, exist_ok=True)
-        szPath = build.xlsx2jx3dat(f, str(Path(dst).resolve()))
-        if szPath != str(dst):
-            backSave.append(szPath)
-        backSave.append(dst)
-    run_git('add', *backSave)
-    backSave.clear()
-    
-    jx3datfiles = getdiffFile(".formatted.jx3dat")
-    print(f'收集到 {len(jx3datfiles)} 个.formatted.jx3dat文件')
+    print(f'[Info] Collected {len(files)} .xlsx files:')
     try:
-        if Lua:
-            for file_path in jx3datfiles:
+        for file_path in files:
+            print(f'  - {file_path}')
+            dst = Path(f"xlsxdiff/{file_path}")
+            dst = dst.with_suffix(".formatted.jx3dat")
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            szPath = build.xlsx2jx3dat(file_path, str(Path(dst).resolve()))
+            if szPath != str(dst):
+                backSave.append(szPath)
+            backSave.append(dst)
+        run_git('add', *backSave)
+        print('[OK] All .xlsx files have been processed and temporarily saved.')
+    finally:
+        backSave.clear()
+    
+    files = getdiffFile(".formatted.jx3dat")
+    print(f'[Info] Collected {len(files)} .formatted.jx3dat files:')
+    if Lua:
+        try:
+            for file_path in files:
                 print(f'  - {file_path}')
                 old_content = get_old_content(file_path)
-                tmp_file_path = f"{file_path}.temp"
-                Path(tmp_file_path).parent.mkdir(parents=True, exist_ok=True)
-                with open(tmp_file_path, "wb") as fTmp:
+                file_path_tmp = f"{file_path}.temp"
+                Path(file_path_tmp).parent.mkdir(parents=True, exist_ok=True)
+                with open(file_path_tmp, "wb") as fTmp:
                     fTmp.write(old_content.encode("utf-8", errors="surrogateescape"))
                 # 调用 Lua 脚本处理差异
                 dst = Path(f"datadiff/{file_path}")
                 dst = dst.with_suffix("").with_suffix(".diff.jx3dat")
                 dst.parent.mkdir(parents=True, exist_ok=True)
-                Lua.xpcall("processFilediff", file_path, tmp_file_path, str(dst))
+                Lua.xpcall("processFilediff", file_path, file_path_tmp, str(dst))
                 backSave.append(file_path)
                 backSave.append(dst)
-                Path(tmp_file_path).unlink(missing_ok=True)
-
+                Path(file_path_tmp).unlink(missing_ok=True)
+            run_git('add', *backSave)
+            print('[OK] All .jx3dat files have been processed and temporarily saved.')
         
-        run_git('add', *backSave)
+        except subprocess.CalledProcessError:
+            print('[Failed] Processing error.')
+        finally:
             
-        print('[成功] 已处理并暂存所有 .jx3dat 文件')
-        
-    except subprocess.CalledProcessError:
-        print('[失败] 处理出错')
-        sys.exit(1)
-    finally:
-        print('结束数据有序格式化规整')
+            print('[Done] End data orderly formatting and normalization.')
 
 if __name__ == "__main__":
     main()
