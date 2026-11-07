@@ -65,7 +65,9 @@ def main() -> None:
         if szPath != str(dst):
             backSave.append(szPath)
         backSave.append(dst)
-
+    run_git('add', *backSave)
+    backSave.clear()
+    
     jx3datfiles = getdiffFile(".formatted.jx3dat")
     print(f'收集到 {len(jx3datfiles)} 个.formatted.jx3dat文件')
     try:
