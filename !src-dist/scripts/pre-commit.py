@@ -86,10 +86,11 @@ def main() -> None:
                 dst = Path(f"datadiff/{file_path}")
                 dst = dst.with_suffix("").with_suffix(".diff.jx3dat")
                 dst.parent.mkdir(parents=True, exist_ok=True)
-                Lua.xpcall("processFilediff", file_path, file_path_tmp, str(dst))
+                if Lua.xpcall("processFilediff", file_path, file_path_tmp, str(dst)):
+                    backSave.append(dst)
                 backSave.append(file_path)
-                backSave.append(dst)
                 Path(file_path_tmp).unlink(missing_ok=True)
+            
             run_git('add', *backSave)
             print('[OK] All .jx3dat files have been processed and temporarily saved.')
         

@@ -15,6 +15,9 @@ end
 
 -- 清除无效数据
 local function clearInvalidtable(tData, bDelFocusType)
+    if X.IsEmpty(tData) then 
+        return 
+    end
     for _, szType in ipairs(X.MY_TM_TYPE_LIST) do
         if tData[szType] then
             for k, _ in pairs(tData[szType]) do -- 遍历类型获取地图ID
@@ -180,18 +183,22 @@ function processFilediff(szNewFileName, szOldFileName, szSaveDiffFileName)
 
     local tDiffmark, tDiff = DBMdiff(tOldData, tData)
 
-    if tDiffmark or tDiff then
+    if not (X.IsEmpty(tDiffmark) and X.IsEmpty(tDiff)) then
         X.WriteFile(
             szSaveDiffFileName,
-            'return ' .. X.var2str(tDiffmark, '\t', 0, 3)
+            'return ' .. X.var2str(tDiffmark or {}, '\t', 0, 3)
                 .. ',' .. X.var2str(tDiff, '\t', 0, 4)
                 .. '\n'
         )
+    else
+        -- 没有差异，说明没有修改项目数据，而是其他的内容
+        return false
     end
-    if not tData then -- 新表为空，说明该文件被删除，删除记录差异，记录完后返回false
+    if not tData then -- 新表为空，说明该旧文件删除，无需记录
         return false
     end
 
+    -- 确实有修改，刷新时间戳，保存新文件
     X.refreshTimeStamp(tData)
     local szSorted = 'return ' .. X.var2str(tData, '\t', 0, 3) .. '\n'
     X.WriteFile(szNewFileName, szSorted)
