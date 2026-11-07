@@ -1,0 +1,45 @@
+return {
+	BUFF = {
+		[-1] = {
+			{{bBuffList=true,bTeamPanel=true},LH={szChanged="MODIFY"},aCataclysmBuff={{col="#FFCC00FF",nColAlpha=255,nPriority=3,szReminder="Ñæ"}},col={255,204,0},dwID=31448,nIcon=24978,nLevel=1,nScrutinyType=2,szName="Ê¥ÑæÁî",szNote="Î¢Ãî·ç"},
+		},
+	},
+	DEBUFF = {
+		[-1] = {
+			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},LH={szChanged="REMOVE"},aCataclysmBuff={{bScreenHead=true,col="#FFFF00FF",colScreenHead="#FFFF00",nColAlpha=255,nPriority=13,szReminder="ÔÎ"}},col={255,255,0},dwID=15091,nLevel=1,nScrutinyType=2,szName="Ñ£ÔÎ¡¤³å×²",szNote="³å×²"},
+			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},LH={szChanged="REMOVE"},aCataclysmBuff={{bScreenHead=true,col="#FFFF00FF",colScreenHead="#FFFF00",nColAlpha=255,nPriority=13,szReminder="ÔÎ"}},col={255,255,0},dwID=20374,nLevel=1,nScrutinyType=2,szName="Ñ£ÔÎ¡¤³å×²",szNote="µÀ¾ß_ÌÆÃÅ³µ³å×²ºóÑ£ÔÎ"},
+			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},LH={szChanged="REMOVE"},aCataclysmBuff={{bScreenHead=true,col="#FFFF00FF",colScreenHead="#FFFF00",nColAlpha=255,nPriority=13,szReminder="ÔÎ"}},col={255,255,0},dwID=20375,nLevel=1,nScrutinyType=2,szName="Ñ£ÔÎ¡¤³å×²",szNote="³å×²"},
+			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},LH={szChanged="MODIFY"},aCataclysmBuff={{bScreenHead=true,col="#FFCC00FF",colScreenHead="#FFCC00",nColAlpha=255,nPriority=3,szReminder="Ìæ"}},col={255,204,0},dwID=31612,nIcon=24894,nLevel=1,nScrutinyType=2,szNote="½µÄ»ÐéÓ°¡¤Ä»Âä"},
+			{{bBuffList=true,bOnlySelfSrc=false,bScreenHead=true,bTeamPanel=false},LH={szChanged="ADD"},col={179,238,58},dwID=31568,nIcon=24894,nLevel=1,nScrutinyType=1,szName="Ãâ¿Ø¡¤»¬ÐÐ",szNote="Ç§Ë¿ÂäÐõ_¿ÕÖÐ»»¶¯×÷"},
+		},
+	},
+},{
+	ADD = {
+		DEBUFF = {
+			[-1] = {
+				{{bBuffList=true,bOnlySelfSrc=false,bScreenHead=true,bTeamPanel=false},col={179,238,58},dwID=31568,nIcon=24894,nLevel=1,nScrutinyType=1,szName="Ãâ¿Ø¡¤»¬ÐÐ",szNote="Ç§Ë¿ÂäÐõ_¿ÕÖÐ»»¶¯×÷"},
+			},
+		},
+	},
+	MODIFY = {
+		BUFF = {
+			[-1] = {
+				{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#FFCC00FF",nColAlpha=255,nPriority=3,szReminder="Ñæ"}},col={255,204,0},dwID=31448,nIcon=24978,nLevel=1,nScrutinyType=2,szName="Ê¥ÑæÁî",szNote="Î¢Ãî·ç"},
+			},
+		},
+		DEBUFF = {
+			[-1] = {
+				{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#FFCC00FF",colScreenHead="#FFCC00",nColAlpha=255,nPriority=3,szReminder="Ìæ"}},col={255,204,0},dwID=31612,nIcon=24894,nLevel=1,nScrutinyType=2,szNote="½µÄ»ÐéÓ°¡¤Ä»Âä"},
+			},
+		},
+	},
+	REMOVE = {
+		DEBUFF = {
+			[-1] = {
+				{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#FFFF00FF",colScreenHead="#FFFF00",nColAlpha=255,nPriority=13,szReminder="ÔÎ"}},col={255,255,0},dwID=15091,nLevel=1,nScrutinyType=2,szName="Ñ£ÔÎ¡¤³å×²",szNote="³å×²"},
+				{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#FFFF00FF",colScreenHead="#FFFF00",nColAlpha=255,nPriority=13,szReminder="ÔÎ"}},col={255,255,0},dwID=20374,nLevel=1,nScrutinyType=2,szName="Ñ£ÔÎ¡¤³å×²",szNote="µÀ¾ß_ÌÆÃÅ³µ³å×²ºóÑ£ÔÎ"},
+				{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#FFFF00FF",colScreenHead="#FFFF00",nColAlpha=255,nPriority=13,szReminder="ÔÎ"}},col={255,255,0},dwID=20375,nLevel=1,nScrutinyType=2,szName="Ñ£ÔÎ¡¤³å×²",szNote="³å×²"},
+			},
+		},
+	},
+}
