@@ -4,13 +4,13 @@ local X = require('Base')
 -- 清除为空的数据
 local function clearNil(tData)
     for k, v in pairs(tData) do -- 遍历数据判断是否有空表
-        if X.emptyTable(v) then
+        if X.isEmptyTable(v) then
             tData[k] = nil
         elseif type(v) == 'table' and k ~= 'aCataclysmBuff' and k ~= 'tMark' and k ~= 'aFocus' then
             tData[k] = clearNil(v)
         end
     end
-    return X.emptyTable(tData) and nil or tData
+    return X.isEmptyTable(tData) and nil or tData
 end
 
 -- 清除无效数据
@@ -33,7 +33,7 @@ local function clearInvalidtable(tData, bDelFocusType)
                                 tFocus.szDisplay = nil
                             end
                         end
-                        if X.emptyTable(aFocus) then
+                        if X.isEmptyTable(aFocus) then
                             vv.aFocus = nil
                         end
                     end
@@ -159,10 +159,10 @@ function DBMdiff(old, new)
     tData = clearNil(clearNil(tData))
     tRet = clearNil(clearNil(tRet))
 
-    if X.emptyTable(tData) then
+    if X.isEmptyTable(tData) then
         tData = nil
     end
-    if X.emptyTable(tRet) then
+    if X.isEmptyTable(tRet) then
         tRet = nil
     end
     return tData, tRet
@@ -194,7 +194,7 @@ function processFilediff(szNewFileName, szOldFileName, szSaveDiffFileName)
         -- 没有差异，说明没有修改项目数据，而是其他的内容
         return false
     end
-    if not tData then -- 新表为空，说明该旧文件删除，无需记录
+    if not X.IsEmpty(tData) then -- 新表为空，说明该旧文件删除，无需记录
         return false
     end
 

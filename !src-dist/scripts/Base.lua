@@ -9,26 +9,6 @@ function M.printTable(var, n)
     return str
 end
 
--- 变量是否问空
-local function empty(var)
-    local szType = type(var)
-    if szType == 'nil' then
-        return true
-    elseif szType == 'boolean' then
-        return var
-    elseif szType == 'number' then
-        return var == 0
-    elseif szType == 'string' then
-        return var == ''
-    elseif szType == 'function' then
-        return false
-    elseif szType == 'table' then
-        return next(var) == nil
-    else
-        return false
-    end
-end
-
 -- 判断是否为空
 ---@param var any @需要判断的数据
 ---@return boolean @是否为空
@@ -219,7 +199,7 @@ function M.strTrim(szText)
 end
 
 -- 是否为空表
-function M.emptyTable(var)
+function M.isEmptyTable(var)
     local szType = type(var)
     if szType == 'nil' then
         return true
@@ -310,7 +290,7 @@ local function serialize(var, indent, nLevel, nMaxLevel, tVisited)
         local s_tab_equ = '='
         if indent then
             s_tab_equ = ' = '
-            if not empty(var) then
+            if not M.IsEmpty(var) then
                 table.insert(t, '\n')
             end
         end
@@ -404,7 +384,7 @@ local function serialize(var, indent, nLevel, nMaxLevel, tVisited)
             end
         end
 
-        if not empty(var) then
+        if not M.IsEmpty(var) then
             if indent then
                 table.insert(t, string.rep(indent, nLevel))
             else
@@ -516,7 +496,6 @@ function M.refreshTimeStamp(tData, nTimeStamp)
     return tData.__meta.nTimeStamp
 end
 
-M.empty = empty
 M.ipairs_r = ipairs_r
 
 return M

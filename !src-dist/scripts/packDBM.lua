@@ -711,7 +711,7 @@ end
 ---@return table? 清理后的表，若为空返回nil
 local function clearNil(tData)
 	for k, v in pairs(tData) do -- 遍历数据判断是否有空表
-		if X.emptyTable(v) then
+		if X.isEmptyTable(v) then
 			tData[k] = nil
 		elseif not v then
 			tData[k] = nil
@@ -721,7 +721,7 @@ local function clearNil(tData)
 			tData[k] = clearNil(v)
 		end
 	end
-	if X.emptyTable(tData) then
+	if X.isEmptyTable(tData) then
 		return nil
 	end
 	return tData
@@ -738,7 +738,7 @@ local function clearInvalidData(tData, bDelNote, bDelFocus, bDelCataclysmBuff)
 		if tData[szType] then
 			tData[szType][-9] = nil -- 清除回收站数据
 			for k, _ in pairs(tData[szType]) do -- 遍历类型获取地图ID
-				if X.emptyTable(tData[szType][k]) then
+				if X.isEmptyTable(tData[szType][k]) then
 					tData[szType][k] = nil -- 当前地图无数据则清除
 				end
 				for kk, vv in X.ipairs_r(tData[szType][k]) do -- 遍历地图获取数据下标
@@ -791,7 +791,7 @@ local function clearInvalidData(tData, bDelNote, bDelFocus, bDelCataclysmBuff)
 								end
 							end
 						end
-						if X.emptyTable(aFocus) then
+						if X.isEmptyTable(aFocus) then
 							vv.aFocus = nil
 						end
 					end
