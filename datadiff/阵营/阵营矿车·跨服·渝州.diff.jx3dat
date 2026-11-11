@@ -1,52 +1,18 @@
 return {
-	NPC = {
-		[838] = {
-			{LH={szChanged="MODIFY",tOld={aFocus={{}},dwID=139947,nFrame=52,szNote="浩气盟物资车"}},aFocus={{}},dwID=139947,nFrame=52,szNote="MODIFY·浩气盟物资车",tCountdown={{key="通用·矿车",nClass=12,nIcon=13,nRefresh=10,nTime=-1,szName="通用·矿车"},{key="浩气·矿车",nClass=12,nFrame=3,nIcon=13,nTime=60,szName="恶人·劫车奖励"}}},
-			{LH={szChanged="MODIFY",tOld={aFocus={{}},dwID=139948,nFrame=52,szNote="恶人谷物资车"}},aFocus={{}},dwID=139948,nFrame=52,szNote="MODIFY·恶人谷物资车",tCountdown={{key="通用·矿车",nClass=12,nIcon=13,nRefresh=10,nTime=-1,szName="通用·矿车"},{key="恶人·矿车",nClass=12,nFrame=7,nIcon=13,nTime=60,szName="浩气·劫车奖励"}}},
-		},
-	},
 	TALK = {
 		[838] = {
-			{LH={szChanged="MODIFY",tOld={col={255,100,100},szContent="赤渊栈桥的牛车起了！跟紧车，谁来劫货就打回去！",szTarget="韩铁桥",tCountdown={{key="通用·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=10,nTime=367,szName="恶人·护送矿车"}}}},col={255,100,100},szContent="赤渊栈桥的牛车起了！跟紧车，谁来劫货就打回去！",szNote="MODIFY·",szTarget="韩铁桥",tCountdown={{key="通用·矿车",nClass=14,nIcon=13,nTime=-2,szName="通用·矿车"},{key="通用·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=10,nTime=367,szName="恶人·护送矿车"}}},
-			{LH={szChanged="MODIFY",tOld={col={100,100,255},szContent="青崖栈桥的牛车起了！沿山道护送，到高阁再收队！",szTarget="苏行山",tCountdown={{key="通用·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=10,nTime=360,szName="浩气·护送矿车"}}}},col={100,100,255},szContent="青崖栈桥的牛车起了！沿山道护送，到高阁再收队！",szNote="MODIFY·",szTarget="苏行山",tCountdown={{key="通用·矿车",nClass=14,nIcon=13,nTime=-2,szName="通用·矿车"},{key="通用·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=10,nTime=360,szName="浩气·护送矿车"}}},
-			{LH={szChanged="MODIFY",tOld={bSearch=true,col={255,100,100},szContent="到了，收队。",szTarget="韩铁桥",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=10,nTime=90,szName="恶人·跟车奖励"}}}},bSearch=true,col={255,100,100},szContent="到了，收队。",szNote="MODIFY·",szTarget="韩铁桥",tCountdown={{key="通用·矿车",nClass=14,nIcon=13,nRefresh=10,nTime=-1,szName="通用·矿车"},{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=10,nTime=90,szName="恶人·跟车奖励"}}},
-			{LH={szChanged="MODIFY",tOld={bSearch=true,col={100,100,255},szContent="到了，收队。",szTarget="苏行山",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=10,nTime=90,szName="浩气·跟车奖励"}}}},bSearch=true,col={100,100,255},szContent="到了，收队。",szNote="MODIFY·",szTarget="苏行山",tCountdown={{key="通用·矿车",nClass=14,nIcon=13,nRefresh=10,nTime=-1,szName="通用·矿车"},{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=10,nTime=90,szName="浩气·跟车奖励"}}},
-			{LH={szChanged="MODIFY",tOld={col={255,100,100},szContent="牛车到了！恶人谷的诸位，辛苦了！",szNote="恶人·跟车奖励",szTarget="工头",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=10,nTime=90,szName="恶人·跟车奖励"}}}},col={255,100,100},szContent="牛车到了！恶人谷的诸位，辛苦了！",szNote="MODIFY·恶人·跟车奖励",szTarget="工头",tCountdown={{key="通用·矿车",nClass=14,nIcon=13,nRefresh=10,nTime=-1,szName="通用·矿车"},{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=10,nTime=90,szName="恶人·跟车奖励"}}},
-			{LH={szChanged="MODIFY",tOld={col={100,100,255},szContent="牛车到了！浩气盟的诸位，辛苦了！",szNote="浩气·跟车奖励",szTarget="工头",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=10,nTime=90,szName="浩气·跟车奖励"}}}},col={100,100,255},szContent="牛车到了！浩气盟的诸位，辛苦了！",szNote="MODIFY·浩气·跟车奖励",szTarget="工头",tCountdown={{key="通用·矿车",nClass=14,nIcon=13,nRefresh=10,nTime=-1,szName="通用·矿车"},{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=10,nTime=90,szName="浩气·跟车奖励"}}},
-			{LH={szChanged="MODIFY",tOld={col={255,100,100},szContent="【恶人·运送物资】事件已经结束，由于你没有贡献，没有获得奖励。",tCountdown={{key="通用·矿车",nClass=14,nFrame=7,nIcon=13,nTime=0,szName="通用·矿车"}}}},col={255,100,100},szContent="【恶人·运送物资】事件已经结束，由于你没有贡献，没有获得奖励。",szNote="MODIFY·",tCountdown={{key="通用·矿车",nClass=14,nFrame=6,nIcon=13,nRefresh=10,nTime=90,szName="矿车·护送奖励"}}},
-			{LH={szChanged="MODIFY",tOld={col={100,100,255},szContent="【浩气·运送物资】事件已经结束，由于你没有贡献，没有获得奖励。",tCountdown={{key="通用·矿车",nClass=14,nFrame=3,nIcon=13,nTime=0,szName="通用·矿车"}}}},col={100,100,255},szContent="【浩气·运送物资】事件已经结束，由于你没有贡献，没有获得奖励。",szNote="MODIFY·",tCountdown={{key="通用·矿车",nClass=14,nFrame=6,nIcon=13,nRefresh=10,nTime=90,szName="矿车·护送奖励"}}},
-			{LH={szChanged="ADD"},col={255,255,100},szContent="当前押车转运阶段，你可拦截对方牛车",szNote="ADD·",tCountdown={{key="通用·矿车",nClass=14,nFrame=6,nIcon=13,nRefresh=10,nTime=367,szName="对方·护送矿车"}}},
-			{LH={szChanged="ADD"},col={255,255,100},szContent="当前押车转运阶段，你可护送本阵营牛车前往山顶高阁",szNote="ADD·",tCountdown={{key="通用·矿车",nClass=14,nFrame=6,nIcon=13,nRefresh=10,nTime=367,szName="我方·护送矿车"}}},
-			{LH={szChanged="ADD"},col={255,255,100},szContent="当前争旗引航阶段，你可前往码头争夺引航旗，协助本阵营集齐船货",szNote="ADD·",tCountdown={{key="通用·矿车",nClass=14,nFrame=6,nIcon=13,nRefresh=10,nTime=90,szName="矿车·护送奖励"}}},
+			{LH={szChanged="MODIFY",tOld={col={255,255,100},szContent="当前争旗引航阶段，你可前往码头争夺引航旗，协助本阵营集齐船货",tCountdown={{key="通用·矿车",nClass=14,nFrame=6,nIcon=13,nRefresh=10,nTime=90,szName="矿车·护送奖励"}}}},col={255,255,100},szContent="当前争旗引航阶段，你可前往码头争夺引航旗，协助本阵营集齐船货",szNote="MODIFY·",tCountdown={{key="通用·矿车",nClass=-1,nFrame=6,nIcon=13,nTime=10,szName="阶段·收集物资"}}},
+			{LH={szChanged="MODIFY",tOld={col={255,100,100},szContent="引航旗换边了！这回是恶人谷的船。",szNote="恶人·占领·引航大旗",szTarget="工头",tCountdown={{key="引航大旗",nClass=14,nFrame=0,nIcon=13,nRefresh=2,nTime=30,szName="恶人·占领·引航大旗"}}}},col={255,100,100},szContent="引航旗换边了！这回是恶人谷的船。",szNote="MODIFY·恶人·占领·引航大旗",szTarget="工头",tCountdown={{key="通用·矿车",nClass=14,nFrame=0,nIcon=13,nTime=30,szName="恶人·占领·引航大旗"}}},
+			{LH={szChanged="MODIFY",tOld={col={100,100,255},szContent="引航旗换边了！这回是浩气盟的船。",szNote="浩气·占领·引航大旗",szTarget="工头",tCountdown={{key="引航大旗",nClass=14,nFrame=0,nIcon=13,nRefresh=2,nTime=30,szName="浩气·占领·引航大旗"}}}},col={100,100,255},szContent="引航旗换边了！这回是浩气盟的船。",szNote="MODIFY·浩气·占领·引航大旗",szTarget="工头",tCountdown={{key="通用·矿车",nClass=14,nFrame=0,nIcon=13,nTime=30,szName="浩气·占领·引航大旗"}}},
 		},
 	},
 },{
-	ADD = {
-		TALK = {
-			[838] = {
-				{LH={szChanged="ADD"},col={255,255,100},szContent="当前押车转运阶段，你可拦截对方牛车",szNote="ADD·",tCountdown={{key="通用·矿车",nClass=14,nFrame=6,nIcon=13,nRefresh=10,nTime=367,szName="对方·护送矿车"}}},
-				{LH={szChanged="ADD"},col={255,255,100},szContent="当前押车转运阶段，你可护送本阵营牛车前往山顶高阁",szNote="ADD·",tCountdown={{key="通用·矿车",nClass=14,nFrame=6,nIcon=13,nRefresh=10,nTime=367,szName="我方·护送矿车"}}},
-				{LH={szChanged="ADD"},col={255,255,100},szContent="当前争旗引航阶段，你可前往码头争夺引航旗，协助本阵营集齐船货",szNote="ADD·",tCountdown={{key="通用·矿车",nClass=14,nFrame=6,nIcon=13,nRefresh=10,nTime=90,szName="矿车·护送奖励"}}},
-			},
-		},
-	},
 	MODIFY = {
-		NPC = {
-			[838] = {
-				{LH={szChanged="MODIFY",tOld={aFocus={{}},dwID=139947,nFrame=52,szNote="浩气盟物资车"}},aFocus={{}},dwID=139947,nFrame=52,szNote="MODIFY·浩气盟物资车",tCountdown={{key="通用·矿车",nClass=12,nIcon=13,nRefresh=10,nTime=-1,szName="通用·矿车"},{key="浩气·矿车",nClass=12,nFrame=3,nIcon=13,nTime=60,szName="恶人·劫车奖励"}}},
-				{LH={szChanged="MODIFY",tOld={aFocus={{}},dwID=139948,nFrame=52,szNote="恶人谷物资车"}},aFocus={{}},dwID=139948,nFrame=52,szNote="MODIFY·恶人谷物资车",tCountdown={{key="通用·矿车",nClass=12,nIcon=13,nRefresh=10,nTime=-1,szName="通用·矿车"},{key="恶人·矿车",nClass=12,nFrame=7,nIcon=13,nTime=60,szName="浩气·劫车奖励"}}},
-			},
-		},
 		TALK = {
 			[838] = {
-				{LH={szChanged="MODIFY",tOld={col={255,100,100},szContent="赤渊栈桥的牛车起了！跟紧车，谁来劫货就打回去！",szTarget="韩铁桥",tCountdown={{key="通用·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=10,nTime=367,szName="恶人·护送矿车"}}}},col={255,100,100},szContent="赤渊栈桥的牛车起了！跟紧车，谁来劫货就打回去！",szNote="MODIFY·",szTarget="韩铁桥",tCountdown={{key="通用·矿车",nClass=14,nIcon=13,nTime=-2,szName="通用·矿车"},{key="通用·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=10,nTime=367,szName="恶人·护送矿车"}}},
-				{LH={szChanged="MODIFY",tOld={col={100,100,255},szContent="青崖栈桥的牛车起了！沿山道护送，到高阁再收队！",szTarget="苏行山",tCountdown={{key="通用·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=10,nTime=360,szName="浩气·护送矿车"}}}},col={100,100,255},szContent="青崖栈桥的牛车起了！沿山道护送，到高阁再收队！",szNote="MODIFY·",szTarget="苏行山",tCountdown={{key="通用·矿车",nClass=14,nIcon=13,nTime=-2,szName="通用·矿车"},{key="通用·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=10,nTime=360,szName="浩气·护送矿车"}}},
-				{LH={szChanged="MODIFY",tOld={bSearch=true,col={255,100,100},szContent="到了，收队。",szTarget="韩铁桥",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=10,nTime=90,szName="恶人·跟车奖励"}}}},bSearch=true,col={255,100,100},szContent="到了，收队。",szNote="MODIFY·",szTarget="韩铁桥",tCountdown={{key="通用·矿车",nClass=14,nIcon=13,nRefresh=10,nTime=-1,szName="通用·矿车"},{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=10,nTime=90,szName="恶人·跟车奖励"}}},
-				{LH={szChanged="MODIFY",tOld={bSearch=true,col={100,100,255},szContent="到了，收队。",szTarget="苏行山",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=10,nTime=90,szName="浩气·跟车奖励"}}}},bSearch=true,col={100,100,255},szContent="到了，收队。",szNote="MODIFY·",szTarget="苏行山",tCountdown={{key="通用·矿车",nClass=14,nIcon=13,nRefresh=10,nTime=-1,szName="通用·矿车"},{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=10,nTime=90,szName="浩气·跟车奖励"}}},
-				{LH={szChanged="MODIFY",tOld={col={255,100,100},szContent="牛车到了！恶人谷的诸位，辛苦了！",szNote="恶人·跟车奖励",szTarget="工头",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=10,nTime=90,szName="恶人·跟车奖励"}}}},col={255,100,100},szContent="牛车到了！恶人谷的诸位，辛苦了！",szNote="MODIFY·恶人·跟车奖励",szTarget="工头",tCountdown={{key="通用·矿车",nClass=14,nIcon=13,nRefresh=10,nTime=-1,szName="通用·矿车"},{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=10,nTime=90,szName="恶人·跟车奖励"}}},
-				{LH={szChanged="MODIFY",tOld={col={100,100,255},szContent="牛车到了！浩气盟的诸位，辛苦了！",szNote="浩气·跟车奖励",szTarget="工头",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=10,nTime=90,szName="浩气·跟车奖励"}}}},col={100,100,255},szContent="牛车到了！浩气盟的诸位，辛苦了！",szNote="MODIFY·浩气·跟车奖励",szTarget="工头",tCountdown={{key="通用·矿车",nClass=14,nIcon=13,nRefresh=10,nTime=-1,szName="通用·矿车"},{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=10,nTime=90,szName="浩气·跟车奖励"}}},
-				{LH={szChanged="MODIFY",tOld={col={255,100,100},szContent="【恶人·运送物资】事件已经结束，由于你没有贡献，没有获得奖励。",tCountdown={{key="通用·矿车",nClass=14,nFrame=7,nIcon=13,nTime=0,szName="通用·矿车"}}}},col={255,100,100},szContent="【恶人·运送物资】事件已经结束，由于你没有贡献，没有获得奖励。",szNote="MODIFY·",tCountdown={{key="通用·矿车",nClass=14,nFrame=6,nIcon=13,nRefresh=10,nTime=90,szName="矿车·护送奖励"}}},
-				{LH={szChanged="MODIFY",tOld={col={100,100,255},szContent="【浩气·运送物资】事件已经结束，由于你没有贡献，没有获得奖励。",tCountdown={{key="通用·矿车",nClass=14,nFrame=3,nIcon=13,nTime=0,szName="通用·矿车"}}}},col={100,100,255},szContent="【浩气·运送物资】事件已经结束，由于你没有贡献，没有获得奖励。",szNote="MODIFY·",tCountdown={{key="通用·矿车",nClass=14,nFrame=6,nIcon=13,nRefresh=10,nTime=90,szName="矿车·护送奖励"}}},
+				{LH={szChanged="MODIFY",tOld={col={255,255,100},szContent="当前争旗引航阶段，你可前往码头争夺引航旗，协助本阵营集齐船货",tCountdown={{key="通用·矿车",nClass=14,nFrame=6,nIcon=13,nRefresh=10,nTime=90,szName="矿车·护送奖励"}}}},col={255,255,100},szContent="当前争旗引航阶段，你可前往码头争夺引航旗，协助本阵营集齐船货",szNote="MODIFY·",tCountdown={{key="通用·矿车",nClass=-1,nFrame=6,nIcon=13,nTime=10,szName="阶段·收集物资"}}},
+				{LH={szChanged="MODIFY",tOld={col={255,100,100},szContent="引航旗换边了！这回是恶人谷的船。",szNote="恶人·占领·引航大旗",szTarget="工头",tCountdown={{key="引航大旗",nClass=14,nFrame=0,nIcon=13,nRefresh=2,nTime=30,szName="恶人·占领·引航大旗"}}}},col={255,100,100},szContent="引航旗换边了！这回是恶人谷的船。",szNote="MODIFY·恶人·占领·引航大旗",szTarget="工头",tCountdown={{key="通用·矿车",nClass=14,nFrame=0,nIcon=13,nTime=30,szName="恶人·占领·引航大旗"}}},
+				{LH={szChanged="MODIFY",tOld={col={100,100,255},szContent="引航旗换边了！这回是浩气盟的船。",szNote="浩气·占领·引航大旗",szTarget="工头",tCountdown={{key="引航大旗",nClass=14,nFrame=0,nIcon=13,nRefresh=2,nTime=30,szName="浩气·占领·引航大旗"}}}},col={100,100,255},szContent="引航旗换边了！这回是浩气盟的船。",szNote="MODIFY·浩气·占领·引航大旗",szTarget="工头",tCountdown={{key="通用·矿车",nClass=14,nFrame=0,nIcon=13,nTime=30,szName="浩气·占领·引航大旗"}}},
 			},
 		},
 	},
