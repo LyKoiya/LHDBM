@@ -1,0 +1,17 @@
+return {
+	CHAT = {
+		[-7] = {
+			{LH={szChanged="ADD"},szContent="留下大量军功，请“浩气盟”侠士们前来拾取，切莫错过。",szNote="ADD·防止冲突"},
+			{LH={szChanged="ADD"},szContent="留下大量军功，请“恶人谷”侠士们前来拾取，切莫错过。",szNote="ADD·防止冲突"},
+		},
+	},
+},{
+	ADD = {
+		CHAT = {
+			[-7] = {
+				{LH={szChanged="ADD"},szContent="留下大量军功，请“浩气盟”侠士们前来拾取，切莫错过。",szNote="ADD·防止冲突"},
+				{LH={szChanged="ADD"},szContent="留下大量军功，请“恶人谷”侠士们前来拾取，切莫错过。",szNote="ADD·防止冲突"},
+			},
+		},
+	},
+}

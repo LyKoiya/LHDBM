@@ -802,8 +802,8 @@ return {
 			{[14]={bCenterAlarm=true},col={255,255,100},szContent="你们这些卑鄙小人，这个时间我是不会把据点让给你们的！",szNote="{$sender}·拒绝换防",szTarget="%",tCountdown={{key="阵营业务",nClass=14,nFrame=8,nIcon=13,nTime=10,szName="{$sender}·拒绝换防"}}},
 			{[14]={bCenterAlarm=true},col={255,255,100},szContent="敌方据点范围内，无法组装神机车。",szNote="据点内·无法组装·神机车",szTarget="%"},
 			{[14]={bCenterAlarm=true},col={255,255,100},szContent="敌方据点范围内，无法组装摧城车。",szNote="据点内·无法组装·摧城车",szTarget="%"},
-			{bSearch=true,col={255,100,100},szContent="留下大量军功，请“恶人谷”侠士们前来拾取，切莫错过。",szNote="恶人谷·击退·狼牙先锋首领",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=3,nIcon=13,nRefresh=300,nTime="300,恶人谷·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="恶人谷·拾取首领掉落"}}},
-			{bSearch=true,col={100,100,255},szContent="留下大量军功，请“浩气盟”侠士们前来拾取，切莫错过。",szNote="浩气盟·击退·狼牙先锋首领",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=7,nIcon=13,nRefresh=300,nTime="300,浩气盟·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="浩气盟·拾取首领掉落"}}},
+			{[14]={bCenterAlarm=true},bSearch=true,col={255,100,100},szContent="留下大量军功，请“恶人谷”侠士们前来拾取，切莫错过。",szNote="恶人·击退·狼牙先锋首领",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=3,nIcon=13,nRefresh=300,nTime="300,恶人谷·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="恶人谷·拾取首领掉落"}}},
+			{[14]={bCenterAlarm=true},bSearch=true,col={100,100,255},szContent="留下大量军功，请“浩气盟”侠士们前来拾取，切莫错过。",szNote="浩气·击退·狼牙先锋首领",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=7,nIcon=13,nRefresh=300,nTime="300,浩气盟·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="浩气盟·拾取首领掉落"}}},
 			{[14]={bCenterAlarm=true,bFullScreen=true},col={255,50,255},szContent="您因消极怠战,扰乱阵营秩序，被阵营督查官请离当前地图，但同时给予250点贡献积分！",szNote="阵营督查官·请离据点攻防",szTarget="%",tCountdown={{bHold=true,key="挂机检测",nClass=14,nFrame=1,nIcon=13,nTime=30,szName="阵营督查·请离据点攻防"}}},
 			{[14]={bCenterAlarm=true},bReg=true,col={255,50,255},szContent="^【(.-)】据点大旗受损，获得(%d-)层易伤，当前总计【(%d-)层易伤】！",szNote="【{$1}】大旗·易伤{$3}层",szTarget="%",tCountdown={{key="大旗易伤",nClass=14,nFrame=1,nIcon=16834,nRefresh=2,nTime=-1,szName="大旗易伤"},{key="{$1}·大旗易伤",nClass=14,nFrame=1,nIcon=16834,nRefresh=0,nTime="60,【{$1}】大旗·易伤{$3}层;65,【{$1}】大旗·易伤冷却结束",szName="【{$1}】大旗·易伤{$3}层"}}},
 			{bReg=true,col={255,255,100},szContent="好嘞，老夫开始收货了。本次特产转为(%d-)个(.-)，(.-)[，]-您辛苦了！",szTarget="据点总管",tCountdown={{key="阵营模式",nClass=14,nFrame=6,nIcon=13,nTime=-2,szName="阵营模式"},{key="阵营模式",nClass=14,nFrame=6,nIcon=374,nRefresh=600,nTime=10,szName="{$2}·{$1}{$3}"}}},
@@ -1022,6 +1022,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1794393327,
+		nTimeStamp = 1794393927,
 	},
 }

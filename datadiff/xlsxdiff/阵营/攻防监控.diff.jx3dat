@@ -1,42 +1,16 @@
 return {
-	DEBUFF = {
-		[-19] = {
-			{LH={szChanged="ADD"},col={255,255,0},dwID=12076,nLevel=1,nScrutinyType=1,szNote="ADD·何必西天万里遥·免排",tCountdown={{key="破阵点将·一·常驻",nClass=1,nIcon=7674,nRefresh=5,nTime=-1,szName="破阵点将·一·常驻"},{key="破阵点将·二·常驻",nClass=1,nIcon=7676,nRefresh=5,nTime=-1,szName="破阵点将·二·常驻"}}},
-			{LH={szChanged="ADD"},col={255,255,0},dwID=15817,nLevel=1,nScrutinyType=1,szNote="ADD·千仇万恨·强仇免控",tCountdown={{key="破阵点将·一·常驻",nClass=1,nIcon=7674,nRefresh=5,nTime=-1,szName="破阵点将·一·常驻"},{key="破阵点将·二·常驻",nClass=1,nIcon=7676,nRefresh=5,nTime=-1,szName="破阵点将·二·常驻"}}},
-		},
-	},
 	TALK = {
 		[-20] = {
-			{LH={szChanged="MODIFY",tOld={bSearch=true,col={255,100,100},szContent="留下大量军功，请“恶人谷”侠士们前来拾取，切莫错过。",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=3,nIcon=13,nRefresh=300,nTime="300,恶人谷·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="恶人谷·拾取首领掉落"}}}},bSearch=true,col={255,100,100},szContent="留下大量军功，请“恶人谷”侠士们前来拾取，切莫错过。",szNote="MODIFY·恶人谷·击退·狼牙先锋首领",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=3,nIcon=13,nRefresh=300,nTime="300,恶人谷·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="恶人谷·拾取首领掉落"}}},
-			{LH={szChanged="MODIFY",tOld={bSearch=true,col={100,100,255},szContent="留下大量军功，请“浩气盟”侠士们前来拾取，切莫错过。",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=7,nIcon=13,nRefresh=300,nTime="300,浩气盟·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="浩气盟·拾取首领掉落"}}}},bSearch=true,col={100,100,255},szContent="留下大量军功，请“浩气盟”侠士们前来拾取，切莫错过。",szNote="MODIFY·浩气盟·击退·狼牙先锋首领",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=7,nIcon=13,nRefresh=300,nTime="300,浩气盟·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="浩气盟·拾取首领掉落"}}},
-		},
-		[-19] = {
-			{[14]={bCenterAlarm=true},LH={szChanged="MODIFY",tOld={[14]={bCenterAlarm=true},col={255,255,100},szContent="本周累计从奇袭场奖励堆获得战阶：4000/4000",szNote="奇袭场·拾取奖励堆·战阶上限",szTarget="%"}},col={255,255,100},szContent="本周累计从奇袭场奖励堆获得战阶：4000/4000",szNote="MODIFY·奇袭场·拾取奖励堆·战阶[4000]上限",szTarget="%"},
-			{[14]={bCenterAlarm=true},LH={szChanged="ADD"},col={255,255,100},szContent="本周累计从奇袭场奖励堆获得战阶：8000/8000",szNote="ADD·奇袭场·拾取奖励堆·战阶[8000]上限",szTarget="%"},
+			{[14]={bCenterAlarm=true},LH={szChanged="MODIFY",tOld={bSearch=true,col={255,100,100},szContent="留下大量军功，请“恶人谷”侠士们前来拾取，切莫错过。",szNote="恶人谷·击退·狼牙先锋首领",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=3,nIcon=13,nRefresh=300,nTime="300,恶人谷·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="恶人谷·拾取首领掉落"}}}},bSearch=true,col={255,100,100},szContent="留下大量军功，请“恶人谷”侠士们前来拾取，切莫错过。",szNote="MODIFY·恶人·击退·狼牙先锋首领",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=3,nIcon=13,nRefresh=300,nTime="300,恶人谷·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="恶人谷·拾取首领掉落"}}},
+			{[14]={bCenterAlarm=true},LH={szChanged="MODIFY",tOld={bSearch=true,col={100,100,255},szContent="留下大量军功，请“浩气盟”侠士们前来拾取，切莫错过。",szNote="浩气盟·击退·狼牙先锋首领",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=7,nIcon=13,nRefresh=300,nTime="300,浩气盟·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="浩气盟·拾取首领掉落"}}}},bSearch=true,col={100,100,255},szContent="留下大量军功，请“浩气盟”侠士们前来拾取，切莫错过。",szNote="MODIFY·浩气·击退·狼牙先锋首领",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=7,nIcon=13,nRefresh=300,nTime="300,浩气盟·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="浩气盟·拾取首领掉落"}}},
 		},
 	},
 },{
-	ADD = {
-		DEBUFF = {
-			[-19] = {
-				{LH={szChanged="ADD"},col={255,255,0},dwID=12076,nLevel=1,nScrutinyType=1,szNote="ADD·何必西天万里遥·免排",tCountdown={{key="破阵点将·一·常驻",nClass=1,nIcon=7674,nRefresh=5,nTime=-1,szName="破阵点将·一·常驻"},{key="破阵点将·二·常驻",nClass=1,nIcon=7676,nRefresh=5,nTime=-1,szName="破阵点将·二·常驻"}}},
-				{LH={szChanged="ADD"},col={255,255,0},dwID=15817,nLevel=1,nScrutinyType=1,szNote="ADD·千仇万恨·强仇免控",tCountdown={{key="破阵点将·一·常驻",nClass=1,nIcon=7674,nRefresh=5,nTime=-1,szName="破阵点将·一·常驻"},{key="破阵点将·二·常驻",nClass=1,nIcon=7676,nRefresh=5,nTime=-1,szName="破阵点将·二·常驻"}}},
-			},
-		},
-		TALK = {
-			[-19] = {
-				{[14]={bCenterAlarm=true},LH={szChanged="ADD"},col={255,255,100},szContent="本周累计从奇袭场奖励堆获得战阶：8000/8000",szNote="ADD·奇袭场·拾取奖励堆·战阶[8000]上限",szTarget="%"},
-			},
-		},
-	},
 	MODIFY = {
 		TALK = {
 			[-20] = {
-				{LH={szChanged="MODIFY",tOld={bSearch=true,col={255,100,100},szContent="留下大量军功，请“恶人谷”侠士们前来拾取，切莫错过。",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=3,nIcon=13,nRefresh=300,nTime="300,恶人谷·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="恶人谷·拾取首领掉落"}}}},bSearch=true,col={255,100,100},szContent="留下大量军功，请“恶人谷”侠士们前来拾取，切莫错过。",szNote="MODIFY·恶人谷·击退·狼牙先锋首领",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=3,nIcon=13,nRefresh=300,nTime="300,恶人谷·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="恶人谷·拾取首领掉落"}}},
-				{LH={szChanged="MODIFY",tOld={bSearch=true,col={100,100,255},szContent="留下大量军功，请“浩气盟”侠士们前来拾取，切莫错过。",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=7,nIcon=13,nRefresh=300,nTime="300,浩气盟·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="浩气盟·拾取首领掉落"}}}},bSearch=true,col={100,100,255},szContent="留下大量军功，请“浩气盟”侠士们前来拾取，切莫错过。",szNote="MODIFY·浩气盟·击退·狼牙先锋首领",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=7,nIcon=13,nRefresh=300,nTime="300,浩气盟·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="浩气盟·拾取首领掉落"}}},
-			},
-			[-19] = {
-				{[14]={bCenterAlarm=true},LH={szChanged="MODIFY",tOld={[14]={bCenterAlarm=true},col={255,255,100},szContent="本周累计从奇袭场奖励堆获得战阶：4000/4000",szNote="奇袭场·拾取奖励堆·战阶上限",szTarget="%"}},col={255,255,100},szContent="本周累计从奇袭场奖励堆获得战阶：4000/4000",szNote="MODIFY·奇袭场·拾取奖励堆·战阶[4000]上限",szTarget="%"},
+				{[14]={bCenterAlarm=true},LH={szChanged="MODIFY",tOld={bSearch=true,col={255,100,100},szContent="留下大量军功，请“恶人谷”侠士们前来拾取，切莫错过。",szNote="恶人谷·击退·狼牙先锋首领",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=3,nIcon=13,nRefresh=300,nTime="300,恶人谷·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="恶人谷·拾取首领掉落"}}}},bSearch=true,col={255,100,100},szContent="留下大量军功，请“恶人谷”侠士们前来拾取，切莫错过。",szNote="MODIFY·恶人·击退·狼牙先锋首领",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=3,nIcon=13,nRefresh=300,nTime="300,恶人谷·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="恶人谷·拾取首领掉落"}}},
+				{[14]={bCenterAlarm=true},LH={szChanged="MODIFY",tOld={bSearch=true,col={100,100,255},szContent="留下大量军功，请“浩气盟”侠士们前来拾取，切莫错过。",szNote="浩气盟·击退·狼牙先锋首领",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=7,nIcon=13,nRefresh=300,nTime="300,浩气盟·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="浩气盟·拾取首领掉落"}}}},bSearch=true,col={100,100,255},szContent="留下大量军功，请“浩气盟”侠士们前来拾取，切莫错过。",szNote="MODIFY·浩气·击退·狼牙先锋首领",szTarget="%",tCountdown={{key="狼牙先锋首领",nClass=14,nIcon=13,nTime=-2,szName="狼牙先锋首领"},{key="狼牙先锋首领",nClass=14,nFrame=7,nIcon=13,nRefresh=300,nTime="300,浩气盟·拾取首领掉落;600,狼牙先锋首领·刷新剩余;620,狼牙先锋首领·即将刷新;625,狼牙先锋首领·延迟刷新",szName="浩气盟·拾取首领掉落"}}},
 			},
 		},
 	},
