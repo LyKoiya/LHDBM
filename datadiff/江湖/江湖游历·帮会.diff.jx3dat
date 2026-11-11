@@ -1,0 +1,15 @@
+return {
+	BUFF = {
+		[74] = {
+			{[2]={bVoiceSelfOnly=true,szVoice="TingShou_P"},LH={szChanged="MODIFY",tOld={dwID=19004,nLevel=1,nScrutinyType=1,szNote="许愿树·太公在此",tCountdown={{key="许愿树·太公在此",nClass=1,nIcon=14797,nTime=10,szName="获得·许愿树·太公在此"},{key="许愿树·太公在此",nClass=2,nIcon=14797,nTime=2,szName="失去·许愿树·太公在此"}}}},dwID=19004,nLevel=1,nScrutinyType=1,szNote="MODIFY·许愿树·太公在此",tCountdown={{key="许愿树·太公在此",nClass=1,nIcon=14797,nTime=10,szName="获得·许愿树·太公在此"},{key="许愿树·太公在此",nClass=2,nIcon=14797,nTime=2,szName="失去·许愿树·太公在此"}}},
+		},
+	},
+},{
+	MODIFY = {
+		BUFF = {
+			[74] = {
+				{[2]={bVoiceSelfOnly=true,szVoice="TingShou_P"},LH={szChanged="MODIFY",tOld={dwID=19004,nLevel=1,nScrutinyType=1,szNote="许愿树·太公在此",tCountdown={{key="许愿树·太公在此",nClass=1,nIcon=14797,nTime=10,szName="获得·许愿树·太公在此"},{key="许愿树·太公在此",nClass=2,nIcon=14797,nTime=2,szName="失去·许愿树·太公在此"}}}},dwID=19004,nLevel=1,nScrutinyType=1,szNote="MODIFY·许愿树·太公在此",tCountdown={{key="许愿树·太公在此",nClass=1,nIcon=14797,nTime=10,szName="获得·许愿树·太公在此"},{key="许愿树·太公在此",nClass=2,nIcon=14797,nTime=2,szName="失去·许愿树·太公在此"}}},
+			},
+		},
+	},
+}

@@ -1,7 +1,7 @@
 return {
 	BUFF = {
 		[74] = {
-			{dwID=19004,nLevel=1,nScrutinyType=1,szNote="许愿树·太公在此",tCountdown={{key="许愿树·太公在此",nClass=1,nIcon=14797,nTime=10,szName="获得·许愿树·太公在此"},{key="许愿树·太公在此",nClass=2,nIcon=14797,nTime=2,szName="失去·许愿树·太公在此"}}},
+			{[2]={bVoiceSelfOnly=true,szVoice="TingShou_P"},dwID=19004,nLevel=1,nScrutinyType=1,szNote="许愿树·太公在此",tCountdown={{key="许愿树·太公在此",nClass=1,nIcon=14797,nTime=10,szName="获得·许愿树·太公在此"},{key="许愿树·太公在此",nClass=2,nIcon=14797,nTime=2,szName="失去·许愿树·太公在此"}}},
 		},
 	},
 	CASTING = {
@@ -109,7 +109,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1793986923,
+		nTimeStamp = 1794393402,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
