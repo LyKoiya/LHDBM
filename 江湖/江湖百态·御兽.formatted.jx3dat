@@ -14,15 +14,15 @@ return {
 	CHAT = {
 		[-21] = {
 			{[20]={bCenterAlarm=true},szContent="您的宠物已消除忧虑，变得活泼欢快。\n",szNote="宠物已消除忧虑"},
-			{col={100,255,255},szContent="江湖急报：巴陵县出现罕见异兽，请深通驭兽秘术之侠客前往收服，以解百姓之忧。\n",szNote="巴陵御兽·开启",tCountdown={{key="御兽挑战",nClass=20,nFrame=0,nIcon=8302,nTime=30,szName="巴陵·御兽挑战·开启"}}},
 		},
 		[-7] = {
 			{[20]={bCenterAlarm=true},szContent="您的宠物已消除忧虑，变得活泼欢快。\n",szNote="宠物已消除忧虑"},
-			{col={100,255,255},szContent="江湖急报：巴陵县出现罕见异兽，请深通驭兽秘术之侠客前往收服，以解百姓之忧。\n",szNote="巴陵御兽·开启",tCountdown={{key="御兽挑战",nClass=20,nFrame=0,nIcon=8302,nTime=30,szName="巴陵·御兽挑战·开启"}}},
 		},
 		[-2] = {
 			{[20]={bCenterAlarm=true},szContent="您的宠物已消除忧虑，变得活泼欢快。\n",szNote="宠物已消除忧虑"},
-			{col={100,255,255},szContent="江湖急报：巴陵县出现罕见异兽，请深通驭兽秘术之侠客前往收服，以解百姓之忧。\n",szNote="巴陵御兽·开启",tCountdown={{key="御兽挑战",nClass=20,nFrame=0,nIcon=8302,nTime=30,szName="巴陵·御兽挑战·开启"}}},
+		},
+		[-1] = {
+			{col={100,255,255},szContent="江湖急报：巴陵县出现罕见异兽，请深通驭兽秘术之侠客前往收服，以解百姓之忧。\n",szNote="巴陵御兽·活动开启",tCountdown={{key="通用事件",nClass=20,nFrame=0,nIcon=8302,nTime=30,szName="巴陵县·御兽挑战·活动开启"},{key="拍卖分红",nClass=20,nFrame=0,nIcon=28209,nTime=30,szName="帮会拍卖·战利品竞拍·开启"}}},
 		},
 	},
 	DEBUFF = {
@@ -64,7 +64,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1793602251,
+		nTimeStamp = 1794383548,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

@@ -1,0 +1,37 @@
+return {
+	CHAT = {
+		[-21] = {
+			{LH={szChanged="REMOVE"},col={100,255,255},szContent="江湖急报：巴陵县出现罕见异兽，请深通驭兽秘术之侠客前往收服，以解百姓之忧。\n",szNote="REMOVE·巴陵御兽·开启",tCountdown={{key="御兽挑战",nClass=20,nFrame=0,nIcon=8302,nTime=30,szName="巴陵·御兽挑战·开启"}}},
+		},
+		[-7] = {
+			{LH={szChanged="REMOVE"},col={100,255,255},szContent="江湖急报：巴陵县出现罕见异兽，请深通驭兽秘术之侠客前往收服，以解百姓之忧。\n",szNote="REMOVE·巴陵御兽·开启",tCountdown={{key="御兽挑战",nClass=20,nFrame=0,nIcon=8302,nTime=30,szName="巴陵·御兽挑战·开启"}}},
+		},
+		[-2] = {
+			{LH={szChanged="REMOVE"},col={100,255,255},szContent="江湖急报：巴陵县出现罕见异兽，请深通驭兽秘术之侠客前往收服，以解百姓之忧。\n",szNote="REMOVE·巴陵御兽·开启",tCountdown={{key="御兽挑战",nClass=20,nFrame=0,nIcon=8302,nTime=30,szName="巴陵·御兽挑战·开启"}}},
+		},
+		[-1] = {
+			{LH={szChanged="ADD"},col={100,255,255},szContent="江湖急报：巴陵县出现罕见异兽，请深通驭兽秘术之侠客前往收服，以解百姓之忧。\n",szNote="ADD·巴陵御兽·活动开启",tCountdown={{key="通用事件",nClass=20,nFrame=0,nIcon=8302,nTime=30,szName="巴陵县·御兽挑战·活动开启"},{key="拍卖分红",nClass=20,nFrame=0,nIcon=28209,nTime=30,szName="帮会拍卖·战利品竞拍·开启"}}},
+		},
+	},
+},{
+	ADD = {
+		CHAT = {
+			[-1] = {
+				{LH={szChanged="ADD"},col={100,255,255},szContent="江湖急报：巴陵县出现罕见异兽，请深通驭兽秘术之侠客前往收服，以解百姓之忧。\n",szNote="ADD·巴陵御兽·活动开启",tCountdown={{key="通用事件",nClass=20,nFrame=0,nIcon=8302,nTime=30,szName="巴陵县·御兽挑战·活动开启"},{key="拍卖分红",nClass=20,nFrame=0,nIcon=28209,nTime=30,szName="帮会拍卖·战利品竞拍·开启"}}},
+			},
+		},
+	},
+	REMOVE = {
+		CHAT = {
+			[-21] = {
+				{LH={szChanged="REMOVE"},col={100,255,255},szContent="江湖急报：巴陵县出现罕见异兽，请深通驭兽秘术之侠客前往收服，以解百姓之忧。\n",szNote="REMOVE·巴陵御兽·开启",tCountdown={{key="御兽挑战",nClass=20,nFrame=0,nIcon=8302,nTime=30,szName="巴陵·御兽挑战·开启"}}},
+			},
+			[-7] = {
+				{LH={szChanged="REMOVE"},col={100,255,255},szContent="江湖急报：巴陵县出现罕见异兽，请深通驭兽秘术之侠客前往收服，以解百姓之忧。\n",szNote="REMOVE·巴陵御兽·开启",tCountdown={{key="御兽挑战",nClass=20,nFrame=0,nIcon=8302,nTime=30,szName="巴陵·御兽挑战·开启"}}},
+			},
+			[-2] = {
+				{LH={szChanged="REMOVE"},col={100,255,255},szContent="江湖急报：巴陵县出现罕见异兽，请深通驭兽秘术之侠客前往收服，以解百姓之忧。\n",szNote="REMOVE·巴陵御兽·开启",tCountdown={{key="御兽挑战",nClass=20,nFrame=0,nIcon=8302,nTime=30,szName="巴陵·御兽挑战·开启"}}},
+			},
+		},
+	},
+}
