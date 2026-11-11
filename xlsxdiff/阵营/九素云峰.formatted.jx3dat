@@ -18,12 +18,14 @@ return {
 		[-21] = {
 			{[20]={bCenterAlarm=true},szContent="练习赛已经报名过了\n",szNote="武林争霸赛·练习赛·已经报名",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·练习赛·已经报名"}}},
 			{[20]={bCenterAlarm=true},szContent="练习赛匹配超时\n",szNote="武林争霸赛·练习赛·匹配超时",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·练习赛·匹配超时"}}},
-			{szContent="未到报名时间，或请重新打开界面!\n",szNote="武林争霸赛·未到报名时间",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·未到报名时间"}}},
+			{[20]={bCenterAlarm=true},szContent="未到报名时间，或请重新打开界面!\n",szNote="武林争霸赛·未到报名时间",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·未到报名时间"}}},
+			{[20]={bCenterAlarm=true},szContent="您没有武林争霸赛参与资格。\n",szNote="武林争霸赛·没有参与资格",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·没有参与资格"}}},
 		},
 		[-2] = {
 			{[20]={bCenterAlarm=true},szContent="练习赛已经报名过了\n",szNote="武林争霸赛·练习赛·已经报名",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·练习赛·已经报名"}}},
 			{[20]={bCenterAlarm=true},szContent="练习赛匹配超时\n",szNote="武林争霸赛·练习赛·匹配超时",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·练习赛·匹配超时"}}},
-			{szContent="未到报名时间，或请重新打开界面!\n",szNote="武林争霸赛·未到报名时间",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·未到报名时间"}}},
+			{[20]={bCenterAlarm=true},szContent="未到报名时间，或请重新打开界面!\n",szNote="武林争霸赛·未到报名时间",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·未到报名时间"}}},
+			{[20]={bCenterAlarm=true},szContent="您没有武林争霸赛参与资格。\n",szNote="武林争霸赛·没有参与资格",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·没有参与资格"}}},
 		},
 		[689] = {
 			{szContent="蓝方成功击败了古猿\n",tCountdown={{key="通用·古猿",nClass=20,nFrame=7,nIcon=2671,nRefresh=0,nTime="5,蓝方·获得古猿·资源+200;90,蓝方·古猿·刷新剩余;95,蓝方·古猿·已经刷新",szName="蓝方·古猿·刷新剩余"}}},
@@ -137,6 +139,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1793986923,
+		nTimeStamp = 1794423267,
 	},
 }

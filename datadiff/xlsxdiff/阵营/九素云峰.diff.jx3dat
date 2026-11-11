@@ -1,0 +1,33 @@
+return {
+	CHAT = {
+		[-21] = {
+			{[20]={bCenterAlarm=true},LH={szChanged="MODIFY",tOld={szContent="未到报名时间，或请重新打开界面!\n",szNote="武林争霸赛·未到报名时间",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·未到报名时间"}}}},szContent="未到报名时间，或请重新打开界面!\n",szNote="MODIFY·武林争霸赛·未到报名时间",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·未到报名时间"}}},
+			{[20]={bCenterAlarm=true},LH={szChanged="ADD"},szContent="您没有武林争霸赛参与资格。\n",szNote="ADD·武林争霸赛·没有参与资格",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·没有参与资格"}}},
+		},
+		[-2] = {
+			{[20]={bCenterAlarm=true},LH={szChanged="MODIFY",tOld={szContent="未到报名时间，或请重新打开界面!\n",szNote="武林争霸赛·未到报名时间",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·未到报名时间"}}}},szContent="未到报名时间，或请重新打开界面!\n",szNote="MODIFY·武林争霸赛·未到报名时间",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·未到报名时间"}}},
+			{[20]={bCenterAlarm=true},LH={szChanged="ADD"},szContent="您没有武林争霸赛参与资格。\n",szNote="ADD·武林争霸赛·没有参与资格",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·没有参与资格"}}},
+		},
+	},
+},{
+	ADD = {
+		CHAT = {
+			[-21] = {
+				{[20]={bCenterAlarm=true},LH={szChanged="ADD"},szContent="您没有武林争霸赛参与资格。\n",szNote="ADD·武林争霸赛·没有参与资格",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·没有参与资格"}}},
+			},
+			[-2] = {
+				{[20]={bCenterAlarm=true},LH={szChanged="ADD"},szContent="您没有武林争霸赛参与资格。\n",szNote="ADD·武林争霸赛·没有参与资格",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·没有参与资格"}}},
+			},
+		},
+	},
+	MODIFY = {
+		CHAT = {
+			[-21] = {
+				{[20]={bCenterAlarm=true},LH={szChanged="MODIFY",tOld={szContent="未到报名时间，或请重新打开界面!\n",szNote="武林争霸赛·未到报名时间",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·未到报名时间"}}}},szContent="未到报名时间，或请重新打开界面!\n",szNote="MODIFY·武林争霸赛·未到报名时间",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·未到报名时间"}}},
+			},
+			[-2] = {
+				{[20]={bCenterAlarm=true},LH={szChanged="MODIFY",tOld={szContent="未到报名时间，或请重新打开界面!\n",szNote="武林争霸赛·未到报名时间",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·未到报名时间"}}}},szContent="未到报名时间，或请重新打开界面!\n",szNote="MODIFY·武林争霸赛·未到报名时间",tCountdown={{key="武林争霸赛",nClass=20,nFrame=4,nIcon=13,nTime=10,szName="武林争霸赛·未到报名时间"}}},
+			},
+		},
+	},
+}
