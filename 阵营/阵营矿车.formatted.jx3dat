@@ -125,13 +125,13 @@ return {
 			{szContent="敌首已匿！弟兄们，冲啊！",szTarget="姜鹤轩",tCountdown={{key="通用·矿车",nClass=14,nFrame=6,nIcon=13,nRefresh=128,nTime="7.5,鬼影夜叉丸·剧情剩余;127.5,鬼影夜叉丸·奖励剩余",szName="通用·矿车"}}},
 		},
 		[488] = {
-			{szContent="感谢各位大侠相助！这里是承诺的奖赏，请各位收下。",szTarget="藏剑高级弟子",tCountdown={{key="通用·矿车",nClass=14,nFrame=6,nIcon=13,nTime=90,szName="矿车·护送奖赏"},{key="浩气·矿车",nClass=14,nIcon=13,nTime=0,szName="浩气·矿车"},{key="恶人·矿车",nClass=14,nIcon=13,nTime=0,szName="恶人·矿车"}}},
+			{szContent="感谢各位大侠相助！这里是承诺的奖赏，请各位收下。",szTarget="藏剑高级弟子",tCountdown={{key="通用·矿车",nClass=14,nFrame=6,nIcon=13,nTime=90,szName="矿车·护送奖赏"},{key="浩气·矿车",nClass=14,nIcon=13,nRefresh=2,nTime=-1,szName="浩气·矿车"},{key="恶人·矿车",nClass=14,nIcon=13,nRefresh=2,nTime=-1,szName="恶人·矿车"}}},
 			{szContent="兄弟们，这一车物资已经装满了，有把式的都跟我来！",szTarget="向铐",tCountdown={{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nTime=202,szName="恶人·护送物资"}}},
 			{szContent="兄弟们，物资已齐，请大家随我来，一起运送回藏剑！",szTarget="秦匹",tCountdown={{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nTime=202,szName="浩气·护送物资"}}},
 		},
 	},
 	__meta = {
-		nTimeStamp = 1791817232,
+		nTimeStamp = 1794383358,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

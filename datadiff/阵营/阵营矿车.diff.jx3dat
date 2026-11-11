@@ -1,0 +1,15 @@
+return {
+	TALK = {
+		[488] = {
+			{LH={szChanged="MODIFY",tOld={szContent="感谢各位大侠相助！这里是承诺的奖赏，请各位收下。",szTarget="藏剑高级弟子",tCountdown={{key="通用·矿车",nClass=14,nFrame=6,nIcon=13,nTime=90,szName="矿车·护送奖赏"},{key="浩气·矿车",nClass=14,nIcon=13,nTime=0,szName="浩气·矿车"},{key="恶人·矿车",nClass=14,nIcon=13,nTime=0,szName="恶人·矿车"}}}},szContent="感谢各位大侠相助！这里是承诺的奖赏，请各位收下。",szNote="MODIFY·",szTarget="藏剑高级弟子",tCountdown={{key="通用·矿车",nClass=14,nFrame=6,nIcon=13,nTime=90,szName="矿车·护送奖赏"},{key="浩气·矿车",nClass=14,nIcon=13,nRefresh=2,nTime=-1,szName="浩气·矿车"},{key="恶人·矿车",nClass=14,nIcon=13,nRefresh=2,nTime=-1,szName="恶人·矿车"}}},
+		},
+	},
+},{
+	MODIFY = {
+		TALK = {
+			[488] = {
+				{LH={szChanged="MODIFY",tOld={szContent="感谢各位大侠相助！这里是承诺的奖赏，请各位收下。",szTarget="藏剑高级弟子",tCountdown={{key="通用·矿车",nClass=14,nFrame=6,nIcon=13,nTime=90,szName="矿车·护送奖赏"},{key="浩气·矿车",nClass=14,nIcon=13,nTime=0,szName="浩气·矿车"},{key="恶人·矿车",nClass=14,nIcon=13,nTime=0,szName="恶人·矿车"}}}},szContent="感谢各位大侠相助！这里是承诺的奖赏，请各位收下。",szNote="MODIFY·",szTarget="藏剑高级弟子",tCountdown={{key="通用·矿车",nClass=14,nFrame=6,nIcon=13,nTime=90,szName="矿车·护送奖赏"},{key="浩气·矿车",nClass=14,nIcon=13,nRefresh=2,nTime=-1,szName="浩气·矿车"},{key="恶人·矿车",nClass=14,nIcon=13,nRefresh=2,nTime=-1,szName="恶人·矿车"}}},
+			},
+		},
+	},
+}
