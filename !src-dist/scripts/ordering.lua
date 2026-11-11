@@ -194,7 +194,7 @@ function processFilediff(szNewFileName, szOldFileName, szSaveDiffFileName)
         -- 没有差异，说明没有修改项目数据，而是其他的内容
         return false
     end
-    if not X.IsEmpty(tData) then -- 新表为空，说明该旧文件删除，无需记录
+    if X.IsEmpty(tData) then -- 新表为空，说明该文件删除，无需记录
         return false
     end
 
