@@ -458,6 +458,7 @@ return {
 			{{bBuffList=true,bOnlySelfSrc=false,bTeamPanel=false},col={0,255,255},dwID=18222,nLevel=1,nScrutinyType=1,szNote="大善",tKungFu={["SKILL#10002"]=true,["SKILL#10062"]=true,["SKILL#10243"]=true,["SKILL#10389"]=true}},
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#00FF00FF",nColAlpha=255,nPriority=23,szReminder="减"}},col={0,255,0},dwID=70169,nLevel=1,nScrutinyType=2,szName="减伤",szNote="受到的伤害降低"},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bAttention=true,bScreenHead=true,col="#FFCC00FF",colScreenHead="#FFCC00",nColAlpha=255,nPriority=3,szReminder="闪"}},bCheckLevel=true,col={255,204,0},dwID=70170,nLevel=100,nScrutinyType=2,szName="闪避",szNote="闪避率提高"},
+			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#00FF00FF",nColAlpha=255,nPriority=24,szReminder="盾"}},col={0,255,0},dwID=70173,nLevel=1,nScrutinyType=2,szName="化解",szNote="伤害化解"},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bAttention=true,bScreenHead=true,col="#FFCC00FF",colScreenHead="#FFCC00",nColAlpha=255,nPriority=3,szReminder="金"}},col={255,204,0},dwID=70174,nIcon=7351,nLevel=1,nScrutinyType=2,szNote="不死"},
 			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bAttention=true,bScreenHead=true,col="#FFCC00FF",colScreenHead="#FFCC00",nColAlpha=255,nPriority=3,szReminder="金"}},col={255,204,0},dwID=70175,nIcon=14120,nLevel=1,nScrutinyType=2,szNote="无敌"},
 			{{bBuffList=true,bTeamPanel=true},aCataclysmBuff={{col="#FFCC00FF",nColAlpha=255,nPriority=3,szReminder="弹"}},col={255,204,0},dwID=70179,nLevel=1,nScrutinyType=2,szName="反弹",szNote="伤害反弹"},
@@ -2291,6 +2292,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1794071610,
+		nTimeStamp = 1794562833,
 	},
 }
