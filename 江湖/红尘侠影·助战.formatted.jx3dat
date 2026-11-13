@@ -66,8 +66,11 @@ return {
 	},
 	DOODAD = {
 		[193] = {
-			{aFocus={{nMaxDistance=2,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11892,szNote="痕迹"},
-			{aFocus={{nMaxDistance=2,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11893,szNote="痕迹"},
+			{aFocus={{nMaxDistance=2,szDisplay="痕迹·交互",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11892,szNote="痕迹"},
+			{aFocus={{nMaxDistance=2,szDisplay="痕迹·交互",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11893,szNote="痕迹"},
+			{aFocus={{nMaxDistance=2,szDisplay="传告一·交互",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11927,szNote="传告一"},
+			{aFocus={{nMaxDistance=2,szDisplay="传告二·交互",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11928,szNote="传告二"},
+			{aFocus={{nMaxDistance=2,szDisplay="传告三·交互",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11929,szNote="传告三"},
 		},
 	},
 	NPC = {
@@ -122,7 +125,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1793602277,
+		nTimeStamp = 1794562776,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

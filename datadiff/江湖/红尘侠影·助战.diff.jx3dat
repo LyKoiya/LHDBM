@@ -1,0 +1,29 @@
+return {
+	DOODAD = {
+		[193] = {
+			{LH={szChanged="MODIFY",tOld={aFocus={{nMaxDistance=2,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11892,szNote="痕迹"}},aFocus={{nMaxDistance=2,szDisplay="痕迹·交互",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11892,szNote="MODIFY·痕迹"},
+			{LH={szChanged="MODIFY",tOld={aFocus={{nMaxDistance=2,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11893,szNote="痕迹"}},aFocus={{nMaxDistance=2,szDisplay="痕迹·交互",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11893,szNote="MODIFY·痕迹"},
+			{LH={szChanged="ADD"},aFocus={{nMaxDistance=2,szDisplay="传告一·交互",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11927,szNote="ADD·传告一"},
+			{LH={szChanged="ADD"},aFocus={{nMaxDistance=2,szDisplay="传告二·交互",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11928,szNote="ADD·传告二"},
+			{LH={szChanged="ADD"},aFocus={{nMaxDistance=2,szDisplay="传告三·交互",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11929,szNote="ADD·传告三"},
+		},
+	},
+},{
+	ADD = {
+		DOODAD = {
+			[193] = {
+				{LH={szChanged="ADD"},aFocus={{nMaxDistance=2,szDisplay="传告一·交互",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11927,szNote="ADD·传告一"},
+				{LH={szChanged="ADD"},aFocus={{nMaxDistance=2,szDisplay="传告二·交互",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11928,szNote="ADD·传告二"},
+				{LH={szChanged="ADD"},aFocus={{nMaxDistance=2,szDisplay="传告三·交互",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11929,szNote="ADD·传告三"},
+			},
+		},
+	},
+	MODIFY = {
+		DOODAD = {
+			[193] = {
+				{LH={szChanged="MODIFY",tOld={aFocus={{nMaxDistance=2,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11892,szNote="痕迹"}},aFocus={{nMaxDistance=2,szDisplay="痕迹·交互",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11892,szNote="MODIFY·痕迹"},
+				{LH={szChanged="MODIFY",tOld={aFocus={{nMaxDistance=2,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11893,szNote="痕迹"}},aFocus={{nMaxDistance=2,szDisplay="痕迹·交互",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11893,szNote="MODIFY·痕迹"},
+			},
+		},
+	},
+}
