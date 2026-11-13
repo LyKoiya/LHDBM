@@ -1,0 +1,21 @@
+return {
+	TALK = {
+		[-19] = {
+			{[14]={bCenterAlarm=true},LH={szChanged="ADD"},szContent="部署完成，已消耗1个物品并生成新的帮会临时复活营地。",szNote="ADD·帮会营地·部署完成",szTarget="%",tCountdown={{key="帮会·复活营地",nClass=14,nFrame=1,nIcon=28136,nRefresh=2,nTime="30,本帮·复活营地·短时护体;90,本帮·复活营地·护持之期",szName="本帮·复活营地·已建立"}}},
+		},
+		[-7] = {
+			{[14]={bCenterAlarm=true},LH={szChanged="ADD"},szContent="部署完成，已消耗1个物品并生成新的帮会临时复活营地。",szNote="ADD·帮会营地·部署完成",szTarget="%",tCountdown={{key="帮会·复活营地",nClass=14,nFrame=1,nIcon=28136,nRefresh=2,nTime="30,本帮·复活营地·短时护体;90,本帮·复活营地·护持之期",szName="本帮·复活营地·已建立"}}},
+		},
+	},
+},{
+	ADD = {
+		TALK = {
+			[-19] = {
+				{[14]={bCenterAlarm=true},LH={szChanged="ADD"},szContent="部署完成，已消耗1个物品并生成新的帮会临时复活营地。",szNote="ADD·帮会营地·部署完成",szTarget="%",tCountdown={{key="帮会·复活营地",nClass=14,nFrame=1,nIcon=28136,nRefresh=2,nTime="30,本帮·复活营地·短时护体;90,本帮·复活营地·护持之期",szName="本帮·复活营地·已建立"}}},
+			},
+			[-7] = {
+				{[14]={bCenterAlarm=true},LH={szChanged="ADD"},szContent="部署完成，已消耗1个物品并生成新的帮会临时复活营地。",szNote="ADD·帮会营地·部署完成",szTarget="%",tCountdown={{key="帮会·复活营地",nClass=14,nFrame=1,nIcon=28136,nRefresh=2,nTime="30,本帮·复活营地·短时护体;90,本帮·复活营地·护持之期",szName="本帮·复活营地·已建立"}}},
+			},
+		},
+	},
+}
