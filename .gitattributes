@@ -8,4 +8,5 @@
 /*.code-workspace    export-ignore
 
 # -diff
-*.diff.jx3dat -diff
+*.diff.jx3dat    -diff
+/output/**       -diff
