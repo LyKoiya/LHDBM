@@ -125,6 +125,11 @@ packList = [
         "Checked": True
     },
     {
+        "Path": "\\奇遇\\宠物奇遇_跟宠监控.formatted.jx3dat",
+        "Method": "fileMerge",
+        "Checked": True
+    },
+    {
         "Path": "\\奇遇",
         "Method": "fileMerge",
         "Checked": True

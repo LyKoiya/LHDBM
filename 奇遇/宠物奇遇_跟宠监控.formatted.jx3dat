@@ -52,7 +52,7 @@ return {
 	TALK = {},
 	__meta = {
 		nTimeStamp = 1791190288,
-		szAuthor = "ÁÖ²Ý²Ý",
+		szAuthor = "ºÉ»¨Àð",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
 		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
