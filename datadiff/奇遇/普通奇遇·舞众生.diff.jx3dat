@@ -1,0 +1,23 @@
+return {
+	CHAT = {
+		[-6] = {
+			{LH={szChanged="REMOVE"},szContent="浪客侠游，缘来皆为一瞬。“荷花鲤”侠士居然触发奇遇【舞众生】，真是可喜可贺！\n",szNote="REMOVE·"},
+			{LH={szChanged="ADD"},bSearch=true,szContent="浪客侠游，缘来皆为一瞬。“{$me}”侠士居然触发奇遇【舞众生】，真是可喜可贺！\n",szNote="ADD·",tCountdown={{key="奇遇提示0",nClass=20,nFrame=7,nIcon=12371,nTime=10,szName="恭喜触发·普通奇遇·舞众生"}}},
+		},
+	},
+},{
+	ADD = {
+		CHAT = {
+			[-6] = {
+				{LH={szChanged="ADD"},bSearch=true,szContent="浪客侠游，缘来皆为一瞬。“{$me}”侠士居然触发奇遇【舞众生】，真是可喜可贺！\n",szNote="ADD·",tCountdown={{key="奇遇提示0",nClass=20,nFrame=7,nIcon=12371,nTime=10,szName="恭喜触发·普通奇遇·舞众生"}}},
+			},
+		},
+	},
+	REMOVE = {
+		CHAT = {
+			[-6] = {
+				{LH={szChanged="REMOVE"},szContent="浪客侠游，缘来皆为一瞬。“荷花鲤”侠士居然触发奇遇【舞众生】，真是可喜可贺！\n",szNote="REMOVE·"},
+			},
+		},
+	},
+}

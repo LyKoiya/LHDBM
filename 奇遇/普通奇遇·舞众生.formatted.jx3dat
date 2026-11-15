@@ -3,7 +3,7 @@ return {
 	CASTING = {},
 	CHAT = {
 		[-6] = {
-			{szContent="浪客侠游，缘来皆为一瞬。“荷花鲤”侠士居然触发奇遇【舞众生】，真是可喜可贺！\n"},
+			{bSearch=true,szContent="浪客侠游，缘来皆为一瞬。“{$me}”侠士居然触发奇遇【舞众生】，真是可喜可贺！\n",tCountdown={{key="奇遇提示0",nClass=20,nFrame=7,nIcon=12371,nTime=10,szName="恭喜触发·普通奇遇·舞众生"}}},
 		},
 	},
 	DEBUFF = {
@@ -36,7 +36,7 @@ return {
 	},
 	TALK = {},
 	__meta = {
-		nTimeStamp = 1791190289,
+		nTimeStamp = 1794760259,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
