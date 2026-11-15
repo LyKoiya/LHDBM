@@ -77,7 +77,7 @@ def main() -> None:
         try:
             for file_path in files:
                 print(f'  - {file_path}')
-                old_content = get_old_content(file_path)
+                old_content = get_old_content(file_path) or ''
                 file_path_tmp = f"{file_path}.temp"
                 Path(file_path_tmp).parent.mkdir(parents=True, exist_ok=True)
                 with open(file_path_tmp, "wb") as fTmp:
