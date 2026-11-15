@@ -1,0 +1,57 @@
+return {
+	CHAT = {
+		[103] = {
+			{LH={szChanged="ADD"},szContent="你已接受了[酸甜红果换笑颜]。\n",szNote="ADD·",tCountdown={{bHold=true,key="奇遇提示1",nClass=20,nFrame=7,nIcon=6994,nTime=60,szName="前往·成都·锦枫村·郭佳宝"},{bHold=true,key="奇遇提示2",nClass=20,nFrame=7,nIcon=6994,nTime=60,szName="领取·糖葫芦·返回·无量山"}}},
+			{LH={szChanged="ADD"},szContent="你已接受了[将信将疑立此约]。\n",szNote="ADD·",tCountdown={{bHold=true,key="奇遇提示1",nClass=20,nFrame=7,nIcon=6994,nTime=60,szName="前往·成都·广都镇·林里"}}},
+			{LH={szChanged="ADD"},szContent="你已接受了[终得信任返蜀乡]。\n",szNote="ADD·",tCountdown={{bHold=true,key="奇遇提示1",nClass=20,nFrame=7,nIcon=6994,nTime=60,szName="前往·成都·广都镇·镯子"}}},
+		},
+		[108] = {
+			{LH={szChanged="ADD"},szContent="你已接受了[老妪思孙病难愈]。\n",szNote="ADD·",tCountdown={{bHold=true,key="奇遇提示1",nClass=20,nFrame=7,nIcon=6994,nTime=60,szName="返回·无量山·镯子·输出心法"}}},
+		},
+	},
+	DOODAD = {
+		[103] = {
+			{[17]={bCenterAlarm=true,bScreenHead=true},LH={szChanged="ADD"},aFocus={{nMaxDistance=120,szDisplay="小土堆·商周客",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=5316,szNote="ADD·跟宠·小土堆·商周客"},
+		},
+	},
+	NPC = {
+		[103] = {
+			{LH={szChanged="ADD"},aFocus={{nMaxDistance=30,szDisplay="人贩子·商周客",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=43865,nFrame=47,szNote="ADD·商周客·人贩子"},
+			{LH={szChanged="ADD"},aFocus={{nMaxDistance=60,szDisplay="镯子·商周客",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43841,nFrame=47,szNote="ADD·商周客·镯子"},
+		},
+		[108] = {
+			{LH={szChanged="ADD"},aFocus={{nMaxDistance=60,szDisplay="郭佳宝·商周客",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43878,nFrame=47,szNote="ADD·商周客·郭佳宝"},
+			{LH={szChanged="ADD"},aFocus={{nMaxDistance=6,szDisplay="林里·商周客",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43843,nFrame=47,szNote="ADD·商周客·林里"},
+			{LH={szChanged="ADD"},aFocus={{nMaxDistance=120,szDisplay="镯子·商周客",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43900,nFrame=47,szNote="ADD·商周客·镯子"},
+		},
+	},
+},{
+	ADD = {
+		CHAT = {
+			[103] = {
+				{LH={szChanged="ADD"},szContent="你已接受了[酸甜红果换笑颜]。\n",szNote="ADD·",tCountdown={{bHold=true,key="奇遇提示1",nClass=20,nFrame=7,nIcon=6994,nTime=60,szName="前往·成都·锦枫村·郭佳宝"},{bHold=true,key="奇遇提示2",nClass=20,nFrame=7,nIcon=6994,nTime=60,szName="领取·糖葫芦·返回·无量山"}}},
+				{LH={szChanged="ADD"},szContent="你已接受了[将信将疑立此约]。\n",szNote="ADD·",tCountdown={{bHold=true,key="奇遇提示1",nClass=20,nFrame=7,nIcon=6994,nTime=60,szName="前往·成都·广都镇·林里"}}},
+				{LH={szChanged="ADD"},szContent="你已接受了[终得信任返蜀乡]。\n",szNote="ADD·",tCountdown={{bHold=true,key="奇遇提示1",nClass=20,nFrame=7,nIcon=6994,nTime=60,szName="前往·成都·广都镇·镯子"}}},
+			},
+			[108] = {
+				{LH={szChanged="ADD"},szContent="你已接受了[老妪思孙病难愈]。\n",szNote="ADD·",tCountdown={{bHold=true,key="奇遇提示1",nClass=20,nFrame=7,nIcon=6994,nTime=60,szName="返回·无量山·镯子·输出心法"}}},
+			},
+		},
+		DOODAD = {
+			[103] = {
+				{[17]={bCenterAlarm=true,bScreenHead=true},LH={szChanged="ADD"},aFocus={{nMaxDistance=120,szDisplay="小土堆·商周客",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=5316,szNote="ADD·跟宠·小土堆·商周客"},
+			},
+		},
+		NPC = {
+			[103] = {
+				{LH={szChanged="ADD"},aFocus={{nMaxDistance=30,szDisplay="人贩子·商周客",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=43865,nFrame=47,szNote="ADD·商周客·人贩子"},
+				{LH={szChanged="ADD"},aFocus={{nMaxDistance=60,szDisplay="镯子·商周客",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43841,nFrame=47,szNote="ADD·商周客·镯子"},
+			},
+			[108] = {
+				{LH={szChanged="ADD"},aFocus={{nMaxDistance=60,szDisplay="郭佳宝·商周客",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43878,nFrame=47,szNote="ADD·商周客·郭佳宝"},
+				{LH={szChanged="ADD"},aFocus={{nMaxDistance=6,szDisplay="林里·商周客",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43843,nFrame=47,szNote="ADD·商周客·林里"},
+				{LH={szChanged="ADD"},aFocus={{nMaxDistance=120,szDisplay="镯子·商周客",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=43900,nFrame=47,szNote="ADD·商周客·镯子"},
+			},
+		},
+	},
+}
