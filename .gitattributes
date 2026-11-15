@@ -6,6 +6,7 @@
 /*.lua               export-ignore
 /*.md                export-ignore
 /*.code-workspace    export-ignore
+/*.temp              export-ignore
 
 # -diff
 *.diff.jx3dat    -diff
