@@ -2564,7 +2564,7 @@ return {
 		[-6] = {
 			{bSearch=true,szContent="你已进入地图",tCountdown={{key="阵营模式",nClass=20,nIcon=13,nTime=-1,szName="阵营模式"},{key="绣球花",nClass=20,nIcon=13,nTime=-1,szName="绣球花"},{key="郁金香",nClass=20,nIcon=13,nTime=-1,szName="郁金香"},{key="牵牛花",nClass=20,nIcon=13,nTime=-1,szName="牵牛花"},{key="金水镇",nClass=20,nIcon=13,nTime=-1,szName="金水镇"},{key="巴陵县",nClass=20,nIcon=13,nTime=-1,szName="巴陵县"},{key="龙门荒漠",nClass=20,nIcon=13,nTime=-1,szName="龙门荒漠"},{key="南屏山",nClass=20,nIcon=13,nTime=-1,szName="南屏山"},{key="昆仑",nClass=20,nIcon=13,nTime=-1,szName="昆仑"},{key="白龙口",nClass=20,nIcon=13,nTime=-1,szName="白龙口"},{key="无量山",nClass=20,nIcon=13,nTime=-1,szName="无量山"},{key="黑龙沼",nClass=20,nIcon=13,nTime=-1,szName="黑龙沼"},{key="阴山大草原",nClass=20,nIcon=13,nTime=-1,szName="阴山大草原"},{key="黑戈壁",nClass=20,nIcon=13,nTime=-1,szName="黑戈壁"},{key="鲲鹏岛",nClass=20,nIcon=13,nTime=-1,szName="鲲鹏岛"},{key="阵营活动",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="阵营活动"},{key="通用事件",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="通用事件"},{key="打断监控",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="打断监控"},{key="无威胁监控",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="无威胁监控"},{key="驱散监控",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="驱散监控"},{key="玩家驱友技能",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="玩家驱友技能"},{key="玩家打断技能",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="玩家打断技能"},{key="玩家击退技能",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="玩家击退技能"},{key="玩家驱敌技能",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="玩家驱敌技能"},{key="玩家无仇技能",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="玩家无仇技能"},{key="减伤监控",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="减伤监控"},{bHold=true,key="化解监控",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="化解监控"}}},
 			{bSearch=true,szContent="在《浪客行》中闯过六个关卡"},
-			{szContent="浪客侠游，缘来皆为一瞬。“荷花鲤”侠士居然触发奇遇【舞众生】，真是可喜可贺！\n"},
+			{bSearch=true,szContent="浪客侠游，缘来皆为一瞬。“{$me}”侠士居然触发奇遇【舞众生】，真是可喜可贺！\n",tCountdown={{key="奇遇提示0",nClass=20,nFrame=7,nIcon=12371,nTime=10,szName="恭喜触发·普通奇遇·舞众生"}}},
 		},
 		[-5] = {
 			{bSearch=true,szContent="你已进入地图",tCountdown={{key="金水镇",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="金水镇"},{key="巴陵县",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="巴陵县"},{key="龙门荒漠",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="龙门荒漠"},{key="南屏山",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="南屏山"},{key="昆仑",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="昆仑"},{key="白龙口",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="白龙口"},{key="无量山",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="无量山"},{key="黑龙沼",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="黑龙沼"},{key="阴山大草原",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="阴山大草原"},{key="黑戈壁",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="黑戈壁"},{key="鲲鹏岛",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="鲲鹏岛"},{key="阵营活动",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="阵营活动"},{key="通用事件",nClass=20,nIcon=13,nTime=-2,szName="通用事件"},{key="通用事件",nClass=20,nFrame=2,nIcon=582,nRefresh=99999,nTime="20,注意检查·分配模式;30,注意检查·分配模式",szName="通用事件"},{key="绣球花",nClass=20,nFrame=5,nIcon=264,nTime=20.1,szName="记得食用·帮会·鸡肉外食"},{key="郁金香",nClass=20,nFrame=7,nIcon=21604,nTime=20.1,szName="记得使用·香膏·声望提升"},{key="牵牛花",nClass=20,nFrame=3,nIcon=3407,nTime=20.1,szName="记得使用·家园·声望加速"},{key="打断监控",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="打断监控"},{key="无威胁监控",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="无威胁监控"},{key="驱散监控",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="驱散监控"},{key="玩家驱友技能",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="玩家驱友技能"},{key="玩家打断技能",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="玩家打断技能"},{key="玩家击退技能",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="玩家击退技能"},{key="玩家驱敌技能",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="玩家驱敌技能"},{key="玩家无仇技能",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="玩家无仇技能"},{key="减伤监控",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="减伤监控"},{bHold=true,key="化解监控",nClass=20,nIcon=13,nRefresh=99999,nTime=-1,szName="化解监控"},{key="1号战前提示",nClass=20,nIcon=13,nTime=0,szName="1号战前提示"},{key="2号战前提示",nClass=20,nIcon=13,nTime=0,szName="2号战前提示"},{key="3号战前提示",nClass=20,nIcon=13,nTime=0,szName="3号战前提示"},{key="4号战前提示",nClass=20,nIcon=13,nTime=0,szName="4号战前提示"},{key="5号战前提示",nClass=20,nIcon=13,nTime=0,szName="5号战前提示"},{key="6号战前提示",nClass=20,nIcon=13,nTime=0,szName="6号战前提示"}}},
@@ -2670,7 +2670,7 @@ return {
 			{szContent="天狗的爪牙在中原五大主城外出现，侠士们可速前往除之，否则小饼收集的材料会被叼走。\n",szNote="中秋节·天狗事件",tCountdown={{key="通用事件",nClass=20,nFrame=7,nIcon=89,nTime=10,szName="五大主城·天狗事件"}}},
 			{[20]={bCenterAlarm=true},szContent="神厨饼痴带着做好的大月饼出现啦，侠士们可以去扬州门外品尝大月饼了！\n",szNote="扬州·大月饼·出现",tCountdown={{key="通用事件",nClass=20,nFrame=0,nIcon=7182,nTime=10,szName="扬州·大月饼·出现"}}},
 			{bReg=true,col={255,255,100},szContent="^侠客.*召请成功\n",szNote="助战·召请侠客",tCountdown={{key="侠客召请",nClass=20,nIcon=13,nRefresh=1,nTime=2,szName="侠客召请·CD"},{key="侠客重伤",nClass=20,nFrame=-1,nIcon=13,nRefresh=3600,nTime=-1,szName="侠客重伤"}}},
-			{col={100,255,255},szContent="江湖急报：巴陵县出现罕见异兽，请深通驭兽秘术之侠客前往收服，以解百姓之忧。\n",szNote="巴陵御兽·活动开启",tCountdown={{key="通用事件",nClass=20,nFrame=0,nIcon=8302,nTime=30,szName="巴陵县·御兽挑战·活动开启"},{key="拍卖分红",nClass=20,nFrame=0,nIcon=28209,nTime=30,szName="帮会拍卖·战利品竞拍·开启"}}},
+			{col={100,255,255},szContent="江湖急报：巴陵县出现罕见异兽，请深通驭兽秘术之侠客前往收服，以解百姓之忧。\n",szNote="巴陵御兽·活动开启",tCountdown={{key="通用事件",nClass=20,nFrame=0,nIcon=8302,nRefresh=2,nTime=30,szName="巴陵县·御兽挑战·活动开启"},{key="拍卖分红",nClass=20,nFrame=0,nIcon=28209,nTime=30,szName="帮会拍卖·战利品竞拍·开启"}}},
 			{bReg=true,col={255,255,100},szContent="^江湖快马飞报！(.-)侠士“(.-)”在(.-)捕获(%d-)级稀有坐骑[马]-“(.-)”",tCountdown={{key="{$3}",nClass=20,nIcon=12656,nTime=10,szName="{$3}[{$5}]·被{$1}捕获"},{key="赤兔",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="赤兔"},{key="的卢",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="的卢"},{key="{$5}",nClass=20,nIcon=13,nTime=-2,szName="{$5}"},{key="赤兔",nClass=20,nFrame=0,nIcon=5991,nRefresh=1,nTime=30,szName="[{$2}]捕获·赤兔"},{key="的卢",nClass=20,nFrame=0,nIcon=21034,nRefresh=1,nTime=30,szName="{$1}[{$2}]捕获·的卢"}}},
 			{bReg=true,col={255,255,100},szContent="将有宝马良驹在(.-)出没！",tCountdown={{bHold=true,key="{$1}",nClass=20,nFrame=5,nIcon=1899,nRefresh=1,nTime="300,{$1}·刷马;600,{$1}·刷马剩余;602,{$1}·已刷马",szName="{$1}·刷马"}}},
 			{bReg=true,col={100,255,255},szContent="^唐文羽：梅花桩试炼结束！侠士%[(.-)、(.-)%]通过梅花桩试炼，与我甚是有缘！请速来少林，我有要事相告！因琐事繁忙，在下只在少林等候半个时辰，过时不候。",szNote="扶摇九天·[{$1}]·[{$2}]·触发奇遇",tCountdown={{key="扶摇九天",nClass=20,nFrame=7,nIcon=12371,nTime=10,szName="扶摇九天·[{$1}]·[{$2}]"},{key="扶摇九天·{$1}",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="扶摇九天·{$1}"},{key="扶摇九天·{$2}",nClass=20,nIcon=1465,nRefresh=2,nTime=-2,szName="扶摇九天·{$2}"},{key="扶摇九天·{$me}",nClass=20,nIcon=13,nTime=-2,szName="扶摇九天·{$me}"},{key="扶摇九天·{$1}",nClass=20,nFrame=0,nIcon=12371,nRefresh=1,nTime=30,szName="你·触发奇遇·扶摇九天"},{key="扶摇九天·{$2}",nClass=20,nFrame=0,nIcon=12371,nRefresh=1,nTime=30,szName="你·触发奇遇·扶摇九天"}}},
@@ -2974,6 +2974,9 @@ return {
 			{szContent="你已接受了[鸿鹄·毒海仙踪]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=10,szName="秘境·仙踪林·五人简单"}}},
 		},
 		[103] = {
+			{szContent="你已接受了[终得信任返蜀乡]。\n",tCountdown={{bHold=true,key="奇遇提示1",nClass=20,nFrame=7,nIcon=6994,nTime=60,szName="前往·成都·广都镇·镯子"}}},
+			{szContent="你已接受了[将信将疑立此约]。\n",tCountdown={{bHold=true,key="奇遇提示1",nClass=20,nFrame=7,nIcon=6994,nTime=60,szName="前往·成都·广都镇·林里"}}},
+			{szContent="你已接受了[酸甜红果换笑颜]。\n",tCountdown={{bHold=true,key="奇遇提示1",nClass=20,nFrame=7,nIcon=6994,nTime=60,szName="前往·成都·锦枫村·郭佳宝"},{bHold=true,key="奇遇提示2",nClass=20,nFrame=7,nIcon=6994,nTime=60,szName="领取·糖葫芦·返回·无量山"}}},
 			{bReg=true,col={255,255,100},szContent="^【(.*)】据点大旗(.*)重置回初始位置！\n",szNote="{$1}·大旗重置",tCountdown={{key="神池岭·大旗重置",nClass=20,nIcon=1465,nRefresh=7200,nTime=-2,szName="神池岭·大旗重置"},{key="烈日岗·大旗重置",nClass=20,nIcon=1465,nRefresh=7200,nTime=-2,szName="烈日岗·大旗重置"},{key="{$1}·大旗重置",nClass=20,nIcon=13,nTime=-2,szName="【{$1}】大旗重置"},{key="{$1}·大旗重置",nClass=20,nFrame=4,nIcon=592,nTime=30,szName="【{$1}】大旗重置"},{key="神池岭·大旗重置",nClass=20,nFrame=4,nIcon=592,nRefresh=7200,nTime="180,【神池岭】大旗重置;185,【神池岭】大旗·重置结束",szName="【神池岭】大旗重置"},{key="烈日岗·大旗重置",nClass=20,nFrame=4,nIcon=592,nRefresh=7200,nTime="180,【烈日岗】大旗重置;185,【烈日岗】大旗·重置结束",szName="【烈日岗】大旗重置"}}},
 			{bReg=true,col={255,255,100},szContent="([浩气恶人]+)[盟谷]-位于([^%d]-)的【(.-)据点】大旗被夺",szNote="{$3}·{$1}大旗被夺",tCountdown={{key="{$3}·大旗重置",nClass=20,nFrame=4,nIcon=592,nTime=-1,szName="{$3}·大旗重置"},{key="神池岭·浩气大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=7200,nTime=-2,szName=" "},{key="烈日岗·浩气大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=7200,nTime=-2,szName=" "},{key="神池岭·恶人大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=7200,nTime=-2,szName=" "},{key="烈日岗·恶人大旗",nClass=20,nFrame=-1,nIcon=1465,nRefresh=7200,nTime=-2,szName=" "},{key="{$3}·浩气大旗",nClass=20,nFrame=-1,nIcon=2397,nRefresh=2,nTime=-1,szName="{$3}·浩气大旗被夺"},{key="{$3}·恶人大旗",nClass=20,nFrame=-1,nIcon=2398,nRefresh=2,nTime=-1,szName="{$3}·恶人大旗被夺"},{key="{$3}·{$1}大旗",nClass=20,nFrame=-1,nIcon=2400,nTime=-2,szName="{$3}·{$1}大旗被夺"},{key="{$3}·浩气大旗",nClass=20,nFrame=7,nIcon=4837,nTime=30,szName="{$2}【{$3}】浩气大旗被夺"},{key="{$3}·恶人大旗",nClass=20,nFrame=3,nIcon=4838,nTime=30,szName="{$2}【{$3}】恶人大旗被夺"},{key="神池岭·浩气大旗",nClass=20,nFrame=3,nIcon=3445,nRefresh=720,nTime=600.1,szName="【神池岭】恶人·占领剩余"},{key="烈日岗·浩气大旗",nClass=20,nFrame=3,nIcon=3445,nRefresh=720,nTime=600.1,szName="【烈日岗】恶人·占领剩余"},{key="神池岭·恶人大旗",nClass=20,nFrame=7,nIcon=3444,nRefresh=720,nTime=600.1,szName="【神池岭】浩气·占领剩余"},{key="烈日岗·恶人大旗",nClass=20,nFrame=7,nIcon=3444,nRefresh=720,nTime=600.1,szName="【烈日岗】浩气·占领剩余"}}},
 		},
@@ -2994,6 +2997,7 @@ return {
 			{szContent="辉煌的胜利！成都的侠士击败了前来捣乱的小孩子！成都的雪人雪量上升了。\n",szNote="春节·成都·打雪仗·结束",tCountdown={{key="节日活动1",nClass=20,nIcon=11375,nTime=5,szName="成都·打雪仗·结束"}}},
 			{[20]={bCenterAlarm=true},szContent="你已完成了[拜年]。\n",szNote="下一站·长安·天都镇",tCountdown={{key="春节·拜年·杜甫",nClass=20,nFrame=5,nIcon=13,nTime=30,szName="长安·天都镇·杜甫"},{key="春节·拜年·旧变新",nClass=20,nFrame=-1,nIcon=13,nRefresh=3600,nTime=-1,szName="春节·拜年·旧变新"}}},
 			{szContent="你已接受了[制扎狮头]。\n",tCountdown={{key="任务提示1",nClass=20,nFrame=6,nIcon=13,nTime=60,szName="扎胚·扑纸·绘纹·定色"}}},
+			{szContent="你已接受了[老妪思孙病难愈]。\n",tCountdown={{bHold=true,key="奇遇提示1",nClass=20,nFrame=7,nIcon=6994,nTime=60,szName="返回·无量山·镯子·输出心法"}}},
 			{szContent="你已接受了[朋友之道]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=244,nRefresh=0,nTime="10,日常投喂·[骨头]x10·10天;20,需获取·[犬语术残页]x10",szName="日常·[骨头]x10·10天"}}},
 			{szContent="你已完成了[寻母之路·四]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=4986,nTime=10,szName="使用·背包·[找妈妈的哈皮]"}}},
 			{szContent="你已接受了[训犬秘术]。\n",tCountdown={{key="任务提示1",nClass=20,nIcon=4986,nTime=120,szName="使用·线索纸条·巨树村的左下"},{key="任务提示2",nClass=20,nIcon=4986,nTime=120,szName="前往·地图左下·交互·沙土堆"}}},
@@ -7589,6 +7593,8 @@ return {
 			{aFocus={{nMaxDistance=6,szDisplay="鸿鹄·仙踪林"}},dwID=13116,nFrame=47},
 		},
 		[103] = {
+			{aFocus={{nMaxDistance=60,szDisplay="镯子·商周客"}},dwID=43841,nFrame=47},
+			{aFocus={{nMaxDistance=30,szDisplay="人贩子·商周客",tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=43865,nFrame=47},
 			{aFocus={{nMaxDistance=60,szDisplay="伊图·三尺青锋"}},dwID=7857,nFrame=47},
 			{aFocus={{nMaxDistance=60,szDisplay="齐子介·蟹砲"}},dwID=36940,nFrame=47},
 			{aFocus={{nMaxDistance=60,tRelation={bAll=false,bAlly=false,bEnemy=true}}},dwID=13119,nFrame=57},
@@ -7689,6 +7695,9 @@ return {
 			{aFocus={{nMaxDistance=100}},dwID=27542,nFrame=52},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=6,szDisplay="王樊·元宵节"}},col={0,255,255},dwID=27543,nFrame=47},
 			{[3]={bScreenHead=true},aFocus={{nMaxDistance=90,szDisplay="巫蛊丘祭祀·除邪惩恶"}},col={255,50,50},dwID=10949,nFrame=57},
+			{aFocus={{nMaxDistance=120,szDisplay="镯子·商周客"}},dwID=43900,nFrame=47},
+			{aFocus={{nMaxDistance=6,szDisplay="林里·商周客"}},dwID=43843,nFrame=47},
+			{aFocus={{nMaxDistance=60,szDisplay="郭佳宝·商周客"}},dwID=43878,nFrame=47},
 			{aFocus={{nMaxDistance=6,szDisplay="木桩·白日梦"}},dwID=70540,nFrame=47},
 			{aFocus={{nMaxDistance=6,szDisplay="申二郎"}},dwID=27082,nFrame=47},
 			{aFocus={{nMaxDistance=60,szDisplay="谢仙局·蟹炮"}},dwID=36942,nFrame=47},
@@ -11519,6 +11528,6 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1794562856,
+		nTimeStamp = 1794761131,
 	},
 }
