@@ -1,0 +1,15 @@
+return {
+	CHAT = {
+		[803] = {
+			{LH={szChanged="ADD"},szContent="你无法携带更多的任务奖励道具\n",szNote="ADD·",tCountdown={{key="道具上限",nClass=20,nFrame=0,nIcon=13,nRefresh=600,nTime=10,szName="无法携带更多任务奖励"}}},
+		},
+	},
+},{
+	ADD = {
+		CHAT = {
+			[803] = {
+				{LH={szChanged="ADD"},szContent="你无法携带更多的任务奖励道具\n",szNote="ADD·",tCountdown={{key="道具上限",nClass=20,nFrame=0,nIcon=13,nRefresh=600,nTime=10,szName="无法携带更多任务奖励"}}},
+			},
+		},
+	},
+}

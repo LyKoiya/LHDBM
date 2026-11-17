@@ -71,6 +71,9 @@ return {
 		[673] = {
 			{szContent="你无法携带更多的任务奖励道具\n",tCountdown={{key="道具上限",nClass=20,nFrame=0,nIcon=13,nRefresh=600,nTime=10,szName="无法携带更多任务奖励"}}},
 		},
+		[803] = {
+			{szContent="你无法携带更多的任务奖励道具\n",tCountdown={{key="道具上限",nClass=20,nFrame=0,nIcon=13,nRefresh=600,nTime=10,szName="无法携带更多任务奖励"}}},
+		},
 	},
 	DEBUFF = {
 		[-1] = {
@@ -111,7 +114,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1793959227,
+		nTimeStamp = 1794897633,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",
