@@ -1,14 +1,30 @@
 return {
 	BUFF = {
+		[-3] = {
+			{{bBuffList=true,bTeamPanel=true},LH={szChanged="REMOVE"},aCataclysmBuff={{col="#B3EE3AFF",colScreenHead="#B3EE3A",nColAlpha=255,nPriority=18,szReminder="免"}},col={179,238,58},dwID=29221,nLevel=1,nScrutinyType=2,szNote="REMOVE·无尤"},
+			{{bBuffList=true,bTeamPanel=true},LH={szChanged="REMOVE"},aCataclysmBuff={{col="#B3EE3AFF",colScreenHead="#B3EE3A",nColAlpha=255,nPriority=18,szReminder="免"}},col={179,238,58},dwID=34389,nLevel=1,nScrutinyType=2,szNote="REMOVE·无尤"},
+		},
 		[-1] = {
-			{{bBuffList=true,bTeamPanel=true},LH={szChanged="ADD"},aCataclysmBuff={{col="#00FF00FF",nColAlpha=255,nPriority=24,szReminder="盾"}},col={0,255,0},dwID=70173,nLevel=1,nScrutinyType=2,szName="化解",szNote="ADD·伤害化解"},
+			{{bBuffList=true,bScreenHead=true,bTeamPanel=true},LH={szChanged="MODIFY",tOld={{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bAttention=true,bScreenHead=true,col="#FFCC00FF",colScreenHead="#FFCC00",nColAlpha=255,nPriority=3,szReminder="甲"}},col={255,204,0},dwID=20709,nLevel=1,nScrutinyType=2,szNote="天工甲士",tCountdown={{key="天工甲士·{$sender}",nClass=2,nFrame=5,nIcon=16224,nTime=-1,szName="天工甲士·{$sender}"}}}},aCataclysmBuff={{bAttention=true,bScreenHead=true,col="#FFCC00FF",colScreenHead="#FFCC00",nColAlpha=255,nPriority=3,szReminder="甲"}},col={255,204,0},dwID=20709,nLevel=1,nScrutinyType=2,szNote="MODIFY·天工甲士",tCountdown={{key="天工甲士·{$sender}",nClass=2,nIcon=16224,nTime=-1,szName="天工甲士·{$sender}"}}},
+			{{bBuffList=true,bTeamPanel=true},LH={szChanged="MODIFY",tOld={{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#B3EE3AFF",colScreenHead="#B3EE3A",nColAlpha=255,nPriority=18,szReminder="免"}},col={179,238,58},dwID=29221,nLevel=1,nScrutinyType=2,szNote="无尤"}},aCataclysmBuff={{col="#B3EE3AFF",nColAlpha=255,nPriority=18,szReminder="免"}},col={179,238,58},dwID=29221,nIcon=13386,nLevel=1,nScrutinyType=1,szNote="MODIFY·无尤",tCountdown={{key="无尤·{$sender}",nClass=1,nFrame=7,nIcon=13386,nRefresh=1,nTime=14,szName="无尤·免控（不免推拉）"},{key="无尤·{$sender}",nClass=2,nIcon=13,nTime=0,szName="无尤"}},tKungFu={["SKILL#10015"]=true}},
+			{{bBuffList=true,bTeamPanel=true},LH={szChanged="MODIFY",tOld={{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#B3EE3AFF",colScreenHead="#B3EE3A",nColAlpha=255,nPriority=18,szReminder="免"}},col={179,238,58},dwID=34389,nLevel=1,nScrutinyType=2,szNote="无尤"}},aCataclysmBuff={{col="#B3EE3AFF",nColAlpha=255,nPriority=18,szReminder="免"}},col={179,238,58},dwID=34389,nIcon=1442,nLevel=1,nScrutinyType=1,szNote="MODIFY·无尤",tCountdown={{key="无尤·{$sender}",nClass=1,nFrame=7,nIcon=1442,nRefresh=1,nTime=14,szName="无尤·免控（免推拉）"},{key="无尤·{$sender}",nClass=2,nIcon=13,nTime=0,szName="无尤"}},tKungFu={["SKILL#10015"]=true}},
 		},
 	},
 },{
-	ADD = {
+	MODIFY = {
 		BUFF = {
 			[-1] = {
-				{{bBuffList=true,bTeamPanel=true},LH={szChanged="ADD"},aCataclysmBuff={{col="#00FF00FF",nColAlpha=255,nPriority=24,szReminder="盾"}},col={0,255,0},dwID=70173,nLevel=1,nScrutinyType=2,szName="化解",szNote="ADD·伤害化解"},
+				{{bBuffList=true,bScreenHead=true,bTeamPanel=true},LH={szChanged="MODIFY",tOld={{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bAttention=true,bScreenHead=true,col="#FFCC00FF",colScreenHead="#FFCC00",nColAlpha=255,nPriority=3,szReminder="甲"}},col={255,204,0},dwID=20709,nLevel=1,nScrutinyType=2,szNote="天工甲士",tCountdown={{key="天工甲士·{$sender}",nClass=2,nFrame=5,nIcon=16224,nTime=-1,szName="天工甲士·{$sender}"}}}},aCataclysmBuff={{bAttention=true,bScreenHead=true,col="#FFCC00FF",colScreenHead="#FFCC00",nColAlpha=255,nPriority=3,szReminder="甲"}},col={255,204,0},dwID=20709,nLevel=1,nScrutinyType=2,szNote="MODIFY·天工甲士",tCountdown={{key="天工甲士·{$sender}",nClass=2,nIcon=16224,nTime=-1,szName="天工甲士·{$sender}"}}},
+				{{bBuffList=true,bTeamPanel=true},LH={szChanged="MODIFY",tOld={{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#B3EE3AFF",colScreenHead="#B3EE3A",nColAlpha=255,nPriority=18,szReminder="免"}},col={179,238,58},dwID=29221,nLevel=1,nScrutinyType=2,szNote="无尤"}},aCataclysmBuff={{col="#B3EE3AFF",nColAlpha=255,nPriority=18,szReminder="免"}},col={179,238,58},dwID=29221,nIcon=13386,nLevel=1,nScrutinyType=1,szNote="MODIFY·无尤",tCountdown={{key="无尤·{$sender}",nClass=1,nFrame=7,nIcon=13386,nRefresh=1,nTime=14,szName="无尤·免控（不免推拉）"},{key="无尤·{$sender}",nClass=2,nIcon=13,nTime=0,szName="无尤"}},tKungFu={["SKILL#10015"]=true}},
+				{{bBuffList=true,bTeamPanel=true},LH={szChanged="MODIFY",tOld={{bBuffList=true,bScreenHead=true,bTeamPanel=true},aCataclysmBuff={{bScreenHead=true,col="#B3EE3AFF",colScreenHead="#B3EE3A",nColAlpha=255,nPriority=18,szReminder="免"}},col={179,238,58},dwID=34389,nLevel=1,nScrutinyType=2,szNote="无尤"}},aCataclysmBuff={{col="#B3EE3AFF",nColAlpha=255,nPriority=18,szReminder="免"}},col={179,238,58},dwID=34389,nIcon=1442,nLevel=1,nScrutinyType=1,szNote="MODIFY·无尤",tCountdown={{key="无尤·{$sender}",nClass=1,nFrame=7,nIcon=1442,nRefresh=1,nTime=14,szName="无尤·免控（免推拉）"},{key="无尤·{$sender}",nClass=2,nIcon=13,nTime=0,szName="无尤"}},tKungFu={["SKILL#10015"]=true}},
+			},
+		},
+	},
+	REMOVE = {
+		BUFF = {
+			[-3] = {
+				{{bBuffList=true,bTeamPanel=true},LH={szChanged="REMOVE"},aCataclysmBuff={{col="#B3EE3AFF",colScreenHead="#B3EE3A",nColAlpha=255,nPriority=18,szReminder="免"}},col={179,238,58},dwID=29221,nLevel=1,nScrutinyType=2,szNote="REMOVE·无尤"},
+				{{bBuffList=true,bTeamPanel=true},LH={szChanged="REMOVE"},aCataclysmBuff={{col="#B3EE3AFF",colScreenHead="#B3EE3A",nColAlpha=255,nPriority=18,szReminder="免"}},col={179,238,58},dwID=34389,nLevel=1,nScrutinyType=2,szNote="REMOVE·无尤"},
 			},
 		},
 	},
