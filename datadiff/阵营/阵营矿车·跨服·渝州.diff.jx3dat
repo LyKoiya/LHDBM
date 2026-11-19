@@ -1,16 +1,16 @@
 return {
-	TALK = {
+	NPC = {
 		[838] = {
-			{LH={szChanged="MODIFY",tOld={bSearch=true,col={255,100,100},szContent="到了，收队。",szTarget="韩铁桥",tCountdown={{key="通用·矿车",nClass=14,nIcon=13,nRefresh=10,nTime=-1,szName="通用·矿车"},{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=10,nTime=90,szName="恶人·跟车奖励"}}}},col={255,100,100},szContent="到了，收队。",szNote="MODIFY·",szTarget="韩铁桥",tCountdown={{key="通用·矿车",nClass=14,nIcon=13,nRefresh=10,nTime=-1,szName="通用·矿车"},{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=10,nTime=90,szName="恶人·跟车奖励"}}},
-			{LH={szChanged="MODIFY",tOld={bSearch=true,col={100,100,255},szContent="到了，收队。",szTarget="苏行山",tCountdown={{key="通用·矿车",nClass=14,nIcon=13,nRefresh=10,nTime=-1,szName="通用·矿车"},{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=10,nTime=90,szName="浩气·跟车奖励"}}}},col={100,100,255},szContent="到了，收队。",szNote="MODIFY·",szTarget="苏行山",tCountdown={{key="通用·矿车",nClass=14,nIcon=13,nRefresh=10,nTime=-1,szName="通用·矿车"},{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=10,nTime=90,szName="浩气·跟车奖励"}}},
+			{[3]={bScreenHead=true},LH={szChanged="MODIFY",tOld={aFocus={{nMaxDistance=6,szDisplay="世界首领·传送",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=141394,nFrame=47,szNote="索道接引·穆行川·世界首领→巴水津"}},aFocus={{nMaxDistance=6,szDisplay="世界首领·传送",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=141394,nFrame=47,szNote="MODIFY·索道接引·穆行川·世界首领→巴水津"},
+			{[3]={bScreenHead=true},LH={szChanged="MODIFY",tOld={aFocus={{nMaxDistance=6,szDisplay="巴水津·传送",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=141395,nFrame=47,szNote="索道接引·梁归渡·世界首领→巴水津"}},aFocus={{nMaxDistance=6,szDisplay="巴水津·传送",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=141395,nFrame=47,szNote="MODIFY·索道接引·梁归渡·世界首领→巴水津"},
 		},
 	},
 },{
 	MODIFY = {
-		TALK = {
+		NPC = {
 			[838] = {
-				{LH={szChanged="MODIFY",tOld={bSearch=true,col={255,100,100},szContent="到了，收队。",szTarget="韩铁桥",tCountdown={{key="通用·矿车",nClass=14,nIcon=13,nRefresh=10,nTime=-1,szName="通用·矿车"},{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=10,nTime=90,szName="恶人·跟车奖励"}}}},col={255,100,100},szContent="到了，收队。",szNote="MODIFY·",szTarget="韩铁桥",tCountdown={{key="通用·矿车",nClass=14,nIcon=13,nRefresh=10,nTime=-1,szName="通用·矿车"},{key="恶人·矿车",nClass=14,nFrame=3,nIcon=13,nRefresh=10,nTime=90,szName="恶人·跟车奖励"}}},
-				{LH={szChanged="MODIFY",tOld={bSearch=true,col={100,100,255},szContent="到了，收队。",szTarget="苏行山",tCountdown={{key="通用·矿车",nClass=14,nIcon=13,nRefresh=10,nTime=-1,szName="通用·矿车"},{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=10,nTime=90,szName="浩气·跟车奖励"}}}},col={100,100,255},szContent="到了，收队。",szNote="MODIFY·",szTarget="苏行山",tCountdown={{key="通用·矿车",nClass=14,nIcon=13,nRefresh=10,nTime=-1,szName="通用·矿车"},{key="浩气·矿车",nClass=14,nFrame=7,nIcon=13,nRefresh=10,nTime=90,szName="浩气·跟车奖励"}}},
+				{[3]={bScreenHead=true},LH={szChanged="MODIFY",tOld={aFocus={{nMaxDistance=6,szDisplay="世界首领·传送",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=141394,nFrame=47,szNote="索道接引·穆行川·世界首领→巴水津"}},aFocus={{nMaxDistance=6,szDisplay="世界首领·传送",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=141394,nFrame=47,szNote="MODIFY·索道接引·穆行川·世界首领→巴水津"},
+				{[3]={bScreenHead=true},LH={szChanged="MODIFY",tOld={aFocus={{nMaxDistance=6,szDisplay="巴水津·传送",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=141395,nFrame=47,szNote="索道接引·梁归渡·世界首领→巴水津"}},aFocus={{nMaxDistance=6,szDisplay="巴水津·传送",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,0},dwID=141395,nFrame=47,szNote="MODIFY·索道接引·梁归渡·世界首领→巴水津"},
 			},
 		},
 	},
