@@ -1,0 +1,27 @@
+return {
+	TALK = {
+		[-2] = {
+			{[14]={bScreenHead=true},LH={szChanged="MODIFY",tOld={[14]={bScreenHead=true},bSearch=true,col={255,0,255},szContent="啦啦啦，大家快点放材料，呼啦呼啦准备做糖啦！",szNote="{$sender}·投放材料",szTarget="%",tCountdown={{key="{$sender}",nClass=14,nFrame=3,nIcon=2231,nRefresh=0,nTime="60,{$sender}·投放材料;121,{$sender}·正在做糖;182,{$sender}·领取糖果",szName="{$sender}"},{key="球球兔",nClass=14,nFrame=-1,nIcon=13,nTime=-1,szName="球球兔"}}}},col={255,0,255},szContent="啦啦啦，大家快点放材料，呼啦呼啦准备做糖啦！",szNote="MODIFY·{$sender}·投放材料",szTarget="%",tCountdown={{key="{$sender}",nClass=14,nFrame=3,nIcon=2231,nRefresh=0,nTime="60,{$sender}·投放材料;121,{$sender}·正在做糖;182,{$sender}·领取糖果",szName="{$sender}"},{key="球球兔",nClass=14,nFrame=-1,nIcon=13,nTime=-1,szName="球球兔"}}},
+			{[14]={bScreenHead=true},LH={szChanged="MODIFY",tOld={[14]={bScreenHead=true},bSearch=true,col={0,255,255},szContent="噗嗤噗嗤……噗嗤噗嗤噗嗤……",szNote="{$sender}·领取糖果",szTarget="%",tCountdown={{key="{$sender}",nClass=14,nFrame=3,nIcon=2231,nRefresh=0,nTime="60,{$sender}·领取糖果;121,{$sender}·投放材料;182,{$sender}·正在做糖",szName="{$sender}"},{key="球球兔",nClass=14,nFrame=-1,nIcon=13,nTime=-1,szName="球球兔"}}}},col={0,255,255},szContent="噗嗤噗嗤……噗嗤噗嗤噗嗤……",szNote="MODIFY·{$sender}·领取糖果",szTarget="%",tCountdown={{key="{$sender}",nClass=14,nFrame=3,nIcon=2231,nRefresh=0,nTime="60,{$sender}·领取糖果;121,{$sender}·投放材料;182,{$sender}·正在做糖",szName="{$sender}"},{key="球球兔",nClass=14,nFrame=-1,nIcon=13,nTime=-1,szName="球球兔"}}},
+		},
+		[6] = {
+			{LH={szChanged="ADD"},col={255,255,100},szContent="城南树林出现了飞天榴芒兔！感兴趣的侠士们速去寻找吧！",szNote="ADD·",szTarget="%",tCountdown={{key="节日活动1",nClass=14,nFrame=3,nIcon=10445,nTime=30,szName="城南树林·飞天榴芒兔·出现"}}},
+		},
+	},
+},{
+	ADD = {
+		TALK = {
+			[6] = {
+				{LH={szChanged="ADD"},col={255,255,100},szContent="城南树林出现了飞天榴芒兔！感兴趣的侠士们速去寻找吧！",szNote="ADD·",szTarget="%",tCountdown={{key="节日活动1",nClass=14,nFrame=3,nIcon=10445,nTime=30,szName="城南树林·飞天榴芒兔·出现"}}},
+			},
+		},
+	},
+	MODIFY = {
+		TALK = {
+			[-2] = {
+				{[14]={bScreenHead=true},LH={szChanged="MODIFY",tOld={[14]={bScreenHead=true},bSearch=true,col={255,0,255},szContent="啦啦啦，大家快点放材料，呼啦呼啦准备做糖啦！",szNote="{$sender}·投放材料",szTarget="%",tCountdown={{key="{$sender}",nClass=14,nFrame=3,nIcon=2231,nRefresh=0,nTime="60,{$sender}·投放材料;121,{$sender}·正在做糖;182,{$sender}·领取糖果",szName="{$sender}"},{key="球球兔",nClass=14,nFrame=-1,nIcon=13,nTime=-1,szName="球球兔"}}}},col={255,0,255},szContent="啦啦啦，大家快点放材料，呼啦呼啦准备做糖啦！",szNote="MODIFY·{$sender}·投放材料",szTarget="%",tCountdown={{key="{$sender}",nClass=14,nFrame=3,nIcon=2231,nRefresh=0,nTime="60,{$sender}·投放材料;121,{$sender}·正在做糖;182,{$sender}·领取糖果",szName="{$sender}"},{key="球球兔",nClass=14,nFrame=-1,nIcon=13,nTime=-1,szName="球球兔"}}},
+				{[14]={bScreenHead=true},LH={szChanged="MODIFY",tOld={[14]={bScreenHead=true},bSearch=true,col={0,255,255},szContent="噗嗤噗嗤……噗嗤噗嗤噗嗤……",szNote="{$sender}·领取糖果",szTarget="%",tCountdown={{key="{$sender}",nClass=14,nFrame=3,nIcon=2231,nRefresh=0,nTime="60,{$sender}·领取糖果;121,{$sender}·投放材料;182,{$sender}·正在做糖",szName="{$sender}"},{key="球球兔",nClass=14,nFrame=-1,nIcon=13,nTime=-1,szName="球球兔"}}}},col={0,255,255},szContent="噗嗤噗嗤……噗嗤噗嗤噗嗤……",szNote="MODIFY·{$sender}·领取糖果",szTarget="%",tCountdown={{key="{$sender}",nClass=14,nFrame=3,nIcon=2231,nRefresh=0,nTime="60,{$sender}·领取糖果;121,{$sender}·投放材料;182,{$sender}·正在做糖",szName="{$sender}"},{key="球球兔",nClass=14,nFrame=-1,nIcon=13,nTime=-1,szName="球球兔"}}},
+			},
+		},
+	},
+}
