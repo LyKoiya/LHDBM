@@ -597,15 +597,19 @@ function decodeBuff(szLine)
 	end
 	teamBuff2str(aline)
 	local tData = {}
+	tData.dwID = X.tointeger(aline[2]) or -1
+	if tData.dwID == -1 then
+		return
+	end
 	tData[1] = {}
 	tData[2] = {}
+	---@type CataclysmBuff[]
 	tData.aCataclysmBuff = {}
 	tData.aCataclysmBuff[1] = {}
 	tData[1].bTeamPanel = true
-	tData.dwID = tonumber(aline[2])
 	tData.szNote = tostring(aline[3])
 	if aline[4]:sub(1, 2) == 'lv' then
-		tData.nLevel = tonumber(aline[4]:sub(3))
+		tData.nLevel = X.tointeger(aline[4]:sub(3)) or 1
 		tData.bCheckLevel = true
 	else
 		tData.nLevel = 1
@@ -622,7 +626,7 @@ function decodeBuff(szLine)
 		tData.aCataclysmBuff[1].szReminder = X.strLeft(aline[8], ' ') or string.sub(aline[8], 1, 2)
 	end
 	if aline[9] ~= '' and tonumber(aline[9]) >= 0 then
-		tData.aCataclysmBuff[1].nPriority = tonumber(aline[9])
+		tData.aCataclysmBuff[1].nPriority = X.tointeger(aline[9])
 	end
 	if aline[10] == '!!' then
 		tData.aCataclysmBuff[1].bAttention = true
@@ -672,24 +676,24 @@ function decodeBuff(szLine)
 		tData.aCataclysmBuff[1].szStackOp = szStackOp
 		tData.aCataclysmBuff[1].nStackNum = nStackNum
 		if szStackOp == '>=' then
-			tData.nCount = nStackNum
+			tData.nCount = X.tointeger(nStackNum)
 			if nStackNum > 1 and (tData.aCataclysmBuff[1].bScreenHead or tData.aCataclysmBuff[1].bAttention or tData.aCataclysmBuff[1].bCaution) then
-				tData.aCataclysmBuff[2] = X.clone(tData.aCataclysmBuff[1])
+				tData.aCataclysmBuff[2] = X.clone(tData.aCataclysmBuff[1]) or {}
 				tData.aCataclysmBuff[2].szStackOp = '>='
 				tData.aCataclysmBuff[2].nStackNum = 1
-				tData.aCataclysmBuff[2].nPriority = tData.aCataclysmBuff[2].nPriority and (tData.aCataclysmBuff[2].nPriority + 1) or nil
+				tData.aCataclysmBuff[2].nPriority = tData.aCataclysmBuff[2].nPriority and X.tointeger(tData.aCataclysmBuff[2].nPriority + 1) or nil
 				tData.aCataclysmBuff[2].bScreenHead = nil
 				tData.aCataclysmBuff[2].bAttention = nil
 				tData.aCataclysmBuff[2].bCaution = nil
 				tData.aCataclysmBuff[2].colScreenHead = nil
 			end
 		elseif szStackOp == '>' then
-			tData.nCount = nStackNum and (nStackNum + 1) or nil
+			tData.nCount = nStackNum and X.tointeger(nStackNum + 1) or nil
 			if tData.aCataclysmBuff[1].bScreenHead or tData.aCataclysmBuff[1].bAttention or tData.aCataclysmBuff[1].bCaution then
-				tData.aCataclysmBuff[2] = X.clone(tData.aCataclysmBuff[1])
+				tData.aCataclysmBuff[2] = X.clone(tData.aCataclysmBuff[1]) or {}
 				tData.aCataclysmBuff[2].szStackOp = '>='
 				tData.aCataclysmBuff[2].nStackNum = 1
-				tData.aCataclysmBuff[2].nPriority = tData.aCataclysmBuff[2].nPriority and (tData.aCataclysmBuff[2].nPriority + 1) or nil
+				tData.aCataclysmBuff[2].nPriority = tData.aCataclysmBuff[2].nPriority and X.tointeger(tData.aCataclysmBuff[2].nPriority + 1) or nil
 				tData.aCataclysmBuff[2].bScreenHead = nil
 				tData.aCataclysmBuff[2].bAttention = nil
 				tData.aCataclysmBuff[2].bCaution = nil
@@ -737,11 +741,11 @@ local function clearInvalidData(tData, bDelNote, bDelFocus, bDelCataclysmBuff)
 	for _, szType in ipairs(X.MY_TM_TYPE_LIST) do
 		if tData[szType] then
 			tData[szType][-9] = nil -- 清除回收站数据
-			for k, _ in pairs(tData[szType]) do -- 遍历类型获取地图ID
+			for k, v in pairs(tData[szType]) do -- 遍历类型获取地图ID
 				if X.isEmptyTable(tData[szType][k]) then
 					tData[szType][k] = nil -- 当前地图无数据则清除
 				end
-				for kk, vv in X.ipairs_r(tData[szType][k]) do -- 遍历地图获取数据下标
+				for kk, vv in X.ipairs_r(v) do -- 遍历地图获取数据下标
 					if bDelNote then -- 删除备注
 						if szType == 'TALK' then -- 若无中央警报和头顶警报，szNote无效，可删除
 							if vv[14] and not vv[14].bCenterAlarm and not vv[14].bScreenHead then
@@ -806,9 +810,9 @@ local function clearInvalidData(tData, bDelNote, bDelFocus, bDelCataclysmBuff)
 					end
 					local tRet = clearNil(vv)
 					if tRet then
-						tData[szType][k][kk] = tRet
+						v[kk] = tRet
 					else
-						table.remove(tData[szType][k], kk)
+						table.remove(v, kk)
 					end
 				end
 			end

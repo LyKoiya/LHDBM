@@ -150,6 +150,9 @@ function M.strDelBothEnd(szText, delimiter)
 end
 
 -- 分隔字符串
+---@param str string
+---@param delimiter string
+---@return string[]
 function M.strSplit(str, delimiter)
     local result = {}
 
@@ -494,6 +497,22 @@ function M.refreshTimeStamp(tData, nTimeStamp)
     tData.__meta = tData.__meta or {}
     tData.__meta.nTimeStamp = nTimeStamp or os.time()
     return tData.__meta.nTimeStamp
+end
+
+-- 将值转换为整数，形式骗过检查
+---@param v number|string|any @要转换的值
+---@return integer|nil
+function M.tointeger(v)
+    local n = tonumber(v)
+    if n == nil then
+        return nil
+    end
+    -- 排除 NaN 和 inf
+    if n ~= n or n == math.huge or n == -math.huge then
+        return nil
+    end
+
+    return math.floor(n)
 end
 
 M.ipairs_r = ipairs_r
