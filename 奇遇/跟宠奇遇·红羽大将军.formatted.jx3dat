@@ -1,0 +1,46 @@
+return {
+	BUFF = {},
+	CASTING = {},
+	CHAT = {
+		[101] = {
+			{szContent="你已接受了[丢失爱宠心中急]。\n",tCountdown={{key="奇遇提示1",nClass=20,nFrame=7,nIcon=6802,nTime=30,szName="第一楼·下面移动·韩犁八"}}},
+			{szContent="你已接受了[隐约似虎抱鸡行]。\n",tCountdown={{key="奇遇提示1",nClass=20,nFrame=7,nIcon=6802,nTime=30,szName="返回·若若"}}},
+			{szContent="你已接受了[质问虎子寻鸡踪]。\n",tCountdown={{key="奇遇提示1",nClass=20,nFrame=7,nIcon=6802,nTime=30,szName="第一楼·左下二楼·李虎子"}}},
+			{szContent="你已接受了[还需乡里细查探]。\n",tCountdown={{key="奇遇提示1",nClass=20,nFrame=7,nIcon=6802,nTime=30,szName="对面·对话·卖糖葫芦的贩子"}}},
+			{szContent="你已接受了[皮商屋后有鸡鸣]。\n",tCountdown={{key="奇遇提示1",nClass=20,nFrame=7,nIcon=6802,nTime=30,szName="皮货商人·屋后·杂乱的沙土堆"}}},
+			{szContent="你已接受了[证据确凿不容赖]。\n",tCountdown={{key="奇遇提示1",nClass=20,nFrame=7,nIcon=6802,nTime=60,szName="返回·李虎子·码头·大公鸡"}}},
+			{szContent="你已完成了[码头隐蔽藏鸡王]。\n",tCountdown={{key="奇遇提示1",nClass=20,nFrame=7,nIcon=6802,nTime=30,szName="返回·若若·糖葫芦的贩子"}}},
+			{szContent="你已接受了[冰糖葫芦饲雄鸡]。\n",tCountdown={{key="奇遇提示1",nClass=20,nFrame=7,nIcon=6802,nTime=30,szName="对话·糖葫芦贩子·大公鸡"}}},
+			{szContent="你已完成了[远行千里雄鸡赠]。\n",tCountdown={{key="奇遇提示1",nClass=20,nFrame=7,nIcon=6802,nTime=10,szName="恭喜获得·宠物·红羽大将军"}}},
+		},
+	},
+	DEBUFF = {},
+	DOODAD = {
+		[101] = {
+			{aFocus={{nMaxDistance=40,szDisplay="杂乱的沙土堆·红羽大将军",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=5156,szNote="红羽大将军·杂乱的沙土堆"},
+			{[17]={bCenterAlarm=true,bScreenHead=true},aFocus={{nMaxDistance=120,szDisplay="泥沙堆·红羽大将军",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},col={0,255,255},dwID=5155,szNote="跟宠·泥沙堆·红羽大将军"},
+		},
+	},
+	NPC = {
+		[101] = {
+			{aFocus={{nMaxDistance=60,szDisplay="若若·红羽大将军",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=42871,nFrame=47,szNote="红羽大将军·若若"},
+			{aFocus={{nMaxDistance=60,szDisplay="韩犁八·红羽大将军",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=11663,nFrame=47,szNote="红羽大将军·韩犁八"},
+			{aFocus={{nMaxDistance=60,szDisplay="李虎子·红羽大将军",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=42872,nFrame=47,szNote="红羽大将军·李虎子"},
+			{aFocus={{nMaxDistance=30,tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=10099,nFrame=47,szNote="红羽大将军·糖葫芦贩子"},
+			{aFocus={{nMaxDistance=20,szDisplay="大公鸡·红羽大将军",tLife={bEnable=false,nValue=0,szOperator=">"},tRelation={bAll=true,bAlly=false,bEnemy=false}}},dwID=42873,nFrame=47,szNote="红羽大将军·大公鸡"},
+		},
+	},
+	TALK = {
+		[101] = {
+			{szContent="喔~喔~喔~~",szTarget="大公鸡",tCountdown={{key="奇遇提示1",nClass=14,nFrame=7,nIcon=6802,nTime=10,szName="返回·若若·[羽毛]需6日"}}},
+		},
+	},
+	__meta = {
+		nTimeStamp = 1795085518,
+		szAuthor = "荷花鲤",
+		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
+		szEdition = "zhcn_hd",
+		szOfficialVoicePacketUUID = "4727e3b7-bfbc-4946-bf70-e9459d95b566",
+		szServer = "唯我独尊",
+	},
+}
