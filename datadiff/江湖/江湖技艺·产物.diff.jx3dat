@@ -1,20 +1,32 @@
 return {
 	TALK = {
 		[-19] = {
-			{[14]={bCenterAlarm=true},LH={szChanged="ADD"},szContent="部署完成，已消耗1个物品并生成新的帮会临时复活营地。",szNote="ADD·帮会营地·部署完成",szTarget="%",tCountdown={{key="帮会·复活营地",nClass=14,nFrame=1,nIcon=28136,nRefresh=2,nTime="30,本帮·复活营地·短时护体;90,本帮·复活营地·护持之期",szName="本帮·复活营地·已建立"}}},
+			{[14]={bCenterAlarm=true},LH={szChanged="MODIFY",tOld={[14]={bCenterAlarm=true},bReg=true,szContent="^([浩气恶人]+)([盟谷]-)阵营的(.-)帮会正在建设帮会临时营地。",szNote="{$1}·{$3}·正在搭建营地",szTarget="%"}},bReg=true,szContent="^([浩气恶人]+)([盟谷]-)阵营的(.-)帮会正在建设帮会临时营地。",szNote="MODIFY·{$1}·[{$3}]·正在搭建营地",szTarget="%"},
+			{[14]={bCenterAlarm=true},LH={szChanged="ADD"},bReg=true,szContent="^【(.-)】帮会临时复活营地：建造者%[(.-)%]",szNote="ADD·帮会·[{$1}]·营地",szTarget="%"},
 		},
 		[-7] = {
-			{[14]={bCenterAlarm=true},LH={szChanged="ADD"},szContent="部署完成，已消耗1个物品并生成新的帮会临时复活营地。",szNote="ADD·帮会营地·部署完成",szTarget="%",tCountdown={{key="帮会·复活营地",nClass=14,nFrame=1,nIcon=28136,nRefresh=2,nTime="30,本帮·复活营地·短时护体;90,本帮·复活营地·护持之期",szName="本帮·复活营地·已建立"}}},
+			{[14]={bCenterAlarm=true},LH={szChanged="MODIFY",tOld={[14]={bCenterAlarm=true},bReg=true,szContent="^([浩气恶人]+)([盟谷]-)阵营的(.-)帮会正在建设帮会临时营地。",szNote="{$1}·{$3}·正在搭建营地",szTarget="%"}},bReg=true,szContent="^([浩气恶人]+)([盟谷]-)阵营的(.-)帮会正在建设帮会临时营地。",szNote="MODIFY·{$1}·[{$3}]·正在搭建营地",szTarget="%"},
+			{[14]={bCenterAlarm=true},LH={szChanged="ADD"},bReg=true,szContent="^【(.-)】帮会临时复活营地：建造者%[(.-)%]",szNote="ADD·帮会·[{$1}]·营地",szTarget="%"},
 		},
 	},
 },{
 	ADD = {
 		TALK = {
 			[-19] = {
-				{[14]={bCenterAlarm=true},LH={szChanged="ADD"},szContent="部署完成，已消耗1个物品并生成新的帮会临时复活营地。",szNote="ADD·帮会营地·部署完成",szTarget="%",tCountdown={{key="帮会·复活营地",nClass=14,nFrame=1,nIcon=28136,nRefresh=2,nTime="30,本帮·复活营地·短时护体;90,本帮·复活营地·护持之期",szName="本帮·复活营地·已建立"}}},
+				{[14]={bCenterAlarm=true},LH={szChanged="ADD"},bReg=true,szContent="^【(.-)】帮会临时复活营地：建造者%[(.-)%]",szNote="ADD·帮会·[{$1}]·营地",szTarget="%"},
 			},
 			[-7] = {
-				{[14]={bCenterAlarm=true},LH={szChanged="ADD"},szContent="部署完成，已消耗1个物品并生成新的帮会临时复活营地。",szNote="ADD·帮会营地·部署完成",szTarget="%",tCountdown={{key="帮会·复活营地",nClass=14,nFrame=1,nIcon=28136,nRefresh=2,nTime="30,本帮·复活营地·短时护体;90,本帮·复活营地·护持之期",szName="本帮·复活营地·已建立"}}},
+				{[14]={bCenterAlarm=true},LH={szChanged="ADD"},bReg=true,szContent="^【(.-)】帮会临时复活营地：建造者%[(.-)%]",szNote="ADD·帮会·[{$1}]·营地",szTarget="%"},
+			},
+		},
+	},
+	MODIFY = {
+		TALK = {
+			[-19] = {
+				{[14]={bCenterAlarm=true},LH={szChanged="MODIFY",tOld={[14]={bCenterAlarm=true},bReg=true,szContent="^([浩气恶人]+)([盟谷]-)阵营的(.-)帮会正在建设帮会临时营地。",szNote="{$1}·{$3}·正在搭建营地",szTarget="%"}},bReg=true,szContent="^([浩气恶人]+)([盟谷]-)阵营的(.-)帮会正在建设帮会临时营地。",szNote="MODIFY·{$1}·[{$3}]·正在搭建营地",szTarget="%"},
+			},
+			[-7] = {
+				{[14]={bCenterAlarm=true},LH={szChanged="MODIFY",tOld={[14]={bCenterAlarm=true},bReg=true,szContent="^([浩气恶人]+)([盟谷]-)阵营的(.-)帮会正在建设帮会临时营地。",szNote="{$1}·{$3}·正在搭建营地",szTarget="%"}},bReg=true,szContent="^([浩气恶人]+)([盟谷]-)阵营的(.-)帮会正在建设帮会临时营地。",szNote="MODIFY·{$1}·[{$3}]·正在搭建营地",szTarget="%"},
 			},
 		},
 	},
