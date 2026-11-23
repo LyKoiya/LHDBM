@@ -103,6 +103,7 @@ return {
 			{[14]={bCenterAlarm=true},szContent="转换失败，可能是道具即将超过拥有上限。",szNote="宝箱·转换失败·可能上限",szTarget="%"},
 			{szContent="大侠在好友家的今日的许愿次数已用尽，请明日再来。",szNote="今日用尽·好友园宅·许愿次数",szTarget="%"},
 			{szContent="大侠的今日的许愿次数已用尽，请明日再来。",szNote="今日用尽·自己园宅·许愿次数",szTarget="%"},
+			{szContent="你的水已经够多了，装不下了。",szNote="道具·[泉水]·上限",tCountdown={{key="道具·泉水",nClass=14,nFrame=6,nIcon=13556,nRefresh=1,nTime=5,szName="道具·[泉水]·上限"}}},
 		},
 		[-1] = {
 			{[14]={bCenterAlarm=true},szContent="好像有鱼咬钩了，快收杆！",szNote="有鱼咬钩",szTarget="%",tCountdown={{key="钓鱼提示",nClass=14,nFrame=2,nIcon=2678,nTime=5,szName="快收杆"}}},
@@ -112,7 +113,7 @@ return {
 		},
 	},
 	__meta = {
-		nTimeStamp = 1793957313,
+		nTimeStamp = 1795424850,
 		szAuthor = "荷花鲤",
 		szCustomVoicePacketUUID = "5b59a5b3-cc6f-4234-ac68-48518f64c3d6",
 		szEdition = "zhcn_hd",

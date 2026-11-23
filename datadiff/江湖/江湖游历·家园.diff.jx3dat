@@ -1,0 +1,15 @@
+return {
+	TALK = {
+		[-15] = {
+			{LH={szChanged="ADD"},szContent="你的水已经够多了，装不下了。",szNote="ADD·道具·[泉水]·上限",tCountdown={{key="道具·泉水",nClass=14,nFrame=6,nIcon=13556,nRefresh=1,nTime=5,szName="道具·[泉水]·上限"}}},
+		},
+	},
+},{
+	ADD = {
+		TALK = {
+			[-15] = {
+				{LH={szChanged="ADD"},szContent="你的水已经够多了，装不下了。",szNote="ADD·道具·[泉水]·上限",tCountdown={{key="道具·泉水",nClass=14,nFrame=6,nIcon=13556,nRefresh=1,nTime=5,szName="道具·[泉水]·上限"}}},
+			},
+		},
+	},
+}
